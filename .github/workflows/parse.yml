@@ -1,0 +1,60 @@
+name: Parse NOTAMS
+
+on:
+  workflow_run:
+    #workflows: ["Fetch NOTAMs"]   # trigger when the fetch workflow completes
+    #types:
+      #- completed
+  workflow_dispatch:
+
+
+jobs:
+  summarize_notams:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+      models: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Pick NavWarns
+        id: collect
+        run: |
+          # Cat random file in current/
+          shuf -n 1 current/*.txt > selected_navwarn.txt
+          echo "navwarns<<EOF" >> $GITHUB_OUTPUT
+          cat selected_navwarn.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Run AI inference
+        id: inference
+        uses: actions/ai-inference@v1
+        with:
+          model: gpt-4.1
+          prompt: |
+            You are given NavWarn bulletins in plain text. 
+            Parse them into a GeoJSON FeatureCollection. 
+            Each NavWarn should become one Feature with:
+            - type: "Point" or "Polygon" (if coordinates are given)
+            - geometry: parsed from coordinates
+            - properties: NavWarn text and metadata
+
+            Input NavWarns:
+            ${{ steps.collect.outputs.navwarns }}
+
+      - name: Save GeoJSON output
+        run: |
+          echo '${{ steps.inference.outputs.response }}' > docs/navwarns.geojson
+
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/notams.geojson
+          git commit -m "Update NOTAM GeoJSON" || echo "No changes"
+          git push
