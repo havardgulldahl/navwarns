@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Checkout
         run: git clone $GITHUB_SERVER_URL/$GITHUB_REPOSITORY .
-      - run: pip install requests beautifulsoup4 git+https://github.com/havardgulldahl/PyNotam.git
+      - run: pip install -r requirements.txt
       - run: python scripts/scraper.py
       - name: Commit and push
         env:
