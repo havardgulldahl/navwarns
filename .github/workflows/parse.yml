@@ -51,7 +51,7 @@ jobs:
           model: gpt-4.1
           prompt-file: prompt.yml
           file_input: |
-            navwarn = ${{ matrix.file }}
+            navwarn: ${{ matrix.file }}
 
       - name: Save GeoJSON output
         run: |
