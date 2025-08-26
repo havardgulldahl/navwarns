@@ -27,12 +27,19 @@ jobs:
     strategy:
       matrix:
         file: ${{ fromJSON(needs.list_navwarns.outputs.files) }}
+      max-parallel: 2
     permissions:
       contents: write
       models: read
 
     steps:
       - uses: actions/checkout@v5
+
+      - name: Random sleep to stagger API calls
+        run: |
+          delay=$((RANDOM % 20 + 5)) # sleep 5–25 seconds
+          echo "Sleeping $delay seconds..."
+          sleep $delay
 
       - name: Run AI inference
         id: inference
