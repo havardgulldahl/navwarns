@@ -42,16 +42,14 @@ jobs:
           sleep $delay
 
       - name: Add geojson to prompt file
-        run: cat '${{ matrix.file }}' >> enrich_navwarn.prompt.yml
+        run: cat '${{ matrix.file }}' >> prompt.txt
 
       - name: Run AI inference
         id: inference
         uses: actions/ai-inference@v1
         with:
           model: gpt-4.1
-          prompt-file: enrich_navwarn.prompt.yml
-          #file_input: |
-            #navwarn: ${{ matrix.file }}
+          prompt-file: prompt.txt
 
       - name: Save GeoJSON output
         run: |
