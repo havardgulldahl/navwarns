@@ -15,6 +15,7 @@ jobs:
         run: git clone $GITHUB_SERVER_URL/$GITHUB_REPOSITORY .
       - run: pip install -r requirements.txt
       - run: python scripts/scraper.py
+      - run: date > current/.scrape_timestamp
       - name: Commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
