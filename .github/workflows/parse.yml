@@ -18,7 +18,7 @@ jobs:
       - id: collect
         run: |
           # Collect all files into a JSON array
-          files=$(ls current/*.txt | jq -R -s -c 'split("\n")[:-1]')
+          files=$(ls current/navwarns/*.json | jq -R -s -c 'split("\n")[:-1]')
           echo "files=$files" >> $GITHUB_OUTPUT
 
   # Step 2: Run inference in parallel for each file
@@ -63,8 +63,8 @@ jobs:
 
       - name: Save GeoJSON output
         run: |
-          mkdir -p current/navwarns
-          out="current/navwarns/$(basename '${{ matrix.file }}' .txt).geojson"
+          mkdir -p current/enriched_navwarns
+          out="current/enriched_navwarns/'${{ matrix.file }}'
           echo '${{ steps.inference.outputs.response }}' > "$out"
 
   # Step 3: Aggregate all results into a single FeatureCollection
@@ -78,14 +78,14 @@ jobs:
 
       - name: Merge all GeoJSONs into FeatureCollection
         run: |
-          files=$(ls current/navwarns/*.geojson)
-          jq -s '{ "type": "FeatureCollection", "features": . }' $files > docs/navwarns.geojson
+          files=$(ls current/enriched_navwarns/*.geojson)
+          jq -s '{ "type": "FeatureCollection", "features": . }' $files > current/navwarns.geojson
 
       - name: Commit merged collection
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          cp docs/navwarns.geojson current/navwarns.geojson || echo "Copy failed"
+          cp current/navwarns.geojson docs/navwarns.geojson || echo "Copy failed"
           git add docs/navwarns.geojson current/navwarns.geojson
           git commit -m "Update merged NavWarn FeatureCollection" || echo "No changes"
           git push

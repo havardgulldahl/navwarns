@@ -12,6 +12,7 @@ This keeps idempotency: existing files are skipped unless --force is used.
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import os
 import sys
@@ -33,7 +34,8 @@ except ImportError:  # running as a script
     spec.loader.exec_module(navparser)  # type: ignore
 
 API_URL = "https://msi.nga.mil/api/publications/smaps?navArea=C&status=active&category=14&output=xml"
-OUTPUT_DIR = Path("current")
+CURRENT_DIR = Path("current")
+OUTPUT_DIR = CURRENT_DIR / "navwarns"
 
 
 def ensure_output_dir() -> None:
@@ -156,6 +158,9 @@ def main(argv: list[str] | None = None) -> int:
         for block in extract_msg_text_blocks(xml_text):
             written += store_messages(navparser.parse_navwarns(block), force=args.force)
         print(f"Wrote {written} new/updated message files to {OUTPUT_DIR}")
+        if written > 0:
+            with open(CURRENT_DIR / ".scrape_timestamp", "w", encoding="utf-8") as f:
+                f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
         return 0
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
