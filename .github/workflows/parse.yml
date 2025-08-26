@@ -17,7 +17,9 @@ jobs:
       - id: collect
         run: |
           files=$(ls current/navwarns/*.json | jq -R -s -c 'split("\n")[:-1]')
-          echo "files=$files" >> $GITHUB_OUTPUT
+          {
+            echo "files=$files"
+          } >> "$GITHUB_OUTPUT"
 
   interpret_navwarns:
     needs: list_navwarns
@@ -35,9 +37,11 @@ jobs:
       - name: Prepare NavWarn file
         id: prepare
         run: |
-          echo "navwarns<<EOF" >> $GITHUB_OUTPUT
-          cat "${{ matrix.file }}" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          {
+            echo "navwarns<<EOF"
+            cat "${{ matrix.file }}"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Run AI inference
         id: inference
