@@ -1,33 +1,47 @@
-name: Parse NOTAMS
+name: Interpret NavWarns
 
 on:
   workflow_run:
-    #workflows: ["Fetch NOTAMs"]   # trigger when the fetch workflow completes
-    #types:
-      #- completed
+    workflows: ["Fetch NavWarns"]
+    types: [completed]
   workflow_dispatch:
 
-
 jobs:
-  summarize_notams:
+  # Step 1: Collect list of NavWarn files
+  list_navwarns:
     runs-on: ubuntu-latest
+    outputs:
+      files: ${{ steps.collect.outputs.files }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - id: collect
+        run: |
+          # Collect all files into a JSON array
+          files=$(ls current/*.txt | jq -R -s -c 'split("\n")[:-1]')
+          echo "files=$files" >> $GITHUB_OUTPUT
+
+  # Step 2: Run inference in parallel for each file
+  interpret_navwarns:
+    needs: list_navwarns
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        file: ${{ fromJSON(needs.list_navwarns.outputs.files) }}
     permissions:
-      contents: read
+      contents: write
       pull-requests: write
       issues: write
       models: read
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Pick NavWarns
-        id: collect
+      - name: Prepare NavWarn file
+        id: prepare
         run: |
-          # Cat random file in current/
-          shuf -n 1 current/*.txt > selected_navwarn.txt
           echo "navwarns<<EOF" >> $GITHUB_OUTPUT
-          cat selected_navwarn.txt >> $GITHUB_OUTPUT
+          cat "${{ matrix.file }}" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Run AI inference
@@ -36,25 +50,42 @@ jobs:
         with:
           model: gpt-4.1
           prompt: |
-            You are given NavWarn bulletins in plain text. 
-            Parse them into a GeoJSON FeatureCollection. 
-            Each NavWarn should become one Feature with:
-            - type: "Point" or "Polygon" (if coordinates are given)
-            - geometry: parsed from coordinates
-            - properties: NavWarn text and metadata
+            You are given a NavWarn bulletin in a GeoJson Feature,
+            where the coordinates are not fully interpreted from the body text.  
+            Update the Feature with:
+            - correct type: "Point" or "Polygon" if coordinates are given
+            - geometry: parsed from coordinates  
+            - properties: NavWarn text and metadata  
+            - properties.summary: a rewritten and simplified version of the NavWarn body text  
 
-            Input NavWarns:
-            ${{ steps.collect.outputs.navwarns }}
+            Input NavWarn:
+            ${{ steps.prepare.outputs.navwarns }}
 
       - name: Save GeoJSON output
         run: |
-          echo '${{ steps.inference.outputs.response }}' > docs/navwarns.geojson
+          mkdir -p current/navwarns
+          out="current/navwarns/$(basename '${{ matrix.file }}' .txt).geojson"
+          echo '${{ steps.inference.outputs.response }}' > "$out"
 
+  # Step 3: Aggregate all results into a single FeatureCollection
+  collect_navwarns:
+    needs: interpret_navwarns
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
 
-      - name: Commit and push
+      - name: Merge all GeoJSONs into FeatureCollection
+        run: |
+          files=$(ls current/navwarns/*.geojson)
+          jq -s '{ "type": "FeatureCollection", "features": . }' $files > docs/navwarns.geojson
+
+      - name: Commit merged collection
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/notams.geojson
-          git commit -m "Update NOTAM GeoJSON" || echo "No changes"
+          cp docs/navwarns.geojson current/navwarns.geojson || echo "Copy failed"
+          git add docs/navwarns.geojson current/navwarns.geojson
+          git commit -m "Update merged NavWarn FeatureCollection" || echo "No changes"
           git push

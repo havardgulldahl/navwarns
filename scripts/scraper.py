@@ -88,6 +88,7 @@ def serialize_message(msg: Any) -> dict:
             "msg_id": msg.msg_id,
             "cancellations": msg.cancellations,
             "hazard_type": msg.hazard_type,
+            "summary": None,
             "body": msg.body,
         },
     }

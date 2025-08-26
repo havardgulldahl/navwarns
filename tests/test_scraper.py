@@ -2,7 +2,7 @@ import math
 from datetime import datetime
 import pytest
 
-from scripts.scraper import (
+from scripts.parser import (
     parse_navwarns,
     parse_dtg,
     parse_msg_id,
