@@ -41,28 +41,22 @@ jobs:
           echo "Sleeping $delay seconds..."
           sleep $delay
 
+      #- name: Create prompt file
+        #run: cat '${{ matrix.file }}' >> prompt.txt
+
       - name: Run AI inference
         id: inference
         uses: actions/ai-inference@v1
         with:
           model: gpt-4.1
-          prompt: |
-            You are given a NavWarn bulletin in a GeoJson Feature,
-            where the coordinates are not fully interpreted from the body text.  
-            Update the Feature with:
-            - correct type: "Point" or "Polygon" if coordinates are given
-            - geometry: parsed from coordinates  
-            - properties: NavWarn text and metadata  
-            - properties.summary: a rewritten and simplified version of the NavWarn body text  
-
-            Input NavWarn:
-            $(cat ${{ matrix.file }})
-
+          prompt-file: prompt.yml
+          file_input: |
+            navwarn = ${{ matrix.file }}
 
       - name: Save GeoJSON output
         run: |
           base=$(basename "${{ matrix.file }}")
-          echo '${{ steps.inference.outputs.response }}' | jq . > "enriched_${base}.geojson"
+          cat '${{ steps.inference.outputs.response-file }}' | jq . > "enriched_${base}.geojson"
 
       - name: Upload enriched file as artifact
         uses: actions/upload-artifact@v4
