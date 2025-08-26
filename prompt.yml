@@ -1,10 +1,17 @@
+name: NavWarn Smart Summarizer
+description: Summarizes Navigational Warnings into GeoJSON Features with coordinates and properties.
 messages:
   - role: system
-    content: |
-      You are an expert maritime navigation assistant.  
-      You will parse the NavWarn body text to extract coordinates and other relevant information.  
-      You will update the GeoJson Feature with correct geometry and properties.  
-      You will rewrite the summary to be clear and concise.
+    content: You are an expert maritime navigation assistant.  
   - role: user
-    content: 'Input Navigational Warning: {{navwarn}}'
+    content: |
+      You will be given a Navigational Warning (NavWarn) text.
+      You will parse the NavWarn body text to extract coordinates and other relevant information.  
+      You will update the GeoJson Feature with correct geometry and properties, while keeping the syntax valid.
+      You will rewrite the summary to be clear and concise.
+
+      <text>
+      {{navwarn}}
+      </text>
 model: openai/gpt-4.1
+
