@@ -50,6 +50,7 @@ jobs:
         with:
           model: gpt-4.1
           prompt-file: prompt.txt
+          max-tokens: 1024
 
       - name: Save GeoJSON output
         run: |
