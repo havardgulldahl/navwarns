@@ -37,12 +37,8 @@ jobs:
       - name: Prepare NavWarn file
         id: prepare
         run: |
-          {
-            set -x
-            echo "navwarns<<EOF"
-            cat "${{ matrix.file }}"
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
+          cp "${{ matrix.file }}" navwarn.json
+          echo "navwarn_file=navwarn.json" >> "$GITHUB_OUTPUT"
 
       - name: Run AI inference
         id: inference
@@ -59,7 +55,7 @@ jobs:
             - properties.summary: a rewritten and simplified version of the NavWarn body text  
 
             Input NavWarn:
-            ${{ steps.prepare.outputs.navwarns }}
+            $(cat ${{ steps.prepare.outputs.navwarn_file }})
 
       - name: Save GeoJSON output
         run: |
