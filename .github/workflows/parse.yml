@@ -54,13 +54,14 @@ jobs:
 
       - name: Save GeoJSON output
         run: |
-          echo '${{ steps.inference.outputs.response }}' | jq . > enriched_${{ matrix.file##*/ }}.geojson
+          base=$(basename "${{ matrix.file }}")
+          echo '${{ steps.inference.outputs.response }}' | jq . > "enriched_${base}.geojson"
 
       - name: Upload enriched file as artifact
         uses: actions/upload-artifact@v4
         with:
           name: enriched-files
-          path: enriched_${{ matrix.file##*/ }}.geojson
+          path: enriched_*.geojson
 
   commit:
     runs-on: ubuntu-latest
