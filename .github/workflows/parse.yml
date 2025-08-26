@@ -41,8 +41,8 @@ jobs:
           echo "Sleeping $delay seconds..."
           sleep $delay
 
-      #- name: Create prompt file
-        #run: cat '${{ matrix.file }}' >> prompt.txt
+      - name: Add geojson to prompt file
+        run: cat '${{ matrix.file }}' >> enrich_navwarn.prompt.yml
 
       - name: Run AI inference
         id: inference
@@ -50,8 +50,8 @@ jobs:
         with:
           model: gpt-4.1
           prompt-file: enrich_navwarn.prompt.yml
-          file_input: |
-            navwarn: ${{ matrix.file }}
+          #file_input: |
+            #navwarn: ${{ matrix.file }}
 
       - name: Save GeoJSON output
         run: |

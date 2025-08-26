@@ -10,6 +10,5 @@ messages:
       You will parse the NavWarn body text to extract coordinates and other relevant information.
       You will update the GeoJSON Feature with correct geometry and properties, while keeping the syntax valid.
       You will rewrite the summary to be clear and concise.
-      <geojson>
-      {{navwarn}}
-      </geojson>
+
+      This is the existing geojson structure:
