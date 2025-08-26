@@ -34,12 +34,6 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Prepare NavWarn file
-        id: prepare
-        run: |
-          cp "${{ matrix.file }}" navwarn.json
-          echo "navwarn_file=navwarn.json" >> "$GITHUB_OUTPUT"
-
       - name: Run AI inference
         id: inference
         uses: actions/ai-inference@v1
@@ -55,30 +49,33 @@ jobs:
             - properties.summary: a rewritten and simplified version of the NavWarn body text  
 
             Input NavWarn:
-            $(cat ${{ steps.prepare.outputs.navwarn_file }})
+            $(cat ${{ matrix.file }})
+
 
       - name: Save GeoJSON output
         run: |
-          mkdir -p current/enriched_navwarns
-          filename=$(basename "${{ matrix.file }}" .json)
-          out="current/enriched_navwarns/${filename}.geojson"
-          echo '${{ steps.inference.outputs.response }}' > "$out"
+          echo '${{ steps.inference.outputs.response }}' | jq . > enriched_${{ matrix.file##*/ }}.geojson
 
-      - name: Commit enriched file
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add current/enriched_navwarns/*.geojson
-          git commit -m "Add enriched NavWarn ${{ matrix.file }}" || echo "No changes"
-          git push
+      - name: Upload enriched file as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: enriched-files
+          path: enriched_${{ matrix.file##*/ }}.geojson
 
-  collect_navwarns:
-    needs: interpret_navwarns
+  commit:
     runs-on: ubuntu-latest
+    needs: interpret_navwarns
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v5
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Download all enriched files
+        uses: actions/download-artifact@v4
+        with:
+          name: enriched-files
+          path: current/enriched_navwarns
 
       - name: Merge all GeoJSONs into FeatureCollection
         run: |
