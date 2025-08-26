@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>NavWarns Map (North Pole Projection)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha512-sA+e2atYt3fK4w7Tk6r1Hj6kUMn/5x3G6ZJfX2t7X+Gk5Hn0vXgqN6X7R4uK8W6N4S5t5vY8t1zYtJbJp3hFQw=="
+        crossorigin="" />
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .popup-content {
+            max-width: 250px;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha512-vuM3c7xO3L6N+4I+88oQY0+3n4XL3h2k8r7M+6k7zqQ5kqf4j6f6wWv3rHk7f8cW6N4l8jJ2sGq3N2iFZqPp9w=="
+        crossorigin=""></script>
+    <!-- Proj4 & Proj4Leaflet -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.1/proj4.js"></script>
+    <script src="https://unpkg.com/proj4leaflet@1.0.2/src/proj4leaflet.js"></script>
+
+    <script>
+        // Define Arctic Polar Stereographic projection (EPSG:3413)
+        const crs = new L.Proj.CRS(
+            "EPSG:3413",
+            "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +k=1 " +
+            "+x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+            {
+                resolutions: [
+                    8192, 4096, 2048, 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1, 0.5,
+                ],
+                origin: [-4194304, -4194304],
+            }
+        );
+
+        // Initialize the map
+        const map = L.map("map", {
+            crs: crs,
+            center: [90, 0], // North Pole
+            zoom: 1,
+        });
+
+        // Add a simple background (optional: blue ocean)
+        L.tileLayer(
+            "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            {
+                attribution: "&copy; OpenStreetMap contributors",
+                continuousWorld: true,
+                noWrap: true,
+            }
+        ).addTo(map);
+
+        // Load the GeoJSON
+        fetch("navwarns.geojson")
+            .then((resp) => resp.json())
+            .then((data) => {
+                const layer = L.geoJSON(data, {
+                    onEachFeature: (feature, layer) => {
+                        let props = feature.properties || {};
+                        let text = `
+              <div class="popup-content">
+                <strong>${props.title || "NavWarn"}</strong><br/>
+                ${props.summary || props.text || ""}
+              </div>
+            `;
+                        layer.bindPopup(text);
+                    },
+                    style: {
+                        color: "red",
+                        weight: 2,
+                        fillColor: "orange",
+                        fillOpacity: 0.4,
+                    },
+                    pointToLayer: (feature, latlng) =>
+                        L.circleMarker(latlng, {
+                            radius: 6,
+                            fillColor: "red",
+                            color: "#fff",
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.8,
+                        }),
+                }).addTo(map);
+
+                map.fitBounds(layer.getBounds(), { maxZoom: 4 });
+            })
+            .catch((err) => {
+                console.error("Failed to load navwarns.geojson:", err);
+            });
+    </script>
+</body>
+
+</html>

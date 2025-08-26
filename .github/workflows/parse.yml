@@ -38,6 +38,7 @@ jobs:
         id: prepare
         run: |
           {
+            set -x
             echo "navwarns<<EOF"
             cat "${{ matrix.file }}"
             echo "EOF"
