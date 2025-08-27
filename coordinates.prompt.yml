@@ -16,6 +16,7 @@ jsonSchema: |-
     "name": "GeoJSON_Geometry",
     "strict": true,
     "schema": {
+      "type": "object",
       "oneOf": [
         {
           "title": "Point",
