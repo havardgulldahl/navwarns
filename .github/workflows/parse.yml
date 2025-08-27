@@ -28,6 +28,7 @@ jobs:
       matrix:
         file: ${{ fromJSON(needs.list_navwarns.outputs.files) }}
       max-parallel: 2
+    continue-on-error: true   # make each matrix job non-blocking
     permissions:
       contents: write
       models: read
@@ -63,7 +64,7 @@ jobs:
         run: |
           base=$(basename "${{ matrix.file }}")
           jq --argjson coords "$(cat '${{ steps.inference.outputs.response-file }}')" \
-            '.geometry.coordinates = $coords' '${{ matrix.file }}' > "coords_${base}.geojson"
+            '.geometry.coordinates = $coords' '${{ matrix.file }}' > "coords_${base}"
             
 
       - name: Derive safe artifact name
@@ -71,17 +72,22 @@ jobs:
         run: |
           # Get just the base filename, no path
           filename=$(basename "${{ matrix.file }}")
-          # Remove extension (.json, .geojson, etc.)
-          safe_name="${filename%.*}"
           # Replace any remaining invalid characters with underscores
-          safe_name=$(echo "$safe_name" | sed 's/[^a-zA-Z0-9._-]/_/g')
+          safe_name=$(echo "$filename" | sed 's/[^a-zA-Z0-9._-]/_/g')
           echo "safe_name=$safe_name" >> $GITHUB_OUTPUT
+
+      - name: Validate json files
+        run: |
+          for f in coords_*.json; do
+            echo "Checking $f"
+            jq empty "$f" || { echo "Invalid JSON in $f"; rm -v "$f"; exit 1; }
+          done
 
       - name: Upload coordinate file as artifact
         uses: actions/upload-artifact@v4
         with:
           name: coordinates-${{ steps.artifact_name.outputs.safe_name }}
-          path: coords_*.geojson
+          path: coords_*.json
 
   commit:
     runs-on: ubuntu-latest
@@ -98,12 +104,10 @@ jobs:
           path: current/enriched_navwarns
           merge-multiple: true
 
-      - name: Merge all GeoJSONs into FeatureCollection
+      - name: Merge all JSON coordinates into GeoJSON FeatureCollection
         run: |
-          tree current/enriched_navwarns
-          files=$(find current/enriched_navwarns -name '*.geojson') 
-          echo $files
-          echo ======
+          tree -h current/enriched_navwarns
+          files=$(find current/enriched_navwarns -name '*.json') 
           jq -s '{ "type": "FeatureCollection", "features": . }' $files > current/navwarns.geojson
 
       - name: Commit merged collection
