@@ -17,128 +17,24 @@ jsonSchema: |-
     "strict": true,
     "schema": {
       "type": "object",
-      "oneOf": [
-        {
-          "title": "Point",
-          "type": "object",
-          "required": ["type", "coordinates"],
-          "properties": {
-            "type": { "const": "Point" },
-            "coordinates": {
-              "type": "array",
-              "minItems": 2,
-              "maxItems": 2,
-              "items": { "type": "number" }
-            }
-          },
-          "additionalProperties": false
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Point",
+            "MultiPoint",
+            "LineString",
+            "MultiLineString",
+            "Polygon",
+            "MultiPolygon"
+          ]
         },
-        {
-          "title": "MultiPoint",
-          "type": "object",
-          "required": ["type", "coordinates"],
-          "properties": {
-            "type": { "const": "MultiPoint" },
-            "coordinates": {
-              "type": "array",
-              "items": {
-                "type": "array",
-                "minItems": 2,
-                "maxItems": 2,
-                "items": { "type": "number" }
-              }
-            }
-          },
-          "additionalProperties": false
-        },
-        {
-          "title": "LineString",
-          "type": "object",
-          "required": ["type", "coordinates"],
-          "properties": {
-            "type": { "const": "LineString" },
-            "coordinates": {
-              "type": "array",
-              "minItems": 2,
-              "items": {
-                "type": "array",
-                "minItems": 2,
-                "maxItems": 2,
-                "items": { "type": "number" }
-              }
-            }
-          },
-          "additionalProperties": false
-        },
-        {
-          "title": "MultiLineString",
-          "type": "object",
-          "required": ["type", "coordinates"],
-          "properties": {
-            "type": { "const": "MultiLineString" },
-            "coordinates": {
-              "type": "array",
-              "items": {
-                "type": "array",
-                "minItems": 2,
-                "items": {
-                  "type": "array",
-                  "minItems": 2,
-                  "maxItems": 2,
-                  "items": { "type": "number" }
-                }
-              }
-            }
-          },
-          "additionalProperties": false
-        },
-        {
-          "title": "Polygon",
-          "type": "object",
-          "required": ["type", "coordinates"],
-          "properties": {
-            "type": { "const": "Polygon" },
-            "coordinates": {
-              "type": "array",
-              "items": {
-                "type": "array",
-                "minItems": 4,
-                "items": {
-                  "type": "array",
-                  "minItems": 2,
-                  "maxItems": 2,
-                  "items": { "type": "number" }
-                }
-              }
-            }
-          },
-          "additionalProperties": false
-        },
-        {
-          "title": "MultiPolygon",
-          "type": "object",
-          "required": ["type", "coordinates"],
-          "properties": {
-            "type": { "const": "MultiPolygon" },
-            "coordinates": {
-              "type": "array",
-              "items": {
-                "type": "array",
-                "items": {
-                  "type": "array",
-                  "minItems": 4,
-                  "items": {
-                    "type": "array",
-                    "minItems": 2,
-                    "maxItems": 2,
-                    "items": { "type": "number" }
-                  }
-                }
-              }
-            }
-          },
-          "additionalProperties": false
+        "coordinates": {
+          "type": "array",
+          "items": {}
         }
-      ]
+      },
+      "additionalProperties": false
     }
   }
