@@ -1,0 +1,172 @@
+messages:
+  - role: system
+    content: You are an expert maritime navigation assistant.
+  - role: user
+    content: |-
+      You will be given a Navigational Warning (NavWarn) 
+      You will parse the text to extract or compute the coordinates of the actual NavWarn.
+      You will only reply with the coordinates, in a syntax that matches the GeoJSON Geometry, as per the json schema included.
+      <text>
+      {{navwarn}}
+      </text>
+model: openai/gpt-4.1
+responseFormat: json_schema
+jsonSchema: |-
+  {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "GeoJSON Geometry",
+    "oneOf": [
+      {
+        "title": "Point",
+        "type": "object",
+        "required": ["type", "coordinates"],
+        "properties": {
+          "type": { "const": "Point" },
+          "coordinates": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": [
+              { "type": "number", "minimum": -180, "maximum": 180 },
+              { "type": "number", "minimum": -90, "maximum": 90 }
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      {
+        "title": "MultiPoint",
+        "type": "object",
+        "required": ["type", "coordinates"],
+        "properties": {
+          "type": { "const": "MultiPoint" },
+          "coordinates": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": [
+                { "type": "number", "minimum": -180, "maximum": 180 },
+                { "type": "number", "minimum": -90, "maximum": 90 }
+              ]
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      {
+        "title": "LineString",
+        "type": "object",
+        "required": ["type", "coordinates"],
+        "properties": {
+          "type": { "const": "LineString" },
+          "coordinates": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": [
+                { "type": "number", "minimum": -180, "maximum": 180 },
+                { "type": "number", "minimum": -90, "maximum": 90 }
+              ]
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      {
+        "title": "MultiLineString",
+        "type": "object",
+        "required": ["type", "coordinates"],
+        "properties": {
+          "type": { "const": "MultiLineString" },
+          "coordinates": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": [
+                  { "type": "number", "minimum": -180, "maximum": 180 },
+                  { "type": "number", "minimum": -90, "maximum": 90 }
+                ]
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      {
+        "title": "Polygon",
+        "type": "object",
+        "required": ["type", "coordinates"],
+        "properties": {
+          "type": { "const": "Polygon" },
+          "coordinates": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "minItems": 4,
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": [
+                  { "type": "number", "minimum": -180, "maximum": 180 },
+                  { "type": "number", "minimum": -90, "maximum": 90 }
+                ]
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      {
+        "title": "MultiPolygon",
+        "type": "object",
+        "required": ["type", "coordinates"],
+        "properties": {
+          "type": { "const": "MultiPolygon" },
+          "coordinates": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "minItems": 4,
+                "items": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "items": [
+                    { "type": "number", "minimum": -180, "maximum": 180 },
+                    { "type": "number", "minimum": -90, "maximum": 90 }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      {
+        "title": "GeometryCollection",
+        "type": "object",
+        "required": ["type", "geometries"],
+        "properties": {
+          "type": { "const": "GeometryCollection" },
+          "geometries": {
+            "type": "array",
+            "items": { "$ref": "#" }
+          }
+        },
+        "additionalProperties": false
+      }
+    ]
+  }

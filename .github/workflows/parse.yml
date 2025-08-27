@@ -41,21 +41,29 @@ jobs:
           echo "Sleeping $delay seconds..."
           sleep $delay
 
-      - name: Add geojson to prompt file
-        run: cat '${{ matrix.file }}' >> prompt.txt
+      - name: Extract body from GeoJSON properties and store in a variable
+        id: navwarn_body
+        run: |
+          geojson=$(jq '.features[].properties.body' "${{ matrix.file }}")
+          echo "geojson=$geojson" >> "$GITHUB_OUTPUT"
 
       - name: Run AI inference
         id: inference
         uses: actions/ai-inference@v1
         with:
           model: gpt-4.1
-          prompt-file: prompt.txt
+          prompt-file: coordinates.prompt.yml
           max-tokens: 1024
+          input: |
+            navwarn: ${{ steps.navwarn_body.outputs.geojson }}
 
-      - name: Save GeoJSON output
+
+      - name: Join inferred coordinates with original GeoJSON
         run: |
           base=$(basename "${{ matrix.file }}")
-          cat '${{ steps.inference.outputs.response-file }}' | jq . > "enriched_${base}.geojson"
+          jq --argjson coords "$(cat '${{ steps.inference.outputs.response-file }}')" \
+            '.features[].geometry.coordinates = $coords' '${{ matrix.file }}' > "enriched_${base}.geojson"
+            
 
       - name: Upload enriched file as artifact
         uses: actions/upload-artifact@v4
