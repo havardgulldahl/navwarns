@@ -44,7 +44,7 @@ jobs:
       - name: Extract body from GeoJSON properties and store in a variable
         id: navwarn_body
         run: |
-          geojson=$(jq '.features[].properties.body' "${{ matrix.file }}")
+          geojson=$(jq '.properties.body' "${{ matrix.file }}")
           echo "geojson=$geojson" >> "$GITHUB_OUTPUT"
 
       - name: Run AI inference
@@ -62,7 +62,7 @@ jobs:
         run: |
           base=$(basename "${{ matrix.file }}")
           jq --argjson coords "$(cat '${{ steps.inference.outputs.response-file }}')" \
-            '.features[].geometry.coordinates = $coords' '${{ matrix.file }}' > "enriched_${base}.geojson"
+            '.geometry.coordinates = $coords' '${{ matrix.file }}' > "enriched_${base}.geojson"
             
 
       - name: Upload enriched file as artifact
