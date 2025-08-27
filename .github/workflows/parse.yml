@@ -44,7 +44,7 @@ jobs:
       - name: Extract body from GeoJSON properties and store in a variable
         id: navwarn_body
         run: |
-          geojson=$(jq '.properties.body' "${{ matrix.file }}")
+          geojson=$(jq -r '.properties.body | gsub("\n"; " ")' "${{ matrix.file }}")
           echo "geojson=$geojson" >> "$GITHUB_OUTPUT"
 
       - name: Run AI inference
