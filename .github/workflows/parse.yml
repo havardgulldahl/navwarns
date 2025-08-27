@@ -55,7 +55,8 @@ jobs:
           prompt-file: coordinates.prompt.yml
           max-tokens: 1024
           input: |
-            navwarn: ${{ steps.navwarn_body.outputs.geojson }}
+            navwarn: |
+              ${{ steps.navwarn_body.outputs.geojson }}
 
 
       - name: Join inferred coordinates with original GeoJSON
