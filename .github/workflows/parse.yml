@@ -66,10 +66,21 @@ jobs:
             '.geometry.coordinates = $coords' '${{ matrix.file }}' > "coords_${base}.geojson"
             
 
+      - name: Derive safe artifact name
+        id: artifact_name
+        run: |
+          # Get just the base filename, no path
+          filename=$(basename "${{ matrix.file }}")
+          # Remove extension (.json, .geojson, etc.)
+          safe_name="${filename%.*}"
+          # Replace any remaining invalid characters with underscores
+          safe_name=$(echo "$safe_name" | sed 's/[^a-zA-Z0-9._-]/_/g')
+          echo "safe_name=$safe_name" >> $GITHUB_OUTPUT
+
       - name: Upload coordinate file as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: coordinates-${{ matrix.file }}
+          name: coordinates-${{ steps.artifact_name.outputs.safe_name }}
           path: coords_*.geojson
 
   commit:
