@@ -96,10 +96,14 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: current/enriched_navwarns
+          merge-multiple: true
 
       - name: Merge all GeoJSONs into FeatureCollection
         run: |
+          tree current/enriched_navwarns
           files=$(find current/enriched_navwarns -name '*.geojson') 
+          echo $files
+          echo ======
           jq -s '{ "type": "FeatureCollection", "features": . }' $files > current/navwarns.geojson
 
       - name: Commit merged collection
