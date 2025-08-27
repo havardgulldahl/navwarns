@@ -32,7 +32,9 @@ jsonSchema: |-
         },
         "coordinates": {
           "type": "array",
-          "items": {}
+          "items": {
+            "type": ["number", "array"]
+          }
         }
       },
       "additionalProperties": false
