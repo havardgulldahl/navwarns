@@ -69,7 +69,7 @@ jobs:
       - name: Upload enriched file as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: enriched-files
+          name: enriched-files-${{ github.job }}-${{ github.run_attempt }}
           path: enriched_*.geojson
 
   commit:
@@ -84,12 +84,11 @@ jobs:
       - name: Download all enriched files
         uses: actions/download-artifact@v4
         with:
-          name: enriched-files
           path: current/enriched_navwarns
 
       - name: Merge all GeoJSONs into FeatureCollection
         run: |
-          files=$(ls current/enriched_navwarns/*.geojson)
+          files=$(find current/enriched_navwarns -name '*.geojson') 
           jq -s '{ "type": "FeatureCollection", "features": . }' $files > current/navwarns.geojson
 
       - name: Commit merged collection
