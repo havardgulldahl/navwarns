@@ -63,14 +63,14 @@ jobs:
         run: |
           base=$(basename "${{ matrix.file }}")
           jq --argjson coords "$(cat '${{ steps.inference.outputs.response-file }}')" \
-            '.geometry.coordinates = $coords' '${{ matrix.file }}' > "enriched_${base}.geojson"
+            '.geometry.coordinates = $coords' '${{ matrix.file }}' > "coords_${base}.geojson"
             
 
-      - name: Upload enriched file as artifact
+      - name: Upload coordinate file as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: enriched-files-${{ github.job }}-${{ github.run_attempt }}
-          path: enriched_*.geojson
+          name: coordinates-${{ matrix.file }}
+          path: coords_*.geojson
 
   commit:
     runs-on: ubuntu-latest
@@ -81,7 +81,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v5
 
-      - name: Download all enriched files
+      - name: Download all coordinate files
         uses: actions/download-artifact@v4
         with:
           path: current/enriched_navwarns
