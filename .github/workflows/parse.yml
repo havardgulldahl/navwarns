@@ -45,27 +45,27 @@ jobs:
       - name: Extract body from GeoJSON properties and store in a variable
         id: navwarn_body
         run: |
-          geojson=$(jq -r '.properties.body | gsub("\n"; " ")' "${{ matrix.file }}")
-          echo "geojson=$geojson" >> "$GITHUB_OUTPUT"
+          body=$(jq -r '.properties.body | gsub("\n"; " ")' "${{ matrix.file }}")
+          echo "body=$body" >> "$GITHUB_OUTPUT"
 
       - name: Run AI inference
         id: inference
         uses: actions/ai-inference@v1
         with:
           model: gpt-4.1
-          prompt-file: coordinates.prompt.yml
+          prompt-file: classification.prompt.yml
           max-tokens: 1024
           input: |
             navwarn: |
-              ${{ steps.navwarn_body.outputs.geojson }}
+              ${{ steps.navwarn_body.outputs.body }}
 
 
       - name: Join inferred coordinates with original GeoJSON
         run: |
           base=$(basename "${{ matrix.file }}")
-          jq --argjson coords "$(cat '${{ steps.inference.outputs.response-file }}')" \
-            '.geometry.coordinates = $coords' '${{ matrix.file }}' > "coords_${base}"
-            
+          jq --argjson category "$(cat '${{ steps.inference.outputs.response-file }}')" \
+            '.properties.category = $category' '${{ matrix.file }}' > "classified_${base}"
+
 
       - name: Derive safe artifact name
         id: artifact_name
@@ -76,18 +76,22 @@ jobs:
           safe_name=$(echo "$filename" | sed 's/[^a-zA-Z0-9._-]/_/g')
           echo "safe_name=$safe_name" >> $GITHUB_OUTPUT
 
-      - name: Validate json files
+      - name: Validate json we just created
         run: |
-          for f in coords_*.json; do
-            echo "Checking $f"
-            jq empty "$f" || { echo "Invalid JSON in $f"; rm -v "$f"; exit 1; }
-          done
+          f=classified_${{ matrix.file }}
+          echo "Checking $f"
+          jq empty "$f" || { echo "Invalid JSON in $f"; rm -v "$f"; exit 1; }
+          # if length of geometry.coordinates is 0, delete
+          if [ "$(jq '.geometry.coordinates | length' "$f")" -eq 0 ]; then
+            echo "Deleting empty coordinate file $f"
+            rm -v "$f"
+          fi
 
       - name: Upload coordinate file as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: coordinates-${{ steps.artifact_name.outputs.safe_name }}
-          path: coords_*.json
+          name: classified-${{ steps.artifact_name.outputs.safe_name }}
+          path: classified_*.json
 
   commit:
     runs-on: ubuntu-latest

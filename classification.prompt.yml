@@ -1,0 +1,35 @@
+messages:
+  - role: system
+    content: You are an expert maritime navigation assistant.
+  - role: user
+    content: |-
+      You will be given a Navigational Warning (NavWarn) 
+      You will parse the text and classify it into one of the following categories: "military", "accident" or "other".
+      If the NavWarn is related to military activity, like missile tests or marine exercises, classify it as "military".
+      If the NavWarn describes an accident or incident, classify it as "accident".
+      Otherwise, classify it as "other".
+      <text>
+      {{navwarn}}
+      </text>
+model: openai/gpt-4.1
+responseFormat: json_schema
+jsonSchema: |-
+  {
+    "name": "NavWarnClassification",
+    "strict": true,
+    "schema": {
+      "type": "object",
+      "required": ["category"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "military",
+            "accident",
+            "other"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  }
