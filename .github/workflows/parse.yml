@@ -67,15 +67,13 @@ jobs:
             .properties = (.properties // {}) 
             | .properties.category = $r[0].category
             | .properties.title = $r[0].title
-          ' "classified_${base}" > "tmp_${base}"
-          mv "tmp_${base}" "classified_${base}"
-
+          ' "${{ matrix.file }}" > "classified_${base}"
 
 
       - name: Validate json we just created
         run: |
           base=$(basename "${{ matrix.file }}");
-          f="classified_$base";
+          f="classified_${base}";
           echo "Checking $f"
           jq empty "$f" || { echo "Invalid JSON in $f"; rm -v "$f"; exit 1; }
           # if length of geometry.coordinates is 0, delete
