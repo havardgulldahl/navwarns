@@ -21,7 +21,7 @@ jsonSchema: |-
       "type": "object",
       "required": ["category"],
       "properties": {
-        "type": {
+        "category": {
           "type": "string",
           "enum": [
             "military",
