@@ -114,6 +114,17 @@ jobs:
           files=$(find current/enriched_navwarns -name '*.json') 
           jq -s '{ "type": "FeatureCollection", "features": . }' $files > current/navwarns.geojson
 
+      - name: Fail if no coordinate files found
+        run: |
+          echo "Looking for JSON files in current/enriched_navwarns"
+          files=$(find current/enriched_navwarns -name '*.json')
+          if [ -z "$files" ]; then
+            echo "❌ No JSON coordinate files found. Failing job."
+            exit 1
+          else
+            echo "✅ Found $(echo "$files" | wc -l) JSON files."
+          fi
+
       - name: Commit merged collection
         run: |
           git config user.name  "github-actions[bot]"
