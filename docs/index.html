@@ -8,7 +8,7 @@
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha512-sA+e2atYt3fK4w7Tk6r1Hj6kUMn/5x3G6ZJfX2t7X+Gk5Hn0vXgqN6X7R4uK8W6N4S5t5vY8t1zYtJbJp3hFQw=="
+        integrity="sha512-puBpdR0798OZvTTbP4A8lDk5tT1kF1R9BXbYtOFVQ7u0Z7pG9jQ6tQKjUJo+zsmkq5lO7Dd6f8hHfLxdxg8Wlw=="
         crossorigin="" />
     <style>
         html,
@@ -26,6 +26,71 @@
             max-width: 250px;
             word-wrap: break-word;
         }
+
+        .popup-content h3 {
+            margin: 0 0 4px 0;
+            font-size: 14px;
+        }
+
+        .popup-content .meta {
+            font-size: 11px;
+            color: #555;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .popup-content pre {
+            white-space: pre-wrap;
+            font-family: system-ui, sans-serif;
+            font-size: 12px;
+            margin: 0;
+            background: #f7f7f7;
+            padding: 6px;
+            border-radius: 4px;
+            max-height: 240px;
+            overflow-y: auto;
+        }
+
+        .legend {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 8px 10px;
+            line-height: 1.3;
+            color: #222;
+            font-size: 12px;
+            border-radius: 4px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .legend h4 {
+            margin: 0 0 4px 0;
+            font-size: 13px;
+        }
+
+        .legend .item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .legend .swatch {
+            width: 14px;
+            height: 14px;
+            border: 1px solid #555;
+            border-radius: 3px;
+        }
+
+        .legend+.legend-note {
+            font-size: 10px;
+        }
+
+        .inline-badge {
+            display: inline-block;
+            padding: 2px 5px;
+            border-radius: 3px;
+            background: #eee;
+            font-size: 10px;
+            margin-right: 4px;
+        }
     </style>
 </head>
 
@@ -34,7 +99,7 @@
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha512-vuM3c7xO3L6N+4I+88oQY0+3n4XL3h2k8r7M+6k7zqQ5kqf4j6f6wWv3rHk7f8cW6N4l8jJ2sGq3N2iFZqPp9w=="
+        integrity="sha512-nMMMyiNUg+G7LZ2t4k0kQm5v1Zt0LOXlTn++Q2BYa5QG6f7Y9W+o5L0w9qC5DgF2sZp9Zrj7T4t3n2d3Snkl9A=="
         crossorigin=""></script>
     <!-- Proj4 & Proj4Leaflet -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.1/proj4.js"></script>
@@ -72,42 +137,102 @@
         ).addTo(map);
 
         // Load the GeoJSON
+        // Hazard type -> color mapping
+        const hazardColors = {
+            "general": "#d73027",
+            "aid to navigation outage": "#4575b4",
+            "scientific mooring": "#1a9850",
+            "shoals": "#ff8c00",
+            "default": "#6a3d9a"
+        };
+
+        function getHazardColor(hazardType) {
+            return hazardColors[hazardType] || hazardColors.default;
+        }
+
+        function formatDate(dtg) {
+            if (!dtg) return "";
+            try {
+                const d = new Date(dtg + (dtg.endsWith('Z') ? '' : 'Z'));
+                if (isNaN(d)) return dtg;
+                return d.toISOString().replace('T', ' ').replace(/\.\d{3}Z$/, 'Z');
+            } catch { return dtg; }
+        }
+
+        function buildPopup(feature) {
+            const p = feature.properties || {};
+            const body = (p.body || '').trim();
+            const hazard = p.hazard_type || 'N/A';
+            const category = (p.category && p.category.category) || 'N/A';
+            const cancellations = (p.cancellations || []).filter(Boolean);
+            const color = getHazardColor(hazard);
+            return `
+                <div class="popup-content">
+                  <h3>${p.msg_id || 'NavWarn'}</h3>
+                  <div class="meta">
+                    <span class="inline-badge" style="background:${color};color:#fff;">${hazard}</span>
+                    <span class="inline-badge">Cat: ${category}</span><br/>
+                    <strong>DTG:</strong> ${formatDate(p.dtg)}<br/>
+                    <strong>Raw DTG:</strong> ${p.raw_dtg || ''}
+                    ${cancellations.length ? `<br/><strong>Cancel:</strong> ${cancellations.join('; ')}` : ''}
+                  </div>
+                  <pre>${body.replace(/</g, '&lt;')}</pre>
+                </div>`;
+        }
+
         fetch("navwarns.geojson")
-            .then((resp) => resp.json())
-            .then((data) => {
-                const layer = L.geoJSON(data, {
-                    onEachFeature: (feature, layer) => {
-                        let props = feature.properties || {};
-                        let text = `
-              <div class="popup-content">
-                <strong>${props.title || "NavWarn"}</strong><br/>
-                ${props.summary || props.text || ""}
-              </div>
-            `;
-                        layer.bindPopup(text);
-                    },
-                    style: {
-                        color: "red",
-                        weight: 2,
-                        fillColor: "orange",
-                        fillOpacity: 0.4,
-                    },
-                    pointToLayer: (feature, latlng) =>
-                        L.circleMarker(latlng, {
+            .then(r => r.json())
+            .then(data => {
+                const featureGroup = L.featureGroup().addTo(map);
+
+                // Add GeoJSON points
+                const gj = L.geoJSON(data, {
+                    pointToLayer: (feature, latlng) => {
+                        const color = getHazardColor(feature.properties?.hazard_type);
+                        return L.circleMarker(latlng, {
                             radius: 6,
-                            fillColor: "red",
-                            color: "#fff",
+                            fillColor: color,
+                            color: '#fff',
                             weight: 1,
                             opacity: 1,
-                            fillOpacity: 0.8,
-                        }),
-                }).addTo(map);
+                            fillOpacity: 0.85
+                        });
+                    },
+                    onEachFeature: (feature, layer) => {
+                        layer.bindPopup(() => buildPopup(feature));
+                        // For MultiPoint, also connect with a polyline to visualize track / area
+                        if (feature.geometry && feature.geometry.type === 'MultiPoint') {
+                            const coords = feature.geometry.coordinates.map(c => [c[1], c[0]]);
+                            const color = getHazardColor(feature.properties?.hazard_type);
+                            L.polyline(coords, { color, weight: 2, opacity: 0.6, dashArray: '4,4' }).addTo(featureGroup);
+                        }
+                    }
+                }).addTo(featureGroup);
 
-                map.fitBounds(layer.getBounds(), { maxZoom: 4 });
+                featureGroup.addLayer(gj);
+                map.fitBounds(featureGroup.getBounds(), { maxZoom: 4, padding: [20, 20] });
+
+                addLegend(data.features || []);
             })
-            .catch((err) => {
-                console.error("Failed to load navwarns.geojson:", err);
-            });
+            .catch(err => console.error('Failed to load navwarns.geojson:', err));
+
+        function addLegend(features) {
+            const hazardSet = new Set();
+            features.forEach(f => hazardSet.add(f.properties?.hazard_type || 'unknown'));
+            const hazardList = Array.from(hazardSet).sort();
+            const legend = L.control({ position: 'bottomleft' });
+            legend.onAdd = function () {
+                const div = L.DomUtil.create('div', 'legend');
+                div.innerHTML = '<h4>Hazards</h4>' + hazardList.map(h => {
+                    const c = getHazardColor(h);
+                    return `<div class="item"><span class="swatch" style="background:${c}"></span>${h}</div>`;
+                }).join('');
+                div.innerHTML += '<hr style="margin:6px 0;" />' +
+                    '<div style="font-size:10px; line-height:1.2; max-width:160px;">Click a marker for full NAVWARN text. Multi-point warnings show dashed connection lines.</div>';
+                return div;
+            };
+            legend.addTo(map);
+        }
     </script>
 </body>
 
