@@ -132,12 +132,20 @@
             maxZoom: 5
         });
 
-        // --- NASA GIBS Arctic basemap ---
-        const template =
+        // --- Basemaps ---
+        const arcticSDI = L.tileLayer(
+            'https://tiles.arcticsdi.org/arcgis/rest/services/Basemaps/Arctic_SDI_Basemap/MapServer/tile/{z}/{y}/{x}', {
+            attribution: '<a href="https://arctic-sdi.org/">Arctic SDI</a>',
+            continuousWorld: true,
+            noWrap: true
+        }
+        );
+
+        const gibsTemplate =
             '//gibs-{s}.earthdata.nasa.gov/wmts/epsg3413/best/' +
             '{layer}/default/{time}/{tileMatrixSet}/{z}/{y}/{x}.jpg';
 
-        const gibsLayer = L.tileLayer(template, {
+        const nasaGibs = L.tileLayer(gibsTemplate, {
             layer: 'MODIS_Terra_CorrectedReflectance_TrueColor',
             tileMatrixSet: '250m',
             time: '2013-06-15',
@@ -145,19 +153,26 @@
             subdomains: 'abc',
             noWrap: true,
             continuousWorld: true,
-            attribution:
-                '<a href="https://wiki.earthdata.nasa.gov/display/GIBS">NASA EOSDIS GIBS</a>'
-        }).addTo(map);
+            attribution: '<a href="https://wiki.earthdata.nasa.gov/display/GIBS">NASA EOSDIS GIBS</a>'
+        });
 
-        // --- hazard colors ---
-        const hazardColors = {
-            "general": "#d73027",
-            "aid to navigation outage": "#4575b4",
-            "scientific mooring": "#1a9850",
-            "shoals": "#ff8c00",
+        // Add ArcticSDI by default
+        arcticSDI.addTo(map);
+
+        // Layer control
+        L.control.layers(
+            { "ArcticSDI Basemap": arcticSDI, "NASA GIBS Arctic": nasaGibs },
+            {}
+        ).addTo(map);
+
+        // --- category colors ---
+        const categoryColors = {
+            "military": "#d73027",
+            "accident": "#4575b4",
+            "other": "#1a9850",
             "default": "#6a3d9a"
         };
-        function getHazardColor(h) { return hazardColors[h] || hazardColors.default; }
+        function getCategoryColor(c) { return categoryColors[c] || categoryColors.default; }
 
         function formatDate(dtg) {
             if (!dtg) return "";
@@ -172,15 +187,16 @@
             const p = feature.properties || {};
             const body = (p.body || '').trim();
             const hazard = p.hazard_type || 'N/A';
-            const category = (p.category && p.category.category) || 'N/A';
+            const category = p.category || 'N/A';
+            const title = p.title || p.msg_id || 'NavWarn';
             const cancellations = (p.cancellations || []).filter(Boolean);
-            const color = getHazardColor(hazard);
+            const color = getCategoryColor(category);
             return `
     <div class="popup-content">
-      <h3>${p.msg_id || 'NavWarn'}</h3>
+      <h3>${title}</h3>
       <div class="meta">
-        <span class="inline-badge" style="background:${color};color:#fff;">${hazard}</span>
-        <span class="inline-badge">Cat: ${category}</span><br/>
+        <span class="inline-badge">${hazard}</span>
+        <span class="inline-badge" style="background:${color};color:#fff;">${category}</span><br/>
         <strong>DTG:</strong> ${formatDate(p.dtg)}<br/>
         <strong>Raw DTG:</strong> ${p.raw_dtg || ''}
         ${cancellations.length ? `<br/><strong>Cancel:</strong> ${cancellations.join('; ')}` : ''}
@@ -197,7 +213,8 @@
 
                 const gj = L.geoJSON(data, {
                     pointToLayer: (feature, latlng) => {
-                        const color = getHazardColor(feature.properties?.hazard_type);
+                        const category = feature.properties?.category;
+                        const color = getCategoryColor(category);
                         return L.circleMarker(latlng, {
                             radius: 6, fillColor: color,
                             color: '#fff', weight: 1,
@@ -208,7 +225,8 @@
                         layer.bindPopup(() => buildPopup(feature));
                         if (feature.geometry && feature.geometry.type === 'MultiPoint') {
                             const coords = feature.geometry.coordinates.map(c => [c[1], c[0]]);
-                            const color = getHazardColor(feature.properties?.hazard_type);
+                            const category = feature.properties?.category;
+                            const color = getCategoryColor(category);
                             L.polyline(coords, { color, weight: 2, opacity: 0.6, dashArray: '4,4' })
                                 .addTo(featureGroup);
                         }
@@ -223,18 +241,18 @@
 
         // --- Legend control ---
         function addLegend(features) {
-            const hazardSet = new Set();
-            features.forEach(f => hazardSet.add(f.properties?.hazard_type || 'unknown'));
-            const hazardList = Array.from(hazardSet).sort();
+            const categorySet = new Set();
+            features.forEach(f => categorySet.add(f.properties?.category || 'unknown'));
+            const categoryList = Array.from(categorySet).sort();
             const legend = L.control({ position: 'bottomleft' });
             legend.onAdd = function () {
                 const div = L.DomUtil.create('div', 'legend');
-                div.innerHTML = '<h4>Hazards</h4>' + hazardList.map(h => {
-                    const c = getHazardColor(h);
-                    return `<div class="item"><span class="swatch" style="background:${c}"></span>${h}</div>`;
+                div.innerHTML = '<h4>Categories</h4>' + categoryList.map(c => {
+                    const col = getCategoryColor(c);
+                    return `<div class="item"><span class="swatch" style="background:${col}"></span>${c}</div>`;
                 }).join('');
                 div.innerHTML += '<hr style="margin:6px 0;" />' +
-                    '<div style="font-size:10px; line-height:1.2; max-width:160px;">Click a marker for full NAVWARN text. Multi-point warnings show dashed connection lines.</div>';
+                    '<div style="font-size:10px; line-height:1.2; max-width:160px;">Markers are colored by category. Click a marker for full NAVWARN text.</div>';
                 return div;
             };
             legend.addTo(map);
