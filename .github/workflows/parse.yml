@@ -63,8 +63,9 @@ jobs:
       - name: Join inferred coordinates with original GeoJSON
         run: |
           base=$(basename "${{ matrix.file }}")
-          jq --argjson category "$(cat '${{ steps.inference.outputs.response-file }}')" \
-            '.properties.category = $category' '${{ matrix.file }}' > "classified_${base}"
+          category=$(jq -r '.category' "${{ steps.inference.outputs.response-file }}")
+          jq --arg category "$category" \
+            '.properties.category = $category' "${{ matrix.file }}" > "classified_${base}"
 
 
       - name: Derive safe artifact name
