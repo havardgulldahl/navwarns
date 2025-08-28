@@ -63,19 +63,14 @@ jobs:
       - name: Join inferred coordinates with original GeoJSON
         run: |
           base=$(basename "${{ matrix.file }}")
-          category=$(jq -r '.category' "${{ steps.inference.outputs.response-file }}")
-          jq --arg category "$category" \
-            '.properties.category = $category' "${{ matrix.file }}" > "classified_${base}"
+          jq --slurpfile r "${{ steps.inference.outputs.response-file }}" '
+            .properties = (.properties // {}) 
+            | .properties.category = $r[0].category
+            | .properties.title = $r[0].title
+          ' "classified_${base}" > "tmp_${base}"
+          mv "tmp_${base}" "classified_${base}"
 
 
-      - name: Derive safe artifact name
-        id: artifact_name
-        run: |
-          # Get just the base filename, no path
-          filename=$(basename "${{ matrix.file }}")
-          # Replace any remaining invalid characters with underscores
-          safe_name=$(echo "$filename" | sed 's/[^a-zA-Z0-9._-]/_/g')
-          echo "safe_name=$safe_name" >> $GITHUB_OUTPUT
 
       - name: Validate json we just created
         run: |
@@ -88,6 +83,15 @@ jobs:
             echo "Deleting empty coordinate file $f"
             rm -v "$f"
           fi
+
+      - name: Derive safe artifact name
+        id: artifact_name
+        run: |
+          # Get just the base filename, no path
+          filename=$(basename "${{ matrix.file }}")
+          # Replace any remaining invalid characters with underscores
+          safe_name=$(echo "$filename" | sed 's/[^a-zA-Z0-9._-]/_/g')
+          echo "safe_name=$safe_name" >> $GITHUB_OUTPUT
 
       - name: Upload coordinate file as artifact
         uses: actions/upload-artifact@v4

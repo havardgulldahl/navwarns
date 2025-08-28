@@ -3,11 +3,14 @@ messages:
     content: You are an expert maritime navigation assistant.
   - role: user
     content: |-
-      You will be given a Navigational Warning (NavWarn) 
-      You will parse the text and classify it into one of the following categories: "military", "accident" or "other".
-      If the NavWarn is related to military activity, like missile tests or marine exercises, classify it as "military".
-      If the NavWarn describes an accident or incident, classify it as "accident".
-      Otherwise, classify it as "other".
+      You will be given a Navigational Warning (NavWarn).
+      You will parse the text and classify it into one of the following
+      categories: "military", "accident" or "other".  If the NavWarn is related
+      to military activity, like missile tests or marine exercises, classify it
+      as "military". If the NavWarn describes an accident or incident, classify it as
+      "accident". Otherwise, classify it as "other".
+      You will also summarize the NavWarn in a title of maximum four words,
+      suited as a header in a popup.  
       <text>
       {{navwarn}}
       </text>
@@ -19,7 +22,7 @@ jsonSchema: |-
     "strict": true,
     "schema": {
       "type": "object",
-      "required": ["category"],
+      "required": ["category", "title"],
       "properties": {
         "category": {
           "type": "string",
@@ -28,6 +31,10 @@ jsonSchema: |-
             "accident",
             "other"
           ]
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 100
         }
       },
       "additionalProperties": false
