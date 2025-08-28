@@ -78,7 +78,8 @@ jobs:
 
       - name: Validate json we just created
         run: |
-          f=classified_${{ matrix.file }}
+          base=$(basename "${{ matrix.file }}");
+          f="classified_$base";
           echo "Checking $f"
           jq empty "$f" || { echo "Invalid JSON in $f"; rm -v "$f"; exit 1; }
           # if length of geometry.coordinates is 0, delete
