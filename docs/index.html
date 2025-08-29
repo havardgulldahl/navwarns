@@ -206,62 +206,138 @@
     </div>`;
         }
 
-        // --- Load GeoJSON and render features ---
-        fetch("navwarns.geojson")
-            .then(r => r.json())
-            .then(data => {
-                const featureGroup = L.featureGroup().addTo(map);
+        // --- Reusable loader for GeoJSON point/multipoint layers ---
+        function loadGeoJsonLayer(url, { fit = false, addLegendFlag = false } = {}) {
+            return fetch(url)
+                .then(r => r.json())
+                .then(data => {
+                    const featureGroup = L.featureGroup().addTo(map);
 
-                const gj = L.geoJSON(data, {
-                    pointToLayer: (feature, latlng) => {
-                        const category = feature.properties?.category;
-                        const color = getCategoryColor(category);
-                        return L.circleMarker(latlng, {
-                            radius: 6, fillColor: color,
-                            color: '#fff', weight: 1,
-                            opacity: 1, fillOpacity: 0.85
-                        });
-                    },
-                    onEachFeature: (feature, layer) => {
-                        layer.bindPopup(() => buildPopup(feature));
-                        if (feature.geometry && feature.geometry.type === 'MultiPoint') {
-                            const coords = feature.geometry.coordinates.map(c => [c[1], c[0]]);
+                    const layer = L.geoJSON(data, {
+                        pointToLayer: (feature, latlng) => {
                             const category = feature.properties?.category;
                             const color = getCategoryColor(category);
-                            L.polyline(coords, { color, weight: 2, opacity: 0.6, dashArray: '4,4' })
-                                .addTo(featureGroup);
+                            return L.circleMarker(latlng, {
+                                radius: 6,
+                                fillColor: color,
+                                color: '#fff',
+                                weight: 1,
+                                opacity: 1,
+                                fillOpacity: 0.85
+                            });
+                        },
+                        onEachFeature: (feature, layer) => {
+                            layer.bindPopup(() => buildPopup(feature));
+                            if (feature.geometry && feature.geometry.type === 'MultiPoint') {
+                                const coords = feature.geometry.coordinates.map(c => [c[1], c[0]]);
+                                const category = feature.properties?.category;
+                                const color = getCategoryColor(category);
+                                L.polyline(coords, {
+                                    color,
+                                    weight: 2,
+                                    opacity: 0.6,
+                                    dashArray: '4,4'
+                                }).addTo(featureGroup);
+                            }
                         }
-                    }
-                }).addTo(featureGroup);
+                    }).addTo(featureGroup);
 
-                featureGroup.addLayer(gj);
-                map.fitBounds(featureGroup.getBounds(), { maxZoom: 4, padding: [20, 20] });
-                addLegend(data.features || []);
-            })
-            .catch(err => console.error('Failed to load navwarns.geojson:', err));
+                    featureGroup.addLayer(layer);
+
+                    if (fit) {
+                        const b = featureGroup.getBounds();
+                        if (b.isValid()) map.fitBounds(b, { maxZoom: 4, padding: [20, 20] });
+                    }
+                    if (addLegendFlag) addLegend(data.features || []);
+                    return { data, featureGroup, layer };
+                })
+                .catch(err => {
+                    console.error(`Failed to load ${url}:`, err);
+                });
+        }
+
+        // Initial (first) layer load – can add more later by calling loadGeoJsonLayer with different URLs
+        loadGeoJsonLayer('navwarns.geojson', { fit: true, addLegendFlag: true });
 
         // --- Legend control ---
         function addLegend(features) {
             const categorySet = new Set();
             features.forEach(f => categorySet.add(f.properties?.category || 'unknown'));
-            // Always include 'military' even if no current features
-            categorySet.add('military');
+            categorySet.add('military'); // ensure present
             const categoryList = Array.from(categorySet).sort();
-            const legend = L.control({ position: 'bottomleft' });
-            legend.onAdd = function () {
-                const div = L.DomUtil.create('div', 'legend');
-                div.innerHTML = '<h4>Categories</h4>' + categoryList.map(c => {
-                    const col = getCategoryColor(c);
-                    return `<div class="item"><span class="swatch" style="background:${col}"></span>${c}</div>`;
-                }).join('');
-                div.innerHTML += '<hr style="margin:6px 0;" />' +
-                    '<div style="font-size:10px; line-height:1.2; max-width:180px;">Markers are colored by category (military shown even if none currently active). Click a marker for full NAVWARN text.</div>' +
-                    '<div style="margin-top:6px;font-size:10px;"><a href="navwarns.geojson" download target="_blank">Download GeoJSON</a></div>';
-                return div;
-            };
-            legend.addTo(map);
+
+            // Fetch timestamp then build legend (defer adding until we have it)
+            fetch('scrape_timestamp.txt')
+                .then(r => r.ok ? r.text() : '')
+                .catch(() => '')
+                .then(tsRaw => {
+                    const ts = (tsRaw || '').trim();
+                    const legend = L.control({ position: 'bottomleft' });
+                    legend.onAdd = function () {
+                        const div = L.DomUtil.create('div', 'legend');
+                        const fetchedLine = ts ? `<div class="fetched" style="font-size:10px;margin:2px 0 6px;">Fetched ${ts}</div>` : '';
+                        div.innerHTML = '<h4>NavWarns for the Arctic</h4>' + fetchedLine + categoryList.map(c => {
+                            const col = getCategoryColor(c);
+                            return `<div class="item"><span class="swatch" style="background:${col}"></span>${c}</div>`;
+                        }).join('');
+                        div.innerHTML += '<hr style="margin:6px 0;" />' +
+                            '<div style="font-size:10px; line-height:1.2; max-width:200px;">Load layer for year: <input list="years" id="yearInput" placeholder="YYYY" /></div>' +
+                            '<div style="margin-top:6px;font-size:10px;"><a href="navwarns.geojson" download target="_blank">Download GeoJSON</a></div>';
+                        return div;
+                    };
+                    legend.addTo(map);
+                    // Attach year input handler after legend is in DOM
+                    setTimeout(() => {
+                        const yearInput = document.getElementById('yearInput');
+                        if (!yearInput) return;
+                        yearInput.addEventListener('change', () => {
+                            const y = (yearInput.value || '').trim();
+                            if (!/^20\d{2}$/.test(y)) return; // basic validation
+                            loadArchiveYear(y);
+                        });
+                        yearInput.addEventListener('keydown', (e) => {
+                            if (e.key === 'Enter') {
+                                const y = (yearInput.value || '').trim();
+                                if (!/^20\d{2}$/.test(y)) return;
+                                loadArchiveYear(y);
+                            }
+                        });
+                    }, 0);
+                });
+        }
+
+        // --- Archive year loader ---
+        let archiveLayerGroup = null;
+        function loadArchiveYear(year) {
+            const url = `archive${year}.geojson`;
+            // Remove old archive layer group if present
+            if (archiveLayerGroup) {
+                map.removeLayer(archiveLayerGroup);
+                archiveLayerGroup = null;
+            }
+            loadGeoJsonLayer(url, { fit: true })
+                .then(res => {
+                    if (res && res.featureGroup) archiveLayerGroup = res.featureGroup;
+                });
         }
     </script>
+    <datalist id="years">
+        <option value="2010">
+        <option value="2011">
+        <option value="2012">
+        <option value="2013">
+        <option value="2014">
+        <option value="2015">
+        <option value="2016">
+        <option value="2017">
+        <option value="2018">
+        <option value="2019">
+        <option value="2020">
+        <option value="2021">
+        <option value="2022">
+        <option value="2023">
+    </datalist>
+
 </body>
 
 </html>
