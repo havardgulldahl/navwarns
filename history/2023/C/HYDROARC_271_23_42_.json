@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 271/23(42)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        61.016666666666666,
+        71.91666666666667
+      ],
+      [
+        63.86666666666667,
+        72.68333333333334
+      ],
+      [
+        65.63333333333334,
+        72.25
+      ],
+      [
+        62.583333333333336,
+        71.48333333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2023-10-25T09:26:00",
+    "raw_dtg": "250926Z OCT 23",
+    "msg_id": "HYDROARC 271/23(42)",
+    "cancellations": [
+      "THIS MSG 040101Z NOV 23",
+      "HYDROARC 271/23"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "KARA SEA.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   300001Z OCT TO 040001Z NOV\n   IN AREA BOUND BY\n   71-55.00N 061-01.00E, 72-41.00N 063-52.00E,\n   72-15.00N 065-38.00E, 71-29.00N 062-35.00E.\n2. CANCEL THIS MSG 040101Z NOV 23."
+  }
+}

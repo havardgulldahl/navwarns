@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 174/19(54)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        25.4995,
+        37.6405
+      ],
+      [
+        25.966166666666666,
+        37.75716666666667
+      ],
+      [
+        25.966166666666666,
+        37.99883333333333
+      ],
+      [
+        25.166166666666665,
+        37.99883333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2019-01-19T11:05:00",
+    "raw_dtg": "191105Z JAN 19",
+    "msg_id": "HYDROARC 174/19(54)",
+    "cancellations": [
+      "THIS MSG 220800Z JAN 19",
+      "HYDROARC 174/19"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 220600Z TO 220700Z JAN\n   IN AREA BOUND BY\n   37-38.43N 025-29.97E, 37-45.43N 025-57.97E,\n   37-59.93N 025-57.97E, 37-59.93N 025-09.97E.\n2. CANCEL THIS MSG 220800Z JAN 19."
+  }
+}

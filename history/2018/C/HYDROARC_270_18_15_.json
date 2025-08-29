@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 270/18(15)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -139.25816666666665,
+        69.77183333333333
+      ],
+      [
+        -135.02416666666667,
+        70.86316666666667
+      ],
+      [
+        -135.49033333333333,
+        70.0015
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2018-10-11T23:48:00",
+    "raw_dtg": "112348Z OCT 18",
+    "msg_id": "HYDROARC 270/18(15)",
+    "cancellations": [
+      "HYDROARC 322/17",
+      "HYDROARC 1/19"
+    ],
+    "hazard_type": "scientific mooring",
+    "summary": null,
+    "body": "BEAUFORT SEA.\nCANADA.\nDNC 27.\nCHART 15926.\n1. SUB-SURFACE SCIENTIFIC MOORINGS ESTABLISHED IN:\n   A. 69-46.31N 139-15.49W, TOP FLOAT 16 METERS.\n   B. 70-51.79N 135-01.45W, TOP FLOAT 170 METERS.\n   C. 70-00.09N 135-29.42W, TOP FLOAT 700 METERS.\n2. CANCEL HYDROARC 322/17."
+  }
+}

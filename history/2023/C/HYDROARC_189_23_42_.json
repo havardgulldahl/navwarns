@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 189/23(42)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        63.0,
+        79.75
+      ],
+      [
+        60.0,
+        79.5
+      ],
+      [
+        60.0,
+        77.0
+      ],
+      [
+        69.0,
+        77.33333333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2023-08-29T18:58:00",
+    "raw_dtg": "291858Z AUG 23",
+    "msg_id": "HYDROARC 189/23(42)",
+    "cancellations": [
+      "THIS MSG 302200Z SEP 23",
+      "HYDROARC 189/23"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "BARENTS SEA.\nKARA SEA.\nRUSSIA.\nDNC 22.\n1. HAZARDOUS OPERATIONS 312100Z AUG TO 302100Z SEP\n   IN AREA BOUND BY\n   79-45.00N 063-00.00E, 79-30.00N 060-00.00E,\n   77-00.00N 060-00.00E, 77-20.00N 069-00.00E.\n2.CANCEL THIS MSG 302200Z SEP 23."
+  }
+}

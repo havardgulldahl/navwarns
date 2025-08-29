@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 205/16(15,16)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -160.16666666666666,
+        76.0
+      ],
+      [
+        -150.0,
+        75.00016666666667
+      ],
+      [
+        -139.9825,
+        73.994
+      ],
+      [
+        -150.0,
+        77.99983333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2016-09-04T13:47:00",
+    "raw_dtg": "041347Z SEP 16",
+    "msg_id": "HYDROARC 205/16(15,16)",
+    "cancellations": [
+      "HYDROARC 160/12",
+      "HYDROARC 50/19"
+    ],
+    "hazard_type": "scientific mooring",
+    "summary": null,
+    "body": "ARCTIC.\nBEAUFORT SEA.\nCHUKCHI SEA.\nCHART 803.\nDNC 27.\n1. SCIENTIFIC MOORING TU-1 76-00.00N 160-10.00W REMOVED.\n2. SCIENTIFIC MOORINGS, TOP FLOAT 30 METERS, REMAIN:\n   A. BGOS-A 75-00.01N 150-00.00W, AT DEPTH 3826 METERS.\n   B. BGOS-D 73-59.64N 139-58.95W, AT DEPTH 3504 METERS.\n   C. BGOS-B 77-59.99N 150-00.00W, AT DEPTH 3824 METERS.\n3. CANCEL HYDROARC 160/12."
+  }
+}

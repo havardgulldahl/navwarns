@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 366/22(15,16,41)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        164.8,
+        79.7
+      ],
+      [
+        -122.41666666666667,
+        82.43333333333334
+      ],
+      [
+        -124.31666666666666,
+        81.88333333333334
+      ],
+      [
+        167.43333333333334,
+        79.23333333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2022-11-19T20:31:00",
+    "raw_dtg": "192031Z NOV 22",
+    "msg_id": "HYDROARC 366/22(15,16,41)",
+    "cancellations": [
+      "THIS MSG 250412Z DEC 22",
+      "HYDROARC 367/22"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "ARTIC.\nDNC 27.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0155Z TO 0312Z DAILY 25 NOV THRU 25 DEC\n   IN AREA BOUND BY\n   79-42.00N 164-48.00E, 82-26.00N 122-25.00W,\n   81-53.00N 124-19.00W, 79-14.00N 167-26.00E.\n2. CANCEL THIS MSG 250412Z DEC 22."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 792/20(54)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        25.555833333333332,
+        38.551
+      ],
+      [
+        25.556833333333334,
+        38.552
+      ],
+      [
+        25.557,
+        38.551833333333335
+      ],
+      [
+        25.556333333333335,
+        38.550666666666665
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2020-03-02T12:40:00",
+    "raw_dtg": "021240Z MAR 20",
+    "msg_id": "HYDROARC 792/20(54)",
+    "cancellations": [
+      "THIS MSG 031600Z MAR 20",
+      "HYDROARC 792/20"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 030600Z TO 031500Z MAR\n   IN AREA BOUND BY\n   38-33.06N 025-33.35E, 38-33.12N 025-33.41E,\n   38-33.11N 025-33.42E, 38-33.04N 025-33.38E.\n2. CANCEL THIS MSG 031600Z MAR 20."
+  }
+}

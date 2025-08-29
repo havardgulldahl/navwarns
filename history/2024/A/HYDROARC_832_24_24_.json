@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 832/24(24)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -42.25,
+        -23.383333333333333
+      ],
+      [
+        -42.75,
+        -23.383333333333333
+      ],
+      [
+        -42.75,
+        -23.75
+      ],
+      [
+        -42.25,
+        -23.75
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2024-04-19T00:39:00",
+    "raw_dtg": "190039Z APR 24",
+    "msg_id": "HYDROARC 832/24(24)",
+    "cancellations": [
+      "THIS MSG 260100Z APR 24",
+      "HYDROARC 832/24"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. HAZARDOUS OPERATIONS 220000Z TO 252359Z APR\n   IN AREA BOUND BY\n   23-23.00S 042-15.00W, 23-23.00S 042-45.00W,\n   23-45.00S 042-45.00W, 23-45.00S 042-15.00W.\n2. CANCEL THIS MSG 260100Z APR 24."
+  }
+}

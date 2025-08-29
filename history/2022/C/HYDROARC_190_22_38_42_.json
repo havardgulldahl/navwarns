@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 190/22(38,42)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -5.633333333333333,
+        82.7
+      ],
+      [
+        9.083333333333334,
+        82.03333333333333
+      ],
+      [
+        7.75,
+        81.63333333333334
+      ],
+      [
+        -6.283333333333333,
+        82.25
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2022-08-06T13:40:00",
+    "raw_dtg": "061340Z AUG 22",
+    "msg_id": "HYDROARC 190/22(38,42)",
+    "cancellations": [
+      "THIS MSG 120830Z AUG 22",
+      "HYDROARC 194/22"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "ARCTIC.\nDNC 19, DNC 20, DNC 21.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0530Z TO 0730Z DAILY 09 THRU 12 AUG\n   IN AREA BOUND BY\n   82-42.00N 005-38.00W, 82-02.00N 009-05.00E,\n   81-38.00N 007-45.00E, 82-15.00N 006-17.00W.\n2. CANCEL THIS MSG 120830Z AUG 22."
+  }
+}

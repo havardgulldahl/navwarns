@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 150/23(24)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -45.358333333333334,
+        -27.466666666666665
+      ],
+      [
+        -45.6,
+        -27.583333333333332
+      ],
+      [
+        -45.40833333333333,
+        -27.9
+      ],
+      [
+        -45.166666666666664,
+        -27.783333333333335
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2023-01-19T01:26:00",
+    "raw_dtg": "190126Z JAN 23",
+    "msg_id": "HYDROARC 150/23(24)",
+    "cancellations": [
+      "THIS MSG 250300Z JAN 23",
+      "HYDROARC 150/23"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. HAZARDOUS OPERATIONS 242200Z TO 250200Z JAN\n   IN AREA BOUND BY\n   27-28.00S 045-21.50W, 27-35.00S 045-36.00W,\n   27-54.00S 045-24.50W, 27-47.00S 045-10.00W.\n2. CANCEL THIS MSG 250300Z JAN 23."
+  }
+}

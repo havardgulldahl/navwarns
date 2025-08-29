@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 2943/22",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -20.0,
+        20.0
+      ],
+      [
+        -20.0,
+        53.0
+      ],
+      [
+        10.0,
+        53.0
+      ],
+      [
+        10.0,
+        20.0
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2022-11-16T18:25:00",
+    "raw_dtg": "161825Z NOV 22",
+    "msg_id": "HYDROARC 2943/22",
+    "cancellations": [
+      "THIS MSG 241300Z NOV 22",
+      "HYDROARC 2950/22"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "EASTERN NORTH ATLANTIC.\nENGLISH CHANNEL.\nWESTERN MEDITERRANEAN SEA.\n1. HAZARDOUS OPERATIONS 170800Z TO 241200Z NOV\n   IN AREA BOUND BY\n   20-00.00N 020-00.00W, 53-00.00N 020-00.00W,\n   53-00.00N 010-00.00E, 20-00.00N 010-00.00E.\n2. CANCEL THIS MSG 241300Z NOV 22."
+  }
+}

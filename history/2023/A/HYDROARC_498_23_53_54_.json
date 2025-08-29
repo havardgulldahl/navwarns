@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 498/23(53,54)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        17.55,
+        34.71666666666667
+      ],
+      [
+        17.833333333333332,
+        34.333333333333336
+      ],
+      [
+        17.2,
+        34.46666666666667
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2023-03-04T16:46:00",
+    "raw_dtg": "041646Z MAR 23",
+    "msg_id": "HYDROARC 498/23(53,54)",
+    "cancellations": [
+      "THIS MSG 100100Z MAR 23",
+      "HYDROARC 498/23"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 070001Z TO 092359Z MAR\n   IN AREA BOUND BY\n   34-43.00N 017-33.00E, 34-20.00N 017-50.00E,\n   34-28.00N 017-12.00E.\n2. CANCEL THIS MSG 100100Z MAR 23."
+  }
+}

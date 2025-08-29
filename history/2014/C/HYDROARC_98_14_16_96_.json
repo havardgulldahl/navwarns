@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 98/14(16,96)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -168.56816666666666,
+        65.78083333333333
+      ],
+      [
+        -168.26366666666667,
+        65.74533333333333
+      ],
+      [
+        -168.951,
+        66.3265
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2014-07-04T11:23:00",
+    "raw_dtg": "041123Z JUL 14",
+    "msg_id": "HYDROARC 98/14(16,96)",
+    "cancellations": [
+      "HYDROARC 96/13",
+      "HYDROARC 164/15"
+    ],
+    "hazard_type": "scientific mooring",
+    "summary": null,
+    "body": "ARCTIC.\nBERING STRAIT.\nCHART 16190, 96660\n1. SCIENTIFIC MOORINGS ESTABLISHED:\n   A. A2-14, 65-46.85N 168-34.09W AT 56 METERS,\n      TOP FLOAT 15 METERS.\n   B. A4-14, 65-44.72N 168-15.82W AT 49 METERS,\n      TOP FLOAT 15 METERS.\n   C. A3-14, 66-19.59N 168-57.06W AT 58 METERS,\n      TOP FLOAT 15 METERS.\n2. CANCEL HYDROARC 96/13."
+  }
+}

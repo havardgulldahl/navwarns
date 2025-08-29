@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 30/23(42,43)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        22.0,
+        76.5
+      ],
+      [
+        18.666666666666668,
+        75.83333333333333
+      ],
+      [
+        21.666666666666668,
+        74.83333333333333
+      ],
+      [
+        24.666666666666668,
+        75.33333333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2023-03-19T21:59:00",
+    "raw_dtg": "192159Z MAR 23",
+    "msg_id": "HYDROARC 30/23(42,43)",
+    "cancellations": [
+      "THIS MSG 280900Z MAR 23",
+      "HYDROARC 37/23"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "BARENTS SEA.\nSVALBARD.\nDNC 22.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0600Z TO 0800Z DAILY 23 THRU 28 MAR\n   IN AREA BOUND BY\n   76-30.00N 022-00.00E, 75-50.00N 018-40.00E,\n   74-50.00N 021-40.00E, 75-20.00N 024-40.00E.\n2. CANCEL THIS MSG 280900Z MAR 23."
+  }
+}

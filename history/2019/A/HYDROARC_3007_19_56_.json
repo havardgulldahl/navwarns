@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 3007/19(56)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        34.56666666666667,
+        34.25
+      ],
+      [
+        34.68833333333333,
+        34.166666666666664
+      ],
+      [
+        34.43333333333333,
+        33.88333333333333
+      ],
+      [
+        34.233333333333334,
+        34.0
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2019-10-02T17:01:00",
+    "raw_dtg": "021701Z OCT 19",
+    "msg_id": "HYDROARC 3007/19(56)",
+    "cancellations": [
+      "THIS MSG 051100Z OCT 19",
+      "HYDROARC 3007/19"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "EASTERN MEDITERRANEA SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 050600Z TO 051000Z OCT\n   IN AREA BOUND BY\n   34-15.00N 034-34.00E, 34-10.00N 034-41.30E,\n   33-53.00N 034-26.00E, 34-00.00N 034-14.00E.\n2. CANCEL THIS MSG 051100Z OCT 19."
+  }
+}

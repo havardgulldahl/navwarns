@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 205/22(42)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        47.46333333333333,
+        79.78666666666666
+      ],
+      [
+        48.461666666666666,
+        79.66
+      ],
+      [
+        51.156666666666666,
+        79.80833333333334
+      ],
+      [
+        51.33166666666666,
+        79.86333333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2022-08-15T20:30:00",
+    "raw_dtg": "152030Z AUG 22",
+    "msg_id": "HYDROARC 205/22(42)",
+    "cancellations": [
+      "THIS MSG 182028Z AUG 22",
+      "HYDROARC 205/22"
+    ],
+    "hazard_type": "general",
+    "summary": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERGS REPORTED AT 140600Z AUG\n   IN AREA BOUND BY\n   79-47.20N 047-27.80E, 79-39.60N 048-27.70E,\n   79-48.50N 051-09.40E, 79-51.80N 051-19.90E.\n2. CANCEL THIS MSG 182028Z AUG 22."
+  }
+}

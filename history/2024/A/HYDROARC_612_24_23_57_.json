@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 612/24(23,57)",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -44.65,
+        -39.88333333333333
+      ],
+      [
+        -45.266666666666666,
+        -42.166666666666664
+      ],
+      [
+        -10.0,
+        -53.38333333333333
+      ],
+      [
+        -10.0,
+        -51.06666666666667
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2024-03-24T02:13:00",
+    "raw_dtg": "240213Z MAR 24",
+    "msg_id": "HYDROARC 612/24(23,57)",
+    "cancellations": [
+      "THIS MSG 050700Z APR 24",
+      "HYDROARC 612/24"
+    ],
+    "hazard_type": "hazardous operations",
+    "summary": null,
+    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   292300Z MAR TO 050600Z APR IN AREA BOUND BY\n   39-53.00S 044-39.00W, 42-10.00S 045-16.00W,\n   53-23.00S 010-00.00W, 51-04.00S 010-00.00W.\n2. CANCEL THIS MSG 050700Z APR 24."
+  }
+}
