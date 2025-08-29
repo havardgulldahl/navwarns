@@ -92,7 +92,29 @@
         "hazard_type": "aid to navigation outage",
         "body": "HYDROARC 163/23(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT PULLEN ISLAND LIGHT\n69-46.60N 134-24.40W INOPERATIVE.",
         "category": "accident",
-        "title": "Pullen Island RACON Inoperative"
+        "title": "Racon Inoperative Pullen Island"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 145/25(15)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.18333333333334,
+          69.15
+        ]
+      },
+      "properties": {
+        "dtg": "2025-08-29T00:41:00",
+        "raw_dtg": "290041Z AUG 25",
+        "msg_id": "HYDROARC 145/25(15)",
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "summary": null,
+        "body": "HYDROARC 145/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT PITT ISLAND 69-09.00N 136-11.00W\nINOPERATIVE.",
+        "category": "accident",
+        "title": "Pitt Island RACON Inoperative"
       }
     },
     {
@@ -127,7 +149,7 @@
         "hazard_type": "scientific mooring",
         "body": "HYDROARC 283/24(16).\nBEAUFORT SEA.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\nSCIENTIFIC MOORINGS ESTABLISHED:\nA. BCE-24, IN 71-40.40N 154-59.90W,\n   AT DEPTH 108 METERS, TOP FLOAT 20 METERS.\nB. BCC-24, IN 71-44.10N 155-09.68W,\n   AT DEPTH 291 METERS, TOP FLOAT 21 METERS.\nC. BCW-24, IN 71-47.80N 155-20.83W,\n   AT DEPTH 165 METERS, TOP FLOAT 40 METERS.\nD. NAP-24T, IN 74-31.37N 161-56.19W,\n   AT DEPTH 1680 METERS, TOP FLOAT 28 METERS.",
         "category": "other",
-        "title": "Scientific Moorings Established"
+        "title": "Scientific Moorings Deployed"
       }
     },
     {
@@ -154,7 +176,7 @@
         "hazard_type": "shoals",
         "body": "HYDROARC 119/25(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 28.\nSHOALS REPORTED IN:\nA. 71-22.50N 116-57.80W.\nB. 71-22.61N 117-01.30W.",
         "category": "other",
-        "title": "Shoals Amundsen Gulf"
+        "title": "New Shoals Reported"
       }
     },
     {
@@ -175,7 +197,7 @@
         "hazard_type": "aid to navigation outage",
         "body": "HYDROARC 198/22(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT SHINGLE POINT BEACON\n69-00.00N 137-34.50W INOPERATIVE.",
         "category": "accident",
-        "title": "Inoperative Shingle Point Beacon"
+        "title": "Shingle Point RACON Inoperative"
       }
     },
     {
@@ -198,7 +220,7 @@
         "hazard_type": "general",
         "body": "HYDROARC 142/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\n1. RACON AT WARREN POINT IN 69-45.00N 132-21.00W\n   DISCONTINUED.\n2. CANCEL HYDROARC 140/25.",
         "category": "other",
-        "title": "Warren Point RACON Discontinued"
+        "title": "Warren Point RACON Off"
       }
     },
     {
