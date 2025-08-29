@@ -99,8 +99,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4leaflet/1.0.2/proj4leaflet.min.js" crossorigin="anonymous"
         referrerpolicy="no-referrer"></script>
 
-    <!-- WMTS plugin -->
-    <script src="leaflet-tilelayer-wmts.js"></script>
 
 
     <script>
@@ -142,19 +140,6 @@
             maxZoom: 10
         });
 
-        // Add ArcticSDI by default
-        /*
-        const arcticSDI = L.tileLayer.wmts(
-            "http://basemap.arctic-sdi.org/mapcache/wmts?",
-            {
-                layer: "arctic_cascading",
-                style: "default",
-                tilematrixset: "3575",   // <-- MUST match the identifier in capabilities
-                format: "image/png",
-                attribution: '<a href="https://arctic-sdi.org/">Arctic SDI</a>'
-            }
-        );
-        */
         // --- Custom WMTS layer to map Leaflet coords to WMTS REST template ---
         const ArcticSDILayer = L.TileLayer.extend({
             getTileUrl: function (coords) {
@@ -259,6 +244,8 @@
         function addLegend(features) {
             const categorySet = new Set();
             features.forEach(f => categorySet.add(f.properties?.category || 'unknown'));
+            // Always include 'military' even if no current features
+            categorySet.add('military');
             const categoryList = Array.from(categorySet).sort();
             const legend = L.control({ position: 'bottomleft' });
             legend.onAdd = function () {
@@ -268,7 +255,8 @@
                     return `<div class="item"><span class="swatch" style="background:${col}"></span>${c}</div>`;
                 }).join('');
                 div.innerHTML += '<hr style="margin:6px 0;" />' +
-                    '<div style="font-size:10px; line-height:1.2; max-width:160px;">Markers are colored by category. Click a marker for full NAVWARN text.</div>';
+                    '<div style="font-size:10px; line-height:1.2; max-width:180px;">Markers are colored by category (military shown even if none currently active). Click a marker for full NAVWARN text.</div>' +
+                    '<div style="margin-top:6px;font-size:10px;"><a href="navwarns.geojson" download target="_blank">Download GeoJSON</a></div>';
                 return div;
             };
             legend.addTo(map);
