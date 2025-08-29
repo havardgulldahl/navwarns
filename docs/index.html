@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
     <style>
         html,
         body {
@@ -93,43 +92,34 @@
     <div id="map"></div>
 
     <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <!-- Projection libraries for custom Arctic CRS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.1/proj4.min.js"
-        integrity="sha512-r2c9RvdQNgdMo4TJxfQvIpdmilS/5YzCeG9iqbzLkgeesBw+BdHp5aXgDRlBaxpuJGTJM/6JutdlA1ykpUvCBQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4leaflet/1.0.2/proj4leaflet.min.js"
-        integrity="sha512-/a6CcEcmYdJtqVcvlJAFH7yt10oPhNzG4V4NXU26k2mnGe2lY8h6KKrtn0rfM/WUJsolGTXWmEi/susawzEGVw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.1/proj4.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4leaflet/1.0.2/proj4leaflet.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
 
     <!-- WMTS plugin -->
-    <script src="https://unpkg.com/leaflet.tilelayer.wmts/leaflet-tilelayer-wmts.js"></script>
+    <script src="leaflet-tilelayer-wmts.js"></script>
 
 
     <script>
-        // --- Define Arctic stereographic CRS (EPSG:3575) using Proj4Leaflet ---
-        // Leaflet core does not ship with EPSG:3575, so we create it. If proj4/proj4leaflet failed to load,
-        // fall back to the default WebMercator CRS to avoid a hard crash.
-        let ARCTIC_CRS;
-        try {
-            if (window.proj4 && L && L.Proj) {
-                ARCTIC_CRS = new L.Proj.CRS(
-                    'EPSG:3575',
-                    '+proj=stere +lat_0=90 +lat_ts=71 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs',
-                    {
-                        // These values roughly encompass the Arctic region in this projection.
-                        origin: [-4194304, 4194304],
-                        resolutions: [8192, 4096, 2048, 1024, 512, 256],
-                        bounds: L.bounds([-4194304, -4194304], [4194304, 4194304])
-                    }
-                );
-            } else {
-                console.warn('Proj4 / Proj4Leaflet not loaded; falling back to EPSG:3857.');
+        const crs3575 = new L.Proj.CRS(
+            "EPSG:3575",
+            "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=0 +k=1 +datum=WGS84 +units=m +no_defs",
+            {
+                origin: [-4889334.802955, 4889334.802955],
+                resolutions: [
+                    38197.928, 19098.964, 9549.482, 4774.741,
+                    2387.370, 1193.685, 596.843, 298.422,
+                    149.211, 74.606, 37.303
+                ],
+                bounds: L.bounds(
+                    [-4889334.802955, -4889334.802955],
+                    [4889334.802955, 4889334.802955]
+                )
             }
-        } catch (e) {
-            console.warn('Failed to create EPSG:3575 CRS, falling back to default CRS:', e);
-        }
+        );
 
         // --- Fix for tile seams (Leaflet issue #3575) ---
         (function () {
@@ -146,22 +136,43 @@
 
         // --- Initialize map ---
         const map = L.map('map', {
-            crs: ARCTIC_CRS || L.CRS.EPSG3857,
+            crs: crs3575,
             center: [90, 0], // North Pole
             zoom: 0,
-            maxZoom: 5
-        });
-
-        // --- Arctic SDI WMTS basemap ---
-        const arcticSDI = L.tileLayer.wmts("https://maps.arctic-sdi.org/mapcache/wmts", {
-            layer: "arctic_cascading",
-            style: "default",
-            tilematrixSet: "EPSG:3575",   // Arctic stereographic
-            format: "image/png",
-            attribution: '<a href="https://arctic-sdi.org/">Arctic SDI</a>'
+            maxZoom: 10
         });
 
         // Add ArcticSDI by default
+        /*
+        const arcticSDI = L.tileLayer.wmts(
+            "http://basemap.arctic-sdi.org/mapcache/wmts?",
+            {
+                layer: "arctic_cascading",
+                style: "default",
+                tilematrixset: "3575",   // <-- MUST match the identifier in capabilities
+                format: "image/png",
+                attribution: '<a href="https://arctic-sdi.org/">Arctic SDI</a>'
+            }
+        );
+        */
+        // --- Custom WMTS layer to map Leaflet coords to WMTS REST template ---
+        const ArcticSDILayer = L.TileLayer.extend({
+            getTileUrl: function (coords) {
+                return L.Util.template(
+                    "http://basemap.arctic-sdi.org/mapcache/wmts/1.0.0/arctic_cascading/default/3575/{TileMatrix}/{TileRow}/{TileCol}.png",
+                    {
+                        TileMatrix: coords.z,
+                        TileRow: coords.y,
+                        TileCol: coords.x
+                    }
+                );
+            }
+        });
+        // Add ArcticSDI basemap
+        const arcticSDI = new ArcticSDILayer("", {
+            tileSize: 256,
+            attribution: '<a href="https://arctic-sdi.org/">Arctic SDI</a>'
+        }).addTo(map);
         arcticSDI.addTo(map);
 
         // Layer control
