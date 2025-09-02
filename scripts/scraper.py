@@ -66,30 +66,22 @@ def message_filename(msg: Any) -> str:
 
 
 def serialize_message(msg: Any) -> dict:
-    coords = msg.coordinates or []
-    if not coords:
-        geometry = {"type": "Point", "coordinates": []}
-    elif len(coords) == 1:
+    if hasattr(msg, "to_geojson_feature"):
+        feat = msg.to_geojson_feature()
+        # Preserve summary field placeholder for backward compatibility
+        feat["properties"]["summary"] = None
+        return feat
+    # Fallback (should not usually happen)
+    coords = getattr(msg, "coordinates", []) or []
+    geometry = {"type": "Point", "coordinates": []}
+    if coords:
         lat, lon = coords[0]
         geometry = {"type": "Point", "coordinates": [lon, lat]}
-    else:
-        geometry = {
-            "type": "MultiPoint",
-            "coordinates": [[lon, lat] for (lat, lon) in coords],
-        }
     return {
         "type": "Feature",
-        "id": msg.msg_id or None,
+        "id": getattr(msg, "msg_id", None),
         "geometry": geometry,
-        "properties": {
-            "dtg": msg.dtg.isoformat() if msg.dtg else None,
-            "raw_dtg": msg.raw_dtg,
-            "msg_id": msg.msg_id,
-            "cancellations": msg.cancellations,
-            "hazard_type": msg.hazard_type,
-            "summary": None,
-            "body": msg.body,
-        },
+        "properties": {"raw": str(msg)},
     }
 
 

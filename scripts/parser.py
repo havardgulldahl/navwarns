@@ -3,6 +3,7 @@ import sys
 import argparse
 import json
 from dataclasses import dataclass, field
+import math
 from datetime import datetime
 from dateutil import parser as dtparser  # still used as fallback
 from typing import List, Tuple, Optional
@@ -46,6 +47,67 @@ class NavwarnMessage:
     geometry: Optional[str] = None  # one of: point, linestring, polygon, circle
     radius: Optional[float] = None  # miles / NM (unit ambiguous in source)
     body: str = ""
+
+    # --- GeoJSON helpers ---
+    def geojson_geometry(self, circle_segments: int = 72) -> dict:
+        """Return a GeoJSON geometry object derived from parsed coordinates & geometry metadata.
+
+        circle: approximated as a Polygon with given number of segments (>=8) around center point (first coord).
+        linestring: LineString of provided coordinate sequence.
+        polygon: Polygon (single outer ring) closing the ring if necessary.
+        point (or fallback): Point (first coordinate) or empty Point when none.
+        """
+        coords = self.coordinates or []
+        if not coords:
+            return {"type": "Point", "coordinates": []}
+        geom_type = (self.geometry or "").lower()
+        if geom_type == "circle" and self.radius and len(coords) >= 1:
+            # Approximate circle; assume radius in nautical miles -> degrees of latitude = r/60.
+            lat_c, lon_c = coords[0]
+            segments = max(8, circle_segments)
+            ring: List[List[float]] = []
+            # Convert NM to degrees lat; lon degrees scaled by cos(lat)
+            deg_lat = self.radius / 60.0
+            cos_lat = math.cos(math.radians(lat_c)) or 1e-9
+            deg_lon = deg_lat / cos_lat
+            for i in range(segments):
+                theta = 2 * math.pi * (i / segments)
+                dy = math.sin(theta) * deg_lat
+                dx = math.cos(theta) * deg_lon
+                ring.append([lon_c + dx, lat_c + dy])
+            # Close ring
+            ring.append(ring[0])
+            return {"type": "Polygon", "coordinates": [ring]}
+        if geom_type == "linestring" and len(coords) >= 2:
+            return {
+                "type": "LineString",
+                "coordinates": [[lon, lat] for (lat, lon) in coords],
+            }
+        if geom_type == "polygon" and len(coords) >= 3:
+            ring = [[lon, lat] for (lat, lon) in coords]
+            if ring[0] != ring[-1]:
+                ring.append(ring[0])
+            return {"type": "Polygon", "coordinates": [ring]}
+        # Default / point
+        lat, lon = coords[0]
+        return {"type": "Point", "coordinates": [lon, lat]}
+
+    def to_geojson_feature(self) -> dict:
+        return {
+            "type": "Feature",
+            "id": self.msg_id or None,
+            "geometry": self.geojson_geometry(),
+            "properties": {
+                "dtg": self.dtg.isoformat() if self.dtg else None,
+                "raw_dtg": self.raw_dtg,
+                "msg_id": self.msg_id,
+                "cancellations": self.cancellations,
+                "hazard_type": self.hazard_type,
+                "geometry_kind": self.geometry,
+                "radius_nm": self.radius,
+                "body": self.body,
+            },
+        }
 
     @classmethod
     def from_text(cls, dtg_str: str, body: str) -> "NavwarnMessage":

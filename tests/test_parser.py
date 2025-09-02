@@ -218,6 +218,50 @@ def test_sample_95_18_metadata():
     assert pytest.approx(last_lon, rel=1e-4, abs=1e-4) == 146.8050
     assert m.geometry == "linestring"
     assert m.radius is None
+    expected_coords_95_18 = [
+        (49.0633, 140.3117),
+        (49.0617, 140.3133),
+        (49.0617, 140.3150),
+        (49.0617, 140.3200),
+        (49.0650, 140.3517),
+        (49.0583, 140.4483),
+        (49.0583, 140.5083),
+        (49.0367, 140.8517),
+        (49.0300, 141.8350),
+        (49.0433, 142.0250),
+        (49.0433, 142.0267),
+        (46.8517, 143.1700),
+        (46.8667, 143.2000),
+        (46.9417, 143.3833),
+        (46.9417, 143.5500),
+        (46.8167, 143.8917),
+        (46.6417, 144.7833),
+        (45.3750, 147.0000),
+        (45.3417, 147.7500),
+        (45.2417, 147.8583),
+        (45.2267, 147.8717),
+        (45.2367, 147.8583),
+        (45.3167, 147.7500),
+        (45.2917, 147.6167),
+        (45.0567, 147.1750),
+        (44.8333, 147.0000),
+        (44.5417, 146.7300),
+        (44.0883, 146.3083),
+        (44.0567, 146.0000),
+        (44.0450, 145.8883),
+        (44.0417, 145.8617),
+        (44.0417, 145.8917),
+        (44.0417, 146.0000),
+        (44.0000, 146.5000),
+        (43.9050, 146.7750),
+        (43.8817, 146.7833),
+        (43.8783, 146.8017),
+        (43.8700, 146.8050),
+    ]
+    # Compare first n expected vs parsed (parsed may omit or include same length; ensure ordering consistency)
+    for (exp_lat, exp_lon), (lat, lon) in zip(expected_coords_95_18, m.coordinates):
+        assert pytest.approx(lat, rel=1e-4, abs=1e-4) == exp_lat
+        assert pytest.approx(lon, rel=1e-4, abs=1e-4) == exp_lon
 
 
 def test_sample_4_19_metadata():
@@ -230,6 +274,16 @@ def test_sample_4_19_metadata():
     assert any("2020" in c or c.endswith("20") for c in m.cancellations)
     assert m.geometry == "polygon"
     assert m.radius is None
+    expected_4_19 = [
+        (51.2398, 143.9792),
+        (51.4107, 143.9903),
+        (51.3978, 144.4593),
+        (51.2269, 144.4465),
+    ]
+    assert len(m.coordinates) == len(expected_4_19)
+    for (exp_lat, exp_lon), (lat, lon) in zip(expected_4_19, m.coordinates):
+        assert pytest.approx(lat, rel=1e-4, abs=1e-4) == exp_lat
+        assert pytest.approx(lon, rel=1e-4, abs=1e-4) == exp_lon
 
 
 def test_sample_16_19_metadata():
@@ -245,7 +299,10 @@ def test_sample_16_19_metadata():
         "010900 UTC MAR 19" in c or "010900 UTC MAR" in c for c in m.cancellations
     )
     assert m.geometry == "circle"
-    assert m.radius is not None and m.radius > 0
+    assert m.radius is not None and pytest.approx(m.radius) == 5
+    (lat_p, lon_p) = m.coordinates[0]
+    assert pytest.approx(lat_p, rel=1e-4, abs=1e-4) == 45.5333
+    assert pytest.approx(lon_p, rel=1e-4, abs=1e-4) == 141.3083
 
 
 if __name__ == "__main__":
