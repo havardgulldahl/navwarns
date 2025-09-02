@@ -10,9 +10,28 @@ from typing import List, Tuple, Optional
 # --- Regex patterns ---
 DTG_PATTERN = re.compile(r"(\d{6}Z [A-Z]{3} \d{2})")  # generic pattern
 DTG_LINE_PATTERN = re.compile(r"^\d{6}Z [A-Z]{3} \d{2}\s*$", re.MULTILINE)
-MSG_ID_PATTERN = re.compile(r"(HYDROARC \d+/\d+(?:\([^)]+\))?)")
-COORD_PATTERN = re.compile(r"(\d{2,3}-\d{2}\.\d{2}[NS])\s+(\d{3}-\d{2}\.\d{2}[EW])")
-CANCEL_PATTERN = re.compile(r"CANCEL (HYDROARC \d+/\d+|THIS MSG \d{6}Z [A-Z]{3} \d{2})")
+MSG_ID_PATTERN = re.compile(
+    r"(HYDROARC \d+/\d+(?:\([^)]+\))?|NAVAREA [A-Z0-9]+ \d+/\d+)"
+)
+# Coordinate pair pattern supporting both DM (DD-MM.mm) and DMS (DD-MM-SS.ss) forms.
+_LAT_PART = r"\d{2,3}-(?:\d{2}\.\d+|\d{2}-\d{2}(?:\.\d+)?)"
+_LON_PART = r"\d{3}-(?:\d{2}\.\d+|\d{2}-\d{2}(?:\.\d+)?)"
+COORD_PATTERN = re.compile(rf"({_LAT_PART}[NS])\s+({_LON_PART}[EW])")
+# Expanded cancellation recognition:
+#  - HYDROARC X/Y
+#  - plain X/Y (e.g. 47/18)
+#  - THIS MSG <DTG>
+#  - THIS MESSAGE <DD MON YY>
+#  - THIS MSG <DD MON YY>
+CANCEL_PATTERN = re.compile(
+    r"CANCEL ("  # capture the target only
+    r"HYDROARC \d+/\d+"  # structured HYDROARC
+    r"|\d+/\d+"  # plain number/year
+    r"|THIS (?:MSG|MESSAGE) \d{6}Z [A-Z]{3} \d{2}"  # DTG form with Z
+    r"|THIS (?:MSG|MESSAGE) \d{6} UTC [A-Z]{3} \d{2}"  # DTG without Z + UTC
+    r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # date only 2 or 4-digit year
+    r")"
+)
 
 
 # --- Data container ---
@@ -24,6 +43,8 @@ class NavwarnMessage:
     coordinates: List[Tuple[float, float]] = field(default_factory=list)
     cancellations: List[str] = field(default_factory=list)
     hazard_type: Optional[str] = None
+    geometry: Optional[str] = None  # one of: point, linestring, polygon, circle
+    radius: Optional[float] = None  # miles / NM (unit ambiguous in source)
     body: str = ""
 
     @classmethod
@@ -34,6 +55,7 @@ class NavwarnMessage:
         coords = parse_coordinates(body)
         cancels = parse_cancellations(body)
         hazard = classify_hazard(body)
+        geometry, radius = analyze_geometry(body, coords)
         return cls(
             dtg=dtg,
             raw_dtg=dtg_str,
@@ -41,6 +63,8 @@ class NavwarnMessage:
             coordinates=coords,
             cancellations=cancels,
             hazard_type=hazard,
+            geometry=geometry,
+            radius=radius,
             body=body,
         )
 
@@ -72,17 +96,40 @@ def parse_dtg(dtg_str: str) -> Optional[datetime]:
 
 def parse_msg_id(body: str) -> Optional[str]:
     match = MSG_ID_PATTERN.search(body)
-    return match.group(1) if match else None
+    if match:
+        return match.group(1)
+    # Sometimes the identifier is the very first line with trailing spaces not included in body (fallback path)
+    first_line = body.splitlines()[0].strip() if body.strip() else ""
+    m2 = MSG_ID_PATTERN.match(first_line)
+    if m2:
+        return m2.group(1)
+    return None
 
 
 def coord_to_decimal(coord: str) -> Optional[float]:
-    match = re.match(r"(\d+)-(\d+\.\d+)([NSEW])", coord)
-    if not match:
-        return None
-    deg, minutes, hemi = match.groups()
-    deg = int(deg)
-    minutes = float(minutes)
-    decimal = deg + (minutes / 60)
+    """Convert coordinate token to signed decimal degrees.
+
+    Supports:
+      - DM:  DD-MM.mmH (minutes decimal)
+      - DMS: DD-MM-SS.ssH (seconds decimal)
+    where H is hemisphere N/S/E/W.
+    """
+    # DMS first
+    m_dms = re.match(r"^(\d+)-(\d+)-(\d+(?:\.\d+)?)([NSEW])$", coord)
+    if m_dms:
+        deg_s, min_s, sec_s, hemi = m_dms.groups()
+        deg_i = int(deg_s)
+        min_i = int(min_s)
+        sec_f = float(sec_s)
+        decimal = deg_i + (min_i / 60.0) + (sec_f / 3600.0)
+    else:
+        m_dm = re.match(r"^(\d+)-(\d+\.\d+)([NSEW])$", coord)
+        if not m_dm:
+            return None
+        deg_s, min_s, hemi = m_dm.groups()
+        deg_i = int(deg_s)
+        min_f = float(min_s)
+        decimal = deg_i + (min_f / 60.0)
     if hemi in ["S", "W"]:
         decimal = -decimal
     return decimal
@@ -99,7 +146,31 @@ def parse_coordinates(body: str) -> List[Tuple[float, float]]:
 
 
 def parse_cancellations(body: str) -> List[str]:
-    return CANCEL_PATTERN.findall(body)
+    """Extract cancellation references.
+
+    We purposely broaden parsing to capture simple NAVAREA style references like
+    'CANCEL 47/18', multi-word forms like 'CANCEL THIS MESSAGE 01 JAN 19' and the
+    existing HYDROARC / DTG formats. Returned values are the captured target
+    strings without the leading 'CANCEL '.
+    """
+    cancels: List[str] = []
+    # Primary regex (already excludes the leading 'CANCEL ' via group)
+    cancels.extend(CANCEL_PATTERN.findall(body))
+    # Additional heuristic: for any line containing CANCEL, pull all token forms NNN/YY
+    for line in body.splitlines():
+        if "CANCEL" in line.upper():
+            for m in re.findall(r"\b(\d+/\d+)\b", line):
+                # Skip if a longer token already captured (e.g., HYDROARC 134/25)
+                if any(c.endswith(m) for c in cancels):
+                    continue
+                if m not in cancels:
+                    cancels.append(m)
+    # Heuristic: drop any plain number/year token that corresponds to the message id in body
+    msg_id_match = re.search(r"HYDROARC (\d+/\d+)", body)
+    if msg_id_match:
+        own_suffix = msg_id_match.group(1)
+        cancels = [c for c in cancels if c != own_suffix]
+    return cancels
 
 
 def classify_hazard(body: str) -> Optional[str]:
@@ -120,6 +191,46 @@ def classify_hazard(body: str) -> Optional[str]:
     if "ENC" in text and "CANCELLED" in text:
         return "chart advisory"
     return "general"
+
+
+def analyze_geometry(
+    body: str, coords: List[Tuple[float, float]]
+) -> Tuple[str, Optional[float]]:
+    """Infer geometry type (point/linestring/polygon/circle) and radius if applicable.
+
+    Heuristics:
+      - Circle: text contains '<number> (MILE|NM) RADIUS' or 'WITHIN <number> ... RADIUS' and at least one coordinate.
+      - Linestring: phrase 'ALONG LINE' OR many (>=5) coordinates and not circle/polygon.
+      - Polygon: phrase 'AREA BOUNDED BY' (>=3 coords) OR exactly 4 distinct coords in area context.
+      - Point: fallback when one coordinate only.
+    Radius unit not normalized; numeric value returned.
+    """
+    text = body.upper()
+    radius: Optional[float] = None
+    circle_pattern = re.search(
+        r"(WITHIN\s+)?(\d+(?:\.\d+)?)\s*(NM|NAUTICAL MILES?|MILES?|MILE)\s+RADIUS", text
+    )
+    geometry = None
+    if circle_pattern and coords:
+        try:
+            radius = float(circle_pattern.group(2))
+            geometry = "circle"
+        except ValueError:
+            radius = None
+    if geometry != "circle":
+        if ("AREA BOUNDED BY" in text or "AREA BOUNDED" in text) and len(coords) >= 3:
+            geometry = "polygon"
+        elif "ALONG LINE" in text or (len(coords) >= 5 and len(coords) != 4):
+            geometry = "linestring"
+        elif len(coords) > 1:
+            # If exactly 4 coordinates and no keywords, assume polygon only if repeating first not required
+            if len(coords) == 4 and ("AREA" in text and "BOUND" in text):
+                geometry = "polygon"
+            else:
+                geometry = "linestring" if len(coords) > 2 else "point"
+    if not geometry:
+        geometry = "point" if coords else "point"
+    return geometry, radius
 
 
 # --- Top-level parser ---
@@ -152,6 +263,16 @@ def parse_navwarns(text: str) -> List[NavwarnMessage]:
             current_body_lines.append(line)
     # Flush last
     flush()
+
+    # Fallback: If no DTG-triggered messages were found but text is non-empty,
+    # treat the entire blob as a single message (NAVAREA style without explicit DTG line)
+    if not messages and text.strip():
+        first_line = lines[0].strip() if lines else ""
+        body = "\n".join(
+            lines
+        ).strip()  # include full text so msg id regex can hit first line
+        msg = NavwarnMessage.from_text(first_line, body)
+        messages.append(msg)
 
     # If multiple messages, normalize msg_id by stripping trailing parentheses group
     if len(messages) > 1:

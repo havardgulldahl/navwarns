@@ -34,6 +34,45 @@ HYDROARC 137/25.
 ROCKET LAUNCH HAZARDOUS OPERATIONS 10-10.00N 020-20.00E.
 """
 
+SAMPLE_95_18 = """
+    NAVAREA XIII 95/18 
+TATARSKIY PROLIV SEA OF OKHOTSK AND KURIL'SKIYE OSTROVA 
+CHARTS RUS 62076 62009 61018 61019 
+1. CABLE LAID ALONG LINE 49-03.8N 140-18.7E 49-03.7N 140-18.8E 
+49-03.7N 140-18.9E 49-03.7N 140-19.2E 49-03.9N 140-21.1E 
+49-03.5N 140-26.9E 49-03.5N 140-30.5E 49-02.2N 140-51.1E 
+49-01.8N 141-50.1E 49-02.6N 142-01.5E 49-02.6N 142-01.6E 
+46-51.1N 143-10.2E 46-52.0N 143-12.0E 46-56.5N 143-23.0E 
+46-56.5N 143-33.0E 46-49.0N 143-53.5E 46-38.5N 144-47.0E 
+45-22.5N 147-00.0E 45-20.5N 147-45.0E 45-14.5N 147-51.5E 
+45-13.6N 147-52.3E 45-14.2N 147-51.5E 45-19.0N 147-45.0E 
+45-17.5N 147-37.0E 45-03.4N 147-10.5E 44-50.0N 147-00.0E 
+44-32.5N 146-43.8E 44-05.3N 146-18.5E 44-03.4N 146-00.0E 
+44-02.7N 145-53.3E 44-02.5N 145-51.7E 44-02.5N 145-53.5E 
+44-02.5N 146-00.0E 44-00.0N 146-30.0E 43-54.3N 146-46.5E 
+43-52.9N 146-47.0E 43-52.7N 146-48.1E 43-52.2N 146-48.3E 
+CAUTION ADVISED 
+2. CANCEL 47/18 AND THIS PARA
+"""
+
+SAMPLE_4_19 = """ NAVAREA XIII 4/19 
+SEA OF OKHOTSK 
+CHART RUS 62175 
+1. DRILLING OPERATIONS UNTIL 31 DEC IN AREA BOUNDED BY 
+51-14-23.13N 143-58-45.07E 51-24-38.52N 143-59-25.05E 
+51-23-52.01N 144-27-33.61E 51-13-37.00N 144-26-47.38E 
+2. CANCEL THIS MESSAGE 01 JAN 2020
+"""
+
+SAMPLE_16_19 = """
+NAVAREA XIII 16/19 
+SEA OF JAPAN 
+CHART RUS 62012 
+1. GUNNERY EXERCISES 28 FEB 01 MAR 0000 TO 0800 UTC 
+IN AREA WITHIN 5 MILE RADIUS OF 45-32.0N 141-18.5E 
+2. CANCEL THIS MESSAGE 010900 UTC MAR 19
+"""
+
 
 def test_parse_dtg():
     dtg = parse_dtg("192359Z AUG 25")
@@ -115,6 +154,8 @@ def test_parse_navwarns_single_message():
     assert "HYDROARC 134/25" in m.cancellations
     assert any("THIS MSG" in c for c in m.cancellations)
     assert m.hazard_type == "derelict vessel"
+    assert m.geometry == "point"
+    assert m.radius is None
 
 
 def test_parse_navwarns_multi_messages():
@@ -129,6 +170,8 @@ def test_parse_navwarns_multi_messages():
     assert hazards[1] == "hazardous operations"
     assert len(msgs[0].coordinates) == 1
     assert len(msgs[1].coordinates) == 1
+    assert msgs[0].geometry == "point"
+    assert msgs[1].geometry == "point"
 
 
 def test_empty_text_yields_no_messages():
@@ -157,6 +200,52 @@ def test_navwarnmessage_factory():
 def test_coord_to_decimal_invalid():
     assert coord_to_decimal("BAD") is None
     assert coord_to_decimal("1234N") is None
+
+
+def test_sample_95_18_metadata():
+    msgs = parse_navwarns(SAMPLE_95_18)
+    assert len(msgs) == 1
+    m = msgs[0]
+    assert m.msg_id == "NAVAREA XIII 95/18"
+    assert len(m.coordinates) >= 10
+    assert any(c.endswith("47/18") or c == "47/18" for c in m.cancellations)
+    # Spot check first and last coordinate approx
+    first_lat, first_lon = m.coordinates[0]
+    last_lat, last_lon = m.coordinates[-1]
+    assert pytest.approx(first_lat, rel=1e-4, abs=1e-4) == 49.0633
+    assert pytest.approx(first_lon, rel=1e-4, abs=1e-4) == 140.3117
+    assert pytest.approx(last_lat, rel=1e-4, abs=1e-4) == 43.8700
+    assert pytest.approx(last_lon, rel=1e-4, abs=1e-4) == 146.8050
+    assert m.geometry == "linestring"
+    assert m.radius is None
+
+
+def test_sample_4_19_metadata():
+    msgs = parse_navwarns(SAMPLE_4_19)
+    assert len(msgs) == 1
+    m = msgs[0]
+    assert m.msg_id == "NAVAREA XIII 4/19"
+    assert len(m.coordinates) == 4
+    # Cancellation captured (allow either 2020 or truncated 20)
+    assert any("2020" in c or c.endswith("20") for c in m.cancellations)
+    assert m.geometry == "polygon"
+    assert m.radius is None
+
+
+def test_sample_16_19_metadata():
+    msgs = parse_navwarns(SAMPLE_16_19)
+    assert len(msgs) == 1
+    m = msgs[0]
+    assert m.msg_id == "NAVAREA XIII 16/19"
+    assert len(m.coordinates) == 1
+    lat, lon = m.coordinates[0]
+    assert pytest.approx(lat, rel=1e-4, abs=1e-4) == 45.5333
+    assert pytest.approx(lon, rel=1e-4, abs=1e-4) == 141.3083
+    assert any(
+        "010900 UTC MAR 19" in c or "010900 UTC MAR" in c for c in m.cancellations
+    )
+    assert m.geometry == "circle"
+    assert m.radius is not None and m.radius > 0
 
 
 if __name__ == "__main__":
