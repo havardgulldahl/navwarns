@@ -45,11 +45,16 @@ class NavwarnMessage:
     cancellations: List[str] = field(default_factory=list)
     hazard_type: Optional[str] = None
     geometry: Optional[str] = None  # one of: point, linestring, polygon, circle
+    geometry: Optional[str] = (
+        None  # one of: point, linestring, polygon, circle, multipoint
+    )
     radius: Optional[float] = None  # miles / NM (unit ambiguous in source)
+    groups: List[List[Tuple[float, float]]] = field(default_factory=list)
     body: str = ""
+    year: Optional[int] = None  # four-digit year inferred from msg_id or dtg
 
     # --- GeoJSON helpers ---
-    def geojson_geometry(self, circle_segments: int = 72) -> dict:
+    def geojson_geometry(self, circle_segments: int = 72) -> Optional[dict]:
         """Return a GeoJSON geometry object derived from parsed coordinates & geometry metadata.
 
         circle: approximated as a Polygon with given number of segments (>=8) around center point (first coord).
@@ -59,7 +64,7 @@ class NavwarnMessage:
         """
         coords = self.coordinates or []
         if not coords:
-            return {"type": "Point", "coordinates": []}
+            return None  # null geometry for info-only
         geom_type = (self.geometry or "").lower()
         if geom_type == "circle" and self.radius and len(coords) >= 1:
             # Approximate circle; assume radius in nautical miles -> degrees of latitude = r/60.
@@ -83,6 +88,11 @@ class NavwarnMessage:
                 "type": "LineString",
                 "coordinates": [[lon, lat] for (lat, lon) in coords],
             }
+        if geom_type == "multipoint" and len(coords) >= 2:
+            return {
+                "type": "MultiPoint",
+                "coordinates": [[lon, lat] for (lat, lon) in coords],
+            }
         if geom_type == "polygon" and len(coords) >= 3:
             ring = [[lon, lat] for (lat, lon) in coords]
             if ring[0] != ring[-1]:
@@ -93,14 +103,16 @@ class NavwarnMessage:
         return {"type": "Point", "coordinates": [lon, lat]}
 
     def to_geojson_feature(self) -> dict:
+        geom = self.geojson_geometry()
         return {
             "type": "Feature",
             "id": self.msg_id or None,
-            "geometry": self.geojson_geometry(),
+            "geometry": geom,
             "properties": {
                 "dtg": self.dtg.isoformat() if self.dtg else None,
                 "raw_dtg": self.raw_dtg,
                 "msg_id": self.msg_id,
+                "year": self.year,
                 "cancellations": self.cancellations,
                 "hazard_type": self.hazard_type,
                 "geometry_kind": self.geometry,
@@ -108,6 +120,56 @@ class NavwarnMessage:
                 "body": self.body,
             },
         }
+
+    def to_geojson_features(self) -> List[dict]:
+        if not self.groups or len(self.groups) <= 1 or self.geometry == "circle":
+            return [self.to_geojson_feature()]
+        # Multiple groups -> split into separate features
+        kw = self.body.upper()
+        area_hint = any(k in kw for k in ["AREA", "BOUNDED", "WITHIN", "RADIUS"])
+        feats: List[dict] = []
+        for idx, grp in enumerate(self.groups):
+            if not grp:
+                continue
+            if len(grp) == 1:
+                lat, lon = grp[0]
+                geom = {"type": "Point", "coordinates": [lon, lat]}
+            elif len(grp) >= 3 and area_hint:
+                ring = [[lon, lat] for (lat, lon) in grp]
+                if ring[0] != ring[-1]:
+                    ring.append(ring[0])
+                geom = {"type": "Polygon", "coordinates": [ring]}
+            elif len(grp) >= 2 and self.geometry == "linestring":
+                geom = {
+                    "type": "LineString",
+                    "coordinates": [[lon, lat] for (lat, lon) in grp],
+                }
+            else:
+                if len(grp) > 1:
+                    geom = {
+                        "type": "MultiPoint",
+                        "coordinates": [[lon, lat] for (lat, lon) in grp],
+                    }
+                else:
+                    lat, lon = grp[0]
+                    geom = {"type": "Point", "coordinates": [lon, lat]}
+            feats.append(
+                {
+                    "type": "Feature",
+                    "id": f"{self.msg_id or 'MSG'}#grp{idx+1}",
+                    "geometry": geom,
+                    "properties": {
+                        "parent_id": self.msg_id,
+                        "group_index": idx + 1,
+                        "dtg": self.dtg.isoformat() if self.dtg else None,
+                        "raw_dtg": self.raw_dtg,
+                        "year": self.year,
+                        "hazard_type": self.hazard_type,
+                        "body": self.body,
+                    },
+                }
+            )
+        return feats or [self.to_geojson_feature()]
 
     @classmethod
     def from_text(cls, dtg_str: str, body: str) -> "NavwarnMessage":
@@ -118,6 +180,8 @@ class NavwarnMessage:
         cancels = parse_cancellations(body)
         hazard = classify_hazard(body)
         geometry, radius = analyze_geometry(body, coords)
+        groups = parse_coordinate_groups(body)
+        year = extract_year(msg_id, dtg)
         return cls(
             dtg=dtg,
             raw_dtg=dtg_str,
@@ -127,7 +191,9 @@ class NavwarnMessage:
             hazard_type=hazard,
             geometry=geometry,
             radius=radius,
+            groups=groups,
             body=body,
+            year=year,
         )
 
 
@@ -207,6 +273,28 @@ def parse_coordinates(body: str) -> List[Tuple[float, float]]:
     return coords
 
 
+def parse_coordinate_groups(body: str) -> List[List[Tuple[float, float]]]:
+    """Split coordinates into enumerated groups (A., B., 1., 2., etc.)."""
+    lines = body.splitlines()
+    groups: List[List[Tuple[float, float]]] = []
+    current: List[Tuple[float, float]] = []
+    enum_pattern = re.compile(r"^\s*(?:[A-Z]|\d{1,2})\.")
+    for raw in lines:
+        line = raw.strip()
+        if enum_pattern.match(line):
+            if current:
+                groups.append(current)
+                current = []
+        for lat, lon in COORD_PATTERN.findall(line):
+            lat_dec = coord_to_decimal(lat)
+            lon_dec = coord_to_decimal(lon)
+            if lat_dec is not None and lon_dec is not None:
+                current.append((lat_dec, lon_dec))
+    if current:
+        groups.append(current)
+    return groups
+
+
 def parse_cancellations(body: str) -> List[str]:
     """Extract cancellation references.
 
@@ -258,34 +346,61 @@ def classify_hazard(body: str) -> Optional[str]:
 def analyze_geometry(
     body: str, coords: List[Tuple[float, float]]
 ) -> Tuple[str, Optional[float]]:
-    """Infer geometry type (point/linestring/polygon/circle) and radius if applicable.
+    """Infer geometry kind and possible radius.
 
-    Heuristics:
-      - Circle: text contains '<number> (MILE|NM) RADIUS' or 'WITHIN <number> ... RADIUS' and at least one coordinate.
-      - Linestring: phrase 'ALONG LINE' OR many (>=5) coordinates and not circle/polygon.
-      - Polygon: phrase 'AREA BOUNDED BY' (>=3 coords) OR exactly 4 distinct coords in area context.
-      - Point: fallback when one coordinate only.
-    Radius unit not normalized; numeric value returned.
+    Added heuristics:
+      - multipoint: list-style enumerations (1. 2. 3.) with multiple coordinates and feature keywords.
+      - polygon: explicit 'AREA BOUNDED' or first ~= last closure or 4 points with boundary terms.
+      - linestring: 'ALONG LINE' or many points not otherwise polygon/multipoint.
+      - circle: radius phrase.
+      - empty: no coords -> still return 'point' but renderer will create null geometry.
     """
     text = body.upper()
     radius: Optional[float] = None
     circle_pattern = re.search(
         r"(WITHIN\s+)?(\d+(?:\.\d+)?)\s*(NM|NAUTICAL MILES?|MILES?|MILE)\s+RADIUS", text
     )
-    geometry = None
+    geometry: Optional[str] = None
     if circle_pattern and coords:
         try:
             radius = float(circle_pattern.group(2))
             geometry = "circle"
         except ValueError:
-            radius = None
+            pass
     if geometry != "circle":
-        if ("AREA BOUNDED BY" in text or "AREA BOUNDED" in text) and len(coords) >= 3:
+        # Multipoint: enumerated list and feature nouns
+        if len(coords) >= 2 and re.search(r"\b1\.\s", text):
+            feature_terms = [
+                "WELL",
+                "BUOY",
+                "HEAD",
+                "PLATFORM",
+                "STATION",
+                "LIGHT",
+                "BEACON",
+            ]
+            if any(term in text for term in feature_terms):
+                geometry = "multipoint"
+        # Polygon by keywords
+        if (
+            not geometry
+            and ("AREA BOUNDED BY" in text or "AREA BOUNDED" in text)
+            and len(coords) >= 3
+        ):
             geometry = "polygon"
-        elif "ALONG LINE" in text or (len(coords) >= 5 and len(coords) != 4):
+        # Closed ring
+        if not geometry and len(coords) >= 4:
+            f_lat, f_lon = coords[0]
+            l_lat, l_lon = coords[-1]
+            if abs(f_lat - l_lat) < 1e-4 and abs(f_lon - l_lon) < 1e-4:
+                geometry = "polygon"
+        # Linestring for many points (cable, track)
+        if not geometry and (
+            "ALONG LINE" in text or (len(coords) >= 5 and len(coords) != 4)
+        ):
             geometry = "linestring"
-        elif len(coords) > 1:
-            # If exactly 4 coordinates and no keywords, assume polygon only if repeating first not required
+        # Fallback resolution
+        if not geometry and len(coords) > 1:
             if len(coords) == 4 and ("AREA" in text and "BOUND" in text):
                 geometry = "polygon"
             else:
@@ -293,6 +408,26 @@ def analyze_geometry(
     if not geometry:
         geometry = "point" if coords else "point"
     return geometry, radius
+
+
+def extract_year(msg_id: Optional[str], dtg: Optional[datetime]) -> Optional[int]:
+    """Infer four-digit year from msg_id suffix (e.g., HYDROARC 136/25 -> 2025) or dtg.
+
+    Rules:
+      - If msg_id ends with /YY where YY are digits, map 00-79 -> 2000-2079, 80-99 -> 1980-1999 (assumption).
+      - Else fall back to dtg.year if available.
+    """
+    if msg_id:
+        m = re.search(r"/(\d{2})(?:\b|\D*$)", msg_id)
+        if m:
+            yy = int(m.group(1))
+            if 0 <= yy <= 79:
+                return 2000 + yy
+            else:
+                return 1900 + yy
+    if dtg:
+        return dtg.year
+    return None
 
 
 # --- Top-level parser ---
@@ -380,6 +515,7 @@ if __name__ == "__main__":
                 "dtg": m.dtg.isoformat() if m.dtg else None,
                 "raw_dtg": m.raw_dtg,
                 "msg_id": m.msg_id,
+                "year": m.year,
                 "coordinates": m.coordinates,
                 "cancellations": m.cancellations,
                 "hazard_type": m.hazard_type,

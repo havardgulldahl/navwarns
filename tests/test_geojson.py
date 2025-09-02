@@ -62,3 +62,19 @@ def test_feature_wrapper():
     assert f["type"] == "Feature"
     assert f["geometry"]["type"] == "Point"
     assert f["properties"]["msg_id"] == "TEST/00"
+
+
+def test_multipoint_geojson():
+    m = build_msg("multipoint", [(10.0, 20.0), (11.0, 21.0)])
+    g = m.geojson_geometry()
+    assert g is not None
+    assert g["type"] == "MultiPoint"
+    assert len(g["coordinates"]) == 2
+
+
+def test_null_geometry():
+    m = build_msg("point", [])  # no coords
+    g = m.geojson_geometry()
+    assert g is None
+    f = m.to_geojson_feature()
+    assert f["geometry"] is None

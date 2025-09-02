@@ -305,5 +305,23 @@ def test_sample_16_19_metadata():
     assert pytest.approx(lon_p, rel=1e-4, abs=1e-4) == 141.3083
 
 
+def test_year_inference_samples():
+    # Single message with HYDROARC id 136/25 -> 2025
+    msgs = parse_navwarns(SAMPLE_TEXT)
+    assert msgs[0].year == 2025
+    # Multi-message block: both 2025
+    multi = parse_navwarns(MULTI_MESSAGE_TEXT)
+    assert [m.year for m in multi] == [2025, 2025]
+    # NAVAREA XIII 95/18 -> 2018
+    m95 = parse_navwarns(SAMPLE_95_18)[0]
+    assert m95.year == 2018
+    # NAVAREA XIII 4/19 -> 2019
+    m4 = parse_navwarns(SAMPLE_4_19)[0]
+    assert m4.year == 2019
+    # NAVAREA XIII 16/19 -> 2019
+    m16 = parse_navwarns(SAMPLE_16_19)[0]
+    assert m16.year == 2019
+
+
 if __name__ == "__main__":
     pytest.main([__file__])
