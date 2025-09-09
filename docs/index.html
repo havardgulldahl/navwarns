@@ -119,7 +119,11 @@
             }
         );
 
+        // Example transformation from WGS84 to EPSG:3575
+        const wgs84ToEpsg3575 = proj4('EPSG:4326', 'EPSG:3575');
+
         // --- Fix for tile seams (Leaflet issue #3575) ---
+        /*
         (function () {
             const originalInitTile = L.GridLayer.prototype._initTile;
             L.GridLayer.include({
@@ -131,6 +135,7 @@
                 }
             });
         })();
+        */
 
         // --- Initialize map ---
         const map = L.map('map', {
@@ -239,6 +244,12 @@
                                     dashArray: '4,4'
                                 }).addTo(featureGroup);
                             }
+                        }
+                        ,
+                        coordsToLatLng: function (coords) {
+                            // proj4 transforms [lng, lat] by default, Leaflet expects [lat, lng]
+                            const transformed = wgs84ToEpsg3575.forward([coords[0], coords[1]]);
+                            return map.unproject(transformed, map.getMaxZoom());
                         }
                     }).addTo(featureGroup);
 
