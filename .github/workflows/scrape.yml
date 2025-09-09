@@ -22,8 +22,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add current/* 
-          cp current/.scrape_timestamp doc/scrape_timestamp.txt
-          git add current/.scrape_timestamp doc/scrape_timestamp.txt
+          cp current/.scrape_timestamp docs/scrape_timestamp.txt
+          git add current/.scrape_timestamp docs/scrape_timestamp.txt
           git commit -m "Update NavWARNs" || echo "No changes"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           git push
