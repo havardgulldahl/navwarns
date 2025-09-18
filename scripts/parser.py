@@ -11,8 +11,14 @@ from typing import List, Tuple, Optional
 # --- Regex patterns ---
 DTG_PATTERN = re.compile(r"(\d{6}Z [A-Z]{3} \d{2})")  # generic pattern
 DTG_LINE_PATTERN = re.compile(r"^\d{6}Z [A-Z]{3} \d{2}\s*$", re.MULTILINE)
+# Message identifier pattern. Supports:
+#  - HYDROARC 123/24 (optionally with parentheses suffix)
+#  - NAVAREA A 123/24 (existing)
+#  - NAVAREA XX 112/25 (two-letter designators like 'XX' newly added)
+#    (The previous pattern already allowed multiple alphanumerics, but we keep this
+#     comment to document the explicit requirement.)
 MSG_ID_PATTERN = re.compile(
-    r"(HYDROARC \d+/\d+(?:\([^)]+\))?|NAVAREA [A-Z0-9]+ \d+/\d+)"
+    r"(HYDROARC \d+/\d+(?:\([^)]+\))?|NAVAREA [A-Z0-9]{1,3} \d+/\d+)"
 )
 # Coordinate pair pattern supporting both DM (DD-MM.mm) and DMS (DD-MM-SS.ss) forms.
 _LAT_PART = r"\d{2,3}-(?:\d{2}\.\d+|\d{2}-\d{2}(?:\.\d+)?)"

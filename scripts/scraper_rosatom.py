@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
+import json
 import os
 import re
 import sys
 import time
 import math
 import logging
-from typing import List, Tuple
+from typing import Any, List, Tuple
 from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
@@ -22,10 +23,23 @@ Assumptions from provided HTML:
 Configure BASE_URL and START_PATH below as needed.
 """
 
+try:
+    from . import parser as navparser  # type: ignore
+except ImportError:  # running as a script
+    import importlib.util, pathlib
+
+    this_dir = pathlib.Path(__file__).resolve().parent
+    parser_path = this_dir / "parser.py"
+    spec = importlib.util.spec_from_file_location("navparser", parser_path)
+    navparser = importlib.util.module_from_spec(spec)  # type: ignore
+    assert spec and spec.loader
+    spec.loader.exec_module(navparser)  # type: ignore
+
 # ---------------- Configuration ----------------
 BASE_URL = "https://nsr.rosatom.ru/en/navigational-and-weather-information/navarea/"
 START_PATH = ""  # seed page path relative to BASE_URL
-OUT_DIR = f"../history/{datetime.datetime.now().strftime('%Y')}/NAVAREAXX"  # output directory for downloaded pages
+OUT_DIR = f"history/{datetime.datetime.now().strftime('%Y')}/NAVAREAXX"  # output directory for downloaded pages
+CURRENT_DIR = "current"
 REQUEST_TIMEOUT = 20  # seconds
 MAX_RETRIES = 4
 RETRY_BACKOFF = 2.0  # exponential backoff factor
@@ -144,6 +158,43 @@ def extract_navwarns_from_html(html: bytes) -> List[str]:
     return navwarns
 
 
+def extract_total_navwarns_from_html(html: bytes) -> int:
+    """
+    Extract total number of navwarns indicated on the page, if available.
+    Looks for text like "NAVAREA 1 - 6 of 13" in the html.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    text = soup.get_text()
+    m = re.search(r"NAVAREA\s+\d+\s+-\s+\d+\s+of\s+(\d+)", text)
+
+    if m:
+        try:
+            return int(m.group(1))
+        except ValueError:
+            pass
+    return 0
+
+
+def serialize_message(msg: Any) -> dict:
+    if hasattr(msg, "to_geojson_feature"):
+        feat = msg.to_geojson_feature()
+        # Preserve summary field placeholder for backward compatibility
+        feat["properties"]["summary"] = None
+        return feat
+    # Fallback (should not usually happen)
+    coords = getattr(msg, "coordinates", []) or []
+    geometry = {"type": "Point", "coordinates": []}
+    if coords:
+        lat, lon = coords[0]
+        geometry = {"type": "Point", "coordinates": [lon, lat]}
+    return {
+        "type": "Feature",
+        "id": getattr(msg, "msg_id", None),
+        "geometry": geometry,
+        "properties": {"raw": str(msg)},
+    }
+
+
 def main():
     seed_url = urljoin(BASE_URL, START_PATH)
     logging.info("Seed URL: %s", seed_url)
@@ -161,7 +212,10 @@ def main():
     # Ensure we include the seed in the list (avoid duplicates)
     page_urls = list(dict.fromkeys(page_urls))  # de-duplicate preserving order
 
-    navwarns = []
+    # start with the seed page's navwarns
+    total_navwarns = extract_total_navwarns_from_html(seed_html)
+    logging.info("Total navwarns indicated on seed page: %d", total_navwarns)
+    navwarns = extract_navwarns_from_html(seed_html)
     # Download each page
     for url in page_urls:
         # Already saved seed; skip refetch if the same URL
@@ -178,14 +232,32 @@ def main():
 
     # Save navwarns to a file
     if navwarns:
-        navwarns_file = os.path.join(
-            OUT_DIR, datetime.datetime.now().date().isoformat(), "navwarns.txt"
+        navwarns_file_raw = os.path.join(
+            OUT_DIR, datetime.datetime.now().date().isoformat(), "navwarns_raw.txt"
         )
-        os.makedirs(os.path.dirname(navwarns_file), exist_ok=True)
-        with open(navwarns_file, "w", encoding="utf-8") as f:
-            for nw in navwarns:
-                f.write(nw + "\n\n")
-        logging.info("Extracted %d navwarns to %s", len(navwarns), navwarns_file)
+        os.makedirs(os.path.dirname(navwarns_file_raw), exist_ok=True)
+        f_raw = open(navwarns_file_raw, "w", encoding="utf-8")
+        for nw in navwarns:
+            f_raw.write(nw + "\n\n")
+            navmsgs = navparser.parse_navwarns(nw)
+            for m in navmsgs:
+                safe_id = "unknown_id"
+                if msg_id := getattr(m, "msg_id", None):
+                    safe_id = re.sub(r"[^\w\-]", "_", msg_id)
+
+                # print(json.dumps(serialize_message(m), ensure_ascii=False))
+                filename = f"{safe_id}.json"
+                with open(
+                    os.path.join(CURRENT_DIR, "navwarns", filename),
+                    "w",
+                    encoding="utf-8",
+                ) as f_geo:
+                    f_geo.write(
+                        json.dumps(serialize_message(m), ensure_ascii=False) + "\n"
+                    )
+        f_raw.close()
+        logging.info("Extracted %d navwarns to %s", len(navwarns), CURRENT_DIR)
+
     else:
         logging.info("No navwarns extracted.")
 
