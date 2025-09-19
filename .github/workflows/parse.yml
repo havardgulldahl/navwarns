@@ -38,7 +38,7 @@ jobs:
 
       - name: Random sleep to stagger API calls
         run: |
-          delay=$((RANDOM % 20 + 5)) # sleep 5–25 seconds
+          delay=$((RANDOM % 40 + 5)) # sleep 5-45 seconds
           echo "Sleeping $delay seconds..."
           sleep $delay
 
