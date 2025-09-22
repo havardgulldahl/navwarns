@@ -125,7 +125,7 @@ def serialize_message(msg: Any) -> dict:
         geometry = {"type": "Point", "coordinates": [lon, lat]}
     return {
         "type": "Feature",
-        "id": getattr(msg, "msg_id", None),
+        "id": getattr(msg, "msg_id") + "/" + getattr(msg, "year", ""),
         "geometry": geometry,
         "properties": {"raw": str(msg)},
     }
@@ -157,20 +157,18 @@ def main(parse_files: List = []):
 
     # Save prips to a file
     if raw_prips:
+        prips_location = os.path.join(CURRENT_DIR, "prips")
+        os.makedirs(prips_location, exist_ok=True)
         parsed_prips = navparser.parse_prips([(p.header, p.text) for p in raw_prips])
-        prips_file_raw = os.path.join(
-            OUT_DIR, datetime.datetime.now().date().isoformat(), "prips_raw.txt"
-        )
-        os.makedirs(os.path.dirname(prips_file_raw), exist_ok=True)
         for m in parsed_prips:
             safe_id = "unknown_id"
             if msg_id := getattr(m, "msg_id", None):
-                safe_id = re.sub(r"[^\w\-]", "_", msg_id)
+                safe_id = re.sub(r"[^\w\-]", "_", f"{msg_id}_{m.year}")
 
             # print(json.dumps(serialize_message(m), ensure_ascii=False))
             filename = f"{safe_id}.json"
             with open(
-                os.path.join(CURRENT_DIR, "prips", filename),
+                os.path.join(prips_location, filename),
                 "w",
                 encoding="utf-8",
             ) as f_geo:
