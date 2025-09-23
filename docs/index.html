@@ -21,7 +21,7 @@
         }
 
         .popup-content {
-            max-width: 250px;
+            max-width: 260px;
             word-wrap: break-word;
         }
 
@@ -57,7 +57,7 @@
             font-size: 12px;
             border-radius: 4px;
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-            max-width: 240px;
+            max-width: 260px;
         }
 
         .legend h4 {
@@ -88,13 +88,6 @@
             font-size: 10px;
             margin-right: 4px;
         }
-
-        /* Mobile tweaks */
-        @media (max-width: 480px) {
-            .legend {
-                max-width: 90vw;
-            }
-        }
     </style>
 </head>
 
@@ -110,10 +103,11 @@
         referrerpolicy="no-referrer"></script>
 
     <script>
-        // EPSG:3575 definition (Arctic Polar Stereographic)
+        // EPSG:3575 (Arctic Polar Stereographic)
         const crs3575 = new L.Proj.CRS(
             'EPSG:3575',
-            '+proj=stere +lat_0=90 +lat_ts=71 +lon_0=0 +k=1 +datum=WGS84 +units=m +no_defs',
+            //'+proj=stere +lat_0=90 +lat_ts=71 +lon_0=0 +k=1 +datum=WGS84 +units=m +no_defs',
+            '+proj=laea +lat_0=90 +lon_0=10 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs',
             {
                 origin: [-4889334.802955, 4889334.802955], // top-left
                 bounds: L.bounds(
@@ -128,76 +122,33 @@
             }
         );
 
-        // Initialize map
         const map = L.map('map', {
             crs: crs3575,
-            center: [89.9, 0], // near pole; 90 exactly can be problematic for some layers
+            center: [89.9, 0],
             zoom: 2,
             minZoom: 0,
             maxZoom: 10
         });
 
-        // WMTS helper for Arctic SDI
-        // Based on Leaflet WMTS pattern: computes correct TileMatrix, TileRow, TileCol for top-left origin
-        function wmtsTileLayer(options) {
-            const {
-                url, layer, style = 'default', tilematrixSet, format = 'image/png',
-                tileSize = 256, attribution = ''
-            } = options;
+        // WMTS as REST template. For this service, TileMatrix = z (0..10), origin is top-left, so y is standard.
+        const ArcticSDILayer = L.TileLayer.extend({
+            getTileUrl: function (coords) {
+                const z = coords.z;
+                const x = coords.x;
+                const y = coords.y;
+                // WMTS REST template: /wmts/1.0.0/{layer}/{style}/{tilematrixset}/{TileMatrix}/{TileRow}/{TileCol}.{formatExt}
+                return `https://basemap.arctic-sdi.org/mapcache/wmts/1.0.0/arctic_cascading/default/3575/${z}/${y}/${x}.png`;
+            }
+        });
 
-            // Build matrixIds that match map CRS zooms 0..N
-            // For Arctic SDI 3575, the service exposes 11 matrices; we map z->z directly.
-            const matrixIds = Array.from({ length: 11 }, (_, z) => ({
-                identifier: String(z),
-                scaleDenominator: null
-            }));
-
-            return L.tileLayer('', {
-                tileSize,
-                attribution,
-                bounds: crs3575.options.bounds,
-                updateWhenIdle: true,
-                updateInterval: 150,
-                keepBuffer: 2,
-                async getTileUrl(coords, done) { // use async function signature supported by Leaflet 1.9 via callback
-                    try {
-                        const z = coords.z;
-                        const tileMatrix = matrixIds[z]?.identifier ?? String(z);
-                        // WMTS uses TMS-style origin at top-left for this service
-                        const tileCol = coords.x;
-                        const tileRow = coords.y;
-
-                        const src = `${url}?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0` +
-                            `&LAYER=${encodeURIComponent(layer)}` +
-                            `&STYLE=${encodeURIComponent(style)}` +
-                            `&TILEMATRIXSET=${encodeURIComponent(tilematrixSet)}` +
-                            `&TILEMATRIX=${encodeURIComponent(tileMatrix)}` +
-                            `&TILEROW=${tileRow}&TILECOL=${tileCol}` +
-                            `&FORMAT=${encodeURIComponent(format)}`;
-                        done(null, src);
-                    } catch (e) {
-                        done(e, '');
-                    }
-                }
-            });
-        }
-
-        // Arctic SDI WMTS layer over HTTPS
-        const arcticBasemap = wmtsTileLayer({
-            url: 'https://basemap.arctic-sdi.org/mapcache/wmts',
-            layer: 'arctic_cascading',
-            tilematrixSet: '3575',
-            style: 'default',
-            format: 'image/png',
+        const arcticBasemap = new ArcticSDILayer('', {
             tileSize: 256,
             attribution: '<a href="https://arctic-sdi.org/">Arctic SDI</a>'
-        });
-        arcticBasemap.addTo(map);
+        }).addTo(map);
 
-        // Layer control
         L.control.layers({ 'Arctic SDI (EPSG:3575)': arcticBasemap }, {}).addTo(map);
 
-        // Category colors
+        // Colors and formatting
         const categoryColors = {
             military: '#d73027',
             accident: '#4575b4',
@@ -212,9 +163,7 @@
                 const d = new Date(dtg + (dtg.endsWith('Z') ? '' : 'Z'));
                 if (isNaN(d)) return dtg;
                 return d.toISOString().replace('T', ' ').replace(/\.\d{3}Z$/, 'Z');
-            } catch {
-                return dtg;
-            }
+            } catch { return dtg; }
         }
 
         function buildPopup(feature) {
@@ -239,7 +188,7 @@
         </div>`;
         }
 
-        // Load GeoJSON (WGS84), let Leaflet/project CRS handle reprojection
+        // Load GeoJSON in WGS84; DO NOT override coordsToLatLng. Leaflet will project to CRS.
         function loadGeoJsonLayer(url, { fit = false, addLegendFlag = false } = {}) {
             return fetch(url)
                 .then(r => {
@@ -251,6 +200,7 @@
 
                     const layer = L.geoJSON(data, {
                         pointToLayer: (feature, latlng) => {
+                            // latlng is a valid L.LatLng; previous error was when this arg became undefined.
                             const category = feature.properties?.category;
                             const color = getCategoryColor(category);
                             return L.circleMarker(latlng, {
@@ -266,21 +216,23 @@
                             layer.bindPopup(() => buildPopup(feature));
 
                             if (feature.geometry && feature.geometry.type === 'MultiPoint') {
-                                // Feature coords are [lng, lat] in WGS84
-                                const coords = feature.geometry.coordinates.map(c => [c[1], c[0]]);
-                                const category = feature.properties?.category;
-                                const color = getCategoryColor(category);
-                                L.polyline(coords, {
-                                    color,
-                                    weight: 2,
-                                    opacity: 0.6,
-                                    dashArray: '4,4'
-                                }).addTo(featureGroup);
+                                // Convert to LatLngs (Leaflet expects [lat, lng] order)
+                                const latlngs = feature.geometry.coordinates
+                                    .map(c => L.latLng(c[1], c[0]))
+                                    .filter(ll => Number.isFinite(ll.lat) && Number.isFinite(ll.lng));
+                                if (latlngs.length >= 2) {
+                                    const category = feature.properties?.category;
+                                    const color = getCategoryColor(category);
+                                    L.polyline(latlngs, {
+                                        color,
+                                        weight: 2,
+                                        opacity: 0.6,
+                                        dashArray: '4,4'
+                                    }).addTo(featureGroup);
+                                }
                             }
                         }
                     }).addTo(featureGroup);
-
-                    featureGroup.addLayer(layer);
 
                     if (fit) {
                         const b = featureGroup.getBounds();
@@ -297,7 +249,7 @@
         // Initial load
         loadGeoJsonLayer('navwarns.geojson', { fit: true, addLegendFlag: true });
 
-        // Legend control
+        // Legend
         function addLegend(features) {
             const categorySet = new Set();
             features.forEach(f => categorySet.add(f.properties?.category || 'unknown'));
