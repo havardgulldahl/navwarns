@@ -16,6 +16,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scripts/scraper.py
       - run: python scripts/scraper_rosatom.py
+      - run: python scripts/scraper_prips.py
       - name: List files
         run: ls -lR current
       - name: Commit and push
