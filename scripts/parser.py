@@ -275,18 +275,24 @@ class NavwarnMessage:
         hazard = classify_hazard(prip_str)
         geometry, radius = analyze_geometry(prip_str, coords)
         groups = parse_coordinate_groups(prip_str)
+        area_map = {
+            "МУРМАНСК": "MURMANSK",
+            "АРХАНГЕЛЬСК": "ARKHANGELSK",
+            "ЗАПАД": "WEST",
+        }
+        body_strip = re.sub(r"\n{2,}", "\n", prip_str.replace("\r", "\n"))
         return cls(
             dtg=None,
             raw_dtg=prip_header,
-            msg_id=msg_id,
+            msg_id=f"PRIP {area_map.get(area)} {msg_id}/{year}",
             coordinates=coords,
             cancellations=cancels,
             hazard_type=hazard,
             geometry=geometry,
             radius=radius,
             groups=groups,
-            body=prip_str,
-            year=year,
+            body=body_strip.replace("НННН", "").strip(),
+            year=f"20{year}" if year else None,
         )
 
 
@@ -420,23 +426,166 @@ def parse_cancellations(body: str) -> List[str]:
     return cancels
 
 
+from typing import Optional
+
+
 def classify_hazard(body: str) -> Optional[str]:
-    """Very simple keyword-based hazard classifier."""
+    """Very simple keyword-based hazard classifier with Russian PRIPs keywords."""
+    if not body:
+        return "general"
+
     text = body.upper()
-    if "DERELICT" in text and ("ADRIFT" in text or "M/V" in text or "VESSEL" in text):
+
+    # Derelict vessel
+    # EN: DERELICT, ADRIFT, VESSEL, M/V
+    # RU: БРОШЕННОЕ/БЕЗ ЭКИПАЖА/ДРЕЙФУЕТ, СУДНО, КОРАБЛЬ
+    if ("DERELICT" in text or "БРОШЕНН" in text or "БЕЗ ЭКИПАЖА" in text) and (
+        "ADRIFT" in text
+        or "ДРЕЙФ" in text
+        or "M/V" in text
+        or "VESSEL" in text
+        or "СУДНО" in text
+        or "КОРАБЛ" in text
+    ):
         return "derelict vessel"
-    if "SHOAL" in text:
+
+    # Shoals
+    # EN: SHOAL, SHALLOW, BANK
+    # RU: МЕЛИ, ОТМЕЛЬ, МАЛЫЕ ГЛУБИНЫ, БАНКА
+    if (
+        "SHOAL" in text
+        or "SHALLOW" in text
+        or "BANK" in text
+        or "МЕЛЬ" in text
+        or "МЕЛИ" in text
+        or "ОТМЕЛ" in text
+        or "МАЛЫЕ ГЛУБИНЫ" in text
+        or "БАНКА" in text
+        or "БАНКИ" in text
+    ):
         return "shoals"
-    if "RACON" in text and (
-        "INOPERATIVE" in text or "UNLIT" in text or "DAMAGED" in text
+
+    # Aid to navigation outage
+    # EN: RACON, LIGHT, BUOY, BEACON + INOPERATIVE/UNLIT/DAMAGED/EXTINGUISHED
+    # RU: РАКОН, МАЯК, БУЙ, ОГНИ, НЕ РАБОТАЕТ, ПОГАШЕН, НЕ ГОРИТ, ПОВРЕЖДЕН
+    if (
+        "RACON" in text
+        or "РАКОН" in text
+        or "LIGHT" in text
+        or "ОГН" in text
+        or "МАЯК" in text
+        or "БУЙ" in text
+        or "BEACON" in text
+        or "ПРИЧАЛЬНЫЙ ОГОНЬ" in text
+    ) and (
+        "INOPERATIVE" in text
+        or "UNLIT" in text
+        or "DAMAGED" in text
+        or "EXTINGUISHED" in text
+        or "NOT OPERATIVE" in text
+        or "НЕ РАБОТАЕТ" in text
+        or "НЕИСПРАВЕН" in text
+        or "НЕ ИСПРАВЕН" in text
+        or "НЕ ГОРИТ" in text
+        or "ПОГАШЕН" in text
+        or "ПОВРЕЖД" in text
+        or "СНЕСЕН" in text
+        or "СНЕСЁН" in text
+        or "СНЕСЕНА" in text
     ):
         return "aid to navigation outage"
-    if "ROCKET" in text or "HAZARDOUS OPERATIONS" in text or "АРТИЛЛЕРИЙСКИЕ" in text:
+
+    # Hazardous operations
+    # EN: ROCKET, MISSILE, FIRING, GUNNERY, HAZARDOUS OPERATIONS, LIVE FIRE
+    # RU: РАКЕТНЫЕ, ПУСК, СТРЕЛЬБЫ, АРТИЛЛЕРИЙСКИЕ, ОПАСНЫЕ РАЙОНЫ/РАБОТЫ
+    if (
+        "ROCKET" in text
+        or "MISSILE" in text
+        or "FIRING" in text
+        or "GUNNERY" in text
+        or "LIVE FIRE" in text
+        or "HAZARDOUS OPERATIONS" in text
+        or "HAZ OPS" in text
+        or "РАКЕТ" in text
+        or "ПУСК" in text
+        or "СТРЕЛЬБ" in text
+        or "АРТИЛЛЕРИЙСКИЕ" in text
+        or "АРТИЛЛЕРИЙСКАЯ" in text
+        or "БОЕВЫЕ СТРЕЛЬБЫ" in text
+        or "ОПАСНЫЕ РАБОТЫ" in text
+        or "ОПАСНЫЙ РАЙОН" in text
+        or "ОПАСНЫЕ РАЙОНЫ" in text
+        or "МИНОПОДРЫВ" in text
+        or "МИНОВЗРЫВ" in text
+        or "МИНОРАБОТЫ" in text
+    ):
         return "hazardous operations"
-    if "MOORING" in text:
+
+    # Scientific mooring
+    # EN: MOORING, OCEANOGRAPHIC, SCIENTIFIC BUOY
+    # RU: ЯКОРНОЕ ОГРАЖДЕНИЕ, БУЙ С КАБЕЛЕМ, НАУЧНАЯ СТОЯНКА/БУЙ, ОКЕАНОГРАФИЧЕСКИЙ БУЙ
+    if (
+        "MOORING" in text
+        or "SCIENTIFIC MOORING" in text
+        or "OCEANOGRAPHIC" in text
+        or "SCIENTIFIC BUOY" in text
+        or "ЯКОРН" in text
+        or "БУЙ С КАБЕЛ" in text
+        or "НАУЧН" in text
+        or "ОКЕАНОГРАФИЧЕСК" in text
+    ):
         return "scientific mooring"
-    if "ENC" in text and "CANCELLED" in text:
+
+    # Chart advisory
+    # EN: ENC CANCELLED/UPDATED
+    # RU: ЭЛЕКТРОННАЯ КАРТА ОТМЕНЕНА/ОБНОВЛЕНА
+    if (
+        "ENC" in text or "ЭНК" in text or "ЭЛЕКТРОННАЯ НАВИГАЦИОННАЯ КАРТА" in text
+    ) and (
+        "CANCELLED" in text
+        or "CANCELED" in text
+        or "WITHDRAWN" in text
+        or "SUSPENDED" in text
+        or "ОТМЕНЕНА" in text
+        or "ОТМЕНЁНА" in text
+        or "ОТМЕНЕН" in text
+        or "СНЯТА" in text
+        or "СНЯТ" in text
+        or "АННУЛИРОВАНА" in text
+        or "ОБНОВЛЕНА" in text
+        or "ОБНОВЛЁНA" in text
+    ):
         return "chart advisory"
+
+    # Ice / Icebergs
+    # EN: ICE, SEA ICE, ICEBERG(S), BERGS, PACK ICE, DRIFT ICE
+    # RU: ЛЕД, ЛЬДЫ, ДРЕЙФУЮЩИЙ ЛЕД, ПАЧКА ЛЬДА/СПЛОЧЕННЫЙ ЛЕД, АЙСБЕРГ(И)
+    if (
+        "ICEBERG" in text
+        or "ICEBERGS" in text
+        or "BERGS" in text
+        or "SEA ICE" in text
+        or "PACK ICE" in text
+        or "DRIFT ICE" in text
+        or "ICE EDGE" in text
+        or "POLYNYA" in text
+        or "ЛЁД" in text
+        or "ЛЕД" in text
+        or "ЛЬДЫ" in text
+        or "ДРЕЙФУЮЩИЙ ЛЁД" in text
+        or "ДРЕЙФУЮЩИЙ ЛЕД" in text
+        or "ДРЕЙФ ЛЬДА" in text
+        or "СПЛОЧЕННЫЙ ЛЁД" in text
+        or "СПЛОЧЕННЫЙ ЛЕД" in text
+        or "ПРИПАЙ" in text
+        or "КРОВАТЬ ЛЬДА" in text  # less common phrase, included for robustness
+        or "АЙСБЕРГ" in text
+        or "АЙСБЕРГИ" in text
+        or "КРОМКА ЛЬДА" in text
+        or "ПОЛЫНЬЯ" in text
+    ):
+        return "ice and icebergs"
+
     return "general"
 
 
@@ -594,7 +743,7 @@ def parse_prip_header(headertext: str) -> Tuple:
         area = match.group(1)
         msg_id = match.group(2)
         year = match.group(3)
-        maps = match.group(4).split()
+        maps = (match.group(4) or "").split()
         details = match.group(5)
     else:
         return None, None, None, None, None
