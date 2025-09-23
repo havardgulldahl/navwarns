@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="anonymous" />
     <style>
         html,
         body {
@@ -57,6 +57,7 @@
             font-size: 12px;
             border-radius: 4px;
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+            max-width: 240px;
         }
 
         .legend h4 {
@@ -67,7 +68,8 @@
         .legend .item {
             display: flex;
             align-items: center;
-            gap: 4px;
+            gap: 6px;
+            margin: 2px 0;
         }
 
         .legend .swatch {
@@ -75,6 +77,7 @@
             height: 14px;
             border: 1px solid #555;
             border-radius: 3px;
+            flex: 0 0 auto;
         }
 
         .inline-badge {
@@ -85,6 +88,13 @@
             font-size: 10px;
             margin-right: 4px;
         }
+
+        /* Mobile tweaks */
+        @media (max-width: 480px) {
+            .legend {
+                max-width: 90vw;
+            }
+        }
     </style>
 </head>
 
@@ -92,101 +102,119 @@
     <div id="map"></div>
 
     <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-    <!-- Projection libraries for custom Arctic CRS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="anonymous"></script>
+    <!-- Projection libs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.1/proj4.min.js" crossorigin="anonymous"
         referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4leaflet/1.0.2/proj4leaflet.min.js" crossorigin="anonymous"
         referrerpolicy="no-referrer"></script>
 
-
-
     <script>
+        // EPSG:3575 definition (Arctic Polar Stereographic)
         const crs3575 = new L.Proj.CRS(
-            "EPSG:3575",
-            "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=0 +k=1 +datum=WGS84 +units=m +no_defs",
+            'EPSG:3575',
+            '+proj=stere +lat_0=90 +lat_ts=71 +lon_0=0 +k=1 +datum=WGS84 +units=m +no_defs',
             {
-                origin: [-4889334.802955, 4889334.802955],
+                origin: [-4889334.802955, 4889334.802955], // top-left
+                bounds: L.bounds(
+                    [-4889334.802955, -4889334.802955],
+                    [4889334.802955, 4889334.802955]
+                ),
                 resolutions: [
                     38197.928, 19098.964, 9549.482, 4774.741,
                     2387.370, 1193.685, 596.843, 298.422,
                     149.211, 74.606, 37.303
-                ],
-                bounds: L.bounds(
-                    [-4889334.802955, -4889334.802955],
-                    [4889334.802955, 4889334.802955]
-                )
+                ]
             }
         );
 
-        // Example transformation from WGS84 to EPSG:3575
-        const wgs84ToEpsg3575 = proj4('EPSG:4326', 'EPSG:3575');
-
-        // --- Fix for tile seams (Leaflet issue #3575) ---
-        /*
-        (function () {
-            const originalInitTile = L.GridLayer.prototype._initTile;
-            L.GridLayer.include({
-                _initTile: function (tile) {
-                    originalInitTile.call(this, tile);
-                    const tileSize = this.getTileSize();
-                    tile.style.width = tileSize.x + 1 + 'px';
-                    tile.style.height = tileSize.y + 1 + 'px';
-                }
-            });
-        })();
-        */
-
-        // --- Initialize map ---
+        // Initialize map
         const map = L.map('map', {
             crs: crs3575,
-            center: [90, 0], // North Pole
-            zoom: 0,
+            center: [89.9, 0], // near pole; 90 exactly can be problematic for some layers
+            zoom: 2,
+            minZoom: 0,
             maxZoom: 10
         });
 
-        // --- Custom WMTS layer to map Leaflet coords to WMTS REST template ---
-        const ArcticSDILayer = L.TileLayer.extend({
-            getTileUrl: function (coords) {
-                return L.Util.template(
-                    "http://basemap.arctic-sdi.org/mapcache/wmts/1.0.0/arctic_cascading/default/3575/{TileMatrix}/{TileRow}/{TileCol}.png",
-                    {
-                        TileMatrix: coords.z,
-                        TileRow: coords.y,
-                        TileCol: coords.x
+        // WMTS helper for Arctic SDI
+        // Based on Leaflet WMTS pattern: computes correct TileMatrix, TileRow, TileCol for top-left origin
+        function wmtsTileLayer(options) {
+            const {
+                url, layer, style = 'default', tilematrixSet, format = 'image/png',
+                tileSize = 256, attribution = ''
+            } = options;
+
+            // Build matrixIds that match map CRS zooms 0..N
+            // For Arctic SDI 3575, the service exposes 11 matrices; we map z->z directly.
+            const matrixIds = Array.from({ length: 11 }, (_, z) => ({
+                identifier: String(z),
+                scaleDenominator: null
+            }));
+
+            return L.tileLayer('', {
+                tileSize,
+                attribution,
+                bounds: crs3575.options.bounds,
+                updateWhenIdle: true,
+                updateInterval: 150,
+                keepBuffer: 2,
+                async getTileUrl(coords, done) { // use async function signature supported by Leaflet 1.9 via callback
+                    try {
+                        const z = coords.z;
+                        const tileMatrix = matrixIds[z]?.identifier ?? String(z);
+                        // WMTS uses TMS-style origin at top-left for this service
+                        const tileCol = coords.x;
+                        const tileRow = coords.y;
+
+                        const src = `${url}?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0` +
+                            `&LAYER=${encodeURIComponent(layer)}` +
+                            `&STYLE=${encodeURIComponent(style)}` +
+                            `&TILEMATRIXSET=${encodeURIComponent(tilematrixSet)}` +
+                            `&TILEMATRIX=${encodeURIComponent(tileMatrix)}` +
+                            `&TILEROW=${tileRow}&TILECOL=${tileCol}` +
+                            `&FORMAT=${encodeURIComponent(format)}`;
+                        done(null, src);
+                    } catch (e) {
+                        done(e, '');
                     }
-                );
-            }
-        });
-        // Add ArcticSDI basemap
-        const arcticSDI = new ArcticSDILayer("", {
+                }
+            });
+        }
+
+        // Arctic SDI WMTS layer over HTTPS
+        const arcticBasemap = wmtsTileLayer({
+            url: 'https://basemap.arctic-sdi.org/mapcache/wmts',
+            layer: 'arctic_cascading',
+            tilematrixSet: '3575',
+            style: 'default',
+            format: 'image/png',
             tileSize: 256,
             attribution: '<a href="https://arctic-sdi.org/">Arctic SDI</a>'
-        }).addTo(map);
-        arcticSDI.addTo(map);
+        });
+        arcticBasemap.addTo(map);
 
         // Layer control
-        L.control.layers(
-            { "ArcticSDI Basemap": arcticSDI },
-            {}
-        ).addTo(map);
+        L.control.layers({ 'Arctic SDI (EPSG:3575)': arcticBasemap }, {}).addTo(map);
 
-        // --- category colors ---
+        // Category colors
         const categoryColors = {
-            "military": "#d73027",
-            "accident": "#4575b4",
-            "other": "#1a9850",
-            "default": "#6a3d9a"
+            military: '#d73027',
+            accident: '#4575b4',
+            other: '#1a9850',
+            default: '#6a3d9a'
         };
         function getCategoryColor(c) { return categoryColors[c] || categoryColors.default; }
 
         function formatDate(dtg) {
-            if (!dtg) return "";
+            if (!dtg) return '';
             try {
                 const d = new Date(dtg + (dtg.endsWith('Z') ? '' : 'Z'));
                 if (isNaN(d)) return dtg;
                 return d.toISOString().replace('T', ' ').replace(/\.\d{3}Z$/, 'Z');
-            } catch { return dtg; }
+            } catch {
+                return dtg;
+            }
         }
 
         function buildPopup(feature) {
@@ -198,23 +226,26 @@
             const cancellations = (p.cancellations || []).filter(Boolean);
             const color = getCategoryColor(category);
             return `
-    <div class="popup-content">
-      <h3>${title}</h3>
-      <div class="meta">
-        <span class="inline-badge">${hazard}</span>
-        <span class="inline-badge" style="background:${color};color:#fff;">${category}</span><br/>
-        <strong>DTG:</strong> ${formatDate(p.dtg)}<br/>
-        <strong>Raw DTG:</strong> ${p.raw_dtg || ''}
-        ${cancellations.length ? `<br/><strong>Cancel:</strong> ${cancellations.join('; ')}` : ''}
-      </div>
-      <pre>${body.replace(/</g, '&lt;')}</pre>
-    </div>`;
+        <div class="popup-content">
+          <h3>${title}</h3>
+          <div class="meta">
+            <span class="inline-badge">${hazard}</span>
+            <span class="inline-badge" style="background:${color};color:#fff;">${category}</span><br/>
+            <strong>DTG:</strong> ${formatDate(p.dtg)}<br/>
+            <strong>Raw DTG:</strong> ${p.raw_dtg || ''}
+            ${cancellations.length ? `<br/><strong>Cancel:</strong> ${cancellations.join('; ')}` : ''}
+          </div>
+          <pre>${body.replace(/</g, '&lt;')}</pre>
+        </div>`;
         }
 
-        // --- Reusable loader for GeoJSON point/multipoint layers ---
+        // Load GeoJSON (WGS84), let Leaflet/project CRS handle reprojection
         function loadGeoJsonLayer(url, { fit = false, addLegendFlag = false } = {}) {
             return fetch(url)
-                .then(r => r.json())
+                .then(r => {
+                    if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+                    return r.json();
+                })
                 .then(data => {
                     const featureGroup = L.featureGroup().addTo(map);
 
@@ -233,7 +264,9 @@
                         },
                         onEachFeature: (feature, layer) => {
                             layer.bindPopup(() => buildPopup(feature));
+
                             if (feature.geometry && feature.geometry.type === 'MultiPoint') {
+                                // Feature coords are [lng, lat] in WGS84
                                 const coords = feature.geometry.coordinates.map(c => [c[1], c[0]]);
                                 const category = feature.properties?.category;
                                 const color = getCategoryColor(category);
@@ -244,12 +277,6 @@
                                     dashArray: '4,4'
                                 }).addTo(featureGroup);
                             }
-                        }
-                        ,
-                        coordsToLatLng: function (coords) {
-                            // proj4 transforms [lng, lat] by default, Leaflet expects [lat, lng]
-                            const transformed = wgs84ToEpsg3575.forward([coords[0], coords[1]]);
-                            return map.unproject(transformed, map.getMaxZoom());
                         }
                     }).addTo(featureGroup);
 
@@ -267,17 +294,16 @@
                 });
         }
 
-        // Initial (first) layer load – can add more later by calling loadGeoJsonLayer with different URLs
+        // Initial load
         loadGeoJsonLayer('navwarns.geojson', { fit: true, addLegendFlag: true });
 
-        // --- Legend control ---
+        // Legend control
         function addLegend(features) {
             const categorySet = new Set();
             features.forEach(f => categorySet.add(f.properties?.category || 'unknown'));
-            categorySet.add('military'); // ensure present
+            categorySet.add('military');
             const categoryList = Array.from(categorySet).sort();
 
-            // Fetch timestamp then build legend (defer adding until we have it)
             fetch('scrape_timestamp.txt')
                 .then(r => r.ok ? r.text() : '')
                 .catch(() => '')
@@ -287,51 +313,48 @@
                     legend.onAdd = function () {
                         const div = L.DomUtil.create('div', 'legend');
                         const fetchedLine = ts ? `<div class="fetched" style="font-size:10px;margin:2px 0 6px;">Fetched ${ts}</div>` : '';
-                        div.innerHTML = '<h4>NavWarns for the Arctic</h4>' + fetchedLine + categoryList.map(c => {
-                            const col = getCategoryColor(c);
-                            return `<div class="item"><span class="swatch" style="background:${col}"></span>${c}</div>`;
-                        }).join('');
-                        div.innerHTML += '<hr style="margin:6px 0;" />' +
-                            '<div style="font-size:10px; line-height:1.2; max-width:200px;">Load layer for year: <input list="years" id="yearInput" placeholder="YYYY" /></div>' +
+                        div.innerHTML =
+                            '<h4>NavWarns for the Arctic</h4>' + fetchedLine +
+                            categoryList.map(c => {
+                                const col = getCategoryColor(c);
+                                return `<div class="item"><span class="swatch" style="background:${col}"></span><span>${c}</span></div>`;
+                            }).join('') +
+                            '<hr style="margin:6px 0;" />' +
+                            '<div style="font-size:10px; line-height:1.2;">' +
+                            'Load layer for year: <input list="years" id="yearInput" placeholder="YYYY" style="width:6em;" /></div>' +
                             '<div style="margin-top:6px;font-size:10px;"><a href="navwarns.geojson" download target="_blank">Download GeoJSON</a></div>';
                         return div;
                     };
                     legend.addTo(map);
-                    // Attach year input handler after legend is in DOM
+
                     setTimeout(() => {
                         const yearInput = document.getElementById('yearInput');
                         if (!yearInput) return;
-                        yearInput.addEventListener('change', () => {
+                        const load = () => {
                             const y = (yearInput.value || '').trim();
-                            if (!/^20\d{2}$/.test(y)) return; // basic validation
+                            if (!/^20\d{2}$/.test(y)) return;
                             loadArchiveYear(y);
-                        });
-                        yearInput.addEventListener('keydown', (e) => {
-                            if (e.key === 'Enter') {
-                                const y = (yearInput.value || '').trim();
-                                if (!/^20\d{2}$/.test(y)) return;
-                                loadArchiveYear(y);
-                            }
-                        });
+                        };
+                        yearInput.addEventListener('change', load);
+                        yearInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') load(); });
                     }, 0);
                 });
         }
 
-        // --- Archive year loader ---
+        // Archive loader
         let archiveLayerGroup = null;
         function loadArchiveYear(year) {
             const url = `archive${year}.geojson`;
-            // Remove old archive layer group if present
             if (archiveLayerGroup) {
                 map.removeLayer(archiveLayerGroup);
                 archiveLayerGroup = null;
             }
-            loadGeoJsonLayer(url, { fit: true })
-                .then(res => {
-                    if (res && res.featureGroup) archiveLayerGroup = res.featureGroup;
-                });
+            loadGeoJsonLayer(url, { fit: true }).then(res => {
+                if (res && res.featureGroup) archiveLayerGroup = res.featureGroup;
+            });
         }
     </script>
+
     <datalist id="years">
         <option value="2010">
         <option value="2011">
@@ -348,7 +371,6 @@
         <option value="2022">
         <option value="2023">
     </datalist>
-
 </body>
 
 </html>
