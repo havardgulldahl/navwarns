@@ -125,7 +125,7 @@ def discover_all_page_urls(seed_url: str, seed_content: bytes) -> list[str]:
     pages = get_pager(soup)
     if not pages:
         logging.warning("Could not determine last page from pager; defaulting to 1.")
-        sys.exit(1)
+        return [seed_url]
 
     # Construct URLs NAVAREA_page{n}.htm for n=1..last_page
     urls = []
