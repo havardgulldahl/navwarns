@@ -738,8 +738,6 @@ def parse_prip_header(headertext: str) -> Tuple:
     #  ПРИП МУРМАНСК 291/25 ПРИП МУРМАНСК 291 КАРТА 13004 МОТОВСКИЙ ЗАЛИВ ГУБА ЭЙНА
 
     if match := PRIP_HEADER.match(headertext):
-        print(f"Match {match.groups()}")
-        print(f"String: {headertext}")
         area = match.group(1)
         msg_id = match.group(2)
         year = match.group(3)
@@ -762,7 +760,6 @@ def prip_parse_cancellations(body: str) -> List[str]:
     cancels: List[str] = []
     # Primary regex (already excludes the leading 'CANCEL ' via group)
     cancels.extend(PRIP_CANCEL_PATTERN.findall(body))
-    print(f"Bdoy:  {body}")
     # Additional heuristic: for any line containing CANCEL, pull all token forms NNN/YY
     for line in body.splitlines():
         if "ОТМ" in line.upper():
