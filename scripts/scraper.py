@@ -281,7 +281,9 @@ def main(argv: list[str] | None = None) -> int:
                 )
         print(f"Wrote {written} new/updated message files")
         if written > 0:
-            with open(CURRENT_DIR / ".scrape_timestamp", "w", encoding="utf-8") as f:
+            with open(
+                CURRENT_DIR / ".scrape_timestamp_HYDROARC", "w", encoding="utf-8"
+            ) as f:
                 f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
         return 0
     except Exception as e:

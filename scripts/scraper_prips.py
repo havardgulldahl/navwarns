@@ -182,6 +182,8 @@ def main(parse_files: List = []):
             
             with open(filepath, "w", encoding="utf-8") as f_geo:
                 f_geo.write(json.dumps(serialize_message(m), ensure_ascii=False) + "\n")
+        with open(CURRENT_DIR / ".scrape_timestamp_PRIP", "w", encoding="utf-8") as f:
+            f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
         logging.info(
             "Extracted %d prips from %d raw prips to %s",
             len(parsed_prips),

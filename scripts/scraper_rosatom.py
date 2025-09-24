@@ -256,6 +256,10 @@ def main():
                         json.dumps(serialize_message(m), ensure_ascii=False) + "\n"
                     )
         f_raw.close()
+        with open(
+            CURRENT_DIR / ".scrape_timestamp_NAVAREAXX", "w", encoding="utf-8"
+        ) as f:
+            f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
         logging.info("Extracted %d navwarns to %s", len(navwarns), CURRENT_DIR)
 
     else:
