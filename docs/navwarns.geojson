@@ -3,6 +3,55 @@
   "features": [
     {
       "type": "Feature",
+      "id": "NAVAREA XX 118/25",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.166666666666664,
+            72.63333333333334
+          ],
+          [
+            37.425,
+            71.20666666666666
+          ],
+          [
+            38.73833333333333,
+            69.63666666666667
+          ],
+          [
+            38.0,
+            69.475
+          ],
+          [
+            34.61666666666667,
+            70.725
+          ],
+          [
+            31.766666666666666,
+            72.06666666666666
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 118/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0500 UTC TO 1500 UTC 17 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:72-38.0N 035-10.0E, 71-12.4N 037-25.5E,69-38.2N 038-44.3E, 69-28.5N 038-00.0E,70-43.5N 034-37.0E, 72-04.0N 031-46.0E.2. CANCEL THIS MSG 171600 UTC SEP 25.=NNNN",
+        "msg_id": "NAVAREA XX 118/25",
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 171600 UTC SEP 25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "NAVAREA XX 118/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0500 UTC TO 1500 UTC 17 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:72-38.0N 035-10.0E, 71-12.4N 037-25.5E,69-38.2N 038-44.3E, 69-28.5N 038-00.0E,70-43.5N 034-37.0E, 72-04.0N 031-46.0E.2. CANCEL THIS MSG 171600 UTC SEP 25.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firings Barents"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "NAVAREA XX 103/25",
       "geometry": {
         "type": "Point",
@@ -25,95 +74,52 @@
         "body": "NAVAREA XX 103/25BARENTS SEA.CHART RUS 10100.1. MOORING BUOY IN 69-49.4N 034-07.5E.2. CANCEL 101/24 AND THIS PARA.=NNNN",
         "summary": null,
         "category": "other",
-        "title": "Mooring Buoy Notice"
+        "title": "Mooring Buoy Location"
       }
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 163/25(15)",
+      "id": "HYDROARC 168/25(43)",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.05433333333333,
-          77.46116666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-19T11:30:00",
-        "raw_dtg": "191130Z SEP 25",
-        "msg_id": "HYDROARC 163/25(15)",
-        "year": 2025,
-        "cancellations": [],
-        "hazard_type": "general",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "HYDROARC 163/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\n20.7 METER DEPTH REPORTED IN 77-27.67N 093-03.26W.",
-        "summary": null,
-        "category": "other",
-        "title": "Shallow Depth Reported"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 158/25(43)",
-      "geometry": {
-        "type": "LineString",
+        "type": "Polygon",
         "coordinates": [
           [
-            15.503333333333334,
-            69.45666666666666
-          ],
-          [
-            15.88,
-            69.65666666666667
-          ],
-          [
-            16.156666666666666,
-            69.62666666666667
-          ],
-          [
-            16.086666666666666,
-            69.46833333333333
-          ],
-          [
-            16.616666666666667,
-            69.36666666666666
-          ],
-          [
-            17.303333333333335,
-            69.53333333333333
-          ],
-          [
-            17.436666666666667,
-            69.55333333333333
-          ],
-          [
-            17.365,
-            69.86166666666666
-          ],
-          [
-            14.968333333333334,
-            69.87
-          ],
-          [
-            14.763333333333334,
-            69.54
+            [
+              14.683333333333334,
+              70.06666666666666
+            ],
+            [
+              14.683333333333334,
+              69.53333333333333
+            ],
+            [
+              16.216666666666665,
+              69.53333333333333
+            ],
+            [
+              16.216666666666665,
+              70.06666666666666
+            ],
+            [
+              14.683333333333334,
+              70.06666666666666
+            ]
           ]
         ]
       },
       "properties": {
-        "dtg": "2025-09-18T12:51:00",
-        "raw_dtg": "181251Z SEP 25",
-        "msg_id": "HYDROARC 158/25(43)",
+        "dtg": "2025-09-23T18:42:00",
+        "raw_dtg": "231842Z SEP 25",
+        "msg_id": "HYDROARC 168/25(43)",
         "year": 2025,
         "cancellations": [
-          "HYDROARC 157/25",
-          "THIS MSG 270101Z SEP 25"
+          "HYDROARC 167/25",
+          "THIS MSG 261700Z SEP 25"
         ],
         "hazard_type": "hazardous operations",
-        "geometry_kind": "linestring",
+        "geometry_kind": "polygon",
         "radius_nm": null,
-        "body": "HYDROARC 158/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   1600Z TO 0001Z DAILY 18 THRU 26 SEP\n   IN AREA BOUND BY\n   69-27.40N 015-30.20E, 69-39.40N 015-52.80E,\n   69-37.60N 016-09.40E, 69-28.10N 016-05.20E,\n   69-22.00N 016-37.00E, 69-32.00N 017-18.20E,\n   69-33.20N 017-26.20E, 69-51.70N 017-21.90E,\n   69-52.20N 014-58.10E, 69-32.40N 014-45.80E.\n2. CANCEL HYDROARC 157/25.\n3. CANCEL THIS MSG 270101Z SEP 25.",
+        "body": "HYDROARC 168/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0600Z TO 1600Z DAILY 24 THRU 26 SEP\n   IN AREA BOUND BY\n   70-04.00N 014-41.00E, 69-32.00N 014-41.00E,\n   69-32.00N 016-13.00E, 70-04.00N 016-13.00E.\n2. CANCEL HYDROARC 167/25 .\n3. CANCEL THIS MSG 261700Z SEP 25.",
         "summary": null,
         "category": "military",
         "title": "Rocket Launch Hazard"
@@ -121,97 +127,23 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 150/25(43)",
+      "id": "HYDROARC 163/23(15)",
       "geometry": {
-        "type": "MultiPoint",
+        "type": "Point",
         "coordinates": [
-          [
-            28.79,
-            72.35
-          ],
-          [
-            30.5,
-            72.35
-          ],
-          [
-            30.5,
-            71.7
-          ],
-          [
-            28.79,
-            71.7
-          ]
+          -134.40666666666667,
+          69.77666666666667
         ]
       },
       "properties": {
-        "dtg": "2025-08-31T06:40:00",
-        "raw_dtg": "310640Z AUG 25",
-        "msg_id": "HYDROARC 150/25(43)",
-        "cancellations": [
-          "THIS MSG 011700Z SEP 25"
-        ],
-        "hazard_type": "general",
-        "summary": null,
-        "body": "HYDROARC 150/25(43).\nBARENTS SEA.\nNORWAY.\nDNC 22.\n1. GUNNERY EXERCISES 010600Z TO 011600Z SEP\n   IN AREA BOUND BY\n   72-21.00N 028-47.40E, 72-21.00N 030-30.00E,\n   71-42.00N 030-30.00E, 71-42.00N 028-47.40E.\n2. CANCEL THIS MSG 011700Z SEP 25.",
-        "category": "military",
-        "title": "Gunnery Exercise Barents"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 117/25",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            39.833333333333336,
-            69.4
-          ],
-          [
-            44.11666666666667,
-            67.86666666666666
-          ],
-          [
-            44.4,
-            66.73333333333333
-          ],
-          [
-            38.53333333333333,
-            68.93333333333334
-          ],
-          [
-            45.03333333333333,
-            67.51666666666667
-          ],
-          [
-            45.71666666666667,
-            67.25
-          ],
-          [
-            45.5,
-            67.18333333333334
-          ],
-          [
-            45.03333333333333,
-            67.51666666666667
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 117/25BARENTS AND WHITE SEASAND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0300 UTC TO 2000 UTC 16 SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 69-24.0N 039-50.0E, 67-52.0N 044-07.0E,THEN COASTAL LINE TO 66-44.0N 044-24.0E,68-56.0N 038-32.0E.B. 67-31.0N 045-02.0E, 67-15.0N 045-43.0E,67-11.0N 045-30.0E, THEN COASTAL LINE TO67-31.0N 045-02.0E.2. CANCEL THIS MSG 162100 UTC SEP 25.=NNNN",
-        "msg_id": "NAVAREA XX 117/25",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 162100 UTC SEP 25"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "NAVAREA XX 117/25BARENTS AND WHITE SEASAND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0300 UTC TO 2000 UTC 16 SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 69-24.0N 039-50.0E, 67-52.0N 044-07.0E,THEN COASTAL LINE TO 66-44.0N 044-24.0E,68-56.0N 038-32.0E.B. 67-31.0N 045-02.0E, 67-15.0N 045-43.0E,67-11.0N 045-30.0E, THEN COASTAL LINE TO67-31.0N 045-02.0E.2. CANCEL THIS MSG 162100 UTC SEP 25.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Missile Firings Barents"
+        "dtg": "2023-08-15T04:29:00",
+        "raw_dtg": "150429Z AUG 23",
+        "msg_id": "HYDROARC 163/23(15)",
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "body": "HYDROARC 163/23(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT PULLEN ISLAND LIGHT\n69-46.60N 134-24.40W INOPERATIVE.",
+        "category": "accident",
+        "title": "Pullen Island Racon Inoperative"
       }
     },
     {
@@ -284,7 +216,440 @@
         "hazard_type": "general",
         "body": "HYDROARC 144/25(16,41,96).\nBERING STRAIT.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\n1. UNDERWATER OPERATIONS 31 AUG THRU 05 OCT\n   BY M/V MIRAI WITH SUBMERSIBLE\n   ALONG TRACKLINE JOINING\n   65-30.00N 168-45.00W, 70-00.00N 168-45.00W,\n   71-42.06N 155-05.94W, 71-24.78N 157-29.88W,\n   71-25.68N 154-06.60W, 73-07.08N 159-53.34W,\n   77-00.00N 157-26.46W, 75-00.00N 174-45.00W,\n   76-00.00N 168-45.00W, 68-00.00N 168-00.00W,\n   67-52.50N 168-15.00W, 67-45.00N 168-30.00W,\n   68-01.98N 168-49.98W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 060001Z OCT 25.",
         "category": "other",
-        "title": "Underwater Operations Notice"
+        "title": "Underwater Operations Alert"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 160/25(19,96)",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            160.8,
+            53.0
+          ],
+          [
+            159.6,
+            53.2
+          ],
+          [
+            162.6,
+            56.1
+          ],
+          [
+            167.4,
+            54.7
+          ],
+          [
+            164.5,
+            58.8
+          ],
+          [
+            -159.4,
+            22.0
+          ],
+          [
+            -157.9,
+            21.3
+          ],
+          [
+            -156.5,
+            20.9
+          ],
+          [
+            -155.1,
+            19.7
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2025-09-18T19:46:00",
+        "raw_dtg": "181946Z SEP 25",
+        "msg_id": "HYDROARC 160/25(19,96)",
+        "year": 2025,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "HYDROARC 160/25(19,96).\nBERING SEA.\nNORTH PACIFIC.\nKAMCHATKA.\nDNC 13, DNC 24.\n1. EARTHQUAKE WITH PRELIMINARY MAGNITUDE OF\n   7.8 OCCURRED AT 181858Z SEP. TSUNAMI WAVES ARE\n   POSSIBLE FOR COASTS LOCATED IN AREA WITHIN 870 MILES\n   OF 53-00.00N 160-48.00E. TSUNAMI MAY BE A SERIES OF WAVES\n   WHICH COULD BE DANGEROUS FOR SEVERAL HOURS AFTER THE\n   INITIAL WAVE ARRIVAL.\n2. TSUNAMI ACTIVITY IS FORECASTED TO START AT\n   THE FOLLOWING TIMES:\n   A. PETROPAVLOVSK 53-12.00N 159-36.00E AT 1930Z.\n   B. UST KAMCHATSK 56-06.00N 162-36.00E AT 1938Z.\n   C. MEDNNY ISLAND 54-42.00N 167-24.00E AT 2002Z.\n   D. OSTROV KARAGINS 58-48.00N 164-30.00E AT 2006Z.\n   E. SHEMYA 52-43.45 N 174-07.13 E AT 2120Z.\n   F . NAWILIWILI 22-00.00N 159-24.00W AT 0051Z.\n   G. HONOLULU 21-18.00N 157-54.00W AT 0105Z.\n   H. KAHULUI 20-54.00N 156-30.00W AT 0111Z.\n   I. HILO 19-42.00N 155-06.00W AT 0129Z.\n3. TSUNAMI WAVES REACHING THREE METERS ABOVE\n   THE TIDE LEVEL ARE POSSIBLE AND MAY BE\n   A SERIES OF WAVES WHICH COULD BE DANGEROUS\n   FOR SEVERAL HOURS AFTER THE INITIAL WAVE ARRIVAL.\n4. FURTHER TSUNAMI INFORMATION CAN BE FOUND\n   AT WWW.TSUNAMI.GOV.",
+        "summary": null,
+        "category": "accident",
+        "title": "Earthquake Tsunami Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 119/25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.93333333333333,
+              70.11666666666666
+            ],
+            [
+              36.11666666666667,
+              69.45833333333333
+            ],
+            [
+              35.18333333333333,
+              69.48333333333333
+            ],
+            [
+              33.69166666666667,
+              69.53333333333333
+            ],
+            [
+              33.06666666666667,
+              69.68333333333334
+            ],
+            [
+              33.06666666666667,
+              69.73333333333333
+            ],
+            [
+              35.03333333333333,
+              70.05
+            ],
+            [
+              35.93333333333333,
+              70.11666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 119/25EAST OF RYBACHIY PENINSULA.CHART RUS 10100.1. MISSILE FIRINGS 0500 TO 1700 UTC DAILY18 TO 19 SEP NAVIGATION PROHIBITED INTERRITORIAL WATERS DANGEROUSOUTSIDE IN AREA BOUNDED BY:70-07.0N 035-56.0E, 69-27.5N 036-07.0E,69-29.0N 035-11.0E, 69-32.0N 033-41.5E,69-41.0N 033-04.0E, THEN COASTAL LINE TO69-44.0N 033-04.0E, 70-03.0N 035-02.0E.2. CANCEL THIS MSG 191800 UTC SEP 25.=NNNN",
+        "msg_id": "NAVAREA XX 119/25",
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 191800 UTC SEP 25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 119/25EAST OF RYBACHIY PENINSULA.CHART RUS 10100.1. MISSILE FIRINGS 0500 TO 1700 UTC DAILY18 TO 19 SEP NAVIGATION PROHIBITED INTERRITORIAL WATERS DANGEROUSOUTSIDE IN AREA BOUNDED BY:70-07.0N 035-56.0E, 69-27.5N 036-07.0E,69-29.0N 035-11.0E, 69-32.0N 033-41.5E,69-41.0N 033-04.0E, THEN COASTAL LINE TO69-44.0N 033-04.0E, 70-03.0N 035-02.0E.2. CANCEL THIS MSG 191800 UTC SEP 25.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firings Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 112/25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.93333333333333,
+              70.96166666666667
+            ],
+            [
+              38.40833333333333,
+              70.08
+            ],
+            [
+              38.60666666666667,
+              69.00833333333334
+            ],
+            [
+              36.693333333333335,
+              69.12666666666667
+            ],
+            [
+              33.358333333333334,
+              70.08666666666667
+            ],
+            [
+              35.93333333333333,
+              70.96166666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 112/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 132100 TO 141400 UTC SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:70-57.7N 035-56.0E, 70-04.8N 038-24.5E,69-00.5N 038-36.4E, 69-07.6N 036-41.6E,70-05.2N 033-21.5E.2. CANCEL THIS MSG 141500 UTC SEP 25.=NNNN",
+        "msg_id": "NAVAREA XX 112/25",
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 141500 UTC SEP 25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 112/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 132100 TO 141400 UTC SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:70-57.7N 035-56.0E, 70-04.8N 038-24.5E,69-00.5N 038-36.4E, 69-07.6N 036-41.6E,70-05.2N 033-21.5E.2. CANCEL THIS MSG 141500 UTC SEP 25.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Barents Sea Missile Firings"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 111/25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.666666666666664,
+              71.0
+            ],
+            [
+              34.833333333333336,
+              71.0
+            ],
+            [
+              34.833333333333336,
+              70.66666666666667
+            ],
+            [
+              33.666666666666664,
+              70.66666666666667
+            ],
+            [
+              33.666666666666664,
+              71.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 111/25BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS141405 TO 142100 UTC AND 142200 TO 151900 UTC SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:71-00.0N 033-40.0E, 71-00.0N 034-50.0E,70-40.0N 034-50.0E, 70-40.0N 033-40.0E.2. CANCEL THIS MSG 152000 UTC SEP 25.=NNNN",
+        "msg_id": "NAVAREA XX 111/25",
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 152000 UTC SEP 25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 111/25BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS141405 TO 142100 UTC AND 142200 TO 151900 UTC SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:71-00.0N 033-40.0E, 71-00.0N 034-50.0E,70-40.0N 034-50.0E, 70-40.0N 033-40.0E.2. CANCEL THIS MSG 152000 UTC SEP 25.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 163/25(15)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.05433333333333,
+          77.46116666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2025-09-19T11:30:00",
+        "raw_dtg": "191130Z SEP 25",
+        "msg_id": "HYDROARC 163/25(15)",
+        "year": 2025,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "HYDROARC 163/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\n20.7 METER DEPTH REPORTED IN 77-27.67N 093-03.26W.",
+        "summary": null,
+        "category": "other",
+        "title": "Shallow Depth Reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 162/25(15)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.898,
+          71.351
+        ]
+      },
+      "properties": {
+        "dtg": "2025-09-19T11:24:00",
+        "raw_dtg": "191124Z SEP 25",
+        "msg_id": "HYDROARC 162/25(15)",
+        "year": 2025,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "HYDROARC 162/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 6.4 METERS IN 71-21.06N 096-53.88W.\nB. 21.7 METERS IN 71-20.64N 096-55.57W.",
+        "summary": null,
+        "category": "other",
+        "title": "New Depths Reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 154/25(43)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.4,
+              70.0
+            ],
+            [
+              16.5,
+              70.0
+            ],
+            [
+              16.5,
+              69.25
+            ],
+            [
+              13.4,
+              68.7
+            ],
+            [
+              13.4,
+              70.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2025-09-10T19:30:00",
+        "raw_dtg": "101930Z SEP 25",
+        "msg_id": "HYDROARC 154/25(43)",
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 200001Z SEP 25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 154/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. GPS JAMMING EXERCISES 0600Z TO 1600Z\n   DAILY 11 THRU 19 SEP IN AREA BOUND BY\n   70-00.00N 013-24.00E, 70-00.00N 016-30.00E,\n   69-15.00N 016-30.00E, 68-42.00N 013-24.00E.\n2. CANCEL THIS MSG 200001Z SEP 25.",
+        "summary": null,
+        "category": "military",
+        "title": "GPS Jamming Exercises"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 283/24(16)",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -154.99833333333333,
+            71.67333333333333
+          ],
+          [
+            -155.16133333333335,
+            71.735
+          ],
+          [
+            -155.34716666666668,
+            71.79666666666667
+          ],
+          [
+            -161.9365,
+            74.52283333333334
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2024-12-17T08:58:00",
+        "raw_dtg": "170858Z DEC 24",
+        "msg_id": "HYDROARC 283/24(16)",
+        "cancellations": [],
+        "hazard_type": "scientific mooring",
+        "body": "HYDROARC 283/24(16).\nBEAUFORT SEA.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\nSCIENTIFIC MOORINGS ESTABLISHED:\nA. BCE-24, IN 71-40.40N 154-59.90W,\n   AT DEPTH 108 METERS, TOP FLOAT 20 METERS.\nB. BCC-24, IN 71-44.10N 155-09.68W,\n   AT DEPTH 291 METERS, TOP FLOAT 21 METERS.\nC. BCW-24, IN 71-47.80N 155-20.83W,\n   AT DEPTH 165 METERS, TOP FLOAT 40 METERS.\nD. NAP-24T, IN 74-31.37N 161-56.19W,\n   AT DEPTH 1680 METERS, TOP FLOAT 28 METERS.",
+        "category": "other",
+        "title": "Scientific Moorings Deployed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 150/25(43)",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            28.79,
+            72.35
+          ],
+          [
+            30.5,
+            72.35
+          ],
+          [
+            30.5,
+            71.7
+          ],
+          [
+            28.79,
+            71.7
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2025-08-31T06:40:00",
+        "raw_dtg": "310640Z AUG 25",
+        "msg_id": "HYDROARC 150/25(43)",
+        "cancellations": [
+          "THIS MSG 011700Z SEP 25"
+        ],
+        "hazard_type": "general",
+        "summary": null,
+        "body": "HYDROARC 150/25(43).\nBARENTS SEA.\nNORWAY.\nDNC 22.\n1. GUNNERY EXERCISES 010600Z TO 011600Z SEP\n   IN AREA BOUND BY\n   72-21.00N 028-47.40E, 72-21.00N 030-30.00E,\n   71-42.00N 030-30.00E, 71-42.00N 028-47.40E.\n2. CANCEL THIS MSG 011700Z SEP 25.",
+        "category": "military",
+        "title": "Barents Gunnery Exercise"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 113/25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.766666666666666,
+              70.28333333333333
+            ],
+            [
+              34.78333333333333,
+              70.28333333333333
+            ],
+            [
+              34.78333333333333,
+              70.03333333333333
+            ],
+            [
+              33.833333333333336,
+              70.03333333333333
+            ],
+            [
+              33.766666666666666,
+              70.28333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 113/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1700 UTC 15 SEPIN AREA DANGEROUS TONAVIGATION BOUNDED BY:70-17.0N 033-46.0E, 70-17.0N 034-47.0E,70-02.0N 034-47.0E, 70-02.0N 033-50.0E.2. CANCEL THIS MSG 151800 UTC SEP 25.=NNNN",
+        "msg_id": "NAVAREA XX 113/25",
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 151800 UTC SEP 25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 113/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1700 UTC 15 SEPIN AREA DANGEROUS TONAVIGATION BOUNDED BY:70-17.0N 033-46.0E, 70-17.0N 034-47.0E,70-02.0N 034-47.0E, 70-02.0N 033-50.0E.2. CANCEL THIS MSG 151800 UTC SEP 25.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firings Alert"
       }
     },
     {
@@ -365,7 +730,160 @@
         "body": "NAVAREA XX 116/25BARENTS SEA AND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 142100 UTC TO 151700 UTC SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 69-47.5N 034-00.0E, 69-39.0N 038-04.8E,69-13.9N 043-01.2E, 68-46.2N 044-58.0E,68-32.5N 045-04.1E, THEN COASTAL LINE TO68-32.0N 044-14.0E, 68-35.4N 044-12.4E,68-56.4N 042-40.2E, 69-20.7N 037-56.0E,69-29.0N 033-54.5E.B. 67-44.0N 045-26.0E, 67-34.0N 045-30.0E,67-19.0N 045-00.0E, THEN COASTAL LINE TO67-44.0N 045-26.0E.2. CANCEL THIS MSG 151800 UTC SEP 25.NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firings Scheduled"
+        "title": "Missile Firings Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 119/25(15)",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -116.96333333333334,
+            71.375
+          ],
+          [
+            -117.02166666666666,
+            71.37683333333334
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2025-07-30T23:49:00",
+        "raw_dtg": "302349Z JUL 25",
+        "msg_id": "HYDROARC 119/25(15)",
+        "cancellations": [],
+        "hazard_type": "shoals",
+        "body": "HYDROARC 119/25(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 28.\nSHOALS REPORTED IN:\nA. 71-22.50N 116-57.80W.\nB. 71-22.61N 117-01.30W.",
+        "category": "accident",
+        "title": "Shoals Reported Amundsen"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 148/25(15)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.34233333333333,
+          74.64383333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2025-08-31T00:15:00",
+        "raw_dtg": "310015Z AUG 25",
+        "msg_id": "HYDROARC 148/25(15)",
+        "cancellations": [],
+        "hazard_type": "general",
+        "summary": null,
+        "body": "HYDROARC 148/25(15).\nLANCASTER SOUND.\nCANADA.\nDNC 28.\n13.6 METER DEPTH REPORTED IN 74-38.63N 091-20.54W.",
+        "category": "other",
+        "title": "Shallow Depth Reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 105/25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.96666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 105/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-34.5N 034-48.0E, 69-34.5N 033-38.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
+        "msg_id": "NAVAREA XX 105/25",
+        "year": 2025,
+        "cancellations": [
+          "THIS MESSAGE 161800 UTC SEP 25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 105/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-34.5N 034-48.0E, 69-34.5N 033-38.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firings Barents"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 117/25",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.833333333333336,
+            69.4
+          ],
+          [
+            44.11666666666667,
+            67.86666666666666
+          ],
+          [
+            44.4,
+            66.73333333333333
+          ],
+          [
+            38.53333333333333,
+            68.93333333333334
+          ],
+          [
+            45.03333333333333,
+            67.51666666666667
+          ],
+          [
+            45.71666666666667,
+            67.25
+          ],
+          [
+            45.5,
+            67.18333333333334
+          ],
+          [
+            45.03333333333333,
+            67.51666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 117/25BARENTS AND WHITE SEASAND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0300 UTC TO 2000 UTC 16 SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 69-24.0N 039-50.0E, 67-52.0N 044-07.0E,THEN COASTAL LINE TO 66-44.0N 044-24.0E,68-56.0N 038-32.0E.B. 67-31.0N 045-02.0E, 67-15.0N 045-43.0E,67-11.0N 045-30.0E, THEN COASTAL LINE TO67-31.0N 045-02.0E.2. CANCEL THIS MSG 162100 UTC SEP 25.=NNNN",
+        "msg_id": "NAVAREA XX 117/25",
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 162100 UTC SEP 25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "NAVAREA XX 117/25BARENTS AND WHITE SEASAND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0300 UTC TO 2000 UTC 16 SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 69-24.0N 039-50.0E, 67-52.0N 044-07.0E,THEN COASTAL LINE TO 66-44.0N 044-24.0E,68-56.0N 038-32.0E.B. 67-31.0N 045-02.0E, 67-15.0N 045-43.0E,67-11.0N 045-30.0E, THEN COASTAL LINE TO67-31.0N 045-02.0E.2. CANCEL THIS MSG 162100 UTC SEP 25.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Warning"
       }
     },
     {
@@ -412,54 +930,319 @@
         "body": "NAVAREA XX 110/25BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS0600 TO 1700 UTC DAILY 14 TO 15 SEPIN AREA DANGEROUS TONAVIGATION BOUNDED BY:73-00.0N 038-00.0E, 73-00.0N 040-00.0E,72-00.0N 040-00.0E, 72-00.0N 038-00.0E.2. CANCEL THIS MSG 151800 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Artillery Firing"
+        "title": "Missile Firings Barents"
       }
     },
     {
       "type": "Feature",
-      "id": "NAVAREA XX 106/25",
+      "id": "NAVAREA XX 121/25",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              35.31666666666667,
-              69.66666666666667
+              39.186,
+              74.23433333333334
             ],
             [
-              37.041666666666664,
-              69.66666666666667
+              44.37533333333333,
+              73.5335
             ],
             [
-              37.041666666666664,
-              69.35833333333333
+              37.856,
+              69.28966666666666
             ],
             [
-              35.31666666666667,
-              69.35833333333333
+              32.666666666666664,
+              70.171
             ],
             [
-              35.31666666666667,
-              69.66666666666667
+              39.186,
+              74.23433333333334
             ]
           ]
         ]
       },
       "properties": {
         "dtg": null,
-        "raw_dtg": "NAVAREA XX 106/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-40.0N 035-19.0E, 69-40.0N 037-02.5E,69-21.5N 037-02.5E, 69-21.5N 035-19.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
-        "msg_id": "NAVAREA XX 106/25",
+        "raw_dtg": "NAVAREA XX 121/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTC AND1200 TO 1330 UTC DAILY 20 TO 30 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-17.38N 037-51.36E, 70-10.26N 032-40.00E.2. CANCEL THIS MSG 301430 UTC SEP 25.=NNNN",
+        "msg_id": "NAVAREA XX 121/25",
         "year": 2025,
         "cancellations": [
-          "THIS MESSAGE 161800 UTC SEP 25"
+          "THIS MSG 301430 UTC SEP 25"
         ],
-        "hazard_type": "general",
+        "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
-        "body": "NAVAREA XX 106/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-40.0N 035-19.0E, 69-40.0N 037-02.5E,69-21.5N 037-02.5E, 69-21.5N 035-19.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
+        "body": "NAVAREA XX 121/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTC AND1200 TO 1330 UTC DAILY 20 TO 30 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-17.38N 037-51.36E, 70-10.26N 032-40.00E.2. CANCEL THIS MSG 301430 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Artillery Firings Notice"
+        "title": "Rocket Launch Barents"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 158/25(43)",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.503333333333334,
+            69.45666666666666
+          ],
+          [
+            15.88,
+            69.65666666666667
+          ],
+          [
+            16.156666666666666,
+            69.62666666666667
+          ],
+          [
+            16.086666666666666,
+            69.46833333333333
+          ],
+          [
+            16.616666666666667,
+            69.36666666666666
+          ],
+          [
+            17.303333333333335,
+            69.53333333333333
+          ],
+          [
+            17.436666666666667,
+            69.55333333333333
+          ],
+          [
+            17.365,
+            69.86166666666666
+          ],
+          [
+            14.968333333333334,
+            69.87
+          ],
+          [
+            14.763333333333334,
+            69.54
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2025-09-18T12:51:00",
+        "raw_dtg": "181251Z SEP 25",
+        "msg_id": "HYDROARC 158/25(43)",
+        "year": 2025,
+        "cancellations": [
+          "HYDROARC 157/25",
+          "THIS MSG 270101Z SEP 25"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "HYDROARC 158/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   1600Z TO 0001Z DAILY 18 THRU 26 SEP\n   IN AREA BOUND BY\n   69-27.40N 015-30.20E, 69-39.40N 015-52.80E,\n   69-37.60N 016-09.40E, 69-28.10N 016-05.20E,\n   69-22.00N 016-37.00E, 69-32.00N 017-18.20E,\n   69-33.20N 017-26.20E, 69-51.70N 017-21.90E,\n   69-52.20N 014-58.10E, 69-32.40N 014-45.80E.\n2. CANCEL HYDROARC 157/25.\n3. CANCEL THIS MSG 270101Z SEP 25.",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Launch Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 145/25(15)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.18333333333334,
+          69.15
+        ]
+      },
+      "properties": {
+        "dtg": "2025-08-29T00:41:00",
+        "raw_dtg": "290041Z AUG 25",
+        "msg_id": "HYDROARC 145/25(15)",
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "summary": null,
+        "body": "HYDROARC 145/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT PITT ISLAND 69-09.00N 136-11.00W\nINOPERATIVE.",
+        "category": "accident",
+        "title": "Pitt Island Racon Inoperative"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 157/25(43)",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.503333333333334,
+            69.45666666666666
+          ],
+          [
+            15.88,
+            69.65666666666667
+          ],
+          [
+            16.156666666666666,
+            69.62666666666667
+          ],
+          [
+            16.086666666666666,
+            69.46833333333333
+          ],
+          [
+            16.616666666666667,
+            69.36666666666666
+          ],
+          [
+            17.303333333333335,
+            69.53333333333333
+          ],
+          [
+            17.436666666666667,
+            69.55333333333333
+          ],
+          [
+            17.365,
+            69.86166666666666
+          ],
+          [
+            14.968333333333334,
+            69.87
+          ],
+          [
+            14.763333333333334,
+            69.54
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2025-09-17T19:15:00",
+        "raw_dtg": "171915Z SEP 25",
+        "msg_id": "HYDROARC 157/25(43)",
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 260101Z SEP 25"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "HYDROARC 157/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   1600Z TO 0001Z DAILY 18 THRU 26 SEP\n   IN AREA BOUND BY\n   69-27.40N 015-30.20E, 69-39.40N 015-52.80E,\n   69-37.60N 016-09.40E, 69-28.10N 016-05.20E,\n   69-22.00N 016-37.00E, 69-32.00N 017-18.20E,\n   69-33.20N 017-26.20E, 69-51.70N 017-21.90E,\n   69-52.20N 014-58.10E, 69-32.40N 014-45.80E.\n2. CANCEL THIS MSG 260101Z SEP 25.",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Launch Exercise"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 143/25(15)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.545,
+          69.19
+        ]
+      },
+      "properties": {
+        "dtg": "2025-08-23T23:29:00",
+        "raw_dtg": "232329Z AUG 25",
+        "msg_id": "HYDROARC 143/25(15)",
+        "cancellations": [],
+        "hazard_type": "general",
+        "body": "HYDROARC 143/25(15).\nGULF OF BOOTHIA.\nCANADA.\nDNC 28.\n6.8 METER DEPTH REPORTED IN 69-11.40N 089-32.70W.",
+        "category": "other",
+        "title": "Shallow Depth Reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 167/25(43)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.683333333333334,
+              70.06666666666666
+            ],
+            [
+              14.683333333333334,
+              69.53333333333333
+            ],
+            [
+              16.216666666666665,
+              69.53333333333333
+            ],
+            [
+              16.216666666666665,
+              70.06666666666666
+            ],
+            [
+              14.683333333333334,
+              70.06666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2025-09-23T05:35:00",
+        "raw_dtg": "230535Z SEP 25",
+        "msg_id": "HYDROARC 167/25(43)",
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 261700Z SEP 25"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 167/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0800Z TO 1600Z DAILY 24 THRU 26 SEP\n   IN AREA BOUND BY\n   70-04.00N 014-41.00E, 69-32.00N 014-41.00E,\n   69-32.00N 016-13.00E, 70-04.00N 016-13.00E.\n2. CANCEL THIS MSG 261700Z SEP 25.",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Launch Operations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 198/22(15)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -137.575,
+          69.0
+        ]
+      },
+      "properties": {
+        "dtg": "2022-08-11T16:43:00",
+        "raw_dtg": "111643Z AUG 22",
+        "msg_id": "HYDROARC 198/22(15)",
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "body": "HYDROARC 198/22(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT SHINGLE POINT BEACON\n69-00.00N 137-34.50W INOPERATIVE.",
+        "category": "other",
+        "title": "Shingle Point Racon Out"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 142/25(15)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -132.35,
+          69.75
+        ]
+      },
+      "properties": {
+        "dtg": "2025-08-22T19:41:00",
+        "raw_dtg": "221941Z AUG 25",
+        "msg_id": "HYDROARC 142/25(15)",
+        "cancellations": [
+          "HYDROARC 140/25"
+        ],
+        "hazard_type": "general",
+        "body": "HYDROARC 142/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\n1. RACON AT WARREN POINT IN 69-45.00N 132-21.00W\n   DISCONTINUED.\n2. CANCEL HYDROARC 140/25.",
+        "category": "other",
+        "title": "Warren Point RACON Off"
       }
     },
     {
@@ -546,350 +1329,6 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 163/23(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -134.40666666666667,
-          69.77666666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2023-08-15T04:29:00",
-        "raw_dtg": "150429Z AUG 23",
-        "msg_id": "HYDROARC 163/23(15)",
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "body": "HYDROARC 163/23(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT PULLEN ISLAND LIGHT\n69-46.60N 134-24.40W INOPERATIVE.",
-        "category": "accident",
-        "title": "Racon Inoperative Pullen Island"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 113/25",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              33.766666666666666,
-              70.28333333333333
-            ],
-            [
-              34.78333333333333,
-              70.28333333333333
-            ],
-            [
-              34.78333333333333,
-              70.03333333333333
-            ],
-            [
-              33.833333333333336,
-              70.03333333333333
-            ],
-            [
-              33.766666666666666,
-              70.28333333333333
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 113/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1700 UTC 15 SEPIN AREA DANGEROUS TONAVIGATION BOUNDED BY:70-17.0N 033-46.0E, 70-17.0N 034-47.0E,70-02.0N 034-47.0E, 70-02.0N 033-50.0E.2. CANCEL THIS MSG 151800 UTC SEP 25.=NNNN",
-        "msg_id": "NAVAREA XX 113/25",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 151800 UTC SEP 25"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "NAVAREA XX 113/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1700 UTC 15 SEPIN AREA DANGEROUS TONAVIGATION BOUNDED BY:70-17.0N 033-46.0E, 70-17.0N 034-47.0E,70-02.0N 034-47.0E, 70-02.0N 033-50.0E.2. CANCEL THIS MSG 151800 UTC SEP 25.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Barents Artillery Firings"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 145/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.18333333333334,
-          69.15
-        ]
-      },
-      "properties": {
-        "dtg": "2025-08-29T00:41:00",
-        "raw_dtg": "290041Z AUG 25",
-        "msg_id": "HYDROARC 145/25(15)",
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "summary": null,
-        "body": "HYDROARC 145/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT PITT ISLAND 69-09.00N 136-11.00W\nINOPERATIVE.",
-        "category": "accident",
-        "title": "Pitt Island Racon Inoperative"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 167/25(43)",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              14.683333333333334,
-              70.06666666666666
-            ],
-            [
-              14.683333333333334,
-              69.53333333333333
-            ],
-            [
-              16.216666666666665,
-              69.53333333333333
-            ],
-            [
-              16.216666666666665,
-              70.06666666666666
-            ],
-            [
-              14.683333333333334,
-              70.06666666666666
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-23T05:35:00",
-        "raw_dtg": "230535Z SEP 25",
-        "msg_id": "HYDROARC 167/25(43)",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 261700Z SEP 25"
-        ],
-        "hazard_type": "hazardous operations",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "HYDROARC 167/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0800Z TO 1600Z DAILY 24 THRU 26 SEP\n   IN AREA BOUND BY\n   70-04.00N 014-41.00E, 69-32.00N 014-41.00E,\n   69-32.00N 016-13.00E, 70-04.00N 016-13.00E.\n2. CANCEL THIS MSG 261700Z SEP 25.",
-        "summary": null,
-        "category": "military",
-        "title": "Rocket Launch Warning"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 283/24(16)",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -154.99833333333333,
-            71.67333333333333
-          ],
-          [
-            -155.16133333333335,
-            71.735
-          ],
-          [
-            -155.34716666666668,
-            71.79666666666667
-          ],
-          [
-            -161.9365,
-            74.52283333333334
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2024-12-17T08:58:00",
-        "raw_dtg": "170858Z DEC 24",
-        "msg_id": "HYDROARC 283/24(16)",
-        "cancellations": [],
-        "hazard_type": "scientific mooring",
-        "body": "HYDROARC 283/24(16).\nBEAUFORT SEA.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\nSCIENTIFIC MOORINGS ESTABLISHED:\nA. BCE-24, IN 71-40.40N 154-59.90W,\n   AT DEPTH 108 METERS, TOP FLOAT 20 METERS.\nB. BCC-24, IN 71-44.10N 155-09.68W,\n   AT DEPTH 291 METERS, TOP FLOAT 21 METERS.\nC. BCW-24, IN 71-47.80N 155-20.83W,\n   AT DEPTH 165 METERS, TOP FLOAT 40 METERS.\nD. NAP-24T, IN 74-31.37N 161-56.19W,\n   AT DEPTH 1680 METERS, TOP FLOAT 28 METERS.",
-        "category": "other",
-        "title": "Scientific Moorings Deployed"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 157/25(43)",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            15.503333333333334,
-            69.45666666666666
-          ],
-          [
-            15.88,
-            69.65666666666667
-          ],
-          [
-            16.156666666666666,
-            69.62666666666667
-          ],
-          [
-            16.086666666666666,
-            69.46833333333333
-          ],
-          [
-            16.616666666666667,
-            69.36666666666666
-          ],
-          [
-            17.303333333333335,
-            69.53333333333333
-          ],
-          [
-            17.436666666666667,
-            69.55333333333333
-          ],
-          [
-            17.365,
-            69.86166666666666
-          ],
-          [
-            14.968333333333334,
-            69.87
-          ],
-          [
-            14.763333333333334,
-            69.54
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-17T19:15:00",
-        "raw_dtg": "171915Z SEP 25",
-        "msg_id": "HYDROARC 157/25(43)",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 260101Z SEP 25"
-        ],
-        "hazard_type": "hazardous operations",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "HYDROARC 157/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   1600Z TO 0001Z DAILY 18 THRU 26 SEP\n   IN AREA BOUND BY\n   69-27.40N 015-30.20E, 69-39.40N 015-52.80E,\n   69-37.60N 016-09.40E, 69-28.10N 016-05.20E,\n   69-22.00N 016-37.00E, 69-32.00N 017-18.20E,\n   69-33.20N 017-26.20E, 69-51.70N 017-21.90E,\n   69-52.20N 014-58.10E, 69-32.40N 014-45.80E.\n2. CANCEL THIS MSG 260101Z SEP 25.",
-        "summary": null,
-        "category": "military",
-        "title": "Rocket Launch Hazard"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 119/25",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              35.93333333333333,
-              70.11666666666666
-            ],
-            [
-              36.11666666666667,
-              69.45833333333333
-            ],
-            [
-              35.18333333333333,
-              69.48333333333333
-            ],
-            [
-              33.69166666666667,
-              69.53333333333333
-            ],
-            [
-              33.06666666666667,
-              69.68333333333334
-            ],
-            [
-              33.06666666666667,
-              69.73333333333333
-            ],
-            [
-              35.03333333333333,
-              70.05
-            ],
-            [
-              35.93333333333333,
-              70.11666666666666
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 119/25EAST OF RYBACHIY PENINSULA.CHART RUS 10100.1. MISSILE FIRINGS 0500 TO 1700 UTC DAILY18 TO 19 SEP NAVIGATION PROHIBITED INTERRITORIAL WATERS DANGEROUSOUTSIDE IN AREA BOUNDED BY:70-07.0N 035-56.0E, 69-27.5N 036-07.0E,69-29.0N 035-11.0E, 69-32.0N 033-41.5E,69-41.0N 033-04.0E, THEN COASTAL LINE TO69-44.0N 033-04.0E, 70-03.0N 035-02.0E.2. CANCEL THIS MSG 191800 UTC SEP 25.=NNNN",
-        "msg_id": "NAVAREA XX 119/25",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 191800 UTC SEP 25"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "NAVAREA XX 119/25EAST OF RYBACHIY PENINSULA.CHART RUS 10100.1. MISSILE FIRINGS 0500 TO 1700 UTC DAILY18 TO 19 SEP NAVIGATION PROHIBITED INTERRITORIAL WATERS DANGEROUSOUTSIDE IN AREA BOUNDED BY:70-07.0N 035-56.0E, 69-27.5N 036-07.0E,69-29.0N 035-11.0E, 69-32.0N 033-41.5E,69-41.0N 033-04.0E, THEN COASTAL LINE TO69-44.0N 033-04.0E, 70-03.0N 035-02.0E.2. CANCEL THIS MSG 191800 UTC SEP 25.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Missile Firings Alert"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 168/25(43)",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              14.683333333333334,
-              70.06666666666666
-            ],
-            [
-              14.683333333333334,
-              69.53333333333333
-            ],
-            [
-              16.216666666666665,
-              69.53333333333333
-            ],
-            [
-              16.216666666666665,
-              70.06666666666666
-            ],
-            [
-              14.683333333333334,
-              70.06666666666666
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-23T18:42:00",
-        "raw_dtg": "231842Z SEP 25",
-        "msg_id": "HYDROARC 168/25(43)",
-        "year": 2025,
-        "cancellations": [
-          "HYDROARC 167/25",
-          "THIS MSG 261700Z SEP 25"
-        ],
-        "hazard_type": "hazardous operations",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "HYDROARC 168/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0600Z TO 1600Z DAILY 24 THRU 26 SEP\n   IN AREA BOUND BY\n   70-04.00N 014-41.00E, 69-32.00N 014-41.00E,\n   69-32.00N 016-13.00E, 70-04.00N 016-13.00E.\n2. CANCEL HYDROARC 167/25 .\n3. CANCEL THIS MSG 261700Z SEP 25.",
-        "summary": null,
-        "category": "military",
-        "title": "Rocket Launching Operations"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVAREA XX 80/25",
       "geometry": {
         "type": "Point",
@@ -910,379 +1349,43 @@
         "body": "NAVAREA XX 80/25KARA SEA.CHART RUS 12311.1. JACKUP DRILLING RIG ARKTICHESKAYAESTABLISHED IN:72-57.2N 065-49.0E.WGS 84 DATUM.SAFETY ZONE 500 METRES.NNNN",
         "summary": null,
         "category": "other",
-        "title": "Arkticheskaya Rig Established"
+        "title": "Jackup Rig Established"
       }
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 148/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.34233333333333,
-          74.64383333333333
-        ]
-      },
-      "properties": {
-        "dtg": "2025-08-31T00:15:00",
-        "raw_dtg": "310015Z AUG 25",
-        "msg_id": "HYDROARC 148/25(15)",
-        "cancellations": [],
-        "hazard_type": "general",
-        "summary": null,
-        "body": "HYDROARC 148/25(15).\nLANCASTER SOUND.\nCANADA.\nDNC 28.\n13.6 METER DEPTH REPORTED IN 74-38.63N 091-20.54W.",
-        "category": "other",
-        "title": "Shallow Depth Reported"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 121/25",
+      "id": "NAVAREA XX 106/25",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              39.186,
-              74.23433333333334
+              35.31666666666667,
+              69.66666666666667
             ],
             [
-              44.37533333333333,
-              73.5335
+              37.041666666666664,
+              69.66666666666667
             ],
             [
-              37.856,
-              69.28966666666666
+              37.041666666666664,
+              69.35833333333333
             ],
             [
-              32.666666666666664,
-              70.171
+              35.31666666666667,
+              69.35833333333333
             ],
             [
-              39.186,
-              74.23433333333334
+              35.31666666666667,
+              69.66666666666667
             ]
           ]
         ]
       },
       "properties": {
         "dtg": null,
-        "raw_dtg": "NAVAREA XX 121/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTC AND1200 TO 1330 UTC DAILY 20 TO 30 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-17.38N 037-51.36E, 70-10.26N 032-40.00E.2. CANCEL THIS MSG 301430 UTC SEP 25.=NNNN",
-        "msg_id": "NAVAREA XX 121/25",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 301430 UTC SEP 25"
-        ],
-        "hazard_type": "hazardous operations",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "NAVAREA XX 121/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTC AND1200 TO 1330 UTC DAILY 20 TO 30 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-17.38N 037-51.36E, 70-10.26N 032-40.00E.2. CANCEL THIS MSG 301430 UTC SEP 25.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Rocket Launch Hazard"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 118/25",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            35.166666666666664,
-            72.63333333333334
-          ],
-          [
-            37.425,
-            71.20666666666666
-          ],
-          [
-            38.73833333333333,
-            69.63666666666667
-          ],
-          [
-            38.0,
-            69.475
-          ],
-          [
-            34.61666666666667,
-            70.725
-          ],
-          [
-            31.766666666666666,
-            72.06666666666666
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 118/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0500 UTC TO 1500 UTC 17 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:72-38.0N 035-10.0E, 71-12.4N 037-25.5E,69-38.2N 038-44.3E, 69-28.5N 038-00.0E,70-43.5N 034-37.0E, 72-04.0N 031-46.0E.2. CANCEL THIS MSG 171600 UTC SEP 25.=NNNN",
-        "msg_id": "NAVAREA XX 118/25",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 171600 UTC SEP 25"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "NAVAREA XX 118/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0500 UTC TO 1500 UTC 17 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:72-38.0N 035-10.0E, 71-12.4N 037-25.5E,69-38.2N 038-44.3E, 69-28.5N 038-00.0E,70-43.5N 034-37.0E, 72-04.0N 031-46.0E.2. CANCEL THIS MSG 171600 UTC SEP 25.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Missile Firings Warning"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 112/25",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              35.93333333333333,
-              70.96166666666667
-            ],
-            [
-              38.40833333333333,
-              70.08
-            ],
-            [
-              38.60666666666667,
-              69.00833333333334
-            ],
-            [
-              36.693333333333335,
-              69.12666666666667
-            ],
-            [
-              33.358333333333334,
-              70.08666666666667
-            ],
-            [
-              35.93333333333333,
-              70.96166666666667
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 112/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 132100 TO 141400 UTC SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:70-57.7N 035-56.0E, 70-04.8N 038-24.5E,69-00.5N 038-36.4E, 69-07.6N 036-41.6E,70-05.2N 033-21.5E.2. CANCEL THIS MSG 141500 UTC SEP 25.=NNNN",
-        "msg_id": "NAVAREA XX 112/25",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 141500 UTC SEP 25"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "NAVAREA XX 112/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 132100 TO 141400 UTC SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:70-57.7N 035-56.0E, 70-04.8N 038-24.5E,69-00.5N 038-36.4E, 69-07.6N 036-41.6E,70-05.2N 033-21.5E.2. CANCEL THIS MSG 141500 UTC SEP 25.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Missile Firings Barents"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 154/25(43)",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4,
-              70.0
-            ],
-            [
-              16.5,
-              70.0
-            ],
-            [
-              16.5,
-              69.25
-            ],
-            [
-              13.4,
-              68.7
-            ],
-            [
-              13.4,
-              70.0
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-10T19:30:00",
-        "raw_dtg": "101930Z SEP 25",
-        "msg_id": "HYDROARC 154/25(43)",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 200001Z SEP 25"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "HYDROARC 154/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. GPS JAMMING EXERCISES 0600Z TO 1600Z\n   DAILY 11 THRU 19 SEP IN AREA BOUND BY\n   70-00.00N 013-24.00E, 70-00.00N 016-30.00E,\n   69-15.00N 016-30.00E, 68-42.00N 013-24.00E.\n2. CANCEL THIS MSG 200001Z SEP 25.",
-        "summary": null,
-        "category": "military",
-        "title": "GPS Jamming Exercises"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 162/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.898,
-          71.351
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-19T11:24:00",
-        "raw_dtg": "191124Z SEP 25",
-        "msg_id": "HYDROARC 162/25(15)",
-        "year": 2025,
-        "cancellations": [],
-        "hazard_type": "general",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "HYDROARC 162/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 6.4 METERS IN 71-21.06N 096-53.88W.\nB. 21.7 METERS IN 71-20.64N 096-55.57W.",
-        "summary": null,
-        "category": "other",
-        "title": "Depths Reported Canada"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 119/25(15)",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -116.96333333333334,
-            71.375
-          ],
-          [
-            -117.02166666666666,
-            71.37683333333334
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-07-30T23:49:00",
-        "raw_dtg": "302349Z JUL 25",
-        "msg_id": "HYDROARC 119/25(15)",
-        "cancellations": [],
-        "hazard_type": "shoals",
-        "body": "HYDROARC 119/25(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 28.\nSHOALS REPORTED IN:\nA. 71-22.50N 116-57.80W.\nB. 71-22.61N 117-01.30W.",
-        "category": "other",
-        "title": "Shoals Reported Canada"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 198/22(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -137.575,
-          69.0
-        ]
-      },
-      "properties": {
-        "dtg": "2022-08-11T16:43:00",
-        "raw_dtg": "111643Z AUG 22",
-        "msg_id": "HYDROARC 198/22(15)",
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "body": "HYDROARC 198/22(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT SHINGLE POINT BEACON\n69-00.00N 137-34.50W INOPERATIVE.",
-        "category": "accident",
-        "title": "Shingle Point Racon Inoperative"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 111/25",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              33.666666666666664,
-              71.0
-            ],
-            [
-              34.833333333333336,
-              71.0
-            ],
-            [
-              34.833333333333336,
-              70.66666666666667
-            ],
-            [
-              33.666666666666664,
-              70.66666666666667
-            ],
-            [
-              33.666666666666664,
-              71.0
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 111/25BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS141405 TO 142100 UTC AND 142200 TO 151900 UTC SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:71-00.0N 033-40.0E, 71-00.0N 034-50.0E,70-40.0N 034-50.0E, 70-40.0N 033-40.0E.2. CANCEL THIS MSG 152000 UTC SEP 25.=NNNN",
-        "msg_id": "NAVAREA XX 111/25",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 152000 UTC SEP 25"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "NAVAREA XX 111/25BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS141405 TO 142100 UTC AND 142200 TO 151900 UTC SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:71-00.0N 033-40.0E, 71-00.0N 034-50.0E,70-40.0N 034-50.0E, 70-40.0N 033-40.0E.2. CANCEL THIS MSG 152000 UTC SEP 25.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Missile Firings Barents"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 105/25",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              33.63333333333333,
-              69.96666666666667
-            ],
-            [
-              34.8,
-              69.96666666666667
-            ],
-            [
-              34.8,
-              69.575
-            ],
-            [
-              33.63333333333333,
-              69.575
-            ],
-            [
-              33.63333333333333,
-              69.96666666666667
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 105/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-34.5N 034-48.0E, 69-34.5N 033-38.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
-        "msg_id": "NAVAREA XX 105/25",
+        "raw_dtg": "NAVAREA XX 106/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-40.0N 035-19.0E, 69-40.0N 037-02.5E,69-21.5N 037-02.5E, 69-21.5N 035-19.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
+        "msg_id": "NAVAREA XX 106/25",
         "year": 2025,
         "cancellations": [
           "THIS MESSAGE 161800 UTC SEP 25"
@@ -1290,33 +1393,10 @@
         "hazard_type": "general",
         "geometry_kind": "polygon",
         "radius_nm": null,
-        "body": "NAVAREA XX 105/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-34.5N 034-48.0E, 69-34.5N 033-38.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
+        "body": "NAVAREA XX 106/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-40.0N 035-19.0E, 69-40.0N 037-02.5E,69-21.5N 037-02.5E, 69-21.5N 035-19.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Artillery Firings Notice"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 142/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -132.35,
-          69.75
-        ]
-      },
-      "properties": {
-        "dtg": "2025-08-22T19:41:00",
-        "raw_dtg": "221941Z AUG 25",
-        "msg_id": "HYDROARC 142/25(15)",
-        "cancellations": [
-          "HYDROARC 140/25"
-        ],
-        "hazard_type": "general",
-        "body": "HYDROARC 142/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\n1. RACON AT WARREN POINT IN 69-45.00N 132-21.00W\n   DISCONTINUED.\n2. CANCEL HYDROARC 140/25.",
-        "category": "other",
-        "title": "Racon Discontinued Warning"
+        "title": "Artillery Firings Alert"
       }
     },
     {
@@ -1341,87 +1421,7 @@
         "body": "HYDROARC 153/25(15).\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nVESSEL THAMESBORG AGROUND\nIN 71-21.40N 096-53.96W.",
         "summary": null,
         "category": "accident",
-        "title": "THAMESBORG Vessel Aground"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 143/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.545,
-          69.19
-        ]
-      },
-      "properties": {
-        "dtg": "2025-08-23T23:29:00",
-        "raw_dtg": "232329Z AUG 25",
-        "msg_id": "HYDROARC 143/25(15)",
-        "cancellations": [],
-        "hazard_type": "general",
-        "body": "HYDROARC 143/25(15).\nGULF OF BOOTHIA.\nCANADA.\nDNC 28.\n6.8 METER DEPTH REPORTED IN 69-11.40N 089-32.70W.",
-        "category": "other",
-        "title": "Shallow Depth Reported"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 160/25(19,96)",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            160.8,
-            53.0
-          ],
-          [
-            159.6,
-            53.2
-          ],
-          [
-            162.6,
-            56.1
-          ],
-          [
-            167.4,
-            54.7
-          ],
-          [
-            164.5,
-            58.8
-          ],
-          [
-            -159.4,
-            22.0
-          ],
-          [
-            -157.9,
-            21.3
-          ],
-          [
-            -156.5,
-            20.9
-          ],
-          [
-            -155.1,
-            19.7
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-18T19:46:00",
-        "raw_dtg": "181946Z SEP 25",
-        "msg_id": "HYDROARC 160/25(19,96)",
-        "year": 2025,
-        "cancellations": [],
-        "hazard_type": "general",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "HYDROARC 160/25(19,96).\nBERING SEA.\nNORTH PACIFIC.\nKAMCHATKA.\nDNC 13, DNC 24.\n1. EARTHQUAKE WITH PRELIMINARY MAGNITUDE OF\n   7.8 OCCURRED AT 181858Z SEP. TSUNAMI WAVES ARE\n   POSSIBLE FOR COASTS LOCATED IN AREA WITHIN 870 MILES\n   OF 53-00.00N 160-48.00E. TSUNAMI MAY BE A SERIES OF WAVES\n   WHICH COULD BE DANGEROUS FOR SEVERAL HOURS AFTER THE\n   INITIAL WAVE ARRIVAL.\n2. TSUNAMI ACTIVITY IS FORECASTED TO START AT\n   THE FOLLOWING TIMES:\n   A. PETROPAVLOVSK 53-12.00N 159-36.00E AT 1930Z.\n   B. UST KAMCHATSK 56-06.00N 162-36.00E AT 1938Z.\n   C. MEDNNY ISLAND 54-42.00N 167-24.00E AT 2002Z.\n   D. OSTROV KARAGINS 58-48.00N 164-30.00E AT 2006Z.\n   E. SHEMYA 52-43.45 N 174-07.13 E AT 2120Z.\n   F . NAWILIWILI 22-00.00N 159-24.00W AT 0051Z.\n   G. HONOLULU 21-18.00N 157-54.00W AT 0105Z.\n   H. KAHULUI 20-54.00N 156-30.00W AT 0111Z.\n   I. HILO 19-42.00N 155-06.00W AT 0129Z.\n3. TSUNAMI WAVES REACHING THREE METERS ABOVE\n   THE TIDE LEVEL ARE POSSIBLE AND MAY BE\n   A SERIES OF WAVES WHICH COULD BE DANGEROUS\n   FOR SEVERAL HOURS AFTER THE INITIAL WAVE ARRIVAL.\n4. FURTHER TSUNAMI INFORMATION CAN BE FOUND\n   AT WWW.TSUNAMI.GOV.",
-        "summary": null,
-        "category": "accident",
-        "title": "Earthquake Tsunami Warning"
+        "title": "Thamesborg Vessel Aground"
       }
     }
   ]
