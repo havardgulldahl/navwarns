@@ -300,7 +300,7 @@
             
             // Check for self-cancellation with date
             for (const cancel of cancellations) {
-                if (cancel && cancel.includes('THIS MSG') || cancel.includes('THIS MESSAGE')) {
+                if (cancel && (cancel.includes('THIS MSG') || cancel.includes('THIS MESSAGE'))) {
                     const cancelDate = parseCancellationDate(cancel);
                     if (cancelDate && checkDate > cancelDate) {
                         return false; // This navwarn is cancelled
