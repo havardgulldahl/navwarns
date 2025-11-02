@@ -17,7 +17,112 @@
 
         #map {
             width: 100%;
-            height: 100%;
+            height: calc(100% - 80px);
+        }
+
+        #timeline-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background: linear-gradient(to top, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.95));
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+            padding: 12px 20px;
+            z-index: 1000;
+        }
+
+        #timeline-controls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 8px;
+        }
+
+        #timeline-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            min-width: 120px;
+        }
+
+        #date-slider {
+            flex: 1;
+            height: 8px;
+            border-radius: 4px;
+            background: linear-gradient(to right, #e0e0e0 0%, #4a90e2 50%, #2ecc71 100%);
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        #date-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #fff;
+            border: 3px solid #4a90e2;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        #date-slider::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #fff;
+            border: 3px solid #4a90e2;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        #date-display {
+            font-size: 15px;
+            color: #2c3e50;
+            min-width: 180px;
+            text-align: right;
+            font-weight: 500;
+        }
+
+        .timeline-button {
+            padding: 6px 14px;
+            border: none;
+            border-radius: 4px;
+            background: #4a90e2;
+            color: white;
+            font-size: 13px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .timeline-button:hover {
+            background: #357abd;
+        }
+
+        .timeline-button.active {
+            background: #2ecc71;
+        }
+
+        #quick-dates {
+            display: flex;
+            gap: 8px;
+        }
+
+        .quick-date-btn {
+            padding: 4px 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            background: white;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .quick-date-btn:hover {
+            background: #f0f0f0;
+            border-color: #4a90e2;
         }
 
         .popup-content {
@@ -93,6 +198,21 @@
 
 <body>
     <div id="map"></div>
+    
+    <div id="timeline-container">
+        <div id="timeline-controls">
+            <span id="timeline-label">View NavWarns as of:</span>
+            <input type="range" id="date-slider" min="0" max="100" value="100" step="1">
+            <span id="date-display">Today (Current)</span>
+        </div>
+        <div id="quick-dates">
+            <button class="quick-date-btn" onclick="setQuickDate(-7)">7 days ago</button>
+            <button class="quick-date-btn" onclick="setQuickDate(-14)">2 weeks ago</button>
+            <button class="quick-date-btn" onclick="setQuickDate(-30)">1 month ago</button>
+            <button class="quick-date-btn" onclick="setQuickDate(-90)">3 months ago</button>
+            <button class="timeline-button active" onclick="setQuickDate(0)">Show Current Only</button>
+        </div>
+    </div>
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="anonymous"></script>
@@ -148,6 +268,53 @@
 
         L.control.layers({ 'Arctic SDI (EPSG:3575)': arcticBasemap }, {}).addTo(map);
 
+        // Timeline filtering state
+        let currentFilterDate = new Date(); // Default to today
+        let allNavwarnsData = null;
+        let mainFeatureGroup = null;
+
+        // Parse cancellation date from "THIS MSG DDHHMMZ MON YY" or "THIS MSG DDHHMM UTC MON YY" format
+        function parseCancellationDate(cancelStr) {
+            if (!cancelStr) return null;
+            
+            // Match patterns like "THIS MSG 171600 UTC SEP 25" or "THIS MSG 171600Z SEP 25"
+            const match = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC) ([A-Z]{3}) (\d{2})/);
+            if (match) {
+                const [, day, hour, minute, monthStr, year] = match;
+                const monthMap = {
+                    'JAN': 0, 'FEB': 1, 'MAR': 2, 'APR': 3, 'MAY': 4, 'JUN': 5,
+                    'JUL': 6, 'AUG': 7, 'SEP': 8, 'OCT': 9, 'NOV': 10, 'DEC': 11
+                };
+                const month = monthMap[monthStr];
+                if (month === undefined) return null;
+                
+                const fullYear = 2000 + parseInt(year);
+                return new Date(Date.UTC(fullYear, month, parseInt(day), parseInt(hour), parseInt(minute)));
+            }
+            return null;
+        }
+
+        // Check if a navwarn is valid at a given date
+        function isNavwarnValidAt(feature, checkDate) {
+            const cancellations = feature.properties?.cancellations || [];
+            
+            // Check for self-cancellation with date
+            for (const cancel of cancellations) {
+                if (cancel && cancel.includes('THIS MSG') || cancel.includes('THIS MESSAGE')) {
+                    const cancelDate = parseCancellationDate(cancel);
+                    if (cancelDate && checkDate > cancelDate) {
+                        return false; // This navwarn is cancelled
+                    }
+                }
+            }
+            return true; // Valid at this date
+        }
+
+        // Filter features based on current date
+        function filterFeaturesByDate(features, date) {
+            return features.filter(f => isNavwarnValidAt(f, date));
+        }
+
         // Colors and formatting
         const categoryColors = {
             military: '#d73027',
@@ -188,6 +355,61 @@
         </div>`;
         }
 
+        // Render features on the map
+        function renderFeatures(features, featureGroup) {
+            featureGroup.clearLayers();
+            
+            const filteredData = {
+                type: 'FeatureCollection',
+                features: features
+            };
+
+            const layer = L.geoJSON(filteredData, {
+                pointToLayer: (feature, latlng) => {
+                    const category = feature.properties?.category;
+                    const color = getCategoryColor(category);
+                    return L.circleMarker(latlng, {
+                        radius: 6,
+                        fillColor: color,
+                        color: '#fff',
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.85
+                    });
+                },
+                onEachFeature: (feature, layer) => {
+                    layer.bindPopup(() => buildPopup(feature));
+
+                    if (feature.geometry && feature.geometry.type === 'MultiPoint') {
+                        const latlngs = feature.geometry.coordinates
+                            .map(c => L.latLng(c[1], c[0]))
+                            .filter(ll => Number.isFinite(ll.lat) && Number.isFinite(ll.lng));
+                        if (latlngs.length >= 2) {
+                            const category = feature.properties?.category;
+                            const color = getCategoryColor(category);
+                            L.polyline(latlngs, {
+                                color,
+                                weight: 2,
+                                opacity: 0.6,
+                                dashArray: '4,4'
+                            }).addTo(featureGroup);
+                        }
+                    }
+                }
+            }).addTo(featureGroup);
+        }
+
+        // Update map based on current filter date
+        function updateMapDisplay() {
+            if (!allNavwarnsData || !mainFeatureGroup) return;
+            
+            const filteredFeatures = filterFeaturesByDate(allNavwarnsData.features, currentFilterDate);
+            renderFeatures(filteredFeatures, mainFeatureGroup);
+            
+            // Update count in legend if it exists
+            updateLegendCount(filteredFeatures.length, allNavwarnsData.features.length);
+        }
+
         // Load GeoJSON in WGS84; DO NOT override coordsToLatLng. Leaflet will project to CRS.
         function loadGeoJsonLayer(url, { fit = false, addLegendFlag = false } = {}) {
             return fetch(url)
@@ -196,50 +418,19 @@
                     return r.json();
                 })
                 .then(data => {
-                    const featureGroup = L.featureGroup().addTo(map);
-
-                    const layer = L.geoJSON(data, {
-                        pointToLayer: (feature, latlng) => {
-                            // latlng is a valid L.LatLng; previous error was when this arg became undefined.
-                            const category = feature.properties?.category;
-                            const color = getCategoryColor(category);
-                            return L.circleMarker(latlng, {
-                                radius: 6,
-                                fillColor: color,
-                                color: '#fff',
-                                weight: 1,
-                                opacity: 1,
-                                fillOpacity: 0.85
-                            });
-                        },
-                        onEachFeature: (feature, layer) => {
-                            layer.bindPopup(() => buildPopup(feature));
-
-                            if (feature.geometry && feature.geometry.type === 'MultiPoint') {
-                                // Convert to LatLngs (Leaflet expects [lat, lng] order)
-                                const latlngs = feature.geometry.coordinates
-                                    .map(c => L.latLng(c[1], c[0]))
-                                    .filter(ll => Number.isFinite(ll.lat) && Number.isFinite(ll.lng));
-                                if (latlngs.length >= 2) {
-                                    const category = feature.properties?.category;
-                                    const color = getCategoryColor(category);
-                                    L.polyline(latlngs, {
-                                        color,
-                                        weight: 2,
-                                        opacity: 0.6,
-                                        dashArray: '4,4'
-                                    }).addTo(featureGroup);
-                                }
-                            }
-                        }
-                    }).addTo(featureGroup);
+                    allNavwarnsData = data;
+                    mainFeatureGroup = L.featureGroup().addTo(map);
+                    
+                    // Filter and render based on current date
+                    const filteredFeatures = filterFeaturesByDate(data.features, currentFilterDate);
+                    renderFeatures(filteredFeatures, mainFeatureGroup);
 
                     if (fit) {
-                        const b = featureGroup.getBounds();
+                        const b = mainFeatureGroup.getBounds();
                         if (b.isValid()) map.fitBounds(b, { maxZoom: 4, padding: [20, 20] });
                     }
                     if (addLegendFlag) addLegend(data.features || []);
-                    return { data, featureGroup, layer };
+                    return { data, featureGroup: mainFeatureGroup };
                 })
                 .catch(err => {
                     console.error(`Failed to load ${url}:`, err);
@@ -267,6 +458,7 @@
                         const fetchedLine = ts ? `<div class="fetched" style="font-size:10px;margin:2px 0 6px;">Fetched ${ts}</div>` : '';
                         div.innerHTML =
                             '<h4>NavWarns for the Arctic</h4>' + fetchedLine +
+                            '<div id="navwarn-count" style="font-size:11px;margin:4px 0;color:#666;"></div>' +
                             categoryList.map(c => {
                                 const col = getCategoryColor(c);
                                 return `<div class="item"><span class="swatch" style="background:${col}"></span><span>${c}</span></div>`;
@@ -278,6 +470,12 @@
                         return div;
                     };
                     legend.addTo(map);
+                    
+                    // Initialize count display
+                    if (allNavwarnsData) {
+                        const filtered = filterFeaturesByDate(allNavwarnsData.features, currentFilterDate);
+                        updateLegendCount(filtered.length, allNavwarnsData.features.length);
+                    }
 
                     setTimeout(() => {
                         const yearInput = document.getElementById('yearInput');
@@ -301,10 +499,96 @@
                 map.removeLayer(archiveLayerGroup);
                 archiveLayerGroup = null;
             }
-            loadGeoJsonLayer(url, { fit: true }).then(res => {
-                if (res && res.featureGroup) archiveLayerGroup = res.featureGroup;
-            });
+            // Note: Archive loading doesn't use the date filter
+            fetch(url)
+                .then(r => r.ok ? r.json() : null)
+                .then(data => {
+                    if (!data) return;
+                    archiveLayerGroup = L.featureGroup().addTo(map);
+                    renderFeatures(data.features || [], archiveLayerGroup);
+                    const b = archiveLayerGroup.getBounds();
+                    if (b.isValid()) map.fitBounds(b, { maxZoom: 4, padding: [20, 20] });
+                })
+                .catch(err => console.error('Failed to load archive:', err));
         }
+
+        // Update legend count display
+        function updateLegendCount(showing, total) {
+            const countEl = document.getElementById('navwarn-count');
+            if (countEl) {
+                if (showing === total) {
+                    countEl.innerHTML = `Showing all <strong>${total}</strong> NavWarns`;
+                } else {
+                    countEl.innerHTML = `Showing <strong>${showing}</strong> of ${total} NavWarns`;
+                }
+            }
+        }
+
+        // Timeline controls
+        const dateSlider = document.getElementById('date-slider');
+        const dateDisplay = document.getElementById('date-display');
+        
+        // Calculate date range (6 months back from today)
+        const today = new Date();
+        const sixMonthsAgo = new Date(today);
+        sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+        
+        // Helper to format date
+        function formatDisplayDate(date) {
+            const options = { year: 'numeric', month: 'short', day: 'numeric' };
+            return date.toLocaleDateString('en-US', options);
+        }
+        
+        // Update date from slider
+        dateSlider.addEventListener('input', (e) => {
+            const sliderValue = parseInt(e.target.value);
+            
+            // Map slider (0-100) to date range
+            const totalMs = today - sixMonthsAgo;
+            const dateMs = sixMonthsAgo.getTime() + (totalMs * sliderValue / 100);
+            currentFilterDate = new Date(dateMs);
+            
+            // Update display
+            if (sliderValue === 100) {
+                dateDisplay.textContent = 'Today (Current)';
+            } else {
+                dateDisplay.textContent = formatDisplayDate(currentFilterDate);
+            }
+            
+            // Update map
+            updateMapDisplay();
+        });
+        
+        // Quick date buttons
+        function setQuickDate(daysOffset) {
+            const targetDate = new Date();
+            targetDate.setDate(targetDate.getDate() + daysOffset);
+            currentFilterDate = targetDate;
+            
+            // Update slider position
+            const totalMs = today - sixMonthsAgo;
+            const offsetMs = targetDate - sixMonthsAgo;
+            const sliderPos = Math.max(0, Math.min(100, (offsetMs / totalMs) * 100));
+            dateSlider.value = sliderPos;
+            
+            // Update display
+            if (daysOffset === 0) {
+                dateDisplay.textContent = 'Today (Current)';
+                // Highlight the "Show Current Only" button
+                document.querySelectorAll('.quick-date-btn, .timeline-button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                event.target.classList.add('active');
+            } else {
+                dateDisplay.textContent = formatDisplayDate(currentFilterDate);
+            }
+            
+            // Update map
+            updateMapDisplay();
+        }
+        
+        // Make setQuickDate available globally
+        window.setQuickDate = setQuickDate;
     </script>
 
     <datalist id="years">
