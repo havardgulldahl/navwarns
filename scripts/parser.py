@@ -628,12 +628,16 @@ def analyze_geometry(
             if any(term in text for term in feature_terms):
                 geometry = "multipoint"
         # Polygon by keywords
-        if (
-            not geometry
-            and ("AREA BOUNDED BY" in text or "AREA BOUNDED" in text)
-            and len(coords) >= 3
-        ):
-            geometry = "polygon"
+        # English: "AREA BOUNDED", "AREA BOUNDED BY"
+        # Russian: "РАЙОНЕ" (area/zone), often with "ЗАПРЕТНОМ" (prohibited), "ДЛЯ ПЛАВАНИЯ" (for navigation)
+        if not geometry and len(coords) >= 3:
+            polygon_keywords = [
+                "AREA BOUNDED BY",
+                "AREA BOUNDED",
+                "РАЙОНЕ",  # Russian: area/zone
+            ]
+            if any(keyword in text for keyword in polygon_keywords):
+                geometry = "polygon"
         # Closed ring
         if not geometry and len(coords) >= 4:
             f_lat, f_lon = coords[0]
