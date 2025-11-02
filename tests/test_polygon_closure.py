@@ -133,22 +133,32 @@ def test_polygon_closure_with_area_bounded_keyword():
     """
     Test that polygons with 'AREA BOUNDED' keyword are properly closed.
     """
+    from scripts.parser import analyze_geometry
+    
+    # Test coordinates that are NOT closed
+    coords = [
+        (60.0, 5.0),
+        (61.0, 5.0),
+        (61.0, 6.0),
+        (60.0, 6.0),
+    ]
+    body = "AREA BOUNDED BY 60-00N 005-00E 61-00N 005-00E 61-00N 006-00E 60-00N 006-00E"
+    
+    # First verify that analyze_geometry correctly identifies this as a polygon
+    geometry, radius = analyze_geometry(body, coords)
+    assert geometry == "polygon", f"Should be classified as polygon, got {geometry}"
+    
+    # Now test the full message with geometry classification
     msg = NavwarnMessage(
         dtg=None,
         raw_dtg="TEST",
         msg_id="TEST/00",
-        coordinates=[
-            (60.0, 5.0),
-            (61.0, 5.0),
-            (61.0, 6.0),
-            (60.0, 6.0),
-            # Not closed - last != first
-        ],
+        coordinates=coords,
         cancellations=[],
         hazard_type="general",
-        geometry="polygon",  # Would be set by analyze_geometry with "AREA BOUNDED" keyword
-        radius=None,
-        body="AREA BOUNDED BY 60-00N 005-00E 61-00N 005-00E 61-00N 006-00E 60-00N 006-00E",
+        geometry=geometry,  # Use the detected geometry type
+        radius=radius,
+        body=body,
     )
     
     geom = msg.geojson_geometry()
