@@ -442,10 +442,20 @@
 
         // Legend
         function addLegend(features) {
-            const categorySet = new Set();
-            features.forEach(f => categorySet.add(f.properties?.category || 'unknown'));
-            categorySet.add('military');
-            const categoryList = Array.from(categorySet).sort();
+            // Always show the three main categories in order
+            const mainCategories = ['military', 'accident', 'other'];
+            
+            // Collect any additional categories from the data
+            const additionalCategories = new Set();
+            features.forEach(f => {
+                const cat = f.properties?.category;
+                if (cat && !mainCategories.includes(cat)) {
+                    additionalCategories.add(cat);
+                }
+            });
+            
+            // Combine main categories with any additional ones
+            const categoryList = [...mainCategories, ...Array.from(additionalCategories).sort()];
 
             fetch('scrape_timestamp.txt')
                 .then(r => r.ok ? r.text() : '')
