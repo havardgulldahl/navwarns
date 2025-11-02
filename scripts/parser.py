@@ -112,7 +112,6 @@ class NavwarnMessage:
     coordinates: List[Tuple[float, float]] = field(default_factory=list)
     cancellations: List[str] = field(default_factory=list)
     hazard_type: Optional[str] = None
-    geometry: Optional[str] = None  # one of: point, linestring, polygon, circle
     geometry: Optional[str] = (
         None  # one of: point, linestring, polygon, circle, multipoint
     )
@@ -271,7 +270,6 @@ class NavwarnMessage:
         (area, msg_id, year, maps, details) = parse_prip_header(prip_header)
         coords = parse_coordinates(prip_str)
         cancels = prip_parse_cancellations(prip_str)
-        print(f"Cancelaltions: {cancels}")
         hazard = classify_hazard(prip_str)
         geometry, radius = analyze_geometry(prip_str, coords)
         groups = parse_coordinate_groups(prip_str)
