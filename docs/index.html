@@ -296,9 +296,29 @@
 
         // Check if a navwarn is valid at a given date
         function isNavwarnValidAt(feature, checkDate) {
-            const cancellations = feature.properties?.cancellations || [];
+            const properties = feature.properties || {};
+            const cancellations = properties.cancellations || [];
             
-            // Check for self-cancellation with date
+            // Check if navwarn has started (using DTG as start date)
+            const dtg = properties.dtg;
+            if (dtg) {
+                const startDate = new Date(dtg);
+                if (!isNaN(startDate.getTime()) && checkDate < startDate) {
+                    return false; // This navwarn hasn't started yet
+                }
+            } else {
+                // For navwarns without DTG (like Russian NAVAREA XX), use year as heuristic
+                // Assume they start at the beginning of their year
+                const year = properties.year;
+                if (year) {
+                    const yearStart = new Date(year, 0, 1); // January 1st of the year
+                    if (checkDate < yearStart) {
+                        return false; // Before this navwarn's year
+                    }
+                }
+            }
+            
+            // Check for self-cancellation with date (end date)
             for (const cancel of cancellations) {
                 if (cancel && (cancel.includes('THIS MSG') || cancel.includes('THIS MESSAGE'))) {
                     const cancelDate = parseCancellationDate(cancel);
