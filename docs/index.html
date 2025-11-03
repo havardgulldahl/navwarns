@@ -302,18 +302,20 @@
             // Check if navwarn has started (using DTG as start date)
             const dtg = properties.dtg;
             if (dtg) {
-                // Parse DTG - handle ISO format with or without 'Z' suffix
-                // The Date constructor handles ISO 8601 formats consistently
-                const startDate = new Date(dtg.endsWith('Z') ? dtg : dtg + 'Z');
+                // Parse DTG - handle ISO format with or without timezone info
+                // Add 'Z' only if the string doesn't already have timezone information
+                const hasTimezone = dtg.includes('Z') || dtg.includes('+') || dtg.includes('-');
+                const dtgWithTz = hasTimezone ? dtg : dtg + 'Z';
+                const startDate = new Date(dtgWithTz);
                 if (!isNaN(startDate.getTime()) && checkDate < startDate) {
                     return false; // This navwarn hasn't started yet
                 }
             } else {
                 // For navwarns without DTG (like Russian NAVAREA XX), use year as heuristic
-                // Assume they start at the beginning of their year
+                // Assume they start at the beginning of their year (in UTC)
                 const year = properties.year;
                 if (year) {
-                    const yearStart = new Date(year, 0, 1); // January 1st of the year
+                    const yearStart = new Date(Date.UTC(year, 0, 1)); // January 1st of the year in UTC
                     if (checkDate < yearStart) {
                         return false; // Before this navwarn's year
                     }

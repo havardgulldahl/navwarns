@@ -56,12 +56,25 @@ def is_navwarn_valid_at(cancellations, check_date, dtg=None, year=None):
     # Check if navwarn has started (using DTG as start date)
     if dtg:
         try:
-            # Handle various ISO format strings (with or without 'Z' suffix)
+            # Handle various ISO format strings (with or without 'Z' suffix/timezone)
             if isinstance(dtg, str):
-                # Remove 'Z' suffix and add timezone info for proper parsing
-                dtg_normalized = dtg.rstrip('Z')
-                if '+' not in dtg_normalized and not dtg_normalized.endswith('+00:00'):
-                    dtg_normalized += '+00:00'
+                # Check if timezone info is already present
+                has_tz = dtg.endswith('Z')
+                if not has_tz and 'T' in dtg:
+                    # Check for +/- timezone offset after the time part
+                    time_part = dtg.split('T')[1]
+                    has_tz = '+' in time_part or ('-' in time_part and time_part.count('-') > 0)
+                
+                if dtg.endswith('Z'):
+                    # Remove Z and add explicit UTC offset
+                    dtg_normalized = dtg[:-1] + '+00:00'
+                elif not has_tz:
+                    # No timezone info, assume UTC
+                    dtg_normalized = dtg + '+00:00'
+                else:
+                    # Already has timezone info
+                    dtg_normalized = dtg
+                
                 start_date = datetime.fromisoformat(dtg_normalized)
             else:
                 start_date = dtg
@@ -238,4 +251,15 @@ def test_navwarn_dtg_with_z_suffix():
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is False
     
     check_date = datetime(2025, 9, 25, 0, 0)  # After start
+    assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is True
+
+
+def test_navwarn_dtg_with_timezone_offset():
+    """Test that DTG with timezone offset is properly parsed."""
+    cancellations = []
+    dtg = "2025-09-23T18:42:00-05:00"  # With negative timezone offset
+    check_date = datetime(2025, 9, 23, 20, 0)  # 20:00 UTC is before 18:42 Eastern (23:42 UTC)
+    assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is False
+    
+    check_date = datetime(2025, 9, 24, 0, 0)  # After start in UTC
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is True
