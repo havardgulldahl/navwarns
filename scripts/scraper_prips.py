@@ -165,13 +165,22 @@ def main(parse_files: List = []):
             if msg_id := getattr(m, "msg_id", None):
                 safe_id = re.sub(r"[^\w\-]", "_", f"{msg_id}_{m.year}")
 
-            # print(json.dumps(serialize_message(m), ensure_ascii=False))
             filename = f"{safe_id}.json"
-            with open(
-                os.path.join(prips_location, filename),
-                "w",
-                encoding="utf-8",
-            ) as f_geo:
+            filepath = os.path.join(prips_location, filename)
+            
+            # If file already exists, skip to preserve original DTG (don't overwrite)
+            if os.path.exists(filepath):
+                logging.debug("Skipping existing file: %s", filename)
+                continue
+            
+            # If message doesn't have DTG, assign current timestamp as first-seen date
+            if m.dtg is None:
+                m.dtg = datetime.datetime.now()
+                # Also update raw_dtg if it's empty or just contains the message ID
+                if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ''):
+                    m.raw_dtg = m.dtg.strftime('%d%H%MZ %b %y').upper()
+            
+            with open(filepath, "w", encoding="utf-8") as f_geo:
                 f_geo.write(json.dumps(serialize_message(m), ensure_ascii=False) + "\n")
         logging.info(
             "Extracted %d prips from %d raw prips to %s",
