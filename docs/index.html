@@ -296,9 +296,37 @@
 
         // Check if a navwarn is valid at a given date
         function isNavwarnValidAt(feature, checkDate) {
-            const cancellations = feature.properties?.cancellations || [];
+            const properties = feature.properties || {};
+            const cancellations = properties.cancellations || [];
             
-            // Check for self-cancellation with date
+            // Check if navwarn has started (using DTG as start date)
+            const dtg = properties.dtg;
+            if (dtg) {
+                // Parse DTG - handle ISO format with or without timezone info
+                // Check if string already has timezone: Z suffix, or +/- after T (not in date part)
+                let hasTimezone = dtg.endsWith('Z');
+                if (!hasTimezone && dtg.includes('T')) {
+                    const timePart = dtg.split('T')[1];
+                    hasTimezone = timePart.includes('+') || timePart.includes('-');
+                }
+                const dtgWithTz = hasTimezone ? dtg : dtg + 'Z';
+                const startDate = new Date(dtgWithTz);
+                if (!isNaN(startDate.getTime()) && checkDate < startDate) {
+                    return false; // This navwarn hasn't started yet
+                }
+            } else {
+                // For navwarns without DTG (like Russian NAVAREA XX), use year as heuristic
+                // Assume they start at the beginning of their year (in UTC)
+                const year = properties.year;
+                if (year) {
+                    const yearStart = new Date(Date.UTC(year, 0, 1)); // January 1st of the year in UTC
+                    if (checkDate < yearStart) {
+                        return false; // Before this navwarn's year
+                    }
+                }
+            }
+            
+            // Check for self-cancellation with date (end date)
             for (const cancel of cancellations) {
                 if (cancel && (cancel.includes('THIS MSG') || cancel.includes('THIS MESSAGE'))) {
                     const cancelDate = parseCancellationDate(cancel);

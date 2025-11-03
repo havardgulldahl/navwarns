@@ -155,8 +155,18 @@ def store_messages(
     for m in messages:
         fname = message_filename(m)
         path = output_dir / fname
+        
+        # If file exists and not force, preserve existing data (including DTG)
         if path.exists() and not force:
             continue
+        
+        # If message doesn't have DTG, assign current timestamp as first-seen date
+        if m.dtg is None:
+            m.dtg = datetime.datetime.utcnow()
+            # Also update raw_dtg if it's empty or just contains the message ID
+            if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ''):
+                m.raw_dtg = m.dtg.strftime('%d%H%MZ %b %y').upper()
+        
         base_glob = fname.split(".json")[0] + "_*.json"
         for old in output_dir.glob(base_glob):
             try:
