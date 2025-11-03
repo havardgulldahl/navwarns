@@ -46,26 +46,50 @@ def is_navwarn_valid_at(cancellations, check_date, dtg=None, year=None):
     Returns:
         True if navwarn is valid (not cancelled) at the given date
     """
+    from datetime import timezone
+    
+    # Normalize check_date to UTC if it's naive (for consistent comparisons)
+    check_date_utc = check_date
+    if check_date.tzinfo is None:
+        check_date_utc = check_date.replace(tzinfo=timezone.utc)
+    
     # Check if navwarn has started (using DTG as start date)
     if dtg:
         try:
-            start_date = datetime.fromisoformat(dtg.replace('Z', '+00:00'))
-            if check_date < start_date:
+            # Handle various ISO format strings (with or without 'Z' suffix)
+            if isinstance(dtg, str):
+                # Remove 'Z' suffix and add timezone info for proper parsing
+                dtg_normalized = dtg.rstrip('Z')
+                if '+' not in dtg_normalized and not dtg_normalized.endswith('+00:00'):
+                    dtg_normalized += '+00:00'
+                start_date = datetime.fromisoformat(dtg_normalized)
+            else:
+                start_date = dtg
+            
+            # Ensure start_date is timezone-aware
+            if start_date.tzinfo is None:
+                start_date = start_date.replace(tzinfo=timezone.utc)
+            
+            if check_date_utc < start_date:
                 return False  # This navwarn hasn't started yet
-        except (ValueError, AttributeError):
+        except (ValueError, AttributeError, TypeError):
             pass  # Invalid DTG, skip start date check
     elif year:
         # For navwarns without DTG, use year as heuristic
-        year_start = datetime(year, 1, 1)
-        if check_date < year_start:
+        year_start = datetime(year, 1, 1, tzinfo=timezone.utc)
+        if check_date_utc < year_start:
             return False  # Before this navwarn's year
     
     # Check for self-cancellation with date (end date)
     for cancel in cancellations:
         if cancel and ('THIS MSG' in cancel or 'THIS MESSAGE' in cancel):
             cancel_date = parse_cancellation_date(cancel)
-            if cancel_date and check_date > cancel_date:
-                return False  # This navwarn is cancelled
+            if cancel_date:
+                # Ensure cancel_date is timezone-aware
+                if cancel_date.tzinfo is None:
+                    cancel_date = cancel_date.replace(tzinfo=timezone.utc)
+                if check_date_utc > cancel_date:
+                    return False  # This navwarn is cancelled
     return True  # Valid at this date
 
 
@@ -204,3 +228,14 @@ def test_navwarn_without_dtg_or_year():
     cancellations = []
     check_date = datetime(2020, 1, 1, 0, 0)  # Any date
     assert is_navwarn_valid_at(cancellations, check_date, dtg=None, year=None) is True
+
+
+def test_navwarn_dtg_with_z_suffix():
+    """Test that DTG with Z suffix is properly parsed."""
+    cancellations = []
+    dtg = "2025-09-23T18:42:00Z"  # With Z suffix
+    check_date = datetime(2025, 9, 20, 0, 0)  # Before start
+    assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is False
+    
+    check_date = datetime(2025, 9, 25, 0, 0)  # After start
+    assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is True

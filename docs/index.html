@@ -302,7 +302,9 @@
             // Check if navwarn has started (using DTG as start date)
             const dtg = properties.dtg;
             if (dtg) {
-                const startDate = new Date(dtg);
+                // Parse DTG - handle ISO format with or without 'Z' suffix
+                // The Date constructor handles ISO 8601 formats consistently
+                const startDate = new Date(dtg.endsWith('Z') ? dtg : dtg + 'Z');
                 if (!isNaN(startDate.getTime()) && checkDate < startDate) {
                     return false; // This navwarn hasn't started yet
                 }
