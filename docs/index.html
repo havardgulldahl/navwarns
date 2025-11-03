@@ -303,8 +303,12 @@
             const dtg = properties.dtg;
             if (dtg) {
                 // Parse DTG - handle ISO format with or without timezone info
-                // Add 'Z' only if the string doesn't already have timezone information
-                const hasTimezone = dtg.includes('Z') || dtg.includes('+') || dtg.includes('-');
+                // Check if string already has timezone: Z suffix, or +/- after T (not in date part)
+                let hasTimezone = dtg.endsWith('Z');
+                if (!hasTimezone && dtg.includes('T')) {
+                    const timePart = dtg.split('T')[1];
+                    hasTimezone = timePart.includes('+') || timePart.includes('-');
+                }
                 const dtgWithTz = hasTimezone ? dtg : dtg + 'Z';
                 const startDate = new Date(dtgWithTz);
                 if (!isNaN(startDate.getTime()) && checkDate < startDate) {

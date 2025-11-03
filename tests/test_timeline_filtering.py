@@ -61,9 +61,9 @@ def is_navwarn_valid_at(cancellations, check_date, dtg=None, year=None):
                 # Check if timezone info is already present
                 has_tz = dtg.endswith('Z')
                 if not has_tz and 'T' in dtg:
-                    # Check for +/- timezone offset after the time part
+                    # Check for +/- timezone offset in the time part only
                     time_part = dtg.split('T')[1]
-                    has_tz = '+' in time_part or ('-' in time_part and time_part.count('-') > 0)
+                    has_tz = '+' in time_part or '-' in time_part
                 
                 if dtg.endswith('Z'):
                     # Remove Z and add explicit UTC offset
