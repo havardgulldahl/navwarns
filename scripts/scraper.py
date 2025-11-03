@@ -162,7 +162,7 @@ def store_messages(
         
         # If message doesn't have DTG, assign current timestamp as first-seen date
         if m.dtg is None:
-            m.dtg = datetime.datetime.now()
+            m.dtg = datetime.datetime.utcnow()
             # Also update raw_dtg if it's empty or just contains the message ID
             if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ''):
                 m.raw_dtg = m.dtg.strftime('%d%H%MZ %b %y').upper()
