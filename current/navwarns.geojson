@@ -47,7 +47,7 @@
         "body": "NAVAREA XX 118/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0500 UTC TO 1500 UTC 17 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:72-38.0N 035-10.0E, 71-12.4N 037-25.5E,69-38.2N 038-44.3E, 69-28.5N 038-00.0E,70-43.5N 034-37.0E, 72-04.0N 031-46.0E.2. CANCEL THIS MSG 171600 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Sea Missile Firings"
+        "title": "Missile Firings Warning"
       }
     },
     {
@@ -72,7 +72,7 @@
         "body": "HYDROARC 211/25(15).\nDAVIS STRAIT.\nCANADA.\nDNC 28.\nMCTS IQALUIT CENTER 63-43.80N 068-32.70W.\nGMDSS TRANSMIST SERVICES OFF-AIR.",
         "summary": null,
         "category": "other",
-        "title": "GMDSS Service Outage"
+        "title": "GMDSS Transmission Outage"
       }
     },
     {
@@ -99,32 +99,7 @@
         "body": "NAVAREA XX 103/25BARENTS SEA.CHART RUS 10100.1. MOORING BUOY IN 69-49.4N 034-07.5E.2. CANCEL 101/24 AND THIS PARA.=NNNN",
         "summary": null,
         "category": "other",
-        "title": "Mooring Buoy Notice"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 175/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.277,
-          76.67266666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-29T23:29:00",
-        "raw_dtg": "292329Z SEP 25",
-        "msg_id": "HYDROARC 175/25(15)",
-        "year": 2025,
-        "cancellations": [],
-        "hazard_type": "general",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "HYDROARC 175/25(15).\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\n33.6 METER DEPTH REPORTED IN 76-40.36N 102-16.62W.",
-        "summary": null,
-        "category": "other",
-        "title": "Depth Reported Canada"
+        "title": "Mooring Buoy Location"
       }
     },
     {
@@ -171,105 +146,7 @@
         "body": "NAVAREA XX 173/25BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 16 TO 21 DEC NAVIGATION PROHIBITED INTERRITORIAL WATERS DANGEROUSOUTSIDE IN AREA BOUNDED BY:70-03.6N 033-38.0E, 70-03.6N 035-26.3E,69-31.5N 035-26.3E, 69-31.5N 033-38.0E.2. CANCEL THIS MSG 212000 UTC DEC 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firing Barents"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 144/25(16,41,96)",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -168.75,
-            65.5
-          ],
-          [
-            -168.75,
-            70.0
-          ],
-          [
-            -155.099,
-            71.701
-          ],
-          [
-            -157.498,
-            71.413
-          ],
-          [
-            -154.11,
-            71.428
-          ],
-          [
-            -159.889,
-            73.118
-          ],
-          [
-            -157.441,
-            77.0
-          ],
-          [
-            -174.75,
-            75.0
-          ],
-          [
-            -168.75,
-            76.0
-          ],
-          [
-            -168.0,
-            68.0
-          ],
-          [
-            -168.25,
-            67.875
-          ],
-          [
-            -168.5,
-            67.75
-          ],
-          [
-            -168.833,
-            68.033
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-08-21T09:38:00",
-        "raw_dtg": "210938Z AUG 25",
-        "msg_id": "HYDROARC 144/25(16,41,96)",
-        "cancellations": [
-          "THIS MSG 060001Z OCT 25"
-        ],
-        "hazard_type": "general",
-        "body": "HYDROARC 144/25(16,41,96).\nBERING STRAIT.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\n1. UNDERWATER OPERATIONS 31 AUG THRU 05 OCT\n   BY M/V MIRAI WITH SUBMERSIBLE\n   ALONG TRACKLINE JOINING\n   65-30.00N 168-45.00W, 70-00.00N 168-45.00W,\n   71-42.06N 155-05.94W, 71-24.78N 157-29.88W,\n   71-25.68N 154-06.60W, 73-07.08N 159-53.34W,\n   77-00.00N 157-26.46W, 75-00.00N 174-45.00W,\n   76-00.00N 168-45.00W, 68-00.00N 168-00.00W,\n   67-52.50N 168-15.00W, 67-45.00N 168-30.00W,\n   68-01.98N 168-49.98W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 060001Z OCT 25.",
-        "category": "other",
-        "title": "Underwater Operations"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 170/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.34916666666666,
-          71.49316666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-25T23:33:00",
-        "raw_dtg": "252333Z SEP 25",
-        "msg_id": "HYDROARC 170/25(15)",
-        "year": 2025,
-        "cancellations": [],
-        "hazard_type": "shoals",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "HYDROARC 170/25(15).\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nSHOAL REPORTED IN 71-29.59N 097-20.95W.",
-        "summary": null,
-        "category": "accident",
-        "title": "Shoal Reported Canada"
+        "title": "Missile Firings Barents"
       }
     },
     {
@@ -316,7 +193,7 @@
         "body": "NAVAREA XX 160/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 26 TO 28 NOVIN AREA DANGEROUS TONAVIGATION BOUNDED BY:70-10.0N 033-36.0E, 70-10.0N 035-30.0E,69-34.5N 035-30.0E, 69-34.5N 033-36.0E.2. CANCEL THIS MSG 282000 UTC NOV 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Artillery Firings Alert"
+        "title": "Artillery Firings Barents"
       }
     },
     {
@@ -481,7 +358,7 @@
         "body": "HYDROARC 194/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nMCTS IQALUIT REMOTE STATION INUVIK\n68-19.00N 133-35.00W HF SERVICES OFF AIR.",
         "summary": null,
         "category": "other",
-        "title": "Inuvik HF Services Offline"
+        "title": "HF Services Off Air"
       }
     },
     {
@@ -540,7 +417,7 @@
         "body": "NAVAREA XX 119/25EAST OF RYBACHIY PENINSULA.CHART RUS 10100.1. MISSILE FIRINGS 0500 TO 1700 UTC DAILY18 TO 19 SEP NAVIGATION PROHIBITED INTERRITORIAL WATERS DANGEROUSOUTSIDE IN AREA BOUNDED BY:70-07.0N 035-56.0E, 69-27.5N 036-07.0E,69-29.0N 035-11.0E, 69-32.0N 033-41.5E,69-41.0N 033-04.0E, THEN COASTAL LINE TO69-44.0N 033-04.0E, 70-03.0N 035-02.0E.2. CANCEL THIS MSG 191800 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firings East Rybachiy"
+        "title": "Missile Firings Warning"
       }
     },
     {
@@ -638,7 +515,7 @@
         "body": "NAVAREA XX 153/25BARENTS SEA.CHART RUS 11114.1. SPECIAL ACTIVITIES 172100 UTC TO 222100 UTC NOVNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:69-05.0N 038-00.0E, 68-50.0N 038-50.0E,68-30.0N 038-20.0E, 68-50.0N 037-30.0E.2. CANCEL THIS MSG 222200 UTC NOV 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Sea Special Activities"
+        "title": "Barents Sea Military Activities"
       }
     },
     {
@@ -685,7 +562,7 @@
         "body": "NAVAREA XX 111/25BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS141405 TO 142100 UTC AND 142200 TO 151900 UTC SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:71-00.0N 033-40.0E, 71-00.0N 034-50.0E,70-40.0N 034-50.0E, 70-40.0N 033-40.0E.2. CANCEL THIS MSG 152000 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Testing Area"
+        "title": "Missile Firings Warning"
       }
     },
     {
@@ -746,7 +623,7 @@
         "body": "NAVAREA XX 175/25BARENTS AND WHITE SEAS AND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0400 TO 1500 UTC DAILY 16 TO 18 DECNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 73-48.0N 040-10.0E, 68-33.0N 044-42.0E,THEN COASTAL LINE TO 66-59.0N 044-24.0E,66-54.0N 043-31.0E, 73-33.0N 037-31.0E,B. 67-42.0N 045-18.0E, 67-07.0N 045-42.0E,67-07.0N 045-37.0E, THEN COASTAL LINE TO67-42.0N 045-18.0E.2. CANCEL THIS MSG 181600 UTC DEC 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firing Notice"
+        "title": "Missile Firings Alert"
       }
     },
     {
@@ -793,7 +670,7 @@
         "body": "NAVAREA XX 136/25CHART RUS 10100.BARENTS SEA POMORSKIY STRAIT.1. ROCKET LAUNCHING 192100 UTC TO 302100 UTC OCTNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-17.0N 051-14.0E, 69-01.0N 052-02.0E,68-19.0N 050-27.0E, 68-33.0N 049-48.0E.2. CANCEL THIS MSG 302200 UTC OCT 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Rocket Launch"
+        "title": "Barents Sea Rocket Launch"
       }
     },
     {
@@ -852,7 +729,7 @@
         "body": "NAVAREA XX 168/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 1400 TO 1500 UTCDAILY 11 TO 16 DEC NAVIGATION PROHIBITEDIN TERRITORIAL WATERS DANGEROUS OUTSIDEIN AREA BOUNDED BY:70-56-00N 032-04-58E, 70-10-00N 033-40-00E,69-54-00N 032-40-00E, 70-08-00N 032-04-58E,70-15-00N 031-50-00E, 70-30-07N 031-50-00E,70-36-22N 031-43-18E.2. CANCEL THIS MSG 161600 UTC DEC 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Rocket Launch"
+        "title": "Rocket Launching Warning"
       }
     },
     {
@@ -877,7 +754,7 @@
         "body": "NAVAREA XX 135/25BARENTS SEA.CHART RUS 10100.MOORING BUOY IN 69-46.01N 035-08.79E.NNNN",
         "summary": null,
         "category": "other",
-        "title": "Mooring Buoy Reported"
+        "title": "Mooring Buoy Location"
       }
     },
     {
@@ -940,7 +817,7 @@
         "body": "NAVAREA XX 158/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 1300 TO 1435 UTC DAILY25 TO 29 NOV NAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 70-47-00N 046-22-00E, 70-37-00N 047-36-00E,69-46-00N 046-36-00E, 69-56-00N 045-20-00E.B. 74-04-00N 051-13-30E, 73-51-40N 052-40-00E,72-44-00N 050-36-00E, 72-57-00N 049-13-00E.2. CANCEL THIS MSG 291535 UTC NOV 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Barents"
+        "title": "Rocket Launch Warning"
       }
     },
     {
@@ -1046,7 +923,7 @@
         "body": "NAVAREA XX 130/25BARENTS SEA.CHART RUS 10101.1. SPECIAL ACTIVITIES 0500 TO 0800 UTCAND 1100 TO 1500 UTC AND 1600 TO 1900 UTCDAILY 15 TO 18 OCT IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:77-19.0N 051-24.0E, 77-06.0N 055-04.0E,76-09.0N 053-14.0E, 76-23.0N 049-34.0E.2. CANCEL THIS MSG 182000 UTC OCT 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Special Activities Barents"
+        "title": "Barents Sea Military Activities"
       }
     },
     {
@@ -1128,7 +1005,7 @@
         "body": "NAVAREA XX 179/25BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 23 TO 28 DEC NAVIGATION PROHIBITED INTERRITORIAL WATERS DANGEROUSOUTSIDE IN AREA BOUNDED BY:70-03.6N 033-38.0E, 70-03.6N 035-26.3E,69-31.5N 035-26.3E, 69-31.5N 033-38.0E.2. CANCEL THIS MSG 282000 UTC DEC 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firings Notice"
+        "title": "Missile Firings Barents"
       }
     },
     {
@@ -1224,7 +1101,7 @@
         "body": "NAVAREA XX 113/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1700 UTC 15 SEPIN AREA DANGEROUS TONAVIGATION BOUNDED BY:70-17.0N 033-46.0E, 70-17.0N 034-47.0E,70-02.0N 034-47.0E, 70-02.0N 033-50.0E.2. CANCEL THIS MSG 151800 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Artillery Firings Barents"
+        "title": "Artillery Firings Alert"
       }
     },
     {
@@ -1271,7 +1148,7 @@
         "body": "NAVAREA XX 128/25BARENTS SEA.CHART RUS 10100.1. SPECIAL ACTIVITIES 0500 TO 0800 UTCAND 1100 TO 1500 UTC AND 1600 TO 1900 UTCDAILY 11 TO 15 OCT IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:75-28.0N 047-05.0E, 75-16.0N 051-10.0E,74-22.0N 049-07.0E, 74-35.0N 045-02.0E.2. CANCEL THIS MSG 152000 UTC OCT 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Sea Military Activity"
+        "title": "Barents Sea Military Activities"
       }
     },
     {
@@ -1352,7 +1229,7 @@
         "body": "NAVAREA XX 116/25BARENTS SEA AND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 142100 UTC TO 151700 UTC SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 69-47.5N 034-00.0E, 69-39.0N 038-04.8E,69-13.9N 043-01.2E, 68-46.2N 044-58.0E,68-32.5N 045-04.1E, THEN COASTAL LINE TO68-32.0N 044-14.0E, 68-35.4N 044-12.4E,68-56.4N 042-40.2E, 69-20.7N 037-56.0E,69-29.0N 033-54.5E.B. 67-44.0N 045-26.0E, 67-34.0N 045-30.0E,67-19.0N 045-00.0E, THEN COASTAL LINE TO67-44.0N 045-26.0E.2. CANCEL THIS MSG 151800 UTC SEP 25.NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firings Notice"
+        "title": "Missile Firings Alert"
       }
     },
     {
@@ -1433,34 +1310,7 @@
         "body": "HYDROARC 221/25(38,42,43).\nGREENLAND SEA.\nNORWEGIAN SEA.\nNORWAY.\nDNC 19, DNC 20, DNC 21, DNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   2000Z TO 2050Z DAILY 06 THRU 19 DEC\n   IN AREAS BOUND BY:\n   A. 79-41.46N 011-34.90W, 79-55.85N 010-21.89W,\n      79-11.76N 006-04.26W, 76-50.36N 003-23.82E,\n      74-15.84N 009-52.26E, 71-03.42N 015-12.97E,\n      70-30.12N 011-37.50E, 73-32.12N 007-12.24E,\n      76-01.02N 002-00.04E, 78-03.48N 004-13.39W.\n   B. 70-41.63N 012-51.95E, 70-53.83N 014-10.91E,\n      69-13.37N 015-58.53E, 68-59.34N 015-28.05E.\n2. CANCEL THIS MSG 192150Z DEC 25.",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Hazard"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 119/25(15)",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -116.96333333333334,
-            71.375
-          ],
-          [
-            -117.02166666666666,
-            71.37683333333334
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-07-30T23:49:00",
-        "raw_dtg": "302349Z JUL 25",
-        "msg_id": "HYDROARC 119/25(15)",
-        "cancellations": [],
-        "hazard_type": "shoals",
-        "body": "HYDROARC 119/25(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 28.\nSHOALS REPORTED IN:\nA. 71-22.50N 116-57.80W.\nB. 71-22.61N 117-01.30W.",
-        "category": "other",
-        "title": "Shoals Reported Amundsen"
+        "title": "Rocket Launch Operations"
       }
     },
     {
@@ -1485,7 +1335,7 @@
         "body": "HYDROARC 180/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT TUKTOYAKTUK ISLAND LIGHT\n69-27.35N 132-59.97W INOPERATIVE.",
         "summary": null,
         "category": "accident",
-        "title": "Tuktoyaktuk Racon Inoperative"
+        "title": "Racon Inoperative Beaufort"
       }
     },
     {
@@ -1544,7 +1394,7 @@
         "body": "NAVAREA XX 159/25BARENTS SEA.CHART RUS 10100.1. SPECIAL ACTIVITIES 0600 TO 2100 UTCDAILY 24 TO 25 NOVNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:70-15.0N 034-35.0E, 70-15.0N 038-00.0E,69-45.0N 038-00.0E, 69-20.0N 036-15.0E,69-35.0N 034-10.0E, 69-45.0N 034-00.0E,70-00.0N 034-00.0E.2. CANCEL THIS MSG 252200 UTC NOV 25.",
         "summary": null,
         "category": "military",
-        "title": "Barents Sea Special Activities"
+        "title": "Special Activities Barents"
       }
     },
     {
@@ -1591,7 +1441,7 @@
         "body": "NAVAREA XX 105/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-34.5N 034-48.0E, 69-34.5N 033-38.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Artillery Firings Barents"
+        "title": "Artillery Firings Notice"
       }
     },
     {
@@ -1638,7 +1488,7 @@
         "body": "NAVAREA XX 180/25BARENTS SEA POMORSKY STRAIT.CHART RUS 11115.1. ROCKET LAUNCHING 0600 TO 1600 UTC DAILY25 TO 30 DEC NAVIGATION PROHIBITED INTERRITORIAL WATERS DANGEROUSOUTSIDE IN AREA BOUNDED BY:69-08-48N 051-23-55E, 68-57-35N 052-02-49E,68-15-40N 050-15-12E, 68-28-22N 049-41-55E.2. CANCEL THIS MSG 301700 UTC DEC 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Warning"
+        "title": "Rocket Launch Barents"
       }
     },
     {
@@ -1691,7 +1541,7 @@
         "body": "HYDROARC 184/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0600Z TO 1630Z AND 1800Z TO 0200Z DAILY\n   13 THRU 26 OCT IN AREA BOUND BY\n   69-16.00N 012-42.00E, 69-37.00N 012-42.00E,\n   70-25.00N 013-17.00E, 70-49.00N 016-39.00E,\n   69-42.00N 016-53.00E, 69-20.00N 015-09.00E,\n   68-50.00N 014-14.00E.\n2. CANCEL THIS MSG 270300Z OCT 25.",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Warning"
+        "title": "Rocket Launch Operations"
       }
     },
     {
@@ -1750,7 +1600,7 @@
         "body": "NAVAREA XX 148/25BARENTS SEA.CHART RUS 10100.1. SPECIAL ACTIVITIES 0600 TO 2100 UTCDAILY 06 TO 08 AND 11 TO 14 NOVNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:70-15.0N 034-35.0E, 70-15.0N 038-00.0E,69-45.0N 038-00.0E, 69-20.0N 036-15.0E,69-35.0N 034-10.0E, 69-45.0N 034-00.0E,70-00.0N 034-00.0E.2. CANCEL THIS MSG 142200 UTC NOV 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Sea Activities"
+        "title": "Special Activities Zone"
       }
     },
     {
@@ -1795,7 +1645,7 @@
         "body": "NAVAREA XX 140/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTCAND 1200 TO 1330 UTC DAILY 25 TO 27 AND 29 OCT TO 03 NOVIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.53E,69-43.07N 037-03.29E, 70-14.16N 034-03.46E.2. CANCEL THIS MSG 031430 NOV 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Rocket Launch"
+        "title": "Rocket Launching Warning"
       }
     },
     {
@@ -1901,7 +1751,7 @@
         "body": "NAVAREA XX 137/25 CHART RUS 10100.BARENTS SEA1. ROCKET LAUNCHING 0900 TO 1030 UTCAND 1200 TO 1330 UTC DAILY 17 TO 20 OCT INAREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-43.07N 037-03.29E, 70-14.16N 034-03.46E.2. CANCEL THIS MSG 201430 UTC OCT 25.3. CANCEL 125/25 AND THIS PARA.=",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Barents"
+        "title": "Rocket Launch Barents Sea"
       }
     },
     {
@@ -1958,7 +1808,7 @@
         "body": "NAVAREA XX 117/25BARENTS AND WHITE SEASAND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0300 UTC TO 2000 UTC 16 SEPNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 69-24.0N 039-50.0E, 67-52.0N 044-07.0E,THEN COASTAL LINE TO 66-44.0N 044-24.0E,68-56.0N 038-32.0E.B. 67-31.0N 045-02.0E, 67-15.0N 045-43.0E,67-11.0N 045-30.0E, THEN COASTAL LINE TO67-31.0N 045-02.0E.2. CANCEL THIS MSG 162100 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firings Alert"
+        "title": "Missile Firings Warning"
       }
     },
     {
@@ -2006,7 +1856,7 @@
         "body": "NAVAREA XX 166/25BARENTS SEA POMORSKY STRAITAND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0300 UTC TO 1700 UTC DAILY03 TO 06 DEC NAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREAS BOUNDED BY:68-42.0N 048-40.0E, 68-28.0N 048-38.0E,68-08.0N 050-08.0E, THEN COASTAL LINE TO68-23.0N 046-08.0E.2. CANCEL THIS MSG 061800 UTC DEC 25.3. CANCEL 163/25 AND THIS PARA.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firings Barents"
+        "title": "Missile Firings Zones"
       }
     },
     {
@@ -2061,7 +1911,116 @@
         "body": "NAVAREA XX 141/25 CHARTS RUS 15004, 10100, 10103.KARA AND BARENTS SEAS.TOWING JACKUP DRILLING RIG ARKTICHESKYA23 OCT FROM DRILLING POINT TO PORT OF MURMANSKATTENDED BY TUGS ALONG THE ROUTE:72-57.22N 065-49.00E, 70-24.4N 057-55.8E,68-20.6N 048-49.0E, 68-44.4N 046-08.6E,69-20.0N 034-46.0E, 69-26.1N 033-50.4E,69-17.9N 033-31.4E, 69-02.3N 033-04.1E.TWO MILES BERTH REQUESTED.=NNNN",
         "summary": null,
         "category": "other",
-        "title": "Jackup Rig Tow"
+        "title": "Jackup Rig Towing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 3/26(GEN)",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -171.40566666666666,
+            27.4785
+          ],
+          [
+            -174.0075,
+            13.649666666666667
+          ],
+          [
+            -175.8075,
+            1.5996666666666666
+          ],
+          [
+            -172.7315,
+            0.912
+          ],
+          [
+            -170.669,
+            12.3765
+          ],
+          [
+            -170.1125,
+            16.762666666666668
+          ],
+          [
+            -168.6515,
+            26.729166666666668
+          ],
+          [
+            15.4675,
+            68.98883333333333
+          ],
+          [
+            15.975333333333333,
+            69.22283333333333
+          ],
+          [
+            14.181666666666667,
+            70.89716666666666
+          ],
+          [
+            12.865666666666666,
+            70.69366666666667
+          ],
+          [
+            15.216166666666666,
+            71.057
+          ],
+          [
+            9.871,
+            74.26383333333334
+          ],
+          [
+            3.3968333333333334,
+            76.83933333333333
+          ],
+          [
+            -6.070833333333334,
+            79.196
+          ],
+          [
+            -10.364833333333333,
+            79.93083333333334
+          ],
+          [
+            -11.581666666666667,
+            79.69083333333333
+          ],
+          [
+            -4.223166666666667,
+            78.05783333333333
+          ],
+          [
+            2.0005,
+            76.017
+          ],
+          [
+            7.204,
+            73.53533333333333
+          ],
+          [
+            11.625,
+            70.502
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-01-10T11:54:00",
+        "raw_dtg": "101154Z JAN 26",
+        "msg_id": "HYDROARC 3/26(GEN)",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 252120Z JAN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "HYDROARC 3/26(GEN).\nNORWEGIAN SEA.\nNORTH PACIFIC.\nNORWAY.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   2005Z TO 2020Z DAILY 19 THRU 25 JAN\n   IN AREAS BOUND BY:\n   A. 27-28.71N 171-24.34W, 13-38.98N 174-00.45W,\n      01-35.98N 175-48.45W, 00-54.72N 172-43.89W,\n      12-22.59N 170-40.14W, 16-45.76N 170-06.75W,\n      26-43.75N 168-39.09W.\n   B. 68-59.33N 015-28.05E, 69-13.37N 015-58.52E,\n      70-53.83N 014-10.90E, 70-41.62N 012-51.94E.\n   C. 71-03.42N 015-12.97E, 74-15.83N 009-52.26E,\n      76-50.36N 003-23.81E, 79-11.76N 006-04.25W,\n      79-55.85N 010-21.89W, 79-41.45N 011-34.90W,\n      78-03.47N 004-13.39W, 76-01.02N 002-00.03E,\n      73-32.12N 007-12.24E, 70-30.12N 011-37.50E.\n2. CANCEL THIS MSG 252120Z JAN 26.",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Launch Hazard"
       }
     },
     {
@@ -2140,7 +2099,7 @@
         "body": "NAVAREA XX 182/25KARA SEA.CHART RUS 11126.1. SPECIAL ACTIVITIES 01 JAN TO 30 JUNNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 74-13.0N 058-44.0E THEN COASTAL LINE TO74-34.0N 059-44.0E, 74-26.0N 060-37.0E, 74-04.0N 059-46.0E.B. 73-26.0N 057-11.0E THEN COASTAL LINE TO73-45.0N 057-50.0E, 73-37.0N 058-52.0E, 73-17.0N 058-19.0E.C. 72-13.0N 055-34.0E THEN COASTAL LINE TO72-40.0N 055-57.0E, 72-38.0N 057-04.0E, 72-12.0N 056-53.0E.2. CANCEL THIS MSG 01 JUL 26.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Kara Sea Military Closure"
+        "title": "Kara Sea Special Activities"
       }
     },
     {
@@ -2187,7 +2146,7 @@
         "body": "NAVAREA XX 110/25BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS0600 TO 1700 UTC DAILY 14 TO 15 SEPIN AREA DANGEROUS TONAVIGATION BOUNDED BY:73-00.0N 038-00.0E, 73-00.0N 040-00.0E,72-00.0N 040-00.0E, 72-00.0N 038-00.0E.2. CANCEL THIS MSG 151800 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firing Exercise"
+        "title": "Missile Firings Barents"
       }
     },
     {
@@ -2214,7 +2173,7 @@
         "body": "HYDROARC 200/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\n1. 20.7 METER DEPTH REPORTED IN 77-27.67N 093-03.26W.\n2. CANCEL HYDROARC 163/25.",
         "summary": null,
         "category": "other",
-        "title": "Reported Shallow Water"
+        "title": "New Shallow Depth"
       }
     },
     {
@@ -2261,7 +2220,7 @@
         "body": "NAVAREA XX 121/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTC AND1200 TO 1330 UTC DAILY 20 TO 30 SEPIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-17.38N 037-51.36E, 70-10.26N 032-40.00E.2. CANCEL THIS MSG 301430 UTC SEP 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Rocket Launching"
+        "title": "Rocket Launch Warning"
       }
     },
     {
@@ -2376,29 +2335,7 @@
         "body": "HYDROARC 198/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\n1. DEPTHS REPORTED:\n   A. 6.4 METERS IN 71-21.06N 096-53.88W.\n   B. 21.7 METERS IN 71-20.64N 096-55.57W.\n2. CANCEL HYDROARC 162/25.",
         "summary": null,
         "category": "other",
-        "title": "New Depths Reported"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 145/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.18333333333334,
-          69.15
-        ]
-      },
-      "properties": {
-        "dtg": "2025-08-29T00:41:00",
-        "raw_dtg": "290041Z AUG 25",
-        "msg_id": "HYDROARC 145/25(15)",
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "summary": null,
-        "body": "HYDROARC 145/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT PITT ISLAND 69-09.00N 136-11.00W\nINOPERATIVE.",
-        "category": "accident",
-        "title": "Pitt Island Racon Inoperative"
+        "title": "Shallow Depths Reported"
       }
     },
     {
@@ -2457,7 +2394,7 @@
         "body": "NAVAREA XX 167/25BARENTS AND WHITE SEAS AND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0400 UTC TO 1500 UTC DAILY10 TO 12 DEC NAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 73-48.0N 040-10.0E, 68-33.0N 044-42.0E,THEN COASTAL LINE TO 66-59.0N 044-24.0E,66-54.0N 043-31.0E, 73-33.0N 037-31.0E,B. 67-42.0N 045-18.0E, 67-07.0N 045-42.0E,67-07.0N 045-37.0E, THEN COASTAL LINE TO67-42.0N 045-18.0E.2. CANCEL THIS MSG 121600 DEC 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firing Exercise"
+        "title": "Missile Firings Alert"
       }
     },
     {
@@ -2516,7 +2453,7 @@
         "body": "NAVAREA XX 156/25BARENTS AND WHITE SEASAND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0300 UTC TO 1700 UTC DAILY22 TO 23 NOV NAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 73-48.0N 040-10.0E, 68-33.0N 044-42.0E,THEN COASTAL LINE TO 66-59.0N 044-24.0E,66-54.0N 043-31.0E, 73-33.0N 037-31.0E,B. 67-42.0N 045-18.0E, 67-07.0N 045-42.0E,67-07.0N 045-37.0E, THEN COASTAL LINE TO67-42.0N 045-18.0E.2. CANCEL THIS MSG 231800 NOV 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firings Barents"
+        "title": "Missile Firings Warning"
       }
     },
     {
@@ -2543,7 +2480,7 @@
         "body": "HYDROARC 199/25(15).\nGULF OF BOOTHIA.\nCANADA.\nDNC 28.\n1. 6.8 METER DEPTH REPORTED IN 69-11.40N 089-32.70W.\n2. CANCEL HYDROARC 143/25.",
         "summary": null,
         "category": "other",
-        "title": "Shallow Depth Reported"
+        "title": "Shoal Depth Reported"
       }
     },
     {
@@ -2590,7 +2527,7 @@
         "body": "NAVAREA XX 155/25BARENTS SEA.CHART RUS 11114.1. SPECIAL ACTIVITIES 222200 UTC TO 232100 UTC NOVNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:69-05.0N 038-00.0E, 68-50.0N 038-50.0E,68-30.0N 038-20.0E, 68-50.0N 037-30.0E.2. CANCEL THIS MSG 232200 UTC NOV 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Sea Military Activity"
+        "title": "Barents Sea Special Activities"
       }
     },
     {
@@ -2638,28 +2575,7 @@
         "body": "HYDROARC 189/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   191800Z TO 200200Z OCT IN AREA BOUND BY\n   70-01.00N 013-43.00E, 69-22.00N 014-52.00E,\n   69-44.00N 016-38.00E, 70-22.00N 015-35.00E.\n2. CANCEL HYDROARC 188/25.\n3. CANCEL THIS MSG 200300Z OCT 25.",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Operations"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 143/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.545,
-          69.19
-        ]
-      },
-      "properties": {
-        "dtg": "2025-08-23T23:29:00",
-        "raw_dtg": "232329Z AUG 25",
-        "msg_id": "HYDROARC 143/25(15)",
-        "cancellations": [],
-        "hazard_type": "general",
-        "body": "HYDROARC 143/25(15).\nGULF OF BOOTHIA.\nCANADA.\nDNC 28.\n6.8 METER DEPTH REPORTED IN 69-11.40N 089-32.70W.",
-        "category": "other",
-        "title": "Shallow Depth Reported"
+        "title": "Rocket Launch Hazard"
       }
     },
     {
@@ -2706,7 +2622,7 @@
         "body": "HYDROARC 230/25(42,43).\nBARENTS SEA.\nSVALBARD.\nDNC 22.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   1400Z TO 1500Z DAILY 23 THRU 28 DEC\n   IN AREA BOUND BY\n   76-22.00N 021-55.00E, 75-24.00N 024-43.00E,\n   74-51.00N 021-45.00E, 75-50.00N 018-50.00E.\n2. CANCEL THIS MSG 281600Z DEC 25.",
         "summary": null,
         "category": "other",
-        "title": "Space Debris Hazard"
+        "title": "Space Debris Operations"
       }
     },
     {
@@ -2727,7 +2643,7 @@
         "hazard_type": "aid to navigation outage",
         "body": "HYDROARC 198/22(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\nRACON AT SHINGLE POINT BEACON\n69-00.00N 137-34.50W INOPERATIVE.",
         "category": "accident",
-        "title": "Shingle Point Racon Inoperative"
+        "title": "Shingle Point Beacon Inoperative"
       }
     },
     {
@@ -2754,7 +2670,7 @@
         "body": "HYDROARC 197/25(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 28.\n1. SHOALS REPORTED IN:\n   A. 71-22.48N 116-57.77W.\n   B. 71-22.61N 117-01.34W.\n2. CANCEL HYDROARC 119/25.",
         "summary": null,
         "category": "other",
-        "title": "Shoals in Amundsen Gulf"
+        "title": "Shoals Reported Amundsen Gulf"
       }
     },
     {
@@ -2779,7 +2695,7 @@
         "body": "HYDROARC 192/25(15).\nCANADA.\nDNC 28.\nIQALUIT MCTS CAMBRIDGE BAY\nIN 69-07.00N 105-01.00W.\nMF AND HF SERVICES OFF AIR AT 251635Z OCT 25.",
         "summary": null,
         "category": "other",
-        "title": "MF/HF Services Offline"
+        "title": "Radio Services Offline"
       }
     },
     {
@@ -2826,30 +2742,7 @@
         "body": "HYDROARC 215/25(GEN).\nARCTIC.\nDNC 19, DNC 20, DNC 21, DNC 22, DNC 27, DNC 28.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   1730Z TO 1846Z DAILY 28 NOV THRU 28 DEC\n   IN AREA BOUND BY:\n   83-10.00N 133-58.00W, 82-08.00N 135-40.00W,\n   78-36.00N 165-43.00E, 79-18.00N 161-31.00E.\n2. CANCEL THIS MSG 281946Z DEC 25.",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Activity"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 142/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -132.35,
-          69.75
-        ]
-      },
-      "properties": {
-        "dtg": "2025-08-22T19:41:00",
-        "raw_dtg": "221941Z AUG 25",
-        "msg_id": "HYDROARC 142/25(15)",
-        "cancellations": [
-          "HYDROARC 140/25"
-        ],
-        "hazard_type": "general",
-        "body": "HYDROARC 142/25(15).\nBEAUFORT SEA.\nCANADA.\nDNC 27.\n1. RACON AT WARREN POINT IN 69-45.00N 132-21.00W\n   DISCONTINUED.\n2. CANCEL HYDROARC 140/25.",
-        "category": "other",
-        "title": "Warren Point RACON Off"
+        "title": "Rocket Launch Hazard"
       }
     },
     {
@@ -2922,7 +2815,7 @@
         "body": "NAVAREA XX 134/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0500 TO 1700 UTCDAILY 20 TO 24 AND 28 OCT NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 69-51.60N 035-09.80E, 69-40.00N 035-42.40E,69-23.65N 034-55.60E, 69-35.25N 034-23.00E.B. 72-54.00N 034-36.36E, 72-43.12N 037-49.12E,72-34.48N 039-33.36E, 71-03.00N 038-24.36E,70-27.00N 037-55.48E, 70-27.00N 037-01.48E,70-42.00N 034-05.24E, 72-16.48N 034-09.00E.2. CANCEL THIS MSG 281800 UTC OCT 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Missile Firings"
+        "title": "Missile Firings Alert"
       }
     },
     {
@@ -2969,89 +2862,7 @@
         "body": "HYDROARC 178/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 29.3 METERS IN 71-22.82N 096-41.27W.\nB. 26.6 METERS IN 71-22.05N 096-40.73W.\nC. 11.3 METERS IN 71-21.53N 096-45.79W.\nD. 11.3 METERS IN 71-21.20N 096-44.65W.\nE. 28.4 METERS IN 71-20.59N 096-45.34W.\nF. 28.35 METERS IN 71-18.28N 096-49.03W.",
         "summary": null,
         "category": "other",
-        "title": "Depths Reported Canada"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 147/25(43)",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            15.5,
-            69.45
-          ],
-          [
-            15.866666666666667,
-            69.65
-          ],
-          [
-            16.15,
-            69.61666666666666
-          ],
-          [
-            16.066666666666666,
-            69.46666666666667
-          ],
-          [
-            16.45,
-            69.33333333333333
-          ],
-          [
-            16.833333333333332,
-            69.33333333333333
-          ],
-          [
-            17.3,
-            69.51666666666667
-          ],
-          [
-            17.433333333333334,
-            69.55
-          ],
-          [
-            17.366666666666667,
-            69.86666666666666
-          ],
-          [
-            14.983333333333333,
-            69.88333333333334
-          ],
-          [
-            14.75,
-            69.55
-          ],
-          [
-            15.066666666666666,
-            69.16666666666667
-          ],
-          [
-            15.633333333333333,
-            69.08333333333333
-          ],
-          [
-            15.733333333333333,
-            69.11666666666666
-          ],
-          [
-            15.516666666666667,
-            69.45
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-08-30T07:03:00",
-        "raw_dtg": "300703Z AUG 25",
-        "msg_id": "HYDROARC 147/25(43)",
-        "cancellations": [
-          "THIS MSG 290300Z SEP 25"
-        ],
-        "hazard_type": "hazardous operations",
-        "summary": null,
-        "body": "HYDROARC 147/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   1300Z TO 0200Z DAILY 01 THRU 08 AND\n   1600Z TO 0200Z DAILY 08 THRU 28 SEP\n   IN AREA BOUND BY\n   69-27.00N 015-30.00E, 69-39.00N 015-52.00E,\n   69-37.00N 016-09.00E, 69-28.00N 016-04.00E,\n   69-20.00N 016-27.00E, 69-20.00N 016-50.00E,\n   69-31.00N 017-18.00E, 69-33.00N 017-26.00E,\n   69-52.00N 017-22.00E, 69-53.00N 014-59.00E,\n   69-33.00N 014-45.00E, 69-10.00N 015-04.00E,\n   69-05.00N 015-38.00E, 69-07.00N 015-44.00E,\n   69-27.00N 015-31.00E.\n2. CANCEL THIS MSG 290300Z SEP 25.",
-        "category": "military",
-        "title": "Rocket Launch Hazard"
+        "title": "Reported Depths Update"
       }
     },
     {
@@ -3076,7 +2887,7 @@
         "body": "NAVAREA XX 80/25KARA SEA.CHART RUS 12311.1. JACKUP DRILLING RIG ARKTICHESKAYAESTABLISHED IN:72-57.2N 065-49.0E.WGS 84 DATUM.SAFETY ZONE 500 METRES.NNNN",
         "summary": null,
         "category": "other",
-        "title": "Drilling Rig Established"
+        "title": "Arkticheskaya Drilling Rig"
       }
     },
     {
@@ -3184,7 +2995,7 @@
         "body": "NAVAREA XX 139/25BARENTS SEA.CHART RUS 10100.1. SPECIAL ACTIVITIES 0600 TO 0900 UTCAND 1030 TO 1200 UTC AND 1330 TO 2100 UTCDAILY 25 AND 27 AND 29 TO 31 OCTNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:70-15.0N 034-35.0E, 70-15.0N 038-00.0E,69-45.0N 038-00.0E, 69-20.0N 036-15.0E,69-35.0N 034-10.0E, 69-45.0N 034-00.0E,70-00.0N 034-00.0E.2. CANCEL THIS MSG 312200 UTC OCT 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Sea Military Activity"
+        "title": "Barents Sea Restricted"
       }
     },
     {
@@ -3236,6 +3047,41 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 4/26(15)",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.8505,
+            69.9335
+          ],
+          [
+            -123.98366666666666,
+            69.90016666666666
+          ],
+          [
+            -124.12366666666667,
+            69.80983333333333
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-01-14T23:50:00",
+        "raw_dtg": "142350Z JAN 26",
+        "msg_id": "HYDROARC 4/26(15)",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "shoals",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "HYDROARC 4/26(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 27.\nSHOALS REPORTED IN:\nA. 69-56.01N 123-51.03W.\nB. 69-54.01N 123-59.02W.\nC. 69-48.59N 124-07.42W.",
+        "summary": null,
+        "category": "other",
+        "title": "Shoals Reported Amundsen Gulf"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "NAVAREA XX 164/25",
       "geometry": {
         "type": "Polygon",
@@ -3278,7 +3124,7 @@
         "body": "NAVAREA XX 164/25CHART RUS 11115.BARENTS SEA POMORSKIY STRAIT.1. ROCKET LAUNCHING 0600 TO 1500 UTCDAILY 03 TO 10 DECNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-08-48N 051-23-55E, 68-57-35N 052-02-49E,68-15-40N 050-15-12E, 68-28-22N 049-41-55E.2. CANCEL THIS MSG 101600 UTC DEC 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launching Notice"
+        "title": "Rocket Launch Exercise"
       }
     },
     {
@@ -3323,7 +3169,7 @@
         "body": "NAVAREA XX 171/25BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0100 TO 2100 UTC 11 TO 13 DECDAILY NAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:69-44.0N 035-00.0E,69-44.0N 037-06.0E,69-21.0N 037-06.0E, 69-21.0N 035-00.0E.2. CANCEL THIS MSG 132200 DEC 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firings Alert"
+        "title": "Missile Firings Notice"
       }
     },
     {
@@ -3370,7 +3216,7 @@
         "body": "NAVAREA XX 133/25BARENTS SEA.CHART RUS 10102.1. SPECIAL ACTIVITIES 0500 TO 0800 UTCAND 1100 TO 1500 UTC AND 1600 TO 1900 UTCDAILY 18 TO 21 OCT IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:78-07.0N 061-23.0E, 78-08.0N 067-19.0E,77-24.0N 067-13.0E, 77-22.0N 061-21.0E.2. CANCEL THIS MSG 212000 UTC OCT 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Special Barents Activities"
+        "title": "Barents Sea Activities"
       }
     },
     {
@@ -3429,7 +3275,7 @@
         "body": "NAVAREA XX 178/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 1400 TO 1500 UTCDAILY 23 TO 28 DEC NAVIGATION PROHIBITEDIN TERRITORIAL WATERS DANGEROUS OUTSIDEIN AREA BOUNDED BY:70-56-00N 032-04-58E, 70-10-00N 033-40-00E,69-54-00N 032-40-00E, 70-08-00N 032-04-58E,70-15-00N 031-50-00E, 70-30-07N 031-50-00E,70-36-22N 031-43-18E.2. CANCEL THIS MSG 281600 UTC DEC 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Warning"
+        "title": "Rocket Launching Ban"
       }
     },
     {
@@ -3521,32 +3367,7 @@
         "body": "NAVAREA XX 125/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTC AND1200 TO 1330 UTC DAILY 01 TO 24 OCTIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-43.07N 037-03.29E, 70-14.16N 034-03.46E.2. CANCEL THIS MSG 241430 UTC OCT 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Warning"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 172/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.545,
-          63.73
-        ]
-      },
-      "properties": {
-        "dtg": "2025-09-26T23:34:00",
-        "raw_dtg": "262334Z SEP 25",
-        "msg_id": "HYDROARC 172/25(15)",
-        "year": 2025,
-        "cancellations": [],
-        "hazard_type": "general",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "HYDROARC 172/25(15).\nDAVIS STRAIT.\nCANADA.\nDNC 28.\nMCTS IQALUIT CENTER 63-43.80N 068-32.70W\nHF NBDP TRANSMIT SERVICE OFF AIR.",
-        "summary": null,
-        "category": "other",
-        "title": "HF NBDP Service Off"
+        "title": "Rocket Launching Alert"
       }
     },
     {
@@ -3619,7 +3440,7 @@
         "body": "HYDROARC 177/25(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 21, DNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0830Z TO 1445Z DAILY 03 THRU 11 OCT\n   IN AREAS BOUND BY:\n   A. 69-17.00N 016-00.00E, 69-22.00N 015-43.00E,\n      69-25.00N 016-01.00E, 69-17.00N 016-03.00E.\n   B. 69-44.00N 015-37.00E, 69-35.00N 015-51.00E,\n      69-29.00N 015-24.00E, 69-38.00N 015-09.00E.\n   C. 72-48.00N 010-12.00E, 74-14.00N 006-27.00E,\n      74-01.00N 005-00.00E, 72-33.00N 008-54.00E.\n2. CANCEL THIS MSG 111545Z OCT 25.",
         "summary": null,
         "category": "military",
-        "title": "Rocket Launch Warning"
+        "title": "Rocket Launch Hazard"
       }
     },
     {
@@ -3702,7 +3523,7 @@
         "body": "NAVAREA XX 129/25BARENTS SEA.CHARTS RUS 10100, 10101.1. MISSILE FIRINGS 0600 TO 1500 UTC DAILY12 TO 14 OCT NAVIGATION PROHIBITEDIN TERRITORIAL WATERS DANGEROUSOUTSIDE IN AREA BOUNDED BY:78-04.5N 053-56.0E, 78-04.5N 056-01.0E,75-21.0N 056-01.0E, 72-07.5N 050-45.0E,69-21.0N 048-28.0E, THEN COASTAL LINE TO68-48.0N 048-14.0E, 68-16.0N 047-51.0E,67-42.0N 046-42.0E, 67-48.4N 046-03.1E,THEN COASTAL LINE TO68-31.0N 045-21.5E, 68-44.0N 046-10.0E,72-15.0N 049-00.0E, 75-28.5N 053-56.0E.2. CANCEL THIS MSG 141600 UTC OCT 25.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Barents Sea Missile Firings"
+        "title": "Missile Firing Warning"
       }
     }
   ]
