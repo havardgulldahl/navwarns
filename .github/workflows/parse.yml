@@ -17,9 +17,11 @@ jobs:
       - id: collect
         run: |
           files=$(ls current/navwarns/*.json | jq -R -s -c 'split("\n")[:-1]')
+          echo "Collected ${#files[@]} navwarn files."
           {
             echo "files=$files"
           } >> "$GITHUB_OUTPUT"
+          
 
   interpret_navwarns:
     needs: list_navwarns
@@ -38,7 +40,7 @@ jobs:
 
       - name: Random sleep to stagger API calls
         run: |
-          delay=$((RANDOM % 40 + 5)) # sleep 5-45 seconds
+          delay=$((RANDOM % 60 + 60)) # sleep 60-120 seconds
           echo "Sleeping $delay seconds..."
           sleep $delay
 
