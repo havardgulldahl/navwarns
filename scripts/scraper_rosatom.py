@@ -42,11 +42,13 @@ except ImportError:  # running as a script
     assert spec_clean and spec_clean.loader
     spec_clean.loader.exec_module(cleanup)  # type: ignore
 
+from pathlib import Path
+
 # ---------------- Configuration ----------------
 BASE_URL = "https://nsr.rosatom.ru/en/navigational-and-weather-information/navarea/"
 START_PATH = ""  # seed page path relative to BASE_URL
 OUT_DIR = f"history/{datetime.datetime.now().strftime('%Y')}/NAVAREAXX"  # output directory for downloaded pages
-CURRENT_DIR = "current"
+CURRENT_DIR = Path("current")
 REQUEST_TIMEOUT = 20  # seconds
 MAX_RETRIES = 4
 RETRY_BACKOFF = 2.0  # exponential backoff factor
@@ -256,11 +258,9 @@ def main():
                 # print(json.dumps(serialize_message(m), ensure_ascii=False))
                 filename = f"{safe_id}.json"
                 active_filenames.add(filename)
-                with open(
-                    os.path.join(CURRENT_DIR, "navwarns", filename),
-                    "w",
-                    encoding="utf-8",
-                ) as f_geo:
+
+                outfile = CURRENT_DIR / "navwarns" / filename
+                with outfile.open("w", encoding="utf-8") as f_geo:
                     f_geo.write(
                         json.dumps(serialize_message(m), ensure_ascii=False) + "\n"
                     )
@@ -268,7 +268,7 @@ def main():
 
         cleanup.cleanup(
             active_filenames,
-            pathlib.Path(CURRENT_DIR) / "navwarns",
+            CURRENT_DIR / "navwarns",
             "NAVAREA_XX_*.json",
         )
 

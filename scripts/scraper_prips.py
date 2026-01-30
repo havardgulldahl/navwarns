@@ -38,13 +38,15 @@ except ImportError:  # running as a script
     assert spec_clean and spec_clean.loader
     spec_clean.loader.exec_module(cleanup)  # type: ignore
 
+from pathlib import Path
+
 # ---------------- Configuration ----------------
 PRIP_MURMANSK = "https://www.mapm.ru/Prip"
 PRIP_ARKHANGELSK = "https://www.mapm.ru/PripAr"
 PRIP_WEST = "https://www.mapm.ru/PripW"
 
 OUT_DIR = f"history/{datetime.datetime.now().strftime('%Y')}/PRIP"  # output directory for downloaded pages
-CURRENT_DIR = "current"
+CURRENT_DIR = Path("current")
 REQUEST_TIMEOUT = 20  # seconds
 MAX_RETRIES = 4
 RETRY_BACKOFF = 2.0  # exponential backoff factor
@@ -162,10 +164,8 @@ def main(parse_files: List = []):
 
     logging.info("Got %d raw prips", len(raw_prips))
 
-    # Save prips to a file
-    if raw_prips:
-        prips_location = os.path.join(CURRENT_DIR, "prips")
-        os.makedirs(prips_location, exist_ok=True)
+    # Save prips to a filCURRENT_DIR / "prips"
+        prips_location.mkdir(parents=True, exist_ok=True)
         parsed_prips = navparser.parse_prips([(p.header, p.text) for p in raw_prips])
         active_filenames = set()
         for m in parsed_prips:
@@ -175,10 +175,10 @@ def main(parse_files: List = []):
 
             filename = f"{safe_id}.json"
             active_filenames.add(filename)
-            filepath = os.path.join(prips_location, filename)
+            filepath = prips_location / filename
 
             # If file already exists, skip to preserve original DTG (don't overwrite)
-            if os.path.exists(filepath):
+            if filepath.exists():
                 logging.debug("Skipping existing file: %s", filename)
                 continue
 
@@ -189,12 +189,14 @@ def main(parse_files: List = []):
                 if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ""):
                     m.raw_dtg = m.dtg.strftime("%d%H%MZ %b %y").upper()
 
-            with open(filepath, "w", encoding="utf-8") as f_geo:
+            with filepath.open("w", encoding="utf-8") as f_geo:
                 f_geo.write(json.dumps(serialize_message(m), ensure_ascii=False) + "\n")
 
-        cleanup.cleanup(active_filenames, pathlib.Path(prips_location), "PRIP_*.json")
+        cleanup.cleanup(active_filenames, prips_location, "PRIP_*.json")
 
-        with open(CURRENT_DIR / ".scrape_timestamp_PRIP", "w", encoding="utf-8") as f:
+        with open(CURRENT_DIR / ".scrape_timestamp_PRIP"), "PRIP_*.json")
+
+        with open(os.path.join(CURRENT_DIR, ".scrape_timestamp_PRIP"), "w", encoding="utf-8") as f:
             f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
         logging.info(
             "Extracted %d prips from %d raw prips to %s",
