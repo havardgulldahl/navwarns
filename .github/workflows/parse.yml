@@ -54,7 +54,7 @@ jobs:
         id: inference
         uses: actions/ai-inference@v1
         with:
-          model: gpt-4.1
+          model: gpt-5-chat
           prompt-file: classification.prompt.yml
           max-tokens: 1024
           input: |
