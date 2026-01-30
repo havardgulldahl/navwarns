@@ -1,0 +1,45 @@
+messages:
+  - role: system
+    content: You are an expert maritime navigation assistant.
+  - role: user
+    content: |-
+      You will be given a Navigational Warning (NavWarn) 
+      You will parse the text to extract or compute the coordinates of the actual NavWarn.
+      You will only reply with the coordinates, in a syntax that matches the GeoJSON Geometry, as per the json schema included.
+      <text>
+      {{navwarn}}
+      </text>
+model: openai/gpt-4.1
+responseFormat: json_schema
+jsonSchema: |-
+  {
+    "name": "GeoJSON_Geometry",
+    "strict": true,
+    "schema": {
+      "type": "object",
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Point",
+            "MultiPoint",
+            "LineString",
+            "MultiLineString",
+            "Polygon",
+            "MultiPolygon"
+          ]
+        },
+        "coordinates": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
