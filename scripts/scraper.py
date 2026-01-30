@@ -287,14 +287,20 @@ def main(argv: list[str] | None = None) -> int:
         written = 0
         root = ET.fromstring(xml_text)
         if root.tag == "broadcast-warn":
-            written += store_messages(
+            active_files = store_messages(
                 parse_broadcast_warn_xml(xml_text), force=args.force
             )
+            written = len(active_files)
+            cleanup.cleanup(active_files, OUTPUT_DIR, "HYDROARC_*.json")
         else:
+            all_active = set()
             for block in extract_msg_text_blocks(xml_text):
-                written += store_messages(
+                active_files = store_messages(
                     navparser.parse_navwarns(block), force=args.force
                 )
+                written += len(active_files)
+                all_active.update(active_files)
+            cleanup.cleanup(all_active, OUTPUT_DIR, "HYDROARC_*.json")
         print(f"Wrote {written} new/updated message files")
         if written > 0:
             with open(
