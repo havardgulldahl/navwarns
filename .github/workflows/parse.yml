@@ -38,19 +38,47 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Check for existing classification
+        id: check_cache
+        run: |
+          input_id=$(jq -r '.id' "${{ matrix.file }}")
+          if [ -f "current/navwarns.geojson" ]; then
+            matches=$(jq -c --arg id "$input_id" --slurpfile current "${{ matrix.file }}" '
+              .features[] | 
+              select(.id == $id) | 
+              select(.properties.body == $current[0].properties.body) |
+              select(.properties.category != null and .properties.title != null) |
+              {category: .properties.category, title: .properties.title}
+            ' current/navwarns.geojson | head -n 1)
+          fi
+
+          if [ -n "$matches" ]; then
+             echo "Cache hit for $input_id"
+             echo "hit=true" >> $GITHUB_OUTPUT
+             echo "cache_json<<EOF" >> $GITHUB_OUTPUT
+             echo "$matches" >> $GITHUB_OUTPUT
+             echo "EOF" >> $GITHUB_OUTPUT
+          else
+             echo "Cache miss for $input_id"
+             echo "hit=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Random sleep to stagger API calls
+        if: steps.check_cache.outputs.hit != 'true'
         run: |
           delay=$((RANDOM % 60 + 60)) # sleep 60-120 seconds
           echo "Sleeping $delay seconds..."
           sleep $delay
 
       - name: Extract body from GeoJSON properties and store in a variable
+        if: steps.check_cache.outputs.hit != 'true'
         id: navwarn_body
         run: |
           body=$(jq -r '.properties.body | gsub("\n"; " ")' "${{ matrix.file }}")
           echo "body=$body" >> "$GITHUB_OUTPUT"
 
       - name: Run AI inference
+        if: steps.check_cache.outputs.hit != 'true'
         id: inference
         uses: actions/ai-inference@v1
         with:
@@ -63,9 +91,21 @@ jobs:
 
 
       - name: Join inferred coordinates with original GeoJSON
+        if: steps.check_cache.outputs.hit != 'true'
         run: |
           base=$(basename "${{ matrix.file }}")
           jq --slurpfile r "${{ steps.inference.outputs.response-file }}" '
+            .properties = (.properties // {}) 
+            | .properties.category = $r[0].category
+            | .properties.title = $r[0].title
+          ' "${{ matrix.file }}" > "classified_${base}"
+
+      - name: Apply cached classification
+        if: steps.check_cache.outputs.hit == 'true'
+        run: |
+          base=$(basename "${{ matrix.file }}")
+          echo '${{ steps.check_cache.outputs.cache_json }}' > cached_props.json
+          jq --slurpfile r cached_props.json '
             .properties = (.properties // {}) 
             | .properties.category = $r[0].category
             | .properties.title = $r[0].title
