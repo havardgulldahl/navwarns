@@ -18,7 +18,7 @@ DTG_LINE_PATTERN = re.compile(r"^\d{6}Z [A-Z]{3} \d{2}\s*$", re.MULTILINE)
 #    (The previous pattern already allowed multiple alphanumerics, but we keep this
 #     comment to document the explicit requirement.)
 MSG_ID_PATTERN = re.compile(
-    r"(HYDROARC \d+/\d+(?:\([^)]+\))?|NAVAREA [A-Z0-9]{1,3} \d+/\d+)"
+    r"(HYDROARC \d+/\d+(?:\([^)]+\))?|NAVAREA [A-Z0-9]{1,10} \d+/\d+)"
 )
 # Coordinate pair pattern supporting both DM (DD-MM.mm) and DMS (DD-MM-SS.ss) forms.
 _LAT_PART = r"\d{2,3}-(?:\d{2}\.\d+|\d{2}-\d{2}(?:\.\d+)?)"
@@ -376,7 +376,11 @@ def parse_coordinates(body: str) -> List[Tuple[float, float]]:
 
 def parse_coordinate_groups(body: str) -> List[List[Tuple[float, float]]]:
     """Split coordinates into enumerated groups (A., B., 1., 2., etc.)."""
-    lines = body.splitlines()
+    # Normalize input: ensure potential group start markers (A., B., 1., etc)
+    # are on their own lines, especially if preceded by punctuation.
+    normalized_body = re.sub(r"([:,\.;])\s*((?:[A-Z]|\d{1,2})\.)", r"\1\n\2", body)
+
+    lines = normalized_body.splitlines()
     groups: List[List[Tuple[float, float]]] = []
     current: List[Tuple[float, float]] = []
     enum_pattern = re.compile(r"^\s*(?:[A-Z]|\d{1,2})\.")

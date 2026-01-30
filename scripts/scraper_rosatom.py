@@ -25,6 +25,7 @@ Configure BASE_URL and START_PATH below as needed.
 
 try:
     from . import parser as navparser  # type: ignore
+    from . import cleanup  # type: ignore
 except ImportError:  # running as a script
     import importlib.util, pathlib
 
@@ -34,6 +35,12 @@ except ImportError:  # running as a script
     navparser = importlib.util.module_from_spec(spec)  # type: ignore
     assert spec and spec.loader
     spec.loader.exec_module(navparser)  # type: ignore
+
+    cleanup_path = this_dir / "cleanup.py"
+    spec_clean = importlib.util.spec_from_file_location("cleanup", cleanup_path)
+    cleanup = importlib.util.module_from_spec(spec_clean)  # type: ignore
+    assert spec_clean and spec_clean.loader
+    spec_clean.loader.exec_module(cleanup)  # type: ignore
 
 # ---------------- Configuration ----------------
 BASE_URL = "https://nsr.rosatom.ru/en/navigational-and-weather-information/navarea/"
@@ -237,6 +244,7 @@ def main():
         )
         os.makedirs(os.path.dirname(navwarns_file_raw), exist_ok=True)
         f_raw = open(navwarns_file_raw, "w", encoding="utf-8")
+        active_filenames = set()
         for nw in navwarns:
             f_raw.write(nw + "\n\n")
             navmsgs = navparser.parse_navwarns(nw)
@@ -247,6 +255,7 @@ def main():
 
                 # print(json.dumps(serialize_message(m), ensure_ascii=False))
                 filename = f"{safe_id}.json"
+                active_filenames.add(filename)
                 with open(
                     os.path.join(CURRENT_DIR, "navwarns", filename),
                     "w",
@@ -256,6 +265,13 @@ def main():
                         json.dumps(serialize_message(m), ensure_ascii=False) + "\n"
                     )
         f_raw.close()
+
+        cleanup.cleanup(
+            active_filenames,
+            pathlib.Path(CURRENT_DIR) / "navwarns",
+            "NAVAREA_XX_*.json",
+        )
+
         with open(
             CURRENT_DIR / ".scrape_timestamp_NAVAREAXX", "w", encoding="utf-8"
         ) as f:

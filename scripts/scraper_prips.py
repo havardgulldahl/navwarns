@@ -21,6 +21,7 @@ Configure BASE_URL and START_PATH below as needed.
 
 try:
     from . import parser as navparser  # type: ignore
+    from . import cleanup  # type: ignore
 except ImportError:  # running as a script
     import importlib.util, pathlib
 
@@ -30,6 +31,12 @@ except ImportError:  # running as a script
     navparser = importlib.util.module_from_spec(spec)  # type: ignore
     assert spec and spec.loader
     spec.loader.exec_module(navparser)  # type: ignore
+
+    cleanup_path = this_dir / "cleanup.py"
+    spec_clean = importlib.util.spec_from_file_location("cleanup", cleanup_path)
+    cleanup = importlib.util.module_from_spec(spec_clean)  # type: ignore
+    assert spec_clean and spec_clean.loader
+    spec_clean.loader.exec_module(cleanup)  # type: ignore
 
 # ---------------- Configuration ----------------
 PRIP_MURMANSK = "https://www.mapm.ru/Prip"
@@ -160,28 +167,33 @@ def main(parse_files: List = []):
         prips_location = os.path.join(CURRENT_DIR, "prips")
         os.makedirs(prips_location, exist_ok=True)
         parsed_prips = navparser.parse_prips([(p.header, p.text) for p in raw_prips])
+        active_filenames = set()
         for m in parsed_prips:
             safe_id = "unknown_id"
             if msg_id := getattr(m, "msg_id", None):
                 safe_id = re.sub(r"[^\w\-]", "_", f"{msg_id}_{m.year}")
 
             filename = f"{safe_id}.json"
+            active_filenames.add(filename)
             filepath = os.path.join(prips_location, filename)
-            
+
             # If file already exists, skip to preserve original DTG (don't overwrite)
             if os.path.exists(filepath):
                 logging.debug("Skipping existing file: %s", filename)
                 continue
-            
+
             # If message doesn't have DTG, assign current timestamp as first-seen date
             if m.dtg is None:
                 m.dtg = datetime.datetime.utcnow()
                 # Also update raw_dtg if it's empty or just contains the message ID
-                if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ''):
-                    m.raw_dtg = m.dtg.strftime('%d%H%MZ %b %y').upper()
-            
+                if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ""):
+                    m.raw_dtg = m.dtg.strftime("%d%H%MZ %b %y").upper()
+
             with open(filepath, "w", encoding="utf-8") as f_geo:
                 f_geo.write(json.dumps(serialize_message(m), ensure_ascii=False) + "\n")
+
+        cleanup.cleanup(active_filenames, pathlib.Path(prips_location), "PRIP_*.json")
+
         with open(CURRENT_DIR / ".scrape_timestamp_PRIP", "w", encoding="utf-8") as f:
             f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
         logging.info(

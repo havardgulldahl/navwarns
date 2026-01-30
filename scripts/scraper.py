@@ -23,6 +23,7 @@ from xml.etree import ElementTree as ET
 
 try:
     from . import parser as navparser  # type: ignore
+    from . import cleanup  # type: ignore
 except ImportError:  # running as a script
     import importlib.util, pathlib
 
@@ -32,6 +33,12 @@ except ImportError:  # running as a script
     navparser = importlib.util.module_from_spec(spec)  # type: ignore
     assert spec and spec.loader
     spec.loader.exec_module(navparser)  # type: ignore
+
+    cleanup_path = this_dir / "cleanup.py"
+    spec_clean = importlib.util.spec_from_file_location("cleanup", cleanup_path)
+    cleanup = importlib.util.module_from_spec(spec_clean)  # type: ignore
+    assert spec_clean and spec_clean.loader
+    spec_clean.loader.exec_module(cleanup)  # type: ignore
 
 API_URL = "https://msi.nga.mil/api/publications/smaps?navArea=C&status=active&category=14&output=xml"
 CURRENT_DIR = Path("current")
@@ -148,25 +155,26 @@ def parse_broadcast_warn_xml(
 
 def store_messages(
     messages: Iterable[Any], force: bool = False, output_dir: Path = OUTPUT_DIR
-) -> int:
+) -> set[str]:
     ensure_output_dir()
     output_dir.mkdir(parents=True, exist_ok=True)
-    written = 0
+    active_filenames = set()
     for m in messages:
         fname = message_filename(m)
+        active_filenames.add(fname)
         path = output_dir / fname
-        
+
         # If file exists and not force, preserve existing data (including DTG)
         if path.exists() and not force:
             continue
-        
+
         # If message doesn't have DTG, assign current timestamp as first-seen date
         if m.dtg is None:
             m.dtg = datetime.datetime.utcnow()
             # Also update raw_dtg if it's empty or just contains the message ID
-            if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ''):
-                m.raw_dtg = m.dtg.strftime('%d%H%MZ %b %y').upper()
-        
+            if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ""):
+                m.raw_dtg = m.dtg.strftime("%d%H%MZ %b %y").upper()
+
         base_glob = fname.split(".json")[0] + "_*.json"
         for old in output_dir.glob(base_glob):
             try:
@@ -175,8 +183,7 @@ def store_messages(
                 pass
         with path.open("w", encoding="utf-8") as f:
             json.dump(serialize_message(m), f, ensure_ascii=False, indent=2)
-        written += 1
-    return written
+    return active_filenames
 
 
 def run_scrape(
@@ -202,16 +209,25 @@ def run_scrape(
             for m in navmsgs:
                 print(json.dumps(serialize_message(m), ensure_ascii=False))
         else:
-            total_written += store_messages(navmsgs, force=force, output_dir=output_dir)
+            active = store_messages(navmsgs, force=force, output_dir=output_dir)
+            total_written += len(active)
+            cleanup.cleanup(active, output_dir, "HYDROARC_*.json")
         return total_written
     # SMAPS active format
+    all_active = set()
     for block in extract_msg_text_blocks(xml_text):
         navmsgs = navparser.parse_navwarns(block)
         if dry_run:
             for m in navmsgs:
                 print(json.dumps(serialize_message(m), ensure_ascii=False))
         else:
-            total_written += store_messages(navmsgs, force=force, output_dir=output_dir)
+            active = store_messages(navmsgs, force=force, output_dir=output_dir)
+            total_written += len(active)
+            all_active.update(active)
+
+    if not dry_run and all_active:
+        cleanup.cleanup(all_active, output_dir, "HYDROARC_*.json")
+
     return total_written
 
 

@@ -2,6 +2,12 @@
 
 Scraping, parsing, interpreting and mapping NAVWARN (navigational warning) bulletins for the Arctic.
 
+Current data sources:
+
+* Navigational warnings for the Barents, White and Kara seas by Rosatom
+* Coastal warnings for Murmansk, Arkhangelsk 
+* HYDROARC warnings by Norway and Canada 
+
 ## Overview
 
 1. Every night, download all active HYDROARC warnings and split into separate NavWarns using simple heuristics.
