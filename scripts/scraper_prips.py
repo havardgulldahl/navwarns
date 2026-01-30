@@ -164,7 +164,9 @@ def main(parse_files: List = []):
 
     logging.info("Got %d raw prips", len(raw_prips))
 
-    # Save prips to a filCURRENT_DIR / "prips"
+    # Save prips to a file
+    if raw_prips:
+        prips_location = CURRENT_DIR / "prips"
         prips_location.mkdir(parents=True, exist_ok=True)
         parsed_prips = navparser.parse_prips([(p.header, p.text) for p in raw_prips])
         active_filenames = set()
@@ -194,10 +196,9 @@ def main(parse_files: List = []):
 
         cleanup.cleanup(active_filenames, prips_location, "PRIP_*.json")
 
-        with open(CURRENT_DIR / ".scrape_timestamp_PRIP"), "PRIP_*.json")
-
-        with open(os.path.join(CURRENT_DIR, ".scrape_timestamp_PRIP"), "w", encoding="utf-8") as f:
+        with open(CURRENT_DIR / ".scrape_timestamp_PRIP", "w", encoding="utf-8") as f:
             f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
+
         logging.info(
             "Extracted %d prips from %d raw prips to %s",
             len(parsed_prips),
