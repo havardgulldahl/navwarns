@@ -16,7 +16,7 @@ jobs:
 
       - id: collect
         run: |
-          files=$(ls current/navwarns/*.json | jq -R -s -c 'split("\n")[:-1]')
+          files=$(find current/navwarns current/prips -name "*.json" | jq -R -s -c 'split("\n")[:-1]')
           echo "Collected ${#files[@]} navwarn files."
           {
             echo "files=$files"
