@@ -1,4 +1,5 @@
 import pytest
+from shapely.geometry import shape
 from scripts.parser import NavwarnMessage
 from datetime import datetime
 
@@ -78,3 +79,13 @@ def test_null_geometry():
     assert g is None
     f = m.to_geojson_feature()
     assert f["geometry"] is None
+
+
+def test_invalid_polygon_is_made_valid():
+    # Bowtie polygon (self-intersecting) should be normalized to a valid geometry
+    coords = [(0.0, 0.0), (1.0, 1.0), (0.0, 1.0), (1.0, 0.0)]
+    m = build_msg("polygon", coords)
+    g = m.geojson_geometry()
+    assert g is not None
+    geom = shape(g)
+    assert geom.is_valid

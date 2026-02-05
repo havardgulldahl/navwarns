@@ -7,6 +7,16 @@ import math
 from datetime import datetime
 from dateutil import parser as dtparser  # still used as fallback
 from typing import List, Tuple, Optional, Dict
+from shapely.geometry import LineString, MultiPoint, Point, Polygon, mapping
+from shapely.ops import unary_union
+
+try:
+    from shapely import make_valid as _make_valid
+except Exception:  # pragma: no cover - fallback for older Shapely
+    try:
+        from shapely.validation import make_valid as _make_valid  # type: ignore
+    except Exception:  # pragma: no cover
+        _make_valid = None
 
 # --- Regex patterns ---
 DTG_PATTERN = re.compile(r"(\d{6}Z [A-Z]{3} \d{2})")  # generic pattern
@@ -71,7 +81,7 @@ CANCEL_PATTERN = re.compile(
 
 
 PRIP_BLOCK = re.compile(
-    r"(ПРИП (МУРМАНСК|АРХАНГЕЛЬСК|ЗАПАД) (\d+)(?: КАРТА)?(?:\s+(\d{4}))?\s+(.+?))\n(HHHH)?\s*$",
+    r"(ПРИП (МУРМАНСК|АРХАНГЕЛЬСК|ЗАПАД) (\d+)(?: КАРТА)?(?:\s+(\d{4}))?\s+(.+?))\n(?:НННН|NNNN|HHHH)?\s*$",
     re.DOTALL | re.IGNORECASE,
 )
 
@@ -85,6 +95,10 @@ PRIP_HEADER = re.compile(
     r"ПРИП (МУРМАНСК|АРХАНГЕЛЬСК|ЗАПАД) (\d+)/(\d{2})\s(?:КАРТЫ|КАРТА)?\s([ \d]+)?\s(.+)?",
     re.IGNORECASE,
 )
+
+# PRIP helpers
+RE_PRIP_BLOCK = PRIP_BLOCK
+RE_CANCEL_LINE = re.compile(r"^\s*(?:CANCEL|ОТМ)\b", re.IGNORECASE | re.MULTILINE)
 
 # Expanded PRIP cancellation recognition:
 #  - HYDROARC X/Y
@@ -101,6 +115,83 @@ PRIP_CANCEL_PATTERN = re.compile(
     # r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # date only 2 or 4-digit year
     r")"
 )
+
+
+def _circle_ring(
+    center: Tuple[float, float], radius_nm: float, circle_segments: int
+) -> List[Tuple[float, float]]:
+    """Create a lon/lat ring approximating a circle around center.
+
+    Uses a simple NM-to-degrees conversion (lat) with lon scaled by cos(lat).
+    """
+    lat_c, lon_c = center
+    segments = max(8, circle_segments)
+    ring: List[Tuple[float, float]] = []
+    deg_lat = radius_nm / 60.0
+    cos_lat = math.cos(math.radians(lat_c)) or 1e-9
+    deg_lon = deg_lat / cos_lat
+    for i in range(segments):
+        theta = 2 * math.pi * (i / segments)
+        dy = math.sin(theta) * deg_lat
+        dx = math.cos(theta) * deg_lon
+        ring.append((lon_c + dx, lat_c + dy))
+    ring.append(ring[0])
+    return ring
+
+
+def _normalize_geom(geom):
+    if geom is None or geom.is_empty:
+        return None
+    if not geom.is_valid:
+        if _make_valid is not None:
+            geom = _make_valid(geom)
+        else:
+            geom = geom.buffer(0)
+    if geom.is_empty:
+        return None
+    if geom.geom_type == "GeometryCollection":
+        geom = unary_union([g for g in geom.geoms if not g.is_empty])
+        if geom.is_empty:
+            return None
+    return geom
+
+
+def _to_geojson_lists(obj):
+    if isinstance(obj, tuple):
+        return [_to_geojson_lists(v) for v in obj]
+    if isinstance(obj, list):
+        return [_to_geojson_lists(v) for v in obj]
+    if isinstance(obj, dict):
+        return {k: _to_geojson_lists(v) for k, v in obj.items()}
+    return obj
+
+
+def _build_shapely_geometry(
+    geometry: Optional[str],
+    coords: List[Tuple[float, float]],
+    radius: Optional[float],
+    circle_segments: int,
+):
+    if not coords:
+        return None
+    geom_type = (geometry or "").lower()
+    if geom_type == "circle" and radius and len(coords) >= 1:
+        ring = _circle_ring(coords[0], radius, circle_segments)
+        geom = Polygon(ring)
+        return _normalize_geom(geom)
+    if geom_type == "linestring" and len(coords) >= 2:
+        geom = LineString([(lon, lat) for (lat, lon) in coords])
+        return _normalize_geom(geom)
+    if geom_type == "multipoint" and len(coords) >= 2:
+        geom = MultiPoint([(lon, lat) for (lat, lon) in coords])
+        return _normalize_geom(geom)
+    if geom_type == "polygon" and len(coords) >= 3:
+        geom = Polygon([(lon, lat) for (lat, lon) in coords])
+        return _normalize_geom(geom)
+    # Default / point
+    lat, lon = coords[0]
+    geom = Point(lon, lat)
+    return _normalize_geom(geom)
 
 
 # --- Data container ---
@@ -132,42 +223,15 @@ class NavwarnMessage:
         coords = self.coordinates or []
         if not coords:
             return None  # null geometry for info-only
-        geom_type = (self.geometry or "").lower()
-        if geom_type == "circle" and self.radius and len(coords) >= 1:
-            # Approximate circle; assume radius in nautical miles -> degrees of latitude = r/60.
-            lat_c, lon_c = coords[0]
-            segments = max(8, circle_segments)
-            ring: List[List[float]] = []
-            # Convert NM to degrees lat; lon degrees scaled by cos(lat)
-            deg_lat = self.radius / 60.0
-            cos_lat = math.cos(math.radians(lat_c)) or 1e-9
-            deg_lon = deg_lat / cos_lat
-            for i in range(segments):
-                theta = 2 * math.pi * (i / segments)
-                dy = math.sin(theta) * deg_lat
-                dx = math.cos(theta) * deg_lon
-                ring.append([lon_c + dx, lat_c + dy])
-            # Close ring
-            ring.append(ring[0])
-            return {"type": "Polygon", "coordinates": [ring]}
-        if geom_type == "linestring" and len(coords) >= 2:
-            return {
-                "type": "LineString",
-                "coordinates": [[lon, lat] for (lat, lon) in coords],
-            }
-        if geom_type == "multipoint" and len(coords) >= 2:
-            return {
-                "type": "MultiPoint",
-                "coordinates": [[lon, lat] for (lat, lon) in coords],
-            }
-        if geom_type == "polygon" and len(coords) >= 3:
-            ring = [[lon, lat] for (lat, lon) in coords]
-            if ring[0] != ring[-1]:
-                ring.append(ring[0])
-            return {"type": "Polygon", "coordinates": [ring]}
-        # Default / point
-        lat, lon = coords[0]
-        return {"type": "Point", "coordinates": [lon, lat]}
+        geom = _build_shapely_geometry(
+            geometry=self.geometry,
+            coords=coords,
+            radius=self.radius,
+            circle_segments=circle_segments,
+        )
+        if geom is None:
+            return None
+        return _to_geojson_lists(mapping(geom))
 
     def to_geojson_feature(self) -> dict:
         geom = self.geojson_geometry()
@@ -198,33 +262,27 @@ class NavwarnMessage:
         for idx, grp in enumerate(self.groups):
             if not grp:
                 continue
-            if len(grp) == 1:
-                lat, lon = grp[0]
-                geom = {"type": "Point", "coordinates": [lon, lat]}
-            elif len(grp) >= 3 and area_hint:
-                ring = [[lon, lat] for (lat, lon) in grp]
-                if ring[0] != ring[-1]:
-                    ring.append(ring[0])
-                geom = {"type": "Polygon", "coordinates": [ring]}
+            if len(grp) >= 3 and area_hint:
+                group_geom_type = "polygon"
             elif len(grp) >= 2 and self.geometry == "linestring":
-                geom = {
-                    "type": "LineString",
-                    "coordinates": [[lon, lat] for (lat, lon) in grp],
-                }
+                group_geom_type = "linestring"
+            elif len(grp) > 1:
+                group_geom_type = "multipoint"
             else:
-                if len(grp) > 1:
-                    geom = {
-                        "type": "MultiPoint",
-                        "coordinates": [[lon, lat] for (lat, lon) in grp],
-                    }
-                else:
-                    lat, lon = grp[0]
-                    geom = {"type": "Point", "coordinates": [lon, lat]}
+                group_geom_type = "point"
+            geom = _build_shapely_geometry(
+                geometry=group_geom_type,
+                coords=grp,
+                radius=None,
+                circle_segments=72,
+            )
+            if geom is None:
+                continue
             feats.append(
                 {
                     "type": "Feature",
                     "id": f"{self.msg_id or 'MSG'}#grp{idx+1}",
-                    "geometry": geom,
+                    "geometry": _to_geojson_lists(mapping(geom)),
                     "properties": {
                         "parent_id": self.msg_id,
                         "group_index": idx + 1,
@@ -290,7 +348,7 @@ class NavwarnMessage:
             radius=radius,
             groups=groups,
             body=body_strip.replace("НННН", "").strip(),
-            year=f"20{year}" if year else None,
+            year=(2000 + int(year)) if year and year.isdigit() else None,
         )
 
 
@@ -376,9 +434,12 @@ def parse_coordinates(body: str) -> List[Tuple[float, float]]:
 
 def parse_coordinate_groups(body: str) -> List[List[Tuple[float, float]]]:
     """Split coordinates into enumerated groups (A., B., 1., 2., etc.)."""
+    # Normalize Cyrillic direction letters to Latin before matching
+    translit_map = str.maketrans({"С": "N", "Ю": "S", "В": "E", "З": "W"})
+    norm_body = body.translate(translit_map)
     # Normalize input: ensure potential group start markers (A., B., 1., etc)
     # are on their own lines, especially if preceded by punctuation.
-    normalized_body = re.sub(r"([:,\.;])\s*((?:[A-Z]|\d{1,2})\.)", r"\1\n\2", body)
+    normalized_body = re.sub(r"([:,\.;])\s*((?:[A-Z]|\d{1,2})\.)", r"\1\n\2", norm_body)
 
     lines = normalized_body.splitlines()
     groups: List[List[Tuple[float, float]]] = []
