@@ -687,6 +687,12 @@ def analyze_geometry(
                 "STATION",
                 "LIGHT",
                 "BEACON",
+                "ЗНАК",
+                "СВЕТЯЩИЙ",
+                "БУЙ",
+                "МАЯК",
+                "СТВОР",
+                "ЯКОРНЫЙ",
             ]
             if any(term in text for term in feature_terms):
                 geometry = "multipoint"
@@ -709,7 +715,10 @@ def analyze_geometry(
                 geometry = "polygon"
         # Linestring for many points (cable, track)
         if not geometry and (
-            "ALONG LINE" in text or (len(coords) >= 5 and len(coords) != 4)
+            "ALONG LINE" in text
+            or "ОСЕВОЙ" in text
+            or "ПО ЛИНИИ" in text
+            or (len(coords) >= 5 and len(coords) != 4)
         ):
             geometry = "linestring"
         # Fallback resolution

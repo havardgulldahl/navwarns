@@ -198,7 +198,7 @@
 
 <body>
     <div id="map"></div>
-    
+
     <div id="timeline-container">
         <div id="timeline-controls">
             <span id="timeline-label">View NavWarns as of:</span>
@@ -276,7 +276,7 @@
         // Parse cancellation date from "THIS MSG DDHHMMZ MON YY" or "THIS MSG DDHHMM UTC MON YY" format
         function parseCancellationDate(cancelStr) {
             if (!cancelStr) return null;
-            
+
             // Match patterns like "THIS MSG 171600 UTC SEP 25" or "THIS MSG 171600Z SEP 25"
             const match = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC) ([A-Z]{3}) (\d{2})/);
             if (match) {
@@ -287,7 +287,7 @@
                 };
                 const month = monthMap[monthStr];
                 if (month === undefined) return null;
-                
+
                 const fullYear = 2000 + parseInt(year);
                 return new Date(Date.UTC(fullYear, month, parseInt(day), parseInt(hour), parseInt(minute)));
             }
@@ -298,7 +298,7 @@
         function isNavwarnValidAt(feature, checkDate) {
             const properties = feature.properties || {};
             const cancellations = properties.cancellations || [];
-            
+
             // Check if navwarn has started (using DTG as start date)
             const dtg = properties.dtg;
             if (dtg) {
@@ -325,7 +325,7 @@
                     }
                 }
             }
-            
+
             // Check for self-cancellation with date (end date)
             for (const cancel of cancellations) {
                 if (cancel && (cancel.includes('THIS MSG') || cancel.includes('THIS MESSAGE'))) {
@@ -347,6 +347,8 @@
         const categoryColors = {
             military: '#d73027',
             accident: '#4575b4',
+            navigation: '#fc8d59',
+            cable: '#8c510a',
             other: '#1a9850',
             default: '#6a3d9a'
         };
@@ -386,7 +388,7 @@
         // Render features on the map
         function renderFeatures(features, featureGroup) {
             featureGroup.clearLayers();
-            
+
             const filteredData = {
                 type: 'FeatureCollection',
                 features: features
@@ -430,10 +432,10 @@
         // Update map based on current filter date
         function updateMapDisplay() {
             if (!allNavwarnsData || !mainFeatureGroup) return;
-            
+
             const filteredFeatures = filterFeaturesByDate(allNavwarnsData.features, currentFilterDate);
             renderFeatures(filteredFeatures, mainFeatureGroup);
-            
+
             // Update count in legend if it exists
             updateLegendCount(filteredFeatures.length, allNavwarnsData.features.length);
         }
@@ -448,7 +450,7 @@
                 .then(data => {
                     allNavwarnsData = data;
                     mainFeatureGroup = L.featureGroup().addTo(map);
-                    
+
                     // Filter and render based on current date
                     const filteredFeatures = filterFeaturesByDate(data.features, currentFilterDate);
                     renderFeatures(filteredFeatures, mainFeatureGroup);
@@ -470,9 +472,9 @@
 
         // Legend
         function addLegend(features) {
-            // Always show the three main categories in order
-            const mainCategories = ['military', 'accident', 'other'];
-            
+            // Always show the main categories in order
+            const mainCategories = ['military', 'accident', 'navigation', 'cable', 'other'];
+
             // Collect any additional categories from the data
             const additionalCategories = new Set();
             features.forEach(f => {
@@ -481,7 +483,7 @@
                     additionalCategories.add(cat);
                 }
             });
-            
+
             // Combine main categories with any additional ones
             const categoryList = [...mainCategories, ...Array.from(additionalCategories).sort()];
 
@@ -508,7 +510,7 @@
                         return div;
                     };
                     legend.addTo(map);
-                    
+
                     // Initialize count display
                     if (allNavwarnsData) {
                         const filtered = filterFeaturesByDate(allNavwarnsData.features, currentFilterDate);
@@ -565,50 +567,50 @@
         // Timeline controls
         const dateSlider = document.getElementById('date-slider');
         const dateDisplay = document.getElementById('date-display');
-        
+
         // Calculate date range (6 months back from today)
         const today = new Date();
         const sixMonthsAgo = new Date(today);
         sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
-        
+
         // Helper to format date
         function formatDisplayDate(date) {
             const options = { year: 'numeric', month: 'short', day: 'numeric' };
             return date.toLocaleDateString('en-US', options);
         }
-        
+
         // Update date from slider
         dateSlider.addEventListener('input', (e) => {
             const sliderValue = parseInt(e.target.value);
-            
+
             // Map slider (0-100) to date range
             const totalMs = today - sixMonthsAgo;
             const dateMs = sixMonthsAgo.getTime() + (totalMs * sliderValue / 100);
             currentFilterDate = new Date(dateMs);
-            
+
             // Update display
             if (sliderValue === 100) {
                 dateDisplay.textContent = 'Today (Current)';
             } else {
                 dateDisplay.textContent = formatDisplayDate(currentFilterDate);
             }
-            
+
             // Update map
             updateMapDisplay();
         });
-        
+
         // Quick date buttons
         function setQuickDate(daysOffset) {
             const targetDate = new Date();
             targetDate.setDate(targetDate.getDate() + daysOffset);
             currentFilterDate = targetDate;
-            
+
             // Update slider position
             const totalMs = today - sixMonthsAgo;
             const offsetMs = targetDate - sixMonthsAgo;
             const sliderPos = Math.max(0, Math.min(100, (offsetMs / totalMs) * 100));
             dateSlider.value = sliderPos;
-            
+
             // Update display
             if (daysOffset === 0) {
                 dateDisplay.textContent = 'Today (Current)';
@@ -620,11 +622,11 @@
             } else {
                 dateDisplay.textContent = formatDisplayDate(currentFilterDate);
             }
-            
+
             // Update map
             updateMapDisplay();
         }
-        
+
         // Make setQuickDate available globally
         window.setQuickDate = setQuickDate;
     </script>

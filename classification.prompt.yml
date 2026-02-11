@@ -5,10 +5,10 @@ messages:
     content: |-
       You will be given a Navigational Warning (NavWarn).
       You will parse the text and classify it into one of the following
-      categories: "military", "accident" or "other".  If the NavWarn is related
+      categories: "military", "accident", "navigation", "cable" or "other".  If the NavWarn is related
       to military activity, like missile tests or marine exercises, classify it
       as "military". If the NavWarn describes an accident or incident, classify it as
-      "accident". Otherwise, classify it as "other".
+      "accident". If the NavWarn relates to navigational aids (e.g. buoys, lights) or general navigation hazards, classify it as "navigation". If the NavWarn involves underwater cables or pipelines, classify it as "cable". Otherwise, classify it as "other".
       You will also summarize the NavWarn in a title of maximum four words,
       suited as a header in a popup.  
       <text>
@@ -29,6 +29,8 @@ jsonSchema: |-
           "enum": [
             "military",
             "accident",
+            "navigation",
+            "cable",
             "other"
           ]
         },
