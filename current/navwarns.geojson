@@ -2108,6 +2108,37 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 46/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.3,
+            67.56666666666666
+          ],
+          [
+            45.53333333333333,
+            67.16666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-02-14T01:31:37.746951",
+        "raw_dtg": "ПРИП МУРМАНСК 46/26 КАРТА 10100 ЧЕШСКАЯ ГУБА",
+        "msg_id": "PRIP MURMANSK 46/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПЕРЕДАВАТЬ 8 СУТОК\nПРИП МУРМАНСК 46 КАРТА 10100\nЧЕШСКАЯ ГУБА\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 182200 ПО 192000\nИ 192200 ПО 202000 И 202200 ПО 212000 ФЕВ\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n67-34.0С 045-18.0В\n67-10.0С 045-32.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-34.0С 045-18.0В\n2. ОТМ ЭТОТ НР 212100 ФЕВ=\n131000 МСК ГС-",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Exercises"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 23/26",
       "geometry": {
         "type": "Point",
@@ -4721,6 +4752,53 @@
         "summary": null,
         "category": "other",
         "title": "Buoy North Position Shift"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 15/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              70.06
+            ],
+            [
+              35.43833333333333,
+              70.06
+            ],
+            [
+              35.43833333333333,
+              69.525
+            ],
+            [
+              33.63333333333333,
+              69.525
+            ],
+            [
+              33.63333333333333,
+              70.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 15/26BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 17 TO 22 FEB NAVIGATION PROHIBITEDIN TERRITORIAL WATERS DANGEROUS OUTSIDEIN AREA BOUNDED BY:70-03.6N 033-38.0E, 70-03.6N 035-26.3E,69-31.5N 035-26.3E, 69-31.5N 033-38.0E.2. CANCEL THIS MSG 222000 UTC FEB 26.=NNNN",
+        "msg_id": "NAVAREA XX 15/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 222000 UTC FEB 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 15/26BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 17 TO 22 FEB NAVIGATION PROHIBITEDIN TERRITORIAL WATERS DANGEROUS OUTSIDEIN AREA BOUNDED BY:70-03.6N 033-38.0E, 70-03.6N 035-26.3E,69-31.5N 035-26.3E, 69-31.5N 033-38.0E.2. CANCEL THIS MSG 222000 UTC FEB 26.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Barents"
       }
     },
     {
