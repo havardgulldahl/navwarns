@@ -677,24 +677,37 @@ def analyze_geometry(
         except ValueError:
             pass
     if geometry != "circle":
+        feature_terms = [
+            "WELL",
+            "BUOY",
+            "HEAD",
+            "PLATFORM",
+            "STATION",
+            "LIGHT",
+            "BEACON",
+            "ЗНАК",
+            "СВЕТЯЩИЙ",
+            "БУЙ",
+            "МАЯК",
+            "СТВОР",
+            "ЯКОРНЫЙ",
+        ]
+        feature_term_hits = sum(1 for term in feature_terms if term in text)
+
         # Multipoint: enumerated list and feature nouns
         if len(coords) >= 2 and re.search(r"\b1\.\s", text):
-            feature_terms = [
-                "WELL",
-                "BUOY",
-                "HEAD",
-                "PLATFORM",
-                "STATION",
-                "LIGHT",
-                "BEACON",
-                "ЗНАК",
-                "СВЕТЯЩИЙ",
-                "БУЙ",
-                "МАЯК",
-                "СТВОР",
-                "ЯКОРНЫЙ",
-            ]
-            if any(term in text for term in feature_terms):
+            if feature_term_hits > 0:
+                geometry = "multipoint"
+
+        # Multipoint: non-enumerated dense list of named aids/objects with coordinates.
+        # This captures PRIP texts where each line names a separate mark/light but
+        # numbering (1., 2., ...) is omitted.
+        if not geometry and len(coords) >= 5 and feature_term_hits >= 2:
+            if (
+                "ALONG LINE" not in text
+                and "ПО ЛИНИИ" not in text
+                and "ОСЕВОЙ" not in text
+            ):
                 geometry = "multipoint"
         # Polygon by keywords
         # English: "AREA BOUNDED", "AREA BOUNDED BY"
