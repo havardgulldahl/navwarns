@@ -341,6 +341,31 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 49/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.67166666666667,
+          69.49333333333334
+        ]
+      },
+      "properties": {
+        "dtg": "2026-02-19T01:31:47.263230",
+        "raw_dtg": "ПРИП МУРМАНСК 49/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 49/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 49 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. ШВАРТОВНАЯ БОЧКА ДРЕЙФУЕТ 180700 ФЕВ\nВ 69-29.6С 035-40.3В\n2. ОТМ ЭТОТ НР 210700 ФЕВ=\n181100 МСК  ГС-",
+        "summary": null,
+        "category": "navigation",
+        "title": "Drifting Mooring Buoy"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 116/21",
       "geometry": {
         "type": "Polygon",
@@ -4509,33 +4534,6 @@
         "summary": null,
         "category": "other",
         "title": "Virtual Buoys Activated"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 30/26(42)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.1785,
-          76.3855
-        ]
-      },
-      "properties": {
-        "dtg": "2026-02-16T18:37:00",
-        "raw_dtg": "161837Z FEB 26",
-        "msg_id": "HYDROARC 30/26(42)",
-        "year": 2026,
-        "cancellations": [
-          "THIS MSG 191843Z FEB 26"
-        ],
-        "hazard_type": "scientific mooring",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "HYDROARC 30/26(42).\nGREENLAND SEA.\nSVALBARD.\nDNC 22.\n1. SCIENTIFIC MOORING, ADRIFT IN\n   76-23.13N 014-10.71E AT 171315Z FEB.\n2. CANCEL THIS MSG 191843Z FEB 26.",
-        "summary": null,
-        "category": "navigation",
-        "title": "Adrift Scientific Mooring"
       }
     },
     {
