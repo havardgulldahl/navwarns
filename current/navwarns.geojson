@@ -1085,6 +1085,53 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XX 19/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              70.06
+            ],
+            [
+              35.43833333333333,
+              70.06
+            ],
+            [
+              35.43833333333333,
+              69.525
+            ],
+            [
+              33.63333333333333,
+              69.525
+            ],
+            [
+              33.63333333333333,
+              70.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 19/26BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS0500 TO 1700 UTC 25 FEB NAVIGATIONPROHIBITED IN TERRITORIALWATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:70-03.6N 033-38.0E, 70-03.6N 035-26.3E,69-31.5N 035-26.3E, 69-31.5N 033-38.0E.2. CANCEL THIS MSG 251800 UTC FEB 26.=NNNN",
+        "msg_id": "NAVAREA XX 19/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 251800 UTC FEB 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 19/26BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS0500 TO 1700 UTC 25 FEB NAVIGATIONPROHIBITED IN TERRITORIALWATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:70-03.6N 033-38.0E, 70-03.6N 035-26.3E,69-31.5N 035-26.3E, 69-31.5N 033-38.0E.2. CANCEL THIS MSG 251800 UTC FEB 26.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Artillery Firings"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 200/21",
       "geometry": {
         "type": "Polygon",
@@ -1142,53 +1189,6 @@
         "summary": null,
         "category": "other",
         "title": "Net Complex Deployed"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 12/26",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              33.63333333333333,
-              70.06
-            ],
-            [
-              35.43833333333333,
-              70.06
-            ],
-            [
-              35.43833333333333,
-              69.525
-            ],
-            [
-              33.63333333333333,
-              69.525
-            ],
-            [
-              33.63333333333333,
-              70.06
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 12/26NAVAREA XX 12/26BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 10 TO 15 FEB NAVIGATION PROHIBITEDIN TERRITORIAL WATERS DANGEROUS OUTSIDEIN AREA BOUNDED BY:70-03.6N 033-38.0E, 70-03.6N 035-26.3E,69-31.5N 035-26.3E, 69-31.5N 033-38.0E.2. CANCEL THIS MSG 152000 UTC FEB 26.=NNNN",
-        "msg_id": "NAVAREA XX 12/26",
-        "year": 2026,
-        "cancellations": [
-          "THIS MSG 152000 UTC FEB 26"
-        ],
-        "hazard_type": "hazardous operations",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "NAVAREA XX 12/26NAVAREA XX 12/26BARENTS SEA.CHART RUS 10100.1. MISSILE AND ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 10 TO 15 FEB NAVIGATION PROHIBITEDIN TERRITORIAL WATERS DANGEROUS OUTSIDEIN AREA BOUNDED BY:70-03.6N 033-38.0E, 70-03.6N 035-26.3E,69-31.5N 035-26.3E, 69-31.5N 033-38.0E.2. CANCEL THIS MSG 152000 UTC FEB 26.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Missile Firings Barents"
       }
     },
     {
@@ -1637,6 +1637,53 @@
         "summary": null,
         "category": "other",
         "title": "Buoyed Area Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 23/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              69.73333333333333
+            ],
+            [
+              37.1,
+              69.73333333333333
+            ],
+            [
+              37.1,
+              69.35
+            ],
+            [
+              35.0,
+              69.35
+            ],
+            [
+              35.0,
+              69.73333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 23/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 252100 UTC TO 262100 UTC FEBNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-44.0N 035-00.0E, 69-44.0N 037-06.0E,69-21.0N 037-06.0E, 69-21.0N 035-00.0E.2. CANCEL THIS MSG 262200 UTC FEB 26.NNNN",
+        "msg_id": "NAVAREA XX 23/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 262200 UTC FEB 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 23/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 252100 UTC TO 262100 UTC FEBNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-44.0N 035-00.0E, 69-44.0N 037-06.0E,69-21.0N 037-06.0E, 69-21.0N 035-00.0E.2. CANCEL THIS MSG 262200 UTC FEB 26.NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firings Barents Sea"
       }
     },
     {
@@ -4150,20 +4197,19 @@
       },
       "properties": {
         "dtg": null,
-        "raw_dtg": "НАВАРЕА 200 18/26 КАРТА 10100NAVAREA XX 18/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0000 TO 1300 UTCDAILY 24 TO 26 FEB IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:72-46.0N 035-00.5E, 70-28.5N 038-18.0E,69-38.0N 038-45.0E, 69-28.0N 038-00.0E,72-03.5N 031-04.0E.2. CANCEL THIS MSG 261400 UTC FEB 26.=NNNN",
+        "raw_dtg": "NAVAREA XX 18/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0000 TO 1300 UTCDAILY 24 TO 26 FEB IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:72-46.0N 035-00.5E, 70-28.5N 038-18.0E,69-38.0N 038-45.0E, 69-28.0N 038-00.0E,72-03.5N 031-04.0E.2. CANCEL THIS MSG 261400 UTC FEB 26.=NNNN",
         "msg_id": "NAVAREA XX 18/26",
         "year": 2026,
         "cancellations": [
-          "THIS MSG 261400 UTC FEB 26",
-          "18/26"
+          "THIS MSG 261400 UTC FEB 26"
         ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "linestring",
         "radius_nm": null,
-        "body": "НАВАРЕА 200 18/26 КАРТА 10100NAVAREA XX 18/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0000 TO 1300 UTCDAILY 24 TO 26 FEB IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:72-46.0N 035-00.5E, 70-28.5N 038-18.0E,69-38.0N 038-45.0E, 69-28.0N 038-00.0E,72-03.5N 031-04.0E.2. CANCEL THIS MSG 261400 UTC FEB 26.=NNNN",
+        "body": "NAVAREA XX 18/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0000 TO 1300 UTCDAILY 24 TO 26 FEB IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:72-46.0N 035-00.5E, 70-28.5N 038-18.0E,69-38.0N 038-45.0E, 69-28.0N 038-00.0E,72-03.5N 031-04.0E.2. CANCEL THIS MSG 261400 UTC FEB 26.=NNNN",
         "summary": null,
         "category": "military",
-        "title": "Missile Firings Area"
+        "title": "Barents Missile Firings"
       }
     },
     {
@@ -4341,53 +4387,6 @@
         "summary": null,
         "category": "other",
         "title": "Least Depths Found"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 22/26",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              35.0,
-              69.73333333333333
-            ],
-            [
-              37.1,
-              69.73333333333333
-            ],
-            [
-              37.1,
-              69.35
-            ],
-            [
-              35.0,
-              69.35
-            ],
-            [
-              35.0,
-              69.73333333333333
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 22/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 242100 UTC TO 262100 UTC FEBNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-44.0N 035-00.0E, 69-44.0N 037-06.0E,69-21.0N 037-06.0E, 69-21.0N 035-00.0E.2. CANCEL THIS MSG 262200 UTC FEB 26.=NNNN",
-        "msg_id": "NAVAREA XX 22/26",
-        "year": 2026,
-        "cancellations": [
-          "THIS MSG 262200 UTC FEB 26"
-        ],
-        "hazard_type": "hazardous operations",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "NAVAREA XX 22/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 242100 UTC TO 262100 UTC FEBNAVIGATION PROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-44.0N 035-00.0E, 69-44.0N 037-06.0E,69-21.0N 037-06.0E, 69-21.0N 035-00.0E.2. CANCEL THIS MSG 262200 UTC FEB 26.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Missile Firings Barents"
       }
     },
     {
@@ -4787,33 +4786,6 @@
         "summary": null,
         "category": "other",
         "title": "Bank Depths Update"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 17/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.67166666666667,
-          69.49333333333334
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 17/26NAVAREA XX 17/26BARENTS SEA.CHART RUS 10100.1. MOORING BUOY ADRIFT180700 UTC FEB IN 69-29.6N 035-40.3E.2. CANCEL THIS MSG 210700 UTC FEB 26.=NNNN",
-        "msg_id": "NAVAREA XX 17/26",
-        "year": 2026,
-        "cancellations": [
-          "THIS MSG 210700 UTC FEB 26"
-        ],
-        "hazard_type": "scientific mooring",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "NAVAREA XX 17/26NAVAREA XX 17/26BARENTS SEA.CHART RUS 10100.1. MOORING BUOY ADRIFT180700 UTC FEB IN 69-29.6N 035-40.3E.2. CANCEL THIS MSG 210700 UTC FEB 26.=NNNN",
-        "summary": null,
-        "category": "navigation",
-        "title": "Mooring Buoy Adrift"
       }
     },
     {
