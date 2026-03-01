@@ -5843,6 +5843,53 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XX 26/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.96666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 26/26BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 04 TO 06 MAR NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-34.5N 034-48.0E, 69-34.5N 033-38.0E.2. CANCEL THIS MSG 062000 UTC MAR 26.=NNNN",
+        "msg_id": "NAVAREA XX 26/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 062000 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 26/26BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 04 TO 06 MAR NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-34.5N 034-48.0E, 69-34.5N 033-38.0E.2. CANCEL THIS MSG 062000 UTC MAR 26.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Barents Sea Artillery Firings"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 258/25",
       "geometry": {
         "type": "LineString",
