@@ -1158,6 +1158,51 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XX 28/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.00833333333333,
+            72.76666666666667
+          ],
+          [
+            38.3,
+            70.475
+          ],
+          [
+            38.75,
+            69.63333333333334
+          ],
+          [
+            38.0,
+            69.46666666666667
+          ],
+          [
+            31.066666666666666,
+            72.05833333333334
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 28/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0000 TO 1300 UTCDAILY 11 TO 13 MAR IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:72-46.0N 035-00.5E, 70-28.5N 038-18.0E,69-38.0N 038-45.0E, 69-28.0N 038-00.0E,72-03.5N 031-04.0E.2. CANCEL THIS MSG 131400 UTC MAR 26.=NNNN",
+        "msg_id": "NAVAREA XX 28/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 131400 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "NAVAREA XX 28/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0000 TO 1300 UTCDAILY 11 TO 13 MAR IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:72-46.0N 035-00.5E, 70-28.5N 038-18.0E,69-38.0N 038-45.0E, 69-28.0N 038-00.0E,72-03.5N 031-04.0E.2. CANCEL THIS MSG 131400 UTC MAR 26.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firings Barents Sea"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 204/21",
       "geometry": {
         "type": "Point",
@@ -1749,6 +1794,31 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 82/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5,
+          69.39833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-06T01:31:28.106755",
+        "raw_dtg": "ПРИП МУРМАНСК 82/26 КАРТА 11114 КНИГА 3003 БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 82/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 82 КАРТА 11114 КНИГА 3003\nБАРЕНЦЕВО МОРЕ\n1. МОРСКОЙ РАДИОМАЯК СЕТЬНАВОЛОКСКИЙ 69-23.9С 033-30.0В НР 1250\nВКЛЮЧАЕТСЯ В РАБОТУ 051900 ПО 060300 И 061900 ПО 070300 МАРТ\n2. ОТМ ЭТОТ НР 070300 МАРТ=\n051000 МСК  ГС-",
+        "summary": null,
+        "category": "navigation",
+        "title": "Radio Beacon Operation"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 1/26",
       "geometry": {
         "type": "LineString",
@@ -2218,6 +2288,31 @@
         "summary": null,
         "category": "other",
         "title": "Updated Depths Reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 80/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.02777777777778,
+          69.0111111111111
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-06T01:31:28.107281",
+        "raw_dtg": "ПРИП МУРМАНСК 80/26 КАРТА 17055 КОЛЬСКИЙ ЗАЛИВ АКВАТОРИЯ МОРСКОГО ПОРТА МУРМАНСК",
+        "msg_id": "PRIP MURMANSK 80/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 80 КАРТА 17055\nКОЛЬСКИЙ ЗАЛИВ\nАКВАТОРИЯ МОРСКОГО ПОРТА МУРМАНСК\n1. УЧЕНИЯ С ИСПОЛЬЗОВАНИЕМ ВЕРТОЛЕТОВ\n14 ПО 19 МАРТ 0900 ДО 2100 В\nА. 69-00-40С 033-01-40В\nБ. 69-02-50С 033-04-17В\nПРИ ПЛАВАНИИ СОБЛЮДАТЬ ОСТОРОЖНОСТЬ\n2. ОТМ ЭТОТ НР 192200 МАРТ=\n051000 МСК  ГС-",
+        "summary": null,
+        "category": "military",
+        "title": "Helicopter Exercises Murmansk"
       }
     },
     {
@@ -4571,6 +4666,53 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XX 29/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.96666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 29/26BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 10 TO 12 MAR NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-34.5N 034-48.0E, 69-34.5N 033-38.0E.2. CANCEL THIS MSG 122000 UTC MAR 26.=NNNN",
+        "msg_id": "NAVAREA XX 29/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 122000 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 29/26BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1900 UTCDAILY 10 TO 12 MAR NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-34.5N 034-48.0E, 69-34.5N 033-38.0E.2. CANCEL THIS MSG 122000 UTC MAR 26.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firings Barents"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 4/26",
       "geometry": {
         "type": "Point",
@@ -5217,6 +5359,53 @@
         "summary": null,
         "category": "other",
         "title": "Net Complex Deployed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 30/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.58333333333333
+            ],
+            [
+              33.63333333333333,
+              69.58333333333333
+            ],
+            [
+              33.63333333333333,
+              69.96666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 30/26BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1700 UTCDAILY 13 TO 16 MAR NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-35.0N 034-48.0E, 69-35.0N 033-38.0E.2. CANCEL THIS MSG 161800 UTC MAR 26.=NNNN",
+        "msg_id": "NAVAREA XX 30/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 161800 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 30/26BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0500 TO 1700 UTCDAILY 13 TO 16 MAR NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-58.0N 033-38.0E, 69-58.0N 034-48.0E,69-35.0N 034-48.0E, 69-35.0N 033-38.0E.2. CANCEL THIS MSG 161800 UTC MAR 26.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Area"
       }
     },
     {
