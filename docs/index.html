@@ -487,48 +487,83 @@
             // Combine main categories with any additional ones
             const categoryList = [...mainCategories, ...Array.from(additionalCategories).sort()];
 
-            fetch('scrape_timestamp.txt')
-                .then(r => r.ok ? r.text() : '')
-                .catch(() => '')
-                .then(tsRaw => {
-                    const ts = (tsRaw || '').trim();
-                    const legend = L.control({ position: 'bottomleft' });
-                    legend.onAdd = function () {
-                        const div = L.DomUtil.create('div', 'legend');
-                        const fetchedLine = ts ? `<div class="fetched" style="font-size:10px;margin:2px 0 6px;">Fetched ${ts}</div>` : '';
-                        div.innerHTML =
-                            '<h4>NavWarns for the Arctic</h4>' + fetchedLine +
-                            '<div id="navwarn-count" style="font-size:11px;margin:4px 0;color:#666;"></div>' +
-                            categoryList.map(c => {
-                                const col = getCategoryColor(c);
-                                return `<div class="item"><span class="swatch" style="background:${col}"></span><span>${c}</span></div>`;
-                            }).join('') +
-                            '<hr style="margin:6px 0;" />' +
-                            '<div style="font-size:10px; line-height:1.2;">' +
-                            'Load layer for year: <input list="years" id="yearInput" placeholder="YYYY" style="width:6em;" /></div>' +
-                            '<div style="margin-top:6px;font-size:10px;"><a href="navwarns.geojson" download target="_blank">Download GeoJSON</a></div>';
-                        return div;
+            // Fetch all scrape timestamps in parallel
+            const tsFiles = [
+                { file: 'scrape_timestamp_HYDROARC.txt', label: 'HYDRO/ARC' },
+                { file: 'scrape_timestamp_NAVAREAXX.txt', label: 'NAVAREA XX' },
+                { file: 'scrape_timestamp_PRIP.txt', label: 'PRIP' }
+            ];
+
+            function timeAgo(isoStr) {
+                const d = new Date(isoStr);
+                if (isNaN(d)) return isoStr;
+                const now = new Date();
+                const diffMs = now - d;
+                const mins = Math.floor(diffMs / 60000);
+                if (mins < 1) return 'just now';
+                if (mins < 60) return `${mins}m ago`;
+                const hours = Math.floor(mins / 60);
+                if (hours < 24) return `${hours}h ago`;
+                const days = Math.floor(hours / 24);
+                if (days < 30) return `${days}d ago`;
+                const months = Math.floor(days / 30);
+                return `${months}mo ago`;
+            }
+
+            Promise.all(tsFiles.map(t =>
+                fetch(t.file).then(r => r.ok ? r.text() : '').catch(() => '')
+                    .then(raw => ({ label: t.label, ts: (raw || '').trim() }))
+            )).then(timestamps => {
+                const legend = L.control({ position: 'bottomleft' });
+                legend.onAdd = function () {
+                    const div = L.DomUtil.create('div', 'legend');
+
+                    // Build timestamp rows for sources that have data
+                    const tsRows = timestamps
+                        .filter(t => t.ts)
+                        .map(t => {
+                            const ago = timeAgo(t.ts);
+                            const full = new Date(t.ts).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'UTC' });
+                            return `<div style="display:flex;justify-content:space-between;gap:8px;"><span style="color:#888;">${t.label}</span><span title="${full} UTC" style="cursor:help;">${ago}</span></div>`;
+                        }).join('');
+
+                    const tsSection = tsRows
+                        ? `<div style="font-size:10px;margin:2px 0 6px;line-height:1.5;"><strong style="font-size:10px;">Last updated</strong>${tsRows}</div>`
+                        : '';
+
+                    div.innerHTML =
+                        '<h4>NavWarns for the Arctic</h4>' + tsSection +
+                        '<div id="navwarn-count" style="font-size:11px;margin:4px 0;color:#666;"></div>' +
+                        categoryList.map(c => {
+                            const col = getCategoryColor(c);
+                            return `<div class="item"><span class="swatch" style="background:${col}"></span><span>${c}</span></div>`;
+                        }).join('') +
+                        '<hr style="margin:6px 0;" />' +
+                        '<div style="font-size:10px; line-height:1.2;">' +
+                        'Load layer for year: <input list="years" id="yearInput" placeholder="YYYY" style="width:6em;" /></div>' +
+                        '<div style="margin-top:6px;font-size:10px;"><a href="navwarns.geojson" download target="_blank">Download GeoJSON</a></div>';
+                    return div;
+                };
+                legend.addTo(map);
+
+                // Initialize count display
+                if (allNavwarnsData) {
+                    const filtered = filterFeaturesByDate(allNavwarnsData.features, currentFilterDate);
+                    updateLegendCount(filtered.length, allNavwarnsData.features.length);
+                }
+
+                setTimeout(() => {
+                    const yearInput = document.getElementById('yearInput');
+                    if (!yearInput) return;
+                    const load = () => {
+                        const y = (yearInput.value || '').trim();
+                        if (!/^20\d{2}$/.test(y)) return;
+                        loadArchiveYear(y);
                     };
-                    legend.addTo(map);
-
-                    // Initialize count display
-                    if (allNavwarnsData) {
-                        const filtered = filterFeaturesByDate(allNavwarnsData.features, currentFilterDate);
-                        updateLegendCount(filtered.length, allNavwarnsData.features.length);
-                    }
-
-                    setTimeout(() => {
-                        const yearInput = document.getElementById('yearInput');
-                        if (!yearInput) return;
-                        const load = () => {
-                            const y = (yearInput.value || '').trim();
-                            if (!/^20\d{2}$/.test(y)) return;
-                            loadArchiveYear(y);
-                        };
-                        yearInput.addEventListener('change', load);
-                        yearInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') load(); });
-                    }, 0);
-                });
+                    yearInput.addEventListener('change', load);
+                    yearInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') load(); });
+                }, 0);
+            });
         }
 
         // Archive loader
