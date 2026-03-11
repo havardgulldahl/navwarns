@@ -716,6 +716,8 @@ def analyze_geometry(
             polygon_keywords = [
                 "AREA BOUNDED BY",
                 "AREA BOUNDED",
+                "AREAS BOUND BY",
+                "BOUND BY",
                 "РАЙОНЕ",  # Russian: area/zone
             ]
             if any(keyword in text for keyword in polygon_keywords):

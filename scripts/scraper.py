@@ -92,6 +92,21 @@ def serialize_message(msg: Any) -> dict:
     }
 
 
+def serialize_message_features(msg: Any) -> List[dict]:
+    """Return one or more GeoJSON Feature dicts for *msg*.
+
+    Multi-group messages (e.g. areas A, B, C) are expanded into
+    separate features so each area can be stored and classified
+    independently.
+    """
+    if hasattr(msg, "to_geojson_features"):
+        feats = msg.to_geojson_features()
+        for feat in feats:
+            feat.setdefault("properties", {})["summary"] = None
+        return feats
+    return [serialize_message(msg)]
+
+
 def parse_broadcast_warn_xml(
     xml_text: str,
 ) -> List[Any]:  # returns list[NavwarnMessage]
@@ -153,6 +168,14 @@ def parse_broadcast_warn_xml(
     return messages
 
 
+def _feature_filename(feat_id: str) -> str:
+    """Derive a safe filename from a GeoJSON Feature id."""
+    import re as _re
+
+    safe = _re.sub(r"[^A-Za-z0-9_.-]+", "_", feat_id)
+    return f"{safe}.json"
+
+
 def store_messages(
     messages: Iterable[Any], force: bool = False, output_dir: Path = OUTPUT_DIR
 ) -> set[str]:
@@ -160,14 +183,6 @@ def store_messages(
     output_dir.mkdir(parents=True, exist_ok=True)
     active_filenames = set()
     for m in messages:
-        fname = message_filename(m)
-        active_filenames.add(fname)
-        path = output_dir / fname
-
-        # If file exists and not force, preserve existing data (including DTG)
-        if path.exists() and not force:
-            continue
-
         # If message doesn't have DTG, assign current timestamp as first-seen date
         if m.dtg is None:
             m.dtg = datetime.datetime.utcnow()
@@ -175,14 +190,25 @@ def store_messages(
             if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ""):
                 m.raw_dtg = m.dtg.strftime("%d%H%MZ %b %y").upper()
 
-        base_glob = fname.split(".json")[0] + "_*.json"
-        for old in output_dir.glob(base_glob):
-            try:
-                old.unlink()
-            except OSError:
-                pass
-        with path.open("w", encoding="utf-8") as f:
-            json.dump(serialize_message(m), f, ensure_ascii=False, indent=2)
+        feats = serialize_message_features(m)
+        for feat in feats:
+            feat_id = feat.get("id") or m.msg_id or "NOID"
+            fname = _feature_filename(feat_id)
+            active_filenames.add(fname)
+            path = output_dir / fname
+
+            # If file exists and not force, preserve existing data
+            if path.exists() and not force:
+                continue
+
+            base_glob = fname.split(".json")[0] + "_*.json"
+            for old in output_dir.glob(base_glob):
+                try:
+                    old.unlink()
+                except OSError:
+                    pass
+            with path.open("w", encoding="utf-8") as f:
+                json.dump(feat, f, ensure_ascii=False, indent=2)
     return active_filenames
 
 
@@ -207,7 +233,8 @@ def run_scrape(
         navmsgs = parse_broadcast_warn_xml(xml_text)
         if dry_run:
             for m in navmsgs:
-                print(json.dumps(serialize_message(m), ensure_ascii=False))
+                for feat in serialize_message_features(m):
+                    print(json.dumps(feat, ensure_ascii=False))
         else:
             active = store_messages(navmsgs, force=force, output_dir=output_dir)
             total_written += len(active)
@@ -219,7 +246,8 @@ def run_scrape(
         navmsgs = navparser.parse_navwarns(block)
         if dry_run:
             for m in navmsgs:
-                print(json.dumps(serialize_message(m), ensure_ascii=False))
+                for feat in serialize_message_features(m):
+                    print(json.dumps(feat, ensure_ascii=False))
         else:
             active = store_messages(navmsgs, force=force, output_dir=output_dir)
             total_written += len(active)
@@ -278,11 +306,13 @@ def main(argv: list[str] | None = None) -> int:
             root = ET.fromstring(xml_text)
             if root.tag == "broadcast-warn":
                 for m in parse_broadcast_warn_xml(xml_text):
-                    print(json.dumps(serialize_message(m), ensure_ascii=False))
+                    for feat in serialize_message_features(m):
+                        print(json.dumps(feat, ensure_ascii=False))
             else:
                 for block in extract_msg_text_blocks(xml_text):
                     for m in navparser.parse_navwarns(block):
-                        print(json.dumps(serialize_message(m), ensure_ascii=False))
+                        for feat in serialize_message_features(m):
+                            print(json.dumps(feat, ensure_ascii=False))
             return 0
         written = 0
         root = ET.fromstring(xml_text)
