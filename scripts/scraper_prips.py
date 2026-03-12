@@ -149,7 +149,7 @@ def main(parse_files: List = []):
     if len(parse_files) > 0:
         # use local files
         for _file in parse_files:
-            with open(_file) as f:
+            with open(_file, "rb") as f:
                 raw_prips.extend(extract_prips_from_html(f.read()))
     else:
         for url in page_urls:
@@ -186,7 +186,7 @@ def main(parse_files: List = []):
 
             # If message doesn't have DTG, assign current timestamp as first-seen date
             if m.dtg is None:
-                m.dtg = datetime.datetime.utcnow()
+                m.dtg = datetime.datetime.now(datetime.timezone.utc)
                 # Also update raw_dtg if it's empty or just contains the message ID
                 if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ""):
                     m.raw_dtg = m.dtg.strftime("%d%H%MZ %b %y").upper()
@@ -197,7 +197,7 @@ def main(parse_files: List = []):
         cleanup.cleanup(active_filenames, prips_location, "PRIP_*.json")
 
         with open(CURRENT_DIR / ".scrape_timestamp_PRIP", "w", encoding="utf-8") as f:
-            f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
+            f.write(f"{datetime.datetime.now(datetime.timezone.utc).isoformat()}\n")
 
         logging.info(
             "Extracted %d prips from %d raw prips to %s",

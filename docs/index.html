@@ -53,6 +53,7 @@
             background: linear-gradient(to right, #e0e0e0 0%, #4a90e2 50%, #2ecc71 100%);
             outline: none;
             -webkit-appearance: none;
+            appearance: none;
         }
 
         #date-slider::-webkit-slider-thumb {
@@ -291,11 +292,11 @@
             <span id="date-display">Today (Current)</span>
         </div>
         <div id="quick-dates">
-            <button class="quick-date-btn" onclick="setQuickDate(-7)">7 days ago</button>
-            <button class="quick-date-btn" onclick="setQuickDate(-14)">2 weeks ago</button>
-            <button class="quick-date-btn" onclick="setQuickDate(-30)">1 month ago</button>
-            <button class="quick-date-btn" onclick="setQuickDate(-90)">3 months ago</button>
-            <button class="timeline-button active" onclick="setQuickDate(0)">Show Current Only</button>
+            <button class="quick-date-btn" onclick="setQuickDate(-7, this)">7 days ago</button>
+            <button class="quick-date-btn" onclick="setQuickDate(-14, this)">2 weeks ago</button>
+            <button class="quick-date-btn" onclick="setQuickDate(-30, this)">1 month ago</button>
+            <button class="quick-date-btn" onclick="setQuickDate(-90, this)">3 months ago</button>
+            <button class="timeline-button active" onclick="setQuickDate(0, this)">Show Current Only</button>
         </div>
     </div>
 
@@ -839,7 +840,7 @@
         });
 
         // Quick date buttons
-        function setQuickDate(daysOffset) {
+        function setQuickDate(daysOffset, clickedBtn) {
             const targetDate = new Date();
             targetDate.setDate(targetDate.getDate() + daysOffset);
             currentFilterDate = targetDate;
@@ -857,7 +858,7 @@
                 document.querySelectorAll('.quick-date-btn, .timeline-button').forEach(btn => {
                     btn.classList.remove('active');
                 });
-                event.target.classList.add('active');
+                if (clickedBtn) clickedBtn.classList.add('active');
             } else {
                 dateDisplay.textContent = formatDisplayDate(currentFilterDate);
             }
@@ -885,6 +886,8 @@
         <option value="2021">
         <option value="2022">
         <option value="2023">
+        <option value="2024">
+        <option value="2025">
     </datalist>
 </body>
 

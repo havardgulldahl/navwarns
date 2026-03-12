@@ -245,26 +245,27 @@ def main():
             OUT_DIR, datetime.datetime.now().date().isoformat(), "navwarns_raw.txt"
         )
         os.makedirs(os.path.dirname(navwarns_file_raw), exist_ok=True)
-        f_raw = open(navwarns_file_raw, "w", encoding="utf-8")
+        navwarns_out_dir = CURRENT_DIR / "navwarns"
+        navwarns_out_dir.mkdir(parents=True, exist_ok=True)
         active_filenames = set()
-        for nw in navwarns:
-            f_raw.write(nw + "\n\n")
-            navmsgs = navparser.parse_navwarns(nw)
-            for m in navmsgs:
-                safe_id = "unknown_id"
-                if msg_id := getattr(m, "msg_id", None):
-                    safe_id = re.sub(r"[^\w\-]", "_", msg_id)
+        with open(navwarns_file_raw, "w", encoding="utf-8") as f_raw:
+            for nw in navwarns:
+                f_raw.write(nw + "\n\n")
+                navmsgs = navparser.parse_navwarns(nw)
+                for m in navmsgs:
+                    safe_id = "unknown_id"
+                    if msg_id := getattr(m, "msg_id", None):
+                        safe_id = re.sub(r"[^\w\-]", "_", msg_id)
 
-                # print(json.dumps(serialize_message(m), ensure_ascii=False))
-                filename = f"{safe_id}.json"
-                active_filenames.add(filename)
+                    # print(json.dumps(serialize_message(m), ensure_ascii=False))
+                    filename = f"{safe_id}.json"
+                    active_filenames.add(filename)
 
-                outfile = CURRENT_DIR / "navwarns" / filename
-                with outfile.open("w", encoding="utf-8") as f_geo:
-                    f_geo.write(
-                        json.dumps(serialize_message(m), ensure_ascii=False) + "\n"
-                    )
-        f_raw.close()
+                    outfile = navwarns_out_dir / filename
+                    with outfile.open("w", encoding="utf-8") as f_geo:
+                        f_geo.write(
+                            json.dumps(serialize_message(m), ensure_ascii=False) + "\n"
+                        )
 
         cleanup.cleanup(
             active_filenames,
@@ -275,7 +276,7 @@ def main():
         with open(
             CURRENT_DIR / ".scrape_timestamp_NAVAREAXX", "w", encoding="utf-8"
         ) as f:
-            f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
+            f.write(f"{datetime.datetime.now(datetime.timezone.utc).isoformat()}\n")
         logging.info("Extracted %d navwarns to %s", len(navwarns), CURRENT_DIR)
 
     else:

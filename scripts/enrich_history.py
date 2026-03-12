@@ -21,8 +21,8 @@ Environment variables:
   OPENAI_BASE_URL (optional, default https://api.openai.com/v1)
 
 CLI usage:
-  python -m scripts.encrich_history --years 2019 2020 --limit 50
-  python -m scripts.encrich_history --all-years --dry-run
+  python -m scripts.enrich_history --years 2019 2020 --limit 50
+  python -m scripts.enrich_history --all-years --dry-run
 
 Exit codes:
   0 success

@@ -185,7 +185,7 @@ def store_messages(
     for m in messages:
         # If message doesn't have DTG, assign current timestamp as first-seen date
         if m.dtg is None:
-            m.dtg = datetime.datetime.utcnow()
+            m.dtg = datetime.datetime.now(datetime.timezone.utc)
             # Also update raw_dtg if it's empty or just contains the message ID
             if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ""):
                 m.raw_dtg = m.dtg.strftime("%d%H%MZ %b %y").upper()
@@ -336,7 +336,7 @@ def main(argv: list[str] | None = None) -> int:
             with open(
                 CURRENT_DIR / ".scrape_timestamp_HYDROARC", "w", encoding="utf-8"
             ) as f:
-                f.write(f"{datetime.datetime.utcnow().isoformat()}Z\n")
+                f.write(f"{datetime.datetime.now(datetime.timezone.utc).isoformat()}\n")
         return 0
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
