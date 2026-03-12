@@ -4,7 +4,7 @@ import argparse
 import json
 from dataclasses import dataclass, field
 import math
-from datetime import datetime
+from datetime import datetime, timezone
 from dateutil import parser as dtparser  # still used as fallback
 from typing import List, Tuple, Optional, Dict
 from shapely.geometry import LineString, MultiPoint, Point, Polygon, mapping
@@ -247,6 +247,91 @@ class NavwarnMessage:
     body: str = ""
     year: Optional[int] = None  # four-digit year inferred from msg_id or dtg
 
+    # --- Validity helpers ---
+    def _compute_valid_from(self) -> Optional[str]:
+        """Return ISO-8601 valid_from string."""
+        if self.dtg:
+            dt = self.dtg
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.isoformat()
+        if self.year:
+            return datetime(self.year, 1, 1, tzinfo=timezone.utc).isoformat()
+        return None
+
+    def _compute_valid_until(self) -> Optional[str]:
+        """Extract self-cancellation date as ISO-8601 string.
+
+        Looks for 'THIS MSG' / 'THIS MESSAGE' entries in
+        cancellations and parses the embedded DTG.
+        """
+        month_map = {
+            "JAN": 1,
+            "FEB": 2,
+            "MAR": 3,
+            "APR": 4,
+            "MAY": 5,
+            "JUN": 6,
+            "JUL": 7,
+            "AUG": 8,
+            "SEP": 9,
+            "OCT": 10,
+            "NOV": 11,
+            "DEC": 12,
+        }
+        for cancel in self.cancellations:
+            if not cancel:
+                continue
+            upper = cancel.upper()
+            if "THIS MSG" not in upper and "THIS MESSAGE" not in upper:
+                continue
+            # Full DTG: DDHHMM[Z| UTC] MON YY
+            m = re.match(
+                r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})"
+                r"(?:Z| UTC) ([A-Z]{3}) (\d{2})",
+                cancel,
+            )
+            if m:
+                day, hour, minute = (
+                    int(m.group(1)),
+                    int(m.group(2)),
+                    int(m.group(3)),
+                )
+                mon = month_map.get(m.group(4))
+                yr = 2000 + int(m.group(5))
+                if mon:
+                    try:
+                        return datetime(
+                            yr,
+                            mon,
+                            day,
+                            hour,
+                            minute,
+                            tzinfo=timezone.utc,
+                        ).isoformat()
+                    except ValueError:
+                        pass
+            # Date-only: DD MON YY
+            m2 = re.match(
+                r"THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3})" r" (\d{2})",
+                cancel,
+            )
+            if m2:
+                day = int(m2.group(1))
+                mon = month_map.get(m2.group(2))
+                yr = 2000 + int(m2.group(3))
+                if mon:
+                    try:
+                        return datetime(
+                            yr,
+                            mon,
+                            day,
+                            tzinfo=timezone.utc,
+                        ).isoformat()
+                    except ValueError:
+                        pass
+        return None
+
     # --- GeoJSON helpers ---
     def geojson_geometry(self, circle_segments: int = 72) -> Optional[dict]:
         """Return a GeoJSON geometry object derived from parsed coordinates & geometry metadata.
@@ -285,6 +370,8 @@ class NavwarnMessage:
                 "geometry_kind": self.geometry,
                 "radius_nm": self.radius,
                 "body": self.body,
+                "valid_from": self._compute_valid_from(),
+                "valid_until": self._compute_valid_until(),
             },
         }
 
@@ -327,6 +414,8 @@ class NavwarnMessage:
                         "year": self.year,
                         "hazard_type": self.hazard_type,
                         "body": self.body,
+                        "valid_from": self._compute_valid_from(),
+                        "valid_until": self._compute_valid_until(),
                     },
                 }
             )

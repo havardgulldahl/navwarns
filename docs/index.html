@@ -17,7 +17,7 @@
 
         #map {
             width: 100%;
-            height: calc(100% - 80px);
+            height: calc(100% - 94px);
         }
 
         #timeline-container {
@@ -25,25 +25,24 @@
             bottom: 0;
             left: 0;
             right: 0;
-            height: 80px;
+            height: 94px;
             background: linear-gradient(to top, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.95));
             box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
-            padding: 12px 20px;
+            padding: 8px 20px;
             z-index: 1000;
         }
 
         #timeline-controls {
             display: flex;
             align-items: center;
-            gap: 15px;
-            margin-bottom: 8px;
+            gap: 12px;
         }
 
         #timeline-label {
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
             color: #333;
-            min-width: 120px;
+            white-space: nowrap;
         }
 
         #date-slider {
@@ -59,8 +58,8 @@
         #date-slider::-webkit-slider-thumb {
             -webkit-appearance: none;
             appearance: none;
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
             border-radius: 50%;
             background: #fff;
             border: 3px solid #4a90e2;
@@ -69,8 +68,8 @@
         }
 
         #date-slider::-moz-range-thumb {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
             border-radius: 50%;
             background: #fff;
             border: 3px solid #4a90e2;
@@ -79,40 +78,68 @@
         }
 
         #date-display {
-            font-size: 15px;
+            font-size: 14px;
             color: #2c3e50;
-            min-width: 180px;
+            min-width: 120px;
             text-align: right;
             font-weight: 500;
+            white-space: nowrap;
         }
 
-        .timeline-button {
-            padding: 6px 14px;
-            border: none;
-            border-radius: 4px;
-            background: #4a90e2;
-            color: white;
-            font-size: 13px;
-            cursor: pointer;
-            font-weight: 500;
-            transition: background 0.2s;
-        }
-
-        .timeline-button:hover {
-            background: #357abd;
-        }
-
-        .timeline-button.active {
-            background: #2ecc71;
-        }
-
-        #quick-dates {
+        #year-bar {
             display: flex;
-            gap: 8px;
+            gap: 1px;
+            margin: 5px 0 4px;
         }
 
-        .quick-date-btn {
-            padding: 4px 10px;
+        .year-seg {
+            flex: 1;
+            text-align: center;
+            font-size: 9px;
+            line-height: 18px;
+            height: 18px;
+            cursor: pointer;
+            background: #eee;
+            border-radius: 2px;
+            transition: background 0.15s;
+            user-select: none;
+            color: #999;
+        }
+
+        .year-seg:hover {
+            background: #ddd;
+        }
+
+        .year-seg.loaded {
+            background: #b3d9ea;
+            color: #2c5f7c;
+        }
+
+        .year-seg.viewing {
+            background: #4a90e2;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .year-seg.loading {
+            background: #ffeeba;
+            color: #856404;
+        }
+
+        .year-seg.unavailable {
+            background: #f5f5f5;
+            color: #ccc;
+            cursor: default;
+        }
+
+        #quick-controls {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .quick-btn {
+            padding: 3px 10px;
             border: 1px solid #ddd;
             border-radius: 3px;
             background: white;
@@ -121,8 +148,14 @@
             transition: all 0.2s;
         }
 
-        .quick-date-btn:hover {
+        .quick-btn:hover {
             background: #f0f0f0;
+            border-color: #4a90e2;
+        }
+
+        .quick-btn.active {
+            background: #4a90e2;
+            color: #fff;
             border-color: #4a90e2;
         }
 
@@ -279,6 +312,13 @@
             font-size: 14px;
             flex-shrink: 0;
         }
+
+        #loading-indicator {
+            display: none;
+            font-size: 10px;
+            color: #856404;
+            margin-left: 8px;
+        }
     </style>
 </head>
 
@@ -287,16 +327,18 @@
 
     <div id="timeline-container">
         <div id="timeline-controls">
-            <span id="timeline-label">View NavWarns as of:</span>
-            <input type="range" id="date-slider" min="0" max="100" value="100" step="1">
-            <span id="date-display">Today (Current)</span>
+            <span id="timeline-label">NavWarns as of:</span>
+            <input type="range" id="date-slider" min="0" max="1" value="1" step="1">
+            <span id="date-display">Today</span>
+            <span id="loading-indicator">Loading…</span>
         </div>
-        <div id="quick-dates">
-            <button class="quick-date-btn" onclick="setQuickDate(-7, this)">7 days ago</button>
-            <button class="quick-date-btn" onclick="setQuickDate(-14, this)">2 weeks ago</button>
-            <button class="quick-date-btn" onclick="setQuickDate(-30, this)">1 month ago</button>
-            <button class="quick-date-btn" onclick="setQuickDate(-90, this)">3 months ago</button>
-            <button class="timeline-button active" onclick="setQuickDate(0, this)">Show Current Only</button>
+        <div id="year-bar"></div>
+        <div id="quick-controls">
+            <button class="quick-btn" data-days="-7">-7d</button>
+            <button class="quick-btn" data-days="-30">-1mo</button>
+            <button class="quick-btn" data-days="-90">-3mo</button>
+            <button class="quick-btn" data-days="-365">-1yr</button>
+            <button class="quick-btn active" data-days="0">Today</button>
         </div>
     </div>
 
@@ -309,13 +351,12 @@
         referrerpolicy="no-referrer"></script>
 
     <script>
-        // EPSG:3575 (Arctic Polar Stereographic)
+        // ============ CRS & Map Setup ============
         const crs3575 = new L.Proj.CRS(
             'EPSG:3575',
-            //'+proj=stere +lat_0=90 +lat_ts=71 +lon_0=0 +k=1 +datum=WGS84 +units=m +no_defs',
             '+proj=laea +lat_0=90 +lon_0=10 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs',
             {
-                origin: [-4889334.802955, 4889334.802955], // top-left
+                origin: [-4889334.802955, 4889334.802955],
                 bounds: L.bounds(
                     [-4889334.802955, -4889334.802955],
                     [4889334.802955, 4889334.802955]
@@ -336,117 +377,42 @@
             maxZoom: 10
         });
 
-        // WMTS as REST template. For this service, TileMatrix = z (0..10), origin is top-left, so y is standard.
         const ArcticSDILayer = L.TileLayer.extend({
             getTileUrl: function (coords) {
-                const z = coords.z;
-                const x = coords.x;
-                const y = coords.y;
-                // WMTS REST template: /wmts/1.0.0/{layer}/{style}/{tilematrixset}/{TileMatrix}/{TileRow}/{TileCol}.{formatExt}
-                return `https://basemap.arctic-sdi.org/mapcache/wmts/1.0.0/arctic_cascading/default/3575/${z}/${y}/${x}.png`;
+                return `https://basemap.arctic-sdi.org/mapcache/wmts/1.0.0/arctic_cascading/default/3575/${coords.z}/${coords.y}/${coords.x}.png`;
             }
         });
 
-        const arcticBasemap = new ArcticSDILayer('', {
+        new ArcticSDILayer('', {
             tileSize: 256,
             attribution: '<a href="https://arctic-sdi.org/">Arctic SDI</a>'
         }).addTo(map);
 
-        L.control.layers({ 'Arctic SDI (EPSG:3575)': arcticBasemap }, {}).addTo(map);
+        // ============ Timeline Config ============
+        const DAY_MS = 86400000;
+        const TIMELINE_START = new Date(Date.UTC(2010, 0, 1));
+        const TIMELINE_END = new Date();
+        TIMELINE_END.setUTCHours(23, 59, 59, 999);
+        const totalDays = Math.ceil((TIMELINE_END - TIMELINE_START) / DAY_MS);
 
-        // Timeline filtering state
-        let currentFilterDate = new Date(); // Default to today
-        let allNavwarnsData = null;
-        let mainFeatureGroup = null;
+        const dateSlider = document.getElementById('date-slider');
+        const dateDisplay = document.getElementById('date-display');
+        const loadingIndicator = document.getElementById('loading-indicator');
 
-        // Parse cancellation date from various formats:
-        //   "THIS MSG DDHHMMZ MON YY"
-        //   "THIS MSG DDHHMM UTC MON YY"
-        //   "THIS MSG DD MON YY" (date-only, no time)
-        function parseCancellationDate(cancelStr) {
-            if (!cancelStr) return null;
+        dateSlider.max = totalDays;
+        dateSlider.value = totalDays;
 
-            const monthMap = {
-                'JAN': 0, 'FEB': 1, 'MAR': 2, 'APR': 3, 'MAY': 4, 'JUN': 5,
-                'JUL': 6, 'AUG': 7, 'SEP': 8, 'OCT': 9, 'NOV': 10, 'DEC': 11
-            };
+        // ============ Data State ============
+        const manifest = { years: [] };
+        const yearData = {};          // year (int) -> features[]
+        let currentData = null;       // from navwarns.geojson
+        const currentYear = new Date().getUTCFullYear();
+        const loadingYears = new Set();
+        let viewDate = new Date();    // current filter date
 
-            // Full DTG: "THIS MSG 171600Z SEP 25" or "THIS MSG 171600 UTC SEP 25"
-            const matchFull = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC) ([A-Z]{3}) (\d{2})/);
-            if (matchFull) {
-                const [, day, hour, minute, monthStr, year] = matchFull;
-                const month = monthMap[monthStr];
-                if (month === undefined) return null;
-                const fullYear = 2000 + parseInt(year);
-                return new Date(Date.UTC(fullYear, month, parseInt(day), parseInt(hour), parseInt(minute)));
-            }
+        const activeFeatureGroup = L.featureGroup().addTo(map);
 
-            // Date-only: "THIS MSG 01 JUL 26" (no time component)
-            const matchDateOnly = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3}) (\d{2})/);
-            if (matchDateOnly) {
-                const [, day, monthStr, year] = matchDateOnly;
-                const month = monthMap[monthStr];
-                if (month === undefined) return null;
-                const fullYear = 2000 + parseInt(year);
-                return new Date(Date.UTC(fullYear, month, parseInt(day)));
-            }
-
-            return null;
-        }
-
-        // Check if a navwarn is valid at a given date
-        function isNavwarnValidAt(feature, checkDate) {
-            const properties = feature.properties || {};
-            const cancellations = properties.cancellations || [];
-
-            // Check if navwarn has started (using DTG as start date)
-            const dtg = properties.dtg;
-            if (dtg) {
-                // Parse DTG - handle ISO format with or without timezone info
-                // Check if string already has timezone: Z suffix, or +/- after T (not in date part)
-                let hasTimezone = dtg.endsWith('Z');
-                if (!hasTimezone && dtg.includes('T')) {
-                    const timePart = dtg.split('T')[1];
-                    hasTimezone = timePart.includes('+') || timePart.includes('-');
-                }
-                const dtgWithTz = hasTimezone ? dtg : dtg + 'Z';
-                const startDate = new Date(dtgWithTz);
-                if (!isNaN(startDate.getTime()) && checkDate < startDate) {
-                    return false; // This navwarn hasn't started yet
-                }
-            } else {
-                // For navwarns without DTG (like Russian NAVAREA XX), use year as heuristic
-                // Assume they start at the beginning of their year (in UTC)
-                const year = properties.year;
-                if (year) {
-                    const yearStart = new Date(Date.UTC(year, 0, 1)); // January 1st of the year in UTC
-                    if (checkDate < yearStart) {
-                        return false; // Before this navwarn's year
-                    }
-                }
-            }
-
-            // Check for self-cancellation with date (end date)
-            for (const cancel of cancellations) {
-                if (cancel && (cancel.includes('THIS MSG') || cancel.includes('THIS MESSAGE'))) {
-                    const cancelDate = parseCancellationDate(cancel);
-                    if (cancelDate && checkDate > cancelDate) {
-                        return false; // This navwarn is cancelled
-                    }
-                }
-            }
-            return true; // Valid at this date
-        }
-
-        // Filter features based on current date
-        function filterFeaturesByDate(features, date) {
-            return features.filter(f => isNavwarnValidAt(f, date));
-        }
-
-        // Track feature-to-layer associations for overlap detection
-        let featureLayerMap = [];
-
-        // Colors and formatting
+        // ============ Colors ============
         const categoryColors = {
             military: '#d73027',
             accident: '#4575b4',
@@ -457,10 +423,87 @@
         };
         function getCategoryColor(c) { return categoryColors[c] || categoryColors.default; }
 
+        // ============ Cancellation Date Fallback (for data without valid_from/valid_until) ============
+        function parseCancellationDate(cancelStr) {
+            if (!cancelStr) return null;
+            const monthMap = {
+                'JAN': 0, 'FEB': 1, 'MAR': 2, 'APR': 3, 'MAY': 4, 'JUN': 5,
+                'JUL': 6, 'AUG': 7, 'SEP': 8, 'OCT': 9, 'NOV': 10, 'DEC': 11
+            };
+            const matchFull = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC) ([A-Z]{3}) (\d{2})/);
+            if (matchFull) {
+                const [, day, hour, minute, monthStr, year] = matchFull;
+                const month = monthMap[monthStr];
+                if (month === undefined) return null;
+                return new Date(Date.UTC(2000 + parseInt(year), month, parseInt(day), parseInt(hour), parseInt(minute)));
+            }
+            const matchDateOnly = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3}) (\d{2})/);
+            if (matchDateOnly) {
+                const [, day, monthStr, year] = matchDateOnly;
+                const month = monthMap[monthStr];
+                if (month === undefined) return null;
+                return new Date(Date.UTC(2000 + parseInt(year), month, parseInt(day)));
+            }
+            return null;
+        }
+
+        // ============ Feature Filtering ============
+        function isFeatureValidAt(feature, checkDate) {
+            const p = feature.properties || {};
+
+            // Determine start date: prefer pre-computed valid_from, fall back to dtg/year
+            let startDate = null;
+            if (p.valid_from) {
+                startDate = new Date(p.valid_from);
+            } else if (p.dtg) {
+                const dtg = p.dtg;
+                let hasTimezone = dtg.endsWith('Z');
+                if (!hasTimezone && dtg.includes('T')) {
+                    const timePart = dtg.split('T')[1];
+                    hasTimezone = timePart.includes('+') || timePart.includes('-');
+                }
+                startDate = new Date(hasTimezone ? dtg : dtg + 'Z');
+            } else if (p.year) {
+                startDate = new Date(Date.UTC(p.year, 0, 1));
+            }
+            if (startDate && !isNaN(startDate.getTime()) && checkDate < startDate) return false;
+
+            // Determine end date: prefer pre-computed valid_until, fall back to cancellation parsing
+            let endDate = null;
+            if (p.valid_until) {
+                endDate = new Date(p.valid_until);
+            } else {
+                const cancellations = p.cancellations || [];
+                for (const cancel of cancellations) {
+                    if (cancel && (cancel.includes('THIS MSG') || cancel.includes('THIS MESSAGE'))) {
+                        endDate = parseCancellationDate(cancel);
+                        if (endDate) break;
+                    }
+                }
+            }
+            if (endDate && !isNaN(endDate.getTime()) && checkDate > endDate) return false;
+
+            return true;
+        }
+
+        // ============ Gather All Loaded Features ============
+        function getAllLoadedFeatures() {
+            let features = [];
+            for (const year of Object.keys(yearData)) {
+                features = features.concat(yearData[year]);
+            }
+            // Include current data only if the current year's archive isn't loaded
+            if (currentData && !yearData[currentYear]) {
+                features = features.concat(currentData.features || []);
+            }
+            return features;
+        }
+
+        // ============ Popups & Overlap Detection ============
         function formatDate(dtg) {
             if (!dtg) return '';
             try {
-                const d = new Date(dtg + (dtg.endsWith('Z') ? '' : 'Z'));
+                const d = new Date(dtg + (dtg.endsWith('Z') || dtg.includes('+') ? '' : 'Z'));
                 if (isNaN(d)) return dtg;
                 return d.toISOString().replace('T', ' ').replace(/\.\d{3}Z$/, 'Z');
             } catch { return dtg; }
@@ -488,7 +531,6 @@
         </div>`;
         }
 
-        // Build feature picker popup for overlapping features
         function buildPickerPopup(features, latlng) {
             const items = features.map((f, i) => {
                 const p = f.properties || {};
@@ -516,7 +558,6 @@
                 .setContent(html)
                 .openOn(map);
 
-            // Attach click handlers after popup is open
             setTimeout(() => {
                 const listItems = document.querySelectorAll('.feature-picker-list li');
                 listItems.forEach(li => {
@@ -532,13 +573,10 @@
             }, 50);
         }
 
-        // Find all features near a click point
-        function findFeaturesAtPoint(latlng, targetFeatureGroup) {
+        function findFeaturesAtPoint(latlng) {
             const hits = [];
             const clickPoint = map.latLngToLayerPoint(latlng);
-
-            targetFeatureGroup.eachLayer(geoLayer => {
-                // L.geoJSON layers contain sub-layers; iterate them
+            activeFeatureGroup.eachLayer(geoLayer => {
                 if (geoLayer.eachLayer) {
                     geoLayer.eachLayer(subLayer => {
                         if (subLayer.feature && isLayerHit(subLayer, clickPoint)) {
@@ -549,22 +587,18 @@
                     hits.push(geoLayer.feature);
                 }
             });
-
             return hits;
         }
 
-        // Check if a layer is "hit" by a pixel point
         function isLayerHit(layer, clickPoint) {
             if (layer instanceof L.CircleMarker) {
                 const layerPoint = map.latLngToLayerPoint(layer.getLatLng());
-                const dist = clickPoint.distanceTo(layerPoint);
-                return dist <= (layer.getRadius() + 4);
+                return clickPoint.distanceTo(layerPoint) <= (layer.getRadius() + 4);
             }
             if (layer.getBounds) {
                 try {
                     const bounds = layer.getBounds();
-                    const latlng = map.layerPointToLatLng(clickPoint);
-                    return bounds.isValid() && bounds.contains(latlng);
+                    return bounds.isValid() && bounds.contains(map.layerPointToLatLng(clickPoint));
                 } catch (e) {
                     return false;
                 }
@@ -572,23 +606,13 @@
             return false;
         }
 
-        // Render features on the map
-        function renderFeatures(features, featureGroup) {
-            featureGroup.clearLayers();
-            // Reset feature-layer tracking if this is the main group
-            if (featureGroup === mainFeatureGroup) {
-                featureLayerMap = [];
-            }
+        // ============ Rendering ============
+        function renderFeatures(features) {
+            activeFeatureGroup.clearLayers();
 
-            const filteredData = {
-                type: 'FeatureCollection',
-                features: features
-            };
-
-            const layer = L.geoJSON(filteredData, {
+            L.geoJSON({ type: 'FeatureCollection', features }, {
                 pointToLayer: (feature, latlng) => {
-                    const category = feature.properties?.category;
-                    const color = getCategoryColor(category);
+                    const color = getCategoryColor(feature.properties?.category);
                     return L.circleMarker(latlng, {
                         radius: 6,
                         fillColor: color,
@@ -599,17 +623,14 @@
                     });
                 },
                 onEachFeature: (feature, layer) => {
-                    // Instead of binding popup directly, handle click for overlap detection
                     layer.on('click', function (e) {
                         L.DomEvent.stopPropagation(e);
-                        const clickLatlng = e.latlng;
-                        const overlapping = findFeaturesAtPoint(clickLatlng, featureGroup);
-
+                        const overlapping = findFeaturesAtPoint(e.latlng);
                         if (overlapping.length > 1) {
-                            buildPickerPopup(overlapping, clickLatlng);
+                            buildPickerPopup(overlapping, e.latlng);
                         } else {
                             L.popup({ maxWidth: 300 })
-                                .setLatLng(clickLatlng)
+                                .setLatLng(e.latlng)
                                 .setContent(buildPopup(feature))
                                 .openOn(map);
                         }
@@ -620,79 +641,170 @@
                             .map(c => L.latLng(c[1], c[0]))
                             .filter(ll => Number.isFinite(ll.lat) && Number.isFinite(ll.lng));
                         if (latlngs.length >= 2) {
-                            const category = feature.properties?.category;
-                            const color = getCategoryColor(category);
                             L.polyline(latlngs, {
-                                color,
+                                color: getCategoryColor(feature.properties?.category),
                                 weight: 2,
                                 opacity: 0.6,
                                 dashArray: '4,4'
-                            }).addTo(featureGroup);
+                            }).addTo(activeFeatureGroup);
                         }
                     }
                 }
-            }).addTo(featureGroup);
+            }).addTo(activeFeatureGroup);
         }
 
-        // Update map based on current filter date
+        // ============ Map Update (with debounce) ============
+        let renderTimer = null;
         function updateMapDisplay() {
-            if (!allNavwarnsData || !mainFeatureGroup) return;
-
-            const filteredFeatures = filterFeaturesByDate(allNavwarnsData.features, currentFilterDate);
-            renderFeatures(filteredFeatures, mainFeatureGroup);
-
-            // Update count in legend if it exists
-            updateLegendCount(filteredFeatures.length, allNavwarnsData.features.length);
+            clearTimeout(renderTimer);
+            renderTimer = setTimeout(() => {
+                const allFeatures = getAllLoadedFeatures();
+                const filtered = allFeatures.filter(f => isFeatureValidAt(f, viewDate));
+                renderFeatures(filtered);
+                updateLegendCount(filtered.length, allFeatures.length);
+            }, 30);
         }
 
-        // Load GeoJSON in WGS84; DO NOT override coordsToLatLng. Leaflet will project to CRS.
-        function loadGeoJsonLayer(url, { fit = false, addLegendFlag = false } = {}) {
-            return fetch(url)
-                .then(r => {
-                    if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
-                    return r.json();
-                })
-                .then(data => {
-                    allNavwarnsData = data;
-                    mainFeatureGroup = L.featureGroup().addTo(map);
+        // ============ Year Loading ============
+        async function ensureYearLoaded(year) {
+            year = parseInt(year);
+            if (yearData[year] || loadingYears.has(year)) return;
+            if (!manifest.years.find(y => y.year === year)) return;
 
-                    // Filter and render based on current date
-                    const filteredFeatures = filterFeaturesByDate(data.features, currentFilterDate);
-                    renderFeatures(filteredFeatures, mainFeatureGroup);
+            loadingYears.add(year);
+            loadingIndicator.style.display = 'inline';
+            updateYearBar();
 
-                    if (fit) {
-                        const b = mainFeatureGroup.getBounds();
-                        if (b.isValid()) map.fitBounds(b, { maxZoom: 4, padding: [20, 20] });
-                    }
-                    if (addLegendFlag) addLegend(data.features || []);
-                    return { data, featureGroup: mainFeatureGroup };
-                })
-                .catch(err => {
-                    console.error(`Failed to load ${url}:`, err);
-                });
+            try {
+                const resp = await fetch(`archive${year}.geojson`);
+                if (resp.ok) {
+                    const data = await resp.json();
+                    yearData[year] = data.features || [];
+                }
+            } catch (e) {
+                console.error(`Failed to load archive for ${year}:`, e);
+            } finally {
+                loadingYears.delete(year);
+                if (loadingYears.size === 0) loadingIndicator.style.display = 'none';
+                updateYearBar();
+                updateMapDisplay();
+            }
         }
 
-        // Initial load
-        loadGeoJsonLayer('navwarns.geojson', { fit: true, addLegendFlag: true });
+        // ============ Year Bar ============
+        function buildYearBar() {
+            const bar = document.getElementById('year-bar');
+            const manifestYears = new Set(manifest.years.map(y => y.year));
+            const minYear = manifest.years.length ? manifest.years[0].year : 2010;
+            const maxYear = Math.max(currentYear, manifest.years.length ? manifest.years[manifest.years.length - 1].year : currentYear);
+            bar.innerHTML = '';
 
-        // Legend
-        function addLegend(features) {
-            // Always show the main categories in order
-            const mainCategories = ['military', 'accident', 'navigation', 'cable', 'other'];
+            for (let y = minYear; y <= maxYear; y++) {
+                const seg = document.createElement('span');
+                seg.className = 'year-seg' + (manifestYears.has(y) ? '' : ' unavailable');
+                seg.textContent = String(y).slice(2); // show "10", "11", ..., "25"
+                seg.dataset.year = y;
+                if (manifestYears.has(y)) {
+                    seg.addEventListener('click', () => jumpToYear(y));
+                }
+                bar.appendChild(seg);
+            }
+            updateYearBar();
+        }
 
-            // Collect any additional categories from the data
-            const additionalCategories = new Set();
-            features.forEach(f => {
-                const cat = f.properties?.category;
-                if (cat && !mainCategories.includes(cat)) {
-                    additionalCategories.add(cat);
+        function updateYearBar() {
+            const viewingYear = viewDate.getUTCFullYear();
+            document.querySelectorAll('.year-seg').forEach(seg => {
+                const y = parseInt(seg.dataset.year);
+                seg.classList.remove('loaded', 'viewing', 'loading');
+                if (y === viewingYear) {
+                    seg.classList.add('viewing');
+                } else if (yearData[y]) {
+                    seg.classList.add('loaded');
+                } else if (loadingYears.has(y)) {
+                    seg.classList.add('loading');
                 }
             });
+        }
 
-            // Combine main categories with any additional ones
-            const categoryList = [...mainCategories, ...Array.from(additionalCategories).sort()];
+        // ============ Slider / Navigation ============
+        function sliderToDate(value) {
+            return new Date(TIMELINE_START.getTime() + value * DAY_MS);
+        }
 
-            // Fetch all scrape timestamps in parallel
+        function dateToSlider(date) {
+            return Math.round((date - TIMELINE_START) / DAY_MS);
+        }
+
+        function formatDisplayDate(date) {
+            return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        }
+
+        function setViewDate(date) {
+            viewDate = date;
+            dateSlider.value = Math.max(0, Math.min(totalDays, dateToSlider(date)));
+
+            if (dateToSlider(date) >= totalDays - 1) {
+                dateDisplay.textContent = 'Today';
+            } else {
+                dateDisplay.textContent = formatDisplayDate(date);
+            }
+
+            const targetYear = date.getUTCFullYear();
+            ensureYearLoaded(targetYear);
+            updateYearBar();
+            updateMapDisplay();
+        }
+
+        dateSlider.addEventListener('input', (e) => {
+            const date = sliderToDate(parseInt(e.target.value));
+            viewDate = date;
+
+            if (parseInt(e.target.value) >= totalDays - 1) {
+                dateDisplay.textContent = 'Today';
+            } else {
+                dateDisplay.textContent = formatDisplayDate(date);
+            }
+
+            const targetYear = date.getUTCFullYear();
+            ensureYearLoaded(targetYear);
+            updateYearBar();
+            updateMapDisplay();
+        });
+
+        function jumpToYear(year) {
+            setViewDate(new Date(Date.UTC(year, 0, 1)));
+        }
+
+        function jumpDaysAgo(days) {
+            const target = new Date();
+            target.setDate(target.getDate() + days);
+            setViewDate(target);
+        }
+
+        // Quick-control buttons
+        document.getElementById('quick-controls').addEventListener('click', (e) => {
+            const btn = e.target.closest('.quick-btn');
+            if (!btn) return;
+            const days = parseInt(btn.dataset.days);
+            document.querySelectorAll('.quick-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            jumpDaysAgo(days);
+        });
+
+        // ============ Legend ============
+        function updateLegendCount(showing, total) {
+            const countEl = document.getElementById('navwarn-count');
+            if (countEl) {
+                countEl.innerHTML = showing === total
+                    ? `Showing all <strong>${total}</strong> NavWarns`
+                    : `Showing <strong>${showing}</strong> of ${total} loaded`;
+            }
+        }
+
+        function addLegend() {
+            const mainCategories = ['military', 'accident', 'navigation', 'cable', 'other'];
+
             const tsFiles = [
                 { file: 'scrape_timestamp_HYDROARC.txt', label: 'HYDRO/ARC' },
                 { file: 'scrape_timestamp_NAVAREAXX.txt', label: 'NAVAREA XX' },
@@ -702,8 +814,7 @@
             function timeAgo(isoStr) {
                 const d = new Date(isoStr);
                 if (isNaN(d)) return isoStr;
-                const now = new Date();
-                const diffMs = now - d;
+                const diffMs = Date.now() - d;
                 const mins = Math.floor(diffMs / 60000);
                 if (mins < 1) return 'just now';
                 if (mins < 60) return `${mins}m ago`;
@@ -711,8 +822,7 @@
                 if (hours < 24) return `${hours}h ago`;
                 const days = Math.floor(hours / 24);
                 if (days < 30) return `${days}d ago`;
-                const months = Math.floor(days / 30);
-                return `${months}mo ago`;
+                return `${Math.floor(days / 30)}mo ago`;
             }
 
             Promise.all(tsFiles.map(t =>
@@ -723,7 +833,6 @@
                 legend.onAdd = function () {
                     const div = L.DomUtil.create('div', 'legend');
 
-                    // Build timestamp rows for sources that have data
                     const tsRows = timestamps
                         .filter(t => t.ts)
                         .map(t => {
@@ -739,156 +848,42 @@
                     div.innerHTML =
                         '<h4>NavWarns for the Arctic</h4>' + tsSection +
                         '<div id="navwarn-count" style="font-size:11px;margin:4px 0;color:#666;"></div>' +
-                        categoryList.map(c => {
+                        mainCategories.map(c => {
                             const col = getCategoryColor(c);
                             return `<div class="item"><span class="swatch" style="background:${col}"></span><span>${c}</span></div>`;
                         }).join('') +
-                        '<hr style="margin:6px 0;" />' +
-                        '<div style="font-size:10px; line-height:1.2;">' +
-                        'Load layer for year: <input list="years" id="yearInput" placeholder="YYYY" style="width:6em;" /></div>' +
-                        '<div style="margin-top:6px;font-size:10px;"><a href="navwarns.geojson" download target="_blank">Download GeoJSON</a></div>';
+                        '<div style="margin-top:6px;font-size:10px;"><a href="navwarns.geojson" download target="_blank">Download current GeoJSON</a></div>';
                     return div;
                 };
                 legend.addTo(map);
-
-                // Initialize count display
-                if (allNavwarnsData) {
-                    const filtered = filterFeaturesByDate(allNavwarnsData.features, currentFilterDate);
-                    updateLegendCount(filtered.length, allNavwarnsData.features.length);
-                }
-
-                setTimeout(() => {
-                    const yearInput = document.getElementById('yearInput');
-                    if (!yearInput) return;
-                    const load = () => {
-                        const y = (yearInput.value || '').trim();
-                        if (!/^20\d{2}$/.test(y)) return;
-                        loadArchiveYear(y);
-                    };
-                    yearInput.addEventListener('change', load);
-                    yearInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') load(); });
-                }, 0);
             });
         }
 
-        // Archive loader
-        let archiveLayerGroup = null;
-        function loadArchiveYear(year) {
-            const url = `archive${year}.geojson`;
-            if (archiveLayerGroup) {
-                map.removeLayer(archiveLayerGroup);
-                archiveLayerGroup = null;
-            }
-            // Note: Archive loading doesn't use the date filter
-            fetch(url)
-                .then(r => r.ok ? r.json() : null)
-                .then(data => {
-                    if (!data) return;
-                    archiveLayerGroup = L.featureGroup().addTo(map);
-                    renderFeatures(data.features || [], archiveLayerGroup);
-                    const b = archiveLayerGroup.getBounds();
-                    if (b.isValid()) map.fitBounds(b, { maxZoom: 4, padding: [20, 20] });
-                })
-                .catch(err => console.error('Failed to load archive:', err));
-        }
+        // ============ Init ============
+        async function init() {
+            const [manifestData, currentResp] = await Promise.all([
+                fetch('manifest.json').then(r => r.ok ? r.json() : { years: [] }).catch(() => ({ years: [] })),
+                fetch('navwarns.geojson').then(r => r.ok ? r.json() : null).catch(() => null)
+            ]);
 
-        // Update legend count display
-        function updateLegendCount(showing, total) {
-            const countEl = document.getElementById('navwarn-count');
-            if (countEl) {
-                if (showing === total) {
-                    countEl.innerHTML = `Showing all <strong>${total}</strong> NavWarns`;
-                } else {
-                    countEl.innerHTML = `Showing <strong>${showing}</strong> of ${total} NavWarns`;
-                }
-            }
-        }
+            Object.assign(manifest, manifestData);
+            currentData = currentResp;
 
-        // Timeline controls
-        const dateSlider = document.getElementById('date-slider');
-        const dateDisplay = document.getElementById('date-display');
+            buildYearBar();
+            addLegend();
 
-        // Calculate date range (6 months back from today)
-        const today = new Date();
-        const sixMonthsAgo = new Date(today);
-        sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
-
-        // Helper to format date
-        function formatDisplayDate(date) {
-            const options = { year: 'numeric', month: 'short', day: 'numeric' };
-            return date.toLocaleDateString('en-US', options);
-        }
-
-        // Update date from slider
-        dateSlider.addEventListener('input', (e) => {
-            const sliderValue = parseInt(e.target.value);
-
-            // Map slider (0-100) to date range
-            const totalMs = today - sixMonthsAgo;
-            const dateMs = sixMonthsAgo.getTime() + (totalMs * sliderValue / 100);
-            currentFilterDate = new Date(dateMs);
-
-            // Update display
-            if (sliderValue === 100) {
-                dateDisplay.textContent = 'Today (Current)';
-            } else {
-                dateDisplay.textContent = formatDisplayDate(currentFilterDate);
-            }
-
-            // Update map
+            // Initial render: show current data at today
             updateMapDisplay();
-        });
 
-        // Quick date buttons
-        function setQuickDate(daysOffset, clickedBtn) {
-            const targetDate = new Date();
-            targetDate.setDate(targetDate.getDate() + daysOffset);
-            currentFilterDate = targetDate;
-
-            // Update slider position
-            const totalMs = today - sixMonthsAgo;
-            const offsetMs = targetDate - sixMonthsAgo;
-            const sliderPos = Math.max(0, Math.min(100, (offsetMs / totalMs) * 100));
-            dateSlider.value = sliderPos;
-
-            // Update display
-            if (daysOffset === 0) {
-                dateDisplay.textContent = 'Today (Current)';
-                // Highlight the "Show Current Only" button
-                document.querySelectorAll('.quick-date-btn, .timeline-button').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                if (clickedBtn) clickedBtn.classList.add('active');
-            } else {
-                dateDisplay.textContent = formatDisplayDate(currentFilterDate);
+            // Fit bounds to current data
+            if (currentData && currentData.features && currentData.features.length > 0) {
+                const b = activeFeatureGroup.getBounds();
+                if (b.isValid()) map.fitBounds(b, { maxZoom: 4, padding: [20, 20] });
             }
-
-            // Update map
-            updateMapDisplay();
         }
 
-        // Make setQuickDate available globally
-        window.setQuickDate = setQuickDate;
+        init();
     </script>
-
-    <datalist id="years">
-        <option value="2010">
-        <option value="2011">
-        <option value="2012">
-        <option value="2013">
-        <option value="2014">
-        <option value="2015">
-        <option value="2016">
-        <option value="2017">
-        <option value="2018">
-        <option value="2019">
-        <option value="2020">
-        <option value="2021">
-        <option value="2022">
-        <option value="2023">
-        <option value="2024">
-        <option value="2025">
-    </datalist>
 </body>
 
 </html>

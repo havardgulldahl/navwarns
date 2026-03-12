@@ -171,11 +171,17 @@ jobs:
             echo "✅ Found $(echo "$files" | wc -l) JSON files."
           fi
 
+      - name: Rebuild current-year archive
+        run: |
+          year=$(date -u +%Y)
+          python scripts/build_archives.py "$year"
+
       - name: Commit merged collection
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp current/navwarns.geojson docs/navwarns.geojson || echo "Copy failed"
           git add docs/navwarns.geojson current/navwarns.geojson
+          git add docs/archive*.geojson docs/manifest.json
           git commit -m "Update merged NavWarn FeatureCollection" || echo "No changes"
           git push

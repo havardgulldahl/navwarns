@@ -25,7 +25,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add current/* history/2025/*
+          git add current/* history/$(date -u +%Y)/*
           cp current/.scrape_timestamp_HYDROARC docs/scrape_timestamp_HYDROARC.txt
           cp current/.scrape_timestamp_NAVAREAXX docs/scrape_timestamp_NAVAREAXX.txt
           cp current/.scrape_timestamp_PRIP docs/scrape_timestamp_PRIP.txt
