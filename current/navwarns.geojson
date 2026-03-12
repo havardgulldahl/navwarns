@@ -446,45 +446,6 @@
     },
     {
       "type": "Feature",
-      "id": "PRIP WEST 53/24",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            82.58913333333332,
-            71.89999166666668
-          ],
-          [
-            82.60794444444444,
-            71.92461944444445
-          ],
-          [
-            82.60982222222222,
-            71.91204444444445
-          ],
-          [
-            82.60064444444444,
-            71.88907222222223
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "ПРИП ЗАПАД 53/24 КАРТЫ 18383 15383 13348 \r\nКАРСКОЕ МОРЕ ЕНИСЕЙСКИЙ ЗАЛИВ",
-        "msg_id": "PRIP WEST 53/24",
-        "year": "2024",
-        "cancellations": [],
-        "hazard_type": "general",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "СТВОР КСЕНЬЕВСКИЙ ЮЖНЫЙ\nПРОМЕРОМ 2023 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\n1. НА ЛИНИИ СТВОРА 12.2 МЕТРА В 71-53-59.97С 082-35-20.88В\n2.\tВБЛИЗИ ЛИНИИ СТВОРА\nА. 9.7 МЕТРА В 71-55-28.63С 082-36-28.60В \nБ. 9.9. МЕТРА В 71-54-59.13С 082 33-11.63В \nВ. 8.2 МЕТРА В 71-54-43.36С 082-36-35.36В \nГ. 9.4 МЕТРА В 71-53-20.66С 082-36-02.32В \nСИСТЕМА КООРДИНАТ WGS-84\n3.РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ ФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=",
-        "summary": null,
-        "category": "other",
-        "title": "New Depths Discovered"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "PRIP MURMANSK 37/26",
       "geometry": {
         "type": "Point",
@@ -506,6 +467,29 @@
         "summary": null,
         "category": "other",
         "title": "Navigation Beacon Activity"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 198/25(15)#grp1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.898,
+          71.351
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 198/25(15)",
+        "group_index": 1,
+        "dtg": "2025-10-31T23:09:00",
+        "raw_dtg": "312309Z OCT 25",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "HYDROARC 198/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\n1. DEPTHS REPORTED:\n   A. 6.4 METERS IN 71-21.06N 096-53.88W.\n   B. 21.7 METERS IN 71-20.64N 096-55.57W.\n2. CANCEL HYDROARC 162/25.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Depths Reported Franklin Strait"
       }
     },
     {
@@ -747,53 +731,6 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 178/25(15)",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.68783333333333,
-            71.38033333333334
-          ],
-          [
-            -96.67883333333333,
-            71.3675
-          ],
-          [
-            -96.76316666666666,
-            71.35883333333334
-          ],
-          [
-            -96.74416666666667,
-            71.35333333333334
-          ],
-          [
-            -96.75566666666667,
-            71.34316666666666
-          ],
-          [
-            -96.81716666666667,
-            71.30466666666666
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2025-10-01T11:16:00",
-        "raw_dtg": "011116Z OCT 25",
-        "msg_id": "HYDROARC 178/25(15)",
-        "year": 2025,
-        "cancellations": [],
-        "hazard_type": "general",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "HYDROARC 178/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 29.3 METERS IN 71-22.82N 096-41.27W.\nB. 26.6 METERS IN 71-22.05N 096-40.73W.\nC. 11.3 METERS IN 71-21.53N 096-45.79W.\nD. 11.3 METERS IN 71-21.20N 096-44.65W.\nE. 28.4 METERS IN 71-20.59N 096-45.34W.\nF. 28.35 METERS IN 71-18.28N 096-49.03W.",
-        "summary": null,
-        "category": "other",
-        "title": "New Depths Reported"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "PRIP None None/None",
       "geometry": {
         "type": "Point",
@@ -914,94 +851,6 @@
         "summary": null,
         "category": "other",
         "title": "Fish Cage Area"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 198/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.898,
-          71.351
-        ]
-      },
-      "properties": {
-        "dtg": "2025-10-31T23:09:00",
-        "raw_dtg": "312309Z OCT 25",
-        "msg_id": "HYDROARC 198/25(15)",
-        "year": 2025,
-        "cancellations": [
-          "HYDROARC 162/25"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "HYDROARC 198/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\n1. DEPTHS REPORTED:\n   A. 6.4 METERS IN 71-21.06N 096-53.88W.\n   B. 21.7 METERS IN 71-20.64N 096-55.57W.\n2. CANCEL HYDROARC 162/25.",
-        "summary": null,
-        "category": "other",
-        "title": "New Depths Reported"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 34/26(43)",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            11.9,
-            71.01666666666667
-          ],
-          [
-            14.316666666666666,
-            69.75
-          ],
-          [
-            16.35,
-            70.16666666666667
-          ],
-          [
-            16.883333333333333,
-            70.66666666666667
-          ],
-          [
-            16.083333333333332,
-            71.35
-          ],
-          [
-            15.783333333333333,
-            69.4
-          ],
-          [
-            15.933333333333334,
-            69.26666666666667
-          ],
-          [
-            16.1,
-            69.28333333333333
-          ],
-          [
-            16.083333333333332,
-            69.41666666666667
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-03-02T07:17:00",
-        "raw_dtg": "020717Z MAR 26",
-        "msg_id": "HYDROARC 34/26(43)",
-        "year": 2026,
-        "cancellations": [
-          "THIS MSG 160200Z MAR 26"
-        ],
-        "hazard_type": "hazardous operations",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "HYDROARC 34/26(43).\nNORWEGIAN SEA.\nNORWAY.\nDNC 21, DNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   1930Z TO 0100Z DAILY 06 THRU 15 MAR\n   IN AREAS BOUND BY:\n   A. 71-01.00N 011-54.00E, 69-45.00N 014-19.00E,\n      70-10.00N 016-21.00E, 70-40.00N 016-53.00E,\n      71-21.00N 016-05.00E.\n   B. 69-24.00N 015-47.00E, 69-16.00N 015-56.00E,\n      69-17.00N 016-06.00E, 69-25.00N 016-05.00E.\n2. CANCEL THIS MSG 160200Z MAR 26.",
-        "summary": null,
-        "category": "military",
-        "title": "Rocket Launch Hazard"
       }
     },
     {
@@ -1154,6 +1003,51 @@
         "summary": null,
         "category": "other",
         "title": "Least Depths Found"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 88/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.3,
+              70.95
+            ],
+            [
+              36.733333333333334,
+              70.95
+            ],
+            [
+              36.733333333333334,
+              70.65
+            ],
+            [
+              35.3,
+              70.65
+            ],
+            [
+              35.3,
+              70.95
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-12T01:31:27.768441",
+        "raw_dtg": "ПРИП МУРМАНСК 88/26 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 88/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "МУРМАНСК 01 11/03 1100=\n \nПЕРЕДАВАТЬ 8 СУТОК\nПРИП МУРМАНСК 88 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 16 ПО 19 МАРТ\n0700 ДО 1700 РАЙОНЕ ОПАСНОМ ДЛЯ ПЛАВАНИЯ\n70-57.0С 035-18.0В\n70-57.0С 036-44.0В\n70-39.0С 036-44.0В\n70-39.0С 035-18.0В\n2. ОТМ ЭТОТ НР 191800 МАРТ=\n110900 МСК  ГС-",
+        "summary": null,
+        "category": "military",
+        "title": "Barents Sea Artillery"
       }
     },
     {
@@ -1440,6 +1334,29 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 283/24(16)#grp2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.16133333333335,
+          71.735
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 283/24(16)",
+        "group_index": 2,
+        "dtg": "2024-12-17T08:58:00",
+        "raw_dtg": "170858Z DEC 24",
+        "year": 2024,
+        "hazard_type": "scientific mooring",
+        "body": "HYDROARC 283/24(16).\nBEAUFORT SEA.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\nSCIENTIFIC MOORINGS ESTABLISHED:\nA. BCE-24, IN 71-40.40N 154-59.90W,\n   AT DEPTH 108 METERS, TOP FLOAT 20 METERS.\nB. BCC-24, IN 71-44.10N 155-09.68W,\n   AT DEPTH 291 METERS, TOP FLOAT 21 METERS.\nC. BCW-24, IN 71-47.80N 155-20.83W,\n   AT DEPTH 165 METERS, TOP FLOAT 40 METERS.\nD. NAP-24T, IN 74-31.37N 161-56.19W,\n   AT DEPTH 1680 METERS, TOP FLOAT 28 METERS.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Scientific Moorings Deployed"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 108/25",
       "geometry": {
         "type": "Polygon",
@@ -1587,6 +1504,29 @@
         "summary": null,
         "category": "other",
         "title": "Bottom Stations Deployed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 178/25(15)#grp4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.74416666666667,
+          71.35333333333334
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 178/25(15)",
+        "group_index": 4,
+        "dtg": "2025-10-01T11:16:00",
+        "raw_dtg": "011116Z OCT 25",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "HYDROARC 178/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 29.3 METERS IN 71-22.82N 096-41.27W.\nB. 26.6 METERS IN 71-22.05N 096-40.73W.\nC. 11.3 METERS IN 71-21.53N 096-45.79W.\nD. 11.3 METERS IN 71-21.20N 096-44.65W.\nE. 28.4 METERS IN 71-20.59N 096-45.34W.\nF. 28.35 METERS IN 71-18.28N 096-49.03W.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Reported Depths Canada"
       }
     },
     {
@@ -1919,45 +1859,6 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 283/24(16)",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -154.99833333333333,
-            71.67333333333333
-          ],
-          [
-            -155.16133333333335,
-            71.735
-          ],
-          [
-            -155.34716666666668,
-            71.79666666666667
-          ],
-          [
-            -161.9365,
-            74.52283333333334
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2024-12-17T08:58:00",
-        "raw_dtg": "170858Z DEC 24",
-        "msg_id": "HYDROARC 283/24(16)",
-        "year": 2024,
-        "cancellations": [],
-        "hazard_type": "scientific mooring",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "HYDROARC 283/24(16).\nBEAUFORT SEA.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\nSCIENTIFIC MOORINGS ESTABLISHED:\nA. BCE-24, IN 71-40.40N 154-59.90W,\n   AT DEPTH 108 METERS, TOP FLOAT 20 METERS.\nB. BCC-24, IN 71-44.10N 155-09.68W,\n   AT DEPTH 291 METERS, TOP FLOAT 21 METERS.\nC. BCW-24, IN 71-47.80N 155-20.83W,\n   AT DEPTH 165 METERS, TOP FLOAT 40 METERS.\nD. NAP-24T, IN 74-31.37N 161-56.19W,\n   AT DEPTH 1680 METERS, TOP FLOAT 28 METERS.",
-        "summary": null,
-        "category": "other",
-        "title": "Scientific Moorings Set"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "HYDROARC 145/25(15)",
       "geometry": {
         "type": "Point",
@@ -2082,6 +1983,52 @@
         "summary": null,
         "category": "other",
         "title": "Least Depths Reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 4/26(15)#grp1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.8505,
+          69.9335
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 4/26(15)",
+        "group_index": 1,
+        "dtg": "2026-01-14T23:50:00",
+        "raw_dtg": "142350Z JAN 26",
+        "year": 2026,
+        "hazard_type": "shoals",
+        "body": "HYDROARC 4/26(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 27.\nSHOALS REPORTED IN:\nA. 69-56.01N 123-51.03W.\nB. 69-54.01N 123-59.02W.\nC. 69-48.59N 124-07.42W.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Shoals in Amundsen Gulf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 178/25(15)#grp3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.76316666666666,
+          71.35883333333334
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 178/25(15)",
+        "group_index": 3,
+        "dtg": "2025-10-01T11:16:00",
+        "raw_dtg": "011116Z OCT 25",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "HYDROARC 178/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 29.3 METERS IN 71-22.82N 096-41.27W.\nB. 26.6 METERS IN 71-22.05N 096-40.73W.\nC. 11.3 METERS IN 71-21.53N 096-45.79W.\nD. 11.3 METERS IN 71-21.20N 096-44.65W.\nE. 28.4 METERS IN 71-20.59N 096-45.34W.\nF. 28.35 METERS IN 71-18.28N 096-49.03W.",
+        "summary": null,
+        "category": "navigation",
+        "title": "New Depths Reported"
       }
     },
     {
@@ -2219,6 +2166,52 @@
         "summary": null,
         "category": "navigation",
         "title": "Drifting Mooring Buoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 197/25(15)#grp1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.96283333333334,
+          71.37466666666667
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 197/25(15)",
+        "group_index": 1,
+        "dtg": "2025-10-31T23:02:00",
+        "raw_dtg": "312302Z OCT 25",
+        "year": 2025,
+        "hazard_type": "shoals",
+        "body": "HYDROARC 197/25(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 28.\n1. SHOALS REPORTED IN:\n   A. 71-22.48N 116-57.77W.\n   B. 71-22.61N 117-01.34W.\n2. CANCEL HYDROARC 119/25.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Shoals in Amundsen Gulf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 283/24(16)#grp4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.9365,
+          74.52283333333334
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 283/24(16)",
+        "group_index": 4,
+        "dtg": "2024-12-17T08:58:00",
+        "raw_dtg": "170858Z DEC 24",
+        "year": 2024,
+        "hazard_type": "scientific mooring",
+        "body": "HYDROARC 283/24(16).\nBEAUFORT SEA.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\nSCIENTIFIC MOORINGS ESTABLISHED:\nA. BCE-24, IN 71-40.40N 154-59.90W,\n   AT DEPTH 108 METERS, TOP FLOAT 20 METERS.\nB. BCC-24, IN 71-44.10N 155-09.68W,\n   AT DEPTH 291 METERS, TOP FLOAT 21 METERS.\nC. BCW-24, IN 71-47.80N 155-20.83W,\n   AT DEPTH 165 METERS, TOP FLOAT 40 METERS.\nD. NAP-24T, IN 74-31.37N 161-56.19W,\n   AT DEPTH 1680 METERS, TOP FLOAT 28 METERS.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Scientific Moorings Established"
       }
     },
     {
@@ -2663,41 +2656,6 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 4/26(15)",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -123.8505,
-            69.9335
-          ],
-          [
-            -123.98366666666666,
-            69.90016666666666
-          ],
-          [
-            -124.12366666666667,
-            69.80983333333333
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-01-14T23:50:00",
-        "raw_dtg": "142350Z JAN 26",
-        "msg_id": "HYDROARC 4/26(15)",
-        "year": 2026,
-        "cancellations": [],
-        "hazard_type": "shoals",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "HYDROARC 4/26(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 27.\nSHOALS REPORTED IN:\nA. 69-56.01N 123-51.03W.\nB. 69-54.01N 123-59.02W.\nC. 69-48.59N 124-07.42W.",
-        "summary": null,
-        "category": "other",
-        "title": "Reported Shoals Amundsen"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "PRIP WEST 247/25",
       "geometry": {
         "type": "LineString",
@@ -2920,6 +2878,29 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 178/25(15)#grp6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.81716666666667,
+          71.30466666666666
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 178/25(15)",
+        "group_index": 6,
+        "dtg": "2025-10-01T11:16:00",
+        "raw_dtg": "011116Z OCT 25",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "HYDROARC 178/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 29.3 METERS IN 71-22.82N 096-41.27W.\nB. 26.6 METERS IN 71-22.05N 096-40.73W.\nC. 11.3 METERS IN 71-21.53N 096-45.79W.\nD. 11.3 METERS IN 71-21.20N 096-44.65W.\nE. 28.4 METERS IN 71-20.59N 096-45.34W.\nF. 28.35 METERS IN 71-18.28N 096-49.03W.",
+        "summary": null,
+        "category": "navigation",
+        "title": "New Depths Reported"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 71/26",
       "geometry": {
         "type": "Polygon",
@@ -3069,103 +3050,6 @@
     },
     {
       "type": "Feature",
-      "id": "PRIP MURMANSK 115/21",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            31.44527777777778,
-            69.68166666666667
-          ],
-          [
-            31.451944444444443,
-            69.68166666666667
-          ],
-          [
-            31.428333333333335,
-            69.64916666666667
-          ],
-          [
-            31.411388888888887,
-            69.64916666666667
-          ],
-          [
-            31.44527777777778,
-            69.68166666666667
-          ],
-          [
-            31.459166666666665,
-            69.66388888888889
-          ],
-          [
-            31.467777777777776,
-            69.66388888888889
-          ],
-          [
-            31.40972222222222,
-            69.63805555555557
-          ],
-          [
-            31.416666666666668,
-            69.64
-          ],
-          [
-            31.430555555555557,
-            69.64
-          ],
-          [
-            31.3625,
-            69.64250000000001
-          ],
-          [
-            31.3725,
-            69.64250000000001
-          ],
-          [
-            31.3725,
-            69.64055555555557
-          ],
-          [
-            31.3625,
-            69.64055555555557
-          ],
-          [
-            31.39,
-            69.64666666666668
-          ],
-          [
-            31.41583333333333,
-            69.64666666666668
-          ],
-          [
-            31.41583333333333,
-            69.64444444444445
-          ],
-          [
-            31.39,
-            69.64361111111111
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "ПРИП МУРМАНСК 115/21 КАРТА 15000\r\nГУБА ПЕЧЕНГА",
-        "msg_id": "PRIP MURMANSK 115/21",
-        "year": "2021",
-        "cancellations": [
-          "20/20"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "ПРИП МУРМАНСК 115 КАРТА 15000\nГУБА ПЕЧЕНГА\n1. САДКОВЫЕ КОМПЛЕКСЫ ВЫСТАВЛЕНЫ РАЙОНАХ\nА. 69-40-54С 031-26-43В\n   69-40-54С 031-27-07В\n   69-38-57С 031-25-42В\n   69-38-57С 031-24-41В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n   69-40-54С 031-26-43В\nБ. 69-39-50С 031-27-33В\n   69-39-50С 031-28-04В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n   69-38-17С 031-24-35В\n   69-38-24С 031-25-00В\n   69-38-24С 031-25-50В\nВ. 69-38-33С 031-21-45В\n   69-38-33С 031-22-21В\n   69-38-26С 031-22-21В\n   69-38-26С 031-21-45В\nГ. 69-38-48С 031-23-24В\n   69-38-48С 031-24-57В\n   69-38-40С 031-24-57В\n   69-38-37С 031-23-24В\nОБОРУДОВАНЫ РЛП И ОГНЯМИ ЖЛ ПР\n2. ОТМ 20/20 И ЭТОТ ПУНКТ=\n131200 МСК  ГС-",
-        "summary": null,
-        "category": "other",
-        "title": "Fish Farms Locations"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "PRIP MURMANSK 204/20",
       "geometry": {
         "type": "Polygon",
@@ -3286,6 +3170,29 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 4/26(15)#grp2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.98366666666666,
+          69.90016666666666
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 4/26(15)",
+        "group_index": 2,
+        "dtg": "2026-01-14T23:50:00",
+        "raw_dtg": "142350Z JAN 26",
+        "year": 2026,
+        "hazard_type": "shoals",
+        "body": "HYDROARC 4/26(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 27.\nSHOALS REPORTED IN:\nA. 69-56.01N 123-51.03W.\nB. 69-54.01N 123-59.02W.\nC. 69-48.59N 124-07.42W.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Shoals Reported Amundsen Gulf"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 5/17",
       "geometry": {
         "type": "LineString",
@@ -3321,6 +3228,29 @@
         "summary": null,
         "category": "other",
         "title": "Shallow Water Depths"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 198/25(15)#grp2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.92616666666666,
+          71.344
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 198/25(15)",
+        "group_index": 2,
+        "dtg": "2025-10-31T23:09:00",
+        "raw_dtg": "312309Z OCT 25",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "HYDROARC 198/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\n1. DEPTHS REPORTED:\n   A. 6.4 METERS IN 71-21.06N 096-53.88W.\n   B. 21.7 METERS IN 71-20.64N 096-55.57W.\n2. CANCEL HYDROARC 162/25.",
+        "summary": null,
+        "category": "navigation",
+        "title": "New Depths Reported"
       }
     },
     {
@@ -3499,6 +3429,29 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 4/26(15)#grp3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.12366666666667,
+          69.80983333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 4/26(15)",
+        "group_index": 3,
+        "dtg": "2026-01-14T23:50:00",
+        "raw_dtg": "142350Z JAN 26",
+        "year": 2026,
+        "hazard_type": "shoals",
+        "body": "HYDROARC 4/26(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 27.\nSHOALS REPORTED IN:\nA. 69-56.01N 123-51.03W.\nB. 69-54.01N 123-59.02W.\nC. 69-48.59N 124-07.42W.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Shoals in Amundsen Gulf"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 53/25",
       "geometry": {
         "type": "LineString",
@@ -3534,6 +3487,29 @@
         "summary": null,
         "category": "other",
         "title": "Least Depths Found"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 283/24(16)#grp1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.99833333333333,
+          71.67333333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 283/24(16)",
+        "group_index": 1,
+        "dtg": "2024-12-17T08:58:00",
+        "raw_dtg": "170858Z DEC 24",
+        "year": 2024,
+        "hazard_type": "scientific mooring",
+        "body": "HYDROARC 283/24(16).\nBEAUFORT SEA.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\nSCIENTIFIC MOORINGS ESTABLISHED:\nA. BCE-24, IN 71-40.40N 154-59.90W,\n   AT DEPTH 108 METERS, TOP FLOAT 20 METERS.\nB. BCC-24, IN 71-44.10N 155-09.68W,\n   AT DEPTH 291 METERS, TOP FLOAT 21 METERS.\nC. BCW-24, IN 71-47.80N 155-20.83W,\n   AT DEPTH 165 METERS, TOP FLOAT 40 METERS.\nD. NAP-24T, IN 74-31.37N 161-56.19W,\n   AT DEPTH 1680 METERS, TOP FLOAT 28 METERS.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Scientific Moorings Deployed"
       }
     },
     {
@@ -4711,6 +4687,29 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 197/25(15)#grp2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.02233333333334,
+          71.37683333333334
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 197/25(15)",
+        "group_index": 2,
+        "dtg": "2025-10-31T23:02:00",
+        "raw_dtg": "312302Z OCT 25",
+        "year": 2025,
+        "hazard_type": "shoals",
+        "body": "HYDROARC 197/25(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 28.\n1. SHOALS REPORTED IN:\n   A. 71-22.48N 116-57.77W.\n   B. 71-22.61N 117-01.34W.\n2. CANCEL HYDROARC 119/25.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Shoals Reported Amundsen Gulf"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 63/25",
       "geometry": {
         "type": "MultiPoint",
@@ -4913,6 +4912,29 @@
         "summary": null,
         "category": "accident",
         "title": "Submerged Anchor Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 178/25(15)#grp1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.68783333333333,
+          71.38033333333334
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 178/25(15)",
+        "group_index": 1,
+        "dtg": "2025-10-01T11:16:00",
+        "raw_dtg": "011116Z OCT 25",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "HYDROARC 178/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 29.3 METERS IN 71-22.82N 096-41.27W.\nB. 26.6 METERS IN 71-22.05N 096-40.73W.\nC. 11.3 METERS IN 71-21.53N 096-45.79W.\nD. 11.3 METERS IN 71-21.20N 096-44.65W.\nE. 28.4 METERS IN 71-20.59N 096-45.34W.\nF. 28.35 METERS IN 71-18.28N 096-49.03W.",
+        "summary": null,
+        "category": "navigation",
+        "title": "New Depths Reported"
       }
     },
     {
@@ -5237,33 +5259,6 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 197/25(15)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.96283333333334,
-          71.37466666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2025-10-31T23:02:00",
-        "raw_dtg": "312302Z OCT 25",
-        "msg_id": "HYDROARC 197/25(15)",
-        "year": 2025,
-        "cancellations": [
-          "HYDROARC 119/25"
-        ],
-        "hazard_type": "shoals",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "HYDROARC 197/25(15).\nAMUNDSEN GULF.\nCANADA.\nDNC 28.\n1. SHOALS REPORTED IN:\n   A. 71-22.48N 116-57.77W.\n   B. 71-22.61N 117-01.34W.\n2. CANCEL HYDROARC 119/25.",
-        "summary": null,
-        "category": "other",
-        "title": "Shoals Reported Amundsen"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "PRIP MURMANSK 57/21",
       "geometry": {
         "type": "Polygon",
@@ -5356,6 +5351,77 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 90/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.56666666666667,
+          69.18333333333334
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-12T01:31:27.767535",
+        "raw_dtg": "ПРИП МУРМАНСК 90/26 КАРТА 15005\r\n\r\nСЕВЕРНАЯ ЧАСТЬ КОЛЬСКОГО ЗАЛИВА",
+        "msg_id": "PRIP MURMANSK 90/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 90 КАРТА 15005\nСЕВЕРНАЯ ЧАСТЬ КОЛЬСКОГО ЗАЛИВА\n1. ШВАРТОВНАЯ БОЧКА ДРЕЙФУЕТ 101400 МАРТ\nВ 69-11.0С 033-34.0В\n2. ОТМ ЭТОТ НР 131400 МАРТ=\n110900 МСК  ГС-",
+        "summary": null,
+        "category": "navigation",
+        "title": "Drifting Mooring Buoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 283/24(16)#grp3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.34716666666668,
+          71.79666666666667
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 283/24(16)",
+        "group_index": 3,
+        "dtg": "2024-12-17T08:58:00",
+        "raw_dtg": "170858Z DEC 24",
+        "year": 2024,
+        "hazard_type": "scientific mooring",
+        "body": "HYDROARC 283/24(16).\nBEAUFORT SEA.\nCHUKCHI SEA.\nALASKA.\nDNC 27.\nSCIENTIFIC MOORINGS ESTABLISHED:\nA. BCE-24, IN 71-40.40N 154-59.90W,\n   AT DEPTH 108 METERS, TOP FLOAT 20 METERS.\nB. BCC-24, IN 71-44.10N 155-09.68W,\n   AT DEPTH 291 METERS, TOP FLOAT 21 METERS.\nC. BCW-24, IN 71-47.80N 155-20.83W,\n   AT DEPTH 165 METERS, TOP FLOAT 40 METERS.\nD. NAP-24T, IN 74-31.37N 161-56.19W,\n   AT DEPTH 1680 METERS, TOP FLOAT 28 METERS.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Scientific Moorings Established"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 178/25(15)#grp5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.75566666666667,
+          71.34316666666666
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 178/25(15)",
+        "group_index": 5,
+        "dtg": "2025-10-01T11:16:00",
+        "raw_dtg": "011116Z OCT 25",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "HYDROARC 178/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 29.3 METERS IN 71-22.82N 096-41.27W.\nB. 26.6 METERS IN 71-22.05N 096-40.73W.\nC. 11.3 METERS IN 71-21.53N 096-45.79W.\nD. 11.3 METERS IN 71-21.20N 096-44.65W.\nE. 28.4 METERS IN 71-20.59N 096-45.34W.\nF. 28.35 METERS IN 71-18.28N 096-49.03W.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Depths Reported Franklin Strait"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 16/22",
       "geometry": {
         "type": "Point",
@@ -5379,6 +5445,77 @@
         "summary": null,
         "category": "accident",
         "title": "Partially Sunken Vessel"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 89/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.81666666666667,
+            69.395
+          ],
+          [
+            33.81666666666667,
+            69.33666666666667
+          ],
+          [
+            33.645,
+            69.34166666666667
+          ],
+          [
+            33.875,
+            69.39833333333333
+          ],
+          [
+            33.95333333333333,
+            69.39833333333333
+          ],
+          [
+            33.95333333333333,
+            69.33833333333334
+          ],
+          [
+            33.875,
+            69.33833333333334
+          ],
+          [
+            34.083333333333336,
+            69.48
+          ],
+          [
+            34.666666666666664,
+            69.48
+          ],
+          [
+            34.666666666666664,
+            69.36333333333333
+          ],
+          [
+            34.25,
+            69.43833333333333
+          ],
+          [
+            33.95,
+            69.43833333333333
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-12T01:31:27.768044",
+        "raw_dtg": "ПРИП МУРМАНСК 89/26 КАРТА 12000\r\n\r\nЗАПАДНЕЕ И СЕВЕРНЕЕ ОСТРОВА КИЛЬДИН",
+        "msg_id": "PRIP MURMANSK 89/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "ZCZC KA20\n110600 UTC MAR 26\nCOASTAL WARNING MURMANSK 88\nПЕРЕДАВАТЬ 8 СУТОК\nПРИП МУРМАНСК 89 КАРТА 12000\nЗАПАДНЕЕ И СЕВЕРНЕЕ ОСТРОВА КИЛЬДИН\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 16 ПО 19 МАРТ\n0700 ДО 1700 РАЙОНАХ ЗАПРЕТНЫХ ДЛЯ ПЛАВАНИЯ\nА. 69-23.7С 033-49.0В\n   69-20.2С 033-49.0В\n   69-20.5С 033-38.7В\nБ. 69-23.9С 033-52.5В\n   69-23.9С 033-57.2В\n   69-20.3С 033-57.2В\n  69-20.3С 033-52.5В\nВ. 69-28.8С 034-05.0В\n   69-28.8С 034-40.0В\n   69-21.8С 034-40.0В\n   69-26.3С 034-15.0В\n   69-26.3С 033-57.0В\n2. ОТМ ЭТОТ НР 191800 МАРТ=\n110900 МСК  ГС-",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Zone"
       }
     },
     {
@@ -5806,6 +5943,29 @@
         "summary": null,
         "category": "other",
         "title": "Complex Marked by Buoys"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 178/25(15)#grp2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.67883333333333,
+          71.3675
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 178/25(15)",
+        "group_index": 2,
+        "dtg": "2025-10-01T11:16:00",
+        "raw_dtg": "011116Z OCT 25",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "HYDROARC 178/25(15).\nFRANKLIN STRAIT.\nMCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nDEPTHS REPORTED:\nA. 29.3 METERS IN 71-22.82N 096-41.27W.\nB. 26.6 METERS IN 71-22.05N 096-40.73W.\nC. 11.3 METERS IN 71-21.53N 096-45.79W.\nD. 11.3 METERS IN 71-21.20N 096-44.65W.\nE. 28.4 METERS IN 71-20.59N 096-45.34W.\nF. 28.35 METERS IN 71-18.28N 096-49.03W.",
+        "summary": null,
+        "category": "navigation",
+        "title": "Depths Reported Canada"
       }
     },
     {
