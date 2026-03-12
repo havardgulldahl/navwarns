@@ -43,6 +43,7 @@ COORD_PATTERN = re.compile(rf"({_LAT_PART}[NS])\s+({_LON_PART}[EW])")
 CANCEL_PATTERN = re.compile(
     r"CANCEL ("  # capture the target only
     r"HYDROARC \d+/\d+"  # structured HYDROARC
+    r"|NAVAREA [A-Z0-9]{1,10} \d+/\d+"  # structured NAVAREA (e.g. NAVAREA XIX 32/26)
     r"|\d+/\d+"  # plain number/year
     r"|THIS (?:MSG|MESSAGE) \d{6}Z [A-Z]{3} \d{2}"  # DTG form with Z
     r"|THIS (?:MSG|MESSAGE) \d{6} UTC [A-Z]{3} \d{2}"  # DTG without Z + UTC
