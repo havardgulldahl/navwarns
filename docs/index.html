@@ -193,6 +193,91 @@
             font-size: 10px;
             margin-right: 4px;
         }
+
+        /* Feature picker for overlapping features */
+        .feature-picker {
+            max-width: 300px;
+            min-width: 220px;
+        }
+
+        .feature-picker h4 {
+            margin: 0 0 8px 0;
+            font-size: 13px;
+            color: #333;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 6px;
+        }
+
+        .feature-picker .picker-count {
+            font-size: 11px;
+            color: #888;
+            font-weight: normal;
+        }
+
+        .feature-picker-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-height: 320px;
+            overflow-y: auto;
+        }
+
+        .feature-picker-list li {
+            padding: 6px 8px;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+            margin-bottom: 4px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .feature-picker-list li:hover {
+            background: #f0f6ff;
+            border-color: #4a90e2;
+        }
+
+        .feature-picker-list li.active {
+            background: #e8f0fe;
+            border-color: #4a90e2;
+        }
+
+        .picker-swatch {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .picker-label {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .picker-title {
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+        }
+
+        .picker-subtitle {
+            font-size: 10px;
+            color: #777;
+            display: block;
+            margin-top: 1px;
+        }
+
+        .picker-arrow {
+            color: #bbb;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
     </style>
 </head>
 
@@ -244,8 +329,8 @@
 
         const map = L.map('map', {
             crs: crs3575,
-            center: [89.9, 0],
-            zoom: 2,
+            center: [65, 15],
+            zoom: 3,
             minZoom: 0,
             maxZoom: 10
         });
@@ -357,6 +442,9 @@
             return features.filter(f => isNavwarnValidAt(f, date));
         }
 
+        // Track feature-to-layer associations for overlap detection
+        let featureLayerMap = [];
+
         // Colors and formatting
         const categoryColors = {
             military: '#d73027',
@@ -399,9 +487,97 @@
         </div>`;
         }
 
+        // Build feature picker popup for overlapping features
+        function buildPickerPopup(features, latlng) {
+            const items = features.map((f, i) => {
+                const p = f.properties || {};
+                const title = p.title || p.msg_id || 'NavWarn';
+                const category = p.category || 'N/A';
+                const hazard = p.hazard_type || '';
+                const color = getCategoryColor(category);
+                return `<li data-index="${i}" title="Click to view details">
+                    <span class="picker-swatch" style="background:${color}"></span>
+                    <span class="picker-label">
+                        <span class="picker-title">${title}</span>
+                        <span class="picker-subtitle">${category}${hazard ? ' — ' + hazard : ''}</span>
+                    </span>
+                    <span class="picker-arrow">›</span>
+                </li>`;
+            }).join('');
+
+            const html = `<div class="feature-picker">
+                <h4>Overlapping NavWarns <span class="picker-count">(${features.length})</span></h4>
+                <ul class="feature-picker-list">${items}</ul>
+            </div>`;
+
+            const popup = L.popup({ maxWidth: 320, minWidth: 220 })
+                .setLatLng(latlng)
+                .setContent(html)
+                .openOn(map);
+
+            // Attach click handlers after popup is open
+            setTimeout(() => {
+                const listItems = document.querySelectorAll('.feature-picker-list li');
+                listItems.forEach(li => {
+                    li.addEventListener('click', () => {
+                        const idx = parseInt(li.getAttribute('data-index'));
+                        const feature = features[idx];
+                        L.popup({ maxWidth: 300 })
+                            .setLatLng(latlng)
+                            .setContent(buildPopup(feature))
+                            .openOn(map);
+                    });
+                });
+            }, 50);
+        }
+
+        // Find all features near a click point
+        function findFeaturesAtPoint(latlng, targetFeatureGroup) {
+            const hits = [];
+            const clickPoint = map.latLngToLayerPoint(latlng);
+
+            targetFeatureGroup.eachLayer(geoLayer => {
+                // L.geoJSON layers contain sub-layers; iterate them
+                if (geoLayer.eachLayer) {
+                    geoLayer.eachLayer(subLayer => {
+                        if (subLayer.feature && isLayerHit(subLayer, clickPoint)) {
+                            hits.push(subLayer.feature);
+                        }
+                    });
+                } else if (geoLayer.feature && isLayerHit(geoLayer, clickPoint)) {
+                    hits.push(geoLayer.feature);
+                }
+            });
+
+            return hits;
+        }
+
+        // Check if a layer is "hit" by a pixel point
+        function isLayerHit(layer, clickPoint) {
+            if (layer instanceof L.CircleMarker) {
+                const layerPoint = map.latLngToLayerPoint(layer.getLatLng());
+                const dist = clickPoint.distanceTo(layerPoint);
+                return dist <= (layer.getRadius() + 4);
+            }
+            if (layer.getBounds) {
+                try {
+                    const bounds = layer.getBounds();
+                    const latlng = map.layerPointToLatLng(clickPoint);
+                    return bounds.isValid() && bounds.contains(latlng);
+                } catch (e) {
+                    return false;
+                }
+            }
+            return false;
+        }
+
         // Render features on the map
         function renderFeatures(features, featureGroup) {
             featureGroup.clearLayers();
+            // Reset feature-layer tracking if this is the main group
+            if (featureGroup === mainFeatureGroup) {
+                featureLayerMap = [];
+            }
 
             const filteredData = {
                 type: 'FeatureCollection',
@@ -422,7 +598,21 @@
                     });
                 },
                 onEachFeature: (feature, layer) => {
-                    layer.bindPopup(() => buildPopup(feature));
+                    // Instead of binding popup directly, handle click for overlap detection
+                    layer.on('click', function (e) {
+                        L.DomEvent.stopPropagation(e);
+                        const clickLatlng = e.latlng;
+                        const overlapping = findFeaturesAtPoint(clickLatlng, featureGroup);
+
+                        if (overlapping.length > 1) {
+                            buildPickerPopup(overlapping, clickLatlng);
+                        } else {
+                            L.popup({ maxWidth: 300 })
+                                .setLatLng(clickLatlng)
+                                .setContent(buildPopup(feature))
+                                .openOn(map);
+                        }
+                    });
 
                     if (feature.geometry && feature.geometry.type === 'MultiPoint') {
                         const latlngs = feature.geometry.coordinates
