@@ -273,24 +273,38 @@
         let allNavwarnsData = null;
         let mainFeatureGroup = null;
 
-        // Parse cancellation date from "THIS MSG DDHHMMZ MON YY" or "THIS MSG DDHHMM UTC MON YY" format
+        // Parse cancellation date from various formats:
+        //   "THIS MSG DDHHMMZ MON YY"
+        //   "THIS MSG DDHHMM UTC MON YY"
+        //   "THIS MSG DD MON YY" (date-only, no time)
         function parseCancellationDate(cancelStr) {
             if (!cancelStr) return null;
 
-            // Match patterns like "THIS MSG 171600 UTC SEP 25" or "THIS MSG 171600Z SEP 25"
-            const match = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC) ([A-Z]{3}) (\d{2})/);
-            if (match) {
-                const [, day, hour, minute, monthStr, year] = match;
-                const monthMap = {
-                    'JAN': 0, 'FEB': 1, 'MAR': 2, 'APR': 3, 'MAY': 4, 'JUN': 5,
-                    'JUL': 6, 'AUG': 7, 'SEP': 8, 'OCT': 9, 'NOV': 10, 'DEC': 11
-                };
+            const monthMap = {
+                'JAN': 0, 'FEB': 1, 'MAR': 2, 'APR': 3, 'MAY': 4, 'JUN': 5,
+                'JUL': 6, 'AUG': 7, 'SEP': 8, 'OCT': 9, 'NOV': 10, 'DEC': 11
+            };
+
+            // Full DTG: "THIS MSG 171600Z SEP 25" or "THIS MSG 171600 UTC SEP 25"
+            const matchFull = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC) ([A-Z]{3}) (\d{2})/);
+            if (matchFull) {
+                const [, day, hour, minute, monthStr, year] = matchFull;
                 const month = monthMap[monthStr];
                 if (month === undefined) return null;
-
                 const fullYear = 2000 + parseInt(year);
                 return new Date(Date.UTC(fullYear, month, parseInt(day), parseInt(hour), parseInt(minute)));
             }
+
+            // Date-only: "THIS MSG 01 JUL 26" (no time component)
+            const matchDateOnly = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3}) (\d{2})/);
+            if (matchDateOnly) {
+                const [, day, monthStr, year] = matchDateOnly;
+                const month = monthMap[monthStr];
+                if (month === undefined) return null;
+                const fullYear = 2000 + parseInt(year);
+                return new Date(Date.UTC(fullYear, month, parseInt(day)));
+            }
+
             return null;
         }
 

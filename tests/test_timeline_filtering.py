@@ -3,86 +3,116 @@ Test timeline filtering logic for NavWarns display.
 
 This tests the JavaScript date parsing logic that filters navwarns based on cancellation dates.
 """
+
 import re
 from datetime import datetime
 
 
 def parse_cancellation_date(cancel_str):
     """
-    Parse cancellation date from "THIS MSG DDHHMMZ MON YY" or "THIS MSG DDHHMM UTC MON YY" format.
-    
+    Parse cancellation date from various formats:
+      - "THIS MSG DDHHMMZ MON YY"
+      - "THIS MSG DDHHMM UTC MON YY"
+      - "THIS MSG DD MON YY" (date-only, no time)
+
     This is a Python implementation of the JavaScript function for testing purposes.
     """
     if not cancel_str:
         return None
-    
-    # Match patterns like "THIS MSG 171600 UTC SEP 25" or "THIS MSG 171600Z SEP 25"
-    match = re.match(r'THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC) ([A-Z]{3}) (\d{2})', cancel_str)
+
+    month_map = {
+        "JAN": 1,
+        "FEB": 2,
+        "MAR": 3,
+        "APR": 4,
+        "MAY": 5,
+        "JUN": 6,
+        "JUL": 7,
+        "AUG": 8,
+        "SEP": 9,
+        "OCT": 10,
+        "NOV": 11,
+        "DEC": 12,
+    }
+
+    # Full DTG: "THIS MSG 171600Z SEP 25" or "THIS MSG 171600 UTC SEP 25"
+    match = re.match(
+        r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC) ([A-Z]{3}) (\d{2})",
+        cancel_str,
+    )
     if match:
         day, hour, minute, month_str, year = match.groups()
-        month_map = {
-            'JAN': 1, 'FEB': 2, 'MAR': 3, 'APR': 4, 'MAY': 5, 'JUN': 6,
-            'JUL': 7, 'AUG': 8, 'SEP': 9, 'OCT': 10, 'NOV': 11, 'DEC': 12
-        }
         month = month_map.get(month_str)
         if month is None:
             return None
-        
         full_year = 2000 + int(year)
         return datetime(full_year, month, int(day), int(hour), int(minute))
+
+    # Date-only: "THIS MSG 01 JUL 26" (no time component)
+    match_date_only = re.match(
+        r"THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3}) (\d{2})", cancel_str
+    )
+    if match_date_only:
+        day, month_str, year = match_date_only.groups()
+        month = month_map.get(month_str)
+        if month is None:
+            return None
+        full_year = 2000 + int(year)
+        return datetime(full_year, month, int(day))
+
     return None
 
 
 def is_navwarn_valid_at(cancellations, check_date, dtg=None, year=None):
     """
     Check if a navwarn is valid at a given date.
-    
+
     Args:
         cancellations: List of cancellation strings
         check_date: datetime to check validity at
         dtg: ISO format start date string (optional)
         year: Year of the navwarn (used as fallback when dtg is None)
-    
+
     Returns:
         True if navwarn is valid (not cancelled) at the given date
     """
     from datetime import timezone
-    
+
     # Normalize check_date to UTC if it's naive (for consistent comparisons)
     check_date_utc = check_date
     if check_date.tzinfo is None:
         check_date_utc = check_date.replace(tzinfo=timezone.utc)
-    
+
     # Check if navwarn has started (using DTG as start date)
     if dtg:
         try:
             # Handle various ISO format strings (with or without 'Z' suffix/timezone)
             if isinstance(dtg, str):
                 # Check if timezone info is already present
-                has_tz = dtg.endswith('Z')
-                if not has_tz and 'T' in dtg:
+                has_tz = dtg.endswith("Z")
+                if not has_tz and "T" in dtg:
                     # Check for +/- timezone offset in the time part only
-                    time_part = dtg.split('T')[1]
-                    has_tz = '+' in time_part or '-' in time_part
-                
-                if dtg.endswith('Z'):
+                    time_part = dtg.split("T")[1]
+                    has_tz = "+" in time_part or "-" in time_part
+
+                if dtg.endswith("Z"):
                     # Remove Z and add explicit UTC offset
-                    dtg_normalized = dtg[:-1] + '+00:00'
+                    dtg_normalized = dtg[:-1] + "+00:00"
                 elif not has_tz:
                     # No timezone info, assume UTC
-                    dtg_normalized = dtg + '+00:00'
+                    dtg_normalized = dtg + "+00:00"
                 else:
                     # Already has timezone info
                     dtg_normalized = dtg
-                
+
                 start_date = datetime.fromisoformat(dtg_normalized)
             else:
                 start_date = dtg
-            
+
             # Ensure start_date is timezone-aware
             if start_date.tzinfo is None:
                 start_date = start_date.replace(tzinfo=timezone.utc)
-            
+
             if check_date_utc < start_date:
                 return False  # This navwarn hasn't started yet
         except (ValueError, AttributeError, TypeError):
@@ -92,10 +122,10 @@ def is_navwarn_valid_at(cancellations, check_date, dtg=None, year=None):
         year_start = datetime(year, 1, 1, tzinfo=timezone.utc)
         if check_date_utc < year_start:
             return False  # Before this navwarn's year
-    
+
     # Check for self-cancellation with date (end date)
     for cancel in cancellations:
-        if cancel and ('THIS MSG' in cancel or 'THIS MESSAGE' in cancel):
+        if cancel and ("THIS MSG" in cancel or "THIS MESSAGE" in cancel):
             cancel_date = parse_cancellation_date(cancel)
             if cancel_date:
                 # Ensure cancel_date is timezone-aware
@@ -139,6 +169,30 @@ def test_parse_cancellation_date_with_message():
     assert result.month == 3
     assert result.day == 1
     assert result.hour == 9
+    assert result.minute == 0
+
+
+def test_parse_cancellation_date_date_only():
+    """Test parsing date-only format without time component."""
+    cancel_str = "THIS MSG 01 JUL 26"
+    result = parse_cancellation_date(cancel_str)
+    assert result is not None
+    assert result.year == 2026
+    assert result.month == 7
+    assert result.day == 1
+    assert result.hour == 0
+    assert result.minute == 0
+
+
+def test_parse_cancellation_date_normalized_from_russian():
+    """Test parsing a date that was normalized from Russian PRIP format."""
+    cancel_str = "THIS MSG 261400 UTC FEB 26"
+    result = parse_cancellation_date(cancel_str)
+    assert result is not None
+    assert result.year == 2026
+    assert result.month == 2
+    assert result.day == 26
+    assert result.hour == 14
     assert result.minute == 0
 
 
@@ -212,15 +266,15 @@ def test_navwarn_active_period():
     """Test that navwarn is valid only during its active period (start to end)."""
     cancellations = ["THIS MSG 261700Z SEP 25"]  # Cancellation on Sep 26
     dtg = "2025-09-23T18:42:00"  # Start date on Sep 23
-    
+
     # Before start
     check_date = datetime(2025, 9, 22, 0, 0)
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is False
-    
+
     # During active period
     check_date = datetime(2025, 9, 25, 0, 0)
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is True
-    
+
     # After cancellation
     check_date = datetime(2025, 9, 27, 0, 0)
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is False
@@ -231,7 +285,7 @@ def test_navwarn_without_dtg_uses_year_heuristic():
     cancellations = []
     check_date = datetime(2024, 12, 31, 23, 59)  # Before 2025
     assert is_navwarn_valid_at(cancellations, check_date, dtg=None, year=2025) is False
-    
+
     check_date = datetime(2025, 1, 1, 0, 1)  # After year start
     assert is_navwarn_valid_at(cancellations, check_date, dtg=None, year=2025) is True
 
@@ -249,7 +303,7 @@ def test_navwarn_dtg_with_z_suffix():
     dtg = "2025-09-23T18:42:00Z"  # With Z suffix
     check_date = datetime(2025, 9, 20, 0, 0)  # Before start
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is False
-    
+
     check_date = datetime(2025, 9, 25, 0, 0)  # After start
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is True
 
@@ -258,8 +312,10 @@ def test_navwarn_dtg_with_timezone_offset():
     """Test that DTG with timezone offset is properly parsed."""
     cancellations = []
     dtg = "2025-09-23T18:42:00-05:00"  # With negative timezone offset
-    check_date = datetime(2025, 9, 23, 20, 0)  # 20:00 UTC is before 18:42 Eastern (23:42 UTC)
+    check_date = datetime(
+        2025, 9, 23, 20, 0
+    )  # 20:00 UTC is before 18:42 Eastern (23:42 UTC)
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is False
-    
+
     check_date = datetime(2025, 9, 24, 0, 0)  # After start in UTC
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is True

@@ -100,19 +100,53 @@ PRIP_HEADER = re.compile(
 RE_PRIP_BLOCK = PRIP_BLOCK
 RE_CANCEL_LINE = re.compile(r"^\s*(?:CANCEL|ОТМ)\b", re.IGNORECASE | re.MULTILINE)
 
+# Russian month name -> English 3-letter abbreviation
+_RU_MONTH_MAP: Dict[str, str] = {
+    "ЯНВ": "JAN",
+    "ЯНВА": "JAN",
+    "ФЕВ": "FEB",
+    "ФЕВР": "FEB",
+    "МАРТ": "MAR",
+    "МАР": "MAR",
+    "АПР": "APR",
+    "АПРЕ": "APR",
+    "МАЙ": "MAY",
+    "МАЯ": "MAY",
+    "ИЮНЬ": "JUN",
+    "ИЮН": "JUN",
+    "ИЮЛЬ": "JUL",
+    "ИЮЛ": "JUL",
+    "АВГ": "AUG",
+    "АВГА": "AUG",
+    "АВГУСТА": "AUG",
+    "СЕНТ": "SEP",
+    "СЕН": "SEP",
+    "ОКТ": "OCT",
+    "ОКТЯ": "OCT",
+    "НОЯБ": "NOV",
+    "НОЯ": "NOV",
+    "ДЕК": "DEC",
+    "ДЕКА": "DEC",
+}
+
+
+def _ru_month_to_en(ru: str) -> Optional[str]:
+    """Convert a Russian month abbreviation to English 3-letter form."""
+    return _RU_MONTH_MAP.get(ru.upper())
+
+
+# Pattern to capture Russian PRIP self-cancellation dates from body text.
+# Matches: ОТМ ЭТОТ НР DDHHMM MONTH[=] or ОТМ ЭТОТ НР DD MONTH [YEAR][=]
+RE_PRIP_SELF_CANCEL = re.compile(
+    r"ОТМ\s+ЭТОТ\s+(?:НР|ПУНКТ)\s+(\d{2,6})\s+([\u0400-\u04FF]{2,7})(?:\s+(\d{2,4}))?[=\s]*",
+    re.IGNORECASE,
+)
+
 # Expanded PRIP cancellation recognition:
-#  - HYDROARC X/Y
 #  - plain X/Y (e.g. 47/18)
-#  - OTM <DTG>
-#  - ОТМ ЭТОТ НР
-#  - ОТМ ЭТОТ НР <DTG>
 PRIP_CANCEL_PATTERN = re.compile(
     r"ОТМ ("  # capture the target only
-    r"ЭТОТ (?:НР) \d{6}Z [A-Z]{3,5}"  # DTG form
-    # r"HYDROARC \d+/\d+"  # structured HYDROARC
-    r"|\d+/\d+"  # plain number/year
-    # r"|THIS (?:MSG|MESSAGE) \d{6} UTC [A-Z]{3} \d{2}"  # DTG without Z + UTC
-    # r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # date only 2 or 4-digit year
+    r"\d+/\d+"  # plain number/year
     r")"
 )
 
@@ -327,7 +361,7 @@ class NavwarnMessage:
         # dtg = prip_parse_dtg(prip_header)
         (area, msg_id, year, maps, details) = parse_prip_header(prip_header)
         coords = parse_coordinates(prip_str)
-        cancels = prip_parse_cancellations(prip_str)
+        cancels = prip_parse_cancellations(prip_str, year=year)
         hazard = classify_hazard(prip_str)
         geometry, radius = analyze_geometry(prip_str, coords)
         groups = parse_coordinate_groups(prip_str)
@@ -840,31 +874,51 @@ def parse_prip_header(headertext: str) -> Tuple:
     return (area, msg_id, year, maps, details)
 
 
-def prip_parse_cancellations(body: str) -> List[str]:
-    """Extract cancellation references.
+def prip_parse_cancellations(body: str, year: Optional[str] = None) -> List[str]:
+    """Extract cancellation references from PRIP text.
 
-    We purposely broaden parsing to capture simple PRIP style references like
-    'ОТМ 282/25', multi-word forms like 'ОТМ ЭТОТ НР' and the
-    existing HYDROARC / DTG formats. Returned values are the captured target
-    strings without the leading 'CANCEL '.
+    Handles:
+      - Cross-reference cancellations: plain NNN/YY tokens (e.g. ОТМ 282/25).
+      - Self-cancellation dates in Russian: ОТМ ЭТОТ НР DDHHMM MONTH[=]
+        or ОТМ ЭТОТ НР DD MONTH [YEAR][=].
+    Self-cancellation dates are normalized to English 'THIS MSG DDHHMM UTC MON YY'
+    format so the frontend can parse them uniformly.
     """
     cancels: List[str] = []
-    # Primary regex (already excludes the leading 'CANCEL ' via group)
+    # Cross-reference cancellations (NNN/YY)
     cancels.extend(PRIP_CANCEL_PATTERN.findall(body))
-    # Additional heuristic: for any line containing CANCEL, pull all token forms NNN/YY
     for line in body.splitlines():
         if "ОТМ" in line.upper():
             for m in re.findall(r"\b(\d+/\d+)\b", line):
-                # Skip if a longer token already captured (e.g., HYDROARC 134/25)
                 if any(c.endswith(m) for c in cancels):
                     continue
                 if m not in cancels:
                     cancels.append(m)
-    # Heuristic: drop any plain number/year token that corresponds to the message id in body
-    # msg_id_match = re.search(r"HYDROARC (\d+/\d+)", body)
-    # if msg_id_match:
-    # own_suffix = msg_id_match.group(1)
-    # cancels = [c for c in cancels if c != own_suffix]
+
+    # Russian self-cancellation dates (ОТМ ЭТОТ НР ...)
+    for m in RE_PRIP_SELF_CANCEL.finditer(body):
+        digits, ru_month_raw, yr_raw = m.group(1), m.group(2), m.group(3)
+        en_month = _ru_month_to_en(ru_month_raw)
+        if not en_month:
+            continue
+        # Normalize to DDHHMM
+        if len(digits) == 6:  # DDHHMM
+            ddhhmm = digits
+        elif len(digits) == 2:  # DD only → assume 00:00
+            ddhhmm = digits + "0000"
+        else:
+            continue
+        # Resolve year (2-digit)
+        if yr_raw:
+            yr_2 = yr_raw[-2:]  # handle 2028 → 28
+        elif year:
+            yr_2 = str(year)[-2:]
+        else:
+            continue
+        normalized = f"THIS MSG {ddhhmm} UTC {en_month} {yr_2}"
+        if normalized not in cancels:
+            cancels.append(normalized)
+
     return cancels
 
 
