@@ -2,19 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 328/17(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.655555555555555,
+          74.39305555555556
+        ],
+        [
+          27.566111111111113,
+          74.45111111111112
+        ],
+        [
+          28.657777777777778,
+          74.02777777777777
+        ],
+        [
+          27.874444444444446,
+          73.55972222222222
+        ],
+        [
+          26.060555555555556,
+          73.50416666666666
+        ],
+        [
+          24.93888888888889,
+          73.91472222222222
+        ],
+        [
+          25.655555555555555,
+          74.39305555555556
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-10-11T06:34:00",
     "raw_dtg": "110634Z OCT 17",
     "msg_id": "HYDROARC 328/17(43)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 141110Z OCT 17",
-      "HYDROARC 328/17"
+      "THIS MSG 141110Z OCT 17"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BARENTS SEA.\nDNC 22.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0915Z TO 1010Z DAILY 13 AND 14 OCT\n   IN AREA BOUND BY\n   74-23-35N 025-39-20E, 74-27-04N 027-33-58E,\n   74-01-40N 028-39-28E, 73-33-35N 027-52-28E,\n   73-30-15N 026-03-38E, 73-54-53N 024-56-20E.\n2. CANCEL THIS MSG 141110Z OCT 17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nDNC 22.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0915Z TO 1010Z DAILY 13 AND 14 OCT\n   IN AREA BOUND BY\n   74-23-35N 025-39-20E, 74-27-04N 027-33-58E,\n   74-01-40N 028-39-28E, 73-33-35N 027-52-28E,\n   73-30-15N 026-03-38E, 73-54-53N 024-56-20E.\n2. CANCEL THIS MSG 141110Z OCT 17.",
+    "valid_from": "2017-10-11T06:34:00+00:00",
+    "valid_until": "2017-10-14T11:10:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 442/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.466666666666667,
+      54.14333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-02-08T15:17:00",
     "raw_dtg": "081517Z FEB 17",
     "msg_id": "HYDROARC 442/17(36)",
-    "cancellations": [
-      "HYDROARC 1240/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nCHART 36025.\nDOUGLAS HEAD LIGHT 54-08.6N 004-28.0W RANGE\nTEMPORARILY REDUCED TO 12 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nCHART 36025.\nDOUGLAS HEAD LIGHT 54-08.6N 004-28.0W RANGE\nTEMPORARILY REDUCED TO 12 MILES.",
+    "valid_from": "2017-02-08T15:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 822/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.1066666666666665,
+      55.251666666666665
+    ]
   },
   "properties": {
     "dtg": "2012-04-13T22:37:00",
     "raw_dtg": "132237Z APR 12",
     "msg_id": "HYDROARC 822/12(36)",
-    "cancellations": [
-      "HYDROARC 829/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 35119\nAILSA CRAIG LIGHT 55-15.1N 005-06.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 35119\nAILSA CRAIG LIGHT 55-15.1N 005-06.4W UNRELIABLE.",
+    "valid_from": "2012-04-13T22:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

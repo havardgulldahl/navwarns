@@ -3,17 +3,23 @@
   "id": "HYDROARC 2305/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.89833333333333,
+      -0.5566666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-10-03T00:49:00",
     "raw_dtg": "030049Z OCT 12",
     "msg_id": "HYDROARC 2305/12(24)",
-    "cancellations": [
-      "HYDROARC 159/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24290\nPONTA TIJOCA LIGHT 00-33.4S 047-53.9W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24290\nPONTA TIJOCA LIGHT 00-33.4S 047-53.9W UNLIT.",
+    "valid_from": "2012-10-03T00:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 1094/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.3233333333333333,
+      53.49666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-05-01T12:14:00",
     "raw_dtg": "011214Z MAY 13",
     "msg_id": "HYDROARC 1094/13(37)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1240/13"
+      "702/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37057\n1. FOG SIGNAL AT PLATFORM 49/17-HD\n   53-29.8N 002-19.4E INOPERATIVE.\n2. CANCEL HYDROLANT 702/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37057\n1. FOG SIGNAL AT PLATFORM 49/17-HD\n   53-29.8N 002-19.4E INOPERATIVE.\n2. CANCEL HYDROLANT 702/13.",
+    "valid_from": "2013-05-01T12:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

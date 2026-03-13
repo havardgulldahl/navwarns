@@ -3,17 +3,23 @@
   "id": "HYDROARC 361/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.165,
+      49.68333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-02-08T12:09:00",
     "raw_dtg": "081209Z FEB 21",
     "msg_id": "HYDROARC 361/21(37)",
-    "cancellations": [
-      "HYDROARC 390/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCAP D'ANTIFER LIGHT 49-41.0N 000-09.9E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCAP D'ANTIFER LIGHT 49-41.0N 000-09.9E UNRELIABLE.",
+    "valid_from": "2021-02-08T12:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

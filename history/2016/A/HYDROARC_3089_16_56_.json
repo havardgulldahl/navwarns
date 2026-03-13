@@ -2,18 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 3089/16(56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.383333333333333,
+          33.75833333333333
+        ],
+        [
+          32.52333333333333,
+          33.75833333333333
+        ],
+        [
+          32.083333333333336,
+          33.11666666666667
+        ],
+        [
+          31.608333333333334,
+          33.196666666666665
+        ],
+        [
+          30.583333333333332,
+          33.525
+        ],
+        [
+          30.383333333333333,
+          33.61333333333333
+        ],
+        [
+          30.383333333333333,
+          33.75833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-11-19T12:15:00",
     "raw_dtg": "191215Z NOV 16",
     "msg_id": "HYDROARC 3089/16(56)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 444/17"
+      "THIS MSG 21 FEB 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. SEISMIC SURVEY 20 NOV THRU 20 FEB 17 BY\n   M/V RAMFORM TETHYS TOWING 14\n   10000 METER LONG CABLES IN AREA BOUND BY\n   33-45.5N 030-23.0E, 33-45.5N 032-31.4E,\n   33-07.0N 032-05.0E, 33-11.8N 031-36.5E,\n   33-31.5N 030-35.0E, 33-36.8N 030-23.0E.\n   TEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 21 FEB 17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. SEISMIC SURVEY 20 NOV THRU 20 FEB 17 BY\n   M/V RAMFORM TETHYS TOWING 14\n   10000 METER LONG CABLES IN AREA BOUND BY\n   33-45.5N 030-23.0E, 33-45.5N 032-31.4E,\n   33-07.0N 032-05.0E, 33-11.8N 031-36.5E,\n   33-31.5N 030-35.0E, 33-36.8N 030-23.0E.\n   TEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 21 FEB 17.",
+    "valid_from": "2016-11-19T12:15:00+00:00",
+    "valid_until": "2017-02-21T00:00:00+00:00",
+    "summary": null
   }
 }

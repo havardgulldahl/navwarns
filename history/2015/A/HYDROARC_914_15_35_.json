@@ -3,17 +3,23 @@
   "id": "HYDROARC 914/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.513333333333334,
+      55.67333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-04-16T23:44:00",
     "raw_dtg": "162344Z APR 15",
     "msg_id": "HYDROARC 914/15(35)",
-    "cancellations": [
-      "HYDROARC 999/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nDNC 19.\nCHART 35121.\nRHINNS OF ISLAY LIGHT 55-40.4N 006-30.8W RANGE\nTEMPORARILY REDUCED TO NINE MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nDNC 19.\nCHART 35121.\nRHINNS OF ISLAY LIGHT 55-40.4N 006-30.8W RANGE\nTEMPORARILY REDUCED TO NINE MILES.",
+    "valid_from": "2015-04-16T23:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

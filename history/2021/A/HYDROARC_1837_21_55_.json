@@ -2,19 +2,58 @@
   "type": "Feature",
   "id": "HYDROARC 1837/21(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.025,
+          43.1
+        ],
+        [
+          28.17,
+          43.1
+        ],
+        [
+          28.17,
+          43.026666666666664
+        ],
+        [
+          28.19,
+          43.02333333333333
+        ],
+        [
+          28.17,
+          42.986666666666665
+        ],
+        [
+          28.17,
+          42.833333333333336
+        ],
+        [
+          28.025,
+          42.833333333333336
+        ],
+        [
+          28.025,
+          43.1
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-07-12T19:26:00",
     "raw_dtg": "121926Z JUL 21",
     "msg_id": "HYDROARC 1837/21(55)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 161200Z JUL 21",
-      "HYDROARC 1837/21"
+      "THIS MSG 161200Z JUL 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nBULGARIA.\nDNC 10.\n1. GUNNERY AND MISSILE OPERATIONS 160630Z TO\n   161100Z JUL IN AREA BOUND BY\n   43-06.0N 028-01.5E, 43-06.0N 028-10.2E,\n   43-01.6N 028-10.2E, 43-01.4N 028-11.4E,\n   42-59.2N 028-10.2E, 42-50.0N 028-10.2E,\n   42-50.0N 028-01.5E.\n2. CANCEL THIS MSG 161200Z JUL 21."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nBULGARIA.\nDNC 10.\n1. GUNNERY AND MISSILE OPERATIONS 160630Z TO\n   161100Z JUL IN AREA BOUND BY\n   43-06.0N 028-01.5E, 43-06.0N 028-10.2E,\n   43-01.6N 028-10.2E, 43-01.4N 028-11.4E,\n   42-59.2N 028-10.2E, 42-50.0N 028-10.2E,\n   42-50.0N 028-01.5E.\n2. CANCEL THIS MSG 161200Z JUL 21.",
+    "valid_from": "2021-07-12T19:26:00+00:00",
+    "valid_until": "2021-07-16T12:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 3071/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.70666666666666,
+      -22.415
+    ]
   },
   "properties": {
     "dtg": "2019-10-09T21:43:00",
     "raw_dtg": "092143Z OCT 19",
     "msg_id": "HYDROARC 3071/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3110/19"
+      "THIS MSG 07 APR 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. MACAE LIGHT 22-24.9S 041-42.4W RANGE REDUCED\n   UNTIL 06 APR 20.\n2. CANCEL THIS MSG 07 APR 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. MACAE LIGHT 22-24.9S 041-42.4W RANGE REDUCED\n   UNTIL 06 APR 20.\n2. CANCEL THIS MSG 07 APR 20.",
+    "valid_from": "2019-10-09T21:43:00+00:00",
+    "valid_until": "2020-04-07T00:00:00+00:00",
+    "summary": null
   }
 }

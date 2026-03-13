@@ -3,17 +3,23 @@
   "id": "HYDROARC 1605/13(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      16.433333333333334,
+      -28.62
+    ]
   },
   "properties": {
     "dtg": "2013-07-03T13:24:00",
     "raw_dtg": "031324Z JUL 13",
     "msg_id": "HYDROARC 1605/13(57)",
-    "cancellations": [
-      "HYDROARC 1306/14"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nCHART 57440\nRACON (O) 28-37.2S 016-26.0E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nCHART 57440\nRACON (O) 28-37.2S 016-26.0E INOPERATIVE.",
+    "valid_from": "2013-07-03T13:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

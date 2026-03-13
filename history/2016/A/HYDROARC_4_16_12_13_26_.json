@@ -3,17 +3,23 @@
   "id": "HYDROARC 4/16(12,13,26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.23833333333333,
+      33.615
+    ]
   },
   "properties": {
     "dtg": "2016-01-01T10:21:00",
     "raw_dtg": "011021Z JAN 16",
     "msg_id": "HYDROARC 4/16(12,13,26)",
-    "cancellations": [
-      "HYDROARC 79/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 16, DNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\n33 FOOT VESSEL MOONSTONE OR MY DRAMA QUEEN\nIN 33-36.9N 068-14.3W AT 010754Z JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON, PHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 16, DNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\n33 FOOT VESSEL MOONSTONE OR MY DRAMA QUEEN\nIN 33-36.9N 068-14.3W AT 010754Z JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON, PHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2016-01-01T10:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

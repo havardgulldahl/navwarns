@@ -3,17 +3,25 @@
   "id": "HYDROARC 1493/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      4.818333333333333,
+      53.71
+    ]
   },
   "properties": {
     "dtg": "2014-06-16T14:47:00",
     "raw_dtg": "161447Z JUN 14",
     "msg_id": "HYDROARC 1493/14(37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 774/15"
+      "1442/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nNETHERLANDS.\nCHART 37223\n1. PLATFORM L6-B, ESTABLISHED IN 53-42.6N 004-49.1E.\n2. CANCEL HYDROLANT 1442/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nNETHERLANDS.\nCHART 37223\n1. PLATFORM L6-B, ESTABLISHED IN 53-42.6N 004-49.1E.\n2. CANCEL HYDROLANT 1442/14.",
+    "valid_from": "2014-06-16T14:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,26 @@
   "id": "HYDROARC 904/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -39.20666666666666,
+      -17.968333333333334
+    ]
   },
   "properties": {
     "dtg": "2022-03-29T21:14:00",
     "raw_dtg": "292114Z MAR 22",
     "msg_id": "HYDROARC 904/22(24)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 904/22"
+      "THIS MSG 26 SEP 22",
+      "891/22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\n1. COROA VERMELHA LIGHT 17-58.1S 039-12.4W\n   UNLIT UNTIL 25 SEP.\n2. CANCEL HYDROLANT 891/22.\n3. CANCEL THIS MSG 26 SEP 22."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\n1. COROA VERMELHA LIGHT 17-58.1S 039-12.4W\n   UNLIT UNTIL 25 SEP.\n2. CANCEL HYDROLANT 891/22.\n3. CANCEL THIS MSG 26 SEP 22.",
+    "valid_from": "2022-03-29T21:14:00+00:00",
+    "valid_until": "2022-09-26T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1565/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.671666666666667,
+      58.89666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-06-11T11:10:00",
     "raw_dtg": "111110Z JUN 21",
     "msg_id": "HYDROARC 1565/21(35)",
-    "cancellations": [
-      "HYDROARC 1613/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCOPINSAY LIGHT 58-53.8N 002-40.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCOPINSAY LIGHT 58-53.8N 002-40.3W UNRELIABLE.",
+    "valid_from": "2021-06-11T11:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

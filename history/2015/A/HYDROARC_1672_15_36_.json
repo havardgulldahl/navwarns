@@ -3,17 +3,25 @@
   "id": "HYDROARC 1672/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.54,
+      55.428333333333335
+    ]
   },
   "properties": {
     "dtg": "2015-07-08T19:56:00",
     "raw_dtg": "081956Z JUL 15",
     "msg_id": "HYDROARC 1672/15(36)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 850/16"
+      "1409/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 35119.\n1. DAVAAR LIGHT 55-25.7N 005-32.4W RANGE TEMPORARILY\n   REDUCED TO NINE MILES.\n2. CANCEL HYDROLANT 1409/15(37), AIDS RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 35119.\n1. DAVAAR LIGHT 55-25.7N 005-32.4W RANGE TEMPORARILY\n   REDUCED TO NINE MILES.\n2. CANCEL HYDROLANT 1409/15(37), AIDS RESTORED.",
+    "valid_from": "2015-07-08T19:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

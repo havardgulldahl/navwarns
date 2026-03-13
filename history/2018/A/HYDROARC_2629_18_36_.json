@@ -3,17 +3,23 @@
   "id": "HYDROARC 2629/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.531666666666666,
+      55.37166666666667
+    ]
   },
   "properties": {
     "dtg": "2018-08-16T23:51:00",
     "raw_dtg": "162351Z AUG 18",
     "msg_id": "HYDROARC 2629/18(36)",
-    "cancellations": [
-      "HYDROARC 2674/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nDSC STATION RU STAFNISH 55-22.3N 005-31.9W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nDSC STATION RU STAFNISH 55-22.3N 005-31.9W OFF AIR.",
+    "valid_from": "2018-08-16T23:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

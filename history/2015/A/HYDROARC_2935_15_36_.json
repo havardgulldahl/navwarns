@@ -3,18 +3,25 @@
   "id": "HYDROARC 2935/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.515,
+      52.65
+    ]
   },
   "properties": {
     "dtg": "2015-11-27T18:57:00",
     "raw_dtg": "271857Z NOV 15",
     "msg_id": "HYDROARC 2935/15(36)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 301857Z NOV 15",
-      "HYDROARC 2935/15"
+      "THIS MSG 301857Z NOV 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nSAINT GEORGES CHANNEL.\nDNC 19, DNC 20.\n1. DERELICT LIFEBOAT ADRIFT IN 52-39.0N 005-30.9W\n   AT 271616Z NOV.\n2. CANCEL THIS MSG 301857Z NOV 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nSAINT GEORGES CHANNEL.\nDNC 19, DNC 20.\n1. DERELICT LIFEBOAT ADRIFT IN 52-39.0N 005-30.9W\n   AT 271616Z NOV.\n2. CANCEL THIS MSG 301857Z NOV 15.",
+    "valid_from": "2015-11-27T18:57:00+00:00",
+    "valid_until": "2015-11-30T18:57:00+00:00",
+    "summary": null
   }
 }

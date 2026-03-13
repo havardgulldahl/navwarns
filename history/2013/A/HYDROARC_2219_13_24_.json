@@ -3,17 +3,23 @@
   "id": "HYDROARC 2219/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -51.541666666666664,
+      4.431666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-09-11T01:10:00",
     "raw_dtg": "110110Z SEP 13",
     "msg_id": "HYDROARC 2219/13(24)",
-    "cancellations": [
-      "HYDROARC 3019/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24340\nCABO ORANGE LIGHT 04-25.9N 051-32.5W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24340\nCABO ORANGE LIGHT 04-25.9N 051-32.5W UNLIT.",
+    "valid_from": "2013-09-11T01:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

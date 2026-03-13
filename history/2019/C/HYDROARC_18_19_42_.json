@@ -3,17 +3,23 @@
   "id": "HYDROARC 18/19(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      66.38166666666666,
+      70.095
+    ]
   },
   "properties": {
     "dtg": "2019-02-08T08:36:00",
     "raw_dtg": "080836Z FEB 19",
     "msg_id": "HYDROARC 18/19(42)",
-    "cancellations": [
-      "HYDROARC 213/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nSUBMERGED OBSTRUCTION IN VICINITY 70-05.7N 066-22.9E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nSUBMERGED OBSTRUCTION IN VICINITY 70-05.7N 066-22.9E.",
+    "valid_from": "2019-02-08T08:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

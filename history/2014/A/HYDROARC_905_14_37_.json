@@ -3,17 +3,23 @@
   "id": "HYDROARC 905/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.9633333333333333,
+      50.54666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-04-03T09:32:00",
     "raw_dtg": "030932Z APR 14",
     "msg_id": "HYDROARC 905/14(37)",
-    "cancellations": [
-      "HYDROARC 1028/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nCHART 37115\nBASSURELLE BUOY 50-32.8N 000-57.8E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nCHART 37115\nBASSURELLE BUOY 50-32.8N 000-57.8E MISSING.",
+    "valid_from": "2014-04-03T09:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

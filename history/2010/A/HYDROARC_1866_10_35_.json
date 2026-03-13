@@ -3,17 +3,23 @@
   "id": "HYDROARC 1866/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.24,
+      58.47
+    ]
   },
   "properties": {
     "dtg": "2010-10-01T14:03:00",
     "raw_dtg": "011403Z OCT 10",
     "msg_id": "HYDROARC 1866/10(35)",
-    "cancellations": [
-      "HYDROARC 1875/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nRADIO SERVICES.\nBOUU OF LEWIS 58-28.2N 006-14.4W MF DSC AND RT OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nRADIO SERVICES.\nBOUU OF LEWIS 58-28.2N 006-14.4W MF DSC AND RT OFF AIR.",
+    "valid_from": "2010-10-01T14:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

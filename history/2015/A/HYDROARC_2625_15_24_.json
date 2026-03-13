@@ -3,18 +3,25 @@
   "id": "HYDROARC 2625/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -29.445,
+      -0.9183333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-10-22T23:33:00",
     "raw_dtg": "222333Z OCT 15",
     "msg_id": "HYDROARC 2625/15(24)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 262100Z OCT 15",
-      "HYDROARC 2625/15"
+      "THIS MSG 262100Z OCT 15"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 261500Z TO 262000Z OCT\n   WITHIN TEN MILES OF 00-55.1S 029-26.7W.\n2. CANCEL THIS MSG 262100Z OCT 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 261500Z TO 262000Z OCT\n   WITHIN TEN MILES OF 00-55.1S 029-26.7W.\n2. CANCEL THIS MSG 262100Z OCT 15.",
+    "valid_from": "2015-10-22T23:33:00+00:00",
+    "valid_until": "2015-10-26T21:00:00+00:00",
+    "summary": null
   }
 }

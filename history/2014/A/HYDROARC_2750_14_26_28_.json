@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2750/14(26,28)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-11-14T13:36:00",
     "raw_dtg": "141336Z NOV 14",
     "msg_id": "HYDROARC 2750/14(26,28)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2750/14"
+      "2741/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN CARIBBEAN SEA.\nDNC 14.\nCANCEL HYDROLANT 2741/14 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN CARIBBEAN SEA.\nDNC 14.\nCANCEL HYDROLANT 2741/14 AND THIS MSG.",
+    "valid_from": "2014-11-14T13:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

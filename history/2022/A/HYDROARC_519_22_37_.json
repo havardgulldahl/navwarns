@@ -3,18 +3,25 @@
   "id": "HYDROARC 519/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.4816666666666665,
+      49.28333333333333
+    ]
   },
   "properties": {
     "dtg": "2022-02-21T18:32:00",
     "raw_dtg": "211832Z FEB 22",
     "msg_id": "HYDROARC 519/22(37)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 241832Z FEB 22",
-      "HYDROARC 519/22"
+      "THIS MSG 241832Z FEB 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\n1. THREE CONTAINERS ADRIFT IN AREA WITHIN\n   ONE MILE OF 49-17.0N 003-28.9W AT 210954Z FEB.\n2. CANCEL THIS MSG 241832Z FEB 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\n1. THREE CONTAINERS ADRIFT IN AREA WITHIN\n   ONE MILE OF 49-17.0N 003-28.9W AT 210954Z FEB.\n2. CANCEL THIS MSG 241832Z FEB 22.",
+    "valid_from": "2022-02-21T18:32:00+00:00",
+    "valid_until": "2022-02-24T18:32:00+00:00",
+    "summary": null
   }
 }

@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 2987/23(57)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         11.751333333333333,
@@ -58,12 +58,16 @@
     "dtg": "2023-12-31T11:19:00",
     "raw_dtg": "311119Z DEC 23",
     "msg_id": "HYDROARC 2987/23(57)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 110001Z JAN 24",
-      "HYDROARC 2987/23"
+      "THIS MSG 110001Z JAN 24"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nCONGO, (BRAZZAVILLE).\nDNC 01.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 10 JAN 24\n   BY CABLESHIP ILE DE SEIN IN VICINITY OF\n   TRACKLINE JOINING\n   04-36.81S 011-45.08E, 04-36.74S 011-44.71E,\n   04-36.50S 011-44.06E, 04-36.30S 011-43.51E,\n   04-35.26S 011-37.26E, 04-35.18S 011-36.74E,\n   04-35.14S 011-36.15E, 04-35.16S 011-35.89E,\n   04-35.31S 011-35.36E, 04-35.26S 011-33.61E,\n   04-35.39S 011-32.44E, 04-35.38S 011-31.94E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 110001Z JAN 24."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nCONGO, (BRAZZAVILLE).\nDNC 01.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 10 JAN 24\n   BY CABLESHIP ILE DE SEIN IN VICINITY OF\n   TRACKLINE JOINING\n   04-36.81S 011-45.08E, 04-36.74S 011-44.71E,\n   04-36.50S 011-44.06E, 04-36.30S 011-43.51E,\n   04-35.26S 011-37.26E, 04-35.18S 011-36.74E,\n   04-35.14S 011-36.15E, 04-35.16S 011-35.89E,\n   04-35.31S 011-35.36E, 04-35.26S 011-33.61E,\n   04-35.39S 011-32.44E, 04-35.38S 011-31.94E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 110001Z JAN 24.",
+    "valid_from": "2023-12-31T11:19:00+00:00",
+    "valid_until": "2024-01-11T00:01:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3213/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.9100000000000001,
+      51.32666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-10-12T21:15:00",
     "raw_dtg": "122115Z OCT 18",
     "msg_id": "HYDROARC 3213/18(37)",
-    "cancellations": [
-      "HYDROARC 3217/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V GLOBAL SYMPHONY IN VICINITY\n51-19.6N 001-54.6E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V GLOBAL SYMPHONY IN VICINITY\n51-19.6N 001-54.6E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2018-10-12T21:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

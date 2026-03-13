@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 77/24(44)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2024-01-10T15:49:00",
     "raw_dtg": "101549Z JAN 24",
     "msg_id": "HYDROARC 77/24(44)",
+    "year": 2024,
     "cancellations": [
-      "HYDROARC 77/24"
+      "71/24"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BALTIC SEA.\nGULF OF BOTHNIA.\nSWEDEN.\nDNC 22.\nCANCEL HYDROLANT 71/24 AND THIS MSG,\nSTATIONS RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BALTIC SEA.\nGULF OF BOTHNIA.\nSWEDEN.\nDNC 22.\nCANCEL HYDROLANT 71/24 AND THIS MSG,\nSTATIONS RESTORED.",
+    "valid_from": "2024-01-10T15:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

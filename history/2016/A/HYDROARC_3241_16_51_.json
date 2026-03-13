@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 3241/16(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -5.666666666666667,
+        35.96
+      ],
+      [
+        -5.743333333333333,
+        35.961666666666666
+      ],
+      [
+        -5.77,
+        35.946666666666665
+      ],
+      [
+        -5.82,
+        35.946666666666665
+      ],
+      [
+        -5.863333333333333,
+        35.935
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-12-02T04:39:00",
     "raw_dtg": "020439Z DEC 16",
     "msg_id": "HYDROARC 3241/16(51)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 3465/16"
+      "3235/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF GIBRALTAR.\nDNC 08.\n1. CABLE REPAIR OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V RAYMOND CROZE WITH SUBMERSIBLE\n   ALONG TRACKLINE JOINING\n   35-57.6N 005-40.0W, 35-57.7N 005-44.6W,\n   35-56.8N 005-46.2W, 35-56.8N 005-49.2W,\n   35-56.1N 005-51.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3235/16."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "STRAIT OF GIBRALTAR.\nDNC 08.\n1. CABLE REPAIR OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V RAYMOND CROZE WITH SUBMERSIBLE\n   ALONG TRACKLINE JOINING\n   35-57.6N 005-40.0W, 35-57.7N 005-44.6W,\n   35-56.8N 005-46.2W, 35-56.8N 005-49.2W,\n   35-56.1N 005-51.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3235/16.",
+    "valid_from": "2016-12-02T04:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

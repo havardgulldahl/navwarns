@@ -3,17 +3,23 @@
   "id": "HYDROARC 2607/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.08333333333333333,
+      54.11666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-10-22T04:07:00",
     "raw_dtg": "220407Z OCT 21",
     "msg_id": "HYDROARC 2607/21(37)",
-    "cancellations": [
-      "HYDROARC 2641/21"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT FLAMBOROUGH HEAD LIGHT\n54-07.0N 000-05.0W INOPERATIVE."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT FLAMBOROUGH HEAD LIGHT\n54-07.0N 000-05.0W INOPERATIVE.",
+    "valid_from": "2021-10-22T04:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

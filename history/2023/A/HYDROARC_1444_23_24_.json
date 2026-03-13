@@ -12,12 +12,17 @@
     "dtg": "2023-06-27T04:14:00",
     "raw_dtg": "270414Z JUN 23",
     "msg_id": "HYDROARC 1444/23(24)",
+    "year": 2023,
     "cancellations": [
       "THIS MSG 250001Z DEC 23",
-      "HYDROARC 2060/23"
+      "958/23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. GARCIA DAVILA LIGHT 12-34.70S 038-00.20W\n   UNLIT UNTIL 24 DEC.\n2. CANCEL HYDROLANT 958/23.\n3. CANCEL THIS MSG 250001Z DEC 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. GARCIA DAVILA LIGHT 12-34.70S 038-00.20W\n   UNLIT UNTIL 24 DEC.\n2. CANCEL HYDROLANT 958/23.\n3. CANCEL THIS MSG 250001Z DEC 23.",
+    "valid_from": "2023-06-27T04:14:00+00:00",
+    "valid_until": "2023-12-25T00:01:00+00:00",
+    "summary": null
   }
 }

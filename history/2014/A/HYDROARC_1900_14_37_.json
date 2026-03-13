@@ -3,17 +3,23 @@
   "id": "HYDROARC 1900/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.5533333333333332,
+      43.49333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-08-08T02:52:00",
     "raw_dtg": "080252Z AUG 14",
     "msg_id": "HYDROARC 1900/14(37)",
-    "cancellations": [
-      "HYDROARC 1952/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nCHART 37032\nPOINTE ST. MARTIN LIGHT 43-29.6N 001-33.2W AT REDUCED INTENSITY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nCHART 37032\nPOINTE ST. MARTIN LIGHT 43-29.6N 001-33.2W AT REDUCED INTENSITY.",
+    "valid_from": "2014-08-08T02:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 2897/20(56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          27.025,
+          32.14666666666667
+        ],
+        [
+          26.748333333333335,
+          31.546666666666667
+        ],
+        [
+          26.048333333333332,
+          31.648333333333333
+        ],
+        [
+          26.381666666666668,
+          32.38333333333333
+        ],
+        [
+          27.025,
+          32.14666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-09-23T12:39:00",
     "raw_dtg": "231239Z SEP 20",
     "msg_id": "HYDROARC 2897/20(56)",
-    "cancellations": [
-      "HYDROARC 3152/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\nDNC 09, DNC 10.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM HYPERION TOWING 16\n9000 METER LONG CABLES IN AREA BOUND BY\n32-08.8N 027-01.5E, 31-32.8N 026-44.9E,\n31-38.9N 026-02.9E, 32-23.0N 026-22.9E,\n32-08.8N 027-01.5E.\nSEVEN MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\nDNC 09, DNC 10.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM HYPERION TOWING 16\n9000 METER LONG CABLES IN AREA BOUND BY\n32-08.8N 027-01.5E, 31-32.8N 026-44.9E,\n31-38.9N 026-02.9E, 32-23.0N 026-22.9E,\n32-08.8N 027-01.5E.\nSEVEN MILE BERTH REQUESTED.",
+    "valid_from": "2020-09-23T12:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

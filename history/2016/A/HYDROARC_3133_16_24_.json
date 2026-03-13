@@ -3,17 +3,25 @@
   "id": "HYDROARC 3133/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.14666666666667,
+      -23.063333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-11-23T20:08:00",
     "raw_dtg": "232008Z NOV 16",
     "msg_id": "HYDROARC 3133/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 3165/16"
+      "THIS MSG 20 DEC 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\n1. RADIOBEACON AND DGPS STATION AT ILHA RASA LIGHT\n   23-03.8S 043-08.8W OFF AIR.\n2. CANCEL THIS MSG 20 DEC 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\n1. RADIOBEACON AND DGPS STATION AT ILHA RASA LIGHT\n   23-03.8S 043-08.8W OFF AIR.\n2. CANCEL THIS MSG 20 DEC 16.",
+    "valid_from": "2016-11-23T20:08:00+00:00",
+    "valid_until": "2016-12-20T00:00:00+00:00",
+    "summary": null
   }
 }

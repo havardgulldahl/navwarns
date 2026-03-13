@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 152/11(38)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2011-09-02T15:30:00",
     "raw_dtg": "021530Z SEP 11",
     "msg_id": "HYDROARC 152/11(38)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 106/11",
-      "HYDROARC 152/11"
+      "HYDROARC 106/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAFFIN BAY.\nDAVIS STRAIT.\nCANCEL HYDROARC 106/11 AND THIS MSG, OPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAFFIN BAY.\nDAVIS STRAIT.\nCANCEL HYDROARC 106/11 AND THIS MSG, OPERATIONS COMPLETED.",
+    "valid_from": "2011-09-02T15:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

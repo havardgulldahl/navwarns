@@ -3,17 +3,23 @@
   "id": "HYDROARC 684/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6066666666666667,
+      51.81666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-03-21T08:09:00",
     "raw_dtg": "210809Z MAR 16",
     "msg_id": "HYDROARC 684/16(37)",
-    "cancellations": [
-      "HYDROARC 695/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\nTRINITY BUOY 51-49.0N 001-36.4E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\nTRINITY BUOY 51-49.0N 001-36.4E UNLIT.",
+    "valid_from": "2016-03-21T08:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

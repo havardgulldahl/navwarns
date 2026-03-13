@@ -3,17 +3,23 @@
   "id": "HYDROARC 818/11(56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      31.981666666666666,
+      31.938333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-05-13T12:39:00",
     "raw_dtg": "131239Z MAY 11",
     "msg_id": "HYDROARC 818/11(56)",
-    "cancellations": [
-      "HYDROARC 819/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\nNGA CHART 56100 (14TH ED).\nPLATFORM ESTABLISHED IN 31-56.3N 031-58.9E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\nNGA CHART 56100 (14TH ED).\nPLATFORM ESTABLISHED IN 31-56.3N 031-58.9E.",
+    "valid_from": "2011-05-13T12:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

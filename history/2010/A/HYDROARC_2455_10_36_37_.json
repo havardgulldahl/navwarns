@@ -3,17 +3,23 @@
   "id": "HYDROARC 2455/10(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.323333333333333,
+      49.97833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-12-18T19:40:00",
     "raw_dtg": "181940Z DEC 10",
     "msg_id": "HYDROARC 2455/10(36,37)",
-    "cancellations": [
-      "HYDROARC 2462/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 36049 (0 ED).\nROUND ISLAND LIGHT 49-58.7N 006-19.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 36049 (0 ED).\nROUND ISLAND LIGHT 49-58.7N 006-19.4W UNRELIABLE.",
+    "valid_from": "2010-12-18T19:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

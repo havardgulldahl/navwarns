@@ -3,17 +3,23 @@
   "id": "HYDROARC 228/11",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      20.001666666666665,
+      -34.833333333333336
+    ]
   },
   "properties": {
     "dtg": "2011-02-06T07:35:00",
     "raw_dtg": "060735Z FEB 11",
     "msg_id": "HYDROARC 228/11",
-    "cancellations": [
-      "HYDROARC 507/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nSOUTH AFRICA TO BRAZIL.\nTEN METER S/V TOTTEN, YELLOW HULL, ONE PERSON ON BOARD,\nOVERDUE CAPE AGULHAS (34-50.0S 020-00.1E) TO BRAZIL.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC CAPE TOWN\nOR CAPE TOWN RADIO."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nSOUTH AFRICA TO BRAZIL.\nTEN METER S/V TOTTEN, YELLOW HULL, ONE PERSON ON BOARD,\nOVERDUE CAPE AGULHAS (34-50.0S 020-00.1E) TO BRAZIL.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC CAPE TOWN\nOR CAPE TOWN RADIO.",
+    "valid_from": "2011-02-06T07:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

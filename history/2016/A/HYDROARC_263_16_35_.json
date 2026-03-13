@@ -3,18 +3,25 @@
   "id": "HYDROARC 263/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.0833333333333335,
+      59.99166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-01-30T17:50:00",
     "raw_dtg": "301750Z JAN 16",
     "msg_id": "HYDROARC 263/16(35)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 021750Z FEB 16",
-      "HYDROARC 263/16"
+      "THIS MSG 021750Z FEB 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\n1. SIX CONTAINERS ADRIFT VICINITY\n   59-59.5N 003-05.0W AT 292300Z JAN.\n   REPORT SIGHTINGS TO CGOC SHETLAND.\n2. CANCEL THIS MSG 021750Z FEB 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\n1. SIX CONTAINERS ADRIFT VICINITY\n   59-59.5N 003-05.0W AT 292300Z JAN.\n   REPORT SIGHTINGS TO CGOC SHETLAND.\n2. CANCEL THIS MSG 021750Z FEB 16.",
+    "valid_from": "2016-01-30T17:50:00+00:00",
+    "valid_until": "2016-02-02T17:50:00+00:00",
+    "summary": null
   }
 }

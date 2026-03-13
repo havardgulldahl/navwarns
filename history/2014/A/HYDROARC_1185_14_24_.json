@@ -3,17 +3,25 @@
   "id": "HYDROARC 1185/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.505,
+      -23.293333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-05-10T12:49:00",
     "raw_dtg": "101249Z MAY 14",
     "msg_id": "HYDROARC 1185/14(24)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2045/14"
+      "THIS MSG 05 NOV 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24150\n1. JUATINGA LIGHT 23-17.6S 044-30.3W UNLIT.\n2. CANCEL THIS MSG 05 NOV 14."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24150\n1. JUATINGA LIGHT 23-17.6S 044-30.3W UNLIT.\n2. CANCEL THIS MSG 05 NOV 14.",
+    "valid_from": "2014-05-10T12:49:00+00:00",
+    "valid_until": "2014-11-05T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2501/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.758333333333333,
+      48.5
+    ]
   },
   "properties": {
     "dtg": "2012-10-25T09:45:00",
     "raw_dtg": "250945Z OCT 12",
     "msg_id": "HYDROARC 2501/12(37)",
-    "cancellations": [
-      "HYDROARC 290/17"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nCHART 37320\nSOUTHWEST BUOY 48-30.0N 005-45.5W TEMPORARILY REMOVED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nCHART 37320\nSOUTHWEST BUOY 48-30.0N 005-45.5W TEMPORARILY REMOVED.",
+    "valid_from": "2012-10-25T09:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

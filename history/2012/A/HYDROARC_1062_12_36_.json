@@ -3,17 +3,23 @@
   "id": "HYDROARC 1062/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.051666666666667,
+      53.361666666666665
+    ]
   },
   "properties": {
     "dtg": "2012-05-17T20:32:00",
     "raw_dtg": "172032Z MAY 12",
     "msg_id": "HYDROARC 1062/12(36)",
-    "cancellations": [
-      "HYDROARC 1786/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nCHART 36007\nBAILY LIGHT 53-21.7N 006-03.1W RANGE REDUCED TO 18 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nCHART 36007\nBAILY LIGHT 53-21.7N 006-03.1W RANGE REDUCED TO 18 MILES.",
+    "valid_from": "2012-05-17T20:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

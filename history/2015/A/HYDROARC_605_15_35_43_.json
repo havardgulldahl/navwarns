@@ -3,17 +3,23 @@
   "id": "HYDROARC 605/15(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.1400000000000001,
+      58.04833333333333
+    ]
   },
   "properties": {
     "dtg": "2015-03-13T17:54:00",
     "raw_dtg": "131754Z MAR 15",
     "msg_id": "HYDROARC 605/15(35,43)",
-    "cancellations": [
-      "HYDROARC 628/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCABLE LAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE BY\nCABLESHIP APACHE 2 VICINITY OF TRACKLINE BETWEEN\n58-02.9N 001-08.4E AND 58-06.1N 000-41.6E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCABLE LAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE BY\nCABLESHIP APACHE 2 VICINITY OF TRACKLINE BETWEEN\n58-02.9N 001-08.4E AND 58-06.1N 000-41.6E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2015-03-13T17:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

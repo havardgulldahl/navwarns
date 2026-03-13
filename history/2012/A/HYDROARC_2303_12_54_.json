@@ -3,17 +3,23 @@
   "id": "HYDROARC 2303/12(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      23.991666666666667,
+      39.94833333333333
+    ]
   },
   "properties": {
     "dtg": "2012-10-02T21:43:00",
     "raw_dtg": "022143Z OCT 12",
     "msg_id": "HYDROARC 2303/12(54)",
-    "cancellations": [
-      "HYDROARC 2397/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nGREECE.\nCHART 54360\nAKRA (DHREPANON) PSEVDHOKAVOS LIGHT 39-56.9N 023-59.5E UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nGREECE.\nCHART 54360\nAKRA (DHREPANON) PSEVDHOKAVOS LIGHT 39-56.9N 023-59.5E UNLIT.",
+    "valid_from": "2012-10-02T21:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

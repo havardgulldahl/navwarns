@@ -3,17 +3,23 @@
   "id": "HYDROARC 607/16(37,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.6666666666666665,
+      53.00833333333333
+    ]
   },
   "properties": {
     "dtg": "2016-03-13T07:40:00",
     "raw_dtg": "130740Z MAR 16",
     "msg_id": "HYDROARC 607/16(37,43)",
-    "cancellations": [
-      "HYDROARC 844/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY BARGE TAKLIFT 4 IN 53-00.5N 002-40.0E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY BARGE TAKLIFT 4 IN 53-00.5N 002-40.0E.",
+    "valid_from": "2016-03-13T07:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

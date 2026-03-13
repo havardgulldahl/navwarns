@@ -3,17 +3,23 @@
   "id": "HYDROARC 772/10(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -54.038333333333334,
+      67.9
+    ]
   },
   "properties": {
     "dtg": "2010-05-03T07:16:00",
     "raw_dtg": "030716Z MAY 10",
     "msg_id": "HYDROARC 772/10(38)",
-    "cancellations": [
-      "HYDROARC 796/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GREENLAND-WEST COAST.\nMAN OVERBOARD IN 67-54.0N 054-02.3W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GREENLAND-WEST COAST.\nMAN OVERBOARD IN 67-54.0N 054-02.3W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2010-05-03T07:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

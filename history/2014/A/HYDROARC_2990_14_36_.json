@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2990/14(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-12-07T14:17:00",
     "raw_dtg": "071417Z DEC 14",
     "msg_id": "HYDROARC 2990/14(36)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2990/14"
+      "2914/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCANCEL HYDROLANT 2914/14 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCANCEL HYDROLANT 2914/14 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2014-12-07T14:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

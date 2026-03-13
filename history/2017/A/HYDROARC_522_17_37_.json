@@ -3,17 +3,23 @@
   "id": "HYDROARC 522/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6333333333333333,
+      52.10166666666667
+    ]
   },
   "properties": {
     "dtg": "2017-02-15T13:11:00",
     "raw_dtg": "151311Z FEB 17",
     "msg_id": "HYDROARC 522/17(37)",
-    "cancellations": [
-      "HYDROARC 1019/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\nDANGEROUS WRECK, LEAST DEPTH 10 METERS,\nIN 52-06.1N 001-38.0E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\nDANGEROUS WRECK, LEAST DEPTH 10 METERS,\nIN 52-06.1N 001-38.0E.",
+    "valid_from": "2017-02-15T13:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

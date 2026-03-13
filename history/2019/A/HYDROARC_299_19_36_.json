@@ -3,17 +3,23 @@
   "id": "HYDROARC 299/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201666666666666,
+      49.96
+    ]
   },
   "properties": {
     "dtg": "2019-01-30T02:06:00",
     "raw_dtg": "300206Z JAN 19",
     "msg_id": "HYDROARC 299/19(36)",
-    "cancellations": [
-      "HYDROARC 303/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36049.\nLIZARD POINT LIGHT 49-57.6N 005-12.1W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36049.\nLIZARD POINT LIGHT 49-57.6N 005-12.1W\nUNRELIABLE.",
+    "valid_from": "2019-01-30T02:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

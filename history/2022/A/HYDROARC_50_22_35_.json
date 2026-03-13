@@ -3,17 +3,23 @@
   "id": "HYDROARC 50/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.6883333333333335,
+      57.7
+    ]
   },
   "properties": {
     "dtg": "2022-01-05T20:15:00",
     "raw_dtg": "052015Z JAN 22",
     "msg_id": "HYDROARC 50/22(35)",
-    "cancellations": [
-      "HYDROARC 77/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nRACON AT HASKEIR ISLAND LIGHT 57-42.0N 007-41.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nRACON AT HASKEIR ISLAND LIGHT 57-42.0N 007-41.3W UNRELIABLE.",
+    "valid_from": "2022-01-05T20:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

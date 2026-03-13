@@ -3,17 +3,25 @@
   "id": "HYDROARC 494/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.68,
+      56.97
+    ]
   },
   "properties": {
     "dtg": "2022-02-20T05:10:00",
     "raw_dtg": "200510Z FEB 22",
     "msg_id": "HYDROARC 494/22(35)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 527/22"
+      "491/22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\n1. LIGHTHOUSE HYSKEIR 56-58.2N 006-40.8W UNLIT.\n2. CANCEL HYDROLANT 491/22."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\n1. LIGHTHOUSE HYSKEIR 56-58.2N 006-40.8W UNLIT.\n2. CANCEL HYDROLANT 491/22.",
+    "valid_from": "2022-02-20T05:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

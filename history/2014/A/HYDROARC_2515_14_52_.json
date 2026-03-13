@@ -3,17 +3,23 @@
   "id": "HYDROARC 2515/14(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.24,
+      36.94833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-10-16T13:43:00",
     "raw_dtg": "161343Z OCT 14",
     "msg_id": "HYDROARC 2515/14(52)",
-    "cancellations": [
-      "HYDROARC 774/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52200.\nCAP ROSA LIGHT 36-56.9N 008-14.4E UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52200.\nCAP ROSA LIGHT 36-56.9N 008-14.4E UNLIT.",
+    "valid_from": "2014-10-16T13:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

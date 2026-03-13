@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 4121/17(57)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        12.450833333333334,
-        -22.5675
-      ],
-      [
-        13.094166666666666,
-        -22.496833333333335
-      ],
-      [
-        13.184166666666666,
-        -23.0675
-      ],
-      [
-        12.5355,
-        -23.1385
+        [
+          12.450833333333334,
+          -22.5675
+        ],
+        [
+          13.094166666666666,
+          -22.496833333333335
+        ],
+        [
+          13.184166666666666,
+          -23.0675
+        ],
+        [
+          12.5355,
+          -23.1385
+        ],
+        [
+          12.450833333333334,
+          -22.5675
+        ]
       ]
     ]
   },
@@ -26,11 +32,14 @@
     "dtg": "2017-12-19T13:21:00",
     "raw_dtg": "191321Z DEC 17",
     "msg_id": "HYDROARC 4121/17(57)",
-    "cancellations": [
-      "HYDROARC 336/18"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nSURVEY OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V RAMFORM HYPERION\nTOWING 9000 METER LONG CABLE\nIN AREA BOUND BY\n22-34.05S 012-27.05E, 22-29.81S 013-05.65E,\n23-04.05S 013-11.05E, 23-08.31S 012-32.13E.\nSIX MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nSURVEY OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V RAMFORM HYPERION\nTOWING 9000 METER LONG CABLE\nIN AREA BOUND BY\n22-34.05S 012-27.05E, 22-29.81S 013-05.65E,\n23-04.05S 013-11.05E, 23-08.31S 012-32.13E.\nSIX MILE BERTH REQUESTED.",
+    "valid_from": "2017-12-19T13:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

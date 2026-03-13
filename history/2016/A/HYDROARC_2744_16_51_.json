@@ -2,28 +2,26 @@
   "type": "Feature",
   "id": "HYDROARC 2744/16(51)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Point",
     "coordinates": [
-      [
-        -6.4775,
-        36.034333333333336
-      ],
-      [
-        -8.922166666666667,
-        36.8425
-      ]
+      -6.4775,
+      36.034333333333336
     ]
   },
   "properties": {
     "dtg": "2016-10-19T12:45:00",
     "raw_dtg": "191245Z OCT 16",
     "msg_id": "HYDROARC 2744/16(51)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 040059Z NOV 16",
-      "HYDROARC 2744/16"
+      "THIS MSG 040059Z NOV 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nGULF OF CADIZ.\nDNC 08.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS\n   UNTIL 032359Z NOV BY M/V RAMON MARGALEF\n   ALONG TRACKLINE BETWEEN\n   36-02.06N 006-28.65W AND 36-50.55N 008-55.33W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 040059Z NOV 16."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nGULF OF CADIZ.\nDNC 08.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS\n   UNTIL 032359Z NOV BY M/V RAMON MARGALEF\n   ALONG TRACKLINE BETWEEN\n   36-02.06N 006-28.65W AND 36-50.55N 008-55.33W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 040059Z NOV 16.",
+    "valid_from": "2016-10-19T12:45:00+00:00",
+    "valid_until": "2016-11-04T00:59:00+00:00",
+    "summary": null
   }
 }

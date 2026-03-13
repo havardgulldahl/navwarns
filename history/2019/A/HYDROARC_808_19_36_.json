@@ -3,17 +3,23 @@
   "id": "HYDROARC 808/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.5516666666666667,
+      51.401666666666664
+    ]
   },
   "properties": {
     "dtg": "2019-03-14T07:24:00",
     "raw_dtg": "140724Z MAR 19",
     "msg_id": "HYDROARC 808/19(36)",
-    "cancellations": [
-      "HYDROARC 819/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nCHART 36044.\nDGPS STATION AT NASH POINT LIGHT\n51-24.1N 003-33.1W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nCHART 36044.\nDGPS STATION AT NASH POINT LIGHT\n51-24.1N 003-33.1W OFF AIR.",
+    "valid_from": "2019-03-14T07:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

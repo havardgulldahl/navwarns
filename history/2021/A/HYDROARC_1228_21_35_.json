@@ -3,17 +3,23 @@
   "id": "HYDROARC 1228/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.408333333333333,
+      59.085
+    ]
   },
   "properties": {
     "dtg": "2021-05-04T10:49:00",
     "raw_dtg": "041049Z MAY 21",
     "msg_id": "HYDROARC 1228/21(35)",
-    "cancellations": [
-      "HYDROARC 1259/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nRACON AT SULE SKERRY LIGHT 59-05.1N 004-24.5W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nRACON AT SULE SKERRY LIGHT 59-05.1N 004-24.5W\nUNRELIABLE.",
+    "valid_from": "2021-05-04T10:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

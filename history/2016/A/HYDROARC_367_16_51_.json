@@ -3,17 +3,23 @@
   "id": "HYDROARC 367/16(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.655,
+      33.61
+    ]
   },
   "properties": {
     "dtg": "2016-02-12T16:00:00",
     "raw_dtg": "121600Z FEB 16",
     "msg_id": "HYDROARC 367/16(51)",
-    "cancellations": [
-      "HYDROARC 389/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCHART 51220.\nEL HANK LIGHT 33-36.6N 007-39.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCHART 51220.\nEL HANK LIGHT 33-36.6N 007-39.3W UNRELIABLE.",
+    "valid_from": "2016-02-12T16:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

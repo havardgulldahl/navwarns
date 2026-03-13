@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1384/14(23,29)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-06-02T21:41:00",
     "raw_dtg": "022141Z JUN 14",
     "msg_id": "HYDROARC 1384/14(23,29)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 052145Z JUN 14",
-      "HYDROARC 1384/14"
+      "THIS MSG 052145Z JUN 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nSCOTIA SEA.\nICE.\n1. ICEBERG B17A, REPORTED IN 60-34S 052-57W.\n2. CANCEL THIS MSG 052145Z JUN 14."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nSCOTIA SEA.\nICE.\n1. ICEBERG B17A, REPORTED IN 60-34S 052-57W.\n2. CANCEL THIS MSG 052145Z JUN 14.",
+    "valid_from": "2014-06-02T21:41:00+00:00",
+    "valid_until": "2014-06-05T21:45:00+00:00",
+    "summary": null
   }
 }

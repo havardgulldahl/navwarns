@@ -3,17 +3,25 @@
   "id": "HYDROARC 2188/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6116666666666668,
+      51.221
+    ]
   },
   "properties": {
     "dtg": "2011-12-17T22:46:00",
     "raw_dtg": "172246Z DEC 11",
     "msg_id": "HYDROARC 2188/11(37)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 2201/11"
+      "2142/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nNGA CHART 37028 (2ND ED).\n1. EAST GOODWIN LIGHTSHIP 51-13.26N 001-36.7E\n   OFF STATION AND UNRELIABLE.\n2. CANCEL HYDROLANT 2142/11."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nNGA CHART 37028 (2ND ED).\n1. EAST GOODWIN LIGHTSHIP 51-13.26N 001-36.7E\n   OFF STATION AND UNRELIABLE.\n2. CANCEL HYDROLANT 2142/11.",
+    "valid_from": "2011-12-17T22:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

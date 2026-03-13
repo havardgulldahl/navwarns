@@ -3,17 +3,23 @@
   "id": "HYDROARC 987/16(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      13.106666666666667,
+      -29.863333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-04-26T16:30:00",
     "raw_dtg": "261630Z APR 16",
     "msg_id": "HYDROARC 987/16(57)",
-    "cancellations": [
-      "HYDROARC 1016/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\nTEN METER S/V CIELO, CREAM HULL, ONE PERSON ON BOARD,\nREQUESTING ASSISTANCE. LAST KNOWN POSITION\n29-51.8S 013-06.4E. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\nTEN METER S/V CIELO, CREAM HULL, ONE PERSON ON BOARD,\nREQUESTING ASSISTANCE. LAST KNOWN POSITION\n29-51.8S 013-06.4E. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2016-04-26T16:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

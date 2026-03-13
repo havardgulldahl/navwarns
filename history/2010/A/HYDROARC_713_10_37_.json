@@ -3,17 +3,25 @@
   "id": "HYDROARC 713/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.56,
+      51.35666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-04-24T13:46:00",
     "raw_dtg": "241346Z APR 10",
     "msg_id": "HYDROARC 713/10(37)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 719/10"
+      "697/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP PETER FABER\n   VICINITY 51-21.4N 001-33.6E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 697/10."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP PETER FABER\n   VICINITY 51-21.4N 001-33.6E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 697/10.",
+    "valid_from": "2010-04-24T13:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

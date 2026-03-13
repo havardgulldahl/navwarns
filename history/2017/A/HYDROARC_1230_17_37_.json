@@ -3,17 +3,23 @@
   "id": "HYDROARC 1230/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.525,
+      53.61333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-04-17T17:03:00",
     "raw_dtg": "171703Z APR 17",
     "msg_id": "HYDROARC 1230/17(37)",
-    "cancellations": [
-      "HYDROARC 1303/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCHART 37057, 37058.\nFOG SIGNAL AT 48/13-PB, 53-36.8N 001-31.5E\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCHART 37057, 37058.\nFOG SIGNAL AT 48/13-PB, 53-36.8N 001-31.5E\nINOPERATIVE.",
+    "valid_from": "2017-04-17T17:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

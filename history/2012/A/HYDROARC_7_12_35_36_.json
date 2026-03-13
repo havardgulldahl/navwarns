@@ -3,17 +3,25 @@
   "id": "HYDROARC 7/12(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.733333333333333,
+      55.526666666666664
+    ]
   },
   "properties": {
     "dtg": "2012-01-02T02:04:00",
     "raw_dtg": "020204Z JAN 12",
     "msg_id": "HYDROARC 7/12(35,36)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 20/12"
+      "5/12"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nCHART 35015\n1. LADY ISLE LIGHT 55-31.6N 004-44.0W UNRELIABLE\n   AND RACON INOPERATIVE.\n2. CANCEL HYDROLANT 5/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nCHART 35015\n1. LADY ISLE LIGHT 55-31.6N 004-44.0W UNRELIABLE\n   AND RACON INOPERATIVE.\n2. CANCEL HYDROLANT 5/12.",
+    "valid_from": "2012-01-02T02:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

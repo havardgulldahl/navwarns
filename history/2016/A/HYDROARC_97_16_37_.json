@@ -3,17 +3,25 @@
   "id": "HYDROARC 97/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.501666666666667,
+      52.215
+    ]
   },
   "properties": {
     "dtg": "2016-01-12T13:45:00",
     "raw_dtg": "121345Z JAN 16",
     "msg_id": "HYDROARC 97/16(37)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 110/16"
+      "3093/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20, DNC 21.\nCHART 37166.\n1. METEOROLOGICAL MAST 52-12.9N 002-30.1E UNLIT\n   AND FOG SIGNAL INOPERATIVE.\n2. CANCEL HYDROLANT 3093/15(35,37), AIDS RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20, DNC 21.\nCHART 37166.\n1. METEOROLOGICAL MAST 52-12.9N 002-30.1E UNLIT\n   AND FOG SIGNAL INOPERATIVE.\n2. CANCEL HYDROLANT 3093/15(35,37), AIDS RESTORED.",
+    "valid_from": "2016-01-12T13:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2119/15(55)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-08-28T17:35:00",
     "raw_dtg": "281735Z AUG 15",
     "msg_id": "HYDROARC 2119/15(55)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 301000Z AUG 15",
-      "HYDROARC 2119/15"
+      "THIS MSG 301000Z AUG 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nGUNNERY.\nDNC 10.\n1. GUNNERY EXERCISES 300800Z TO 300900Z AUG\n   IN AREA BETWEEN\n   43-55N 43-45N AND 030-00E 030-19E.\n2. CANCEL THIS MSG 301000Z AUG 15."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nGUNNERY.\nDNC 10.\n1. GUNNERY EXERCISES 300800Z TO 300900Z AUG\n   IN AREA BETWEEN\n   43-55N 43-45N AND 030-00E 030-19E.\n2. CANCEL THIS MSG 301000Z AUG 15.",
+    "valid_from": "2015-08-28T17:35:00+00:00",
+    "valid_until": "2015-08-30T10:00:00+00:00",
+    "summary": null
   }
 }

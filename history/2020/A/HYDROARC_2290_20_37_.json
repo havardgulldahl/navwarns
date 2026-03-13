@@ -3,17 +3,23 @@
   "id": "HYDROARC 2290/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.4566666666666666,
+      50.515
+    ]
   },
   "properties": {
     "dtg": "2020-07-21T00:48:00",
     "raw_dtg": "210048Z JUL 20",
     "msg_id": "HYDROARC 2290/20(37)",
-    "cancellations": [
-      "HYDROARC 2305/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nBILL OF PORTLAND LIGHT 50-30.9N 002-27.4W UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nBILL OF PORTLAND LIGHT 50-30.9N 002-27.4W UNLIT.",
+    "valid_from": "2020-07-21T00:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

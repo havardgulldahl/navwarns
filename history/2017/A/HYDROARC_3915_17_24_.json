@@ -3,17 +3,25 @@
   "id": "HYDROARC 3915/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.623333333333335,
+      -2.27
+    ]
   },
   "properties": {
     "dtg": "2017-12-05T02:09:00",
     "raw_dtg": "050209Z DEC 17",
     "msg_id": "HYDROARC 3915/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 4145/17"
+      "THIS MSG 03 JUN 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. ILHA DE SANTANA LIGHT 02-16.2S 043-37.4W UNLIT\n   UNTIL 02 JUN 18.\n2. CANCEL THIS MSG 03 JUN 18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. ILHA DE SANTANA LIGHT 02-16.2S 043-37.4W UNLIT\n   UNTIL 02 JUN 18.\n2. CANCEL THIS MSG 03 JUN 18.",
+    "valid_from": "2017-12-05T02:09:00+00:00",
+    "valid_until": "2018-06-03T00:00:00+00:00",
+    "summary": null
   }
 }

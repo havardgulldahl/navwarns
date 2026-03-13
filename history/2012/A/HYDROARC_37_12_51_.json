@@ -2,18 +2,38 @@
   "type": "Feature",
   "id": "HYDROARC 37/12(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -6.028333333333333,
+        35.471666666666664
+      ],
+      [
+        -6.378333333333333,
+        35.69
+      ],
+      [
+        -6.713333333333333,
+        36.03666666666667
+      ],
+      [
+        -6.861666666666666,
+        36.413333333333334
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-01-05T09:25:00",
     "raw_dtg": "050925Z JAN 12",
     "msg_id": "HYDROARC 37/12(51)",
-    "cancellations": [
-      "HYDROARC 183/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\n1. CABLE OPERATIONS 07 THRU 30 JAN\n   BY CABLESHIP ILE DE BREHAT\n   ALONG TRACKLINE JOINING\n   35-28.3N 006-01.7W, 35-41.4N 006-22.7W,\n   36-02.2N 006-42.8W, 36-24.8N 006-51.7W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 JAN."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\n1. CABLE OPERATIONS 07 THRU 30 JAN\n   BY CABLESHIP ILE DE BREHAT\n   ALONG TRACKLINE JOINING\n   35-28.3N 006-01.7W, 35-41.4N 006-22.7W,\n   36-02.2N 006-42.8W, 36-24.8N 006-51.7W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 JAN.",
+    "valid_from": "2012-01-05T09:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

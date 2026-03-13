@@ -2,18 +2,83 @@
   "type": "Feature",
   "id": "HYDROARC 2321/16(52)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.1033333333333333,
+              38.98833333333333
+            ],
+            [
+              1.0595877786304293,
+              39.03350455791506
+            ],
+            [
+              1.6600000000000001,
+              39.22666666666667
+            ],
+            [
+              1.1033333333333333,
+              38.98833333333333
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.0383333333333333,
+              39.026666666666664
+            ],
+            [
+              0.13166666666666668,
+              39.99166666666667
+            ],
+            [
+              1.0595877786304293,
+              39.03350455791506
+            ],
+            [
+              1.0383333333333333,
+              39.026666666666664
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.175,
+            39.501666666666665
+          ],
+          [
+            1.6600000000000001,
+            39.22666666666667
+          ]
+        ]
+      }
+    ]
   },
   "properties": {
     "dtg": "2016-09-07T14:15:00",
     "raw_dtg": "071415Z SEP 16",
     "msg_id": "HYDROARC 2321/16(52)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2321/16"
+      "THIS MSG 24 OCT 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nBALEARIC ISLANDS.\nDNC 08.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS\n   UNTIL 23 OCT BY UNDERWATER GLIDER\n   ALONG TRACKLINE JOINING\n   39-30.1N 002-10.5E, 39-13.6N 001-39.6E,\n   38-59.3N 001-06.2E, 39-59.5N 000-07.9E,\n   39-01.6N 001-02.3E, 39-13.6N 001-39.6E,\n   39-30.1N 002-10.5E.\n2. CANCEL THIS MSG 24 OCT 16."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nBALEARIC ISLANDS.\nDNC 08.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS\n   UNTIL 23 OCT BY UNDERWATER GLIDER\n   ALONG TRACKLINE JOINING\n   39-30.1N 002-10.5E, 39-13.6N 001-39.6E,\n   38-59.3N 001-06.2E, 39-59.5N 000-07.9E,\n   39-01.6N 001-02.3E, 39-13.6N 001-39.6E,\n   39-30.1N 002-10.5E.\n2. CANCEL THIS MSG 24 OCT 16.",
+    "valid_from": "2016-09-07T14:15:00+00:00",
+    "valid_until": "2016-10-24T00:00:00+00:00",
+    "summary": null
   }
 }

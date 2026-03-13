@@ -3,17 +3,25 @@
   "id": "HYDROARC 198/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -53.375,
+      -33.74333333333333
+    ]
   },
   "properties": {
     "dtg": "2022-01-22T00:07:00",
     "raw_dtg": "220007Z JAN 22",
     "msg_id": "HYDROARC 198/22(24)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 488/22"
+      "THIS MSG 21 JUL 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 07.\n1. RADIOBEACON AT CHUI LIGHT 33-44.6S 053-22.5W\n   INOPERATIVE UNTIL 20 JUL.\n2. CANCEL THIS MSG 21 JUL 22."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 07.\n1. RADIOBEACON AT CHUI LIGHT 33-44.6S 053-22.5W\n   INOPERATIVE UNTIL 20 JUL.\n2. CANCEL THIS MSG 21 JUL 22.",
+    "valid_from": "2022-01-22T00:07:00+00:00",
+    "valid_until": "2022-07-21T00:00:00+00:00",
+    "summary": null
   }
 }

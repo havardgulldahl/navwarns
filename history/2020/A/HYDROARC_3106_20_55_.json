@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3106/20(55)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-10-13T00:45:00",
     "raw_dtg": "130045Z OCT 20",
     "msg_id": "HYDROARC 3106/20(55)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3106/20"
+      "3077/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nTURKEY.\nDNC 10.\nCANCEL HYDROLANT 3077/20 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nTURKEY.\nDNC 10.\nCANCEL HYDROLANT 3077/20 AND THIS MSG.",
+    "valid_from": "2020-10-13T00:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,19 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 130/16(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -45.45,
+          -24.1
+        ],
+        [
+          -45.583333333333336,
+          -24.016666666666666
+        ],
+        [
+          -45.775,
+          -24.033333333333335
+        ],
+        [
+          -45.85,
+          -24.233333333333334
+        ],
+        [
+          -45.6,
+          -24.25
+        ],
+        [
+          -45.45,
+          -24.1
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-01-15T10:35:00",
     "raw_dtg": "151035Z JAN 16",
     "msg_id": "HYDROARC 130/16(24)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 202100Z JAN 16",
-      "HYDROARC 130/16"
+      "THIS MSG 202100Z JAN 16"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 201100Z TO 202000Z JAN\n   IN AREA BOUND BY\n   24-06.0S 045-27.0W, 24-01.0S 045-35.0W,\n   24-02.0S 045-46.5W, 24-14.0S 045-51.0W,\n   24-15.0S 045-36.0W.\n2. CANCEL THIS MSG 202100Z JAN 16."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 201100Z TO 202000Z JAN\n   IN AREA BOUND BY\n   24-06.0S 045-27.0W, 24-01.0S 045-35.0W,\n   24-02.0S 045-46.5W, 24-14.0S 045-51.0W,\n   24-15.0S 045-36.0W.\n2. CANCEL THIS MSG 202100Z JAN 16.",
+    "valid_from": "2016-01-15T10:35:00+00:00",
+    "valid_until": "2016-01-20T21:00:00+00:00",
+    "summary": null
   }
 }

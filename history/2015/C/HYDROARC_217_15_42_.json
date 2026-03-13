@@ -2,18 +2,58 @@
   "type": "Feature",
   "id": "HYDROARC 217/15(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          68.77505555555555,
+          73.47513888888889
+        ],
+        [
+          69.98283333333333,
+          73.43736111111112
+        ],
+        [
+          69.96755555555556,
+          73.10708333333332
+        ],
+        [
+          69.41422222222222,
+          72.94319444444444
+        ],
+        [
+          68.92033333333333,
+          72.61486111111111
+        ],
+        [
+          68.65950000000001,
+          72.11375
+        ],
+        [
+          68.16561111111112,
+          72.12958333333333
+        ],
+        [
+          68.77505555555555,
+          73.47513888888889
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-08-05T15:33:00",
     "raw_dtg": "051533Z AUG 15",
     "msg_id": "HYDROARC 217/15(42)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 217/15"
+      "THIS MSG 02 NOV 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nKARA SEA.\nDNC 22.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 01 NOV BY\n   M/V VYACHESLAV TIKHONOV TOWING EIGHT\n   6000 METER LONG CABLES IN AREA BOUND BY\n   73-28-30.5N 068-46-30.2E,\n   73-26-14.5N 069-58-58.2E,\n   73-06-25.5N 069-58-03.2E,\n   72-56-35.5N 069-24-51.2E,\n   72-36-53.5N 068-55-13.2E,\n   72-06-49.5N 068-39-34.2E,\n   72-07-46.5N 068-09-56.2E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 NOV 15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nKARA SEA.\nDNC 22.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 01 NOV BY\n   M/V VYACHESLAV TIKHONOV TOWING EIGHT\n   6000 METER LONG CABLES IN AREA BOUND BY\n   73-28-30.5N 068-46-30.2E,\n   73-26-14.5N 069-58-58.2E,\n   73-06-25.5N 069-58-03.2E,\n   72-56-35.5N 069-24-51.2E,\n   72-36-53.5N 068-55-13.2E,\n   72-06-49.5N 068-39-34.2E,\n   72-07-46.5N 068-09-56.2E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 NOV 15.",
+    "valid_from": "2015-08-05T15:33:00+00:00",
+    "valid_until": "2015-11-02T00:00:00+00:00",
+    "summary": null
   }
 }

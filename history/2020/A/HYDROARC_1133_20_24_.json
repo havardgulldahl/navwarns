@@ -3,17 +3,23 @@
   "id": "HYDROARC 1133/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.30166666666667,
+      -2.4883333333333333
+    ]
   },
   "properties": {
     "dtg": "2020-03-27T21:44:00",
     "raw_dtg": "272144Z MAR 20",
     "msg_id": "HYDROARC 1133/20(24)",
-    "cancellations": [
-      "HYDROARC 3218/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nSOA MARCOS LIGHT 02-29.3S 044-18.1W UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nSOA MARCOS LIGHT 02-29.3S 044-18.1W UNLIT.",
+    "valid_from": "2020-03-27T21:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2121/20(57)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-07-03T01:42:00",
     "raw_dtg": "030142Z JUL 20",
     "msg_id": "HYDROARC 2121/20(57)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 100142Z JUL 20",
-      "HYDROARC 2121/20"
+      "THIS MSG 100142Z JUL 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nDNC 01.\n1. M/V ATTACKED IN 03-49N 002-25E AT 022220Z JUL.\n   VESSELS ARE ADVISED TO KEEP CLEAR OF THIS POSITION\n   AND TO EXERCISE EXTREME CAUTION.\n   REPORTS TO MDAT-GOG,\n   PHONE: 332 9822 8888\n   E-MAIL: WATCHKEEPERS@MDAT-GOG.ORG.\n2. CANCEL THIS MSG 100142Z JUL 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nDNC 01.\n1. M/V ATTACKED IN 03-49N 002-25E AT 022220Z JUL.\n   VESSELS ARE ADVISED TO KEEP CLEAR OF THIS POSITION\n   AND TO EXERCISE EXTREME CAUTION.\n   REPORTS TO MDAT-GOG,\n   PHONE: 332 9822 8888\n   E-MAIL: WATCHKEEPERS@MDAT-GOG.ORG.\n2. CANCEL THIS MSG 100142Z JUL 20.",
+    "valid_from": "2020-07-03T01:42:00+00:00",
+    "valid_until": "2020-07-10T01:42:00+00:00",
+    "summary": null
   }
 }

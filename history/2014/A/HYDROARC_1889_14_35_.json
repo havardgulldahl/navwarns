@@ -3,17 +3,25 @@
   "id": "HYDROARC 1889/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.31,
+      60.635
+    ]
   },
   "properties": {
     "dtg": "2014-08-06T13:27:00",
     "raw_dtg": "061327Z AUG 14",
     "msg_id": "HYDROARC 1889/14(35)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2062/14"
+      "1732/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35066\n1. POINT OF FETHALAND LIGHT 60-38.1N 001-18.6W\n   RANGE TEMPORARILY REDUCED TO 10/8 MILES.\n2. CANCEL HYDROLANT 1732/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35066\n1. POINT OF FETHALAND LIGHT 60-38.1N 001-18.6W\n   RANGE TEMPORARILY REDUCED TO 10/8 MILES.\n2. CANCEL HYDROLANT 1732/14.",
+    "valid_from": "2014-08-06T13:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

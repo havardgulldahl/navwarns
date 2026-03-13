@@ -3,17 +3,23 @@
   "id": "HYDROARC 2431/12(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -55.5,
+      72.575
+    ]
   },
   "properties": {
     "dtg": "2012-10-18T12:56:00",
     "raw_dtg": "181256Z OCT 12",
     "msg_id": "HYDROARC 2431/12(38)",
-    "cancellations": [
-      "HYDROARC 2433/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GREENLAND-WEST COAST.\nBAFFIN BAY.\nVESSEL, WHITE HULL, TWO PERSONS ON BOARD, OVERDUE TO\nNUTAARMIUT (72-34.5N 055-30.0W). VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO AASIAAT RADIO."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GREENLAND-WEST COAST.\nBAFFIN BAY.\nVESSEL, WHITE HULL, TWO PERSONS ON BOARD, OVERDUE TO\nNUTAARMIUT (72-34.5N 055-30.0W). VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO AASIAAT RADIO.",
+    "valid_from": "2012-10-18T12:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

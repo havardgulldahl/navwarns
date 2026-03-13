@@ -3,17 +3,23 @@
   "id": "HYDROARC 2651/15(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -16.47833333333333,
+      23.266666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-10-25T16:56:00",
     "raw_dtg": "251656Z OCT 15",
     "msg_id": "HYDROARC 2651/15(51)",
-    "cancellations": [
-      "HYDROARC 2669/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nWESTERN SAHARA.\nDNC 01.\nHELICOPTER, DOWN IN 23-16.0N 016-28.7W.\nSEARCH AND RESCUE OPERATIONS IN AREA BOUND BY\n24-15N 016-35W, 24-00N 016-00W,\n22-20N 016-40W, 22-40N 017-15W.\nCAUTION ADVISED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nWESTERN SAHARA.\nDNC 01.\nHELICOPTER, DOWN IN 23-16.0N 016-28.7W.\nSEARCH AND RESCUE OPERATIONS IN AREA BOUND BY\n24-15N 016-35W, 24-00N 016-00W,\n22-20N 016-40W, 22-40N 017-15W.\nCAUTION ADVISED.",
+    "valid_from": "2015-10-25T16:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

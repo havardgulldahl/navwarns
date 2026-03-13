@@ -3,17 +3,23 @@
   "id": "HYDROARC 2076/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.4233333333333333,
+      53.291666666666664
+    ]
   },
   "properties": {
     "dtg": "2020-06-28T08:23:00",
     "raw_dtg": "280823Z JUN 20",
     "msg_id": "HYDROARC 2076/20(37)",
-    "cancellations": [
-      "HYDROARC 2120/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS BY CABLESHIP SOVEREIGN\nUNTIL FURTHER NOTICE IN VICINITY 53-17.5N 002-25.4E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS BY CABLESHIP SOVEREIGN\nUNTIL FURTHER NOTICE IN VICINITY 53-17.5N 002-25.4E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2020-06-28T08:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

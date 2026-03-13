@@ -3,17 +3,23 @@
   "id": "HYDROARC 1390/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0533333333333332,
+      57.126666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-05-02T08:18:00",
     "raw_dtg": "020818Z MAY 17",
     "msg_id": "HYDROARC 1390/17(35)",
-    "cancellations": [
-      "HYDROARC 1399/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\nCGOC ABERDEEN MF DSC SERVICE AT GREG NESS\n57-07.6N 002-03.2W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\nCGOC ABERDEEN MF DSC SERVICE AT GREG NESS\n57-07.6N 002-03.2W OFF AIR.",
+    "valid_from": "2017-05-02T08:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

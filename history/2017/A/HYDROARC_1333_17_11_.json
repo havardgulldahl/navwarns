@@ -3,17 +3,23 @@
   "id": "HYDROARC 1333/17(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -87.285,
+      27.698333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-04-27T17:37:00",
     "raw_dtg": "271737Z APR 17",
     "msg_id": "HYDROARC 1333/17(11)",
-    "cancellations": [
-      "HYDROARC 1494/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nDNC 15.\nMAN OVERBOARD IN 27-41.9N 087-17.1W AT 262235Z APR.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, E-MAIL: D8COMMANDCENTER@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nDNC 15.\nMAN OVERBOARD IN 27-41.9N 087-17.1W AT 262235Z APR.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, E-MAIL: D8COMMANDCENTER@USCG.MIL.",
+    "valid_from": "2017-04-27T17:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

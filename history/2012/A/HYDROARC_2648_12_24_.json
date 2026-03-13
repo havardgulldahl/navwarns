@@ -3,17 +3,23 @@
   "id": "HYDROARC 2648/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.78,
+      -12.24
+    ]
   },
   "properties": {
     "dtg": "2012-11-09T00:51:00",
     "raw_dtg": "090051Z NOV 12",
     "msg_id": "HYDROARC 2648/12(24)",
-    "cancellations": [
-      "HYDROARC 2671/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nCHART 24200\nSUBAUMA LIGHT 12-14.4S 037-46.8W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nCHART 24200\nSUBAUMA LIGHT 12-14.4S 037-46.8W UNLIT.",
+    "valid_from": "2012-11-09T00:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

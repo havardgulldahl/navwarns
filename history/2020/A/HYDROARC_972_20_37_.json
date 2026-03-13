@@ -3,17 +3,23 @@
   "id": "HYDROARC 972/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.381666666666667,
+      49.12
+    ]
   },
   "properties": {
     "dtg": "2020-03-14T12:32:00",
     "raw_dtg": "141232Z MAR 20",
     "msg_id": "HYDROARC 972/20(37)",
-    "cancellations": [
-      "HYDROARC 987/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\nALONG TRACKLINE JOINING\n49-07.2N 005-22.9W, 48-57.2N 005-25.9W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\nALONG TRACKLINE JOINING\n49-07.2N 005-22.9W, 48-57.2N 005-25.9W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2020-03-14T12:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

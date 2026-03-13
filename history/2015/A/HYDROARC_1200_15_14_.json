@@ -3,18 +3,25 @@
   "id": "HYDROARC 1200/15(14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -32.461666666666666,
+      43.04333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-05-16T14:24:00",
     "raw_dtg": "161424Z MAY 15",
     "msg_id": "HYDROARC 1200/15(14)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 191424Z MAY 15",
-      "HYDROARC 1200/15"
+      "THIS MSG 191424Z MAY 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 08.\n1. DERELICT VESSEL, WHITE HULL, ADRIFT IN\n   43-02.6N 032-27.7W AT 161204Z MAY.\n2. CANCEL THIS MSG 191424Z MAY 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 08.\n1. DERELICT VESSEL, WHITE HULL, ADRIFT IN\n   43-02.6N 032-27.7W AT 161204Z MAY.\n2. CANCEL THIS MSG 191424Z MAY 15.",
+    "valid_from": "2015-05-16T14:24:00+00:00",
+    "valid_until": "2015-05-19T14:24:00+00:00",
+    "summary": null
   }
 }

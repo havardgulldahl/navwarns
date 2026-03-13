@@ -3,17 +3,23 @@
   "id": "HYDROARC 2018/21(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      9.211666666666666,
+      37.233333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-08-03T11:44:00",
     "raw_dtg": "031144Z AUG 21",
     "msg_id": "HYDROARC 2018/21(52)",
-    "cancellations": [
-      "HYDROARC 2027/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\nCAP SERRAT LIGHT 37-14.0N 009-12.7E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\nCAP SERRAT LIGHT 37-14.0N 009-12.7E UNRELIABLE.",
+    "valid_from": "2021-08-03T11:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

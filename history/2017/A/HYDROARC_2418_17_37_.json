@@ -3,17 +3,23 @@
   "id": "HYDROARC 2418/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.01,
+      51.39666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-08-05T04:44:00",
     "raw_dtg": "050444Z AUG 17",
     "msg_id": "HYDROARC 2418/17(37)",
-    "cancellations": [
-      "HYDROARC 2422/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCHART 37120.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCHART 37120.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E\nUNRELIABLE.",
+    "valid_from": "2017-08-05T04:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

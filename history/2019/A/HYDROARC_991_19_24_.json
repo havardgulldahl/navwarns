@@ -3,17 +3,25 @@
   "id": "HYDROARC 991/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.486666666666665,
+      -5.161666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-03-29T08:48:00",
     "raw_dtg": "290848Z MAR 19",
     "msg_id": "HYDROARC 991/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1014/19"
+      "THIS MSG 24 SEP 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24016.\n1. DGPS STATION AT PONTA DE CALCANHAR\n   05-09.7S 035-29.2W INOPERATIVE.\n2. CANCEL THIS MSG 24 SEP 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24016.\n1. DGPS STATION AT PONTA DE CALCANHAR\n   05-09.7S 035-29.2W INOPERATIVE.\n2. CANCEL THIS MSG 24 SEP 19.",
+    "valid_from": "2019-03-29T08:48:00+00:00",
+    "valid_until": "2019-09-24T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,26 @@
   "id": "HYDROARC 94/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.77,
+      -4.408333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-01-16T02:07:00",
     "raw_dtg": "160207Z JAN 10",
     "msg_id": "HYDROARC 94/10(24)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 141/10"
+      "83/10",
+      "84/10"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24240 (5TH ED).\n1. PONTA CAJUAIS LIGHT 04-24.5S 037-46.2W UNLIT.\n2. CANCEL HYDROLANT 83/10, 84/10."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24240 (5TH ED).\n1. PONTA CAJUAIS LIGHT 04-24.5S 037-46.2W UNLIT.\n2. CANCEL HYDROLANT 83/10, 84/10.",
+    "valid_from": "2010-01-16T02:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

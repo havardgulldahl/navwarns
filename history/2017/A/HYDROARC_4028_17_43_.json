@@ -3,17 +3,23 @@
   "id": "HYDROARC 4028/17(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.7316666666666665,
+      60.54833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-12-13T17:37:00",
     "raw_dtg": "131737Z DEC 17",
     "msg_id": "HYDROARC 4028/17(43)",
-    "cancellations": [
-      "HYDROARC 28/18"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nNORWAY.\nDNC 20.\nCHART 43300.\nPLATFORM OSEBERG H 60-32.9N 002-43.9E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nNORWAY.\nDNC 20.\nCHART 43300.\nPLATFORM OSEBERG H 60-32.9N 002-43.9E UNLIT.",
+    "valid_from": "2017-12-13T17:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

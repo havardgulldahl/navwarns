@@ -3,17 +3,23 @@
   "id": "HYDROARC 3576/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.03666666666667,
+      -10.97
+    ]
   },
   "properties": {
     "dtg": "2018-11-18T07:49:00",
     "raw_dtg": "180749Z NOV 18",
     "msg_id": "HYDROARC 3576/18(24)",
-    "cancellations": [
-      "HYDROARC 3652/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WEST SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nCHART 24210.\nSERGIPE LIGHT 10-58.2S 037-02.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WEST SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nCHART 24210.\nSERGIPE LIGHT 10-58.2S 037-02.2W UNRELIABLE.",
+    "valid_from": "2018-11-18T07:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

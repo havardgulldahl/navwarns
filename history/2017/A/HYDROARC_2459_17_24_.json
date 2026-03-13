@@ -3,17 +3,25 @@
   "id": "HYDROARC 2459/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.93333333333333,
+      -6.675
+    ]
   },
   "properties": {
     "dtg": "2017-08-10T20:20:00",
     "raw_dtg": "102020Z AUG 17",
     "msg_id": "HYDROARC 2459/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2475/17"
+      "THIS MSG 07 FEB 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. BAIA DA TRAICAO LIGHT 06-40.5S 034-56.0W UNLIT\n   UNTIL 06 FEB 18.\n2. CANCEL THIS MSG 07 FEB 18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. BAIA DA TRAICAO LIGHT 06-40.5S 034-56.0W UNLIT\n   UNTIL 06 FEB 18.\n2. CANCEL THIS MSG 07 FEB 18.",
+    "valid_from": "2017-08-10T20:20:00+00:00",
+    "valid_until": "2018-02-07T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3610/18(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.556666666666667,
+      36.041666666666664
+    ]
   },
   "properties": {
     "dtg": "2018-11-20T21:26:00",
     "raw_dtg": "202126Z NOV 18",
     "msg_id": "HYDROARC 3610/18(51)",
-    "cancellations": [
-      "HYDROARC 3611/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF GIBRALTAR.\nSPAIN.\nDNC 08.\nNAVTEX STATION TARIFA (G) 36-02.5N 005-33.4W\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF GIBRALTAR.\nSPAIN.\nDNC 08.\nNAVTEX STATION TARIFA (G) 36-02.5N 005-33.4W\nOFF AIR.",
+    "valid_from": "2018-11-20T21:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

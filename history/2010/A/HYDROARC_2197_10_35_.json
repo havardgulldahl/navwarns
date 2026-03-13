@@ -3,17 +3,25 @@
   "id": "HYDROARC 2197/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.513333333333334,
+      55.67333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-11-18T22:57:00",
     "raw_dtg": "182257Z NOV 10",
     "msg_id": "HYDROARC 2197/10(35)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 2210/10"
+      "2186/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nISLAY.\nNGA CHART 35121 (1ST ED).\n1. RHINNS OF ISLAY LIGHT 55-40.4N 006-30.8W\n   AT REDUCED INTENSITY.\n2. CANCEL HYDROLANT 2186/10."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nISLAY.\nNGA CHART 35121 (1ST ED).\n1. RHINNS OF ISLAY LIGHT 55-40.4N 006-30.8W\n   AT REDUCED INTENSITY.\n2. CANCEL HYDROLANT 2186/10.",
+    "valid_from": "2010-11-18T22:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

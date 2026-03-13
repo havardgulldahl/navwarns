@@ -3,17 +3,23 @@
   "id": "HYDROARC 1922/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.595,
+      54.68666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-08-07T05:21:00",
     "raw_dtg": "070521Z AUG 13",
     "msg_id": "HYDROARC 1922/13(36)",
-    "cancellations": [
-      "HYDROARC 1949/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-NORTHEAST COAST.\nCHART 36011\nBRIGGS BUOY 54-41.2N 005-35.7W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTHEAST COAST.\nCHART 36011\nBRIGGS BUOY 54-41.2N 005-35.7W UNLIT.",
+    "valid_from": "2013-08-07T05:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

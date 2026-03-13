@@ -3,17 +3,23 @@
   "id": "HYDROARC 806/12(26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -78.32388888888889,
+      27.223888888888887
+    ]
   },
   "properties": {
     "dtg": "2012-04-12T04:12:00",
     "raw_dtg": "120412Z APR 12",
     "msg_id": "HYDROARC 806/12(26)",
-    "cancellations": [
-      "HYDROARC 829/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nVESSEL DISABLED AND ADRIFT VICINITY\nGRAND CAY (27-13-26N 078-19-26W). VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nU.S. COAST GUARD MIAMI, PHONE: 305 415 6800."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nVESSEL DISABLED AND ADRIFT VICINITY\nGRAND CAY (27-13-26N 078-19-26W). VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nU.S. COAST GUARD MIAMI, PHONE: 305 415 6800.",
+    "valid_from": "2012-04-12T04:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

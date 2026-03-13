@@ -3,18 +3,25 @@
   "id": "HYDROARC 1045/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.216666666666667,
+      44.321666666666665
+    ]
   },
   "properties": {
     "dtg": "2022-04-12T15:55:00",
     "raw_dtg": "121555Z APR 22",
     "msg_id": "HYDROARC 1045/22(37)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 151555Z APR 22",
-      "HYDROARC 1056/22"
+      "THIS MSG 151555Z APR 22"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. DERELICT 15 METER VESSEL CAPSIZED AND ADRIFT\n   IN VICINITY 44-19.3N 008-13.0W AT 121406Z APR.\n2. CANCEL THIS MSG 151555Z APR 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. DERELICT 15 METER VESSEL CAPSIZED AND ADRIFT\n   IN VICINITY 44-19.3N 008-13.0W AT 121406Z APR.\n2. CANCEL THIS MSG 151555Z APR 22.",
+    "valid_from": "2022-04-12T15:55:00+00:00",
+    "valid_until": "2022-04-15T15:55:00+00:00",
+    "summary": null
   }
 }

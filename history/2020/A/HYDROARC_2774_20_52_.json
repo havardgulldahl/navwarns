@@ -3,18 +3,25 @@
   "id": "HYDROARC 2774/20(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.7349999999999999,
+      37.18
+    ]
   },
   "properties": {
     "dtg": "2020-09-10T00:27:00",
     "raw_dtg": "100027Z SEP 20",
     "msg_id": "HYDROARC 2774/20(52)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 121939Z SEP 20",
-      "HYDROARC 2774/20"
+      "THIS MSG 121939Z SEP 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nDNC 08.\n1. DERELICT VESSEL, BLACK HULL, ADRIFT IN VICINITY\n   37-10.8N 001-44.1W AT 091939Z SEP.\n2. CANCEL THIS MSG 121939Z SEP 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nDNC 08.\n1. DERELICT VESSEL, BLACK HULL, ADRIFT IN VICINITY\n   37-10.8N 001-44.1W AT 091939Z SEP.\n2. CANCEL THIS MSG 121939Z SEP 20.",
+    "valid_from": "2020-09-10T00:27:00+00:00",
+    "valid_until": "2020-09-12T19:39:00+00:00",
+    "summary": null
   }
 }

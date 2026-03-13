@@ -3,17 +3,23 @@
   "id": "HYDROARC 2712/14(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8100000000000005,
+      49.945
+    ]
   },
   "properties": {
     "dtg": "2014-11-11T02:33:00",
     "raw_dtg": "110233Z NOV 14",
     "msg_id": "HYDROARC 2712/14(36,37)",
-    "cancellations": [
-      "HYDROARC 2720/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36049.\nDNC 19, DNC 20.\nRACON AT WOLF ROCK LIGHT 49-56.7N 005-48.6W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36049.\nDNC 19, DNC 20.\nRACON AT WOLF ROCK LIGHT 49-56.7N 005-48.6W INOPERATIVE.",
+    "valid_from": "2014-11-11T02:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

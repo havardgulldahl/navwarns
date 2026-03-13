@@ -3,17 +3,23 @@
   "id": "HYDROARC 1492/10(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -56.45333333333333,
+      27.26
+    ]
   },
   "properties": {
     "dtg": "2010-08-04T01:01:00",
     "raw_dtg": "040101Z AUG 10",
     "msg_id": "HYDROARC 1492/10(25)",
-    "cancellations": [
-      "HYDROARC 1767/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM 40 FOOT\nS/V FANTA SEA IN 27-15.6N 056-27.2W AT 032329Z AUG.\nREPORTS TO RCC NORFOLK, TELEX: 127775,\nINMARSAT-C: 430370670, PHONE: 757 398 6231,\nFAX: 757 398 6392, E-MAIL: D05-SMB-D5CC@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM 40 FOOT\nS/V FANTA SEA IN 27-15.6N 056-27.2W AT 032329Z AUG.\nREPORTS TO RCC NORFOLK, TELEX: 127775,\nINMARSAT-C: 430370670, PHONE: 757 398 6231,\nFAX: 757 398 6392, E-MAIL: D05-SMB-D5CC@USCG.MIL.",
+    "valid_from": "2010-08-04T01:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

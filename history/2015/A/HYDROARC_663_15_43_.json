@@ -2,18 +2,42 @@
   "type": "Feature",
   "id": "HYDROARC 663/15(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        2.24,
+        59.571666666666665
+      ],
+      [
+        2.0683333333333334,
+        59.61666666666667
+      ],
+      [
+        1.5116666666666667,
+        59.641666666666666
+      ],
+      [
+        1.195,
+        59.56666666666667
+      ],
+      [
+        1.0483333333333333,
+        59.57666666666667
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-03-18T16:09:00",
     "raw_dtg": "181609Z MAR 15",
     "msg_id": "HYDROARC 663/15(43)",
-    "cancellations": [
-      "HYDROARC 1767/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS BY CABLESHIP\nCABLE INNOVATOR VICINITY OF TRACKLINE JOINING\n59-34.3N 002-14.4E, 59-37.0N 002-04.1E,\n59-38.5N 001-30.7E, 59-34.0N 001-11.7E,\n59-34.6N 001-02.9E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS BY CABLESHIP\nCABLE INNOVATOR VICINITY OF TRACKLINE JOINING\n59-34.3N 002-14.4E, 59-37.0N 002-04.1E,\n59-38.5N 001-30.7E, 59-34.0N 001-11.7E,\n59-34.6N 001-02.9E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2015-03-18T16:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

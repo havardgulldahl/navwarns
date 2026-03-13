@@ -3,17 +3,23 @@
   "id": "HYDROARC 1372/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.075,
+      53.275
+    ]
   },
   "properties": {
     "dtg": "2010-07-18T21:44:00",
     "raw_dtg": "182144Z JUL 10",
     "msg_id": "HYDROARC 1372/10(36)",
-    "cancellations": [
-      "HYDROARC 1381/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nNGA CHART 36007 (1ST ED).\nMUGLINS LIGHT 53-16.5N 006-04.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nNGA CHART 36007 (1ST ED).\nMUGLINS LIGHT 53-16.5N 006-04.5W UNRELIABLE.",
+    "valid_from": "2010-07-18T21:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

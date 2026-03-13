@@ -3,17 +3,23 @@
   "id": "HYDROARC 70/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.1033333333333335,
+      53.11666666666667
+    ]
   },
   "properties": {
     "dtg": "2022-01-07T19:54:00",
     "raw_dtg": "071954Z JAN 22",
     "msg_id": "HYDROARC 70/22(37)",
-    "cancellations": [
-      "HYDROARC 95/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT PLATFORM 49/26-G 53-07.0N 002-06.2E\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT PLATFORM 49/26-G 53-07.0N 002-06.2E\nINOPERATIVE.",
+    "valid_from": "2022-01-07T19:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

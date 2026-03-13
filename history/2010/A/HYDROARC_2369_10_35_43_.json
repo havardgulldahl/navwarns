@@ -3,17 +3,23 @@
   "id": "HYDROARC 2369/10(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.066666666666666,
+      56.638333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-12-08T19:00:00",
     "raw_dtg": "081900Z DEC 10",
     "msg_id": "HYDROARC 2369/10(35,43)",
-    "cancellations": [
-      "HYDROARC 731/11"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35096(1ST ED).\nRUBHA NAN GALL LIGHT 56-38.3N 006-04.0W\nPERMANETLY CHANGED TO: FL 3 SEC 17 METERS 10 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35096(1ST ED).\nRUBHA NAN GALL LIGHT 56-38.3N 006-04.0W\nPERMANETLY CHANGED TO: FL 3 SEC 17 METERS 10 MILES.",
+    "valid_from": "2010-12-08T19:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

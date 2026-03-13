@@ -3,17 +3,25 @@
   "id": "HYDROARC 2407/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.35666666666667,
+      -0.615
+    ]
   },
   "properties": {
     "dtg": "2016-09-16T00:51:00",
     "raw_dtg": "160051Z SEP 16",
     "msg_id": "HYDROARC 2407/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2489/16"
+      "THIS MSG 13 MAR 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24290.\n1. SALINOPOLIS LIGHT 00-36.9S 047-21.4W UNRELIABLE.\n2. CANCEL THIS MSG 13 MAR 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24290.\n1. SALINOPOLIS LIGHT 00-36.9S 047-21.4W UNRELIABLE.\n2. CANCEL THIS MSG 13 MAR 17.",
+    "valid_from": "2016-09-16T00:51:00+00:00",
+    "valid_until": "2017-03-13T00:00:00+00:00",
+    "summary": null
   }
 }

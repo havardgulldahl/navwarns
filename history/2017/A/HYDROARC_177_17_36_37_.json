@@ -3,17 +3,25 @@
   "id": "HYDROARC 177/17(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.18166666666666667,
+      50.38666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-01-18T12:02:00",
     "raw_dtg": "181202Z JAN 17",
     "msg_id": "HYDROARC 177/17(36,37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 357/17"
+      "3298/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 36005.\n1. FISHING GEAR ON SEABED IN 50-23.2N 000-10.9E.\n2. CANCEL HYDROLANT 3298/16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 36005.\n1. FISHING GEAR ON SEABED IN 50-23.2N 000-10.9E.\n2. CANCEL HYDROLANT 3298/16.",
+    "valid_from": "2017-01-18T12:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

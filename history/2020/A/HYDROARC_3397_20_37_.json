@@ -3,17 +3,23 @@
   "id": "HYDROARC 3397/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.060000000000000005,
+      50.24
+    ]
   },
   "properties": {
     "dtg": "2020-11-04T15:13:00",
     "raw_dtg": "041513Z NOV 20",
     "msg_id": "HYDROARC 3397/20(37)",
-    "cancellations": [
-      "HYDROARC 3892/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V EGS PIONEER\nIN VICINITY OF TRACKLINE JOINING\n50-14.4N 000-03.6E, 50-33.8N 000-02.9E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V EGS PIONEER\nIN VICINITY OF TRACKLINE JOINING\n50-14.4N 000-03.6E, 50-33.8N 000-02.9E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2020-11-04T15:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

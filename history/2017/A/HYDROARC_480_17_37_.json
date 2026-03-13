@@ -3,17 +3,23 @@
   "id": "HYDROARC 480/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.525,
+      53.61333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-02-11T18:06:00",
     "raw_dtg": "111806Z FEB 17",
     "msg_id": "HYDROARC 480/17(37)",
-    "cancellations": [
-      "HYDROARC 583/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37057, 37058.\nALL NAVIGATIONAL AIDS AT PLATFORM 48/13-PB,\n53-36.8N 001-31.5E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37057, 37058.\nALL NAVIGATIONAL AIDS AT PLATFORM 48/13-PB,\n53-36.8N 001-31.5E INOPERATIVE.",
+    "valid_from": "2017-02-11T18:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

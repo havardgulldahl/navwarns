@@ -3,18 +3,25 @@
   "id": "HYDROARC 2829/19(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.063333333333333,
+      37.50333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-09-16T23:58:00",
     "raw_dtg": "162358Z SEP 19",
     "msg_id": "HYDROARC 2829/19(52)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 192358Z SEP 19",
-      "HYDROARC 2829/19"
+      "THIS MSG 192358Z SEP 19"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nTUNISIA.\nDNC 08.\n1. DERELICT F/V ADRIFT IN VICINITY\n   37-30.2N 011-03.8E.\n2. CANCEL THIS MSG 192358Z SEP 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nTUNISIA.\nDNC 08.\n1. DERELICT F/V ADRIFT IN VICINITY\n   37-30.2N 011-03.8E.\n2. CANCEL THIS MSG 192358Z SEP 19.",
+    "valid_from": "2019-09-16T23:58:00+00:00",
+    "valid_until": "2019-09-19T23:58:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2256/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.915,
+      48.31166666666667
+    ]
   },
   "properties": {
     "dtg": "2018-07-11T16:14:00",
     "raw_dtg": "111614Z JUL 18",
     "msg_id": "HYDROARC 2256/18(37)",
-    "cancellations": [
-      "HYDROARC 2488/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nCHART 37320.\nLES PIERRES NOIRES 48-18.7N 004-54.9W RANGE\nREDUCED TO 13 MILES AND UNLIT FROM 150 DEGREES TO\n220 DEGREES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nCHART 37320.\nLES PIERRES NOIRES 48-18.7N 004-54.9W RANGE\nREDUCED TO 13 MILES AND UNLIT FROM 150 DEGREES TO\n220 DEGREES.",
+    "valid_from": "2018-07-11T16:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

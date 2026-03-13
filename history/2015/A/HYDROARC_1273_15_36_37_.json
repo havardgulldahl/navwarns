@@ -3,17 +3,25 @@
   "id": "HYDROARC 1273/15(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.78,
+      49.593333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-05-24T06:50:00",
     "raw_dtg": "240650Z MAY 15",
     "msg_id": "HYDROARC 1273/15(36,37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 1287/15"
+      "1239/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\n   WITHIN TWO MILES OF 49-35.6N 004-46.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1239/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\n   WITHIN TWO MILES OF 49-35.6N 004-46.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1239/15.",
+    "valid_from": "2015-05-24T06:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

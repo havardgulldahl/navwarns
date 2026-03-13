@@ -3,17 +3,25 @@
   "id": "HYDROARC 272/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.94833333333333,
+      -13.878333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-01-25T00:42:00",
     "raw_dtg": "250042Z JAN 18",
     "msg_id": "HYDROARC 272/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 451/18"
+      "THIS MSG 24 JUL 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. PONTA MUTA LIGHT 13-52.7S 038-56.9W UNLIT\n   UNTIL 23 JUL.\n2. CANCEL THIS MSG 24 JUL 18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. PONTA MUTA LIGHT 13-52.7S 038-56.9W UNLIT\n   UNTIL 23 JUL.\n2. CANCEL THIS MSG 24 JUL 18.",
+    "valid_from": "2018-01-25T00:42:00+00:00",
+    "valid_until": "2018-07-24T00:00:00+00:00",
+    "summary": null
   }
 }

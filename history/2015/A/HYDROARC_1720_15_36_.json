@@ -3,17 +3,25 @@
   "id": "HYDROARC 1720/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.743333333333333,
+      54.755
+    ]
   },
   "properties": {
     "dtg": "2015-07-13T16:17:00",
     "raw_dtg": "131617Z JUL 15",
     "msg_id": "HYDROARC 1720/15(36)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2077/15"
+      "1334/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nDNC 20.\nCHART 36025.\n1. ALL NAVIGATIONAL AIDS AT WIND TURBINE G1,\n   54-45.3N 003-44.6W INOPERATIVE.\n2. CANCEL HYDROLANT 1334/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nDNC 20.\nCHART 36025.\n1. ALL NAVIGATIONAL AIDS AT WIND TURBINE G1,\n   54-45.3N 003-44.6W INOPERATIVE.\n2. CANCEL HYDROLANT 1334/15.",
+    "valid_from": "2015-07-13T16:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

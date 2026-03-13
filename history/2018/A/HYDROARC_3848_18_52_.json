@@ -3,17 +3,23 @@
   "id": "HYDROARC 3848/18(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      7.841666666666667,
+      36.905
+    ]
   },
   "properties": {
     "dtg": "2018-12-10T17:19:00",
     "raw_dtg": "101719Z DEC 18",
     "msg_id": "HYDROARC 3848/18(52)",
-    "cancellations": [
-      "HYDROARC 743/19"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52200.\nDANGEROUS WRECK MARKED BY BUOYS AND FLASHING LIGHT\nIN 36-54.3N 007-50.5E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52200.\nDANGEROUS WRECK MARKED BY BUOYS AND FLASHING LIGHT\nIN 36-54.3N 007-50.5E.",
+    "valid_from": "2018-12-10T17:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

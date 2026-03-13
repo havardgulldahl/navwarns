@@ -3,18 +3,26 @@
   "id": "HYDROARC 2254/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.013333333333334,
+      57.50333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-09-17T13:13:00",
     "raw_dtg": "171313Z SEP 14",
     "msg_id": "HYDROARC 2254/14(35)",
+    "year": 2014,
     "cancellations": [
       "THIS MSG 192000Z SEP 14",
-      "HYDROARC 2254/14"
+      "2235/14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 1900Z DAILY\n   18 THRU 19 SEP WITHIN 37 MILES OF\n   57-30.2N 009-00.8W.\n   VESSELS INTENDING TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 OR\n   PHONE: 187 060 4449 FOR ADVICE.\n3. CANCEL HYDROLANT 2235/14(24).\n2. CANCEL THIS MSG 192000Z SEP 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 1900Z DAILY\n   18 THRU 19 SEP WITHIN 37 MILES OF\n   57-30.2N 009-00.8W.\n   VESSELS INTENDING TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 OR\n   PHONE: 187 060 4449 FOR ADVICE.\n3. CANCEL HYDROLANT 2235/14(24).\n2. CANCEL THIS MSG 192000Z SEP 14.",
+    "valid_from": "2014-09-17T13:13:00+00:00",
+    "valid_until": "2014-09-19T20:00:00+00:00",
+    "summary": null
   }
 }

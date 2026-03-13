@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1451/12(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-07-02T03:25:00",
     "raw_dtg": "020325Z JUL 12",
     "msg_id": "HYDROARC 1451/12(35)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1451/12"
+      "1429/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nORKNEY ISLANDS.\nCANCEL HYDROLANT 1429/12 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nORKNEY ISLANDS.\nCANCEL HYDROLANT 1429/12 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2012-07-02T03:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

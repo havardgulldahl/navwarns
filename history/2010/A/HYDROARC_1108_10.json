@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1108/10",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-06-14T12:40:00",
     "raw_dtg": "141240Z JUN 10",
     "msg_id": "HYDROARC 1108/10",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1108/10"
+      "1093/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "FALKLAND ISLANDS TO SOUTH AFRICA.\nCANCEL HYDROLANT 1093/10 AND THIS MSG, VESSEL LOCATED SAFE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FALKLAND ISLANDS TO SOUTH AFRICA.\nCANCEL HYDROLANT 1093/10 AND THIS MSG, VESSEL LOCATED SAFE.",
+    "valid_from": "2010-06-14T12:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

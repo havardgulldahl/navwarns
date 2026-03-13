@@ -3,17 +3,23 @@
   "id": "HYDROARC 2849/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.9766666666666666,
+      60.06333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-11-11T17:40:00",
     "raw_dtg": "111740Z NOV 13",
     "msg_id": "HYDROARC 2849/13(35)",
-    "cancellations": [
-      "HYDROARC 290/17"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nCHART 35064\nWELLS ESTABLISHED WITHIN 600 METERS\nOF 60-03.8N 003-58.6W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nCHART 35064\nWELLS ESTABLISHED WITHIN 600 METERS\nOF 60-03.8N 003-58.6W.",
+    "valid_from": "2013-11-11T17:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3215/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.5333333333333332,
+      55.32833333333333
+    ]
   },
   "properties": {
     "dtg": "2015-12-30T21:11:00",
     "raw_dtg": "302111Z DEC 15",
     "msg_id": "HYDROARC 3215/15(35)",
-    "cancellations": [
-      "HYDROARC 284/16"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35010.\nDANGEROUS WRECK IN 55-19.7N 001-32.0W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35010.\nDANGEROUS WRECK IN 55-19.7N 001-32.0W.",
+    "valid_from": "2015-12-30T21:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

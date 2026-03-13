@@ -3,17 +3,23 @@
   "id": "HYDROARC 1176/13(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.348333333333333,
+      36.87166666666667
+    ]
   },
   "properties": {
     "dtg": "2013-05-10T16:05:00",
     "raw_dtg": "101605Z MAY 13",
     "msg_id": "HYDROARC 1176/13(52)",
-    "cancellations": [
-      "HYDROARC 1194/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nCHART 52180\nRAS QARTAJAMAH LIGHT 36-52.3N 010-20.9E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nCHART 52180\nRAS QARTAJAMAH LIGHT 36-52.3N 010-20.9E UNRELIABLE.",
+    "valid_from": "2013-05-10T16:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

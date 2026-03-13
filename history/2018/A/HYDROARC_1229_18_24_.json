@@ -3,17 +3,23 @@
   "id": "HYDROARC 1229/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.18833333333333,
+      -0.9116666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-04-18T13:24:00",
     "raw_dtg": "181324Z APR 18",
     "msg_id": "HYDROARC 1229/18(24)",
-    "cancellations": [
-      "HYDROARC 1741/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270, 24290.\nIIHA DO APEU LIGHT 00-54.7S 046-11.3W DESTROYED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270, 24290.\nIIHA DO APEU LIGHT 00-54.7S 046-11.3W DESTROYED.",
+    "valid_from": "2018-04-18T13:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

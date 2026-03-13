@@ -3,17 +3,23 @@
   "id": "HYDROARC 26/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.0,
+      58.625
+    ]
   },
   "properties": {
     "dtg": "2016-01-02T22:58:00",
     "raw_dtg": "022258Z JAN 16",
     "msg_id": "HYDROARC 26/16(35)",
-    "cancellations": [
-      "HYDROARC 61/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTH COAST.\nDNC 19, DNC 20.\nCHART 35001.\nCAPE WRATH LIGHT 58-37.5N 005-00.0W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTH COAST.\nDNC 19, DNC 20.\nCHART 35001.\nCAPE WRATH LIGHT 58-37.5N 005-00.0W UNRELIABLE.",
+    "valid_from": "2016-01-02T22:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

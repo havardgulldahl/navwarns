@@ -3,17 +3,23 @@
   "id": "HYDROARC 37/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.31,
+      52.288333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-01-04T07:42:00",
     "raw_dtg": "040742Z JAN 18",
     "msg_id": "HYDROARC 37/18(37)",
-    "cancellations": [
-      "HYDROARC 154/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN WITH SUBMERSIBLE\nIN VICINITY 52-17.3N 002-18.6E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN WITH SUBMERSIBLE\nIN VICINITY 52-17.3N 002-18.6E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2018-01-04T07:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

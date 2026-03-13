@@ -3,17 +3,23 @@
   "id": "HYDROARC 54/12(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.58,
+      36.41166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-01-06T23:49:00",
     "raw_dtg": "062349Z JAN 12",
     "msg_id": "HYDROARC 54/12(53)",
-    "cancellations": [
-      "HYDROARC 60/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "STRAIT OF SICILY.\n1. DERELICT 130 METER M/V FAST PROVENCE, BLUE HULL,\n   ADRIFT VICINITY 36-24.7N 012-34.8E AT 062120Z JAN.\n2. CANCEL THIS MSG 100001Z JAN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF SICILY.\n1. DERELICT 130 METER M/V FAST PROVENCE, BLUE HULL,\n   ADRIFT VICINITY 36-24.7N 012-34.8E AT 062120Z JAN.\n2. CANCEL THIS MSG 100001Z JAN.",
+    "valid_from": "2012-01-06T23:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

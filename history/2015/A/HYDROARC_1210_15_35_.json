@@ -3,17 +3,23 @@
   "id": "HYDROARC 1210/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.65,
+      59.515
+    ]
   },
   "properties": {
     "dtg": "2015-05-18T01:30:00",
     "raw_dtg": "180130Z MAY 15",
     "msg_id": "HYDROARC 1210/15(35)",
-    "cancellations": [
-      "HYDROARC 1226/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nFAIR ISLE.\nDNC 20.\nCHART 35063.\nSKADAN LIGHT 59-30.9N 001-39.0W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nFAIR ISLE.\nDNC 20.\nCHART 35063.\nSKADAN LIGHT 59-30.9N 001-39.0W UNLIT.",
+    "valid_from": "2015-05-18T01:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

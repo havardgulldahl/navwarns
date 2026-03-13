@@ -3,17 +3,23 @@
   "id": "HYDROARC 727/22(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.211666666666667,
+      52.28333333333333
+    ]
   },
   "properties": {
     "dtg": "2022-03-13T01:11:00",
     "raw_dtg": "130111Z MAR 22",
     "msg_id": "HYDROARC 727/22(36)",
-    "cancellations": [
-      "HYDROARC 767/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19.\nLUCIFER BUOY 52-17.0N 006-12.7W AIS INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19.\nLUCIFER BUOY 52-17.0N 006-12.7W AIS INOPERATIVE.",
+    "valid_from": "2022-03-13T01:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

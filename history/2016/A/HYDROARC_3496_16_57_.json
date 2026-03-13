@@ -3,18 +3,25 @@
   "id": "HYDROARC 3496/16(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      7.428333333333334,
+      -27.538333333333334
+    ]
   },
   "properties": {
     "dtg": "2016-12-26T21:26:00",
     "raw_dtg": "262126Z DEC 16",
     "msg_id": "HYDROARC 3496/16(57)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 292126Z DEC 16",
-      "HYDROARC 3496/16"
+      "THIS MSG 292126Z DEC 16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT VESSEL ADRIFT AND SINKING IN\n   27-32.3S 007-25.7E.\n2. CANCEL THIS MSG 292126Z DEC 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT VESSEL ADRIFT AND SINKING IN\n   27-32.3S 007-25.7E.\n2. CANCEL THIS MSG 292126Z DEC 16.",
+    "valid_from": "2016-12-26T21:26:00+00:00",
+    "valid_until": "2016-12-29T21:26:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 1330/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.2816666666666667,
+      51.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-06-01T09:09:00",
     "raw_dtg": "010909Z JUN 15",
     "msg_id": "HYDROARC 1330/15(37)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 301200Z JUN 15",
-      "HYDROARC 1330/15"
+      "THIS MSG 301200Z JUN 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nRADIO SERVICES.\nDNC 20.\n1. MRCC THAMES 51-51.2N 001-16.9E WILL CLOSE AT 051600Z JUN.\n   MRCC FAREHAM 50-51.5N 001-14.9W ASSUMES CONTROL.\n2. CANCEL THIS MSG 301200Z JUN 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nRADIO SERVICES.\nDNC 20.\n1. MRCC THAMES 51-51.2N 001-16.9E WILL CLOSE AT 051600Z JUN.\n   MRCC FAREHAM 50-51.5N 001-14.9W ASSUMES CONTROL.\n2. CANCEL THIS MSG 301200Z JUN 15.",
+    "valid_from": "2015-06-01T09:09:00+00:00",
+    "valid_until": "2015-06-30T12:00:00+00:00",
+    "summary": null
   }
 }

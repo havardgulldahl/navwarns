@@ -2,18 +2,88 @@
   "type": "Feature",
   "id": "HYDROARC 222/12(15,16)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -141.0,
+          71.44333333333333
+        ],
+        [
+          -138.855,
+          71.93666666666667
+        ],
+        [
+          -138.83,
+          71.94833333333334
+        ],
+        [
+          -138.79833333333335,
+          71.13333333333334
+        ],
+        [
+          -140.26333333333332,
+          70.08333333333333
+        ],
+        [
+          -141.0,
+          70.19833333333334
+        ],
+        [
+          -141.0,
+          69.88
+        ],
+        [
+          -142.785,
+          70.11
+        ],
+        [
+          -143.54,
+          70.23166666666667
+        ],
+        [
+          -145.51333333333332,
+          70.19666666666667
+        ],
+        [
+          -147.67666666666668,
+          70.56
+        ],
+        [
+          -152.66,
+          71.01
+        ],
+        [
+          -155.99666666666667,
+          71.48
+        ],
+        [
+          -158.38833333333332,
+          71.46
+        ],
+        [
+          -156.63333333333333,
+          73.41666666666667
+        ],
+        [
+          -141.0,
+          71.44333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-10-20T12:08:00",
     "raw_dtg": "201208Z OCT 12",
     "msg_id": "HYDROARC 222/12(15,16)",
-    "cancellations": [
-      "HYDROARC 234/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nBEAUFORT SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEO ARCTIC TOWING CABLE IN AREA BOUND BY\n71-26.6N 141-00.0W, 71-56.2N 138-51.3W,\n71-56.9N 138-49.8W, 71-08.0N 138-47.9W,\n70-05.0N 140-15.8W, 70-11.9N 141-00.0W,\n69-52.8N 141-00.0W, 70-06.6N 142-47.1W,\n70-13.9N 143-32.4W, 70-11.8N 145-30.8W,\n70-33.6N 147-40.6W, 71-00.6N 152-39.6W,\n71-28.8N 155-59.8W, 71-27.6N 158-23.3W,\n73-25.0N 156-38.0W.\nTEN MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBEAUFORT SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEO ARCTIC TOWING CABLE IN AREA BOUND BY\n71-26.6N 141-00.0W, 71-56.2N 138-51.3W,\n71-56.9N 138-49.8W, 71-08.0N 138-47.9W,\n70-05.0N 140-15.8W, 70-11.9N 141-00.0W,\n69-52.8N 141-00.0W, 70-06.6N 142-47.1W,\n70-13.9N 143-32.4W, 70-11.8N 145-30.8W,\n70-33.6N 147-40.6W, 71-00.6N 152-39.6W,\n71-28.8N 155-59.8W, 71-27.6N 158-23.3W,\n73-25.0N 156-38.0W.\nTEN MILE BERTH REQUESTED.",
+    "valid_from": "2012-10-20T12:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

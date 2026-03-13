@@ -3,18 +3,26 @@
   "id": "HYDROARC 679/17(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.0583333333333333,
+      59.55
+    ]
   },
   "properties": {
     "dtg": "2017-03-01T21:09:00",
     "raw_dtg": "012109Z MAR 17",
     "msg_id": "HYDROARC 679/17(35,43)",
+    "year": 2017,
     "cancellations": [
       "THIS MSG 042109Z MAR 17",
-      "HYDROARC 687/17"
+      "676/17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\n1. DERELICT 13 METER S/V ADRIFT IN VICINITY\n   59-33.0N 001-03.5E AT 011735Z MAR.\n   REPORTS TO SHETLAND COAST GUARD.\n2. CANCEL HYDROLANT 676/17.\n3. CANCEL THIS MSG 042109Z MAR 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\n1. DERELICT 13 METER S/V ADRIFT IN VICINITY\n   59-33.0N 001-03.5E AT 011735Z MAR.\n   REPORTS TO SHETLAND COAST GUARD.\n2. CANCEL HYDROLANT 676/17.\n3. CANCEL THIS MSG 042109Z MAR 17.",
+    "valid_from": "2017-03-01T21:09:00+00:00",
+    "valid_until": "2017-03-04T21:09:00+00:00",
+    "summary": null
   }
 }

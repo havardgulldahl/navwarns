@@ -2,19 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 1231/18(23)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.026666666666664,
+          -51.733333333333334
+        ],
+        [
+          -57.89,
+          -51.74
+        ],
+        [
+          -57.66833333333334,
+          -51.80166666666667
+        ],
+        [
+          -57.785,
+          -51.92
+        ],
+        [
+          -58.013333333333335,
+          -51.95333333333333
+        ],
+        [
+          -58.026666666666664,
+          -51.82333333333333
+        ],
+        [
+          -58.026666666666664,
+          -51.733333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-04-18T14:51:00",
     "raw_dtg": "181451Z APR 18",
     "msg_id": "HYDROARC 1231/18(23)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 290059Z APR 18",
-      "HYDROARC 1243/18"
+      "THIS MSG 290059Z APR 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nFALKLAND ISLANDS.\nDNC 07.\n1. MISSILE OPERATIONS 1200Z TO 2359Z DAILY\n   23 THRU 28 APR IN AREA BOUND BY\n   51-44.0S 058-01.6W, 51-44.4S 057-53.4W,\n   51-48.1S 057-40.1W, 51-55.2S 057-47.1W,\n   51-57.2S 058-00.8W, 51-49.4S 058-01.6W,\n   51-44.0S 058-01.6W.\n2. CANCEL THIS MSG 290059Z APR 18."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nFALKLAND ISLANDS.\nDNC 07.\n1. MISSILE OPERATIONS 1200Z TO 2359Z DAILY\n   23 THRU 28 APR IN AREA BOUND BY\n   51-44.0S 058-01.6W, 51-44.4S 057-53.4W,\n   51-48.1S 057-40.1W, 51-55.2S 057-47.1W,\n   51-57.2S 058-00.8W, 51-49.4S 058-01.6W,\n   51-44.0S 058-01.6W.\n2. CANCEL THIS MSG 290059Z APR 18.",
+    "valid_from": "2018-04-18T14:51:00+00:00",
+    "valid_until": "2018-04-29T00:59:00+00:00",
+    "summary": null
   }
 }

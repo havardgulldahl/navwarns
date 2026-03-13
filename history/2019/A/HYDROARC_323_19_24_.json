@@ -3,17 +3,25 @@
   "id": "HYDROARC 323/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.50833333333333,
+      -0.9983333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-02-01T01:05:00",
     "raw_dtg": "010105Z FEB 19",
     "msg_id": "HYDROARC 323/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 323/19"
+      "THIS MSG 30 JUL 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24290.\n1. JOANES LIGHT 00-59.9S 048-30.5W UNLIT.\n2. CANCEL THIS MSG 30 JUL 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24290.\n1. JOANES LIGHT 00-59.9S 048-30.5W UNLIT.\n2. CANCEL THIS MSG 30 JUL 19.",
+    "valid_from": "2019-02-01T01:05:00+00:00",
+    "valid_until": "2019-07-30T00:00:00+00:00",
+    "summary": null
   }
 }

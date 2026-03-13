@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 1919/16(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.32666666666667,
+          44.495
+        ],
+        [
+          32.88333333333333,
+          44.63666666666667
+        ],
+        [
+          33.11,
+          44.46333333333333
+        ],
+        [
+          32.806666666666665,
+          44.09
+        ],
+        [
+          32.32666666666667,
+          44.495
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-07-29T12:50:00",
     "raw_dtg": "291250Z JUL 16",
     "msg_id": "HYDROARC 1919/16(55)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 311800Z AUG 16",
-      "HYDROARC 2198/16"
+      "THIS MSG 311800Z AUG 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nGUNNERY.\nDNC 10.\n1. GUNNERY EXERCISES 0500Z TO 1700Z DAILY\n   01 THRU 31 AUG EXCEPT SUNDAYS\n   IN AREA BOUND BY\n   44-29.7N 032-19.6E, 44-38.2N 032-53.0E,\n   44-27.8N 033-06.6E, 44-05.4N 032-48.4E.\n2. CANCEL THIS MSG 311800Z AUG 16."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nGUNNERY.\nDNC 10.\n1. GUNNERY EXERCISES 0500Z TO 1700Z DAILY\n   01 THRU 31 AUG EXCEPT SUNDAYS\n   IN AREA BOUND BY\n   44-29.7N 032-19.6E, 44-38.2N 032-53.0E,\n   44-27.8N 033-06.6E, 44-05.4N 032-48.4E.\n2. CANCEL THIS MSG 311800Z AUG 16.",
+    "valid_from": "2016-07-29T12:50:00+00:00",
+    "valid_until": "2016-08-31T18:00:00+00:00",
+    "summary": null
   }
 }

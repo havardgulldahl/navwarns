@@ -3,17 +3,23 @@
   "id": "HYDROARC 444/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.7716666666666665,
+      48.33
+    ]
   },
   "properties": {
     "dtg": "2022-02-14T19:29:00",
     "raw_dtg": "141929Z FEB 22",
     "msg_id": "HYDROARC 444/22(37)",
-    "cancellations": [
-      "HYDROARC 466/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nST. MATHIEU LIGHT 48-19.8N 004-46.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nST. MATHIEU LIGHT 48-19.8N 004-46.3W UNRELIABLE.",
+    "valid_from": "2022-02-14T19:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

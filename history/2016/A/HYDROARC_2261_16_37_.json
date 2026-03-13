@@ -3,18 +3,25 @@
   "id": "HYDROARC 2261/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.8416666666666668,
+      49.885
+    ]
   },
   "properties": {
     "dtg": "2016-09-01T16:30:00",
     "raw_dtg": "011630Z SEP 16",
     "msg_id": "HYDROARC 2261/16(37)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 012300Z SEP 16",
-      "HYDROARC 2261/16"
+      "THIS MSG 012300Z SEP 16"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nHAZARDOUS OPERATIONS.\nDNC 20.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL 012200Z SEP\n   WITHIN 1000 METERS OF 49-53.1N 001-50.5W.\n2. CANCEL THIS MSG 012300Z SEP 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nHAZARDOUS OPERATIONS.\nDNC 20.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL 012200Z SEP\n   WITHIN 1000 METERS OF 49-53.1N 001-50.5W.\n2. CANCEL THIS MSG 012300Z SEP 16.",
+    "valid_from": "2016-09-01T16:30:00+00:00",
+    "valid_until": "2016-09-01T23:00:00+00:00",
+    "summary": null
   }
 }

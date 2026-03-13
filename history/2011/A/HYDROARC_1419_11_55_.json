@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 1419/11(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        37.36666666666667,
+        44.30166666666667
+      ],
+      [
+        37.3,
+        44.725
+      ],
+      [
+        37.485,
+        44.666666666666664
+      ],
+      [
+        37.52166666666667,
+        44.16166666666667
+      ],
+      [
+        36.34,
+        43.38
+      ],
+      [
+        30.303333333333335,
+        42.48166666666667
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-09-06T15:59:00",
     "raw_dtg": "061559Z SEP 11",
     "msg_id": "HYDROARC 1419/11(55)",
-    "cancellations": [
-      "HYDROARC 1677/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 30 OCT\n   BY M/V PRINCE TOWING 100 METER LONG CABLE\n   ALONG TRACKLINE JOINING\n   44-18.1N 037-22.0E, 44-43.5N 037-18.0E,\n   44-40.0N 037-29.1E, 44-09.7N 037-31.3E,\n   43-22.8N 036-20.4E, 42-28.9N 030-18.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 OCT."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "BLACK SEA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 30 OCT\n   BY M/V PRINCE TOWING 100 METER LONG CABLE\n   ALONG TRACKLINE JOINING\n   44-18.1N 037-22.0E, 44-43.5N 037-18.0E,\n   44-40.0N 037-29.1E, 44-09.7N 037-31.3E,\n   43-22.8N 036-20.4E, 42-28.9N 030-18.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 OCT.",
+    "valid_from": "2011-09-06T15:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

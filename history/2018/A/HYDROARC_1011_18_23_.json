@@ -3,18 +3,25 @@
   "id": "HYDROARC 1011/18(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -60.06,
+      -44.056666666666665
+    ]
   },
   "properties": {
     "dtg": "2018-03-26T04:06:00",
     "raw_dtg": "260406Z MAR 18",
     "msg_id": "HYDROARC 1011/18(23)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 290406Z MAR 18",
-      "HYDROARC 1011/18"
+      "THIS MSG 290406Z MAR 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\n1. DERELICT SEVEN METER VESSEL, PARTIALLY\n   SUBMERGED AND ADRIFT IN 44-03.4S 060-03.6W.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 290406Z MAR 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\n1. DERELICT SEVEN METER VESSEL, PARTIALLY\n   SUBMERGED AND ADRIFT IN 44-03.4S 060-03.6W.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 290406Z MAR 18.",
+    "valid_from": "2018-03-26T04:06:00+00:00",
+    "valid_until": "2018-03-29T04:06:00+00:00",
+    "summary": null
   }
 }

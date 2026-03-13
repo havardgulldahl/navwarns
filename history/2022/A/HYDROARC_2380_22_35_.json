@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2380/22(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-09-20T08:07:00",
     "raw_dtg": "200807Z SEP 22",
     "msg_id": "HYDROARC 2380/22(35)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 2380/22"
+      "2353/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\nCANCEL HYDROLANT 2353/22 AND THIS MSG,\nSERVICE RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\nCANCEL HYDROLANT 2353/22 AND THIS MSG,\nSERVICE RESTORED.",
+    "valid_from": "2022-09-20T08:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

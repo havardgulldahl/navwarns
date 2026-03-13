@@ -3,17 +3,23 @@
   "id": "HYDROARC 3763/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.8983333333333334,
+      53.428333333333335
+    ]
   },
   "properties": {
     "dtg": "2020-12-03T04:06:00",
     "raw_dtg": "030406Z DEC 20",
     "msg_id": "HYDROARC 3763/20(37)",
-    "cancellations": [
-      "HYDROARC 3779/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT CARAVEL PLATFORM,\n53-25.7N 002-53.9E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT CARAVEL PLATFORM,\n53-25.7N 002-53.9E INOPERATIVE.",
+    "valid_from": "2020-12-03T04:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

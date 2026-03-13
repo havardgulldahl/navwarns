@@ -3,18 +3,25 @@
   "id": "HYDROARC 2206/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4366666666666665,
+      50.971666666666664
+    ]
   },
   "properties": {
     "dtg": "2020-07-12T19:46:00",
     "raw_dtg": "121946Z JUL 20",
     "msg_id": "HYDROARC 2206/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 151946Z JUL 20",
-      "HYDROARC 2206/20"
+      "THIS MSG 151946Z JUL 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "DOVER STRAIGHT.\nENGLAND.\nFRANCE.\nDNC 20.\n1. DERELICT VESSEL, WHITE HULL, ADRIFT IN VICINITY\n   50-58.3N 001-26.2E AT 121800Z JUL.\n2. CANCEL THIS MSG 151946Z JUL 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIGHT.\nENGLAND.\nFRANCE.\nDNC 20.\n1. DERELICT VESSEL, WHITE HULL, ADRIFT IN VICINITY\n   50-58.3N 001-26.2E AT 121800Z JUL.\n2. CANCEL THIS MSG 151946Z JUL 20.",
+    "valid_from": "2020-07-12T19:46:00+00:00",
+    "valid_until": "2020-07-15T19:46:00+00:00",
+    "summary": null
   }
 }

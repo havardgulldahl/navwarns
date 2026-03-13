@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 2000/14(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -36.995,
-        -11.2585
-      ],
-      [
-        -36.97716666666667,
-        -11.243
-      ],
-      [
-        -36.9735,
-        -11.247
-      ],
-      [
-        -36.99133333333333,
-        -11.2625
+        [
+          -36.995,
+          -11.2585
+        ],
+        [
+          -36.97716666666667,
+          -11.243
+        ],
+        [
+          -36.9735,
+          -11.247
+        ],
+        [
+          -36.99133333333333,
+          -11.2625
+        ],
+        [
+          -36.995,
+          -11.2585
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2014-08-21T09:35:00",
     "raw_dtg": "210935Z AUG 14",
     "msg_id": "HYDROARC 2000/14(24)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 150459Z FEB 15",
-      "HYDROARC 3100/14"
+      "THIS MSG 150459Z FEB 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 150359Z FEB 15\n   IN AREA BOUND BY\n   11-15.51S 036-59.70W, 11-14.58S 036-58.63W,\n   11-14.82S 036-58.41W, 11-15.75S 036-59.48W.\n2. CANCEL THIS MSG 150459Z FEB 15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 150359Z FEB 15\n   IN AREA BOUND BY\n   11-15.51S 036-59.70W, 11-14.58S 036-58.63W,\n   11-14.82S 036-58.41W, 11-15.75S 036-59.48W.\n2. CANCEL THIS MSG 150459Z FEB 15.",
+    "valid_from": "2014-08-21T09:35:00+00:00",
+    "valid_until": "2015-02-15T04:59:00+00:00",
+    "summary": null
   }
 }

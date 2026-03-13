@@ -3,18 +3,25 @@
   "id": "HYDROARC 3144/15(52,53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.643333333333333,
+      36.855
+    ]
   },
   "properties": {
     "dtg": "2015-12-20T22:34:00",
     "raw_dtg": "202234Z DEC 15",
     "msg_id": "HYDROARC 3144/15(52,53)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 232234Z DEC 15",
-      "HYDROARC 3144/15"
+      "THIS MSG 232234Z DEC 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nDNC 08, DNC 09.\n1. DERELICT F/V ADRIFT VICINITY 36-51.3N 011-38.6E.\n2. CANCEL THIS MSG 232234Z DEC 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nDNC 08, DNC 09.\n1. DERELICT F/V ADRIFT VICINITY 36-51.3N 011-38.6E.\n2. CANCEL THIS MSG 232234Z DEC 15.",
+    "valid_from": "2015-12-20T22:34:00+00:00",
+    "valid_until": "2015-12-23T22:34:00+00:00",
+    "summary": null
   }
 }

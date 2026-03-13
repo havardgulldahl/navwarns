@@ -3,18 +3,25 @@
   "id": "HYDROARC 952/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6133333333333333,
+      51.071666666666665
+    ]
   },
   "properties": {
     "dtg": "2019-03-26T14:38:00",
     "raw_dtg": "261438Z MAR 19",
     "msg_id": "HYDROARC 952/19(37)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 291438Z MAR 19",
-      "HYDROARC 952/19"
+      "THIS MSG 291438Z MAR 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\n1. LARGE OBJECT ADRIFT IN 51-04.3N 001-36.8E AT\n   261040Z MAR.\n2. CANCEL THIS MSG 291438Z MAR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\n1. LARGE OBJECT ADRIFT IN 51-04.3N 001-36.8E AT\n   261040Z MAR.\n2. CANCEL THIS MSG 291438Z MAR 19.",
+    "valid_from": "2019-03-26T14:38:00+00:00",
+    "valid_until": "2019-03-29T14:38:00+00:00",
+    "summary": null
   }
 }

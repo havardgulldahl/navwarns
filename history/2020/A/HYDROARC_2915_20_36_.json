@@ -3,17 +3,23 @@
   "id": "HYDROARC 2915/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.861666666666667,
+      54.026666666666664
+    ]
   },
   "properties": {
     "dtg": "2020-09-25T09:36:00",
     "raw_dtg": "250936Z SEP 20",
     "msg_id": "HYDROARC 2915/20(36)",
-    "cancellations": [
-      "HYDROARC 3087/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nDNC 20.\nFOG SIGNAL AT PLATFORM 113/26 54-01.6N 003-51.7W\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nDNC 20.\nFOG SIGNAL AT PLATFORM 113/26 54-01.6N 003-51.7W\nINOPERATIVE.",
+    "valid_from": "2020-09-25T09:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

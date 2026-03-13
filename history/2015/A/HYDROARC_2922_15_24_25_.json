@@ -3,18 +3,25 @@
   "id": "HYDROARC 2922/15(24,25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.62166666666667,
+      20.52
+    ]
   },
   "properties": {
     "dtg": "2015-11-26T20:54:00",
     "raw_dtg": "262054Z NOV 15",
     "msg_id": "HYDROARC 2922/15(24,25)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 292054Z NOV 15",
-      "HYDROARC 2922/15"
+      "THIS MSG 292054Z NOV 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 01.\n1. DERELICT S/V, BLUE HULL ADRIFT IN 20-31.2N 048-37.3W.\n   REPORTS TO U.S. COAST GUARD SAN JUAN,\n   PHONE: 787 289 2041.\n2. CANCEL THIS MSG 292054Z NOV 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 01.\n1. DERELICT S/V, BLUE HULL ADRIFT IN 20-31.2N 048-37.3W.\n   REPORTS TO U.S. COAST GUARD SAN JUAN,\n   PHONE: 787 289 2041.\n2. CANCEL THIS MSG 292054Z NOV 15.",
+    "valid_from": "2015-11-26T20:54:00+00:00",
+    "valid_until": "2015-11-29T20:54:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1400/13",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -25.675,
+      37.74
+    ]
   },
   "properties": {
     "dtg": "2013-06-06T21:44:00",
     "raw_dtg": "062144Z JUN 13",
     "msg_id": "HYDROARC 1400/13",
-    "cancellations": [
-      "HYDROARC 1758/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nBERMUDA TO AZORES.\n16 METER S/V SINBAD, WHITE HULL, THREE PERSONS\nON BOARD, UNREPORTED BERMUDA (32-18.0N 64-47.0W)\nTO AZORES (37-44.4N 025-40.5W). VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC GRIS NEZ,\nTELEX: 42130680, PHONE: 333 2187 2187,\nFAX: 333 2187 7855."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nBERMUDA TO AZORES.\n16 METER S/V SINBAD, WHITE HULL, THREE PERSONS\nON BOARD, UNREPORTED BERMUDA (32-18.0N 64-47.0W)\nTO AZORES (37-44.4N 025-40.5W). VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC GRIS NEZ,\nTELEX: 42130680, PHONE: 333 2187 2187,\nFAX: 333 2187 7855.",
+    "valid_from": "2013-06-06T21:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

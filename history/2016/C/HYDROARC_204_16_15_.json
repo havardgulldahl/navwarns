@@ -3,18 +3,25 @@
   "id": "HYDROARC 204/16(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -133.40833333333333,
+      69.73333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-09-03T20:35:00",
     "raw_dtg": "032035Z SEP 16",
     "msg_id": "HYDROARC 204/16(15)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 062035Z SEP 16",
-      "HYDROARC 209/16"
+      "THIS MSG 062035Z SEP 16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ARCTIC.\nBEAUFORT SEA.\nCANADA-NORTHWEST COAST.\nDNC 27.\n1. DERELICT BARGE ADRIFT IN 69-44.0N 133-24.5W\n   AT 031736Z SEP.\n2. CANCEL THIS MSG 062035Z SEP 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBEAUFORT SEA.\nCANADA-NORTHWEST COAST.\nDNC 27.\n1. DERELICT BARGE ADRIFT IN 69-44.0N 133-24.5W\n   AT 031736Z SEP.\n2. CANCEL THIS MSG 062035Z SEP 16.",
+    "valid_from": "2016-09-03T20:35:00+00:00",
+    "valid_until": "2016-09-06T20:35:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 212/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.3433333333333334,
+      50.68833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-01-22T18:28:00",
     "raw_dtg": "221828Z JAN 14",
     "msg_id": "HYDROARC 212/14(37)",
-    "cancellations": [
-      "HYDROARC 750/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nCHART 37095\nALL NAVIGATIONAL AIDS AT METEOROLOGICAL MAST\n50-41.3N 000-20.6W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nCHART 37095\nALL NAVIGATIONAL AIDS AT METEOROLOGICAL MAST\n50-41.3N 000-20.6W INOPERATIVE.",
+    "valid_from": "2014-01-22T18:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

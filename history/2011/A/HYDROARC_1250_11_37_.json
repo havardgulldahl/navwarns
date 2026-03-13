@@ -3,17 +3,23 @@
   "id": "HYDROARC 1250/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.758333333333333,
+      48.5
+    ]
   },
   "properties": {
     "dtg": "2011-08-08T21:02:00",
     "raw_dtg": "082102Z AUG 11",
     "msg_id": "HYDROARC 1250/11(37)",
-    "cancellations": [
-      "HYDROARC 1252/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nSOUTHWEST BUOY 48-30.0N 005-45.5W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nSOUTHWEST BUOY 48-30.0N 005-45.5W UNLIT.",
+    "valid_from": "2011-08-08T21:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

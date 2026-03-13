@@ -3,17 +3,23 @@
   "id": "HYDROARC 713/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.75,
+      3.225
+    ]
   },
   "properties": {
     "dtg": "2015-03-25T00:07:00",
     "raw_dtg": "250007Z MAR 15",
     "msg_id": "HYDROARC 713/15(24)",
-    "cancellations": [
-      "HYDROARC 2347/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24340.\nDANGEROUS WRECK IN 03-13.5N 050-45.0W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24340.\nDANGEROUS WRECK IN 03-13.5N 050-45.0W.",
+    "valid_from": "2015-03-25T00:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

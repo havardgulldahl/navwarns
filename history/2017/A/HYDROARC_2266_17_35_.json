@@ -3,17 +3,25 @@
   "id": "HYDROARC 2266/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.681666666666667,
+      56.97
+    ]
   },
   "properties": {
     "dtg": "2017-07-21T13:28:00",
     "raw_dtg": "211328Z JUL 17",
     "msg_id": "HYDROARC 2266/17(35)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2299/17"
+      "2249/17"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SEA OF HEBRIDES.\nLITTLE MINCH.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35093.\n1. HYSKEIR LIGHT 56-58.2N 006-40.9W UNLIT\n   AND RACON UNRELIABLE.\n2. CANCEL HYDROLANT 2249/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF HEBRIDES.\nLITTLE MINCH.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35093.\n1. HYSKEIR LIGHT 56-58.2N 006-40.9W UNLIT\n   AND RACON UNRELIABLE.\n2. CANCEL HYDROLANT 2249/17.",
+    "valid_from": "2017-07-21T13:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

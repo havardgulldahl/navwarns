@@ -3,17 +3,23 @@
   "id": "HYDROARC 2740/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.88,
+      53.56166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-10-18T19:16:00",
     "raw_dtg": "181916Z OCT 16",
     "msg_id": "HYDROARC 2740/16(37)",
-    "cancellations": [
-      "HYDROARC 2777/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCHART 37059.\nFOG SIGNAL AT PLATFORM 47/14-B1D, 53-33.7N 000-52.8E\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCHART 37059.\nFOG SIGNAL AT PLATFORM 47/14-B1D, 53-33.7N 000-52.8E\nUNRELIABLE.",
+    "valid_from": "2016-10-18T19:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,19 +2,58 @@
   "type": "Feature",
   "id": "HYDROARC 10/16(15,38)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.875,
+          77.6111111111111
+        ],
+        [
+          -74.13333333333334,
+          77.59583333333333
+        ],
+        [
+          -73.1,
+          77.11666666666666
+        ],
+        [
+          -74.3611111111111,
+          76.79027777777777
+        ],
+        [
+          -76.0,
+          76.79722222222222
+        ],
+        [
+          -76.96666666666667,
+          77.025
+        ],
+        [
+          -77.09305555555555,
+          77.36805555555554
+        ],
+        [
+          -75.875,
+          77.6111111111111
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-02-15T19:45:00",
     "raw_dtg": "151945Z FEB 16",
     "msg_id": "HYDROARC 10/16(15,38)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 171940Z FEB 16",
-      "HYDROARC 10/16"
+      "THIS MSG 171940Z FEB 16"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ARCTIC.\nBAFFIN BAY.\nROCKETS.\nDNC 28.\n1. HAZARDOUS OPERATIONS 1740Z TO 1840Z DAILY\n   16 AND 17 FEB IN AREA BOUND BY\n   77-36-40N 075-52-30W, 77-35-45N 074-08-00W,\n   77-07-00N 073-06-00W, 76-47-25N 074-21-40W,\n   76-47-50N 076-00-00W, 77-01-30N 076-58-00W,\n   77-22-05N 077-05-35W.\n2. CANCEL THIS MSG 171940Z FEB 16."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBAFFIN BAY.\nROCKETS.\nDNC 28.\n1. HAZARDOUS OPERATIONS 1740Z TO 1840Z DAILY\n   16 AND 17 FEB IN AREA BOUND BY\n   77-36-40N 075-52-30W, 77-35-45N 074-08-00W,\n   77-07-00N 073-06-00W, 76-47-25N 074-21-40W,\n   76-47-50N 076-00-00W, 77-01-30N 076-58-00W,\n   77-22-05N 077-05-35W.\n2. CANCEL THIS MSG 171940Z FEB 16.",
+    "valid_from": "2016-02-15T19:45:00+00:00",
+    "valid_until": "2016-02-17T19:40:00+00:00",
+    "summary": null
   }
 }

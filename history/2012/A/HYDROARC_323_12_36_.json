@@ -3,17 +3,23 @@
   "id": "HYDROARC 323/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.523333333333333,
+      51.02166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-02-08T13:55:00",
     "raw_dtg": "081355Z FEB 12",
     "msg_id": "HYDROARC 323/12(36)",
-    "cancellations": [
-      "HYDROARC 339/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nBRISTOL CHANNEL.\nCHART 36035\nHARTLAND POINT LIGHT 51-01.3N 004-31.4W\nCHANGED TO: FL(6) 15 SEC 30 METERS 8 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nBRISTOL CHANNEL.\nCHART 36035\nHARTLAND POINT LIGHT 51-01.3N 004-31.4W\nCHANGED TO: FL(6) 15 SEC 30 METERS 8 MILES.",
+    "valid_from": "2012-02-08T13:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

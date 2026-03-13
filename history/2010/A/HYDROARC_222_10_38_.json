@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 222/10(38)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-02-03T20:30:00",
     "raw_dtg": "032030Z FEB 10",
     "msg_id": "HYDROARC 222/10(38)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 222/10"
+      "218/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GREENLAND-SOUTHWEST COAST.\nCANCEL HYDROLANT 218/10 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GREENLAND-SOUTHWEST COAST.\nCANCEL HYDROLANT 218/10 AND THIS MSG.",
+    "valid_from": "2010-02-03T20:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

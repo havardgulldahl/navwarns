@@ -3,17 +3,23 @@
   "id": "HYDROARC 1478/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.225,
+      50.10666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-06-01T15:21:00",
     "raw_dtg": "011521Z JUN 21",
     "msg_id": "HYDROARC 1478/21(37)",
-    "cancellations": [
-      "HYDROARC 1545/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n50-06.4N 003-13.5W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n50-06.4N 003-13.5W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2021-06-01T15:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

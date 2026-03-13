@@ -3,17 +3,23 @@
   "id": "HYDROARC 919/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.446666666666666,
+      56.70333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-05-21T23:23:00",
     "raw_dtg": "212323Z MAY 10",
     "msg_id": "HYDROARC 919/10(35)",
-    "cancellations": [
-      "HYDROARC 922/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35093 (0 ED).\nCAIRNS OF COLL LIGHT 56-42.2N 006-26.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35093 (0 ED).\nCAIRNS OF COLL LIGHT 56-42.2N 006-26.8W UNRELIABLE.",
+    "valid_from": "2010-05-21T23:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

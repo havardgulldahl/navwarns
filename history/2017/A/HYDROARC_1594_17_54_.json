@@ -3,17 +3,23 @@
   "id": "HYDROARC 1594/17(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      35.805,
+      35.85166666666667
+    ]
   },
   "properties": {
     "dtg": "2017-05-21T12:18:00",
     "raw_dtg": "211218Z MAY 17",
     "msg_id": "HYDROARC 1594/17(54)",
-    "cancellations": [
-      "HYDROARC 2064/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\nCHART 54480.\nRAS AL BASIT LIGHT 35-51.1N 035-48.3E UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\nCHART 54480.\nRAS AL BASIT LIGHT 35-51.1N 035-48.3E UNLIT.",
+    "valid_from": "2017-05-21T12:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

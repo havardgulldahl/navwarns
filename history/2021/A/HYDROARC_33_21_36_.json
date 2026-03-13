@@ -3,17 +3,23 @@
   "id": "HYDROARC 33/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.98,
+      55.861666666666665
+    ]
   },
   "properties": {
     "dtg": "2021-01-05T20:13:00",
     "raw_dtg": "052013Z JAN 21",
     "msg_id": "HYDROARC 33/21(36)",
-    "cancellations": [
-      "HYDROARC 91/21"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nTOWARD POINT LIGHT 55-51.7N 004-58.8W UNLIT."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nTOWARD POINT LIGHT 55-51.7N 004-58.8W UNLIT.",
+    "valid_from": "2021-01-05T20:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

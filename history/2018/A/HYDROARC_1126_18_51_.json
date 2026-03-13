@@ -3,17 +3,23 @@
   "id": "HYDROARC 1126/18(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -16.356666666666666,
+      18.126666666666665
+    ]
   },
   "properties": {
     "dtg": "2018-04-06T16:37:00",
     "raw_dtg": "061637Z APR 18",
     "msg_id": "HYDROARC 1126/18(51)",
-    "cancellations": [
-      "HYDROARC 1190/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nCABLE OPERATIONS 091800Z APR UNTIL FURTHER NOTICE\nBY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\nALONG TRACKLINE BETWEEN\n08-06.6N 016-08W AND 18-07.6N 016-21.4W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nCABLE OPERATIONS 091800Z APR UNTIL FURTHER NOTICE\nBY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\nALONG TRACKLINE BETWEEN\n08-06.6N 016-08W AND 18-07.6N 016-21.4W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2018-04-06T16:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 317/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.8116666666666668,
+      60.373333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-02-19T13:08:00",
     "raw_dtg": "191308Z FEB 10",
     "msg_id": "HYDROARC 317/10(35)",
-    "cancellations": [
-      "HYDROARC 360/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SCOTLAND.\nSHETLAND ISLANDS.\nNGA CHART 35071 (1ST ED).\nRACON AT VE SKERRIES LIGHT 60-22.4N 001-48.7W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nSHETLAND ISLANDS.\nNGA CHART 35071 (1ST ED).\nRACON AT VE SKERRIES LIGHT 60-22.4N 001-48.7W INOPERATIVE.",
+    "valid_from": "2010-02-19T13:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

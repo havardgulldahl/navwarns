@@ -3,17 +3,25 @@
   "id": "HYDROARC 484/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.9916666666666667,
+      53.885
+    ]
   },
   "properties": {
     "dtg": "2012-03-03T07:47:00",
     "raw_dtg": "030747Z MAR 12",
     "msg_id": "HYDROARC 484/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1345/12"
+      "346/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37058\n1. FOG SIGNAL AT METEORLOGICAL MAST\n   53-53.1N 001-59.5E UNRELIABLE.\n2. CANCEL HYDROLANT 346/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37058\n1. FOG SIGNAL AT METEORLOGICAL MAST\n   53-53.1N 001-59.5E UNRELIABLE.\n2. CANCEL HYDROLANT 346/12.",
+    "valid_from": "2012-03-03T07:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

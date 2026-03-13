@@ -3,18 +3,26 @@
   "id": "HYDROARC 3691/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -12.485,
+      48.725
+    ]
   },
   "properties": {
     "dtg": "2019-12-02T10:14:00",
     "raw_dtg": "021014Z DEC 19",
     "msg_id": "HYDROARC 3691/19(36)",
+    "year": 2019,
     "cancellations": [
       "THIS MSG 051014Z DEC 19",
-      "HYDROARC 3716/19"
+      "3663/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\n1. ODAS BUOY K1 ADRIFT IN VICINITY\n   48-43.5N 012-29.1W AT 020700Z DEC.\n2. CANCEL HYDROLANT 3663/19.\n3. CANCEL THIS MSG 051014Z DEC 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\n1. ODAS BUOY K1 ADRIFT IN VICINITY\n   48-43.5N 012-29.1W AT 020700Z DEC.\n2. CANCEL HYDROLANT 3663/19.\n3. CANCEL THIS MSG 051014Z DEC 19.",
+    "valid_from": "2019-12-02T10:14:00+00:00",
+    "valid_until": "2019-12-05T10:14:00+00:00",
+    "summary": null
   }
 }

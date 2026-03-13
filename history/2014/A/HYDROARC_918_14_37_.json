@@ -3,18 +3,25 @@
   "id": "HYDROARC 918/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.8416666666666667,
+      53.208333333333336
+    ]
   },
   "properties": {
     "dtg": "2014-04-04T12:25:00",
     "raw_dtg": "041225Z APR 14",
     "msg_id": "HYDROARC 918/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 071225Z APR 14",
-      "HYDROARC 918/14"
+      "THIS MSG 071225Z APR 14"
     ],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\n1. LARGE GREEN BUOY WITH MOORINGS ADRIFT\n   IN 53-12.5N 000-50.5E AT 041110Z APR.\n2. CANCEL THIS MSG 071225Z APR 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\n1. LARGE GREEN BUOY WITH MOORINGS ADRIFT\n   IN 53-12.5N 000-50.5E AT 041110Z APR.\n2. CANCEL THIS MSG 071225Z APR 14.",
+    "valid_from": "2014-04-04T12:25:00+00:00",
+    "valid_until": "2014-04-07T12:25:00+00:00",
+    "summary": null
   }
 }

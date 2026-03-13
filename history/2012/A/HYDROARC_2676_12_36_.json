@@ -3,17 +3,23 @@
   "id": "HYDROARC 2676/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.576666666666666,
+      50.05166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-11-11T18:14:00",
     "raw_dtg": "111814Z NOV 12",
     "msg_id": "HYDROARC 2676/12(36)",
-    "cancellations": [
-      "HYDROARC 2684/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36049\nTATER DU LIGHT 50-03.1N 005-34.6W, RED SECTOR LIGHT UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36049\nTATER DU LIGHT 50-03.1N 005-34.6W, RED SECTOR LIGHT UNLIT.",
+    "valid_from": "2012-11-11T18:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

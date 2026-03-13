@@ -3,18 +3,25 @@
   "id": "HYDROARC 1395/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3783333333333334,
+      53.265
+    ]
   },
   "properties": {
     "dtg": "2014-06-03T20:41:00",
     "raw_dtg": "032041Z JUN 14",
     "msg_id": "HYDROARC 1395/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 062045Z JUN 14",
-      "HYDROARC 1395/14"
+      "THIS MSG 062045Z JUN 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\n1. SURVEY EQUIPMENT AND 79 METER LONG CABLE\n   ADRIFT VICINITY 53-15.9N 001-22.7E.\n2. CANCEL THIS MSG 062045Z JUN 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\n1. SURVEY EQUIPMENT AND 79 METER LONG CABLE\n   ADRIFT VICINITY 53-15.9N 001-22.7E.\n2. CANCEL THIS MSG 062045Z JUN 14.",
+    "valid_from": "2014-06-03T20:41:00+00:00",
+    "valid_until": "2014-06-06T20:45:00+00:00",
+    "summary": null
   }
 }

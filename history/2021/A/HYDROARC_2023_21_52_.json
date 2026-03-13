@@ -3,17 +3,23 @@
   "id": "HYDROARC 2023/21(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.8933333333333335,
+      36.92166666666667
+    ]
   },
   "properties": {
     "dtg": "2021-08-03T17:17:00",
     "raw_dtg": "031717Z AUG 21",
     "msg_id": "HYDROARC 2023/21(52)",
-    "cancellations": [
-      "HYDROARC 920/22"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCAP BENGUT LIGHT 36-55.3N 003-53.6E UNLIT."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCAP BENGUT LIGHT 36-55.3N 003-53.6E UNLIT.",
+    "valid_from": "2021-08-03T17:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

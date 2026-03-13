@@ -3,17 +3,23 @@
   "id": "HYDROARC 218/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.136666666666667,
+      58.26166666666666
+    ]
   },
   "properties": {
     "dtg": "2011-02-04T05:23:00",
     "raw_dtg": "040523Z FEB 11",
     "msg_id": "HYDROARC 218/11(35)",
-    "cancellations": [
-      "HYDROARC 224/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nISLE OF LEWIS.\nNGA CHART 35073 (2ND ED).\nTIUMPAN HEAD LIGHT 58-15.7N 006-08.2W AT REDUCED RANGE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nISLE OF LEWIS.\nNGA CHART 35073 (2ND ED).\nTIUMPAN HEAD LIGHT 58-15.7N 006-08.2W AT REDUCED RANGE.",
+    "valid_from": "2011-02-04T05:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

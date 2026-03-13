@@ -3,17 +3,23 @@
   "id": "HYDROARC 1507/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.513333333333334,
+      54.69833333333333
+    ]
   },
   "properties": {
     "dtg": "2021-06-05T16:37:00",
     "raw_dtg": "051637Z JUN 21",
     "msg_id": "HYDROARC 1507/21(36)",
-    "cancellations": [
-      "HYDROARC 1556/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nRACON AT MEW ISLAND LIGHT 54-41.9N 005-30.8W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nRACON AT MEW ISLAND LIGHT 54-41.9N 005-30.8W\nUNRELIABLE.",
+    "valid_from": "2021-06-05T16:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

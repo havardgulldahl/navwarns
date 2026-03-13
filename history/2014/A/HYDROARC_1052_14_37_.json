@@ -3,17 +3,23 @@
   "id": "HYDROARC 1052/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.1483333333333334,
+      53.38666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-04-19T15:41:00",
     "raw_dtg": "191541Z APR 14",
     "msg_id": "HYDROARC 1052/14(37)",
-    "cancellations": [
-      "HYDROARC 1064/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37057\nALL NAVIGATIONAL AIDS AT VISCOUNT GAS PLATFORM\n53-23.2N 002-08.9E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37057\nALL NAVIGATIONAL AIDS AT VISCOUNT GAS PLATFORM\n53-23.2N 002-08.9E INOPERATIVE.",
+    "valid_from": "2014-04-19T15:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 1186/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.281666666666666,
+      -20.31
+    ]
   },
   "properties": {
     "dtg": "2017-04-14T00:41:00",
     "raw_dtg": "140041Z APR 17",
     "msg_id": "HYDROARC 1186/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 1248/17"
+      "THIS MSG 11 OCT 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. ILHA DO BOI LIGHT 20-18.6S 040-16.9W UNLIT\n   UNTIL 10 OCT.\n2. CANCEL THIS MSG 11 OCT 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. ILHA DO BOI LIGHT 20-18.6S 040-16.9W UNLIT\n   UNTIL 10 OCT.\n2. CANCEL THIS MSG 11 OCT 17.",
+    "valid_from": "2017-04-14T00:41:00+00:00",
+    "valid_until": "2017-10-11T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,26 @@
   "id": "HYDROARC 1534/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.831666666666667,
+      49.96666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-06-22T21:01:00",
     "raw_dtg": "222101Z JUN 14",
     "msg_id": "HYDROARC 1534/14(37)",
+    "year": 2014,
     "cancellations": [
       "THIS MSG 252100Z JUN 14",
-      "HYDROARC 1534/14"
+      "1531/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\n1. CONTAINER ADRIFT IN 49-58.0N 004-49.9W\n   AT 221918Z JUN.\n2. CANCEL HYDROLANT 1531/14\n3. CANCEL THIS MSG 252100Z JUN 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\n1. CONTAINER ADRIFT IN 49-58.0N 004-49.9W\n   AT 221918Z JUN.\n2. CANCEL HYDROLANT 1531/14\n3. CANCEL THIS MSG 252100Z JUN 14.",
+    "valid_from": "2014-06-22T21:01:00+00:00",
+    "valid_until": "2014-06-25T21:00:00+00:00",
+    "summary": null
   }
 }

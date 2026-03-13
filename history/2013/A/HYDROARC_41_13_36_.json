@@ -3,17 +3,23 @@
   "id": "HYDROARC 41/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.635,
+      53.22666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-01-04T21:02:00",
     "raw_dtg": "042102Z JAN 13",
     "msg_id": "HYDROARC 41/13(36)",
-    "cancellations": [
-      "HYDROARC 56/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nCHART 36007\nFISHING GEAR WITH FLOATS ABANDONED ALONG\nTRACKLINE BETWEEN\n53-13.6N 005-38.1W AND 53-13.8N 005-39.1W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nCHART 36007\nFISHING GEAR WITH FLOATS ABANDONED ALONG\nTRACKLINE BETWEEN\n53-13.6N 005-38.1W AND 53-13.8N 005-39.1W.",
+    "valid_from": "2013-01-04T21:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 3549/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.49,
+      53.22666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-11-02T13:29:00",
     "raw_dtg": "021329Z NOV 17",
     "msg_id": "HYDROARC 3549/17(36)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 051329Z NOV 17",
-      "HYDROARC 3549/17"
+      "THIS MSG 051329Z NOV 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nIRELAND.\nDNC 20.\n1. SIX METER LOG ADRIFT IN VICINITY\n   53-13.6N 005-29.4W.\n2. CANCEL THIS MSG 051329Z NOV 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nIRELAND.\nDNC 20.\n1. SIX METER LOG ADRIFT IN VICINITY\n   53-13.6N 005-29.4W.\n2. CANCEL THIS MSG 051329Z NOV 17.",
+    "valid_from": "2017-11-02T13:29:00+00:00",
+    "valid_until": "2017-11-05T13:29:00+00:00",
+    "summary": null
   }
 }

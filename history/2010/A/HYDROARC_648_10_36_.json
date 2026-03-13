@@ -3,17 +3,23 @@
   "id": "HYDROARC 648/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.288333333333333,
+      53.416666666666664
+    ]
   },
   "properties": {
     "dtg": "2010-04-15T04:52:00",
     "raw_dtg": "150452Z APR 10",
     "msg_id": "HYDROARC 648/10(36)",
-    "cancellations": [
-      "HYDROARC 648/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-NORTH COAST.\nNGA CHART 36025 (1ST ED).\n1. POINT LYNAS LIGHT 53-25.0N 004-17.3W\n   UNLIT 150730Z TO 151700Z APR.\n2. HYDROLANT 646/10 NOT PROMULGATED.\n3. CANCEL THIS MSG 151800Z APR."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-NORTH COAST.\nNGA CHART 36025 (1ST ED).\n1. POINT LYNAS LIGHT 53-25.0N 004-17.3W\n   UNLIT 150730Z TO 151700Z APR.\n2. HYDROLANT 646/10 NOT PROMULGATED.\n3. CANCEL THIS MSG 151800Z APR.",
+    "valid_from": "2010-04-15T04:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

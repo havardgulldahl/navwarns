@@ -3,17 +3,23 @@
   "id": "HYDROARC 3863/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.885,
+      60.855
+    ]
   },
   "properties": {
     "dtg": "2019-12-16T17:37:00",
     "raw_dtg": "161737Z DEC 19",
     "msg_id": "HYDROARC 3863/19(35)",
-    "cancellations": [
-      "HYDROARC 3888/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nMUCKLE FLUGGA LIGHT 60-51.3N 000-53.1W\nLIGHT UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nMUCKLE FLUGGA LIGHT 60-51.3N 000-53.1W\nLIGHT UNRELIABLE.",
+    "valid_from": "2019-12-16T17:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

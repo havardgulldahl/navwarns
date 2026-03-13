@@ -1,19 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1838/10",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-09-29T03:54:00",
     "raw_dtg": "290354Z SEP 10",
     "msg_id": "HYDROARC 1838/10",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1838/10"
+      "1834/10",
+      "1807/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GPS SATELLITE SYSTEM.\nCANCEL HYDROLANT 1834/10 AND THIS MSG, 1807/10 REFERS."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GPS SATELLITE SYSTEM.\nCANCEL HYDROLANT 1834/10 AND THIS MSG, 1807/10 REFERS.",
+    "valid_from": "2010-09-29T03:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

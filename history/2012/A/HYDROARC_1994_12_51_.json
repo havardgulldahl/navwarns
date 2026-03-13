@@ -3,17 +3,25 @@
   "id": "HYDROARC 1994/12(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -18.026666666666667,
+      15.798333333333334
+    ]
   },
   "properties": {
     "dtg": "2012-08-29T20:44:00",
     "raw_dtg": "292044Z AUG 12",
     "msg_id": "HYDROARC 1994/12(51)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2027/12"
+      "THIS MSG 07 SEP 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN ATLANTIC.\nSENEGAL.\n1. CABLE OPERATIONS 30 AUG THRU 06 SEP\n   BY CABLESHIP ILE DE BREHAT VICINITY\n   15-47.9N 018-01.6W. WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 07 SEP 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN ATLANTIC.\nSENEGAL.\n1. CABLE OPERATIONS 30 AUG THRU 06 SEP\n   BY CABLESHIP ILE DE BREHAT VICINITY\n   15-47.9N 018-01.6W. WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 07 SEP 12.",
+    "valid_from": "2012-08-29T20:44:00+00:00",
+    "valid_until": "2012-09-07T00:00:00+00:00",
+    "summary": null
   }
 }

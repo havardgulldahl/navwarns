@@ -3,17 +3,25 @@
   "id": "HYDROARC 3102/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.3866666666666667,
+      56.435
+    ]
   },
   "properties": {
     "dtg": "2021-12-18T20:33:00",
     "raw_dtg": "182033Z DEC 21",
     "msg_id": "HYDROARC 3102/21(35)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 31/22"
+      "3059/21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. BELL ROCK LIGHT 56-26.1N 002-23.2W UNLIT.\n2. CANCEL HYDROLANT 3059/21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. BELL ROCK LIGHT 56-26.1N 002-23.2W UNLIT.\n2. CANCEL HYDROLANT 3059/21.",
+    "valid_from": "2021-12-18T20:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

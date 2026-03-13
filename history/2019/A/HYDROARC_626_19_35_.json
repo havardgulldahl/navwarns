@@ -3,18 +3,25 @@
   "id": "HYDROARC 626/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.138333333333333,
+      55.916666666666664
+    ]
   },
   "properties": {
     "dtg": "2019-02-26T15:24:00",
     "raw_dtg": "261524Z FEB 19",
     "msg_id": "HYDROARC 626/19(35)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 010800Z MAR 19",
-      "HYDROARC 626/19"
+      "THIS MSG 010800Z MAR 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35014.\n1. ST. ABBS HEAD LIGHT 55-55.0N 002-08.3W UNRELIABLE.\n2. CANCEL THIS MSG 010800Z MAR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35014.\n1. ST. ABBS HEAD LIGHT 55-55.0N 002-08.3W UNRELIABLE.\n2. CANCEL THIS MSG 010800Z MAR 19.",
+    "valid_from": "2019-02-26T15:24:00+00:00",
+    "valid_until": "2019-03-01T08:00:00+00:00",
+    "summary": null
   }
 }

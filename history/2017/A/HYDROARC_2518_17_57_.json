@@ -3,17 +3,23 @@
   "id": "HYDROARC 2518/17(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      14.456666666666667,
+      -22.898333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-08-16T19:42:00",
     "raw_dtg": "161942Z AUG 17",
     "msg_id": "HYDROARC 2518/17(57)",
-    "cancellations": [
-      "HYDROARC 52/18"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nCHART 57380.\nDANGEROUS WRECK MARKED BY BUOYS IN 22-53.9S 014-27.4E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nCHART 57380.\nDANGEROUS WRECK MARKED BY BUOYS IN 22-53.9S 014-27.4E.",
+    "valid_from": "2017-08-16T19:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

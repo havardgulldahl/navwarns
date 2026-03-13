@@ -3,17 +3,23 @@
   "id": "HYDROARC 40/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2383333333333333,
+      53.99666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-01-05T17:11:00",
     "raw_dtg": "051711Z JAN 15",
     "msg_id": "HYDROARC 40/15(36)",
-    "cancellations": [
-      "HYDROARC 171/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\nLIGHTNING KNOLL BUOY 53-59.8N 003-14.3W OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\nLIGHTNING KNOLL BUOY 53-59.8N 003-14.3W OFF STATION.",
+    "valid_from": "2015-01-05T17:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

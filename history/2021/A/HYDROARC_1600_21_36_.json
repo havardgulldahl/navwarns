@@ -3,18 +3,25 @@
   "id": "HYDROARC 1600/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.7866666666666666,
+      51.245
+    ]
   },
   "properties": {
     "dtg": "2021-06-14T23:56:00",
     "raw_dtg": "142356Z JUN 21",
     "msg_id": "HYDROARC 1600/21(36)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 162100Z JUN 21",
-      "HYDROARC 1600/21"
+      "THIS MSG 162100Z JUN 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nENGLAND.\nDNC 20.\n1. LYNMOUTH FORELAND LIGHT 51-14.7N 003-47.2W\n   UNRELIABLE 0400Z TO 2000Z DAILY 15 AND 16 JUN.\n2. CANCEL THIS MSG 162100Z JUN 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nENGLAND.\nDNC 20.\n1. LYNMOUTH FORELAND LIGHT 51-14.7N 003-47.2W\n   UNRELIABLE 0400Z TO 2000Z DAILY 15 AND 16 JUN.\n2. CANCEL THIS MSG 162100Z JUN 21.",
+    "valid_from": "2021-06-14T23:56:00+00:00",
+    "valid_until": "2021-06-16T21:00:00+00:00",
+    "summary": null
   }
 }

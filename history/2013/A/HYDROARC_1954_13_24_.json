@@ -2,19 +2,25 @@
   "type": "Feature",
   "id": "HYDROARC 1954/13(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -51.711666666666666,
-        -35.122166666666665
-      ],
-      [
-        -52.277166666666666,
-        -34.538833333333336
-      ],
-      [
-        -52.37883333333333,
-        -35.20366666666666
+        [
+          -51.711666666666666,
+          -35.122166666666665
+        ],
+        [
+          -52.277166666666666,
+          -34.538833333333336
+        ],
+        [
+          -52.37883333333333,
+          -35.20366666666666
+        ],
+        [
+          -51.711666666666666,
+          -35.122166666666665
+        ]
       ]
     ]
   },
@@ -22,11 +28,17 @@
     "dtg": "2013-08-10T00:15:00",
     "raw_dtg": "100015Z AUG 13",
     "msg_id": "HYDROARC 1954/13(24)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1954/13"
+      "THIS MSG 12 AUG 13",
+      "1952/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nURUGUAY.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 11 AUG BY\n   M/V RAMFORM VANGUARD TOWING 12\n   7000 METER LONG CABLES AREA BOUND BY\n   35-07.33S 051-42.70W, 34-32.33S 052-16.63W\n   35-12.22S 052-22.73W.\n   NINE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1952/13.\n3. CANCEL THIS MSG 12 AUG 13."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nURUGUAY.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 11 AUG BY\n   M/V RAMFORM VANGUARD TOWING 12\n   7000 METER LONG CABLES AREA BOUND BY\n   35-07.33S 051-42.70W, 34-32.33S 052-16.63W\n   35-12.22S 052-22.73W.\n   NINE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1952/13.\n3. CANCEL THIS MSG 12 AUG 13.",
+    "valid_from": "2013-08-10T00:15:00+00:00",
+    "valid_until": "2013-08-12T00:00:00+00:00",
+    "summary": null
   }
 }

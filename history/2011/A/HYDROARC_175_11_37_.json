@@ -3,17 +3,23 @@
   "id": "HYDROARC 175/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.8933333333333335,
+      53.425
+    ]
   },
   "properties": {
     "dtg": "2011-01-28T23:48:00",
     "raw_dtg": "282348Z JAN 11",
     "msg_id": "HYDROARC 175/11(37)",
-    "cancellations": [
-      "HYDROARC 670/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37057 (2ND ED).\nALL NAVIGATIONAL AIDS AT CARAVEL PLATFORM\n53-25.5N 002-53.6E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37057 (2ND ED).\nALL NAVIGATIONAL AIDS AT CARAVEL PLATFORM\n53-25.5N 002-53.6E UNRELIABLE.",
+    "valid_from": "2011-01-28T23:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

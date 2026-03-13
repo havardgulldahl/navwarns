@@ -3,17 +3,23 @@
   "id": "HYDROARC 2475/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.5583333333333336,
+      56.185
+    ]
   },
   "properties": {
     "dtg": "2018-08-01T01:19:00",
     "raw_dtg": "010119Z AUG 18",
     "msg_id": "HYDROARC 2475/18(35)",
-    "cancellations": [
-      "HYDROARC 2479/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35014.\nISLE OF MAY LIGHT 56-11.1N 002-33.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35014.\nISLE OF MAY LIGHT 56-11.1N 002-33.5W UNRELIABLE.",
+    "valid_from": "2018-08-01T01:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

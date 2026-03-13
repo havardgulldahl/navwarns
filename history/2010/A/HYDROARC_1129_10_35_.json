@@ -3,17 +3,23 @@
   "id": "HYDROARC 1129/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.3933333333333335,
+      58.495
+    ]
   },
   "properties": {
     "dtg": "2010-06-17T14:39:00",
     "raw_dtg": "171439Z JUN 10",
     "msg_id": "HYDROARC 1129/10(35)",
-    "cancellations": [
-      "HYDROARC 1131/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nRADIO SERVICES.\nBEN TONGUE DSC STATION 58-29.7N 004-23.6W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nRADIO SERVICES.\nBEN TONGUE DSC STATION 58-29.7N 004-23.6W OFF AIR.",
+    "valid_from": "2010-06-17T14:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

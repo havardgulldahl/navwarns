@@ -3,17 +3,23 @@
   "id": "HYDROARC 80/17(26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -73.82333333333334,
+      22.651666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-01-08T21:06:00",
     "raw_dtg": "082106Z JAN 17",
     "msg_id": "HYDROARC 80/17(26)",
-    "cancellations": [
-      "HYDROARC 268/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 16.\nDISTRESS SIGNAL RECEIVED FROM S/V LEILA ON 406 MHZ\nIN 22-39.1N 073-49.4W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF\nPOSSIBLE. REPORTS TO RCC MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 16.\nDISTRESS SIGNAL RECEIVED FROM S/V LEILA ON 406 MHZ\nIN 22-39.1N 073-49.4W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF\nPOSSIBLE. REPORTS TO RCC MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2017-01-08T21:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

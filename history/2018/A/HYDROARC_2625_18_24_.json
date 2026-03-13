@@ -3,17 +3,25 @@
   "id": "HYDROARC 2625/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.96333333333333,
+      -21.358333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-08-16T20:49:00",
     "raw_dtg": "162049Z AUG 18",
     "msg_id": "HYDROARC 2625/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3921/18"
+      "THIS MSG 13 FEB 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. PONTA DO RETIRO LIGHT 21-21.5S 040-57.8W UNLIT.\n2. CANCEL THIS MSG 13 FEB 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. PONTA DO RETIRO LIGHT 21-21.5S 040-57.8W UNLIT.\n2. CANCEL THIS MSG 13 FEB 19.",
+    "valid_from": "2018-08-16T20:49:00+00:00",
+    "valid_until": "2019-02-13T00:00:00+00:00",
+    "summary": null
   }
 }

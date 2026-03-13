@@ -3,17 +3,23 @@
   "id": "HYDROARC 2247/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5233333333333334,
+      53.61333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-12-25T18:14:00",
     "raw_dtg": "251814Z DEC 11",
     "msg_id": "HYDROARC 2247/11(37)",
-    "cancellations": [
-      "HYDROARC 2250/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37058\nPLATFORM 48/13-PB 53-36.8N 001-31.4E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37058\nPLATFORM 48/13-PB 53-36.8N 001-31.4E UNLIT.",
+    "valid_from": "2011-12-25T18:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

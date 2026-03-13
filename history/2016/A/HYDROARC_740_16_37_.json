@@ -3,18 +3,25 @@
   "id": "HYDROARC 740/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.835,
+      50.13333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-03-28T10:58:00",
     "raw_dtg": "281058Z MAR 16",
     "msg_id": "HYDROARC 740/16(37)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 311058Z MAR 16",
-      "HYDROARC 758/16"
+      "THIS MSG 311058Z MAR 16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. DERELICT LIFEBOAT ADRIFT IN 50-08.0N 001-50.1W\n   AT 281012Z MAR.\n2. CANCEL THIS MSG 311058Z MAR 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. DERELICT LIFEBOAT ADRIFT IN 50-08.0N 001-50.1W\n   AT 281012Z MAR.\n2. CANCEL THIS MSG 311058Z MAR 16.",
+    "valid_from": "2016-03-28T10:58:00+00:00",
+    "valid_until": "2016-03-31T10:58:00+00:00",
+    "summary": null
   }
 }

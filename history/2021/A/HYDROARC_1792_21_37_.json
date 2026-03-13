@@ -3,18 +3,25 @@
   "id": "HYDROARC 1792/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.3233333333333333,
+      50.53333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-07-07T19:20:00",
     "raw_dtg": "071920Z JUL 21",
     "msg_id": "HYDROARC 1792/21(37)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 101920Z JUL 21",
-      "HYDROARC 1792/21"
+      "THIS MSG 101920Z JUL 21"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   50-32.0N 002-19.4W AT 071850Z JUL.\n2. CANCEL THIS MSG 101920Z JUL 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   50-32.0N 002-19.4W AT 071850Z JUL.\n2. CANCEL THIS MSG 101920Z JUL 21.",
+    "valid_from": "2021-07-07T19:20:00+00:00",
+    "valid_until": "2021-07-10T19:20:00+00:00",
+    "summary": null
   }
 }

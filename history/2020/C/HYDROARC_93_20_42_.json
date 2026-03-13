@@ -3,17 +3,23 @@
   "id": "HYDROARC 93/20(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      36.25,
+      70.39166666666667
+    ]
   },
   "properties": {
     "dtg": "2020-06-24T21:08:00",
     "raw_dtg": "242108Z JUN 20",
     "msg_id": "HYDROARC 93/20(42)",
-    "cancellations": [
-      "HYDROARC 289/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\nHAZARDOUS OPERATIONS IN PROGRESS\nUNTIL FURTHER NOTICE IN AREA WITHIN\nTWO MILES OF 70-23.5N 036-15.0E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\nHAZARDOUS OPERATIONS IN PROGRESS\nUNTIL FURTHER NOTICE IN AREA WITHIN\nTWO MILES OF 70-23.5N 036-15.0E.",
+    "valid_from": "2020-06-24T21:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

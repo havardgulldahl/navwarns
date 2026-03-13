@@ -3,17 +3,25 @@
   "id": "HYDROARC 2631/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6883333333333332,
+      51.586666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-11-07T06:52:00",
     "raw_dtg": "070652Z NOV 12",
     "msg_id": "HYDROARC 2631/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2642/12"
+      "2623/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V GEOHOLM WITH SUBMERSIBLE\n   VICINITY OF TRACKLINE BETWEEN\n   51-35.2N 001-41.3E AND 51-28.4N 001-17.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2623/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V GEOHOLM WITH SUBMERSIBLE\n   VICINITY OF TRACKLINE BETWEEN\n   51-35.2N 001-41.3E AND 51-28.4N 001-17.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2623/12.",
+    "valid_from": "2012-11-07T06:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

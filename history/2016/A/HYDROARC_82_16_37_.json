@@ -3,18 +3,26 @@
   "id": "HYDROARC 82/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.7349999999999999,
+      49.955
+    ]
   },
   "properties": {
     "dtg": "2016-01-10T13:13:00",
     "raw_dtg": "101313Z JAN 16",
     "msg_id": "HYDROARC 82/16(37)",
+    "year": 2016,
     "cancellations": [
       "THIS MSG 131313Z JAN 16",
-      "HYDROARC 82/16"
+      "74/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. 20 METER LONG TIMBER ADRIFT IN 49-57.3N 001-44.1W\n   AT 101220Z JAN.\n2. CANCEL HYDROLANT 74/16.\n3. CANCEL THIS MSG 131313Z JAN 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. 20 METER LONG TIMBER ADRIFT IN 49-57.3N 001-44.1W\n   AT 101220Z JAN.\n2. CANCEL HYDROLANT 74/16.\n3. CANCEL THIS MSG 131313Z JAN 16.",
+    "valid_from": "2016-01-10T13:13:00+00:00",
+    "valid_until": "2016-01-13T13:13:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 288/15(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.1400000000000001,
+      58.04833333333333
+    ]
   },
   "properties": {
     "dtg": "2015-02-02T20:40:00",
     "raw_dtg": "022040Z FEB 15",
     "msg_id": "HYDROARC 288/15(35,43)",
-    "cancellations": [
-      "HYDROARC 410/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V DEEP ENERGY VICINITY OF TRACKLINE BETWEEN\n58-02.9N 001-08.4E AND 58-06.1N 000-41.6E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V DEEP ENERGY VICINITY OF TRACKLINE BETWEEN\n58-02.9N 001-08.4E AND 58-06.1N 000-41.6E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2015-02-02T20:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

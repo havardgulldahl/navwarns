@@ -3,17 +3,23 @@
   "id": "HYDROARC 1200/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.501666666666667,
+      52.215
+    ]
   },
   "properties": {
     "dtg": "2013-05-13T15:08:00",
     "raw_dtg": "131508Z MAY 13",
     "msg_id": "HYDROARC 1200/13(37)",
-    "cancellations": [
-      "HYDROARC 1208/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37166\nMETEOROLOGICAL MAST UNDER CONSTRUCTION IN 52-12.9N 002-30.1E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37166\nMETEOROLOGICAL MAST UNDER CONSTRUCTION IN 52-12.9N 002-30.1E.",
+    "valid_from": "2013-05-13T15:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,26 @@
   "id": "HYDROARC 3489/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.5283333333333333,
+      50.645
+    ]
   },
   "properties": {
     "dtg": "2018-11-09T20:32:00",
     "raw_dtg": "092032Z NOV 18",
     "msg_id": "HYDROARC 3489/18(37)",
+    "year": 2018,
     "cancellations": [
       "THIS MSG 122032Z NOV 18",
-      "HYDROARC 3489/18"
+      "3462/18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT F/V ADRIFT IN 50-38.7N 000-31.7E\n   AT 071624Z NOV.\n2. CANCEL HYDROLANT 3462/18.\n3. CANCEL THIS MSG 122032Z NOV 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT F/V ADRIFT IN 50-38.7N 000-31.7E\n   AT 071624Z NOV.\n2. CANCEL HYDROLANT 3462/18.\n3. CANCEL THIS MSG 122032Z NOV 18.",
+    "valid_from": "2018-11-09T20:32:00+00:00",
+    "valid_until": "2018-11-12T20:32:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 2287/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2716666666666665,
+      58.93666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-12-30T21:06:00",
     "raw_dtg": "302106Z DEC 11",
     "msg_id": "HYDROARC 2287/11(35)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 12/12"
+      "2248/11"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nORKNEY ISLANDS.\nCHART 35057\n1. GRAEMSAY ISLAND REAR RANGE LIGHT 58-56.2N 003-16.3W UNLIT.\n2. CANCEL HYDROLANT 2248/11."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nORKNEY ISLANDS.\nCHART 35057\n1. GRAEMSAY ISLAND REAR RANGE LIGHT 58-56.2N 003-16.3W UNLIT.\n2. CANCEL HYDROLANT 2248/11.",
+    "valid_from": "2011-12-30T21:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

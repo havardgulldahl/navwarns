@@ -2,18 +2,51 @@
   "type": "Feature",
   "id": "HYDROARC 952/13(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.576666666666668,
+          44.35
+        ],
+        [
+          30.776666666666667,
+          44.346666666666664
+        ],
+        [
+          30.74,
+          44.123333333333335
+        ],
+        [
+          30.293333333333333,
+          43.71
+        ],
+        [
+          29.895,
+          43.733333333333334
+        ],
+        [
+          30.576666666666668,
+          44.35
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-04-15T15:08:00",
     "raw_dtg": "151508Z APR 13",
     "msg_id": "HYDROARC 952/13(55)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 966/13"
+      "THIS MSG 27 MAY 13",
+      "641/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 26 MAY BY\n   M/V SYMPHONY TOWING 12 7400 METER LONG CABLES\n   IN AREA BOUND BY\n   44-21.0N 030-34.6E, 44-20.8N 030-46.6E,\n   44-07.4N 030-44.4E, 43-42.6N 030-17.6E,\n   43-44.0N 029-53.7E.\n   SIX MILE BERTH REQUEST.\n2. CANCEL HYDROLANT 641/13.\n3. CANCEL THIS MSG 27 MAY 13."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 26 MAY BY\n   M/V SYMPHONY TOWING 12 7400 METER LONG CABLES\n   IN AREA BOUND BY\n   44-21.0N 030-34.6E, 44-20.8N 030-46.6E,\n   44-07.4N 030-44.4E, 43-42.6N 030-17.6E,\n   43-44.0N 029-53.7E.\n   SIX MILE BERTH REQUEST.\n2. CANCEL HYDROLANT 641/13.\n3. CANCEL THIS MSG 27 MAY 13.",
+    "valid_from": "2013-04-15T15:08:00+00:00",
+    "valid_until": "2013-05-27T00:00:00+00:00",
+    "summary": null
   }
 }

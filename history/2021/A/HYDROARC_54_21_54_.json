@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 54/21(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.491666666666667,
+          35.983333333333334
+        ],
+        [
+          30.15,
+          35.983333333333334
+        ],
+        [
+          30.15,
+          35.78333333333333
+        ],
+        [
+          29.491666666666667,
+          35.78333333333333
+        ],
+        [
+          29.491666666666667,
+          35.983333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-01-08T09:08:00",
     "raw_dtg": "080908Z JAN 21",
     "msg_id": "HYDROARC 54/21(54)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 120400Z JAN 21",
-      "HYDROARC 54/21"
+      "THIS MSG 120400Z JAN 21"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 111700Z TO 120300Z JAN\n   IN AREA BOUND BY\n   35-59.0N 029-29.5E,35-59.0N 030-09.0E,\n   35-47.0N 030-09.0E,35-47.0N 029-29.5E.\n2. CANCEL THIS MSG 120400Z JAN 21."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 111700Z TO 120300Z JAN\n   IN AREA BOUND BY\n   35-59.0N 029-29.5E,35-59.0N 030-09.0E,\n   35-47.0N 030-09.0E,35-47.0N 029-29.5E.\n2. CANCEL THIS MSG 120400Z JAN 21.",
+    "valid_from": "2021-01-08T09:08:00+00:00",
+    "valid_until": "2021-01-12T04:00:00+00:00",
+    "summary": null
   }
 }

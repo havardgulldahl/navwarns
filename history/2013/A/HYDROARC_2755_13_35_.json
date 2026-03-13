@@ -3,17 +3,23 @@
   "id": "HYDROARC 2755/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2933333333333334,
+      58.778333333333336
+    ]
   },
   "properties": {
     "dtg": "2013-11-03T23:41:00",
     "raw_dtg": "032341Z NOV 13",
     "msg_id": "HYDROARC 2755/13(35)",
-    "cancellations": [
-      "HYDROARC 2759/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nCHART 35059\nTOR NESS LIGHT 58-46.7N 003-17.6W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nCHART 35059\nTOR NESS LIGHT 58-46.7N 003-17.6W UNLIT.",
+    "valid_from": "2013-11-03T23:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

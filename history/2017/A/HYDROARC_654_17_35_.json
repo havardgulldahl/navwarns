@@ -3,18 +3,25 @@
   "id": "HYDROARC 654/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.886666666666667,
+      57.63666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-02-27T15:19:00",
     "raw_dtg": "271519Z FEB 17",
     "msg_id": "HYDROARC 654/17(35)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 041900Z MAR 17",
-      "HYDROARC 688/17"
+      "THIS MSG 041900Z MAR 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nDNC 19.\n1. GUNNERY EXERCISES 0900Z TO 1800Z DAILY\n   28 FEB THRU 04 MAR IN AREA WITHIN 27 MILES\n   OF 57-38.2N 009-53.2W. VESSELS INTENDING\n   TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 OR\n   PHONE: 187 060 4449 FOR ADVICE.\n2. CANCEL THIS MSG 041900Z MAR 17."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nDNC 19.\n1. GUNNERY EXERCISES 0900Z TO 1800Z DAILY\n   28 FEB THRU 04 MAR IN AREA WITHIN 27 MILES\n   OF 57-38.2N 009-53.2W. VESSELS INTENDING\n   TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 OR\n   PHONE: 187 060 4449 FOR ADVICE.\n2. CANCEL THIS MSG 041900Z MAR 17.",
+    "valid_from": "2017-02-27T15:19:00+00:00",
+    "valid_until": "2017-03-04T19:00:00+00:00",
+    "summary": null
   }
 }

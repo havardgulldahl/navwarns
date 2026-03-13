@@ -3,17 +3,23 @@
   "id": "HYDROARC 519/14(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.543333333333333,
+      14.743333333333334
+    ]
   },
   "properties": {
     "dtg": "2014-02-20T14:42:00",
     "raw_dtg": "201442Z FEB 14",
     "msg_id": "HYDROARC 519/14(51)",
-    "cancellations": [
-      "HYDROARC 789/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nCHART 51480, 51560\nCHAUSSE DES ALMADIES LIGHT 14-44.6N 017-32.6W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nCHART 51480, 51560\nCHAUSSE DES ALMADIES LIGHT 14-44.6N 017-32.6W UNLIT.",
+    "valid_from": "2014-02-20T14:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

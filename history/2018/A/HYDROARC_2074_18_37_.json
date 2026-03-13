@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2074/18(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2018-06-26T08:30:00",
     "raw_dtg": "260830Z JUN 18",
     "msg_id": "HYDROARC 2074/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2074/18"
+      "1970/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCANCEL HYDROLANT 1970/18 AND THIS MSG,\nOPERATIONS SUSPENDED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCANCEL HYDROLANT 1970/18 AND THIS MSG,\nOPERATIONS SUSPENDED.",
+    "valid_from": "2018-06-26T08:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

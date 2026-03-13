@@ -3,17 +3,23 @@
   "id": "HYDROARC 307/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.516666666666666,
+      -30.091666666666665
+    ]
   },
   "properties": {
     "dtg": "2010-02-17T23:53:00",
     "raw_dtg": "172353Z FEB 10",
     "msg_id": "HYDROARC 307/10(24)",
-    "cancellations": [
-      "HYDROARC 307/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 230800Z TO 231500Z FEB\n   WITHIN TEN MILES OF 30-05.5S 049-31.0W.\n2. CANCEL THIS MSG 231600Z FEB."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 230800Z TO 231500Z FEB\n   WITHIN TEN MILES OF 30-05.5S 049-31.0W.\n2. CANCEL THIS MSG 231600Z FEB.",
+    "valid_from": "2010-02-17T23:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

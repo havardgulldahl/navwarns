@@ -3,17 +3,23 @@
   "id": "HYDROARC 707/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.275,
+      59.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-02-28T22:36:00",
     "raw_dtg": "282236Z FEB 18",
     "msg_id": "HYDROARC 707/18(35)",
-    "cancellations": [
-      "HYDROARC 716/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nSUMBURGH HEAD LIGHT 59-51.2N 001-16.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nSUMBURGH HEAD LIGHT 59-51.2N 001-16.5W UNRELIABLE.",
+    "valid_from": "2018-02-28T22:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

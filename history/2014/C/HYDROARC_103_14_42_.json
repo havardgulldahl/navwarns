@@ -2,19 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 103/14(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          51.32277777777778,
+          69.1588888888889
+        ],
+        [
+          52.27222222222222,
+          69.53027777777778
+        ],
+        [
+          53.300555555555555,
+          69.58166666666666
+        ],
+        [
+          53.17777777777778,
+          69.2213888888889
+        ],
+        [
+          52.225,
+          68.85
+        ],
+        [
+          51.24027777777778,
+          68.79694444444445
+        ],
+        [
+          51.32277777777778,
+          69.1588888888889
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-07-08T18:40:00",
     "raw_dtg": "081840Z JUL 14",
     "msg_id": "HYDROARC 103/14(42)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 091900Z JUL 14",
-      "HYDROARC 103/14"
+      "THIS MSG 091900Z JUL 14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 091200Z TO 091800Z JUL\n   IN AREA BOUND BY\n   69-09-32N 051-19-22E, 69-31-49N 052-16-20E,\n   69-34-54N 053-18-02E, 69-13-17N 053-10-40E,\n   68-51-00N 052-13-30E, 68-47-49N 051-14-25E.\n2. CANCEL THIS MSG 091900Z JUL 14."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 091200Z TO 091800Z JUL\n   IN AREA BOUND BY\n   69-09-32N 051-19-22E, 69-31-49N 052-16-20E,\n   69-34-54N 053-18-02E, 69-13-17N 053-10-40E,\n   68-51-00N 052-13-30E, 68-47-49N 051-14-25E.\n2. CANCEL THIS MSG 091900Z JUL 14.",
+    "valid_from": "2014-07-08T18:40:00+00:00",
+    "valid_until": "2014-07-09T19:00:00+00:00",
+    "summary": null
   }
 }

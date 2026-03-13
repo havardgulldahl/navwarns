@@ -3,17 +3,23 @@
   "id": "HYDROARC 2483/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -42.02,
+      -22.973333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-08-15T09:14:00",
     "raw_dtg": "150914Z AUG 19",
     "msg_id": "HYDROARC 2483/19(24)",
-    "cancellations": [
-      "HYDROARC 2492/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24160.\nDANGEROUS WRECK IN 22-58.4S 042-01.2W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24160.\nDANGEROUS WRECK IN 22-58.4S 042-01.2W.",
+    "valid_from": "2019-08-15T09:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

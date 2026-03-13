@@ -3,17 +3,25 @@
   "id": "HYDROARC 3534/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.51,
+      -2.533333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-11-15T04:00:00",
     "raw_dtg": "150400Z NOV 18",
     "msg_id": "HYDROARC 3534/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 4001/18"
+      "THIS MSG 14 MAY 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. ITAUNA LIGHT 02-32.0S 044-30.6W UNLIT.\n2. CANCEL THIS MSG 14 MAY 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. ITAUNA LIGHT 02-32.0S 044-30.6W UNLIT.\n2. CANCEL THIS MSG 14 MAY 19.",
+    "valid_from": "2018-11-15T04:00:00+00:00",
+    "valid_until": "2019-05-14T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 612/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.608333333333333,
+      53.42166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-03-13T17:32:00",
     "raw_dtg": "131732Z MAR 16",
     "msg_id": "HYDROARC 612/16(36)",
-    "cancellations": [
-      "HYDROARC 614/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-NORTHWEST COAST.\nDNC 20.\nCHART 36006.\nSKERRIES LIGHT 53-25.3N 004-36.5W UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-NORTHWEST COAST.\nDNC 20.\nCHART 36006.\nSKERRIES LIGHT 53-25.3N 004-36.5W UNLIT.",
+    "valid_from": "2016-03-13T17:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2205/13(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -19.543333333333333,
+      18.63
+    ]
   },
   "properties": {
     "dtg": "2013-09-09T06:30:00",
     "raw_dtg": "090630Z SEP 13",
     "msg_id": "HYDROARC 2205/13(51)",
-    "cancellations": [
-      "HYDROARC 2206/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM F/V ZUBEROA\nIN 18-37.8N 019-32.6W AT 090350Z SEP. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC MADRID, PHONE: 349 1755 9132,\nE-MAIL: CNCS@SASEMAR.ES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM F/V ZUBEROA\nIN 18-37.8N 019-32.6W AT 090350Z SEP. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC MADRID, PHONE: 349 1755 9132,\nE-MAIL: CNCS@SASEMAR.ES.",
+    "valid_from": "2013-09-09T06:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 507/12(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      7.173333333333334,
+      37.08166666666666
+    ]
   },
   "properties": {
     "dtg": "2012-03-06T11:00:00",
     "raw_dtg": "061100Z MAR 12",
     "msg_id": "HYDROARC 507/12(52)",
-    "cancellations": [
-      "HYDROARC 871/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52223\nCAP DE FER LIGHT 37-04.9N 007-10.4E UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52223\nCAP DE FER LIGHT 37-04.9N 007-10.4E UNLIT.",
+    "valid_from": "2012-03-06T11:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

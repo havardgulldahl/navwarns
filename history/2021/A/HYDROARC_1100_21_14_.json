@@ -3,17 +3,23 @@
   "id": "HYDROARC 1100/21(14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -53.62833333333333,
+      38.64666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-04-21T08:39:00",
     "raw_dtg": "210839Z APR 21",
     "msg_id": "HYDROARC 1100/21(14)",
-    "cancellations": [
-      "HYDROARC 1255/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED IN VICINITY\n38-38.8N 053-37.7W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON,\nPHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED IN VICINITY\n38-38.8N 053-37.7W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON,\nPHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2021-04-21T08:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

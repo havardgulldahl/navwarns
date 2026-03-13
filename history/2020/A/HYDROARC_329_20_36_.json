@@ -3,18 +3,25 @@
   "id": "HYDROARC 329/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -12.485,
+      48.725
+    ]
   },
   "properties": {
     "dtg": "2020-01-30T11:32:00",
     "raw_dtg": "301132Z JAN 20",
     "msg_id": "HYDROARC 329/20(36)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 021132Z FEB 20",
-      "HYDROARC 329/20"
+      "THIS MSG 021132Z FEB 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\n1. ODAS BUOY K1, ADRIFT IN 48-43.5N 012-29.1W\n   AT 301000Z JAN.\n2. CANCEL THIS MSG 021132Z FEB 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\n1. ODAS BUOY K1, ADRIFT IN 48-43.5N 012-29.1W\n   AT 301000Z JAN.\n2. CANCEL THIS MSG 021132Z FEB 20.",
+    "valid_from": "2020-01-30T11:32:00+00:00",
+    "valid_until": "2020-02-02T11:32:00+00:00",
+    "summary": null
   }
 }

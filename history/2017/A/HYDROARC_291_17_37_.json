@@ -3,17 +3,23 @@
   "id": "HYDROARC 291/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.055,
+      51.32666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-01-27T20:20:00",
     "raw_dtg": "272020Z JAN 17",
     "msg_id": "HYDROARC 291/17(37)",
-    "cancellations": [
-      "HYDROARC 346/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V HAVILA PHOENIX WITH SUBMERSIBLE\nIN VICINITY 51-19.6N 002-03.3E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V HAVILA PHOENIX WITH SUBMERSIBLE\nIN VICINITY 51-19.6N 002-03.3E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2017-01-27T20:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

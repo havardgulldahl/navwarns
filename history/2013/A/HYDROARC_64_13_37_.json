@@ -3,17 +3,23 @@
   "id": "HYDROARC 64/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.3,
+      51.24166666666667
+    ]
   },
   "properties": {
     "dtg": "2013-01-07T21:47:00",
     "raw_dtg": "072147Z JAN 13",
     "msg_id": "HYDROARC 64/13(37)",
-    "cancellations": [
-      "HYDROARC 99/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37129\nRUYTINGEN EAST BUOY 51-14.5N 002-18.0E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37129\nRUYTINGEN EAST BUOY 51-14.5N 002-18.0E UNLIT.",
+    "valid_from": "2013-01-07T21:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

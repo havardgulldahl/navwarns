@@ -3,17 +3,23 @@
   "id": "HYDROARC 4227/17(14,51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.0,
+      38.13666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-12-29T04:04:00",
     "raw_dtg": "290404Z DEC 17",
     "msg_id": "HYDROARC 4227/17(14,51)",
-    "cancellations": [
-      "HYDROARC 4229/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED FROM F/V ARCA UNO IN\n38-08.2N 043-00.0W. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON,\nPHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED FROM F/V ARCA UNO IN\n38-08.2N 043-00.0W. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON,\nPHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2017-12-29T04:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1130/12(11,26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -79.41666666666667,
+      24.223333333333333
+    ]
   },
   "properties": {
     "dtg": "2012-05-26T15:34:00",
     "raw_dtg": "261534Z MAY 12",
     "msg_id": "HYDROARC 1130/12(11,26)",
-    "cancellations": [
-      "HYDROARC 1133/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "STRAITS OF FLORIDA.\n1. DERELICT 16 FOOT VESSEL, WHITE HULL, ADRIFT\n   IN 24-13.4N 079-25.0W AT 260844Z MAY.\n   REPORTS TO U.S. COAST GUARD RCC MIAMI,\n   PHONE: 305 415 6800.\n2. CANCEL THIS MSG 291532Z MAY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAITS OF FLORIDA.\n1. DERELICT 16 FOOT VESSEL, WHITE HULL, ADRIFT\n   IN 24-13.4N 079-25.0W AT 260844Z MAY.\n   REPORTS TO U.S. COAST GUARD RCC MIAMI,\n   PHONE: 305 415 6800.\n2. CANCEL THIS MSG 291532Z MAY.",
+    "valid_from": "2012-05-26T15:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

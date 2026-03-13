@@ -3,18 +3,25 @@
   "id": "HYDROARC 2806/20(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.93,
+      54.83833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-09-14T03:05:00",
     "raw_dtg": "140305Z SEP 20",
     "msg_id": "HYDROARC 2806/20(35,36)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 251600Z SEP 20",
-      "HYDROARC 2922/20"
+      "THIS MSG 251600Z SEP 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nIRISH SEA.\nSCOTLAND.\nNORTHERN IRELAND.\nDNC 19, DNC 20.\n1. GPS JAMMING EXERCISES 0730Z TO 1500Z DAILY\n   14 THRU 25 SEP IN AREA WITHIN 70 MILES OF\n   54-50.3N 004-55.8W.\n2. CANCEL THIS MSG 251600Z SEP 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nIRISH SEA.\nSCOTLAND.\nNORTHERN IRELAND.\nDNC 19, DNC 20.\n1. GPS JAMMING EXERCISES 0730Z TO 1500Z DAILY\n   14 THRU 25 SEP IN AREA WITHIN 70 MILES OF\n   54-50.3N 004-55.8W.\n2. CANCEL THIS MSG 251600Z SEP 20.",
+    "valid_from": "2020-09-14T03:05:00+00:00",
+    "valid_until": "2020-09-25T16:00:00+00:00",
+    "summary": null
   }
 }

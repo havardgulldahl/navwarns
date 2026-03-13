@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 3812/17(54,56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.275,
+          34.31666666666667
+        ],
+        [
+          33.333333333333336,
+          34.31666666666667
+        ],
+        [
+          33.333333333333336,
+          33.833333333333336
+        ],
+        [
+          32.275,
+          33.833333333333336
+        ],
+        [
+          32.275,
+          34.31666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-11-25T11:26:00",
     "raw_dtg": "251126Z NOV 17",
     "msg_id": "HYDROARC 3812/17(54,56)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 261600Z NOV 17",
-      "HYDROARC 3812/17"
+      "THIS MSG 261600Z NOV 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. GUNNERY EXERCISES 261300Z TO 261500Z NOV\n   IN AREA BOUND BY\n   34-19.0N 032-16.5E, 34-19.0N 033-20.0E,\n   33-50.0N 033-20.0E, 33-50.0N 032-16.5E,\n   34-19.0N 032-16.5E.\n2. CANCEL THIS MSG 261600Z NOV 17."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. GUNNERY EXERCISES 261300Z TO 261500Z NOV\n   IN AREA BOUND BY\n   34-19.0N 032-16.5E, 34-19.0N 033-20.0E,\n   33-50.0N 033-20.0E, 33-50.0N 032-16.5E,\n   34-19.0N 032-16.5E.\n2. CANCEL THIS MSG 261600Z NOV 17.",
+    "valid_from": "2017-11-25T11:26:00+00:00",
+    "valid_until": "2017-11-26T16:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 3183/21(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      13.935,
+      -52.03
+    ]
   },
   "properties": {
     "dtg": "2021-12-28T22:50:00",
     "raw_dtg": "282250Z DEC 21",
     "msg_id": "HYDROARC 3183/21(57)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 312250Z DEC 21",
-      "HYDROARC 3183/21"
+      "THIS MSG 312250Z DEC 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. ICEBERG REPORTED IN 52-01.8S 013-56.1E AT\n   282230Z DEC.\n2. CANCEL THIS MSG 312250Z DEC 21."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. ICEBERG REPORTED IN 52-01.8S 013-56.1E AT\n   282230Z DEC.\n2. CANCEL THIS MSG 312250Z DEC 21.",
+    "valid_from": "2021-12-28T22:50:00+00:00",
+    "valid_until": "2021-12-31T22:50:00+00:00",
+    "summary": null
   }
 }

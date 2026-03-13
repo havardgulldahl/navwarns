@@ -2,19 +2,70 @@
   "type": "Feature",
   "id": "HYDROARC 419/15(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          41.75,
+          69.775
+        ],
+        [
+          46.95,
+          69.775
+        ],
+        [
+          48.25,
+          69.16666666666667
+        ],
+        [
+          49.25,
+          68.66666666666667
+        ],
+        [
+          50.28333333333333,
+          68.16666666666667
+        ],
+        [
+          36.84166666666667,
+          65.14166666666667
+        ],
+        [
+          34.475,
+          65.29166666666667
+        ],
+        [
+          34.858333333333334,
+          65.85
+        ],
+        [
+          35.65,
+          66.38333333333334
+        ],
+        [
+          39.833333333333336,
+          68.16666666666667
+        ],
+        [
+          41.75,
+          69.775
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-12-15T05:52:00",
     "raw_dtg": "150552Z DEC 15",
     "msg_id": "HYDROARC 419/15(42)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 211800Z DEC 15",
-      "HYDROARC 419/15"
+      "THIS MSG 211800Z DEC 15"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nWHITE SEA.\nMISSILES.\nDNC 22.\n1. HAZARDOUS OPERATIONS 0100Z TO 1700Z DAILY\n   18 THRU 21 DEC IN AREA BOUND BY\n   69-46.5N 041-45.0E, 69-46.5N 046-57.0E,\n   69-10.0N 048-15.0E, 68-40.0N 049-15.0E,\n   68-10.0N 050-17.0E, 65-08.5N 036-50.5E,\n   65-17.5N 034-28.5E, 65-51.0N 034-51.5E,\n   66-23.0N 035-39.0E, 68-10.0N 039-50.0E.\n2. CANCEL THIS MSG 211800Z DEC 15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nWHITE SEA.\nMISSILES.\nDNC 22.\n1. HAZARDOUS OPERATIONS 0100Z TO 1700Z DAILY\n   18 THRU 21 DEC IN AREA BOUND BY\n   69-46.5N 041-45.0E, 69-46.5N 046-57.0E,\n   69-10.0N 048-15.0E, 68-40.0N 049-15.0E,\n   68-10.0N 050-17.0E, 65-08.5N 036-50.5E,\n   65-17.5N 034-28.5E, 65-51.0N 034-51.5E,\n   66-23.0N 035-39.0E, 68-10.0N 039-50.0E.\n2. CANCEL THIS MSG 211800Z DEC 15.",
+    "valid_from": "2015-12-15T05:52:00+00:00",
+    "valid_until": "2015-12-21T18:00:00+00:00",
+    "summary": null
   }
 }

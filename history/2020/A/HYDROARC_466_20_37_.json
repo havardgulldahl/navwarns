@@ -3,17 +3,23 @@
   "id": "HYDROARC 466/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.43,
+      50.43333333333333
+    ]
   },
   "properties": {
     "dtg": "2020-02-10T06:46:00",
     "raw_dtg": "100646Z FEB 20",
     "msg_id": "HYDROARC 466/20(37)",
-    "cancellations": [
-      "HYDROARC 516/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nANCHOR AND CABLE ABANDONED IN VICINITY\n50-26.0N 003-25.8W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nANCHOR AND CABLE ABANDONED IN VICINITY\n50-26.0N 003-25.8W.",
+    "valid_from": "2020-02-10T06:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 1068/14(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.875,
+          38.075
+        ],
+        [
+          25.815,
+          38.108333333333334
+        ],
+        [
+          25.758333333333333,
+          38.06
+        ],
+        [
+          25.791666666666668,
+          38.0
+        ],
+        [
+          25.875,
+          38.075
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-04-22T20:18:00",
     "raw_dtg": "222018Z APR 14",
     "msg_id": "HYDROARC 1068/14(54)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1068/14"
+      "THIS MSG 01 MAY 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 30 APR\n   IN AREA BOUND BY\n   38-04.5N 025-52.5E, 38-06.5N 025-48.9E,\n   38-03.6N 025-45.5E, 38-00.0N 025-47.5E.\n2. CANCEL THIS MSG 01 MAY 14."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 30 APR\n   IN AREA BOUND BY\n   38-04.5N 025-52.5E, 38-06.5N 025-48.9E,\n   38-03.6N 025-45.5E, 38-00.0N 025-47.5E.\n2. CANCEL THIS MSG 01 MAY 14.",
+    "valid_from": "2014-04-22T20:18:00+00:00",
+    "valid_until": "2014-05-01T00:00:00+00:00",
+    "summary": null
   }
 }

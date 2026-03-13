@@ -3,17 +3,23 @@
   "id": "HYDROARC 3461/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.298333333333333,
+      57.72666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-11-10T23:42:00",
     "raw_dtg": "102342Z NOV 19",
     "msg_id": "HYDROARC 3461/19(35)",
-    "cancellations": [
-      "HYDROARC 3469/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nTRODDAY LIGHT 57-43.6N 006-17.9W INOPERATIVE."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nTRODDAY LIGHT 57-43.6N 006-17.9W INOPERATIVE.",
+    "valid_from": "2019-11-10T23:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

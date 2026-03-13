@@ -2,18 +2,80 @@
   "type": "Feature",
   "id": "HYDROARC 2540/13(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.786666666666665,
+          44.345
+        ],
+        [
+          31.16,
+          44.05
+        ],
+        [
+          31.405,
+          44.01166666666666
+        ],
+        [
+          31.33,
+          43.43333333333333
+        ],
+        [
+          31.106666666666666,
+          43.36
+        ],
+        [
+          30.991666666666667,
+          43.388333333333335
+        ],
+        [
+          30.476666666666667,
+          43.63666666666667
+        ],
+        [
+          29.838333333333335,
+          43.67666666666667
+        ],
+        [
+          29.253333333333334,
+          43.76
+        ],
+        [
+          29.83,
+          43.75833333333333
+        ],
+        [
+          29.816666666666666,
+          44.346666666666664
+        ],
+        [
+          29.69,
+          44.355
+        ],
+        [
+          30.753333333333334,
+          44.346666666666664
+        ],
+        [
+          30.786666666666665,
+          44.345
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-10-14T15:54:00",
     "raw_dtg": "141554Z OCT 13",
     "msg_id": "HYDROARC 2540/13(55)",
-    "cancellations": [
-      "HYDROARC 2911/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V GSP QUEEN IN AREA BOUND BY\n44-20.7N 030-47.2E, 44-03.0N 031-09.6E,\n44-00.7N 031-24.3E, 43-26.0N 031-19.8E,\n43-21.6N 031-06.4E, 43-23.3N 030-59.5E,\n43-38.2N 030-28.6E, 43-40.6N 029-50.3E,\n43-45.6N 029-15.2E, 43-45.5N 029-49.8E,\n44-20.8N 029-49.0E, 44-21.3N 029-41.4E,\n44-20.8N 030-45.2E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V GSP QUEEN IN AREA BOUND BY\n44-20.7N 030-47.2E, 44-03.0N 031-09.6E,\n44-00.7N 031-24.3E, 43-26.0N 031-19.8E,\n43-21.6N 031-06.4E, 43-23.3N 030-59.5E,\n43-38.2N 030-28.6E, 43-40.6N 029-50.3E,\n43-45.6N 029-15.2E, 43-45.5N 029-49.8E,\n44-20.8N 029-49.0E, 44-21.3N 029-41.4E,\n44-20.8N 030-45.2E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2013-10-14T15:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

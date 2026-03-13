@@ -12,12 +12,16 @@
     "dtg": "2020-08-12T19:28:00",
     "raw_dtg": "121928Z AUG 20",
     "msg_id": "HYDROARC 2502/20(25)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 132330Z AUG 20",
-      "HYDROARC 2502/20"
+      "THIS MSG 132330Z AUG 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN CARIBBEAN SEA.\nMARTINIQUE.\nDNC 14.\n1. GUNNERY EXERCISES 131730Z TO 132230Z AUG\n   IN AREA WITHIN 12 MILES OF\n   14-35.00N 061-47.36W.\n2. CANCEL THIS MSG 132330Z AUG 20."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN CARIBBEAN SEA.\nMARTINIQUE.\nDNC 14.\n1. GUNNERY EXERCISES 131730Z TO 132230Z AUG\n   IN AREA WITHIN 12 MILES OF\n   14-35.00N 061-47.36W.\n2. CANCEL THIS MSG 132330Z AUG 20.",
+    "valid_from": "2020-08-12T19:28:00+00:00",
+    "valid_until": "2020-08-13T23:30:00+00:00",
+    "summary": null
   }
 }

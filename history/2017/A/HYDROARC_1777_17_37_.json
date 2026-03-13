@@ -3,17 +3,23 @@
   "id": "HYDROARC 1777/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7666666666666666,
+      51.835
+    ]
   },
   "properties": {
     "dtg": "2017-06-06T16:23:00",
     "raw_dtg": "061623Z JUN 17",
     "msg_id": "HYDROARC 1777/17(37)",
-    "cancellations": [
-      "HYDROARC 1792/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\nSUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E\nOFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\nSUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E\nOFF STATION.",
+    "valid_from": "2017-06-06T16:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

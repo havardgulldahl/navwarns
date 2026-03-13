@@ -3,17 +3,23 @@
   "id": "HYDROARC 1543/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2933333333333334,
+      58.778333333333336
+    ]
   },
   "properties": {
     "dtg": "2010-08-16T00:03:00",
     "raw_dtg": "160003Z AUG 10",
     "msg_id": "HYDROARC 1543/10(35)",
-    "cancellations": [
-      "HYDROARC 1545/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ORKNEY ISLANDS.\nNGA CHART 35001 (2ND ED).\nTOR NESS LIGHT 58-46.7N 003-17.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ORKNEY ISLANDS.\nNGA CHART 35001 (2ND ED).\nTOR NESS LIGHT 58-46.7N 003-17.6W UNRELIABLE.",
+    "valid_from": "2010-08-16T00:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

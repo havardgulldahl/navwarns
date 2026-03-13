@@ -3,17 +3,23 @@
   "id": "HYDROARC 2500/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.145,
+      -4.9399999999999995
+    ]
   },
   "properties": {
     "dtg": "2013-10-10T00:24:00",
     "raw_dtg": "100024Z OCT 13",
     "msg_id": "HYDROARC 2500/13(24)",
-    "cancellations": [
-      "HYDROARC 2531/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nCHART 24240\nPONTAL LIGHT 04-56.4S 037-08.7W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nCHART 24240\nPONTAL LIGHT 04-56.4S 037-08.7W UNLIT.",
+    "valid_from": "2013-10-10T00:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,52 @@
   "type": "Feature",
   "id": "HYDROARC 2023/18(36)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.035,
+          51.18666666666667
+        ],
+        [
+          -6.473333333333334,
+          51.18666666666667
+        ],
+        [
+          -6.473333333333334,
+          50.763333333333335
+        ],
+        [
+          -6.991666666666667,
+          50.763333333333335
+        ],
+        [
+          -6.991666666666667,
+          50.305
+        ],
+        [
+          -8.035,
+          50.305
+        ],
+        [
+          -8.035,
+          51.18666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-06-22T09:27:00",
     "raw_dtg": "220927Z JUN 18",
     "msg_id": "HYDROARC 2023/18(36)",
-    "cancellations": [
-      "HYDROARC 2071/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nDNC 19.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY UNMANNED FIVE METER SUBMERSIBLE IN AREA BOUND BY\n51-11.2N 008-02.1W, 51-11.2N 006-28.4W,\n50-45.8N 006-28.4W, 50-45.8N 006-59.5W,\n50-18.3N 006-59.5W, 50-18.3N 008-02.1W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nDNC 19.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY UNMANNED FIVE METER SUBMERSIBLE IN AREA BOUND BY\n51-11.2N 008-02.1W, 51-11.2N 006-28.4W,\n50-45.8N 006-28.4W, 50-45.8N 006-59.5W,\n50-18.3N 006-59.5W, 50-18.3N 008-02.1W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2018-06-22T09:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

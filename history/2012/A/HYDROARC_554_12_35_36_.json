@@ -3,17 +3,23 @@
   "id": "HYDROARC 554/12(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.581666666666667,
+      55.275
+    ]
   },
   "properties": {
     "dtg": "2012-03-09T23:50:00",
     "raw_dtg": "092350Z MAR 12",
     "msg_id": "HYDROARC 554/12(35,36)",
-    "cancellations": [
-      "HYDROARC 586/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 35119\nSANDA ISLAND LIGHT 55-16.5N 005-34.9W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 35119\nSANDA ISLAND LIGHT 55-16.5N 005-34.9W UNLIT.",
+    "valid_from": "2012-03-09T23:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

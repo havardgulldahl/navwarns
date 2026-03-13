@@ -3,17 +3,23 @@
   "id": "HYDROARC 1837/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.93333333333333,
+      -0.7916666666666666
+    ]
   },
   "properties": {
     "dtg": "2010-09-29T03:07:00",
     "raw_dtg": "290307Z SEP 10",
     "msg_id": "HYDROARC 1837/10(24)",
-    "cancellations": [
-      "HYDROARC 1871/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nVESSEL PUMA SHIPWRECKED IN 00-47.5S 045-56.0W\nAT 262300Z SEP. FOUR PERSONS MISSING. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY\nCOASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nVESSEL PUMA SHIPWRECKED IN 00-47.5S 045-56.0W\nAT 262300Z SEP. FOUR PERSONS MISSING. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY\nCOASTAL RADIO STATION.",
+    "valid_from": "2010-09-29T03:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

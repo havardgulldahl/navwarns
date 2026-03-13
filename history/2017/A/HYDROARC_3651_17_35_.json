@@ -3,17 +3,23 @@
   "id": "HYDROARC 3651/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.54,
+      56.10666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-11-12T00:51:00",
     "raw_dtg": "120051Z NOV 17",
     "msg_id": "HYDROARC 3651/17(35)",
-    "cancellations": [
-      "HYDROARC 3690/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35014.\nUNEXPLODED ORDNANCE IN AREA WITHIN 300 METERS\nOF 56-06.4N 002-32.4W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35014.\nUNEXPLODED ORDNANCE IN AREA WITHIN 300 METERS\nOF 56-06.4N 002-32.4W.",
+    "valid_from": "2017-11-12T00:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

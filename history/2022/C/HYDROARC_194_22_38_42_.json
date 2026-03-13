@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 194/22(38,42)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-08-10T08:50:00",
     "raw_dtg": "100850Z AUG 22",
     "msg_id": "HYDROARC 194/22(38,42)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 190/22",
-      "HYDROARC 194/22"
+      "HYDROARC 190/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nDNC 19, DNC 20, DNC 21.\nCANCEL HYDROARC 190/22 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nDNC 19, DNC 20, DNC 21.\nCANCEL HYDROARC 190/22 AND THIS MSG.",
+    "valid_from": "2022-08-10T08:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

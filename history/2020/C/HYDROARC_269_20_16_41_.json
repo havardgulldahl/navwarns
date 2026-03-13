@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 269/20(16,41)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-11-12T00:04:00",
     "raw_dtg": "120004Z NOV 20",
     "msg_id": "HYDROARC 269/20(16,41)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 180417Z DEC 20",
-      "HYDROARC 272/20"
+      "THIS MSG 180417Z DEC 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EAST SIBERIAN SEA.\nCHUKCHI SEA.\nARCTIC.\nDNC 27.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0200Z TO 0317Z DAILY 17 NOV THRU 17 DEC\n   IN AREA BOUND BY\n   78-27N 165-42E, 82-06N 145-00W,\n   81-28N 145-12W, 78-01N 167-48E.\n2. 2. CANCEL THIS MSG 180417Z DEC 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EAST SIBERIAN SEA.\nCHUKCHI SEA.\nARCTIC.\nDNC 27.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0200Z TO 0317Z DAILY 17 NOV THRU 17 DEC\n   IN AREA BOUND BY\n   78-27N 165-42E, 82-06N 145-00W,\n   81-28N 145-12W, 78-01N 167-48E.\n2. 2. CANCEL THIS MSG 180417Z DEC 20.",
+    "valid_from": "2020-11-12T00:04:00+00:00",
+    "valid_until": "2020-12-18T04:17:00+00:00",
+    "summary": null
   }
 }

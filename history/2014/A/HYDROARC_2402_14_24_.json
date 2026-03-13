@@ -3,17 +3,25 @@
   "id": "HYDROARC 2402/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.26166666666666,
+      -5.49
+    ]
   },
   "properties": {
     "dtg": "2014-10-04T16:13:00",
     "raw_dtg": "041613Z OCT 14",
     "msg_id": "HYDROARC 2402/14(24)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2430/14"
+      "THIS MSG 01 APR 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. CABO DE SAO ROQUE LIGHT 05-29.4S 035-15.7W UNLIT.\n2. CANCEL THIS MSG 01 APR 15."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. CABO DE SAO ROQUE LIGHT 05-29.4S 035-15.7W UNLIT.\n2. CANCEL THIS MSG 01 APR 15.",
+    "valid_from": "2014-10-04T16:13:00+00:00",
+    "valid_until": "2015-04-01T00:00:00+00:00",
+    "summary": null
   }
 }

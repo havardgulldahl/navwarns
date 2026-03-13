@@ -3,17 +3,25 @@
   "id": "HYDROARC 435/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.98,
+      58.18333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-02-08T22:10:00",
     "raw_dtg": "082210Z FEB 19",
     "msg_id": "HYDROARC 435/19(35)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 675/19"
+      "4056/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\n1. FOG SIGNAL AT PLATFORM 12/21C JACKY,\n   58-11.0N 002-58.8W INOPERATIVE.\n2. CANCEL HYDROLANT 4056/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\n1. FOG SIGNAL AT PLATFORM 12/21C JACKY,\n   58-11.0N 002-58.8W INOPERATIVE.\n2. CANCEL HYDROLANT 4056/18.",
+    "valid_from": "2019-02-08T22:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

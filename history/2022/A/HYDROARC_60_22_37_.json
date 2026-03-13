@@ -3,17 +3,23 @@
   "id": "HYDROARC 60/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2516666666666665,
+      47.388333333333335
+    ]
   },
   "properties": {
     "dtg": "2022-01-07T05:43:00",
     "raw_dtg": "070543Z JAN 22",
     "msg_id": "HYDROARC 60/22(37)",
-    "cancellations": [
-      "HYDROARC 71/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nPOINTE DES POULAINS LIGHTHOUSE 47-23.3N 003-15.1W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nPOINTE DES POULAINS LIGHTHOUSE 47-23.3N 003-15.1W\nUNRELIABLE.",
+    "valid_from": "2022-01-07T05:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

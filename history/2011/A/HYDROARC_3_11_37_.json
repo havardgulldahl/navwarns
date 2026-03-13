@@ -3,17 +3,23 @@
   "id": "HYDROARC 3/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3883333333333334,
+      50.958333333333336
+    ]
   },
   "properties": {
     "dtg": "2011-01-01T09:34:00",
     "raw_dtg": "010934Z JAN 11",
     "msg_id": "HYDROARC 3/11(37)",
-    "cancellations": [
-      "HYDROARC 32/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNGA CHART 37121 (11TH ED).\nCOLBART NORTH BUOY 50-57.5N 001-23.3E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNGA CHART 37121 (11TH ED).\nCOLBART NORTH BUOY 50-57.5N 001-23.3E UNLIT.",
+    "valid_from": "2011-01-01T09:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

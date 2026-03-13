@@ -3,17 +3,23 @@
   "id": "HYDROARC 3037/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.1066666666666665,
+      53.666666666666664
+    ]
   },
   "properties": {
     "dtg": "2013-11-29T01:00:00",
     "raw_dtg": "290100Z NOV 13",
     "msg_id": "HYDROARC 3037/13(36)",
-    "cancellations": [
-      "HYDROARC 3093/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-WEST COAST.\nCHART 36025\nWEST CARDINAL BUOY 53-40.0N 003-06.4W LIGHT UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-WEST COAST.\nCHART 36025\nWEST CARDINAL BUOY 53-40.0N 003-06.4W LIGHT UNRELIABLE.",
+    "valid_from": "2013-11-29T01:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,52 @@
   "type": "Feature",
   "id": "HYDROARC 22/11(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.0,
+          69.43833333333333
+        ],
+        [
+          34.0,
+          69.75
+        ],
+        [
+          35.3,
+          69.75
+        ],
+        [
+          35.3,
+          69.35
+        ],
+        [
+          34.75,
+          69.35
+        ],
+        [
+          34.25,
+          69.43833333333333
+        ],
+        [
+          34.0,
+          69.43833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-02-11T11:30:00",
     "raw_dtg": "111130Z FEB 11",
     "msg_id": "HYDROARC 22/11(42)",
-    "cancellations": [
-      "HYDROARC 22/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BARENTS SEA.\nKYLDIN ISLAND.\nMISSILES.\n1. HAZARDOUS OPERATIONS 0500Z TO 1700Z DAILY\n   15 THRU 18 FEB IN AREA BOUND BY\n   69-26.3N 034-00.0E, 69-45.0N 034-00.0E,\n   69-45.0N 035-18.0E, 69-21.0N 035-18.0E,\n   69-21.0N 034-45.0E, 69-26.3N 034-15.0E.\n2. CANCEL THIS MSG 181800Z FEB."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nKYLDIN ISLAND.\nMISSILES.\n1. HAZARDOUS OPERATIONS 0500Z TO 1700Z DAILY\n   15 THRU 18 FEB IN AREA BOUND BY\n   69-26.3N 034-00.0E, 69-45.0N 034-00.0E,\n   69-45.0N 035-18.0E, 69-21.0N 035-18.0E,\n   69-21.0N 034-45.0E, 69-26.3N 034-15.0E.\n2. CANCEL THIS MSG 181800Z FEB.",
+    "valid_from": "2011-02-11T11:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

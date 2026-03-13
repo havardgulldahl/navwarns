@@ -1,19 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1748/10(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-09-16T17:12:00",
     "raw_dtg": "161712Z SEP 10",
     "msg_id": "HYDROARC 1748/10(51)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1748/10"
+      "1690/10",
+      "1747/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. CANCEL HYDROLANT 1690/10, OPERATIONS COMPLETED.\n2. CANCEL HYDROLANT 1747/10(35), SERVICE RESTORED.\n3. CANCEL THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. CANCEL HYDROLANT 1690/10, OPERATIONS COMPLETED.\n2. CANCEL HYDROLANT 1747/10(35), SERVICE RESTORED.\n3. CANCEL THIS MSG.",
+    "valid_from": "2010-09-16T17:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

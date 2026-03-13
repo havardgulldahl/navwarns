@@ -2,18 +2,38 @@
   "type": "Feature",
   "id": "HYDROARC 1035/10(36)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -8.103333333333333,
+        48.93
+      ],
+      [
+        -8.03,
+        49.833333333333336
+      ],
+      [
+        -7.953333333333333,
+        50.001666666666665
+      ],
+      [
+        -7.28,
+        50.416666666666664
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-06-06T06:21:00",
     "raw_dtg": "060621Z JUN 10",
     "msg_id": "HYDROARC 1035/10(36)",
-    "cancellations": [
-      "HYDROARC 1038/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP PETER FABER WITH SUBMERSIBLE\nVICINITY OF TRACKLINE JOINING\n48-55.8N 008-06.2W,\n49-50.0N 008-01.8W,\n50-00.1N 007-57.2W,\n50-25.0N 007-16.8W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP PETER FABER WITH SUBMERSIBLE\nVICINITY OF TRACKLINE JOINING\n48-55.8N 008-06.2W,\n49-50.0N 008-01.8W,\n50-00.1N 007-57.2W,\n50-25.0N 007-16.8W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2010-06-06T06:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

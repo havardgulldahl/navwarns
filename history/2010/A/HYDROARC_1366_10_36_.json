@@ -3,17 +3,23 @@
   "id": "HYDROARC 1366/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.798333333333334,
+      52.75
+    ]
   },
   "properties": {
     "dtg": "2010-07-18T09:14:00",
     "raw_dtg": "180914Z JUL 10",
     "msg_id": "HYDROARC 1366/10(36)",
-    "cancellations": [
-      "HYDROARC 1368/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-WEST COAST.\nNGA CHART 36002 (0 ED).\nBARDSEY LIGHT 52-45.0N 004-47.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-WEST COAST.\nNGA CHART 36002 (0 ED).\nBARDSEY LIGHT 52-45.0N 004-47.9W UNRELIABLE.",
+    "valid_from": "2010-07-18T09:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

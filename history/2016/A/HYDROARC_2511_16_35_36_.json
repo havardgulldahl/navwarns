@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2511/16(35,36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-09-27T13:07:00",
     "raw_dtg": "271307Z SEP 16",
     "msg_id": "HYDROARC 2511/16(35,36)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2511/16"
+      "2276/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCELTIC SEA.\nDNC 19.\nCANCEL HYDROLANT 2276/16 AND THIS MSG, SURVEY COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCELTIC SEA.\nDNC 19.\nCANCEL HYDROLANT 2276/16 AND THIS MSG, SURVEY COMPLETED.",
+    "valid_from": "2016-09-27T13:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

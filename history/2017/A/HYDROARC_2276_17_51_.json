@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 2276/17(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -6.033333333333333,
+          36.18333333333333
+        ],
+        [
+          -8.995,
+          37.025
+        ],
+        [
+          -8.698333333333334,
+          37.181666666666665
+        ],
+        [
+          -6.965,
+          37.29
+        ],
+        [
+          -6.1866666666666665,
+          36.815
+        ],
+        [
+          -6.033333333333333,
+          36.18333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-07-22T16:15:00",
     "raw_dtg": "221615Z JUL 17",
     "msg_id": "HYDROARC 2276/17(51)",
-    "cancellations": [
-      "HYDROARC 2680/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nGULF OF CADIZ.\nSPAIN.\nDNC 08.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMON MARGALEF IN AREA BOUND BY\n36-11.0N 006-02.0W, 37-01.5N 008-59.7W,\n37-10.9N 008-41.9W, 37-17.4N 006-57.9W,\n36-48.9N 006-11.2W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nGULF OF CADIZ.\nSPAIN.\nDNC 08.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMON MARGALEF IN AREA BOUND BY\n36-11.0N 006-02.0W, 37-01.5N 008-59.7W,\n37-10.9N 008-41.9W, 37-17.4N 006-57.9W,\n36-48.9N 006-11.2W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2017-07-22T16:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

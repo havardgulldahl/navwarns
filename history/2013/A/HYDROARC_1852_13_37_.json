@@ -3,17 +3,25 @@
   "id": "HYDROARC 1852/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2983333333333333,
+      50.575
+    ]
   },
   "properties": {
     "dtg": "2013-07-30T15:30:00",
     "raw_dtg": "301530Z JUL 13",
     "msg_id": "HYDROARC 1852/13(37)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1973/13"
+      "1819/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nCHART 37090\n1. DGPS STATION AT ST. CATHERINES POINT LIGHT\n   50-34.5N 001-17.9W UNUSABLE.\n2. CANCEL HYDROLANT 1819/13(57,61)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nCHART 37090\n1. DGPS STATION AT ST. CATHERINES POINT LIGHT\n   50-34.5N 001-17.9W UNUSABLE.\n2. CANCEL HYDROLANT 1819/13(57,61).",
+    "valid_from": "2013-07-30T15:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

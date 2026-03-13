@@ -3,17 +3,23 @@
   "id": "HYDROARC 1543/18(51,52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.4816666666666665,
+      35.906666666666666
+    ]
   },
   "properties": {
     "dtg": "2018-05-17T12:39:00",
     "raw_dtg": "171239Z MAY 18",
     "msg_id": "HYDROARC 1543/18(51,52)",
-    "cancellations": [
-      "HYDROARC 27/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF GIBRALTAR.\nMOROCCO.\nDNC 08.\nCHART 52040.\nPUNTA CIRES LIGHT 35-54.4N 005-28.9W UNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF GIBRALTAR.\nMOROCCO.\nDNC 08.\nCHART 52040.\nPUNTA CIRES LIGHT 35-54.4N 005-28.9W UNLIT.",
+    "valid_from": "2018-05-17T12:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

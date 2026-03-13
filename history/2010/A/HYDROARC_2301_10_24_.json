@@ -3,17 +3,23 @@
   "id": "HYDROARC 2301/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -42.00333333333333,
+      -22.89
+    ]
   },
   "properties": {
     "dtg": "2010-12-01T01:18:00",
     "raw_dtg": "010118Z DEC 10",
     "msg_id": "HYDROARC 2301/10(24)",
-    "cancellations": [
-      "HYDROARC 2379/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24160 (21ST ED).\nLAJINHA LIGHT 22-53.4S 042-00.2W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24160 (21ST ED).\nLAJINHA LIGHT 22-53.4S 042-00.2W UNLIT.",
+    "valid_from": "2010-12-01T01:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

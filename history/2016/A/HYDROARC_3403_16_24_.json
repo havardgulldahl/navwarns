@@ -3,18 +3,25 @@
   "id": "HYDROARC 3403/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.5,
+      -2.788333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-12-16T23:32:00",
     "raw_dtg": "162332Z DEC 16",
     "msg_id": "HYDROARC 3403/16(24)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 141905Z JUN 17",
-      "HYDROARC 641/17"
+      "THIS MSG 141905Z JUN 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24250.\n1. JERICOACOARA LIGHT 02-47.3S 040-30.0W UNLIT\n   UNTIL 141805Z JUN 17.\n2. CANCEL THIS MSG 141905Z JUN 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24250.\n1. JERICOACOARA LIGHT 02-47.3S 040-30.0W UNLIT\n   UNTIL 141805Z JUN 17.\n2. CANCEL THIS MSG 141905Z JUN 17.",
+    "valid_from": "2016-12-16T23:32:00+00:00",
+    "valid_until": "2017-06-14T19:05:00+00:00",
+    "summary": null
   }
 }

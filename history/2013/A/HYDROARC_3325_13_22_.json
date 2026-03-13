@@ -3,18 +3,25 @@
   "id": "HYDROARC 3325/13(22)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -63.772166666666664,
+      -59.028333333333336
+    ]
   },
   "properties": {
     "dtg": "2013-12-23T21:35:00",
     "raw_dtg": "232135Z DEC 13",
     "msg_id": "HYDROARC 3325/13(22)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 262135Z DEC 13",
-      "HYDROARC 3325/13"
+      "THIS MSG 262135Z DEC 13"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "DRAKE PASSAGE.\nICE.\n1. ICEBERG SIGHTED IN 59-01.7S 063-46.33W.\n2. CANCEL THIS MSG 262135Z DEC 13."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DRAKE PASSAGE.\nICE.\n1. ICEBERG SIGHTED IN 59-01.7S 063-46.33W.\n2. CANCEL THIS MSG 262135Z DEC 13.",
+    "valid_from": "2013-12-23T21:35:00+00:00",
+    "valid_until": "2013-12-26T21:35:00+00:00",
+    "summary": null
   }
 }

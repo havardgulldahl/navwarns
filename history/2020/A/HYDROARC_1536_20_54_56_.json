@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1536/20(54,56)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-05-05T12:05:00",
     "raw_dtg": "051205Z MAY 20",
     "msg_id": "HYDROARC 1536/20(54,56)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 110100Z MAY 20",
-      "HYDROARC 1536/20"
+      "THIS MSG 110100Z MAY 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. UNDERWATER OPERATIONS 090001Z TO 102359Z MAY\n   IN AREA WITHIN 30 MILES OF 34-00N 029-30E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 110100Z MAY 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. UNDERWATER OPERATIONS 090001Z TO 102359Z MAY\n   IN AREA WITHIN 30 MILES OF 34-00N 029-30E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 110100Z MAY 20.",
+    "valid_from": "2020-05-05T12:05:00+00:00",
+    "valid_until": "2020-05-11T01:00:00+00:00",
+    "summary": null
   }
 }

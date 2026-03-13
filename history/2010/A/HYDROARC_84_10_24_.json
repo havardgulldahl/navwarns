@@ -3,17 +3,23 @@
   "id": "HYDROARC 84/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.66166666666667,
+      -28.208333333333332
+    ]
   },
   "properties": {
     "dtg": "2010-01-15T01:46:00",
     "raw_dtg": "150146Z JAN 10",
     "msg_id": "HYDROARC 84/10(24)",
-    "cancellations": [
-      "HYDROARC 94/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nPONTO DO CATALAO LIGHT 28-12.5S 048-39.7W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nPONTO DO CATALAO LIGHT 28-12.5S 048-39.7W UNLIT.",
+    "valid_from": "2010-01-15T01:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2555/20(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-08-18T14:53:00",
     "raw_dtg": "181453Z AUG 20",
     "msg_id": "HYDROARC 2555/20(36)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 2555/20"
+      "2521/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nBRISTOL CHANNEL.\nENGLAND.\nDNC 19, DNC 20.\nCANCEL HYDROLANT 2521/20 AND THIS MSG,\nOPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nBRISTOL CHANNEL.\nENGLAND.\nDNC 19, DNC 20.\nCANCEL HYDROLANT 2521/20 AND THIS MSG,\nOPERATIONS COMPLETED.",
+    "valid_from": "2020-08-18T14:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

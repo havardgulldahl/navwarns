@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 74/16(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-01-09T12:57:00",
     "raw_dtg": "091257Z JAN 16",
     "msg_id": "HYDROARC 74/16(37)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 121257Z JAN 16",
-      "HYDROARC 82/16"
+      "THIS MSG 121257Z JAN 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. SIX METER LONG TIMBER ADRIFT IN\n   50-01N 001-38W AT 090940Z JAN.\n2. CANCEL THIS MSG 121257Z JAN 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. SIX METER LONG TIMBER ADRIFT IN\n   50-01N 001-38W AT 090940Z JAN.\n2. CANCEL THIS MSG 121257Z JAN 16.",
+    "valid_from": "2016-01-09T12:57:00+00:00",
+    "valid_until": "2016-01-12T12:57:00+00:00",
+    "summary": null
   }
 }

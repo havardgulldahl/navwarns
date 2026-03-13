@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 283/13(15)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-12-06T00:52:00",
     "raw_dtg": "060052Z DEC 13",
     "msg_id": "HYDROARC 283/13(15)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 286/13"
+      "THIS MSG 20 DEC 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nRADIO SERVICES.\n1. IQALUIT MCTS CENTRE DSC STATION HF8\n   BROADCASTS OFF AIR FOR SEASON.\n2. CANCEL THIS MSG 20 DEC 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nRADIO SERVICES.\n1. IQALUIT MCTS CENTRE DSC STATION HF8\n   BROADCASTS OFF AIR FOR SEASON.\n2. CANCEL THIS MSG 20 DEC 13.",
+    "valid_from": "2013-12-06T00:52:00+00:00",
+    "valid_until": "2013-12-20T00:00:00+00:00",
+    "summary": null
   }
 }

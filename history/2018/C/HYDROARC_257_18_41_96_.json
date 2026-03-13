@@ -2,19 +2,73 @@
   "type": "Feature",
   "id": "HYDROARC 257/18(41,96)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            179.99333333333334,
+            72.22
+          ],
+          [
+            174.40166666666667,
+            71.33666666666667
+          ],
+          [
+            170.59666666666666,
+            71.33666666666667
+          ],
+          [
+            170.86067219543307,
+            72.73589596912862
+          ],
+          [
+            180.0,
+            72.67666666666666
+          ],
+          [
+            179.99333333333334,
+            72.22
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            171.29666666666665,
+            75.04666666666667
+          ],
+          [
+            170.86067219543307,
+            72.73589596912862
+          ],
+          [
+            -178.5,
+            75.0
+          ],
+          [
+            171.29666666666665,
+            75.04666666666667
+          ]
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-10-05T07:51:00",
     "raw_dtg": "050751Z OCT 18",
     "msg_id": "HYDROARC 257/18(41,96)",
+    "year": 2018,
     "cancellations": [
       "HYDROARC 237/18",
-      "HYDROARC 292/18"
+      "THIS MSG 19 NOV 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EAST SIBERIAN SEA.\nCHUKCHI SEA.\nRUSSIA.\nDNC 27.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 18 NOV BY\n   M/V NIKOLAI TRUBYATCHINSKY TOWING 12000\n   METER LONG CABLE IN AREA BOUND BY\n   75-02.8N 171-17.8E, 75-00.0N 178-30.0W,\n   72-40.6N 180-00.0E, 72-13.2N 179-59.6E,\n   71-20.2N 174-24.1E, 71-20.2N 170-35.8E.\n   EIGHT MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 237/18.\n3. CANCEL THIS MSG 19 NOV 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EAST SIBERIAN SEA.\nCHUKCHI SEA.\nRUSSIA.\nDNC 27.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 18 NOV BY\n   M/V NIKOLAI TRUBYATCHINSKY TOWING 12000\n   METER LONG CABLE IN AREA BOUND BY\n   75-02.8N 171-17.8E, 75-00.0N 178-30.0W,\n   72-40.6N 180-00.0E, 72-13.2N 179-59.6E,\n   71-20.2N 174-24.1E, 71-20.2N 170-35.8E.\n   EIGHT MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 237/18.\n3. CANCEL THIS MSG 19 NOV 18.",
+    "valid_from": "2018-10-05T07:51:00+00:00",
+    "valid_until": "2018-11-19T00:00:00+00:00",
+    "summary": null
   }
 }

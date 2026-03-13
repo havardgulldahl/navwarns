@@ -3,17 +3,25 @@
   "id": "HYDROARC 964/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.755,
+      -20.926666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-04-22T00:22:00",
     "raw_dtg": "220022Z APR 15",
     "msg_id": "HYDROARC 964/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 1205/15"
+      "THIS MSG 17 OCT 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. ILHA DO FRANCES LIGHT 20-55.6S 040-45.3W UNLIT.\n2. CANCEL THIS MSG 17 OCT 15."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. ILHA DO FRANCES LIGHT 20-55.6S 040-45.3W UNLIT.\n2. CANCEL THIS MSG 17 OCT 15.",
+    "valid_from": "2015-04-22T00:22:00+00:00",
+    "valid_until": "2015-10-17T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 821/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -42.96,
+      -23.055
+    ]
   },
   "properties": {
     "dtg": "2010-05-10T10:36:00",
     "raw_dtg": "101036Z MAY 10",
     "msg_id": "HYDROARC 821/10(24)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1030/10"
+      "815/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\n1. F/V SAO LUIZ GONSAGA SHIPWRECKED VICINITY\n   23-03.3S 042-57.6W AT 090335Z MAY. ONE PERSON\n   MISSING. VESSELS IN VICINITY REQUESTED TO KEEP\n   A SHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS\n   TO ANY COASTAL RADIO STATION.\n2. CANCEL HYDROLANT 815/10."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\n1. F/V SAO LUIZ GONSAGA SHIPWRECKED VICINITY\n   23-03.3S 042-57.6W AT 090335Z MAY. ONE PERSON\n   MISSING. VESSELS IN VICINITY REQUESTED TO KEEP\n   A SHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS\n   TO ANY COASTAL RADIO STATION.\n2. CANCEL HYDROLANT 815/10.",
+    "valid_from": "2010-05-10T10:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

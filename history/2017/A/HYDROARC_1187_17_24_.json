@@ -3,17 +3,25 @@
   "id": "HYDROARC 1187/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.946666666666665,
+      -8.351666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-04-14T00:54:00",
     "raw_dtg": "140054Z APR 17",
     "msg_id": "HYDROARC 1187/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 1215/17"
+      "THIS MSG 11 OCT 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24220.\n1. CABO DE SANTO AGOSTINHO LIGHT\n   08-21.1S 034-56.8W UNLIT UNTIL 10 OCT.\n2. CANCEL THIS MSG 11 OCT 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24220.\n1. CABO DE SANTO AGOSTINHO LIGHT\n   08-21.1S 034-56.8W UNLIT UNTIL 10 OCT.\n2. CANCEL THIS MSG 11 OCT 17.",
+    "valid_from": "2017-04-14T00:54:00+00:00",
+    "valid_until": "2017-10-11T00:00:00+00:00",
+    "summary": null
   }
 }

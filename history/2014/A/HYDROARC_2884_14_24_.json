@@ -3,17 +3,25 @@
   "id": "HYDROARC 2884/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.6,
+      -12.961666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-11-27T06:21:00",
     "raw_dtg": "270621Z NOV 14",
     "msg_id": "HYDROARC 2884/14(24)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2906/14"
+      "THIS MSG 25 MAY 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. MAR GRANDE LIGHT 12-57.7S 038-36.0W UNLIT.\n2. CANCEL THIS MSG 25 MAY 15."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. MAR GRANDE LIGHT 12-57.7S 038-36.0W UNLIT.\n2. CANCEL THIS MSG 25 MAY 15.",
+    "valid_from": "2014-11-27T06:21:00+00:00",
+    "valid_until": "2015-05-25T00:00:00+00:00",
+    "summary": null
   }
 }

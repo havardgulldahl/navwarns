@@ -3,18 +3,25 @@
   "id": "HYDROARC 1934/15(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.656666666666666,
+      49.86333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-08-08T08:50:00",
     "raw_dtg": "080850Z AUG 15",
     "msg_id": "HYDROARC 1934/15(36,37)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 110850Z AUG 15",
-      "HYDROARC 1934/15"
+      "THIS MSG 110850Z AUG 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. 15 METER LONG OBJECTS ADRIFT VICINITY\n   49-51.8N 005-39.4W AT 080637Z AUG.\n2. CANCEL THIS MSG 110850Z AUG 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. 15 METER LONG OBJECTS ADRIFT VICINITY\n   49-51.8N 005-39.4W AT 080637Z AUG.\n2. CANCEL THIS MSG 110850Z AUG 15.",
+    "valid_from": "2015-08-08T08:50:00+00:00",
+    "valid_until": "2015-08-11T08:50:00+00:00",
+    "summary": null
   }
 }

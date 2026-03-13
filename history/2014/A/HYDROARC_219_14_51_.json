@@ -3,18 +3,25 @@
   "id": "HYDROARC 219/14(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.308333333333334,
+      35.92666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-01-23T20:35:00",
     "raw_dtg": "232035Z JAN 14",
     "msg_id": "HYDROARC 219/14(51)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 300059Z JAN 14",
-      "HYDROARC 219/14"
+      "THIS MSG 300059Z JAN 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SPAIN.\nSTRAIT OF GIBRALTAR.\n1. CABLE OPERATIONS 240600Z TO 292359Z JAN BY\n   CABLESHIP RENE DESCARTES WITH SUBMERSIBLE\n   WITHIN 1.2 MILES OF 35-55.6N 005-18.5W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 300059Z JAN 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SPAIN.\nSTRAIT OF GIBRALTAR.\n1. CABLE OPERATIONS 240600Z TO 292359Z JAN BY\n   CABLESHIP RENE DESCARTES WITH SUBMERSIBLE\n   WITHIN 1.2 MILES OF 35-55.6N 005-18.5W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 300059Z JAN 14.",
+    "valid_from": "2014-01-23T20:35:00+00:00",
+    "valid_until": "2014-01-30T00:59:00+00:00",
+    "summary": null
   }
 }

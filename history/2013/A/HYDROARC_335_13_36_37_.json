@@ -3,18 +3,26 @@
   "id": "HYDROARC 335/13(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.616666666666667,
+      49.04
+    ]
   },
   "properties": {
     "dtg": "2013-02-06T15:08:00",
     "raw_dtg": "061508Z FEB 13",
     "msg_id": "HYDROARC 335/13(36,37)",
+    "year": 2013,
     "cancellations": [
       "THIS MSG 091515Z FEB 13",
-      "HYDROARC 335/13"
+      "314/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\n1. FOUR CONTAINERS ADRIFT VICINITY 49-02.4N 007-37.0W\n   AT 060940Z FEB.\n2. CANCEL HYDROLANT 314/13(54).\n3. CANCEL THIS MSG 091515Z FEB 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\n1. FOUR CONTAINERS ADRIFT VICINITY 49-02.4N 007-37.0W\n   AT 060940Z FEB.\n2. CANCEL HYDROLANT 314/13(54).\n3. CANCEL THIS MSG 091515Z FEB 13.",
+    "valid_from": "2013-02-06T15:08:00+00:00",
+    "valid_until": "2013-02-09T15:15:00+00:00",
+    "summary": null
   }
 }

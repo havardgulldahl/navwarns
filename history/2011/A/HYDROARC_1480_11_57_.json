@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1480/11(57)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2011-09-15T10:18:00",
     "raw_dtg": "151018Z SEP 11",
     "msg_id": "HYDROARC 1480/11(57)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 1480/11"
+      "1417/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nCANCEL HYDROLANT 1417/11 AND THIS MSG, OPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nCANCEL HYDROLANT 1417/11 AND THIS MSG, OPERATIONS COMPLETED.",
+    "valid_from": "2011-09-15T10:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 3533/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.18833333333333,
+      0.9116666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-11-13T17:45:00",
     "raw_dtg": "131745Z NOV 20",
     "msg_id": "HYDROARC 3533/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3533/20"
+      "THIS MSG 13 MAY 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. ILHO DO APEU LIGHT 00-54.7N 046-11.3W DAMAGED\n   AND UNLIT.\n2. CANCEL THIS MSG 13 MAY 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. ILHO DO APEU LIGHT 00-54.7N 046-11.3W DAMAGED\n   AND UNLIT.\n2. CANCEL THIS MSG 13 MAY 21.",
+    "valid_from": "2020-11-13T17:45:00+00:00",
+    "valid_until": "2021-05-13T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 811/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6416666666666666,
+      50.221666666666664
+    ]
   },
   "properties": {
     "dtg": "2011-05-12T22:09:00",
     "raw_dtg": "122209Z MAY 11",
     "msg_id": "HYDROARC 811/11(37)",
-    "cancellations": [
-      "HYDROARC 1367/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37007 (1ST ED).\nSTART POINT LIGHT 50-13.3N 003-38.5W RED SECTOR\nRANGE REDUCED TO NINE MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37007 (1ST ED).\nSTART POINT LIGHT 50-13.3N 003-38.5W RED SECTOR\nRANGE REDUCED TO NINE MILES.",
+    "valid_from": "2011-05-12T22:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

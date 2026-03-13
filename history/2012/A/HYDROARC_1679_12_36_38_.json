@@ -4,20 +4,24 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -13.917166666666667,
-      48.317166666666665
+      -23.908333333333335,
+      49.02333333333333
     ]
   },
   "properties": {
     "dtg": "2012-07-24T11:08:00",
     "raw_dtg": "241108Z JUL 12",
     "msg_id": "HYDROARC 1679/12(36,38)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 271106Z JUL 12",
-      "HYDROARC 1679/12"
+      "THIS MSG 271106Z JUL 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. NUMEROUS CONTAINERS ADRIFT VICINITY TRACKLINE BETWEEN\n   49-01.4N 023-54.5W AND 48-19.03N 013-55.03W.\n2. CANCEL THIS MSG 271106Z JUL 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. NUMEROUS CONTAINERS ADRIFT VICINITY TRACKLINE BETWEEN\n   49-01.4N 023-54.5W AND 48-19.03N 013-55.03W.\n2. CANCEL THIS MSG 271106Z JUL 12.",
+    "valid_from": "2012-07-24T11:08:00+00:00",
+    "valid_until": "2012-07-27T11:06:00+00:00",
+    "summary": null
   }
 }

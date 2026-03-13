@@ -2,19 +2,47 @@
   "type": "Feature",
   "id": "HYDROARC 801/18(35,37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -0.018333333333333333,
+          55.983333333333334
+        ],
+        [
+          0.5,
+          55.53
+        ],
+        [
+          -0.5283333333333333,
+          55.15
+        ],
+        [
+          -1.0533333333333332,
+          55.598333333333336
+        ],
+        [
+          -0.018333333333333333,
+          55.983333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-03-06T20:55:00",
     "raw_dtg": "062055Z MAR 18",
     "msg_id": "HYDROARC 801/18(35,37)",
+    "year": 2018,
     "cancellations": [
       "THIS MSG 092055Z MAR 18",
-      "HYDROARC 801/18"
+      "784/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. NUMEROUS WOODEN PLANKS ADRIFT IN AREA BOUND BY\n   55-59.0N 000-01.1W, 55-31.8N 000-30.0E,\n   55-09.0N 000-31.7W, 55-35.9N 001-03.2W.\n   AT 061300Z MAR.\n2. CANCEL HYDROLANT 784/18.\n3. CANCEL THIS MSG 092055Z MAR 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. NUMEROUS WOODEN PLANKS ADRIFT IN AREA BOUND BY\n   55-59.0N 000-01.1W, 55-31.8N 000-30.0E,\n   55-09.0N 000-31.7W, 55-35.9N 001-03.2W.\n   AT 061300Z MAR.\n2. CANCEL HYDROLANT 784/18.\n3. CANCEL THIS MSG 092055Z MAR 18.",
+    "valid_from": "2018-03-06T20:55:00+00:00",
+    "valid_until": "2018-03-09T20:55:00+00:00",
+    "summary": null
   }
 }

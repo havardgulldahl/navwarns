@@ -3,17 +3,23 @@
   "id": "HYDROARC 243/13(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.73,
+      49.68
+    ]
   },
   "properties": {
     "dtg": "2013-01-26T22:39:00",
     "raw_dtg": "262239Z JAN 13",
     "msg_id": "HYDROARC 243/13(36,37)",
-    "cancellations": [
-      "HYDROARC 594/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN ENGLISH CHANNEL.\nCHART 36050\nSUBMERGED OBSTRUCTION VICINITY 49-40.8N 003-43.8W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN ENGLISH CHANNEL.\nCHART 36050\nSUBMERGED OBSTRUCTION VICINITY 49-40.8N 003-43.8W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2013-01-26T22:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

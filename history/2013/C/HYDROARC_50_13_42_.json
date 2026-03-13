@@ -2,19 +2,52 @@
   "type": "Feature",
   "id": "HYDROARC 50/13(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        42.611666666666665,
+        70.585
+      ],
+      [
+        42.781666666666666,
+        70.77333333333333
+      ],
+      [
+        44.166666666666664,
+        72.39833333333333
+      ],
+      [
+        44.04333333333334,
+        73.07
+      ],
+      [
+        43.723333333333336,
+        74.605
+      ],
+      [
+        43.28333333333333,
+        76.26166666666667
+      ],
+      [
+        42.31166666666667,
+        77.98333333333333
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-06-01T12:08:00",
     "raw_dtg": "011208Z JUN 13",
     "msg_id": "HYDROARC 50/13(42)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 46/13",
-      "HYDROARC 53/13"
+      "HYDROARC 46/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\n1. GEOPHYSICAL OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V AKADEMIK LAZAREV TOWING 10000 METER\n   LONG CABLE ALONG TRACKLINE JOINING\n   70-35.1N 042-36.7E, 70-46.4N 042-46.9E,\n   72-23.9N 044-10.0E, 73-04.2N 044-02.6E,\n   74-36.3N 043-43.4E, 76-15.7N 043-17.0E,\n   77-59.0N 042-18.7E.\n   12 MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 46/13."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\n1. GEOPHYSICAL OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V AKADEMIK LAZAREV TOWING 10000 METER\n   LONG CABLE ALONG TRACKLINE JOINING\n   70-35.1N 042-36.7E, 70-46.4N 042-46.9E,\n   72-23.9N 044-10.0E, 73-04.2N 044-02.6E,\n   74-36.3N 043-43.4E, 76-15.7N 043-17.0E,\n   77-59.0N 042-18.7E.\n   12 MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 46/13.",
+    "valid_from": "2013-06-01T12:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

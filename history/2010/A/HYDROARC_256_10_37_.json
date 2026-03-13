@@ -3,17 +3,23 @@
   "id": "HYDROARC 256/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.5616666666666665,
+      53.815
+    ]
   },
   "properties": {
     "dtg": "2010-02-10T08:58:00",
     "raw_dtg": "100858Z FEB 10",
     "msg_id": "HYDROARC 256/10(37)",
-    "cancellations": [
-      "HYDROARC 257/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37165 (3RD ED).\nPLATFORM DP3 110/8 53-48.9N 003-33.7E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37165 (3RD ED).\nPLATFORM DP3 110/8 53-48.9N 003-33.7E UNLIT.",
+    "valid_from": "2010-02-10T08:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -12,12 +12,16 @@
     "dtg": "2022-10-12T22:23:00",
     "raw_dtg": "122223Z OCT 22",
     "msg_id": "HYDROARC 2599/22(24)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 110001Z APR 23",
-      "HYDROARC 2599/22"
+      "THIS MSG 110001Z APR 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. CABO DE SAO ROQUE LIGHT 05-29.40S 035-15.68W UNLIT\n   UNTIL 10 APR 23.\n2. CANCEL THIS MSG 110001Z APR 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. CABO DE SAO ROQUE LIGHT 05-29.40S 035-15.68W UNLIT\n   UNTIL 10 APR 23.\n2. CANCEL THIS MSG 110001Z APR 23.",
+    "valid_from": "2022-10-12T22:23:00+00:00",
+    "valid_until": "2023-04-11T00:01:00+00:00",
+    "summary": null
   }
 }

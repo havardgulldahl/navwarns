@@ -3,17 +3,23 @@
   "id": "HYDROARC 966/18(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      13.695,
+      -21.3
+    ]
   },
   "properties": {
     "dtg": "2018-03-22T07:44:00",
     "raw_dtg": "220744Z MAR 18",
     "msg_id": "HYDROARC 966/18(57)",
-    "cancellations": [
-      "HYDROARC 1540/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nCHART 57380.\nF/V FUKUSEKI MARU 7 AGROUND IN 21-18.0S 013-41.7E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nCHART 57380.\nF/V FUKUSEKI MARU 7 AGROUND IN 21-18.0S 013-41.7E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2018-03-22T07:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2770/16(56)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-10-21T07:56:00",
     "raw_dtg": "210756Z OCT 16",
     "msg_id": "HYDROARC 2770/16(56)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2770/16"
+      "2767/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\nCANCEL HYDROLANT 2767/16 AND THIS MSG,\nFALSE ALERT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\nCANCEL HYDROLANT 2767/16 AND THIS MSG,\nFALSE ALERT.",
+    "valid_from": "2016-10-21T07:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

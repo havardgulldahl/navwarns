@@ -3,17 +3,23 @@
   "id": "HYDROARC 61/12(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -33.87833333333333,
+      25.066666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-01-07T17:30:00",
     "raw_dtg": "071730Z JAN 12",
     "msg_id": "HYDROARC 61/12(51)",
-    "cancellations": [
-      "HYDROARC 61/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\n1. DERELICT EIGHT METER S/V ADRIFT VICINITY\n   25-04.0N 033-52.7W AT 071330Z JAN.\n2. CANCEL THIS MSG 101730Z JAN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\n1. DERELICT EIGHT METER S/V ADRIFT VICINITY\n   25-04.0N 033-52.7W AT 071330Z JAN.\n2. CANCEL THIS MSG 101730Z JAN.",
+    "valid_from": "2012-01-07T17:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

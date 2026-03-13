@@ -3,17 +3,23 @@
   "id": "HYDROARC 2056/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.34166666666667,
+      -23.72833333333333
+    ]
   },
   "properties": {
     "dtg": "2012-09-06T08:24:00",
     "raw_dtg": "060824Z SEP 12",
     "msg_id": "HYDROARC 2056/12(24)",
-    "cancellations": [
-      "HYDROARC 2082/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24151\nPONTA DAS CANAS LIGHT 23-43.7S 045-20.5W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24151\nPONTA DAS CANAS LIGHT 23-43.7S 045-20.5W UNLIT.",
+    "valid_from": "2012-09-06T08:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

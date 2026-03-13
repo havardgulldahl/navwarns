@@ -3,17 +3,25 @@
   "id": "HYDROARC 1599/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.5,
+      51.37
+    ]
   },
   "properties": {
     "dtg": "2016-06-25T09:10:00",
     "raw_dtg": "250910Z JUN 16",
     "msg_id": "HYDROARC 1599/16(37)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1602/16"
+      "1591/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nBELGIUM.\nDNC 20, DNC 21.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V IVERO VICINITY OF TRACKLINE BETWEEN\n   51-22.2N 002-30.0E AND 51-22.2N 002-32.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1591/16(35), SERVICE RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nBELGIUM.\nDNC 20, DNC 21.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V IVERO VICINITY OF TRACKLINE BETWEEN\n   51-22.2N 002-30.0E AND 51-22.2N 002-32.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1591/16(35), SERVICE RESTORED.",
+    "valid_from": "2016-06-25T09:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

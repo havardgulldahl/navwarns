@@ -3,18 +3,26 @@
   "id": "HYDROARC 610/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.533333333333333,
+      50.01833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-02-19T08:39:00",
     "raw_dtg": "190839Z FEB 20",
     "msg_id": "HYDROARC 610/20(36)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 220839Z FEB 20",
-      "HYDROARC 621/20"
+      "606/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. ODAS BUOY K1, ADRIFT IN 50-01.1N 005-32.0W\n   AT 190700Z FEB.\n2. CANCEL HYDROLANT 606/20.\n3. CANCEL THIS MSG 220839Z FEB 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. ODAS BUOY K1, ADRIFT IN 50-01.1N 005-32.0W\n   AT 190700Z FEB.\n2. CANCEL HYDROLANT 606/20.\n3. CANCEL THIS MSG 220839Z FEB 20.",
+    "valid_from": "2020-02-19T08:39:00+00:00",
+    "valid_until": "2020-02-22T08:39:00+00:00",
+    "summary": null
   }
 }

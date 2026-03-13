@@ -3,17 +3,23 @@
   "id": "HYDROARC 3052/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.67,
+      58.89666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-12-15T05:30:00",
     "raw_dtg": "150530Z DEC 14",
     "msg_id": "HYDROARC 3052/14(35)",
-    "cancellations": [
-      "HYDROARC 3067/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35056.\nCOPINSAY LIGHT 58-53.8N 002-40.2W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35056.\nCOPINSAY LIGHT 58-53.8N 002-40.2W UNLIT.",
+    "valid_from": "2014-12-15T05:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

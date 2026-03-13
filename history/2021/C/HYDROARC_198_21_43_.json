@@ -3,17 +3,23 @@
   "id": "HYDROARC 198/21(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.055,
+      65.365
+    ]
   },
   "properties": {
     "dtg": "2021-08-22T22:46:00",
     "raw_dtg": "222246Z AUG 21",
     "msg_id": "HYDROARC 198/21(43)",
-    "cancellations": [
-      "HYDROARC 210/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nDNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V JOIDES RESOLUTION IN VICINITY\n65-21.9N 003-03.3E.\nTWO MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nDNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V JOIDES RESOLUTION IN VICINITY\n65-21.9N 003-03.3E.\nTWO MILE BERTH REQUESTED.",
+    "valid_from": "2021-08-22T22:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

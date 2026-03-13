@@ -3,17 +3,23 @@
   "id": "HYDROARC 1528/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.656666666666666,
+      51.16166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-07-10T15:01:00",
     "raw_dtg": "101501Z JUL 12",
     "msg_id": "HYDROARC 1528/12(36)",
-    "cancellations": [
-      "HYDROARC 1960/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-WEST COAST.\nLUNDY.\nCHART 36035\nFOG SIGNAL AT SOUTH COAST LIGHT 51-09.7N 004-39.4W\nDISCONTINUED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-WEST COAST.\nLUNDY.\nCHART 36035\nFOG SIGNAL AT SOUTH COAST LIGHT 51-09.7N 004-39.4W\nDISCONTINUED.",
+    "valid_from": "2012-07-10T15:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

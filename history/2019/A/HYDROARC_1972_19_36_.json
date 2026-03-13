@@ -3,17 +3,25 @@
   "id": "HYDROARC 1972/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.206666666666667,
+      52.20166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-06-30T00:24:00",
     "raw_dtg": "300024Z JUN 19",
     "msg_id": "HYDROARC 1972/19(36)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1977/19"
+      "1962/19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SAINT GEORGE'S CHANNEL.\nIRELAND.\nDNC 19.\nCHART 36002.\n1. TUSKAR ROCK LIGHT 52-12.1N 006-12.4W UNLIT.\n2. CANCEL HYDROLANT 1962/19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SAINT GEORGE'S CHANNEL.\nIRELAND.\nDNC 19.\nCHART 36002.\n1. TUSKAR ROCK LIGHT 52-12.1N 006-12.4W UNLIT.\n2. CANCEL HYDROLANT 1962/19.",
+    "valid_from": "2019-06-30T00:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

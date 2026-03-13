@@ -3,17 +3,25 @@
   "id": "HYDROARC 903/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.851666666666667,
+      51.295
+    ]
   },
   "properties": {
     "dtg": "2015-04-15T23:00:00",
     "raw_dtg": "152300Z APR 15",
     "msg_id": "HYDROARC 903/15(36)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 905/15"
+      "878/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nBRISTOL CHANNEL.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V ATLANTIC GUARDIAN\n   VICINITY 51-17.7N 004-51.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 878/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nBRISTOL CHANNEL.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V ATLANTIC GUARDIAN\n   VICINITY 51-17.7N 004-51.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 878/15.",
+    "valid_from": "2015-04-15T23:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

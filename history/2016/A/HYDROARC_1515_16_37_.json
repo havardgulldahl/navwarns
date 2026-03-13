@@ -3,17 +3,25 @@
   "id": "HYDROARC 1515/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4516666666666667,
+      51.306666666666665
+    ]
   },
   "properties": {
     "dtg": "2016-06-17T14:55:00",
     "raw_dtg": "171455Z JUN 16",
     "msg_id": "HYDROARC 1515/16(37)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1534/16"
+      "1291/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V TITAN DISCOVERY VICINITY OF TRACKLINE\n   BETWEEN 51-18.4N 001-27.1E AND 51-19.5N 001-21.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1291/16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V TITAN DISCOVERY VICINITY OF TRACKLINE\n   BETWEEN 51-18.4N 001-27.1E AND 51-19.5N 001-21.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1291/16.",
+    "valid_from": "2016-06-17T14:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

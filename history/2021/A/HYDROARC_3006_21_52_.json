@@ -3,17 +3,23 @@
   "id": "HYDROARC 3006/21(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.475,
+      35.32333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-12-08T18:43:00",
     "raw_dtg": "081843Z DEC 21",
     "msg_id": "HYDROARC 3006/21(52)",
-    "cancellations": [
-      "HYDROARC 920/22"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ALBORAN SEA.\nALGERIA.\nDNC 08.\nILE RACHGOUN LIGHT 35-19.4N 001-28.5W\nCHANGED TO F R."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ALBORAN SEA.\nALGERIA.\nDNC 08.\nILE RACHGOUN LIGHT 35-19.4N 001-28.5W\nCHANGED TO F R.",
+    "valid_from": "2021-12-08T18:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

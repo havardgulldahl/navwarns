@@ -3,17 +3,23 @@
   "id": "HYDROARC 17/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0,
+      60.37
+    ]
   },
   "properties": {
     "dtg": "2013-01-02T19:37:00",
     "raw_dtg": "021937Z JAN 13",
     "msg_id": "HYDROARC 17/13(35)",
-    "cancellations": [
-      "HYDROARC 33/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nCHART 35072\nSUTHER NESS LIGHT 60-22.2N 001-00.0W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nCHART 35072\nSUTHER NESS LIGHT 60-22.2N 001-00.0W UNRELIABLE.",
+    "valid_from": "2013-01-02T19:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3354/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7850000000000001,
+      51.156666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-10-19T05:24:00",
     "raw_dtg": "190524Z OCT 17",
     "msg_id": "HYDROARC 3354/17(37)",
-    "cancellations": [
-      "HYDROARC 3366/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDOVER STRAIT.\nDNC 20.\nCHART 37120.\nSANDETTIE LIGHTSHIP 51-09.4N 001-47.1E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDOVER STRAIT.\nDNC 20.\nCHART 37120.\nSANDETTIE LIGHTSHIP 51-09.4N 001-47.1E UNRELIABLE.",
+    "valid_from": "2017-10-19T05:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 863/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.275,
+      59.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-04-12T05:15:00",
     "raw_dtg": "120515Z APR 15",
     "msg_id": "HYDROARC 863/15(35)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 1067/15"
+      "862/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\n1. SUMBURGH HEAD LIGHT 59-51.2N 001-16.5W UNRELIABLE.\n2. CANCEL HYDROLANT 862/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\n1. SUMBURGH HEAD LIGHT 59-51.2N 001-16.5W UNRELIABLE.\n2. CANCEL HYDROLANT 862/15.",
+    "valid_from": "2015-04-12T05:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

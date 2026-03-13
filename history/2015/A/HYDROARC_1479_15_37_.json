@@ -3,17 +3,23 @@
   "id": "HYDROARC 1479/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2983333333333333,
+      50.575
+    ]
   },
   "properties": {
     "dtg": "2015-06-17T15:58:00",
     "raw_dtg": "171558Z JUN 15",
     "msg_id": "HYDROARC 1479/15(37)",
-    "cancellations": [
-      "HYDROARC 1491/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 37095.\nDGPS STATION AT ST. CATHERINE'S POINT LIGHT\n50-34.5N 001-17.9W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 37095.\nDGPS STATION AT ST. CATHERINE'S POINT LIGHT\n50-34.5N 001-17.9W OFF AIR.",
+    "valid_from": "2015-06-17T15:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

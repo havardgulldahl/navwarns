@@ -3,17 +3,25 @@
   "id": "HYDROARC 3276/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8283333333333334,
+      52.42
+    ]
   },
   "properties": {
     "dtg": "2017-10-14T01:03:00",
     "raw_dtg": "140103Z OCT 17",
     "msg_id": "HYDROARC 3276/17(37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 3712/17"
+      "2430/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37055.\n1. DANGEROUS WRECK IN 52-25.2N 001-49.7E MARKED\n   BY BUOY, RACON (D) TO NORTH.\n   500 METER BERTH REQUESTED.\n2. CANCEL HYDROLANT 2430/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37055.\n1. DANGEROUS WRECK IN 52-25.2N 001-49.7E MARKED\n   BY BUOY, RACON (D) TO NORTH.\n   500 METER BERTH REQUESTED.\n2. CANCEL HYDROLANT 2430/17.",
+    "valid_from": "2017-10-14T01:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

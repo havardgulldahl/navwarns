@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 87/10(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -35.166666666666664,
+          -11.058333333333334
+        ],
+        [
+          -34.541666666666664,
+          -11.283333333333333
+        ],
+        [
+          -34.69166666666667,
+          -11.683333333333334
+        ],
+        [
+          -35.325,
+          -11.441666666666666
+        ],
+        [
+          -35.166666666666664,
+          -11.058333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-01-15T02:04:00",
     "raw_dtg": "150204Z JAN 10",
     "msg_id": "HYDROARC 87/10(24)",
-    "cancellations": [
-      "HYDROARC 87/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 200900Z TO 201500Z JAN\n   IN AREA BOUND BY\n   11-03.5S 035-10.0W, 11-17.0S 034-32.5W,\n   11-41.0S 034-41.5W, 11-26.5S 035-19.5W.\n2. CANCEL THIS MSG 201600Z JAN."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 200900Z TO 201500Z JAN\n   IN AREA BOUND BY\n   11-03.5S 035-10.0W, 11-17.0S 034-32.5W,\n   11-41.0S 034-41.5W, 11-26.5S 035-19.5W.\n2. CANCEL THIS MSG 201600Z JAN.",
+    "valid_from": "2010-01-15T02:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

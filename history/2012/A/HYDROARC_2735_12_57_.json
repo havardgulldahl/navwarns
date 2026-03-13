@@ -3,17 +3,23 @@
   "id": "HYDROARC 2735/12(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.111666666666666,
+      -7.848333333333334
+    ]
   },
   "properties": {
     "dtg": "2012-11-19T11:27:00",
     "raw_dtg": "191127Z NOV 12",
     "msg_id": "HYDROARC 2735/12(57)",
-    "cancellations": [
-      "HYDROARC 1026/13"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nCHART 57260\nRACON AT FPSO GREATER PLUTONIO 07-50.9S 012-06.7E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nCHART 57260\nRACON AT FPSO GREATER PLUTONIO 07-50.9S 012-06.7E INOPERATIVE.",
+    "valid_from": "2012-11-19T11:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

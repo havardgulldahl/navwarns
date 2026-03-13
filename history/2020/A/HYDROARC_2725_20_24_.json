@@ -3,17 +3,23 @@
   "id": "HYDROARC 2725/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.57666666666667,
+      -23.066666666666666
+    ]
   },
   "properties": {
     "dtg": "2020-09-04T09:17:00",
     "raw_dtg": "040917Z SEP 20",
     "msg_id": "HYDROARC 2725/20(24)",
-    "cancellations": [
-      "HYDROARC 2771/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nWRECK REPORTED, TWO PERSONS MISSING IN\n23-04.0S 043-34.6W ON 03 SEP.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nWRECK REPORTED, TWO PERSONS MISSING IN\n23-04.0S 043-34.6W ON 03 SEP.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2020-09-04T09:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

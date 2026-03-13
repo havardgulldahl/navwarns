@@ -3,17 +3,23 @@
   "id": "HYDROARC 881/22(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      29.583333333333332,
+      44.33222222222223
+    ]
   },
   "properties": {
     "dtg": "2022-03-28T11:44:00",
     "raw_dtg": "281144Z MAR 22",
     "msg_id": "HYDROARC 881/22(55)",
-    "cancellations": [
-      "HYDROARC 957/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nMINE IN 44-19-56N 029-35-00E ON 28 MAR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nMINE IN 44-19-56N 029-35-00E ON 28 MAR.",
+    "valid_from": "2022-03-28T11:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1131/21(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -10.178333333333333,
+      29.375
+    ]
   },
   "properties": {
     "dtg": "2021-04-23T16:46:00",
     "raw_dtg": "231646Z APR 21",
     "msg_id": "HYDROARC 1131/21(51)",
-    "cancellations": [
-      "HYDROARC 1293/21"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nSIDI IFNI LIGHT 29-22.5N 010-10.7W UNLIT."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nSIDI IFNI LIGHT 29-22.5N 010-10.7W UNLIT.",
+    "valid_from": "2021-04-23T16:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

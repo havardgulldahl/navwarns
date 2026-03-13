@@ -2,19 +2,62 @@
   "type": "Feature",
   "id": "HYDROARC 313/15(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.85,
+          69.79333333333334
+        ],
+        [
+          33.63333333333333,
+          69.91166666666666
+        ],
+        [
+          34.083333333333336,
+          69.78333333333333
+        ],
+        [
+          34.083333333333336,
+          69.575
+        ],
+        [
+          33.21666666666667,
+          69.53333333333333
+        ],
+        [
+          32.85,
+          69.53333333333333
+        ],
+        [
+          32.85,
+          69.56666666666666
+        ],
+        [
+          32.85,
+          69.77666666666667
+        ],
+        [
+          32.85,
+          69.79333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-09-25T08:01:00",
     "raw_dtg": "250801Z SEP 15",
     "msg_id": "HYDROARC 313/15(42)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 301800Z SEP 15",
-      "HYDROARC 313/15"
+      "THIS MSG 301800Z SEP 15"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nHAZARDOUS OPERATIONS.\nDNC 22.\n1. HAZARDOUS OPERATIONS 0500Z TO 1700Z DAILY\n   29 AND 30 SEP IN AREA BOUND BY\n   69-47.6N 032-51.0E, 69-54.7N 033-38.0E,\n   69-47.0N 034-05.0E, 69-34.5N 034-05.0E,\n   69-32.0N 033-13.0E, 69-32.0N 032-51.0E,\n   69-34.0N 032-51.0E, 69-46.6N 032-51.0E.\n2. CANCEL THIS MSG 301800Z SEP 15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nHAZARDOUS OPERATIONS.\nDNC 22.\n1. HAZARDOUS OPERATIONS 0500Z TO 1700Z DAILY\n   29 AND 30 SEP IN AREA BOUND BY\n   69-47.6N 032-51.0E, 69-54.7N 033-38.0E,\n   69-47.0N 034-05.0E, 69-34.5N 034-05.0E,\n   69-32.0N 033-13.0E, 69-32.0N 032-51.0E,\n   69-34.0N 032-51.0E, 69-46.6N 032-51.0E.\n2. CANCEL THIS MSG 301800Z SEP 15.",
+    "valid_from": "2015-09-25T08:01:00+00:00",
+    "valid_until": "2015-09-30T18:00:00+00:00",
+    "summary": null
   }
 }

@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 284/17(53)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         14.197,
@@ -26,11 +26,16 @@
     "dtg": "2017-01-27T09:09:00",
     "raw_dtg": "270909Z JAN 17",
     "msg_id": "HYDROARC 284/17(53)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 284/17"
+      "THIS MSG 31 JAN 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TYRRHENIAN SEA.\nITALY.\nDNC 09.\n1. CABLE OPERATIONS IN PROGRESS UNTIL\n   30 JAN BY CABLESHIP RAYMOND CROZE WITH\n   SUBMERSIBLE IN VICINITY OF TRACKLINE JOINING\n   40-32.18N 014-11.82E, 40-32.22N 014-11.65E,\n   40-32.21N 014-11.48E, 40-33.68N 014-09.37E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 JAN 17."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "TYRRHENIAN SEA.\nITALY.\nDNC 09.\n1. CABLE OPERATIONS IN PROGRESS UNTIL\n   30 JAN BY CABLESHIP RAYMOND CROZE WITH\n   SUBMERSIBLE IN VICINITY OF TRACKLINE JOINING\n   40-32.18N 014-11.82E, 40-32.22N 014-11.65E,\n   40-32.21N 014-11.48E, 40-33.68N 014-09.37E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 JAN 17.",
+    "valid_from": "2017-01-27T09:09:00+00:00",
+    "valid_until": "2017-01-31T00:00:00+00:00",
+    "summary": null
   }
 }

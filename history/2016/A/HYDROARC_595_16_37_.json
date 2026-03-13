@@ -3,18 +3,25 @@
   "id": "HYDROARC 595/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.678333333333334,
+      50.185
+    ]
   },
   "properties": {
     "dtg": "2016-03-11T17:55:00",
     "raw_dtg": "111755Z MAR 16",
     "msg_id": "HYDROARC 595/16(37)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 141755Z MAR 16",
-      "HYDROARC 600/16"
+      "THIS MSG 141755Z MAR 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\n1. 20 METER LONG PIPE ADRIFT IN 50-11.1N 004-40.7W\n   AT 111650Z MAR.\n2. CANCEL THIS MSG 141755Z MAR 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\n1. 20 METER LONG PIPE ADRIFT IN 50-11.1N 004-40.7W\n   AT 111650Z MAR.\n2. CANCEL THIS MSG 141755Z MAR 16.",
+    "valid_from": "2016-03-11T17:55:00+00:00",
+    "valid_until": "2016-03-14T17:55:00+00:00",
+    "summary": null
   }
 }

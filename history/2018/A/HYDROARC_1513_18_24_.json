@@ -3,17 +3,23 @@
   "id": "HYDROARC 1513/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.615,
+      -0.8166666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-05-14T21:35:00",
     "raw_dtg": "142135Z MAY 18",
     "msg_id": "HYDROARC 1513/18(24)",
-    "cancellations": [
-      "HYDROARC 2086/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24290.\nCAETE LIGHT 00-49.0S 046-36.9W UNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24290.\nCAETE LIGHT 00-49.0S 046-36.9W UNLIT.",
+    "valid_from": "2018-05-14T21:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

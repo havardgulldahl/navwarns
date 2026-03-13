@@ -3,17 +3,23 @@
   "id": "HYDROARC 2118/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.9600000000000001,
+      60.68
+    ]
   },
   "properties": {
     "dtg": "2017-07-08T01:08:00",
     "raw_dtg": "080108Z JUL 17",
     "msg_id": "HYDROARC 2118/17(35)",
-    "cancellations": [
-      "HYDROARC 2127/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nHEAD OF MULA LIGHT 60-40.8N 000-57.6W UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nHEAD OF MULA LIGHT 60-40.8N 000-57.6W UNLIT.",
+    "valid_from": "2017-07-08T01:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

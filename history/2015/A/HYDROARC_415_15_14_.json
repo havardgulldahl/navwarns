@@ -3,17 +3,23 @@
   "id": "HYDROARC 415/15(14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -55.955,
+      39.97833333333333
+    ]
   },
   "properties": {
     "dtg": "2015-02-17T21:26:00",
     "raw_dtg": "172126Z FEB 15",
     "msg_id": "HYDROARC 415/15(14)",
-    "cancellations": [
-      "HYDROARC 594/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ\nIN 39-58.7N 055-57.3W AT 171820Z FEB.\nVESSELS IN VICINITY REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD NORFOLK,\nPHONE: 757 398 6231,\nFAX: 757 398 6392,\nE-MAIL: D05-SMB-D5CC@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ\nIN 39-58.7N 055-57.3W AT 171820Z FEB.\nVESSELS IN VICINITY REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD NORFOLK,\nPHONE: 757 398 6231,\nFAX: 757 398 6392,\nE-MAIL: D05-SMB-D5CC@USCG.MIL.",
+    "valid_from": "2015-02-17T21:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

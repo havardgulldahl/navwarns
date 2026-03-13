@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 1017/10(52,53)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         7.954166666666667,
@@ -38,11 +38,14 @@
     "dtg": "2010-06-03T14:51:00",
     "raw_dtg": "031451Z JUN 10",
     "msg_id": "HYDROARC 1017/10(52,53)",
-    "cancellations": [
-      "HYDROARC 1323/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 30 JUL BY\n   M/V PETER FABER VICINITY OF TRACKLINE JOINING\n   38-02.32N 007-57.25E, 37-52.90N 008-15.66E,\n   37-55.82N 008-31.24E, 37-50.30N 009-17.44E,\n   37-14.36N 011-13.08E, 36-33.12N 011-42.45E,\n   36-12.02N 012-35.15E.\n2. CANCEL THIS MSG 31 JUL."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 30 JUL BY\n   M/V PETER FABER VICINITY OF TRACKLINE JOINING\n   38-02.32N 007-57.25E, 37-52.90N 008-15.66E,\n   37-55.82N 008-31.24E, 37-50.30N 009-17.44E,\n   37-14.36N 011-13.08E, 36-33.12N 011-42.45E,\n   36-12.02N 012-35.15E.\n2. CANCEL THIS MSG 31 JUL.",
+    "valid_from": "2010-06-03T14:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

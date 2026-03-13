@@ -3,17 +3,23 @@
   "id": "HYDROARC 1118/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -32.4,
+      -27.131666666666668
+    ]
   },
   "properties": {
     "dtg": "2011-07-07T20:42:00",
     "raw_dtg": "072042Z JUL 11",
     "msg_id": "HYDROARC 1118/11(24)",
-    "cancellations": [
-      "HYDROARC 1130/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nVESSEL NM EVER SHINING REPORTS SICK CREWMAN\nIN 27-07.9S 032-24.0W AT 070200Z JUL.\nVESSELS IN VICINITY ABLE TO PROVIDE MEDICAL \nASSISTANCE REQUESTED TO ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nVESSEL NM EVER SHINING REPORTS SICK CREWMAN\nIN 27-07.9S 032-24.0W AT 070200Z JUL.\nVESSELS IN VICINITY ABLE TO PROVIDE MEDICAL \nASSISTANCE REQUESTED TO ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL STATION.",
+    "valid_from": "2011-07-07T20:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

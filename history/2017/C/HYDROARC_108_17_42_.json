@@ -3,18 +3,25 @@
   "id": "HYDROARC 108/17(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      39.04333333333334,
+      73.92333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-06-17T06:08:00",
     "raw_dtg": "170608Z JUN 17",
     "msg_id": "HYDROARC 108/17(42)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 200608Z JUN 17",
-      "HYDROARC 108/17"
+      "THIS MSG 200608Z JUN 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nDNC 22.\n1. ICEBERG REPORTED IN 73-55.4N 039-02.6E\n   AT 161530Z JUN.\n2. CANCEL THIS MSG 200608Z JUN 17."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nDNC 22.\n1. ICEBERG REPORTED IN 73-55.4N 039-02.6E\n   AT 161530Z JUN.\n2. CANCEL THIS MSG 200608Z JUN 17.",
+    "valid_from": "2017-06-17T06:08:00+00:00",
+    "valid_until": "2017-06-20T06:08:00+00:00",
+    "summary": null
   }
 }

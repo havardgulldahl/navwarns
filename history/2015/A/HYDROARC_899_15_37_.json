@@ -3,17 +3,25 @@
   "id": "HYDROARC 899/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.24,
+      51.98
+    ]
   },
   "properties": {
     "dtg": "2015-04-15T10:09:00",
     "raw_dtg": "151009Z APR 15",
     "msg_id": "HYDROARC 899/15(37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 932/15"
+      "883/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 21.\n1. CABLE REPAIR OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\n   VICINITY OF TRACKLINE BETWEEN 51-58.8N 003-14.4E\n   AND 51-59.2N 003-14.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 883/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 21.\n1. CABLE REPAIR OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\n   VICINITY OF TRACKLINE BETWEEN 51-58.8N 003-14.4E\n   AND 51-59.2N 003-14.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 883/15.",
+    "valid_from": "2015-04-15T10:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

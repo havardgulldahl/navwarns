@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 191/22(57)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-01-21T11:45:00",
     "raw_dtg": "211145Z JAN 22",
     "msg_id": "HYDROARC 191/22(57)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 191/22"
+      "149/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\nCANCEL HYDROLANT 149/22 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\nCANCEL HYDROLANT 149/22 AND THIS MSG.",
+    "valid_from": "2022-01-21T11:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

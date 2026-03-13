@@ -3,18 +3,25 @@
   "id": "HYDROARC 1938/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.43333333333333335,
+      50.49166666666667
+    ]
   },
   "properties": {
     "dtg": "2018-06-16T18:19:00",
     "raw_dtg": "161819Z JUN 18",
     "msg_id": "HYDROARC 1938/18(37)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 191300Z JUN 18",
-      "HYDROARC 1948/18"
+      "THIS MSG 191300Z JUN 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37000.\n1. BUOY ADRIFT IN VICINITY 50-29.5N 000-26.0W\n   AT 160952Z JUN.\n2. CANCEL THIS MSG 191300Z JUN 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37000.\n1. BUOY ADRIFT IN VICINITY 50-29.5N 000-26.0W\n   AT 160952Z JUN.\n2. CANCEL THIS MSG 191300Z JUN 18.",
+    "valid_from": "2018-06-16T18:19:00+00:00",
+    "valid_until": "2018-06-19T13:00:00+00:00",
+    "summary": null
   }
 }

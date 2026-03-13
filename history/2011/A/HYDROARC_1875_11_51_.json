@@ -3,17 +3,23 @@
   "id": "HYDROARC 1875/11(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -15.8,
+      36.653333333333336
+    ]
   },
   "properties": {
     "dtg": "2011-11-11T05:13:00",
     "raw_dtg": "110513Z NOV 11",
     "msg_id": "HYDROARC 1875/11(51)",
-    "cancellations": [
-      "HYDROARC 1875/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT 14 METER S/V SAILER ELENA, ADRIFT\n   VICINITY 36-39.2N 015-48.0W AT 110030Z NOV.\n   REPORTS TO MRCC LISBOA.\n2. CANCEL THIS MSG 140512Z NOV."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT 14 METER S/V SAILER ELENA, ADRIFT\n   VICINITY 36-39.2N 015-48.0W AT 110030Z NOV.\n   REPORTS TO MRCC LISBOA.\n2. CANCEL THIS MSG 140512Z NOV.",
+    "valid_from": "2011-11-11T05:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

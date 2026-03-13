@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 1675/11(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -35.36666666666667,
+          -10.358333333333333
+        ],
+        [
+          -34.733333333333334,
+          -10.566666666666666
+        ],
+        [
+          -34.95,
+          -11.2
+        ],
+        [
+          -35.583333333333336,
+          -10.975
+        ],
+        [
+          -35.36666666666667,
+          -10.358333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-10-13T01:04:00",
     "raw_dtg": "130104Z OCT 11",
     "msg_id": "HYDROARC 1675/11(24)",
-    "cancellations": [
-      "HYDROARC 1675/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 181500Z TO 182100Z OCT\n   IN AREA BOUND BY\n   10-21.5S 035-22.0W, 10-34.0S 034-44.0W,\n   11-12.0S 034-57.0W, 10-58.5S 035-35.0W.\n2. CANCEL THIS MSG 182200Z OCT."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 181500Z TO 182100Z OCT\n   IN AREA BOUND BY\n   10-21.5S 035-22.0W, 10-34.0S 034-44.0W,\n   11-12.0S 034-57.0W, 10-58.5S 035-35.0W.\n2. CANCEL THIS MSG 182200Z OCT.",
+    "valid_from": "2011-10-13T01:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

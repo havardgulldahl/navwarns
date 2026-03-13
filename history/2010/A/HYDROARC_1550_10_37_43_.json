@@ -3,17 +3,23 @@
   "id": "HYDROARC 1550/10(37,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.295,
+      56.458333333333336
+    ]
   },
   "properties": {
     "dtg": "2010-08-17T01:22:00",
     "raw_dtg": "170122Z AUG 10",
     "msg_id": "HYDROARC 1550/10(37,43)",
-    "cancellations": [
-      "HYDROARC 1630/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP SOVEREIGN\nALONG TRACKLINE BETWEEN\n56-27.5N 002-17.7E AND 56-41.8N 002-20.2E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP SOVEREIGN\nALONG TRACKLINE BETWEEN\n56-27.5N 002-17.7E AND 56-41.8N 002-20.2E.",
+    "valid_from": "2010-08-17T01:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

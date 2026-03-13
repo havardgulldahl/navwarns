@@ -3,17 +3,25 @@
   "id": "HYDROARC 1334/19(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.821111111111112,
+      36.115
+    ]
   },
   "properties": {
     "dtg": "2019-04-30T11:59:00",
     "raw_dtg": "301159Z APR 19",
     "msg_id": "HYDROARC 1334/19(52)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1334/19"
+      "THIS MSG 16 JUL 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 15 JUL\n   BY M/V MARIDIVE TUNISIA 1 IN\n   36-06-54N 010-49-16E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 JUL 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 15 JUL\n   BY M/V MARIDIVE TUNISIA 1 IN\n   36-06-54N 010-49-16E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 JUL 19.",
+    "valid_from": "2019-04-30T11:59:00+00:00",
+    "valid_until": "2019-07-16T00:00:00+00:00",
+    "summary": null
   }
 }

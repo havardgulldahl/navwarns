@@ -3,17 +3,23 @@
   "id": "HYDROARC 1578/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.31,
+      60.635
+    ]
   },
   "properties": {
     "dtg": "2010-08-21T09:49:00",
     "raw_dtg": "210949Z AUG 10",
     "msg_id": "HYDROARC 1578/10(35)",
-    "cancellations": [
-      "HYDROARC 1582/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nNGA CHART 35066 (1ST ED).\nPOINT OF FETHALAND LIGHT 60-38.1N 001-18.6W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nNGA CHART 35066 (1ST ED).\nPOINT OF FETHALAND LIGHT 60-38.1N 001-18.6W UNLIT.",
+    "valid_from": "2010-08-21T09:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

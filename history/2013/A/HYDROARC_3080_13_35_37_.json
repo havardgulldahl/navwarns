@@ -3,17 +3,23 @@
   "id": "HYDROARC 3080/13(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.08166666666666668,
+      54.11666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-12-01T09:03:00",
     "raw_dtg": "010903Z DEC 13",
     "msg_id": "HYDROARC 3080/13(35,37)",
-    "cancellations": [
-      "HYDROARC 3093/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nCHART 35006\nDGPS STATION AT FLAMBOROUGH HEAD LIGHT\n54-07.0N 000-04.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nCHART 35006\nDGPS STATION AT FLAMBOROUGH HEAD LIGHT\n54-07.0N 000-04.9W UNRELIABLE.",
+    "valid_from": "2013-12-01T09:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

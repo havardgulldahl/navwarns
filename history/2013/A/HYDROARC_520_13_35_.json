@@ -3,17 +3,23 @@
   "id": "HYDROARC 520/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.7283333333333335,
+      55.63666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-02-25T22:26:00",
     "raw_dtg": "252226Z FEB 13",
     "msg_id": "HYDROARC 520/13(35)",
-    "cancellations": [
-      "HYDROARC 524/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nSOUND OF GIGHA.\nCHART 35118\nWEST BUOY 55-38.2N 005-43.7W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nSOUND OF GIGHA.\nCHART 35118\nWEST BUOY 55-38.2N 005-43.7W UNLIT.",
+    "valid_from": "2013-02-25T22:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

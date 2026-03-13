@@ -3,17 +3,25 @@
   "id": "HYDROARC 1541/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.625,
+      53.891666666666666
+    ]
   },
   "properties": {
     "dtg": "2010-08-15T12:09:00",
     "raw_dtg": "151209Z AUG 10",
     "msg_id": "HYDROARC 1541/10(36)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1589/10"
+      "1511/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nNGA CHART 36025 (1ST ED).\n1. FOG SIGNAL AT PLATFORM DP8 53-53.5N 003-37.5W\n   INOPERATIVE.\n2. CANCEL HYDROLANT 1511/10."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nNGA CHART 36025 (1ST ED).\n1. FOG SIGNAL AT PLATFORM DP8 53-53.5N 003-37.5W\n   INOPERATIVE.\n2. CANCEL HYDROLANT 1511/10.",
+    "valid_from": "2010-08-15T12:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

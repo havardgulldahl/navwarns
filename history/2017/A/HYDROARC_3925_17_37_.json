@@ -3,18 +3,25 @@
   "id": "HYDROARC 3925/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.163333333333333,
+      50.288333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-12-05T18:29:00",
     "raw_dtg": "051829Z DEC 17",
     "msg_id": "HYDROARC 3925/17(37)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 081829Z DEC 17",
-      "HYDROARC 3925/17"
+      "THIS MSG 081829Z DEC 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. YELLOW OBJECT ADRIFT IN\n   50-17.3N 004-09.8W AT 051630Z DEC.\n2. CANCEL THIS MSG 081829Z DEC 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. YELLOW OBJECT ADRIFT IN\n   50-17.3N 004-09.8W AT 051630Z DEC.\n2. CANCEL THIS MSG 081829Z DEC 17.",
+    "valid_from": "2017-12-05T18:29:00+00:00",
+    "valid_until": "2017-12-08T18:29:00+00:00",
+    "summary": null
   }
 }

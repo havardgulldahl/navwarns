@@ -3,17 +3,23 @@
   "id": "HYDROARC 622/15(12,13)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -71.02333333333333,
+      38.66
+    ]
   },
   "properties": {
     "dtg": "2015-03-14T16:36:00",
     "raw_dtg": "141636Z MAR 15",
     "msg_id": "HYDROARC 622/15(12,13)",
-    "cancellations": [
-      "HYDROARC 774/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM AIRCRAFT\nVICINITY 38-39.6N 071-01.4W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC NORFOLK, PHONE: 757 398 6231,\nFAX: 757 398 6392, E-MAIL: D05-SMB-D5CC@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM AIRCRAFT\nVICINITY 38-39.6N 071-01.4W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC NORFOLK, PHONE: 757 398 6231,\nFAX: 757 398 6392, E-MAIL: D05-SMB-D5CC@USCG.MIL.",
+    "valid_from": "2015-03-14T16:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

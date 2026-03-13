@@ -12,12 +12,16 @@
     "dtg": "2023-06-05T04:23:00",
     "raw_dtg": "050423Z JUN 23",
     "msg_id": "HYDROARC 1244/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 020001Z DEC 23",
-      "HYDROARC 1244/23"
+      "THIS MSG 020001Z DEC 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. ILHA QUEIMADA GRANDE LIGHT\n   24-28.74S 046-40.61W UNLIT UNTIL 01 DEC.\n2. CANCEL THIS MSG 020001Z DEC 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. ILHA QUEIMADA GRANDE LIGHT\n   24-28.74S 046-40.61W UNLIT UNTIL 01 DEC.\n2. CANCEL THIS MSG 020001Z DEC 23.",
+    "valid_from": "2023-06-05T04:23:00+00:00",
+    "valid_until": "2023-12-02T00:01:00+00:00",
+    "summary": null
   }
 }

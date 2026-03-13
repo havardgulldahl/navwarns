@@ -3,17 +3,25 @@
   "id": "HYDROARC 696/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.77333333333333,
+      -12.24
+    ]
   },
   "properties": {
     "dtg": "2019-03-04T18:25:00",
     "raw_dtg": "041825Z MAR 19",
     "msg_id": "HYDROARC 696/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 752/19"
+      "THIS MSG 31 AUG 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. SUBAUMA LIGHT 12-14.4S 037-46.4W UNLIT.\n2. CANCEL THIS MSG 31 AUG 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. SUBAUMA LIGHT 12-14.4S 037-46.4W UNLIT.\n2. CANCEL THIS MSG 31 AUG 19.",
+    "valid_from": "2019-03-04T18:25:00+00:00",
+    "valid_until": "2019-08-31T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1514/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.135,
+      -22.938333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-05-14T21:44:00",
     "raw_dtg": "142144Z MAY 18",
     "msg_id": "HYDROARC 1514/18(24)",
-    "cancellations": [
-      "HYDROARC 2840/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24160.\nFORT SANTA CRUZ LIGHT 22-56.3S 043-08.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24160.\nFORT SANTA CRUZ LIGHT 22-56.3S 043-08.1W UNRELIABLE.",
+    "valid_from": "2018-05-14T21:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 677/13(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8016666666666667,
+      56.96333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-03-18T13:52:00",
     "raw_dtg": "181352Z MAR 13",
     "msg_id": "HYDROARC 677/13(35,43)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1074/13"
+      "307/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nCHART 35004\n1. PLATFORM 56-57.8N 001-48.1E LIGHTS UNRELIABLE.\n2. CANCEL HYDROLANT 307/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nCHART 35004\n1. PLATFORM 56-57.8N 001-48.1E LIGHTS UNRELIABLE.\n2. CANCEL HYDROLANT 307/13.",
+    "valid_from": "2013-03-18T13:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 143/20(41,42)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         35.11033333333334,
@@ -46,11 +46,16 @@
     "dtg": "2020-08-11T10:24:00",
     "raw_dtg": "111024Z AUG 20",
     "msg_id": "HYDROARC 143/20(41,42)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 143/20"
+      "THIS MSG 06 SEP 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nKARA SEA.\nRUSSIA.\nDNC 22, DNC 27.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 05 SEP\n   BY M/V PROFESSOR LOGACHEV TOWING 4500 METER\n   CABLE ALONG TRACKLINE JOINING\n   69-12.70N 035-06.62E,72-56.00N 045-16.00E,\n   77-27.60N 055-00.00E, 78-00.00N 059-00.00E,\n   80-00.00N 070-00.00E, 81-30.00N 073-00.00E,\n   81-39.00N 095-00.00E, 77-20.00N 116-00.00E,\n   76-47.00N 125-30.00E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 06 SEP 20."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "ARCTIC.\nKARA SEA.\nRUSSIA.\nDNC 22, DNC 27.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 05 SEP\n   BY M/V PROFESSOR LOGACHEV TOWING 4500 METER\n   CABLE ALONG TRACKLINE JOINING\n   69-12.70N 035-06.62E,72-56.00N 045-16.00E,\n   77-27.60N 055-00.00E, 78-00.00N 059-00.00E,\n   80-00.00N 070-00.00E, 81-30.00N 073-00.00E,\n   81-39.00N 095-00.00E, 77-20.00N 116-00.00E,\n   76-47.00N 125-30.00E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 06 SEP 20.",
+    "valid_from": "2020-08-11T10:24:00+00:00",
+    "valid_until": "2020-09-06T00:00:00+00:00",
+    "summary": null
   }
 }

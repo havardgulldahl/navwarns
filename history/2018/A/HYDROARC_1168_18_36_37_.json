@@ -3,17 +3,23 @@
   "id": "HYDROARC 1168/18(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8100000000000005,
+      49.945
+    ]
   },
   "properties": {
     "dtg": "2018-04-11T13:41:00",
     "raw_dtg": "111341Z APR 18",
     "msg_id": "HYDROARC 1168/18(36,37)",
-    "cancellations": [
-      "HYDROARC 1196/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 19, DNC 20.\nCHART 36035.\nRACON AT WOLF ROCK LIGHT 49-56.7N 005-48.6W\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 19, DNC 20.\nCHART 36035.\nRACON AT WOLF ROCK LIGHT 49-56.7N 005-48.6W\nINOPERATIVE.",
+    "valid_from": "2018-04-11T13:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1576/22(13)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-06-19T20:58:00",
     "raw_dtg": "192058Z JUN 22",
     "msg_id": "HYDROARC 1576/22(13)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 1576/22"
+      "1573/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nCANCEL HYDROLANT 1573/22 AND THIS MSG,\nASSISTANCE NO LONGER NEEDED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nCANCEL HYDROLANT 1573/22 AND THIS MSG,\nASSISTANCE NO LONGER NEEDED.",
+    "valid_from": "2022-06-19T20:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

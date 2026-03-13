@@ -2,19 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 1828/19(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -19.375,
+        25.323333333333334
+      ],
+      [
+        -15.556666666666667,
+        27.545
+      ],
+      [
+        -15.253333333333334,
+        27.766666666666666
+      ],
+      [
+        -15.278333333333332,
+        28.045
+      ],
+      [
+        -15.383333333333333,
+        28.115
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-06-18T18:42:00",
     "raw_dtg": "181842Z JUN 19",
     "msg_id": "HYDROARC 1828/19(51)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 201300Z JUN 19",
-      "HYDROARC 1828/19"
+      "THIS MSG 201300Z JUN 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 201200Z JUN\n   NOTICE BY M/V POLARSTERN ALONG TRACKLINE JOINING\n   25-19.4N 019-22.5W, 27-32.7N 015-33.4W,\n   27-46.0N 015-15.2W, 28-02.7N 015-16.7W,\n   28-06.9N 015-23.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 201300Z JUN 19."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 201200Z JUN\n   NOTICE BY M/V POLARSTERN ALONG TRACKLINE JOINING\n   25-19.4N 019-22.5W, 27-32.7N 015-33.4W,\n   27-46.0N 015-15.2W, 28-02.7N 015-16.7W,\n   28-06.9N 015-23.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 201300Z JUN 19.",
+    "valid_from": "2019-06-18T18:42:00+00:00",
+    "valid_until": "2019-06-20T13:00:00+00:00",
+    "summary": null
   }
 }

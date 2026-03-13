@@ -3,17 +3,23 @@
   "id": "HYDROARC 2460/10(37,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5383333333333333,
+      56.735
+    ]
   },
   "properties": {
     "dtg": "2010-12-19T19:28:00",
     "raw_dtg": "191928Z DEC 10",
     "msg_id": "HYDROARC 2460/10(37,43)",
-    "cancellations": [
-      "HYDROARC 2468/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V FUGRO SEARCHER TOWING 300 METER LONG\nCABLE WITHIN THREE MILES OF 56-44.1N 001-32.3E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V FUGRO SEARCHER TOWING 300 METER LONG\nCABLE WITHIN THREE MILES OF 56-44.1N 001-32.3E.",
+    "valid_from": "2010-12-19T19:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

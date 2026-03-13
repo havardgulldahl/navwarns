@@ -3,17 +3,23 @@
   "id": "HYDROARC 2301/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.996666666666666,
+      51.531666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-09-10T14:58:00",
     "raw_dtg": "101458Z SEP 21",
     "msg_id": "HYDROARC 2301/21(36)",
-    "cancellations": [
-      "HYDROARC 2302/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nSAINT GOWAN BUOY 51-31.9N 004-59.8W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nSAINT GOWAN BUOY 51-31.9N 004-59.8W UNLIT.",
+    "valid_from": "2021-09-10T14:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

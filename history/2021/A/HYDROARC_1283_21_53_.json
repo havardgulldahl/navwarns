@@ -3,17 +3,23 @@
   "id": "HYDROARC 1283/21(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      14.488333333333333,
+      35.855
+    ]
   },
   "properties": {
     "dtg": "2021-05-10T18:32:00",
     "raw_dtg": "101832Z MAY 21",
     "msg_id": "HYDROARC 1283/21(53)",
-    "cancellations": [
-      "HYDROARC 830/22"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nDNC 09.\nCOASTAL RADIO STATION MALTA\n035-51.3N 014-29.3E OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nDNC 09.\nCOASTAL RADIO STATION MALTA\n035-51.3N 014-29.3E OFF AIR.",
+    "valid_from": "2021-05-10T18:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

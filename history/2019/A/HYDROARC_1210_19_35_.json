@@ -3,17 +3,23 @@
   "id": "HYDROARC 1210/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.776666666666667,
+      57.865
+    ]
   },
   "properties": {
     "dtg": "2019-04-18T00:43:00",
     "raw_dtg": "180043Z APR 19",
     "msg_id": "HYDROARC 1210/19(35)",
-    "cancellations": [
-      "HYDROARC 1228/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\nTARBAT NESS LIGHT 57-51.9N 003-46.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\nTARBAT NESS LIGHT 57-51.9N 003-46.6W UNRELIABLE.",
+    "valid_from": "2019-04-18T00:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

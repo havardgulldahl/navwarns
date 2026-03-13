@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2501/16(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-09-26T15:56:00",
     "raw_dtg": "261556Z SEP 16",
     "msg_id": "HYDROARC 2501/16(35)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2501/16"
+      "2495/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nNORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 2495/16 AND THIS MSG,\nSTATION RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nNORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 2495/16 AND THIS MSG,\nSTATION RESTORED.",
+    "valid_from": "2016-09-26T15:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

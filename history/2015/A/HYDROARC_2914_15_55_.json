@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2914/15(55)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-11-26T16:35:00",
     "raw_dtg": "261635Z NOV 15",
     "msg_id": "HYDROARC 2914/15(55)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2914/15"
+      "THIS MSG 01 JAN 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\nCHART 55104.\n1. NAVIGATION PROHIBITED 27 NOV THRU 31 DEC\n   IN AREA BETWEEN\n   44-26.0N 44-27.6N AND 033-32.0E 033-33.7E.\n2. CANCEL THIS MSG 01 JAN 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\nCHART 55104.\n1. NAVIGATION PROHIBITED 27 NOV THRU 31 DEC\n   IN AREA BETWEEN\n   44-26.0N 44-27.6N AND 033-32.0E 033-33.7E.\n2. CANCEL THIS MSG 01 JAN 16.",
+    "valid_from": "2015-11-26T16:35:00+00:00",
+    "valid_until": "2016-01-01T00:00:00+00:00",
+    "summary": null
   }
 }

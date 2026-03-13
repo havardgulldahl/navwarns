@@ -12,11 +12,16 @@
     "dtg": "2016-06-08T08:34:00",
     "raw_dtg": "080834Z JUN 16",
     "msg_id": "HYDROARC 1400/16(35)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1400/16"
+      "THIS MSG 28 JUN 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND-WEST COAST.\nDNC 19, DNC 20.\nCHART 35090.\n1. OCEANOGRAPHIC EQUIPMENT, AT DEPTH 25 METERS,\n   ESTABLISHED UNTIL 27 JUN IN 57-29.96N 005-56.73W.\n2. CANCEL THIS MSG 28 JUN 16."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND-WEST COAST.\nDNC 19, DNC 20.\nCHART 35090.\n1. OCEANOGRAPHIC EQUIPMENT, AT DEPTH 25 METERS,\n   ESTABLISHED UNTIL 27 JUN IN 57-29.96N 005-56.73W.\n2. CANCEL THIS MSG 28 JUN 16.",
+    "valid_from": "2016-06-08T08:34:00+00:00",
+    "valid_until": "2016-06-28T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2937/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -13.218333333333334,
+      54.97
+    ]
   },
   "properties": {
     "dtg": "2013-11-20T10:43:00",
     "raw_dtg": "201043Z NOV 13",
     "msg_id": "HYDROARC 2937/13(35)",
-    "cancellations": [
-      "HYDROARC 491/16"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCHART 35019\nODAS BUOY K4 RELOCATED TO 54-58.2N 013-13.1W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCHART 35019\nODAS BUOY K4 RELOCATED TO 54-58.2N 013-13.1W.",
+    "valid_from": "2013-11-20T10:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

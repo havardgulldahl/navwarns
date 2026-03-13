@@ -3,17 +3,23 @@
   "id": "HYDROARC 227/16(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.7283333333333334,
+      60.425
+    ]
   },
   "properties": {
     "dtg": "2016-01-27T01:08:00",
     "raw_dtg": "270108Z JAN 16",
     "msg_id": "HYDROARC 227/16(35,43)",
-    "cancellations": [
-      "HYDROARC 245/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35172.\nOUT SKERRIES LIGHT 60-25.5N 000-43.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35172.\nOUT SKERRIES LIGHT 60-25.5N 000-43.7W UNRELIABLE.",
+    "valid_from": "2016-01-27T01:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

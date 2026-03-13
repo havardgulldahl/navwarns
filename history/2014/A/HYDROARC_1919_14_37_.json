@@ -3,17 +3,23 @@
   "id": "HYDROARC 1919/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.171666666666667,
+      51.22
+    ]
   },
   "properties": {
     "dtg": "2014-08-11T20:56:00",
     "raw_dtg": "112056Z AUG 14",
     "msg_id": "HYDROARC 1919/14(37)",
-    "cancellations": [
-      "HYDROARC 1923/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37120\nRUYTINGEN NORTH BUOY 51-13.2N 002-10.3E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37120\nRUYTINGEN NORTH BUOY 51-13.2N 002-10.3E OFF STATION.",
+    "valid_from": "2014-08-11T20:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

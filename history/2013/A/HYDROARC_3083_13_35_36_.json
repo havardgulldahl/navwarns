@@ -3,18 +3,25 @@
   "id": "HYDROARC 3083/13(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.06,
+      56.071666666666665
+    ]
   },
   "properties": {
     "dtg": "2013-12-01T17:11:00",
     "raw_dtg": "011711Z DEC 13",
     "msg_id": "HYDROARC 3083/13(35,36)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 031900Z DEC 13",
-      "HYDROARC 3083/13"
+      "THIS MSG 031900Z DEC 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nCHART 35000\n1. STIRLING DGPS STATION 56-04.3N 004-03.6W\n   OFF AIR 0900Z TO 1800Z DAILY 02 AND 03 DEC.\n2. CANCEL THIS MSG 031900Z DEC 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nCHART 35000\n1. STIRLING DGPS STATION 56-04.3N 004-03.6W\n   OFF AIR 0900Z TO 1800Z DAILY 02 AND 03 DEC.\n2. CANCEL THIS MSG 031900Z DEC 13.",
+    "valid_from": "2013-12-01T17:11:00+00:00",
+    "valid_until": "2013-12-03T19:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 3095/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.41166666666667,
+      -22.451666666666668
+    ]
   },
   "properties": {
     "dtg": "2016-11-19T21:47:00",
     "raw_dtg": "192147Z NOV 16",
     "msg_id": "HYDROARC 3095/16(24)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 222147Z NOV 16",
-      "HYDROARC 3095/16"
+      "THIS MSG 222147Z NOV 16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. TWO DERELICT VESSELS ADRIFT\n   IN 22-27.1S 040-24.7W AT 191000Z NOV 16.\n2. CANCEL THIS MSG 222147Z NOV 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. TWO DERELICT VESSELS ADRIFT\n   IN 22-27.1S 040-24.7W AT 191000Z NOV 16.\n2. CANCEL THIS MSG 222147Z NOV 16.",
+    "valid_from": "2016-11-19T21:47:00+00:00",
+    "valid_until": "2016-11-22T21:47:00+00:00",
+    "summary": null
   }
 }

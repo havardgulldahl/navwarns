@@ -3,17 +3,25 @@
   "id": "HYDROARC 662/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.725,
+      55.615
+    ]
   },
   "properties": {
     "dtg": "2019-02-28T17:35:00",
     "raw_dtg": "281735Z FEB 19",
     "msg_id": "HYDROARC 662/19(35)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 662/19"
+      "THIS MSG 03 MAR 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 35010.\n1. BAMBURGH LIGHT 55-36.9N 001-43.5W UNRELIABLE.\n2. CANCEL THIS MSG 03 MAR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 35010.\n1. BAMBURGH LIGHT 55-36.9N 001-43.5W UNRELIABLE.\n2. CANCEL THIS MSG 03 MAR 19.",
+    "valid_from": "2019-02-28T17:35:00+00:00",
+    "valid_until": "2019-03-03T00:00:00+00:00",
+    "summary": null
   }
 }

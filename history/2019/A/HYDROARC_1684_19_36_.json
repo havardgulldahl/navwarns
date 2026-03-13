@@ -3,18 +3,25 @@
   "id": "HYDROARC 1684/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.916666666666667,
+      53.475
+    ]
   },
   "properties": {
     "dtg": "2019-06-01T18:36:00",
     "raw_dtg": "011836Z JUN 19",
     "msg_id": "HYDROARC 1684/19(36)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 080300Z JUN 19",
-      "HYDROARC 1684/19"
+      "THIS MSG 080300Z JUN 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nIRISH SEA.\nIRELAND TO SCOTLAND.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   080200Z JUN BY CABLESHIP PIERRE DE FERMAT\n   IN AREA WITHIN ONE MILE OF TRACKLINE JOINING\n   53-28.5N 005-55.0W, 55-30.0N 005-46.0W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 080300Z JUN 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nIRISH SEA.\nIRELAND TO SCOTLAND.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   080200Z JUN BY CABLESHIP PIERRE DE FERMAT\n   IN AREA WITHIN ONE MILE OF TRACKLINE JOINING\n   53-28.5N 005-55.0W, 55-30.0N 005-46.0W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 080300Z JUN 19.",
+    "valid_from": "2019-06-01T18:36:00+00:00",
+    "valid_until": "2019-06-08T03:00:00+00:00",
+    "summary": null
   }
 }

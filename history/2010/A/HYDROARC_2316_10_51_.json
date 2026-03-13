@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2316/10(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-12-02T13:32:00",
     "raw_dtg": "021332Z DEC 10",
     "msg_id": "HYDROARC 2316/10(51)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 2316/10"
+      "2305/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nCANCEL HYDROLANT 2305/10 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nCANCEL HYDROLANT 2305/10 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2010-12-02T13:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1015/19(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-03-30T01:03:00",
     "raw_dtg": "300103Z MAR 19",
     "msg_id": "HYDROARC 1015/19(24)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 252145Z SEP 19",
-      "HYDROARC 2536/19"
+      "THIS MSG 252145Z SEP 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 07.\nCHART 24100.\n1. CONCEICAO LIGHT 31-43.7S 51-28.8W UNLIT.\n2. CANCEL THIS MSG 252145Z SEP 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 07.\nCHART 24100.\n1. CONCEICAO LIGHT 31-43.7S 51-28.8W UNLIT.\n2. CANCEL THIS MSG 252145Z SEP 19.",
+    "valid_from": "2019-03-30T01:03:00+00:00",
+    "valid_until": "2019-09-25T21:45:00+00:00",
+    "summary": null
   }
 }

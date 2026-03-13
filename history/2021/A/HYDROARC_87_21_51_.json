@@ -3,17 +3,23 @@
   "id": "HYDROARC 87/21(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.515,
+      37.483333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-01-10T15:42:00",
     "raw_dtg": "101542Z JAN 21",
     "msg_id": "HYDROARC 87/21(51)",
-    "cancellations": [
-      "HYDROARC 263/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL.\nDNC 08.\nCABLE OPERATIONS 14 JAN UNTIL FURTHER\nNOTICE BY CABLESHIP ILE D'AIX ALONG TRACKLINE\nJOINING 37-29.0N 009-30.9W AND 37-27.4N 009-33.4W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL.\nDNC 08.\nCABLE OPERATIONS 14 JAN UNTIL FURTHER\nNOTICE BY CABLESHIP ILE D'AIX ALONG TRACKLINE\nJOINING 37-29.0N 009-30.9W AND 37-27.4N 009-33.4W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2021-01-10T15:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

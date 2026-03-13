@@ -3,17 +3,23 @@
   "id": "HYDROARC 2749/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6366666666666667,
+      54.513333333333335
+    ]
   },
   "properties": {
     "dtg": "2019-09-09T21:59:00",
     "raw_dtg": "092159Z SEP 19",
     "msg_id": "HYDROARC 2749/19(36)",
-    "cancellations": [
-      "HYDROARC 2794/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nST BEES HEAD LIGHT 54-30.8N 003-38.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nST BEES HEAD LIGHT 54-30.8N 003-38.2W UNRELIABLE.",
+    "valid_from": "2019-09-09T21:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

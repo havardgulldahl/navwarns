@@ -3,18 +3,25 @@
   "id": "HYDROARC 2906/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6016666666666666,
+      53.836666666666666
+    ]
   },
   "properties": {
     "dtg": "2020-09-24T11:33:00",
     "raw_dtg": "241133Z SEP 20",
     "msg_id": "HYDROARC 2906/20(36)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 271133Z SEP 20",
-      "HYDROARC 2906/20"
+      "THIS MSG 271133Z SEP 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\n1. 12 METER TREE ADRIFT IN VICINITY\n   53-50.2N 003-36.1W AT 240935Z SEP.\n2. CANCEL THIS MSG 271133Z SEP 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\n1. 12 METER TREE ADRIFT IN VICINITY\n   53-50.2N 003-36.1W AT 240935Z SEP.\n2. CANCEL THIS MSG 271133Z SEP 20.",
+    "valid_from": "2020-09-24T11:33:00+00:00",
+    "valid_until": "2020-09-27T11:33:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 918/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.126666666666667,
+      56.656666666666666
+    ]
   },
   "properties": {
     "dtg": "2010-05-21T23:04:00",
     "raw_dtg": "212304Z MAY 10",
     "msg_id": "HYDROARC 918/10(35)",
-    "cancellations": [
-      "HYDROARC 924/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35096 (1ST ED).\nARDMORE POINT LIGHT 56-39.4N 006-07.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35096 (1ST ED).\nARDMORE POINT LIGHT 56-39.4N 006-07.6W UNRELIABLE.",
+    "valid_from": "2010-05-21T23:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

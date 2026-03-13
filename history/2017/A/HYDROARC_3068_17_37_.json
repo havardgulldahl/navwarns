@@ -3,17 +3,25 @@
   "id": "HYDROARC 3068/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.866666666666667,
+      48.04333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-09-27T16:39:00",
     "raw_dtg": "271639Z SEP 17",
     "msg_id": "HYDROARC 3068/17(37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 3071/17"
+      "3052/17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nCHART 37320.\n1. ILE DE SEIN LIGHT 48-02.6N 004-52.0W UNLIT.\n2. CANCEL HYDROLANT 3052/17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nCHART 37320.\n1. ILE DE SEIN LIGHT 48-02.6N 004-52.0W UNLIT.\n2. CANCEL HYDROLANT 3052/17.",
+    "valid_from": "2017-09-27T16:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 2500/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.7877833333333335,
+      48.030766666666665
+    ]
   },
   "properties": {
     "dtg": "2012-10-25T09:42:00",
     "raw_dtg": "250942Z OCT 12",
     "msg_id": "HYDROARC 2500/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2500/12"
+      "THIS MSG 01 NOV 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS 27 THRU 31 OCT BY\n   CABLESHIP ILE D' AIX ALONG TRACKLINE BETWEEN\n   48-01.846N 007-47.267W AND 47-58.672N 007-47.738W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 NOV 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS 27 THRU 31 OCT BY\n   CABLESHIP ILE D' AIX ALONG TRACKLINE BETWEEN\n   48-01.846N 007-47.267W AND 47-58.672N 007-47.738W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 NOV 12.",
+    "valid_from": "2012-10-25T09:42:00+00:00",
+    "valid_until": "2012-11-01T00:00:00+00:00",
+    "summary": null
   }
 }

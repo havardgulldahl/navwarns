@@ -3,18 +3,25 @@
   "id": "HYDROARC 3551/18(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -19.028333333333332,
+      36.50666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-11-16T06:35:00",
     "raw_dtg": "160635Z NOV 18",
     "msg_id": "HYDROARC 3551/18(51)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 190635Z NOV 18",
-      "HYDROARC 3551/18"
+      "THIS MSG 190635Z NOV 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT 12 METER S/V, BLUE HULL, ADRIFT IN\n   VICINITY OF 36-30.4N 019-01.7W AT 152330Z NOV.\n2. CANCEL THIS MSG 190635Z NOV 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT 12 METER S/V, BLUE HULL, ADRIFT IN\n   VICINITY OF 36-30.4N 019-01.7W AT 152330Z NOV.\n2. CANCEL THIS MSG 190635Z NOV 18.",
+    "valid_from": "2018-11-16T06:35:00+00:00",
+    "valid_until": "2018-11-19T06:35:00+00:00",
+    "summary": null
   }
 }

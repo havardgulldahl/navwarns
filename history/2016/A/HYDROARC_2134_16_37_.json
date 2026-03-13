@@ -3,17 +3,25 @@
   "id": "HYDROARC 2134/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.256666666666667,
+      53.53333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-08-20T16:15:00",
     "raw_dtg": "201615Z AUG 16",
     "msg_id": "HYDROARC 2134/16(37)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2182/16"
+      "2012/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 37057.\n1. PLATFORM 49/12-AR, 53-32.0N 002-15.4E\n   UNLIT AND FOG SIGNAL INOPERATIVE.\n2. CANCEL HYDROLANT 2012/16(35,36),\n   GEAR RECOVERED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 37057.\n1. PLATFORM 49/12-AR, 53-32.0N 002-15.4E\n   UNLIT AND FOG SIGNAL INOPERATIVE.\n2. CANCEL HYDROLANT 2012/16(35,36),\n   GEAR RECOVERED.",
+    "valid_from": "2016-08-20T16:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 156/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4983333333333333,
+      51.465
+    ]
   },
   "properties": {
     "dtg": "2010-01-25T20:12:00",
     "raw_dtg": "252012Z JAN 10",
     "msg_id": "HYDROARC 156/10(37)",
-    "cancellations": [
-      "HYDROARC 164/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nNGA CHART 37040 (1ST ED).\nNE SPIT BUOY 51-27.9N 001-29.9E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nNGA CHART 37040 (1ST ED).\nNE SPIT BUOY 51-27.9N 001-29.9E UNLIT.",
+    "valid_from": "2010-01-25T20:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

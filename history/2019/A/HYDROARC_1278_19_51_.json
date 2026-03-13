@@ -3,18 +3,25 @@
   "id": "HYDROARC 1278/19(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -16.02166666666667,
+      11.708333333333334
+    ]
   },
   "properties": {
     "dtg": "2019-04-25T17:00:00",
     "raw_dtg": "251700Z APR 19",
     "msg_id": "HYDROARC 1278/19(51)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 291300Z APR 19",
-      "HYDROARC 1278/19"
+      "THIS MSG 291300Z APR 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nGUINEA-BISSAU.\nDNC 01.\n1. CABLE OPERATIONS 261200Z TO 291200Z APR BY\n   CABLESHIP PETER FABER ALONG TRACKLINE JOINING\n   11-42.5N 016-01.3W, 12-06.6N 017-05.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 291300Z APR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nGUINEA-BISSAU.\nDNC 01.\n1. CABLE OPERATIONS 261200Z TO 291200Z APR BY\n   CABLESHIP PETER FABER ALONG TRACKLINE JOINING\n   11-42.5N 016-01.3W, 12-06.6N 017-05.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 291300Z APR 19.",
+    "valid_from": "2019-04-25T17:00:00+00:00",
+    "valid_until": "2019-04-29T13:00:00+00:00",
+    "summary": null
   }
 }

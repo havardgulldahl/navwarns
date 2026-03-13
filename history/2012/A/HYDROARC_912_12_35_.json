@@ -3,17 +3,23 @@
   "id": "HYDROARC 912/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8100000000000005,
+      57.86
+    ]
   },
   "properties": {
     "dtg": "2012-04-29T03:09:00",
     "raw_dtg": "290309Z APR 12",
     "msg_id": "HYDROARC 912/12(35)",
-    "cancellations": [
-      "HYDROARC 919/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nCHART 35078\nRUBHA REIDH LIGHT 57-51.6N 005-48.6W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nCHART 35078\nRUBHA REIDH LIGHT 57-51.6N 005-48.6W UNLIT.",
+    "valid_from": "2012-04-29T03:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

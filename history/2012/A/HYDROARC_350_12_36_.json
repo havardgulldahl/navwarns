@@ -3,17 +3,23 @@
   "id": "HYDROARC 350/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.5616666666666665,
+      53.81666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-02-11T17:16:00",
     "raw_dtg": "111716Z FEB 12",
     "msg_id": "HYDROARC 350/12(36)",
-    "cancellations": [
-      "HYDROARC 362/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nCHART 36025\nPLATFORM DP3 110/8 53-49.0N 003-33.7W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nCHART 36025\nPLATFORM DP3 110/8 53-49.0N 003-33.7W UNLIT.",
+    "valid_from": "2012-02-11T17:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 2681/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.925,
+      52.35666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-08-22T09:43:00",
     "raw_dtg": "220943Z AUG 18",
     "msg_id": "HYDROARC 2681/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2729/18"
+      "2592/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n   52-21.4N 002-55.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2592/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n   52-21.4N 002-55.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2592/18.",
+    "valid_from": "2018-08-22T09:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

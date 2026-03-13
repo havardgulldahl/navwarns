@@ -3,17 +3,23 @@
   "id": "HYDROARC 704/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6308,
+      51.73218333333333
+    ]
   },
   "properties": {
     "dtg": "2010-04-23T01:16:00",
     "raw_dtg": "230116Z APR 10",
     "msg_id": "HYDROARC 704/10(37)",
-    "cancellations": [
-      "HYDROARC 710/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nORDNANCE.\nNGA CHART 37140 (33RD ED).\nUNEXPLODED ORDNANCE, MARKED BY BUOY,\nWITHIN ONE MILE OF 51-43.931N 001-37.848E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nORDNANCE.\nNGA CHART 37140 (33RD ED).\nUNEXPLODED ORDNANCE, MARKED BY BUOY,\nWITHIN ONE MILE OF 51-43.931N 001-37.848E.",
+    "valid_from": "2010-04-23T01:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

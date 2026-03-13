@@ -3,17 +3,23 @@
   "id": "HYDROARC 815/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -42.96,
+      -23.055
+    ]
   },
   "properties": {
     "dtg": "2010-05-09T11:32:00",
     "raw_dtg": "091132Z MAY 10",
     "msg_id": "HYDROARC 815/10(24)",
-    "cancellations": [
-      "HYDROARC 815/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nVESSEL SAO LUIZ GONSAGA SHIPWRECKED\nVICINITY 23-03.3S 042-57.6W AT 090335Z MAY.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nVESSEL SAO LUIZ GONSAGA SHIPWRECKED\nVICINITY 23-03.3S 042-57.6W AT 090335Z MAY.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2010-05-09T11:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 302/22(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2022-10-04T05:07:00",
     "raw_dtg": "040507Z OCT 22",
     "msg_id": "HYDROARC 302/22(15)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 172031Z OCT 22",
-      "HYDROARC 302/22"
+      "THIS MSG 172031Z OCT 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DAVIS STRAIT.\nCANADA.\nDNC 28.\n1. MCTS IQALUIT CENTER 63-43.8N 068-32.7W\n   REMOTE STATION SATELLITE SERVICES UNRELIABLE\n   1857Z TO 1931Z DAILY 10 THRU 17 OCT.\n2. CANCEL THIS MSG 172031Z OCT 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DAVIS STRAIT.\nCANADA.\nDNC 28.\n1. MCTS IQALUIT CENTER 63-43.8N 068-32.7W\n   REMOTE STATION SATELLITE SERVICES UNRELIABLE\n   1857Z TO 1931Z DAILY 10 THRU 17 OCT.\n2. CANCEL THIS MSG 172031Z OCT 22.",
+    "valid_from": "2022-10-04T05:07:00+00:00",
+    "valid_until": "2022-10-17T20:31:00+00:00",
+    "summary": null
   }
 }

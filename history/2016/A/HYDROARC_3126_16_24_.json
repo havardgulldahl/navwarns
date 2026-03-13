@@ -3,17 +3,25 @@
   "id": "HYDROARC 3126/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -39.723333333333336,
+      -19.096666666666668
+    ]
   },
   "properties": {
     "dtg": "2016-11-23T07:05:00",
     "raw_dtg": "230705Z NOV 16",
     "msg_id": "HYDROARC 3126/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 3244/16"
+      "THIS MSG 21 MAY 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24180.\n1. SUCURACA LIGHT 19-05.8S 039-43.4W UNLIT.\n2. CANCEL THIS MSG 21 MAY 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24180.\n1. SUCURACA LIGHT 19-05.8S 039-43.4W UNLIT.\n2. CANCEL THIS MSG 21 MAY 17.",
+    "valid_from": "2016-11-23T07:05:00+00:00",
+    "valid_until": "2017-05-21T00:00:00+00:00",
+    "summary": null
   }
 }

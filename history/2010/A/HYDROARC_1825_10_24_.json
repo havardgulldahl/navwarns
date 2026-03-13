@@ -3,17 +3,23 @@
   "id": "HYDROARC 1825/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -33.681666666666665,
+      -5.941666666666666
+    ]
   },
   "properties": {
     "dtg": "2010-09-26T23:33:00",
     "raw_dtg": "262333Z SEP 10",
     "msg_id": "HYDROARC 1825/10(24)",
-    "cancellations": [
-      "HYDROARC 1840/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nVESSEL NATIVO E SANSARA DISABLED AND ADRIFT\nIN 05-56.5S 033-40.9W AT 261913Z. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS\nTO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nVESSEL NATIVO E SANSARA DISABLED AND ADRIFT\nIN 05-56.5S 033-40.9W AT 261913Z. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS\nTO ANY COASTAL RADIO STATION.",
+    "valid_from": "2010-09-26T23:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

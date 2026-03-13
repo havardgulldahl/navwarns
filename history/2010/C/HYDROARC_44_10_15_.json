@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 44/10(15)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-07-29T04:35:00",
     "raw_dtg": "290435Z JUL 10",
     "msg_id": "HYDROARC 44/10(15)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 28/10",
-      "HYDROARC 44/10"
+      "HYDROARC 28/10"
     ],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "ARCTIC.\nBEAUFORT SEA.\nCANCEL HYDROARC 28/10 AND THIS MSG, MOORING REMOVED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBEAUFORT SEA.\nCANCEL HYDROARC 28/10 AND THIS MSG, MOORING REMOVED.",
+    "valid_from": "2010-07-29T04:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

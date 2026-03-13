@@ -3,18 +3,25 @@
   "id": "HYDROARC 1729/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -54.58166666666666,
+      -35.155
+    ]
   },
   "properties": {
     "dtg": "2018-06-01T14:57:00",
     "raw_dtg": "011457Z JUN 18",
     "msg_id": "HYDROARC 1729/18(24)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 041457Z JUN 18",
-      "HYDROARC 1729/18"
+      "THIS MSG 041457Z JUN 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC\nURUGUAY.\nDNC 07.\n1. 85 METER M/V PRAIA DE SANTA CRUZ ADRIFT IN\n   35-09.3S 054-34.9W.\n2. CANCEL THIS MSG 041457Z JUN 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC\nURUGUAY.\nDNC 07.\n1. 85 METER M/V PRAIA DE SANTA CRUZ ADRIFT IN\n   35-09.3S 054-34.9W.\n2. CANCEL THIS MSG 041457Z JUN 18.",
+    "valid_from": "2018-06-01T14:57:00+00:00",
+    "valid_until": "2018-06-04T14:57:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 276/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.9700000000000002,
+      53.568333333333335
+    ]
   },
   "properties": {
     "dtg": "2014-01-30T10:00:00",
     "raw_dtg": "301000Z JAN 14",
     "msg_id": "HYDROARC 276/14(37)",
-    "cancellations": [
-      "HYDROARC 292/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nAUDREY GAS FIELD.\nCHART 37057\nPLATFORM 48/15B-PXW, 53-34.1N 001-58.2E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nAUDREY GAS FIELD.\nCHART 37057\nPLATFORM 48/15B-PXW, 53-34.1N 001-58.2E UNLIT.",
+    "valid_from": "2014-01-30T10:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

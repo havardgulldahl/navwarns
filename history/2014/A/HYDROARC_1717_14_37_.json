@@ -3,17 +3,23 @@
   "id": "HYDROARC 1717/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7666666666666666,
+      51.835
+    ]
   },
   "properties": {
     "dtg": "2014-07-15T09:48:00",
     "raw_dtg": "150948Z JUL 14",
     "msg_id": "HYDROARC 1717/14(37)",
-    "cancellations": [
-      "HYDROARC 1720/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\nRACON AT SUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\nRACON AT SUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E INOPERATIVE.",
+    "valid_from": "2014-07-15T09:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

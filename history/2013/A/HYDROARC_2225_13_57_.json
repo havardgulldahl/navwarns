@@ -3,17 +3,23 @@
   "id": "HYDROARC 2225/13(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      14.435,
+      -22.891666666666666
+    ]
   },
   "properties": {
     "dtg": "2013-09-11T12:10:00",
     "raw_dtg": "111210Z SEP 13",
     "msg_id": "HYDROARC 2225/13(57)",
-    "cancellations": [
-      "HYDROARC 2743/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nCHART 57380\nRACON AT PELICAN POINT LIGHT 22-53.5S 014-26.1E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nCHART 57380\nRACON AT PELICAN POINT LIGHT 22-53.5S 014-26.1E INOPERATIVE.",
+    "valid_from": "2013-09-11T12:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

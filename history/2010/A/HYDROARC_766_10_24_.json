@@ -3,17 +3,23 @@
   "id": "HYDROARC 766/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.915,
+      -13.375
+    ]
   },
   "properties": {
     "dtg": "2010-05-02T01:15:00",
     "raw_dtg": "020115Z MAY 10",
     "msg_id": "HYDROARC 766/10(24)",
-    "cancellations": [
-      "HYDROARC 770/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nNGA CHART 24200 (14TH ED).\nMORRO DE SAO PAULO LIGHT 13-22.5S 038-54.9W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nNGA CHART 24200 (14TH ED).\nMORRO DE SAO PAULO LIGHT 13-22.5S 038-54.9W UNLIT.",
+    "valid_from": "2010-05-02T01:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

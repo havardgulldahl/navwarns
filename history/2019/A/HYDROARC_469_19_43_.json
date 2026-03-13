@@ -3,17 +3,23 @@
   "id": "HYDROARC 469/19(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3616666666666666,
+      59.32833333333333
+    ]
   },
   "properties": {
     "dtg": "2019-02-13T09:32:00",
     "raw_dtg": "130932Z FEB 19",
     "msg_id": "HYDROARC 469/19(43)",
-    "cancellations": [
-      "HYDROARC 2383/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCHART 43300.\nSUBMERGED OBSTRUCTION REPORTED IN\n59-19.7N 001-21.7E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCHART 43300.\nSUBMERGED OBSTRUCTION REPORTED IN\n59-19.7N 001-21.7E.",
+    "valid_from": "2019-02-13T09:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

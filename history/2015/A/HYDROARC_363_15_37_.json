@@ -3,17 +3,25 @@
   "id": "HYDROARC 363/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.215,
+      53.005
+    ]
   },
   "properties": {
     "dtg": "2015-02-12T15:24:00",
     "raw_dtg": "121524Z FEB 15",
     "msg_id": "HYDROARC 363/15(37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 367/15"
+      "1/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37057.\n1. FOG SIGNAL AT PLATFORM 49/27-H, 53-00.3N 002-12.9E\n   INOPERATIVE.\n2. CANCEL HYDROLANT 1/15(37)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37057.\n1. FOG SIGNAL AT PLATFORM 49/27-H, 53-00.3N 002-12.9E\n   INOPERATIVE.\n2. CANCEL HYDROLANT 1/15(37).",
+    "valid_from": "2015-02-12T15:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

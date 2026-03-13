@@ -2,18 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 1500/17(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.851666666666667,
+          44.45666666666666
+        ],
+        [
+          29.281666666666666,
+          44.516666666666666
+        ],
+        [
+          29.57,
+          44.535
+        ],
+        [
+          29.58,
+          44.52166666666667
+        ],
+        [
+          29.411666666666665,
+          44.48
+        ],
+        [
+          28.783333333333335,
+          44.395
+        ],
+        [
+          28.851666666666667,
+          44.45666666666666
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-05-12T15:39:00",
     "raw_dtg": "121539Z MAY 17",
     "msg_id": "HYDROARC 1500/17(55)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 1500/17"
+      "THIS MSG 14 JUN 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. SURVEY OPERATIONS 13 MAY THRU 13 JUN BY\n   M/V SHARK 1 IN AREA BOUND BY\n   44-27.4N 028-51.1E, 44-31.0N 029-16.9E,\n   44-32.1N 029-34.2E, 44-31.3N 029-34.8E,\n   44-28.8N 029-24.7E, 44-23.7N 028-47.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 14 JUN 17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. SURVEY OPERATIONS 13 MAY THRU 13 JUN BY\n   M/V SHARK 1 IN AREA BOUND BY\n   44-27.4N 028-51.1E, 44-31.0N 029-16.9E,\n   44-32.1N 029-34.2E, 44-31.3N 029-34.8E,\n   44-28.8N 029-24.7E, 44-23.7N 028-47.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 14 JUN 17.",
+    "valid_from": "2017-05-12T15:39:00+00:00",
+    "valid_until": "2017-06-14T00:00:00+00:00",
+    "summary": null
   }
 }

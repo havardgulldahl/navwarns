@@ -3,17 +3,23 @@
   "id": "HYDROARC 3617/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.0216666666666665,
+      57.333333333333336
+    ]
   },
   "properties": {
     "dtg": "2019-11-25T21:29:00",
     "raw_dtg": "252129Z NOV 19",
     "msg_id": "HYDROARC 3617/19(35)",
-    "cancellations": [
-      "HYDROARC 3627/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nEYRE POINT LIGHT 57-20.0N 006-01.3W UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nEYRE POINT LIGHT 57-20.0N 006-01.3W UNLIT.",
+    "valid_from": "2019-11-25T21:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

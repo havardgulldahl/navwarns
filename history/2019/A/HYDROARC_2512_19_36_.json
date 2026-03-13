@@ -3,17 +3,23 @@
   "id": "HYDROARC 2512/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.7283333333333335,
+      54.928333333333335
+    ]
   },
   "properties": {
     "dtg": "2019-08-18T08:11:00",
     "raw_dtg": "180811Z AUG 19",
     "msg_id": "HYDROARC 2512/19(36)",
-    "cancellations": [
-      "HYDROARC 2557/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 19, DNC 20.\nEAST MAIDEN LIGHT 54-55.7N 005-43.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 19, DNC 20.\nEAST MAIDEN LIGHT 54-55.7N 005-43.7W UNRELIABLE.",
+    "valid_from": "2019-08-18T08:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

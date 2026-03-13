@@ -3,17 +3,23 @@
   "id": "HYDROARC 79/17",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2017-05-15T11:48:00",
     "raw_dtg": "151148Z MAY 17",
     "msg_id": "HYDROARC 79/17",
-    "cancellations": [
-      "HYDROARC 118/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nCONTROL OF NORDREG CANADA TRANSFERRED TO MCTS IQALUIT\n63-43.8N 068-32.7W. ADDRESS NORDREG CANADA MSGS\nTO MCTS IQALUIT, PHONE: 867 979 5724,\nFAX: 867 979 4264, E-MAIL: IQANORDREG@INNAV.GC.CA\nOR THE NEAREST MCTS CENTRE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nCONTROL OF NORDREG CANADA TRANSFERRED TO MCTS IQALUIT\n63-43.8N 068-32.7W. ADDRESS NORDREG CANADA MSGS\nTO MCTS IQALUIT, PHONE: 867 979 5724,\nFAX: 867 979 4264, E-MAIL: IQANORDREG@INNAV.GC.CA\nOR THE NEAREST MCTS CENTRE.",
+    "valid_from": "2017-05-15T11:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

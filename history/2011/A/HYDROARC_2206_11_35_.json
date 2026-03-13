@@ -3,17 +3,23 @@
   "id": "HYDROARC 2206/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.67,
+      58.89666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-12-20T22:41:00",
     "raw_dtg": "202241Z DEC 11",
     "msg_id": "HYDROARC 2206/11(35)",
-    "cancellations": [
-      "HYDROARC 2222/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLAND.\nNGA CHART 35058 (1ST ED).\nCOPINSAY LIGHT 58-53.8N 002-40.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLAND.\nNGA CHART 35058 (1ST ED).\nCOPINSAY LIGHT 58-53.8N 002-40.2W UNRELIABLE.",
+    "valid_from": "2011-12-20T22:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

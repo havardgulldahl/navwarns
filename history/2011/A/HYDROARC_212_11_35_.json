@@ -3,17 +3,23 @@
   "id": "HYDROARC 212/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.035,
+      58.821666666666665
+    ]
   },
   "properties": {
     "dtg": "2011-02-03T05:54:00",
     "raw_dtg": "030554Z FEB 11",
     "msg_id": "HYDROARC 212/11(35)",
-    "cancellations": [
-      "HYDROARC 221/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nHOXA HEAD LIGHT 58-49.3N 003-02.1W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nHOXA HEAD LIGHT 58-49.3N 003-02.1W UNLIT.",
+    "valid_from": "2011-02-03T05:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

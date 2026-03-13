@@ -3,17 +3,23 @@
   "id": "HYDROARC 1235/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.178333333333334,
+      53.611666666666665
+    ]
   },
   "properties": {
     "dtg": "2014-05-15T09:33:00",
     "raw_dtg": "150933Z MAY 14",
     "msg_id": "HYDROARC 1235/14(36)",
-    "cancellations": [
-      "HYDROARC 1239/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nCHART 36006\nBALBRIGGAN ISLAND LIGHT 53-36.7N 006-10.7W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nCHART 36006\nBALBRIGGAN ISLAND LIGHT 53-36.7N 006-10.7W UNLIT.",
+    "valid_from": "2014-05-15T09:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

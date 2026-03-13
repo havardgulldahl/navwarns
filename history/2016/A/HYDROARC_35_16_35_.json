@@ -3,17 +3,23 @@
   "id": "HYDROARC 35/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.4816666666666665,
+      56.94
+    ]
   },
   "properties": {
     "dtg": "2016-01-03T22:25:00",
     "raw_dtg": "032225Z JAN 16",
     "msg_id": "HYDROARC 35/16(35)",
-    "cancellations": [
-      "HYDROARC 47/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSEA OF HEBRIDES.\nSCOTLAND-WEST COAST.\nCHART 35104.\nDNC 19.\nSGEIR DUBH LIGHT 56-56.4N 007-28.9W UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSEA OF HEBRIDES.\nSCOTLAND-WEST COAST.\nCHART 35104.\nDNC 19.\nSGEIR DUBH LIGHT 56-56.4N 007-28.9W UNLIT.",
+    "valid_from": "2016-01-03T22:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

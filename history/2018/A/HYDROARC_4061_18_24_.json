@@ -3,17 +3,25 @@
   "id": "HYDROARC 4061/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.26166666666666,
+      -5.49
+    ]
   },
   "properties": {
     "dtg": "2018-12-29T04:02:00",
     "raw_dtg": "290402Z DEC 18",
     "msg_id": "HYDROARC 4061/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 4061/18"
+      "THIS MSG 27 JUN 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. CABO DE SAO ROQUE LIGHT 05-29.4S 035-15.7W UNLIT\n   UNTIL 26 JUN 19.\n2. CANCEL THIS MSG 27 JUN 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. CABO DE SAO ROQUE LIGHT 05-29.4S 035-15.7W UNLIT\n   UNTIL 26 JUN 19.\n2. CANCEL THIS MSG 27 JUN 19.",
+    "valid_from": "2018-12-29T04:02:00+00:00",
+    "valid_until": "2019-06-27T00:00:00+00:00",
+    "summary": null
   }
 }

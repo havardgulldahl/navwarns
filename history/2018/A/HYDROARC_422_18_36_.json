@@ -3,17 +3,25 @@
   "id": "HYDROARC 422/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.9716666666666667,
+      51.56666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-02-06T13:00:00",
     "raw_dtg": "061300Z FEB 18",
     "msg_id": "HYDROARC 422/18(36)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 861/18"
+      "1569/17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nCHART 36044.\n1. FOG SIGNAL AT MUMBLES LIGHT 51-34.0N 003-58.3W\n   INOPERATIVE.\n2. CANCEL HYDROLANT 1569/17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nCHART 36044.\n1. FOG SIGNAL AT MUMBLES LIGHT 51-34.0N 003-58.3W\n   INOPERATIVE.\n2. CANCEL HYDROLANT 1569/17.",
+    "valid_from": "2018-02-06T13:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

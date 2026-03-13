@@ -12,12 +12,16 @@
     "dtg": "2024-03-15T05:42:00",
     "raw_dtg": "150542Z MAR 24",
     "msg_id": "HYDROARC 537/24(24)",
+    "year": 2024,
     "cancellations": [
-      "THIS MSG 120001Z SEP 24",
-      "HYDROARC 537/24"
+      "THIS MSG 120001Z SEP 24"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL.\nDNC 14.\n1. CABO ORANGE LIGHT 04-25.86N 051-32.52W\n   UNLIT UNTIL 11 SEP.\n2. CANCEL THIS MSG 120001Z SEP 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL.\nDNC 14.\n1. CABO ORANGE LIGHT 04-25.86N 051-32.52W\n   UNLIT UNTIL 11 SEP.\n2. CANCEL THIS MSG 120001Z SEP 24.",
+    "valid_from": "2024-03-15T05:42:00+00:00",
+    "valid_until": "2024-09-12T00:01:00+00:00",
+    "summary": null
   }
 }

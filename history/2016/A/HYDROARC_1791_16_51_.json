@@ -3,18 +3,25 @@
   "id": "HYDROARC 1791/16(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -26.695,
+      34.58833333333333
+    ]
   },
   "properties": {
     "dtg": "2016-07-15T19:18:00",
     "raw_dtg": "151918Z JUL 16",
     "msg_id": "HYDROARC 1791/16(51)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 181918Z JUL 16",
-      "HYDROARC 1791/16"
+      "THIS MSG 181918Z JUL 16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 08.\n1. DERELICT F/V ADRIFT VICINITY\n   34-35.3N 026-41.7W AT 151330Z JUL.\n2. CANCEL THIS MSG 181918Z JUL 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 08.\n1. DERELICT F/V ADRIFT VICINITY\n   34-35.3N 026-41.7W AT 151330Z JUL.\n2. CANCEL THIS MSG 181918Z JUL 16.",
+    "valid_from": "2016-07-15T19:18:00+00:00",
+    "valid_until": "2016-07-18T19:18:00+00:00",
+    "summary": null
   }
 }

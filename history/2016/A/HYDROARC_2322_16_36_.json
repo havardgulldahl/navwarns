@@ -3,17 +3,23 @@
   "id": "HYDROARC 2322/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.168333333333333,
+      51.623333333333335
+    ]
   },
   "properties": {
     "dtg": "2016-09-07T15:00:00",
     "raw_dtg": "071500Z SEP 16",
     "msg_id": "HYDROARC 2322/16(36)",
-    "cancellations": [
-      "HYDROARC 2759/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nBRISTOL CHANNEL.\nWALES-SOUTHWEST COAST.\nDNC 20.\nCHART 36002.\nTURBO BANK BUOY 51-37.4N 005-10.1W OFF STATION."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nBRISTOL CHANNEL.\nWALES-SOUTHWEST COAST.\nDNC 20.\nCHART 36002.\nTURBO BANK BUOY 51-37.4N 005-10.1W OFF STATION.",
+    "valid_from": "2016-09-07T15:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

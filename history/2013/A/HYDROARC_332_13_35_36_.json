@@ -3,17 +3,23 @@
   "id": "HYDROARC 332/13(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.158333333333333,
+      55.00833333333333
+    ]
   },
   "properties": {
     "dtg": "2013-02-05T22:43:00",
     "raw_dtg": "052243Z FEB 13",
     "msg_id": "HYDROARC 332/13(35,36)",
-    "cancellations": [
-      "HYDROARC 336/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nNORTH CHANNEL.\nCHART 35119\nCORSEWALL LIGHT 55-00.5N 005-09.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nNORTH CHANNEL.\nCHART 35119\nCORSEWALL LIGHT 55-00.5N 005-09.5W UNRELIABLE.",
+    "valid_from": "2013-02-05T22:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

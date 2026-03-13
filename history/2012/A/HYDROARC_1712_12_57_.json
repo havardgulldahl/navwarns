@@ -3,17 +3,23 @@
   "id": "HYDROARC 1712/12(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.4416666666666664,
+      6.358333333333333
+    ]
   },
   "properties": {
     "dtg": "2012-07-28T11:43:00",
     "raw_dtg": "281143Z JUL 12",
     "msg_id": "HYDROARC 1712/12(57)",
-    "cancellations": [
-      "HYDROARC 1771/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nNIGERIA.\nCABLE OPERATIONS 281400Z JUL UNTIL FURTHER NOTICE\nBY CABLESHIP CHAMAREL IN 06-21.5N 003-26.5E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nNIGERIA.\nCABLE OPERATIONS 281400Z JUL UNTIL FURTHER NOTICE\nBY CABLESHIP CHAMAREL IN 06-21.5N 003-26.5E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-07-28T11:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2215/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.445,
+      51.375
+    ]
   },
   "properties": {
     "dtg": "2019-07-20T21:54:00",
     "raw_dtg": "202154Z JUL 19",
     "msg_id": "HYDROARC 2215/19(37)",
-    "cancellations": [
-      "HYDROARC 2234/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nCHART 37120, 37140.\nDGPS STATION AT NORTH FORELAND LIGHT\n51-22.5N 001-26.7E OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nCHART 37120, 37140.\nDGPS STATION AT NORTH FORELAND LIGHT\n51-22.5N 001-26.7E OFF AIR.",
+    "valid_from": "2019-07-20T21:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

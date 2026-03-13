@@ -3,17 +3,25 @@
   "id": "HYDROARC 3537/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -36.038333333333334,
+      -5.053333333333334
+    ]
   },
   "properties": {
     "dtg": "2019-11-18T22:29:00",
     "raw_dtg": "182229Z NOV 19",
     "msg_id": "HYDROARC 3537/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3621/19"
+      "THIS MSG 17 MAY 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. SANTO ALBERTO LIGHT 05-03.2S 036-02.3W UNLIT\n   UNTIL 16 MAY.\n2. CANCEL THIS MSG 17 MAY 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. SANTO ALBERTO LIGHT 05-03.2S 036-02.3W UNLIT\n   UNTIL 16 MAY.\n2. CANCEL THIS MSG 17 MAY 20.",
+    "valid_from": "2019-11-18T22:29:00+00:00",
+    "valid_until": "2020-05-17T00:00:00+00:00",
+    "summary": null
   }
 }

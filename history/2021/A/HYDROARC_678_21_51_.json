@@ -3,18 +3,25 @@
   "id": "HYDROARC 678/21(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -16.881666666666668,
+      26.211666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-03-08T23:22:00",
     "raw_dtg": "082322Z MAR 21",
     "msg_id": "HYDROARC 678/21(51)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 112322Z MAR 21",
-      "HYDROARC 678/21"
+      "THIS MSG 112322Z MAR 21"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 01.\n1. DERELICT TEN METER VESSEL, WHITE HULL,\n   ADRIFT IN VICINITY 26-12.7N 016-52.9W\n   AT 082135Z MAR.\n2. CANCEL THIS MSG 112322Z MAR 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 01.\n1. DERELICT TEN METER VESSEL, WHITE HULL,\n   ADRIFT IN VICINITY 26-12.7N 016-52.9W\n   AT 082135Z MAR.\n2. CANCEL THIS MSG 112322Z MAR 21.",
+    "valid_from": "2021-03-08T23:22:00+00:00",
+    "valid_until": "2021-03-11T23:22:00+00:00",
+    "summary": null
   }
 }

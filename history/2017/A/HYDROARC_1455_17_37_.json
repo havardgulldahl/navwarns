@@ -3,17 +3,23 @@
   "id": "HYDROARC 1455/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8983333333333334,
+      53.725
+    ]
   },
   "properties": {
     "dtg": "2017-05-08T16:07:00",
     "raw_dtg": "081607Z MAY 17",
     "msg_id": "HYDROARC 1455/17(37)",
-    "cancellations": [
-      "HYDROARC 1475/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37058.\nPLATFORM 48/10-ND 53-43.5N 001-53.9E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37058.\nPLATFORM 48/10-ND 53-43.5N 001-53.9E UNLIT.",
+    "valid_from": "2017-05-08T16:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

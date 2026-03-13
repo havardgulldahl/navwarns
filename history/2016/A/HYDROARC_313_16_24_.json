@@ -3,17 +3,25 @@
   "id": "HYDROARC 313/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.45333333333333,
+      -24.683333333333334
+    ]
   },
   "properties": {
     "dtg": "2016-02-04T01:40:00",
     "raw_dtg": "040140Z FEB 16",
     "msg_id": "HYDROARC 313/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 313/16"
+      "THIS MSG 02 AUG 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24140.\n1. ICAPARA LIGHT 24-41.0S 047-27.2W UNLIT.\n2. CANCEL THIS MSG 02 AUG 16."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24140.\n1. ICAPARA LIGHT 24-41.0S 047-27.2W UNLIT.\n2. CANCEL THIS MSG 02 AUG 16.",
+    "valid_from": "2016-02-04T01:40:00+00:00",
+    "valid_until": "2016-08-02T00:00:00+00:00",
+    "summary": null
   }
 }

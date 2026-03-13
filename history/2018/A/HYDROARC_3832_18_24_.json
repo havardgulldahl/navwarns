@@ -3,17 +3,25 @@
   "id": "HYDROARC 3832/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.263333333333335,
+      -24.05
+    ]
   },
   "properties": {
     "dtg": "2018-12-09T15:20:00",
     "raw_dtg": "091520Z DEC 18",
     "msg_id": "HYDROARC 3832/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 4015/18"
+      "THIS MSG 08 JUN 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24140.\n1. ILHA DA MOELA LIGHT 24-03.0S 046-15.8W UNLIT\n   UNTIL 07 JUN 19.\n2. CANCEL THIS MSG 08 JUN 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24140.\n1. ILHA DA MOELA LIGHT 24-03.0S 046-15.8W UNLIT\n   UNTIL 07 JUN 19.\n2. CANCEL THIS MSG 08 JUN 19.",
+    "valid_from": "2018-12-09T15:20:00+00:00",
+    "valid_until": "2019-06-08T00:00:00+00:00",
+    "summary": null
   }
 }

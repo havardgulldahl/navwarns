@@ -3,18 +3,25 @@
   "id": "HYDROARC 2079/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2733333333333334,
+      59.855
+    ]
   },
   "properties": {
     "dtg": "2016-08-16T08:03:00",
     "raw_dtg": "160803Z AUG 16",
     "msg_id": "HYDROARC 2079/16(35)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 171700Z AUG 16",
-      "HYDROARC 2079/16"
+      "THIS MSG 171700Z AUG 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\n1. DGPS STATION AT SUMBURGH HEAD LIGHT\n   59-51.3N 001-16.4W OFF AIR\n   161200Z TO 161600Z AND\n   170800Z TO 171600Z AUG.\n2. CANCEL THIS MSG 171700Z AUG 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\n1. DGPS STATION AT SUMBURGH HEAD LIGHT\n   59-51.3N 001-16.4W OFF AIR\n   161200Z TO 161600Z AND\n   170800Z TO 171600Z AUG.\n2. CANCEL THIS MSG 171700Z AUG 16.",
+    "valid_from": "2016-08-16T08:03:00+00:00",
+    "valid_until": "2016-08-17T17:00:00+00:00",
+    "summary": null
   }
 }

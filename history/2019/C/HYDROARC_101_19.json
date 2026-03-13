@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 101/19",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-06-15T14:53:00",
     "raw_dtg": "151453Z JUN 19",
     "msg_id": "HYDROARC 101/19",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 100/19",
-      "HYDROARC 101/19"
+      "HYDROARC 100/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANADA-NORTH COAST.\nCANCEL HYDROARC 100/19 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA-NORTH COAST.\nCANCEL HYDROARC 100/19 AND THIS MSG.",
+    "valid_from": "2019-06-15T14:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

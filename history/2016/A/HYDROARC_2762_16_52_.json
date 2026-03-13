@@ -3,17 +3,23 @@
   "id": "HYDROARC 2762/16(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.8733333333333333,
+      35.095
+    ]
   },
   "properties": {
     "dtg": "2016-10-20T12:30:00",
     "raw_dtg": "201230Z OCT 16",
     "msg_id": "HYDROARC 2762/16(52)",
-    "cancellations": [
-      "HYDROARC 2870/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALBORAN SEA.\nALGERIA.\nDNC 08.\nCHART 52060.\nNEMOURS LIGHT 35-05.7N 001-52.4W UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALBORAN SEA.\nALGERIA.\nDNC 08.\nCHART 52060.\nNEMOURS LIGHT 35-05.7N 001-52.4W UNLIT.",
+    "valid_from": "2016-10-20T12:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

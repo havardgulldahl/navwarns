@@ -3,18 +3,25 @@
   "id": "HYDROARC 308/20",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2020-12-17T09:04:00",
     "raw_dtg": "170904Z DEC 20",
     "msg_id": "HYDROARC 308/20",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 070904Z JAN 21",
-      "HYDROARC 308/20"
+      "THIS MSG 070904Z JAN 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANADA-NORTH COAST.\n1. MCTS IQALUIT CENTER 63-43.8N 068-32.7W\n   DISCONTINUED FOR SEASON AT 211900Z DEC.\n   CONTROL OF NORDREG CANADA WILL BE TRANSFERRED\n   TO MCTS PRESCOTT CENTER, PHONE: 613 925 4471,\n   FAX: 613 925 4519, E-MAIL: IQANORDREG@INNAV.GC.CA\n   OR THE NEAREST MCTS CENTER.\n2. CANCEL THIS MSG 070904Z JAN 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA-NORTH COAST.\n1. MCTS IQALUIT CENTER 63-43.8N 068-32.7W\n   DISCONTINUED FOR SEASON AT 211900Z DEC.\n   CONTROL OF NORDREG CANADA WILL BE TRANSFERRED\n   TO MCTS PRESCOTT CENTER, PHONE: 613 925 4471,\n   FAX: 613 925 4519, E-MAIL: IQANORDREG@INNAV.GC.CA\n   OR THE NEAREST MCTS CENTER.\n2. CANCEL THIS MSG 070904Z JAN 21.",
+    "valid_from": "2020-12-17T09:04:00+00:00",
+    "valid_until": "2021-01-07T09:04:00+00:00",
+    "summary": null
   }
 }

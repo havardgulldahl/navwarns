@@ -3,17 +3,23 @@
   "id": "HYDROARC 2494/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.838333333333333,
+      54.038333333333334
+    ]
   },
   "properties": {
     "dtg": "2012-10-24T23:13:00",
     "raw_dtg": "242313Z OCT 12",
     "msg_id": "HYDROARC 2494/12(36)",
-    "cancellations": [
-      "HYDROARC 2499/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nISLE OF MAN.\nCHART 36025\nCHICKEN ROCK LIGHT 54-02.3N 004-50.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nISLE OF MAN.\nCHART 36025\nCHICKEN ROCK LIGHT 54-02.3N 004-50.3W UNRELIABLE.",
+    "valid_from": "2012-10-24T23:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 410/22(57)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        15.069666666666667,
-        -26.828666666666667
-      ],
-      [
-        15.086666666666666,
-        -26.828666666666667
-      ],
-      [
-        15.086666666666666,
-        -26.848
-      ],
-      [
-        15.069666666666667,
-        -26.848
+        [
+          15.069666666666667,
+          -26.828666666666667
+        ],
+        [
+          15.086666666666666,
+          -26.828666666666667
+        ],
+        [
+          15.086666666666666,
+          -26.848
+        ],
+        [
+          15.069666666666667,
+          -26.848
+        ],
+        [
+          15.069666666666667,
+          -26.828666666666667
+        ]
       ]
     ]
   },
@@ -26,11 +32,16 @@
     "dtg": "2022-02-10T13:25:00",
     "raw_dtg": "101325Z FEB 22",
     "msg_id": "HYDROARC 410/22(57)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 456/22"
+      "120/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V THE EXPLORER IN AREA BOUND BY\n   26-49.72S 015-04.18E, 26-49.72S 015-05.20E,\n   26-50.88S 015-05.20E, 26-50.88S 015-04.18E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 120/22."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V THE EXPLORER IN AREA BOUND BY\n   26-49.72S 015-04.18E, 26-49.72S 015-05.20E,\n   26-50.88S 015-05.20E, 26-50.88S 015-04.18E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 120/22.",
+    "valid_from": "2022-02-10T13:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

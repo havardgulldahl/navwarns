@@ -3,18 +3,25 @@
   "id": "HYDROARC 1137/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.373333333333333,
+      50.295
+    ]
   },
   "properties": {
     "dtg": "2018-04-08T20:28:00",
     "raw_dtg": "082028Z APR 18",
     "msg_id": "HYDROARC 1137/18(37)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 112028Z APR 18",
-      "HYDROARC 1137/18"
+      "THIS MSG 112028Z APR 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. FISHING GEAR ADRIFT IN 50-17.7N 004-22.4W.\n2. CANCEL THIS MSG 112028Z APR 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. FISHING GEAR ADRIFT IN 50-17.7N 004-22.4W.\n2. CANCEL THIS MSG 112028Z APR 18.",
+    "valid_from": "2018-04-08T20:28:00+00:00",
+    "valid_until": "2018-04-11T20:28:00+00:00",
+    "summary": null
   }
 }

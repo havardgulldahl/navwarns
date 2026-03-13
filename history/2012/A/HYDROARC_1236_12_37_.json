@@ -3,17 +3,23 @@
   "id": "HYDROARC 1236/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.01,
+      51.39666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-06-08T23:19:00",
     "raw_dtg": "082319Z JUN 12",
     "msg_id": "HYDROARC 1236/12(37)",
-    "cancellations": [
-      "HYDROARC 1247/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37120\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37120\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E OFF STATION.",
+    "valid_from": "2012-06-08T23:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

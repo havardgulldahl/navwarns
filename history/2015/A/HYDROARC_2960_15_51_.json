@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2960/15(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -17.786611111111114,
+          13.797638888888889
+        ],
+        [
+          -17.279888888888888,
+          13.794972222222222
+        ],
+        [
+          -17.278499999999998,
+          13.5935
+        ],
+        [
+          -17.788,
+          13.594833333333334
+        ],
+        [
+          -17.786611111111114,
+          13.797638888888889
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-11-30T20:37:00",
     "raw_dtg": "302037Z NOV 15",
     "msg_id": "HYDROARC 2960/15(51)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 3137/15"
+      "THIS MSG 02 JAN 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 01 JAN 16 BY\n   M/V POLARCUS ADIRA IN AREA BOUND BY\n   13-47-51.5N 017-47-11.8W, 13-47-41.9N 017-16-47.6W,\n   13-35-36.6N 017-16-42.6W, 13-35-41.4N 017-47-16.8W.\n2. CANCEL THIS MSG 02 JAN 16."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 01 JAN 16 BY\n   M/V POLARCUS ADIRA IN AREA BOUND BY\n   13-47-51.5N 017-47-11.8W, 13-47-41.9N 017-16-47.6W,\n   13-35-36.6N 017-16-42.6W, 13-35-41.4N 017-47-16.8W.\n2. CANCEL THIS MSG 02 JAN 16.",
+    "valid_from": "2015-11-30T20:37:00+00:00",
+    "valid_until": "2016-01-02T00:00:00+00:00",
+    "summary": null
   }
 }

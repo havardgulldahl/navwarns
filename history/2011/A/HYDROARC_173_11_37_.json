@@ -3,17 +3,23 @@
   "id": "HYDROARC 173/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.265,
+      50.18
+    ]
   },
   "properties": {
     "dtg": "2011-01-28T17:58:00",
     "raw_dtg": "281758Z JAN 11",
     "msg_id": "HYDROARC 173/11(37)",
-    "cancellations": [
-      "HYDROARC 180/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 37003 (1ST ED).\nEDDYSTONE LIGHT 50-10.8N 004-15.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 37003 (1ST ED).\nEDDYSTONE LIGHT 50-10.8N 004-15.9W UNRELIABLE.",
+    "valid_from": "2011-01-28T17:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

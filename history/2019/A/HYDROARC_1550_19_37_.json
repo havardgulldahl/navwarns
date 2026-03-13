@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 1550/19(37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          1.585,
+          55.645
+        ],
+        [
+          2.0233333333333334,
+          55.645
+        ],
+        [
+          1.4333333333333333,
+          54.75666666666667
+        ],
+        [
+          0.985,
+          54.76
+        ],
+        [
+          1.585,
+          55.645
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-05-23T05:15:00",
     "raw_dtg": "230515Z MAY 19",
     "msg_id": "HYDROARC 1550/19(37)",
-    "cancellations": [
-      "HYDROARC 2099/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V AKADEMIK PRIMAKOV TOWING TEN 7000 METER LONG\nCABLES WITHIN AREA BOUNDED BY\n55-38.7N 001-35.1E, 55-38.7N 002-01.4E,\n54-45.4N 001-26.0E, 54-45.6N 000-59.1E.\nSIX MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V AKADEMIK PRIMAKOV TOWING TEN 7000 METER LONG\nCABLES WITHIN AREA BOUNDED BY\n55-38.7N 001-35.1E, 55-38.7N 002-01.4E,\n54-45.4N 001-26.0E, 54-45.6N 000-59.1E.\nSIX MILE BERTH REQUESTED.",
+    "valid_from": "2019-05-23T05:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

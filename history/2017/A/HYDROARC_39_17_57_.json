@@ -3,18 +3,26 @@
   "id": "HYDROARC 39/17(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      9.81,
+      -29.768333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-01-04T15:55:00",
     "raw_dtg": "041555Z JAN 17",
     "msg_id": "HYDROARC 39/17(57)",
+    "year": 2017,
     "cancellations": [
       "THIS MSG 071555Z JAN 17",
-      "HYDROARC 39/17"
+      "34/17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT VESSEL TREKKER II ADRIFT IN\n   29-46.1S 009-48.6E.\n2. CANCEL HYDROLANT 34/17.\n3. CANCEL THIS MSG 071555Z JAN 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT VESSEL TREKKER II ADRIFT IN\n   29-46.1S 009-48.6E.\n2. CANCEL HYDROLANT 34/17.\n3. CANCEL THIS MSG 071555Z JAN 17.",
+    "valid_from": "2017-01-04T15:55:00+00:00",
+    "valid_until": "2017-01-07T15:55:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2183/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.025,
+      58.645
+    ]
   },
   "properties": {
     "dtg": "2011-12-17T12:27:00",
     "raw_dtg": "171227Z DEC 11",
     "msg_id": "HYDROARC 2183/11(35)",
-    "cancellations": [
-      "HYDROARC 2189/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35056 (1ST ED).\nRACON AT DUNCANSBY HEAD LIGHT 58-38.7N 003-01.5W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35056 (1ST ED).\nRACON AT DUNCANSBY HEAD LIGHT 58-38.7N 003-01.5W INOPERATIVE.",
+    "valid_from": "2011-12-17T12:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

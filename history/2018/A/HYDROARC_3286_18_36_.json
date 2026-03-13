@@ -3,17 +3,23 @@
   "id": "HYDROARC 3286/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.6883333333333335,
+      54.766666666666666
+    ]
   },
   "properties": {
     "dtg": "2018-10-19T16:48:00",
     "raw_dtg": "191648Z OCT 18",
     "msg_id": "HYDROARC 3286/18(36)",
-    "cancellations": [
-      "HYDROARC 3317/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nCHART 36006.\nBLACK HEAD 54-46.0N 005-41.3W LIGHT UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nCHART 36006.\nBLACK HEAD 54-46.0N 005-41.3W LIGHT UNRELIABLE.",
+    "valid_from": "2018-10-19T16:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

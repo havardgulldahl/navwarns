@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1725/19(52)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-06-06T12:12:00",
     "raw_dtg": "061212Z JUN 19",
     "msg_id": "HYDROARC 1725/19(52)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1725/19"
+      "THIS MSG 29 JUN 19"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALBORAN SEA.\nMOROCCO.\nDNC 08.\n1. HAZARDOUS OPERATIONS 10 THRU 28 JUN\n   IN AREA WITHIN 20 MILES OF 35-22N 004-05W\n   BETWEEN 270 DEGREES AND 360 DEGREES.\n2. CANCEL THIS MSG 29 JUN 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALBORAN SEA.\nMOROCCO.\nDNC 08.\n1. HAZARDOUS OPERATIONS 10 THRU 28 JUN\n   IN AREA WITHIN 20 MILES OF 35-22N 004-05W\n   BETWEEN 270 DEGREES AND 360 DEGREES.\n2. CANCEL THIS MSG 29 JUN 19.",
+    "valid_from": "2019-06-06T12:12:00+00:00",
+    "valid_until": "2019-06-29T00:00:00+00:00",
+    "summary": null
   }
 }

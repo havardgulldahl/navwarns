@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 284/10(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-02-13T20:41:00",
     "raw_dtg": "132041Z FEB 10",
     "msg_id": "HYDROARC 284/10(35)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 284/10"
+      "242/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nCANCEL HYDROLANT 242/10 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nCANCEL HYDROLANT 242/10 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2010-02-13T20:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

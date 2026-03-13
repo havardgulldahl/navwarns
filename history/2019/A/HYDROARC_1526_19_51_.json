@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1526/19(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-05-20T09:36:00",
     "raw_dtg": "200936Z MAY 19",
     "msg_id": "HYDROARC 1526/19(51)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 241700Z MAY 19",
-      "HYDROARC 1526/19"
+      "THIS MSG 241700Z MAY 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ALBORAN SEA.\nMOROCCO.\nDNC 08.\n1. SURVEY OPERATIONS 1000Z TO 1600Z DAILY 20 THRU\n   24 MAY IN AREA BOUND BY\n   35-37N 005-15W, 35-35N 005-05W,\n   35-33N 005-05W, 35-33N 005-12W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 241700Z MAY 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ALBORAN SEA.\nMOROCCO.\nDNC 08.\n1. SURVEY OPERATIONS 1000Z TO 1600Z DAILY 20 THRU\n   24 MAY IN AREA BOUND BY\n   35-37N 005-15W, 35-35N 005-05W,\n   35-33N 005-05W, 35-33N 005-12W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 241700Z MAY 19.",
+    "valid_from": "2019-05-20T09:36:00+00:00",
+    "valid_until": "2019-05-24T17:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1533/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.94833333333333,
+      -13.878333333333334
+    ]
   },
   "properties": {
     "dtg": "2010-08-12T17:10:00",
     "raw_dtg": "121710Z AUG 10",
     "msg_id": "HYDROARC 1533/10(24)",
-    "cancellations": [
-      "HYDROARC 1542/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nNGA CHART 24200 (14TH ED).\nPONTA MUTA LIGHT 13-52.7S 038-56.9W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nNGA CHART 24200 (14TH ED).\nPONTA MUTA LIGHT 13-52.7S 038-56.9W UNLIT.",
+    "valid_from": "2010-08-12T17:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

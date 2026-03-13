@@ -3,17 +3,23 @@
   "id": "HYDROARC 118/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6400000000000001,
+      52.20666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-01-15T10:32:00",
     "raw_dtg": "151032Z JAN 12",
     "msg_id": "HYDROARC 118/12(37)",
-    "cancellations": [
-      "HYDROARC 238/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nCABLE LAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V ASV PIONEER VICINITY OF TRACKLINE BETWEEN\n52-12.4N 001-38.4E AND 51-58.7N 001-57.3E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nCABLE LAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V ASV PIONEER VICINITY OF TRACKLINE BETWEEN\n52-12.4N 001-38.4E AND 51-58.7N 001-57.3E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-01-15T10:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

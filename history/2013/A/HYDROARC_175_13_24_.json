@@ -3,17 +3,23 @@
   "id": "HYDROARC 175/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.75833333333333,
+      -22.888333333333332
+    ]
   },
   "properties": {
     "dtg": "2013-01-19T15:27:00",
     "raw_dtg": "191527Z JAN 13",
     "msg_id": "HYDROARC 175/13(24)",
-    "cancellations": [
-      "HYDROARC 181/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\n12 METER VESSEL NINJA, WHITE HULL, THREE PERSONS ON BOARD,\nDISABLED AND ADRIFT IN 22-53.3S 041-45.5W ON 19 JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\n12 METER VESSEL NINJA, WHITE HULL, THREE PERSONS ON BOARD,\nDISABLED AND ADRIFT IN 22-53.3S 041-45.5W ON 19 JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2013-01-19T15:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2733/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.923333333333334,
+      53.31166666666667
+    ]
   },
   "properties": {
     "dtg": "2014-11-13T09:59:00",
     "raw_dtg": "130959Z NOV 14",
     "msg_id": "HYDROARC 2733/14(36)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 131100Z NOV 14",
-      "HYDROARC 2733/14"
+      "THIS MSG 131100Z NOV 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nDNC 19, DNC 20.\nCHART 36006.\n1. KISH BANK LIGHT 53-18.7N 005-55.4W UNLIT.\n2. CANCEL THIS MSG 131100Z NOV 14."
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nDNC 19, DNC 20.\nCHART 36006.\n1. KISH BANK LIGHT 53-18.7N 005-55.4W UNLIT.\n2. CANCEL THIS MSG 131100Z NOV 14.",
+    "valid_from": "2014-11-13T09:59:00+00:00",
+    "valid_until": "2014-11-13T11:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2083/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -51.53666666666667,
+      4.433333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-08-10T21:30:00",
     "raw_dtg": "102130Z AUG 21",
     "msg_id": "HYDROARC 2083/21(24)",
-    "cancellations": [
-      "HYDROARC 1047/22"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 14.\nCABO ORANGE LIGHT 04-26.0N 051-32.2W UNLIT."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 14.\nCABO ORANGE LIGHT 04-26.0N 051-32.2W UNLIT.",
+    "valid_from": "2021-08-10T21:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

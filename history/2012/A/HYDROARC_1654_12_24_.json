@@ -3,17 +3,23 @@
   "id": "HYDROARC 1654/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.865,
+      -8.055
+    ]
   },
   "properties": {
     "dtg": "2012-07-21T01:36:00",
     "raw_dtg": "210136Z JUL 12",
     "msg_id": "HYDROARC 1654/12(24)",
-    "cancellations": [
-      "HYDROARC 1719/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nCHART 24220\nRECIFE LIGHT 08-03.3S 034-51.9W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nCHART 24220\nRECIFE LIGHT 08-03.3S 034-51.9W UNLIT.",
+    "valid_from": "2012-07-21T01:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

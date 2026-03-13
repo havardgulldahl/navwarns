@@ -3,17 +3,25 @@
   "id": "HYDROARC 3526/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.6850000000000005,
+      51.63166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-11-17T21:46:00",
     "raw_dtg": "172146Z NOV 19",
     "msg_id": "HYDROARC 3526/19(36)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3918/19"
+      "3042/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\n1. CALDY ISLAND LIGHT 51-37.9N 004-41.1W\n   UNRELIABLE.\n2. CANCEL HYDROLANT 3042/19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\n1. CALDY ISLAND LIGHT 51-37.9N 004-41.1W\n   UNRELIABLE.\n2. CANCEL HYDROLANT 3042/19.",
+    "valid_from": "2019-11-17T21:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

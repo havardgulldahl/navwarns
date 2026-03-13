@@ -3,17 +3,23 @@
   "id": "HYDROARC 1522/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.69,
+      -13.055
+    ]
   },
   "properties": {
     "dtg": "2021-06-07T08:53:00",
     "raw_dtg": "070853Z JUN 21",
     "msg_id": "HYDROARC 1522/21(24)",
-    "cancellations": [
-      "HYDROARC 1532/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nVESSEL HELENA, 15 PERSONS ON BOARD, UNREPORTED.\nLAST KNOWN POSITION IN 13-03.3S 038-41.4W\nON 06 JUN. VESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nVESSEL HELENA, 15 PERSONS ON BOARD, UNREPORTED.\nLAST KNOWN POSITION IN 13-03.3S 038-41.4W\nON 06 JUN. VESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2021-06-07T08:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

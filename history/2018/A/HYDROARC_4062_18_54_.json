@@ -3,17 +3,23 @@
   "id": "HYDROARC 4062/18(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      34.475,
+      34.843333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-12-29T04:19:00",
     "raw_dtg": "290419Z DEC 18",
     "msg_id": "HYDROARC 4062/18(54)",
-    "cancellations": [
-      "HYDROARC 4082/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTHEAST COAST.\nDNC 10.\nSEARCH AND RESCUE OPERATIONS IN PROGRESS\nWITHIN 15 MILES OF 34-50.6N 034-28.5E.\nCAUTION ADVISED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTHEAST COAST.\nDNC 10.\nSEARCH AND RESCUE OPERATIONS IN PROGRESS\nWITHIN 15 MILES OF 34-50.6N 034-28.5E.\nCAUTION ADVISED.",
+    "valid_from": "2018-12-29T04:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 785/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.173333333333334,
+      51.681666666666665
+    ]
   },
   "properties": {
     "dtg": "2016-04-01T15:17:00",
     "raw_dtg": "011517Z APR 16",
     "msg_id": "HYDROARC 785/16(36)",
-    "cancellations": [
-      "HYDROARC 871/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-SOUTHWEST COAST.\nRADIO SERVICES.\nDNC 19, DNC 20.\nMRCC MILFORD HAVEN MF DSC SERVICES AT\nSAINT ANN'S HEAD 51-40.9N 005-10.4W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-SOUTHWEST COAST.\nRADIO SERVICES.\nDNC 19, DNC 20.\nMRCC MILFORD HAVEN MF DSC SERVICES AT\nSAINT ANN'S HEAD 51-40.9N 005-10.4W OFF AIR.",
+    "valid_from": "2016-04-01T15:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

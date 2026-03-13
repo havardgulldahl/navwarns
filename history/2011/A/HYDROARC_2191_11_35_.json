@@ -3,17 +3,25 @@
   "id": "HYDROARC 2191/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.375,
+      59.278333333333336
+    ]
   },
   "properties": {
     "dtg": "2011-12-18T20:47:00",
     "raw_dtg": "182047Z DEC 11",
     "msg_id": "HYDROARC 2191/11(35)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 2215/11"
+      "2184/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nORKNEY ISLANDS.\nNGA CHART 35056 (1ST ED).\n1. START POINT LIGHT 59-16.7N 002-22.5W UNRELIABLE.\n2. CANCEL HYDROLANT 2184/11."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nORKNEY ISLANDS.\nNGA CHART 35056 (1ST ED).\n1. START POINT LIGHT 59-16.7N 002-22.5W UNRELIABLE.\n2. CANCEL HYDROLANT 2184/11.",
+    "valid_from": "2011-12-18T20:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2200/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.6366666666666667,
+      53.565
+    ]
   },
   "properties": {
     "dtg": "2020-07-12T04:25:00",
     "raw_dtg": "120425Z JUL 20",
     "msg_id": "HYDROARC 2200/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 121300Z JUL 20",
-      "HYDROARC 2200/20"
+      "THIS MSG 121300Z JUL 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ORTH SEA.\nENGLAND.\nDNC 20.\n1. ORDNANCE DETONATION 120540Z TO 121200Z JUL\n   BY M/V NOORDHOEK PATHFINDER IN VICINITY\n   53-33.9N 000-38.2E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 121300Z JUL 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ORTH SEA.\nENGLAND.\nDNC 20.\n1. ORDNANCE DETONATION 120540Z TO 121200Z JUL\n   BY M/V NOORDHOEK PATHFINDER IN VICINITY\n   53-33.9N 000-38.2E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 121300Z JUL 20.",
+    "valid_from": "2020-07-12T04:25:00+00:00",
+    "valid_until": "2020-07-12T13:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1627/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.35666666666667,
+      -0.615
+    ]
   },
   "properties": {
     "dtg": "2010-08-30T03:37:00",
     "raw_dtg": "300337Z AUG 10",
     "msg_id": "HYDROARC 1627/10(24)",
-    "cancellations": [
-      "HYDROARC 1874/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED).\nSALINOPOLIS LIGHT 00-36.9S 047-21.4W UNLIT\nAND RACON OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED).\nSALINOPOLIS LIGHT 00-36.9S 047-21.4W UNLIT\nAND RACON OFF AIR.",
+    "valid_from": "2010-08-30T03:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

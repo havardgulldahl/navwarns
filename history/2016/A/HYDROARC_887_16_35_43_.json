@@ -3,17 +3,23 @@
   "id": "HYDROARC 887/16(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.39,
+      60.535
+    ]
   },
   "properties": {
     "dtg": "2016-04-13T15:10:00",
     "raw_dtg": "131510Z APR 16",
     "msg_id": "HYDROARC 887/16(35,43)",
-    "cancellations": [
-      "HYDROARC 891/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nRADIO SERVICES.\nDNC 20.\nCGOC SHETLAND MF SERVICES AT\nCOLLAFIRTH HILL 60-32.1N 001-23.4W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nRADIO SERVICES.\nDNC 20.\nCGOC SHETLAND MF SERVICES AT\nCOLLAFIRTH HILL 60-32.1N 001-23.4W OFF AIR.",
+    "valid_from": "2016-04-13T15:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,19 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 121/18(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.64666666666667,
+          69.65833333333333
+        ],
+        [
+          34.53,
+          69.76833333333333
+        ],
+        [
+          35.93,
+          69.485
+        ],
+        [
+          35.79,
+          69.31666666666666
+        ],
+        [
+          33.64666666666667,
+          69.54166666666667
+        ],
+        [
+          33.64666666666667,
+          69.65833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-06-14T18:02:00",
     "raw_dtg": "141802Z JUN 18",
     "msg_id": "HYDROARC 121/18(42)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 191000Z JUN 18",
-      "HYDROARC 121/18"
+      "THIS MSG 191000Z JUN 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. MISSILE OPERATIONS 181500Z TO 190900Z JUN\n   IN AREA BOUND BY\n   69-39.5N 033-38.8E, 69-46.1N 034-31.8E,\n   69-29.1N 035-55.8E, 69-19.0N 035-47.4E,\n   69-32.5N 033-38.8E.\n2. CANCEL THIS MSG 191000Z JUN 18."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. MISSILE OPERATIONS 181500Z TO 190900Z JUN\n   IN AREA BOUND BY\n   69-39.5N 033-38.8E, 69-46.1N 034-31.8E,\n   69-29.1N 035-55.8E, 69-19.0N 035-47.4E,\n   69-32.5N 033-38.8E.\n2. CANCEL THIS MSG 191000Z JUN 18.",
+    "valid_from": "2018-06-14T18:02:00+00:00",
+    "valid_until": "2018-06-19T10:00:00+00:00",
+    "summary": null
   }
 }

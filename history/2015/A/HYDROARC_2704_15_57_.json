@@ -3,17 +3,23 @@
   "id": "HYDROARC 2704/15(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3936666666666666,
+      -21.44
+    ]
   },
   "properties": {
     "dtg": "2015-11-03T01:51:00",
     "raw_dtg": "030151Z NOV 15",
     "msg_id": "HYDROARC 2704/15(57)",
-    "cancellations": [
-      "HYDROARC 2742/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\nRED FLARE SIGHTED VICINITY 21-26.4S 001-23.62E\nAT 022340Z NOV. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC CAPE TOWN OR CAPE TOWN RADIO."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\nRED FLARE SIGHTED VICINITY 21-26.4S 001-23.62E\nAT 022340Z NOV. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC CAPE TOWN OR CAPE TOWN RADIO.",
+    "valid_from": "2015-11-03T01:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2572/17(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-08-24T09:27:00",
     "raw_dtg": "240927Z AUG 17",
     "msg_id": "HYDROARC 2572/17(54)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 250101Z AUG 17",
-      "HYDROARC 2572/17"
+      "THIS MSG 250101Z AUG 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. GUNNERY EXERCISES 242200Z TO 250001Z AUG IN\n   AREA BETWEEN\n   35-40N 35-50N AND 029-20E 029-50E.\n2. CANCEL THIS MSG 250101Z AUG 17."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. GUNNERY EXERCISES 242200Z TO 250001Z AUG IN\n   AREA BETWEEN\n   35-40N 35-50N AND 029-20E 029-50E.\n2. CANCEL THIS MSG 250101Z AUG 17.",
+    "valid_from": "2017-08-24T09:27:00+00:00",
+    "valid_until": "2017-08-25T01:01:00+00:00",
+    "summary": null
   }
 }

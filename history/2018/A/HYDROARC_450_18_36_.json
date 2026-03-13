@@ -3,18 +3,25 @@
   "id": "HYDROARC 450/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.081666666666667,
+      53.24333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-02-08T16:32:00",
     "raw_dtg": "081632Z FEB 18",
     "msg_id": "HYDROARC 450/18(36)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 111632Z FEB 18",
-      "HYDROARC 450/18"
+      "THIS MSG 111632Z FEB 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nSAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19, DNC 20.\n1. 300 METER LONG ROPE ADRIFT IN 53-14.6N 006-04.9W.\n2. CANCEL THIS MSG 111632Z FEB 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nSAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19, DNC 20.\n1. 300 METER LONG ROPE ADRIFT IN 53-14.6N 006-04.9W.\n2. CANCEL THIS MSG 111632Z FEB 18.",
+    "valid_from": "2018-02-08T16:32:00+00:00",
+    "valid_until": "2018-02-11T16:32:00+00:00",
+    "summary": null
   }
 }

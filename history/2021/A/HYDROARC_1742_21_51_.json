@@ -3,17 +3,25 @@
   "id": "HYDROARC 1742/21(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.655,
+      33.61
+    ]
   },
   "properties": {
     "dtg": "2021-07-02T16:21:00",
     "raw_dtg": "021621Z JUL 21",
     "msg_id": "HYDROARC 1742/21(51)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1962/21"
+      "1724/21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\n1. EL HANK LIGHT 33-36.6N 007-39.3W UNLIT.\n2. CANCEL HYDROLANT 1724/21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\n1. EL HANK LIGHT 33-36.6N 007-39.3W UNLIT.\n2. CANCEL HYDROLANT 1724/21.",
+    "valid_from": "2021-07-02T16:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

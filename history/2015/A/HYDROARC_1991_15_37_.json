@@ -3,17 +3,23 @@
   "id": "HYDROARC 1991/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.5,
+      53.30166666666667
+    ]
   },
   "properties": {
     "dtg": "2015-08-14T14:04:00",
     "raw_dtg": "141404Z AUG 15",
     "msg_id": "HYDROARC 1991/15(37)",
-    "cancellations": [
-      "HYDROARC 2036/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 37057.\nFOG SIGNAL AT PLATFORM 49/23-D, 53-18.1N 002-30.0E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 37057.\nFOG SIGNAL AT PLATFORM 49/23-D, 53-18.1N 002-30.0E INOPERATIVE.",
+    "valid_from": "2015-08-14T14:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

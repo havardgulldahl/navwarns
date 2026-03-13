@@ -3,18 +3,25 @@
   "id": "HYDROARC 170/13(23,24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -53.36833333333333,
+      -36.91833333333334
+    ]
   },
   "properties": {
     "dtg": "2013-01-19T12:50:00",
     "raw_dtg": "191250Z JAN 13",
     "msg_id": "HYDROARC 170/13(23,24)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 221240Z JAN 13",
-      "HYDROARC 170/13"
+      "THIS MSG 221240Z JAN 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\n1. EIGHT METER VESSEL CAPSIZED AND ADRIFT\n   VICINITY 36-55.1S 053-22.1W.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 221240Z JAN 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\n1. EIGHT METER VESSEL CAPSIZED AND ADRIFT\n   VICINITY 36-55.1S 053-22.1W.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 221240Z JAN 13.",
+    "valid_from": "2013-01-19T12:50:00+00:00",
+    "valid_until": "2013-01-22T12:40:00+00:00",
+    "summary": null
   }
 }

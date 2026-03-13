@@ -3,17 +3,23 @@
   "id": "HYDROARC 19/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.985,
+      53.17666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-01-01T15:56:00",
     "raw_dtg": "011556Z JAN 17",
     "msg_id": "HYDROARC 19/17(37)",
-    "cancellations": [
-      "HYDROARC 217/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20, DNC 21.\nCHART 37166.\nALL NAVIGATIONAL AIDS AT METEOROLOGICAL MAST\n53-10.6N 002-59.1E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20, DNC 21.\nCHART 37166.\nALL NAVIGATIONAL AIDS AT METEOROLOGICAL MAST\n53-10.6N 002-59.1E INOPERATIVE.",
+    "valid_from": "2017-01-01T15:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 89/19(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          42.049166666666665,
+          69.93805555555556
+        ],
+        [
+          44.79222222222222,
+          69.93055555555556
+        ],
+        [
+          44.775555555555556,
+          69.30361111111111
+        ],
+        [
+          42.08416666666667,
+          69.28888888888889
+        ],
+        [
+          42.049166666666665,
+          69.93805555555556
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-06-05T07:26:00",
     "raw_dtg": "050726Z JUN 19",
     "msg_id": "HYDROARC 89/19(42)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 89/19"
+      "THIS MSG 26 JUN 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. SURVEY OPERATIONS 07 THRU 25 JUN\n   BY M/V ACADEMIC NEMCHINOV TOWING FOUR\n   6400 METER LONG CABLES IN AREA BOUNDED BY\n   69-56-17N 042-02-57E, 69-55-50N 044-47-32E,\n   69-18-13N 044-46-32E, 69-17-20N 042-05-03E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 JUN 19."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. SURVEY OPERATIONS 07 THRU 25 JUN\n   BY M/V ACADEMIC NEMCHINOV TOWING FOUR\n   6400 METER LONG CABLES IN AREA BOUNDED BY\n   69-56-17N 042-02-57E, 69-55-50N 044-47-32E,\n   69-18-13N 044-46-32E, 69-17-20N 042-05-03E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 JUN 19.",
+    "valid_from": "2019-06-05T07:26:00+00:00",
+    "valid_until": "2019-06-26T00:00:00+00:00",
+    "summary": null
   }
 }

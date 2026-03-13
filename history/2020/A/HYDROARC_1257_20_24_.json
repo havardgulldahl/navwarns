@@ -3,17 +3,25 @@
   "id": "HYDROARC 1257/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.416666666666664,
+      -27.575
+    ]
   },
   "properties": {
     "dtg": "2020-04-07T14:05:00",
     "raw_dtg": "071405Z APR 20",
     "msg_id": "HYDROARC 1257/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 1620/20"
+      "THIS MSG 05 OCT 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. PONTA DA GALHETA LIGHT 27-34.5S 048-25.0W\n   UNLIT.\n2. CANCEL THIS MSG 05 OCT 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. PONTA DA GALHETA LIGHT 27-34.5S 048-25.0W\n   UNLIT.\n2. CANCEL THIS MSG 05 OCT 20.",
+    "valid_from": "2020-04-07T14:05:00+00:00",
+    "valid_until": "2020-10-05T00:00:00+00:00",
+    "summary": null
   }
 }

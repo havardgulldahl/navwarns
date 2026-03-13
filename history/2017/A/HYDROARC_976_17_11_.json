@@ -3,17 +3,23 @@
   "id": "HYDROARC 976/17(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -87.32,
+      25.951666666666668
+    ]
   },
   "properties": {
     "dtg": "2017-03-27T01:33:00",
     "raw_dtg": "270133Z MAR 17",
     "msg_id": "HYDROARC 976/17(11)",
-    "cancellations": [
-      "HYDROARC 1004/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nDNC 15.\nVESSEL CAPSIZED IN 25-57.1N 087-19.2W AT 262157Z MAR.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148,\nE-MAIL: D8COMMANDCENTER@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nDNC 15.\nVESSEL CAPSIZED IN 25-57.1N 087-19.2W AT 262157Z MAR.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148,\nE-MAIL: D8COMMANDCENTER@USCG.MIL.",
+    "valid_from": "2017-03-27T01:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

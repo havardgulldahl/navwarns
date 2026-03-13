@@ -3,17 +3,23 @@
   "id": "HYDROARC 2571/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0633333333333332,
+      55.125
+    ]
   },
   "properties": {
     "dtg": "2012-11-01T09:15:00",
     "raw_dtg": "010915Z NOV 12",
     "msg_id": "HYDROARC 2571/12(35)",
-    "cancellations": [
-      "HYDROARC 2589/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V REEF DESPINA WITH SUBMERSIBLE VICINITY\n55-07.5N 001-03.8W. WIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V REEF DESPINA WITH SUBMERSIBLE VICINITY\n55-07.5N 001-03.8W. WIDE BERTH REQUESTED.",
+    "valid_from": "2012-11-01T09:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

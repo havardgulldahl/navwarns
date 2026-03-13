@@ -3,18 +3,26 @@
   "id": "HYDROARC 1048/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.545,
+      46.03333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-04-26T23:39:00",
     "raw_dtg": "262339Z APR 13",
     "msg_id": "HYDROARC 1048/13(37)",
+    "year": 2013,
     "cancellations": [
       "THIS MSG 292340Z APR 13",
-      "HYDROARC 1048/13"
+      "1045/13"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. DERELICT S/V EMANTA ADRIFT VICINITY\n   46-02.0N 005-32.7W AT 262127Z APR.\n2. CANCEL HYDROLANT 1045/13.\n3. CANCEL THIS MSG 292340Z APR 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. DERELICT S/V EMANTA ADRIFT VICINITY\n   46-02.0N 005-32.7W AT 262127Z APR.\n2. CANCEL HYDROLANT 1045/13.\n3. CANCEL THIS MSG 292340Z APR 13.",
+    "valid_from": "2013-04-26T23:39:00+00:00",
+    "valid_until": "2013-04-29T23:40:00+00:00",
+    "summary": null
   }
 }

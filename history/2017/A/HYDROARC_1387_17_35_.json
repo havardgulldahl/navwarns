@@ -3,17 +3,23 @@
   "id": "HYDROARC 1387/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.788333333333333,
+      57.42333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-05-01T23:54:00",
     "raw_dtg": "012354Z MAY 17",
     "msg_id": "HYDROARC 1387/17(35)",
-    "cancellations": [
-      "HYDROARC 1397/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "LITTLE MINCH.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35092.\nNESS POINT LIGHT 57-25.4N 006-47.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "LITTLE MINCH.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35092.\nNESS POINT LIGHT 57-25.4N 006-47.3W UNRELIABLE.",
+    "valid_from": "2017-05-01T23:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1132/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.1216666666666666,
+      60.47
+    ]
   },
   "properties": {
     "dtg": "2012-05-26T23:30:00",
     "raw_dtg": "262330Z MAY 12",
     "msg_id": "HYDROARC 1132/12(35)",
-    "cancellations": [
-      "HYDROARC 1139/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35072\nRUMBLE ROCK LIGHT 60-28.2N 001-07.3W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35072\nRUMBLE ROCK LIGHT 60-28.2N 001-07.3W UNLIT.",
+    "valid_from": "2012-05-26T23:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

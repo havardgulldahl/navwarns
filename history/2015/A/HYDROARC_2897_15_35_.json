@@ -3,17 +3,25 @@
   "id": "HYDROARC 2897/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.68,
+      56.97
+    ]
   },
   "properties": {
     "dtg": "2015-11-24T17:04:00",
     "raw_dtg": "241704Z NOV 15",
     "msg_id": "HYDROARC 2897/15(35)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2921/15"
+      "2870/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nSEA OF HEBRIDES.\nLITTLE MINCH.\nDNC 19.\nCHART 35093.\n1. OIGH SGEIR LIGHT 56-58.2N 006-40.8W UNRELIABLE.\n2. CANCEL HYDROLANT 2870/15, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nSEA OF HEBRIDES.\nLITTLE MINCH.\nDNC 19.\nCHART 35093.\n1. OIGH SGEIR LIGHT 56-58.2N 006-40.8W UNRELIABLE.\n2. CANCEL HYDROLANT 2870/15, AID RESTORED.",
+    "valid_from": "2015-11-24T17:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

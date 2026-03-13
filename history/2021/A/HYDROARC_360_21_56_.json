@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 360/21(56)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-02-08T09:40:00",
     "raw_dtg": "080940Z FEB 21",
     "msg_id": "HYDROARC 360/21(56)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 102300Z FEB 21",
-      "HYDROARC 360/21"
+      "THIS MSG 102300Z FEB 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\nDNC 10.\n1. GUNNERY EXERCISES 100300Z TO 102200Z FEB\n   IN AREA BOUND BY\n   34-26N 035-31E, 34-22N 035-31E,\n   34-22N 035-37E, 34-26N 035-37E.\n2. CANCEL THIS MSG 102300Z FEB 21."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\nDNC 10.\n1. GUNNERY EXERCISES 100300Z TO 102200Z FEB\n   IN AREA BOUND BY\n   34-26N 035-31E, 34-22N 035-31E,\n   34-22N 035-37E, 34-26N 035-37E.\n2. CANCEL THIS MSG 102300Z FEB 21.",
+    "valid_from": "2021-02-08T09:40:00+00:00",
+    "valid_until": "2021-02-10T23:00:00+00:00",
+    "summary": null
   }
 }

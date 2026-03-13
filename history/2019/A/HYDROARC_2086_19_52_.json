@@ -3,17 +3,23 @@
   "id": "HYDROARC 2086/19(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.94,
+      36.443333333333335
+    ]
   },
   "properties": {
     "dtg": "2019-07-11T00:12:00",
     "raw_dtg": "110012Z JUL 19",
     "msg_id": "HYDROARC 2086/19(52)",
-    "cancellations": [
-      "HYDROARC 3265/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52240.\nPOINTE COLOMBI LIGHT 36-26.6N 000-56.4E UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52240.\nPOINTE COLOMBI LIGHT 36-26.6N 000-56.4E UNLIT.",
+    "valid_from": "2019-07-11T00:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

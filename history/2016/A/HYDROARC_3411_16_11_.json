@@ -3,17 +3,23 @@
   "id": "HYDROARC 3411/16(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -82.445,
+      27.06
+    ]
   },
   "properties": {
     "dtg": "2016-12-17T14:30:00",
     "raw_dtg": "171430Z DEC 16",
     "msg_id": "HYDROARC 3411/16(11)",
-    "cancellations": [
-      "HYDROARC 37/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nFLORIDA.\nDNC 15.\nDISTRESS SIGNAL RECEIVED IN VICINITY\n27-03.6N 082-26.7W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC MIAMI\nPHONE: 305 415 6800, EMAIL: RCCMIAMI@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nFLORIDA.\nDNC 15.\nDISTRESS SIGNAL RECEIVED IN VICINITY\n27-03.6N 082-26.7W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC MIAMI\nPHONE: 305 415 6800, EMAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2016-12-17T14:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

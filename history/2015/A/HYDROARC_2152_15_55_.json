@@ -2,18 +2,74 @@
   "type": "Feature",
   "id": "HYDROARC 2152/15(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.125,
+          43.67666666666667
+        ],
+        [
+          30.101666666666667,
+          43.71
+        ],
+        [
+          30.085,
+          43.71333333333333
+        ],
+        [
+          30.06833333333333,
+          43.765
+        ],
+        [
+          29.976666666666667,
+          43.89666666666667
+        ],
+        [
+          29.723333333333333,
+          44.245
+        ],
+        [
+          30.008333333333333,
+          44.365
+        ],
+        [
+          29.701666666666668,
+          44.62166666666667
+        ],
+        [
+          29.461666666666666,
+          44.60666666666667
+        ],
+        [
+          29.19,
+          44.58166666666666
+        ],
+        [
+          29.906666666666666,
+          43.71333333333333
+        ],
+        [
+          30.125,
+          43.67666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-09-01T00:02:00",
     "raw_dtg": "010002Z SEP 15",
     "msg_id": "HYDROARC 2152/15(55)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2181/15"
+      "THIS MSG 18 SEP 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   17 SEP BY M/V PELAGIA IN AREA BOUND BY\n   43-40.6N 030-07.5E, 43-42.6N 030-06.1E,\n   43-42.8N 030-05.1E, 43-45.9N 030-04.1E,\n   43-53.8N 029-58.6E, 44-14.7N 029-43.4E,\n   44-21.9N 030-00.5E, 44-37.3N 029-42.1E,\n   44-36.4N 029-27.7E, 44-34.9N 029-11.4E,\n   43-42.8N 029-54.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 18 SEP 15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   17 SEP BY M/V PELAGIA IN AREA BOUND BY\n   43-40.6N 030-07.5E, 43-42.6N 030-06.1E,\n   43-42.8N 030-05.1E, 43-45.9N 030-04.1E,\n   43-53.8N 029-58.6E, 44-14.7N 029-43.4E,\n   44-21.9N 030-00.5E, 44-37.3N 029-42.1E,\n   44-36.4N 029-27.7E, 44-34.9N 029-11.4E,\n   43-42.8N 029-54.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 18 SEP 15.",
+    "valid_from": "2015-09-01T00:02:00+00:00",
+    "valid_until": "2015-09-18T00:00:00+00:00",
+    "summary": null
   }
 }

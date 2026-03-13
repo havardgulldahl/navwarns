@@ -3,17 +3,25 @@
   "id": "HYDROARC 620/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -36.38666666666666,
+      -10.491666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-02-21T23:57:00",
     "raw_dtg": "212357Z FEB 18",
     "msg_id": "HYDROARC 620/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 644/18"
+      "THIS MSG 21 AUG 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nCHART 24210.\n1. PEBA LIGHT 10-29.5S 036-23.2W UNLIT UNTIL 20 AUG.\n2. CANCEL THIS MSG 21 AUG 18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nCHART 24210.\n1. PEBA LIGHT 10-29.5S 036-23.2W UNLIT UNTIL 20 AUG.\n2. CANCEL THIS MSG 21 AUG 18.",
+    "valid_from": "2018-02-21T23:57:00+00:00",
+    "valid_until": "2018-08-21T00:00:00+00:00",
+    "summary": null
   }
 }

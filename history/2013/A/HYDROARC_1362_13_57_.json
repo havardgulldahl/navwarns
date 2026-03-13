@@ -3,18 +3,25 @@
   "id": "HYDROARC 1362/13(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -18.18,
+      -4.305
+    ]
   },
   "properties": {
     "dtg": "2013-06-02T22:27:00",
     "raw_dtg": "022227Z JUN 13",
     "msg_id": "HYDROARC 1362/13(57)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 052227Z JUN 13",
-      "HYDROARC 1362/13"
+      "THIS MSG 052227Z JUN 13"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\n1. DERELICT S/V JALINI ADRIFT VICINITY\n   04-18.3S 018-10.8W AT 011845Z JUN.\n2. CANCEL THIS MSG 052227Z JUN 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\n1. DERELICT S/V JALINI ADRIFT VICINITY\n   04-18.3S 018-10.8W AT 011845Z JUN.\n2. CANCEL THIS MSG 052227Z JUN 13.",
+    "valid_from": "2013-06-02T22:27:00+00:00",
+    "valid_until": "2013-06-05T22:27:00+00:00",
+    "summary": null
   }
 }

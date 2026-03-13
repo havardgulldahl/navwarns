@@ -3,17 +3,23 @@
   "id": "HYDROARC 315/10(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -56.12833333333333,
+      -58.17166666666667
+    ]
   },
   "properties": {
     "dtg": "2010-02-19T07:44:00",
     "raw_dtg": "190744Z FEB 10",
     "msg_id": "HYDROARC 315/10(23)",
-    "cancellations": [
-      "HYDROARC 315/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nICE.\n1. ICEBERGS SIGHTED IN 58-10.3S 056-07.7W\n   AND 58-12.7S 056-04.3W ON 18 FEB.\n2. CANCEL THIS MSG 220745Z FEB."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nICE.\n1. ICEBERGS SIGHTED IN 58-10.3S 056-07.7W\n   AND 58-12.7S 056-04.3W ON 18 FEB.\n2. CANCEL THIS MSG 220745Z FEB.",
+    "valid_from": "2010-02-19T07:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

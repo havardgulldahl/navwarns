@@ -3,17 +3,23 @@
   "id": "HYDROARC 2616/16(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -16.336666666666666,
+      28.433333333333334
+    ]
   },
   "properties": {
     "dtg": "2016-10-07T09:10:00",
     "raw_dtg": "070910Z OCT 16",
     "msg_id": "HYDROARC 2616/16(51)",
-    "cancellations": [
-      "HYDROARC 2618/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\nNAVTEX.\nDNC 01, DNC 08.\nNAVTEX STATION LAS PALMAS (I) 28-26.0N 016-20.2W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\nNAVTEX.\nDNC 01, DNC 08.\nNAVTEX STATION LAS PALMAS (I) 28-26.0N 016-20.2W OFF AIR.",
+    "valid_from": "2016-10-07T09:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

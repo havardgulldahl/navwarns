@@ -3,17 +3,23 @@
   "id": "HYDROARC 2429/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.3333333333333333,
+      53.651666666666664
+    ]
   },
   "properties": {
     "dtg": "2014-10-07T13:53:00",
     "raw_dtg": "071353Z OCT 14",
     "msg_id": "HYDROARC 2429/14(37)",
-    "cancellations": [
-      "HYDROARC 2439/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37059.\nHUMBER LIGHTFLOAT 53-39.1N 000-20.0E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37059.\nHUMBER LIGHTFLOAT 53-39.1N 000-20.0E OFF STATION.",
+    "valid_from": "2014-10-07T13:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 512/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5666666666666667,
+      51.145
+    ]
   },
   "properties": {
     "dtg": "2020-02-12T19:27:00",
     "raw_dtg": "121927Z FEB 20",
     "msg_id": "HYDROARC 512/20(37)",
-    "cancellations": [
-      "HYDROARC 543/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nCS4 LIGHT BUOY 51-08.7N 001-34.0E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nCS4 LIGHT BUOY 51-08.7N 001-34.0E OFF STATION.",
+    "valid_from": "2020-02-12T19:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

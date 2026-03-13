@@ -3,18 +3,25 @@
   "id": "HYDROARC 148/14(35,36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.365,
+      52.19833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-01-15T00:06:00",
     "raw_dtg": "150006Z JAN 14",
     "msg_id": "HYDROARC 148/14(35,36,37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 151700Z JAN 14",
-      "HYDROARC 148/14"
+      "THIS MSG 151700Z JAN 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND.\nCHART 35000\n1. WORMLEIGHTON DGPS STATION 52-11.9N 001-21.9W\n   OFF AIR 151100Z TO 151600Z JAN.\n2. CANCEL THIS MSG 151700Z JAN 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND.\nCHART 35000\n1. WORMLEIGHTON DGPS STATION 52-11.9N 001-21.9W\n   OFF AIR 151100Z TO 151600Z JAN.\n2. CANCEL THIS MSG 151700Z JAN 14.",
+    "valid_from": "2014-01-15T00:06:00+00:00",
+    "valid_until": "2014-01-15T17:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 433/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.1033333333333335,
+      49.54333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-02-07T15:49:00",
     "raw_dtg": "071549Z FEB 18",
     "msg_id": "HYDROARC 433/18(37)",
-    "cancellations": [
-      "HYDROARC 516/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n49-32.6N 004-06.2W. ONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n49-32.6N 004-06.2W. ONE MILE BERTH REQUESTED.",
+    "valid_from": "2018-02-07T15:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

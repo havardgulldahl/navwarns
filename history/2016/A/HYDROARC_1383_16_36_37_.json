@@ -3,17 +3,25 @@
   "id": "HYDROARC 1383/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.798333333333334,
+      49.88
+    ]
   },
   "properties": {
     "dtg": "2016-06-06T12:38:00",
     "raw_dtg": "061238Z JUN 16",
     "msg_id": "HYDROARC 1383/16(36,37)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1539/16"
+      "1340/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP WAVE SENTINEL\n   VICINITY 49-52.8N 004-47.9W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1340/16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP WAVE SENTINEL\n   VICINITY 49-52.8N 004-47.9W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1340/16.",
+    "valid_from": "2016-06-06T12:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

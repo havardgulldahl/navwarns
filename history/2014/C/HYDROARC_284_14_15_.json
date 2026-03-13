@@ -3,17 +3,23 @@
   "id": "HYDROARC 284/14(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -105.05333333333333,
+      69.11666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-10-07T15:40:00",
     "raw_dtg": "071540Z OCT 14",
     "msg_id": "HYDROARC 284/14(15)",
-    "cancellations": [
-      "HYDROARC 287/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT REMOTE STATION CAMBRIDGE BAY 69-07.0N 105-03.2W\nMF AND HF TRANSMIT SERVICES INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT REMOTE STATION CAMBRIDGE BAY 69-07.0N 105-03.2W\nMF AND HF TRANSMIT SERVICES INOPERATIVE.",
+    "valid_from": "2014-10-07T15:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

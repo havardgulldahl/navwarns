@@ -3,17 +3,25 @@
   "id": "HYDROARC 1554/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.598333333333333,
+      52.903333333333336
+    ]
   },
   "properties": {
     "dtg": "2012-07-13T11:15:00",
     "raw_dtg": "131115Z JUL 12",
     "msg_id": "HYDROARC 1554/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1587/12"
+      "1522/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37166\n1. PLATFORM HORNE AND WREN 52-54.2N 002-35.9E UNLIT.\n2. CANCEL HYDROLANT 1522/12(24)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37166\n1. PLATFORM HORNE AND WREN 52-54.2N 002-35.9E UNLIT.\n2. CANCEL HYDROLANT 1522/12(24).",
+    "valid_from": "2012-07-13T11:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,52 @@
   "type": "Feature",
   "id": "HYDROARC 218/14(41)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          109.95,
+          77.83333333333333
+        ],
+        [
+          113.35,
+          78.93333333333334
+        ],
+        [
+          119.4,
+          78.08333333333333
+        ],
+        [
+          114.63333333333334,
+          76.7
+        ],
+        [
+          114.35,
+          76.41666666666667
+        ],
+        [
+          110.81666666666666,
+          76.91666666666667
+        ],
+        [
+          109.95,
+          77.83333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-09-16T12:56:00",
     "raw_dtg": "161256Z SEP 14",
     "msg_id": "HYDROARC 218/14(41)",
-    "cancellations": [
-      "HYDROARC 226/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nLAPTEV SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V NIKOLAY TRUBYATCHINSKY TOWING 8100 METER\nLONG CABLE IN AREA BOUND BY\n77-50.0N 109-57.0E, 78-56.0N 113-21.0E,\n78-05.0N 119-24.0E, 76-42.0N 114-38.0E,\n76-25.0N 114-21.0E, 76-55.0N 110-49.0E.\nSIX MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nLAPTEV SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V NIKOLAY TRUBYATCHINSKY TOWING 8100 METER\nLONG CABLE IN AREA BOUND BY\n77-50.0N 109-57.0E, 78-56.0N 113-21.0E,\n78-05.0N 119-24.0E, 76-42.0N 114-38.0E,\n76-25.0N 114-21.0E, 76-55.0N 110-49.0E.\nSIX MILE BERTH REQUESTED.",
+    "valid_from": "2014-09-16T12:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

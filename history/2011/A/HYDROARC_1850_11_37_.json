@@ -3,17 +3,23 @@
   "id": "HYDROARC 1850/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.24333333333333332,
+      50.733333333333334
+    ]
   },
   "properties": {
     "dtg": "2011-11-07T23:07:00",
     "raw_dtg": "072307Z NOV 11",
     "msg_id": "HYDROARC 1850/11(37)",
-    "cancellations": [
-      "HYDROARC 1862/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37110 (11TH ED).\nBEACHY HEAD LIGHT 50-44.0N 000-14.6E UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37110 (11TH ED).\nBEACHY HEAD LIGHT 50-44.0N 000-14.6E UNLIT.",
+    "valid_from": "2011-11-07T23:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

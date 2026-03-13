@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3119/16",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-11-22T14:13:00",
     "raw_dtg": "221413Z NOV 16",
     "msg_id": "HYDROARC 3119/16",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 3119/16"
+      "3109/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nWESTERN MEDITERRANEAN SEA.\nSPAIN TO FRANCE.\nCANCEL HYDROLANT 3109/16 AND THIS MSG, VESSEL LOCATED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nWESTERN MEDITERRANEAN SEA.\nSPAIN TO FRANCE.\nCANCEL HYDROLANT 3109/16 AND THIS MSG, VESSEL LOCATED.",
+    "valid_from": "2016-11-22T14:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

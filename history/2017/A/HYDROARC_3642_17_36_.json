@@ -3,17 +3,23 @@
   "id": "HYDROARC 3642/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.7,
+      53.306666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-11-11T04:02:00",
     "raw_dtg": "110402Z NOV 17",
     "msg_id": "HYDROARC 3642/17(36)",
-    "cancellations": [
-      "HYDROARC 3643/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nWALES.\nDNC 20.\nCHART 36006.\nFOG SIGNAL AT SOUTH STACK LIGHT 53-18.4N 004-42.0W\nINOPERATIVE."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nWALES.\nDNC 20.\nCHART 36006.\nFOG SIGNAL AT SOUTH STACK LIGHT 53-18.4N 004-42.0W\nINOPERATIVE.",
+    "valid_from": "2017-11-11T04:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

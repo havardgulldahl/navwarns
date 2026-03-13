@@ -3,18 +3,25 @@
   "id": "HYDROARC 942/20(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      7.82,
+      43.04666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-03-12T16:49:00",
     "raw_dtg": "121649Z MAR 20",
     "msg_id": "HYDROARC 942/20(53)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 151649Z MAR 20",
-      "HYDROARC 942/20"
+      "THIS MSG 151649Z MAR 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nFRANCE.\nDNC 08.\n1. EIGHT METER LONG TREE TRUNK ADRIFT IN\n   43-02.8N 007-49.2E AT 121241Z MAR.\n2. CANCEL THIS MSG 151649Z MAR 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nFRANCE.\nDNC 08.\n1. EIGHT METER LONG TREE TRUNK ADRIFT IN\n   43-02.8N 007-49.2E AT 121241Z MAR.\n2. CANCEL THIS MSG 151649Z MAR 20.",
+    "valid_from": "2020-03-12T16:49:00+00:00",
+    "valid_until": "2020-03-15T16:49:00+00:00",
+    "summary": null
   }
 }

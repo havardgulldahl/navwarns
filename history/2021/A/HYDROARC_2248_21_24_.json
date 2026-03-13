@@ -3,17 +3,25 @@
   "id": "HYDROARC 2248/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -36.38666666666666,
+      -10.491666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-09-02T03:32:00",
     "raw_dtg": "020332Z SEP 21",
     "msg_id": "HYDROARC 2248/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 2698/21"
+      "THIS MSG 02 MAR 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\n1. PEBA LIGHT 10-29.5S 036-23.2W UNLIT UNTIL 01 MAR 22.\n2. CANCEL THIS MSG 02 MAR 22."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\n1. PEBA LIGHT 10-29.5S 036-23.2W UNLIT UNTIL 01 MAR 22.\n2. CANCEL THIS MSG 02 MAR 22.",
+    "valid_from": "2021-09-02T03:32:00+00:00",
+    "valid_until": "2022-03-02T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2168/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.288333333333333,
+      53.416666666666664
+    ]
   },
   "properties": {
     "dtg": "2012-09-19T17:39:00",
     "raw_dtg": "191739Z SEP 12",
     "msg_id": "HYDROARC 2168/12(36)",
-    "cancellations": [
-      "HYDROARC 594/13"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-NORTH COAST.\nCHART 36025\nFOG SIGNAL AT POINT LYNAS LIGHT 53-25.0N 004-17.3W DISCONTINUED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-NORTH COAST.\nCHART 36025\nFOG SIGNAL AT POINT LYNAS LIGHT 53-25.0N 004-17.3W DISCONTINUED.",
+    "valid_from": "2012-09-19T17:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

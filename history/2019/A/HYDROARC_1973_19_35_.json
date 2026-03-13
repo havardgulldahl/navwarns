@@ -3,17 +3,23 @@
   "id": "HYDROARC 1973/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.395,
+      58.501666666666665
+    ]
   },
   "properties": {
     "dtg": "2019-06-30T00:51:00",
     "raw_dtg": "300051Z JUN 19",
     "msg_id": "HYDROARC 1973/19(35)",
-    "cancellations": [
-      "HYDROARC 1974/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nCGOC SHETLAND DSC SERVICES AT\nBEN TONGUE AERIAL SITE 58-30.1N 004-23.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nCGOC SHETLAND DSC SERVICES AT\nBEN TONGUE AERIAL SITE 58-30.1N 004-23.7W UNRELIABLE.",
+    "valid_from": "2019-06-30T00:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

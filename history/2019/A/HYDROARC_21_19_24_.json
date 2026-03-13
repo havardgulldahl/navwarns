@@ -3,17 +3,25 @@
   "id": "HYDROARC 21/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -42.693333333333335,
+      -22.961666666666666
+    ]
   },
   "properties": {
     "dtg": "2019-01-03T10:46:00",
     "raw_dtg": "031046Z JAN 19",
     "msg_id": "HYDROARC 21/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 103/19"
+      "THIS MSG 02 JUL 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24160.\n1. PONTA NEGRA LIGHT 22-57.7S 042-41.6W UNLIT.\n2. CANCEL THIS MSG 02 JUL 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24160.\n1. PONTA NEGRA LIGHT 22-57.7S 042-41.6W UNLIT.\n2. CANCEL THIS MSG 02 JUL 19.",
+    "valid_from": "2019-01-03T10:46:00+00:00",
+    "valid_until": "2019-07-02T00:00:00+00:00",
+    "summary": null
   }
 }

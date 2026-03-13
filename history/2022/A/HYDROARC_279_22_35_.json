@@ -3,17 +3,23 @@
   "id": "HYDROARC 279/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.376666666666667,
+      59.276666666666664
+    ]
   },
   "properties": {
     "dtg": "2022-01-28T20:28:00",
     "raw_dtg": "282028Z JAN 22",
     "msg_id": "HYDROARC 279/22(35)",
-    "cancellations": [
-      "HYDROARC 295/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nSTART POINT LIGHT 59-16.6N 002-22.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nSTART POINT LIGHT 59-16.6N 002-22.6W UNRELIABLE.",
+    "valid_from": "2022-01-28T20:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

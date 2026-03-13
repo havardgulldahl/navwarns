@@ -3,17 +3,23 @@
   "id": "HYDROARC 1957/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.0,
+      53.596666666666664
+    ]
   },
   "properties": {
     "dtg": "2017-06-25T16:50:00",
     "raw_dtg": "251650Z JUN 17",
     "msg_id": "HYDROARC 1957/17(36)",
-    "cancellations": [
-      "HYDROARC 1968/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nIRELAND.\nDNC 19, DNC 20.\nCHART 36007.\nROCKABILL LIGHT 53-35.8N 006-00.0W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nIRELAND.\nDNC 19, DNC 20.\nCHART 36007.\nROCKABILL LIGHT 53-35.8N 006-00.0W UNRELIABLE.",
+    "valid_from": "2017-06-25T16:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,19 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 2575/17(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.28333333333333,
+          45.055
+        ],
+        [
+          36.38333333333333,
+          44.958333333333336
+        ],
+        [
+          36.4,
+          44.75
+        ],
+        [
+          35.11666666666667,
+          44.05166666666667
+        ],
+        [
+          34.733333333333334,
+          44.43
+        ],
+        [
+          35.916666666666664,
+          45.02
+        ],
+        [
+          36.28333333333333,
+          45.055
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-08-24T13:55:00",
     "raw_dtg": "241355Z AUG 17",
     "msg_id": "HYDROARC 2575/17(55)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 292200Z AUG 17",
-      "HYDROARC 2575/17"
+      "THIS MSG 292200Z AUG 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. MISSILE OPERATIONS 0500Z TO 2100Z DAILY\n   25, 26, 28 AND 29 AUG IN AREA BOUND BY\n   45-03.3N 036-17.0E, 44-57.5N 036-23.0E,\n   44-45.0N 036-24.0E, 44-03.1N 035-07.0E,\n   44-25.8N 034-44.0E, 45-01.2N 035-55.0E.\n2. CANCEL THIS MSG 292200Z AUG 17."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. MISSILE OPERATIONS 0500Z TO 2100Z DAILY\n   25, 26, 28 AND 29 AUG IN AREA BOUND BY\n   45-03.3N 036-17.0E, 44-57.5N 036-23.0E,\n   44-45.0N 036-24.0E, 44-03.1N 035-07.0E,\n   44-25.8N 034-44.0E, 45-01.2N 035-55.0E.\n2. CANCEL THIS MSG 292200Z AUG 17.",
+    "valid_from": "2017-08-24T13:55:00+00:00",
+    "valid_until": "2017-08-29T22:00:00+00:00",
+    "summary": null
   }
 }

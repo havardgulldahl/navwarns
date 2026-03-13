@@ -2,18 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 229/20(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          56.18333333333333,
+          69.31666666666666
+        ],
+        [
+          56.59,
+          69.38
+        ],
+        [
+          57.94,
+          69.19666666666667
+        ],
+        [
+          57.66833333333334,
+          68.85666666666667
+        ],
+        [
+          56.17666666666667,
+          68.93
+        ],
+        [
+          56.18333333333333,
+          69.31666666666666
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-10-12T06:14:00",
     "raw_dtg": "120614Z OCT 20",
     "msg_id": "HYDROARC 229/20(42)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 253/20"
+      "THIS MSG 26 OCT 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. SURVEY OPERATIONS 13 THRU 25 OCT BY\n   M/V ACADEMIC LAZAREV TOWING 6400 METER LONG\n   CABLE IN AREA BOUND BY\n   69-19.0N 056-11.0E, 69-22.8N 056-35.4E,\n   69-11.8N 057-56.4E, 68-51.4N 057-40.1E,\n   68-55.8N 056-10.6E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 OCT 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. SURVEY OPERATIONS 13 THRU 25 OCT BY\n   M/V ACADEMIC LAZAREV TOWING 6400 METER LONG\n   CABLE IN AREA BOUND BY\n   69-19.0N 056-11.0E, 69-22.8N 056-35.4E,\n   69-11.8N 057-56.4E, 68-51.4N 057-40.1E,\n   68-55.8N 056-10.6E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 OCT 20.",
+    "valid_from": "2020-10-12T06:14:00+00:00",
+    "valid_until": "2020-10-26T00:00:00+00:00",
+    "summary": null
   }
 }

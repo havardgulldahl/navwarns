@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 1408/20(54)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         24.075333333333333,
@@ -58,11 +58,16 @@
     "dtg": "2020-04-24T12:34:00",
     "raw_dtg": "241234Z APR 20",
     "msg_id": "HYDROARC 1408/20(54)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 1534/20"
+      "3558/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\n1. CABLE OPERATIONS IN PROGRESS BY CABLESHIP MAERSK\n   CONNECTOR UNTIL FURTHER NOTICE ALONG TRACKLINE\n   JOINING\n   37-44.40N 024-04.52E, 37-44.13N 024-04.97E,\n   37-46.62N 024-06.73E, 37-45.78N 024-11.37E,\n   37-43.78N 024-22.28E, 37-41.67N 024-32.67E,\n   37-40.37N 024-41.32E, 37-37.27N 024-53.90E,\n   37-32.95N 024-56.05E, 37-30.48N 024-58.33E,\n   37-26.92N 024-59.15E, 37-26.43N 024-58.47E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3558/19."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. CABLE OPERATIONS IN PROGRESS BY CABLESHIP MAERSK\n   CONNECTOR UNTIL FURTHER NOTICE ALONG TRACKLINE\n   JOINING\n   37-44.40N 024-04.52E, 37-44.13N 024-04.97E,\n   37-46.62N 024-06.73E, 37-45.78N 024-11.37E,\n   37-43.78N 024-22.28E, 37-41.67N 024-32.67E,\n   37-40.37N 024-41.32E, 37-37.27N 024-53.90E,\n   37-32.95N 024-56.05E, 37-30.48N 024-58.33E,\n   37-26.92N 024-59.15E, 37-26.43N 024-58.47E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3558/19.",
+    "valid_from": "2020-04-24T12:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

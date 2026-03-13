@@ -3,17 +3,23 @@
   "id": "HYDROARC 1294/16(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.16,
+      55.00666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-05-29T23:33:00",
     "raw_dtg": "292333Z MAY 16",
     "msg_id": "HYDROARC 1294/16(35,36)",
-    "cancellations": [
-      "HYDROARC 1298/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nSCOTLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 35119.\nCORSEWALL LIGHT 55-00.4N 005-09.6W UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nSCOTLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 35119.\nCORSEWALL LIGHT 55-00.4N 005-09.6W UNLIT.",
+    "valid_from": "2016-05-29T23:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

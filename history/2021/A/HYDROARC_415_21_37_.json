@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 415/21(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-02-11T15:14:00",
     "raw_dtg": "111514Z FEB 21",
     "msg_id": "HYDROARC 415/21(37)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 415/21"
+      "368/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nCANCEL HYDROLANT 368/21 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nCANCEL HYDROLANT 368/21 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2021-02-11T15:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

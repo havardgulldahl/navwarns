@@ -3,18 +3,25 @@
   "id": "HYDROARC 19/20(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -25.02,
+      24.98
+    ]
   },
   "properties": {
     "dtg": "2020-01-02T14:09:00",
     "raw_dtg": "021409Z JAN 20",
     "msg_id": "HYDROARC 19/20(51)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 021830Z JAN 20",
-      "HYDROARC 19/20"
+      "THIS MSG 021830Z JAN 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 01.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   021430Z TO 021730Z JAN IN AREA WITHIN 25 MILES OF\n   24-58.8N 025-01.2W.\n2. CANCEL THIS MSG 021830Z JAN 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 01.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   021430Z TO 021730Z JAN IN AREA WITHIN 25 MILES OF\n   24-58.8N 025-01.2W.\n2. CANCEL THIS MSG 021830Z JAN 20.",
+    "valid_from": "2020-01-02T14:09:00+00:00",
+    "valid_until": "2020-01-02T18:30:00+00:00",
+    "summary": null
   }
 }

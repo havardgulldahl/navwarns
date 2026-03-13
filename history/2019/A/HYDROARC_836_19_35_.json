@@ -3,17 +3,25 @@
   "id": "HYDROARC 836/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.0883333333333334,
+      58.115
+    ]
   },
   "properties": {
     "dtg": "2019-03-15T14:24:00",
     "raw_dtg": "151424Z MAR 19",
     "msg_id": "HYDROARC 836/19(35)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1106/19"
+      "372/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM\n   11/30-A, 58-06.9N 003-05.3W INOPERATIVE.\n2. CANCEL HYDROLANT 372/19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM\n   11/30-A, 58-06.9N 003-05.3W INOPERATIVE.\n2. CANCEL HYDROLANT 372/19.",
+    "valid_from": "2019-03-15T14:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

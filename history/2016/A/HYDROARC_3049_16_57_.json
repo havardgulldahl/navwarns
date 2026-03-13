@@ -3,17 +3,23 @@
   "id": "HYDROARC 3049/16(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.12000000000000001,
+      5.543333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-11-16T16:30:00",
     "raw_dtg": "161630Z NOV 16",
     "msg_id": "HYDROARC 3049/16(57)",
-    "cancellations": [
-      "HYDROARC 3142/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nGHANA.\nDNC 01.\nCABLE OPERATIONS 17 NOV UNTIL FURTHER\nNOTICE BY CABLESHIP PETER FABER WITH\nSUBMERSIBLE IN 05-32.6N 000-07.2W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nGHANA.\nDNC 01.\nCABLE OPERATIONS 17 NOV UNTIL FURTHER\nNOTICE BY CABLESHIP PETER FABER WITH\nSUBMERSIBLE IN 05-32.6N 000-07.2W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2016-11-16T16:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

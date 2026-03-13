@@ -3,17 +3,23 @@
   "id": "HYDROARC 520/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.755,
+      -20.926666666666666
+    ]
   },
   "properties": {
     "dtg": "2010-03-26T01:13:00",
     "raw_dtg": "260113Z MAR 10",
     "msg_id": "HYDROARC 520/10(24)",
-    "cancellations": [
-      "HYDROARC 535/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nNGA CHART 24170 (14TH ED).\nILHA DO FRANCES LIGHT 20-55.6S 040-45.3W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nNGA CHART 24170 (14TH ED).\nILHA DO FRANCES LIGHT 20-55.6S 040-45.3W UNLIT.",
+    "valid_from": "2010-03-26T01:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

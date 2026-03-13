@@ -3,17 +3,25 @@
   "id": "HYDROARC 2277/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -39.06333333333333,
+      -16.435
+    ]
   },
   "properties": {
     "dtg": "2019-07-25T23:10:00",
     "raw_dtg": "252310Z JUL 19",
     "msg_id": "HYDROARC 2277/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 2352/19"
+      "THIS MSG 23 JAN 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24190.\n1. PORTO SEGURO LIGHT 16-26.1S 039-03.8W UNLIT\n   UNTIL 22 JAN.\n2. CANCEL THIS MSG 23 JAN 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24190.\n1. PORTO SEGURO LIGHT 16-26.1S 039-03.8W UNLIT\n   UNTIL 22 JAN.\n2. CANCEL THIS MSG 23 JAN 20.",
+    "valid_from": "2019-07-25T23:10:00+00:00",
+    "valid_until": "2020-01-23T00:00:00+00:00",
+    "summary": null
   }
 }

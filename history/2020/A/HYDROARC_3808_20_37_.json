@@ -3,18 +3,26 @@
   "id": "HYDROARC 3808/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.255,
+      50.586666666666666
+    ]
   },
   "properties": {
     "dtg": "2020-12-08T07:39:00",
     "raw_dtg": "080739Z DEC 20",
     "msg_id": "HYDROARC 3808/20(37)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 111630Z DEC 20",
-      "HYDROARC 3808/20"
+      "3807/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. NAVTEX STATION NITON (E) 50-35.2N 001-15.3W\n   OFF AIR 0900Z TO 1530Z DAILY 08 THRU 11 DEC.\n2. CANCEL HYDROLANT 3807/20.\n3. CANCEL THIS MSG 111630Z DEC 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. NAVTEX STATION NITON (E) 50-35.2N 001-15.3W\n   OFF AIR 0900Z TO 1530Z DAILY 08 THRU 11 DEC.\n2. CANCEL HYDROLANT 3807/20.\n3. CANCEL THIS MSG 111630Z DEC 20.",
+    "valid_from": "2020-12-08T07:39:00+00:00",
+    "valid_until": "2020-12-11T16:30:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2937/15(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      6.825,
+      63.906666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-11-28T11:25:00",
     "raw_dtg": "281125Z NOV 15",
     "msg_id": "HYDROARC 2937/15(43)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 011125Z DEC 15",
-      "HYDROARC 2937/15"
+      "THIS MSG 011125Z DEC 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nDNC 21.\n1. ODAS BUOY ADRIFT IN 63-54.4N 006-49.5E AT 280719Z NOV.\n2. CANCEL THIS MSG 011125Z DEC 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nDNC 21.\n1. ODAS BUOY ADRIFT IN 63-54.4N 006-49.5E AT 280719Z NOV.\n2. CANCEL THIS MSG 011125Z DEC 15.",
+    "valid_from": "2015-11-28T11:25:00+00:00",
+    "valid_until": "2015-12-01T11:25:00+00:00",
+    "summary": null
   }
 }

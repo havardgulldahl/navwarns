@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1015/10(56)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-06-03T11:25:00",
     "raw_dtg": "031125Z JUN 10",
     "msg_id": "HYDROARC 1015/10(56)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1015/10"
+      "988/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nGULF OF SIDRA.\nCANCEL HYDROLANT 988/10 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nGULF OF SIDRA.\nCANCEL HYDROLANT 988/10 AND THIS MSG.",
+    "valid_from": "2010-06-03T11:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

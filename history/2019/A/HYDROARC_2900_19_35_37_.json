@@ -3,17 +3,23 @@
   "id": "HYDROARC 2900/19(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.02,
+      54.263333333333335
+    ]
   },
   "properties": {
     "dtg": "2019-09-23T12:03:00",
     "raw_dtg": "231203Z SEP 19",
     "msg_id": "HYDROARC 2900/19(35,37)",
-    "cancellations": [
-      "HYDROARC 2934/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE BATZ IN AREA WITHIN\n2 MILES OF 54-15.8N 000-01.2E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE BATZ IN AREA WITHIN\n2 MILES OF 54-15.8N 000-01.2E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2019-09-23T12:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

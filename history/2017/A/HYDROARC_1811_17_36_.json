@@ -3,17 +3,23 @@
   "id": "HYDROARC 1811/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.141666666666667,
+      52.42666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-06-09T18:12:00",
     "raw_dtg": "091812Z JUN 17",
     "msg_id": "HYDROARC 1811/17(36)",
-    "cancellations": [
-      "HYDROARC 1838/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SAINT GEORGES CHANNEL.\nIRELAND-EAST COAST.\nDNC 19, DNC 20.\nCHART 36002.\nRACON AT SOUTHEAST BLACKWATER BUOY 52-25.6N 006-08.5W\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SAINT GEORGES CHANNEL.\nIRELAND-EAST COAST.\nDNC 19, DNC 20.\nCHART 36002.\nRACON AT SOUTHEAST BLACKWATER BUOY 52-25.6N 006-08.5W\nINOPERATIVE.",
+    "valid_from": "2017-06-09T18:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

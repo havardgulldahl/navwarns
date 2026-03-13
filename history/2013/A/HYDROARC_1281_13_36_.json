@@ -3,17 +3,25 @@
   "id": "HYDROARC 1281/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.288333333333333,
+      53.416666666666664
+    ]
   },
   "properties": {
     "dtg": "2013-05-25T00:32:00",
     "raw_dtg": "250032Z MAY 13",
     "msg_id": "HYDROARC 1281/13(36)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1290/13"
+      "1279/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-NORTHWEST COAST.\nCHART 36025\n1. DGPS STATION AT POINT LYNAS LIGHT 53-25.0N 004-17.3W OFF AIR.\n2. CANCEL HYDROLANT 1279/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-NORTHWEST COAST.\nCHART 36025\n1. DGPS STATION AT POINT LYNAS LIGHT 53-25.0N 004-17.3W OFF AIR.\n2. CANCEL HYDROLANT 1279/13.",
+    "valid_from": "2013-05-25T00:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

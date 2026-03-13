@@ -3,17 +3,23 @@
   "id": "HYDROARC 1243/14(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.975,
+      65.54861111111111
+    ]
   },
   "properties": {
     "dtg": "2014-05-16T03:33:00",
     "raw_dtg": "160333Z MAY 14",
     "msg_id": "HYDROARC 1243/14(38)",
-    "cancellations": [
-      "HYDROARC 1244/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nGREENLAND-SOUTHEAST COAST.\nVESSEL BOLLA ATAMIK, TWO PERSONS ON BOARD, DISABLED\nDUE TO ENGINE FAILURE VICINITY 65-32-55N 038-58-30W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO AASIAAT RADIO."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nGREENLAND-SOUTHEAST COAST.\nVESSEL BOLLA ATAMIK, TWO PERSONS ON BOARD, DISABLED\nDUE TO ENGINE FAILURE VICINITY 65-32-55N 038-58-30W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO AASIAAT RADIO.",
+    "valid_from": "2014-05-16T03:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

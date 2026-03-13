@@ -3,17 +3,25 @@
   "id": "HYDROARC 1804/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.6033333333333335,
+      55.735
+    ]
   },
   "properties": {
     "dtg": "2019-06-15T15:09:00",
     "raw_dtg": "151509Z JUN 19",
     "msg_id": "HYDROARC 1804/19(37)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1830/19"
+      "1768/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20, DNC 21.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP ILE D'AIX\n   IN VICINITY OF TRACKLINE JOINING\n   55-44.1N 002-36.2E, 55-58.0N 003-21.4E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1768/19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20, DNC 21.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP ILE D'AIX\n   IN VICINITY OF TRACKLINE JOINING\n   55-44.1N 002-36.2E, 55-58.0N 003-21.4E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1768/19.",
+    "valid_from": "2019-06-15T15:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2251/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6266666666666667,
+      60.48833333333334
+    ]
   },
   "properties": {
     "dtg": "2011-12-26T19:40:00",
     "raw_dtg": "261940Z DEC 11",
     "msg_id": "HYDROARC 2251/11(35)",
-    "cancellations": [
-      "HYDROARC 2265/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nSHETLAND ISLANDS.\nCHART 35071\nESHA NESS LIGHT 60-29.3N 001-37.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nSHETLAND ISLANDS.\nCHART 35071\nESHA NESS LIGHT 60-29.3N 001-37.6W UNRELIABLE.",
+    "valid_from": "2011-12-26T19:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1703/11(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.781666666666666,
+      35.695
+    ]
   },
   "properties": {
     "dtg": "2011-10-17T05:06:00",
     "raw_dtg": "170506Z OCT 11",
     "msg_id": "HYDROARC 1703/11(51)",
-    "cancellations": [
-      "HYDROARC 1703/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\n1. DERELICT TEN METER VESSEL ADRIFT VICINITY\n   35-41.7N 006-46.9W AT 162220Z OCT.\n2. CANCEL THIS MSG 200515Z OCT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\n1. DERELICT TEN METER VESSEL ADRIFT VICINITY\n   35-41.7N 006-46.9W AT 162220Z OCT.\n2. CANCEL THIS MSG 200515Z OCT.",
+    "valid_from": "2011-10-17T05:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

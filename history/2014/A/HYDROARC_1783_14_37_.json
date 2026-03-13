@@ -3,17 +3,23 @@
   "id": "HYDROARC 1783/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.4783333333333335,
+      49.49
+    ]
   },
   "properties": {
     "dtg": "2014-07-23T05:46:00",
     "raw_dtg": "230546Z JUL 14",
     "msg_id": "HYDROARC 1783/14(37)",
-    "cancellations": [
-      "HYDROARC 774/15"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nCHART 37080\n4.5 METER DEPTH REPORTED IN 49-29.4N 002-28.7W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nCHART 37080\n4.5 METER DEPTH REPORTED IN 49-29.4N 002-28.7W.",
+    "valid_from": "2014-07-23T05:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

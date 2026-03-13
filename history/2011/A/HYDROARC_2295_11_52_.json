@@ -2,18 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 2295/11(52)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          16.47,
+          42.35333333333333
+        ],
+        [
+          18.016666666666666,
+          42.56666666666667
+        ],
+        [
+          18.44,
+          42.25333333333333
+        ],
+        [
+          18.005,
+          42.685
+        ],
+        [
+          16.475,
+          42.71666666666667
+        ],
+        [
+          16.47,
+          42.35333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-12-31T13:55:00",
     "raw_dtg": "311355Z DEC 11",
     "msg_id": "HYDROARC 2295/11(52)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 405/12"
+      "THIS MSG 29 FEB 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ADRIATIC SEA.\n1. SEISMIC SURVEY 31 DEC THRU 28 FEB 12\n   BY M/V OCEANIC CHALLENGER TOWING TEN\n   7500 METER LONG CABLES IN AREA BOUND BY\n   42-21.2N 016-28.2E, 42-34.0N 018-01.0E,\n   42-15.2N 018-26.4E, 42-41.1N 018-00.3E,\n   42-43.0N 016-28.5E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 FEB 12."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ADRIATIC SEA.\n1. SEISMIC SURVEY 31 DEC THRU 28 FEB 12\n   BY M/V OCEANIC CHALLENGER TOWING TEN\n   7500 METER LONG CABLES IN AREA BOUND BY\n   42-21.2N 016-28.2E, 42-34.0N 018-01.0E,\n   42-15.2N 018-26.4E, 42-41.1N 018-00.3E,\n   42-43.0N 016-28.5E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 FEB 12.",
+    "valid_from": "2011-12-31T13:55:00+00:00",
+    "valid_until": "2012-02-29T00:00:00+00:00",
+    "summary": null
   }
 }

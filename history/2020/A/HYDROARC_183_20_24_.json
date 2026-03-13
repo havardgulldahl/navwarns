@@ -3,17 +3,25 @@
   "id": "HYDROARC 183/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.29833333333333,
+      -9.156666666666666
+    ]
   },
   "properties": {
     "dtg": "2020-01-18T10:30:00",
     "raw_dtg": "181030Z JAN 20",
     "msg_id": "HYDROARC 183/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 777/20"
+      "THIS MSG 16 JUL 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\n1. PORTO DE PEDRAS LIGHT 09-09.4S 035-17.9W UNLIT\n   UNTIL 15 JUL.\n2. CANCEL THIS MSG 16 JUL 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\n1. PORTO DE PEDRAS LIGHT 09-09.4S 035-17.9W UNLIT\n   UNTIL 15 JUL.\n2. CANCEL THIS MSG 16 JUL 20.",
+    "valid_from": "2020-01-18T10:30:00+00:00",
+    "valid_until": "2020-07-16T00:00:00+00:00",
+    "summary": null
   }
 }

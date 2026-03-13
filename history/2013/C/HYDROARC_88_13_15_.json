@@ -3,17 +3,23 @@
   "id": "HYDROARC 88/13(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -100.78666666666666,
+      68.35333333333334
+    ]
   },
   "properties": {
     "dtg": "2013-07-16T08:58:00",
     "raw_dtg": "160858Z JUL 13",
     "msg_id": "HYDROARC 88/13(15)",
-    "cancellations": [
-      "HYDROARC 119/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "CANADA-NORTH COAST.\nREQUISITE CHANNEL.\nCHART 15887\nNORDENSKIOLD ISLANDS RACON 68-21.2N 100-47.2W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA-NORTH COAST.\nREQUISITE CHANNEL.\nCHART 15887\nNORDENSKIOLD ISLANDS RACON 68-21.2N 100-47.2W INOPERATIVE.",
+    "valid_from": "2013-07-16T08:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

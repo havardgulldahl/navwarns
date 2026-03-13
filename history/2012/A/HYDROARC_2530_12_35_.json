@@ -3,17 +3,23 @@
   "id": "HYDROARC 2530/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.191666666666666,
+      57.29833333333333
+    ]
   },
   "properties": {
     "dtg": "2012-10-27T22:09:00",
     "raw_dtg": "272209Z OCT 12",
     "msg_id": "HYDROARC 2530/12(35)",
-    "cancellations": [
-      "HYDROARC 2547/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nCHART 35092\nUSHENISH LIGHT 57-17.9N 007-11.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nCHART 35092\nUSHENISH LIGHT 57-17.9N 007-11.5W UNRELIABLE.",
+    "valid_from": "2012-10-27T22:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

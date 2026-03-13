@@ -1,19 +1,19 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2603/15",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-10-19T19:35:00",
     "raw_dtg": "191935Z OCT 15",
     "msg_id": "HYDROARC 2603/15",
-    "cancellations": [
-      "HYDROARC 2648/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GPS SATELLITE SYSTEM.\nPRN 23 UNUSABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GPS SATELLITE SYSTEM.\nPRN 23 UNUSABLE.",
+    "valid_from": "2015-10-19T19:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 14/19(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      24.941666666666666,
+      38.34166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-01-02T12:32:00",
     "raw_dtg": "021232Z JAN 19",
     "msg_id": "HYDROARC 14/19(54)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 041630Z JAN 19",
-      "HYDROARC 14/19"
+      "THIS MSG 041630Z JAN 19"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 041330Z TO 041530Z JAN\n   WITHIN FIVE MILES OF 38-20.5N 024-56.5E.\n2. CANCEL THIS MSG 041630Z JAN 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 041330Z TO 041530Z JAN\n   WITHIN FIVE MILES OF 38-20.5N 024-56.5E.\n2. CANCEL THIS MSG 041630Z JAN 19.",
+    "valid_from": "2019-01-02T12:32:00+00:00",
+    "valid_until": "2019-01-04T16:30:00+00:00",
+    "summary": null
   }
 }

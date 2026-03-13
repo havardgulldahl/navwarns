@@ -3,17 +3,23 @@
   "id": "HYDROARC 1059/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.376666666666667,
+      49.721666666666664
+    ]
   },
   "properties": {
     "dtg": "2010-06-08T14:53:00",
     "raw_dtg": "081453Z JUN 10",
     "msg_id": "HYDROARC 1059/10(37)",
-    "cancellations": [
-      "HYDROARC 1059/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nNGA CHART 37090 (8TH ED).\n1. CASQUETS LIGHT 49-43.3N 002-22.6W UNRELIABLE\n   082000Z TO 090400Z AND 092000Z TO 100400Z JUN.\n2. CANCEL THIS MSG 100500Z JUN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nNGA CHART 37090 (8TH ED).\n1. CASQUETS LIGHT 49-43.3N 002-22.6W UNRELIABLE\n   082000Z TO 090400Z AND 092000Z TO 100400Z JUN.\n2. CANCEL THIS MSG 100500Z JUN.",
+    "valid_from": "2010-06-08T14:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

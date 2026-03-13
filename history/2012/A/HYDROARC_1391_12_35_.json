@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1391/12(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-06-26T03:43:00",
     "raw_dtg": "260343Z JUN 12",
     "msg_id": "HYDROARC 1391/12(35)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1391/12"
+      "1346/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nORDNANCE.\nCANCEL HYDROLANT 1346/12 AND THIS MSG,\nORDNANCE REMOVED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nORDNANCE.\nCANCEL HYDROLANT 1346/12 AND THIS MSG,\nORDNANCE REMOVED.",
+    "valid_from": "2012-06-26T03:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 162/22(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      13.916666666666666,
+      -25.961666666666666
+    ]
   },
   "properties": {
     "dtg": "2022-01-18T10:21:00",
     "raw_dtg": "181021Z JAN 22",
     "msg_id": "HYDROARC 162/22(57)",
-    "cancellations": [
-      "HYDROARC 335/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nFISHING GEAR WITH 200 METER LONG ROPES WITH\nFLOATS ABANDONED IN 25-57.7S 013-55.0E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nFISHING GEAR WITH 200 METER LONG ROPES WITH\nFLOATS ABANDONED IN 25-57.7S 013-55.0E.",
+    "valid_from": "2022-01-18T10:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

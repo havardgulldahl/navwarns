@@ -3,17 +3,23 @@
   "id": "HYDROARC 2621/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8100000000000005,
+      57.86
+    ]
   },
   "properties": {
     "dtg": "2013-10-20T20:20:00",
     "raw_dtg": "202020Z OCT 13",
     "msg_id": "HYDROARC 2621/13(35)",
-    "cancellations": [
-      "HYDROARC 2633/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNORTH MINCH.\nCHART 35078\nRUBHA REIDH LIGHT 57-51.6N 005-48.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNORTH MINCH.\nCHART 35078\nRUBHA REIDH LIGHT 57-51.6N 005-48.6W UNRELIABLE.",
+    "valid_from": "2013-10-20T20:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

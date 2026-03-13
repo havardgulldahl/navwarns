@@ -3,17 +3,23 @@
   "id": "HYDROARC 3718/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.925,
+      58.69
+    ]
   },
   "properties": {
     "dtg": "2020-11-29T05:47:00",
     "raw_dtg": "290547Z NOV 20",
     "msg_id": "HYDROARC 3718/20(35)",
-    "cancellations": [
-      "HYDROARC 3728/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nPENTLAND SKERRIES LIGHT 58-41.4N 002-55.5W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nPENTLAND SKERRIES LIGHT 58-41.4N 002-55.5W\nUNRELIABLE.",
+    "valid_from": "2020-11-29T05:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

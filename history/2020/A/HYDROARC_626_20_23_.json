@@ -3,17 +3,23 @@
   "id": "HYDROARC 626/20(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -57.905,
+      -51.56166666666667
+    ]
   },
   "properties": {
     "dtg": "2020-02-20T10:09:00",
     "raw_dtg": "201009Z FEB 20",
     "msg_id": "HYDROARC 626/20(23)",
-    "cancellations": [
-      "HYDROARC 649/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nFALKLAND ISLANDS.\nDNC 07.\nDANGEROUS WRECK, LEAST DEPTH 15.4 METERS,\nIN 51-33.7S 057-54.3W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nFALKLAND ISLANDS.\nDNC 07.\nDANGEROUS WRECK, LEAST DEPTH 15.4 METERS,\nIN 51-33.7S 057-54.3W.",
+    "valid_from": "2020-02-20T10:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

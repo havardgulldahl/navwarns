@@ -3,17 +3,23 @@
   "id": "HYDROARC 1414/14(37,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.9983333333333333,
+      57.185
+    ]
   },
   "properties": {
     "dtg": "2014-06-06T07:32:00",
     "raw_dtg": "060732Z JUN 14",
     "msg_id": "HYDROARC 1414/14(37,43)",
-    "cancellations": [
-      "HYDROARC 1554/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V SEVEN NAVICA VICINITY OF TRACKLINE BETWEEN\n57-11.1N 000-59.9E AND 56-29.6N 002-09.2E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V SEVEN NAVICA VICINITY OF TRACKLINE BETWEEN\n57-11.1N 000-59.9E AND 56-29.6N 002-09.2E.",
+    "valid_from": "2014-06-06T07:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

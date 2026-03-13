@@ -12,12 +12,16 @@
     "dtg": "2023-01-19T01:20:00",
     "raw_dtg": "190120Z JAN 23",
     "msg_id": "HYDROARC 149/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 242100Z JAN 23",
-      "HYDROARC 149/23"
+      "THIS MSG 242100Z JAN 23"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. HAZARDOUS OPERATIONS 241000Z TO 242000Z JAN\n   IN AREA WITHIN 20 MILES OF 28-00.00S 046-00.00W.\n2. CANCEL THIS MSG 242100Z JAN 23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. HAZARDOUS OPERATIONS 241000Z TO 242000Z JAN\n   IN AREA WITHIN 20 MILES OF 28-00.00S 046-00.00W.\n2. CANCEL THIS MSG 242100Z JAN 23.",
+    "valid_from": "2023-01-19T01:20:00+00:00",
+    "valid_until": "2023-01-24T21:00:00+00:00",
+    "summary": null
   }
 }

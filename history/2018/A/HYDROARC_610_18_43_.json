@@ -3,17 +3,23 @@
   "id": "HYDROARC 610/18(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7366666666666668,
+      61.13166666666667
+    ]
   },
   "properties": {
     "dtg": "2018-02-20T18:37:00",
     "raw_dtg": "201837Z FEB 18",
     "msg_id": "HYDROARC 610/18(43)",
-    "cancellations": [
-      "HYDROARC 1098/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nDNC 20.\nCHART 43300.\nALL NAVIGATIONAL AIDS AT PLATFORM 211/29-D,\n61-07.9N 001-44.2E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nDNC 20.\nCHART 43300.\nALL NAVIGATIONAL AIDS AT PLATFORM 211/29-D,\n61-07.9N 001-44.2E INOPERATIVE.",
+    "valid_from": "2018-02-20T18:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

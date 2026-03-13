@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1220/23(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2023-06-01T13:23:00",
     "raw_dtg": "011323Z JUN 23",
     "msg_id": "HYDROARC 1220/23(36)",
+    "year": 2023,
     "cancellations": [
-      "HYDROARC 1220/23"
+      "1207/23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nCANCEL HYDROLANT 1207/23 AND THIS MSG,\nAID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nCANCEL HYDROLANT 1207/23 AND THIS MSG,\nAID RESTORED.",
+    "valid_from": "2023-06-01T13:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

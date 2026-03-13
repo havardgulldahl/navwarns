@@ -3,17 +3,23 @@
   "id": "HYDROARC 1157/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.265,
+      50.18
+    ]
   },
   "properties": {
     "dtg": "2010-06-22T19:01:00",
     "raw_dtg": "221901Z JUN 10",
     "msg_id": "HYDROARC 1157/10(37)",
-    "cancellations": [
-      "HYDROARC 1169/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 37003 (1ST ED).\nFOG SIGNAL AT EDDYSTONE LIGHT 50-10.8N 004-15.9W INOPERATIVE."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 37003 (1ST ED).\nFOG SIGNAL AT EDDYSTONE LIGHT 50-10.8N 004-15.9W INOPERATIVE.",
+    "valid_from": "2010-06-22T19:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

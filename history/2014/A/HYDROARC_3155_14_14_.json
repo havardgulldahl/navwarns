@@ -3,17 +3,23 @@
   "id": "HYDROARC 3155/14(14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -76.96833333333333,
+      26.526666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-12-27T19:52:00",
     "raw_dtg": "271952Z DEC 14",
     "msg_id": "HYDROARC 3155/14(14)",
-    "cancellations": [
-      "HYDROARC 27/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 15, DNC 16.\nVESSEL TAKING ON WATER AND ADRIFT BETWEEN\nELBOW CAY (26-31.6N 076-58.1W) AND\nCAY SAL BANK (23-57.4N 080-26.1W).\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO RCC MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 15, DNC 16.\nVESSEL TAKING ON WATER AND ADRIFT BETWEEN\nELBOW CAY (26-31.6N 076-58.1W) AND\nCAY SAL BANK (23-57.4N 080-26.1W).\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO RCC MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2014-12-27T19:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

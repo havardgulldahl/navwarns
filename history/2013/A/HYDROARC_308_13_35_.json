@@ -3,17 +3,23 @@
   "id": "HYDROARC 308/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.7016666666666667,
+      55.1
+    ]
   },
   "properties": {
     "dtg": "2013-02-04T13:06:00",
     "raw_dtg": "041306Z FEB 13",
     "msg_id": "HYDROARC 308/13(35)",
-    "cancellations": [
-      "HYDROARC 495/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 35002\nMETEOROLOGICAL MAST UNDER CONSTRUCTION\nVICINITY 55-06.0N 002-42.1E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 35002\nMETEOROLOGICAL MAST UNDER CONSTRUCTION\nVICINITY 55-06.0N 002-42.1E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2013-02-04T13:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2341/15(36,37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-09-19T13:21:00",
     "raw_dtg": "191321Z SEP 15",
     "msg_id": "HYDROARC 2341/15(36,37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2341/15"
+      "2276/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nDNC 19, DNC 20.\nCANCEL HYDROLANT 2276/15 AND THIS MSG, OPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nDNC 19, DNC 20.\nCANCEL HYDROLANT 2276/15 AND THIS MSG, OPERATIONS COMPLETED.",
+    "valid_from": "2015-09-19T13:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

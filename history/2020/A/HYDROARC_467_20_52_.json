@@ -3,18 +3,25 @@
   "id": "HYDROARC 467/20(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.875,
+      33.80833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-02-10T08:58:00",
     "raw_dtg": "100858Z FEB 20",
     "msg_id": "HYDROARC 467/20(52)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 130858Z FEB 20",
-      "HYDROARC 467/20"
+      "THIS MSG 130858Z FEB 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. IRON TANK ADRIFT IN VICINITY\n   33-48.5N 011-52.5E ON 09 FEB.\n2. CANCEL THIS MSG 130858Z FEB 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. IRON TANK ADRIFT IN VICINITY\n   33-48.5N 011-52.5E ON 09 FEB.\n2. CANCEL THIS MSG 130858Z FEB 20.",
+    "valid_from": "2020-02-10T08:58:00+00:00",
+    "valid_until": "2020-02-13T08:58:00+00:00",
+    "summary": null
   }
 }

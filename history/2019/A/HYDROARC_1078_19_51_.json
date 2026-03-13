@@ -3,18 +3,25 @@
   "id": "HYDROARC 1078/19(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -18.42,
+      12.346666666666668
+    ]
   },
   "properties": {
     "dtg": "2019-04-05T13:26:00",
     "raw_dtg": "051326Z APR 19",
     "msg_id": "HYDROARC 1078/19(51)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 081130Z APR 19",
-      "HYDROARC 1078/19"
+      "THIS MSG 081130Z APR 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 01.\n1. 6000 METER CABLE WITH YELLOW FLOATS ADRIFT IN\n   VICINITY 12-20.8N 018-25.2W AT 051130Z APR.\n2. CANCEL THIS MSG 081130Z APR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 01.\n1. 6000 METER CABLE WITH YELLOW FLOATS ADRIFT IN\n   VICINITY 12-20.8N 018-25.2W AT 051130Z APR.\n2. CANCEL THIS MSG 081130Z APR 19.",
+    "valid_from": "2019-04-05T13:26:00+00:00",
+    "valid_until": "2019-04-08T11:30:00+00:00",
+    "summary": null
   }
 }

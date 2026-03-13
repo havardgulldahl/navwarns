@@ -2,18 +2,34 @@
   "type": "Feature",
   "id": "HYDROARC 2686/17(37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        1.75,
+        51.11333333333334
+      ],
+      [
+        1.4966666666666666,
+        51.11
+      ],
+      [
+        1.4,
+        51.145
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-09-02T07:46:00",
     "raw_dtg": "020746Z SEP 17",
     "msg_id": "HYDROARC 2686/17(37)",
-    "cancellations": [
-      "HYDROARC 2730/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nIN VICINITY OF TRACKLINE JOINING\n51-06.8N 001-45.0E, 51-06.6N 001-29.8E\n51-08.7N 001-24.0E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nIN VICINITY OF TRACKLINE JOINING\n51-06.8N 001-45.0E, 51-06.6N 001-29.8E\n51-08.7N 001-24.0E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2017-09-02T07:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

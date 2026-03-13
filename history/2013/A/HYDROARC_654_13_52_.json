@@ -3,17 +3,23 @@
   "id": "HYDROARC 654/13(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.1316666666666666,
+      35.72
+    ]
   },
   "properties": {
     "dtg": "2013-03-15T15:03:00",
     "raw_dtg": "151503Z MAR 13",
     "msg_id": "HYDROARC 654/13(52)",
-    "cancellations": [
-      "HYDROARC 1129/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52060\nILES HABLBAS LIGHT 35-43.2N 001-07.9W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52060\nILES HABLBAS LIGHT 35-43.2N 001-07.9W UNLIT.",
+    "valid_from": "2013-03-15T15:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

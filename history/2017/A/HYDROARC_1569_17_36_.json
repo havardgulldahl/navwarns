@@ -3,17 +3,23 @@
   "id": "HYDROARC 1569/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.9716666666666667,
+      51.56666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-05-18T08:58:00",
     "raw_dtg": "180858Z MAY 17",
     "msg_id": "HYDROARC 1569/17(36)",
-    "cancellations": [
-      "HYDROARC 422/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nWALES-SOUTH COAST.\nDNC 20.\nCHART 36044.\nFOG SIGNAL AT MUMBLES LIGHT 51-34.0N 003-58.3W\nINOPERATIVE."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nWALES-SOUTH COAST.\nDNC 20.\nCHART 36044.\nFOG SIGNAL AT MUMBLES LIGHT 51-34.0N 003-58.3W\nINOPERATIVE.",
+    "valid_from": "2017-05-18T08:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1372/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -32.94166666666667,
+      -32.03666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-06-05T18:44:00",
     "raw_dtg": "051844Z JUN 16",
     "msg_id": "HYDROARC 1372/16(24)",
-    "cancellations": [
-      "HYDROARC 1523/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\nMAN OVERBOARD IN 32-02.2S 032-56.5W ON 05 JUN.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO ANY\nCOASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\nMAN OVERBOARD IN 32-02.2S 032-56.5W ON 05 JUN.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO ANY\nCOASTAL RADIO STATION.",
+    "valid_from": "2016-06-05T18:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 3464/18(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -6.765,
+          36.498333333333335
+        ],
+        [
+          -6.75,
+          36.483333333333334
+        ],
+        [
+          -6.836666666666667,
+          36.43333333333333
+        ],
+        [
+          -6.851666666666667,
+          36.45
+        ],
+        [
+          -6.765,
+          36.498333333333335
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-11-07T18:18:00",
     "raw_dtg": "071818Z NOV 18",
     "msg_id": "HYDROARC 3464/18(51)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3464/18"
+      "THIS MSG 13 NOV 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF CADIZ.\nSPAIN.\nDNC 08.\n1. CABLE OPERATIONS 08 THRU 12 NOV\n   BY CABLESHIP ILE DE SEIN IN AREA BOUND BY\n   36-29.9N 006-45.9W, 36-29.0N 006-45.0W,\n   36-26.0N 006-50.2W, 36-27.0N 006-51.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 13 NOV 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF CADIZ.\nSPAIN.\nDNC 08.\n1. CABLE OPERATIONS 08 THRU 12 NOV\n   BY CABLESHIP ILE DE SEIN IN AREA BOUND BY\n   36-29.9N 006-45.9W, 36-29.0N 006-45.0W,\n   36-26.0N 006-50.2W, 36-27.0N 006-51.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 13 NOV 18.",
+    "valid_from": "2018-11-07T18:18:00+00:00",
+    "valid_until": "2018-11-13T00:00:00+00:00",
+    "summary": null
   }
 }

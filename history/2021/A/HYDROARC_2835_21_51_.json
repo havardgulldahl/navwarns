@@ -3,17 +3,25 @@
   "id": "HYDROARC 2835/21(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.881666666666666,
+      30.633333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-11-17T15:31:00",
     "raw_dtg": "171531Z NOV 21",
     "msg_id": "HYDROARC 2835/21(51)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 148/22"
+      "2438/19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\n1. CAP RHIR LIGHT 30-38.0N 009-52.9W UNLIT.\n2. CANCEL HYDROLANT 2438/19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\n1. CAP RHIR LIGHT 30-38.0N 009-52.9W UNLIT.\n2. CANCEL HYDROLANT 2438/19.",
+    "valid_from": "2021-11-17T15:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

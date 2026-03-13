@@ -3,17 +3,23 @@
   "id": "HYDROARC 425/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.641666666666667,
+      57.85666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-02-07T10:12:00",
     "raw_dtg": "071012Z FEB 20",
     "msg_id": "HYDROARC 425/20(35)",
-    "cancellations": [
-      "HYDROARC 432/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nRACON AT EILEAN GLAS LIGHT 57-51.4N 006-38.5W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nRACON AT EILEAN GLAS LIGHT 57-51.4N 006-38.5W INOPERATIVE.",
+    "valid_from": "2020-02-07T10:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2020/13(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.075,
+      36.77333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-08-18T00:26:00",
     "raw_dtg": "180026Z AUG 13",
     "msg_id": "HYDROARC 2020/13(52)",
-    "cancellations": [
-      "HYDROARC 2068/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52243\nDANGEROUS WRECK IN 36-46.4N 003-04.5E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52243\nDANGEROUS WRECK IN 36-46.4N 003-04.5E.",
+    "valid_from": "2013-08-18T00:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

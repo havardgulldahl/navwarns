@@ -3,18 +3,25 @@
   "id": "HYDROARC 1839/13(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.626666666666665,
+      21.283333333333335
+    ]
   },
   "properties": {
     "dtg": "2013-07-29T13:16:00",
     "raw_dtg": "291316Z JUL 13",
     "msg_id": "HYDROARC 1839/13(51)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 011315Z AUG 13",
-      "HYDROARC 1839/13"
+      "THIS MSG 011315Z AUG 13"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nWESTERN SAHARA.\n1. DERELICT SIX METER VESSEL, BLUE HULL, ADRIFT\n   IN 21-17.0N 017-37.6W AT 291155Z JUL.\n2. CANCEL THIS MSG 011315Z AUG 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nWESTERN SAHARA.\n1. DERELICT SIX METER VESSEL, BLUE HULL, ADRIFT\n   IN 21-17.0N 017-37.6W AT 291155Z JUL.\n2. CANCEL THIS MSG 011315Z AUG 13.",
+    "valid_from": "2013-07-29T13:16:00+00:00",
+    "valid_until": "2013-08-01T13:15:00+00:00",
+    "summary": null
   }
 }

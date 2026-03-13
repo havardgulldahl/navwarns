@@ -3,17 +3,25 @@
   "id": "HYDROARC 312/17(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -53.891666666666666,
+      68.29833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-10-03T04:49:00",
     "raw_dtg": "030449Z OCT 17",
     "msg_id": "HYDROARC 312/17(38)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 312/17"
+      "THIS MSG 16 OCT 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DAVIS STRAIT.\nGREENLAND-WEST COAST.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 15 OCT\n   BY CABLESHIP ILE DE SEIN IN 68-17.9N 053-53.5W.\n   0.5 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 OCT 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DAVIS STRAIT.\nGREENLAND-WEST COAST.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 15 OCT\n   BY CABLESHIP ILE DE SEIN IN 68-17.9N 053-53.5W.\n   0.5 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 OCT 17.",
+    "valid_from": "2017-10-03T04:49:00+00:00",
+    "valid_until": "2017-10-16T00:00:00+00:00",
+    "summary": null
   }
 }

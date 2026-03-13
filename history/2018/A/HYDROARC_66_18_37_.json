@@ -3,18 +3,26 @@
   "id": "HYDROARC 66/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.85,
+      43.416666666666664
+    ]
   },
   "properties": {
     "dtg": "2018-01-06T14:44:00",
     "raw_dtg": "061444Z JAN 18",
     "msg_id": "HYDROARC 66/18(37)",
+    "year": 2018,
     "cancellations": [
       "THIS MSG 091444Z JAN 18",
-      "HYDROARC 66/18"
+      "63/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. NUMEROUS CONTAINERS ADRIFT IN VICINITY OF TRACKLINE\n   BETWEEN 43-25.0N 009-51.0W AND 43-14.7N 009-47.6W.\n2. CANCEL HYDROLANT 63/18.\n3. CANCEL THIS MSG 091444Z JAN 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. NUMEROUS CONTAINERS ADRIFT IN VICINITY OF TRACKLINE\n   BETWEEN 43-25.0N 009-51.0W AND 43-14.7N 009-47.6W.\n2. CANCEL HYDROLANT 63/18.\n3. CANCEL THIS MSG 091444Z JAN 18.",
+    "valid_from": "2018-01-06T14:44:00+00:00",
+    "valid_until": "2018-01-09T14:44:00+00:00",
+    "summary": null
   }
 }

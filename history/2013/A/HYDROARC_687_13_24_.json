@@ -3,17 +3,23 @@
   "id": "HYDROARC 687/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.81333333333333,
+      -28.60333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-03-19T08:32:00",
     "raw_dtg": "190832Z MAR 13",
     "msg_id": "HYDROARC 687/13(24)",
-    "cancellations": [
-      "HYDROARC 772/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24120\nRADIOBEACON AT CABO SANTA MARTA LIGHT 28-36.2S 048-48.8W\nINOPERATIVE."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24120\nRADIOBEACON AT CABO SANTA MARTA LIGHT 28-36.2S 048-48.8W\nINOPERATIVE.",
+    "valid_from": "2013-03-19T08:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

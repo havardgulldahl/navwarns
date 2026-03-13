@@ -3,17 +3,23 @@
   "id": "HYDROARC 2167/10(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.775,
+      -33.44833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-11-15T12:39:00",
     "raw_dtg": "151239Z NOV 10",
     "msg_id": "HYDROARC 2167/10(57)",
-    "cancellations": [
-      "HYDROARC 2167/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\n1. SIX METER TANK ADRIFT IN 33-26.9S 003-46.5W.\n2. CANCEL THIS MSG 181240Z NOV."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\n1. SIX METER TANK ADRIFT IN 33-26.9S 003-46.5W.\n2. CANCEL THIS MSG 181240Z NOV.",
+    "valid_from": "2010-11-15T12:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1005/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.916666666666667,
+      50.25
+    ]
   },
   "properties": {
     "dtg": "2013-04-21T20:04:00",
     "raw_dtg": "212004Z APR 13",
     "msg_id": "HYDROARC 1005/13(36)",
-    "cancellations": [
-      "HYDROARC 1059/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FUTHER NOTICE\nBY CABLESHIP ILE DE AIX VICINITY OF TRACKLINE\nBETWEEN 50-15.0N 005-55.0W AND 50-11.5N 005-51.0W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FUTHER NOTICE\nBY CABLESHIP ILE DE AIX VICINITY OF TRACKLINE\nBETWEEN 50-15.0N 005-55.0W AND 50-11.5N 005-51.0W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2013-04-21T20:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

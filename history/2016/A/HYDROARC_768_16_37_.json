@@ -3,17 +3,23 @@
   "id": "HYDROARC 768/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4683333333333333,
+      51.733333333333334
+    ]
   },
   "properties": {
     "dtg": "2016-03-31T07:47:00",
     "raw_dtg": "310747Z MAR 16",
     "msg_id": "HYDROARC 768/16(37)",
-    "cancellations": [
-      "HYDROARC 789/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\nBLACK DEEP BUOY 1 51-44.0N 001-28.1E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\nBLACK DEEP BUOY 1 51-44.0N 001-28.1E UNLIT.",
+    "valid_from": "2016-03-31T07:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

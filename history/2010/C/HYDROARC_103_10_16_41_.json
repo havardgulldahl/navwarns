@@ -3,17 +3,23 @@
   "id": "HYDROARC 103/10(16,41)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -168.0007,
+      75.10031666666667
+    ]
   },
   "properties": {
     "dtg": "2010-10-25T00:20:00",
     "raw_dtg": "250020Z OCT 10",
     "msg_id": "HYDROARC 103/10(16,41)",
-    "cancellations": [
-      "HYDROARC 55/17"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "ARCTIC.\nCHUCHKI SEA.\nCHART 803\nSCIENTIFIC MOORINGS ESTABLISHED\nIN 75-06.019N 168-00.042W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCHUCHKI SEA.\nCHART 803\nSCIENTIFIC MOORINGS ESTABLISHED\nIN 75-06.019N 168-00.042W.",
+    "valid_from": "2010-10-25T00:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 273/18(15)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2018-10-13T16:07:00",
     "raw_dtg": "131607Z OCT 18",
     "msg_id": "HYDROARC 273/18(15)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 272/18",
-      "HYDROARC 273/18"
+      "HYDROARC 272/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANADA.\nDNC 28.\nCANCEL HYDROARC 272/18 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA.\nDNC 28.\nCANCEL HYDROARC 272/18 AND THIS MSG.",
+    "valid_from": "2018-10-13T16:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

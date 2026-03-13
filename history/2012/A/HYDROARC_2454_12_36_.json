@@ -3,17 +3,23 @@
   "id": "HYDROARC 2454/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.03,
+      54.975
+    ]
   },
   "properties": {
     "dtg": "2012-10-20T18:19:00",
     "raw_dtg": "201819Z OCT 12",
     "msg_id": "HYDROARC 2454/12(36)",
-    "cancellations": [
-      "HYDROARC 2466/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 35126\nCAIRN RYAN POINT LIGHT 54-58.5N 005-01.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 35126\nCAIRN RYAN POINT LIGHT 54-58.5N 005-01.8W UNRELIABLE.",
+    "valid_from": "2012-10-20T18:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

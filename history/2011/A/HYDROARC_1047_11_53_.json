@@ -3,17 +3,23 @@
   "id": "HYDROARC 1047/11(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.527222222222223,
+      39.91611111111111
+    ]
   },
   "properties": {
     "dtg": "2011-06-25T09:02:00",
     "raw_dtg": "250902Z JUN 11",
     "msg_id": "HYDROARC 1047/11(53)",
-    "cancellations": [
-      "HYDROARC 1047/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "TYRRHENIAN SEA.\n1. DERELICT M/V ALMAHMOUD ADRIFT\n   IN 39-54-58N 010-31-38E.\n2. CANCEL THIS MSG 281350Z JUN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TYRRHENIAN SEA.\n1. DERELICT M/V ALMAHMOUD ADRIFT\n   IN 39-54-58N 010-31-38E.\n2. CANCEL THIS MSG 281350Z JUN.",
+    "valid_from": "2011-06-25T09:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

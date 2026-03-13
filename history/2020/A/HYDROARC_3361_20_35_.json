@@ -3,18 +3,25 @@
   "id": "HYDROARC 3361/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.266666666666667,
+      57.446666666666665
+    ]
   },
   "properties": {
     "dtg": "2020-11-02T00:48:00",
     "raw_dtg": "020048Z NOV 20",
     "msg_id": "HYDROARC 3361/20(35)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 062000Z NOV 20",
-      "HYDROARC 3405/20"
+      "THIS MSG 062000Z NOV 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\n1. HAZARDOUS OPERATIONS 0700Z TO 1900Z DAILY\n   02 THRU 06 NOV IN AREA WITHIN 24 MILES OF\n   57-26.8N 008-16.0W.\n2. CANCEL THIS MSG 062000Z NOV 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\n1. HAZARDOUS OPERATIONS 0700Z TO 1900Z DAILY\n   02 THRU 06 NOV IN AREA WITHIN 24 MILES OF\n   57-26.8N 008-16.0W.\n2. CANCEL THIS MSG 062000Z NOV 20.",
+    "valid_from": "2020-11-02T00:48:00+00:00",
+    "valid_until": "2020-11-06T20:00:00+00:00",
+    "summary": null
   }
 }

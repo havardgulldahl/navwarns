@@ -3,17 +3,23 @@
   "id": "HYDROARC 681/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.703333333333333,
+      49.435
+    ]
   },
   "properties": {
     "dtg": "2018-02-27T11:13:00",
     "raw_dtg": "271113Z FEB 18",
     "msg_id": "HYDROARC 681/18(37)",
-    "cancellations": [
-      "HYDROARC 1155/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\nCHART 37080.\nFOG SIGNAL AT LES HANOIS LIGHT 49-26.1N 002-42.2W\nINOPERATIVE."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\nCHART 37080.\nFOG SIGNAL AT LES HANOIS LIGHT 49-26.1N 002-42.2W\nINOPERATIVE.",
+    "valid_from": "2018-02-27T11:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 100/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.861666666666667,
+      58.83833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-01-10T17:57:00",
     "raw_dtg": "101757Z JAN 14",
     "msg_id": "HYDROARC 100/14(35)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 117/14"
+      "81/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY CABLESHIP ILE DE AIX VICINITY 58-50.3N 002-51.7W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 81/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY CABLESHIP ILE DE AIX VICINITY 58-50.3N 002-51.7W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 81/14.",
+    "valid_from": "2014-01-10T17:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

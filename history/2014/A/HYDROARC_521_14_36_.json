@@ -3,17 +3,23 @@
   "id": "HYDROARC 521/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.9816666666666665,
+      52.67
+    ]
   },
   "properties": {
     "dtg": "2014-02-20T15:49:00",
     "raw_dtg": "201549Z FEB 14",
     "msg_id": "HYDROARC 521/14(36)",
-    "cancellations": [
-      "HYDROARC 525/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nSAINT GEORGES CHANNEL.\nCHART 36002\nRACON AT SOUTH ARKLOW BUOY 52-40.2N 005-58.9W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nSAINT GEORGES CHANNEL.\nCHART 36002\nRACON AT SOUTH ARKLOW BUOY 52-40.2N 005-58.9W INOPERATIVE.",
+    "valid_from": "2014-02-20T15:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 1506/10(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -15.158333333333333,
+          9.408333333333333
+        ],
+        [
+          -15.391666666666667,
+          9.183333333333334
+        ],
+        [
+          -14.433333333333334,
+          8.275
+        ],
+        [
+          -14.2,
+          8.483333333333333
+        ],
+        [
+          -15.158333333333333,
+          9.408333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-08-07T15:25:00",
     "raw_dtg": "071525Z AUG 10",
     "msg_id": "HYDROARC 1506/10(51)",
-    "cancellations": [
-      "HYDROARC 1879/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSIERRA LEONE.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V RAMFORM CHALLENGER TOWING TEN 6000 METER\nLONG CABLES IN AREA BOUND BY\n09-24.5N 015-09.5W, 09-11.0N 015-23.5W,\n08-16.5N 014-26.0W, 08-29.0N 014-12.0W.\nSIX MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSIERRA LEONE.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V RAMFORM CHALLENGER TOWING TEN 6000 METER\nLONG CABLES IN AREA BOUND BY\n09-24.5N 015-09.5W, 09-11.0N 015-23.5W,\n08-16.5N 014-26.0W, 08-29.0N 014-12.0W.\nSIX MILE BERTH REQUESTED.",
+    "valid_from": "2010-08-07T15:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

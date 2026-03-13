@@ -3,17 +3,25 @@
   "id": "HYDROARC 784/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.773333333333333,
+      57.14333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-03-27T16:58:00",
     "raw_dtg": "271658Z MAR 13",
     "msg_id": "HYDROARC 784/13(35)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 838/13"
+      "757/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nSOUND OF SLEAT.\nCHART 35089\n1. EILEAN SIONNACH LIGHT 57-08.6N 005-46.4W\n   RANGE REDUCED TO 12 MILES.\n2. CANCEL HYDROLANT 757/13(37), AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nSOUND OF SLEAT.\nCHART 35089\n1. EILEAN SIONNACH LIGHT 57-08.6N 005-46.4W\n   RANGE REDUCED TO 12 MILES.\n2. CANCEL HYDROLANT 757/13(37), AID RESTORED.",
+    "valid_from": "2013-03-27T16:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 262/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.3716666666666666,
+      57.485
+    ]
   },
   "properties": {
     "dtg": "2019-01-25T18:08:00",
     "raw_dtg": "251808Z JAN 19",
     "msg_id": "HYDROARC 262/19(35)",
-    "cancellations": [
-      "HYDROARC 380/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35013.\nALL NAVIGATIONAL AIDS OF TURBINE\nIN 57-29.1N 001-22.3W AT\nBUCHAN DEEP WINDFARM INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35013.\nALL NAVIGATIONAL AIDS OF TURBINE\nIN 57-29.1N 001-22.3W AT\nBUCHAN DEEP WINDFARM INOPERATIVE.",
+    "valid_from": "2019-01-25T18:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

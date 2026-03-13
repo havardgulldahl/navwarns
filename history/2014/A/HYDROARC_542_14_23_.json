@@ -3,18 +3,25 @@
   "id": "HYDROARC 542/14(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -32.07333333333333,
+      -52.635
+    ]
   },
   "properties": {
     "dtg": "2014-02-21T17:02:00",
     "raw_dtg": "211702Z FEB 14",
     "msg_id": "HYDROARC 542/14(23)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 241700Z FEB 14",
-      "HYDROARC 542/14"
+      "THIS MSG 241700Z FEB 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nICE.\n1. ICEBERG REPORTED IN 52-38.1S 032-04.4W.\n2. CANCEL THIS MSG 241700Z FEB 14."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nICE.\n1. ICEBERG REPORTED IN 52-38.1S 032-04.4W.\n2. CANCEL THIS MSG 241700Z FEB 14.",
+    "valid_from": "2014-02-21T17:02:00+00:00",
+    "valid_until": "2014-02-24T17:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 3498/17(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      4.23,
+      58.056666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-10-29T02:48:00",
     "raw_dtg": "290248Z OCT 17",
     "msg_id": "HYDROARC 3498/17(43)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 010248Z NOV 17",
-      "HYDROARC 3498/17"
+      "THIS MSG 010248Z NOV 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nNORWAY.\nDNC 20, DNC 21.\n1. CONTAINER ADRIFT IN 58-03.4N 004-13.8E\n   AT 290158Z OCT.\n2. CANCEL THIS MSG 010248Z NOV 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nNORWAY.\nDNC 20, DNC 21.\n1. CONTAINER ADRIFT IN 58-03.4N 004-13.8E\n   AT 290158Z OCT.\n2. CANCEL THIS MSG 010248Z NOV 17.",
+    "valid_from": "2017-10-29T02:48:00+00:00",
+    "valid_until": "2017-11-01T02:48:00+00:00",
+    "summary": null
   }
 }

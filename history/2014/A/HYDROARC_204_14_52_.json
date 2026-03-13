@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 204/14(52)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.2516666666666667,
+          35.51833333333333
+        ],
+        [
+          -1.2183333333333333,
+          35.568333333333335
+        ],
+        [
+          -1.1933333333333334,
+          35.556666666666665
+        ],
+        [
+          -1.2166666666666668,
+          35.50833333333333
+        ],
+        [
+          -1.2516666666666667,
+          35.51833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-01-21T12:03:00",
     "raw_dtg": "211203Z JAN 14",
     "msg_id": "HYDROARC 204/14(52)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 231900Z JAN 14",
-      "HYDROARC 204/14"
+      "THIS MSG 231900Z JAN 14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALBORAN SEA.\nALGERIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0600Z TO 1800Z DAILY\n   20 THRU 23 JAN IN AREA BOUND BY\n   35-31.1N 001-15.1W, 35-34.1N 001-13.1W,\n   35-33.4N 001-11.6W, 35-30.5N 001-13.0W.\n2. CANCEL THIS MSG 231900Z JAN 14."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALBORAN SEA.\nALGERIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0600Z TO 1800Z DAILY\n   20 THRU 23 JAN IN AREA BOUND BY\n   35-31.1N 001-15.1W, 35-34.1N 001-13.1W,\n   35-33.4N 001-11.6W, 35-30.5N 001-13.0W.\n2. CANCEL THIS MSG 231900Z JAN 14.",
+    "valid_from": "2014-01-21T12:03:00+00:00",
+    "valid_until": "2014-01-23T19:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 792/17(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -24.66,
+      14.886666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-03-10T16:28:00",
     "raw_dtg": "101628Z MAR 17",
     "msg_id": "HYDROARC 792/17(51)",
-    "cancellations": [
-      "HYDROARC 967/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCAPE VERDE.\nDNC 01.\nCABLE OPERATIONS 121600Z MAR UNTIL FURTHER NOTICE\nBY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\nIN AREA WITHIN ONE MILE OF 14-53.2N 024-39.6W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCAPE VERDE.\nDNC 01.\nCABLE OPERATIONS 121600Z MAR UNTIL FURTHER NOTICE\nBY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\nIN AREA WITHIN ONE MILE OF 14-53.2N 024-39.6W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2017-03-10T16:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

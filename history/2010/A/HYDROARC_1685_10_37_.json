@@ -3,17 +3,23 @@
   "id": "HYDROARC 1685/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.165,
+      51.325
+    ]
   },
   "properties": {
     "dtg": "2010-09-07T10:42:00",
     "raw_dtg": "071042Z SEP 10",
     "msg_id": "HYDROARC 1685/10(37)",
-    "cancellations": [
-      "HYDROARC 1729/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nSANDETTIE BANK.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V ICEBEAM ALONG TRACKLINE BETWEEN\n51-19.5N 002-09.9E AND 51-19.5N 002-01.6E.\nWIDE BERTH REQUESTED."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nSANDETTIE BANK.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V ICEBEAM ALONG TRACKLINE BETWEEN\n51-19.5N 002-09.9E AND 51-19.5N 002-01.6E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2010-09-07T10:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

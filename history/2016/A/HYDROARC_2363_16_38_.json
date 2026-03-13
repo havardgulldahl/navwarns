@@ -3,17 +3,23 @@
   "id": "HYDROARC 2363/16(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -51.44833333333333,
+      63.955
+    ]
   },
   "properties": {
     "dtg": "2016-09-11T18:11:00",
     "raw_dtg": "111811Z SEP 16",
     "msg_id": "HYDROARC 2363/16(38)",
-    "cancellations": [
-      "HYDROARC 2593/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DAVIS STRAIT.\nGREENLAND-WEST COAST.\nDNC 19, DNC 28.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n63-57.3N 051-26.9W AT 111710Z SEP.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO AASIAAT RADIO."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DAVIS STRAIT.\nGREENLAND-WEST COAST.\nDNC 19, DNC 28.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n63-57.3N 051-26.9W AT 111710Z SEP.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO AASIAAT RADIO.",
+    "valid_from": "2016-09-11T18:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

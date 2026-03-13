@@ -3,17 +3,23 @@
   "id": "HYDROARC 2899/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.016666666666667,
+      50.141666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-11-25T19:17:00",
     "raw_dtg": "251917Z NOV 21",
     "msg_id": "HYDROARC 2899/21(37)",
-    "cancellations": [
-      "HYDROARC 2970/21"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT SAINT ANTHONY LIGHT\n50-08.5N 005-01.0W INOPERATIVE."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT SAINT ANTHONY LIGHT\n50-08.5N 005-01.0W INOPERATIVE.",
+    "valid_from": "2021-11-25T19:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

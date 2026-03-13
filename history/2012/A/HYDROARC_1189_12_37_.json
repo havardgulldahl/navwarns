@@ -3,17 +3,23 @@
   "id": "HYDROARC 1189/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.376666666666667,
+      49.721666666666664
+    ]
   },
   "properties": {
     "dtg": "2012-06-03T15:42:00",
     "raw_dtg": "031542Z JUN 12",
     "msg_id": "HYDROARC 1189/12(37)",
-    "cancellations": [
-      "HYDROARC 1201/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nCHART 37080\nCASQUETS LIGHT 49-43.3N 002-22.6W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nCHART 37080\nCASQUETS LIGHT 49-43.3N 002-22.6W UNLIT.",
+    "valid_from": "2012-06-03T15:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1597/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.925,
+      -25.28
+    ]
   },
   "properties": {
     "dtg": "2012-07-17T01:13:00",
     "raw_dtg": "170113Z JUL 12",
     "msg_id": "HYDROARC 1597/12(24)",
-    "cancellations": [
-      "HYDROARC 2593/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24004\nODAS BUOY ESTABLISHED IN 25-16.8S 044-55.5W.\n500 METER BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24004\nODAS BUOY ESTABLISHED IN 25-16.8S 044-55.5W.\n500 METER BERTH REQUESTED.",
+    "valid_from": "2012-07-17T01:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

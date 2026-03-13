@@ -3,17 +3,23 @@
   "id": "HYDROARC 703/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0983333333333334,
+      60.26166666666666
+    ]
   },
   "properties": {
     "dtg": "2016-03-23T08:14:00",
     "raw_dtg": "230814Z MAR 16",
     "msg_id": "HYDROARC 703/16(35)",
-    "cancellations": [
-      "HYDROARC 710/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35072.\nMOUL OF ESWICK LIGHT 60-15.7N 001-05.9W UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35072.\nMOUL OF ESWICK LIGHT 60-15.7N 001-05.9W UNLIT.",
+    "valid_from": "2016-03-23T08:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

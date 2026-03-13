@@ -3,17 +3,23 @@
   "id": "HYDROARC 417/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.775,
+      52.34166666666667
+    ]
   },
   "properties": {
     "dtg": "2010-03-10T15:53:00",
     "raw_dtg": "101553Z MAR 10",
     "msg_id": "HYDROARC 417/10(37)",
-    "cancellations": [
-      "HYDROARC 443/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY 52-20.5N 002-46.5E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY 52-20.5N 002-46.5E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2010-03-10T15:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2837/16(14,51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -53.406666666666666,
+      37.61833333333333
+    ]
   },
   "properties": {
     "dtg": "2016-10-28T23:13:00",
     "raw_dtg": "282313Z OCT 16",
     "msg_id": "HYDROARC 2837/16(14,51)",
-    "cancellations": [
-      "HYDROARC 2844/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n37-37.1N 053-24.4W AT 282209Z OCT. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n37-37.1N 053-24.4W AT 282209Z OCT. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2016-10-28T23:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

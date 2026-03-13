@@ -3,18 +3,25 @@
   "id": "HYDROARC 504/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.086666666666666,
+      57.28
+    ]
   },
   "properties": {
     "dtg": "2022-02-21T01:22:00",
     "raw_dtg": "210122Z FEB 22",
     "msg_id": "HYDROARC 504/22(35)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 271800Z FEB 22",
-      "HYDROARC 566/22"
+      "THIS MSG 271800Z FEB 22"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\n1. HAZARDOUS OPERATIONS 0800Z TO 1700Z DAILY\n   21 THRU 27 FEB IN AREA WITHIN 24 MILES OF\n   57-16.8N 008-05.2W.\n2. CANCEL THIS MSG 271800Z FEB 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\n1. HAZARDOUS OPERATIONS 0800Z TO 1700Z DAILY\n   21 THRU 27 FEB IN AREA WITHIN 24 MILES OF\n   57-16.8N 008-05.2W.\n2. CANCEL THIS MSG 271800Z FEB 22.",
+    "valid_from": "2022-02-21T01:22:00+00:00",
+    "valid_until": "2022-02-27T18:00:00+00:00",
+    "summary": null
   }
 }

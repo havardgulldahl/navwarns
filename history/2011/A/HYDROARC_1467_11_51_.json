@@ -3,17 +3,25 @@
   "id": "HYDROARC 1467/11(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -21.268333333333334,
+      24.94
+    ]
   },
   "properties": {
     "dtg": "2011-09-13T14:18:00",
     "raw_dtg": "131418Z SEP 11",
     "msg_id": "HYDROARC 1467/11(51)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 1467/11"
+      "1452/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS 142300Z TO 151400Z SEP\n   BY CABLESHIP JAMES COOK VICINITY\n   24-56.4N 021-16.1W. WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1452/11.\n3. CANCEL THIS MSG 151500Z SEP."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS 142300Z TO 151400Z SEP\n   BY CABLESHIP JAMES COOK VICINITY\n   24-56.4N 021-16.1W. WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1452/11.\n3. CANCEL THIS MSG 151500Z SEP.",
+    "valid_from": "2011-09-13T14:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

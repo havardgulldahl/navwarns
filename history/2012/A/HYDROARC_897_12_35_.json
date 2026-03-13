@@ -3,17 +3,23 @@
   "id": "HYDROARC 897/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.5366666666666666,
+      55.333333333333336
+    ]
   },
   "properties": {
     "dtg": "2012-04-27T09:08:00",
     "raw_dtg": "270908Z APR 12",
     "msg_id": "HYDROARC 897/12(35)",
-    "cancellations": [
-      "HYDROARC 1960/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nCHART 35010\nCOQUET ISLAND LIGHT 55-20.0N 001-32.2W AT REDUCED\nINTENSITY AND DISPLAYED ONLY DURING DARKNESS."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nCHART 35010\nCOQUET ISLAND LIGHT 55-20.0N 001-32.2W AT REDUCED\nINTENSITY AND DISPLAYED ONLY DURING DARKNESS.",
+    "valid_from": "2012-04-27T09:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

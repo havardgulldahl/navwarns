@@ -12,12 +12,16 @@
     "dtg": "2023-10-03T06:29:00",
     "raw_dtg": "030629Z OCT 23",
     "msg_id": "HYDROARC 2237/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 010001Z APR 24",
-      "HYDROARC 2252/23"
+      "THIS MSG 010001Z APR 24"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DO VARRIDO LIGHT 26-47.10S 048-35.17W\n   UNLIT UNTIL 31 MAR 24.\n2. CANCEL THIS MSG 010001Z APR 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DO VARRIDO LIGHT 26-47.10S 048-35.17W\n   UNLIT UNTIL 31 MAR 24.\n2. CANCEL THIS MSG 010001Z APR 24.",
+    "valid_from": "2023-10-03T06:29:00+00:00",
+    "valid_until": "2024-04-01T00:01:00+00:00",
+    "summary": null
   }
 }

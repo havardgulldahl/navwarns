@@ -3,17 +3,25 @@
   "id": "HYDROARC 167/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.3233333333333333,
+      53.49666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-01-21T11:15:00",
     "raw_dtg": "211115Z JAN 12",
     "msg_id": "HYDROARC 167/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 353/12"
+      "2118/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37166\n1. PLATFORM 49/17-HD 53-29.8N 002-19.4E UNLIT.\n2. CANCEL HYDROLANT 2118/11."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37166\n1. PLATFORM 49/17-HD 53-29.8N 002-19.4E UNLIT.\n2. CANCEL HYDROLANT 2118/11.",
+    "valid_from": "2012-01-21T11:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

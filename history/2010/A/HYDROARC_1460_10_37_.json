@@ -3,17 +3,23 @@
   "id": "HYDROARC 1460/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.465,
+      49.25833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-07-29T20:37:00",
     "raw_dtg": "292037Z JUL 10",
     "msg_id": "HYDROARC 1460/10(37)",
-    "cancellations": [
-      "HYDROARC 1460/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\n1. 350 METER LONG TRAWL, PANELS AND CABLES\n   ADRIFT VICINITY 49-15.5N 005-27.9W.\n2. CANCEL THIS MSG 012030Z AUG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\n1. 350 METER LONG TRAWL, PANELS AND CABLES\n   ADRIFT VICINITY 49-15.5N 005-27.9W.\n2. CANCEL THIS MSG 012030Z AUG.",
+    "valid_from": "2010-07-29T20:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

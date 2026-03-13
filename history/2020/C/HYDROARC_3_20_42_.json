@@ -3,18 +3,25 @@
   "id": "HYDROARC 3/20(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      68.68333333333334,
+      77.19
+    ]
   },
   "properties": {
     "dtg": "2020-01-09T07:17:00",
     "raw_dtg": "090717Z JAN 20",
     "msg_id": "HYDROARC 3/20(42)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 120717Z JAN 20",
-      "HYDROARC 3/20"
+      "THIS MSG 120717Z JAN 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN VICINITY\n   77-11.4N 068-41.0E AT 090405Z JAN.\n2. CANCEL THIS MSG 120717Z JAN 20."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN VICINITY\n   77-11.4N 068-41.0E AT 090405Z JAN.\n2. CANCEL THIS MSG 120717Z JAN 20.",
+    "valid_from": "2020-01-09T07:17:00+00:00",
+    "valid_until": "2020-01-12T07:17:00+00:00",
+    "summary": null
   }
 }

@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 215/23(41)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        130.0,
-        77.0
-      ],
-      [
-        136.0,
-        77.0
-      ],
-      [
-        136.0,
-        76.0
-      ],
-      [
-        130.0,
-        76.0
+        [
+          130.0,
+          77.0
+        ],
+        [
+          136.0,
+          77.0
+        ],
+        [
+          136.0,
+          76.0
+        ],
+        [
+          130.0,
+          76.0
+        ],
+        [
+          130.0,
+          77.0
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2023-09-13T07:26:00",
     "raw_dtg": "130726Z SEP 23",
     "msg_id": "HYDROARC 215/23(41)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 231800Z SEP 23",
-      "HYDROARC 215/23"
+      "THIS MSG 231800Z SEP 23"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ARCTIC.\nLAPTEV SEA.\nRUSSIA.\nDNC 27.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0500Z TO 1700Z DAILY 18 THRU 20 SEP,\n   ALTERNATE 0500Z TO 1700Z DAILY 21 THRU 23\n   SEP IN AREA BOUND BY\n   77-00.00N 130-00.00E, 77-00.00N 136-00.00E,\n   76-00.00N 136-00.00E, 76-00.00N 130-00.00E.\n2. CANCEL THIS MSG 231800Z SEP 23."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nLAPTEV SEA.\nRUSSIA.\nDNC 27.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0500Z TO 1700Z DAILY 18 THRU 20 SEP,\n   ALTERNATE 0500Z TO 1700Z DAILY 21 THRU 23\n   SEP IN AREA BOUND BY\n   77-00.00N 130-00.00E, 77-00.00N 136-00.00E,\n   76-00.00N 136-00.00E, 76-00.00N 130-00.00E.\n2. CANCEL THIS MSG 231800Z SEP 23.",
+    "valid_from": "2023-09-13T07:26:00+00:00",
+    "valid_until": "2023-09-23T18:00:00+00:00",
+    "summary": null
   }
 }

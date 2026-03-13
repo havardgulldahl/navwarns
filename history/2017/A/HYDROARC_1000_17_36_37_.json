@@ -3,17 +3,25 @@
   "id": "HYDROARC 1000/17(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8966666666666665,
+      50.13666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-03-28T09:37:00",
     "raw_dtg": "280937Z MAR 17",
     "msg_id": "HYDROARC 1000/17(36,37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 1012/17"
+      "973/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP ILE DAIX WITH SUBMERSIBLE\n   IN VICINITY 50-08.2N 005-53.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 973/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP ILE DAIX WITH SUBMERSIBLE\n   IN VICINITY 50-08.2N 005-53.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 973/17.",
+    "valid_from": "2017-03-28T09:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

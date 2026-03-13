@@ -3,18 +3,26 @@
   "id": "HYDROARC 1233/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.46499999999999997,
+      50.06333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-05-04T20:27:00",
     "raw_dtg": "042027Z MAY 21",
     "msg_id": "HYDROARC 1233/21(37)",
+    "year": 2021,
     "cancellations": [
       "THIS MSG 072027Z MAY 21",
-      "HYDROARC 1236/21"
+      "1225/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\n1. M/V VARZUGA ADRIFT IN 50-03.8N 000-27.9W AT\n   041600Z MAY.\n2. CANCEL HYDROLANT 1225/21.\n3. CANCEL THIS MSG 072027Z MAY 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\n1. M/V VARZUGA ADRIFT IN 50-03.8N 000-27.9W AT\n   041600Z MAY.\n2. CANCEL HYDROLANT 1225/21.\n3. CANCEL THIS MSG 072027Z MAY 21.",
+    "valid_from": "2021-05-04T20:27:00+00:00",
+    "valid_until": "2021-05-07T20:27:00+00:00",
+    "summary": null
   }
 }

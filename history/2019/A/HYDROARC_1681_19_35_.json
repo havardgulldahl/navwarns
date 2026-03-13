@@ -3,17 +3,23 @@
   "id": "HYDROARC 1681/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.243333333333333,
+      57.64833333333333
+    ]
   },
   "properties": {
     "dtg": "2019-06-01T09:31:00",
     "raw_dtg": "010931Z JUN 19",
     "msg_id": "HYDROARC 1681/19(35)",
-    "cancellations": [
-      "HYDROARC 1803/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\nCGOC ABERDEEN DSC SERVICE AT WINDY HEAD\n57-38.9N 002-14.6W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\nCGOC ABERDEEN DSC SERVICE AT WINDY HEAD\n57-38.9N 002-14.6W OFF AIR.",
+    "valid_from": "2019-06-01T09:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

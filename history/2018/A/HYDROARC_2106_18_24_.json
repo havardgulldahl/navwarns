@@ -3,17 +3,25 @@
   "id": "HYDROARC 2106/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.486666666666665,
+      -5.161666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-06-28T18:30:00",
     "raw_dtg": "281830Z JUN 18",
     "msg_id": "HYDROARC 2106/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2166/18"
+      "THIS MSG 26 DEC 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. PONTA DE CALCANHAR LIGHT 05-09.7S 035-29.2W\n   UNRELIABLE UNTIL 25 DEC 18.\n2. CANCEL THIS MSG 26 DEC 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. PONTA DE CALCANHAR LIGHT 05-09.7S 035-29.2W\n   UNRELIABLE UNTIL 25 DEC 18.\n2. CANCEL THIS MSG 26 DEC 18.",
+    "valid_from": "2018-06-28T18:30:00+00:00",
+    "valid_until": "2018-12-26T00:00:00+00:00",
+    "summary": null
   }
 }

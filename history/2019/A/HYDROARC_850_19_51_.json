@@ -2,18 +2,65 @@
   "type": "Feature",
   "id": "HYDROARC 850/19(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -17.098333333333333,
+        12.113333333333333
+      ],
+      [
+        -17.278333333333332,
+        12.461666666666666
+      ],
+      [
+        -17.293333333333333,
+        12.793333333333333
+      ],
+      [
+        -17.293333333333333,
+        13.058333333333334
+      ],
+      [
+        -17.291666666666668,
+        13.5
+      ],
+      [
+        -17.308333333333334,
+        13.593333333333334
+      ],
+      [
+        -17.381666666666668,
+        14.005
+      ],
+      [
+        -17.425,
+        14.25
+      ],
+      [
+        -17.496666666666666,
+        14.638333333333334
+      ],
+      [
+        -17.48,
+        14.678333333333333
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-03-17T04:39:00",
     "raw_dtg": "170439Z MAR 19",
     "msg_id": "HYDROARC 850/19(51)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1222/19"
+      "THIS MSG 23 APR 19",
+      "602/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nGUINEA-BISSAU.\nDNC 01.\n1. CABLE OPERATIONS 19 MAR THRU 22 APR BY\n   C/S ILE DE SEIN ALONG TRACKLINE JOINING\n   12-06.8N 017-05.9W, 12-27.7N 017-16.7W,\n   12-47.6N 017-17.6W, 13-03.5N 017-17.6W,\n   13-30.0N 017-17.5W, 13-35.6N 017-18.5W,\n   14-00.3N 017-22.9W, 14-15.0N 017-25.5W,\n   14-38.3N 017-29.8W, 14-40.7N 017-28.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 602/19.\n3. CANCEL THIS MSG 23 APR 19."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nGUINEA-BISSAU.\nDNC 01.\n1. CABLE OPERATIONS 19 MAR THRU 22 APR BY\n   C/S ILE DE SEIN ALONG TRACKLINE JOINING\n   12-06.8N 017-05.9W, 12-27.7N 017-16.7W,\n   12-47.6N 017-17.6W, 13-03.5N 017-17.6W,\n   13-30.0N 017-17.5W, 13-35.6N 017-18.5W,\n   14-00.3N 017-22.9W, 14-15.0N 017-25.5W,\n   14-38.3N 017-29.8W, 14-40.7N 017-28.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 602/19.\n3. CANCEL THIS MSG 23 APR 19.",
+    "valid_from": "2019-03-17T04:39:00+00:00",
+    "valid_until": "2019-04-23T00:00:00+00:00",
+    "summary": null
   }
 }

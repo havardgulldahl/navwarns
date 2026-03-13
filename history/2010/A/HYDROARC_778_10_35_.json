@@ -3,17 +3,23 @@
   "id": "HYDROARC 778/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.286666666666667,
+      57.985
+    ]
   },
   "properties": {
     "dtg": "2010-05-04T00:40:00",
     "raw_dtg": "040040Z MAY 10",
     "msg_id": "HYDROARC 778/10(35)",
-    "cancellations": [
-      "HYDROARC 806/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35075 (2ND ED).\nGASKER ISLAND LIGHT 57-59.1N 007-17.2W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35075 (2ND ED).\nGASKER ISLAND LIGHT 57-59.1N 007-17.2W UNLIT.",
+    "valid_from": "2010-05-04T00:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3602/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.921666666666667,
+      53.47
+    ]
   },
   "properties": {
     "dtg": "2019-11-24T21:32:00",
     "raw_dtg": "242132Z NOV 19",
     "msg_id": "HYDROARC 3602/19(37)",
-    "cancellations": [
-      "HYDROARC 9/20"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT SHAMROCK PLATFORM,\n53-28.2N 002-55.3E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT SHAMROCK PLATFORM,\n53-28.2N 002-55.3E UNRELIABLE.",
+    "valid_from": "2019-11-24T21:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

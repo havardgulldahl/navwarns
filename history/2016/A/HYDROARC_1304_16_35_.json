@@ -3,17 +3,23 @@
   "id": "HYDROARC 1304/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.98,
+      58.18333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-05-30T20:28:00",
     "raw_dtg": "302028Z MAY 16",
     "msg_id": "HYDROARC 1304/16(35)",
-    "cancellations": [
-      "HYDROARC 1749/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35055.\nFOG SIGNAL AT PLATFORM 12/21C JACKY,\n58-11.0N 002-58.8W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35055.\nFOG SIGNAL AT PLATFORM 12/21C JACKY,\n58-11.0N 002-58.8W INOPERATIVE.",
+    "valid_from": "2016-05-30T20:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 885/21(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      13.065,
+      37.485
+    ]
   },
   "properties": {
     "dtg": "2021-03-31T20:33:00",
     "raw_dtg": "312033Z MAR 21",
     "msg_id": "HYDROARC 885/21(53)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 032359Z APR 21",
-      "HYDROARC 885/21"
+      "THIS MSG 032359Z APR 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF SICILY.\nSICILY.\nDNC 09.\n1. LOG ADRIFT IN 37-29.1N 013-03.9E.\n2. CANCEL THIS MSG 032359Z APR 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF SICILY.\nSICILY.\nDNC 09.\n1. LOG ADRIFT IN 37-29.1N 013-03.9E.\n2. CANCEL THIS MSG 032359Z APR 21.",
+    "valid_from": "2021-03-31T20:33:00+00:00",
+    "valid_until": "2021-04-03T23:59:00+00:00",
+    "summary": null
   }
 }

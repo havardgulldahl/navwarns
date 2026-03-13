@@ -3,17 +3,23 @@
   "id": "HYDROARC 74/22(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -25.553333333333335,
+      37.80833333333333
+    ]
   },
   "properties": {
     "dtg": "2022-01-08T01:34:00",
     "raw_dtg": "080134Z JAN 22",
     "msg_id": "HYDROARC 74/22(51)",
-    "cancellations": [
-      "HYDROARC 80/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nAZORES.\nDNC 08.\nNAVTEX STATION SAO MIGUEL (F) 37-48.5N 025-33.2W\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nAZORES.\nDNC 08.\nNAVTEX STATION SAO MIGUEL (F) 37-48.5N 025-33.2W\nOFF AIR.",
+    "valid_from": "2022-01-08T01:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 281/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.94833333333333,
+      0.99
+    ]
   },
   "properties": {
     "dtg": "2013-01-31T17:18:00",
     "raw_dtg": "311718Z JAN 13",
     "msg_id": "HYDROARC 281/13(24)",
-    "cancellations": [
-      "HYDROARC 2600/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24320\nRACON AT BAILIQUE LIGHT 00-59.4N 049-56.9W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24320\nRACON AT BAILIQUE LIGHT 00-59.4N 049-56.9W INOPERATIVE.",
+    "valid_from": "2013-01-31T17:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

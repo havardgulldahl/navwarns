@@ -3,17 +3,23 @@
   "id": "HYDROARC 2343/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7666666666666666,
+      51.835
+    ]
   },
   "properties": {
     "dtg": "2010-12-04T20:07:00",
     "raw_dtg": "042007Z DEC 10",
     "msg_id": "HYDROARC 2343/10(37)",
-    "cancellations": [
-      "HYDROARC 2349/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nNGA CHART 37140 (33RD ED).\nRACON AT SUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nNGA CHART 37140 (33RD ED).\nRACON AT SUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E INOPERATIVE.",
+    "valid_from": "2010-12-04T20:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2719/17(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      9.098333333333333,
+      39.155
+    ]
   },
   "properties": {
     "dtg": "2017-09-05T12:37:00",
     "raw_dtg": "051237Z SEP 17",
     "msg_id": "HYDROARC 2719/17(53)",
-    "cancellations": [
-      "HYDROARC 2728/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TYRRHENIAN SEA.\nSARDINIA.\nDNC 08.\nCABLE OPERATIONS 051800Z SEP UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE IN AREA WITHIN\n0.5 MILE OF 39-09.3N 009-05.9E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TYRRHENIAN SEA.\nSARDINIA.\nDNC 08.\nCABLE OPERATIONS 051800Z SEP UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE IN AREA WITHIN\n0.5 MILE OF 39-09.3N 009-05.9E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2017-09-05T12:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 203/12(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -61.405,
+      12.62
+    ]
   },
   "properties": {
     "dtg": "2012-01-25T03:37:00",
     "raw_dtg": "250337Z JAN 12",
     "msg_id": "HYDROARC 203/12(25)",
-    "cancellations": [
-      "HYDROARC 558/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN CARIBBEAN SEA.\nGRENADA.\nDISTRESS SIGNAL RECEIVED FROM\n95 FOOT F/V MASTER MACK II VICINITY\n12-37.2N 061-24.3W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF\nPOSSIBLE. REPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN CARIBBEAN SEA.\nGRENADA.\nDISTRESS SIGNAL RECEIVED FROM\n95 FOOT F/V MASTER MACK II VICINITY\n12-37.2N 061-24.3W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF\nPOSSIBLE. REPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041.",
+    "valid_from": "2012-01-25T03:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

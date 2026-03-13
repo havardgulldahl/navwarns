@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2795/16(11)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-10-24T13:42:00",
     "raw_dtg": "241342Z OCT 16",
     "msg_id": "HYDROARC 2795/16(11)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2795/16"
+      "2787/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nDNC 15.\nCANCEL HYDROLANT 2787/16 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nDNC 15.\nCANCEL HYDROLANT 2787/16 AND THIS MSG.",
+    "valid_from": "2016-10-24T13:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

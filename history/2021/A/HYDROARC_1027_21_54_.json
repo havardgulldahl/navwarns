@@ -2,19 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 1027/21(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.866666666666667,
+          45.28333333333333
+        ],
+        [
+          12.95,
+          45.28333333333333
+        ],
+        [
+          13.0,
+          45.05
+        ],
+        [
+          12.891666666666667,
+          45.05
+        ],
+        [
+          12.866666666666667,
+          45.11666666666667
+        ],
+        [
+          12.866666666666667,
+          45.28333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-04-15T12:02:00",
     "raw_dtg": "151202Z APR 21",
     "msg_id": "HYDROARC 1027/21(54)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 201800Z APR 21",
-      "HYDROARC 1027/21"
+      "THIS MSG 201800Z APR 21"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ADRIATIC SEA.\nITALY.\nDNC 09.\n1. HAZARDOUS OPERATIONS 201100Z TO 201700Z DAILY\n   IN AREA BOUND BY\n   45-17.0N 012-52.0E, 45-17.0N 012-57.0E,\n   45-03.0N 013-00.0E, 45-03.0N 012-53.5E,\n   45-07.0N 012-52.0E.\n2. CANCEL THIS MSG 201800Z APR 21."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ADRIATIC SEA.\nITALY.\nDNC 09.\n1. HAZARDOUS OPERATIONS 201100Z TO 201700Z DAILY\n   IN AREA BOUND BY\n   45-17.0N 012-52.0E, 45-17.0N 012-57.0E,\n   45-03.0N 013-00.0E, 45-03.0N 012-53.5E,\n   45-07.0N 012-52.0E.\n2. CANCEL THIS MSG 201800Z APR 21.",
+    "valid_from": "2021-04-15T12:02:00+00:00",
+    "valid_until": "2021-04-20T18:00:00+00:00",
+    "summary": null
   }
 }

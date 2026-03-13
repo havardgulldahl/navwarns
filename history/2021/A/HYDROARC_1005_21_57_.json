@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 1005/21(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          14.798333333333334,
+          -26.071666666666665
+        ],
+        [
+          14.73,
+          -25.843333333333334
+        ],
+        [
+          14.873333333333333,
+          -25.843333333333334
+        ],
+        [
+          14.951666666666666,
+          -26.081666666666667
+        ],
+        [
+          14.798333333333334,
+          -26.071666666666665
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-04-13T14:12:00",
     "raw_dtg": "131412Z APR 21",
     "msg_id": "HYDROARC 1005/21(57)",
-    "cancellations": [
-      "HYDROARC 1655/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V YA TOIVO IN AREA BOUND BY\n26-04.3S 014-47.9E, 25-50.6S 014-43.8E,\n25-50.6S 014-52.4E, 26-04.9S 014-57.1E.\nTWO MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V YA TOIVO IN AREA BOUND BY\n26-04.3S 014-47.9E, 25-50.6S 014-43.8E,\n25-50.6S 014-52.4E, 26-04.9S 014-57.1E.\nTWO MILE BERTH REQUESTED.",
+    "valid_from": "2021-04-13T14:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

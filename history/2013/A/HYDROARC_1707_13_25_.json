@@ -3,18 +3,25 @@
   "id": "HYDROARC 1707/13(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -63.516666666666666,
+      30.491666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-07-15T23:52:00",
     "raw_dtg": "152352Z JUL 13",
     "msg_id": "HYDROARC 1707/13(25)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 182355Z JUL 13",
-      "HYDROARC 1707/13"
+      "THIS MSG 182355Z JUL 13"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\n1. DERELICT S/V CHAMPIS ADRIFT IN 30-29.5N 063-31.0W.\n2. CANCEL THIS MSG 182355Z JUL 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\n1. DERELICT S/V CHAMPIS ADRIFT IN 30-29.5N 063-31.0W.\n2. CANCEL THIS MSG 182355Z JUL 13.",
+    "valid_from": "2013-07-15T23:52:00+00:00",
+    "valid_until": "2013-07-18T23:55:00+00:00",
+    "summary": null
   }
 }

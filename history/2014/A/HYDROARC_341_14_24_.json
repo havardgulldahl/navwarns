@@ -3,17 +3,23 @@
   "id": "HYDROARC 341/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.765,
+      -0.18000000000000002
+    ]
   },
   "properties": {
     "dtg": "2014-02-04T09:03:00",
     "raw_dtg": "040903Z FEB 14",
     "msg_id": "HYDROARC 341/14(24)",
-    "cancellations": [
-      "HYDROARC 355/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nMAN OVERBOARD VICINITY ILHA DO MACHADINHO LIGHT\n00-10.8S 048-45.9W AT 030525Z FEB. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL\nRADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nMAN OVERBOARD VICINITY ILHA DO MACHADINHO LIGHT\n00-10.8S 048-45.9W AT 030525Z FEB. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL\nRADIO STATION.",
+    "valid_from": "2014-02-04T09:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

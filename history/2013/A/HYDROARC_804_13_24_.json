@@ -3,17 +3,23 @@
   "id": "HYDROARC 804/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.36333333333334,
+      -28.935
+    ]
   },
   "properties": {
     "dtg": "2013-03-29T00:58:00",
     "raw_dtg": "290058Z MAR 13",
     "msg_id": "HYDROARC 804/13(24)",
-    "cancellations": [
-      "HYDROARC 807/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24120\nRACON AT ARARANGUA LIGHT 28-56.1S 049-21.8W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24120\nRACON AT ARARANGUA LIGHT 28-56.1S 049-21.8W INOPERATIVE.",
+    "valid_from": "2013-03-29T00:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

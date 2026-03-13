@@ -3,17 +3,25 @@
   "id": "HYDROARC 1923/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.171666666666667,
+      51.22
+    ]
   },
   "properties": {
     "dtg": "2014-08-12T11:43:00",
     "raw_dtg": "121143Z AUG 14",
     "msg_id": "HYDROARC 1923/14(37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1952/14"
+      "1919/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37120\n1. RUYTINGEN NORTH BUOY 51-13.2N 002-10.3E MISSING.\n2. CANCEL HYDROLANT 1919/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37120\n1. RUYTINGEN NORTH BUOY 51-13.2N 002-10.3E MISSING.\n2. CANCEL HYDROLANT 1919/14.",
+    "valid_from": "2014-08-12T11:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

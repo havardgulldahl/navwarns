@@ -3,17 +3,25 @@
   "id": "HYDROARC 936/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.908333333333333,
+      54.038333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-04-06T05:03:00",
     "raw_dtg": "060503Z APR 21",
     "msg_id": "HYDROARC 936/21(36)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 938/21"
+      "934/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP ILE DE AIX IN VICINITY\n   54-02.3N 004-54.5W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 934/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP ILE DE AIX IN VICINITY\n   54-02.3N 004-54.5W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 934/21.",
+    "valid_from": "2021-04-06T05:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

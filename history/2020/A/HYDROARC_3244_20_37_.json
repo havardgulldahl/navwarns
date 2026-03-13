@@ -3,17 +3,23 @@
   "id": "HYDROARC 3244/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.1416666666666666,
+      50.041666666666664
+    ]
   },
   "properties": {
     "dtg": "2020-10-25T12:20:00",
     "raw_dtg": "251220Z OCT 20",
     "msg_id": "HYDROARC 3244/20(37)",
-    "cancellations": [
-      "HYDROARC 3277/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n50-02.5N 003-08.5W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n50-02.5N 003-08.5W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2020-10-25T12:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

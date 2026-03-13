@@ -3,17 +3,23 @@
   "id": "HYDROARC 2931/19(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      24.315,
+      37.67
+    ]
   },
   "properties": {
     "dtg": "2019-09-25T22:10:00",
     "raw_dtg": "252210Z SEP 19",
     "msg_id": "HYDROARC 2931/19(54)",
-    "cancellations": [
-      "HYDROARC 2952/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "AGEAN SEA.\nDNC 09.\nORMOS AYLOU NIKOLAOU LIGHT 37-40.2N 024-18.9E\nUNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AGEAN SEA.\nDNC 09.\nORMOS AYLOU NIKOLAOU LIGHT 37-40.2N 024-18.9E\nUNLIT.",
+    "valid_from": "2019-09-25T22:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

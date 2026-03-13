@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2410/13",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-09-30T09:07:00",
     "raw_dtg": "300907Z SEP 13",
     "msg_id": "HYDROARC 2410/13",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2410/13"
+      "2404/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GPS SATELLITE SYSTEM.\nCANCEL HYDROLANT 2404/13 AND THIS MSG, PRN 10 RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GPS SATELLITE SYSTEM.\nCANCEL HYDROLANT 2404/13 AND THIS MSG, PRN 10 RESTORED.",
+    "valid_from": "2013-09-30T09:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

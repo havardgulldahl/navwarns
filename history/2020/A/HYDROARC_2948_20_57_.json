@@ -2,18 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 2948/20(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.541666666666667,
+          5.081666666666667
+        ],
+        [
+          -5.18,
+          5.121666666666667
+        ],
+        [
+          -5.18,
+          4.833333333333333
+        ],
+        [
+          -4.883333333333333,
+          4.833333333333333
+        ],
+        [
+          -4.883333333333333,
+          4.583333333333333
+        ],
+        [
+          -5.541666666666667,
+          4.583333333333333
+        ],
+        [
+          -5.541666666666667,
+          5.081666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-09-28T13:40:00",
     "raw_dtg": "281340Z SEP 20",
     "msg_id": "HYDROARC 2948/20(57)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 2948/20"
+      "THIS MSG 09 OCT 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 08 OCT\n   BY M/V PROTEUS IN AREA BOUND BY\n   05-04.9N 005-32.5W, 05-07.3N 005-10.8W,\n   04-50.0N 005-10.8W, 04-50.0N 004-53.0W,\n   04-35.0N 004-53.0W, 04-35.0N 005-32.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 09 OCT 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 08 OCT\n   BY M/V PROTEUS IN AREA BOUND BY\n   05-04.9N 005-32.5W, 05-07.3N 005-10.8W,\n   04-50.0N 005-10.8W, 04-50.0N 004-53.0W,\n   04-35.0N 004-53.0W, 04-35.0N 005-32.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 09 OCT 20.",
+    "valid_from": "2020-09-28T13:40:00+00:00",
+    "valid_until": "2020-10-09T00:00:00+00:00",
+    "summary": null
   }
 }

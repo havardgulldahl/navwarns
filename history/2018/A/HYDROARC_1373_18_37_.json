@@ -3,17 +3,23 @@
   "id": "HYDROARC 1373/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.2833333333333332,
+      53.276666666666664
+    ]
   },
   "properties": {
     "dtg": "2018-05-01T08:57:00",
     "raw_dtg": "010857Z MAY 18",
     "msg_id": "HYDROARC 1373/18(37)",
-    "cancellations": [
-      "HYDROARC 1378/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37057.\nRACON AT DUDGEON LIGHT 53-16.6N 001-17.0E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37057.\nRACON AT DUDGEON LIGHT 53-16.6N 001-17.0E INOPERATIVE.",
+    "valid_from": "2018-05-01T08:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

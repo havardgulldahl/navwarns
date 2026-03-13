@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 878/10(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -9.205,
+        38.57
+      ],
+      [
+        -9.511666666666667,
+        38.513333333333335
+      ],
+      [
+        -9.576666666666666,
+        38.46
+      ],
+      [
+        -9.651666666666667,
+        38.41
+      ],
+      [
+        -9.666666666666666,
+        38.391666666666666
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-05-16T12:45:00",
     "raw_dtg": "161245Z MAY 10",
     "msg_id": "HYDROARC 878/10(51)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 891/10"
+      "805/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL-WEST COAST.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP PETER FABER\n   ALONG TRACKLINE JOINING\n   38-34.2N 009-12.3W, 38-30.8N 009-30.7W,\n   38-27.6N 009-34.6W, 38-24.6N 009-39.1W,\n   38-23.5N 009-40.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 805/10."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL-WEST COAST.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP PETER FABER\n   ALONG TRACKLINE JOINING\n   38-34.2N 009-12.3W, 38-30.8N 009-30.7W,\n   38-27.6N 009-34.6W, 38-24.6N 009-39.1W,\n   38-23.5N 009-40.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 805/10.",
+    "valid_from": "2010-05-16T12:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

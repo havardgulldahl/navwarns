@@ -3,17 +3,23 @@
   "id": "HYDROARC 200/10(14,38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -29.828333333333333,
+      43.818333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-02-01T20:35:00",
     "raw_dtg": "012035Z FEB 10",
     "msg_id": "HYDROARC 200/10(14,38)",
-    "cancellations": [
-      "HYDROARC 204/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED FROM M/V TORM ESBJERG\nVICINITY 43-49.1N 029-49.7W AT 011828Z FEB.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC DELGADA, TELEX: 12587,\nPHONE: 3512 9628 1777, FAX: 3512 9620 5239."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED FROM M/V TORM ESBJERG\nVICINITY 43-49.1N 029-49.7W AT 011828Z FEB.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC DELGADA, TELEX: 12587,\nPHONE: 3512 9628 1777, FAX: 3512 9620 5239.",
+    "valid_from": "2010-02-01T20:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

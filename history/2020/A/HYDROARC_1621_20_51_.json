@@ -3,17 +3,23 @@
   "id": "HYDROARC 1621/20(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.275,
+      36.065
+    ]
   },
   "properties": {
     "dtg": "2020-05-13T11:11:00",
     "raw_dtg": "131111Z MAY 20",
     "msg_id": "HYDROARC 1621/20(51)",
-    "cancellations": [
-      "HYDROARC 1711/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE BY\nCABLESHIP SOVEREIGN IN VICINITY 36-03.9N 006-16.5W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE BY\nCABLESHIP SOVEREIGN IN VICINITY 36-03.9N 006-16.5W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2020-05-13T11:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

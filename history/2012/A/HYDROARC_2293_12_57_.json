@@ -3,17 +3,25 @@
   "id": "HYDROARC 2293/12(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      15.836666666666666,
+      -28.401666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-10-02T06:57:00",
     "raw_dtg": "020657Z OCT 12",
     "msg_id": "HYDROARC 2293/12(57)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2293/12"
+      "THIS MSG 04 OCT 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\n1. FUELING OPERATIONS IN PROGRESS UNTIL 03 OCT\n   BY M/V GARIEP VICINITY 28-24.1S 015-50.2E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 04 OCT 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\n1. FUELING OPERATIONS IN PROGRESS UNTIL 03 OCT\n   BY M/V GARIEP VICINITY 28-24.1S 015-50.2E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 04 OCT 12.",
+    "valid_from": "2012-10-02T06:57:00+00:00",
+    "valid_until": "2012-10-04T00:00:00+00:00",
+    "summary": null
   }
 }

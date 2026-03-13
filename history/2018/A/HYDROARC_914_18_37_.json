@@ -3,17 +3,25 @@
   "id": "HYDROARC 914/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7850000000000001,
+      52.66833333333334
+    ]
   },
   "properties": {
     "dtg": "2018-03-16T12:57:00",
     "raw_dtg": "161257Z MAR 18",
     "msg_id": "HYDROARC 914/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 1023/18"
+      "864/18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37055.\n1. METEOROLOGICAL MAST 52-40.1N 001-47.1E LIGHT UNLIT.\n2. CANCEL HYDROLANT 864/18, OPERATIONS COMPLETED."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37055.\n1. METEOROLOGICAL MAST 52-40.1N 001-47.1E LIGHT UNLIT.\n2. CANCEL HYDROLANT 864/18, OPERATIONS COMPLETED.",
+    "valid_from": "2018-03-16T12:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

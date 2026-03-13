@@ -3,17 +3,23 @@
   "id": "HYDROARC 3893/17(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -13.28,
+      51.21
+    ]
   },
   "properties": {
     "dtg": "2017-12-02T11:45:00",
     "raw_dtg": "021145Z DEC 17",
     "msg_id": "HYDROARC 3893/17(35,36)",
-    "cancellations": [
-      "HYDROARC 3996/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\nCHART 36001.\nODAS BUOY K2 RELOCATED TO 51-12.6N 013-16.8W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\nCHART 36001.\nODAS BUOY K2 RELOCATED TO 51-12.6N 013-16.8W.",
+    "valid_from": "2017-12-02T11:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

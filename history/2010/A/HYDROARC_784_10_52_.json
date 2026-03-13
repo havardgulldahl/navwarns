@@ -3,17 +3,23 @@
   "id": "HYDROARC 784/10(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.903333333333334,
+      36.375
+    ]
   },
   "properties": {
     "dtg": "2010-05-04T11:33:00",
     "raw_dtg": "041133Z MAY 10",
     "msg_id": "HYDROARC 784/10(52)",
-    "cancellations": [
-      "HYDROARC 1194/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-NORTHEAST COAST.\nNGA CHART 52172 (2ND ED).\nPLATFORM ESTABLISHED IN 36-22.5N 010-54.2E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTHEAST COAST.\nNGA CHART 52172 (2ND ED).\nPLATFORM ESTABLISHED IN 36-22.5N 010-54.2E.",
+    "valid_from": "2010-05-04T11:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

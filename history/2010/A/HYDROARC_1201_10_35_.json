@@ -3,17 +3,23 @@
   "id": "HYDROARC 1201/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0,
+      60.37
+    ]
   },
   "properties": {
     "dtg": "2010-06-28T01:21:00",
     "raw_dtg": "280121Z JUN 10",
     "msg_id": "HYDROARC 1201/10(35)",
-    "cancellations": [
-      "HYDROARC 1204/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nNGA CHART 35072 (1ST ED).\nSUTHER NESS LIGHT 60-22.2N 001-00.0W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nNGA CHART 35072 (1ST ED).\nSUTHER NESS LIGHT 60-22.2N 001-00.0W UNLIT.",
+    "valid_from": "2010-06-28T01:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

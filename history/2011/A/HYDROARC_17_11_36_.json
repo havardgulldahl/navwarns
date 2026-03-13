@@ -3,17 +3,26 @@
   "id": "HYDROARC 17/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.1966666666666668,
+      54.025
+    ]
   },
   "properties": {
     "dtg": "2011-01-04T20:08:00",
     "raw_dtg": "042008Z JAN 11",
     "msg_id": "HYDROARC 17/11(36)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 105/11"
+      "2512/10",
+      "9/11"
     ],
     "hazard_type": "shoals",
-    "summary": null,
-    "body": "ENGLAND-WEST COAST.\nNGA CHART 36025(1ST ED).\n1. HALFWAY SHOAL LIGHT 54-01.5N 003-11.8W UNLIT.\n2. CANCEL HYDROLANT 2512/10(36,37), 9/11(37)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-WEST COAST.\nNGA CHART 36025(1ST ED).\n1. HALFWAY SHOAL LIGHT 54-01.5N 003-11.8W UNLIT.\n2. CANCEL HYDROLANT 2512/10(36,37), 9/11(37).",
+    "valid_from": "2011-01-04T20:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

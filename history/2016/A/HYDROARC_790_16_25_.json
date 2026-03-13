@@ -3,17 +3,23 @@
   "id": "HYDROARC 790/16(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -64.28666666666666,
+      17.831666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-04-01T19:40:00",
     "raw_dtg": "011940Z APR 16",
     "msg_id": "HYDROARC 790/16(25)",
-    "cancellations": [
-      "HYDROARC 918/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN CARIBBEAN SEA.\nU.S. VIRGIN ISLANDS.\nDNC 14, DNC 16.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\n53 FOOT S/V ROUGE IN 17-49.9N 064-17.2W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RSC SAN JUAN,\nPHONE: 787 289 2041."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN CARIBBEAN SEA.\nU.S. VIRGIN ISLANDS.\nDNC 14, DNC 16.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\n53 FOOT S/V ROUGE IN 17-49.9N 064-17.2W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RSC SAN JUAN,\nPHONE: 787 289 2041.",
+    "valid_from": "2016-04-01T19:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

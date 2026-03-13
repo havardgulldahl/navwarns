@@ -1,19 +1,19 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1666/16(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-07-02T13:30:00",
     "raw_dtg": "021330Z JUL 16",
     "msg_id": "HYDROARC 1666/16(37)",
-    "cancellations": [
-      "HYDROARC 1713/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nNAVTEX.\nDNC 20.\nNAVTEX STATION NITON 50-35N 001-15W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nNAVTEX.\nDNC 20.\nNAVTEX STATION NITON 50-35N 001-15W OFF AIR.",
+    "valid_from": "2016-07-02T13:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

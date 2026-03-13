@@ -2,18 +2,57 @@
   "type": "Feature",
   "id": "HYDROARC 3149/13(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        17.91,
+        41.64666666666667
+      ],
+      [
+        17.805,
+        41.71333333333333
+      ],
+      [
+        17.445,
+        41.666666666666664
+      ],
+      [
+        17.6,
+        41.80166666666667
+      ],
+      [
+        18.466666666666665,
+        42.31
+      ],
+      [
+        18.416666666666668,
+        42.32833333333333
+      ],
+      [
+        18.105,
+        42.108333333333334
+      ],
+      [
+        18.423333333333332,
+        42.585
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-12-06T15:12:00",
     "raw_dtg": "061512Z DEC 13",
     "msg_id": "HYDROARC 3149/13(54)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 3203/13"
+      "3120/13",
+      "3128/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ADRIATIC SEA.\nCROATIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V NORTHERN EXPLORER\n   ALONG TRACKLINE JOINING\n   41-38.8N 017-54.6E, 41-42.8N 017-48.3E,\n   41-40.0N 017-26.7E, 41-48.1N 017-36.0E,\n   42-18.6N 018-28.0E, 42-19.7N 018-25.0E,\n   42-06.5N 018-06.3E, 42-35.1N 018-25.4E.\n   FOUR MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3120/13, 3128/13(24)."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "ADRIATIC SEA.\nCROATIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V NORTHERN EXPLORER\n   ALONG TRACKLINE JOINING\n   41-38.8N 017-54.6E, 41-42.8N 017-48.3E,\n   41-40.0N 017-26.7E, 41-48.1N 017-36.0E,\n   42-18.6N 018-28.0E, 42-19.7N 018-25.0E,\n   42-06.5N 018-06.3E, 42-35.1N 018-25.4E.\n   FOUR MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3120/13, 3128/13(24).",
+    "valid_from": "2013-12-06T15:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

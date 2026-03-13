@@ -2,19 +2,58 @@
   "type": "Feature",
   "id": "HYDROARC 2617/20(54,56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          27.0,
+          35.25
+        ],
+        [
+          29.833333333333332,
+          35.25
+        ],
+        [
+          30.083333333333332,
+          34.25
+        ],
+        [
+          29.908333333333335,
+          33.81
+        ],
+        [
+          28.77,
+          33.68666666666667
+        ],
+        [
+          27.916666666666668,
+          33.583333333333336
+        ],
+        [
+          27.0,
+          33.583333333333336
+        ],
+        [
+          27.0,
+          35.25
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-08-24T18:54:00",
     "raw_dtg": "241854Z AUG 20",
     "msg_id": "HYDROARC 2617/20(54,56)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 272159Z AUG 20",
-      "HYDROARC 2617/20"
+      "THIS MSG 272159Z AUG 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 250510Z TO 272059Z AUG\n   IN AREA BOUND BY\n   35-15.0N 027-00.0E, 35-15.0N 029-50.0E,\n   34-15.0N 030-05.0E, 33-48.6N 029-54.5E,\n   33-41.2N 028-46.2E, 33-35.0N 027-55.0E,\n   33-35.0N 027-00.0E.\n2. CANCEL THIS MSG 272159Z AUG 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 250510Z TO 272059Z AUG\n   IN AREA BOUND BY\n   35-15.0N 027-00.0E, 35-15.0N 029-50.0E,\n   34-15.0N 030-05.0E, 33-48.6N 029-54.5E,\n   33-41.2N 028-46.2E, 33-35.0N 027-55.0E,\n   33-35.0N 027-00.0E.\n2. CANCEL THIS MSG 272159Z AUG 20.",
+    "valid_from": "2020-08-24T18:54:00+00:00",
+    "valid_until": "2020-08-27T21:59:00+00:00",
+    "summary": null
   }
 }

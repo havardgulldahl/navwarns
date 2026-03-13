@@ -3,17 +3,23 @@
   "id": "HYDROARC 48/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -60.25833333333333,
+      10.228333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-01-04T21:52:00",
     "raw_dtg": "042152Z JAN 18",
     "msg_id": "HYDROARC 48/18(24)",
-    "cancellations": [
-      "HYDROARC 229/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nTRINIDAD.\nDNC 14.\nDISTRESS SIGNAL RECEIVED FROM VESSEL WHITIA IN\n10-13.7N 060-15.5W. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC TRINIDAD, PHONE: 868 634 1476,\nE-MAIL: TTCGOPS@GMAIL.COM."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nTRINIDAD.\nDNC 14.\nDISTRESS SIGNAL RECEIVED FROM VESSEL WHITIA IN\n10-13.7N 060-15.5W. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC TRINIDAD, PHONE: 868 634 1476,\nE-MAIL: TTCGOPS@GMAIL.COM.",
+    "valid_from": "2018-01-04T21:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

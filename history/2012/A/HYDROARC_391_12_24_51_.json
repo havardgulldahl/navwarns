@@ -3,17 +3,23 @@
   "id": "HYDROARC 391/12(24,51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.556666666666665,
+      20.408333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-02-19T12:22:00",
     "raw_dtg": "191222Z FEB 12",
     "msg_id": "HYDROARC 391/12(24,51)",
-    "cancellations": [
-      "HYDROARC 485/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n20-24.5N 040-33.4W AT 191036Z FEB. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NORFOLK,\nINMARSAT-C: 430370670, PHONE: 757 398 6231,\nFAX: 757 398 6392, E-MAIL: D05-SMB-D5CC@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n20-24.5N 040-33.4W AT 191036Z FEB. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NORFOLK,\nINMARSAT-C: 430370670, PHONE: 757 398 6231,\nFAX: 757 398 6392, E-MAIL: D05-SMB-D5CC@USCG.MIL.",
+    "valid_from": "2012-02-19T12:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

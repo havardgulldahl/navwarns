@@ -3,17 +3,23 @@
   "id": "HYDROARC 2300/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.115,
+      56.32333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-09-24T10:59:00",
     "raw_dtg": "241059Z SEP 14",
     "msg_id": "HYDROARC 2300/14(35)",
-    "cancellations": [
-      "HYDROARC 2333/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nSEA OF THE HEBRIDES.\nCHART 35106\nRACON AT SKERRYVORE LIGHT 56-19.4N 007-06.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nSEA OF THE HEBRIDES.\nCHART 35106\nRACON AT SKERRYVORE LIGHT 56-19.4N 007-06.9W UNRELIABLE.",
+    "valid_from": "2014-09-24T10:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 866/22(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.316666666666666,
+      55.751666666666665
+    ]
   },
   "properties": {
     "dtg": "2022-03-26T11:56:00",
     "raw_dtg": "261156Z MAR 22",
     "msg_id": "HYDROARC 866/22(36)",
-    "cancellations": [
-      "HYDROARC 1585/23"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nSUBMERGED OBJECT IN VICINITY 55-45.1N 005-19.0W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nSUBMERGED OBJECT IN VICINITY 55-45.1N 005-19.0W.",
+    "valid_from": "2022-03-26T11:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

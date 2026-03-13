@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1316/19(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-04-29T10:19:00",
     "raw_dtg": "291019Z APR 19",
     "msg_id": "HYDROARC 1316/19(35)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1316/19"
+      "1277/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nIRELAND.\nDNC 19.\nCANCEL HYDROLANT 1277/19 AND THIS MSG,\nOPERATIONS SUSPENDED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nIRELAND.\nDNC 19.\nCANCEL HYDROLANT 1277/19 AND THIS MSG,\nOPERATIONS SUSPENDED.",
+    "valid_from": "2019-04-29T10:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

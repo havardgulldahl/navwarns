@@ -3,17 +3,23 @@
   "id": "HYDROARC 313/24(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.6416666666666666,
+      56.07666666666667
+    ]
   },
   "properties": {
     "dtg": "2024-02-14T21:26:00",
     "raw_dtg": "142126Z FEB 24",
     "msg_id": "HYDROARC 313/24(35)",
-    "cancellations": [
-      "HYDROARC 336/24"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nBASS ROCK LIGHT 56-04.6N 002-38.5W\nUNLIT."
+    "year": 2024,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nBASS ROCK LIGHT 56-04.6N 002-38.5W\nUNLIT.",
+    "valid_from": "2024-02-14T21:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

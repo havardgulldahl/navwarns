@@ -3,18 +3,25 @@
   "id": "HYDROARC 297/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.775,
+      52.458333333333336
+    ]
   },
   "properties": {
     "dtg": "2019-01-29T16:54:00",
     "raw_dtg": "291654Z JAN 19",
     "msg_id": "HYDROARC 297/19(37)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 011654Z FEB 19",
-      "HYDROARC 297/19"
+      "THIS MSG 011654Z FEB 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20, DNC 21.\n1. 100 TEN METER LONG TIMBERS ADRIFT IN\n   52-27.5N 002-46.5E AT 272330Z JAN.\n2. CANCEL THIS MSG 011654Z FEB 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20, DNC 21.\n1. 100 TEN METER LONG TIMBERS ADRIFT IN\n   52-27.5N 002-46.5E AT 272330Z JAN.\n2. CANCEL THIS MSG 011654Z FEB 19.",
+    "valid_from": "2019-01-29T16:54:00+00:00",
+    "valid_until": "2019-02-01T16:54:00+00:00",
+    "summary": null
   }
 }

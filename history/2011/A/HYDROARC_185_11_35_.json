@@ -3,17 +3,23 @@
   "id": "HYDROARC 185/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.585,
+      56.278333333333336
+    ]
   },
   "properties": {
     "dtg": "2011-01-31T03:32:00",
     "raw_dtg": "310332Z JAN 11",
     "msg_id": "HYDROARC 185/11(35)",
-    "cancellations": [
-      "HYDROARC 191/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35050 (1ST ED).\nFIFE NESS LIGHT 56-16.7N 002-35.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35050 (1ST ED).\nFIFE NESS LIGHT 56-16.7N 002-35.1W UNRELIABLE.",
+    "valid_from": "2011-01-31T03:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

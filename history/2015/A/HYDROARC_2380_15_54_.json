@@ -3,18 +3,25 @@
   "id": "HYDROARC 2380/15(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.878333333333334,
+      45.211666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-09-23T16:56:00",
     "raw_dtg": "231656Z SEP 15",
     "msg_id": "HYDROARC 2380/15(54)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 241600Z SEP 15",
-      "HYDROARC 2380/15"
+      "THIS MSG 241600Z SEP 15"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORTHERN ADRIATIC SEA.\nHAZARDOUS OPERATIONS.\nDNC 09.\n1. HAZARDOUS OPERATIONS 241100Z TO 241500Z SEP\n   WITHIN FIVE MILES OF 45-12.7N 012-52.7E.\n2. CANCEL THIS MSG 241600Z SEP 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTHERN ADRIATIC SEA.\nHAZARDOUS OPERATIONS.\nDNC 09.\n1. HAZARDOUS OPERATIONS 241100Z TO 241500Z SEP\n   WITHIN FIVE MILES OF 45-12.7N 012-52.7E.\n2. CANCEL THIS MSG 241600Z SEP 15.",
+    "valid_from": "2015-09-23T16:56:00+00:00",
+    "valid_until": "2015-09-24T16:00:00+00:00",
+    "summary": null
   }
 }

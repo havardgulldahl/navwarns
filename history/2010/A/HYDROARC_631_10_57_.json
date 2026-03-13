@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 631/10(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.12,
+          0.12166666666666666
+        ],
+        [
+          9.286666666666667,
+          0.145
+        ],
+        [
+          9.32,
+          -0.08666666666666667
+        ],
+        [
+          9.153333333333332,
+          -0.11
+        ],
+        [
+          9.12,
+          0.12166666666666666
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-04-12T01:44:00",
     "raw_dtg": "120144Z APR 10",
     "msg_id": "HYDROARC 631/10(57)",
-    "cancellations": [
-      "HYDROARC 1024/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nGABON.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V MERMAID VANQUISH IN AREA BOUND BY\n00-07.3N 009-07.2E, 00-08.7N 009-17.2E,\n00-05.2S 009-19.2E, 00-06.6S 009-09.2E.\nTEN MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nGABON.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V MERMAID VANQUISH IN AREA BOUND BY\n00-07.3N 009-07.2E, 00-08.7N 009-17.2E,\n00-05.2S 009-19.2E, 00-06.6S 009-09.2E.\nTEN MILE BERTH REQUESTED.",
+    "valid_from": "2010-04-12T01:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

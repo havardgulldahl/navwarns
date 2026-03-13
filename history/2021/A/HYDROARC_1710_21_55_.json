@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1710/21(55)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-06-29T12:58:00",
     "raw_dtg": "291258Z JUN 21",
     "msg_id": "HYDROARC 1710/21(55)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 311800Z JUL 21",
-      "HYDROARC 1710/21"
+      "THIS MSG 311800Z JUL 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. MISSILE AND GUNNERY EXERCISES 010500Z TO 311700Z\n   JUL EXCEPT SUNDAYS IN AREA BOUND BY\n   45-49N 032-28E, 45-41N 032-43E,\n   45-34N 032-32E, 45-42N 032-18E.\n2. CANCEL THIS MSG 311800Z JUL 21."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. MISSILE AND GUNNERY EXERCISES 010500Z TO 311700Z\n   JUL EXCEPT SUNDAYS IN AREA BOUND BY\n   45-49N 032-28E, 45-41N 032-43E,\n   45-34N 032-32E, 45-42N 032-18E.\n2. CANCEL THIS MSG 311800Z JUL 21.",
+    "valid_from": "2021-06-29T12:58:00+00:00",
+    "valid_until": "2021-07-31T18:00:00+00:00",
+    "summary": null
   }
 }

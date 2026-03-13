@@ -3,17 +3,23 @@
   "id": "HYDROARC 167/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -60.843333333333334,
+      11.148333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-01-27T21:28:00",
     "raw_dtg": "272128Z JAN 11",
     "msg_id": "HYDROARC 167/11(24)",
-    "cancellations": [
-      "HYDROARC 169/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TOBAGO-SOUTHWEST COAST.\nNGA CHART 24400 (1ST ED).\nCROWN POINT LIGHT 11-08.9N 060-50.6W\nRANGE REDUCED TO 13 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TOBAGO-SOUTHWEST COAST.\nNGA CHART 24400 (1ST ED).\nCROWN POINT LIGHT 11-08.9N 060-50.6W\nRANGE REDUCED TO 13 MILES.",
+    "valid_from": "2011-01-27T21:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

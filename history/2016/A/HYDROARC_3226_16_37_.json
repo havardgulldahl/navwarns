@@ -3,17 +3,25 @@
   "id": "HYDROARC 3226/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.03,
+      49.51166666666666
+    ]
   },
   "properties": {
     "dtg": "2016-12-01T11:04:00",
     "raw_dtg": "011104Z DEC 16",
     "msg_id": "HYDROARC 3226/16(37)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 3265/16"
+      "3209/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP WAVE SENTINEL\n   WITH SUBMERSIBLE IN VICINITY 49-30.7N 004-01.8W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3209/16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP WAVE SENTINEL\n   WITH SUBMERSIBLE IN VICINITY 49-30.7N 004-01.8W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3209/16.",
+    "valid_from": "2016-12-01T11:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

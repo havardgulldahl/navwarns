@@ -3,17 +3,23 @@
   "id": "HYDROARC 381/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.01,
+      51.39666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-02-15T08:12:00",
     "raw_dtg": "150812Z FEB 16",
     "msg_id": "HYDROARC 381/16(37)",
-    "cancellations": [
-      "HYDROARC 395/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDOVER STRAIT.\nDNC 20.\nCHART 37120.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E LIGHT UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDOVER STRAIT.\nDNC 20.\nCHART 37120.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E LIGHT UNRELIABLE.",
+    "valid_from": "2016-02-15T08:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

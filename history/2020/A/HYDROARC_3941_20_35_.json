@@ -3,17 +3,23 @@
   "id": "HYDROARC 3941/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6527777777777777,
+      59.51361111111111
+    ]
   },
   "properties": {
     "dtg": "2020-12-22T04:50:00",
     "raw_dtg": "220450Z DEC 20",
     "msg_id": "HYDROARC 3941/20(35)",
-    "cancellations": [
-      "HYDROARC 3950/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nSKADAN LIGHT 59-30-49N 001-39-10W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nSKADAN LIGHT 59-30-49N 001-39-10W UNRELIABLE.",
+    "valid_from": "2020-12-22T04:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

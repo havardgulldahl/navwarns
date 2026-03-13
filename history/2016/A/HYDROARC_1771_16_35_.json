@@ -3,17 +3,23 @@
   "id": "HYDROARC 1771/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.171666666666667,
+      55.30166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-07-13T23:57:00",
     "raw_dtg": "132357Z JUL 16",
     "msg_id": "HYDROARC 1771/16(35)",
-    "cancellations": [
-      "HYDROARC 1813/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-NORTHEAST COAST.\nNORTH CHANNEL.\nDNC 19, DNC 20.\nCHART 35123.\nRATHLIN EAST LIGHT 55-18.1N 006-10.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTHEAST COAST.\nNORTH CHANNEL.\nDNC 19, DNC 20.\nCHART 35123.\nRATHLIN EAST LIGHT 55-18.1N 006-10.3W UNRELIABLE.",
+    "valid_from": "2016-07-13T23:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

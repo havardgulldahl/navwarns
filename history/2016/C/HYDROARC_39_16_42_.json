@@ -2,18 +2,58 @@
   "type": "Feature",
   "id": "HYDROARC 39/16(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          53.0,
+          79.48111111111112
+        ],
+        [
+          61.55083333333333,
+          79.48111111111112
+        ],
+        [
+          60.231944444444444,
+          78.50277777777778
+        ],
+        [
+          58.144999999999996,
+          78.53305555555555
+        ],
+        [
+          57.824444444444445,
+          76.94388888888889
+        ],
+        [
+          54.01083333333333,
+          76.99388888888889
+        ],
+        [
+          50.49388888888889,
+          78.27833333333334
+        ],
+        [
+          53.0,
+          79.48111111111112
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-04-20T08:53:00",
     "raw_dtg": "200853Z APR 16",
     "msg_id": "HYDROARC 39/16(42)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 79/16"
+      "THIS MSG 30 JUN 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nDNC 22.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 29 JUN BY\n   M/V GEOLOG DMITRIY NALIVKIN TOWING 8100\n   METER LONG CABLE IN AREA BOUND BY\n   79-28-52N 053-00-00E, 79-28-52N 061-33-03E,\n   78-30-10N 060-13-55E, 78-31-59N 058-08-42E,\n   76-56-38N 057-49-28E, 76-59-38N 054-00-39E,\n   78-16-42N 050-29-38E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 30 JUN 16."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nDNC 22.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 29 JUN BY\n   M/V GEOLOG DMITRIY NALIVKIN TOWING 8100\n   METER LONG CABLE IN AREA BOUND BY\n   79-28-52N 053-00-00E, 79-28-52N 061-33-03E,\n   78-30-10N 060-13-55E, 78-31-59N 058-08-42E,\n   76-56-38N 057-49-28E, 76-59-38N 054-00-39E,\n   78-16-42N 050-29-38E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 30 JUN 16.",
+    "valid_from": "2016-04-20T08:53:00+00:00",
+    "valid_until": "2016-06-30T00:00:00+00:00",
+    "summary": null
   }
 }

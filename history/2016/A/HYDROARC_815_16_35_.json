@@ -3,17 +3,25 @@
   "id": "HYDROARC 815/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.97,
+      60.06333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-04-05T15:16:00",
     "raw_dtg": "051516Z APR 16",
     "msg_id": "HYDROARC 815/16(35)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1631/16"
+      "806/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 19, DNC 20.\nCHART 35064.\n1. FOG SIGNAL AT PLATFORM 205/26A, 60-03.8N 003-58.2W INOPERATIVE.\n2. CANCEL HYDROLANT 806/16, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 19, DNC 20.\nCHART 35064.\n1. FOG SIGNAL AT PLATFORM 205/26A, 60-03.8N 003-58.2W INOPERATIVE.\n2. CANCEL HYDROLANT 806/16, AID RESTORED.",
+    "valid_from": "2016-04-05T15:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

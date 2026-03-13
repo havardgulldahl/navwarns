@@ -3,18 +3,25 @@
   "id": "HYDROARC 3279/16(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.295,
+      -33.71
+    ]
   },
   "properties": {
     "dtg": "2016-12-05T09:55:00",
     "raw_dtg": "050955Z DEC 16",
     "msg_id": "HYDROARC 3279/16(57)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 080955Z DEC 16",
-      "HYDROARC 3281/16"
+      "THIS MSG 080955Z DEC 16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT M/V ANTAIOS ADRIFT VICINITY\n   33-42.6S 002-17.7E.\n2. CANCEL THIS MSG 080955Z DEC 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT M/V ANTAIOS ADRIFT VICINITY\n   33-42.6S 002-17.7E.\n2. CANCEL THIS MSG 080955Z DEC 16.",
+    "valid_from": "2016-12-05T09:55:00+00:00",
+    "valid_until": "2016-12-08T09:55:00+00:00",
+    "summary": null
   }
 }

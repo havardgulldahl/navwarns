@@ -3,17 +3,23 @@
   "id": "HYDROARC 1032/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.405,
+      59.083333333333336
+    ]
   },
   "properties": {
     "dtg": "2010-06-05T10:04:00",
     "raw_dtg": "051004Z JUN 10",
     "msg_id": "HYDROARC 1032/10(35)",
-    "cancellations": [
-      "HYDROARC 1061/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (2ND ED).\nSULE SKERRY LIGHT 59-05.0N 004-24.3W AT REDUCED INTENSITY\nAND RACON INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (2ND ED).\nSULE SKERRY LIGHT 59-05.0N 004-24.3W AT REDUCED INTENSITY\nAND RACON INOPERATIVE.",
+    "valid_from": "2010-06-05T10:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 14/11",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.08166666666666668,
+      54.11666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-01-04T14:13:00",
     "raw_dtg": "041413Z JAN 11",
     "msg_id": "HYDROARC 14/11",
-    "cancellations": [
-      "HYDROARC 27/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nRADIO SERVICES.\nMRCC HUMBER MF RT AND DSC SERVICE AT\nFLAMBOROUGH HEAD LIGHT 54-07.0N 000-04.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nRADIO SERVICES.\nMRCC HUMBER MF RT AND DSC SERVICE AT\nFLAMBOROUGH HEAD LIGHT 54-07.0N 000-04.9W UNRELIABLE.",
+    "valid_from": "2011-01-04T14:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2186/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.398333333333333,
+      50.24166666666667
+    ]
   },
   "properties": {
     "dtg": "2011-12-17T12:48:00",
     "raw_dtg": "171248Z DEC 11",
     "msg_id": "HYDROARC 2186/11(36)",
-    "cancellations": [
-      "HYDROARC 2205/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 36035 (1ST ED).\nGODREVY ISLAND LIGHT 50-14.5N 005-23.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 36035 (1ST ED).\nGODREVY ISLAND LIGHT 50-14.5N 005-23.9W UNRELIABLE.",
+    "valid_from": "2011-12-17T12:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

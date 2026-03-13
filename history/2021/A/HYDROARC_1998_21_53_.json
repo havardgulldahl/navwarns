@@ -3,17 +3,23 @@
   "id": "HYDROARC 1998/21(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.163333333333334,
+      40.56
+    ]
   },
   "properties": {
     "dtg": "2021-08-01T14:04:00",
     "raw_dtg": "011404Z AUG 21",
     "msg_id": "HYDROARC 1998/21(53)",
-    "cancellations": [
-      "HYDROARC 628/22"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSARDINIA.\nDNC 08.\nCAPO CACCIA LIGHT 40-33.6N 008-09.8E UNLIT."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSARDINIA.\nDNC 08.\nCAPO CACCIA LIGHT 40-33.6N 008-09.8E UNLIT.",
+    "valid_from": "2021-08-01T14:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

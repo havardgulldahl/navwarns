@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 40/12",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-06-03T18:57:00",
     "raw_dtg": "031857Z JUN 12",
     "msg_id": "HYDROARC 40/12",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 38/12",
-      "HYDROARC 40/12"
+      "HYDROARC 38/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWAY.\nCANCEL HYDROARC 38/12 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWAY.\nCANCEL HYDROARC 38/12 AND THIS MSG.",
+    "valid_from": "2012-06-03T18:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

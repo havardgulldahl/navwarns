@@ -3,17 +3,23 @@
   "id": "HYDROARC 482/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6083333333333334,
+      59.553333333333335
+    ]
   },
   "properties": {
     "dtg": "2014-02-17T05:56:00",
     "raw_dtg": "170556Z FEB 14",
     "msg_id": "HYDROARC 482/14(35)",
-    "cancellations": [
-      "HYDROARC 489/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nFAIR ISLE.\nCHART 35063\nSKROO LIGHT 59-33.2N 001-36.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nFAIR ISLE.\nCHART 35063\nSKROO LIGHT 59-33.2N 001-36.5W UNRELIABLE.",
+    "valid_from": "2014-02-17T05:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

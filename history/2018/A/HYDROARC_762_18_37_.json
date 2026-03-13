@@ -3,18 +3,25 @@
   "id": "HYDROARC 762/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4883333333333333,
+      51.07666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-03-03T15:29:00",
     "raw_dtg": "031529Z MAR 18",
     "msg_id": "HYDROARC 762/18(37)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 061529Z MAR 18",
-      "HYDROARC 762/18"
+      "THIS MSG 061529Z MAR 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nDNC 20.\n1. BUOY ADRIFT IN VICINITY 51-04.6N 001-29.3E.\n2. CANCEL THIS MSG 061529Z MAR 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nDNC 20.\n1. BUOY ADRIFT IN VICINITY 51-04.6N 001-29.3E.\n2. CANCEL THIS MSG 061529Z MAR 18.",
+    "valid_from": "2018-03-03T15:29:00+00:00",
+    "valid_until": "2018-03-06T15:29:00+00:00",
+    "summary": null
   }
 }

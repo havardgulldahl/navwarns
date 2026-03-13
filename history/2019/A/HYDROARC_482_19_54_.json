@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 482/19(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-02-14T16:23:00",
     "raw_dtg": "141623Z FEB 19",
     "msg_id": "HYDROARC 482/19(54)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 482/19"
+      "427/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTHWEST COAST.\nDNC 10.\nCANCEL HYDROLANT 427/19 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTHWEST COAST.\nDNC 10.\nCANCEL HYDROLANT 427/19 AND THIS MSG.",
+    "valid_from": "2019-02-14T16:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

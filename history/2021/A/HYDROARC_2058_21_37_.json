@@ -2,18 +2,42 @@
   "type": "Feature",
   "id": "HYDROARC 2058/21(37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.0,
+        52.5
+      ],
+      [
+        2.86,
+        52.50333333333333
+      ],
+      [
+        2.256666666666667,
+        52.50666666666667
+      ],
+      [
+        2.086666666666667,
+        52.43833333333333
+      ],
+      [
+        1.7916666666666665,
+        52.45
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-08-07T07:09:00",
     "raw_dtg": "070709Z AUG 21",
     "msg_id": "HYDROARC 2058/21(37)",
-    "cancellations": [
-      "HYDROARC 2235/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V HAVILA PHOENIX ALONG TRACKLINE JOINING\n52-30.0N 003-00.0E, 52-30.2N 002-51.6E,\n52-30.4N 002-15.4E, 52-26.3N 002-05.2E,\n52-27.0N 001-47.5E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V HAVILA PHOENIX ALONG TRACKLINE JOINING\n52-30.0N 003-00.0E, 52-30.2N 002-51.6E,\n52-30.4N 002-15.4E, 52-26.3N 002-05.2E,\n52-27.0N 001-47.5E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2021-08-07T07:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

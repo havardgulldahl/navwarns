@@ -3,17 +3,23 @@
   "id": "HYDROARC 2295/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2980555555555555,
+      50.57555555555556
+    ]
   },
   "properties": {
     "dtg": "2021-09-09T21:37:00",
     "raw_dtg": "092137Z SEP 21",
     "msg_id": "HYDROARC 2295/21(37)",
-    "cancellations": [
-      "HYDROARC 2399/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nST CATHERINES POINT LIGHT 50-34-32N 001-17-53W\nRANGE REDUCED TO 18 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nST CATHERINES POINT LIGHT 50-34-32N 001-17-53W\nRANGE REDUCED TO 18 MILES.",
+    "valid_from": "2021-09-09T21:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 2279/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.058333333333333,
+      53.651666666666664
+    ]
   },
   "properties": {
     "dtg": "2015-09-14T09:19:00",
     "raw_dtg": "140919Z SEP 15",
     "msg_id": "HYDROARC 2279/15(37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2328/15"
+      "2238/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37058.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM TETHYS\n   53-39.1N 002-03.5E INOPERATIVE.\n2. CANCEL HYDROLANT 2238/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37058.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM TETHYS\n   53-39.1N 002-03.5E INOPERATIVE.\n2. CANCEL HYDROLANT 2238/15.",
+    "valid_from": "2015-09-14T09:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

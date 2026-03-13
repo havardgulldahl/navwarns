@@ -3,17 +3,23 @@
   "id": "HYDROARC 621/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8116666666666665,
+      57.858333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-03-04T01:43:00",
     "raw_dtg": "040143Z MAR 21",
     "msg_id": "HYDROARC 621/21(35)",
-    "cancellations": [
-      "HYDROARC 646/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 20.\nRUBHA REIDH LIGHT 57-51.5N 005-48.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 20.\nRUBHA REIDH LIGHT 57-51.5N 005-48.7W UNRELIABLE.",
+    "valid_from": "2021-03-04T01:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

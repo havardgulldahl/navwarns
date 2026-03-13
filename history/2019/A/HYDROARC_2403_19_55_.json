@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2403/19(55)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-08-06T13:04:00",
     "raw_dtg": "061304Z AUG 19",
     "msg_id": "HYDROARC 2403/19(55)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 162200Z AUG 19",
-      "HYDROARC 2403/19"
+      "THIS MSG 162200Z AUG 19"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 061200Z TO 162100Z AUG\n   IN AREA BOUND BY\n   44-46N 030-47E, 45-23N 030-47E,\n   45-31N 032-11E, 44-46N 032-11E.\n2. CANCEL THIS MSG 162200Z AUG 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 061200Z TO 162100Z AUG\n   IN AREA BOUND BY\n   44-46N 030-47E, 45-23N 030-47E,\n   45-31N 032-11E, 44-46N 032-11E.\n2. CANCEL THIS MSG 162200Z AUG 19.",
+    "valid_from": "2019-08-06T13:04:00+00:00",
+    "valid_until": "2019-08-16T22:00:00+00:00",
+    "summary": null
   }
 }

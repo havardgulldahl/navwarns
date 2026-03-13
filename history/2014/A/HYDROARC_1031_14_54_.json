@@ -3,17 +3,25 @@
   "id": "HYDROARC 1031/14(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      32.81666666666667,
+      35.983333333333334
+    ]
   },
   "properties": {
     "dtg": "2014-04-16T17:17:00",
     "raw_dtg": "161717Z APR 14",
     "msg_id": "HYDROARC 1031/14(54)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1031/14"
+      "THIS MSG 01 SEP 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTURKEY TO CYPRUS.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL 31 AUG\n   VICINITY TRACKLINE BETWEEN\n   35-59.0N 032-49.0E AND 35-22.9N 033-04.9E.\n   THREE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 SEP 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTURKEY TO CYPRUS.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL 31 AUG\n   VICINITY TRACKLINE BETWEEN\n   35-59.0N 032-49.0E AND 35-22.9N 033-04.9E.\n   THREE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 SEP 14.",
+    "valid_from": "2014-04-16T17:17:00+00:00",
+    "valid_until": "2014-09-01T00:00:00+00:00",
+    "summary": null
   }
 }

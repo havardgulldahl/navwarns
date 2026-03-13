@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2593/14(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-10-25T17:04:00",
     "raw_dtg": "251704Z OCT 14",
     "msg_id": "HYDROARC 2593/14(51)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 100059Z NOV 14",
-      "HYDROARC 2593/14"
+      "THIS MSG 100059Z NOV 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nGULF OF CADIZ.\nDNC 08.\n1. UNDERWATER OPERATIONS 270001Z OCT TO 092359Z NOV\n   BY M/V MIGUEL OLIVER IN AREA BETWEEN\n   36-00N 37-05N AND 006-15W 007-20W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 100059Z NOV 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nGULF OF CADIZ.\nDNC 08.\n1. UNDERWATER OPERATIONS 270001Z OCT TO 092359Z NOV\n   BY M/V MIGUEL OLIVER IN AREA BETWEEN\n   36-00N 37-05N AND 006-15W 007-20W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 100059Z NOV 14.",
+    "valid_from": "2014-10-25T17:04:00+00:00",
+    "valid_until": "2014-11-10T00:59:00+00:00",
+    "summary": null
   }
 }

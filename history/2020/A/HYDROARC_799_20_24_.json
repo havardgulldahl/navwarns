@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 799/20(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -43.71666666666667,
+          -1.65
+        ],
+        [
+          -43.65833333333333,
+          -1.6833333333333333
+        ],
+        [
+          -43.7,
+          -1.75
+        ],
+        [
+          -43.75833333333333,
+          -1.7166666666666668
+        ],
+        [
+          -43.71666666666667,
+          -1.65
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-03-02T13:43:00",
     "raw_dtg": "021343Z MAR 20",
     "msg_id": "HYDROARC 799/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 1894/20"
+      "THIS MSG 29 AUG 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. NAVIGATION PROHIBITED UNTIL 28 AUG\n   IN AREA BOUND BY\n   01-39.0S 043-43.0W, 01-41.0S 043-39.5W,\n   01-45.0S 043-42.0W, 01-43.0S 043-45.5W.\n2. CANCEL THIS MSG 29 AUG 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. NAVIGATION PROHIBITED UNTIL 28 AUG\n   IN AREA BOUND BY\n   01-39.0S 043-43.0W, 01-41.0S 043-39.5W,\n   01-45.0S 043-42.0W, 01-43.0S 043-45.5W.\n2. CANCEL THIS MSG 29 AUG 20.",
+    "valid_from": "2020-03-02T13:43:00+00:00",
+    "valid_until": "2020-08-29T00:00:00+00:00",
+    "summary": null
   }
 }

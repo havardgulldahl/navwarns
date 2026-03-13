@@ -2,19 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 1992/14(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.291666666666664,
+          44.81666666666667
+        ],
+        [
+          33.47,
+          44.81666666666667
+        ],
+        [
+          33.46666666666667,
+          44.68
+        ],
+        [
+          33.37166666666667,
+          44.68
+        ],
+        [
+          33.291666666666664,
+          44.715
+        ],
+        [
+          33.291666666666664,
+          44.81666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-08-20T12:31:00",
     "raw_dtg": "201231Z AUG 14",
     "msg_id": "HYDROARC 1992/14(55)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 220530Z AUG 14",
-      "HYDROARC 1992/14"
+      "THIS MSG 220530Z AUG 14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 220130Z TO 220430Z AUG\n   IN AREA BOUND BY\n   44-49.0N 033-17.5E, 44-49.0N 033-28.2E,\n   44-40.8N 033-28.0E, 44-40.8N 033-22.3E,\n   44-42.9N 033-17.5E.\n2. CANCEL THIS MSG 220530Z AUG 14."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 220130Z TO 220430Z AUG\n   IN AREA BOUND BY\n   44-49.0N 033-17.5E, 44-49.0N 033-28.2E,\n   44-40.8N 033-28.0E, 44-40.8N 033-22.3E,\n   44-42.9N 033-17.5E.\n2. CANCEL THIS MSG 220530Z AUG 14.",
+    "valid_from": "2014-08-20T12:31:00+00:00",
+    "valid_until": "2014-08-22T05:30:00+00:00",
+    "summary": null
   }
 }

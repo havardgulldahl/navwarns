@@ -3,17 +3,23 @@
   "id": "HYDROARC 3997/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2983333333333333,
+      50.575
+    ]
   },
   "properties": {
     "dtg": "2017-12-11T13:28:00",
     "raw_dtg": "111328Z DEC 17",
     "msg_id": "HYDROARC 3997/17(37)",
-    "cancellations": [
-      "HYDROARC 4013/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37095.\nDGPS STATION AT SAINT CATHERINES POINT LIGHT\n50-34.5N 001-17.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37095.\nDGPS STATION AT SAINT CATHERINES POINT LIGHT\n50-34.5N 001-17.9W UNRELIABLE.",
+    "valid_from": "2017-12-11T13:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

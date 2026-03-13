@@ -3,17 +3,23 @@
   "id": "HYDROARC 700/11(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      7.6850000000000005,
+      36.968333333333334
+    ]
   },
   "properties": {
     "dtg": "2011-04-25T14:34:00",
     "raw_dtg": "251434Z APR 11",
     "msg_id": "HYDROARC 700/11(52)",
-    "cancellations": [
-      "HYDROARC 722/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nNGA CHART 52202 (7TH ED).\nCAP DE GARDE LIGHT 36-58.1N 007-41.1E UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nNGA CHART 52202 (7TH ED).\nCAP DE GARDE LIGHT 36-58.1N 007-41.1E UNLIT.",
+    "valid_from": "2011-04-25T14:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

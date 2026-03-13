@@ -3,17 +3,23 @@
   "id": "HYDROARC 2023/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.435,
+      50.725
+    ]
   },
   "properties": {
     "dtg": "2012-09-02T04:21:00",
     "raw_dtg": "020421Z SEP 12",
     "msg_id": "HYDROARC 2023/12(37)",
-    "cancellations": [
-      "HYDROARC 2045/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nCHART 37110\nROYAL SOVEREIGN LIGHT 50-43.5N 000-26.1E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nCHART 37110\nROYAL SOVEREIGN LIGHT 50-43.5N 000-26.1E UNRELIABLE.",
+    "valid_from": "2012-09-02T04:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

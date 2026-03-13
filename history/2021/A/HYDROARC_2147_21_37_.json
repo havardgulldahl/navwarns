@@ -3,17 +3,23 @@
   "id": "HYDROARC 2147/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.8133333333333332,
+      49.373333333333335
+    ]
   },
   "properties": {
     "dtg": "2021-08-20T03:18:00",
     "raw_dtg": "200318Z AUG 21",
     "msg_id": "HYDROARC 2147/21(37)",
-    "cancellations": [
-      "HYDROARC 2151/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCAP DE CARTERET LIGHT 49-22.4N 001-48.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCAP DE CARTERET LIGHT 49-22.4N 001-48.8W UNRELIABLE.",
+    "valid_from": "2021-08-20T03:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

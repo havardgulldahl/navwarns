@@ -3,17 +3,25 @@
   "id": "HYDROARC 2008/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5066666666666666,
+      51.31166666666667
+    ]
   },
   "properties": {
     "dtg": "2017-06-29T23:57:00",
     "raw_dtg": "292357Z JUN 17",
     "msg_id": "HYDROARC 2008/17(37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2055/17"
+      "2000/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDOVER STRAIT.\nENGLAND.\nDNC 20.\nCHART 37120.\n1. SUBMERGED OBSTRUCTION IN VICINITY 51-18.7N 001-30.4E.\n2. CANCEL HYDROLANT 2000/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDOVER STRAIT.\nENGLAND.\nDNC 20.\nCHART 37120.\n1. SUBMERGED OBSTRUCTION IN VICINITY 51-18.7N 001-30.4E.\n2. CANCEL HYDROLANT 2000/17.",
+    "valid_from": "2017-06-29T23:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 533/13(25)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-02-28T20:14:00",
     "raw_dtg": "282014Z FEB 13",
     "msg_id": "HYDROARC 533/13(25)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 533/13"
+      "532/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nCANCEL HYDROLANT 532/13 AND THIS MSG, FALSE ALERT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nCANCEL HYDROLANT 532/13 AND THIS MSG, FALSE ALERT.",
+    "valid_from": "2013-02-28T20:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

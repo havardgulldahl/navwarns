@@ -3,17 +3,23 @@
   "id": "HYDROARC 2379/20(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -22.791666666666668,
+      48.913333333333334
+    ]
   },
   "properties": {
     "dtg": "2020-07-30T06:05:00",
     "raw_dtg": "300605Z JUL 20",
     "msg_id": "HYDROARC 2379/20(38)",
-    "cancellations": [
-      "HYDROARC 2436/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\nCABLE OPERATIONS 300800Z JUL UNTIL FURTHER NOTICE\nBY M/V REBECCA IN VICINITY OF TRACKLINE JOINING\n48-54.8N 022-47.5W, 49-01.8N 024-52.8W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\nCABLE OPERATIONS 300800Z JUL UNTIL FURTHER NOTICE\nBY M/V REBECCA IN VICINITY OF TRACKLINE JOINING\n48-54.8N 022-47.5W, 49-01.8N 024-52.8W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2020-07-30T06:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

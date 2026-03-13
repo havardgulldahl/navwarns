@@ -3,17 +3,23 @@
   "id": "HYDROARC 1464/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.676666666666667,
+      51.20166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-07-03T20:12:00",
     "raw_dtg": "032012Z JUL 12",
     "msg_id": "HYDROARC 1464/12(36)",
-    "cancellations": [
-      "HYDROARC 1479/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nBRISTOL CHANNEL.\nCHART 36035\nFOG SIGNAL AT LUNDY ISLAND LIGHT 51-12.1N 004-40.6W INOPERATIVE."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nBRISTOL CHANNEL.\nCHART 36035\nFOG SIGNAL AT LUNDY ISLAND LIGHT 51-12.1N 004-40.6W INOPERATIVE.",
+    "valid_from": "2012-07-03T20:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

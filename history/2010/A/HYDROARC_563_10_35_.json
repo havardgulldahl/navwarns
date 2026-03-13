@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 563/10(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-04-01T07:28:00",
     "raw_dtg": "010728Z APR 10",
     "msg_id": "HYDROARC 563/10(35)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 563/10"
+      "554/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nRADIO SERVICES.\nCANCEL HYDROLANT 554/10 AND THIS MSG, STATION RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nRADIO SERVICES.\nCANCEL HYDROLANT 554/10 AND THIS MSG, STATION RESTORED.",
+    "valid_from": "2010-04-01T07:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

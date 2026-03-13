@@ -3,18 +3,25 @@
   "id": "HYDROARC 3230/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.5916666666666668,
+      50.66166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-12-01T12:59:00",
     "raw_dtg": "011259Z DEC 16",
     "msg_id": "HYDROARC 3230/16(37)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 041300Z DEC 16",
-      "HYDROARC 3230/16"
+      "THIS MSG 041300Z DEC 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 37015, 37095.\n1. NEEDLES LIGHT 50-39.7N 001-35.5W UNRELIABLE\n   UNTIL 041200Z DEC.\n2. CANCEL THIS MSG 041300Z DEC 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 37015, 37095.\n1. NEEDLES LIGHT 50-39.7N 001-35.5W UNRELIABLE\n   UNTIL 041200Z DEC.\n2. CANCEL THIS MSG 041300Z DEC 16.",
+    "valid_from": "2016-12-01T12:59:00+00:00",
+    "valid_until": "2016-12-04T13:00:00+00:00",
+    "summary": null
   }
 }

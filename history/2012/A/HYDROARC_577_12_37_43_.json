@@ -3,17 +3,23 @@
   "id": "HYDROARC 577/12(37,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.783333333333333,
+      56.19
+    ]
   },
   "properties": {
     "dtg": "2012-03-11T15:35:00",
     "raw_dtg": "111535Z MAR 12",
     "msg_id": "HYDROARC 577/12(37,43)",
-    "cancellations": [
-      "HYDROARC 872/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V STRIL EXPLORER WITHIN 1.5 MILES OF\n56-11.4N 002-47.0E. WIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V STRIL EXPLORER WITHIN 1.5 MILES OF\n56-11.4N 002-47.0E. WIDE BERTH REQUESTED.",
+    "valid_from": "2012-03-11T15:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 552/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.125,
+      51.88666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-03-02T17:23:00",
     "raw_dtg": "021723Z MAR 13",
     "msg_id": "HYDROARC 552/13(37)",
-    "cancellations": [
-      "HYDROARC 558/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37140\nSUNK EAST BUOY 51-53.2N 002-07.5E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37140\nSUNK EAST BUOY 51-53.2N 002-07.5E MISSING.",
+    "valid_from": "2013-03-02T17:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

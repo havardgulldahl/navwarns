@@ -12,12 +12,16 @@
     "dtg": "2024-01-28T04:08:00",
     "raw_dtg": "280408Z JAN 24",
     "msg_id": "HYDROARC 209/24(24)",
+    "year": 2024,
     "cancellations": [
-      "THIS MSG 270001Z JUL 24",
-      "HYDROARC 209/24"
+      "THIS MSG 270001Z JUL 24"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. ALINH C PONTA DO TAGANO RANGE LIGHT 20-19.26S 040-16.55W\n   UNLIT UNTIL 26 JUL.\n2. CANCEL THIS MSG 270001Z JUL 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. ALINH C PONTA DO TAGANO RANGE LIGHT 20-19.26S 040-16.55W\n   UNLIT UNTIL 26 JUL.\n2. CANCEL THIS MSG 270001Z JUL 24.",
+    "valid_from": "2024-01-28T04:08:00+00:00",
+    "valid_until": "2024-07-27T00:01:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3328/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0033333333333334,
+      57.69833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-10-17T20:23:00",
     "raw_dtg": "172023Z OCT 17",
     "msg_id": "HYDROARC 3328/17(35)",
-    "cancellations": [
-      "HYDROARC 3343/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35013.\nKINNAIRDS HEAD LIGHT 57-41.9N 002-00.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35013.\nKINNAIRDS HEAD LIGHT 57-41.9N 002-00.2W UNRELIABLE.",
+    "valid_from": "2017-10-17T20:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

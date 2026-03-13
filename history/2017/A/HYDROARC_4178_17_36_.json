@@ -3,17 +3,23 @@
   "id": "HYDROARC 4178/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.125,
+      54.843333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-12-24T19:26:00",
     "raw_dtg": "241926Z DEC 17",
     "msg_id": "HYDROARC 4178/17(36)",
-    "cancellations": [
-      "HYDROARC 152/18"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nSCOTLAND-SOUTHWEST COAST.\nDNC 20.\nNAVTEX STATION PORTPATRICK (O) 54-50.6N 005-07.5W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nSCOTLAND-SOUTHWEST COAST.\nDNC 20.\nNAVTEX STATION PORTPATRICK (O) 54-50.6N 005-07.5W\nUNRELIABLE.",
+    "valid_from": "2017-12-24T19:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

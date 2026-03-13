@@ -3,17 +3,23 @@
   "id": "HYDROARC 3499/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.55,
+      50.708333333333336
+    ]
   },
   "properties": {
     "dtg": "2019-11-14T18:06:00",
     "raw_dtg": "141806Z NOV 19",
     "msg_id": "HYDROARC 3499/19(37)",
-    "cancellations": [
-      "HYDROARC 3507/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nHURST POINT LIGHT 50-42.5N 001-33.0W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nHURST POINT LIGHT 50-42.5N 001-33.0W UNRELIABLE.",
+    "valid_from": "2019-11-14T18:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

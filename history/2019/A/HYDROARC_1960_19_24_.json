@@ -3,17 +3,25 @@
   "id": "HYDROARC 1960/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -39.361666666666665,
+      -3.1766666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-06-29T02:39:00",
     "raw_dtg": "290239Z JUN 19",
     "msg_id": "HYDROARC 1960/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 2283/19"
+      "THIS MSG 26 DEC 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24250.\n1. MUNDAU LIGHT 03-10.6S 039-21.7W UNLIT.\n2. CANCEL THIS MSG 26 DEC 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24250.\n1. MUNDAU LIGHT 03-10.6S 039-21.7W UNLIT.\n2. CANCEL THIS MSG 26 DEC 19.",
+    "valid_from": "2019-06-29T02:39:00+00:00",
+    "valid_until": "2019-12-26T00:00:00+00:00",
+    "summary": null
   }
 }

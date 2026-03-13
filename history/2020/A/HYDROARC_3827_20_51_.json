@@ -3,17 +3,25 @@
   "id": "HYDROARC 3827/20(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.871666666666666,
+      36.00833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-12-10T09:26:00",
     "raw_dtg": "100926Z DEC 20",
     "msg_id": "HYDROARC 3827/20(51)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3858/20"
+      "3820/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF GIBRALTAR.\nEASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V EDDA FLORA IN VICINITY OF\n   TRACKLINE JOINING\n   36-00.5N 005-52.3W, 35-52.2N 005-56.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3820/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF GIBRALTAR.\nEASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V EDDA FLORA IN VICINITY OF\n   TRACKLINE JOINING\n   36-00.5N 005-52.3W, 35-52.2N 005-56.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3820/20.",
+    "valid_from": "2020-12-10T09:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

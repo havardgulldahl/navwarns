@@ -3,18 +3,25 @@
   "id": "HYDROARC 1747/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -16.001666666666665,
+      47.666666666666664
+    ]
   },
   "properties": {
     "dtg": "2020-05-23T17:43:00",
     "raw_dtg": "231743Z MAY 20",
     "msg_id": "HYDROARC 1747/20(36)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 261443Z MAY 20",
-      "HYDROARC 1747/20"
+      "THIS MSG 261443Z MAY 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT S/V HELENA, LIGHT BLUE HULL,\n   DISMASTED AND ADRIFT IN VICINITY\n   47-40.0N 016-00.1W. VESSELS IN VICINITY\n   REQUESTED TO KEEP A SHARP LOOKOUT. REPORTS\n   TO UK COAST GUARD,\n   PHONE: 44 344 382 0025,\n   E-MAIL: UKMRCC@HMCG.GOV.UK.\n2. CANCEL THIS MSG 261443Z MAY 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT S/V HELENA, LIGHT BLUE HULL,\n   DISMASTED AND ADRIFT IN VICINITY\n   47-40.0N 016-00.1W. VESSELS IN VICINITY\n   REQUESTED TO KEEP A SHARP LOOKOUT. REPORTS\n   TO UK COAST GUARD,\n   PHONE: 44 344 382 0025,\n   E-MAIL: UKMRCC@HMCG.GOV.UK.\n2. CANCEL THIS MSG 261443Z MAY 20.",
+    "valid_from": "2020-05-23T17:43:00+00:00",
+    "valid_until": "2020-05-26T14:43:00+00:00",
+    "summary": null
   }
 }

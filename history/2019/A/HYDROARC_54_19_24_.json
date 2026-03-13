@@ -3,17 +3,23 @@
   "id": "HYDROARC 54/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.3,
+      17.826666666666668
+    ]
   },
   "properties": {
     "dtg": "2019-01-06T15:03:00",
     "raw_dtg": "061503Z JAN 19",
     "msg_id": "HYDROARC 54/19(24)",
-    "cancellations": [
-      "HYDROARC 255/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 01.\nM/V ATAPI REPORTS CREWMAN REQUIRING MEDICAL\nASSISTANCE IN 17-49.6N 043-18.0W AT 051915Z JAN.\nVESSELS IN VICINITY ABLE TO PROVIDE MEDICAL\nASSISTANCE REQUESTED TO ASSIST IF POSSIBLE.\nREPORTS TO MRCC FORT DE FRANCE,\nINMARSAT-C: 422799024,\nTELEX: 42912008,\nPHONE: 5965 9670 9292,\nFAX: 5965 9663 2450,\nE-MAIL: ANTILLES@MRCCFR.EU."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 01.\nM/V ATAPI REPORTS CREWMAN REQUIRING MEDICAL\nASSISTANCE IN 17-49.6N 043-18.0W AT 051915Z JAN.\nVESSELS IN VICINITY ABLE TO PROVIDE MEDICAL\nASSISTANCE REQUESTED TO ASSIST IF POSSIBLE.\nREPORTS TO MRCC FORT DE FRANCE,\nINMARSAT-C: 422799024,\nTELEX: 42912008,\nPHONE: 5965 9670 9292,\nFAX: 5965 9663 2450,\nE-MAIL: ANTILLES@MRCCFR.EU.",
+    "valid_from": "2019-01-06T15:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

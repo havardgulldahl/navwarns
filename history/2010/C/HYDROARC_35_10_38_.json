@@ -3,17 +3,25 @@
   "id": "HYDROARC 35/10(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -145.11,
+      89.44
+    ]
   },
   "properties": {
     "dtg": "2010-07-09T17:27:00",
     "raw_dtg": "091727Z JUL 10",
     "msg_id": "HYDROARC 35/10(38)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 264/12"
+      "27/06"
     ],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "ARCTIC.\n1. SCIENTIFIC MOORING ESTABLISHED\n   IN 89-26.4N 145-06.6W.\n2. CANCEL AMSI 27/06."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\n1. SCIENTIFIC MOORING ESTABLISHED\n   IN 89-26.4N 145-06.6W.\n2. CANCEL AMSI 27/06.",
+    "valid_from": "2010-07-09T17:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1614/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.8316666666666666,
+      58.87166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-06-27T08:08:00",
     "raw_dtg": "270808Z JUN 16",
     "msg_id": "HYDROARC 1614/16(35)",
-    "cancellations": [
-      "HYDROARC 1623/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35056.\nROSE NESS LIGHT 58-52.3N 002-49.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35056.\nROSE NESS LIGHT 58-52.3N 002-49.9W UNRELIABLE.",
+    "valid_from": "2016-06-27T08:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

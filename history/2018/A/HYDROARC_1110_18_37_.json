@@ -3,17 +3,25 @@
   "id": "HYDROARC 1110/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.016666666666666666,
+      53.96
+    ]
   },
   "properties": {
     "dtg": "2018-04-05T12:05:00",
     "raw_dtg": "051205Z APR 18",
     "msg_id": "HYDROARC 1110/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 27/19"
+      "630/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37059.\n1. DANGEROUS WRECK IN 53-57.6N 000-01.0W.\n2. CANCEL HYDROLANT 630/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37059.\n1. DANGEROUS WRECK IN 53-57.6N 000-01.0W.\n2. CANCEL HYDROLANT 630/18.",
+    "valid_from": "2018-04-05T12:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

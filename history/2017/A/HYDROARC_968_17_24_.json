@@ -3,17 +3,25 @@
   "id": "HYDROARC 968/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.00333333333333,
+      -12.578333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-03-25T21:21:00",
     "raw_dtg": "252121Z MAR 17",
     "msg_id": "HYDROARC 968/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 1010/17"
+      "THIS MSG 22 SEP 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. GARCIA D'AVILA LIGHT 12-34.7S 038-00.2W UNLIT\n   UNTIL 21 SEP.\n2. CANCEL THIS MSG 22 SEP 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. GARCIA D'AVILA LIGHT 12-34.7S 038-00.2W UNLIT\n   UNTIL 21 SEP.\n2. CANCEL THIS MSG 22 SEP 17.",
+    "valid_from": "2017-03-25T21:21:00+00:00",
+    "valid_until": "2017-09-22T00:00:00+00:00",
+    "summary": null
   }
 }

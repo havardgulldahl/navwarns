@@ -3,18 +3,25 @@
   "id": "HYDROARC 893/20(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      4.8533333333333335,
+      58.57666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-03-08T13:32:00",
     "raw_dtg": "081332Z MAR 20",
     "msg_id": "HYDROARC 893/20(43)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 111332Z MAR 20",
-      "HYDROARC 893/20"
+      "THIS MSG 111332Z MAR 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nNORWAY.\nDNC 21.\n1. CONTAINER ADRIFT IN 58-34.6N 004-51.2E\n   AT 081213Z MAR.\n2. CANCEL THIS MSG 111332Z MAR 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nNORWAY.\nDNC 21.\n1. CONTAINER ADRIFT IN 58-34.6N 004-51.2E\n   AT 081213Z MAR.\n2. CANCEL THIS MSG 111332Z MAR 20.",
+    "valid_from": "2020-03-08T13:32:00+00:00",
+    "valid_until": "2020-03-11T13:32:00+00:00",
+    "summary": null
   }
 }

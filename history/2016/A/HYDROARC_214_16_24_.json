@@ -3,17 +3,25 @@
   "id": "HYDROARC 214/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -36.29,
+      -5.066666666666666
+    ]
   },
   "properties": {
     "dtg": "2016-01-25T14:09:00",
     "raw_dtg": "251409Z JAN 16",
     "msg_id": "HYDROARC 214/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 240/16"
+      "THIS MSG 22 JUL 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24240.\n1. GALINHOS LIGHT 05-04.0S 036-17.4W UNLIT.\n2. CANCEL THIS MSG 22 JUL 16."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24240.\n1. GALINHOS LIGHT 05-04.0S 036-17.4W UNLIT.\n2. CANCEL THIS MSG 22 JUL 16.",
+    "valid_from": "2016-01-25T14:09:00+00:00",
+    "valid_until": "2016-07-22T00:00:00+00:00",
+    "summary": null
   }
 }

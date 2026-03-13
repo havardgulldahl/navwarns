@@ -3,17 +3,23 @@
   "id": "HYDROARC 1025/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.303333333333335,
+      -23.038333333333334
+    ]
   },
   "properties": {
     "dtg": "2011-06-21T01:38:00",
     "raw_dtg": "210138Z JUN 11",
     "msg_id": "HYDROARC 1025/11(24)",
-    "cancellations": [
-      "HYDROARC 1323/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24150 (27TH ED).\nILHA PONTUDA LIGHT 23-02.3S 043-18.2W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24150 (27TH ED).\nILHA PONTUDA LIGHT 23-02.3S 043-18.2W UNLIT.",
+    "valid_from": "2011-06-21T01:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

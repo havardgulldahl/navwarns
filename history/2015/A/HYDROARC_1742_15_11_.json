@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1742/15(11)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-07-15T13:19:00",
     "raw_dtg": "151319Z JUL 15",
     "msg_id": "HYDROARC 1742/15(11)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 1742/15"
+      "1696/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nDNC 15.\nCANCEL HYDROLANT 1696/15 AND THIS MSG, VESSEL ASSISTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nDNC 15.\nCANCEL HYDROLANT 1696/15 AND THIS MSG, VESSEL ASSISTED.",
+    "valid_from": "2015-07-15T13:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

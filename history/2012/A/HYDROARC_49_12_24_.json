@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 49/12(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-01-06T15:48:00",
     "raw_dtg": "061548Z JAN 12",
     "msg_id": "HYDROARC 49/12(24)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 49/12"
+      "2169/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCANCEL HYDROLANT 2169/11 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCANCEL HYDROLANT 2169/11 AND THIS MSG.",
+    "valid_from": "2012-01-06T15:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

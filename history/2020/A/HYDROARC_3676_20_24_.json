@@ -3,17 +3,25 @@
   "id": "HYDROARC 3676/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.48,
+      -30.7
+    ]
   },
   "properties": {
     "dtg": "2020-11-26T10:12:00",
     "raw_dtg": "261012Z NOV 20",
     "msg_id": "HYDROARC 3676/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3873/20"
+      "THIS MSG 25 MAY 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. SOLIDAO LIGHT 30-42.0S 050-28.8W UNLIT.\n2. CANCEL THIS MSG 25 MAY 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. SOLIDAO LIGHT 30-42.0S 050-28.8W UNLIT.\n2. CANCEL THIS MSG 25 MAY 21.",
+    "valid_from": "2020-11-26T10:12:00+00:00",
+    "valid_until": "2021-05-25T00:00:00+00:00",
+    "summary": null
   }
 }

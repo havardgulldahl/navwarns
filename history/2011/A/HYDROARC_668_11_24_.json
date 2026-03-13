@@ -3,17 +3,23 @@
   "id": "HYDROARC 668/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -54.88333333333333,
+      -35.025
+    ]
   },
   "properties": {
     "dtg": "2011-04-20T05:41:00",
     "raw_dtg": "200541Z APR 11",
     "msg_id": "HYDROARC 668/11(24)",
-    "cancellations": [
-      "HYDROARC 703/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "URUGUAY.\nNGA CHART 24050 (11TH ED).\nISLA DE LOBOS LIGHT 35-01.5S 054-53.0W\nRANGE REDUCED TO EIGHT MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "URUGUAY.\nNGA CHART 24050 (11TH ED).\nISLA DE LOBOS LIGHT 35-01.5S 054-53.0W\nRANGE REDUCED TO EIGHT MILES.",
+    "valid_from": "2011-04-20T05:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

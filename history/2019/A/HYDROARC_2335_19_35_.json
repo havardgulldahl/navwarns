@@ -3,17 +3,23 @@
   "id": "HYDROARC 2335/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.2316666666666665,
+      58.461666666666666
+    ]
   },
   "properties": {
     "dtg": "2019-07-30T16:49:00",
     "raw_dtg": "301649Z JUL 19",
     "msg_id": "HYDROARC 2335/19(35)",
-    "cancellations": [
-      "HYDROARC 2555/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nNORTH MINCH.\nSCOTLAND.\nDNC 19, DNC 20.\nCGOC STORNOWAY MF R/T AND DSC SERVICES AT\nBUTT OF LEWIS 58-27.7N 006-13.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nNORTH MINCH.\nSCOTLAND.\nDNC 19, DNC 20.\nCGOC STORNOWAY MF R/T AND DSC SERVICES AT\nBUTT OF LEWIS 58-27.7N 006-13.9W UNRELIABLE.",
+    "valid_from": "2019-07-30T16:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

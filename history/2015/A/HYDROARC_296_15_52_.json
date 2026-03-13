@@ -3,18 +3,25 @@
   "id": "HYDROARC 296/15(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.64,
+      37.405
+    ]
   },
   "properties": {
     "dtg": "2015-02-04T10:38:00",
     "raw_dtg": "041038Z FEB 15",
     "msg_id": "HYDROARC 296/15(52)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 071040Z FEB 15",
-      "HYDROARC 296/15"
+      "THIS MSG 071040Z FEB 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nDNC 08.\n1. 30 CONTAINERS ADRIFT VICINITY 37-24.3N 010-38.4E.\n2. CANCEL THIS MSG 071040Z FEB 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nDNC 08.\n1. 30 CONTAINERS ADRIFT VICINITY 37-24.3N 010-38.4E.\n2. CANCEL THIS MSG 071040Z FEB 15.",
+    "valid_from": "2015-02-04T10:38:00+00:00",
+    "valid_until": "2015-02-07T10:40:00+00:00",
+    "summary": null
   }
 }

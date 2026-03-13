@@ -3,17 +3,23 @@
   "id": "HYDROARC 3724/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.555,
+      51.32
+    ]
   },
   "properties": {
     "dtg": "2017-11-18T19:13:00",
     "raw_dtg": "181913Z NOV 17",
     "msg_id": "HYDROARC 3724/17(37)",
-    "cancellations": [
-      "HYDROARC 3770/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDOVER STRAIT.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V DEEP HELDER IN VICINITY OF TRACKLINE BETWEEN\n51-19.2N 001-33.3E AND 51-18.5N 001-28.8E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDOVER STRAIT.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V DEEP HELDER IN VICINITY OF TRACKLINE BETWEEN\n51-19.2N 001-33.3E AND 51-18.5N 001-28.8E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2017-11-18T19:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

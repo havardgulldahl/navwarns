@@ -3,17 +3,23 @@
   "id": "HYDROARC 910/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.798333333333334,
+      52.75
+    ]
   },
   "properties": {
     "dtg": "2010-05-20T23:48:00",
     "raw_dtg": "202348Z MAY 10",
     "msg_id": "HYDROARC 910/10(36)",
-    "cancellations": [
-      "HYDROARC 922/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nWALES-WEST COAST.\nNGA CHART 36002 (0 ED).\nFOG SIGNAL AT BARDSEY LIGHT 52-45.0N 004-47.9W DISCONTINUED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nWALES-WEST COAST.\nNGA CHART 36002 (0 ED).\nFOG SIGNAL AT BARDSEY LIGHT 52-45.0N 004-47.9W DISCONTINUED.",
+    "valid_from": "2010-05-20T23:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

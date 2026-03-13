@@ -3,17 +3,23 @@
   "id": "HYDROARC 280/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.3116666666666665,
+      60.63333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-01-26T22:37:00",
     "raw_dtg": "262237Z JAN 17",
     "msg_id": "HYDROARC 280/17(35)",
-    "cancellations": [
-      "HYDROARC 289/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nPOINT OF FETHALAND LIGHT 60-38.0N 001-18.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nPOINT OF FETHALAND LIGHT 60-38.0N 001-18.7W UNRELIABLE.",
+    "valid_from": "2017-01-26T22:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

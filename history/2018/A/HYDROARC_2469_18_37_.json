@@ -3,17 +3,25 @@
   "id": "HYDROARC 2469/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.32,
+      53.26166666666666
+    ]
   },
   "properties": {
     "dtg": "2018-07-31T17:23:00",
     "raw_dtg": "311723Z JUL 18",
     "msg_id": "HYDROARC 2469/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2470/18"
+      "1977/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37166.\n1. ALL NAVIGATIONAL AIDS AND FOG SIGNAL\n   AT DUDGEON WIND FARM TURBINE A5,\n   53-15.7N 001-19.2E INOPERATIVE.\n2. CANCEL HYDROLANT 1977/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37166.\n1. ALL NAVIGATIONAL AIDS AND FOG SIGNAL\n   AT DUDGEON WIND FARM TURBINE A5,\n   53-15.7N 001-19.2E INOPERATIVE.\n2. CANCEL HYDROLANT 1977/18.",
+    "valid_from": "2018-07-31T17:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

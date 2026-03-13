@@ -3,17 +3,23 @@
   "id": "HYDROARC 2796/14(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.876666666666667,
+      37.498333333333335
+    ]
   },
   "properties": {
     "dtg": "2014-11-18T18:27:00",
     "raw_dtg": "181827Z NOV 14",
     "msg_id": "HYDROARC 2796/14(52)",
-    "cancellations": [
-      "HYDROARC 2816/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\nCHART 52200.\nGALITON DE L'OUEST LIGHT 37-29.9N 008-52.6E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\nCHART 52200.\nGALITON DE L'OUEST LIGHT 37-29.9N 008-52.6E UNRELIABLE.",
+    "valid_from": "2014-11-18T18:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

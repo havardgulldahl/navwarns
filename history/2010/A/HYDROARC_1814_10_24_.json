@@ -3,17 +3,23 @@
   "id": "HYDROARC 1814/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.145,
+      -23.063333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-09-25T00:56:00",
     "raw_dtg": "250056Z SEP 10",
     "msg_id": "HYDROARC 1814/10(24)",
-    "cancellations": [
-      "HYDROARC 1868/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24160 (21ST ED).\nRADIOBEACON AT ILHA RASA LIGHT 23-03.8S 043-08.7W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24160 (21ST ED).\nRADIOBEACON AT ILHA RASA LIGHT 23-03.8S 043-08.7W OFF AIR.",
+    "valid_from": "2010-09-25T00:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 580/13(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.215,
+      -5.97
+    ]
   },
   "properties": {
     "dtg": "2013-03-06T18:07:00",
     "raw_dtg": "061807Z MAR 13",
     "msg_id": "HYDROARC 580/13(57)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 141900Z MAR 13",
-      "HYDROARC 580/13"
+      "THIS MSG 141900Z MAR 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\n1. CABLE REPAIR OPERATIONS 071800Z TO 141800Z MAR\n   BY CABLESHIP PETER FABER VICINITY 05-58.2S 012-12.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 141900Z MAR 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\n1. CABLE REPAIR OPERATIONS 071800Z TO 141800Z MAR\n   BY CABLESHIP PETER FABER VICINITY 05-58.2S 012-12.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 141900Z MAR 13.",
+    "valid_from": "2013-03-06T18:07:00+00:00",
+    "valid_until": "2013-03-14T19:00:00+00:00",
+    "summary": null
   }
 }

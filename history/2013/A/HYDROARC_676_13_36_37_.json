@@ -3,18 +3,25 @@
   "id": "HYDROARC 676/13(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201666666666666,
+      49.96
+    ]
   },
   "properties": {
     "dtg": "2013-03-18T10:41:00",
     "raw_dtg": "181041Z MAR 13",
     "msg_id": "HYDROARC 676/13(36,37)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 191900Z MAR 13",
-      "HYDROARC 676/13"
+      "THIS MSG 191900Z MAR 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36005\n1. DGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W\n   UNUSABLE 181000Z TO 191800Z MAR.\n2. CANCEL THIS MSG 191900Z MAR 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36005\n1. DGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W\n   UNUSABLE 181000Z TO 191800Z MAR.\n2. CANCEL THIS MSG 191900Z MAR 13.",
+    "valid_from": "2013-03-18T10:41:00+00:00",
+    "valid_until": "2013-03-19T19:00:00+00:00",
+    "summary": null
   }
 }

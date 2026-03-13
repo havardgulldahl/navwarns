@@ -3,17 +3,23 @@
   "id": "HYDROARC 2450/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -39.361666666666665,
+      -3.1766666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-10-04T00:55:00",
     "raw_dtg": "040055Z OCT 13",
     "msg_id": "HYDROARC 2450/13(24)",
-    "cancellations": [
-      "HYDROARC 2925/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24250\nMUNDAU LIGHT 03-10.6S 039-21.7W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24250\nMUNDAU LIGHT 03-10.6S 039-21.7W UNLIT.",
+    "valid_from": "2013-10-04T00:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1869/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6816666666666666,
+      52.32666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-10-01T19:43:00",
     "raw_dtg": "011943Z OCT 10",
     "msg_id": "HYDROARC 1869/10(37)",
-    "cancellations": [
-      "HYDROARC 1877/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nNGA CHART 37166 (3RD ED).\nSOUTHWOLD LIGHT 52-19.6N 001-40.9E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nNGA CHART 37166 (3RD ED).\nSOUTHWOLD LIGHT 52-19.6N 001-40.9E UNRELIABLE.",
+    "valid_from": "2010-10-01T19:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

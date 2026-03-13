@@ -3,17 +3,25 @@
   "id": "HYDROARC 2896/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.788333333333333,
+      57.42333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-09-18T11:44:00",
     "raw_dtg": "181144Z SEP 17",
     "msg_id": "HYDROARC 2896/17(35)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2840/18"
+      "2802/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "LITTLE MINCH.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35092.\n1. NESS POINT LIGHT 57-25.4N 006-47.3W RANGE\n   TEMPORARILY REDUCED TO 12 MILES.\n2. CANCEL HYDROLANT 2802/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "LITTLE MINCH.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35092.\n1. NESS POINT LIGHT 57-25.4N 006-47.3W RANGE\n   TEMPORARILY REDUCED TO 12 MILES.\n2. CANCEL HYDROLANT 2802/17.",
+    "valid_from": "2017-09-18T11:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 19/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7850000000000001,
+      51.156666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-01-04T00:52:00",
     "raw_dtg": "040052Z JAN 12",
     "msg_id": "HYDROARC 19/12(37)",
-    "cancellations": [
-      "HYDROARC 74/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37140\nSANDETTIE LIGHTSHIP 51-09.4N 001-47.1E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37140\nSANDETTIE LIGHTSHIP 51-09.4N 001-47.1E OFF STATION.",
+    "valid_from": "2012-01-04T00:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

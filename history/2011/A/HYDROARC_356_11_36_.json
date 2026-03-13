@@ -3,17 +3,23 @@
   "id": "HYDROARC 356/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.3,
+      53.99166666666667
+    ]
   },
   "properties": {
     "dtg": "2011-03-02T17:48:00",
     "raw_dtg": "021748Z MAR 11",
     "msg_id": "HYDROARC 356/11(36)",
-    "cancellations": [
-      "HYDROARC 371/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-WEST COAST.\nNGA CHART 36025 (1ST ED).\nALL NAVIGATIONAL AIDS AT BARROW WIND FARM\n53-59.5N 003-18.0W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-WEST COAST.\nNGA CHART 36025 (1ST ED).\nALL NAVIGATIONAL AIDS AT BARROW WIND FARM\n53-59.5N 003-18.0W INOPERATIVE.",
+    "valid_from": "2011-03-02T17:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

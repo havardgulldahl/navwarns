@@ -3,17 +3,23 @@
   "id": "HYDROARC 697/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.601666666666667,
+      49.901666666666664
+    ]
   },
   "properties": {
     "dtg": "2016-03-22T08:20:00",
     "raw_dtg": "220820Z MAR 16",
     "msg_id": "HYDROARC 697/16(36,37)",
-    "cancellations": [
-      "HYDROARC 872/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\nCHART 36049.\nFISHING GEAR, MARKED BY BUOYS, ABANDONED\nIN 49-54.1N 005-36.1W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\nCHART 36049.\nFISHING GEAR, MARKED BY BUOYS, ABANDONED\nIN 49-54.1N 005-36.1W.",
+    "valid_from": "2016-03-22T08:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

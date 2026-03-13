@@ -3,18 +3,25 @@
   "id": "HYDROARC 52/19(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      70.21833333333333,
+      77.005
+    ]
   },
   "properties": {
     "dtg": "2019-04-08T13:16:00",
     "raw_dtg": "081316Z APR 19",
     "msg_id": "HYDROARC 52/19(42)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 111316Z APR 19",
-      "HYDROARC 52/19"
+      "THIS MSG 111316Z APR 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN 77-00.3N 070-13.1E AT\n   080827Z APR.\n2. CANCEL THIS MSG 111316Z APR 19."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN 77-00.3N 070-13.1E AT\n   080827Z APR.\n2. CANCEL THIS MSG 111316Z APR 19.",
+    "valid_from": "2019-04-08T13:16:00+00:00",
+    "valid_until": "2019-04-11T13:16:00+00:00",
+    "summary": null
   }
 }

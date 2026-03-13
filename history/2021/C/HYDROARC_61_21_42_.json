@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 61/21(42)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-04-22T11:48:00",
     "raw_dtg": "221148Z APR 21",
     "msg_id": "HYDROARC 61/21(42)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 60/21",
-      "HYDROARC 61/21"
+      "HYDROARC 60/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\nCANCEL HYDROARC 60/21 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\nCANCEL HYDROARC 60/21 AND THIS MSG.",
+    "valid_from": "2021-04-22T11:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

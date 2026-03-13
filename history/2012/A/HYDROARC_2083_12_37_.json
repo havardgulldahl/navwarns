@@ -3,17 +3,25 @@
   "id": "HYDROARC 2083/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.255,
+      53.446666666666665
+    ]
   },
   "properties": {
     "dtg": "2012-09-08T10:14:00",
     "raw_dtg": "081014Z SEP 12",
     "msg_id": "HYDROARC 2083/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2845/12"
+      "1711/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37166\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 49/17 GD\n   53-26.8N 002-15.3E INOPERATIVE.\n2. CANCEL HYDROLANT 1711/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37166\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 49/17 GD\n   53-26.8N 002-15.3E INOPERATIVE.\n2. CANCEL HYDROLANT 1711/12.",
+    "valid_from": "2012-09-08T10:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

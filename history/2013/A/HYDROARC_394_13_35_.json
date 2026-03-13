@@ -3,17 +3,25 @@
   "id": "HYDROARC 394/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.388333333333334,
+      56.93666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-02-12T21:55:00",
     "raw_dtg": "122155Z FEB 13",
     "msg_id": "HYDROARC 394/13(35)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 417/13"
+      "393/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nCHART 35093\n1. BO VICH CHUAN BUOY 56-56.2N 007-23.3W MISSING.\n2. CANCEL HYDROLANT 393/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nCHART 35093\n1. BO VICH CHUAN BUOY 56-56.2N 007-23.3W MISSING.\n2. CANCEL HYDROLANT 393/13.",
+    "valid_from": "2013-02-12T21:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

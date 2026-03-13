@@ -3,17 +3,25 @@
   "id": "HYDROARC 3162/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.2183333333333333,
+      53.03333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-12-26T10:22:00",
     "raw_dtg": "261022Z DEC 21",
     "msg_id": "HYDROARC 3162/21(37)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 3173/21"
+      "2486/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 49/27-J\n   53-02.0N 002-13.1E INOPERATIVE.\n2. CANCEL HYDROLANT 2486/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 49/27-J\n   53-02.0N 002-13.1E INOPERATIVE.\n2. CANCEL HYDROLANT 2486/21.",
+    "valid_from": "2021-12-26T10:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

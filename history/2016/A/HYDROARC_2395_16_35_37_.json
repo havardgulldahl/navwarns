@@ -3,17 +3,23 @@
   "id": "HYDROARC 2395/16(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.5666666666666664,
+      53.36333333333334
+    ]
   },
   "properties": {
     "dtg": "2016-09-14T17:50:00",
     "raw_dtg": "141750Z SEP 16",
     "msg_id": "HYDROARC 2395/16(35,37)",
-    "cancellations": [
-      "HYDROARC 2406/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 35057.\nALL NAVIGATIONAL AIDS AT PLATFORM 49/18-A,\n53-21.8N 002-34.0E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 35057.\nALL NAVIGATIONAL AIDS AT PLATFORM 49/18-A,\n53-21.8N 002-34.0E INOPERATIVE.",
+    "valid_from": "2016-09-14T17:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

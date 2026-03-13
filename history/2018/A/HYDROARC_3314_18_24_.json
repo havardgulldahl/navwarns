@@ -3,17 +3,25 @@
   "id": "HYDROARC 3314/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.35666666666667,
+      -0.615
+    ]
   },
   "properties": {
     "dtg": "2018-10-22T22:03:00",
     "raw_dtg": "222203Z OCT 18",
     "msg_id": "HYDROARC 3314/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3752/18"
+      "THIS MSG 21 APR 19"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nWESTERN SOUTH ATLANTIC.\nDNC 01.\nCHART 24290.\n1. RACON AT SALINOPOLIS LIGHT\n   00-36.9S 047-21.4W INOPERATIVE\n   UNTIL 20 APR 19.\n2. CANCEL THIS MSG 21 APR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nWESTERN SOUTH ATLANTIC.\nDNC 01.\nCHART 24290.\n1. RACON AT SALINOPOLIS LIGHT\n   00-36.9S 047-21.4W INOPERATIVE\n   UNTIL 20 APR 19.\n2. CANCEL THIS MSG 21 APR 19.",
+    "valid_from": "2018-10-22T22:03:00+00:00",
+    "valid_until": "2019-04-21T00:00:00+00:00",
+    "summary": null
   }
 }

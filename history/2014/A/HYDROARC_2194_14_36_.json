@@ -3,18 +3,25 @@
   "id": "HYDROARC 2194/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.0483333333333333,
+      53.961666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-09-10T12:42:00",
     "raw_dtg": "101242Z SEP 14",
     "msg_id": "HYDROARC 2194/14(36)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 131024Z SEP 14",
-      "HYDROARC 2194/14"
+      "THIS MSG 131024Z SEP 14"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLAND-WEST COAST.\nIRISH SEA.\n1. DERELICT TEN METER VESSEL, PARTIALLY SUBMERGED AND\n   ADRIFT IN 53-57.7N 003-02.9W AT 101034Z SEP.\n2. CANCEL THIS MSG 131024Z SEP 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-WEST COAST.\nIRISH SEA.\n1. DERELICT TEN METER VESSEL, PARTIALLY SUBMERGED AND\n   ADRIFT IN 53-57.7N 003-02.9W AT 101034Z SEP.\n2. CANCEL THIS MSG 131024Z SEP 14.",
+    "valid_from": "2014-09-10T12:42:00+00:00",
+    "valid_until": "2014-09-13T10:24:00+00:00",
+    "summary": null
   }
 }

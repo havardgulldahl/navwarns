@@ -2,18 +2,47 @@
   "type": "Feature",
   "id": "HYDROARC 4171/17(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          26.47833333333333,
+          39.40833333333333
+        ],
+        [
+          26.525,
+          39.413333333333334
+        ],
+        [
+          26.533333333333335,
+          39.365
+        ],
+        [
+          26.481666666666666,
+          39.361666666666665
+        ],
+        [
+          26.47833333333333,
+          39.40833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-12-24T09:31:00",
     "raw_dtg": "240931Z DEC 17",
     "msg_id": "HYDROARC 4171/17(54)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 4230/17"
+      "THIS MSG 30 DEC 17",
+      "4063/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 29 DEC\n   BY CABLESHIP ANTONIO MEUCCI IN AREA BOUND BY\n   39-24.5N 026-28.7E, 39-24.8N 026-31.5E,\n   39-21.9N 026-32.0E, 39-21.7N 026-28.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4063/17.\n3. CANCEL THIS MSG 30 DEC 17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 29 DEC\n   BY CABLESHIP ANTONIO MEUCCI IN AREA BOUND BY\n   39-24.5N 026-28.7E, 39-24.8N 026-31.5E,\n   39-21.9N 026-32.0E, 39-21.7N 026-28.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4063/17.\n3. CANCEL THIS MSG 30 DEC 17.",
+    "valid_from": "2017-12-24T09:31:00+00:00",
+    "valid_until": "2017-12-30T00:00:00+00:00",
+    "summary": null
   }
 }

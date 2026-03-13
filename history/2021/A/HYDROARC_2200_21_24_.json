@@ -3,17 +3,25 @@
   "id": "HYDROARC 2200/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.42166666666667,
+      -27.573333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-08-26T21:14:00",
     "raw_dtg": "262114Z AUG 21",
     "msg_id": "HYDROARC 2200/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 2257/21"
+      "THIS MSG 23 FEB 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. BARRA DE LAGOA LIGHT 27-34.4S 048-25.3W UNLIT\n   UNTIL 22 FEB.\n2. CANCEL THIS MSG 23 FEB 22."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. BARRA DE LAGOA LIGHT 27-34.4S 048-25.3W UNLIT\n   UNTIL 22 FEB.\n2. CANCEL THIS MSG 23 FEB 22.",
+    "valid_from": "2021-08-26T21:14:00+00:00",
+    "valid_until": "2022-02-23T00:00:00+00:00",
+    "summary": null
   }
 }

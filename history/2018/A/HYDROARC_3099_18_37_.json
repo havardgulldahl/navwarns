@@ -3,17 +3,25 @@
   "id": "HYDROARC 3099/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6416666666666666,
+      50.221666666666664
+    ]
   },
   "properties": {
     "dtg": "2018-10-01T23:33:00",
     "raw_dtg": "012333Z OCT 18",
     "msg_id": "HYDROARC 3099/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 27/19"
+      "3052/18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37015.\n1. START POINT LIGHT 50-13.3N 003-38.5W RANGE\n   REDUCED TO 18 MILES AND FOG SIGNAL INOPERATIVE.\n2. CANCEL HYDROLANT 3052/18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37015.\n1. START POINT LIGHT 50-13.3N 003-38.5W RANGE\n   REDUCED TO 18 MILES AND FOG SIGNAL INOPERATIVE.\n2. CANCEL HYDROLANT 3052/18.",
+    "valid_from": "2018-10-01T23:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

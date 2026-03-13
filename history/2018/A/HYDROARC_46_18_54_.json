@@ -3,17 +3,23 @@
   "id": "HYDROARC 46/18(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      24.68,
+      35.876666666666665
+    ]
   },
   "properties": {
     "dtg": "2018-01-04T15:12:00",
     "raw_dtg": "041512Z JAN 18",
     "msg_id": "HYDROARC 46/18(54)",
-    "cancellations": [
-      "HYDROARC 83/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\nSURVEY OPERATIONS 05 JAN UNTIL FURTHER NOTICE BY\nM/V ODIN FINDER IN VICINITY OF TRACKLINE BETWEEN\n35-52.6N 024-40.8E AND 35-31.3N 026-30.2E\nFIVE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\nSURVEY OPERATIONS 05 JAN UNTIL FURTHER NOTICE BY\nM/V ODIN FINDER IN VICINITY OF TRACKLINE BETWEEN\n35-52.6N 024-40.8E AND 35-31.3N 026-30.2E\nFIVE MILE BERTH REQUESTED.",
+    "valid_from": "2018-01-04T15:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

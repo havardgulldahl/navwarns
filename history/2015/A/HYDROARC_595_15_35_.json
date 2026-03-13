@@ -3,17 +3,23 @@
   "id": "HYDROARC 595/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2716666666666667,
+      59.855
+    ]
   },
   "properties": {
     "dtg": "2015-03-11T17:19:00",
     "raw_dtg": "111719Z MAR 15",
     "msg_id": "HYDROARC 595/15(35)",
-    "cancellations": [
-      "HYDROARC 598/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nDGPS STATION AT SUMBURGH HEAD LIGHT 59-51.3N 001-16.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nDGPS STATION AT SUMBURGH HEAD LIGHT 59-51.3N 001-16.3W UNRELIABLE.",
+    "valid_from": "2015-03-11T17:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

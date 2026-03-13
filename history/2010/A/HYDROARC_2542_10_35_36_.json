@@ -3,17 +3,23 @@
   "id": "HYDROARC 2542/10(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.158333333333333,
+      55.00833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-12-31T02:29:00",
     "raw_dtg": "310229Z DEC 10",
     "msg_id": "HYDROARC 2542/10(35,36)",
-    "cancellations": [
-      "HYDROARC 1/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nNGA CHART 35119 (2ND ED).\nCOREWALL LIGHT 55-00.5N 005-09.5W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nNGA CHART 35119 (2ND ED).\nCOREWALL LIGHT 55-00.5N 005-09.5W UNLIT.",
+    "valid_from": "2010-12-31T02:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

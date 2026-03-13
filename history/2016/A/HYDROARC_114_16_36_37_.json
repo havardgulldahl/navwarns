@@ -3,17 +3,23 @@
   "id": "HYDROARC 114/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.8066666666666666,
+      49.373333333333335
+    ]
   },
   "properties": {
     "dtg": "2016-01-13T23:33:00",
     "raw_dtg": "132333Z JAN 16",
     "msg_id": "HYDROARC 114/16(36,37)",
-    "cancellations": [
-      "HYDROARC 119/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCHART 36005.\nCAP DE CARTERET LIGHT 49-22.4N 001-48.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCHART 36005.\nCAP DE CARTERET LIGHT 49-22.4N 001-48.4W UNRELIABLE.",
+    "valid_from": "2016-01-13T23:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

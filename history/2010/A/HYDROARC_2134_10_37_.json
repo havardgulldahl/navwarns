@@ -3,17 +3,23 @@
   "id": "HYDROARC 2134/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.758333333333333,
+      48.5
+    ]
   },
   "properties": {
     "dtg": "2010-11-09T08:37:00",
     "raw_dtg": "090837Z NOV 10",
     "msg_id": "HYDROARC 2134/10(37)",
-    "cancellations": [
-      "HYDROARC 2155/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nLANBY 48-30.0N 005-45.5W OFF STATION AND ADRIFT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nLANBY 48-30.0N 005-45.5W OFF STATION AND ADRIFT.",
+    "valid_from": "2010-11-09T08:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -12,12 +12,16 @@
     "dtg": "2023-11-09T22:01:00",
     "raw_dtg": "092201Z NOV 23",
     "msg_id": "HYDROARC 2566/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 080001Z MAY 24",
-      "HYDROARC 2566/23"
+      "THIS MSG 080001Z MAY 24"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DA GALHETA LIGHT 27-34.55S 048-24.99W UNLIT\n   UNTIL 07 MAY 24.\n2. CANCEL THIS MSG 080001Z MAY 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DA GALHETA LIGHT 27-34.55S 048-24.99W UNLIT\n   UNTIL 07 MAY 24.\n2. CANCEL THIS MSG 080001Z MAY 24.",
+    "valid_from": "2023-11-09T22:01:00+00:00",
+    "valid_until": "2024-05-08T00:01:00+00:00",
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 750/21(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-03-16T17:26:00",
     "raw_dtg": "161726Z MAR 21",
     "msg_id": "HYDROARC 750/21(35)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 750/21"
+      "685/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\nCANCEL HYDROLANT 685/21 AND THIS MSG, AID\nRESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\nCANCEL HYDROLANT 685/21 AND THIS MSG, AID\nRESTORED.",
+    "valid_from": "2021-03-16T17:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

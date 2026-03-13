@@ -3,18 +3,25 @@
   "id": "HYDROARC 552/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3966666666666667,
+      50.94
+    ]
   },
   "properties": {
     "dtg": "2017-02-17T17:12:00",
     "raw_dtg": "171712Z FEB 17",
     "msg_id": "HYDROARC 552/17(37)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 201712Z FEB 17",
-      "HYDROARC 552/17"
+      "THIS MSG 201712Z FEB 17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "DOVER STRAIT.\nDNC 20.\n1. DERELICT LIFEBOAT ADRIFT IN VICINITY\n   50-56.4N 001-23.8E.\n2. CANCEL THIS MSG 201712Z FEB 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nDNC 20.\n1. DERELICT LIFEBOAT ADRIFT IN VICINITY\n   50-56.4N 001-23.8E.\n2. CANCEL THIS MSG 201712Z FEB 17.",
+    "valid_from": "2017-02-17T17:12:00+00:00",
+    "valid_until": "2017-02-20T17:12:00+00:00",
+    "summary": null
   }
 }

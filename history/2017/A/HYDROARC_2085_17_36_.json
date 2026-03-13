@@ -3,17 +3,25 @@
   "id": "HYDROARC 2085/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.208333333333333,
+      52.53333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-07-06T07:08:00",
     "raw_dtg": "060708Z JUL 17",
     "msg_id": "HYDROARC 2085/17(36)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2513/17"
+      "2053/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19, DNC 20.\n1. CABLE ABANDONED IN 52-32.0N 006-12.5W.\n2. CANCEL HYDROLANT 2053/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19, DNC 20.\n1. CABLE ABANDONED IN 52-32.0N 006-12.5W.\n2. CANCEL HYDROLANT 2053/17.",
+    "valid_from": "2017-07-06T07:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

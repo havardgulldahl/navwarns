@@ -3,18 +3,26 @@
   "id": "HYDROARC 1889/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.386666666666667,
+      51.455
+    ]
   },
   "properties": {
     "dtg": "2012-08-16T23:20:00",
     "raw_dtg": "162320Z AUG 12",
     "msg_id": "HYDROARC 1889/12(36)",
+    "year": 2012,
     "cancellations": [
       "THIS MSG 192330Z AUG 12",
-      "HYDROARC 1889/12"
+      "1880/12"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "CELTIC SEA.\n1. DERELICT 6.5 METER VESSEL ADRIFT IN\n   51-27.3N 006-23.2W AT 162040Z AUG.\n2. CANCEL HYDROLANT 1880/12.\n3. CANCEL THIS MSG 192330Z AUG 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\n1. DERELICT 6.5 METER VESSEL ADRIFT IN\n   51-27.3N 006-23.2W AT 162040Z AUG.\n2. CANCEL HYDROLANT 1880/12.\n3. CANCEL THIS MSG 192330Z AUG 12.",
+    "valid_from": "2012-08-16T23:20:00+00:00",
+    "valid_until": "2012-08-19T23:30:00+00:00",
+    "summary": null
   }
 }

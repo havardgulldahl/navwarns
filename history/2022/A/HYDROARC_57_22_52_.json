@@ -3,17 +3,25 @@
   "id": "HYDROARC 57/22(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      4.425,
+      36.90833333333333
+    ]
   },
   "properties": {
     "dtg": "2022-01-06T16:27:00",
     "raw_dtg": "061627Z JAN 22",
     "msg_id": "HYDROARC 57/22(52)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 751/22"
+      "2769/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\n1. CAP CORBELIN LIGHT 36-54.5N 004-25.5E\n   TEMPORARILY CHANGED TO F WR.\n2. CANCEL HYDROLANT 2769/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\n1. CAP CORBELIN LIGHT 36-54.5N 004-25.5E\n   TEMPORARILY CHANGED TO F WR.\n2. CANCEL HYDROLANT 2769/21.",
+    "valid_from": "2022-01-06T16:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

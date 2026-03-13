@@ -3,17 +3,23 @@
   "id": "HYDROARC 274/12(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.8066666666666666,
+      58.123333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-02-02T13:00:00",
     "raw_dtg": "021300Z FEB 12",
     "msg_id": "HYDROARC 274/12(43)",
-    "cancellations": [
-      "HYDROARC 274/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\n1. CONTAINER ADRIFT IN 58-07.4N 000-48.4E AT 021215Z FEB.\n2. CANCEL THIS MSG 051300Z FEB."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\n1. CONTAINER ADRIFT IN 58-07.4N 000-48.4E AT 021215Z FEB.\n2. CANCEL THIS MSG 051300Z FEB.",
+    "valid_from": "2012-02-02T13:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

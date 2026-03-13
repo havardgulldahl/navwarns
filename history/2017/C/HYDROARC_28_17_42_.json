@@ -2,20 +2,63 @@
   "type": "Feature",
   "id": "HYDROARC 28/17(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.358333333333334,
+          70.08666666666667
+        ],
+        [
+          35.93333333333333,
+          70.96166666666667
+        ],
+        [
+          38.40833333333333,
+          70.08
+        ],
+        [
+          38.60666666666667,
+          69.00833333333334
+        ],
+        [
+          36.693333333333335,
+          69.12666666666667
+        ],
+        [
+          34.8,
+          69.575
+        ],
+        [
+          33.63333333333333,
+          69.575
+        ],
+        [
+          33.63333333333333,
+          69.96666666666667
+        ],
+        [
+          33.358333333333334,
+          70.08666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-02-28T07:58:00",
     "raw_dtg": "280758Z FEB 17",
     "msg_id": "HYDROARC 28/17(42)",
+    "year": 2017,
     "cancellations": [
       "HYDROARC 27/17",
-      "THIS MSG 022000Z MAR 17",
-      "HYDROARC 28/17"
+      "THIS MSG 022000Z MAR 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. GUNNERY AND MISSILE OPERATIONS 0500Z TO 1900Z\n   DAILY 28 FEB THRU 02 MAR IN AREA BOUND BY\n   70-05.2N 033-21.5E, 70-57.7N 035-56.0E,\n   70-04.8N 038-24.5E, 69-00.5N 038-36.4E,\n   69-07.6N 036-41.6E, 69-34.5N 034-48.0E,\n   69-34.5N 033-38.0E, 69-58.0N 033-38.0E.\n2. CANCEL HYDROARC 27/17.\n3. CANCEL THIS MSG 022000Z MAR 17."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. GUNNERY AND MISSILE OPERATIONS 0500Z TO 1900Z\n   DAILY 28 FEB THRU 02 MAR IN AREA BOUND BY\n   70-05.2N 033-21.5E, 70-57.7N 035-56.0E,\n   70-04.8N 038-24.5E, 69-00.5N 038-36.4E,\n   69-07.6N 036-41.6E, 69-34.5N 034-48.0E,\n   69-34.5N 033-38.0E, 69-58.0N 033-38.0E.\n2. CANCEL HYDROARC 27/17.\n3. CANCEL THIS MSG 022000Z MAR 17.",
+    "valid_from": "2017-02-28T07:58:00+00:00",
+    "valid_until": "2017-03-02T20:00:00+00:00",
+    "summary": null
   }
 }

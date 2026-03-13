@@ -3,18 +3,26 @@
   "id": "HYDROARC 144/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.435,
+      50.355
+    ]
   },
   "properties": {
     "dtg": "2014-01-14T17:03:00",
     "raw_dtg": "141703Z JAN 14",
     "msg_id": "HYDROARC 144/14(36)",
+    "year": 2014,
     "cancellations": [
       "THIS MSG 171700Z JAN 14",
-      "HYDROARC 158/14"
+      "129/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\n1. ODAS BUOY PAP ADRIFT IN 50-21.3N 009-26.1W\n   AT 140700Z JAN.\n2. CANCEL HYDROLANT 129/14.\n3. CANCEL THIS MSG 171700Z JAN 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\n1. ODAS BUOY PAP ADRIFT IN 50-21.3N 009-26.1W\n   AT 140700Z JAN.\n2. CANCEL HYDROLANT 129/14.\n3. CANCEL THIS MSG 171700Z JAN 14.",
+    "valid_from": "2014-01-14T17:03:00+00:00",
+    "valid_until": "2014-01-17T17:00:00+00:00",
+    "summary": null
   }
 }

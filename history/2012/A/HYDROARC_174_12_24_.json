@@ -3,17 +3,23 @@
   "id": "HYDROARC 174/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.443333333333335,
+      -24.426666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-01-22T00:47:00",
     "raw_dtg": "220047Z JAN 12",
     "msg_id": "HYDROARC 174/12(24)",
-    "cancellations": [
-      "HYDROARC 348/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nMAN OVERBOARD VICINITY 24-25.6S 045-26.6W AT\n211343Z JAN. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nMAN OVERBOARD VICINITY 24-25.6S 045-26.6W AT\n211343Z JAN. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2012-01-22T00:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

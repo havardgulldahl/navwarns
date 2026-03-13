@@ -3,17 +3,23 @@
   "id": "HYDROARC 1710/17(13,14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -59.846666666666664,
+      41.54
+    ]
   },
   "properties": {
     "dtg": "2017-05-31T23:28:00",
     "raw_dtg": "312328Z MAY 17",
     "msg_id": "HYDROARC 1710/17(13,14)",
-    "cancellations": [
-      "HYDROARC 1748/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 17, DNC 18.\nPOSSIBLE MAN OVERBOARD FROM VESSEL QUEEN MARY TWO\nIN VICINITY OF TRACKLINE BETWEEN\n41-32.4N 059-50.8W AND 40-46.6N 066-46.1W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON, PHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 17, DNC 18.\nPOSSIBLE MAN OVERBOARD FROM VESSEL QUEEN MARY TWO\nIN VICINITY OF TRACKLINE BETWEEN\n41-32.4N 059-50.8W AND 40-46.6N 066-46.1W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON, PHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2017-05-31T23:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

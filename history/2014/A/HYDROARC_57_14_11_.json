@@ -3,17 +3,23 @@
   "id": "HYDROARC 57/14(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -90.72333333333333,
+      26.355
+    ]
   },
   "properties": {
     "dtg": "2014-01-07T07:24:00",
     "raw_dtg": "070724Z JAN 14",
     "msg_id": "HYDROARC 57/14(11)",
-    "cancellations": [
-      "HYDROARC 59/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\n30 FOOT S/V STRIDER, WHITE HULL, ONE PERSON ON BOARD,\nTAKING ON WATER IN 26-21.3N 090-43.4W AT 070651Z JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148,\nE-MAIL: D08COMMANDCENTER@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\n30 FOOT S/V STRIDER, WHITE HULL, ONE PERSON ON BOARD,\nTAKING ON WATER IN 26-21.3N 090-43.4W AT 070651Z JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148,\nE-MAIL: D08COMMANDCENTER@USCG.MIL.",
+    "valid_from": "2014-01-07T07:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

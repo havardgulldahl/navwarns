@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 414/15",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-12-05T16:20:00",
     "raw_dtg": "051620Z DEC 15",
     "msg_id": "HYDROARC 414/15",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 111730Z DEC 15",
-      "HYDROARC 414/15"
+      "THIS MSG 111730Z DEC 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GPS SATELLITE SYSTEM.\n1. PRN 22 UNUSABLE 101630Z TO 111630Z DEC.\n2. CANCEL THIS MSG 111730Z DEC 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GPS SATELLITE SYSTEM.\n1. PRN 22 UNUSABLE 101630Z TO 111630Z DEC.\n2. CANCEL THIS MSG 111730Z DEC 15.",
+    "valid_from": "2015-12-05T16:20:00+00:00",
+    "valid_until": "2015-12-11T17:30:00+00:00",
+    "summary": null
   }
 }

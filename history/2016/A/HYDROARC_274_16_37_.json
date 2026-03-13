@@ -3,18 +3,26 @@
   "id": "HYDROARC 274/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.78,
+      44.74666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-01-31T08:20:00",
     "raw_dtg": "310820Z JAN 16",
     "msg_id": "HYDROARC 274/16(37)",
+    "year": 2016,
     "cancellations": [
       "THIS MSG 030820Z FEB 16",
-      "HYDROARC 280/16"
+      "260/16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nDNC 08.\n1. DERELICT M/V MODERN EXPRESS ADRIFT\n   VICINITY 44-44.8N 002-46.8W AT 310600Z JAN.\n2. CANCEL HYDROLANT 260/16.\n3. CANCEL THIS MSG 030820Z FEB 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nDNC 08.\n1. DERELICT M/V MODERN EXPRESS ADRIFT\n   VICINITY 44-44.8N 002-46.8W AT 310600Z JAN.\n2. CANCEL HYDROLANT 260/16.\n3. CANCEL THIS MSG 030820Z FEB 16.",
+    "valid_from": "2016-01-31T08:20:00+00:00",
+    "valid_until": "2016-02-03T08:20:00+00:00",
+    "summary": null
   }
 }

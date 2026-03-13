@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2607/14(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-10-27T13:48:00",
     "raw_dtg": "271348Z OCT 14",
     "msg_id": "HYDROARC 2607/14(36)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2607/14"
+      "2601/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTHERN IRELAND-EAST COAST.\nDNC 20.\nCANCEL HYDROLANT 2601/14 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTHERN IRELAND-EAST COAST.\nDNC 20.\nCANCEL HYDROLANT 2601/14 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2014-10-27T13:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

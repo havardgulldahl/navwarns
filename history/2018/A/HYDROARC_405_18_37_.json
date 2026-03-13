@@ -2,18 +2,34 @@
   "type": "Feature",
   "id": "HYDROARC 405/18(37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.2133333333333334,
+        52.681666666666665
+      ],
+      [
+        3.205,
+        52.623333333333335
+      ],
+      [
+        3.1983333333333333,
+        52.565
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-02-04T22:28:00",
     "raw_dtg": "042228Z FEB 18",
     "msg_id": "HYDROARC 405/18(37)",
-    "cancellations": [
-      "HYDROARC 458/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nNETHERLANDS.\nDNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\nWITH SUBMERSIBLE IN VICINITY OF TRACKLINE JOINING\n52-40.9N 003-12.8E, 52-37.4N 003-12.3E,\n52-33.9N 003-11.9E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nNETHERLANDS.\nDNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\nWITH SUBMERSIBLE IN VICINITY OF TRACKLINE JOINING\n52-40.9N 003-12.8E, 52-37.4N 003-12.3E,\n52-33.9N 003-11.9E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2018-02-04T22:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

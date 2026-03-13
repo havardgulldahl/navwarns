@@ -3,18 +3,25 @@
   "id": "HYDROARC 1446/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -27.805,
+      2.6466666666666665
+    ]
   },
   "properties": {
     "dtg": "2018-05-09T00:36:00",
     "raw_dtg": "090036Z MAY 18",
     "msg_id": "HYDROARC 1446/18(24)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 142000Z MAY 18",
-      "HYDROARC 1446/18"
+      "THIS MSG 142000Z MAY 18"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 01.\n1. HAZARDOUS OPERATIONS 141400Z TO 141900Z\n   IN AREA WITHIN 20 MILES OF 02-38.8N 027-48.3W.\n2. CANCEL THIS MSG 142000Z MAY 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 01.\n1. HAZARDOUS OPERATIONS 141400Z TO 141900Z\n   IN AREA WITHIN 20 MILES OF 02-38.8N 027-48.3W.\n2. CANCEL THIS MSG 142000Z MAY 18.",
+    "valid_from": "2018-05-09T00:36:00+00:00",
+    "valid_until": "2018-05-14T20:00:00+00:00",
+    "summary": null
   }
 }

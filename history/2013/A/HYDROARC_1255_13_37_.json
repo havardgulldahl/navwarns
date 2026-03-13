@@ -3,17 +3,23 @@
   "id": "HYDROARC 1255/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.35333333333333333,
+      50.416666666666664
+    ]
   },
   "properties": {
     "dtg": "2013-05-21T11:53:00",
     "raw_dtg": "211153Z MAY 13",
     "msg_id": "HYDROARC 1255/13(37)",
-    "cancellations": [
-      "HYDROARC 1280/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP WAVE SENTINEL VICINITY 50-25.0N 000-21.2E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP WAVE SENTINEL VICINITY 50-25.0N 000-21.2E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2013-05-21T11:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

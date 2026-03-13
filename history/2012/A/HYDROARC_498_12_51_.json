@@ -3,17 +3,23 @@
   "id": "HYDROARC 498/12(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -20.335,
+      5.128333333333333
+    ]
   },
   "properties": {
     "dtg": "2012-03-05T08:01:00",
     "raw_dtg": "050801Z MAR 12",
     "msg_id": "HYDROARC 498/12(51)",
-    "cancellations": [
-      "HYDROARC 612/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n05-07.7N 020-20.1W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC DAKAR,\nPHONE: 22 133 826 5001, FAX: 22 133 826 5000,\nE-MAIL: MARINENAT@ORANGE.SN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n05-07.7N 020-20.1W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC DAKAR,\nPHONE: 22 133 826 5001, FAX: 22 133 826 5000,\nE-MAIL: MARINENAT@ORANGE.SN.",
+    "valid_from": "2012-03-05T08:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

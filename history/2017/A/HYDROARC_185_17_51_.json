@@ -3,17 +3,25 @@
   "id": "HYDROARC 185/17(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.355,
+      35.97
+    ]
   },
   "properties": {
     "dtg": "2017-01-19T00:17:00",
     "raw_dtg": "190017Z JAN 17",
     "msg_id": "HYDROARC 185/17(51)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 219/17"
+      "165/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF GIBRALTAR.\nDNC 08.\n1. CABLE REPAIR OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP RAYMOND CROZE WITH\n   SUBMERSIBLE IN VICINITY OF TRACKLINE BETWEEN\n   35-58.2N 005-21.3W AND 35-57.5N 005-25.2W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 165/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF GIBRALTAR.\nDNC 08.\n1. CABLE REPAIR OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP RAYMOND CROZE WITH\n   SUBMERSIBLE IN VICINITY OF TRACKLINE BETWEEN\n   35-58.2N 005-21.3W AND 35-57.5N 005-25.2W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 165/17.",
+    "valid_from": "2017-01-19T00:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

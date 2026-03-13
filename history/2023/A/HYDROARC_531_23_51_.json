@@ -12,12 +12,16 @@
     "dtg": "2023-03-09T23:56:00",
     "raw_dtg": "092356Z MAR 23",
     "msg_id": "HYDROARC 531/23(51)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 141600Z MAR 23",
-      "HYDROARC 531/23"
+      "THIS MSG 141600Z MAR 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\n1. GUNNERY EXERCISES 101100Z TO 101400Z AND\n   140800Z TO 141500Z MAR IN AREA WITHIN\n   EIGHT MILES OF 14-28.00N 017-52.00W.\n2. CANCEL THIS MSG 141600Z MAR 23."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\n1. GUNNERY EXERCISES 101100Z TO 101400Z AND\n   140800Z TO 141500Z MAR IN AREA WITHIN\n   EIGHT MILES OF 14-28.00N 017-52.00W.\n2. CANCEL THIS MSG 141600Z MAR 23.",
+    "valid_from": "2023-03-09T23:56:00+00:00",
+    "valid_until": "2023-03-14T16:00:00+00:00",
+    "summary": null
   }
 }

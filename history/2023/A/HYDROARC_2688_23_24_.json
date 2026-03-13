@@ -12,12 +12,16 @@
     "dtg": "2023-11-22T12:55:00",
     "raw_dtg": "221255Z NOV 23",
     "msg_id": "HYDROARC 2688/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 302000Z NOV 23",
-      "HYDROARC 2688/23"
+      "THIS MSG 302000Z NOV 23"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. HAZARDOUS OPERATIONS 270900Z TO 301900Z NOV\n   IN AREA WITHIN TEN MILES OF\n   13-20.00S 038-15.00W.\n2. CANCEL THIS MSG 302000Z NOV 23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. HAZARDOUS OPERATIONS 270900Z TO 301900Z NOV\n   IN AREA WITHIN TEN MILES OF\n   13-20.00S 038-15.00W.\n2. CANCEL THIS MSG 302000Z NOV 23.",
+    "valid_from": "2023-11-22T12:55:00+00:00",
+    "valid_until": "2023-11-30T20:00:00+00:00",
+    "summary": null
   }
 }

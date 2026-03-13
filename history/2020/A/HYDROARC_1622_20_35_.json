@@ -3,17 +3,23 @@
   "id": "HYDROARC 1622/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.776666666666667,
+      57.865
+    ]
   },
   "properties": {
     "dtg": "2020-05-13T11:36:00",
     "raw_dtg": "131136Z MAY 20",
     "msg_id": "HYDROARC 1622/20(35)",
-    "cancellations": [
-      "HYDROARC 1650/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nRACON AT TARBAT NESS LIGHT 57-51.9N 003-46.6W\nAT REDUCED POWER."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nRACON AT TARBAT NESS LIGHT 57-51.9N 003-46.6W\nAT REDUCED POWER.",
+    "valid_from": "2020-05-13T11:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

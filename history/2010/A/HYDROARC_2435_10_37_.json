@@ -3,17 +3,23 @@
   "id": "HYDROARC 2435/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8366666666666667,
+      51.73833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-12-16T19:40:00",
     "raw_dtg": "161940Z DEC 10",
     "msg_id": "HYDROARC 2435/10(37)",
-    "cancellations": [
-      "HYDROARC 153/11"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nTHAMES ESTUARY APPROACHES.\nNGA CHART 37140 (33RD ED).\nUNEXPLODED ORDNANCE ON SEABED, MARKED BY\nBUOY, REPORTED IN 51-44.3N 001-50.2E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nTHAMES ESTUARY APPROACHES.\nNGA CHART 37140 (33RD ED).\nUNEXPLODED ORDNANCE ON SEABED, MARKED BY\nBUOY, REPORTED IN 51-44.3N 001-50.2E.",
+    "valid_from": "2010-12-16T19:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

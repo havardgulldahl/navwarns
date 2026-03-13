@@ -3,17 +3,23 @@
   "id": "HYDROARC 2493/23(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.4633333333333334,
+      55.07333333333333
+    ]
   },
   "properties": {
     "dtg": "2023-11-01T18:08:00",
     "raw_dtg": "011808Z NOV 23",
     "msg_id": "HYDROARC 2493/23(35)",
-    "cancellations": [
-      "HYDROARC 2754/23"
-    ],
+    "year": 2023,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCGOC HUMBER MF R/T SERVICES AT CULLERCOATS\nSITE 55-04.4N 001-27.8W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCGOC HUMBER MF R/T SERVICES AT CULLERCOATS\nSITE 55-04.4N 001-27.8W OFF AIR.",
+    "valid_from": "2023-11-01T18:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

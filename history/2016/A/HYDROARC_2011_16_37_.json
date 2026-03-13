@@ -3,17 +3,23 @@
   "id": "HYDROARC 2011/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6966666666666668,
+      50.70666666666666
+    ]
   },
   "properties": {
     "dtg": "2016-08-08T17:56:00",
     "raw_dtg": "081756Z AUG 16",
     "msg_id": "HYDROARC 2011/16(37)",
-    "cancellations": [
-      "HYDROARC 290/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 37015.\nDANGEROUS WRECK MARKED BY BUOY IN 50-42.4N 001-41.8W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 37015.\nDANGEROUS WRECK MARKED BY BUOY IN 50-42.4N 001-41.8W.",
+    "valid_from": "2016-08-08T17:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

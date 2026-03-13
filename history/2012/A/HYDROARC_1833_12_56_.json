@@ -2,19 +2,70 @@
   "type": "Feature",
   "id": "HYDROARC 1833/12(56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.706666666666667,
+          31.818333333333335
+        ],
+        [
+          32.1,
+          31.81
+        ],
+        [
+          32.153333333333336,
+          31.755
+        ],
+        [
+          32.151666666666664,
+          31.625
+        ],
+        [
+          32.12166666666667,
+          31.6
+        ],
+        [
+          32.04,
+          31.623333333333335
+        ],
+        [
+          31.86,
+          31.625
+        ],
+        [
+          31.77166666666667,
+          31.668333333333333
+        ],
+        [
+          31.74,
+          31.703333333333333
+        ],
+        [
+          31.741666666666667,
+          31.783333333333335
+        ],
+        [
+          31.706666666666667,
+          31.818333333333335
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-08-10T13:28:00",
     "raw_dtg": "101328Z AUG 12",
     "msg_id": "HYDROARC 1833/12(56)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 070059Z SEP 12",
-      "HYDROARC 1899/12"
+      "THIS MSG 070059Z SEP 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 062359Z SEP\n   BY M/V PACIFIC EXPLORER IN AREA BOUND BY\n   31-49.1N 031-42.4E, 31-48.6N 032-06.0E,\n   31-45.3N 032-09.2E, 31-37.5N 032-09.1E,\n   31-36.0N 032-07.3E, 31-37.4N 032-02.4E,\n   31-37.5N 031-51.6E, 31-40.1N 031-46.3E,\n   31-42.2N 031-44.4E, 31-47.0N 031-44.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 070059Z SEP 12."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 062359Z SEP\n   BY M/V PACIFIC EXPLORER IN AREA BOUND BY\n   31-49.1N 031-42.4E, 31-48.6N 032-06.0E,\n   31-45.3N 032-09.2E, 31-37.5N 032-09.1E,\n   31-36.0N 032-07.3E, 31-37.4N 032-02.4E,\n   31-37.5N 031-51.6E, 31-40.1N 031-46.3E,\n   31-42.2N 031-44.4E, 31-47.0N 031-44.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 070059Z SEP 12.",
+    "valid_from": "2012-08-10T13:28:00+00:00",
+    "valid_until": "2012-09-07T00:59:00+00:00",
+    "summary": null
   }
 }

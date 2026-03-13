@@ -3,17 +3,23 @@
   "id": "HYDROARC 1025/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.57666666666667,
+      -1.3966666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-04-01T09:14:00",
     "raw_dtg": "010914Z APR 19",
     "msg_id": "HYDROARC 1025/19(24)",
-    "cancellations": [
-      "HYDROARC 1233/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nMAN OVERBOARD FROM VESSEL IN 01-23.8S 043-34.6W\nON 01 APR. VESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nMAN OVERBOARD FROM VESSEL IN 01-23.8S 043-34.6W\nON 01 APR. VESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2019-04-01T09:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

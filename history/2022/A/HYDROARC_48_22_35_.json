@@ -1,19 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 48/22(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-01-05T17:18:00",
     "raw_dtg": "051718Z JAN 22",
     "msg_id": "HYDROARC 48/22(35)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 48/22"
+      "3201/21",
+      "38/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nLITTLE MINCH.\nSCOTLAND.\nDNC 19.\nCANCEL HYDROLANT 3201/21, 38/22 AND THIS MSG,\nAIDS RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nLITTLE MINCH.\nSCOTLAND.\nDNC 19.\nCANCEL HYDROLANT 3201/21, 38/22 AND THIS MSG,\nAIDS RESTORED.",
+    "valid_from": "2022-01-05T17:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

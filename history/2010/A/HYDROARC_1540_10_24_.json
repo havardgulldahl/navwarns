@@ -3,17 +3,23 @@
   "id": "HYDROARC 1540/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.275,
+      -25.488333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-08-15T04:17:00",
     "raw_dtg": "150417Z AUG 10",
     "msg_id": "HYDROARC 1540/10(24)",
-    "cancellations": [
-      "HYDROARC 1586/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nVESSEL SHIPWRECKED WITH ONE PERSON MISSING\nIN 25-29.3S 048-16.5W AT 142015Z AUG.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nVESSEL SHIPWRECKED WITH ONE PERSON MISSING\nIN 25-29.3S 048-16.5W AT 142015Z AUG.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2010-08-15T04:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

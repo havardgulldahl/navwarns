@@ -3,17 +3,23 @@
   "id": "HYDROARC 465/15(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.6266666666666667,
+      35.72
+    ]
   },
   "properties": {
     "dtg": "2015-02-24T20:54:00",
     "raw_dtg": "242054Z FEB 15",
     "msg_id": "HYDROARC 465/15(52)",
-    "cancellations": [
-      "HYDROARC 1067/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52060.\nJETEE DU LARGE LIGHT 35-43.2N 000-37.6W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52060.\nJETEE DU LARGE LIGHT 35-43.2N 000-37.6W UNLIT.",
+    "valid_from": "2015-02-24T20:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

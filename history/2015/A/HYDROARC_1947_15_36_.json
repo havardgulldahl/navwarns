@@ -3,17 +3,23 @@
   "id": "HYDROARC 1947/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.68,
+      53.05
+    ]
   },
   "properties": {
     "dtg": "2015-08-10T06:10:00",
     "raw_dtg": "100610Z AUG 15",
     "msg_id": "HYDROARC 1947/15(36)",
-    "cancellations": [
-      "HYDROARC 1963/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nSAINT GEORGES CHANNEL.\nDNC 19, DNC 20.\nCHART 36006.\nCODLING BUOY 53-03.0N 005-40.8W LIGHT UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nSAINT GEORGES CHANNEL.\nDNC 19, DNC 20.\nCHART 36006.\nCODLING BUOY 53-03.0N 005-40.8W LIGHT UNRELIABLE.",
+    "valid_from": "2015-08-10T06:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3386/18(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      33.475,
+      44.641666666666666
+    ]
   },
   "properties": {
     "dtg": "2018-10-31T13:28:00",
     "raw_dtg": "311328Z OCT 18",
     "msg_id": "HYDROARC 3386/18(55)",
-    "cancellations": [
-      "HYDROARC 3389/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\nCHART 55140.\nUNEXPLODED ORDNANCE IN AREA WITHIN TWO MILES OF\n44-38.5N 033-28.5E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\nCHART 55140.\nUNEXPLODED ORDNANCE IN AREA WITHIN TWO MILES OF\n44-38.5N 033-28.5E.",
+    "valid_from": "2018-10-31T13:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

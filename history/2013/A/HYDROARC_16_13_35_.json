@@ -3,17 +3,23 @@
   "id": "HYDROARC 16/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0216666666666667,
+      60.35666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-01-02T18:25:00",
     "raw_dtg": "021825Z JAN 13",
     "msg_id": "HYDROARC 16/13(35)",
-    "cancellations": [
-      "HYDROARC 32/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nCHART 35072\nMARRISTER LIGHT 60-21.4N 001-01.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nCHART 35072\nMARRISTER LIGHT 60-21.4N 001-01.3W UNRELIABLE.",
+    "valid_from": "2013-01-02T18:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

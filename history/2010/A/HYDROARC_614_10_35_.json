@@ -3,17 +3,25 @@
   "id": "HYDROARC 614/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.123333333333333,
+      57.03333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-04-08T20:10:00",
     "raw_dtg": "082010Z APR 10",
     "msg_id": "HYDROARC 614/10(35)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 614/10"
+      "612/10"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z DAILY\n   09 AND 10 APR AND 111000Z TO 111800Z APR\n   WITHIN 60 MILES OF 57-02.0N 009-07.4W.\n   VESSELS INTENDING TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 FOR ADVICE.\n2. CANCEL HYDROLANT 612/10.\n3. CANCEL THIS MSG 111900Z APR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z DAILY\n   09 AND 10 APR AND 111000Z TO 111800Z APR\n   WITHIN 60 MILES OF 57-02.0N 009-07.4W.\n   VESSELS INTENDING TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 FOR ADVICE.\n2. CANCEL HYDROLANT 612/10.\n3. CANCEL THIS MSG 111900Z APR.",
+    "valid_from": "2010-04-08T20:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

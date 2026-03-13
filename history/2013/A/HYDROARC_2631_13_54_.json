@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 2631/13(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        14.865,
+        43.10666666666667
+      ],
+      [
+        15.528333333333332,
+        43.593333333333334
+      ],
+      [
+        14.795,
+        43.18
+      ],
+      [
+        15.388333333333334,
+        43.63333333333333
+      ],
+      [
+        14.723333333333333,
+        43.263333333333335
+      ],
+      [
+        15.288333333333334,
+        43.675
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-10-21T14:29:00",
     "raw_dtg": "211429Z OCT 13",
     "msg_id": "HYDROARC 2631/13(54)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2631/13"
+      "THIS MSG 23 OCT 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ADRIATIC SEA.\nCROATIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   22 OCT BY M/V NORTHERN EXPLORER\n   ALONG TRACKLINE JOINING\n   43-06.4N 014-51.9E, 43-35.6N 015-31.7E,\n   43-10.8N 014-47.7E, 43-38.0N 015-23.3E,\n   43-15.8N 014-43.4E, 43-40.5N 015-17.3E.\n   FOUR MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 23 OCT 13."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "ADRIATIC SEA.\nCROATIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   22 OCT BY M/V NORTHERN EXPLORER\n   ALONG TRACKLINE JOINING\n   43-06.4N 014-51.9E, 43-35.6N 015-31.7E,\n   43-10.8N 014-47.7E, 43-38.0N 015-23.3E,\n   43-15.8N 014-43.4E, 43-40.5N 015-17.3E.\n   FOUR MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 23 OCT 13.",
+    "valid_from": "2013-10-21T14:29:00+00:00",
+    "valid_until": "2013-10-23T00:00:00+00:00",
+    "summary": null
   }
 }

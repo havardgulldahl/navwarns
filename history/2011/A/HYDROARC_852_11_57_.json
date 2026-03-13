@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 852/11(57)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         10.817,
@@ -58,11 +58,14 @@
     "dtg": "2011-05-20T14:24:00",
     "raw_dtg": "201424Z MAY 11",
     "msg_id": "HYDROARC 852/11(57)",
-    "cancellations": [
-      "HYDROARC 908/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\n1. CABLE LAYING OPERATIONS IN PROGRESS UNTIL\n   05 JUN BY CABLESHIP ILE DE BREHAT\n   ALONG TRACKLINE JOINING\n   05-34.87S 010-49.02E, 05-47.84S 011-14.60E,\n   05-46.78S 011-17.21E, 05-46.39S 011-25.67E,\n   05-46.96S 011-26.62E, 05-48.16S 011-31.82E,\n   05-49.25S 011-32.95E, 05-52.31S 011-36.66E,\n   05-54.35S 011-41.90E, 05-57.57S 011-50.28E,\n   05-57.93S 011-56.90E, 05-55.06S 012-06.12E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 06 JUN."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\n1. CABLE LAYING OPERATIONS IN PROGRESS UNTIL\n   05 JUN BY CABLESHIP ILE DE BREHAT\n   ALONG TRACKLINE JOINING\n   05-34.87S 010-49.02E, 05-47.84S 011-14.60E,\n   05-46.78S 011-17.21E, 05-46.39S 011-25.67E,\n   05-46.96S 011-26.62E, 05-48.16S 011-31.82E,\n   05-49.25S 011-32.95E, 05-52.31S 011-36.66E,\n   05-54.35S 011-41.90E, 05-57.57S 011-50.28E,\n   05-57.93S 011-56.90E, 05-55.06S 012-06.12E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 06 JUN.",
+    "valid_from": "2011-05-20T14:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

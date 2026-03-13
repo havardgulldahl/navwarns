@@ -3,17 +3,25 @@
   "id": "HYDROARC 2489/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.7866666666666666,
+      51.245
+    ]
   },
   "properties": {
     "dtg": "2017-08-14T06:02:00",
     "raw_dtg": "140602Z AUG 17",
     "msg_id": "HYDROARC 2489/17(36)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2489/17"
+      "THIS MSG 12 SEP 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36044.\n1. LYNMOUTH FORELAND LIGHT 51-14.7N 003-47.2W\n   UNRELIABLE UNTIL 11 SEP.\n2. CANCEL THIS MSG 12 SEP 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36044.\n1. LYNMOUTH FORELAND LIGHT 51-14.7N 003-47.2W\n   UNRELIABLE UNTIL 11 SEP.\n2. CANCEL THIS MSG 12 SEP 17.",
+    "valid_from": "2017-08-14T06:02:00+00:00",
+    "valid_until": "2017-09-12T00:00:00+00:00",
+    "summary": null
   }
 }

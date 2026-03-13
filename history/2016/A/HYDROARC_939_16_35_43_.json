@@ -3,18 +3,25 @@
   "id": "HYDROARC 939/16(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6566666666666667,
+      61.59
+    ]
   },
   "properties": {
     "dtg": "2016-04-20T13:37:00",
     "raw_dtg": "201337Z APR 16",
     "msg_id": "HYDROARC 939/16(35,43)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 231337Z APR 16",
-      "HYDROARC 939/16"
+      "THIS MSG 231337Z APR 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORTH SEA.\nDNC 20, DNC 21.\n1. 900 METER LONG CABLE WITH YELLOW FLOATS\n   ADRIFT IN 61-35.4N 001-39.4E AT 191900Z APR.\n2. CANCEL THIS MSG 231337Z APR 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORTH SEA.\nDNC 20, DNC 21.\n1. 900 METER LONG CABLE WITH YELLOW FLOATS\n   ADRIFT IN 61-35.4N 001-39.4E AT 191900Z APR.\n2. CANCEL THIS MSG 231337Z APR 16.",
+    "valid_from": "2016-04-20T13:37:00+00:00",
+    "valid_until": "2016-04-23T13:37:00+00:00",
+    "summary": null
   }
 }

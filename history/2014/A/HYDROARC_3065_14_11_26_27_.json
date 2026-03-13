@@ -3,17 +3,23 @@
   "id": "HYDROARC 3065/14(11,26,27)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -80.39,
+      23.688333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-12-16T11:13:00",
     "raw_dtg": "161113Z DEC 14",
     "msg_id": "HYDROARC 3065/14(11,26,27)",
-    "cancellations": [
-      "HYDROARC 3158/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF FLORIDA.\nBAHAMAS TO FLORIDA.\nDNC 15.\n14 FOOT VESSEL, TWO PERSONS ON BOARD, UNREPORTED\nCAY SAL BANK (23-41.3N 080-23.4W) TO\nMIAMI (25-47.0N 080-11.0W). VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC MIAMI, PHONE: 305 415 6800,\nE-MAIL: RCCMIAMI@USCG.MIL."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF FLORIDA.\nBAHAMAS TO FLORIDA.\nDNC 15.\n14 FOOT VESSEL, TWO PERSONS ON BOARD, UNREPORTED\nCAY SAL BANK (23-41.3N 080-23.4W) TO\nMIAMI (25-47.0N 080-11.0W). VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC MIAMI, PHONE: 305 415 6800,\nE-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2014-12-16T11:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

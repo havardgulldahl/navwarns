@@ -3,17 +3,23 @@
   "id": "HYDROARC 147/19",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4716666666666667,
+      51.30833333333333
+    ]
   },
   "properties": {
     "dtg": "2019-01-17T10:11:00",
     "raw_dtg": "171011Z JAN 19",
     "msg_id": "HYDROARC 147/19",
-    "cancellations": [
-      "HYDROARC 147/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP MAERSK CONNECTOR IN VICINITY\nOF TRACKLINE JOINING\n51-18.5N 001-28.3E AND 51-19.5N 001-58.3E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP MAERSK CONNECTOR IN VICINITY\nOF TRACKLINE JOINING\n51-18.5N 001-28.3E AND 51-19.5N 001-58.3E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2019-01-17T10:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

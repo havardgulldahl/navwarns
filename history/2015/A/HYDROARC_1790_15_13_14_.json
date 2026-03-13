@@ -3,17 +3,23 @@
   "id": "HYDROARC 1790/15(13,14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -67.505,
+      43.11333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-07-20T17:39:00",
     "raw_dtg": "201739Z JUL 15",
     "msg_id": "HYDROARC 1790/15(13,14)",
-    "cancellations": [
-      "HYDROARC 1791/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 17, DNC 18.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\nF/V SCOTIA PROVIDER, THREE PERSONS ON BOARD,\nABANDONING SHIP IN 43-06.8N 067-30.3W AT 201645Z JUL.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 17, DNC 18.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\nF/V SCOTIA PROVIDER, THREE PERSONS ON BOARD,\nABANDONING SHIP IN 43-06.8N 067-30.3W AT 201645Z JUL.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2015-07-20T17:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

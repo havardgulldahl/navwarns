@@ -3,17 +3,23 @@
   "id": "HYDROARC 3677/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.955,
+      49.721666666666664
+    ]
   },
   "properties": {
     "dtg": "2020-11-26T10:40:00",
     "raw_dtg": "261040Z NOV 20",
     "msg_id": "HYDROARC 3677/20(37)",
-    "cancellations": [
-      "HYDROARC 3954/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCAP DE LA HAGUE LIGHT 49-43.3N 001-57.3W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCAP DE LA HAGUE LIGHT 49-43.3N 001-57.3W\nUNRELIABLE.",
+    "valid_from": "2020-11-26T10:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

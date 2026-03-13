@@ -3,17 +3,23 @@
   "id": "HYDROARC 609/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.741666666666667,
+      45.405
+    ]
   },
   "properties": {
     "dtg": "2013-03-11T03:01:00",
     "raw_dtg": "110301Z MAR 13",
     "msg_id": "HYDROARC 609/13(37)",
-    "cancellations": [
-      "HYDROARC 663/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\nF/V REBECCA ELIZABETH, TWO PERSONS ON BOARD, DISABLED\nAND ADRIFT IN 45-24.3N 007-44.5W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC MADRID, INMARSAT-C: 422423124,\nINMARSAT-B: 77223467,\nPHONE: 349 1755 9132, 349 1755 9133,\nE-MAIL:CNCS@SASEMAR.ES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\nF/V REBECCA ELIZABETH, TWO PERSONS ON BOARD, DISABLED\nAND ADRIFT IN 45-24.3N 007-44.5W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC MADRID, INMARSAT-C: 422423124,\nINMARSAT-B: 77223467,\nPHONE: 349 1755 9132, 349 1755 9133,\nE-MAIL:CNCS@SASEMAR.ES.",
+    "valid_from": "2013-03-11T03:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 3132/17(52,53,56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.0,
+      33.858333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-10-02T19:05:00",
     "raw_dtg": "021905Z OCT 17",
     "msg_id": "HYDROARC 3132/17(52,53,56)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 051905Z OCT 17",
-      "HYDROARC 3132/17"
+      "THIS MSG 051905Z OCT 17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nLIBYA.\nDNC 08, DNC 09.\n1. DERELICT FISHING VESSELS ADRIFT IN VICINITY\n   33-51.5N 012-00.0E ON 01 OCT.\n2. CANCEL THIS MSG 051905Z OCT 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nLIBYA.\nDNC 08, DNC 09.\n1. DERELICT FISHING VESSELS ADRIFT IN VICINITY\n   33-51.5N 012-00.0E ON 01 OCT.\n2. CANCEL THIS MSG 051905Z OCT 17.",
+    "valid_from": "2017-10-02T19:05:00+00:00",
+    "valid_until": "2017-10-05T19:05:00+00:00",
+    "summary": null
   }
 }

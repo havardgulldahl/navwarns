@@ -3,18 +3,25 @@
   "id": "HYDROARC 3056/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.3833333333333333,
+      50.251666666666665
+    ]
   },
   "properties": {
     "dtg": "2020-10-08T06:37:00",
     "raw_dtg": "080637Z OCT 20",
     "msg_id": "HYDROARC 3056/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 110637Z OCT 20",
-      "HYDROARC 3056/20"
+      "THIS MSG 110637Z OCT 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT VESSEL, WHITE HULL, ADRIFT\n   IN 50-15.1N 002-23.0W AT 080529Z OCT.\n2. CANCEL THIS MSG 110637Z OCT 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT VESSEL, WHITE HULL, ADRIFT\n   IN 50-15.1N 002-23.0W AT 080529Z OCT.\n2. CANCEL THIS MSG 110637Z OCT 20.",
+    "valid_from": "2020-10-08T06:37:00+00:00",
+    "valid_until": "2020-10-11T06:37:00+00:00",
+    "summary": null
   }
 }

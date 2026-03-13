@@ -3,17 +3,25 @@
   "id": "HYDROARC 384/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.673333333333334,
+      53.211666666666666
+    ]
   },
   "properties": {
     "dtg": "2010-03-03T00:14:00",
     "raw_dtg": "030014Z MAR 10",
     "msg_id": "HYDROARC 384/10(36)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 645/10"
+      "230/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V FUGRO SYNERGY VICINITY 53-12.7N 005-40.4W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 230/10."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V FUGRO SYNERGY VICINITY 53-12.7N 005-40.4W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 230/10.",
+    "valid_from": "2010-03-03T00:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

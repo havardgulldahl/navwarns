@@ -3,17 +3,23 @@
   "id": "HYDROARC 793/16(52,53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      5.996666666666666,
+      43.10666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-04-02T20:26:00",
     "raw_dtg": "022026Z APR 16",
     "msg_id": "HYDROARC 793/16(52,53)",
-    "cancellations": [
-      "HYDROARC 1166/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nFRANCE.\nNAVTEX.\nDNC 08.\nNAVTEX STATION LA GARDE 43-06.4N 005-59.8E OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nFRANCE.\nNAVTEX.\nDNC 08.\nNAVTEX STATION LA GARDE 43-06.4N 005-59.8E OFF AIR.",
+    "valid_from": "2016-04-02T20:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

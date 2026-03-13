@@ -3,17 +3,23 @@
   "id": "HYDROARC 2187/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.03666666666667,
+      -10.97
+    ]
   },
   "properties": {
     "dtg": "2010-11-18T02:01:00",
     "raw_dtg": "180201Z NOV 10",
     "msg_id": "HYDROARC 2187/10(24)",
-    "cancellations": [
-      "HYDROARC 2249/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nNGA CHART 24210 (14TH ED).\nRADIOBEACON AT SERGIPE LIGHT 10-58.2S 037-02.2W INOPERATIVE."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nNGA CHART 24210 (14TH ED).\nRADIOBEACON AT SERGIPE LIGHT 10-58.2S 037-02.2W INOPERATIVE.",
+    "valid_from": "2010-11-18T02:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3310/16(13)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -71.09666666666666,
+      40.62166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-12-08T11:00:00",
     "raw_dtg": "081100Z DEC 16",
     "msg_id": "HYDROARC 3310/16(13)",
-    "cancellations": [
-      "HYDROARC 3312/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\n70 FOOT F/V EVENING PRAYER IN 40-37.3N 071-05.8W\nAT 081015Z DEC. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON, PHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 17.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\n70 FOOT F/V EVENING PRAYER IN 40-37.3N 071-05.8W\nAT 081015Z DEC. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON, PHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2016-12-08T11:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

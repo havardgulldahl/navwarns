@@ -3,17 +3,23 @@
   "id": "HYDROARC 426/18(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -71.33333333333333,
+      15.971666666666666
+    ]
   },
   "properties": {
     "dtg": "2018-02-06T16:13:00",
     "raw_dtg": "061613Z FEB 18",
     "msg_id": "HYDROARC 426/18(25)",
-    "cancellations": [
-      "HYDROARC 636/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CARIBBEAN SEA.\nDNC 14.\nVESSEL DON JUAN DE DIOS DISABLED AND ADRIFT.\nLAST KNOWN POSITION IN 15-58.3N 071-20.0W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO ANY\nCOASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CARIBBEAN SEA.\nDNC 14.\nVESSEL DON JUAN DE DIOS DISABLED AND ADRIFT.\nLAST KNOWN POSITION IN 15-58.3N 071-20.0W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO ANY\nCOASTAL RADIO STATION.",
+    "valid_from": "2018-02-06T16:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

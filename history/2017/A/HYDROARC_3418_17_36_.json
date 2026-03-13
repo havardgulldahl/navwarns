@@ -3,17 +3,23 @@
   "id": "HYDROARC 3418/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -12.403333333333332,
+      48.79
+    ]
   },
   "properties": {
     "dtg": "2017-10-23T14:58:00",
     "raw_dtg": "231458Z OCT 17",
     "msg_id": "HYDROARC 3418/17(36)",
-    "cancellations": [
-      "HYDROARC 991/18"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\nCHART 36001.\nODAS BUOY K1 OFF STATION IN 48-47.4N 012-24.2W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\nCHART 36001.\nODAS BUOY K1 OFF STATION IN 48-47.4N 012-24.2W.",
+    "valid_from": "2017-10-23T14:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 326/23(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2023-02-09T14:53:00",
     "raw_dtg": "091453Z FEB 23",
     "msg_id": "HYDROARC 326/23(51)",
+    "year": 2023,
     "cancellations": [
-      "HYDROARC 326/23"
+      "2282/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nSENEGAL.\nDNC 01.\nCANCEL HYDROLANT 2282/22 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nSENEGAL.\nDNC 01.\nCANCEL HYDROLANT 2282/22 AND THIS MSG.",
+    "valid_from": "2023-02-09T14:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

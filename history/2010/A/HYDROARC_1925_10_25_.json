@@ -3,17 +3,23 @@
   "id": "HYDROARC 1925/10(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -65.11333333333333,
+      20.083333333333332
+    ]
   },
   "properties": {
     "dtg": "2010-10-10T07:38:00",
     "raw_dtg": "100738Z OCT 10",
     "msg_id": "HYDROARC 1925/10(25)",
-    "cancellations": [
-      "HYDROARC 2157/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nPUERTO RICO.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 20-05.0N 065-06.8W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041, E-MAIL: SSJCC@USGC.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nPUERTO RICO.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 20-05.0N 065-06.8W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041, E-MAIL: SSJCC@USGC.MIL.",
+    "valid_from": "2010-10-10T07:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 2652/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.145,
+      -23.063333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-10-28T05:36:00",
     "raw_dtg": "280536Z OCT 21",
     "msg_id": "HYDROARC 2652/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 2748/21"
+      "THIS MSG 26 APR 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. RADIOBEACON AT ILAH RASA LIGHT 23-03.8S 043-08.7W\n   OFF AIR UNTIL 25 APR 22.\n2. CANCEL THIS MSG 26 APR 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. RADIOBEACON AT ILAH RASA LIGHT 23-03.8S 043-08.7W\n   OFF AIR UNTIL 25 APR 22.\n2. CANCEL THIS MSG 26 APR 22.",
+    "valid_from": "2021-10-28T05:36:00+00:00",
+    "valid_until": "2022-04-26T00:00:00+00:00",
+    "summary": null
   }
 }

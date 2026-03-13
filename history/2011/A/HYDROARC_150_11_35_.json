@@ -3,17 +3,23 @@
   "id": "HYDROARC 150/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.59,
+      58.288333333333334
+    ]
   },
   "properties": {
     "dtg": "2011-01-24T19:25:00",
     "raw_dtg": "241925Z JAN 11",
     "msg_id": "HYDROARC 150/11(35)",
-    "cancellations": [
-      "HYDROARC 177/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35075 (2ND ED).\nFLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35075 (2ND ED).\nFLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNRELIABLE.",
+    "valid_from": "2011-01-24T19:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

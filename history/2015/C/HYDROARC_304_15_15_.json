@@ -3,17 +3,23 @@
   "id": "HYDROARC 304/15(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2015-09-22T22:26:00",
     "raw_dtg": "222226Z SEP 15",
     "msg_id": "HYDROARC 304/15(15)",
-    "cancellations": [
-      "HYDROARC 305/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT 63-43.8N 068-32.7W\nDSC TRANSMIT SERVICES INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT 63-43.8N 068-32.7W\nDSC TRANSMIT SERVICES INOPERATIVE.",
+    "valid_from": "2015-09-22T22:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

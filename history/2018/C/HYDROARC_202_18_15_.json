@@ -3,17 +3,23 @@
   "id": "HYDROARC 202/18(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2018-08-21T20:05:00",
     "raw_dtg": "212005Z AUG 18",
     "msg_id": "HYDROARC 202/18(15)",
-    "cancellations": [
-      "HYDROARC 204/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DAVIS STRAIT.\nCANADA.\nDNC 28.\nMCTS IQALUIT CENTER 63-43.8N 068-32.7W HF DSC\nSERVICES INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DAVIS STRAIT.\nCANADA.\nDNC 28.\nMCTS IQALUIT CENTER 63-43.8N 068-32.7W HF DSC\nSERVICES INOPERATIVE.",
+    "valid_from": "2018-08-21T20:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

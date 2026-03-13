@@ -3,17 +3,23 @@
   "id": "HYDROARC 736/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.865,
+      51.81166666666667
+    ]
   },
   "properties": {
     "dtg": "2014-03-13T20:47:00",
     "raw_dtg": "132047Z MAR 14",
     "msg_id": "HYDROARC 736/14(37)",
-    "cancellations": [
-      "HYDROARC 744/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\nSUNK E2 BUOY 51-48.7N 001-51.9E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\nSUNK E2 BUOY 51-48.7N 001-51.9E OFF STATION.",
+    "valid_from": "2014-03-13T20:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

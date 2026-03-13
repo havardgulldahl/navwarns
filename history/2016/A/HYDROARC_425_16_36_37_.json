@@ -3,18 +3,26 @@
   "id": "HYDROARC 425/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.503333333333333,
+      49.96333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-02-19T16:45:00",
     "raw_dtg": "191645Z FEB 16",
     "msg_id": "HYDROARC 425/16(36,37)",
+    "year": 2016,
     "cancellations": [
       "THIS MSG 221645Z FEB 16",
-      "HYDROARC 425/16"
+      "391/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nENGLISH CHANNEL.\nCELTIC SEA.\nDNC 19, DNC 20.\n1. FISHING GEAR ADRIFT IN 49-57.8N 005-30.2W AT 191135Z FEB.\n2. CANCEL HYDROLANT 391/16, OPERATIONS COMPLETED.\n3. CANCEL THIS MSG 221645Z FEB 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nENGLISH CHANNEL.\nCELTIC SEA.\nDNC 19, DNC 20.\n1. FISHING GEAR ADRIFT IN 49-57.8N 005-30.2W AT 191135Z FEB.\n2. CANCEL HYDROLANT 391/16, OPERATIONS COMPLETED.\n3. CANCEL THIS MSG 221645Z FEB 16.",
+    "valid_from": "2016-02-19T16:45:00+00:00",
+    "valid_until": "2016-02-22T16:45:00+00:00",
+    "summary": null
   }
 }

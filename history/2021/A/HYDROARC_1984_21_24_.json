@@ -2,18 +2,66 @@
   "type": "Feature",
   "id": "HYDROARC 1984/21(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -52.553333333333335,
+          8.045
+        ],
+        [
+          -50.98,
+          6.795
+        ],
+        [
+          -50.41166666666667,
+          7.346666666666667
+        ],
+        [
+          -49.95166666666667,
+          6.9366666666666665
+        ],
+        [
+          -50.94833333333333,
+          5.293333333333333
+        ],
+        [
+          -51.67,
+          4.553333333333334
+        ],
+        [
+          -52.95666666666666,
+          5.461666666666667
+        ],
+        [
+          -53.7,
+          5.7316666666666665
+        ],
+        [
+          -53.108333333333334,
+          7.328333333333333
+        ],
+        [
+          -52.553333333333335,
+          8.045
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-07-30T12:12:00",
     "raw_dtg": "301212Z JUL 21",
     "msg_id": "HYDROARC 1984/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1984/21"
+      "THIS MSG 09 SEP 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nDNC 01, DNC 14.\n1. SURVEY OPERATIONS IN PROGRESS 02 AUG TO 08 SEP\n   BY S/V TARA IN AREA BOUND BY\n   08-02.7N 052-33.2W, 06-47.7N 050-58.8W,\n   07-20.8N 050-24.7W, 06-56.2N 049-57.1W,\n   05-17.6N 050-56.9W, 04-33.2N 051-40.2W,\n   05-27.7N 052-57.4W, 05-43.9N 053-42.0W,\n   07-19.7N 053-06.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 09 SEP 21."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nDNC 01, DNC 14.\n1. SURVEY OPERATIONS IN PROGRESS 02 AUG TO 08 SEP\n   BY S/V TARA IN AREA BOUND BY\n   08-02.7N 052-33.2W, 06-47.7N 050-58.8W,\n   07-20.8N 050-24.7W, 06-56.2N 049-57.1W,\n   05-17.6N 050-56.9W, 04-33.2N 051-40.2W,\n   05-27.7N 052-57.4W, 05-43.9N 053-42.0W,\n   07-19.7N 053-06.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 09 SEP 21.",
+    "valid_from": "2021-07-30T12:12:00+00:00",
+    "valid_until": "2021-09-09T00:00:00+00:00",
+    "summary": null
   }
 }

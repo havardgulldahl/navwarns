@@ -3,17 +3,23 @@
   "id": "HYDROARC 1745/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.1366666666666667,
+      55.916666666666664
+    ]
   },
   "properties": {
     "dtg": "2012-07-31T23:42:00",
     "raw_dtg": "312342Z JUL 12",
     "msg_id": "HYDROARC 1745/12(35)",
-    "cancellations": [
-      "HYDROARC 1756/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHEAST COAST.\nCHART 35014\nST. ABBS HEAD LIGHT 55-55.0N 002-08.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHEAST COAST.\nCHART 35014\nST. ABBS HEAD LIGHT 55-55.0N 002-08.2W UNRELIABLE.",
+    "valid_from": "2012-07-31T23:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

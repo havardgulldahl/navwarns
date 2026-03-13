@@ -3,17 +3,23 @@
   "id": "HYDROARC 884/10(52,53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.731666666666667,
+      36.97666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-05-17T11:28:00",
     "raw_dtg": "171128Z MAY 10",
     "msg_id": "HYDROARC 884/10(52,53)",
-    "cancellations": [
-      "HYDROARC 884/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF SICILY.\nTUNISIA-NORTHEAST COAST.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 30 MAY BY\n   M/V ALEX CHALLENGER IN 36-58.6N 011-43.9E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 31 MAY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF SICILY.\nTUNISIA-NORTHEAST COAST.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 30 MAY BY\n   M/V ALEX CHALLENGER IN 36-58.6N 011-43.9E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 31 MAY.",
+    "valid_from": "2010-05-17T11:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 406/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.873333333333333,
+      52.846666666666664
+    ]
   },
   "properties": {
     "dtg": "2012-02-21T17:08:00",
     "raw_dtg": "211708Z FEB 12",
     "msg_id": "HYDROARC 406/12(37)",
-    "cancellations": [
-      "HYDROARC 430/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nWITH SUBMERSIBLE VICINITY\n52-50.8N 002-52.4E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nWITH SUBMERSIBLE VICINITY\n52-50.8N 002-52.4E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-02-21T17:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

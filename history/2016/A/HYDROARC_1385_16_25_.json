@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1385/16(25)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-06-06T15:14:00",
     "raw_dtg": "061514Z JUN 16",
     "msg_id": "HYDROARC 1385/16(25)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1385/16"
+      "1377/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN CARIBBEAN SEA.\nU.S. VIRGIN ISLANDS.\nDNC 14, DNC 16.\nCANCEL HYDROLANT 1377/16 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN CARIBBEAN SEA.\nU.S. VIRGIN ISLANDS.\nDNC 14, DNC 16.\nCANCEL HYDROLANT 1377/16 AND THIS MSG.",
+    "valid_from": "2016-06-06T15:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3434/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.373333333333333,
+      47.79833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-11-06T20:16:00",
     "raw_dtg": "062016Z NOV 20",
     "msg_id": "HYDROARC 3434/20(37)",
-    "cancellations": [
-      "HYDROARC 3442/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nPOINTE DE PENMARC'H LIGHT 47-47.9N 004-22.4W\nREDUCED RANGE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nPOINTE DE PENMARC'H LIGHT 47-47.9N 004-22.4W\nREDUCED RANGE.",
+    "valid_from": "2020-11-06T20:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

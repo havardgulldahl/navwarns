@@ -3,17 +3,25 @@
   "id": "HYDROARC 752/14(29)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.725,
+      -60.745
+    ]
   },
   "properties": {
     "dtg": "2014-03-15T16:29:00",
     "raw_dtg": "151629Z MAR 14",
     "msg_id": "HYDROARC 752/14(29)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 757/14"
+      "738/14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ANTARCTICA.\nSCOTIA SEA.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V PUERTO DESEADO\n   IN 60-44.7S 044-43.5W.\n2. CANCEL HYDROLANT 738/14."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ANTARCTICA.\nSCOTIA SEA.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V PUERTO DESEADO\n   IN 60-44.7S 044-43.5W.\n2. CANCEL HYDROLANT 738/14.",
+    "valid_from": "2014-03-15T16:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

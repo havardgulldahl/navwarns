@@ -3,17 +3,23 @@
   "id": "HYDROARC 1/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.126666666666667,
+      56.656666666666666
+    ]
   },
   "properties": {
     "dtg": "2010-01-01T01:55:00",
     "raw_dtg": "010155Z JAN 10",
     "msg_id": "HYDROARC 1/10(35)",
-    "cancellations": [
-      "HYDROARC 10/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35096 (1ST ED).\nARDMORE POINT LIGHT 56-39.4N 006-07.6W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35096 (1ST ED).\nARDMORE POINT LIGHT 56-39.4N 006-07.6W UNLIT.",
+    "valid_from": "2010-01-01T01:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

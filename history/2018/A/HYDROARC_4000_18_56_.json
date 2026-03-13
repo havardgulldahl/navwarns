@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 4000/18(56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.4,
+          33.55833333333333
+        ],
+        [
+          31.525,
+          33.791666666666664
+        ],
+        [
+          33.275,
+          33.266666666666666
+        ],
+        [
+          33.05833333333333,
+          33.083333333333336
+        ],
+        [
+          31.4,
+          33.55833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-12-23T00:30:00",
     "raw_dtg": "230030Z DEC 18",
     "msg_id": "HYDROARC 4000/18(56)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 052300Z JAN 19",
-      "HYDROARC 4075/18"
+      "THIS MSG 052300Z JAN 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. SURVEY OPERATIONS 230001Z DEC TO 052200Z JAN 19\n   BY M/V RAMFORM TITAN IN AREA BOUND BY\n   33-33.5N 031-24.0E, 33-47.5N 031-31.5E,\n   33-16.0N 033-16.5E, 33-05.0N 033-03.5E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 052300Z JAN 19."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. SURVEY OPERATIONS 230001Z DEC TO 052200Z JAN 19\n   BY M/V RAMFORM TITAN IN AREA BOUND BY\n   33-33.5N 031-24.0E, 33-47.5N 031-31.5E,\n   33-16.0N 033-16.5E, 33-05.0N 033-03.5E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 052300Z JAN 19.",
+    "valid_from": "2018-12-23T00:30:00+00:00",
+    "valid_until": "2019-01-05T23:00:00+00:00",
+    "summary": null
   }
 }

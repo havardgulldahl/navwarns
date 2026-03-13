@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 92/22(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          46.93333333333333,
+          75.07333333333334
+        ],
+        [
+          48.0,
+          75.0
+        ],
+        [
+          49.0,
+          74.77833333333334
+        ],
+        [
+          46.0,
+          74.36166666666666
+        ],
+        [
+          44.93333333333333,
+          74.755
+        ],
+        [
+          46.93333333333333,
+          75.07333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2022-05-20T08:40:00",
     "raw_dtg": "200840Z MAY 22",
     "msg_id": "HYDROARC 92/22(42)",
-    "cancellations": [
-      "HYDROARC 144/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nDNC 22.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V AKVAMARIN IN AREA BOUND BY\n75-04.4N 046-56.0E, 75-00.0N 048-00.0E,\n74-46.7N 049-00.0E, 74-21.7N 046-00.0E,\n74-45.3N 044-56.0E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nDNC 22.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V AKVAMARIN IN AREA BOUND BY\n75-04.4N 046-56.0E, 75-00.0N 048-00.0E,\n74-46.7N 049-00.0E, 74-21.7N 046-00.0E,\n74-45.3N 044-56.0E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2022-05-20T08:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,68 @@
   "type": "Feature",
   "id": "HYDROARC 35/11(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.08,
+          69.45
+        ],
+        [
+          32.96,
+          69.585
+        ],
+        [
+          33.13333333333333,
+          69.715
+        ],
+        [
+          33.55,
+          69.83333333333333
+        ],
+        [
+          34.5,
+          69.83333333333333
+        ],
+        [
+          34.5,
+          69.53333333333333
+        ],
+        [
+          34.405,
+          69.29166666666667
+        ],
+        [
+          33.58,
+          69.29833333333333
+        ],
+        [
+          33.49,
+          69.33666666666667
+        ],
+        [
+          33.306666666666665,
+          69.42666666666666
+        ],
+        [
+          33.08,
+          69.45
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-03-27T06:16:00",
     "raw_dtg": "270616Z MAR 11",
     "msg_id": "HYDROARC 35/11(42)",
-    "cancellations": [
-      "HYDROARC 35/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ARCTIC OCEAN.\nBARENTS SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 280500Z TO 281200Z MAR\n   IN AREA BOUND BY\n   69-27.0N 033-04.8E, 69-35.1N 032-57.6E,\n   69-42.9N 033-08.0E, 69-50.0N 033-33.0E,\n   69-50.0N 034-30.0E, 69-32.0N 034-30.0E,\n   69-17.5N 034-24.3E, 69-17.9N 033-34.8E,\n   69-20.2N 033-29.4E, 69-25.6N 033-18.4E,\n   69-27.0N 033-04.8E.\n2. CANCEL THIS MSG 281300Z MAR."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC OCEAN.\nBARENTS SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 280500Z TO 281200Z MAR\n   IN AREA BOUND BY\n   69-27.0N 033-04.8E, 69-35.1N 032-57.6E,\n   69-42.9N 033-08.0E, 69-50.0N 033-33.0E,\n   69-50.0N 034-30.0E, 69-32.0N 034-30.0E,\n   69-17.5N 034-24.3E, 69-17.9N 033-34.8E,\n   69-20.2N 033-29.4E, 69-25.6N 033-18.4E,\n   69-27.0N 033-04.8E.\n2. CANCEL THIS MSG 281300Z MAR.",
+    "valid_from": "2011-03-27T06:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

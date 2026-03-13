@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2411/10(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-12-13T07:02:00",
     "raw_dtg": "130702Z DEC 10",
     "msg_id": "HYDROARC 2411/10(51)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 2411/10"
+      "1879/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nGUINEA-BISSAU.\nCANCEL HYDROLANT 1879/10 AND THIS MSG, SURVEY COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nGUINEA-BISSAU.\nCANCEL HYDROLANT 1879/10 AND THIS MSG, SURVEY COMPLETED.",
+    "valid_from": "2010-12-13T07:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

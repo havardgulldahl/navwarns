@@ -3,17 +3,23 @@
   "id": "HYDROARC 1562/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.70666666666666,
+      -28.446666666666665
+    ]
   },
   "properties": {
     "dtg": "2012-07-13T23:48:00",
     "raw_dtg": "132348Z JUL 12",
     "msg_id": "HYDROARC 1562/12(24)",
-    "cancellations": [
-      "HYDROARC 1637/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24120\nILHA DOS LOBOS LIGHT 28-26.8S 048-42.4W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24120\nILHA DOS LOBOS LIGHT 28-26.8S 048-42.4W UNLIT.",
+    "valid_from": "2012-07-13T23:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

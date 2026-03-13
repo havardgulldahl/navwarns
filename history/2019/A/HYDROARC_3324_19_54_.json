@@ -3,17 +3,23 @@
   "id": "HYDROARC 3324/19(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      24.275,
+      37.52166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-10-29T15:29:00",
     "raw_dtg": "291529Z OCT 19",
     "msg_id": "HYDROARC 3324/19(54)",
-    "cancellations": [
-      "HYDROARC 3358/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\nAKRA TAMELOS LIGHT 37-31.3N 024-16.5E UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\nAKRA TAMELOS LIGHT 37-31.3N 024-16.5E UNLIT.",
+    "valid_from": "2019-10-29T15:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

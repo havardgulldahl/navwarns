@@ -3,17 +3,23 @@
   "id": "HYDROARC 282/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0633333333333335,
+      60.11333333333334
+    ]
   },
   "properties": {
     "dtg": "2022-01-29T01:04:00",
     "raw_dtg": "290104Z JAN 22",
     "msg_id": "HYDROARC 282/22(35)",
-    "cancellations": [
-      "HYDROARC 303/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nFOULA ISLAND SOUTH NESS LIGHT 60-06.8N 002-03.8W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nFOULA ISLAND SOUTH NESS LIGHT 60-06.8N 002-03.8W\nUNRELIABLE.",
+    "valid_from": "2022-01-29T01:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

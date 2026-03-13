@@ -3,17 +3,23 @@
   "id": "HYDROARC 2911/12(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -69.525,
+      17.471666666666668
+    ]
   },
   "properties": {
     "dtg": "2012-12-09T11:27:00",
     "raw_dtg": "091127Z DEC 12",
     "msg_id": "HYDROARC 2911/12(25)",
-    "cancellations": [
-      "HYDROARC 2956/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTHERN CARIBBEAN SEA.\nDOMINICAN REPUBLIC.\nRED FLARE SIGHTED VICINITY 17-28.3N 069-31.5W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTHERN CARIBBEAN SEA.\nDOMINICAN REPUBLIC.\nRED FLARE SIGHTED VICINITY 17-28.3N 069-31.5W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041.",
+    "valid_from": "2012-12-09T11:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

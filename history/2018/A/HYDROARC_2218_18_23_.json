@@ -3,18 +3,25 @@
   "id": "HYDROARC 2218/18(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -56.27166666666667,
+      -51.89
+    ]
   },
   "properties": {
     "dtg": "2018-07-08T14:15:00",
     "raw_dtg": "081415Z JUL 18",
     "msg_id": "HYDROARC 2218/18(23)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 111415Z JUL 18",
-      "HYDROARC 2218/18"
+      "THIS MSG 111415Z JUL 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\n1. ICEBERG REPORTED IN 51-53.4S 056-16.3W.\n2. CANCEL THIS MSG 111415Z JUL 18."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\n1. ICEBERG REPORTED IN 51-53.4S 056-16.3W.\n2. CANCEL THIS MSG 111415Z JUL 18.",
+    "valid_from": "2018-07-08T14:15:00+00:00",
+    "valid_until": "2018-07-11T14:15:00+00:00",
+    "summary": null
   }
 }

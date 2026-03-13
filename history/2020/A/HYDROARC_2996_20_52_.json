@@ -3,18 +3,25 @@
   "id": "HYDROARC 2996/20(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0383333333333333,
+      37.465
+    ]
   },
   "properties": {
     "dtg": "2020-10-03T00:58:00",
     "raw_dtg": "030058Z OCT 20",
     "msg_id": "HYDROARC 2996/20(52)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 051600Z OCT 20",
-      "HYDROARC 2996/20"
+      "THIS MSG 051600Z OCT 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nDNC 08.\n1. M/V CASTERONE ADRIFT IN VICINITY\n   37-27.9N 001-02.3W AT 021600Z OCT 20.\n2. CANCEL THIS MSG 051600Z OCT 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nDNC 08.\n1. M/V CASTERONE ADRIFT IN VICINITY\n   37-27.9N 001-02.3W AT 021600Z OCT 20.\n2. CANCEL THIS MSG 051600Z OCT 20.",
+    "valid_from": "2020-10-03T00:58:00+00:00",
+    "valid_until": "2020-10-05T16:00:00+00:00",
+    "summary": null
   }
 }

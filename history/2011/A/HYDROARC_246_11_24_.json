@@ -3,17 +3,23 @@
   "id": "HYDROARC 246/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.263333333333335,
+      -24.051666666666666
+    ]
   },
   "properties": {
     "dtg": "2011-02-10T01:24:00",
     "raw_dtg": "100124Z FEB 11",
     "msg_id": "HYDROARC 246/11(24)",
-    "cancellations": [
-      "HYDROARC 490/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24140 (18TH ED).\nRADIOBEACON AT ILHA DA MOELA LIGHT 24-03.1S 046-15.8W\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24140 (18TH ED).\nRADIOBEACON AT ILHA DA MOELA LIGHT 24-03.1S 046-15.8W\nOFF AIR.",
+    "valid_from": "2011-02-10T01:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

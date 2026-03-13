@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 2729/14(35)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -6.71,
+        57.52333333333333
+      ],
+      [
+        -6.7716666666666665,
+        57.535
+      ],
+      [
+        -6.868333333333333,
+        57.50666666666667
+      ],
+      [
+        -6.96,
+        57.455
+      ],
+      [
+        -7.101666666666667,
+        57.4
+      ],
+      [
+        -7.181666666666667,
+        57.37833333333333
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-11-13T00:06:00",
     "raw_dtg": "130006Z NOV 14",
     "msg_id": "HYDROARC 2729/14(35)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2768/14"
+      "2603/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nLITTLE MINCH.\nDNC 19.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE BY\n   CABLESHIP RENE DESCARTES AND CABLESHIP PIERRE DE FERMAT\n   WITH SUBMERSIBLES VICINITY OF TRACKLINE JOINING\n   57-31.4N 006-42.6W, 57-32.1N 006-46.3W,\n   57-30.4N 006-52.1W, 57-27.3N 006-57.6W,\n   57-24.0N 007-06.1W, 57-22.7N 007-10.9W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2603/14."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nLITTLE MINCH.\nDNC 19.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE BY\n   CABLESHIP RENE DESCARTES AND CABLESHIP PIERRE DE FERMAT\n   WITH SUBMERSIBLES VICINITY OF TRACKLINE JOINING\n   57-31.4N 006-42.6W, 57-32.1N 006-46.3W,\n   57-30.4N 006-52.1W, 57-27.3N 006-57.6W,\n   57-24.0N 007-06.1W, 57-22.7N 007-10.9W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2603/14.",
+    "valid_from": "2014-11-13T00:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

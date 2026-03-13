@@ -3,18 +3,25 @@
   "id": "HYDROARC 4009/17(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      4.036666666666667,
+      36.97833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-12-12T12:55:00",
     "raw_dtg": "121255Z DEC 17",
     "msg_id": "HYDROARC 4009/17(52)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 151255Z DEC 17",
-      "HYDROARC 4009/17"
+      "THIS MSG 151255Z DEC 17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\n1. DERELICT 29 METER TUG SL. SCHELDE 12 ADRIFT\n   IN VICINITY 36-58.7N 004-02.2E AT\n   111745Z DEC.\n2. CANCEL THIS MSG 151255Z DEC 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\n1. DERELICT 29 METER TUG SL. SCHELDE 12 ADRIFT\n   IN VICINITY 36-58.7N 004-02.2E AT\n   111745Z DEC.\n2. CANCEL THIS MSG 151255Z DEC 17.",
+    "valid_from": "2017-12-12T12:55:00+00:00",
+    "valid_until": "2017-12-15T12:55:00+00:00",
+    "summary": null
   }
 }

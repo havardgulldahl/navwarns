@@ -3,17 +3,25 @@
   "id": "HYDROARC 2872/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -52.708333333333336,
+      -33.20333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-10-31T21:31:00",
     "raw_dtg": "312131Z OCT 16",
     "msg_id": "HYDROARC 2872/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2956/16"
+      "THIS MSG 29 APR 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 07.\nCHART 24080.\n1. ALBARDAO LIGHT 33-12.2S 052-42.5W UNLIT.\n2. CANCEL THIS MSG 29 APR 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 07.\nCHART 24080.\n1. ALBARDAO LIGHT 33-12.2S 052-42.5W UNLIT.\n2. CANCEL THIS MSG 29 APR 17.",
+    "valid_from": "2016-10-31T21:31:00+00:00",
+    "valid_until": "2017-04-29T00:00:00+00:00",
+    "summary": null
   }
 }

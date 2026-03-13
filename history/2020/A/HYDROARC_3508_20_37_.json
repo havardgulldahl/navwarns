@@ -3,17 +3,23 @@
   "id": "HYDROARC 3508/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.4383333333333335,
+      50.4
+    ]
   },
   "properties": {
     "dtg": "2020-11-12T01:21:00",
     "raw_dtg": "120121Z NOV 20",
     "msg_id": "HYDROARC 3508/20(37)",
-    "cancellations": [
-      "HYDROARC 3748/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK REPORTED IN 50-24.0N 003-26.3W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK REPORTED IN 50-24.0N 003-26.3W.",
+    "valid_from": "2020-11-12T01:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

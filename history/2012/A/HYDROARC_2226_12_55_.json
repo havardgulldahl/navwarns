@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 2226/12(55)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         30.576999999999998,
@@ -22,11 +22,16 @@
     "dtg": "2012-09-24T13:09:00",
     "raw_dtg": "241309Z SEP 12",
     "msg_id": "HYDROARC 2226/12(55)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2265/12"
+      "THIS MSG 05 OCT 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\n1. SURVEY OPERATIONS 25 SEP THRU 04 OCT\n   BY M/V AKADEMIK GOLITSIN ALONG TRACKLINE JOINING\n   42-48.35N 030-34.62E, 43-07.52N 034-14.13E,\n   43-25.15N 036-13.33E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 05 OCT 12."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "BLACK SEA.\n1. SURVEY OPERATIONS 25 SEP THRU 04 OCT\n   BY M/V AKADEMIK GOLITSIN ALONG TRACKLINE JOINING\n   42-48.35N 030-34.62E, 43-07.52N 034-14.13E,\n   43-25.15N 036-13.33E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 05 OCT 12.",
+    "valid_from": "2012-09-24T13:09:00+00:00",
+    "valid_until": "2012-10-05T00:00:00+00:00",
+    "summary": null
   }
 }

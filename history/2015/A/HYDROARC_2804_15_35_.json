@@ -3,17 +3,23 @@
   "id": "HYDROARC 2804/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6116666666666668,
+      55.64333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-11-14T17:50:00",
     "raw_dtg": "141750Z NOV 15",
     "msg_id": "HYDROARC 2804/15(35)",
-    "cancellations": [
-      "HYDROARC 2863/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35010.\nLONGSTONE LIGHT, FL W 20 SEC 23 METERS 18 MILES,\nESTABLISHED IN 55-38.6N 001-36.7W.\nLONGSTONE LIGHTSHIP DISCONTINUED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35010.\nLONGSTONE LIGHT, FL W 20 SEC 23 METERS 18 MILES,\nESTABLISHED IN 55-38.6N 001-36.7W.\nLONGSTONE LIGHTSHIP DISCONTINUED.",
+    "valid_from": "2015-11-14T17:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

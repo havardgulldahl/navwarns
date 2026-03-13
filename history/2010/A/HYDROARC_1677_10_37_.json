@@ -3,17 +3,23 @@
   "id": "HYDROARC 1677/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.183333333333333,
+      51.346666666666664
+    ]
   },
   "properties": {
     "dtg": "2010-09-05T14:17:00",
     "raw_dtg": "051417Z SEP 10",
     "msg_id": "HYDROARC 1677/10(37)",
-    "cancellations": [
-      "HYDROARC 1939/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNGA CHART 37129 (6TH ED).\nHINDER 1 BUOY 51-20.8N 002-11.0E DAMAGED AND UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNGA CHART 37129 (6TH ED).\nHINDER 1 BUOY 51-20.8N 002-11.0E DAMAGED AND UNLIT.",
+    "valid_from": "2010-09-05T14:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

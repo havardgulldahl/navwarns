@@ -3,17 +3,23 @@
   "id": "HYDROARC 1636/18(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.265,
+      50.18
+    ]
   },
   "properties": {
     "dtg": "2018-05-24T21:24:00",
     "raw_dtg": "242124Z MAY 18",
     "msg_id": "HYDROARC 1636/18(36,37)",
-    "cancellations": [
-      "HYDROARC 1653/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36050.\nEDDYSTONE LIGHT 50-10.8N 004-15.9W RED SECTOR UNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36050.\nEDDYSTONE LIGHT 50-10.8N 004-15.9W RED SECTOR UNLIT.",
+    "valid_from": "2018-05-24T21:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

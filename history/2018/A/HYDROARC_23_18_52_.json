@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 23/18(52)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2018-01-03T13:07:00",
     "raw_dtg": "031307Z JAN 18",
     "msg_id": "HYDROARC 23/18(52)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2822/18"
+      "THIS MSG 01 JAN 19"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL 31 DEC\n   IN AREA BETWEEN 35-30N 35-40N AND 011-30E 011-50E.\n2. CANCEL THIS MSG 01 JAN 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL 31 DEC\n   IN AREA BETWEEN 35-30N 35-40N AND 011-30E 011-50E.\n2. CANCEL THIS MSG 01 JAN 19.",
+    "valid_from": "2018-01-03T13:07:00+00:00",
+    "valid_until": "2019-01-01T00:00:00+00:00",
+    "summary": null
   }
 }

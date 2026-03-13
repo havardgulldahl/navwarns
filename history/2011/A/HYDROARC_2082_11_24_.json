@@ -3,17 +3,23 @@
   "id": "HYDROARC 2082/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.03666666666667,
+      -10.97
+    ]
   },
   "properties": {
     "dtg": "2011-12-08T10:02:00",
     "raw_dtg": "081002Z DEC 11",
     "msg_id": "HYDROARC 2082/11(24)",
-    "cancellations": [
-      "HYDROARC 2182/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nNGA CHART 24012 (40TH ED).\nDGPS STATION AT SERGIPE LIGHT 10-58.2S 037-02.2W\nINOPERATIVE."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nNGA CHART 24012 (40TH ED).\nDGPS STATION AT SERGIPE LIGHT 10-58.2S 037-02.2W\nINOPERATIVE.",
+    "valid_from": "2011-12-08T10:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

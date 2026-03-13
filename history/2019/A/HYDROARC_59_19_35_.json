@@ -3,17 +3,23 @@
   "id": "HYDROARC 59/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.4633333333333334,
+      55.075
+    ]
   },
   "properties": {
     "dtg": "2019-01-07T01:30:00",
     "raw_dtg": "070130Z JAN 19",
     "msg_id": "HYDROARC 59/19(35)",
-    "cancellations": [
-      "HYDROARC 69/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nNAVTEX STATION CULLERCOATS (G) 55-04.5N 001-27.8W\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nNAVTEX STATION CULLERCOATS (G) 55-04.5N 001-27.8W\nOFF AIR.",
+    "valid_from": "2019-01-07T01:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

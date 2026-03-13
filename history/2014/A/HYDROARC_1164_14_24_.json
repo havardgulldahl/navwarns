@@ -3,17 +3,25 @@
   "id": "HYDROARC 1164/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.30166666666667,
+      -2.4883333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-05-08T00:04:00",
     "raw_dtg": "080004Z MAY 14",
     "msg_id": "HYDROARC 1164/14(24)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1164/14"
+      "THIS MSG 02 NOV 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24270\n1. RADIOBEACON AT PONTA DE SAO MARCOS LIGHT\n   02-29.3S 044-18.1W INOPERATIVE.\n2. CANCEL THIS MSG 02 NOV 14."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24270\n1. RADIOBEACON AT PONTA DE SAO MARCOS LIGHT\n   02-29.3S 044-18.1W INOPERATIVE.\n2. CANCEL THIS MSG 02 NOV 14.",
+    "valid_from": "2014-05-08T00:04:00+00:00",
+    "valid_until": "2014-11-02T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 507/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.9758333333333333,
+      50.913333333333334
+    ]
   },
   "properties": {
     "dtg": "2022-02-21T09:56:00",
     "raw_dtg": "210956Z FEB 22",
     "msg_id": "HYDROARC 507/22(37)",
-    "cancellations": [
-      "HYDROARC 592/22"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT DUNGENESS LIGHT\n50-54-48N 000-58-33E INOPERATIVE."
+    "year": 2022,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT DUNGENESS LIGHT\n50-54-48N 000-58-33E INOPERATIVE.",
+    "valid_from": "2022-02-21T09:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

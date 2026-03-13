@@ -3,17 +3,25 @@
   "id": "HYDROARC 3754/20(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      7.9,
+      43.42
+    ]
   },
   "properties": {
     "dtg": "2020-12-02T12:39:00",
     "raw_dtg": "021239Z DEC 20",
     "msg_id": "HYDROARC 3754/20(53)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3754/20"
+      "THIS MSG 16 DEC 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nITALY.\nDNC 08.\n1. SURVEY OPERATIONS 05 THRU 15 DEC\n   BY M/V TETHYS II IN AREA WITHIN TWO MILES OF\n   43-25.2N 007-54.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 DEC 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nITALY.\nDNC 08.\n1. SURVEY OPERATIONS 05 THRU 15 DEC\n   BY M/V TETHYS II IN AREA WITHIN TWO MILES OF\n   43-25.2N 007-54.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 DEC 20.",
+    "valid_from": "2020-12-02T12:39:00+00:00",
+    "valid_until": "2020-12-16T00:00:00+00:00",
+    "summary": null
   }
 }

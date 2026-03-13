@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 2157/21(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         -43.48583333333333,
@@ -54,11 +54,16 @@
     "dtg": "2021-08-21T03:49:00",
     "raw_dtg": "210349Z AUG 21",
     "msg_id": "HYDROARC 2157/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 2157/21"
+      "THIS MSG 08 SEP 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   07 SEP ALONG TRACKLINE JOINING\n   23-18.38S 043-29.15W, 23-19.77S 043-29.19W,\n   23-19.94S 043-29.20W, 23-19.96S 043-29.20W,\n   23-19.99S 043-29.20W, 23-20.10S 043-29.20W,\n   23-20.17S 043-29.20W, 23-22.32S 043-29.27W,\n   23-22.38S 043-29.28W, 23-23.14S 043-29.34W,\n   23-23.81S 043-29.36W.\n2. CANCEL THIS MSG 08 SEP 21."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   07 SEP ALONG TRACKLINE JOINING\n   23-18.38S 043-29.15W, 23-19.77S 043-29.19W,\n   23-19.94S 043-29.20W, 23-19.96S 043-29.20W,\n   23-19.99S 043-29.20W, 23-20.10S 043-29.20W,\n   23-20.17S 043-29.20W, 23-22.32S 043-29.27W,\n   23-22.38S 043-29.28W, 23-23.14S 043-29.34W,\n   23-23.81S 043-29.36W.\n2. CANCEL THIS MSG 08 SEP 21.",
+    "valid_from": "2021-08-21T03:49:00+00:00",
+    "valid_until": "2021-09-08T00:00:00+00:00",
+    "summary": null
   }
 }

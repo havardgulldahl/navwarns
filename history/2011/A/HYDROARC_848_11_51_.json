@@ -3,17 +3,25 @@
   "id": "HYDROARC 848/11(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.723333333333333,
+      28.636666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-05-19T11:45:00",
     "raw_dtg": "191145Z MAY 11",
     "msg_id": "HYDROARC 848/11(51)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 848/11"
+      "820/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\n1. CABLE LAYING OPERATIONS 20 MAY\n   BY CABLESHIP ILE DE BATZ\n   VICINITY 28-38.2N 017-43.4W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 820/11.\n3. CANCEL THIS MSG 21 MAY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\n1. CABLE LAYING OPERATIONS 20 MAY\n   BY CABLESHIP ILE DE BATZ\n   VICINITY 28-38.2N 017-43.4W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 820/11.\n3. CANCEL THIS MSG 21 MAY.",
+    "valid_from": "2011-05-19T11:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

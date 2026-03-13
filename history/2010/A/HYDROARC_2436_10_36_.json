@@ -3,17 +3,23 @@
   "id": "HYDROARC 2436/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.425,
+      53.48
+    ]
   },
   "properties": {
     "dtg": "2010-12-16T20:06:00",
     "raw_dtg": "162006Z DEC 10",
     "msg_id": "HYDROARC 2436/10(36)",
-    "cancellations": [
-      "HYDROARC 243/11"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nNGA CHART 36007 (1ST ED).\nODAS BUOY 25 53-28.8N 005-25.5W OFF STATION AND UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nNGA CHART 36007 (1ST ED).\nODAS BUOY 25 53-28.8N 005-25.5W OFF STATION AND UNLIT.",
+    "valid_from": "2010-12-16T20:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

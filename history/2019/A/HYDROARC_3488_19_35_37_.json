@@ -3,17 +3,23 @@
   "id": "HYDROARC 3488/19(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.0825,
+      54.11611111111111
+    ]
   },
   "properties": {
     "dtg": "2019-11-14T04:00:00",
     "raw_dtg": "140400Z NOV 19",
     "msg_id": "HYDROARC 3488/19(35,37)",
-    "cancellations": [
-      "HYDROARC 3494/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFLAMBOROUGH HEAD LIGHT 54-06-58N 000-04-57W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFLAMBOROUGH HEAD LIGHT 54-06-58N 000-04-57W\nUNRELIABLE.",
+    "valid_from": "2019-11-14T04:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

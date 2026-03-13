@@ -3,17 +3,23 @@
   "id": "HYDROARC 1129/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.5549999999999997,
+      56.18666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-05-09T08:40:00",
     "raw_dtg": "090840Z MAY 15",
     "msg_id": "HYDROARC 1129/15(35)",
-    "cancellations": [
-      "HYDROARC 1133/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nDNC 20.\nCHART 35014.\nISLE OF MAY LIGHT 56-11.2N 002-33.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nDNC 20.\nCHART 35014.\nISLE OF MAY LIGHT 56-11.2N 002-33.3W UNRELIABLE.",
+    "valid_from": "2015-05-09T08:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

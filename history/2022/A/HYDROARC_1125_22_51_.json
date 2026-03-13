@@ -3,17 +3,23 @@
   "id": "HYDROARC 1125/22(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -12.558333333333334,
+      30.83
+    ]
   },
   "properties": {
     "dtg": "2022-04-22T16:31:00",
     "raw_dtg": "221631Z APR 22",
     "msg_id": "HYDROARC 1125/22(51)",
-    "cancellations": [
-      "HYDROARC 1129/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V HIDDEN GEN IN VICINITY OF\n30-49.8N 012-33.5W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V HIDDEN GEN IN VICINITY OF\n30-49.8N 012-33.5W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2022-04-22T16:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 418/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.925,
+      58.69
+    ]
   },
   "properties": {
     "dtg": "2010-03-10T21:41:00",
     "raw_dtg": "102141Z MAR 10",
     "msg_id": "HYDROARC 418/10(35)",
-    "cancellations": [
-      "HYDROARC 432/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (1ST ED).\nPENTLAND SKERRIES LIGHT 58-41.4N 002-55.5W\nAT REDUCED INTENSITY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (1ST ED).\nPENTLAND SKERRIES LIGHT 58-41.4N 002-55.5W\nAT REDUCED INTENSITY.",
+    "valid_from": "2010-03-10T21:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

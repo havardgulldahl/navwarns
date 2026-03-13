@@ -2,18 +2,52 @@
   "type": "Feature",
   "id": "HYDROARC 2865/19(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.2483333333333335,
+          58.74333333333333
+        ],
+        [
+          2.0833333333333335,
+          58.781666666666666
+        ],
+        [
+          2.006666666666667,
+          59.14666666666667
+        ],
+        [
+          2.4466666666666668,
+          59.306666666666665
+        ],
+        [
+          2.611666666666667,
+          59.26833333333333
+        ],
+        [
+          2.685,
+          58.906666666666666
+        ],
+        [
+          2.2483333333333335,
+          58.74333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-09-19T07:15:00",
     "raw_dtg": "190715Z SEP 19",
     "msg_id": "HYDROARC 2865/19(43)",
-    "cancellations": [
-      "HYDROARC 3318/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM VANGUARD TOWING 12\n5.4 MILE LONG CABLES IN AREA BOUND BY\n58-44.6N 002-14.9E, 58-46.9N 002-05.0E,\n59-08.8N 002-00.4E, 59-18.4N 002-26.8E,\n59-16.1N 002-36.7E, 58-54.4N 002-41.1E.\nSEVEN MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM VANGUARD TOWING 12\n5.4 MILE LONG CABLES IN AREA BOUND BY\n58-44.6N 002-14.9E, 58-46.9N 002-05.0E,\n59-08.8N 002-00.4E, 59-18.4N 002-26.8E,\n59-16.1N 002-36.7E, 58-54.4N 002-41.1E.\nSEVEN MILE BERTH REQUESTED.",
+    "valid_from": "2019-09-19T07:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

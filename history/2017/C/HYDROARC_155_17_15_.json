@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 155/17(15)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-07-19T14:18:00",
     "raw_dtg": "191418Z JUL 17",
     "msg_id": "HYDROARC 155/17(15)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 153/17",
-      "HYDROARC 155/17"
+      "HYDROARC 153/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANADA-NORTH COAST.\nDNC 27.\nCANCEL HYDROARC 153/17 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA-NORTH COAST.\nDNC 27.\nCANCEL HYDROARC 153/17 AND THIS MSG.",
+    "valid_from": "2017-07-19T14:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2635/14(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.895,
+      49.90833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-10-30T22:15:00",
     "raw_dtg": "302215Z OCT 14",
     "msg_id": "HYDROARC 2635/14(36,37)",
-    "cancellations": [
-      "HYDROARC 2646/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 36050, 37015.\nRACON AT CHANNEL LIGHTSHIP 49-54.5N 002-53.7W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 36050, 37015.\nRACON AT CHANNEL LIGHTSHIP 49-54.5N 002-53.7W INOPERATIVE.",
+    "valid_from": "2014-10-30T22:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 898/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.309999999999995,
+      -20.302777777777777
+    ]
   },
   "properties": {
     "dtg": "2021-04-02T21:22:00",
     "raw_dtg": "022122Z APR 21",
     "msg_id": "HYDROARC 898/21(24)",
-    "cancellations": [
-      "HYDROARC 909/21"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nMORRO GRANDE LIGHT 20-18-10S 040-18-36W UNLIT."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nMORRO GRANDE LIGHT 20-18-10S 040-18-36W UNLIT.",
+    "valid_from": "2021-04-02T21:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

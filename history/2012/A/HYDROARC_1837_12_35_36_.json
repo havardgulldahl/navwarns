@@ -3,17 +3,23 @@
   "id": "HYDROARC 1837/12(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.54,
+      55.428333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-08-10T23:03:00",
     "raw_dtg": "102303Z AUG 12",
     "msg_id": "HYDROARC 1837/12(35,36)",
-    "cancellations": [
-      "HYDROARC 1843/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 35119\nDAVAAR LIGHT 55-25.7N 005-32.4W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 35119\nDAVAAR LIGHT 55-25.7N 005-32.4W UNLIT.",
+    "valid_from": "2012-08-10T23:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

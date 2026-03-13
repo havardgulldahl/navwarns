@@ -3,17 +3,23 @@
   "id": "HYDROARC 1254/12(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.08,
+      54.11666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-06-12T01:24:00",
     "raw_dtg": "120124Z JUN 12",
     "msg_id": "HYDROARC 1254/12(35,37)",
-    "cancellations": [
-      "HYDROARC 1254/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nCHART 35008\n1. DGPS STATION AT FLAMBOROUGH HEAD LIGHT\n   54-07.0N 000-04.8W OFF AIR\n   0800Z TO 1600Z DAILY 12 THRU 14 JUN.\n2. CANCEL THIS MSG 141700Z JUN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nCHART 35008\n1. DGPS STATION AT FLAMBOROUGH HEAD LIGHT\n   54-07.0N 000-04.8W OFF AIR\n   0800Z TO 1600Z DAILY 12 THRU 14 JUN.\n2. CANCEL THIS MSG 141700Z JUN.",
+    "valid_from": "2012-06-12T01:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

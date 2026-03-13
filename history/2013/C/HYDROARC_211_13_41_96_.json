@@ -3,18 +3,25 @@
   "id": "HYDROARC 211/13(41,96)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -175.81666666666666,
+      74.44666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-10-07T07:47:00",
     "raw_dtg": "070747Z OCT 13",
     "msg_id": "HYDROARC 211/13(41,96)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 209/13",
-      "HYDROARC 215/13"
+      "HYDROARC 209/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCHUKCHI SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V ZEFIR I TOWING 10000 METER LONG CABLE\n   ALONG TRACKLINE BETWEEN\n   74-26.8N 175-49.0W AND 71-40.8N 177-37.8W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 209/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCHUKCHI SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V ZEFIR I TOWING 10000 METER LONG CABLE\n   ALONG TRACKLINE BETWEEN\n   74-26.8N 175-49.0W AND 71-40.8N 177-37.8W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 209/13.",
+    "valid_from": "2013-10-07T07:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

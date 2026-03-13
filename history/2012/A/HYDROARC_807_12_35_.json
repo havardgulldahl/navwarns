@@ -3,17 +3,23 @@
   "id": "HYDROARC 807/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.123333333333333,
+      57.03333333333333
+    ]
   },
   "properties": {
     "dtg": "2012-04-12T10:39:00",
     "raw_dtg": "121039Z APR 12",
     "msg_id": "HYDROARC 807/12(35)",
-    "cancellations": [
-      "HYDROARC 838/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z DAILY 13 THRU\n   16 APR WITHIN 60 MILES OF 57-02.0N 009-07.4W.\n   VESSELS INTENDING TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 FOR ADVICE.\n2. CANCEL THIS MSG 162100Z APR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z DAILY 13 THRU\n   16 APR WITHIN 60 MILES OF 57-02.0N 009-07.4W.\n   VESSELS INTENDING TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 FOR ADVICE.\n2. CANCEL THIS MSG 162100Z APR.",
+    "valid_from": "2012-04-12T10:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,80 @@
   "type": "Feature",
   "id": "HYDROARC 87/14(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -4.345,
+          4.625
+        ],
+        [
+          -4.245,
+          4.625
+        ],
+        [
+          -4.066666666666666,
+          4.755
+        ],
+        [
+          -4.001666666666667,
+          4.755
+        ],
+        [
+          -3.87,
+          4.661666666666667
+        ],
+        [
+          -3.7716666666666665,
+          4.661666666666667
+        ],
+        [
+          -3.7716666666666665,
+          4.54
+        ],
+        [
+          -3.585,
+          4.483333333333333
+        ],
+        [
+          -3.585,
+          4.261666666666667
+        ],
+        [
+          -3.585,
+          4.18
+        ],
+        [
+          -3.77,
+          4.18
+        ],
+        [
+          -4.345,
+          4.18
+        ],
+        [
+          -4.345,
+          4.623333333333333
+        ],
+        [
+          -4.345,
+          4.625
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-01-09T16:33:00",
     "raw_dtg": "091633Z JAN 14",
     "msg_id": "HYDROARC 87/14(57)",
-    "cancellations": [
-      "HYDROARC 1049/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V OCEANIC PHOENIX TOWING 12\n10000 METER LONG CABLES IN AREA BOUND BY\n04-37.5N 004-20.7W, 04-37.5N 004-14.7W,\n04-45.3N 004-04.0W, 04-45.3N 004-00.1W,\n04-39.7N 003-52.2W, 04-39.7N 003-46.3W,\n04-32.4N 003-46.3W, 04-29.0N 003-35.1W,\n04-15.7N 003-35.1W, 04-10.8N 003-35.1W,\n04-10.8N 003-46.2W, 04-10.8N 004-20.7W,\n04-37.4N 004-20.7W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V OCEANIC PHOENIX TOWING 12\n10000 METER LONG CABLES IN AREA BOUND BY\n04-37.5N 004-20.7W, 04-37.5N 004-14.7W,\n04-45.3N 004-04.0W, 04-45.3N 004-00.1W,\n04-39.7N 003-52.2W, 04-39.7N 003-46.3W,\n04-32.4N 003-46.3W, 04-29.0N 003-35.1W,\n04-15.7N 003-35.1W, 04-10.8N 003-35.1W,\n04-10.8N 003-46.2W, 04-10.8N 004-20.7W,\n04-37.4N 004-20.7W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2014-01-09T16:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

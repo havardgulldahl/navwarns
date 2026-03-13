@@ -12,12 +12,16 @@
     "dtg": "2021-04-16T00:41:00",
     "raw_dtg": "160041Z APR 21",
     "msg_id": "HYDROARC 1037/21(24)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 230100Z APR 21",
-      "HYDROARC 1037/21"
+      "THIS MSG 230100Z APR 21"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 211200Z TO 230001Z APR\n   IN AREA WITHIN SIX MILES OF\n   22-59.73S 043-54.80W\n2. CANCEL THIS MSG 230100Z APR 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 211200Z TO 230001Z APR\n   IN AREA WITHIN SIX MILES OF\n   22-59.73S 043-54.80W\n2. CANCEL THIS MSG 230100Z APR 21.",
+    "valid_from": "2021-04-16T00:41:00+00:00",
+    "valid_until": "2021-04-23T01:00:00+00:00",
+    "summary": null
   }
 }

@@ -2,18 +2,78 @@
   "type": "Feature",
   "id": "HYDROARC 3278/13(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.79333333333334,
+          36.026666666666664
+        ],
+        [
+          32.255,
+          35.593333333333334
+        ],
+        [
+          32.25,
+          35.31666666666667
+        ],
+        [
+          32.36333333333334,
+          35.291666666666664
+        ],
+        [
+          32.651666666666664,
+          35.38333333333333
+        ],
+        [
+          32.7,
+          35.36666666666667
+        ],
+        [
+          32.665,
+          35.26833333333333
+        ],
+        [
+          32.751666666666665,
+          35.175
+        ],
+        [
+          34.553333333333335,
+          35.693333333333335
+        ],
+        [
+          34.68,
+          35.93666666666667
+        ],
+        [
+          34.425,
+          36.125
+        ],
+        [
+          33.68666666666667,
+          36.135
+        ],
+        [
+          32.79333333333334,
+          36.026666666666664
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-12-19T14:37:00",
     "raw_dtg": "191437Z DEC 13",
     "msg_id": "HYDROARC 3278/13(54)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 3291/13"
+      "THIS MSG 31 JAN 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTURKEY.\nCYPRUS.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 30 JAN 14 BY\n   M/V BARBOROS HAYRETTIN PASA, M/V BRAVO SUPPORTER\n   AND M/V DEEP SUPPORTER IN AREA BOUND BY\n   36-01.6N 032-47.6E, 35-35.6N 032-15.3E,\n   35-19.0N 032-15.0E, 35-17.5N 032-21.8E,\n   35-23.0N 032-39.1E, 35-22.0N 032-42.0E,\n   35-16.1N 032-39.9E, 35-10.5N 032-45.1E,\n   35-41.6N 034-33.2E, 35-56.2N 034-40.8E,\n   36-07.5N 034-25.5E, 36-08.1N 033-41.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 JAN 14."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTURKEY.\nCYPRUS.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 30 JAN 14 BY\n   M/V BARBOROS HAYRETTIN PASA, M/V BRAVO SUPPORTER\n   AND M/V DEEP SUPPORTER IN AREA BOUND BY\n   36-01.6N 032-47.6E, 35-35.6N 032-15.3E,\n   35-19.0N 032-15.0E, 35-17.5N 032-21.8E,\n   35-23.0N 032-39.1E, 35-22.0N 032-42.0E,\n   35-16.1N 032-39.9E, 35-10.5N 032-45.1E,\n   35-41.6N 034-33.2E, 35-56.2N 034-40.8E,\n   36-07.5N 034-25.5E, 36-08.1N 033-41.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 JAN 14.",
+    "valid_from": "2013-12-19T14:37:00+00:00",
+    "valid_until": "2014-01-31T00:00:00+00:00",
+    "summary": null
   }
 }

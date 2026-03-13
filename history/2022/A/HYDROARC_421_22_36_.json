@@ -3,17 +3,23 @@
   "id": "HYDROARC 421/22(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.328333333333333,
+      53.995
+    ]
   },
   "properties": {
     "dtg": "2022-02-11T15:52:00",
     "raw_dtg": "111552Z FEB 22",
     "msg_id": "HYDROARC 421/22(36)",
-    "cancellations": [
-      "HYDROARC 682/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nBARROW WIND FARM TURBINE D8 53-59.7N 003-19.7W\nUNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nBARROW WIND FARM TURBINE D8 53-59.7N 003-19.7W\nUNLIT.",
+    "valid_from": "2022-02-11T15:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2902/19(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      33.516666666666666,
+      44.68
+    ]
   },
   "properties": {
     "dtg": "2019-09-23T13:25:00",
     "raw_dtg": "231325Z SEP 19",
     "msg_id": "HYDROARC 2902/19(55)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 251600Z SEP 19",
-      "HYDROARC 2902/19"
+      "THIS MSG 251600Z SEP 19"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 241800Z TO 251500Z SEP\n   IN AREA WITHIN TWO MILES OF 44-40.8N 033-31.0E.\n2. CANCEL THIS MSG 251600Z SEP 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 241800Z TO 251500Z SEP\n   IN AREA WITHIN TWO MILES OF 44-40.8N 033-31.0E.\n2. CANCEL THIS MSG 251600Z SEP 19.",
+    "valid_from": "2019-09-23T13:25:00+00:00",
+    "valid_until": "2019-09-25T16:00:00+00:00",
+    "summary": null
   }
 }

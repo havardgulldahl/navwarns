@@ -3,17 +3,23 @@
   "id": "HYDROARC 635/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.93,
+      52.12166666666667
+    ]
   },
   "properties": {
     "dtg": "2021-03-05T01:04:00",
     "raw_dtg": "050104Z MAR 21",
     "msg_id": "HYDROARC 635/21(36)",
-    "cancellations": [
-      "HYDROARC 642/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nIRELAND.\nDNC 19.\nRACON AT HOOK HEAD LIGHT 52-07.3N 006-55.8W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nIRELAND.\nDNC 19.\nRACON AT HOOK HEAD LIGHT 52-07.3N 006-55.8W\nUNRELIABLE.",
+    "valid_from": "2021-03-05T01:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

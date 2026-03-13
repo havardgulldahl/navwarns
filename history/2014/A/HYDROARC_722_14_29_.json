@@ -3,17 +3,25 @@
   "id": "HYDROARC 722/14(29)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.72666666666667,
+      -60.855
+    ]
   },
   "properties": {
     "dtg": "2014-03-12T02:49:00",
     "raw_dtg": "120249Z MAR 14",
     "msg_id": "HYDROARC 722/14(29)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 727/14"
+      "714/14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ANTARCTICA.\nWEDDELL SEA.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V PUERTO DESEADO\n   IN 60-51.3S 045-43.6W.\n2. CANCEL HYDROLANT 714/14."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ANTARCTICA.\nWEDDELL SEA.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V PUERTO DESEADO\n   IN 60-51.3S 045-43.6W.\n2. CANCEL HYDROLANT 714/14.",
+    "valid_from": "2014-03-12T02:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1846/12(26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -80.28833333333333,
+      16.8
+    ]
   },
   "properties": {
     "dtg": "2012-08-11T23:50:00",
     "raw_dtg": "112350Z AUG 12",
     "msg_id": "HYDROARC 1846/12(26)",
-    "cancellations": [
-      "HYDROARC 1848/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CARIBBEAN SEA.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM AIRCRAFT IN\n16-48.0N 080-17.3W. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CARIBBEAN SEA.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM AIRCRAFT IN\n16-48.0N 080-17.3W. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2012-08-11T23:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 295/17(96)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-09-25T23:38:00",
     "raw_dtg": "252338Z SEP 17",
     "msg_id": "HYDROARC 295/17(96)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 221/16",
-      "HYDROARC 295/17"
+      "HYDROARC 221/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CHUKCHI SEA.\nDNC 27.\nCANCEL HYDROARC 221/16 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CHUKCHI SEA.\nDNC 27.\nCANCEL HYDROARC 221/16 AND THIS MSG.",
+    "valid_from": "2017-09-25T23:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

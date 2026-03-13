@@ -3,18 +3,25 @@
   "id": "HYDROARC 210/17(41)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      110.515,
+      77.07166666666667
+    ]
   },
   "properties": {
     "dtg": "2017-08-15T10:51:00",
     "raw_dtg": "151051Z AUG 17",
     "msg_id": "HYDROARC 210/17(41)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 181051Z AUG 17",
-      "HYDROARC 210/17"
+      "THIS MSG 181051Z AUG 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 27.\n1. ICEBERG REPORTED IN 77-04.3N 110-30.9E\n   AT 141420Z AUG.\n2. CANCEL THIS MSG 181051Z AUG 17."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 27.\n1. ICEBERG REPORTED IN 77-04.3N 110-30.9E\n   AT 141420Z AUG.\n2. CANCEL THIS MSG 181051Z AUG 17.",
+    "valid_from": "2017-08-15T10:51:00+00:00",
+    "valid_until": "2017-08-18T10:51:00+00:00",
+    "summary": null
   }
 }

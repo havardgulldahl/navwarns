@@ -3,17 +3,23 @@
   "id": "HYDROARC 1512/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0616666666666665,
+      60.10666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-06-20T01:05:00",
     "raw_dtg": "200105Z JUN 15",
     "msg_id": "HYDROARC 1512/15(35)",
-    "cancellations": [
-      "HYDROARC 1516/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nFUGLA NESS LIGHT 60-06.4N 002-03.7W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nFUGLA NESS LIGHT 60-06.4N 002-03.7W UNLIT.",
+    "valid_from": "2015-06-20T01:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

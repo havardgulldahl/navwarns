@@ -12,12 +12,16 @@
     "dtg": "2023-03-02T21:29:00",
     "raw_dtg": "022129Z MAR 23",
     "msg_id": "HYDROARC 485/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 300001Z AUG 23",
-      "HYDROARC 518/23"
+      "THIS MSG 300001Z AUG 23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. ARARANGUA LIGHT 28-56.04S 049-21.66W RANGE REDUCED\n   UNTIL 29 AUG.\n2. CANCEL THIS MSG 300001Z AUG 23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. ARARANGUA LIGHT 28-56.04S 049-21.66W RANGE REDUCED\n   UNTIL 29 AUG.\n2. CANCEL THIS MSG 300001Z AUG 23.",
+    "valid_from": "2023-03-02T21:29:00+00:00",
+    "valid_until": "2023-08-30T00:01:00+00:00",
+    "summary": null
   }
 }

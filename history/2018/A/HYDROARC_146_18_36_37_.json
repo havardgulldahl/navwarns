@@ -3,17 +3,25 @@
   "id": "HYDROARC 146/18(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6416666666666666,
+      50.221666666666664
+    ]
   },
   "properties": {
     "dtg": "2018-01-12T16:15:00",
     "raw_dtg": "121615Z JAN 18",
     "msg_id": "HYDROARC 146/18(36,37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 244/18"
+      "103/18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36050.\n1. FOG SIGNAL AT START POINT LIGHT\n   50-13.3N 003-38.5W INOPERATIVE.\n2. CANCEL HYDROLANT 103/18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36050.\n1. FOG SIGNAL AT START POINT LIGHT\n   50-13.3N 003-38.5W INOPERATIVE.\n2. CANCEL HYDROLANT 103/18.",
+    "valid_from": "2018-01-12T16:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1214/20(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -58.37166666666667,
+      -50.36333333333334
+    ]
   },
   "properties": {
     "dtg": "2020-04-03T17:32:00",
     "raw_dtg": "031732Z APR 20",
     "msg_id": "HYDROARC 1214/20(23)",
-    "cancellations": [
-      "HYDROARC 1414/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nFALKLAND ISLANDS.\nDNC 07.\nMAN OVERBOARD IN 50-21.8S 058-22.3W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nFALKLAND ISLANDS.\nDNC 07.\nMAN OVERBOARD IN 50-21.8S 058-22.3W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2020-04-03T17:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

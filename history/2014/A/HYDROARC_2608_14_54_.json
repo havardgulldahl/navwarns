@@ -3,17 +3,23 @@
   "id": "HYDROARC 2608/14(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      13.268333333333333,
+      44.68333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-10-27T14:19:00",
     "raw_dtg": "271419Z OCT 14",
     "msg_id": "HYDROARC 2608/14(54)",
-    "cancellations": [
-      "HYDROARC 2627/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ADRIATIC SEA.\nDNC 09.\nCHART 54140.\nPLATFORM UNDER CONSTRUCTION IN 44-41.0N 013-16.1E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ADRIATIC SEA.\nDNC 09.\nCHART 54140.\nPLATFORM UNDER CONSTRUCTION IN 44-41.0N 013-16.1E.",
+    "valid_from": "2014-10-27T14:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

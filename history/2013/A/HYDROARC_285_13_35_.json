@@ -3,17 +3,23 @@
   "id": "HYDROARC 285/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0866666666666667,
+      60.25
+    ]
   },
   "properties": {
     "dtg": "2013-02-01T04:22:00",
     "raw_dtg": "010422Z FEB 13",
     "msg_id": "HYDROARC 285/13(35)",
-    "cancellations": [
-      "HYDROARC 289/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nSHETLAND ISLANDS.\nCHART 35066\nHOO STACK LIGHT 60-15.0N 001-05.2W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nSHETLAND ISLANDS.\nCHART 35066\nHOO STACK LIGHT 60-15.0N 001-05.2W UNLIT.",
+    "valid_from": "2013-02-01T04:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

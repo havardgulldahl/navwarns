@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2812/21(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.973333333333336,
+          44.31
+        ],
+        [
+          38.81666666666667,
+          43.983333333333334
+        ],
+        [
+          38.49333333333333,
+          43.531666666666666
+        ],
+        [
+          37.665,
+          43.858333333333334
+        ],
+        [
+          37.973333333333336,
+          44.31
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-11-15T12:34:00",
     "raw_dtg": "151234Z NOV 21",
     "msg_id": "HYDROARC 2812/21(55)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 210800Z NOV 21",
-      "HYDROARC 2812/21"
+      "THIS MSG 210800Z NOV 21"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nRUSSIA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 161000Z TO 210700Z NOV\n   IN AREA BOUND BY\n   44-18.6N 037-58.4E, 43-59.0N 038-49.0E,\n   43-31.9N 038-29.6E, 43-51.5N 037-39.9E.\n2. CANCEL THIS MSG 210800Z NOV 21."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nRUSSIA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 161000Z TO 210700Z NOV\n   IN AREA BOUND BY\n   44-18.6N 037-58.4E, 43-59.0N 038-49.0E,\n   43-31.9N 038-29.6E, 43-51.5N 037-39.9E.\n2. CANCEL THIS MSG 210800Z NOV 21.",
+    "valid_from": "2021-11-15T12:34:00+00:00",
+    "valid_until": "2021-11-21T08:00:00+00:00",
+    "summary": null
   }
 }

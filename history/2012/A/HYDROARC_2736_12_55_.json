@@ -2,18 +2,60 @@
   "type": "Feature",
   "id": "HYDROARC 2736/12(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.493333333333332,
+          44.0
+        ],
+        [
+          29.488333333333333,
+          43.71
+        ],
+        [
+          29.676666666666666,
+          43.69
+        ],
+        [
+          29.735,
+          43.67666666666667
+        ],
+        [
+          29.84,
+          43.67166666666667
+        ],
+        [
+          29.971666666666668,
+          43.725
+        ],
+        [
+          30.183333333333334,
+          43.875
+        ],
+        [
+          30.186666666666667,
+          43.99333333333333
+        ],
+        [
+          29.493333333333332,
+          44.0
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-11-19T14:23:00",
     "raw_dtg": "191423Z NOV 12",
     "msg_id": "HYDROARC 2736/12(55)",
-    "cancellations": [
-      "HYDROARC 3074/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\nM/V OCEANIC CHAMPION TOWING 12 6000 METER LONG CABLES\nIN AREA BOUND BY\n44-00.0N 029-29.6E, 43-42.6N 029-29.3E,\n43-41.4N 029-40.6E, 43-40.6N 029-44.1E,\n43-40.3N 029-50.4E, 43-43.5N 029-58.3E,\n43-52.5N 030-11.0E, 43-59.6N 030-11.2E.\nFIVE MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\nM/V OCEANIC CHAMPION TOWING 12 6000 METER LONG CABLES\nIN AREA BOUND BY\n44-00.0N 029-29.6E, 43-42.6N 029-29.3E,\n43-41.4N 029-40.6E, 43-40.6N 029-44.1E,\n43-40.3N 029-50.4E, 43-43.5N 029-58.3E,\n43-52.5N 030-11.0E, 43-59.6N 030-11.2E.\nFIVE MILE BERTH REQUESTED.",
+    "valid_from": "2012-11-19T14:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

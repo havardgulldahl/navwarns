@@ -2,19 +2,66 @@
   "type": "Feature",
   "id": "HYDROARC 283/15(41)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          136.435,
+          76.975
+        ],
+        [
+          137.55833333333334,
+          75.96166666666667
+        ],
+        [
+          137.58333333333334,
+          75.76666666666667
+        ],
+        [
+          137.0,
+          75.59166666666667
+        ],
+        [
+          136.225,
+          75.625
+        ],
+        [
+          135.68333333333334,
+          75.845
+        ],
+        [
+          132.65,
+          75.89
+        ],
+        [
+          133.13333333333333,
+          76.47
+        ],
+        [
+          135.0,
+          76.84666666666666
+        ],
+        [
+          136.435,
+          76.975
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-09-15T08:08:00",
     "raw_dtg": "150808Z SEP 15",
     "msg_id": "HYDROARC 283/15(41)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 241400Z SEP 15",
-      "HYDROARC 283/15"
+      "THIS MSG 241400Z SEP 15"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ARCTIC.\nLAPTEV SEA.\nMISSILES. GUNNERY.\nDNC 27.\n1. HAZARDOUS OPERATIONS 2300Z TO 1300Z COMMENCING\n   DAILY 19 THRU 23 SEP IN AREA BOUND BY\n   76-58.5N 136-26.1E, 75-57.7N 137-33.5E,\n   75-46.0N 137-35.0E, 75-35.5N 137-00.0E,\n   75-37.5N 136-13.5E, 75-50.7N 135-41.0E,\n   75-53.4N 132-39.0E, 76-28.2N 133-08.0E,\n   76-50.8N 135-00.0E.\n2. CANCEL THIS MSG 241400Z SEP 15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nLAPTEV SEA.\nMISSILES. GUNNERY.\nDNC 27.\n1. HAZARDOUS OPERATIONS 2300Z TO 1300Z COMMENCING\n   DAILY 19 THRU 23 SEP IN AREA BOUND BY\n   76-58.5N 136-26.1E, 75-57.7N 137-33.5E,\n   75-46.0N 137-35.0E, 75-35.5N 137-00.0E,\n   75-37.5N 136-13.5E, 75-50.7N 135-41.0E,\n   75-53.4N 132-39.0E, 76-28.2N 133-08.0E,\n   76-50.8N 135-00.0E.\n2. CANCEL THIS MSG 241400Z SEP 15.",
+    "valid_from": "2015-09-15T08:08:00+00:00",
+    "valid_until": "2015-09-24T14:00:00+00:00",
+    "summary": null
   }
 }

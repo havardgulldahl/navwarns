@@ -3,17 +3,23 @@
   "id": "HYDROARC 2801/18(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.586666666666667,
+      51.99166666666667
+    ]
   },
   "properties": {
     "dtg": "2018-09-03T02:58:00",
     "raw_dtg": "030258Z SEP 18",
     "msg_id": "HYDROARC 2801/18(35,36)",
-    "cancellations": [
-      "HYDROARC 2814/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nIRELAND.\nDNC 19.\nCHART 35147.\nMINE HEAD LIGHT 51-59.5N 007-35.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nIRELAND.\nDNC 19.\nCHART 35147.\nMINE HEAD LIGHT 51-59.5N 007-35.2W UNRELIABLE.",
+    "valid_from": "2018-09-03T02:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

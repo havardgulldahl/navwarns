@@ -3,18 +3,25 @@
   "id": "HYDROARC 307/14(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -136.78,
+      69.83166666666666
+    ]
   },
   "properties": {
     "dtg": "2014-10-21T01:20:00",
     "raw_dtg": "210120Z OCT 14",
     "msg_id": "HYDROARC 307/14(15)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 240120Z OCT 14",
-      "HYDROARC 307/14"
+      "THIS MSG 240120Z OCT 14"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ARCTIC.\nBEAUFORT SEA.\nDNC 27.\n1. DERELICT 40 METER BARGE ADRIFT VICINITY\n   69-49.9N 136-46.8W AT 202230Z OCT.\n2. CANCEL THIS MSG 240120Z OCT 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBEAUFORT SEA.\nDNC 27.\n1. DERELICT 40 METER BARGE ADRIFT VICINITY\n   69-49.9N 136-46.8W AT 202230Z OCT.\n2. CANCEL THIS MSG 240120Z OCT 14.",
+    "valid_from": "2014-10-21T01:20:00+00:00",
+    "valid_until": "2014-10-24T01:20:00+00:00",
+    "summary": null
   }
 }

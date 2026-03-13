@@ -3,17 +3,25 @@
   "id": "HYDROARC 1311/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.986666666666665,
+      -22.0
+    ]
   },
   "properties": {
     "dtg": "2017-04-25T02:52:00",
     "raw_dtg": "250252Z APR 17",
     "msg_id": "HYDROARC 1311/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 1461/17"
+      "THIS MSG 21 OCT 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24160, 24170.\n1. BARRA DO ACU LIGHT 22-00.0S 040-59.2W UNLIT.\n2. CANCEL THIS MSG 21 OCT 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24160, 24170.\n1. BARRA DO ACU LIGHT 22-00.0S 040-59.2W UNLIT.\n2. CANCEL THIS MSG 21 OCT 17.",
+    "valid_from": "2017-04-25T02:52:00+00:00",
+    "valid_until": "2017-10-21T00:00:00+00:00",
+    "summary": null
   }
 }

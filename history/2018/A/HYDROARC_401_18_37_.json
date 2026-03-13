@@ -3,17 +3,25 @@
   "id": "HYDROARC 401/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.001666666666667,
+      49.06
+    ]
   },
   "properties": {
     "dtg": "2018-02-04T16:38:00",
     "raw_dtg": "041638Z FEB 18",
     "msg_id": "HYDROARC 401/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 428/18"
+      "310/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP SOVEREIGN\n   IN VICINITY 49-03.6N 005-00.1W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 310/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP SOVEREIGN\n   IN VICINITY 49-03.6N 005-00.1W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 310/18.",
+    "valid_from": "2018-02-04T16:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

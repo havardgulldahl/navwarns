@@ -3,17 +3,23 @@
   "id": "HYDROARC 1747/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.275,
+      59.855
+    ]
   },
   "properties": {
     "dtg": "2011-10-24T00:05:00",
     "raw_dtg": "240005Z OCT 11",
     "msg_id": "HYDROARC 1747/11(35)",
-    "cancellations": [
-      "HYDROARC 1771/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35172 (2ND ED).\nDGPS STATION AT SUMBURGH HEAD LIGHT 59-51.3N 001-16.5W\nAT REDUCED POWER."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35172 (2ND ED).\nDGPS STATION AT SUMBURGH HEAD LIGHT 59-51.3N 001-16.5W\nAT REDUCED POWER.",
+    "valid_from": "2011-10-24T00:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

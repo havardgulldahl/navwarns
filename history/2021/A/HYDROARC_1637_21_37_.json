@@ -3,17 +3,23 @@
   "id": "HYDROARC 1637/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2483333333333335,
+      50.54333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-06-18T19:05:00",
     "raw_dtg": "181905Z JUN 21",
     "msg_id": "HYDROARC 1637/21(37)",
-    "cancellations": [
-      "HYDROARC 853/22"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK IN 50-32.6N 003-14.9W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK IN 50-32.6N 003-14.9W.",
+    "valid_from": "2021-06-18T19:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

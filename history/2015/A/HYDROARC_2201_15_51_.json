@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 2201/15(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -17.813333333333333,
+          14.478333333333333
+        ],
+        [
+          -17.106666666666666,
+          14.473333333333333
+        ],
+        [
+          -16.975,
+          14.3
+        ],
+        [
+          -16.956666666666667,
+          13.591666666666667
+        ],
+        [
+          -17.831666666666667,
+          13.59
+        ],
+        [
+          -17.813333333333333,
+          14.478333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-09-05T11:10:00",
     "raw_dtg": "051110Z SEP 15",
     "msg_id": "HYDROARC 2201/15(51)",
-    "cancellations": [
-      "HYDROARC 2881/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\nPOLARCUS ADIRA TOWING TEN 8100 METER LONG CABLES\nIN AREA BOUND BY\n14-28.7N 017-48.8W, 14-28.4N 017-06.4W,\n14-18.0N 016-58.5W, 13-35.5N 016-57.4W,\n13-35.4N 017-49.9W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\nPOLARCUS ADIRA TOWING TEN 8100 METER LONG CABLES\nIN AREA BOUND BY\n14-28.7N 017-48.8W, 14-28.4N 017-06.4W,\n14-18.0N 016-58.5W, 13-35.5N 016-57.4W,\n13-35.4N 017-49.9W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2015-09-05T11:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

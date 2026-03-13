@@ -3,17 +3,23 @@
   "id": "HYDROARC 849/14(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.49,
+      35.876666666666665
+    ]
   },
   "properties": {
     "dtg": "2014-03-27T15:27:00",
     "raw_dtg": "271527Z MAR 14",
     "msg_id": "HYDROARC 849/14(52)",
-    "cancellations": [
-      "HYDROARC 1357/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52060\nCAP DE L'AIGUILLE LIGHT 35-52.6N 000-29.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52060\nCAP DE L'AIGUILLE LIGHT 35-52.6N 000-29.4W UNRELIABLE.",
+    "valid_from": "2014-03-27T15:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

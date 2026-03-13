@@ -3,17 +3,23 @@
   "id": "HYDROARC 1565/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.3183333333333334,
+      48.68333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-06-26T04:19:00",
     "raw_dtg": "260419Z JUN 15",
     "msg_id": "HYDROARC 1565/15(37)",
-    "cancellations": [
-      "HYDROARC 1571/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "FRANCE-NORTH COAST.\nENGLISH CHANNEL.\nDNC 20.\nCHART 37080.\nCAP FREHEL LIGHT 48-41.0N 002-19.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTH COAST.\nENGLISH CHANNEL.\nDNC 20.\nCHART 37080.\nCAP FREHEL LIGHT 48-41.0N 002-19.1W UNRELIABLE.",
+    "valid_from": "2015-06-26T04:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2079/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.288333333333333,
+      53.416666666666664
+    ]
   },
   "properties": {
     "dtg": "2011-12-08T06:07:00",
     "raw_dtg": "080607Z DEC 11",
     "msg_id": "HYDROARC 2079/11(36)",
-    "cancellations": [
-      "HYDROARC 2081/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-NORTHWEST COAST.\nNGA CHART 36025 (1ST ED).\nDGPS STATION AT POINT LYNAS LIGHT 53-25.0N 004-17.3W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-NORTHWEST COAST.\nNGA CHART 36025 (1ST ED).\nDGPS STATION AT POINT LYNAS LIGHT 53-25.0N 004-17.3W\nUNRELIABLE.",
+    "valid_from": "2011-12-08T06:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

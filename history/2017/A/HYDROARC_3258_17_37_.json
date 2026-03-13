@@ -3,17 +3,23 @@
   "id": "HYDROARC 3258/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.6216666666666666,
+      53.695
+    ]
   },
   "properties": {
     "dtg": "2017-10-12T02:48:00",
     "raw_dtg": "120248Z OCT 17",
     "msg_id": "HYDROARC 3258/17(37)",
-    "cancellations": [
-      "HYDROARC 3260/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37058.\nFOG SIGNAL AT PLATFORM 49/9-QC,\n53-41.7N 002-37.3E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37058.\nFOG SIGNAL AT PLATFORM 49/9-QC,\n53-41.7N 002-37.3E INOPERATIVE.",
+    "valid_from": "2017-10-12T02:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

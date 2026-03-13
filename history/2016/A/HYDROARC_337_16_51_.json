@@ -3,17 +3,25 @@
   "id": "HYDROARC 337/16(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8533333333333335,
+      36.13333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-02-08T17:04:00",
     "raw_dtg": "081704Z FEB 16",
     "msg_id": "HYDROARC 337/16(51)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 498/16"
+      "THIS MSG 14 APR 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF GIBRALTAR.\nSPAIN TO MOROCCO.\nDNC 08.\n1. PIPELINE OPERATIONS 10 FEB THRU 13 APR\n   BY M/V SEAHORSE ALONG TRACKLINE BETWEEN\n   SAHARA DE LOS ATUNES (36-08.0N 005-51.2W)\n   AND CAPE SPARTEL (35-48.0N 005-54.4W).\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 14 APR 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF GIBRALTAR.\nSPAIN TO MOROCCO.\nDNC 08.\n1. PIPELINE OPERATIONS 10 FEB THRU 13 APR\n   BY M/V SEAHORSE ALONG TRACKLINE BETWEEN\n   SAHARA DE LOS ATUNES (36-08.0N 005-51.2W)\n   AND CAPE SPARTEL (35-48.0N 005-54.4W).\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 14 APR 16.",
+    "valid_from": "2016-02-08T17:04:00+00:00",
+    "valid_until": "2016-04-14T00:00:00+00:00",
+    "summary": null
   }
 }

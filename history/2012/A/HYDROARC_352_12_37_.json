@@ -3,17 +3,23 @@
   "id": "HYDROARC 352/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.815,
+      52.475
+    ]
   },
   "properties": {
     "dtg": "2012-02-11T21:40:00",
     "raw_dtg": "112140Z FEB 12",
     "msg_id": "HYDROARC 352/12(37)",
-    "cancellations": [
-      "HYDROARC 398/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP LEON THEVENIN WITH\nSUBMERSIBLE VICINITY 52-28.5N 002-48.9E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP LEON THEVENIN WITH\nSUBMERSIBLE VICINITY 52-28.5N 002-48.9E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2012-02-11T21:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

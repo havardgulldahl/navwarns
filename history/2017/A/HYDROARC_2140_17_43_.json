@@ -2,18 +2,76 @@
   "type": "Feature",
   "id": "HYDROARC 2140/17(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.381666666666668,
+          72.26166666666667
+        ],
+        [
+          19.998333333333335,
+          72.26166666666667
+        ],
+        [
+          20.846666666666668,
+          72.08833333333334
+        ],
+        [
+          20.643333333333334,
+          71.92
+        ],
+        [
+          20.878333333333334,
+          71.88166666666666
+        ],
+        [
+          20.871666666666666,
+          71.83166666666666
+        ],
+        [
+          20.225,
+          71.695
+        ],
+        [
+          19.933333333333334,
+          71.755
+        ],
+        [
+          19.933333333333334,
+          71.92166666666667
+        ],
+        [
+          19.615,
+          71.98666666666666
+        ],
+        [
+          19.615,
+          72.14
+        ],
+        [
+          19.39,
+          72.20666666666666
+        ],
+        [
+          19.381666666666668,
+          72.26166666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-07-10T21:23:00",
     "raw_dtg": "102123Z JUL 17",
     "msg_id": "HYDROARC 2140/17(43)",
-    "cancellations": [
-      "HYDROARC 3198/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 22.\nSURVEY OPERATIONS 13 JUL UNTIL FURTHER NOTICE\nBY M/V GEO CORAL TOWING 14 7000 METER CABLES\nIN AREA BOUND BY\n72-15.7N 019-22.9E, 72-15.7N 019-59.9E,\n72-05.3N 020-50.8E, 71-55.2N 020-38.6E,\n71-52.9N 020-52.7E, 71-49.9N 020-52.3E,\n71-41.7N 020-13.5E, 71-45.3N 019-56.0E,\n71-55.3N 019-56.0E, 71-59.2N 019-36.9E,\n72-08.4N 019-36.9E, 72-12.4N 019-23.4E.\nSIX MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 22.\nSURVEY OPERATIONS 13 JUL UNTIL FURTHER NOTICE\nBY M/V GEO CORAL TOWING 14 7000 METER CABLES\nIN AREA BOUND BY\n72-15.7N 019-22.9E, 72-15.7N 019-59.9E,\n72-05.3N 020-50.8E, 71-55.2N 020-38.6E,\n71-52.9N 020-52.7E, 71-49.9N 020-52.3E,\n71-41.7N 020-13.5E, 71-45.3N 019-56.0E,\n71-55.3N 019-56.0E, 71-59.2N 019-36.9E,\n72-08.4N 019-36.9E, 72-12.4N 019-23.4E.\nSIX MILE BERTH REQUESTED.",
+    "valid_from": "2017-07-10T21:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

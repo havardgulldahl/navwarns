@@ -3,18 +3,26 @@
   "id": "HYDROARC 133/20(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.786666666666667,
+      42.07833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-01-14T17:35:00",
     "raw_dtg": "141735Z JAN 20",
     "msg_id": "HYDROARC 133/20(51)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 171735Z JAN 20",
-      "HYDROARC 133/20"
+      "121/20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. EIGHT DERELICT NINE METER VESSELS ADRIFT\n   IN VICINITY 42-04.7N 009-47.2W AT 141125Z JAN.\n2. CANCEL HYDROLANT 121/20.\n3. CANCEL THIS MSG 171735Z JAN 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. EIGHT DERELICT NINE METER VESSELS ADRIFT\n   IN VICINITY 42-04.7N 009-47.2W AT 141125Z JAN.\n2. CANCEL HYDROLANT 121/20.\n3. CANCEL THIS MSG 171735Z JAN 20.",
+    "valid_from": "2020-01-14T17:35:00+00:00",
+    "valid_until": "2020-01-17T17:35:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 508/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.215,
+      52.19166666666667
+    ]
   },
   "properties": {
     "dtg": "2018-02-12T10:19:00",
     "raw_dtg": "121019Z FEB 18",
     "msg_id": "HYDROARC 508/18(37)",
-    "cancellations": [
-      "HYDROARC 520/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37166.\nUNEXPLODED ORDNANCE IN 52-11.5N 002-12.9E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37166.\nUNEXPLODED ORDNANCE IN 52-11.5N 002-12.9E.",
+    "valid_from": "2018-02-12T10:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

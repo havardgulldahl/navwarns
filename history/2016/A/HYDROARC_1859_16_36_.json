@@ -3,17 +3,25 @@
   "id": "HYDROARC 1859/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.295,
+      53.86
+    ]
   },
   "properties": {
     "dtg": "2016-07-22T14:48:00",
     "raw_dtg": "221448Z JUL 16",
     "msg_id": "HYDROARC 1859/16(36)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2269/16"
+      "1854/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\n1. METEOROLOGICAL MAST 53-51.6N 003-17.7W UNLIT.\n2. CANCEL HYDROLANT 1854/16(35), AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\n1. METEOROLOGICAL MAST 53-51.6N 003-17.7W UNLIT.\n2. CANCEL HYDROLANT 1854/16(35), AID RESTORED.",
+    "valid_from": "2016-07-22T14:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

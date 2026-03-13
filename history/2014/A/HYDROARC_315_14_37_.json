@@ -3,17 +3,23 @@
   "id": "HYDROARC 315/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5150000000000001,
+      50.89333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-02-02T02:16:00",
     "raw_dtg": "020216Z FEB 14",
     "msg_id": "HYDROARC 315/14(37)",
-    "cancellations": [
-      "HYDROARC 473/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37121\nZC2 BUOY 50-53.6N 001-30.9E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37121\nZC2 BUOY 50-53.6N 001-30.9E MISSING.",
+    "valid_from": "2014-02-02T02:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

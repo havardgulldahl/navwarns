@@ -3,17 +3,23 @@
   "id": "HYDROARC 2659/16(26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -73.91666666666667,
+      31.451666666666668
+    ]
   },
   "properties": {
     "dtg": "2016-10-12T01:23:00",
     "raw_dtg": "120123Z OCT 16",
     "msg_id": "HYDROARC 2659/16(26)",
-    "cancellations": [
-      "HYDROARC 2749/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 16.\nDISTRESS SIGNAL RECEIVED VICINITY 31-27.1N 073-55.0W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 16.\nDISTRESS SIGNAL RECEIVED VICINITY 31-27.1N 073-55.0W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2016-10-12T01:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

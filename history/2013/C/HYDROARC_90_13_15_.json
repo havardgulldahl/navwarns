@@ -3,17 +3,23 @@
   "id": "HYDROARC 90/13(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -113.41666666666667,
+      68.65833333333333
+    ]
   },
   "properties": {
     "dtg": "2013-07-16T17:12:00",
     "raw_dtg": "161712Z JUL 13",
     "msg_id": "HYDROARC 90/13(15)",
-    "cancellations": [
-      "HYDROARC 114/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nCACHE POINT CHANNEL.\nCHART 15955\nCACHE POINT RACON 68-39.5N 113-25.0W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nCACHE POINT CHANNEL.\nCHART 15955\nCACHE POINT RACON 68-39.5N 113-25.0W INOPERATIVE.",
+    "valid_from": "2013-07-16T17:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

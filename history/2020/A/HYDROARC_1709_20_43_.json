@@ -3,17 +3,25 @@
   "id": "HYDROARC 1709/20(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.58,
+      61.36333333333334
+    ]
   },
   "properties": {
     "dtg": "2020-05-20T13:40:00",
     "raw_dtg": "201340Z MAY 20",
     "msg_id": "HYDROARC 1709/20(43)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 2110/20"
+      "1281/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 20.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 211/18-A\n   61-21.8N 001-34.8E INOPERATIVE.\n2. CANCEL HYDROLANT 1281/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 20.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 211/18-A\n   61-21.8N 001-34.8E INOPERATIVE.\n2. CANCEL HYDROLANT 1281/20.",
+    "valid_from": "2020-05-20T13:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

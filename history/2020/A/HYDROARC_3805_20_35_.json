@@ -3,17 +3,23 @@
   "id": "HYDROARC 3805/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.138333333333333,
+      55.916666666666664
+    ]
   },
   "properties": {
     "dtg": "2020-12-07T18:41:00",
     "raw_dtg": "071841Z DEC 20",
     "msg_id": "HYDROARC 3805/20(35)",
-    "cancellations": [
-      "HYDROARC 3809/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nST. ABBS HEAD LIGHT 55-55.0N 002-08.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nST. ABBS HEAD LIGHT 55-55.0N 002-08.3W UNRELIABLE.",
+    "valid_from": "2020-12-07T18:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

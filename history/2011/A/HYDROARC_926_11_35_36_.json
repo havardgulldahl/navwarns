@@ -3,17 +3,23 @@
   "id": "HYDROARC 926/11(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.801666666666667,
+      55.31
+    ]
   },
   "properties": {
     "dtg": "2011-06-03T07:42:00",
     "raw_dtg": "030742Z JUN 11",
     "msg_id": "HYDROARC 926/11(35,36)",
-    "cancellations": [
-      "HYDROARC 930/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nNGA CHART 35123 (0 ED).\nMULL OF KINTYRE LIGHT 55-18.6N 005-48.1W\nAT REDUCED INTENSITY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nNGA CHART 35123 (0 ED).\nMULL OF KINTYRE LIGHT 55-18.6N 005-48.1W\nAT REDUCED INTENSITY.",
+    "valid_from": "2011-06-03T07:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 532/21(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.175,
+      38.718333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-02-24T14:35:00",
     "raw_dtg": "241435Z FEB 21",
     "msg_id": "HYDROARC 532/21(52)",
-    "cancellations": [
-      "HYDROARC 541/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nDNC 08.\n1. VALENCIA NAVTEX STATION OFF AIR.\n2. VALENCIA BROADCASTS WILL BE TRANSMITTED\n   FROM NAVTEX STATION CABO LA NAO (X)\n   38-43.1N 000-10.5E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nDNC 08.\n1. VALENCIA NAVTEX STATION OFF AIR.\n2. VALENCIA BROADCASTS WILL BE TRANSMITTED\n   FROM NAVTEX STATION CABO LA NAO (X)\n   38-43.1N 000-10.5E.",
+    "valid_from": "2021-02-24T14:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

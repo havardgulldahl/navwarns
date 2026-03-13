@@ -3,17 +3,25 @@
   "id": "HYDROARC 458/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.605,
+      51.21666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-02-09T14:45:00",
     "raw_dtg": "091445Z FEB 20",
     "msg_id": "HYDROARC 458/20(37)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 807/20"
+      "455/20"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\n1. EAST GOODWIN LIGHTFLOAT 51-13.0N 001-36.3E\n   RACON INOPERATIVE AND OFF STATION.\n2. CANCEL HYDROLANT 455/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\n1. EAST GOODWIN LIGHTFLOAT 51-13.0N 001-36.3E\n   RACON INOPERATIVE AND OFF STATION.\n2. CANCEL HYDROLANT 455/20.",
+    "valid_from": "2020-02-09T14:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

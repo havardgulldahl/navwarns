@@ -3,17 +3,23 @@
   "id": "HYDROARC 334/12(44)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      21.024566666666665,
+      55.91513333333333
+    ]
   },
   "properties": {
     "dtg": "2012-02-09T23:45:00",
     "raw_dtg": "092345Z FEB 12",
     "msg_id": "HYDROARC 334/12(44)",
-    "cancellations": [
-      "HYDROARC 348/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN BALTIC SEA.\nLITHUANIA.\nCHART 44430\nPIPELINE ESTABLISHED, LEAST DEPTH EIGHT METERS,\nALONG TRACKLINE BETWEEN\n55-54.908N 021-01.474E AND 55-54.905N 021-01.420E.\nCAUTION ADVISED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN BALTIC SEA.\nLITHUANIA.\nCHART 44430\nPIPELINE ESTABLISHED, LEAST DEPTH EIGHT METERS,\nALONG TRACKLINE BETWEEN\n55-54.908N 021-01.474E AND 55-54.905N 021-01.420E.\nCAUTION ADVISED.",
+    "valid_from": "2012-02-09T23:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

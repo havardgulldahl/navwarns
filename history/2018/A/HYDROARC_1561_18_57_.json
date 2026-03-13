@@ -2,18 +2,82 @@
   "type": "Feature",
   "id": "HYDROARC 1561/18(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.1,
+          2.1666666666666665
+        ],
+        [
+          9.686666666666667,
+          2.1666666666666665
+        ],
+        [
+          9.691666666666666,
+          1.825
+        ],
+        [
+          9.548333333333334,
+          1.6583333333333332
+        ],
+        [
+          9.523333333333333,
+          1.565
+        ],
+        [
+          9.366666666666667,
+          1.4166666666666667
+        ],
+        [
+          9.28,
+          1.4266666666666667
+        ],
+        [
+          9.261666666666667,
+          1.4166666666666667
+        ],
+        [
+          9.248333333333333,
+          1.3633333333333333
+        ],
+        [
+          9.271666666666667,
+          1.22
+        ],
+        [
+          9.241666666666667,
+          1.1666666666666667
+        ],
+        [
+          9.225,
+          1.0833333333333333
+        ],
+        [
+          7.933333333333334,
+          1.0833333333333333
+        ],
+        [
+          8.1,
+          2.1666666666666665
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-05-18T16:39:00",
     "raw_dtg": "181639Z MAY 18",
     "msg_id": "HYDROARC 1561/18(57)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 1561/18"
+      "THIS MSG 19 OCT 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nEQUATORIAL GUINEA.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 18 OCT\n   BY M/V POLAR MARQUIS TOWING 12 8100 METER LONG\n   CABLES IN AREA BOUND BY\n   02-10.0N 008-06.0E, 02-10.0N 009-41.2E,\n   01-49.5N 009-41.5E, 01-39.5N 009-32.9E,\n   01-33.9N 009-31.4E, 01-25.0N 009-22.0E,\n   01-25.6N 009-16.8E, 01-25.0N 009-15.7E,\n   01-21.8N 009-14.9E, 01-13.2N 009-16.3E,\n   01-10.0N 009-14.5E, 01-05.0N 009-13.5E,\n   01-05.0N 007-56.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 19 OCT 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nEQUATORIAL GUINEA.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 18 OCT\n   BY M/V POLAR MARQUIS TOWING 12 8100 METER LONG\n   CABLES IN AREA BOUND BY\n   02-10.0N 008-06.0E, 02-10.0N 009-41.2E,\n   01-49.5N 009-41.5E, 01-39.5N 009-32.9E,\n   01-33.9N 009-31.4E, 01-25.0N 009-22.0E,\n   01-25.6N 009-16.8E, 01-25.0N 009-15.7E,\n   01-21.8N 009-14.9E, 01-13.2N 009-16.3E,\n   01-10.0N 009-14.5E, 01-05.0N 009-13.5E,\n   01-05.0N 007-56.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 19 OCT 18.",
+    "valid_from": "2018-05-18T16:39:00+00:00",
+    "valid_until": "2018-10-19T00:00:00+00:00",
+    "summary": null
   }
 }

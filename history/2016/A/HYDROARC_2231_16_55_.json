@@ -2,19 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 2231/16(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.28333333333333,
+          45.05833333333333
+        ],
+        [
+          36.38333333333333,
+          44.958333333333336
+        ],
+        [
+          36.4,
+          44.75
+        ],
+        [
+          35.833333333333336,
+          44.75
+        ],
+        [
+          35.833333333333336,
+          45.0
+        ],
+        [
+          36.28333333333333,
+          45.05833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-08-30T13:19:00",
     "raw_dtg": "301319Z AUG 16",
     "msg_id": "HYDROARC 2231/16(55)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 162200Z SEP 16",
-      "HYDROARC 2231/16"
+      "THIS MSG 162200Z SEP 16"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nGUNNERY. MISSILES.\nDNC 10.\n1. HAZARDOUS OPERATIONS 312300Z AUG TO 062100Z SEP\n   AND 131500Z TO 162100Z SEP IN AREA BOUND BY\n   45-03.5N 036-17.0E, 44-57.5N 036-23.0E,\n   44-45.0N 036-24.0E, 44-45.0N 035-50.0E,\n   45-00.0N 035-50.0E.\n2. CANCEL THIS MSG 162200Z SEP 16."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nGUNNERY. MISSILES.\nDNC 10.\n1. HAZARDOUS OPERATIONS 312300Z AUG TO 062100Z SEP\n   AND 131500Z TO 162100Z SEP IN AREA BOUND BY\n   45-03.5N 036-17.0E, 44-57.5N 036-23.0E,\n   44-45.0N 036-24.0E, 44-45.0N 035-50.0E,\n   45-00.0N 035-50.0E.\n2. CANCEL THIS MSG 162200Z SEP 16.",
+    "valid_from": "2016-08-30T13:19:00+00:00",
+    "valid_until": "2016-09-16T22:00:00+00:00",
+    "summary": null
   }
 }

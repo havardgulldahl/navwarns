@@ -3,17 +3,25 @@
   "id": "HYDROARC 796/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.64666666666667,
+      -28.235
+    ]
   },
   "properties": {
     "dtg": "2017-03-11T05:46:00",
     "raw_dtg": "110546Z MAR 17",
     "msg_id": "HYDROARC 796/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 851/17"
+      "THIS MSG 07 SEP 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24120.\n1. MORRO DE IMBITUBA LIGHT 28-14.1S 048-38.8W\n   UNLIT UNTIL 06 SEP.\n2. CANCEL THIS MSG 07 SEP 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24120.\n1. MORRO DE IMBITUBA LIGHT 28-14.1S 048-38.8W\n   UNLIT UNTIL 06 SEP.\n2. CANCEL THIS MSG 07 SEP 17.",
+    "valid_from": "2017-03-11T05:46:00+00:00",
+    "valid_until": "2017-09-07T00:00:00+00:00",
+    "summary": null
   }
 }

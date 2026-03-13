@@ -3,17 +3,23 @@
   "id": "HYDROARC 836/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.411666666666667,
+      51.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-03-15T14:17:00",
     "raw_dtg": "151417Z MAR 17",
     "msg_id": "HYDROARC 836/17(36)",
-    "cancellations": [
-      "HYDROARC 839/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nWALES-SOUTHWEST COAST.\nDNC 20.\nCHART 36035.\nSOUTH BISHOP LIGHT 51-51.2N 005-24.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nWALES-SOUTHWEST COAST.\nDNC 20.\nCHART 36035.\nSOUTH BISHOP LIGHT 51-51.2N 005-24.7W UNRELIABLE.",
+    "valid_from": "2017-03-15T14:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

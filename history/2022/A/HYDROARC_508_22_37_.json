@@ -3,17 +3,23 @@
   "id": "HYDROARC 508/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.5502777777777779,
+      50.70805555555556
+    ]
   },
   "properties": {
     "dtg": "2022-02-21T10:01:00",
     "raw_dtg": "211001Z FEB 22",
     "msg_id": "HYDROARC 508/22(37)",
-    "cancellations": [
-      "HYDROARC 591/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nHURST POINT LIGHT 50-42-29N 001-33-01W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nHURST POINT LIGHT 50-42-29N 001-33-01W UNRELIABLE.",
+    "valid_from": "2022-02-21T10:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

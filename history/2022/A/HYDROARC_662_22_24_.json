@@ -3,17 +3,25 @@
   "id": "HYDROARC 662/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.108333333333334,
+      -4.158333333333333
+    ]
   },
   "properties": {
     "dtg": "2022-03-05T22:12:00",
     "raw_dtg": "052212Z MAR 22",
     "msg_id": "HYDROARC 662/22(24)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 742/22"
+      "THIS MSG 02 SEP 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. MORRO BRANCO LIGHT 04-09.5S 038-06.5W UNLIT\n   UNTIL 01 SEP.\n2. CANCEL THIS MSG 02 SEP 22."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. MORRO BRANCO LIGHT 04-09.5S 038-06.5W UNLIT\n   UNTIL 01 SEP.\n2. CANCEL THIS MSG 02 SEP 22.",
+    "valid_from": "2022-03-05T22:12:00+00:00",
+    "valid_until": "2022-09-02T00:00:00+00:00",
+    "summary": null
   }
 }

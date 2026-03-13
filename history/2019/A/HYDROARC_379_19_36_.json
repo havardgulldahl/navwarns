@@ -3,17 +3,23 @@
   "id": "HYDROARC 379/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.445,
+      49.873333333333335
+    ]
   },
   "properties": {
     "dtg": "2019-02-05T03:28:00",
     "raw_dtg": "050328Z FEB 19",
     "msg_id": "HYDROARC 379/19(36)",
-    "cancellations": [
-      "HYDROARC 424/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLISH CHANNEL.\nDNC 19.\nCHART 36049.\nBISHOP ROCK LIGHT 49-52.4N 006-26.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLISH CHANNEL.\nDNC 19.\nCHART 36049.\nBISHOP ROCK LIGHT 49-52.4N 006-26.7W UNRELIABLE.",
+    "valid_from": "2019-02-05T03:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

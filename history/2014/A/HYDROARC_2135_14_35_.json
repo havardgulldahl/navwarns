@@ -2,18 +2,42 @@
   "type": "Feature",
   "id": "HYDROARC 2135/14(35)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -2.58,
+        58.335
+      ],
+      [
+        -2.6083333333333334,
+        58.45166666666667
+      ],
+      [
+        -2.655,
+        58.711666666666666
+      ],
+      [
+        -2.8166666666666664,
+        58.805
+      ],
+      [
+        -2.8916666666666666,
+        58.81166666666667
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-09-03T12:15:00",
     "raw_dtg": "031215Z SEP 14",
     "msg_id": "HYDROARC 2135/14(35)",
-    "cancellations": [
-      "HYDROARC 2178/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE BATZ VICINITY OF TRACKLINE JOINING\n58-20.1N 002-34.8W, 58-27.1N 002-36.5W,\n58-42.7N 002-39.3W, 58-48.3N 002-49.0W,\n58-48.7N 002-53.5W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE BATZ VICINITY OF TRACKLINE JOINING\n58-20.1N 002-34.8W, 58-27.1N 002-36.5W,\n58-42.7N 002-39.3W, 58-48.3N 002-49.0W,\n58-48.7N 002-53.5W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2014-09-03T12:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

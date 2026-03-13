@@ -3,17 +3,23 @@
   "id": "HYDROARC 904/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.001666666666665,
+      -12.576666666666666
+    ]
   },
   "properties": {
     "dtg": "2013-04-11T07:38:00",
     "raw_dtg": "110738Z APR 13",
     "msg_id": "HYDROARC 904/13(24)",
-    "cancellations": [
-      "HYDROARC 916/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nCHART 24200\nGARCIA D'AVILA LIGHT 12-34.6S 038-00.1W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nCHART 24200\nGARCIA D'AVILA LIGHT 12-34.6S 038-00.1W UNLIT.",
+    "valid_from": "2013-04-11T07:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

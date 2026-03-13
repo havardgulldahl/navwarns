@@ -2,18 +2,40 @@
   "type": "Feature",
   "id": "HYDROARC 3118/19(35,37,43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        0.25166666666666665,
+        57.94833333333333
+      ],
+      [
+        1.675,
+        57.943333333333335
+      ],
+      [
+        1.4766666666666666,
+        57.49
+      ],
+      [
+        0.018333333333333333,
+        57.5
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-10-13T00:23:00",
     "raw_dtg": "130023Z OCT 19",
     "msg_id": "HYDROARC 3118/19(35,37,43)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3184/19"
+      "2937/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FUTHER NOTICE\n   BY M/V SW AMUNDSEN TOWING SEVEN 4000 METER LONG\n   CABLES IN AREA BOUND BY\n    57-56.9N 000-15.1E, 57-56.6N 001-40.5E,\n    57-29.4N 001-28.6E  57-30.0N 000-01.1E.\n    THREE MILE BERTH REQUESTED AHEAD AND ABEAM,\n    FIVE MILE BERTH REQUESTED ASTERN.\n2. CANCEL HYDROLANT 2937/19."
+    "geometry_kind": "multipoint",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FUTHER NOTICE\n   BY M/V SW AMUNDSEN TOWING SEVEN 4000 METER LONG\n   CABLES IN AREA BOUND BY\n    57-56.9N 000-15.1E, 57-56.6N 001-40.5E,\n    57-29.4N 001-28.6E  57-30.0N 000-01.1E.\n    THREE MILE BERTH REQUESTED AHEAD AND ABEAM,\n    FIVE MILE BERTH REQUESTED ASTERN.\n2. CANCEL HYDROLANT 2937/19.",
+    "valid_from": "2019-10-13T00:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

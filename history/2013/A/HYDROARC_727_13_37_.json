@@ -3,17 +3,23 @@
   "id": "HYDROARC 727/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.455,
+      50.513333333333335
+    ]
   },
   "properties": {
     "dtg": "2013-03-22T01:26:00",
     "raw_dtg": "220126Z MAR 13",
     "msg_id": "HYDROARC 727/13(37)",
-    "cancellations": [
-      "HYDROARC 740/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nCHART 37015\nBILL OF PORTLAND LIGHT 50-30.8N 002-27.3W\nRED SECTOR CHANGED TO 265-291 DEGREES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nCHART 37015\nBILL OF PORTLAND LIGHT 50-30.8N 002-27.3W\nRED SECTOR CHANGED TO 265-291 DEGREES.",
+    "valid_from": "2013-03-22T01:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

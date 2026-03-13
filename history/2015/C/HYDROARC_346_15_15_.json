@@ -3,17 +3,23 @@
   "id": "HYDROARC 346/15(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -95.00333333333333,
+      74.74666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-10-03T11:20:00",
     "raw_dtg": "031120Z OCT 15",
     "msg_id": "HYDROARC 346/15(15)",
-    "cancellations": [
-      "HYDROARC 347/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT REMOTE STATION RESOLUTE 74-44.8N 095-00.2W\nTRANSMIT SERVICES INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT REMOTE STATION RESOLUTE 74-44.8N 095-00.2W\nTRANSMIT SERVICES INOPERATIVE.",
+    "valid_from": "2015-10-03T11:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

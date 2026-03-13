@@ -3,18 +3,26 @@
   "id": "HYDROARC 3904/17(35,38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -13.01,
+      54.73
+    ]
   },
   "properties": {
     "dtg": "2017-12-04T10:14:00",
     "raw_dtg": "041014Z DEC 17",
     "msg_id": "HYDROARC 3904/17(35,38)",
+    "year": 2017,
     "cancellations": [
       "THIS MSG 071014Z DEC 17",
-      "HYDROARC 3917/17"
+      "3896/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\n1. ODAS BUOY K4 ADRIFT IN 54-43.8N 013-00.6W\n   AT 040800Z DEC.\n2. CANCEL HYDROLANT 3896/17.\n3. CANCEL THIS MSG 071014Z DEC 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\n1. ODAS BUOY K4 ADRIFT IN 54-43.8N 013-00.6W\n   AT 040800Z DEC.\n2. CANCEL HYDROLANT 3896/17.\n3. CANCEL THIS MSG 071014Z DEC 17.",
+    "valid_from": "2017-12-04T10:14:00+00:00",
+    "valid_until": "2017-12-07T10:14:00+00:00",
+    "summary": null
   }
 }

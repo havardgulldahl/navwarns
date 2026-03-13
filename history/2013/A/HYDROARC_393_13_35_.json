@@ -3,17 +3,23 @@
   "id": "HYDROARC 393/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.388333333333334,
+      56.93666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-02-12T19:35:00",
     "raw_dtg": "121935Z FEB 13",
     "msg_id": "HYDROARC 393/13(35)",
-    "cancellations": [
-      "HYDROARC 394/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nCHART 35093\nBO VICH CHUAN BUOY 56-56.2N 007-23.3W OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nCHART 35093\nBO VICH CHUAN BUOY 56-56.2N 007-23.3W OFF STATION.",
+    "valid_from": "2013-02-12T19:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

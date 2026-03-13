@@ -3,17 +3,23 @@
   "id": "HYDROARC 33/14(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      61.13305555555556,
+      81.3125
+    ]
   },
   "properties": {
     "dtg": "2014-04-23T10:34:00",
     "raw_dtg": "231034Z APR 14",
     "msg_id": "HYDROARC 33/14(42)",
-    "cancellations": [
-      "HYDROARC 107/15"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nZEMLYA FRANTSA IOSIFA.\nTEN METER DEPTH REPORTED IN 81-18-45N 061-07-59E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nZEMLYA FRANTSA IOSIFA.\nTEN METER DEPTH REPORTED IN 81-18-45N 061-07-59E.",
+    "valid_from": "2014-04-23T10:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

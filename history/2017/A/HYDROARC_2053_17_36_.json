@@ -3,18 +3,25 @@
   "id": "HYDROARC 2053/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.208333333333333,
+      52.53333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-07-03T10:53:00",
     "raw_dtg": "031053Z JUL 17",
     "msg_id": "HYDROARC 2053/17(36)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 061053Z JUL 17",
-      "HYDROARC 2053/17"
+      "THIS MSG 061053Z JUL 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19, DNC 20.\n1. CABLE ADRIFT IN VICINITY 52-32.0N 006-12.5W.\n2. CANCEL THIS MSG 061053Z JUL 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19, DNC 20.\n1. CABLE ADRIFT IN VICINITY 52-32.0N 006-12.5W.\n2. CANCEL THIS MSG 061053Z JUL 17.",
+    "valid_from": "2017-07-03T10:53:00+00:00",
+    "valid_until": "2017-07-06T10:53:00+00:00",
+    "summary": null
   }
 }

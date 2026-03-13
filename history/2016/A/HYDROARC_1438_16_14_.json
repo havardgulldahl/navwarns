@@ -3,17 +3,23 @@
   "id": "HYDROARC 1438/16(14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.12,
+      41.75666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-06-10T20:53:00",
     "raw_dtg": "102053Z JUN 16",
     "msg_id": "HYDROARC 1438/16(14)",
-    "cancellations": [
-      "HYDROARC 1441/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n41-45.4N 043-07.2W AT 101902Z JUN. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n41-45.4N 043-07.2W AT 101902Z JUN. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2016-06-10T20:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

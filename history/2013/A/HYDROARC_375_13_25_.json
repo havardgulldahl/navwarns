@@ -3,18 +3,25 @@
   "id": "HYDROARC 375/13(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -64.76166666666667,
+      18.243333333333332
+    ]
   },
   "properties": {
     "dtg": "2013-02-11T15:28:00",
     "raw_dtg": "111528Z FEB 13",
     "msg_id": "HYDROARC 375/13(25)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 141530Z FEB 13",
-      "HYDROARC 375/13"
+      "THIS MSG 141530Z FEB 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nVIRGIN ISLANDS.\n1. ODAS BUOY ADRIFT VICINITY\n   18-14.6N 064-45.7W.\n2. CANCEL THIS MSG 141530Z FEB 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nVIRGIN ISLANDS.\n1. ODAS BUOY ADRIFT VICINITY\n   18-14.6N 064-45.7W.\n2. CANCEL THIS MSG 141530Z FEB 13.",
+    "valid_from": "2013-02-11T15:28:00+00:00",
+    "valid_until": "2013-02-14T15:30:00+00:00",
+    "summary": null
   }
 }

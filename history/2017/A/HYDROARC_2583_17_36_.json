@@ -3,17 +3,23 @@
   "id": "HYDROARC 2583/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.29,
+      53.416666666666664
+    ]
   },
   "properties": {
     "dtg": "2017-08-24T18:15:00",
     "raw_dtg": "241815Z AUG 17",
     "msg_id": "HYDROARC 2583/17(36)",
-    "cancellations": [
-      "HYDROARC 2621/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nWALES-NORTHWEST COAST.\nDNC 20.\nCHART 36025\nDGPS STATION AT POINT LYNAS LIGHT 53-25.0N 004-17.4W\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nWALES-NORTHWEST COAST.\nDNC 20.\nCHART 36025\nDGPS STATION AT POINT LYNAS LIGHT 53-25.0N 004-17.4W\nOFF AIR.",
+    "valid_from": "2017-08-24T18:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

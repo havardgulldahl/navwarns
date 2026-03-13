@@ -2,18 +2,60 @@
   "type": "Feature",
   "id": "HYDROARC 736/15(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.958333333333334,
+          38.53333333333333
+        ],
+        [
+          -9.958333333333334,
+          38.57
+        ],
+        [
+          -9.838333333333333,
+          38.56166666666667
+        ],
+        [
+          -9.721666666666666,
+          38.595
+        ],
+        [
+          -9.513333333333334,
+          38.62
+        ],
+        [
+          -9.513333333333334,
+          38.583333333333336
+        ],
+        [
+          -9.721666666666666,
+          38.56
+        ],
+        [
+          -9.838333333333333,
+          38.525
+        ],
+        [
+          -9.958333333333334,
+          38.53333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-03-28T05:15:00",
     "raw_dtg": "280515Z MAR 15",
     "msg_id": "HYDROARC 736/15(51)",
-    "cancellations": [
-      "HYDROARC 803/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL.\nDNC 08.\nCABLE REPAIR OPERATIONS 301500Z MAR UNTIL\nFURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\nWITH SUBMERSIBLE IN AREA BOUND BY\n38-32.0N 009-57.5W, 38-34.2N 009-57.5W,\n38-33.7N 009-50.3W, 38-35.7N 009-43.3W,\n38-37.2N 009-30.8W, 38-35.0N 009-30.8W,\n38-33.6N 009-43.3W, 38-31.5N 009-50.3W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL.\nDNC 08.\nCABLE REPAIR OPERATIONS 301500Z MAR UNTIL\nFURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\nWITH SUBMERSIBLE IN AREA BOUND BY\n38-32.0N 009-57.5W, 38-34.2N 009-57.5W,\n38-33.7N 009-50.3W, 38-35.7N 009-43.3W,\n38-37.2N 009-30.8W, 38-35.0N 009-30.8W,\n38-33.6N 009-43.3W, 38-31.5N 009-50.3W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2015-03-28T05:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

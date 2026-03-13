@@ -3,17 +3,25 @@
   "id": "HYDROARC 1388/10(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -32.18666666666667,
+      49.36666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-07-20T17:42:00",
     "raw_dtg": "201742Z JUL 10",
     "msg_id": "HYDROARC 1388/10(38)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1430/10"
+      "1320/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP LEON THEVENIN\n   VICINITY 49-22.0N 032-11.2W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1320/10."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP LEON THEVENIN\n   VICINITY 49-22.0N 032-11.2W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1320/10.",
+    "valid_from": "2010-07-20T17:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

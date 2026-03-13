@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 936/13(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -40.068333333333335,
-        -22.24
-      ],
-      [
-        -39.858666666666664,
-        -22.459666666666667
-      ],
-      [
-        -39.88666666666667,
-        -22.505833333333335
-      ],
-      [
-        -40.1445,
-        -22.347
+        [
+          -40.068333333333335,
+          -22.24
+        ],
+        [
+          -39.858666666666664,
+          -22.459666666666667
+        ],
+        [
+          -39.88666666666667,
+          -22.505833333333335
+        ],
+        [
+          -40.1445,
+          -22.347
+        ],
+        [
+          -40.068333333333335,
+          -22.24
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2013-04-13T01:07:00",
     "raw_dtg": "130107Z APR 13",
     "msg_id": "HYDROARC 936/13(24)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 200359Z APR 13",
-      "HYDROARC 936/13"
+      "THIS MSG 200359Z APR 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY 130300Z TO 200259Z APR BY\n   M/V SANCO STAR TOWING THREE 200 METER\n   LONG CABLES IN AREA BOUND BY\n   22-14.40S 040-04.10W, 22-27.58S 039-51.52W,\n   22-30.35S 039-53.20W, 22-20.82S 040-08.67W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 200359Z APR 13."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY 130300Z TO 200259Z APR BY\n   M/V SANCO STAR TOWING THREE 200 METER\n   LONG CABLES IN AREA BOUND BY\n   22-14.40S 040-04.10W, 22-27.58S 039-51.52W,\n   22-30.35S 039-53.20W, 22-20.82S 040-08.67W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 200359Z APR 13.",
+    "valid_from": "2013-04-13T01:07:00+00:00",
+    "valid_until": "2013-04-20T03:59:00+00:00",
+    "summary": null
   }
 }

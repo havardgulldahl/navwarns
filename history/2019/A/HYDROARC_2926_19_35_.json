@@ -3,17 +3,23 @@
   "id": "HYDROARC 2926/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.3966666666666667,
+      55.05166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-09-25T20:09:00",
     "raw_dtg": "252009Z SEP 19",
     "msg_id": "HYDROARC 2926/19(35)",
-    "cancellations": [
-      "HYDROARC 2188/20"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK IN 55-03.1N 001-23.8W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK IN 55-03.1N 001-23.8W.",
+    "valid_from": "2019-09-25T20:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

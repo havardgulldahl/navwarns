@@ -3,17 +3,23 @@
   "id": "HYDROARC 204/20(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -123.63666666666667,
+      70.57833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-09-22T16:25:00",
     "raw_dtg": "221625Z SEP 20",
     "msg_id": "HYDROARC 204/20(15)",
-    "cancellations": [
-      "HYDROARC 255/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "BEAUFORT SEA.\nCANADA.\nDNC 27.\nSCIENTIFIC MOORING, TOP FLOAT 12 METERS\nBELOW SURFACE, ESTABLISHED IN 70-34.7N 123-38.2W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BEAUFORT SEA.\nCANADA.\nDNC 27.\nSCIENTIFIC MOORING, TOP FLOAT 12 METERS\nBELOW SURFACE, ESTABLISHED IN 70-34.7N 123-38.2W.",
+    "valid_from": "2020-09-22T16:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

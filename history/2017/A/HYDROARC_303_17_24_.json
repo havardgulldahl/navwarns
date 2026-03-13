@@ -3,17 +3,23 @@
   "id": "HYDROARC 303/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.69166666666667,
+      -21.781666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-01-29T01:15:00",
     "raw_dtg": "290115Z JAN 17",
     "msg_id": "HYDROARC 303/17(24)",
-    "cancellations": [
-      "HYDROARC 309/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\nDERELICT VESSEL BRAVE HARALAMBOS AGROUND\nIN 21-46.9S 040-41.5W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\nDERELICT VESSEL BRAVE HARALAMBOS AGROUND\nIN 21-46.9S 040-41.5W.",
+    "valid_from": "2017-01-29T01:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

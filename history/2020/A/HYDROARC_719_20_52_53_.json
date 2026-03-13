@@ -2,19 +2,74 @@
   "type": "Feature",
   "id": "HYDROARC 719/20(52,53)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.738333333333333,
+          39.18833333333333
+        ],
+        [
+          10.005,
+          39.193333333333335
+        ],
+        [
+          10.321666666666667,
+          39.21
+        ],
+        [
+          9.753333333333334,
+          39.025
+        ],
+        [
+          9.97,
+          38.92333333333333
+        ],
+        [
+          10.163333333333334,
+          38.84
+        ],
+        [
+          10.378333333333334,
+          38.733333333333334
+        ],
+        [
+          8.823333333333334,
+          38.24666666666667
+        ],
+        [
+          8.841666666666667,
+          38.41833333333334
+        ],
+        [
+          8.851666666666667,
+          38.58166666666666
+        ],
+        [
+          8.861666666666666,
+          38.751666666666665
+        ],
+        [
+          9.738333333333333,
+          39.18833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-02-27T01:46:00",
     "raw_dtg": "270146Z FEB 20",
     "msg_id": "HYDROARC 719/20(52,53)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 160059Z APR 20",
-      "HYDROARC 719/20"
+      "THIS MSG 160059Z APR 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTYRRHENIAN SEA.\nSARDINIA.\nDNC 08.\n1. GUNNERY EXERCISES 010001Z MAR TO 152359Z APR\n   IN AREA BOUND BY\n   39-11.3N 009-44.3E, 39-11.6N 010-00.3E,\n   39-12.6N 010-19.3E, 39-01.5N 009-45.2E,\n   38-55.4N 009-58.2E, 38-50.4N 010-09.8E,\n   38-44.0N 010-22.7E, 38-14.8N 008-49.4E,\n   38-25.1N 008-50.5E, 38-34.9N 008-51.1E,\n   38-45.1N 008-51.7E.\n2. CANCEL THIS MSG 160059Z APR 20."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTYRRHENIAN SEA.\nSARDINIA.\nDNC 08.\n1. GUNNERY EXERCISES 010001Z MAR TO 152359Z APR\n   IN AREA BOUND BY\n   39-11.3N 009-44.3E, 39-11.6N 010-00.3E,\n   39-12.6N 010-19.3E, 39-01.5N 009-45.2E,\n   38-55.4N 009-58.2E, 38-50.4N 010-09.8E,\n   38-44.0N 010-22.7E, 38-14.8N 008-49.4E,\n   38-25.1N 008-50.5E, 38-34.9N 008-51.1E,\n   38-45.1N 008-51.7E.\n2. CANCEL THIS MSG 160059Z APR 20.",
+    "valid_from": "2020-02-27T01:46:00+00:00",
+    "valid_until": "2020-04-16T00:59:00+00:00",
+    "summary": null
   }
 }

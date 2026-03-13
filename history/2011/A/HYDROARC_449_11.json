@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 449/11",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2011-03-18T15:35:00",
     "raw_dtg": "181535Z MAR 11",
     "msg_id": "HYDROARC 449/11",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 449/11"
+      "428/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nCANARY ISLANDS TO MARTINIQUE.\nCANCEL HYDROLANT 428/11 AND THIS MSG, VESSEL LOCATED SAFE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nCANARY ISLANDS TO MARTINIQUE.\nCANCEL HYDROLANT 428/11 AND THIS MSG, VESSEL LOCATED SAFE.",
+    "valid_from": "2011-03-18T15:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

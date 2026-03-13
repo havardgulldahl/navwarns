@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 625/13(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -42.84166666666667,
+          -23.766666666666666
+        ],
+        [
+          -42.5,
+          -23.583333333333332
+        ],
+        [
+          -42.3,
+          -23.908333333333335
+        ],
+        [
+          -42.641666666666666,
+          -24.091666666666665
+        ],
+        [
+          -42.84166666666667,
+          -23.766666666666666
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-03-13T00:35:00",
     "raw_dtg": "130035Z MAR 13",
     "msg_id": "HYDROARC 625/13(24)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 190330Z MAR 13",
-      "HYDROARC 625/13"
+      "THIS MSG 190330Z MAR 13"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 182300Z TO 190230Z MAR\n   IN AREA BOUND BY\n   23-46.0S 042-50.5W, 23-35.0S 042-30.0W,\n   23-54.5S 042-18.0W, 24-05.5S 042-38.5W.\n2. CANCEL THIS MSG 190330Z MAR 13."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 182300Z TO 190230Z MAR\n   IN AREA BOUND BY\n   23-46.0S 042-50.5W, 23-35.0S 042-30.0W,\n   23-54.5S 042-18.0W, 24-05.5S 042-38.5W.\n2. CANCEL THIS MSG 190330Z MAR 13.",
+    "valid_from": "2013-03-13T00:35:00+00:00",
+    "valid_until": "2013-03-19T03:30:00+00:00",
+    "summary": null
   }
 }

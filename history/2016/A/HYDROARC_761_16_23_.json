@@ -3,17 +3,25 @@
   "id": "HYDROARC 761/16(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -58.43,
+      -54.88166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-03-30T06:23:00",
     "raw_dtg": "300623Z MAR 16",
     "msg_id": "HYDROARC 761/16(23)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 765/16"
+      "751/16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nSCOTIA SEA.\nDNC 07.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS\n   BY M/V PUERTO DESEADO IN 54-52.9S 058-25.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 751/16."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nSCOTIA SEA.\nDNC 07.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS\n   BY M/V PUERTO DESEADO IN 54-52.9S 058-25.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 751/16.",
+    "valid_from": "2016-03-30T06:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

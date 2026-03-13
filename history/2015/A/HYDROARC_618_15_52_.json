@@ -3,17 +3,25 @@
   "id": "HYDROARC 618/15(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.116666666666667,
+      37.345
+    ]
   },
   "properties": {
     "dtg": "2015-03-14T05:26:00",
     "raw_dtg": "140526Z MAR 15",
     "msg_id": "HYDROARC 618/15(52)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 618/15"
+      "THIS MSG 19 MAR 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nDNC 08.\nCHART 52180, 52200.\n1. DERELICT VESSEL AGROUND VICINITY 37-20.7N 010-07.0E.\n2. CANCEL THIS MSG 19 MAR 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nDNC 08.\nCHART 52180, 52200.\n1. DERELICT VESSEL AGROUND VICINITY 37-20.7N 010-07.0E.\n2. CANCEL THIS MSG 19 MAR 15.",
+    "valid_from": "2015-03-14T05:26:00+00:00",
+    "valid_until": "2015-03-19T00:00:00+00:00",
+    "summary": null
   }
 }

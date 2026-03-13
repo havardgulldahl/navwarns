@@ -3,17 +3,25 @@
   "id": "HYDROARC 1474/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.13,
+      51.88166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-05-15T08:24:00",
     "raw_dtg": "150824Z MAY 19",
     "msg_id": "HYDROARC 1474/19(36)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1474/19"
+      "THIS MSG 25 MAY 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CARDIGAN BAY.\nCELTIC SEA.\nSAINT GEORGES CHANNEL.\nWALES.\nDNC 20.\n1. GPS JAMMING EXERCISES 20 THRU 24 MAY\n   IN AREA WITHIN 12 MILES OF 51-52.9N 005-07.8W.\n2. CANCEL THIS MSG 25 MAY 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CARDIGAN BAY.\nCELTIC SEA.\nSAINT GEORGES CHANNEL.\nWALES.\nDNC 20.\n1. GPS JAMMING EXERCISES 20 THRU 24 MAY\n   IN AREA WITHIN 12 MILES OF 51-52.9N 005-07.8W.\n2. CANCEL THIS MSG 25 MAY 19.",
+    "valid_from": "2019-05-15T08:24:00+00:00",
+    "valid_until": "2019-05-25T00:00:00+00:00",
+    "summary": null
   }
 }

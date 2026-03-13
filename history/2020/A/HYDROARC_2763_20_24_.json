@@ -3,17 +3,25 @@
   "id": "HYDROARC 2763/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.836666666666666,
+      -23.116666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-09-08T21:54:00",
     "raw_dtg": "082154Z SEP 20",
     "msg_id": "HYDROARC 2763/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3003/20"
+      "THIS MSG 07 MAR 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. LAJE MARAMBAIA LIGHT 23-07.0S 043-50.2W UNLIT.\n2. CANCEL THIS MSG 07 MAR 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. LAJE MARAMBAIA LIGHT 23-07.0S 043-50.2W UNLIT.\n2. CANCEL THIS MSG 07 MAR 21.",
+    "valid_from": "2020-09-08T21:54:00+00:00",
+    "valid_until": "2021-03-07T00:00:00+00:00",
+    "summary": null
   }
 }

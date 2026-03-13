@@ -3,17 +3,23 @@
   "id": "HYDROARC 436/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.1416666666666666,
+      60.19
+    ]
   },
   "properties": {
     "dtg": "2020-02-07T21:12:00",
     "raw_dtg": "072112Z FEB 20",
     "msg_id": "HYDROARC 436/20(35)",
-    "cancellations": [
-      "HYDROARC 444/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nROVA HEAD LIGHT 60-11.4N 001-08.5W UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nROVA HEAD LIGHT 60-11.4N 001-08.5W UNLIT.",
+    "valid_from": "2020-02-07T21:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 5/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.7283333333333335,
+      54.928333333333335
+    ]
   },
   "properties": {
     "dtg": "2021-01-02T06:35:00",
     "raw_dtg": "020635Z JAN 21",
     "msg_id": "HYDROARC 5/21(36)",
-    "cancellations": [
-      "HYDROARC 26/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nEAST MAIDEN LIGHT 54-55.7N 005-43.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nEAST MAIDEN LIGHT 54-55.7N 005-43.7W UNRELIABLE.",
+    "valid_from": "2021-01-02T06:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

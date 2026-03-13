@@ -3,17 +3,23 @@
   "id": "HYDROARC 2955/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.51166666666666,
+      -2.535
+    ]
   },
   "properties": {
     "dtg": "2013-11-21T00:36:00",
     "raw_dtg": "210036Z NOV 13",
     "msg_id": "HYDROARC 2955/13(24)",
-    "cancellations": [
-      "HYDROARC 3113/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24274\nITAUNA LIGHT 02-32.1S 044-30.7W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24274\nITAUNA LIGHT 02-32.1S 044-30.7W UNLIT.",
+    "valid_from": "2013-11-21T00:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

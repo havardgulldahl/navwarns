@@ -2,27 +2,24 @@
   "type": "Feature",
   "id": "HYDROARC 1809/11(37)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Point",
     "coordinates": [
-      [
-        -5.691333333333334,
-        48.605
-      ],
-      [
-        -5.352333333333333,
-        49.1975
-      ]
+      -5.691333333333334,
+      48.605
     ]
   },
   "properties": {
     "dtg": "2011-11-02T03:17:00",
     "raw_dtg": "020317Z NOV 11",
     "msg_id": "HYDROARC 1809/11(37)",
-    "cancellations": [
-      "HYDROARC 1849/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY OF TRACKLINE BETWEEN\n48-36.30N 005-41.48W AND 49-11.85N 005-21.14W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY OF TRACKLINE BETWEEN\n48-36.30N 005-41.48W AND 49-11.85N 005-21.14W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2011-11-02T03:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

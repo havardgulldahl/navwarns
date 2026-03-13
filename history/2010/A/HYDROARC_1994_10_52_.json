@@ -3,17 +3,25 @@
   "id": "HYDROARC 1994/10(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.123333333333333,
+      37.35333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-10-21T12:24:00",
     "raw_dtg": "211224Z OCT 10",
     "msg_id": "HYDROARC 1994/10(52)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 2017/10"
+      "1886/10"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-NORTHEAST COAST.\nNGA CHART 52184 (3RD ED).\n1. ILES CANI LIGHT 37-21.2N 010-07.4E UNLIT.\n2. CANCEL HYDROLANT 1886/10."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTHEAST COAST.\nNGA CHART 52184 (3RD ED).\n1. ILES CANI LIGHT 37-21.2N 010-07.4E UNLIT.\n2. CANCEL HYDROLANT 1886/10.",
+    "valid_from": "2010-10-21T12:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

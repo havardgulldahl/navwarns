@@ -3,18 +3,25 @@
   "id": "HYDROARC 17/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.265,
+      -24.051666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-01-03T12:35:00",
     "raw_dtg": "031235Z JAN 14",
     "msg_id": "HYDROARC 17/14(24)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 010400Z JUL 14",
-      "HYDROARC 405/14"
+      "THIS MSG 010400Z JUL 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24140\n1. ILHA DA MOELA LIGHT 24-03.1S 046-15.9W UNRELIABLE\n   AND RADIOBEACON INOPERATIVE UNTIL 010300Z JUL.\n2. CANCEL THIS MSG 010400Z JUL 14."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24140\n1. ILHA DA MOELA LIGHT 24-03.1S 046-15.9W UNRELIABLE\n   AND RADIOBEACON INOPERATIVE UNTIL 010300Z JUL.\n2. CANCEL THIS MSG 010400Z JUL 14.",
+    "valid_from": "2014-01-03T12:35:00+00:00",
+    "valid_until": "2014-07-01T04:00:00+00:00",
+    "summary": null
   }
 }

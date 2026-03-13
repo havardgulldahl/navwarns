@@ -3,17 +3,25 @@
   "id": "HYDROARC 805/10(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.205,
+      38.57
+    ]
   },
   "properties": {
     "dtg": "2010-05-07T14:50:00",
     "raw_dtg": "071450Z MAY 10",
     "msg_id": "HYDROARC 805/10(51)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 878/10"
+      "734/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL-WEST COAST.\n1. CABLE REPAIR OPERATIONS 110500Z MAY UNTIL\n   FURTHER NOTICE BY CABLESHIP PETER FABER\n   ALONG TRACKLINE BETWEEN\n   38-34.2N 009-12.3W AND 38-23.5N 009-40.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 734/10(36,37)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL-WEST COAST.\n1. CABLE REPAIR OPERATIONS 110500Z MAY UNTIL\n   FURTHER NOTICE BY CABLESHIP PETER FABER\n   ALONG TRACKLINE BETWEEN\n   38-34.2N 009-12.3W AND 38-23.5N 009-40.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 734/10(36,37).",
+    "valid_from": "2010-05-07T14:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 370/14(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      32.815,
+      35.99166666666667
+    ]
   },
   "properties": {
     "dtg": "2014-02-06T15:01:00",
     "raw_dtg": "061501Z FEB 14",
     "msg_id": "HYDROARC 370/14(54)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 389/14"
+      "THIS MSG 16 MAR 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTURKEY.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL 15 MAR\n   ALONG TRACKLINE BETWEEN\n   35-59.5N 032-48.9E AND 35-56.3N 032-49.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 MAR 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTURKEY.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL 15 MAR\n   ALONG TRACKLINE BETWEEN\n   35-59.5N 032-48.9E AND 35-56.3N 032-49.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 MAR 14.",
+    "valid_from": "2014-02-06T15:01:00+00:00",
+    "valid_until": "2014-03-16T00:00:00+00:00",
+    "summary": null
   }
 }

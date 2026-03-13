@@ -3,17 +3,23 @@
   "id": "HYDROARC 455/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.443333333333333,
+      56.53333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-03-19T12:09:00",
     "raw_dtg": "191209Z MAR 11",
     "msg_id": "HYDROARC 455/11(35)",
-    "cancellations": [
-      "HYDROARC 455/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35108 (1ST ED).\nBRANRA ROCK LIGHT, FL (2) 10 SEC 3 METERS 5 MILES,\nESTABLISHED IN 56-32.0N 005-26.6W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35108 (1ST ED).\nBRANRA ROCK LIGHT, FL (2) 10 SEC 3 METERS 5 MILES,\nESTABLISHED IN 56-32.0N 005-26.6W.",
+    "valid_from": "2011-03-19T12:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

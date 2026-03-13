@@ -3,17 +3,25 @@
   "id": "HYDROARC 628/10(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.07333333333333333,
+      5.5616666666666665
+    ]
   },
   "properties": {
     "dtg": "2010-04-11T18:11:00",
     "raw_dtg": "111811Z APR 10",
     "msg_id": "HYDROARC 628/10(57)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 702/10"
+      "624/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nGULF OF GUINEA.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP TYCO RESOLUTE VICINITY\n   OF TRACKLINE BETWEEN\n   05-33.7N 000-04.4W AND 05-28.6N 000-02.6E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 624/10."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nGULF OF GUINEA.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP TYCO RESOLUTE VICINITY\n   OF TRACKLINE BETWEEN\n   05-33.7N 000-04.4W AND 05-28.6N 000-02.6E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 624/10.",
+    "valid_from": "2010-04-11T18:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

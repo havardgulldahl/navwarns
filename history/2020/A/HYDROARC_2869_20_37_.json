@@ -3,18 +3,25 @@
   "id": "HYDROARC 2869/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.4699999999999998,
+      50.515
+    ]
   },
   "properties": {
     "dtg": "2020-09-19T12:43:00",
     "raw_dtg": "191243Z SEP 20",
     "msg_id": "HYDROARC 2869/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 221243Z SEP 20",
-      "HYDROARC 2869/20"
+      "THIS MSG 221243Z SEP 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. NINE METER LOG ADRIFT\n   IN VICINITY OF 50-30.9N 002-28.2W AT 191136Z SEP.\n2. CANCEL THIS MSG 221243Z SEP 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. NINE METER LOG ADRIFT\n   IN VICINITY OF 50-30.9N 002-28.2W AT 191136Z SEP.\n2. CANCEL THIS MSG 221243Z SEP 20.",
+    "valid_from": "2020-09-19T12:43:00+00:00",
+    "valid_until": "2020-09-22T12:43:00+00:00",
+    "summary": null
   }
 }

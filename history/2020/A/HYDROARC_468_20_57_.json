@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 468/20(57)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-02-10T09:56:00",
     "raw_dtg": "100956Z FEB 20",
     "msg_id": "HYDROARC 468/20(57)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 468/20"
+      "3715/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\nCANCEL HYDROLANT 3715/19 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\nCANCEL HYDROLANT 3715/19 AND THIS MSG.",
+    "valid_from": "2020-02-10T09:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 1787/21(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      15.815,
+      -28.588333333333335
+    ]
   },
   "properties": {
     "dtg": "2021-07-07T09:42:00",
     "raw_dtg": "070942Z JUL 21",
     "msg_id": "HYDROARC 1787/21(57)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1921/21"
+      "1733/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V CORAL SEA IN 28-35.3S 015-48.9E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1733/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V CORAL SEA IN 28-35.3S 015-48.9E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1733/21.",
+    "valid_from": "2021-07-07T09:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

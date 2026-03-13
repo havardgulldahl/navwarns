@@ -3,17 +3,23 @@
   "id": "HYDROARC 1633/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.8133333333333332,
+      60.373333333333335
+    ]
   },
   "properties": {
     "dtg": "2018-05-24T16:22:00",
     "raw_dtg": "241622Z MAY 18",
     "msg_id": "HYDROARC 1633/18(35)",
-    "cancellations": [
-      "HYDROARC 1674/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nVE SKERRIES LIGHT 60-22.4N 001-48.8W RACON INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nVE SKERRIES LIGHT 60-22.4N 001-48.8W RACON INOPERATIVE.",
+    "valid_from": "2018-05-24T16:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

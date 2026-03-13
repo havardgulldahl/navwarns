@@ -2,18 +2,52 @@
   "type": "Feature",
   "id": "HYDROARC 873/14(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.9,
+          34.56666666666667
+        ],
+        [
+          -6.575,
+          34.68333333333333
+        ],
+        [
+          -6.476666666666667,
+          34.595
+        ],
+        [
+          -6.536666666666667,
+          34.48166666666667
+        ],
+        [
+          -6.633333333333333,
+          34.36666666666667
+        ],
+        [
+          -7.861666666666666,
+          34.25
+        ],
+        [
+          -7.9,
+          34.56666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-03-31T10:34:00",
     "raw_dtg": "311034Z MAR 14",
     "msg_id": "HYDROARC 873/14(51)",
-    "cancellations": [
-      "HYDROARC 1255/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V SANCO SWIFT TOWING TEN 8000 METER LONG\nCABLES IN AREA BOUND BY\n34-34.0N 007-54.0W, 34-41.0N 006-34.5W,\n34-35.7N 006-28.6W, 34-28.9N 006-32.2W,\n34-22.0N 006-38.0W, 34-15.0N 007-51.7W.\nSIX MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V SANCO SWIFT TOWING TEN 8000 METER LONG\nCABLES IN AREA BOUND BY\n34-34.0N 007-54.0W, 34-41.0N 006-34.5W,\n34-35.7N 006-28.6W, 34-28.9N 006-32.2W,\n34-22.0N 006-38.0W, 34-15.0N 007-51.7W.\nSIX MILE BERTH REQUESTED.",
+    "valid_from": "2014-03-31T10:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

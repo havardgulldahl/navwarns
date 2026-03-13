@@ -3,17 +3,23 @@
   "id": "HYDROARC 2122/23(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.6850000000000005,
+      51.63166666666667
+    ]
   },
   "properties": {
     "dtg": "2023-09-21T09:17:00",
     "raw_dtg": "210917Z SEP 23",
     "msg_id": "HYDROARC 2122/23(36)",
-    "cancellations": [
-      "HYDROARC 2216/23"
-    ],
+    "year": 2023,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nCALDY ISLAND LIGHT 51-37.9N 004-41.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nCALDY ISLAND LIGHT 51-37.9N 004-41.1W UNRELIABLE.",
+    "valid_from": "2023-09-21T09:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

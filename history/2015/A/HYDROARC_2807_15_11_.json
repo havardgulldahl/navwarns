@@ -3,17 +3,23 @@
   "id": "HYDROARC 2807/15(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -93.08333333333333,
+      29.413333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-11-15T00:26:00",
     "raw_dtg": "150026Z NOV 15",
     "msg_id": "HYDROARC 2807/15(11)",
-    "cancellations": [
-      "HYDROARC 2871/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nLOUISIANA.\nDNC 15.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 29-24.8N 093-05.0W\nAT 132338Z NOV. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148,\nE-MAIL: D8COMMANDCENTER@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nLOUISIANA.\nDNC 15.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 29-24.8N 093-05.0W\nAT 132338Z NOV. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148,\nE-MAIL: D8COMMANDCENTER@USCG.MIL.",
+    "valid_from": "2015-11-15T00:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 23/16(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -56.14722222222222,
+      72.78694444444444
+    ]
   },
   "properties": {
     "dtg": "2016-03-24T03:51:00",
     "raw_dtg": "240351Z MAR 16",
     "msg_id": "HYDROARC 23/16(38)",
-    "cancellations": [
-      "HYDROARC 24/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAFFIN BAY.\nGREENLAND-WEST COAST.\nDNC 28.\nM/V, WHITE HULL, TWO PERSONS ON BOARD, UNREPORTED\nVICINITY UPERNAVIK (72-47-13N 056-08-50W).\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO AASIAAT RADIO."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAFFIN BAY.\nGREENLAND-WEST COAST.\nDNC 28.\nM/V, WHITE HULL, TWO PERSONS ON BOARD, UNREPORTED\nVICINITY UPERNAVIK (72-47-13N 056-08-50W).\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO AASIAAT RADIO.",
+    "valid_from": "2016-03-24T03:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

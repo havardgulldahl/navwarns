@@ -3,17 +3,23 @@
   "id": "HYDROARC 1686/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6799999999999997,
+      51.28666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-07-10T05:20:00",
     "raw_dtg": "100520Z JUL 15",
     "msg_id": "HYDROARC 1686/15(36)",
-    "cancellations": [
-      "HYDROARC 1736/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\nWITHIN FOUR MILES OF 51-17.2N 003-40.8W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\nWITHIN FOUR MILES OF 51-17.2N 003-40.8W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2015-07-10T05:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

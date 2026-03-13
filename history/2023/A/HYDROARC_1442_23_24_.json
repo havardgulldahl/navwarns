@@ -12,12 +12,17 @@
     "dtg": "2023-06-27T03:28:00",
     "raw_dtg": "270328Z JUN 23",
     "msg_id": "HYDROARC 1442/23(24)",
+    "year": 2023,
     "cancellations": [
       "THIS MSG 250001Z DEC 23",
-      "HYDROARC 1442/23"
+      "956/23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. MORRO DE SAO PAULO LIGHT 13-22.60S 038-54.90W\n   UNLIT UNTIL 24 DEC.\n2. CANCEL HYDROLANT 956/23.\n3. CANCEL THIS MSG 250001Z DEC 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. MORRO DE SAO PAULO LIGHT 13-22.60S 038-54.90W\n   UNLIT UNTIL 24 DEC.\n2. CANCEL HYDROLANT 956/23.\n3. CANCEL THIS MSG 250001Z DEC 23.",
+    "valid_from": "2023-06-27T03:28:00+00:00",
+    "valid_until": "2023-12-25T00:01:00+00:00",
+    "summary": null
   }
 }

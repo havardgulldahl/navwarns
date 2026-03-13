@@ -3,17 +3,23 @@
   "id": "HYDROARC 1340/10(14,15,38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.64666666666667,
+      56.373333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-07-15T07:51:00",
     "raw_dtg": "150751Z JUL 10",
     "msg_id": "HYDROARC 1340/10(14,15,38)",
-    "cancellations": [
-      "HYDROARC 1353/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ WITHIN\n50 MILES OF 56-22.4N 045-38.8W AT 150625Z JUL.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nJRCC HALIFAX, TELEX: 584331699943,\nPHONE: 902 427 8200 OR 800 565 1582."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ WITHIN\n50 MILES OF 56-22.4N 045-38.8W AT 150625Z JUL.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nJRCC HALIFAX, TELEX: 584331699943,\nPHONE: 902 427 8200 OR 800 565 1582.",
+    "valid_from": "2010-07-15T07:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

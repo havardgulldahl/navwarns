@@ -3,17 +3,23 @@
   "id": "HYDROARC 2186/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.286666666666667,
+      57.985
+    ]
   },
   "properties": {
     "dtg": "2019-07-19T09:12:00",
     "raw_dtg": "190912Z JUL 19",
     "msg_id": "HYDROARC 2186/19(35)",
-    "cancellations": [
-      "HYDROARC 2233/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nCHART 35075.\nGASKER ISLAND LIGHT 57-59.1N 007-17.2W UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nCHART 35075.\nGASKER ISLAND LIGHT 57-59.1N 007-17.2W UNLIT.",
+    "valid_from": "2019-07-19T09:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

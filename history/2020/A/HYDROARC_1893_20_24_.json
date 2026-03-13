@@ -12,12 +12,16 @@
     "dtg": "2020-06-08T00:55:00",
     "raw_dtg": "080055Z JUN 20",
     "msg_id": "HYDROARC 1893/20(24)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 122000Z JUN 20",
-      "HYDROARC 1893/20"
+      "THIS MSG 122000Z JUN 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 1300Z TO 1900Z DAILY\n   08 THRU 12 JUN IN AREA WITHIN EIGHT MILES OF\n   05-24.52S 034-45.25W.\n2. CANCEL THIS MSG 122000Z JUN 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 1300Z TO 1900Z DAILY\n   08 THRU 12 JUN IN AREA WITHIN EIGHT MILES OF\n   05-24.52S 034-45.25W.\n2. CANCEL THIS MSG 122000Z JUN 20.",
+    "valid_from": "2020-06-08T00:55:00+00:00",
+    "valid_until": "2020-06-12T20:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1/19(29)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.73833333333333,
+      -60.736666666666665
+    ]
   },
   "properties": {
     "dtg": "2019-01-01T10:26:00",
     "raw_dtg": "011026Z JAN 19",
     "msg_id": "HYDROARC 1/19(29)",
-    "cancellations": [
-      "HYDROARC 834/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTIA SEA.\nWEDDELL SEA.\nANTARCTICA.\nDNC 29.\nCHART 29107.\nDESTACAMENTO LIGHT 60-44.2S 044-44.3W UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTIA SEA.\nWEDDELL SEA.\nANTARCTICA.\nDNC 29.\nCHART 29107.\nDESTACAMENTO LIGHT 60-44.2S 044-44.3W UNLIT.",
+    "valid_from": "2019-01-01T10:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

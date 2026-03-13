@@ -3,17 +3,23 @@
   "id": "HYDROARC 2931/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.3083333333333336,
+      50.526666666666664
+    ]
   },
   "properties": {
     "dtg": "2015-11-27T12:08:00",
     "raw_dtg": "271208Z NOV 15",
     "msg_id": "HYDROARC 2931/15(37)",
-    "cancellations": [
-      "HYDROARC 72/16"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nENGLISH CHANNEL.\nDNC 20.\nCHART 37015.\nDANGEROUS WRECK VICINITY 50-31.6N 003-18.5W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nENGLISH CHANNEL.\nDNC 20.\nCHART 37015.\nDANGEROUS WRECK VICINITY 50-31.6N 003-18.5W.",
+    "valid_from": "2015-11-27T12:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

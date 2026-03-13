@@ -2,19 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 3028/16(35)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.8,
+          58.333333333333336
+        ],
+        [
+          -5.841666666666667,
+          58.25333333333333
+        ],
+        [
+          -6.138333333333334,
+          58.26
+        ],
+        [
+          -6.213333333333333,
+          58.333333333333336
+        ],
+        [
+          -6.261666666666667,
+          58.515
+        ],
+        [
+          -5.8,
+          58.55833333333333
+        ],
+        [
+          -5.8,
+          58.333333333333336
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-11-15T06:42:00",
     "raw_dtg": "150642Z NOV 16",
     "msg_id": "HYDROARC 3028/16(35)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 151300Z NOV 16",
-      "HYDROARC 3028/16"
+      "THIS MSG 151300Z NOV 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS 150800Z TO 151200Z NOV\n   BY M/V SD NORTHERN RIVER WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   58-20.0N 005-48.0W, 58-15.2N 005-50.5W,\n   58-15.6N 006-08.3W, 58-20.0N 006-12.8W,\n   58-30.9N 006-15.7W, 58-33.5N 005-48.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 151300Z NOV 16."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS 150800Z TO 151200Z NOV\n   BY M/V SD NORTHERN RIVER WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   58-20.0N 005-48.0W, 58-15.2N 005-50.5W,\n   58-15.6N 006-08.3W, 58-20.0N 006-12.8W,\n   58-30.9N 006-15.7W, 58-33.5N 005-48.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 151300Z NOV 16.",
+    "valid_from": "2016-11-15T06:42:00+00:00",
+    "valid_until": "2016-11-15T13:00:00+00:00",
+    "summary": null
   }
 }

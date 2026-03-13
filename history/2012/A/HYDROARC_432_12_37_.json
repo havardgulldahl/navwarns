@@ -3,17 +3,23 @@
   "id": "HYDROARC 432/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.635,
+      50.975
+    ]
   },
   "properties": {
     "dtg": "2012-02-26T20:22:00",
     "raw_dtg": "262022Z FEB 12",
     "msg_id": "HYDROARC 432/12(37)",
-    "cancellations": [
-      "HYDROARC 497/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL WITH\nSUBMERSIBLE VICINITY 50-58.5N 001-38.1E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL WITH\nSUBMERSIBLE VICINITY 50-58.5N 001-38.1E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-02-26T20:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

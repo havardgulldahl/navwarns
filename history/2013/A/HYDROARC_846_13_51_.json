@@ -3,17 +3,23 @@
   "id": "HYDROARC 846/13(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -11.123333333333333,
+      28.678333333333335
+    ]
   },
   "properties": {
     "dtg": "2013-04-03T21:04:00",
     "raw_dtg": "032104Z APR 13",
     "msg_id": "HYDROARC 846/13(51)",
-    "cancellations": [
-      "HYDROARC 395/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nCHART 51320\nCAP DRAA LIGHT 28-40.7N 011-07.4W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nCHART 51320\nCAP DRAA LIGHT 28-40.7N 011-07.4W UNLIT.",
+    "valid_from": "2013-04-03T21:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

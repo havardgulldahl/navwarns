@@ -3,17 +3,23 @@
   "id": "HYDROARC 875/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.841666666666667,
+      50.42166666666667
+    ]
   },
   "properties": {
     "dtg": "2014-03-31T12:08:00",
     "raw_dtg": "311208Z MAR 14",
     "msg_id": "HYDROARC 875/14(36)",
-    "cancellations": [
-      "HYDROARC 1205/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nCHART 36035\nFISHING GEAR ABANDONED VICINITY 50-25.3N 005-50.5W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nCHART 36035\nFISHING GEAR ABANDONED VICINITY 50-25.3N 005-50.5W.",
+    "valid_from": "2014-03-31T12:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

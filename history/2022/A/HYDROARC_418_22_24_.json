@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 418/22(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-02-11T13:30:00",
     "raw_dtg": "111330Z FEB 22",
     "msg_id": "HYDROARC 418/22(24)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 418/22"
+      "364/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nDNC 14.\nCANCEL HYDROLANT 364/22 AND THIS MSG, OPERATIONS\nCOMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nDNC 14.\nCANCEL HYDROLANT 364/22 AND THIS MSG, OPERATIONS\nCOMPLETED.",
+    "valid_from": "2022-02-11T13:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

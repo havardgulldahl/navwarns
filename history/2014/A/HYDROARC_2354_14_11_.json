@@ -12,12 +12,16 @@
     "dtg": "2014-09-29T21:18:00",
     "raw_dtg": "292118Z SEP 14",
     "msg_id": "HYDROARC 2354/14(11)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 011800Z OCT 14",
-      "HYDROARC 2360/14"
+      "THIS MSG 011800Z OCT 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nFLORIDA-WEST COAST.\nGUNNERY.\nDNC 15.\n1. GUNNERY EXERCISES 011300Z TO 011700Z OCT\n   WITHIN FIVE MILES OF 26-23.55N 081-58.12W.\n2. CANCEL THIS MSG 011800Z OCT 14."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nFLORIDA-WEST COAST.\nGUNNERY.\nDNC 15.\n1. GUNNERY EXERCISES 011300Z TO 011700Z OCT\n   WITHIN FIVE MILES OF 26-23.55N 081-58.12W.\n2. CANCEL THIS MSG 011800Z OCT 14.",
+    "valid_from": "2014-09-29T21:18:00+00:00",
+    "valid_until": "2014-10-01T18:00:00+00:00",
+    "summary": null
   }
 }

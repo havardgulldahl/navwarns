@@ -3,17 +3,25 @@
   "id": "HYDROARC 1722/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.783333333333333,
+      56.07333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-09-12T00:19:00",
     "raw_dtg": "120019Z SEP 10",
     "msg_id": "HYDROARC 1722/10(35)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1726/10"
+      "1709/10"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35014 (3RD ED).\n1. FIDRA ISLAND LIGHT 56-04.4N 002-47.0W UNLIT.\n2. CANCEL HYDROLANT 1709/10."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35014 (3RD ED).\n1. FIDRA ISLAND LIGHT 56-04.4N 002-47.0W UNLIT.\n2. CANCEL HYDROLANT 1709/10.",
+    "valid_from": "2010-09-12T00:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

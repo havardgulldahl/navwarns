@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2268/20(23,29)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-07-18T16:59:00",
     "raw_dtg": "181659Z JUL 20",
     "msg_id": "HYDROARC 2268/20(23,29)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 191659Z JUL 20",
-      "HYDROARC 2268/20"
+      "THIS MSG 191659Z JUL 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTIA SEA.\nANTARCTICA.\nDNC 01, DNC 07, DNC 29.\n1. ICEBERGS REPORTED IN:\n   A. A68A, 59-34S 048-59W.\n   B. A68C, 58-15S 039-55W.\n   C. 61-38S 057-51W.\n   D. 59-41S 057-51W.\n   E. 54-34S 045-15W.\n2. CANCEL THIS MSG 191659Z JUL 20."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTIA SEA.\nANTARCTICA.\nDNC 01, DNC 07, DNC 29.\n1. ICEBERGS REPORTED IN:\n   A. A68A, 59-34S 048-59W.\n   B. A68C, 58-15S 039-55W.\n   C. 61-38S 057-51W.\n   D. 59-41S 057-51W.\n   E. 54-34S 045-15W.\n2. CANCEL THIS MSG 191659Z JUL 20.",
+    "valid_from": "2020-07-18T16:59:00+00:00",
+    "valid_until": "2020-07-19T16:59:00+00:00",
+    "summary": null
   }
 }

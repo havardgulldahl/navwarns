@@ -3,17 +3,23 @@
   "id": "HYDROARC 2055/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.1366666666666667,
+      55.916666666666664
+    ]
   },
   "properties": {
     "dtg": "2012-09-06T04:13:00",
     "raw_dtg": "060413Z SEP 12",
     "msg_id": "HYDROARC 2055/12(35)",
-    "cancellations": [
-      "HYDROARC 2058/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHEAST COAST.\nCHART 35014\nRACON AT SAINT ABBS HEAD LIGHT 55-55.0N 002-08.2W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHEAST COAST.\nCHART 35014\nRACON AT SAINT ABBS HEAD LIGHT 55-55.0N 002-08.2W INOPERATIVE.",
+    "valid_from": "2012-09-06T04:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

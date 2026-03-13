@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 729/20(57)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-02-27T16:19:00",
     "raw_dtg": "271619Z FEB 20",
     "msg_id": "HYDROARC 729/20(57)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 729/20"
+      "664/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nGHANA.\nDNC 01.\nCANCEL HYDROLANT 664/20 AND THIS MSG,\nOPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nGHANA.\nDNC 01.\nCANCEL HYDROLANT 664/20 AND THIS MSG,\nOPERATIONS COMPLETED.",
+    "valid_from": "2020-02-27T16:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

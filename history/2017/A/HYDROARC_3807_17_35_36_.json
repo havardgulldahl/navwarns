@@ -3,17 +3,23 @@
   "id": "HYDROARC 3807/17(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.803333333333334,
+      55.31
+    ]
   },
   "properties": {
     "dtg": "2017-11-25T03:44:00",
     "raw_dtg": "250344Z NOV 17",
     "msg_id": "HYDROARC 3807/17(35,36)",
-    "cancellations": [
-      "HYDROARC 3833/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nCHART 35119.\nMULL OF KINTYRE LIGHT 55-18.6N 005-48.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nCHART 35119.\nMULL OF KINTYRE LIGHT 55-18.6N 005-48.2W UNRELIABLE.",
+    "valid_from": "2017-11-25T03:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 194/15(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.97,
+      35.81666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-01-23T08:40:00",
     "raw_dtg": "230840Z JAN 15",
     "msg_id": "HYDROARC 194/15(51)",
-    "cancellations": [
-      "HYDROARC 597/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSTRAIT OF GIBRALTAR.\nDNC 08.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V EDDA FLORA WITH SUBMERSIBLE\nALONG TRACKLINE BETWEEN\n35-49.0N 005-58.2W AND 35-50.4N 005-58.0W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSTRAIT OF GIBRALTAR.\nDNC 08.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V EDDA FLORA WITH SUBMERSIBLE\nALONG TRACKLINE BETWEEN\n35-49.0N 005-58.2W AND 35-50.4N 005-58.0W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2015-01-23T08:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

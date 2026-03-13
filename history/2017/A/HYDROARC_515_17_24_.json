@@ -3,18 +3,25 @@
   "id": "HYDROARC 515/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.075,
+      -22.34
+    ]
   },
   "properties": {
     "dtg": "2017-02-15T00:45:00",
     "raw_dtg": "150045Z FEB 17",
     "msg_id": "HYDROARC 515/17(24)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 180045Z FEB 17",
-      "HYDROARC 515/17"
+      "THIS MSG 180045Z FEB 17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. DERELICT RISER FLOAT ADRIFT IN\n   22-20.4S 040-04.5W AT 142121Z FEB.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 180045Z FEB 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. DERELICT RISER FLOAT ADRIFT IN\n   22-20.4S 040-04.5W AT 142121Z FEB.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 180045Z FEB 17.",
+    "valid_from": "2017-02-15T00:45:00+00:00",
+    "valid_until": "2017-02-18T00:45:00+00:00",
+    "summary": null
   }
 }

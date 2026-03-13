@@ -3,17 +3,25 @@
   "id": "HYDROARC 2150/14(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.511666666666667,
+      54.69833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-09-04T15:22:00",
     "raw_dtg": "041522Z SEP 14",
     "msg_id": "HYDROARC 2150/14(35,36)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2233/14"
+      "2132/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-NORTHEAST COAST.\nCHART 35119\n1. MEW ISLAND LIGHT 54-41.9N 005-30.7W UNRELIABLE.\n2. CANCEL HYDROLANT 2132/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTHEAST COAST.\nCHART 35119\n1. MEW ISLAND LIGHT 54-41.9N 005-30.7W UNRELIABLE.\n2. CANCEL HYDROLANT 2132/14.",
+    "valid_from": "2014-09-04T15:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

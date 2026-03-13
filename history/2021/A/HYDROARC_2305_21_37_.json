@@ -3,17 +3,25 @@
   "id": "HYDROARC 2305/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7666666666666666,
+      51.835
+    ]
   },
   "properties": {
     "dtg": "2021-09-11T03:12:00",
     "raw_dtg": "110312Z SEP 21",
     "msg_id": "HYDROARC 2305/21(37)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 66/22"
+      "309/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. SUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E\n   PERMANENTLY REPLACED BY SAFE WATER BUOY,\n   MO(A) 15 SEC, RACON (C), AIS.\n2. CANCEL HYDROLANT 309/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. SUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E\n   PERMANENTLY REPLACED BY SAFE WATER BUOY,\n   MO(A) 15 SEC, RACON (C), AIS.\n2. CANCEL HYDROLANT 309/21.",
+    "valid_from": "2021-09-11T03:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

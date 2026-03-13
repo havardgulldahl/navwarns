@@ -3,18 +3,25 @@
   "id": "HYDROARC 1893/15(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.365,
+      52.196666666666665
+    ]
   },
   "properties": {
     "dtg": "2015-08-03T04:10:00",
     "raw_dtg": "030410Z AUG 15",
     "msg_id": "HYDROARC 1893/15(36,37)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 071700Z AUG 15",
-      "HYDROARC 1893/15"
+      "THIS MSG 071700Z AUG 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND.\nWALES.\nDNC 20.\nCHART 35000.\n1. WORMLEIGHTON DGPS STATION 52-11.8N 001-21.9W\n   OFF AIR 0800Z TO 1600Z DAILY 03 THRU 07 AUG.\n2. CANCEL THIS MSG 071700Z AUG 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND.\nWALES.\nDNC 20.\nCHART 35000.\n1. WORMLEIGHTON DGPS STATION 52-11.8N 001-21.9W\n   OFF AIR 0800Z TO 1600Z DAILY 03 THRU 07 AUG.\n2. CANCEL THIS MSG 071700Z AUG 15.",
+    "valid_from": "2015-08-03T04:10:00+00:00",
+    "valid_until": "2015-08-07T17:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 1792/16(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      5.19,
+      41.598333333333336
+    ]
   },
   "properties": {
     "dtg": "2016-07-15T19:24:00",
     "raw_dtg": "151924Z JUL 16",
     "msg_id": "HYDROARC 1792/16(53)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 181924Z JUL 16",
-      "HYDROARC 1792/16"
+      "THIS MSG 181924Z JUL 16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nDNC 08.\n1. DERELICT LIFERAFT ADRIFT IN 41-35.9N 005-11.4E\n   AT 151500Z JUL.\n2. CANCEL THIS MSG 181924Z JUL 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nDNC 08.\n1. DERELICT LIFERAFT ADRIFT IN 41-35.9N 005-11.4E\n   AT 151500Z JUL.\n2. CANCEL THIS MSG 181924Z JUL 16.",
+    "valid_from": "2016-07-15T19:24:00+00:00",
+    "valid_until": "2016-07-18T19:24:00+00:00",
+    "summary": null
   }
 }

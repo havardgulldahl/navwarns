@@ -3,17 +3,23 @@
   "id": "HYDROARC 912/14(24,25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.705,
+      20.581666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-04-03T21:55:00",
     "raw_dtg": "032155Z APR 14",
     "msg_id": "HYDROARC 912/14(24,25)",
-    "cancellations": [
-      "HYDROARC 1004/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nPOSSIBLE SUNKEN CATAMARAN IN 20-34.9N 047-42.3W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041, E-MAIL: SSJCC@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nPOSSIBLE SUNKEN CATAMARAN IN 20-34.9N 047-42.3W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041, E-MAIL: SSJCC@USCG.MIL.",
+    "valid_from": "2014-04-03T21:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

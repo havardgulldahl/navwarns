@@ -3,17 +3,23 @@
   "id": "HYDROARC 3360/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.243333333333333,
+      57.64833333333333
+    ]
   },
   "properties": {
     "dtg": "2016-12-13T10:53:00",
     "raw_dtg": "131053Z DEC 16",
     "msg_id": "HYDROARC 3360/16(35)",
-    "cancellations": [
-      "HYDROARC 3373/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nRADIO SERVICES.\nDNC 20.\nCGOC ABERDEEN MF DSC AT WINDY HEAD\n57-38.9N 002-14.6W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nRADIO SERVICES.\nDNC 20.\nCGOC ABERDEEN MF DSC AT WINDY HEAD\n57-38.9N 002-14.6W OFF AIR.",
+    "valid_from": "2016-12-13T10:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

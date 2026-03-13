@@ -3,17 +3,23 @@
   "id": "HYDROARC 2405/17(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -59.88666666666667,
+      -45.485
+    ]
   },
   "properties": {
     "dtg": "2017-08-04T02:51:00",
     "raw_dtg": "040251Z AUG 17",
     "msg_id": "HYDROARC 2405/17(23)",
-    "cancellations": [
-      "HYDROARC 2436/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\nSURVEY OPERATIONS IN PROGRESS\nUNTIL FURTHER NOTICE BY M/V A.R.A. AUSTRAL\nIN 45-29.1S 059-53.2W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\nSURVEY OPERATIONS IN PROGRESS\nUNTIL FURTHER NOTICE BY M/V A.R.A. AUSTRAL\nIN 45-29.1S 059-53.2W.",
+    "valid_from": "2017-08-04T02:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

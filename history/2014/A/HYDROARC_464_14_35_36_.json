@@ -3,17 +3,23 @@
   "id": "HYDROARC 464/14(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.06,
+      56.071666666666665
+    ]
   },
   "properties": {
     "dtg": "2014-02-15T01:56:00",
     "raw_dtg": "150156Z FEB 14",
     "msg_id": "HYDROARC 464/14(35,36)",
-    "cancellations": [
-      "HYDROARC 467/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nCHART 35000\nSTIRLING DGPS STATION 56-04.3N 004-03.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nCHART 35000\nSTIRLING DGPS STATION 56-04.3N 004-03.6W UNRELIABLE.",
+    "valid_from": "2014-02-15T01:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

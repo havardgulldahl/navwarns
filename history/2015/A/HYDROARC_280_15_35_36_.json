@@ -3,17 +3,23 @@
   "id": "HYDROARC 280/15(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.93,
+      52.123333333333335
+    ]
   },
   "properties": {
     "dtg": "2015-02-02T02:15:00",
     "raw_dtg": "020215Z FEB 15",
     "msg_id": "HYDROARC 280/15(35,36)",
-    "cancellations": [
-      "HYDROARC 281/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "IRELAND-SOUTHEAST COAST.\nDNC 19.\nCHART 36002.\nHOOK HEAD LIGHT 52-07.4N 006-55.8W RACON INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-SOUTHEAST COAST.\nDNC 19.\nCHART 36002.\nHOOK HEAD LIGHT 52-07.4N 006-55.8W RACON INOPERATIVE.",
+    "valid_from": "2015-02-02T02:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

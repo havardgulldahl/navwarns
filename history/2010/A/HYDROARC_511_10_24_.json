@@ -1,19 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 511/10(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-03-24T10:40:00",
     "raw_dtg": "241040Z MAR 10",
     "msg_id": "HYDROARC 511/10(24)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 511/10"
+      "1924/07",
+      "493/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCANCEL HYDROLANT 1924/07, 493/10 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCANCEL HYDROLANT 1924/07, 493/10 AND THIS MSG.",
+    "valid_from": "2010-03-24T10:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

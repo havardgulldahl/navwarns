@@ -3,17 +3,23 @@
   "id": "HYDROARC 393/17(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2017-11-21T08:47:00",
     "raw_dtg": "210847Z NOV 17",
     "msg_id": "HYDROARC 393/17(15)",
-    "cancellations": [
-      "HYDROARC 394/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DAVIS STRAIT.\nCANADA-NORTHEAST COAST.\nDNC 28.\nMCTS IQALUIT CENTRE 63-43.8N 068-32.7W NBDP AND DSC\nSERVICES INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DAVIS STRAIT.\nCANADA-NORTHEAST COAST.\nDNC 28.\nMCTS IQALUIT CENTRE 63-43.8N 068-32.7W NBDP AND DSC\nSERVICES INOPERATIVE.",
+    "valid_from": "2017-11-21T08:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

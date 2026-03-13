@@ -3,18 +3,25 @@
   "id": "HYDROARC 348/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3316666666666666,
+      50.675
+    ]
   },
   "properties": {
     "dtg": "2020-01-31T22:17:00",
     "raw_dtg": "312217Z JAN 20",
     "msg_id": "HYDROARC 348/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 032217Z FEB 20",
-      "HYDROARC 358/20"
+      "THIS MSG 032217Z FEB 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\n1. SPECIAL BUOY ADRIFT IN 50-40.5N 001-19.9E\n   AT 311620Z JAN.\n2. CANCEL THIS MSG 032217Z FEB 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\n1. SPECIAL BUOY ADRIFT IN 50-40.5N 001-19.9E\n   AT 311620Z JAN.\n2. CANCEL THIS MSG 032217Z FEB 20.",
+    "valid_from": "2020-01-31T22:17:00+00:00",
+    "valid_until": "2020-02-03T22:17:00+00:00",
+    "summary": null
   }
 }

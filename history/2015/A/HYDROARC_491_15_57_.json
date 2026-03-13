@@ -3,17 +3,25 @@
   "id": "HYDROARC 491/15(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      16.176666666666666,
+      -28.683333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-02-27T20:48:00",
     "raw_dtg": "272048Z FEB 15",
     "msg_id": "HYDROARC 491/15(57)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 519/15"
+      "215/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY:\n   A. M/V CORAL SEA IN 28-38S 015-52E.\n   B. M/V GARIEP IN 28-41.0S 016-10.6E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 215/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY:\n   A. M/V CORAL SEA IN 28-38S 015-52E.\n   B. M/V GARIEP IN 28-41.0S 016-10.6E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 215/15.",
+    "valid_from": "2015-02-27T20:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

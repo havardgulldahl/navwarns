@@ -2,18 +2,40 @@
   "type": "Feature",
   "id": "HYDROARC 3099/17(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        26.423333333333332,
+        35.26
+      ],
+      [
+        27.131666666666668,
+        34.751666666666665
+      ],
+      [
+        27.498333333333335,
+        34.583333333333336
+      ],
+      [
+        27.265,
+        34.595
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-09-29T13:00:00",
     "raw_dtg": "291300Z SEP 17",
     "msg_id": "HYDROARC 3099/17(54)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 3107/17"
+      "3091/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nAEGEAN SEA.\nDNC 09, DNC 10.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V ODIN FINDER\n   IN VICINITY OF TRACKLINE JOINING\n   35-15.6N 026-25.4E, 34-45.1N 027-07.9E,\n   34-35.0N 027-29.9E, 34-35.7N 027-15.9E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3091/17."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nAEGEAN SEA.\nDNC 09, DNC 10.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V ODIN FINDER\n   IN VICINITY OF TRACKLINE JOINING\n   35-15.6N 026-25.4E, 34-45.1N 027-07.9E,\n   34-35.0N 027-29.9E, 34-35.7N 027-15.9E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3091/17.",
+    "valid_from": "2017-09-29T13:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2032/12(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-09-03T13:32:00",
     "raw_dtg": "031332Z SEP 12",
     "msg_id": "HYDROARC 2032/12(36)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 061331Z SEP 12",
-      "HYDROARC 2032/12"
+      "THIS MSG 061331Z SEP 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCELTIC SEA.\n1. LIFEBOAT ADRIFT VICINITY 49-41N 011-18W\n   AT 031145Z SEP.\n2. CANCEL THIS MSG 061331Z SEP 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCELTIC SEA.\n1. LIFEBOAT ADRIFT VICINITY 49-41N 011-18W\n   AT 031145Z SEP.\n2. CANCEL THIS MSG 061331Z SEP 12.",
+    "valid_from": "2012-09-03T13:32:00+00:00",
+    "valid_until": "2012-09-06T13:31:00+00:00",
+    "summary": null
   }
 }

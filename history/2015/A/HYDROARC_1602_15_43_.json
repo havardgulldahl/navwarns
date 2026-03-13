@@ -3,18 +3,25 @@
   "id": "HYDROARC 1602/15(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      5.18,
+      64.29833333333333
+    ]
   },
   "properties": {
     "dtg": "2015-06-30T15:54:00",
     "raw_dtg": "301554Z JUN 15",
     "msg_id": "HYDROARC 1602/15(43)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 031554Z JUL 15",
-      "HYDROARC 1602/15"
+      "THIS MSG 031554Z JUL 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nORDNANCE.\nDNC 21.\n1. POSSIBLE MINE ADRIFT VICINITY\n   64-17.9N 005-10.8E AT 301330Z JUN.\n2. CANCEL THIS MSG 031554Z JUL 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nORDNANCE.\nDNC 21.\n1. POSSIBLE MINE ADRIFT VICINITY\n   64-17.9N 005-10.8E AT 301330Z JUN.\n2. CANCEL THIS MSG 031554Z JUL 15.",
+    "valid_from": "2015-06-30T15:54:00+00:00",
+    "valid_until": "2015-07-03T15:54:00+00:00",
+    "summary": null
   }
 }

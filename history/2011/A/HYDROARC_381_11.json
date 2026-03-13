@@ -1,19 +1,19 @@
 {
   "type": "Feature",
   "id": "HYDROARC 381/11",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2011-03-07T08:49:00",
     "raw_dtg": "070849Z MAR 11",
     "msg_id": "HYDROARC 381/11",
-    "cancellations": [
-      "HYDROARC 385/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BALTIC SEA.\nNAVTEX.\nNAVTEX STATIONS BJUROKLUBB, GRIMETON\nAND GISLOVSHAMMAR OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BALTIC SEA.\nNAVTEX.\nNAVTEX STATIONS BJUROKLUBB, GRIMETON\nAND GISLOVSHAMMAR OFF AIR.",
+    "valid_from": "2011-03-07T08:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

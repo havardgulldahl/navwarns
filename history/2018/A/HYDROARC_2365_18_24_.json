@@ -3,17 +3,25 @@
   "id": "HYDROARC 2365/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.406666666666666,
+      -20.703333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-07-21T02:51:00",
     "raw_dtg": "210251Z JUL 18",
     "msg_id": "HYDROARC 2365/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2656/18"
+      "THIS MSG 18 JAN 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. ILHA ESCALVADA LIGHT 20-42.2S 040-24.4W UNLIT\n   UNTIL 17 JAN 19.\n2. CANCEL THIS MSG 18 JAN 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. ILHA ESCALVADA LIGHT 20-42.2S 040-24.4W UNLIT\n   UNTIL 17 JAN 19.\n2. CANCEL THIS MSG 18 JAN 19.",
+    "valid_from": "2018-07-21T02:51:00+00:00",
+    "valid_until": "2019-01-18T00:00:00+00:00",
+    "summary": null
   }
 }

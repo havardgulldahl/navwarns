@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 621/15",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-03-14T11:45:00",
     "raw_dtg": "141145Z MAR 15",
     "msg_id": "HYDROARC 621/15",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 621/15"
+      "THIS MSG 16 MAR 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "MARITIME SAFETY INFORMATION WEBSITE.\n1. DUE TO TECHNICAL DIFFICULTIES, DNC LIBRARY H1508770,\n   MOBILE BAY, ALABAMA, IS UNAVAILABLE FOR DOWNLOAD.\n   FOR URGENT SERVICE CONTACT NGA NAVSAFETY,\n   E-MAIL: MCDDNC@NGA.MIL.\n2. CANCEL THIS MSG 16 MAR 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "MARITIME SAFETY INFORMATION WEBSITE.\n1. DUE TO TECHNICAL DIFFICULTIES, DNC LIBRARY H1508770,\n   MOBILE BAY, ALABAMA, IS UNAVAILABLE FOR DOWNLOAD.\n   FOR URGENT SERVICE CONTACT NGA NAVSAFETY,\n   E-MAIL: MCDDNC@NGA.MIL.\n2. CANCEL THIS MSG 16 MAR 15.",
+    "valid_from": "2015-03-14T11:45:00+00:00",
+    "valid_until": "2015-03-16T00:00:00+00:00",
+    "summary": null
   }
 }

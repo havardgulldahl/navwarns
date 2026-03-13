@@ -3,18 +3,25 @@
   "id": "HYDROARC 668/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.1466666666666665,
+      50.45666666666666
+    ]
   },
   "properties": {
     "dtg": "2016-03-18T13:20:00",
     "raw_dtg": "181320Z MAR 16",
     "msg_id": "HYDROARC 668/16(36)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 211320Z MAR 16",
-      "HYDROARC 668/16"
+      "THIS MSG 211320Z MAR 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. SUBMERGED CONTAINER ADRIFT IN\n   50-27.4N 005-08.8W AT 181100Z MAR.\n2. CANCEL THIS MSG 211320Z MAR 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\n1. SUBMERGED CONTAINER ADRIFT IN\n   50-27.4N 005-08.8W AT 181100Z MAR.\n2. CANCEL THIS MSG 211320Z MAR 16.",
+    "valid_from": "2016-03-18T13:20:00+00:00",
+    "valid_until": "2016-03-21T13:20:00+00:00",
+    "summary": null
   }
 }

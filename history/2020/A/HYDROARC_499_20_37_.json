@@ -3,17 +3,23 @@
   "id": "HYDROARC 499/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5666666666666667,
+      51.87833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-02-11T21:24:00",
     "raw_dtg": "112124Z FEB 20",
     "msg_id": "HYDROARC 499/20(37)",
-    "cancellations": [
-      "HYDROARC 532/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nSOUTH SHIPWASH BUOY 51-52.7N 001-34.0E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nSOUTH SHIPWASH BUOY 51-52.7N 001-34.0E UNLIT.",
+    "valid_from": "2020-02-11T21:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

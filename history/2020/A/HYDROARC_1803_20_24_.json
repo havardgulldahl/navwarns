@@ -3,17 +3,25 @@
   "id": "HYDROARC 1803/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.134166666666665,
+      -22.93777777777778
+    ]
   },
   "properties": {
     "dtg": "2020-05-29T09:30:00",
     "raw_dtg": "290930Z MAY 20",
     "msg_id": "HYDROARC 1803/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 1819/20"
+      "THIS MSG 26 NOV 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. SANTA CRUZ LIGHT 22-56-16S 043-08-03W UNLIT\n   UNTIL 25 NOV.\n2. CANCEL THIS MSG 26 NOV 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. SANTA CRUZ LIGHT 22-56-16S 043-08-03W UNLIT\n   UNTIL 25 NOV.\n2. CANCEL THIS MSG 26 NOV 20.",
+    "valid_from": "2020-05-29T09:30:00+00:00",
+    "valid_until": "2020-11-26T00:00:00+00:00",
+    "summary": null
   }
 }

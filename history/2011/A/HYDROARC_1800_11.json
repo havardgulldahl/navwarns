@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1800/11",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2011-10-31T23:26:00",
     "raw_dtg": "312326Z OCT 11",
     "msg_id": "HYDROARC 1800/11",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 1800/11"
+      "1546/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nLIBYA.\nCANCEL HYDROLANT 1546/11 AND THIS MSG,\nOPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nLIBYA.\nCANCEL HYDROLANT 1546/11 AND THIS MSG,\nOPERATIONS COMPLETED.",
+    "valid_from": "2011-10-31T23:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

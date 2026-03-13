@@ -1,19 +1,19 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1222/11",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2011-08-01T22:07:00",
     "raw_dtg": "012207Z AUG 11",
     "msg_id": "HYDROARC 1222/11",
-    "cancellations": [
-      "HYDROARC 1222/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION ANTHORN, RATE 6731-Y,\n   OFF AIR 040930Z TO 041730Z AUG.\n2. CANCEL THIS MSG 041830Z AUG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION ANTHORN, RATE 6731-Y,\n   OFF AIR 040930Z TO 041730Z AUG.\n2. CANCEL THIS MSG 041830Z AUG.",
+    "valid_from": "2011-08-01T22:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

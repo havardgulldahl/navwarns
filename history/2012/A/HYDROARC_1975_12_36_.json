@@ -3,17 +3,23 @@
   "id": "HYDROARC 1975/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.8066666666666666,
+      54.833333333333336
+    ]
   },
   "properties": {
     "dtg": "2012-08-28T06:11:00",
     "raw_dtg": "280611Z AUG 12",
     "msg_id": "HYDROARC 1975/12(36)",
-    "cancellations": [
-      "HYDROARC 2002/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTHERN IRISH SEA.\nSOLWAY FIRTH.\nCHART 36025\nHESTAN ISLAND LIGHT 54-50.0N 003-48.4W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTHERN IRISH SEA.\nSOLWAY FIRTH.\nCHART 36025\nHESTAN ISLAND LIGHT 54-50.0N 003-48.4W UNLIT.",
+    "valid_from": "2012-08-28T06:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

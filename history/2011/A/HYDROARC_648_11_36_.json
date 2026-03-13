@@ -3,17 +3,23 @@
   "id": "HYDROARC 648/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.846666666666667,
+      50.18833333333333
+    ]
   },
   "properties": {
     "dtg": "2011-04-18T09:09:00",
     "raw_dtg": "180909Z APR 11",
     "msg_id": "HYDROARC 648/11(36)",
-    "cancellations": [
-      "HYDROARC 656/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP IT INTERCEPTOR WITH SUBMERSIBLE VICINITY\n50-11.3N 005-50.8W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP IT INTERCEPTOR WITH SUBMERSIBLE VICINITY\n50-11.3N 005-50.8W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2011-04-18T09:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,27 @@
   "id": "HYDROARC 2882/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -10.706666666666667,
+      48.485
+    ]
   },
   "properties": {
     "dtg": "2013-11-15T11:42:00",
     "raw_dtg": "151142Z NOV 13",
     "msg_id": "HYDROARC 2882/13(36)",
+    "year": 2013,
     "cancellations": [
       "THIS MSG 181150Z NOV 13",
-      "HYDROARC 2882/13"
+      "2875/13",
+      "2843/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. ODAS BUOY K1 ADRIFT IN 48-29.1N 010-42.4W\n   AT 150800Z NOV.\n2. CANCEL HYDROLANT 2875/13(35), STATION RESTORED.\n3. CANCEL HYDROLANT 2843/13.\n4. CANCEL THIS MSG 181150Z NOV 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. ODAS BUOY K1 ADRIFT IN 48-29.1N 010-42.4W\n   AT 150800Z NOV.\n2. CANCEL HYDROLANT 2875/13(35), STATION RESTORED.\n3. CANCEL HYDROLANT 2843/13.\n4. CANCEL THIS MSG 181150Z NOV 13.",
+    "valid_from": "2013-11-15T11:42:00+00:00",
+    "valid_until": "2013-11-18T11:50:00+00:00",
+    "summary": null
   }
 }

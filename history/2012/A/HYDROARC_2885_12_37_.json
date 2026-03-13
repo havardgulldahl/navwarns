@@ -3,17 +3,23 @@
   "id": "HYDROARC 2885/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.905,
+      51.855
+    ]
   },
   "properties": {
     "dtg": "2012-12-06T11:10:00",
     "raw_dtg": "061110Z DEC 12",
     "msg_id": "HYDROARC 2885/12(37)",
-    "cancellations": [
-      "HYDROARC 2890/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37244\nDANGEROUS WRECK IN 51-51.3N 002-54.3E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37244\nDANGEROUS WRECK IN 51-51.3N 002-54.3E.",
+    "valid_from": "2012-12-06T11:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

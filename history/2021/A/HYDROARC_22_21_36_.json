@@ -3,17 +3,25 @@
   "id": "HYDROARC 22/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.581666666666667,
+      53.843333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-01-04T12:51:00",
     "raw_dtg": "041251Z JAN 21",
     "msg_id": "HYDROARC 22/21(36)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 76/21"
+      "3987/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\n1. CABLE OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP ILE DE BATZ\n   IN VICINITY OF TRACKLINE JOINING\n   53-50.6N 004-34.9W, 53-51.0N 004-59.4W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3987/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\n1. CABLE OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP ILE DE BATZ\n   IN VICINITY OF TRACKLINE JOINING\n   53-50.6N 004-34.9W, 53-51.0N 004-59.4W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3987/20.",
+    "valid_from": "2021-01-04T12:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

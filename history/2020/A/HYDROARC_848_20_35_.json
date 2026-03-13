@@ -3,17 +3,25 @@
   "id": "HYDROARC 848/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.025,
+      58.64388888888889
+    ]
   },
   "properties": {
     "dtg": "2020-03-04T20:48:00",
     "raw_dtg": "042048Z MAR 20",
     "msg_id": "HYDROARC 848/20(35)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 848/20"
+      "THIS MSG 07 MAR 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nORKNEY ISLANDS.\nDNC 20.\n1. DUNCANSBY HEAD LIGHT 58-38-38N 003-01-30W\n   UNRELIABLE UNTIL 06 MAR.\n2. CANCEL THIS MSG 07 MAR 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nORKNEY ISLANDS.\nDNC 20.\n1. DUNCANSBY HEAD LIGHT 58-38-38N 003-01-30W\n   UNRELIABLE UNTIL 06 MAR.\n2. CANCEL THIS MSG 07 MAR 20.",
+    "valid_from": "2020-03-04T20:48:00+00:00",
+    "valid_until": "2020-03-07T00:00:00+00:00",
+    "summary": null
   }
 }

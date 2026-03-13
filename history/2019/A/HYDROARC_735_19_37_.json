@@ -3,17 +3,25 @@
   "id": "HYDROARC 735/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.485,
+      53.19833333333333
+    ]
   },
   "properties": {
     "dtg": "2019-03-07T15:30:00",
     "raw_dtg": "071530Z MAR 19",
     "msg_id": "HYDROARC 735/19(37)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1225/19"
+      "233/19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37166.\n1. MAIN NAVIGATIONAL LIGHTS AT BESSEMER GAS PLATFORM,\n   53-11.9N 002-29.1E INOPERATIVE.\n2. CANCEL HYDROLANT 233/19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37166.\n1. MAIN NAVIGATIONAL LIGHTS AT BESSEMER GAS PLATFORM,\n   53-11.9N 002-29.1E INOPERATIVE.\n2. CANCEL HYDROLANT 233/19.",
+    "valid_from": "2019-03-07T15:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

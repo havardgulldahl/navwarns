@@ -3,17 +3,23 @@
   "id": "HYDROARC 2994/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.095,
+      0.6466666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-12-20T00:33:00",
     "raw_dtg": "200033Z DEC 12",
     "msg_id": "HYDROARC 2994/12(24)",
-    "cancellations": [
-      "HYDROARC 2600/13"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24321\nRACON AT PONTA DO SANTAREM LIGHT 00-38.8N 050-05.7W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24321\nRACON AT PONTA DO SANTAREM LIGHT 00-38.8N 050-05.7W INOPERATIVE.",
+    "valid_from": "2012-12-20T00:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 967/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.81333333333333,
+      -28.60333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-06-10T00:42:00",
     "raw_dtg": "100042Z JUN 11",
     "msg_id": "HYDROARC 967/11(24)",
-    "cancellations": [
-      "HYDROARC 2110/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nRACON AT CABO SANTA MARTA LIGHT\n28-36.2S 048-48.8W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nRACON AT CABO SANTA MARTA LIGHT\n28-36.2S 048-48.8W INOPERATIVE.",
+    "valid_from": "2011-06-10T00:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

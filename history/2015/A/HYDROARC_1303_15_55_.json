@@ -2,19 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 1303/15(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.13333333333333,
+          45.03333333333333
+        ],
+        [
+          32.54333333333334,
+          44.916666666666664
+        ],
+        [
+          32.82333333333333,
+          44.693333333333335
+        ],
+        [
+          32.666666666666664,
+          44.608333333333334
+        ],
+        [
+          32.2,
+          44.68333333333333
+        ],
+        [
+          32.00833333333333,
+          44.74333333333333
+        ],
+        [
+          32.13333333333333,
+          45.03333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-05-28T14:08:00",
     "raw_dtg": "281408Z MAY 15",
     "msg_id": "HYDROARC 1303/15(55)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 301900Z MAY 15",
-      "HYDROARC 1303/15"
+      "THIS MSG 301900Z MAY 15"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nGUNNERY. MISSILES.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0500Z TO 1800Z DAILY\n   29 AND 30 MAY IN AREA BOUND BY\n   45-02.0N 032-08.0E, 44-55.0N 032-32.6E,\n   44-41.6N 032-49.4E, 44-36.5N 032-40.0E,\n   44-41.0N 032-12.0E, 44-44.6N 032-00.5E.\n2. CANCEL THIS MSG 301900Z MAY 15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nGUNNERY. MISSILES.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0500Z TO 1800Z DAILY\n   29 AND 30 MAY IN AREA BOUND BY\n   45-02.0N 032-08.0E, 44-55.0N 032-32.6E,\n   44-41.6N 032-49.4E, 44-36.5N 032-40.0E,\n   44-41.0N 032-12.0E, 44-44.6N 032-00.5E.\n2. CANCEL THIS MSG 301900Z MAY 15.",
+    "valid_from": "2015-05-28T14:08:00+00:00",
+    "valid_until": "2015-05-30T19:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2361/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.2866666666666666,
+      50.745
+    ]
   },
   "properties": {
     "dtg": "2016-09-11T11:12:00",
     "raw_dtg": "111112Z SEP 16",
     "msg_id": "HYDROARC 2361/16(37)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 141112Z SEP 16",
-      "HYDROARC 2361/16"
+      "THIS MSG 141112Z SEP 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDOVER STRAIT.\nDNC 20.\n1. TEN METER LONG TIMBER ADRIFT IN\n   50-44.7N 001-17.2E AT 110945Z SEP.\n2. CANCEL THIS MSG 141112Z SEP 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDOVER STRAIT.\nDNC 20.\n1. TEN METER LONG TIMBER ADRIFT IN\n   50-44.7N 001-17.2E AT 110945Z SEP.\n2. CANCEL THIS MSG 141112Z SEP 16.",
+    "valid_from": "2016-09-11T11:12:00+00:00",
+    "valid_until": "2016-09-14T11:12:00+00:00",
+    "summary": null
   }
 }

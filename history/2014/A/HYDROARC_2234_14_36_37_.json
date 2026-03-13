@@ -3,18 +3,25 @@
   "id": "HYDROARC 2234/14(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201666666666666,
+      49.96
+    ]
   },
   "properties": {
     "dtg": "2014-09-15T21:19:00",
     "raw_dtg": "152119Z SEP 14",
     "msg_id": "HYDROARC 2234/14(36,37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 181700Z SEP 14",
-      "HYDROARC 2234/14"
+      "THIS MSG 181700Z SEP 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36049\n1. DGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W\n   INOPERATIVE 0800Z TO 1600Z DAILY 16 THRU 18 SEP.\n2. CANCEL THIS MSG 181700Z SEP 14."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36049\n1. DGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W\n   INOPERATIVE 0800Z TO 1600Z DAILY 16 THRU 18 SEP.\n2. CANCEL THIS MSG 181700Z SEP 14.",
+    "valid_from": "2014-09-15T21:19:00+00:00",
+    "valid_until": "2014-09-18T17:00:00+00:00",
+    "summary": null
   }
 }

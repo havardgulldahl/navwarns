@@ -3,18 +3,26 @@
   "id": "HYDROARC 1825/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.616666666666667,
+      47.873333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-08-09T04:50:00",
     "raw_dtg": "090450Z AUG 12",
     "msg_id": "HYDROARC 1825/12(36)",
+    "year": 2012,
     "cancellations": [
       "THIS MSG 120449Z AUG 12",
-      "HYDROARC 1825/12"
+      "1820/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. NUMEROUS CONTAINERS ADRIFT VICINITY\n   47-52.4N 009-37.0W AT 081950Z AUG.\n2. CANCEL HYDROLANT 1820/12.\n3. CANCEL THIS MSG 120449Z AUG 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. NUMEROUS CONTAINERS ADRIFT VICINITY\n   47-52.4N 009-37.0W AT 081950Z AUG.\n2. CANCEL HYDROLANT 1820/12.\n3. CANCEL THIS MSG 120449Z AUG 12.",
+    "valid_from": "2012-08-09T04:50:00+00:00",
+    "valid_until": "2012-08-12T04:49:00+00:00",
+    "summary": null
   }
 }

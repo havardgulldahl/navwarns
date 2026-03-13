@@ -3,17 +3,23 @@
   "id": "HYDROARC 2023/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.2616666666666667,
+      56.85166666666667
+    ]
   },
   "properties": {
     "dtg": "2017-06-30T22:22:00",
     "raw_dtg": "302222Z JUN 17",
     "msg_id": "HYDROARC 2023/17(35)",
-    "cancellations": [
-      "HYDROARC 2039/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\nDSC STATION INVERBERVIE 56-51.1N 002-15.7W OFF\nAIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\nDSC STATION INVERBERVIE 56-51.1N 002-15.7W OFF\nAIR.",
+    "valid_from": "2017-06-30T22:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

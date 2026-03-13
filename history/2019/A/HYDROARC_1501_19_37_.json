@@ -3,18 +3,26 @@
   "id": "HYDROARC 1501/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2983333333333333,
+      50.575
+    ]
   },
   "properties": {
     "dtg": "2019-05-16T16:54:00",
     "raw_dtg": "161654Z MAY 19",
     "msg_id": "HYDROARC 1501/19(37)",
+    "year": 2019,
     "cancellations": [
       "THIS MSG 171700Z MAY 19",
-      "HYDROARC 1501/19"
+      "1463/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37095.\n1. DGPS STATION AT ST CATHERINES POINT LIGHT\n   50-34.5N 001-17.9W OFF AIR 0800Z TO 1600Z\n   DAILY 16 THRU 17 MAY.\n2. CANCEL HYDROLANT 1463/19.\n3. CANCEL THIS MSG 171700Z MAY 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37095.\n1. DGPS STATION AT ST CATHERINES POINT LIGHT\n   50-34.5N 001-17.9W OFF AIR 0800Z TO 1600Z\n   DAILY 16 THRU 17 MAY.\n2. CANCEL HYDROLANT 1463/19.\n3. CANCEL THIS MSG 171700Z MAY 19.",
+    "valid_from": "2019-05-16T16:54:00+00:00",
+    "valid_until": "2019-05-17T17:00:00+00:00",
+    "summary": null
   }
 }

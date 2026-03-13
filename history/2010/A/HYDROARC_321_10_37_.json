@@ -3,17 +3,23 @@
   "id": "HYDROARC 321/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.401666666666666,
+      48.99
+    ]
   },
   "properties": {
     "dtg": "2010-02-19T15:17:00",
     "raw_dtg": "191517Z FEB 10",
     "msg_id": "HYDROARC 321/10(37)",
-    "cancellations": [
-      "HYDROARC 360/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37050 (9TH ED).\nRACON AT NORTHEAST BUOY 48-59.4N 005-24.1W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37050 (9TH ED).\nRACON AT NORTHEAST BUOY 48-59.4N 005-24.1W INOPERATIVE.",
+    "valid_from": "2010-02-19T15:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

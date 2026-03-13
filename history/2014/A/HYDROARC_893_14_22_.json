@@ -3,17 +3,25 @@
   "id": "HYDROARC 893/14(22)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -67.69166666666666,
+      -53.45
+    ]
   },
   "properties": {
     "dtg": "2014-04-02T09:22:00",
     "raw_dtg": "020922Z APR 14",
     "msg_id": "HYDROARC 893/14(22)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 904/14"
+      "884/14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA-SOUTHEAST COAST.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V PUERTO DESEADO VICINITY\n   53-27.0S 067-41.5W.\n2. CANCEL HYDROLANT 884/14."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA-SOUTHEAST COAST.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V PUERTO DESEADO VICINITY\n   53-27.0S 067-41.5W.\n2. CANCEL HYDROLANT 884/14.",
+    "valid_from": "2014-04-02T09:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

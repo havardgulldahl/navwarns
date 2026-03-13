@@ -3,17 +3,25 @@
   "id": "HYDROARC 2896/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8966666666666665,
+      53.725
+    ]
   },
   "properties": {
     "dtg": "2013-11-16T13:39:00",
     "raw_dtg": "161339Z NOV 13",
     "msg_id": "HYDROARC 2896/13(37)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2949/13"
+      "2707/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37058\n1. FOG SIGNAL AT PLATFORM 48/10-ND 53-43.5N 001-53.8E INOPERATIVE.\n2. CANCEL HYDROLANT 2707/13, AIDS RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37058\n1. FOG SIGNAL AT PLATFORM 48/10-ND 53-43.5N 001-53.8E INOPERATIVE.\n2. CANCEL HYDROLANT 2707/13, AIDS RESTORED.",
+    "valid_from": "2013-11-16T13:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

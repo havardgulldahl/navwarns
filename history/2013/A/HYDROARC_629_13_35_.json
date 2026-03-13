@@ -3,17 +3,23 @@
   "id": "HYDROARC 629/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.248333333333333,
+      55.27333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-03-13T14:17:00",
     "raw_dtg": "131417Z MAR 13",
     "msg_id": "HYDROARC 629/13(35)",
-    "cancellations": [
-      "HYDROARC 1118/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-NORTH COAST.\nCHART 35121\nTORY ISLAND LIGHT 55-16.4N 008-14.9W RANGE REDUCED TO 18 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTH COAST.\nCHART 35121\nTORY ISLAND LIGHT 55-16.4N 008-14.9W RANGE REDUCED TO 18 MILES.",
+    "valid_from": "2013-03-13T14:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

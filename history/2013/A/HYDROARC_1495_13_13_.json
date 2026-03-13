@@ -3,17 +3,23 @@
   "id": "HYDROARC 1495/13(13)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.8725,
+      40.278333333333336
+    ]
   },
   "properties": {
     "dtg": "2013-06-18T00:37:00",
     "raw_dtg": "180037Z JUN 13",
     "msg_id": "HYDROARC 1495/13(13)",
-    "cancellations": [
-      "HYDROARC 1758/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nM/V AURA UNREPORTED. LAST KNOWN POSITION\n40-16.7N 068-52.35W AT 171730Z JUN. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nM/V AURA UNREPORTED. LAST KNOWN POSITION\n40-16.7N 068-52.35W AT 171730Z JUN. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2013-06-18T00:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

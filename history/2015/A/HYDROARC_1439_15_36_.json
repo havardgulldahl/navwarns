@@ -3,17 +3,23 @@
   "id": "HYDROARC 1439/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.658333333333333,
+      54.22666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-06-13T00:41:00",
     "raw_dtg": "130041Z JUN 15",
     "msg_id": "HYDROARC 1439/15(36)",
-    "cancellations": [
-      "HYDROARC 1446/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTHERN IRELAND-EAST COAST.\nCHART 36006.\nDNC 20.\nST JOHN'S POINT LIGHT 54-13.6N 005-39.5W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTHERN IRELAND-EAST COAST.\nCHART 36006.\nDNC 20.\nST JOHN'S POINT LIGHT 54-13.6N 005-39.5W UNLIT.",
+    "valid_from": "2015-06-13T00:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 1852/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.395,
+      47.79666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-07-13T21:56:00",
     "raw_dtg": "132156Z JUL 21",
     "msg_id": "HYDROARC 1852/21(37)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 162156Z JUL 21",
-      "HYDROARC 1852/21"
+      "THIS MSG 162156Z JUL 21"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\n1. DERELICT S/V ADRIFT IN VICINITY\n   47-47.8N 005-23.7W AT 132105Z JUL.\n2. CANCEL THIS MSG 162156Z JUL 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\n1. DERELICT S/V ADRIFT IN VICINITY\n   47-47.8N 005-23.7W AT 132105Z JUL.\n2. CANCEL THIS MSG 162156Z JUL 21.",
+    "valid_from": "2021-07-13T21:56:00+00:00",
+    "valid_until": "2021-07-16T21:56:00+00:00",
+    "summary": null
   }
 }

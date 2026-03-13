@@ -3,17 +3,23 @@
   "id": "HYDROARC 3189/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.075,
+      58.105
+    ]
   },
   "properties": {
     "dtg": "2018-10-10T20:06:00",
     "raw_dtg": "102006Z OCT 18",
     "msg_id": "HYDROARC 3189/18(35)",
-    "cancellations": [
-      "HYDROARC 3201/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\nAll NAVIGATIONAL AIDS AT BEATRICE OIL FIELD\nWIND TURBINE A,\n58-06.3N 003-04.5W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\nAll NAVIGATIONAL AIDS AT BEATRICE OIL FIELD\nWIND TURBINE A,\n58-06.3N 003-04.5W INOPERATIVE.",
+    "valid_from": "2018-10-10T20:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 543/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.36833333333333335,
+      54.43333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-02-17T06:24:00",
     "raw_dtg": "170624Z FEB 17",
     "msg_id": "HYDROARC 543/17(37)",
-    "cancellations": [
-      "HYDROARC 566/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS\nUNTIL FURTHER NOTICE BY CABLESHIP\nWAVE SENTINEL WITH SUBMERSIBLE\nIN VICINITY OF TRACKLINE BETWEEN\n54-26.0N 000-22.1E AND 54-30.3N 000-35.0E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS\nUNTIL FURTHER NOTICE BY CABLESHIP\nWAVE SENTINEL WITH SUBMERSIBLE\nIN VICINITY OF TRACKLINE BETWEEN\n54-26.0N 000-22.1E AND 54-30.3N 000-35.0E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2017-02-17T06:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

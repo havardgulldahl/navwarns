@@ -3,17 +3,23 @@
   "id": "HYDROARC 143/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.2533333333333334,
+      53.446666666666665
+    ]
   },
   "properties": {
     "dtg": "2011-01-24T02:34:00",
     "raw_dtg": "240234Z JAN 11",
     "msg_id": "HYDROARC 143/11(37)",
-    "cancellations": [
-      "HYDROARC 509/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37057 (2ND ED).\nALL NAVIGATIONAL AIDS AT PLATFORM 49/17-GD\n53-26.8N 002-15.2E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37057 (2ND ED).\nALL NAVIGATIONAL AIDS AT PLATFORM 49/17-GD\n53-26.8N 002-15.2E INOPERATIVE.",
+    "valid_from": "2011-01-24T02:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

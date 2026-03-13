@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1236/10(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-07-01T14:22:00",
     "raw_dtg": "011422Z JUL 10",
     "msg_id": "HYDROARC 1236/10(37)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1236/10"
+      "1233/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCANCEL HYDROLANT 1233/10 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCANCEL HYDROLANT 1233/10 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2010-07-01T14:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

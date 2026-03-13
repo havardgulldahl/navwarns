@@ -3,17 +3,23 @@
   "id": "HYDROARC 2440/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.058333333333333,
+      53.651666666666664
+    ]
   },
   "properties": {
     "dtg": "2019-08-10T00:46:00",
     "raw_dtg": "100046Z AUG 19",
     "msg_id": "HYDROARC 2440/19(37)",
-    "cancellations": [
-      "HYDROARC 2489/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37058.\nALL NAVIGATIONAL AIDS AT TETHYS PLATFORM\n53-39.1N 002-03.5E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37058.\nALL NAVIGATIONAL AIDS AT TETHYS PLATFORM\n53-39.1N 002-03.5E INOPERATIVE.",
+    "valid_from": "2019-08-10T00:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

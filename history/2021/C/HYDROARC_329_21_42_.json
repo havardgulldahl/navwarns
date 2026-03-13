@@ -3,17 +3,23 @@
   "id": "HYDROARC 329/21(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      60.56,
+      69.70833333333333
+    ]
   },
   "properties": {
     "dtg": "2021-11-23T14:12:00",
     "raw_dtg": "231412Z NOV 21",
     "msg_id": "HYDROARC 329/21(42)",
-    "cancellations": [
-      "HYDROARC 60/22"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nDANGEROUS WRECK IN 69-42.5N 060-33.6E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nDANGEROUS WRECK IN 69-42.5N 060-33.6E.",
+    "valid_from": "2021-11-23T14:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

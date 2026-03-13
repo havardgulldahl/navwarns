@@ -3,17 +3,23 @@
   "id": "HYDROARC 1015/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.526666666666666,
+      50.11
+    ]
   },
   "properties": {
     "dtg": "2015-04-27T09:20:00",
     "raw_dtg": "270920Z APR 15",
     "msg_id": "HYDROARC 1015/15(36)",
-    "cancellations": [
-      "HYDROARC 1049/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nPENZANCE BAY.\nDNC 20.\nCHART 36049.\nTHE GEAR LIGHT 50-06.6N 005-31.6W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nPENZANCE BAY.\nDNC 20.\nCHART 36049.\nTHE GEAR LIGHT 50-06.6N 005-31.6W UNLIT.",
+    "valid_from": "2015-04-27T09:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

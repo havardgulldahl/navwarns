@@ -3,17 +3,23 @@
   "id": "HYDROARC 937/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7833333333333332,
+      51.31
+    ]
   },
   "properties": {
     "dtg": "2022-04-01T21:30:00",
     "raw_dtg": "012130Z APR 22",
     "msg_id": "HYDROARC 937/22(37)",
-    "cancellations": [
-      "HYDROARC 972/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nMID FALLS BUOY 51-18.6N 001-47.0E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nMID FALLS BUOY 51-18.6N 001-47.0E UNLIT.",
+    "valid_from": "2022-04-01T21:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

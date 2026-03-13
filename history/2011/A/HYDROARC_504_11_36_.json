@@ -3,17 +3,23 @@
   "id": "HYDROARC 504/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.048333333333333,
+      50.35333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-03-26T01:18:00",
     "raw_dtg": "260118Z MAR 11",
     "msg_id": "HYDROARC 504/11(36)",
-    "cancellations": [
-      "HYDROARC 537/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL VICINITY\n50-21.2N 006-02.9W. WIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL VICINITY\n50-21.2N 006-02.9W. WIDE BERTH REQUESTED.",
+    "valid_from": "2011-03-26T01:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

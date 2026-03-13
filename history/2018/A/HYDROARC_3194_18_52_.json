@@ -3,17 +3,25 @@
   "id": "HYDROARC 3194/18(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.368333333333334,
+      37.986666666666665
+    ]
   },
   "properties": {
     "dtg": "2018-10-11T13:17:00",
     "raw_dtg": "111317Z OCT 18",
     "msg_id": "HYDROARC 3194/18(52)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3194/18"
+      "THIS MSG 14 OCT 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   37-59.2N 008-22.1E ON 10 OCT.\n2. CANCEL THIS MSG 14 OCT 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   37-59.2N 008-22.1E ON 10 OCT.\n2. CANCEL THIS MSG 14 OCT 18.",
+    "valid_from": "2018-10-11T13:17:00+00:00",
+    "valid_until": "2018-10-14T00:00:00+00:00",
+    "summary": null
   }
 }

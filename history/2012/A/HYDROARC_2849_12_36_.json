@@ -3,17 +3,23 @@
   "id": "HYDROARC 2849/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.4,
+      50.24333333333333
+    ]
   },
   "properties": {
     "dtg": "2012-12-02T21:34:00",
     "raw_dtg": "022134Z DEC 12",
     "msg_id": "HYDROARC 2849/12(36)",
-    "cancellations": [
-      "HYDROARC 2860/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36035\n1. GODREVY ISLAND LIGHT 50-14.6N 005-24.0W UNLIT.\n2. HYDROLANT 2329/12 REFERS."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36035\n1. GODREVY ISLAND LIGHT 50-14.6N 005-24.0W UNLIT.\n2. HYDROLANT 2329/12 REFERS.",
+    "valid_from": "2012-12-02T21:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

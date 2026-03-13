@@ -3,17 +3,23 @@
   "id": "HYDROARC 93/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.408333333333333,
+      59.085
+    ]
   },
   "properties": {
     "dtg": "2018-01-08T17:01:00",
     "raw_dtg": "081701Z JAN 18",
     "msg_id": "HYDROARC 93/18(35)",
-    "cancellations": [
-      "HYDROARC 151/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nCHART 35001.\nSULE SKERRY LIGHT 59-05.1N 004-24.5W INOPERATIVE."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nCHART 35001.\nSULE SKERRY LIGHT 59-05.1N 004-24.5W INOPERATIVE.",
+    "valid_from": "2018-01-08T17:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

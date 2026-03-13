@@ -3,17 +3,25 @@
   "id": "HYDROARC 1188/10(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      29.198333333333334,
+      41.28
+    ]
   },
   "properties": {
     "dtg": "2010-06-25T16:45:00",
     "raw_dtg": "251645Z JUN 10",
     "msg_id": "HYDROARC 1188/10(55)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1188/10"
+      "1160/10"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nTURKEY.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0700Z TO 1400Z\n   DAILY 28 JUN AND 01 JUL WITHIN\n   TWO MILES OF 41-16.8N 029-11.9E.\n2. CANCEL HYDROLANT 1160/10(24).\n3. CANCEL THIS MSG 011500Z JUL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nTURKEY.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0700Z TO 1400Z\n   DAILY 28 JUN AND 01 JUL WITHIN\n   TWO MILES OF 41-16.8N 029-11.9E.\n2. CANCEL HYDROLANT 1160/10(24).\n3. CANCEL THIS MSG 011500Z JUL.",
+    "valid_from": "2010-06-25T16:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

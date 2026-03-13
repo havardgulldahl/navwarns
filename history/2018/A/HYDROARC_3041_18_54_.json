@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 3041/18(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.285,
+          34.723333333333336
+        ],
+        [
+          33.281666666666666,
+          34.721666666666664
+        ],
+        [
+          33.285,
+          34.708333333333336
+        ],
+        [
+          33.29,
+          34.71
+        ],
+        [
+          33.285,
+          34.723333333333336
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-09-26T21:09:00",
     "raw_dtg": "262109Z SEP 18",
     "msg_id": "HYDROARC 3041/18(54)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 021000Z OCT 18",
-      "HYDROARC 3041/18"
+      "THIS MSG 021000Z OCT 18"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. HAZARDOUS OPERATIONS 280500Z TO 281300Z SEP\n   AND 020600Z TO 020900Z OCT IN AREA BOUND BY\n   34-43.4N 033-17.1E, 34-43.3N 033-16.9E,\n   34-42.5N 033-17.1E, 34-42.6N 033-17.4E.\n2. CANCEL THIS MSG 021000Z OCT 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. HAZARDOUS OPERATIONS 280500Z TO 281300Z SEP\n   AND 020600Z TO 020900Z OCT IN AREA BOUND BY\n   34-43.4N 033-17.1E, 34-43.3N 033-16.9E,\n   34-42.5N 033-17.1E, 34-42.6N 033-17.4E.\n2. CANCEL THIS MSG 021000Z OCT 18.",
+    "valid_from": "2018-09-26T21:09:00+00:00",
+    "valid_until": "2018-10-02T10:00:00+00:00",
+    "summary": null
   }
 }

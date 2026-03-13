@@ -3,17 +3,23 @@
   "id": "HYDROARC 1023/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3866666666666667,
+      53.305
+    ]
   },
   "properties": {
     "dtg": "2021-04-14T19:10:00",
     "raw_dtg": "141910Z APR 21",
     "msg_id": "HYDROARC 1023/21(37)",
-    "cancellations": [
-      "HYDROARC 1041/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nHAZARDOUS OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE IN AREA WITHIN 500 METERS\nOF 53-18.3N 001-23.2E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nHAZARDOUS OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE IN AREA WITHIN 500 METERS\nOF 53-18.3N 001-23.2E.",
+    "valid_from": "2021-04-14T19:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

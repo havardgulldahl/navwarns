@@ -3,17 +3,25 @@
   "id": "HYDROARC 562/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.31,
+      -20.303333333333335
+    ]
   },
   "properties": {
     "dtg": "2015-03-08T14:03:00",
     "raw_dtg": "081403Z MAR 15",
     "msg_id": "HYDROARC 562/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 620/15"
+      "THIS MSG 03 SEP 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. MORRO GRANDE LIGHT 20-18.2S 040-18.6W UNRELIABLE.\n2. CANCEL THIS MSG 03 SEP 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. MORRO GRANDE LIGHT 20-18.2S 040-18.6W UNRELIABLE.\n2. CANCEL THIS MSG 03 SEP 15.",
+    "valid_from": "2015-03-08T14:03:00+00:00",
+    "valid_until": "2015-09-03T00:00:00+00:00",
+    "summary": null
   }
 }

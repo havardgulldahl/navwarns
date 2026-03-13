@@ -3,17 +3,23 @@
   "id": "HYDROARC 2372/10",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.365,
+      52.196666666666665
+    ]
   },
   "properties": {
     "dtg": "2010-12-09T00:52:00",
     "raw_dtg": "090052Z DEC 10",
     "msg_id": "HYDROARC 2372/10",
-    "cancellations": [
-      "HYDROARC 2374/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND.\nWALES.\n1. WORMLEIGHTON DGPS STATION 52-11.8N 001-21.9W\n   OFF AIR 090900Z TO 091200Z DEC.\n2. CANCEL THIS MSG 091300Z DEC."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND.\nWALES.\n1. WORMLEIGHTON DGPS STATION 52-11.8N 001-21.9W\n   OFF AIR 090900Z TO 091200Z DEC.\n2. CANCEL THIS MSG 091300Z DEC.",
+    "valid_from": "2010-12-09T00:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

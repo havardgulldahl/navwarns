@@ -3,17 +3,25 @@
   "id": "HYDROARC 2063/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.34,
+      47.181666666666665
+    ]
   },
   "properties": {
     "dtg": "2010-10-29T16:14:00",
     "raw_dtg": "291614Z OCT 10",
     "msg_id": "HYDROARC 2063/10(37)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 2066/10"
+      "2047/10"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT VESSEL ADRIFT VICINITY\n   47-10.9N 007-20.4W AT 290430Z OCT.\n2. CANCEL HYDROLANT 2047/10.\n3. CANCEL THIS MSG 011615Z NOV."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT VESSEL ADRIFT VICINITY\n   47-10.9N 007-20.4W AT 290430Z OCT.\n2. CANCEL HYDROLANT 2047/10.\n3. CANCEL THIS MSG 011615Z NOV.",
+    "valid_from": "2010-10-29T16:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

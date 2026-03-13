@@ -3,17 +3,23 @@
   "id": "HYDROARC 2348/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.468333333333334,
+      -1.475
+    ]
   },
   "properties": {
     "dtg": "2013-09-23T09:33:00",
     "raw_dtg": "230933Z SEP 13",
     "msg_id": "HYDROARC 2348/13(24)",
-    "cancellations": [
-      "HYDROARC 2359/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nVESSEL SANK IN 01-28.5S 048-28.1W AT 212240Z SEP.\nONE PERSON MISSING. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nVESSEL SANK IN 01-28.5S 048-28.1W AT 212240Z SEP.\nONE PERSON MISSING. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2013-09-23T09:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

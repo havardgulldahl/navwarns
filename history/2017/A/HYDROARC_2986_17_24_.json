@@ -3,17 +3,25 @@
   "id": "HYDROARC 2986/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.365,
+      -2.5216666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-09-23T13:43:00",
     "raw_dtg": "231343Z SEP 17",
     "msg_id": "HYDROARC 2986/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2986/17"
+      "THIS MSG 22 MAR 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. ILHA DO MEDO LIGHT 02-31.3S 044-21.9W\n   INOPERATIVE UNTIL 21 MAR 18.\n2. CANCEL THIS MSG 22 MAR 18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. ILHA DO MEDO LIGHT 02-31.3S 044-21.9W\n   INOPERATIVE UNTIL 21 MAR 18.\n2. CANCEL THIS MSG 22 MAR 18.",
+    "valid_from": "2017-09-23T13:43:00+00:00",
+    "valid_until": "2018-03-22T00:00:00+00:00",
+    "summary": null
   }
 }

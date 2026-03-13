@@ -3,17 +3,25 @@
   "id": "HYDROARC 1430/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.511666666666667,
+      54.89666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-06-12T04:20:00",
     "raw_dtg": "120420Z JUN 15",
     "msg_id": "HYDROARC 1430/15(36)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 1447/15"
+      "1421/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V SURF RANGER WITH SUBMERSIBLE\n   VICINITY 54-53.8N 005-30.7W.\n2. CANCEL HYDROLANT 1421/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V SURF RANGER WITH SUBMERSIBLE\n   VICINITY 54-53.8N 005-30.7W.\n2. CANCEL HYDROLANT 1421/15.",
+    "valid_from": "2015-06-12T04:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

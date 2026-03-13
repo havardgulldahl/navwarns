@@ -2,19 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 296/22(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.05,
+          44.96666666666667
+        ],
+        [
+          33.181666666666665,
+          44.86
+        ],
+        [
+          33.18333333333333,
+          44.791666666666664
+        ],
+        [
+          33.09166666666667,
+          44.75
+        ],
+        [
+          32.915,
+          44.88
+        ],
+        [
+          33.05,
+          44.96666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2022-01-30T14:53:00",
     "raw_dtg": "301453Z JAN 22",
     "msg_id": "HYDROARC 296/22(55)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 281800Z FEB 22",
-      "HYDROARC 296/22"
+      "THIS MSG 281800Z FEB 22"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0500Z TO 1700Z DAILY\n   01 THRU 28 FEB EXCEPT SUNDAYS\n   IN AREAS BOUND BY\n   44-58.0N 033-03.0E, 44-51.6N 033-10.9E,\n   44-47.5N 033-11.0E, 44-45.0N 033-05.5E,\n   44-52.8N 032-54.9E.\n2. CANCEL THIS MSG 281800Z FEB 22."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0500Z TO 1700Z DAILY\n   01 THRU 28 FEB EXCEPT SUNDAYS\n   IN AREAS BOUND BY\n   44-58.0N 033-03.0E, 44-51.6N 033-10.9E,\n   44-47.5N 033-11.0E, 44-45.0N 033-05.5E,\n   44-52.8N 032-54.9E.\n2. CANCEL THIS MSG 281800Z FEB 22.",
+    "valid_from": "2022-01-30T14:53:00+00:00",
+    "valid_until": "2022-02-28T18:00:00+00:00",
+    "summary": null
   }
 }

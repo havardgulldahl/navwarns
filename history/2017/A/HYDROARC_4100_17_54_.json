@@ -2,19 +2,47 @@
   "type": "Feature",
   "id": "HYDROARC 4100/17(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.766666666666666,
+          34.57833333333333
+        ],
+        [
+          33.245,
+          34.525
+        ],
+        [
+          33.233333333333334,
+          34.13
+        ],
+        [
+          31.776666666666667,
+          34.185
+        ],
+        [
+          31.766666666666666,
+          34.57833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-12-18T12:11:00",
     "raw_dtg": "181211Z DEC 17",
     "msg_id": "HYDROARC 4100/17(54)",
+    "year": 2017,
     "cancellations": [
       "THIS MSG 242300Z DEC 17",
-      "HYDROARC 4100/17"
+      "4081/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nDNC 10.\n1. SURVEY OPERATIONS 190600Z TO 242200Z DEC\n   BY M/V ODIN FINDER IN AREA BOUND BY\n   34-34.7N 031-46.0E, 34-31.5N 033-14.7E,\n   34-07.8N 033-14.0E, 34-11.1N 031-46.6E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4081/17.\n3. CANCEL THIS MSG 242300Z DEC 17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nDNC 10.\n1. SURVEY OPERATIONS 190600Z TO 242200Z DEC\n   BY M/V ODIN FINDER IN AREA BOUND BY\n   34-34.7N 031-46.0E, 34-31.5N 033-14.7E,\n   34-07.8N 033-14.0E, 34-11.1N 031-46.6E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4081/17.\n3. CANCEL THIS MSG 242300Z DEC 17.",
+    "valid_from": "2017-12-18T12:11:00+00:00",
+    "valid_until": "2017-12-24T23:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3519/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0533333333333332,
+      57.126666666666665
+    ]
   },
   "properties": {
     "dtg": "2019-11-17T02:19:00",
     "raw_dtg": "170219Z NOV 19",
     "msg_id": "HYDROARC 3519/19(35)",
-    "cancellations": [
-      "HYDROARC 3544/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCGOC ABERDEEN MF DSC SERVICES AT GREG NESS SITE\n57-07.6N 002-03.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCGOC ABERDEEN MF DSC SERVICES AT GREG NESS SITE\n57-07.6N 002-03.2W UNRELIABLE.",
+    "valid_from": "2019-11-17T02:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

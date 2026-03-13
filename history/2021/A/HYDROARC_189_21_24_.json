@@ -3,18 +3,25 @@
   "id": "HYDROARC 189/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.946666666666665,
+      0.99
+    ]
   },
   "properties": {
     "dtg": "2021-01-21T01:01:00",
     "raw_dtg": "210101Z JAN 21",
     "msg_id": "HYDROARC 189/21(24)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 191800Z JUL 21",
-      "HYDROARC 189/21"
+      "THIS MSG 191800Z JUL 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. BAILIQUE LIGHT 00-59.4N 049-56.8W UNLIT UNTIL\n   191700Z JUL 21.\n2. CANCEL THIS MSG 191800Z JUL 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. BAILIQUE LIGHT 00-59.4N 049-56.8W UNLIT UNTIL\n   191700Z JUL 21.\n2. CANCEL THIS MSG 191800Z JUL 21.",
+    "valid_from": "2021-01-21T01:01:00+00:00",
+    "valid_until": "2021-07-19T18:00:00+00:00",
+    "summary": null
   }
 }

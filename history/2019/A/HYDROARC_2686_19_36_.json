@@ -3,17 +3,23 @@
   "id": "HYDROARC 2686/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.925,
+      53.31
+    ]
   },
   "properties": {
     "dtg": "2019-09-03T10:23:00",
     "raw_dtg": "031023Z SEP 19",
     "msg_id": "HYDROARC 2686/19(36)",
-    "cancellations": [
-      "HYDROARC 2708/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nIRELAND.\nDNC 19, DNC 20.\nKISH BANK LIGHT 53-18.6N 005-55.5W UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nIRELAND.\nDNC 19, DNC 20.\nKISH BANK LIGHT 53-18.6N 005-55.5W UNLIT.",
+    "valid_from": "2019-09-03T10:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

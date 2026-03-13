@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 2745/19(55)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        30.489166666666666,
-        46.089166666666664
-      ],
-      [
-        30.878666666666668,
-        45.762
-      ],
-      [
-        30.1755,
-        45.299166666666665
-      ],
-      [
-        29.79,
-        45.6175
+        [
+          30.489166666666666,
+          46.089166666666664
+        ],
+        [
+          30.878666666666668,
+          45.762
+        ],
+        [
+          30.1755,
+          45.299166666666665
+        ],
+        [
+          29.79,
+          45.6175
+        ],
+        [
+          30.489166666666666,
+          46.089166666666664
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2019-09-09T14:36:00",
     "raw_dtg": "091436Z SEP 19",
     "msg_id": "HYDROARC 2745/19(55)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 132130Z SEP 19",
-      "HYDROARC 2745/19"
+      "THIS MSG 132130Z SEP 19"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0930Z TO 2030Z DAILY\n   11 THRU 13 SEP IN AREA BOUND BY\n   46-05.35N 030-29.35E, 45-45.72N 030-52.72E,\n   45-17.95N 030-10.53E, 45-37.05N 029-47.40E.\n2. CANCEL THIS MSG 132130Z SEP 19."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0930Z TO 2030Z DAILY\n   11 THRU 13 SEP IN AREA BOUND BY\n   46-05.35N 030-29.35E, 45-45.72N 030-52.72E,\n   45-17.95N 030-10.53E, 45-37.05N 029-47.40E.\n2. CANCEL THIS MSG 132130Z SEP 19.",
+    "valid_from": "2019-09-09T14:36:00+00:00",
+    "valid_until": "2019-09-13T21:30:00+00:00",
+    "summary": null
   }
 }

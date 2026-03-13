@@ -3,17 +3,23 @@
   "id": "HYDROARC 2209/11(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.375,
+      5.528333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-12-21T01:07:00",
     "raw_dtg": "210107Z DEC 11",
     "msg_id": "HYDROARC 2209/11(57)",
-    "cancellations": [
-      "HYDROARC 2209/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "GULF OF GUINEA.\n1. DERELICT VESSEL TEJARO ADRIFT\n   VICINITY 05-31.7N 001-22.5E AT 201145Z.\n2. CANCEL THIS MSG 240115Z DEC."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\n1. DERELICT VESSEL TEJARO ADRIFT\n   VICINITY 05-31.7N 001-22.5E AT 201145Z.\n2. CANCEL THIS MSG 240115Z DEC.",
+    "valid_from": "2011-12-21T01:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

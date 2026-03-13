@@ -3,17 +3,23 @@
   "id": "HYDROARC 736/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.95,
+      57.395
+    ]
   },
   "properties": {
     "dtg": "2010-04-27T11:50:00",
     "raw_dtg": "271150Z APR 10",
     "msg_id": "HYDROARC 736/10(35)",
-    "cancellations": [
-      "HYDROARC 748/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z DAILY 28 THRU 30 APR\n   WITHIN 47 MILES OF 57-23.7N 008-57.0W.\n2. CANCEL THIS MSG 302100Z APR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z DAILY 28 THRU 30 APR\n   WITHIN 47 MILES OF 57-23.7N 008-57.0W.\n2. CANCEL THIS MSG 302100Z APR.",
+    "valid_from": "2010-04-27T11:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

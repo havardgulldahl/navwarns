@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3203/19(43)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-10-19T09:39:00",
     "raw_dtg": "190939Z OCT 19",
     "msg_id": "HYDROARC 3203/19(43)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3203/19"
+      "3085/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCANCEL HYDROLANT 3085/19 AND THIS MSG,\nOPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCANCEL HYDROLANT 3085/19 AND THIS MSG,\nOPERATIONS COMPLETED.",
+    "valid_from": "2019-10-19T09:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

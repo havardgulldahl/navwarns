@@ -3,17 +3,23 @@
   "id": "HYDROARC 993/17(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.265,
+      50.18
+    ]
   },
   "properties": {
     "dtg": "2017-03-28T01:21:00",
     "raw_dtg": "280121Z MAR 17",
     "msg_id": "HYDROARC 993/17(36,37)",
-    "cancellations": [
-      "HYDROARC 1028/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 36050.\nEDDYSTONE LIGHT 50-10.8N 004-15.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 36050.\nEDDYSTONE LIGHT 50-10.8N 004-15.9W UNRELIABLE.",
+    "valid_from": "2017-03-28T01:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

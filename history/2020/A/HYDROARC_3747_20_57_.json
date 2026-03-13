@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 3747/20(57)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         1.501,
@@ -50,11 +50,16 @@
     "dtg": "2020-12-01T21:32:00",
     "raw_dtg": "012132Z DEC 20",
     "msg_id": "HYDROARC 3747/20(57)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3747/20"
+      "THIS MSG 14 DEC 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nTOGO.\nDNC 01.\n1. CABLE OPERATIONS 02 THRU 13 DEC BY\n   CABLESHIP RESPONDER AND M/V MED SURVEYOR\n   ALONG TRACKLINE JOINING\n   06-12.45N 001-30.06E, 06-09.60N 001-30.32E,\n   06-05.40N 001-31.09E, 05-57.53N 001-31.29E,\n   05-51.90N 001-30.52E, 05-49.83N 001-29.59E,\n   05-47.03N 001-28.65E, 05-44.91N 001-28.56E,\n   05-41.12N 001-28.72E, 05-37.97N 001-29.47E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 14 DEC 20."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nTOGO.\nDNC 01.\n1. CABLE OPERATIONS 02 THRU 13 DEC BY\n   CABLESHIP RESPONDER AND M/V MED SURVEYOR\n   ALONG TRACKLINE JOINING\n   06-12.45N 001-30.06E, 06-09.60N 001-30.32E,\n   06-05.40N 001-31.09E, 05-57.53N 001-31.29E,\n   05-51.90N 001-30.52E, 05-49.83N 001-29.59E,\n   05-47.03N 001-28.65E, 05-44.91N 001-28.56E,\n   05-41.12N 001-28.72E, 05-37.97N 001-29.47E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 14 DEC 20.",
+    "valid_from": "2020-12-01T21:32:00+00:00",
+    "valid_until": "2020-12-14T00:00:00+00:00",
+    "summary": null
   }
 }

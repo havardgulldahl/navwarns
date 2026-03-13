@@ -3,17 +3,26 @@
   "id": "HYDROARC 532/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6066666666666667,
+      51.221666666666664
+    ]
   },
   "properties": {
     "dtg": "2022-02-22T14:33:00",
     "raw_dtg": "221433Z FEB 22",
     "msg_id": "HYDROARC 532/22(37)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 580/22"
+      "478/22",
+      "517/22"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\n1. EAST GOODWIN LIGHTFLOAT IN 51-13.3N 001-36.4E\n   UNLIT, RACON INOPERATIVE AND OFF STATION.\n2. CANCEL HYDROLANT 478/22, 517/22(57)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\n1. EAST GOODWIN LIGHTFLOAT IN 51-13.3N 001-36.4E\n   UNLIT, RACON INOPERATIVE AND OFF STATION.\n2. CANCEL HYDROLANT 478/22, 517/22(57).",
+    "valid_from": "2022-02-22T14:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

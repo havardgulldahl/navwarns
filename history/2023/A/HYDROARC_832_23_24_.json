@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 832/23(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -46.9105,
-        -1.7855
-      ],
-      [
-        -43.805,
-        -1.7855
-      ],
-      [
-        -43.805,
-        -1.8168333333333333
-      ],
-      [
-        -43.9105,
-        -1.8168333333333333
+        [
+          -46.9105,
+          -1.7855
+        ],
+        [
+          -43.805,
+          -1.7855
+        ],
+        [
+          -43.805,
+          -1.8168333333333333
+        ],
+        [
+          -43.9105,
+          -1.8168333333333333
+        ],
+        [
+          -46.9105,
+          -1.7855
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2023-04-17T21:14:00",
     "raw_dtg": "172114Z APR 23",
     "msg_id": "HYDROARC 832/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 291100Z APR 23",
-      "HYDROARC 833/23"
+      "THIS MSG 291100Z APR 23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   291000Z APR BY M/V NHO G SAMPAIO AND\n   M/V NHIB TEN CASTELO IN AREA BOUND BY\n   01-47.13S 046-54.63W, 01-47.13S 043-48.30W,\n   01-49.01S 043-48.30W, 01-49.01S 043-54.63W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 291100Z APR 23."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   291000Z APR BY M/V NHO G SAMPAIO AND\n   M/V NHIB TEN CASTELO IN AREA BOUND BY\n   01-47.13S 046-54.63W, 01-47.13S 043-48.30W,\n   01-49.01S 043-48.30W, 01-49.01S 043-54.63W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 291100Z APR 23.",
+    "valid_from": "2023-04-17T21:14:00+00:00",
+    "valid_until": "2023-04-29T11:00:00+00:00",
+    "summary": null
   }
 }

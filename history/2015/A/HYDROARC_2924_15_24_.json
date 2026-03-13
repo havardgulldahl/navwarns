@@ -3,17 +3,25 @@
   "id": "HYDROARC 2924/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.62166666666667,
+      -11.955
+    ]
   },
   "properties": {
     "dtg": "2015-11-27T00:04:00",
     "raw_dtg": "270004Z NOV 15",
     "msg_id": "HYDROARC 2924/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 3084/15"
+      "THIS MSG 24 MAY 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24210.\n1. ITARIRI LIGHT 11-57.3S 037-37.3W UNRELIABLE.\n2. CANCEL THIS MSG 24 MAY 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24210.\n1. ITARIRI LIGHT 11-57.3S 037-37.3W UNRELIABLE.\n2. CANCEL THIS MSG 24 MAY 16.",
+    "valid_from": "2015-11-27T00:04:00+00:00",
+    "valid_until": "2016-05-24T00:00:00+00:00",
+    "summary": null
   }
 }

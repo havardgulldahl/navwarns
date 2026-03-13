@@ -3,17 +3,23 @@
   "id": "HYDROARC 2636/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.226666666666667,
+      56.72666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-08-29T16:03:00",
     "raw_dtg": "291603Z AUG 17",
     "msg_id": "HYDROARC 2636/17(35)",
-    "cancellations": [
-      "HYDROARC 3229/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF HEBRIDES.\nSCOTLAND.\nDNC 19, DNC 20.\nCHART 35015.\nARDNAMURCHAN LIGHT 56-43.6N 006-13.6W RANGE\nTEMPORARILY REDUCED TO 12 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF HEBRIDES.\nSCOTLAND.\nDNC 19, DNC 20.\nCHART 35015.\nARDNAMURCHAN LIGHT 56-43.6N 006-13.6W RANGE\nTEMPORARILY REDUCED TO 12 MILES.",
+    "valid_from": "2017-08-29T16:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

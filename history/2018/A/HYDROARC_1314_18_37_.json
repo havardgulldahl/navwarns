@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 1314/18(37)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         2.2216666666666667,
@@ -22,11 +22,14 @@
     "dtg": "2018-04-25T20:42:00",
     "raw_dtg": "252042Z APR 18",
     "msg_id": "HYDROARC 1314/18(37)",
-    "cancellations": [
-      "HYDROARC 1782/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nFRANCE.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V HAVILA PHOENIX IN VICINITY OF\nTRACKLINE JOINING\n51-19.10N 002-13.30E, 51-18.80N 002-16.50E,\n51-20.20N 002-22.50E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nFRANCE.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V HAVILA PHOENIX IN VICINITY OF\nTRACKLINE JOINING\n51-19.10N 002-13.30E, 51-18.80N 002-16.50E,\n51-20.20N 002-22.50E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2018-04-25T20:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

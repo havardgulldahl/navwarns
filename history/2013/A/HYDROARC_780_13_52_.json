@@ -3,17 +3,25 @@
   "id": "HYDROARC 780/13(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.27,
+      36.995
+    ]
   },
   "properties": {
     "dtg": "2013-03-27T14:47:00",
     "raw_dtg": "271447Z MAR 13",
     "msg_id": "HYDROARC 780/13(52)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 780/13"
+      "THIS MSG 05 APR 13"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA-NORTHEAST COAST.\nORDNANCE.\n1. TORPEDO FIRING EXERCISES 01 THRU 04 APR\n   WITHIN 2000 METERS OF 36-59.7N 010-16.2E.\n2. CANCEL THIS MSG 05 APR 13."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA-NORTHEAST COAST.\nORDNANCE.\n1. TORPEDO FIRING EXERCISES 01 THRU 04 APR\n   WITHIN 2000 METERS OF 36-59.7N 010-16.2E.\n2. CANCEL THIS MSG 05 APR 13.",
+    "valid_from": "2013-03-27T14:47:00+00:00",
+    "valid_until": "2013-04-05T00:00:00+00:00",
+    "summary": null
   }
 }

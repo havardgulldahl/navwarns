@@ -3,17 +3,23 @@
   "id": "HYDROARC 112/10(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.4583333333333335,
+      4.66
+    ]
   },
   "properties": {
     "dtg": "2010-01-18T18:45:00",
     "raw_dtg": "181845Z JAN 10",
     "msg_id": "HYDROARC 112/10(57)",
-    "cancellations": [
-      "HYDROARC 112/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 15 MAR\n   BY M/V DEEP WATER PATHFINDER\n   IN 04-39.6N 003-27.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 MAR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 15 MAR\n   BY M/V DEEP WATER PATHFINDER\n   IN 04-39.6N 003-27.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 MAR.",
+    "valid_from": "2010-01-18T18:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

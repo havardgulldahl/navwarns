@@ -3,17 +3,23 @@
   "id": "HYDROARC 644/17(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.875,
+      37.498333333333335
+    ]
   },
   "properties": {
     "dtg": "2017-02-26T17:25:00",
     "raw_dtg": "261725Z FEB 17",
     "msg_id": "HYDROARC 644/17(52)",
-    "cancellations": [
-      "HYDROARC 822/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nDNC 08.\nCHART 52200.\nGALITON DE L'OUEST LIGHT 37-29.9N 008-52.5E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nDNC 08.\nCHART 52200.\nGALITON DE L'OUEST LIGHT 37-29.9N 008-52.5E UNRELIABLE.",
+    "valid_from": "2017-02-26T17:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

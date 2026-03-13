@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 160/16(42)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-08-10T18:46:00",
     "raw_dtg": "101846Z AUG 16",
     "msg_id": "HYDROARC 160/16(42)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 82/16",
-      "HYDROARC 160/16"
+      "HYDROARC 82/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nDNC 22.\nCANCEL HYDROARC 82/16 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nDNC 22.\nCANCEL HYDROARC 82/16 AND THIS MSG.",
+    "valid_from": "2016-08-10T18:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

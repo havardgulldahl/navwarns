@@ -3,17 +3,26 @@
   "id": "HYDROARC 3111/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.861666666666667,
+      54.026666666666664
+    ]
   },
   "properties": {
     "dtg": "2014-12-21T10:30:00",
     "raw_dtg": "211030Z DEC 14",
     "msg_id": "HYDROARC 3111/14(36)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 3112/14"
+      "3082/14",
+      "3084/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM MILLOM WEST,\n   54-01.6N 003-51.7W INOPERATIVE.\n2. CANCEL HYDROLANT 3082/14, 3084/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM MILLOM WEST,\n   54-01.6N 003-51.7W INOPERATIVE.\n2. CANCEL HYDROLANT 3082/14, 3084/14.",
+    "valid_from": "2014-12-21T10:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

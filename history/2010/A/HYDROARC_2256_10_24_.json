@@ -3,17 +3,23 @@
   "id": "HYDROARC 2256/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.675,
+      -24.48
+    ]
   },
   "properties": {
     "dtg": "2010-11-26T01:29:00",
     "raw_dtg": "260129Z NOV 10",
     "msg_id": "HYDROARC 2256/10(24)",
-    "cancellations": [
-      "HYDROARC 208/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24140 (18TH ED).\nILHA QUEIMADA GRANDE LIGHT 24-28.8S 046-40.5W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24140 (18TH ED).\nILHA QUEIMADA GRANDE LIGHT 24-28.8S 046-40.5W UNLIT.",
+    "valid_from": "2010-11-26T01:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

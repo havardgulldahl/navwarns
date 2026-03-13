@@ -3,17 +3,23 @@
   "id": "HYDROARC 73/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.206666666666667,
+      52.20166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-01-09T01:40:00",
     "raw_dtg": "090140Z JAN 16",
     "msg_id": "HYDROARC 73/16(36)",
-    "cancellations": [
-      "HYDROARC 78/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nSAINT GEORGES CHANNEL.\nDNC 19, DNC 20.\nCHART 36002.\nRACON AT TUSKAR ROCK LIGHT 52-12.1N 006-12.4W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nSAINT GEORGES CHANNEL.\nDNC 19, DNC 20.\nCHART 36002.\nRACON AT TUSKAR ROCK LIGHT 52-12.1N 006-12.4W INOPERATIVE.",
+    "valid_from": "2016-01-09T01:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 4/11(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -54.57333333333333,
+      25.096666666666668
+    ]
   },
   "properties": {
     "dtg": "2011-01-01T15:25:00",
     "raw_dtg": "011525Z JAN 11",
     "msg_id": "HYDROARC 4/11(25)",
-    "cancellations": [
-      "HYDROARC 258/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED IN 25-05.8N 054-34.4W\nAT 011455Z JAN. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC NORFOLK, INMARSAT: 430370670,\nTELEX: 127775, PHONE: 757 398 6231,\nFAX: 757 398 6392, E-MAIL: D05-SMB-D5CC@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED IN 25-05.8N 054-34.4W\nAT 011455Z JAN. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC NORFOLK, INMARSAT: 430370670,\nTELEX: 127775, PHONE: 757 398 6231,\nFAX: 757 398 6392, E-MAIL: D05-SMB-D5CC@USCG.MIL.",
+    "valid_from": "2011-01-01T15:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

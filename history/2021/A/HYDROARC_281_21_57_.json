@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 281/21(57)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-01-30T07:27:00",
     "raw_dtg": "300727Z JAN 21",
     "msg_id": "HYDROARC 281/21(57)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 281/21"
+      "3917/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nGABON.\nDNC 01.\nCANCEL HYDROLANT 3917/20 AND THIS MSG, OPERATIONS\nCOMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nGABON.\nDNC 01.\nCANCEL HYDROLANT 3917/20 AND THIS MSG, OPERATIONS\nCOMPLETED.",
+    "valid_from": "2021-01-30T07:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

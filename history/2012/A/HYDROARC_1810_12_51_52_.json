@@ -3,17 +3,23 @@
   "id": "HYDROARC 1810/12(51,52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.921666666666667,
+      35.791666666666664
+    ]
   },
   "properties": {
     "dtg": "2012-08-07T19:35:00",
     "raw_dtg": "071935Z AUG 12",
     "msg_id": "HYDROARC 1810/12(51,52)",
-    "cancellations": [
-      "HYDROARC 1827/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "MOROCCO-NORTHWEST COAST.\nCHART 52039\nCAP SPARTEL LIGHT 35-47.5N 005-55.3W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "MOROCCO-NORTHWEST COAST.\nCHART 52039\nCAP SPARTEL LIGHT 35-47.5N 005-55.3W UNLIT.",
+    "valid_from": "2012-08-07T19:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

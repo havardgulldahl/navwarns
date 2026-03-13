@@ -3,17 +3,23 @@
   "id": "HYDROARC 730/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.053333333333334,
+      48.47666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-03-27T08:40:00",
     "raw_dtg": "270840Z MAR 16",
     "msg_id": "HYDROARC 730/16(36,37)",
-    "cancellations": [
-      "HYDROARC 733/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nENGLISH CHANNEL.\nFRANCE-NORTHWEST COAST.\nENGLAND-SOUTH COAST.\nNAVTEX.\nDNC 08, DNC 19, DNC 20.\nNAVTEX STATION CORSEN 48-28.6N 005-03.2W UNUSABLE.\nCORSEN BROADCASTS WILL BE TRANSMITTED FROM\nNAVTEX STATION NITON 50-35.2N 001-15.3W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nENGLISH CHANNEL.\nFRANCE-NORTHWEST COAST.\nENGLAND-SOUTH COAST.\nNAVTEX.\nDNC 08, DNC 19, DNC 20.\nNAVTEX STATION CORSEN 48-28.6N 005-03.2W UNUSABLE.\nCORSEN BROADCASTS WILL BE TRANSMITTED FROM\nNAVTEX STATION NITON 50-35.2N 001-15.3W.",
+    "valid_from": "2016-03-27T08:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

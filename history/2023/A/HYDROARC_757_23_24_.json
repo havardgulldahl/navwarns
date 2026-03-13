@@ -3,15 +3,23 @@
   "id": "HYDROARC 757/23(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.14833333333333,
+      -2.45
+    ]
   },
   "properties": {
     "dtg": "2023-04-08T22:00:00",
     "raw_dtg": "082200Z APR 23",
     "msg_id": "HYDROARC 757/23(24)",
+    "year": 2023,
     "cancellations": [],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nPONTA DO ARACAGI LIGHT 02-27.0S 044-08.9W UNLIT."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nPONTA DO ARACAGI LIGHT 02-27.0S 044-08.9W UNLIT.",
+    "valid_from": "2023-04-08T22:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 134/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.166666666666664,
+      -20.291666666666668
+    ]
   },
   "properties": {
     "dtg": "2018-01-12T01:22:00",
     "raw_dtg": "120122Z JAN 18",
     "msg_id": "HYDROARC 134/18(24)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 082100Z FEB 18",
-      "HYDROARC 134/18"
+      "THIS MSG 082100Z FEB 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. UNDERWATER OPERATIONS 1000Z TO 2000Z DAILY\n   13 JAN THRU 08 FEB BY M/V NEW COMMANDER,\n   M/V PROBOAT AND M/V ALTA NAVEGACAO\n   IN 20-17.5S 040-10.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 082100Z FEB 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. UNDERWATER OPERATIONS 1000Z TO 2000Z DAILY\n   13 JAN THRU 08 FEB BY M/V NEW COMMANDER,\n   M/V PROBOAT AND M/V ALTA NAVEGACAO\n   IN 20-17.5S 040-10.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 082100Z FEB 18.",
+    "valid_from": "2018-01-12T01:22:00+00:00",
+    "valid_until": "2018-02-08T21:00:00+00:00",
+    "summary": null
   }
 }

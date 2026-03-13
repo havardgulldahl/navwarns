@@ -12,12 +12,16 @@
     "dtg": "2024-05-04T07:10:00",
     "raw_dtg": "040710Z MAY 24",
     "msg_id": "HYDROARC 72/24(42)",
+    "year": 2024,
     "cancellations": [
-      "THIS MSG 050707Z MAY 24",
-      "HYDROARC 72/24"
+      "THIS MSG 050707Z MAY 24"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN VICINITY\n   77-00.70N 062-06.90E AT 032156Z MAY.\n2. CANCEL THIS MSG 050707Z MAY 24."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN VICINITY\n   77-00.70N 062-06.90E AT 032156Z MAY.\n2. CANCEL THIS MSG 050707Z MAY 24.",
+    "valid_from": "2024-05-04T07:10:00+00:00",
+    "valid_until": "2024-05-05T07:07:00+00:00",
+    "summary": null
   }
 }

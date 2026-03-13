@@ -3,18 +3,25 @@
   "id": "HYDROARC 1715/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.0883333333333334,
+      49.93666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-06-05T16:49:00",
     "raw_dtg": "051649Z JUN 19",
     "msg_id": "HYDROARC 1715/19(37)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 081649Z JUN 19",
-      "HYDROARC 1715/19"
+      "THIS MSG 081649Z JUN 19"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT SIX METER VESSEL, WHITE HULL, ADRIFT\n   IN 49-56.2N 003-05.3W AT 050526Z JUN.\n2. CANCEL THIS MSG 081649Z JUN 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT SIX METER VESSEL, WHITE HULL, ADRIFT\n   IN 49-56.2N 003-05.3W AT 050526Z JUN.\n2. CANCEL THIS MSG 081649Z JUN 19.",
+    "valid_from": "2019-06-05T16:49:00+00:00",
+    "valid_until": "2019-06-08T16:49:00+00:00",
+    "summary": null
   }
 }

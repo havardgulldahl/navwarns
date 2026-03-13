@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2992/18(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.0,
+          46.05
+        ],
+        [
+          36.38333333333333,
+          46.0
+        ],
+        [
+          36.391666666666666,
+          45.733333333333334
+        ],
+        [
+          35.7,
+          45.93333333333333
+        ],
+        [
+          36.0,
+          46.05
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-09-21T16:17:00",
     "raw_dtg": "211617Z SEP 18",
     "msg_id": "HYDROARC 2992/18(55)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 291800Z SEP 18",
-      "HYDROARC 2992/18"
+      "THIS MSG 291800Z SEP 18"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "SEA OF AZOV.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0500Z TO 1700Z DAILY\n   24 THRU 29 SEP IN AREA BOUND BY\n   46-03.0N 036-00.0E, 46-00.0N 036-23.0E,\n   45-44.0N 036-23.5E, 45-56.0N 035-42.0E.\n2. CANCEL THIS MSG 291800Z SEP 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "SEA OF AZOV.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0500Z TO 1700Z DAILY\n   24 THRU 29 SEP IN AREA BOUND BY\n   46-03.0N 036-00.0E, 46-00.0N 036-23.0E,\n   45-44.0N 036-23.5E, 45-56.0N 035-42.0E.\n2. CANCEL THIS MSG 291800Z SEP 18.",
+    "valid_from": "2018-09-21T16:17:00+00:00",
+    "valid_until": "2018-09-29T18:00:00+00:00",
+    "summary": null
   }
 }

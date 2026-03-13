@@ -3,17 +3,23 @@
   "id": "HYDROARC 2453/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7966666666666666,
+      51.325
+    ]
   },
   "properties": {
     "dtg": "2017-08-09T12:00:00",
     "raw_dtg": "091200Z AUG 17",
     "msg_id": "HYDROARC 2453/17(37)",
-    "cancellations": [
-      "HYDROARC 2491/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEOSURVEYOR XI IN VICINITY OF TRACKLINE BETWEEN\n51-19.5N 001-47.8E AND 51-19.1N 002-11.7E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEOSURVEYOR XI IN VICINITY OF TRACKLINE BETWEEN\n51-19.5N 001-47.8E AND 51-19.1N 002-11.7E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2017-08-09T12:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

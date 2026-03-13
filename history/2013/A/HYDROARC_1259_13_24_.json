@@ -3,18 +3,25 @@
   "id": "HYDROARC 1259/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.13666666666666,
+      -21.685
+    ]
   },
   "properties": {
     "dtg": "2013-05-22T01:08:00",
     "raw_dtg": "220108Z MAY 13",
     "msg_id": "HYDROARC 1259/13(24)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 250100Z MAY 13",
-      "HYDROARC 1259/13"
+      "THIS MSG 250100Z MAY 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\n1. 100 METER LONG CABLE ADRIFT IN 21-41.1S 040-08.2W.\n2. CANCEL THIS MSG 250100Z MAY 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\n1. 100 METER LONG CABLE ADRIFT IN 21-41.1S 040-08.2W.\n2. CANCEL THIS MSG 250100Z MAY 13.",
+    "valid_from": "2013-05-22T01:08:00+00:00",
+    "valid_until": "2013-05-25T01:00:00+00:00",
+    "summary": null
   }
 }

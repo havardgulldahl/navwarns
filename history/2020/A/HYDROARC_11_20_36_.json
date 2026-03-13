@@ -3,17 +3,23 @@
   "id": "HYDROARC 11/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.125,
+      52.17
+    ]
   },
   "properties": {
     "dtg": "2020-01-02T07:54:00",
     "raw_dtg": "020754Z JAN 20",
     "msg_id": "HYDROARC 11/20(36)",
-    "cancellations": [
-      "HYDROARC 41/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP ILE D'AIX\nIN VICINITY OF TRACKLINE JOINING\n52-10.2N 006-07.5W AND 52-14.4N 006-12.3W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP ILE D'AIX\nIN VICINITY OF TRACKLINE JOINING\n52-10.2N 006-07.5W AND 52-14.4N 006-12.3W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2020-01-02T07:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

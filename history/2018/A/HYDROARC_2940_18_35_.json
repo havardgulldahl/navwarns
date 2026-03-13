@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2940/18(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2018-09-18T05:45:00",
     "raw_dtg": "180545Z SEP 18",
     "msg_id": "HYDROARC 2940/18(35)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2940/18"
+      "2856/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nNORWEGIAN SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 2856/18 AND THIS MSG,\nOPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nNORWEGIAN SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 2856/18 AND THIS MSG,\nOPERATIONS COMPLETED.",
+    "valid_from": "2018-09-18T05:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

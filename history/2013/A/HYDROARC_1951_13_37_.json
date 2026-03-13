@@ -3,17 +3,25 @@
   "id": "HYDROARC 1951/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7799999999999998,
+      51.083333333333336
+    ]
   },
   "properties": {
     "dtg": "2013-08-09T13:19:00",
     "raw_dtg": "091319Z AUG 13",
     "msg_id": "HYDROARC 1951/13(37)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1988/13"
+      "1933/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37120\n1. RUYTINGEN SW BUOY 51-05.0N 001-46.8E MISSING.\n2. CANCEL HYDROLANT 1933/13(24)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37120\n1. RUYTINGEN SW BUOY 51-05.0N 001-46.8E MISSING.\n2. CANCEL HYDROLANT 1933/13(24).",
+    "valid_from": "2013-08-09T13:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2228/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.995,
+      57.223333333333336
+    ]
   },
   "properties": {
     "dtg": "2021-08-30T15:47:00",
     "raw_dtg": "301547Z AUG 21",
     "msg_id": "HYDROARC 2228/21(35)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 031400Z SEP 21",
-      "HYDROARC 2228/21"
+      "THIS MSG 031400Z SEP 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. ALL NAVIGATIONAL AIDS AT\n   ABERDEEN OFFSHORE WINDFARM 57-13.4N 001-59.7W\n   UNRELIABLE UNTIL 031300Z SEP.\n2. CANCEL THIS MSG 031400Z SEP 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. ALL NAVIGATIONAL AIDS AT\n   ABERDEEN OFFSHORE WINDFARM 57-13.4N 001-59.7W\n   UNRELIABLE UNTIL 031300Z SEP.\n2. CANCEL THIS MSG 031400Z SEP 21.",
+    "valid_from": "2021-08-30T15:47:00+00:00",
+    "valid_until": "2021-09-03T14:00:00+00:00",
+    "summary": null
   }
 }

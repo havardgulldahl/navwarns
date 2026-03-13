@@ -3,17 +3,25 @@
   "id": "HYDROARC 2284/15(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.7516666666666667,
+      57.266666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-09-14T23:57:00",
     "raw_dtg": "142357Z SEP 15",
     "msg_id": "HYDROARC 2284/15(35,37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2297/15"
+      "2262/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\n   M/V WESTERN REGENT TOWING 8400 METER LONG CABLE\n   VICINITY OF TRACKLINE BETWEEN\n   57-16.0N 001-45.1W AND 55-37.0N 000-59.6W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2262/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\n   M/V WESTERN REGENT TOWING 8400 METER LONG CABLE\n   VICINITY OF TRACKLINE BETWEEN\n   57-16.0N 001-45.1W AND 55-37.0N 000-59.6W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2262/15.",
+    "valid_from": "2015-09-14T23:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

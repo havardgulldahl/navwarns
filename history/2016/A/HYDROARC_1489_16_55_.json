@@ -3,17 +3,23 @@
   "id": "HYDROARC 1489/16(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      39.205,
+      43.88166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-06-15T12:30:00",
     "raw_dtg": "151230Z JUN 16",
     "msg_id": "HYDROARC 1489/16(55)",
-    "cancellations": [
-      "HYDROARC 3144/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nRUSSIA.\nORDNANCE.\nDNC 10.\nCHART 55180.\nMINE IN 43-52.9N 039-12.3E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nRUSSIA.\nORDNANCE.\nDNC 10.\nCHART 55180.\nMINE IN 43-52.9N 039-12.3E.",
+    "valid_from": "2016-06-15T12:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

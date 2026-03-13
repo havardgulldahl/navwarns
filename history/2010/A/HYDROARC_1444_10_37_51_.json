@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1444/10(37,51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-07-28T12:08:00",
     "raw_dtg": "281208Z JUL 10",
     "msg_id": "HYDROARC 1444/10(37,51)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1444/10"
+      "1304/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SPAIN-NORTHWEST COAST.\nCANCEL HYDROLANT 1304/10 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SPAIN-NORTHWEST COAST.\nCANCEL HYDROLANT 1304/10 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2010-07-28T12:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

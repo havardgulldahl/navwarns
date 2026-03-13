@@ -3,17 +3,23 @@
   "id": "HYDROARC 3841/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.578333333333333,
+      50.05166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-12-15T01:53:00",
     "raw_dtg": "150153Z DEC 19",
     "msg_id": "HYDROARC 3841/19(36)",
-    "cancellations": [
-      "HYDROARC 3845/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nTATER-DU LIGHT 50-03.1N 005-34.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nTATER-DU LIGHT 50-03.1N 005-34.7W UNRELIABLE.",
+    "valid_from": "2019-12-15T01:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

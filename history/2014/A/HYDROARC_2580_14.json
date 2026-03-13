@@ -1,19 +1,19 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2580/14",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-10-24T14:59:00",
     "raw_dtg": "241459Z OCT 14",
     "msg_id": "HYDROARC 2580/14",
-    "cancellations": [
-      "HYDROARC 2645/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GPS SATELLITE SYSTEM.\nPRN 08 UNUSABLE 301500Z OCT UNTIL FURTHER NOTICE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GPS SATELLITE SYSTEM.\nPRN 08 UNUSABLE 301500Z OCT UNTIL FURTHER NOTICE.",
+    "valid_from": "2014-10-24T14:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

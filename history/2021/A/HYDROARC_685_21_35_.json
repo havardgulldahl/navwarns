@@ -3,17 +3,23 @@
   "id": "HYDROARC 685/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.634722222222222,
+      56.132777777777775
+    ]
   },
   "properties": {
     "dtg": "2021-03-09T20:35:00",
     "raw_dtg": "092035Z MAR 21",
     "msg_id": "HYDROARC 685/21(35)",
-    "cancellations": [
-      "HYDROARC 750/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\nDUBH ARTACH LIGHT 56-07-58N 006-38-05W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\nDUBH ARTACH LIGHT 56-07-58N 006-38-05W\nUNRELIABLE.",
+    "valid_from": "2021-03-09T20:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 3208/20(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.163333333333334,
+      40.56
+    ]
   },
   "properties": {
     "dtg": "2020-10-22T13:42:00",
     "raw_dtg": "221342Z OCT 20",
     "msg_id": "HYDROARC 3208/20(53)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3292/20"
+      "3160/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSARDINIA.\nDNC 08.\n1. CAPO CACCIA LIGHT 40-33.6N 008-09.8E UNRELIABLE.\n2. CANCEL HYDROLANT 3160/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSARDINIA.\nDNC 08.\n1. CAPO CACCIA LIGHT 40-33.6N 008-09.8E UNRELIABLE.\n2. CANCEL HYDROLANT 3160/20.",
+    "valid_from": "2020-10-22T13:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

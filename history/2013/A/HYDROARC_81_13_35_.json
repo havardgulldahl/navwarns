@@ -3,17 +3,25 @@
   "id": "HYDROARC 81/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.3016666666666667,
+      60.653333333333336
+    ]
   },
   "properties": {
     "dtg": "2013-01-09T09:39:00",
     "raw_dtg": "090939Z JAN 13",
     "msg_id": "HYDROARC 81/13(35)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 91/13"
+      "72/13"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35066\n1. GRUNEY ISLAND LIGHT 60-39.2N 001-18.1W UNLIT.\n2. CANCEL HYDROLANT 72/13(24,25,26)."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35066\n1. GRUNEY ISLAND LIGHT 60-39.2N 001-18.1W UNLIT.\n2. CANCEL HYDROLANT 72/13(24,25,26).",
+    "valid_from": "2013-01-09T09:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

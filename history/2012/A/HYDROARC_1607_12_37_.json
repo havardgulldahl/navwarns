@@ -3,17 +3,23 @@
   "id": "HYDROARC 1607/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.758333333333333,
+      48.5
+    ]
   },
   "properties": {
     "dtg": "2012-07-17T11:29:00",
     "raw_dtg": "171129Z JUL 12",
     "msg_id": "HYDROARC 1607/12(37)",
-    "cancellations": [
-      "HYDROARC 2509/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nCHART 37320\nRACON AT SOUTHWEST BUOY 48-30.0N 005-45.5W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nCHART 37320\nRACON AT SOUTHWEST BUOY 48-30.0N 005-45.5W INOPERATIVE.",
+    "valid_from": "2012-07-17T11:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

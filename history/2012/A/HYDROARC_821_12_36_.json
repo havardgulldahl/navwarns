@@ -3,17 +3,23 @@
   "id": "HYDROARC 821/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.0633333333333335,
+      55.52
+    ]
   },
   "properties": {
     "dtg": "2012-04-13T22:26:00",
     "raw_dtg": "132226Z APR 12",
     "msg_id": "HYDROARC 821/12(36)",
-    "cancellations": [
-      "HYDROARC 829/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 36016\nPILLAR ROCK POINT LIGHT 55-31.2N 005-03.8W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 36016\nPILLAR ROCK POINT LIGHT 55-31.2N 005-03.8W UNLIT.",
+    "valid_from": "2012-04-13T22:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

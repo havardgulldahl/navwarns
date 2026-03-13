@@ -3,17 +3,23 @@
   "id": "HYDROARC 163/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.15833333333333,
+      -23.133333333333333
+    ]
   },
   "properties": {
     "dtg": "2020-01-17T01:27:00",
     "raw_dtg": "170127Z JAN 20",
     "msg_id": "HYDROARC 163/20(24)",
-    "cancellations": [
-      "HYDROARC 270/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nDISTRESS RECEIVED IN VICINITY 23-08.0S 044-09.5W\nAT 162100Z JAN. VESSELS IN VICINITY REQUESTED TO\nKEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nDISTRESS RECEIVED IN VICINITY 23-08.0S 044-09.5W\nAT 162100Z JAN. VESSELS IN VICINITY REQUESTED TO\nKEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2020-01-17T01:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

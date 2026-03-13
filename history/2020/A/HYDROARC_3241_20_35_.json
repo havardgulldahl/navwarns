@@ -3,17 +3,25 @@
   "id": "HYDROARC 3241/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.408333333333333,
+      59.085
+    ]
   },
   "properties": {
     "dtg": "2020-10-24T20:14:00",
     "raw_dtg": "242014Z OCT 20",
     "msg_id": "HYDROARC 3241/20(35)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3278/20"
+      "3235/20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\n1. SULE SKERRY LIGHT 59-05.1N 004-24.5W UNLIT.\n2. CANCEL HYDROLANT 3235/20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\n1. SULE SKERRY LIGHT 59-05.1N 004-24.5W UNLIT.\n2. CANCEL HYDROLANT 3235/20.",
+    "valid_from": "2020-10-24T20:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

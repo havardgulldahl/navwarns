@@ -3,17 +3,23 @@
   "id": "HYDROARC 3921/17(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      28.666666666666668,
+      43.99
+    ]
   },
   "properties": {
     "dtg": "2017-12-05T14:35:00",
     "raw_dtg": "051435Z DEC 17",
     "msg_id": "HYDROARC 3921/17(55)",
-    "cancellations": [
-      "HYDROARC 3948/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nCHART 55120.\nCAPUL TUZLA LIGHT 43-59.4N 028-40.0E UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nCHART 55120.\nCAPUL TUZLA LIGHT 43-59.4N 028-40.0E UNLIT.",
+    "valid_from": "2017-12-05T14:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

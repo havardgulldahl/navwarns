@@ -3,17 +3,23 @@
   "id": "HYDROARC 3093/17(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -94.665,
+      28.25
+    ]
   },
   "properties": {
     "dtg": "2017-09-28T20:32:00",
     "raw_dtg": "282032Z SEP 17",
     "msg_id": "HYDROARC 3093/17(11)",
-    "cancellations": [
-      "HYDROARC 3270/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nTEXAS.\nDNC 15.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM VESSEL\nFIESTA CRUZ IN 28-15.0N 094-39.9W AT 281904Z SEP.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148,\nE-MAIL: D8COMMANDCENTER@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nTEXAS.\nDNC 15.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM VESSEL\nFIESTA CRUZ IN 28-15.0N 094-39.9W AT 281904Z SEP.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148,\nE-MAIL: D8COMMANDCENTER@USCG.MIL.",
+    "valid_from": "2017-09-28T20:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

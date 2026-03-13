@@ -3,17 +3,23 @@
   "id": "HYDROARC 2311/19(51,52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.111666666666666,
+      35.475
+    ]
   },
   "properties": {
     "dtg": "2019-07-29T15:23:00",
     "raw_dtg": "291523Z JUL 19",
     "msg_id": "HYDROARC 2311/19(51,52)",
-    "cancellations": [
-      "HYDROARC 2526/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nMOROCCO.\nDNC 08.\nCHART 52040.\nOUED LAOU LIGHT 35-28.5N 005-06.7W UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nMOROCCO.\nDNC 08.\nCHART 52040.\nOUED LAOU LIGHT 35-28.5N 005-06.7W UNLIT.",
+    "valid_from": "2019-07-29T15:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

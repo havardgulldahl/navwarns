@@ -3,17 +3,23 @@
   "id": "HYDROARC 2943/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.59,
+      58.288333333333334
+    ]
   },
   "properties": {
     "dtg": "2014-12-02T22:40:00",
     "raw_dtg": "022240Z DEC 14",
     "msg_id": "HYDROARC 2943/14(35)",
-    "cancellations": [
-      "HYDROARC 2961/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35075.\nFLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35075.\nFLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNRELIABLE.",
+    "valid_from": "2014-12-02T22:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

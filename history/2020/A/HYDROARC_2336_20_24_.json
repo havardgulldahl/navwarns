@@ -3,18 +3,25 @@
   "id": "HYDROARC 2336/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.117222222222225,
+      0.7605555555555555
+    ]
   },
   "properties": {
     "dtg": "2020-07-24T21:56:00",
     "raw_dtg": "242156Z JUL 20",
     "msg_id": "HYDROARC 2336/20(24)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 201900Z JAN 21",
-      "HYDROARC 2853/20"
+      "THIS MSG 201900Z JAN 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. PONTA DO CEU LIGHT 00-45-38N 050-07-02W UNLIT\n   UNTIL 201800Z JAN 21.\n2. CANCEL THIS MSG 201900Z JAN 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. PONTA DO CEU LIGHT 00-45-38N 050-07-02W UNLIT\n   UNTIL 201800Z JAN 21.\n2. CANCEL THIS MSG 201900Z JAN 21.",
+    "valid_from": "2020-07-24T21:56:00+00:00",
+    "valid_until": "2021-01-20T19:00:00+00:00",
+    "summary": null
   }
 }

@@ -2,18 +2,52 @@
   "type": "Feature",
   "id": "HYDROARC 408/12(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.81666666666667,
+          44.7
+        ],
+        [
+          32.665,
+          44.608333333333334
+        ],
+        [
+          32.19833333333333,
+          44.68333333333333
+        ],
+        [
+          32.13166666666667,
+          44.8
+        ],
+        [
+          32.27333333333333,
+          44.99166666666667
+        ],
+        [
+          32.55,
+          44.9
+        ],
+        [
+          32.81666666666667,
+          44.7
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-02-22T13:23:00",
     "raw_dtg": "221323Z FEB 12",
     "msg_id": "HYDROARC 408/12(55)",
-    "cancellations": [
-      "HYDROARC 408/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nMISSILES. GUNNERY.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL 251830Z FEB\n   IN AREA BOUND BY\n   44-42.0N 032-49.0E, 44-36.5N 032-39.9E,\n   44-41.0N 032-11.9E, 44-48.0N 032-07.9E,\n   44-59.5N 032-16.4E, 44-54.0N 032-33.0E.\n2. CANCEL THIS MSG 251930Z FEB."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nMISSILES. GUNNERY.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL 251830Z FEB\n   IN AREA BOUND BY\n   44-42.0N 032-49.0E, 44-36.5N 032-39.9E,\n   44-41.0N 032-11.9E, 44-48.0N 032-07.9E,\n   44-59.5N 032-16.4E, 44-54.0N 032-33.0E.\n2. CANCEL THIS MSG 251930Z FEB.",
+    "valid_from": "2012-02-22T13:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 1400/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.5916666666666668,
+      50.66166666666667
+    ]
   },
   "properties": {
     "dtg": "2018-05-03T16:16:00",
     "raw_dtg": "031616Z MAY 18",
     "msg_id": "HYDROARC 1400/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 1401/18"
+      "1346/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37015, 37095.\n1. NEEDLES LIGHT 50-39.7N 001-35.5W UNRELIABLE.\n2. CANCEL HYDROLANT 1346/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37015, 37095.\n1. NEEDLES LIGHT 50-39.7N 001-35.5W UNRELIABLE.\n2. CANCEL HYDROLANT 1346/18.",
+    "valid_from": "2018-05-03T16:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

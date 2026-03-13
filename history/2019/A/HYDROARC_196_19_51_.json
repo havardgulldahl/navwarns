@@ -3,17 +3,23 @@
   "id": "HYDROARC 196/19(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -12.93,
+      27.96
+    ]
   },
   "properties": {
     "dtg": "2019-01-21T16:51:00",
     "raw_dtg": "211651Z JAN 19",
     "msg_id": "HYDROARC 196/19(51)",
-    "cancellations": [
-      "HYDROARC 790/22"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nCHART 51380.\nDANGEROUS WRECK IN 27-57.6N 012-55.8W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nCHART 51380.\nDANGEROUS WRECK IN 27-57.6N 012-55.8W.",
+    "valid_from": "2019-01-21T16:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

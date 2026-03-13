@@ -3,18 +3,25 @@
   "id": "HYDROARC 665/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.31,
+      50.09
+    ]
   },
   "properties": {
     "dtg": "2014-03-05T10:58:00",
     "raw_dtg": "051058Z MAR 14",
     "msg_id": "HYDROARC 665/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 081100Z MAR 14",
-      "HYDROARC 665/14"
+      "THIS MSG 081100Z MAR 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\n1. CONTAINER ADRIFT IN 50-05.4N 003-18.6W\n   AT 050800Z MAR.\n2. CANCEL THIS MSG 081100Z MAR 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\n1. CONTAINER ADRIFT IN 50-05.4N 003-18.6W\n   AT 050800Z MAR.\n2. CANCEL THIS MSG 081100Z MAR 14.",
+    "valid_from": "2014-03-05T10:58:00+00:00",
+    "valid_until": "2014-03-08T11:00:00+00:00",
+    "summary": null
   }
 }

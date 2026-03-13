@@ -2,18 +2,42 @@
   "type": "Feature",
   "id": "HYDROARC 3121/19(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -10.098333333333333,
+          36.93833333333333
+        ],
+        [
+          -9.411666666666667,
+          37.471666666666664
+        ],
+        [
+          -9.41,
+          37.153333333333336
+        ],
+        [
+          -10.098333333333333,
+          36.93833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-10-13T11:59:00",
     "raw_dtg": "131159Z OCT 19",
     "msg_id": "HYDROARC 3121/19(51)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3131/19"
+      "2956/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V SARMIENTO DE GAMBOA TOWING\n   600 METER CABLES IN AREA BOUND BY\n   36-56.3N 010-05.9W, 37-28.3N 009-24.7W,\n   37-09.2N 009-24.6W, 36.55.1N 009-40.5W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2956/19."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V SARMIENTO DE GAMBOA TOWING\n   600 METER CABLES IN AREA BOUND BY\n   36-56.3N 010-05.9W, 37-28.3N 009-24.7W,\n   37-09.2N 009-24.6W, 36.55.1N 009-40.5W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2956/19.",
+    "valid_from": "2019-10-13T11:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 3766/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.848333333333334,
+      51.69
+    ]
   },
   "properties": {
     "dtg": "2019-12-09T01:35:00",
     "raw_dtg": "090135Z DEC 19",
     "msg_id": "HYDROARC 3766/19(36)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 120135Z DEC 19",
-      "HYDROARC 3769/19"
+      "THIS MSG 120135Z DEC 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nWALES.\nDNC 20.\n1. 12 CONTAINERS ADRIFT IN 51-41.4N 005-50.9W\n   AT 082330Z DEC.\n2. CANCEL THIS MSG 120135Z DEC 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nWALES.\nDNC 20.\n1. 12 CONTAINERS ADRIFT IN 51-41.4N 005-50.9W\n   AT 082330Z DEC.\n2. CANCEL THIS MSG 120135Z DEC 19.",
+    "valid_from": "2019-12-09T01:35:00+00:00",
+    "valid_until": "2019-12-12T01:35:00+00:00",
+    "summary": null
   }
 }

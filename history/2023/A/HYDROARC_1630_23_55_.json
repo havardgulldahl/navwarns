@@ -12,12 +12,16 @@
     "dtg": "2023-07-19T20:31:00",
     "raw_dtg": "192031Z JUL 23",
     "msg_id": "HYDROARC 1630/23(55)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 222030Z JUL 23",
-      "HYDROARC 1630/23"
+      "THIS MSG 222030Z JUL 23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. OBJECT ADRIFT IN VICINITY 44-14.22N 029-03.30E.\n2. CANCEL THIS MSG 222030Z JUL 23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. OBJECT ADRIFT IN VICINITY 44-14.22N 029-03.30E.\n2. CANCEL THIS MSG 222030Z JUL 23.",
+    "valid_from": "2023-07-19T20:31:00+00:00",
+    "valid_until": "2023-07-22T20:30:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 996/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.572222222222222,
+      59.025555555555556
+    ]
   },
   "properties": {
     "dtg": "2022-04-08T03:40:00",
     "raw_dtg": "080340Z APR 22",
     "msg_id": "HYDROARC 996/22(35)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 1015/22"
+      "983/22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\n1. AUSKERRY LIGHT 59-01-32N 002-34-20W UNLIT.\n2. CANCEL HYDROLANT 983/22."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\n1. AUSKERRY LIGHT 59-01-32N 002-34-20W UNLIT.\n2. CANCEL HYDROLANT 983/22.",
+    "valid_from": "2022-04-08T03:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

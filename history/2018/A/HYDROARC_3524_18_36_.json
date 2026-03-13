@@ -3,17 +3,23 @@
   "id": "HYDROARC 3524/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -10.583333333333334,
+      49.38
+    ]
   },
   "properties": {
     "dtg": "2018-11-13T18:11:00",
     "raw_dtg": "131811Z NOV 18",
     "msg_id": "HYDROARC 3524/18(36)",
-    "cancellations": [
-      "HYDROARC 3590/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nDNC 19.\nFISHING GEAR, MARKED BY TWO ORANGE BUOYS, ABANDONED\nIN VICINITY 49-22.8N 010-35.0W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nDNC 19.\nFISHING GEAR, MARKED BY TWO ORANGE BUOYS, ABANDONED\nIN VICINITY 49-22.8N 010-35.0W.",
+    "valid_from": "2018-11-13T18:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

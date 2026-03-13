@@ -3,18 +3,25 @@
   "id": "HYDROARC 973/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2983333333333333,
+      50.575
+    ]
   },
   "properties": {
     "dtg": "2014-04-10T00:31:00",
     "raw_dtg": "100031Z APR 14",
     "msg_id": "HYDROARC 973/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 102100Z APR 14",
-      "HYDROARC 973/14"
+      "THIS MSG 102100Z APR 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nCHART 37095\n1. DGPS STATION AT ST. CATHERINES POINT LIGHT\n   50-34.5N 001-17.9W OFF AIR\n   100800Z TO 102000Z APR.\n2. CANCEL THIS MSG 102100Z APR 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nCHART 37095\n1. DGPS STATION AT ST. CATHERINES POINT LIGHT\n   50-34.5N 001-17.9W OFF AIR\n   100800Z TO 102000Z APR.\n2. CANCEL THIS MSG 102100Z APR 14.",
+    "valid_from": "2014-04-10T00:31:00+00:00",
+    "valid_until": "2014-04-10T21:00:00+00:00",
+    "summary": null
   }
 }

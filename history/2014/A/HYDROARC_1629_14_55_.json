@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 1629/14(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.40833333333333,
+          43.86666666666667
+        ],
+        [
+          37.74166666666667,
+          44.461666666666666
+        ],
+        [
+          38.3,
+          44.166666666666664
+        ],
+        [
+          37.88333333333333,
+          43.766666666666666
+        ],
+        [
+          37.40833333333333,
+          43.86666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-07-04T13:33:00",
     "raw_dtg": "041333Z JUL 14",
     "msg_id": "HYDROARC 1629/14(55)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 111700Z JUL 14",
-      "HYDROARC 1629/14"
+      "THIS MSG 111700Z JUL 14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nRUSSIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0400Z TO 1600Z DAILY\n   07 THRU 11 JUL IN AREA BOUND BY\n   43-52.0N 037-24.5E, 44-27.7N 037-44.5E,\n   44-10.0N 038-18.0E, 43-46.0N 037-53.0E.\n2. CANCEL THIS MSG 111700Z JUL 14."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nRUSSIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0400Z TO 1600Z DAILY\n   07 THRU 11 JUL IN AREA BOUND BY\n   43-52.0N 037-24.5E, 44-27.7N 037-44.5E,\n   44-10.0N 038-18.0E, 43-46.0N 037-53.0E.\n2. CANCEL THIS MSG 111700Z JUL 14.",
+    "valid_from": "2014-07-04T13:33:00+00:00",
+    "valid_until": "2014-07-11T17:00:00+00:00",
+    "summary": null
   }
 }

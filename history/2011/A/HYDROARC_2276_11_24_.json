@@ -3,17 +3,23 @@
   "id": "HYDROARC 2276/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.876666666666665,
+      -15.863333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-12-30T09:09:00",
     "raw_dtg": "300909Z DEC 11",
     "msg_id": "HYDROARC 2276/11(24)",
-    "cancellations": [
-      "HYDROARC 2290/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nCHART 24190\nBELMONTE LIGHT 15-51.8S 038-52.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nCHART 24190\nBELMONTE LIGHT 15-51.8S 038-52.6W UNRELIABLE.",
+    "valid_from": "2011-12-30T09:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

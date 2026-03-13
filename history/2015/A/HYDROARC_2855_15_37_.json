@@ -3,17 +3,23 @@
   "id": "HYDROARC 2855/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.9283333333333332,
+      52.806666666666665
+    ]
   },
   "properties": {
     "dtg": "2015-11-20T10:32:00",
     "raw_dtg": "201032Z NOV 15",
     "msg_id": "HYDROARC 2855/15(37)",
-    "cancellations": [
-      "HYDROARC 2882/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37166.\nRACON AT NEWARP BUOY 52-48.4N 001-55.7E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37166.\nRACON AT NEWARP BUOY 52-48.4N 001-55.7E INOPERATIVE.",
+    "valid_from": "2015-11-20T10:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

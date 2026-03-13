@@ -3,17 +3,23 @@
   "id": "HYDROARC 242/21(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.875,
+      37.498333333333335
+    ]
   },
   "properties": {
     "dtg": "2021-01-26T16:29:00",
     "raw_dtg": "261629Z JAN 21",
     "msg_id": "HYDROARC 242/21(52)",
-    "cancellations": [
-      "HYDROARC 586/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\nGALITON DE L'OUEST LIGHT 37-29.9N 008-52.5E\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\nGALITON DE L'OUEST LIGHT 37-29.9N 008-52.5E\nUNRELIABLE.",
+    "valid_from": "2021-01-26T16:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

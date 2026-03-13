@@ -3,18 +3,25 @@
   "id": "HYDROARC 780/22(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.23,
+      29.89666666666667
+    ]
   },
   "properties": {
     "dtg": "2022-03-17T19:23:00",
     "raw_dtg": "171923Z MAR 22",
     "msg_id": "HYDROARC 780/22(51)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 201923Z MAR 22",
-      "HYDROARC 780/22"
+      "THIS MSG 201923Z MAR 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 01.\n1. ORANGE OBJECT ADRIFT IN 29-53.8N 041-13.8W\n   AT 171840Z MAR.\n2. CANCEL THIS MSG 201923Z MAR 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 01.\n1. ORANGE OBJECT ADRIFT IN 29-53.8N 041-13.8W\n   AT 171840Z MAR.\n2. CANCEL THIS MSG 201923Z MAR 22.",
+    "valid_from": "2022-03-17T19:23:00+00:00",
+    "valid_until": "2022-03-20T19:23:00+00:00",
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2107/15",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-08-27T08:51:00",
     "raw_dtg": "270851Z AUG 15",
     "msg_id": "HYDROARC 2107/15",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 020740Z SEP 15",
-      "HYDROARC 2107/15"
+      "THIS MSG 020740Z SEP 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GPS SATELLITE SYSTEM.\n1. PRN 06 UNUSABLE 011840Z TO 020640Z SEP.\n2. CANCEL THIS MSG 020740Z SEP 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GPS SATELLITE SYSTEM.\n1. PRN 06 UNUSABLE 011840Z TO 020640Z SEP.\n2. CANCEL THIS MSG 020740Z SEP 15.",
+    "valid_from": "2015-08-27T08:51:00+00:00",
+    "valid_until": "2015-09-02T07:40:00+00:00",
+    "summary": null
   }
 }

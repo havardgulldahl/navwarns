@@ -2,28 +2,26 @@
   "type": "Feature",
   "id": "HYDROARC 645/23(52,53)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Point",
     "coordinates": [
-      [
-        4.1,
-        40.18333333333333
-      ],
-      [
-        4.433333333333334,
-        41.3
-      ]
+      4.1,
+      40.18333333333333
     ]
   },
   "properties": {
     "dtg": "2023-03-24T11:49:00",
     "raw_dtg": "241149Z MAR 23",
     "msg_id": "HYDROARC 645/23(52,53)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 280001Z MAR 23",
-      "HYDROARC 645/23"
+      "THIS MSG 280001Z MAR 23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nBALEARIC ISLANDS.\nDNC 08.\n1. SURVEY OPERATIONS 25 THRU 27 MAR BY\n   M/V L-ATALANT ALONG TRACKLINE JOINING\n   40-11.00N 004-06.00E, 41-18.00N 004-26.00E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 280001Z MAR 23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nBALEARIC ISLANDS.\nDNC 08.\n1. SURVEY OPERATIONS 25 THRU 27 MAR BY\n   M/V L-ATALANT ALONG TRACKLINE JOINING\n   40-11.00N 004-06.00E, 41-18.00N 004-26.00E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 280001Z MAR 23.",
+    "valid_from": "2023-03-24T11:49:00+00:00",
+    "valid_until": "2023-03-28T00:01:00+00:00",
+    "summary": null
   }
 }

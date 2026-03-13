@@ -3,17 +3,23 @@
   "id": "HYDROARC 1437/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4516666666666667,
+      50.75
+    ]
   },
   "properties": {
     "dtg": "2012-06-30T21:32:00",
     "raw_dtg": "302132Z JUN 12",
     "msg_id": "HYDROARC 1437/12(37)",
-    "cancellations": [
-      "HYDROARC 1479/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF DOVER.\nCHART 37115\nZC1 BUOY 50-45.0N 001-27.1E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF DOVER.\nCHART 37115\nZC1 BUOY 50-45.0N 001-27.1E UNLIT.",
+    "valid_from": "2012-06-30T21:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2786/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.648333333333333,
+      47.82
+    ]
   },
   "properties": {
     "dtg": "2016-10-23T09:11:00",
     "raw_dtg": "230911Z OCT 16",
     "msg_id": "HYDROARC 2786/16(36,37)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 260911Z OCT 16",
-      "HYDROARC 2786/16"
+      "THIS MSG 260911Z OCT 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nFRANCE-NORTHWEST COAST.\nDNC 08, DNC 19, DNC 20.\n1. PARTIALLY SUBMERGED CONTAINER ADRIFT\n   IN 47-49.2N 006-38.9W.\n2. CANCEL THIS MSG 260911Z OCT 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nFRANCE-NORTHWEST COAST.\nDNC 08, DNC 19, DNC 20.\n1. PARTIALLY SUBMERGED CONTAINER ADRIFT\n   IN 47-49.2N 006-38.9W.\n2. CANCEL THIS MSG 260911Z OCT 16.",
+    "valid_from": "2016-10-23T09:11:00+00:00",
+    "valid_until": "2016-10-26T09:11:00+00:00",
+    "summary": null
   }
 }

@@ -2,19 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 207/17(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.51166666666666,
+          44.675
+        ],
+        [
+          33.51166666666666,
+          44.685
+        ],
+        [
+          33.54,
+          44.70333333333333
+        ],
+        [
+          33.54833333333333,
+          44.70333333333333
+        ],
+        [
+          33.54666666666667,
+          44.675
+        ],
+        [
+          33.51166666666666,
+          44.675
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-01-20T12:18:00",
     "raw_dtg": "201218Z JAN 17",
     "msg_id": "HYDROARC 207/17(55)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 231400Z JAN 17",
-      "HYDROARC 207/17"
+      "THIS MSG 231400Z JAN 17"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nHAZARDOUS OPERATIONS.\nDNC 10.\n1. HAZARDOUS OPERATIONS 230700Z TO 231300Z JAN\n   IN AREA BOUND BY\n   44-40.5N 033-30.7E, 44-41.1N 033-30.7E,\n   44-42.2N 033-32.4E, 44-42.2N 033-32.9E,\n   44-40.5N 033-32.8E.\n2. CANCEL THIS MSG 231400Z JAN 17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nHAZARDOUS OPERATIONS.\nDNC 10.\n1. HAZARDOUS OPERATIONS 230700Z TO 231300Z JAN\n   IN AREA BOUND BY\n   44-40.5N 033-30.7E, 44-41.1N 033-30.7E,\n   44-42.2N 033-32.4E, 44-42.2N 033-32.9E,\n   44-40.5N 033-32.8E.\n2. CANCEL THIS MSG 231400Z JAN 17.",
+    "valid_from": "2017-01-20T12:18:00+00:00",
+    "valid_until": "2017-01-23T14:00:00+00:00",
+    "summary": null
   }
 }

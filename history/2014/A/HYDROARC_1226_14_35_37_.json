@@ -3,17 +3,23 @@
   "id": "HYDROARC 1226/14(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.2916666666666665,
+      54.568333333333335
+    ]
   },
   "properties": {
     "dtg": "2014-05-14T09:58:00",
     "raw_dtg": "140958Z MAY 14",
     "msg_id": "HYDROARC 1226/14(35,37)",
-    "cancellations": [
-      "HYDROARC 774/15"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 35002\nPLATFORM UNDER CONSTRUCTION IN 54-34.1N 002-17.5E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 35002\nPLATFORM UNDER CONSTRUCTION IN 54-34.1N 002-17.5E.",
+    "valid_from": "2014-05-14T09:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

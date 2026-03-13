@@ -3,18 +3,25 @@
   "id": "HYDROARC 1280/17(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -88.40666666666667,
+      26.741666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-04-22T17:25:00",
     "raw_dtg": "221725Z APR 17",
     "msg_id": "HYDROARC 1280/17(11)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 251725Z APR 17",
-      "HYDROARC 1280/17"
+      "THIS MSG 251725Z APR 17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nDNC 15.\n1. DERELICT 20 FOOT VESSEL IN VICINITY\n   26-44.5N 088-24.4W. VESSELS IN VICINITY\n   REQUESTED TO KEEP A SHARP LOOKOUT, ASSIST\n   IF POSSIBLE. REPORTS TO COMCOGARD SECTOR\n   NEW ORLEANS, PHONE: 504 365-2209,\n   E-MAIL: sccnola@uscg.mil.\n2. CANCEL THIS MSG 251725Z APR 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nDNC 15.\n1. DERELICT 20 FOOT VESSEL IN VICINITY\n   26-44.5N 088-24.4W. VESSELS IN VICINITY\n   REQUESTED TO KEEP A SHARP LOOKOUT, ASSIST\n   IF POSSIBLE. REPORTS TO COMCOGARD SECTOR\n   NEW ORLEANS, PHONE: 504 365-2209,\n   E-MAIL: sccnola@uscg.mil.\n2. CANCEL THIS MSG 251725Z APR 17.",
+    "valid_from": "2017-04-22T17:25:00+00:00",
+    "valid_until": "2017-04-25T17:25:00+00:00",
+    "summary": null
   }
 }

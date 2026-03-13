@@ -3,17 +3,25 @@
   "id": "HYDROARC 3471/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.59583333333334,
+      -26.451944444444443
+    ]
   },
   "properties": {
     "dtg": "2019-11-12T10:11:00",
     "raw_dtg": "121011Z NOV 19",
     "msg_id": "HYDROARC 3471/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3638/19"
+      "THIS MSG 09 MAY 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. ARAQUARI LIGHT 26-27-07S 048-35-45W UNLIT.\n2. CANCEL THIS MSG 09 MAY 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. ARAQUARI LIGHT 26-27-07S 048-35-45W UNLIT.\n2. CANCEL THIS MSG 09 MAY 20.",
+    "valid_from": "2019-11-12T10:11:00+00:00",
+    "valid_until": "2020-05-09T00:00:00+00:00",
+    "summary": null
   }
 }

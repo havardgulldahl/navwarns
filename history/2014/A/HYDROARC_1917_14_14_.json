@@ -3,17 +3,23 @@
   "id": "HYDROARC 1917/14(14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.74333333333333,
+      42.178333333333335
+    ]
   },
   "properties": {
     "dtg": "2014-08-11T16:50:00",
     "raw_dtg": "111650Z AUG 14",
     "msg_id": "HYDROARC 1917/14(14)",
-    "cancellations": [
-      "HYDROARC 1917/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\n1. CONTAINER ADRIFT VICINITY 42-10.7N 034-44.6W\n   AT 110920Z AUG 14.\n2. CANCEL THIS MSG 141650Z AUG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\n1. CONTAINER ADRIFT VICINITY 42-10.7N 034-44.6W\n   AT 110920Z AUG 14.\n2. CANCEL THIS MSG 141650Z AUG.",
+    "valid_from": "2014-08-11T16:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

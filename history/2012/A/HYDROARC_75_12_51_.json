@@ -3,17 +3,23 @@
   "id": "HYDROARC 75/12(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -15.483333333333333,
+      28.138333333333332
+    ]
   },
   "properties": {
     "dtg": "2012-01-09T16:43:00",
     "raw_dtg": "091643Z JAN 12",
     "msg_id": "HYDROARC 75/12(51)",
-    "cancellations": [
-      "HYDROARC 94/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\n1. CABLE OPERATIONS 100700Z TO 121200Z JAN BY\n   CABLESHIP PETER FABER ALONG TRACKLINE BETWEEN\n   28-08.3N 015-29.0W AND 28-08.9N 015-29.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 121300Z JAN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\n1. CABLE OPERATIONS 100700Z TO 121200Z JAN BY\n   CABLESHIP PETER FABER ALONG TRACKLINE BETWEEN\n   28-08.3N 015-29.0W AND 28-08.9N 015-29.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 121300Z JAN.",
+    "valid_from": "2012-01-09T16:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

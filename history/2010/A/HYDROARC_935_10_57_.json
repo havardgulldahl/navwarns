@@ -3,17 +3,23 @@
   "id": "HYDROARC 935/10(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.15,
+      -6.34
+    ]
   },
   "properties": {
     "dtg": "2010-05-23T20:20:00",
     "raw_dtg": "232020Z MAY 10",
     "msg_id": "HYDROARC 935/10(57)",
-    "cancellations": [
-      "HYDROARC 1536/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V ACERGY POLARIS\nALONG TRACKLINE BETWEEN\n06-20.4S 012-09.0E AND 06-52.1S 012-20.4E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V ACERGY POLARIS\nALONG TRACKLINE BETWEEN\n06-20.4S 012-09.0E AND 06-52.1S 012-20.4E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2010-05-23T20:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

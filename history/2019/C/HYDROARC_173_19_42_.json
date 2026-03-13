@@ -2,19 +2,74 @@
   "type": "Feature",
   "id": "HYDROARC 173/19(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          43.291666666666664,
+          68.66
+        ],
+        [
+          43.765,
+          67.20666666666666
+        ],
+        [
+          42.593333333333334,
+          66.44166666666666
+        ],
+        [
+          40.235,
+          64.90833333333333
+        ],
+        [
+          40.1,
+          64.76666666666667
+        ],
+        [
+          39.86333333333333,
+          64.65333333333334
+        ],
+        [
+          39.5,
+          64.56833333333333
+        ],
+        [
+          37.67166666666667,
+          65.03666666666666
+        ],
+        [
+          39.11833333333333,
+          66.09666666666666
+        ],
+        [
+          40.96333333333333,
+          67.68666666666667
+        ],
+        [
+          42.833333333333336,
+          68.725
+        ],
+        [
+          43.291666666666664,
+          68.66
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-08-13T08:47:00",
     "raw_dtg": "130847Z AUG 19",
     "msg_id": "HYDROARC 173/19(42)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 171400Z AUG 19",
-      "HYDROARC 173/19"
+      "THIS MSG 171400Z AUG 19"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WHITE SEA.\nBARENTS SEA.\nRUSSIA.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0200Z TO 1300Z DAILY 14 THRU 17 AUG\n   IN AREA BOUND BY\n   68-39.6N 043-17.5E, 67-12.4N 043-45.9E,\n   66-26.5N 042-35.6E, 64-54.5N 040-14.1E,\n   64-46.0N 040-06.0E, 64-39.2N 039-51.8E,\n   64-34.1N 039-30.0E, 65-02.2N 037-40.3E,\n   66-05.8N 039-07.1E, 67-41.2N 040-57.8E,\n   68-43.5N 042-50.0E.\n2. CANCEL THIS MSG 171400Z AUG 19."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WHITE SEA.\nBARENTS SEA.\nRUSSIA.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0200Z TO 1300Z DAILY 14 THRU 17 AUG\n   IN AREA BOUND BY\n   68-39.6N 043-17.5E, 67-12.4N 043-45.9E,\n   66-26.5N 042-35.6E, 64-54.5N 040-14.1E,\n   64-46.0N 040-06.0E, 64-39.2N 039-51.8E,\n   64-34.1N 039-30.0E, 65-02.2N 037-40.3E,\n   66-05.8N 039-07.1E, 67-41.2N 040-57.8E,\n   68-43.5N 042-50.0E.\n2. CANCEL THIS MSG 171400Z AUG 19.",
+    "valid_from": "2019-08-13T08:47:00+00:00",
+    "valid_until": "2019-08-17T14:00:00+00:00",
+    "summary": null
   }
 }

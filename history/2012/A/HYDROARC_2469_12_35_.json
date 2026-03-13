@@ -3,18 +3,25 @@
   "id": "HYDROARC 2469/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.015,
+      59.473333333333336
+    ]
   },
   "properties": {
     "dtg": "2012-10-22T20:52:00",
     "raw_dtg": "222052Z OCT 12",
     "msg_id": "HYDROARC 2469/12(35)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 252030Z OCT 12",
-      "HYDROARC 2472/12"
+      "THIS MSG 252030Z OCT 12"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nFAIR ISLE CHANNEL.\n1. DERELICT HELICOPTER ADRIFT IN 59-28.4N 002-00.9W\n   AT 221740Z OCT.\n2. CANCEL THIS MSG 252030Z OCT 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nFAIR ISLE CHANNEL.\n1. DERELICT HELICOPTER ADRIFT IN 59-28.4N 002-00.9W\n   AT 221740Z OCT.\n2. CANCEL THIS MSG 252030Z OCT 12.",
+    "valid_from": "2012-10-22T20:52:00+00:00",
+    "valid_until": "2012-10-25T20:30:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2662/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.708333333333336,
+      -28.446666666666665
+    ]
   },
   "properties": {
     "dtg": "2020-08-29T01:00:00",
     "raw_dtg": "290100Z AUG 20",
     "msg_id": "HYDROARC 2662/20(24)",
-    "cancellations": [
-      "HYDROARC 3408/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nILHA DOS LOBOS LIGHT 28-26.8S 048-42.5W UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nILHA DOS LOBOS LIGHT 28-26.8S 048-42.5W UNLIT.",
+    "valid_from": "2020-08-29T01:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

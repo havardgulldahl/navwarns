@@ -3,17 +3,25 @@
   "id": "HYDROARC 365/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.9216666666666666,
+      51.943333333333335
+    ]
   },
   "properties": {
     "dtg": "2015-02-12T16:58:00",
     "raw_dtg": "121658Z FEB 15",
     "msg_id": "HYDROARC 365/15(37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 774/15"
+      "2905/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\n1. LIGHT AND FOG SIGNAL AT\n   METEOROLOGICAL MAST 51-56.6N 001-55.3E DISCONTINUED.\n2. CANCEL HYDROLANT 2905/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37140.\n1. LIGHT AND FOG SIGNAL AT\n   METEOROLOGICAL MAST 51-56.6N 001-55.3E DISCONTINUED.\n2. CANCEL HYDROLANT 2905/14.",
+    "valid_from": "2015-02-12T16:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

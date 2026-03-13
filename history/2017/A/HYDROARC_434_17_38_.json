@@ -3,17 +3,23 @@
   "id": "HYDROARC 434/17(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.04861111111111,
+      60.91222222222222
+    ]
   },
   "properties": {
     "dtg": "2017-02-08T03:19:00",
     "raw_dtg": "080319Z FEB 17",
     "msg_id": "HYDROARC 434/17(38)",
-    "cancellations": [
-      "HYDROARC 627/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DAVIS STRAIT.\nGREENLAND-SOUTH COAST.\nDNC 19.\nRED FLARE SIGHTED IN VICINITY 60-54-44N 046-02-55W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO AASIAAT RADIO."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DAVIS STRAIT.\nGREENLAND-SOUTH COAST.\nDNC 19.\nRED FLARE SIGHTED IN VICINITY 60-54-44N 046-02-55W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO AASIAAT RADIO.",
+    "valid_from": "2017-02-08T03:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

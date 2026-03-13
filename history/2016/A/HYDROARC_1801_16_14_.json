@@ -3,17 +3,23 @@
   "id": "HYDROARC 1801/16(14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.26833333333333,
+      46.10666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-07-17T04:50:00",
     "raw_dtg": "170450Z JUL 16",
     "msg_id": "HYDROARC 1801/16(14)",
-    "cancellations": [
-      "HYDROARC 1933/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM S/V OMANSAIL\nIN 46-06.4N 044-16.1W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO JRCC HALIFAX, PHONE: 902 427 8200,\nFAX: 902 427 2114, E-MAIL: JRCCHALIFAX@SARNET.DND.CA."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM S/V OMANSAIL\nIN 46-06.4N 044-16.1W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO JRCC HALIFAX, PHONE: 902 427 8200,\nFAX: 902 427 2114, E-MAIL: JRCCHALIFAX@SARNET.DND.CA.",
+    "valid_from": "2016-07-17T04:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

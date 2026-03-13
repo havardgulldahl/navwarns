@@ -3,17 +3,23 @@
   "id": "HYDROARC 52/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6383333333333332,
+      51.10166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-01-06T20:20:00",
     "raw_dtg": "062020Z JAN 12",
     "msg_id": "HYDROARC 52/12(37)",
-    "cancellations": [
-      "HYDROARC 59/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37120\nRACON AT MPC BUOY 51-06.1N 001-38.3E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37120\nRACON AT MPC BUOY 51-06.1N 001-38.3E INOPERATIVE.",
+    "valid_from": "2012-01-06T20:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

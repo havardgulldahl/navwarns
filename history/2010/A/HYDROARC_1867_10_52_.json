@@ -3,17 +3,23 @@
   "id": "HYDROARC 1867/10(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.876666666666667,
+      37.498333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-10-01T14:24:00",
     "raw_dtg": "011424Z OCT 10",
     "msg_id": "HYDROARC 1867/10(52)",
-    "cancellations": [
-      "HYDROARC 1885/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-NORTH COAST.\nNGA CHART 52200 (8TH ED).\nGALITON LIGHT 37-29.9N 008-52.6E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTH COAST.\nNGA CHART 52200 (8TH ED).\nGALITON LIGHT 37-29.9N 008-52.6E UNRELIABLE.",
+    "valid_from": "2010-10-01T14:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

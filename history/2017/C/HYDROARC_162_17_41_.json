@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 162/17(41)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          123.98833333333333,
+          76.82333333333334
+        ],
+        [
+          129.9,
+          76.82333333333334
+        ],
+        [
+          130.41333333333333,
+          74.47
+        ],
+        [
+          123.97666666666667,
+          74.28833333333333
+        ],
+        [
+          123.98833333333333,
+          76.82333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-07-24T11:15:00",
     "raw_dtg": "241115Z JUL 17",
     "msg_id": "HYDROARC 162/17(41)",
-    "cancellations": [
-      "HYDROARC 164/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "LAPTEV SEA.\nDNC 27.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V NIKOLAY TRUBYATCHINSKY TOWING 8100 METER\nLONG CABLE IN AREA BOUND BY\n76-49.4N 123-59.3E, 76-49.4N 129-54.0E,\n74-28.2N 130-24.8E, 74-17.3N 123-58.6E.\nEIGHT MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "LAPTEV SEA.\nDNC 27.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V NIKOLAY TRUBYATCHINSKY TOWING 8100 METER\nLONG CABLE IN AREA BOUND BY\n76-49.4N 123-59.3E, 76-49.4N 129-54.0E,\n74-28.2N 130-24.8E, 74-17.3N 123-58.6E.\nEIGHT MILE BERTH REQUESTED.",
+    "valid_from": "2017-07-24T11:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

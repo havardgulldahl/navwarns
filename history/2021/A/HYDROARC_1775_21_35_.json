@@ -3,17 +3,23 @@
   "id": "HYDROARC 1775/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.7266666666666666,
+      57.406666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-07-06T14:02:00",
     "raw_dtg": "061402Z JUL 21",
     "msg_id": "HYDROARC 1775/21(35)",
-    "cancellations": [
-      "HYDROARC 1834/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n57-24.4N 001-43.6W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN IN VICINITY\n57-24.4N 001-43.6W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2021-07-06T14:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1136/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.6950000000000003,
+      53.06333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-05-04T11:44:00",
     "raw_dtg": "041144Z MAY 14",
     "msg_id": "HYDROARC 1136/14(37)",
-    "cancellations": [
-      "HYDROARC 1142/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "NORTH SEA.\nCHART 37166\nRACON AT WEST CARDINAL BUOY 53-03.8N 002-41.7E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nCHART 37166\nRACON AT WEST CARDINAL BUOY 53-03.8N 002-41.7E INOPERATIVE.",
+    "valid_from": "2014-05-04T11:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 1927/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -16.958333333333332,
+      48.41166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-08-21T09:37:00",
     "raw_dtg": "210937Z AUG 12",
     "msg_id": "HYDROARC 1927/12(36)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 240936Z AUG 12",
-      "HYDROARC 1930/12"
+      "THIS MSG 240936Z AUG 12"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT M/V FLAMINIA ADRIFT VICINITY\n   48-24.7N 016-57.5W AT 200001Z AUG.\n2. CANCEL THIS MSG 240936Z AUG 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT M/V FLAMINIA ADRIFT VICINITY\n   48-24.7N 016-57.5W AT 200001Z AUG.\n2. CANCEL THIS MSG 240936Z AUG 12.",
+    "valid_from": "2012-08-21T09:37:00+00:00",
+    "valid_until": "2012-08-24T09:36:00+00:00",
+    "summary": null
   }
 }

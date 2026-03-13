@@ -3,17 +3,23 @@
   "id": "HYDROARC 1740/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2733333333333334,
+      59.855
+    ]
   },
   "properties": {
     "dtg": "2010-09-15T07:34:00",
     "raw_dtg": "150734Z SEP 10",
     "msg_id": "HYDROARC 1740/10(35)",
-    "cancellations": [
-      "HYDROARC 1740/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nNGA CHART 35172 (3RD ED).\n1. SUMBURGH HEAD DGPS STATION 59-51.3N 001-16.4W\n   UNUSABLE 150900Z TO 151300Z SEP.\n2. CANCEL THIS MSG 151400Z SEP."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nNGA CHART 35172 (3RD ED).\n1. SUMBURGH HEAD DGPS STATION 59-51.3N 001-16.4W\n   UNUSABLE 150900Z TO 151300Z SEP.\n2. CANCEL THIS MSG 151400Z SEP.",
+    "valid_from": "2010-09-15T07:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

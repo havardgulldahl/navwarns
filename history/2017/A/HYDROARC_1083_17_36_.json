@@ -3,18 +3,25 @@
   "id": "HYDROARC 1083/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.29,
+      53.416666666666664
+    ]
   },
   "properties": {
     "dtg": "2017-04-03T23:29:00",
     "raw_dtg": "032329Z APR 17",
     "msg_id": "HYDROARC 1083/17(36)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 061700Z APR 17",
-      "HYDROARC 1083/17"
+      "THIS MSG 061700Z APR 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nWALES-NORTHWEST COAST.\nDNC 20.\nCHART 36025.\n1. DPGS STATION AT POINT LYNAS LIGHT\n   53-25.0N 004-17.4W OFF AIR\n   0800Z TO 1600Z DAILY 04 THRU 06 APR.\n2. CANCEL THIS MSG 061700Z APR 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nWALES-NORTHWEST COAST.\nDNC 20.\nCHART 36025.\n1. DPGS STATION AT POINT LYNAS LIGHT\n   53-25.0N 004-17.4W OFF AIR\n   0800Z TO 1600Z DAILY 04 THRU 06 APR.\n2. CANCEL THIS MSG 061700Z APR 17.",
+    "valid_from": "2017-04-03T23:29:00+00:00",
+    "valid_until": "2017-04-06T17:00:00+00:00",
+    "summary": null
   }
 }

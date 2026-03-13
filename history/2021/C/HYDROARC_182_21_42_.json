@@ -3,18 +3,25 @@
   "id": "HYDROARC 182/21(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      33.275,
+      76.83166666666666
+    ]
   },
   "properties": {
     "dtg": "2021-08-13T19:37:00",
     "raw_dtg": "131937Z AUG 21",
     "msg_id": "HYDROARC 182/21(42)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 161937Z AUG 21",
-      "HYDROARC 182/21"
+      "THIS MSG 161937Z AUG 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nDNC 22.\n1. EQUIPMENT ADRIFT IN 76-49.9N 033-16.5E.\n2. CANCEL THIS MSG 161937Z AUG 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nDNC 22.\n1. EQUIPMENT ADRIFT IN 76-49.9N 033-16.5E.\n2. CANCEL THIS MSG 161937Z AUG 21.",
+    "valid_from": "2021-08-13T19:37:00+00:00",
+    "valid_until": "2021-08-16T19:37:00+00:00",
+    "summary": null
   }
 }

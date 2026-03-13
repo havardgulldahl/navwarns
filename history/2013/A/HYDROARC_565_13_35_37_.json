@@ -3,17 +3,25 @@
   "id": "HYDROARC 565/13(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.703333333333333,
+      55.1
+    ]
   },
   "properties": {
     "dtg": "2013-03-04T16:39:00",
     "raw_dtg": "041639Z MAR 13",
     "msg_id": "HYDROARC 565/13(35,37)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2763/14"
+      "563/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 35002\n1. METEOROLOGICAL MAST WITH LIGHT,\n   MO(U) 15 SEC, FOG SIGNAL MO(U) 30 SEC,\n   ESTABLISHED IN 55-06.0N 002-42.2E.\n2. CANCEL HYDROLANT 563/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 35002\n1. METEOROLOGICAL MAST WITH LIGHT,\n   MO(U) 15 SEC, FOG SIGNAL MO(U) 30 SEC,\n   ESTABLISHED IN 55-06.0N 002-42.2E.\n2. CANCEL HYDROLANT 563/13.",
+    "valid_from": "2013-03-04T16:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

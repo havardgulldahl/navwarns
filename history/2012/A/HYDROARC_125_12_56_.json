@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 125/12(56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          13.1,
+          32.913333333333334
+        ],
+        [
+          13.156666666666666,
+          32.913333333333334
+        ],
+        [
+          13.156666666666666,
+          32.88166666666667
+        ],
+        [
+          13.1,
+          32.875
+        ],
+        [
+          13.1,
+          32.913333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-01-16T12:49:00",
     "raw_dtg": "161249Z JAN 12",
     "msg_id": "HYDROARC 125/12(56)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 189/12"
+      "95/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nLIBYA.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE BY\n   CABLESHIP RAYMOND CROZE WITH SUBMERSIBLE IN AREA BOUND BY\n   32-54.8N 013-06.0E, 32-54.8N 013-09.4E,\n   32-52.9N 013-09.4E, 32-52.5N 013-06.0E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 95/12."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nLIBYA.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE BY\n   CABLESHIP RAYMOND CROZE WITH SUBMERSIBLE IN AREA BOUND BY\n   32-54.8N 013-06.0E, 32-54.8N 013-09.4E,\n   32-52.9N 013-09.4E, 32-52.5N 013-06.0E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 95/12.",
+    "valid_from": "2012-01-16T12:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

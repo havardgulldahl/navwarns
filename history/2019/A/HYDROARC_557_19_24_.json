@@ -3,17 +3,23 @@
   "id": "HYDROARC 557/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.14666666666667,
+      -23.063333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-02-20T10:18:00",
     "raw_dtg": "201018Z FEB 19",
     "msg_id": "HYDROARC 557/19(24)",
-    "cancellations": [
-      "HYDROARC 666/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\nRADIOBEACON AT RASA LIGHT 23-03.8S 043-08.8W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\nRADIOBEACON AT RASA LIGHT 23-03.8S 043-08.8W OFF AIR.",
+    "valid_from": "2019-02-20T10:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

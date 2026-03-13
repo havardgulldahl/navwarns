@@ -3,18 +3,25 @@
   "id": "HYDROARC 1275/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.6983333333333333,
+      56.335
+    ]
   },
   "properties": {
     "dtg": "2013-05-24T07:20:00",
     "raw_dtg": "240720Z MAY 13",
     "msg_id": "HYDROARC 1275/13(37)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 270720Z MAY 13",
-      "HYDROARC 1275/13"
+      "THIS MSG 270720Z MAY 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\n1. NINE METER LONG OBJECT ADRIFT VICINITY\n   56-20.1N 002-41.9E AT 240025Z MAY.\n2. CANCEL THIS MSG 270720Z MAY 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\n1. NINE METER LONG OBJECT ADRIFT VICINITY\n   56-20.1N 002-41.9E AT 240025Z MAY.\n2. CANCEL THIS MSG 270720Z MAY 13.",
+    "valid_from": "2013-05-24T07:20:00+00:00",
+    "valid_until": "2013-05-27T07:20:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1340/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5150000000000001,
+      50.891666666666666
+    ]
   },
   "properties": {
     "dtg": "2020-04-15T17:27:00",
     "raw_dtg": "151727Z APR 20",
     "msg_id": "HYDROARC 1340/20(37)",
-    "cancellations": [
-      "HYDROARC 1541/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nZC2 BUOY 50-53.5N 001-30.9E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nZC2 BUOY 50-53.5N 001-30.9E UNLIT.",
+    "valid_from": "2020-04-15T17:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

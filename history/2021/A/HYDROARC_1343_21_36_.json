@@ -3,17 +3,25 @@
   "id": "HYDROARC 1343/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.861666666666667,
+      54.026666666666664
+    ]
   },
   "properties": {
     "dtg": "2021-05-18T15:43:00",
     "raw_dtg": "181543Z MAY 21",
     "msg_id": "HYDROARC 1343/21(36)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1368/21"
+      "989/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nDNC 20.\n1. PLATFORM 113/26 54-01.6N 003-51.7W UNLIT\n   AND ALL NAVIGATIONAL AIDS INOPERATIVE.\n2. CANCEL HYDROLANT 989/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nDNC 20.\n1. PLATFORM 113/26 54-01.6N 003-51.7W UNLIT\n   AND ALL NAVIGATIONAL AIDS INOPERATIVE.\n2. CANCEL HYDROLANT 989/21.",
+    "valid_from": "2021-05-18T15:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

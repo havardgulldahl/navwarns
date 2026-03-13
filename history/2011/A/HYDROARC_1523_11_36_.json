@@ -3,17 +3,23 @@
   "id": "HYDROARC 1523/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.923333333333334,
+      53.31166666666667
+    ]
   },
   "properties": {
     "dtg": "2011-09-20T21:30:00",
     "raw_dtg": "202130Z SEP 11",
     "msg_id": "HYDROARC 1523/11(36)",
-    "cancellations": [
-      "HYDROARC 1553/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nNGA CHART 36006 (1ST ED).\nKISH BANK LIGHT 53-18.7N 005-55.4W UNRELIABLE."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nNGA CHART 36006 (1ST ED).\nKISH BANK LIGHT 53-18.7N 005-55.4W UNRELIABLE.",
+    "valid_from": "2011-09-20T21:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

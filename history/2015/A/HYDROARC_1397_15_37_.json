@@ -3,17 +3,25 @@
   "id": "HYDROARC 1397/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.2716666666666667,
+      50.815
+    ]
   },
   "properties": {
     "dtg": "2015-06-08T16:12:00",
     "raw_dtg": "081612Z JUN 15",
     "msg_id": "HYDROARC 1397/15(37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2154/15"
+      "1027/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nDNC 20.\nCHART 37120.\n1. COLBART SW BUOY 50-48.9N 001-16.3E UNRELIABLE.\n2. CANCEL HYDROLANT 1027/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nDNC 20.\nCHART 37120.\n1. COLBART SW BUOY 50-48.9N 001-16.3E UNRELIABLE.\n2. CANCEL HYDROLANT 1027/15.",
+    "valid_from": "2015-06-08T16:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

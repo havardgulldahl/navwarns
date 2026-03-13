@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1489/23(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2023-07-02T07:00:00",
     "raw_dtg": "020700Z JUL 23",
     "msg_id": "HYDROARC 1489/23(36)",
+    "year": 2023,
     "cancellations": [
-      "HYDROARC 1489/23"
+      "1488/23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nDNC 19.\nCANCEL HYDROLANT 1488/23 AND THIS MSG,\nPERSONS RESCUED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nDNC 19.\nCANCEL HYDROLANT 1488/23 AND THIS MSG,\nPERSONS RESCUED.",
+    "valid_from": "2023-07-02T07:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

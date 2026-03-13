@@ -3,17 +3,23 @@
   "id": "HYDROARC 1372/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.996666666666666,
+      48.05
+    ]
   },
   "properties": {
     "dtg": "2011-08-29T05:07:00",
     "raw_dtg": "290507Z AUG 11",
     "msg_id": "HYDROARC 1372/11(37)",
-    "cancellations": [
-      "HYDROARC 1374/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nAR-MEN LIGHT 48-03.0N 004-59.8W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nAR-MEN LIGHT 48-03.0N 004-59.8W UNLIT.",
+    "valid_from": "2011-08-29T05:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

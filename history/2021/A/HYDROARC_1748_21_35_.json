@@ -3,18 +3,25 @@
   "id": "HYDROARC 1748/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.525,
+      58.156666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-07-03T05:46:00",
     "raw_dtg": "030546Z JUL 21",
     "msg_id": "HYDROARC 1748/21(35)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 060546Z JUL 21",
-      "HYDROARC 1748/21"
+      "THIS MSG 060546Z JUL 21"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. DERELICT VESSEL SUBMERGED AND ADRIFT\n   IN VICINITY 58-09.4N 003-31.5W AT 030459Z JUL.\n2. CANCEL THIS MSG 060546Z JUL 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. DERELICT VESSEL SUBMERGED AND ADRIFT\n   IN VICINITY 58-09.4N 003-31.5W AT 030459Z JUL.\n2. CANCEL THIS MSG 060546Z JUL 21.",
+    "valid_from": "2021-07-03T05:46:00+00:00",
+    "valid_until": "2021-07-06T05:46:00+00:00",
+    "summary": null
   }
 }

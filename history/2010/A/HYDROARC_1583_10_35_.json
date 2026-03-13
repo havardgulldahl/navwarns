@@ -3,17 +3,23 @@
   "id": "HYDROARC 1583/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.6466666666666665,
+      58.51833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-08-21T23:23:00",
     "raw_dtg": "212323Z AUG 10",
     "msg_id": "HYDROARC 1583/10(35)",
-    "cancellations": [
-      "HYDROARC 1594/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (2ND ED).\nLOCH ERIBOLL WHITE HEAD LIGHT 58-31.1N 004-38.8W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (2ND ED).\nLOCH ERIBOLL WHITE HEAD LIGHT 58-31.1N 004-38.8W UNLIT.",
+    "valid_from": "2010-08-21T23:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

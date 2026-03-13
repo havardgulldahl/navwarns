@@ -3,17 +3,23 @@
   "id": "HYDROARC 154/22(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.43,
+      47.48
+    ]
   },
   "properties": {
     "dtg": "2022-01-17T15:05:00",
     "raw_dtg": "171505Z JAN 22",
     "msg_id": "HYDROARC 154/22(36)",
-    "cancellations": [
-      "HYDROARC 1433/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\nODAS BUOY BRITTANY 47-28.8N 008-25.8W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\nODAS BUOY BRITTANY 47-28.8N 008-25.8W UNLIT.",
+    "valid_from": "2022-01-17T15:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

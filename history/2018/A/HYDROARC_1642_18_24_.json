@@ -3,17 +3,25 @@
   "id": "HYDROARC 1642/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.986666666666665,
+      0.88
+    ]
   },
   "properties": {
     "dtg": "2018-05-25T09:05:00",
     "raw_dtg": "250905Z MAY 18",
     "msg_id": "HYDROARC 1642/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 1642/18"
+      "THIS MSG 25 NOV 18"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24320.\n1. RACON AT ILHA DO PARA LIGHT 00-52.8N 049-59.2W\n   INOPERATIVE UNTIL 24 NOV.\n2. CANCEL THIS MSG 25 NOV 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24320.\n1. RACON AT ILHA DO PARA LIGHT 00-52.8N 049-59.2W\n   INOPERATIVE UNTIL 24 NOV.\n2. CANCEL THIS MSG 25 NOV 18.",
+    "valid_from": "2018-05-25T09:05:00+00:00",
+    "valid_until": "2018-11-25T00:00:00+00:00",
+    "summary": null
   }
 }

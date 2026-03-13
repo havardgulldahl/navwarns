@@ -1,20 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1276/16(23,29)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-05-28T14:55:00",
     "raw_dtg": "281455Z MAY 16",
     "msg_id": "HYDROARC 1276/16(23,29)",
+    "year": 2016,
     "cancellations": [
       "THIS MSG 311455Z MAY 16",
-      "HYDROARC 1276/16"
+      "1272/16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nSCOTIA SEA.\nICE.\nDNC 01.\n1. ICEBERGS REPORTED IN:\n   A. A56, 50-01S 023-43W.\n   B. B15X, 55-27S 035-35W.\n2. CANCEL HYDROLANT 1272/16.\n3. CANCEL THIS MSG 311455Z MAY 16."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nSCOTIA SEA.\nICE.\nDNC 01.\n1. ICEBERGS REPORTED IN:\n   A. A56, 50-01S 023-43W.\n   B. B15X, 55-27S 035-35W.\n2. CANCEL HYDROLANT 1272/16.\n3. CANCEL THIS MSG 311455Z MAY 16.",
+    "valid_from": "2016-05-28T14:55:00+00:00",
+    "valid_until": "2016-05-31T14:55:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 905/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -39.22,
+      -17.286666666666665
+    ]
   },
   "properties": {
     "dtg": "2022-03-29T21:21:00",
     "raw_dtg": "292121Z MAR 22",
     "msg_id": "HYDROARC 905/22(24)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 986/22"
+      "THIS MSG 26 SEP 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nCHART 24180.\n1. BARREIRAS DO PRADO LIGHT 17-17.2S 039-13.2W\n   UNLIT UNTIL 25 SEP.\n2. CANCEL THIS MSG 26 SEP 22."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nCHART 24180.\n1. BARREIRAS DO PRADO LIGHT 17-17.2S 039-13.2W\n   UNLIT UNTIL 25 SEP.\n2. CANCEL THIS MSG 26 SEP 22.",
+    "valid_from": "2022-03-29T21:21:00+00:00",
+    "valid_until": "2022-09-26T00:00:00+00:00",
+    "summary": null
   }
 }

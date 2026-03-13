@@ -3,18 +3,25 @@
   "id": "HYDROARC 3459/17(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.011666666666667,
+      49.64
+    ]
   },
   "properties": {
     "dtg": "2017-10-25T16:43:00",
     "raw_dtg": "251643Z OCT 17",
     "msg_id": "HYDROARC 3459/17(36,37)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 281643Z OCT 17",
-      "HYDROARC 3459/17"
+      "THIS MSG 281643Z OCT 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLISH CHANNEL.\nENGLAND.\nDNC 19, DNC 20.\n1. RED BUOY ADRIFT IN VICINITY 49-38.4N 006-00.7W\n   AT 251517Z OCT.\n2. CANCEL THIS MSG 281643Z OCT 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLISH CHANNEL.\nENGLAND.\nDNC 19, DNC 20.\n1. RED BUOY ADRIFT IN VICINITY 49-38.4N 006-00.7W\n   AT 251517Z OCT.\n2. CANCEL THIS MSG 281643Z OCT 17.",
+    "valid_from": "2017-10-25T16:43:00+00:00",
+    "valid_until": "2017-10-28T16:43:00+00:00",
+    "summary": null
   }
 }

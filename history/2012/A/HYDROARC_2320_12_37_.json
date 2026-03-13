@@ -3,17 +3,25 @@
   "id": "HYDROARC 2320/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.1633333333333336,
+      49.73
+    ]
   },
   "properties": {
     "dtg": "2012-10-03T23:58:00",
     "raw_dtg": "032358Z OCT 12",
     "msg_id": "HYDROARC 2320/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2349/12"
+      "2319/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nCHART 37080\n1. ALDERNEY LIGHT 49-43.8N 002-09.8W UNRELIABLE.\n2. CANCEL HYDROLANT 2319/12(35), AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nCHART 37080\n1. ALDERNEY LIGHT 49-43.8N 002-09.8W UNRELIABLE.\n2. CANCEL HYDROLANT 2319/12(35), AID RESTORED.",
+    "valid_from": "2012-10-03T23:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

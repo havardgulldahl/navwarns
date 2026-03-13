@@ -3,17 +3,23 @@
   "id": "HYDROARC 1029/12(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -26.23,
+      44.928333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-05-14T20:12:00",
     "raw_dtg": "142012Z MAY 12",
     "msg_id": "HYDROARC 1029/12(38)",
-    "cancellations": [
-      "HYDROARC 1029/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\n1. DERELICT S/V KAMU ADRIFT VICINITY\n   44-55.7N 026-13.8W AT 141612Z MAY.\n2. CANCEL THIS MSG 172010Z MAY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\n1. DERELICT S/V KAMU ADRIFT VICINITY\n   44-55.7N 026-13.8W AT 141612Z MAY.\n2. CANCEL THIS MSG 172010Z MAY.",
+    "valid_from": "2012-05-14T20:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

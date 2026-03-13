@@ -3,17 +3,23 @@
   "id": "HYDROARC 2731/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.1166666666666667,
+      58.696666666666665
+    ]
   },
   "properties": {
     "dtg": "2012-11-18T21:31:00",
     "raw_dtg": "182131Z NOV 12",
     "msg_id": "HYDROARC 2731/12(35)",
-    "cancellations": [
-      "HYDROARC 2751/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nCHART 35059\nSWILKIE POINT LIGHT 58-41.8N 003-07.0W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nCHART 35059\nSWILKIE POINT LIGHT 58-41.8N 003-07.0W UNRELIABLE.",
+    "valid_from": "2012-11-18T21:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

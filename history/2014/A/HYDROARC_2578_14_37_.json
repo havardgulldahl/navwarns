@@ -3,17 +3,23 @@
   "id": "HYDROARC 2578/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.9616666666666667,
+      50.54666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-10-24T12:33:00",
     "raw_dtg": "241233Z OCT 14",
     "msg_id": "HYDROARC 2578/14(37)",
-    "cancellations": [
-      "HYDROARC 2875/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 37115.\nRACON AT BASSURELLE BUOY 50-32.8N 000-57.7E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 37115.\nRACON AT BASSURELLE BUOY 50-32.8N 000-57.7E INOPERATIVE.",
+    "valid_from": "2014-10-24T12:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

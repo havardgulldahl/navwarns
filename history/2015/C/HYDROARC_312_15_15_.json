@@ -3,17 +3,23 @@
   "id": "HYDROARC 312/15(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -113.42,
+      68.655
+    ]
   },
   "properties": {
     "dtg": "2015-09-24T23:57:00",
     "raw_dtg": "242357Z SEP 15",
     "msg_id": "HYDROARC 312/15(15)",
-    "cancellations": [
-      "HYDROARC 182/16"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nDOLPHIN AND UNION STRAIT.\nDNC 28.\nCHART 15954.\nCACHE POINT RACON 68-39.3N 113-25.2W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nDOLPHIN AND UNION STRAIT.\nDNC 28.\nCHART 15954.\nCACHE POINT RACON 68-39.3N 113-25.2W INOPERATIVE.",
+    "valid_from": "2015-09-24T23:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

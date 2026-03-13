@@ -3,17 +3,25 @@
   "id": "HYDROARC 2367/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.625,
+      53.891666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-10-01T08:39:00",
     "raw_dtg": "010839Z OCT 14",
     "msg_id": "HYDROARC 2367/14(36)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2404/14"
+      "2322/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM\n   DP8, 53-53.5N 003-37.5W INOPERATIVE.\n2. CANCEL HYDROLANT 2322/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM\n   DP8, 53-53.5N 003-37.5W INOPERATIVE.\n2. CANCEL HYDROLANT 2322/14.",
+    "valid_from": "2014-10-01T08:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

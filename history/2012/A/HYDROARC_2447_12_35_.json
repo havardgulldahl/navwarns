@@ -3,17 +3,23 @@
   "id": "HYDROARC 2447/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.05,
+      58.48
+    ]
   },
   "properties": {
     "dtg": "2012-10-19T23:06:00",
     "raw_dtg": "192306Z OCT 12",
     "msg_id": "HYDROARC 2447/12(35)",
-    "cancellations": [
-      "HYDROARC 2455/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nCHART 35055\nNOSS HEAD LIGHT 58-28.8N 003-03.0W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nCHART 35055\nNOSS HEAD LIGHT 58-28.8N 003-03.0W UNRELIABLE.",
+    "valid_from": "2012-10-19T23:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

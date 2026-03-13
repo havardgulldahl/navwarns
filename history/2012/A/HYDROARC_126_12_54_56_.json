@@ -3,17 +3,23 @@
   "id": "HYDROARC 126/12(54,56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      35.855,
+      34.85666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-01-16T12:58:00",
     "raw_dtg": "161258Z JAN 12",
     "msg_id": "HYDROARC 126/12(54,56)",
-    "cancellations": [
-      "HYDROARC 361/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nSYRIA.\nCHART 54480\nJAZIRAT ARWAD LIGHT 34-51.4N 035-51.3E UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nSYRIA.\nCHART 54480\nJAZIRAT ARWAD LIGHT 34-51.4N 035-51.3E UNLIT.",
+    "valid_from": "2012-01-16T12:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

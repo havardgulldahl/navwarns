@@ -3,17 +3,23 @@
   "id": "HYDROARC 1341/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.205,
+      -23.026666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-08-24T02:46:00",
     "raw_dtg": "240246Z AUG 11",
     "msg_id": "HYDROARC 1341/11(24)",
-    "cancellations": [
-      "HYDROARC 1499/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24004 (36TH ED).\nILHA DE PALMAS 23-01.6S 043-12.3W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24004 (36TH ED).\nILHA DE PALMAS 23-01.6S 043-12.3W UNLIT.",
+    "valid_from": "2011-08-24T02:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

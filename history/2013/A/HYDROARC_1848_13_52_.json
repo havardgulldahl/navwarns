@@ -3,17 +3,23 @@
   "id": "HYDROARC 1848/13(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.0366666666666666,
+      35.94
+    ]
   },
   "properties": {
     "dtg": "2013-07-29T23:38:00",
     "raw_dtg": "292338Z JUL 13",
     "msg_id": "HYDROARC 1848/13(52)",
-    "cancellations": [
-      "HYDROARC 2095/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ALBORAN SEA.\nCHART 52040\nISLA DE ALBORAN LIGHT 35-56.4N 003-02.2W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ALBORAN SEA.\nCHART 52040\nISLA DE ALBORAN LIGHT 35-56.4N 003-02.2W UNLIT.",
+    "valid_from": "2013-07-29T23:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

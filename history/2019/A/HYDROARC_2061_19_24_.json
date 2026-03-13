@@ -3,17 +3,25 @@
   "id": "HYDROARC 2061/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.361666666666665,
+      -2.3383333333333334
+    ]
   },
   "properties": {
     "dtg": "2019-07-08T22:33:00",
     "raw_dtg": "082233Z JUL 19",
     "msg_id": "HYDROARC 2061/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 2061/19"
+      "THIS MSG 05 JAN 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. PIRAREMA LIGHT 02-20.3S 044-21.7W UNLIT\n   UNTIL 04 JAN 20.\n2. CANCEL THIS MSG 05 JAN 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. PIRAREMA LIGHT 02-20.3S 044-21.7W UNLIT\n   UNTIL 04 JAN 20.\n2. CANCEL THIS MSG 05 JAN 20.",
+    "valid_from": "2019-07-08T22:33:00+00:00",
+    "valid_until": "2020-01-05T00:00:00+00:00",
+    "summary": null
   }
 }

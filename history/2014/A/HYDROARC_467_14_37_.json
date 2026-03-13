@@ -3,17 +3,26 @@
   "id": "HYDROARC 467/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7666666666666666,
+      51.835
+    ]
   },
   "properties": {
     "dtg": "2014-02-15T10:57:00",
     "raw_dtg": "151057Z FEB 14",
     "msg_id": "HYDROARC 467/14(37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 488/14"
+      "429/14",
+      "464/14"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\n1. RACON AT SUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E INOPERATIVE.\n2. CANCEL HYDROLANT 429/14(35,36), STATION RESTORED.\n3. CANCEL HYDROLANT 464/14(35,36), STATION RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\n1. RACON AT SUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E INOPERATIVE.\n2. CANCEL HYDROLANT 429/14(35,36), STATION RESTORED.\n3. CANCEL HYDROLANT 464/14(35,36), STATION RESTORED.",
+    "valid_from": "2014-02-15T10:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

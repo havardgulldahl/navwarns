@@ -12,12 +12,16 @@
     "dtg": "2024-04-17T15:20:00",
     "raw_dtg": "171520Z APR 24",
     "msg_id": "HYDROARC 817/24(24)",
+    "year": 2024,
     "cancellations": [
-      "THIS MSG 150001Z OCT 24",
-      "HYDROARC 817/24"
+      "THIS MSG 150001Z OCT 24"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. ILHA DOS LOBOS LIGHT 28-26.77S 048-42.45W UNLIT\n   UNTIL 14 OCT.\n2. CANCEL THIS MSG 150001Z OCT 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. ILHA DOS LOBOS LIGHT 28-26.77S 048-42.45W UNLIT\n   UNTIL 14 OCT.\n2. CANCEL THIS MSG 150001Z OCT 24.",
+    "valid_from": "2024-04-17T15:20:00+00:00",
+    "valid_until": "2024-10-15T00:01:00+00:00",
+    "summary": null
   }
 }

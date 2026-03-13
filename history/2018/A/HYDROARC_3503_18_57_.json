@@ -3,18 +3,25 @@
   "id": "HYDROARC 3503/18(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      9.103333333333333,
+      2.0083333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-11-11T11:50:00",
     "raw_dtg": "111150Z NOV 18",
     "msg_id": "HYDROARC 3503/18(57)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 141150Z NOV 18",
-      "HYDROARC 3503/18"
+      "THIS MSG 141150Z NOV 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nEQUATORIAL GUINEA.\nDNC 01.\nCHART 57170.\n1. 8000 METER LONG CABLE, MARKED BY ONE\n   YELLOW BUOY WITH LIGHT AND ORANGE FLOATING\n   DEVICES, ADRIFT IN 02-00.5N 009-06.2E.\n2. CANCEL THIS MSG 141150Z NOV 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nEQUATORIAL GUINEA.\nDNC 01.\nCHART 57170.\n1. 8000 METER LONG CABLE, MARKED BY ONE\n   YELLOW BUOY WITH LIGHT AND ORANGE FLOATING\n   DEVICES, ADRIFT IN 02-00.5N 009-06.2E.\n2. CANCEL THIS MSG 141150Z NOV 18.",
+    "valid_from": "2018-11-11T11:50:00+00:00",
+    "valid_until": "2018-11-14T11:50:00+00:00",
+    "summary": null
   }
 }

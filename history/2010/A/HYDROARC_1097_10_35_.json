@@ -3,17 +3,23 @@
   "id": "HYDROARC 1097/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.125,
+      58.89
+    ]
   },
   "properties": {
     "dtg": "2010-06-12T23:37:00",
     "raw_dtg": "122337Z JUN 10",
     "msg_id": "HYDROARC 1097/10(35)",
-    "cancellations": [
-      "HYDROARC 1103/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (2ND ED).\nBARREL OF BUTTER LIGHT 58-53.4N 003-07.5W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (2ND ED).\nBARREL OF BUTTER LIGHT 58-53.4N 003-07.5W UNLIT.",
+    "valid_from": "2010-06-12T23:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

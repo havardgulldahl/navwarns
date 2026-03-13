@@ -3,17 +3,25 @@
   "id": "HYDROARC 442/11(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -33.94,
+      20.591666666666665
+    ]
   },
   "properties": {
     "dtg": "2011-03-17T15:29:00",
     "raw_dtg": "171529Z MAR 11",
     "msg_id": "HYDROARC 442/11(51)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 442/11"
+      "422/11"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\n1. DERELICT S/V ADRIFT VICINITY 20-35.5N 033-56.4W\n   AT 170705Z MAR.\n2. CANCEL HYDROLANT 422/11.\n3. CANCEL THIS MSG 201530Z MAR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\n1. DERELICT S/V ADRIFT VICINITY 20-35.5N 033-56.4W\n   AT 170705Z MAR.\n2. CANCEL HYDROLANT 422/11.\n3. CANCEL THIS MSG 201530Z MAR.",
+    "valid_from": "2011-03-17T15:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

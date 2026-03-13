@@ -3,17 +3,23 @@
   "id": "HYDROARC 3633/18(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -10.796666666666667,
+      6.345
+    ]
   },
   "properties": {
     "dtg": "2018-11-22T16:12:00",
     "raw_dtg": "221612Z NOV 18",
     "msg_id": "HYDROARC 3633/18(51)",
-    "cancellations": [
-      "HYDROARC 3678/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nLIBERIA.\nDNC 01.\nCHART 51640.\nDANGEROUS WRECK, DEPTH 3.1 METERS,\nIN VICINITY 06-20.7N 010-47.8W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nLIBERIA.\nDNC 01.\nCHART 51640.\nDANGEROUS WRECK, DEPTH 3.1 METERS,\nIN VICINITY 06-20.7N 010-47.8W.",
+    "valid_from": "2018-11-22T16:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

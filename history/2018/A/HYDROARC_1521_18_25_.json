@@ -3,18 +3,25 @@
   "id": "HYDROARC 1521/18(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -64.21666666666667,
+      28.383333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-05-15T13:35:00",
     "raw_dtg": "151335Z MAY 18",
     "msg_id": "HYDROARC 1521/18(25)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 181335Z MAY 18",
-      "HYDROARC 1521/18"
+      "THIS MSG 181335Z MAY 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 16.\n1. 60 FOOT LONG GREY OBJECT ADRIFT IN VICINITY\n   28-23.0N 064-13.0W AT 151140Z MAY.\n2. CANCEL THIS MSG 181335Z MAY 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 16.\n1. 60 FOOT LONG GREY OBJECT ADRIFT IN VICINITY\n   28-23.0N 064-13.0W AT 151140Z MAY.\n2. CANCEL THIS MSG 181335Z MAY 18.",
+    "valid_from": "2018-05-15T13:35:00+00:00",
+    "valid_until": "2018-05-18T13:35:00+00:00",
+    "summary": null
   }
 }

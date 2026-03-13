@@ -3,17 +3,23 @@
   "id": "HYDROARC 37/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.538333333333333,
+      58.67
+    ]
   },
   "properties": {
     "dtg": "2015-01-05T12:33:00",
     "raw_dtg": "051233Z JAN 15",
     "msg_id": "HYDROARC 37/15(35)",
-    "cancellations": [
-      "HYDROARC 396/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTHEAST COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35058.\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE UNLESS\nAUTHORIZED BY MRCC SHETLAND WITHIN TWO MILES OF\n58-40.2N 002-32.3W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTHEAST COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35058.\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE UNLESS\nAUTHORIZED BY MRCC SHETLAND WITHIN TWO MILES OF\n58-40.2N 002-32.3W.",
+    "valid_from": "2015-01-05T12:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

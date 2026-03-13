@@ -3,17 +3,23 @@
   "id": "HYDROARC 104/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.13,
+      48.46
+    ]
   },
   "properties": {
     "dtg": "2013-01-12T00:14:00",
     "raw_dtg": "120014Z JAN 13",
     "msg_id": "HYDROARC 104/13(37)",
-    "cancellations": [
-      "HYDROARC 112/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nCHART 37320\nPOINTE DE CREACH LIGHT 48-27.6N 005-07.8W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nCHART 37320\nPOINTE DE CREACH LIGHT 48-27.6N 005-07.8W UNLIT.",
+    "valid_from": "2013-01-12T00:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

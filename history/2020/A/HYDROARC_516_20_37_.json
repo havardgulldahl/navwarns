@@ -3,17 +3,25 @@
   "id": "HYDROARC 516/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.48,
+      50.43333333333333
+    ]
   },
   "properties": {
     "dtg": "2020-02-13T09:43:00",
     "raw_dtg": "130943Z FEB 20",
     "msg_id": "HYDROARC 516/20(37)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 1122/20"
+      "466/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. ANCHOR AND CABLE ABANDONED IN VICINITY\n   50-26.0N 003-28.8W.\n2. CANCEL HYDROLANT 466/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. ANCHOR AND CABLE ABANDONED IN VICINITY\n   50-26.0N 003-28.8W.\n2. CANCEL HYDROLANT 466/20.",
+    "valid_from": "2020-02-13T09:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

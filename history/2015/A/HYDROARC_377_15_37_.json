@@ -3,17 +3,25 @@
   "id": "HYDROARC 377/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.3333333333333333,
+      53.651666666666664
+    ]
   },
   "properties": {
     "dtg": "2015-02-13T14:13:00",
     "raw_dtg": "131413Z FEB 15",
     "msg_id": "HYDROARC 377/15(37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 737/15"
+      "7/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37059.\n1. HUMBER LIGHTFLOAT 53-39.1N 000-20.0E TEMPORARILY\n   REPLACED BY BUOY, GREEN, LFL G 10 SEC.\n2. CANCEL HYDROLANT 7/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37059.\n1. HUMBER LIGHTFLOAT 53-39.1N 000-20.0E TEMPORARILY\n   REPLACED BY BUOY, GREEN, LFL G 10 SEC.\n2. CANCEL HYDROLANT 7/15.",
+    "valid_from": "2015-02-13T14:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

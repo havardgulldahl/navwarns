@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 252/11(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -35.15,
+          -5.883333333333333
+        ],
+        [
+          -35.05833333333333,
+          -5.841666666666667
+        ],
+        [
+          -35.05833333333333,
+          -6.0
+        ],
+        [
+          -35.15,
+          -5.95
+        ],
+        [
+          -35.15,
+          -5.883333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-02-11T06:46:00",
     "raw_dtg": "110646Z FEB 11",
     "msg_id": "HYDROARC 252/11(24)",
-    "cancellations": [
-      "HYDROARC 252/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nROCKETS.\n1. HAZARDOUS OPERATIONS 1100Z TO 2000Z\n   DAILY 16 THRU 18 FEB IN AREA BOUND BY\n   05-53.0S 035-09.0W, 05-50.5S 035-03.5W,\n   06-00.0S 035-03.5W, 05-57.0S 035-09.0W.\n2. CANCEL THIS MSG 182100Z FEB."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nROCKETS.\n1. HAZARDOUS OPERATIONS 1100Z TO 2000Z\n   DAILY 16 THRU 18 FEB IN AREA BOUND BY\n   05-53.0S 035-09.0W, 05-50.5S 035-03.5W,\n   06-00.0S 035-03.5W, 05-57.0S 035-09.0W.\n2. CANCEL THIS MSG 182100Z FEB.",
+    "valid_from": "2011-02-11T06:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

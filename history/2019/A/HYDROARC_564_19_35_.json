@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 564/19(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-02-20T19:56:00",
     "raw_dtg": "201956Z FEB 19",
     "msg_id": "HYDROARC 564/19(35)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 564/19"
+      "81/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCANCEL HYDROLANT 81/19 AND THIS MSG,\nHAZARD REMOVED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCANCEL HYDROLANT 81/19 AND THIS MSG,\nHAZARD REMOVED.",
+    "valid_from": "2019-02-20T19:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

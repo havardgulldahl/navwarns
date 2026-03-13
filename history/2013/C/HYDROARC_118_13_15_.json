@@ -3,17 +3,23 @@
   "id": "HYDROARC 118/13(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -121.44443333333334,
+      69.78463333333333
+    ]
   },
   "properties": {
     "dtg": "2013-08-16T01:18:00",
     "raw_dtg": "160118Z AUG 13",
     "msg_id": "HYDROARC 118/13(15)",
-    "cancellations": [
-      "HYDROARC 2/14"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "shoals",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nAMUNDSEN GULF.\nCHART 15927\nSHOAL REPORTED, LEAST DEPTH 4.3 METERS,\nIN 69-47.078N 121-26.666W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nAMUNDSEN GULF.\nCHART 15927\nSHOAL REPORTED, LEAST DEPTH 4.3 METERS,\nIN 69-47.078N 121-26.666W.",
+    "valid_from": "2013-08-16T01:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

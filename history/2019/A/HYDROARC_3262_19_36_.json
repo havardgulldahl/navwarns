@@ -3,17 +3,23 @@
   "id": "HYDROARC 3262/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.66,
+      54.22666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-10-24T20:22:00",
     "raw_dtg": "242022Z OCT 19",
     "msg_id": "HYDROARC 3262/19(36)",
-    "cancellations": [
-      "HYDROARC 3263/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nNORTHERN IRELAND.\nDNC 20.\nST JOHN'S POINT LIGHT 54-13.6N 005-39.6W UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nNORTHERN IRELAND.\nDNC 20.\nST JOHN'S POINT LIGHT 54-13.6N 005-39.6W UNLIT.",
+    "valid_from": "2019-10-24T20:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

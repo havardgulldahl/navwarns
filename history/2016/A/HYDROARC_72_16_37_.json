@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 72/16(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-01-08T19:12:00",
     "raw_dtg": "081912Z JAN 16",
     "msg_id": "HYDROARC 72/16(37)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 72/16"
+      "2931/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nENGLISH CHANNEL.\nDNC 20.\nCANCEL HYDROLANT 2931/15 AND THIS MSG, WRECK NOT DANGEROUS."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nENGLISH CHANNEL.\nDNC 20.\nCANCEL HYDROLANT 2931/15 AND THIS MSG, WRECK NOT DANGEROUS.",
+    "valid_from": "2016-01-08T19:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

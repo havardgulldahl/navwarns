@@ -3,17 +3,23 @@
   "id": "HYDROARC 1454/18(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      5.12,
+      5.5183333333333335
+    ]
   },
   "properties": {
     "dtg": "2018-05-09T19:26:00",
     "raw_dtg": "091926Z MAY 18",
     "msg_id": "HYDROARC 1454/18(57)",
-    "cancellations": [
-      "HYDROARC 1689/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nNIGERIA.\nDNC 01.\nCHART 57120.\nDANGEROUS WRECK REPORTED IN VICINITY 05-31.1N 005-07.2E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nNIGERIA.\nDNC 01.\nCHART 57120.\nDANGEROUS WRECK REPORTED IN VICINITY 05-31.1N 005-07.2E.",
+    "valid_from": "2018-05-09T19:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

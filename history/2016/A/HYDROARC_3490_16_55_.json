@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 3490/16(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          39.916666666666664,
+          43.42333333333333
+        ],
+        [
+          39.916666666666664,
+          43.35
+        ],
+        [
+          39.75,
+          43.35
+        ],
+        [
+          39.75,
+          43.56333333333333
+        ],
+        [
+          39.916666666666664,
+          43.42333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-12-25T12:12:00",
     "raw_dtg": "251212Z DEC 16",
     "msg_id": "HYDROARC 3490/16(55)",
-    "cancellations": [
-      "HYDROARC 957/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nDNC 10.\nCHART 55170.\nNAVIGATION PROHIBITED IN AREA BOUND BY\n43-25.4N 039-55.0E, 43-21.0N 039-55.0E,\n43-21.0N 039-45.0E, 43-33.8N 039-45.0E."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nDNC 10.\nCHART 55170.\nNAVIGATION PROHIBITED IN AREA BOUND BY\n43-25.4N 039-55.0E, 43-21.0N 039-55.0E,\n43-21.0N 039-45.0E, 43-33.8N 039-45.0E.",
+    "valid_from": "2016-12-25T12:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 128/17(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.43333333333333335,
+      54.595
+    ]
   },
   "properties": {
     "dtg": "2017-01-13T13:09:00",
     "raw_dtg": "131309Z JAN 17",
     "msg_id": "HYDROARC 128/17(35,37)",
-    "cancellations": [
-      "HYDROARC 147/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 35006.\nALL NAVIGATIONAL AIDS AT PLATFORM BREAGH,\n54-35.7N 000-26.0E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 35006.\nALL NAVIGATIONAL AIDS AT PLATFORM BREAGH,\n54-35.7N 000-26.0E UNRELIABLE.",
+    "valid_from": "2017-01-13T13:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

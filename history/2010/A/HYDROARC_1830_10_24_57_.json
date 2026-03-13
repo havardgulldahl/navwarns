@@ -3,17 +3,23 @@
   "id": "HYDROARC 1830/10(24,57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -20.895,
+      -27.508333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-09-27T20:07:00",
     "raw_dtg": "272007Z SEP 10",
     "msg_id": "HYDROARC 1830/10(24,57)",
-    "cancellations": [
-      "HYDROARC 1830/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\n1. DERELICT LIFEBOAT ADRIFT VICINITY\n   27-30.5S 020-53.7W.\n2. CANCEL THIS MSG 302000Z SEP."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\n1. DERELICT LIFEBOAT ADRIFT VICINITY\n   27-30.5S 020-53.7W.\n2. CANCEL THIS MSG 302000Z SEP.",
+    "valid_from": "2010-09-27T20:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

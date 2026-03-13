@@ -3,18 +3,25 @@
   "id": "HYDROARC 675/13(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.493333333333334,
+      37.2
+    ]
   },
   "properties": {
     "dtg": "2013-03-18T09:46:00",
     "raw_dtg": "180946Z MAR 13",
     "msg_id": "HYDROARC 675/13(52)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 210945Z MAR 13",
-      "HYDROARC 675/13"
+      "THIS MSG 210945Z MAR 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\n1. CONTAINER ADRIFT VICINITY 37-12.0N 008-29.6E\n   AT 171700Z MAR.\n2. CANCEL THIS MSG 210945Z MAR 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\n1. CONTAINER ADRIFT VICINITY 37-12.0N 008-29.6E\n   AT 171700Z MAR.\n2. CANCEL THIS MSG 210945Z MAR 13.",
+    "valid_from": "2013-03-18T09:46:00+00:00",
+    "valid_until": "2013-03-21T09:45:00+00:00",
+    "summary": null
   }
 }

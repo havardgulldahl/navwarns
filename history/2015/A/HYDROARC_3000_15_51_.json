@@ -3,17 +3,23 @@
   "id": "HYDROARC 3000/15(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -27.401666666666667,
+      16.715
+    ]
   },
   "properties": {
     "dtg": "2015-12-04T05:30:00",
     "raw_dtg": "040530Z DEC 15",
     "msg_id": "HYDROARC 3000/15(51)",
-    "cancellations": [
-      "HYDROARC 3085/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 01.\nS/V MAGRITTE SINKING IN 16-42.9N 027-24.1W AT 040400Z DEC.\nFOUR PERSONS ENTERING LIFERAFT. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO UKMRCC, PHONE: 4413 2631 7575,\nFAX: 4413 2631 8342,\nE-MAIL: FALMOUTHCOASTGUARD@MCGA.GOV.UK."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 01.\nS/V MAGRITTE SINKING IN 16-42.9N 027-24.1W AT 040400Z DEC.\nFOUR PERSONS ENTERING LIFERAFT. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO UKMRCC, PHONE: 4413 2631 7575,\nFAX: 4413 2631 8342,\nE-MAIL: FALMOUTHCOASTGUARD@MCGA.GOV.UK.",
+    "valid_from": "2015-12-04T05:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

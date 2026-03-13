@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2730/20(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-09-05T01:37:00",
     "raw_dtg": "050137Z SEP 20",
     "msg_id": "HYDROARC 2730/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 072000Z SEP 20",
-      "HYDROARC 2730/20"
+      "THIS MSG 072000Z SEP 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. HAZARDOUS OPERATIONS 0600Z TO 1900Z\n   DAILY 05 THRU 07 SEP IN AREA WITHIN\n   SIX MILES OF 50-14N 004-38W.\n2. CANCEL THIS MSG 072000Z SEP 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. HAZARDOUS OPERATIONS 0600Z TO 1900Z\n   DAILY 05 THRU 07 SEP IN AREA WITHIN\n   SIX MILES OF 50-14N 004-38W.\n2. CANCEL THIS MSG 072000Z SEP 20.",
+    "valid_from": "2020-09-05T01:37:00+00:00",
+    "valid_until": "2020-09-07T20:00:00+00:00",
+    "summary": null
   }
 }

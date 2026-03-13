@@ -3,17 +3,23 @@
   "id": "HYDROARC 2100/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.211666666666667,
+      55.62
+    ]
   },
   "properties": {
     "dtg": "2011-12-09T15:41:00",
     "raw_dtg": "091541Z DEC 11",
     "msg_id": "HYDROARC 2100/11(35)",
-    "cancellations": [
-      "HYDROARC 2162/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST\nNGA CHART 35119 (2ND ED).\nCARRAIG FHADA LIGHT 55-37.2N 006-12.7W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST\nNGA CHART 35119 (2ND ED).\nCARRAIG FHADA LIGHT 55-37.2N 006-12.7W UNLIT.",
+    "valid_from": "2011-12-09T15:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

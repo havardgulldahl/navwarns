@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 1448/10(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -45.17333333333333,
+          -26.405
+        ],
+        [
+          -43.013333333333335,
+          -26.405
+        ],
+        [
+          -43.01166666666666,
+          -26.818333333333335
+        ],
+        [
+          -45.17333333333333,
+          -26.818333333333335
+        ],
+        [
+          -45.17333333333333,
+          -26.405
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-07-29T00:40:00",
     "raw_dtg": "290040Z JUL 10",
     "msg_id": "HYDROARC 1448/10(24)",
-    "cancellations": [
-      "HYDROARC 1448/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY 290259Z JUL TO 030259Z AUG\n   BY M/V VERITAS VANTAGE TOWING EIGHT\n   7000 METER LONG CABLES IN AREA BOUND BY\n   26-24.3S 045-10.4W, 26-24.3S 043-00.8W,\n   26-49.1S 043-00.7W, 26-49.1S 045-10.4W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 030359Z AUG."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY 290259Z JUL TO 030259Z AUG\n   BY M/V VERITAS VANTAGE TOWING EIGHT\n   7000 METER LONG CABLES IN AREA BOUND BY\n   26-24.3S 045-10.4W, 26-24.3S 043-00.8W,\n   26-49.1S 043-00.7W, 26-49.1S 045-10.4W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 030359Z AUG.",
+    "valid_from": "2010-07-29T00:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

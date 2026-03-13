@@ -2,18 +2,47 @@
   "type": "Feature",
   "id": "HYDROARC 230/21(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -39.196666666666665,
+          -23.795
+        ],
+        [
+          -39.196666666666665,
+          -23.495
+        ],
+        [
+          -39.09,
+          -23.495
+        ],
+        [
+          -39.09,
+          -23.795
+        ],
+        [
+          -39.196666666666665,
+          -23.795
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-01-26T01:38:00",
     "raw_dtg": "260138Z JAN 21",
     "msg_id": "HYDROARC 230/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 230/21"
+      "THIS MSG 27 JAN 21",
+      "181/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. SURVEY OPERATIONS 25 AND 26 JAN BY\n   M/V RAMFORM TITAN TOWING 14 10000 METER\n   CABLES IN AREA BOUND BY\n   23-47.7S 039-11.8W, 23-29.7S 039-11.8W,\n   23-29.7S 039-05.4W, 23-47.7S 039-05.4W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 181/21.\n3. CANCEL THIS MSG 27 JAN 21."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. SURVEY OPERATIONS 25 AND 26 JAN BY\n   M/V RAMFORM TITAN TOWING 14 10000 METER\n   CABLES IN AREA BOUND BY\n   23-47.7S 039-11.8W, 23-29.7S 039-11.8W,\n   23-29.7S 039-05.4W, 23-47.7S 039-05.4W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 181/21.\n3. CANCEL THIS MSG 27 JAN 21.",
+    "valid_from": "2021-01-26T01:38:00+00:00",
+    "valid_until": "2021-01-27T00:00:00+00:00",
+    "summary": null
   }
 }

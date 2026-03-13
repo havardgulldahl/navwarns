@@ -3,17 +3,23 @@
   "id": "HYDROARC 629/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.19833333333333,
+      -30.158333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-04-11T18:17:00",
     "raw_dtg": "111817Z APR 10",
     "msg_id": "HYDROARC 629/10(24)",
-    "cancellations": [
-      "HYDROARC 658/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24110 (3RD ED).\nCIDREIRA LIGHT 30-09.5S 050-11.9W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24110 (3RD ED).\nCIDREIRA LIGHT 30-09.5S 050-11.9W UNLIT.",
+    "valid_from": "2010-04-11T18:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1203/15(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3715833333333334,
+      6.0843
+    ]
   },
   "properties": {
     "dtg": "2015-05-17T06:20:00",
     "raw_dtg": "170620Z MAY 15",
     "msg_id": "HYDROARC 1203/15(57)",
-    "cancellations": [
-      "HYDROARC 1294/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nTOGO.\nDNC 01.\nCHART 57102.\nDANGEROUS WRECK, LEAST DEPTH 17.3 METERS,\nIN 06-05.058N 001-22.295E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nTOGO.\nDNC 01.\nCHART 57102.\nDANGEROUS WRECK, LEAST DEPTH 17.3 METERS,\nIN 06-05.058N 001-22.295E.",
+    "valid_from": "2015-05-17T06:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

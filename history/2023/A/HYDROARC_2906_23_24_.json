@@ -12,12 +12,16 @@
     "dtg": "2023-12-18T21:48:00",
     "raw_dtg": "182148Z DEC 23",
     "msg_id": "HYDROARC 2906/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 160001Z JUN 24",
-      "HYDROARC 2906/23"
+      "THIS MSG 160001Z JUN 24"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. SANTO ALBERTO LIGHT 05-03.14S 036-02.28W UNLIT\n   UNTIL 15 JUN 24.\n2. CANCEL THIS MSG 160001Z JUN 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. SANTO ALBERTO LIGHT 05-03.14S 036-02.28W UNLIT\n   UNTIL 15 JUN 24.\n2. CANCEL THIS MSG 160001Z JUN 24.",
+    "valid_from": "2023-12-18T21:48:00+00:00",
+    "valid_until": "2024-06-16T00:01:00+00:00",
+    "summary": null
   }
 }

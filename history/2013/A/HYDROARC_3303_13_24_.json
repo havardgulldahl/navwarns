@@ -3,17 +3,23 @@
   "id": "HYDROARC 3303/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.28666666666667,
+      -20.323333333333334
+    ]
   },
   "properties": {
     "dtg": "2013-12-22T00:18:00",
     "raw_dtg": "220018Z DEC 13",
     "msg_id": "HYDROARC 3303/13(24)",
-    "cancellations": [
-      "HYDROARC 75/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24172\nPONTA UCHURIA FRONT RANGE LIGHT 20-19.4S 040-17.2W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24172\nPONTA UCHURIA FRONT RANGE LIGHT 20-19.4S 040-17.2W UNLIT.",
+    "valid_from": "2013-12-22T00:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1527/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.875,
+      -15.863333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-05-15T22:08:00",
     "raw_dtg": "152208Z MAY 18",
     "msg_id": "HYDROARC 1527/18(24)",
-    "cancellations": [
-      "HYDROARC 2840/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24190.\nBELMONTE LIGHT 15-51.8S 038-52.5W UNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24190.\nBELMONTE LIGHT 15-51.8S 038-52.5W UNLIT.",
+    "valid_from": "2018-05-15T22:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

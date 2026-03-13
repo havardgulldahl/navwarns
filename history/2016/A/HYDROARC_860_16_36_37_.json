@@ -3,17 +3,23 @@
   "id": "HYDROARC 860/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.7783333333333333,
+      49.58
+    ]
   },
   "properties": {
     "dtg": "2016-04-11T11:30:00",
     "raw_dtg": "111130Z APR 16",
     "msg_id": "HYDROARC 860/16(36,37)",
-    "cancellations": [
-      "HYDROARC 866/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE-NORTH COAST.\nDNC 20.\nCHART 36005.\nLA HAGUE DGPS STATION 49-34.8N 001-46.7W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE-NORTH COAST.\nDNC 20.\nCHART 36005.\nLA HAGUE DGPS STATION 49-34.8N 001-46.7W OFF AIR.",
+    "valid_from": "2016-04-11T11:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

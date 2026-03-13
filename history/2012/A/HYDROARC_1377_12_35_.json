@@ -3,17 +3,23 @@
   "id": "HYDROARC 1377/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.09,
+      57.575
+    ]
   },
   "properties": {
     "dtg": "2012-06-25T03:23:00",
     "raw_dtg": "250323Z JUN 12",
     "msg_id": "HYDROARC 1377/12(35)",
-    "cancellations": [
-      "HYDROARC 1386/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nCHART 35055\nCHANONRY LIGHT 57-34.5N 004-05.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nCHART 35055\nCHANONRY LIGHT 57-34.5N 004-05.4W UNRELIABLE.",
+    "valid_from": "2012-06-25T03:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 3110/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.04333333333334,
+      -21.465
+    ]
   },
   "properties": {
     "dtg": "2015-12-16T00:46:00",
     "raw_dtg": "160046Z DEC 15",
     "msg_id": "HYDROARC 3110/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 142/16"
+      "THIS MSG 12 JUN 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. GUAXINDIBA LIGHT 21-27.9S 041-02.6W UNLIT.\n2. CANCEL THIS MSG 12 JUN 16."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. GUAXINDIBA LIGHT 21-27.9S 041-02.6W UNLIT.\n2. CANCEL THIS MSG 12 JUN 16.",
+    "valid_from": "2015-12-16T00:46:00+00:00",
+    "valid_until": "2016-06-12T00:00:00+00:00",
+    "summary": null
   }
 }

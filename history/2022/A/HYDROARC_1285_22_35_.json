@@ -3,17 +3,25 @@
   "id": "HYDROARC 1285/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.965,
+      56.50333333333333
+    ]
   },
   "properties": {
     "dtg": "2022-05-14T23:00:00",
     "raw_dtg": "142300Z MAY 22",
     "msg_id": "HYDROARC 1285/22(35)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 1625/22"
+      "953/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\n1. CGOC BELFAST MF R/T SERVICES AT TIREE SITE\n   56-30.2N 006-57.9W OFF AIR.\n2. CANCEL HYDROLANT 953/22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\n1. CGOC BELFAST MF R/T SERVICES AT TIREE SITE\n   56-30.2N 006-57.9W OFF AIR.\n2. CANCEL HYDROLANT 953/22.",
+    "valid_from": "2022-05-14T23:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

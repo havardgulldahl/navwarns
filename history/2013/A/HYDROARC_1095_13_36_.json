@@ -3,17 +3,25 @@
   "id": "HYDROARC 1095/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.295,
+      53.86
+    ]
   },
   "properties": {
     "dtg": "2013-05-01T12:18:00",
     "raw_dtg": "011218Z MAY 13",
     "msg_id": "HYDROARC 1095/13(36)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1440/13"
+      "706/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-WEST COAST.\nCHART 36025\n1. METEOROLOGICAL MAST 53-51.6N 003-17.7W UNLIT.\n2. CANCEL HYDROLANT 706/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-WEST COAST.\nCHART 36025\n1. METEOROLOGICAL MAST 53-51.6N 003-17.7W UNLIT.\n2. CANCEL HYDROLANT 706/13.",
+    "valid_from": "2013-05-01T12:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

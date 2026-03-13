@@ -3,17 +3,23 @@
   "id": "HYDROARC 237/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.1766666666666667,
+      60.45333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-01-25T01:07:00",
     "raw_dtg": "250107Z JAN 14",
     "msg_id": "HYDROARC 237/14(35)",
-    "cancellations": [
-      "HYDROARC 244/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35072\nFIRTHS VOE LIGHT 60-27.2N 001-10.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35072\nFIRTHS VOE LIGHT 60-27.2N 001-10.6W UNRELIABLE.",
+    "valid_from": "2014-01-25T01:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

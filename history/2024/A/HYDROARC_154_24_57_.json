@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 154/24(57)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        12.036166666666666,
-        -29.0
-      ],
-      [
-        13.5,
-        -29.0
-      ],
-      [
-        13.5,
-        -30.5
-      ],
-      [
-        13.354,
-        -30.658
+        [
+          12.036166666666666,
+          -29.0
+        ],
+        [
+          13.5,
+          -29.0
+        ],
+        [
+          13.5,
+          -30.5
+        ],
+        [
+          13.354,
+          -30.658
+        ],
+        [
+          12.036166666666666,
+          -29.0
+        ]
       ]
     ]
   },
@@ -26,11 +32,16 @@
     "dtg": "2024-01-19T10:30:00",
     "raw_dtg": "191030Z JAN 24",
     "msg_id": "HYDROARC 154/24(57)",
+    "year": 2024,
     "cancellations": [
-      "HYDROARC 353/24"
+      "2738/23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V AMAZON CONQUEROR\n   TOWING 12 8000 METER LONG CABLES\n   IN AREA BOUND BY\n   29-00.00S 012-02.17E, 29-00.00S 013-30.00E,\n   30-30.00S 013-30.00E, 30-39.48S 013-21.24E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROPAC 2738/23."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V AMAZON CONQUEROR\n   TOWING 12 8000 METER LONG CABLES\n   IN AREA BOUND BY\n   29-00.00S 012-02.17E, 29-00.00S 013-30.00E,\n   30-30.00S 013-30.00E, 30-39.48S 013-21.24E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROPAC 2738/23.",
+    "valid_from": "2024-01-19T10:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

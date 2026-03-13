@@ -3,17 +3,25 @@
   "id": "HYDROARC 2984/15(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.0766666666666667,
+      54.06
+    ]
   },
   "properties": {
     "dtg": "2015-12-02T14:40:00",
     "raw_dtg": "021440Z DEC 15",
     "msg_id": "HYDROARC 2984/15(35,37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2994/15"
+      "2965/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 37058.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM\n   44/26A-A, 54-03.6N 002-04.6E UNRELIABLE.\n2. CANCEL HYDROLANT 2965/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 37058.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM\n   44/26A-A, 54-03.6N 002-04.6E UNRELIABLE.\n2. CANCEL HYDROLANT 2965/15.",
+    "valid_from": "2015-12-02T14:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

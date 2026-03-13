@@ -3,17 +3,23 @@
   "id": "HYDROARC 1654/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.5899999999999999,
+      50.66166666666667
+    ]
   },
   "properties": {
     "dtg": "2010-09-01T23:11:00",
     "raw_dtg": "012311Z SEP 10",
     "msg_id": "HYDROARC 1654/10(37)",
-    "cancellations": [
-      "HYDROARC 1655/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37090 (8TH ED).\nNEEDLES LIGHT 50-39.7N 001-35.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37090 (8TH ED).\nNEEDLES LIGHT 50-39.7N 001-35.4W UNRELIABLE.",
+    "valid_from": "2010-09-01T23:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

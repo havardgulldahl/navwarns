@@ -3,17 +3,23 @@
   "id": "HYDROARC 289/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.641666666666667,
+      57.85666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-02-02T03:01:00",
     "raw_dtg": "020301Z FEB 16",
     "msg_id": "HYDROARC 289/16(35)",
-    "cancellations": [
-      "HYDROARC 292/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTHWEST COAST.\nNORTH MINCH.\nDNC 19.\nCHART 35075.\nEILEAN GLAS LIGHT 57-51.4N 006-38.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTHWEST COAST.\nNORTH MINCH.\nDNC 19.\nCHART 35075.\nEILEAN GLAS LIGHT 57-51.4N 006-38.5W UNRELIABLE.",
+    "valid_from": "2016-02-02T03:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 1759/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.03666666666667,
+      -10.97
+    ]
   },
   "properties": {
     "dtg": "2021-07-05T03:45:00",
     "raw_dtg": "050345Z JUL 21",
     "msg_id": "HYDROARC 1759/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1815/21"
+      "THIS MSG 01 JAN 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\n1. SERGIPE LIGHT 10-58.2S 037-02.2W UNRELIABLE\n   UNTIL 31 DEC.\n2. CANCEL THIS MSG 01 JAN 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\n1. SERGIPE LIGHT 10-58.2S 037-02.2W UNRELIABLE\n   UNTIL 31 DEC.\n2. CANCEL THIS MSG 01 JAN 22.",
+    "valid_from": "2021-07-05T03:45:00+00:00",
+    "valid_until": "2022-01-01T00:00:00+00:00",
+    "summary": null
   }
 }

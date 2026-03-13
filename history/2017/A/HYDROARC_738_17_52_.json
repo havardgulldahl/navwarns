@@ -3,17 +3,25 @@
   "id": "HYDROARC 738/17(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.135,
+      35.721666666666664
+    ]
   },
   "properties": {
     "dtg": "2017-03-06T16:16:00",
     "raw_dtg": "061616Z MAR 17",
     "msg_id": "HYDROARC 738/17(52)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 779/17"
+      "530/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA,\nALGERIA.\nDNC 08.\nCHART 52060.\n1. ILES HABIBAS LIGHT 35-43.3N 001-08.1W UNRELIABLE.\n2. CANCEL HYDROLANT 530/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA,\nALGERIA.\nDNC 08.\nCHART 52060.\n1. ILES HABIBAS LIGHT 35-43.3N 001-08.1W UNRELIABLE.\n2. CANCEL HYDROLANT 530/17.",
+    "valid_from": "2017-03-06T16:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

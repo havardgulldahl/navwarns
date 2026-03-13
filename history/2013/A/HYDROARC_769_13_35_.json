@@ -3,17 +3,23 @@
   "id": "HYDROARC 769/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.786666666666667,
+      57.42333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-03-27T06:28:00",
     "raw_dtg": "270628Z MAR 13",
     "msg_id": "HYDROARC 769/13(35)",
-    "cancellations": [
-      "HYDROARC 790/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nCHART 35092\nNESS POINT LIGHT 57-25.4N 006-47.2W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nCHART 35092\nNESS POINT LIGHT 57-25.4N 006-47.2W UNLIT.",
+    "valid_from": "2013-03-27T06:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

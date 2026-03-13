@@ -3,17 +3,23 @@
   "id": "HYDROARC 3072/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.173333333333334,
+      51.681666666666665
+    ]
   },
   "properties": {
     "dtg": "2012-12-29T00:18:00",
     "raw_dtg": "290018Z DEC 12",
     "msg_id": "HYDROARC 3072/12(36)",
-    "cancellations": [
-      "HYDROARC 3089/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-SOUTHWEST COAST.\nCHART 36036\nFOG SIGNAL AT ST. ANN'S HEAD LIGHT 51-40.9N 005-10.4W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-SOUTHWEST COAST.\nCHART 36036\nFOG SIGNAL AT ST. ANN'S HEAD LIGHT 51-40.9N 005-10.4W\nUNRELIABLE.",
+    "valid_from": "2012-12-29T00:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

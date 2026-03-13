@@ -3,17 +3,25 @@
   "id": "HYDROARC 2063/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6183333333333334,
+      52.05833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-06-25T03:11:00",
     "raw_dtg": "250311Z JUN 18",
     "msg_id": "HYDROARC 2063/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2080/18"
+      "2059/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37140.\n1. UNEXPLODED ORDNANCE IN VICINITY OF\n   TRACKLINE BETWEEN\n   52-03.5N 001-37.1E AND 52-00.7N 001-32.7E.\n2. CANCEL HYDROLANT 2059/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37140.\n1. UNEXPLODED ORDNANCE IN VICINITY OF\n   TRACKLINE BETWEEN\n   52-03.5N 001-37.1E AND 52-00.7N 001-32.7E.\n2. CANCEL HYDROLANT 2059/18.",
+    "valid_from": "2018-06-25T03:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

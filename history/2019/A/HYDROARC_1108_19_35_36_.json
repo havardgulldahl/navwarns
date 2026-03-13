@@ -3,17 +3,23 @@
   "id": "HYDROARC 1108/19(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.513333333333334,
+      54.69833333333333
+    ]
   },
   "properties": {
     "dtg": "2019-04-08T17:14:00",
     "raw_dtg": "081714Z APR 19",
     "msg_id": "HYDROARC 1108/19(35,36)",
-    "cancellations": [
-      "HYDROARC 1140/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nCHART 35119, 36006.\nAIS AT MEW ISLAND LIGHT 54-41.9N 005-30.8W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nCHART 35119, 36006.\nAIS AT MEW ISLAND LIGHT 54-41.9N 005-30.8W\nUNRELIABLE.",
+    "valid_from": "2019-04-08T17:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

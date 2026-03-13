@@ -3,18 +3,25 @@
   "id": "HYDROARC 867/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.48166666666666663,
+      50.54833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-03-11T15:52:00",
     "raw_dtg": "111552Z MAR 18",
     "msg_id": "HYDROARC 867/18(37)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 141552Z MAR 18",
-      "HYDROARC 867/18"
+      "THIS MSG 141552Z MAR 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37115.\n1. FISHING GEAR, MARKED BY BUOYS,\n   ABANDONED IN 50-32.9N 000-28.9E.\n2. CANCEL THIS MSG 141552Z MAR 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37115.\n1. FISHING GEAR, MARKED BY BUOYS,\n   ABANDONED IN 50-32.9N 000-28.9E.\n2. CANCEL THIS MSG 141552Z MAR 18.",
+    "valid_from": "2018-03-11T15:52:00+00:00",
+    "valid_until": "2018-03-14T15:52:00+00:00",
+    "summary": null
   }
 }

@@ -12,12 +12,16 @@
     "dtg": "2022-05-21T07:45:00",
     "raw_dtg": "210745Z MAY 22",
     "msg_id": "HYDROARC 94/22(42)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 240743Z MAY 22",
-      "HYDROARC 94/22"
+      "THIS MSG 240743Z MAY 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN 77-14.00N 068-53.00E\n   AT 202042Z MAY.\n2. CANCEL THIS MSG 240743Z MAY 22."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN 77-14.00N 068-53.00E\n   AT 202042Z MAY.\n2. CANCEL THIS MSG 240743Z MAY 22.",
+    "valid_from": "2022-05-21T07:45:00+00:00",
+    "valid_until": "2022-05-24T07:43:00+00:00",
+    "summary": null
   }
 }

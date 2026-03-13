@@ -2,18 +2,72 @@
   "type": "Feature",
   "id": "HYDROARC 2761/13(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        17.86,
+        42.585
+      ],
+      [
+        17.125,
+        42.031666666666666
+      ],
+      [
+        17.188333333333333,
+        42.005
+      ],
+      [
+        17.935,
+        42.56666666666667
+      ],
+      [
+        17.23,
+        41.98
+      ],
+      [
+        18.008333333333333,
+        42.56666666666667
+      ],
+      [
+        18.063333333333333,
+        42.535
+      ],
+      [
+        17.276666666666667,
+        41.94166666666667
+      ],
+      [
+        17.381666666666668,
+        41.91166666666667
+      ],
+      [
+        18.16,
+        42.48
+      ],
+      [
+        18.205,
+        41.45333333333333
+      ],
+      [
+        17.441666666666666,
+        41.88
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-11-04T13:18:00",
     "raw_dtg": "041318Z NOV 13",
     "msg_id": "HYDROARC 2761/13(54)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2761/13"
+      "THIS MSG 06 NOV 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ADRIATIC SEA.\nCROATIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   05 NOV BY M/V NORTHERN EXPLORER\n   ALONG TRACKLINE JOINING\n   42-35.1N 017-51.6E, 42-01.9N 017-07.5E,\n   42-00.3N 017-11.3E, 42-34.0N 017-56.1E,\n   41-58.8N 017-13.8E, 42-34.0N 018-00.5E,\n   42-32.1N 018-03.8E, 41-56.5N 017-16.6E,\n   41-54.7N 017-22.9E, 42-28.8N 018-09.6E,\n   41-27.2N 018-12.3E, 41-52.8N 017-26.5E.\n   FOUR MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 06 NOV 13."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "ADRIATIC SEA.\nCROATIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   05 NOV BY M/V NORTHERN EXPLORER\n   ALONG TRACKLINE JOINING\n   42-35.1N 017-51.6E, 42-01.9N 017-07.5E,\n   42-00.3N 017-11.3E, 42-34.0N 017-56.1E,\n   41-58.8N 017-13.8E, 42-34.0N 018-00.5E,\n   42-32.1N 018-03.8E, 41-56.5N 017-16.6E,\n   41-54.7N 017-22.9E, 42-28.8N 018-09.6E,\n   41-27.2N 018-12.3E, 41-52.8N 017-26.5E.\n   FOUR MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 06 NOV 13.",
+    "valid_from": "2013-11-04T13:18:00+00:00",
+    "valid_until": "2013-11-06T00:00:00+00:00",
+    "summary": null
   }
 }

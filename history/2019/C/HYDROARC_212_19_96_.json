@@ -2,19 +2,62 @@
   "type": "Feature",
   "id": "HYDROARC 212/19(96)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -175.375,
+          69.83666666666667
+        ],
+        [
+          -172.60833333333332,
+          69.11666666666666
+        ],
+        [
+          -174.57666666666665,
+          68.30833333333334
+        ],
+        [
+          -175.43666666666667,
+          68.0
+        ],
+        [
+          -175.95,
+          67.85333333333334
+        ],
+        [
+          -177.8,
+          68.375
+        ],
+        [
+          -177.61666666666667,
+          68.57
+        ],
+        [
+          -177.07666666666665,
+          68.93833333333333
+        ],
+        [
+          -175.375,
+          69.83666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-09-13T11:51:00",
     "raw_dtg": "131151Z SEP 19",
     "msg_id": "HYDROARC 212/19(96)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 290001Z SEP 19",
-      "HYDROARC 231/19"
+      "THIS MSG 290001Z SEP 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "CHUKCHI SEA.\nRUSSIA.\nDNC 27.\n1. MISSILE OPERATIONS 180001Z TO 282359Z SEP\n   IN AREA BOUND BY\n   69-50.2N 175-22.5W, 69-07.0N 172-36.5W,\n   68-18.5N 174-34.6W, 68-00.0N 175-26.2W,\n   67-51.2N 175-57.0W, 68-22.5N 177-48.0W,\n   68-34.2N 177-37.0W, 68-56.3N 177-04.6W.\n2. CANCEL THIS MSG 290001Z SEP 19."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "CHUKCHI SEA.\nRUSSIA.\nDNC 27.\n1. MISSILE OPERATIONS 180001Z TO 282359Z SEP\n   IN AREA BOUND BY\n   69-50.2N 175-22.5W, 69-07.0N 172-36.5W,\n   68-18.5N 174-34.6W, 68-00.0N 175-26.2W,\n   67-51.2N 175-57.0W, 68-22.5N 177-48.0W,\n   68-34.2N 177-37.0W, 68-56.3N 177-04.6W.\n2. CANCEL THIS MSG 290001Z SEP 19.",
+    "valid_from": "2019-09-13T11:51:00+00:00",
+    "valid_until": "2019-09-29T00:01:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2568/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.135,
+      48.42333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-10-22T20:00:00",
     "raw_dtg": "222000Z OCT 14",
     "msg_id": "HYDROARC 2568/14(37)",
-    "cancellations": [
-      "HYDROARC 2574/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nDNC 20.\nCHART 37320.\nLA JUMENT LIGHT 48-25.4N 005-08.1W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nDNC 20.\nCHART 37320.\nLA JUMENT LIGHT 48-25.4N 005-08.1W UNLIT.",
+    "valid_from": "2014-10-22T20:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

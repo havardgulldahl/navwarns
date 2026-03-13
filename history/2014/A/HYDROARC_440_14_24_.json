@@ -3,18 +3,25 @@
   "id": "HYDROARC 440/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -52.07666666666667,
+      -32.11833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-02-13T01:01:00",
     "raw_dtg": "130101Z FEB 14",
     "msg_id": "HYDROARC 440/14(24)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 110459Z AUG 14",
-      "HYDROARC 556/14"
+      "THIS MSG 110459Z AUG 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24100\n1. RIO GRANDE RADIOBEACON AND DGPS STATION\n   32-07.1S 052-04.6W INOPERATIVE UNTIL 110359Z AUG.\n2. CANCEL THIS MSG 110459Z AUG 14."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24100\n1. RIO GRANDE RADIOBEACON AND DGPS STATION\n   32-07.1S 052-04.6W INOPERATIVE UNTIL 110359Z AUG.\n2. CANCEL THIS MSG 110459Z AUG 14.",
+    "valid_from": "2014-02-13T01:01:00+00:00",
+    "valid_until": "2014-08-11T04:59:00+00:00",
+    "summary": null
   }
 }

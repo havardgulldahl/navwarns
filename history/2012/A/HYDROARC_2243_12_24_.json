@@ -3,17 +3,23 @@
   "id": "HYDROARC 2243/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.053333333333335,
+      -22.041666666666668
+    ]
   },
   "properties": {
     "dtg": "2012-09-26T06:47:00",
     "raw_dtg": "260647Z SEP 12",
     "msg_id": "HYDROARC 2243/12(24)",
-    "cancellations": [
-      "HYDROARC 2313/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24008\nRADIOBEACON AND DGPS STATION AT CABO SAO TOME LIGHT\n22-02.5S 041-03.2W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24008\nRADIOBEACON AND DGPS STATION AT CABO SAO TOME LIGHT\n22-02.5S 041-03.2W OFF AIR.",
+    "valid_from": "2012-09-26T06:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

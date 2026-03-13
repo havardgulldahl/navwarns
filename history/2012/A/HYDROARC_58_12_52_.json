@@ -3,17 +3,23 @@
   "id": "HYDROARC 58/12(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.105,
+      37.03333333333333
+    ]
   },
   "properties": {
     "dtg": "2012-01-07T12:06:00",
     "raw_dtg": "071206Z JAN 12",
     "msg_id": "HYDROARC 58/12(52)",
-    "cancellations": [
-      "HYDROARC 654/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-NORTHEAST COAST.\nCHART 52180\nCAP BON BUOY B 37-02.0N 011-06.3E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTHEAST COAST.\nCHART 52180\nCAP BON BUOY B 37-02.0N 011-06.3E UNLIT.",
+    "valid_from": "2012-01-07T12:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

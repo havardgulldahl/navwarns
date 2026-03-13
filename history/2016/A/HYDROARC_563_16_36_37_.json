@@ -3,17 +3,23 @@
   "id": "HYDROARC 563/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6416666666666666,
+      50.221666666666664
+    ]
   },
   "properties": {
     "dtg": "2016-03-08T22:13:00",
     "raw_dtg": "082213Z MAR 16",
     "msg_id": "HYDROARC 563/16(36,37)",
-    "cancellations": [
-      "HYDROARC 583/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 36050.\nSTART POINT LIGHT 50-13.3N 003-38.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 36050.\nSTART POINT LIGHT 50-13.3N 003-38.5W UNRELIABLE.",
+    "valid_from": "2016-03-08T22:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

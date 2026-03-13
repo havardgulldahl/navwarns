@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 994/14(37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.841666666666667,
+          53.708333333333336
+        ],
+        [
+          2.8216666666666668,
+          53.81
+        ],
+        [
+          2.9383333333333335,
+          53.833333333333336
+        ],
+        [
+          2.96,
+          53.82833333333333
+        ],
+        [
+          2.9,
+          53.711666666666666
+        ],
+        [
+          2.841666666666667,
+          53.708333333333336
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-04-11T13:22:00",
     "raw_dtg": "111322Z APR 14",
     "msg_id": "HYDROARC 994/14(37)",
-    "cancellations": [
-      "HYDROARC 1090/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V FUGRO GALAXY\nIN AREA BOUND BY\n53-42.5N 002-50.5E, 53-48.6N 002-49.3E,\n53-50.0N 002-56.3E, 53-49.7N 002-57.6E,\n53-42.7N 002-54.0E."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V FUGRO GALAXY\nIN AREA BOUND BY\n53-42.5N 002-50.5E, 53-48.6N 002-49.3E,\n53-50.0N 002-56.3E, 53-49.7N 002-57.6E,\n53-42.7N 002-54.0E.",
+    "valid_from": "2014-04-11T13:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

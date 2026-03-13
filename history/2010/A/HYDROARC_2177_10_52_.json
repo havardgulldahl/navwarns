@@ -3,17 +3,23 @@
   "id": "HYDROARC 2177/10(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.8916666666666666,
+      36.92
+    ]
   },
   "properties": {
     "dtg": "2010-11-17T03:00:00",
     "raw_dtg": "170300Z NOV 10",
     "msg_id": "HYDROARC 2177/10(52)",
-    "cancellations": [
-      "HYDROARC 2293/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nNGA CHART 52240 (9TH ED).\nCAP BENGUT LIGHT 36-55.2N 003-53.5E UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nNGA CHART 52240 (9TH ED).\nCAP BENGUT LIGHT 36-55.2N 003-53.5E UNLIT.",
+    "valid_from": "2010-11-17T03:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

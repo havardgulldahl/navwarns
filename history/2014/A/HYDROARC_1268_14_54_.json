@@ -3,18 +3,26 @@
   "id": "HYDROARC 1268/14(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.878333333333334,
+      45.211666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-05-19T14:54:00",
     "raw_dtg": "191454Z MAY 14",
     "msg_id": "HYDROARC 1268/14(54)",
+    "year": 2014,
     "cancellations": [
       "THIS MSG 221700Z MAY 14",
-      "HYDROARC 1268/14"
+      "1262/14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORTHERN ADRIATIC SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 1600Z DAILY\n   20 AND 22 MAY WITHIN FIVE MILES\n   OF 45-12.7N 012-52.7E.\n2. CANCEL HYDROLANT 1262/14(14,51).\n3. CANCEL THIS MSG 221700Z MAY 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTHERN ADRIATIC SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 1600Z DAILY\n   20 AND 22 MAY WITHIN FIVE MILES\n   OF 45-12.7N 012-52.7E.\n2. CANCEL HYDROLANT 1262/14(14,51).\n3. CANCEL THIS MSG 221700Z MAY 14.",
+    "valid_from": "2014-05-19T14:54:00+00:00",
+    "valid_until": "2014-05-22T17:00:00+00:00",
+    "summary": null
   }
 }

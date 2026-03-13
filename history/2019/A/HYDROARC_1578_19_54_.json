@@ -2,19 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 1578/19(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.416666666666668,
+          38.93333333333333
+        ],
+        [
+          25.7,
+          39.06666666666667
+        ],
+        [
+          25.633333333333333,
+          39.25
+        ],
+        [
+          25.25,
+          39.375
+        ],
+        [
+          25.133333333333333,
+          39.15
+        ],
+        [
+          25.416666666666668,
+          38.93333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-05-24T11:43:00",
     "raw_dtg": "241143Z MAY 19",
     "msg_id": "HYDROARC 1578/19(54)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 261700Z MAY 19",
-      "HYDROARC 1578/19"
+      "THIS MSG 261700Z MAY 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\n1. GUNNERY EXERCISES 261100Z TO 261600Z MAY\n   IN AREA BOUND BY\n   38-56.0N 025-25.0E, 39-04.0N 025-42.0E,\n   39-15.0N 025-38.0E, 39-22.5N 025-15.0E,\n   39-09.0N 025-08.0E.\n2. CANCEL THIS MSG 261700Z MAY 19."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. GUNNERY EXERCISES 261100Z TO 261600Z MAY\n   IN AREA BOUND BY\n   38-56.0N 025-25.0E, 39-04.0N 025-42.0E,\n   39-15.0N 025-38.0E, 39-22.5N 025-15.0E,\n   39-09.0N 025-08.0E.\n2. CANCEL THIS MSG 261700Z MAY 19.",
+    "valid_from": "2019-05-24T11:43:00+00:00",
+    "valid_until": "2019-05-26T17:00:00+00:00",
+    "summary": null
   }
 }

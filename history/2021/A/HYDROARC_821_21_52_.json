@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 821/21(52)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         2.9685,
@@ -34,11 +34,17 @@
     "dtg": "2021-03-24T00:50:00",
     "raw_dtg": "240050Z MAR 21",
     "msg_id": "HYDROARC 821/21(52)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 881/21"
+      "THIS MSG 02 APR 21",
+      "809/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nBALEARIC ISLANDS.\nDNC 52.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 01 APR\n   BY M/V REBECCA ALONG TRACKLINE JOINING\n   38-55.53N 002-58.11E, 38-51.24N 004-02.59E,\n   38-45.61N 004-16.22E, 38-34.76N 004-52.39E,\n   38-22.56N 005-40.80E, 38-21.27N 006-01.31E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 809/21.\n3. CANCEL THIS MSG 02 APR 21."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nBALEARIC ISLANDS.\nDNC 52.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 01 APR\n   BY M/V REBECCA ALONG TRACKLINE JOINING\n   38-55.53N 002-58.11E, 38-51.24N 004-02.59E,\n   38-45.61N 004-16.22E, 38-34.76N 004-52.39E,\n   38-22.56N 005-40.80E, 38-21.27N 006-01.31E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 809/21.\n3. CANCEL THIS MSG 02 APR 21.",
+    "valid_from": "2021-03-24T00:50:00+00:00",
+    "valid_until": "2021-04-02T00:00:00+00:00",
+    "summary": null
   }
 }

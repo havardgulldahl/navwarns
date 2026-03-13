@@ -3,17 +3,23 @@
   "id": "HYDROARC 532/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201666666666666,
+      50.72833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-02-16T00:03:00",
     "raw_dtg": "160003Z FEB 17",
     "msg_id": "HYDROARC 532/17(36)",
-    "cancellations": [
-      "HYDROARC 580/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP ILE DAIX WITH\nSUBMERSIBLE IN VICINITY 50-43.7N 005-12.1W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP ILE DAIX WITH\nSUBMERSIBLE IN VICINITY 50-43.7N 005-12.1W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2017-02-16T00:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2845/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2716666666666665,
+      58.935
+    ]
   },
   "properties": {
     "dtg": "2016-10-29T22:50:00",
     "raw_dtg": "292250Z OCT 16",
     "msg_id": "HYDROARC 2845/16(35)",
-    "cancellations": [
-      "HYDROARC 2856/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35001.\nGRAEMSAY RANGE REAR LIGHT 58-56.1N 003-16.3W UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35001.\nGRAEMSAY RANGE REAR LIGHT 58-56.1N 003-16.3W UNLIT.",
+    "valid_from": "2016-10-29T22:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 3140/13(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -39.620333333333335,
-        -23.594666666666665
-      ],
-      [
-        -39.94583333333333,
-        -23.77
-      ],
-      [
-        -40.47366666666667,
-        -23.830333333333332
-      ],
-      [
-        -40.1455,
-        -22.671333333333333
+        [
+          -39.620333333333335,
+          -23.594666666666665
+        ],
+        [
+          -39.94583333333333,
+          -23.77
+        ],
+        [
+          -40.47366666666667,
+          -23.830333333333332
+        ],
+        [
+          -40.1455,
+          -22.671333333333333
+        ],
+        [
+          -39.620333333333335,
+          -23.594666666666665
+        ]
       ]
     ]
   },
@@ -26,12 +32,17 @@
     "dtg": "2013-12-05T20:49:00",
     "raw_dtg": "052049Z DEC 13",
     "msg_id": "HYDROARC 3140/13(24)",
+    "year": 2013,
     "cancellations": [
       "THIS MSG 140259Z DEC 13",
-      "HYDROARC 3144/13"
+      "3098/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 140159Z DEC BY\n   M/V OCEANIC ENDEAVOUR TOWING 12\n   FIVE MILE LONG CABLES IN AREA BOUND BY\n   23-35.68S 039-37.22W, 23-46.20S 039-56.75W,\n   23-49.82S 040-28.42W, 22-40.28S 040-08.73W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3098/13.\n3. CANCEL THIS MSG 140259Z DEC 13."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 140159Z DEC BY\n   M/V OCEANIC ENDEAVOUR TOWING 12\n   FIVE MILE LONG CABLES IN AREA BOUND BY\n   23-35.68S 039-37.22W, 23-46.20S 039-56.75W,\n   23-49.82S 040-28.42W, 22-40.28S 040-08.73W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3098/13.\n3. CANCEL THIS MSG 140259Z DEC 13.",
+    "valid_from": "2013-12-05T20:49:00+00:00",
+    "valid_until": "2013-12-14T02:59:00+00:00",
+    "summary": null
   }
 }

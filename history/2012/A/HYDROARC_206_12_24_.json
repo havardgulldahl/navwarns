@@ -3,17 +3,23 @@
   "id": "HYDROARC 206/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.675,
+      -24.983333333333334
+    ]
   },
   "properties": {
     "dtg": "2012-01-26T00:45:00",
     "raw_dtg": "260045Z JAN 12",
     "msg_id": "HYDROARC 206/12(24)",
-    "cancellations": [
-      "HYDROARC 206/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\n1. CONTAINER ADRIFT VICINITY 24-59.0S 043-40.5W.\n2. CANCEL THIS MSG 290045Z JAN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\n1. CONTAINER ADRIFT VICINITY 24-59.0S 043-40.5W.\n2. CANCEL THIS MSG 290045Z JAN.",
+    "valid_from": "2012-01-26T00:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

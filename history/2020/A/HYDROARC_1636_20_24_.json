@@ -3,17 +3,25 @@
   "id": "HYDROARC 1636/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.62416666666667,
+      -2.2694444444444444
+    ]
   },
   "properties": {
     "dtg": "2020-05-14T03:10:00",
     "raw_dtg": "140310Z MAY 20",
     "msg_id": "HYDROARC 1636/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 1964/20"
+      "THIS MSG 10 NOV 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. ILHA DE SANTANA 02-16-10S 043-37-27W UNLIT.\n2. CANCEL THIS MSG 10 NOV 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. ILHA DE SANTANA 02-16-10S 043-37-27W UNLIT.\n2. CANCEL THIS MSG 10 NOV 20.",
+    "valid_from": "2020-05-14T03:10:00+00:00",
+    "valid_until": "2020-11-10T00:00:00+00:00",
+    "summary": null
   }
 }

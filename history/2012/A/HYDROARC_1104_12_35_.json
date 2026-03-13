@@ -3,17 +3,23 @@
   "id": "HYDROARC 1104/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.296666666666667,
+      57.72666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-05-23T23:36:00",
     "raw_dtg": "232336Z MAY 12",
     "msg_id": "HYDROARC 1104/12(35)",
-    "cancellations": [
-      "HYDROARC 1111/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNORTH MINCH.\nCHART 35078\nTRODDAY LIGHT 57-43.6N 006-17.8W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNORTH MINCH.\nCHART 35078\nTRODDAY LIGHT 57-43.6N 006-17.8W UNLIT.",
+    "valid_from": "2012-05-23T23:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

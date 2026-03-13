@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3626/20(55)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-11-22T16:02:00",
     "raw_dtg": "221602Z NOV 20",
     "msg_id": "HYDROARC 3626/20(55)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 231500Z NOV 20",
-      "HYDROARC 3626/20"
+      "THIS MSG 231500Z NOV 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nTURKEY.\nDNC 10.\n1. SEARCH AND RESCUE EXERCISES 231000Z TO\n   231400Z NOV IN AREA BOUND BY\n   43-05N 035-42E, 43-05N 036-02E,\n   42-50N 036-02E, 42-50N 035-42E.\n2. CANCEL THIS MSG 231500Z NOV 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nTURKEY.\nDNC 10.\n1. SEARCH AND RESCUE EXERCISES 231000Z TO\n   231400Z NOV IN AREA BOUND BY\n   43-05N 035-42E, 43-05N 036-02E,\n   42-50N 036-02E, 42-50N 035-42E.\n2. CANCEL THIS MSG 231500Z NOV 20.",
+    "valid_from": "2020-11-22T16:02:00+00:00",
+    "valid_until": "2020-11-23T15:00:00+00:00",
+    "summary": null
   }
 }

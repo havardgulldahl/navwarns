@@ -3,17 +3,23 @@
   "id": "HYDROARC 1060/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.14833333333333,
+      -2.45
+    ]
   },
   "properties": {
     "dtg": "2013-04-28T00:50:00",
     "raw_dtg": "280050Z APR 13",
     "msg_id": "HYDROARC 1060/13(24)",
-    "cancellations": [
-      "HYDROARC 1076/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24270\nRACON AT PONTA DO ARACAGI LIGHT 02-27.0S 044-08.9W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24270\nRACON AT PONTA DO ARACAGI LIGHT 02-27.0S 044-08.9W INOPERATIVE.",
+    "valid_from": "2013-04-28T00:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

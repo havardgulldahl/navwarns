@@ -3,17 +3,23 @@
   "id": "HYDROARC 188/17(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.17666666666666667,
+      38.718333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-01-19T09:03:00",
     "raw_dtg": "190903Z JAN 17",
     "msg_id": "HYDROARC 188/17(52)",
-    "cancellations": [
-      "HYDROARC 189/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nNAVTEX.\nDNC 08.\nNAVTEX STATION CABO LA NAO (X) 38-43.1N 000-10.6E\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nNAVTEX.\nDNC 08.\nNAVTEX STATION CABO LA NAO (X) 38-43.1N 000-10.6E\nOFF AIR.",
+    "valid_from": "2017-01-19T09:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 117/20(41)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      104.31666666666666,
+      77.74
+    ]
   },
   "properties": {
     "dtg": "2020-07-14T17:14:00",
     "raw_dtg": "141714Z JUL 20",
     "msg_id": "HYDROARC 117/20(41)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 171714Z JUL 20",
-      "HYDROARC 117/20"
+      "THIS MSG 171714Z JUL 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN 77-44.4N 104-19.0E\n   AT 141631Z JUL.\n2. CANCEL THIS MSG 171714Z JUL 20."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN 77-44.4N 104-19.0E\n   AT 141631Z JUL.\n2. CANCEL THIS MSG 171714Z JUL 20.",
+    "valid_from": "2020-07-14T17:14:00+00:00",
+    "valid_until": "2020-07-17T17:14:00+00:00",
+    "summary": null
   }
 }

@@ -12,9 +12,16 @@
     "dtg": "2024-04-26T16:54:00",
     "raw_dtg": "261654Z APR 24",
     "msg_id": "HYDROARC 892/24(51)",
-    "cancellations": [],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\n1. SIDI IFNI LIGHT 29-22.50N 010-10.70W UNLIT.\n2. CANCEL HYDROLANT 544/24."
+    "year": 2024,
+    "cancellations": [
+      "544/24"
+    ],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\n1. SIDI IFNI LIGHT 29-22.50N 010-10.70W UNLIT.\n2. CANCEL HYDROLANT 544/24.",
+    "valid_from": "2024-04-26T16:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

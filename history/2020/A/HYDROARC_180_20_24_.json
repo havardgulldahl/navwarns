@@ -3,17 +3,25 @@
   "id": "HYDROARC 180/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -51.53666666666667,
+      4.433333333333334
+    ]
   },
   "properties": {
     "dtg": "2020-01-18T06:22:00",
     "raw_dtg": "180622Z JAN 20",
     "msg_id": "HYDROARC 180/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 778/20"
+      "THIS MSG 17 JUL 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 14.\n1. CABO ORANGE LIGHT 04-26.0N 051-32.2W UNLIT\n   UNTIL 16 JUL.\n2. CANCEL THIS MSG 17 JUL 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 14.\n1. CABO ORANGE LIGHT 04-26.0N 051-32.2W UNLIT\n   UNTIL 16 JUL.\n2. CANCEL THIS MSG 17 JUL 20.",
+    "valid_from": "2020-01-18T06:22:00+00:00",
+    "valid_until": "2020-07-17T00:00:00+00:00",
+    "summary": null
   }
 }

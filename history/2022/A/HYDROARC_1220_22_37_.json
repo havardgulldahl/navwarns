@@ -3,17 +3,23 @@
   "id": "HYDROARC 1220/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8716666666666666,
+      51.275
+    ]
   },
   "properties": {
     "dtg": "2022-05-05T21:46:00",
     "raw_dtg": "052146Z MAY 22",
     "msg_id": "HYDROARC 1220/22(37)",
-    "cancellations": [
-      "HYDROARC 1226/22"
-    ],
-    "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nRACON AT INTER BANK BUOY 51-16-30N 001-52-18E\nINOPERATIVE."
+    "year": 2022,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nRACON AT INTER BANK BUOY 51-16-30N 001-52-18E\nINOPERATIVE.",
+    "valid_from": "2022-05-05T21:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

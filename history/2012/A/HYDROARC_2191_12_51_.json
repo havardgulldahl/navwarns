@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 2191/12(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -17.356666666666666,
+          16.926666666666666
+        ],
+        [
+          -16.591666666666665,
+          16.675
+        ],
+        [
+          -16.756666666666668,
+          16.22
+        ],
+        [
+          -17.756666666666668,
+          16.436666666666667
+        ],
+        [
+          -17.356666666666666,
+          16.926666666666666
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-09-21T22:27:00",
     "raw_dtg": "212227Z SEP 12",
     "msg_id": "HYDROARC 2191/12(51)",
-    "cancellations": [
-      "HYDROARC 2417/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nSEISMIC SURVEY 24 SEP UNTIL FURTHER NOTICE\nBY M/V WESTERN REGENT TOWING 12 FOUR MILE\nLONG CABLES IN AREA BOUND BY\n16-55.6N 017-21.4W, 16-40.5N 016-35.5W,\n16-13.2N 016-45.4W, 16-26.2N 017-45.4W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nSEISMIC SURVEY 24 SEP UNTIL FURTHER NOTICE\nBY M/V WESTERN REGENT TOWING 12 FOUR MILE\nLONG CABLES IN AREA BOUND BY\n16-55.6N 017-21.4W, 16-40.5N 016-35.5W,\n16-13.2N 016-45.4W, 16-26.2N 017-45.4W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-09-21T22:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

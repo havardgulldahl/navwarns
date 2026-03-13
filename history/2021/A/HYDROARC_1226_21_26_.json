@@ -2,18 +2,34 @@
   "type": "Feature",
   "id": "HYDROARC 1226/21(26)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -77.345,
+        25.060000000000002
+      ],
+      [
+        -77.39555555555556,
+        26.004722222222224
+      ],
+      [
+        -77.525,
+        25.474999999999998
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-05-04T07:03:00",
     "raw_dtg": "040703Z MAY 21",
     "msg_id": "HYDROARC 1226/21(26)",
-    "cancellations": [
-      "HYDROARC 1368/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 16.\nM/V, ONE PERSON ON BOARD, POSSIBLY FLOODING\nAND OVERDUE NASSAU (25-03-36N 077-20-42W) TO\nSANDY POINT (26-00-17N 077-23-44W).\nLAST KNOWN POSITION IN 25-28-30N 077-31-30W.\nVESSELS IN VICINITY REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC MIAMI,\nPHONE: 305 415 6800,\nE-MAIL: RCCMIAMI@USCG.MIL."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 16.\nM/V, ONE PERSON ON BOARD, POSSIBLY FLOODING\nAND OVERDUE NASSAU (25-03-36N 077-20-42W) TO\nSANDY POINT (26-00-17N 077-23-44W).\nLAST KNOWN POSITION IN 25-28-30N 077-31-30W.\nVESSELS IN VICINITY REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC MIAMI,\nPHONE: 305 415 6800,\nE-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2021-05-04T07:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

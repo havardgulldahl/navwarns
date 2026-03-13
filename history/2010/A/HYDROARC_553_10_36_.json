@@ -3,17 +3,23 @@
   "id": "HYDROARC 553/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.6883333333333335,
+      54.855
+    ]
   },
   "properties": {
     "dtg": "2010-03-31T00:12:00",
     "raw_dtg": "310012Z MAR 10",
     "msg_id": "HYDROARC 553/10(36)",
-    "cancellations": [
-      "HYDROARC 557/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-NORTHEAST COAST.\nNGA CHART 35127 (1ST ED).\nBLACK HEAD LIGHT 54-51.3N 005-41.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTHEAST COAST.\nNGA CHART 35127 (1ST ED).\nBLACK HEAD LIGHT 54-51.3N 005-41.3W UNRELIABLE.",
+    "valid_from": "2010-03-31T00:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

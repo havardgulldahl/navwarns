@@ -3,17 +3,23 @@
   "id": "HYDROARC 2133/15(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.055,
+      59.58833333333333
+    ]
   },
   "properties": {
     "dtg": "2015-08-30T00:49:00",
     "raw_dtg": "300049Z AUG 15",
     "msg_id": "HYDROARC 2133/15(35,43)",
-    "cancellations": [
-      "HYDROARC 2742/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCHART 35008.\nPLATFORM UNDER CONSTRUCTION IN 59-35.3N 001-03.3E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCHART 35008.\nPLATFORM UNDER CONSTRUCTION IN 59-35.3N 001-03.3E.",
+    "valid_from": "2015-08-30T00:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

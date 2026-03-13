@@ -3,17 +3,23 @@
   "id": "HYDROARC 1483/12(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.88,
+      -58.82
+    ]
   },
   "properties": {
     "dtg": "2012-07-06T04:45:00",
     "raw_dtg": "060445Z JUL 12",
     "msg_id": "HYDROARC 1483/12(23)",
-    "cancellations": [
-      "HYDROARC 1483/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nSCOTIA SEA.\nICE.\n1. ICEBERG REPORTED VICINITY 58-49.2S 049-52.8WL.\n2. CANCEL THIS MSG 090443Z JUL."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nSCOTIA SEA.\nICE.\n1. ICEBERG REPORTED VICINITY 58-49.2S 049-52.8WL.\n2. CANCEL THIS MSG 090443Z JUL.",
+    "valid_from": "2012-07-06T04:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 1996/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.35333333333333,
+      -12.956666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-08-15T00:46:00",
     "raw_dtg": "150046Z AUG 15",
     "msg_id": "HYDROARC 1996/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2015/15"
+      "THIS MSG 09 FEB 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. PONTA ITAPUA LIGHT 12-57.4S 038-21.2W UNLIT.\n2. CANCEL THIS MSG 09 FEB 16."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. PONTA ITAPUA LIGHT 12-57.4S 038-21.2W UNLIT.\n2. CANCEL THIS MSG 09 FEB 16.",
+    "valid_from": "2015-08-15T00:46:00+00:00",
+    "valid_until": "2016-02-09T00:00:00+00:00",
+    "summary": null
   }
 }

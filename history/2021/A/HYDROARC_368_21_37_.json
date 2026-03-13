@@ -3,17 +3,23 @@
   "id": "HYDROARC 368/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5616666666666668,
+      50.69833333333333
+    ]
   },
   "properties": {
     "dtg": "2021-02-08T17:04:00",
     "raw_dtg": "081704Z FEB 21",
     "msg_id": "HYDROARC 368/21(37)",
-    "cancellations": [
-      "HYDROARC 415/21"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nCAP D'ALPRECH LIGHT 50-41.9N 001-33.7E UNLIT."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nCAP D'ALPRECH LIGHT 50-41.9N 001-33.7E UNLIT.",
+    "valid_from": "2021-02-08T17:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

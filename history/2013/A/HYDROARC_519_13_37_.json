@@ -3,17 +3,25 @@
   "id": "HYDROARC 519/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.605,
+      51.21666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-02-25T19:41:00",
     "raw_dtg": "251941Z FEB 13",
     "msg_id": "HYDROARC 519/13(37)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 553/13"
+      "512/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nDOVER STRAIT.\nCHART 37028\n1. FOG SIGNAL AT EAST GOODWIN LIGHTFLOAT\n   51-13.0N 001-36.3E UNRELIABLE.\n2. CANCEL HYDROLANT 512/13, LIGHT RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nDOVER STRAIT.\nCHART 37028\n1. FOG SIGNAL AT EAST GOODWIN LIGHTFLOAT\n   51-13.0N 001-36.3E UNRELIABLE.\n2. CANCEL HYDROLANT 512/13, LIGHT RESTORED.",
+    "valid_from": "2013-02-25T19:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2492/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.265,
+      50.18
+    ]
   },
   "properties": {
     "dtg": "2012-10-24T21:57:00",
     "raw_dtg": "242157Z OCT 12",
     "msg_id": "HYDROARC 2492/12(37)",
-    "cancellations": [
-      "HYDROARC 2543/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 37007\nEDDYSTONE LIGHT 50-10.8N 004-15.9W, RED LIGHT UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 37007\nEDDYSTONE LIGHT 50-10.8N 004-15.9W, RED LIGHT UNLIT.",
+    "valid_from": "2012-10-24T21:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

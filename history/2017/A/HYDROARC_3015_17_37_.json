@@ -3,17 +3,23 @@
   "id": "HYDROARC 3015/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.4566666666666666,
+      50.515
+    ]
   },
   "properties": {
     "dtg": "2017-09-24T21:30:00",
     "raw_dtg": "242130Z SEP 17",
     "msg_id": "HYDROARC 3015/17(37)",
-    "cancellations": [
-      "HYDROARC 3034/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37015.\nFOG SIGNAL AT BILL OF PORTLAND LIGHT 50-30.9N 002-27.4W\nINOPERATIVE."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37015.\nFOG SIGNAL AT BILL OF PORTLAND LIGHT 50-30.9N 002-27.4W\nINOPERATIVE.",
+    "valid_from": "2017-09-24T21:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

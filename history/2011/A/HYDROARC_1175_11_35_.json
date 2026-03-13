@@ -3,17 +3,23 @@
   "id": "HYDROARC 1175/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6083333333333334,
+      59.553333333333335
+    ]
   },
   "properties": {
     "dtg": "2011-07-25T02:18:00",
     "raw_dtg": "250218Z JUL 11",
     "msg_id": "HYDROARC 1175/11(35)",
-    "cancellations": [
-      "HYDROARC 1178/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nORKNEY ISLANDS.\nNGA CHART 35063 (1ST ED).\nSKROO LIGHT 59-33.2N 001-36.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nORKNEY ISLANDS.\nNGA CHART 35063 (1ST ED).\nSKROO LIGHT 59-33.2N 001-36.5W UNRELIABLE.",
+    "valid_from": "2011-07-25T02:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

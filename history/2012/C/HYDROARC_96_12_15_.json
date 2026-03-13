@@ -3,17 +3,23 @@
   "id": "HYDROARC 96/12(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -105.05333333333333,
+      69.11666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-07-27T16:00:00",
     "raw_dtg": "271600Z JUL 12",
     "msg_id": "HYDROARC 96/12(15)",
-    "cancellations": [
-      "HYDROARC 106/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nINUVIK MCTS REMOTE STATION CAMBRIDGE BAY\n69-07.0N 105-03.2W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nINUVIK MCTS REMOTE STATION CAMBRIDGE BAY\n69-07.0N 105-03.2W INOPERATIVE.",
+    "valid_from": "2012-07-27T16:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

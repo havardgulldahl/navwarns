@@ -3,17 +3,25 @@
   "id": "HYDROARC 69/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.9533333333333334,
+      52.94166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-01-07T18:26:00",
     "raw_dtg": "071826Z JAN 19",
     "msg_id": "HYDROARC 69/19(37)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 526/19"
+      "59/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. CGOC HUMBER MF DSC AND R/T SERVICES AT\n   LANGHAM 52-56.5N 000-57.2E OFF AIR.\n2. CANCEL HYDROLANT 59/19(35)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. CGOC HUMBER MF DSC AND R/T SERVICES AT\n   LANGHAM 52-56.5N 000-57.2E OFF AIR.\n2. CANCEL HYDROLANT 59/19(35).",
+    "valid_from": "2019-01-07T18:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

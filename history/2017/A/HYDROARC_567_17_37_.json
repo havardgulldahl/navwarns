@@ -3,17 +3,23 @@
   "id": "HYDROARC 567/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.18,
+      52.208333333333336
+    ]
   },
   "properties": {
     "dtg": "2017-02-18T19:27:00",
     "raw_dtg": "181927Z FEB 17",
     "msg_id": "HYDROARC 567/17(37)",
-    "cancellations": [
-      "HYDROARC 592/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nWITH SUBMERSIBLE IN VICINITY 52-12.5N 003-10.8E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nWITH SUBMERSIBLE IN VICINITY 52-12.5N 003-10.8E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2017-02-18T19:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

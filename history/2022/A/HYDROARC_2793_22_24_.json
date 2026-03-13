@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 2793/22(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -43.8505,
-        -23.033833333333334
-      ],
-      [
-        -43.58383333333333,
-        -23.033333333333335
-      ],
-      [
-        -43.58383333333333,
-        -23.067166666666665
-      ],
-      [
-        -43.8505,
-        -23.083833333333335
+        [
+          -43.8505,
+          -23.033833333333334
+        ],
+        [
+          -43.58383333333333,
+          -23.033333333333335
+        ],
+        [
+          -43.58383333333333,
+          -23.067166666666665
+        ],
+        [
+          -43.8505,
+          -23.083833333333335
+        ],
+        [
+          -43.8505,
+          -23.033833333333334
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2022-11-03T03:02:00",
     "raw_dtg": "030302Z NOV 22",
     "msg_id": "HYDROARC 2793/22(24)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 081900Z NOV 22",
-      "HYDROARC 2793/22"
+      "THIS MSG 081900Z NOV 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. NAVIGATION PROHIBITED 1600Z TO 1800Z DAILY\n   07 AND 08 NOV IN AREA BOUND BY\n   23-02.03S 043-51.03W, 23-02.00S 043-35.03W,\n   23-04.03S 043-35.03W, 23-05.03S 043-51.03W.\n2. CANCEL THIS MSG 081900Z NOV 22."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. NAVIGATION PROHIBITED 1600Z TO 1800Z DAILY\n   07 AND 08 NOV IN AREA BOUND BY\n   23-02.03S 043-51.03W, 23-02.00S 043-35.03W,\n   23-04.03S 043-35.03W, 23-05.03S 043-51.03W.\n2. CANCEL THIS MSG 081900Z NOV 22.",
+    "valid_from": "2022-11-03T03:02:00+00:00",
+    "valid_until": "2022-11-08T19:00:00+00:00",
+    "summary": null
   }
 }

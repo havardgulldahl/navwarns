@@ -3,17 +3,23 @@
   "id": "HYDROARC 404/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.275,
+      59.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-02-04T22:04:00",
     "raw_dtg": "042204Z FEB 18",
     "msg_id": "HYDROARC 404/18(35)",
-    "cancellations": [
-      "HYDROARC 479/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nDGPS STATION AT SUMBURGH HEAD LIGHT\n59-51.2N 001-16.5W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nDGPS STATION AT SUMBURGH HEAD LIGHT\n59-51.2N 001-16.5W OFF AIR.",
+    "valid_from": "2018-02-04T22:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

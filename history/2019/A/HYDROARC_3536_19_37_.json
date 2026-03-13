@@ -3,17 +3,23 @@
   "id": "HYDROARC 3536/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.01,
+      51.39666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-11-18T20:44:00",
     "raw_dtg": "182044Z NOV 19",
     "msg_id": "HYDROARC 3536/19(37)",
-    "cancellations": [
-      "HYDROARC 3665/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E UNRELIABLE.",
+    "valid_from": "2019-11-18T20:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

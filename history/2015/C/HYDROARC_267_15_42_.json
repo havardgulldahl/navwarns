@@ -3,17 +3,23 @@
   "id": "HYDROARC 267/15(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      58.145,
+      70.51333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-09-09T00:23:00",
     "raw_dtg": "090023Z SEP 15",
     "msg_id": "HYDROARC 267/15(42)",
-    "cancellations": [
-      "HYDROARC 268/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nKARA SEA.\nDNC 22.\nMAN OVERBOARD FROM M/V KAPITAN VORONIN WITHIN\n15 MILES OF 70-30.8N 058-08.7E AT 081030Z SEP.\nVESSELS IN VICINITY REQUESTED KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nKARA SEA.\nDNC 22.\nMAN OVERBOARD FROM M/V KAPITAN VORONIN WITHIN\n15 MILES OF 70-30.8N 058-08.7E AT 081030Z SEP.\nVESSELS IN VICINITY REQUESTED KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2015-09-09T00:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

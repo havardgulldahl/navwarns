@@ -12,13 +12,17 @@
     "dtg": "2023-11-01T05:31:00",
     "raw_dtg": "010531Z NOV 23",
     "msg_id": "HYDROARC 278/23(15)",
+    "year": 2023,
     "cancellations": [
       "HYDROARC 107/23",
-      "THIS MSG 151500Z NOV 23",
-      "HYDROARC 278/23"
+      "THIS MSG 151500Z NOV 23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BEAUFORT SEA.\nCANADA.\nDNC 27.\n1. MCTS IQALUIT REMOTE STATION INUVIK\n   68-19.00N 133-35.00W OFF AIR.\n2. CANCEL HYDROARC 107/23.\n3. CANCEL THIS MSG 151500Z NOV 23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BEAUFORT SEA.\nCANADA.\nDNC 27.\n1. MCTS IQALUIT REMOTE STATION INUVIK\n   68-19.00N 133-35.00W OFF AIR.\n2. CANCEL HYDROARC 107/23.\n3. CANCEL THIS MSG 151500Z NOV 23.",
+    "valid_from": "2023-11-01T05:31:00+00:00",
+    "valid_until": "2023-11-15T15:00:00+00:00",
+    "summary": null
   }
 }

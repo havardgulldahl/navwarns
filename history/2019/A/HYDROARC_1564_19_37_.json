@@ -3,17 +3,23 @@
   "id": "HYDROARC 1564/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.9666666666666667,
+      54.028333333333336
+    ]
   },
   "properties": {
     "dtg": "2019-05-23T14:44:00",
     "raw_dtg": "231444Z MAY 19",
     "msg_id": "HYDROARC 1564/19(37)",
-    "cancellations": [
-      "HYDROARC 1591/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37059.\nALL NAVIGATIONAL AIDS AT PLATFORM 42/30-A,\n54-01.7N 000-58.0E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37059.\nALL NAVIGATIONAL AIDS AT PLATFORM 42/30-A,\n54-01.7N 000-58.0E INOPERATIVE.",
+    "valid_from": "2019-05-23T14:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

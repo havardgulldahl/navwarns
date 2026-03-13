@@ -3,17 +3,23 @@
   "id": "HYDROARC 3989/19(29)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -60.28,
+      -62.45666666666666
+    ]
   },
   "properties": {
     "dtg": "2019-12-28T17:25:00",
     "raw_dtg": "281725Z DEC 19",
     "msg_id": "HYDROARC 3989/19(29)",
-    "cancellations": [
-      "HYDROARC 149/20"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DRAKE PASSAGE.\nSOUTH SHETLAND ISLANDS.\nDNC 29.\nUNCOVERED ROCK REPORTED IN 62-27.4S 060-16.8W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DRAKE PASSAGE.\nSOUTH SHETLAND ISLANDS.\nDNC 29.\nUNCOVERED ROCK REPORTED IN 62-27.4S 060-16.8W.",
+    "valid_from": "2019-12-28T17:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

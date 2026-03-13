@@ -12,12 +12,17 @@
     "dtg": "2022-11-30T22:45:00",
     "raw_dtg": "302245Z NOV 22",
     "msg_id": "HYDROARC 3087/22(24)",
+    "year": 2022,
     "cancellations": [
       "THIS MSG 300001Z MAY 23",
-      "HYDROARC 3087/22"
+      "1880/22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. MORRO GRANDE LIGHT IN 20-18.15S 040-18.60W UNLIT\n   UNTIL 29 MAY 23.\n2. CANCEL HYDROLANT 1880/22.\n3. CANCEL THIS MSG 300001Z MAY 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. MORRO GRANDE LIGHT IN 20-18.15S 040-18.60W UNLIT\n   UNTIL 29 MAY 23.\n2. CANCEL HYDROLANT 1880/22.\n3. CANCEL THIS MSG 300001Z MAY 23.",
+    "valid_from": "2022-11-30T22:45:00+00:00",
+    "valid_until": "2023-05-30T00:01:00+00:00",
+    "summary": null
   }
 }

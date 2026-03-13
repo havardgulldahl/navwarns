@@ -3,17 +3,23 @@
   "id": "HYDROARC 639/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.93,
+      52.12166666666667
+    ]
   },
   "properties": {
     "dtg": "2017-02-26T06:37:00",
     "raw_dtg": "260637Z FEB 17",
     "msg_id": "HYDROARC 639/17(36)",
-    "cancellations": [
-      "HYDROARC 665/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nIRELAND-SOUTHEAST COAST.\nDNC 19.\nCHART 36002.\nHOOK HEAD LIGHT 52-07.3N 006-55.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nIRELAND-SOUTHEAST COAST.\nDNC 19.\nCHART 36002.\nHOOK HEAD LIGHT 52-07.3N 006-55.8W UNRELIABLE.",
+    "valid_from": "2017-02-26T06:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

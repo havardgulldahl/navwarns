@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 68/13(42)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-06-28T19:17:00",
     "raw_dtg": "281917Z JUN 13",
     "msg_id": "HYDROARC 68/13(42)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 68/13"
+      "THIS MSG 02 JUL 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 01 JUL BY\n   M/V PROFESSOR KURENTSOV TOWING 2000 METER\n   LONG CABLE IN AREA BOUND BY\n   76-00N 038-00E, 76-00N 042-00E,\n   72-00N 042-00E, 72-00N 034-33E,\n   73-41N 037-00E, 75-12N 037-00E,\n   75-48N 038-00E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 JUL 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 01 JUL BY\n   M/V PROFESSOR KURENTSOV TOWING 2000 METER\n   LONG CABLE IN AREA BOUND BY\n   76-00N 038-00E, 76-00N 042-00E,\n   72-00N 042-00E, 72-00N 034-33E,\n   73-41N 037-00E, 75-12N 037-00E,\n   75-48N 038-00E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 JUL 13.",
+    "valid_from": "2013-06-28T19:17:00+00:00",
+    "valid_until": "2013-07-02T00:00:00+00:00",
+    "summary": null
   }
 }

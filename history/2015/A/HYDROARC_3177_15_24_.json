@@ -3,17 +3,25 @@
   "id": "HYDROARC 3177/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.29666666666667,
+      -5.401666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-12-26T01:32:00",
     "raw_dtg": "260132Z DEC 15",
     "msg_id": "HYDROARC 3177/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 107/16"
+      "THIS MSG 22 JUN 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. BAIXO DA TERESA PANCA LIGHT 05-24.1S 035-17.8W UNLIT.\n2. CANCEL THIS MSG 22 JUN 16."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. BAIXO DA TERESA PANCA LIGHT 05-24.1S 035-17.8W UNLIT.\n2. CANCEL THIS MSG 22 JUN 16.",
+    "valid_from": "2015-12-26T01:32:00+00:00",
+    "valid_until": "2016-06-22T00:00:00+00:00",
+    "summary": null
   }
 }

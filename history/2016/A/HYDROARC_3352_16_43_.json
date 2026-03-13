@@ -3,17 +3,23 @@
   "id": "HYDROARC 3352/16(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7366666666666668,
+      61.13166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-12-11T22:38:00",
     "raw_dtg": "112238Z DEC 16",
     "msg_id": "HYDROARC 3352/16(43)",
-    "cancellations": [
-      "HYDROARC 231/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nDNC 20.\nCHART 43300.\nALL NAVIGATIONAL AIDS AT PLATFORM 211/29-D,\n61-07.9N 001-44.2E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nDNC 20.\nCHART 43300.\nALL NAVIGATIONAL AIDS AT PLATFORM 211/29-D,\n61-07.9N 001-44.2E INOPERATIVE.",
+    "valid_from": "2016-12-11T22:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

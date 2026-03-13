@@ -3,17 +3,23 @@
   "id": "HYDROARC 2740/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.885,
+      -24.125
+    ]
   },
   "properties": {
     "dtg": "2018-08-28T17:48:00",
     "raw_dtg": "281748Z AUG 18",
     "msg_id": "HYDROARC 2740/18(24)",
-    "cancellations": [
-      "HYDROARC 3525/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24004.\nPLATFORM ESTABLISHED IN 24-07.5S 041-53.1W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24004.\nPLATFORM ESTABLISHED IN 24-07.5S 041-53.1W.",
+    "valid_from": "2018-08-28T17:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

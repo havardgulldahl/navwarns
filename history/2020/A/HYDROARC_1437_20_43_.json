@@ -2,18 +2,52 @@
   "type": "Feature",
   "id": "HYDROARC 1437/20(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          1.58,
+          58.805
+        ],
+        [
+          3.486666666666667,
+          58.805
+        ],
+        [
+          3.4966666666666666,
+          58.07666666666667
+        ],
+        [
+          2.0733333333333333,
+          58.07666666666667
+        ],
+        [
+          1.7349999999999999,
+          58.153333333333336
+        ],
+        [
+          1.4816666666666667,
+          58.42666666666667
+        ],
+        [
+          1.58,
+          58.805
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-04-27T04:18:00",
     "raw_dtg": "270418Z APR 20",
     "msg_id": "HYDROARC 1437/20(43)",
-    "cancellations": [
-      "HYDROARC 1983/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nNORWAY.\nDNC 20, DNC 21.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V SW AMUNDSEN TOWING NINE 3500\nMETER LONG CABLES IN AREA BOUND BY\n58-48.3N 001-34.8E, 58-48.3N 003-29.2E,\n58-04.6N 003-29.8E, 58-04.6N 002-04.4E,\n58-09.2N 001-44.1E, 58-25.6N 001-28.9E.\nFOUR MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nNORWAY.\nDNC 20, DNC 21.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V SW AMUNDSEN TOWING NINE 3500\nMETER LONG CABLES IN AREA BOUND BY\n58-48.3N 001-34.8E, 58-48.3N 003-29.2E,\n58-04.6N 003-29.8E, 58-04.6N 002-04.4E,\n58-09.2N 001-44.1E, 58-25.6N 001-28.9E.\nFOUR MILE BERTH REQUESTED.",
+    "valid_from": "2020-04-27T04:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

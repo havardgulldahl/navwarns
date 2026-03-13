@@ -3,17 +3,23 @@
   "id": "HYDROARC 2578/18(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      6.473333333333334,
+      37.09
+    ]
   },
   "properties": {
     "dtg": "2018-08-12T15:50:00",
     "raw_dtg": "121550Z AUG 18",
     "msg_id": "HYDROARC 2578/18(52)",
-    "cancellations": [
-      "HYDROARC 2604/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52220.\nCAP BOUGAROUN LIGHT 37-05.4N 006-28.4E UNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52220.\nCAP BOUGAROUN LIGHT 37-05.4N 006-28.4E UNLIT.",
+    "valid_from": "2018-08-12T15:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1130/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.74,
+      54.541666666666664
+    ]
   },
   "properties": {
     "dtg": "2010-06-17T15:11:00",
     "raw_dtg": "171511Z JUN 10",
     "msg_id": "HYDROARC 1130/10(35)",
-    "cancellations": [
-      "HYDROARC 1130/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\n1. CONTAINER ADRIFT IN 54-32.5N 000-44.4E\n   AT 171226Z JUN.\n2. CANCEL THIS MSG 201500Z JUN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\n1. CONTAINER ADRIFT IN 54-32.5N 000-44.4E\n   AT 171226Z JUN.\n2. CANCEL THIS MSG 201500Z JUN.",
+    "valid_from": "2010-06-17T15:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

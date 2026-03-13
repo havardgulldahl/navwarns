@@ -1,19 +1,24 @@
 {
   "type": "Feature",
   "id": "HYDROARC 434/21(57)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-02-14T15:27:00",
     "raw_dtg": "141527Z FEB 21",
     "msg_id": "HYDROARC 434/21(57)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 434/21"
+      "354/21",
+      "359/21",
+      "367/21",
+      "371/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nGULF OF GUINEA.\nSAO TOME AND PRINCIPE.\nDNC 01.\nCANCEL HYDROLANT 354/21, 359/21, 367/21, 371/21\nAND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nGULF OF GUINEA.\nSAO TOME AND PRINCIPE.\nDNC 01.\nCANCEL HYDROLANT 354/21, 359/21, 367/21, 371/21\nAND THIS MSG.",
+    "valid_from": "2021-02-14T15:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

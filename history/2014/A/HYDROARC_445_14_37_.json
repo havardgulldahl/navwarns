@@ -3,17 +3,23 @@
   "id": "HYDROARC 445/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.365,
+      52.196666666666665
+    ]
   },
   "properties": {
     "dtg": "2014-02-13T13:10:00",
     "raw_dtg": "131310Z FEB 14",
     "msg_id": "HYDROARC 445/14(37)",
-    "cancellations": [
-      "HYDROARC 449/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND.\nWALES.\nCHART 35000\nWORMLEIGHTON DGPS STATION 52-11.8N 001-21.9W\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND.\nWALES.\nCHART 35000\nWORMLEIGHTON DGPS STATION 52-11.8N 001-21.9W\nOFF AIR.",
+    "valid_from": "2014-02-13T13:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

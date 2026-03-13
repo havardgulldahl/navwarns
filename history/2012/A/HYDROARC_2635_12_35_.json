@@ -3,17 +3,23 @@
   "id": "HYDROARC 2635/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.925,
+      58.69
+    ]
   },
   "properties": {
     "dtg": "2012-11-07T23:22:00",
     "raw_dtg": "072322Z NOV 12",
     "msg_id": "HYDROARC 2635/12(35)",
-    "cancellations": [
-      "HYDROARC 2657/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nPENTLAND FIRTH.\nCHART 35056\nPENTLAND SKERRIES LIGHT 58-41.4N 002-55.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nPENTLAND FIRTH.\nCHART 35056\nPENTLAND SKERRIES LIGHT 58-41.4N 002-55.5W UNRELIABLE.",
+    "valid_from": "2012-11-07T23:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

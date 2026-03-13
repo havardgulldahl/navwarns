@@ -3,17 +3,23 @@
   "id": "HYDROARC 2564/12(14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -33.95666666666666,
+      43.445
+    ]
   },
   "properties": {
     "dtg": "2012-10-31T23:15:00",
     "raw_dtg": "312315Z OCT 12",
     "msg_id": "HYDROARC 2564/12(14)",
-    "cancellations": [
-      "HYDROARC 2570/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n43-26.7N 033-57.4W AT 312100Z OCT. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC DELGADA,\nPHONE: 35 129 628 1777, FAX: 35 129 620 5239."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n43-26.7N 033-57.4W AT 312100Z OCT. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC DELGADA,\nPHONE: 35 129 628 1777, FAX: 35 129 620 5239.",
+    "valid_from": "2012-10-31T23:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

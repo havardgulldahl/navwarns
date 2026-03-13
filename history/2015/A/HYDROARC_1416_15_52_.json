@@ -3,17 +3,23 @@
   "id": "HYDROARC 1416/15(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.17666666666666667,
+      38.71666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-06-10T14:04:00",
     "raw_dtg": "101404Z JUN 15",
     "msg_id": "HYDROARC 1416/15(52)",
-    "cancellations": [
-      "HYDROARC 1423/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nNAVTEX.\nDNC 08.\nNAVTEX STATION CABO DE LA NAO 38-43.0N 000-10.6E OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nNAVTEX.\nDNC 08.\nNAVTEX STATION CABO DE LA NAO 38-43.0N 000-10.6E OFF AIR.",
+    "valid_from": "2015-06-10T14:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

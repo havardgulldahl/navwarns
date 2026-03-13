@@ -3,17 +3,23 @@
   "id": "HYDROARC 181/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.806666666666665,
+      2.506666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-01-18T07:16:00",
     "raw_dtg": "180716Z JAN 20",
     "msg_id": "HYDROARC 181/20(24)",
-    "cancellations": [
-      "HYDROARC 316/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nRIO CALCOENE LIGHT 02-30.4N 050-48.4W INOPERABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nRIO CALCOENE LIGHT 02-30.4N 050-48.4W INOPERABLE.",
+    "valid_from": "2020-01-18T07:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

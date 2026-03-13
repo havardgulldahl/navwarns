@@ -3,17 +3,23 @@
   "id": "HYDROARC 3829/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201666666666666,
+      49.96
+    ]
   },
   "properties": {
     "dtg": "2018-12-09T00:47:00",
     "raw_dtg": "090047Z DEC 18",
     "msg_id": "HYDROARC 3829/18(36)",
-    "cancellations": [
-      "HYDROARC 3841/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36049.\nDGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36049.\nDGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W\nOFF AIR.",
+    "valid_from": "2018-12-09T00:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

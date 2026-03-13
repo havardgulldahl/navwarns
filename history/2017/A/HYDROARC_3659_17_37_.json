@@ -3,17 +3,23 @@
   "id": "HYDROARC 3659/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.255,
+      50.586666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-11-13T08:02:00",
     "raw_dtg": "130802Z NOV 17",
     "msg_id": "HYDROARC 3659/17(37)",
-    "cancellations": [
-      "HYDROARC 3761/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nNAVTEX STATION NITON (E) 50-35.2N 001-15.3W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nNAVTEX STATION NITON (E) 50-35.2N 001-15.3W\nUNRELIABLE.",
+    "valid_from": "2017-11-13T08:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

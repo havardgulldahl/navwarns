@@ -3,17 +3,23 @@
   "id": "HYDROARC 35/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2316666666666667,
+      60.516666666666666
+    ]
   },
   "properties": {
     "dtg": "2013-01-03T19:48:00",
     "raw_dtg": "031948Z JAN 13",
     "msg_id": "HYDROARC 35/13(35)",
-    "cancellations": [
-      "HYDROARC 54/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35072\nBROTHER ISLAND LIGHT 60-31.0N 001-13.9W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35072\nBROTHER ISLAND LIGHT 60-31.0N 001-13.9W UNLIT.",
+    "valid_from": "2013-01-03T19:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

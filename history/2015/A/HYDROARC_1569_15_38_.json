@@ -3,18 +3,25 @@
   "id": "HYDROARC 1569/15(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -27.756666666666668,
+      49.45666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-06-26T12:38:00",
     "raw_dtg": "261238Z JUN 15",
     "msg_id": "HYDROARC 1569/15(38)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 291238Z JUN 15",
-      "HYDROARC 1569/15"
+      "THIS MSG 291238Z JUN 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 19.\n1. DERELICT 25 METER F/V, WHITE HULL, ADRIFT\n   VICINITY 49-27.4N 027-45.4W. REPORTS\n   TO MRCC FALMOUTH.\n2. CANCEL THIS MSG 291238Z JUN 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 19.\n1. DERELICT 25 METER F/V, WHITE HULL, ADRIFT\n   VICINITY 49-27.4N 027-45.4W. REPORTS\n   TO MRCC FALMOUTH.\n2. CANCEL THIS MSG 291238Z JUN 15.",
+    "valid_from": "2015-06-26T12:38:00+00:00",
+    "valid_until": "2015-06-29T12:38:00+00:00",
+    "summary": null
   }
 }

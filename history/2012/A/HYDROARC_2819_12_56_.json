@@ -2,18 +2,51 @@
   "type": "Feature",
   "id": "HYDROARC 2819/12(56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.125,
+          33.425
+        ],
+        [
+          33.625,
+          33.425
+        ],
+        [
+          33.025,
+          32.94166666666667
+        ],
+        [
+          32.903333333333336,
+          32.93833333333333
+        ],
+        [
+          32.60333333333333,
+          33.155
+        ],
+        [
+          33.125,
+          33.425
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-11-30T15:21:00",
     "raw_dtg": "301521Z NOV 12",
     "msg_id": "HYDROARC 2819/12(56)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1331/13"
+      "THIS MSG 01 AUG 13",
+      "1174/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\n1. SURVEY OPERATIONS 01 DEC THRU 31 JUL 13\n   IN AREA BOUND BY\n   33-25.5N 033-07.5E, 33-25.5N 033-37.5E,\n   32-56.5N 033-01.5E, 32-56.3N 032-54.2E,\n   33-09.3N 032-36.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1174/12.\n3. CANCEL THIS MSG 01 AUG 13."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\n1. SURVEY OPERATIONS 01 DEC THRU 31 JUL 13\n   IN AREA BOUND BY\n   33-25.5N 033-07.5E, 33-25.5N 033-37.5E,\n   32-56.5N 033-01.5E, 32-56.3N 032-54.2E,\n   33-09.3N 032-36.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1174/12.\n3. CANCEL THIS MSG 01 AUG 13.",
+    "valid_from": "2012-11-30T15:21:00+00:00",
+    "valid_until": "2013-08-01T00:00:00+00:00",
+    "summary": null
   }
 }

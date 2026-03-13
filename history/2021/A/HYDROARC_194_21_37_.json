@@ -3,18 +3,25 @@
   "id": "HYDROARC 194/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.63,
+      43.42666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-01-21T10:19:00",
     "raw_dtg": "211019Z JAN 21",
     "msg_id": "HYDROARC 194/21(37)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 241019Z JAN 21",
-      "HYDROARC 194/21"
+      "THIS MSG 241019Z JAN 21"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. DERELICT LIFERAFT ADRIFT IN VICINITY\n   43-25.6N 009-37.8W AT 210900Z JAN.\n2. CANCEL THIS MSG 241019Z JAN 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\n1. DERELICT LIFERAFT ADRIFT IN VICINITY\n   43-25.6N 009-37.8W AT 210900Z JAN.\n2. CANCEL THIS MSG 241019Z JAN 21.",
+    "valid_from": "2021-01-21T10:19:00+00:00",
+    "valid_until": "2021-01-24T10:19:00+00:00",
+    "summary": null
   }
 }

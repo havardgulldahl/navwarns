@@ -3,17 +3,23 @@
   "id": "HYDROARC 3038/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.3383333333333334,
+      59.13666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-12-07T18:07:00",
     "raw_dtg": "071807Z DEC 15",
     "msg_id": "HYDROARC 3038/15(35)",
-    "cancellations": [
-      "HYDROARC 3045/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35001.\nBROUGH HEAD LIGHT 59-08.2N 003-20.3W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35001.\nBROUGH HEAD LIGHT 59-08.2N 003-20.3W UNLIT.",
+    "valid_from": "2015-12-07T18:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 600/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.1966666666666668,
+      51.075
+    ]
   },
   "properties": {
     "dtg": "2015-03-12T14:45:00",
     "raw_dtg": "121445Z MAR 15",
     "msg_id": "HYDROARC 600/15(37)",
-    "cancellations": [
-      "HYDROARC 653/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nDOVER STRAIT.\nDNC 20.\nCHART 37120.\nFOLKESTONE BREAKWATER HEAD LIGHT 51-04.5N 001-11.8E UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nDOVER STRAIT.\nDNC 20.\nCHART 37120.\nFOLKESTONE BREAKWATER HEAD LIGHT 51-04.5N 001-11.8E UNLIT.",
+    "valid_from": "2015-03-12T14:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 368/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.2716666666666667,
+      50.815
+    ]
   },
   "properties": {
     "dtg": "2010-02-27T23:57:00",
     "raw_dtg": "272357Z FEB 10",
     "msg_id": "HYDROARC 368/10(37)",
-    "cancellations": [
-      "HYDROARC 401/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNGA CHART 37103 (9TH ED).\nCOLBART SOUTHWEST BUOY 50-48.9N 001-16.3E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNGA CHART 37103 (9TH ED).\nCOLBART SOUTHWEST BUOY 50-48.9N 001-16.3E MISSING.",
+    "valid_from": "2010-02-27T23:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

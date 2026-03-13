@@ -3,17 +3,23 @@
   "id": "HYDROARC 1695/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.815,
+      57.61
+    ]
   },
   "properties": {
     "dtg": "2011-10-15T21:36:00",
     "raw_dtg": "152136Z OCT 11",
     "msg_id": "HYDROARC 1695/11(35)",
-    "cancellations": [
-      "HYDROARC 1701/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35013 (0 ED).\nRATTRAY LIGHT 57-36.6N 001-48.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35013 (0 ED).\nRATTRAY LIGHT 57-36.6N 001-48.9W UNRELIABLE.",
+    "valid_from": "2011-10-15T21:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

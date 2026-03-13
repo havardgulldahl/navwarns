@@ -2,18 +2,62 @@
   "type": "Feature",
   "id": "HYDROARC 3897/20(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -39.69166666666667,
+          -21.975
+        ],
+        [
+          -39.625,
+          -22.005
+        ],
+        [
+          -39.906666666666666,
+          -22.696666666666665
+        ],
+        [
+          -39.975,
+          -22.668333333333333
+        ],
+        [
+          -40.37166666666667,
+          -22.39666666666667
+        ],
+        [
+          -40.223333333333336,
+          -22.135
+        ],
+        [
+          -40.12166666666667,
+          -22.19
+        ],
+        [
+          -39.81333333333333,
+          -22.101666666666667
+        ],
+        [
+          -39.69166666666667,
+          -21.975
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-12-17T02:01:00",
     "raw_dtg": "170201Z DEC 20",
     "msg_id": "HYDROARC 3897/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3897/20"
+      "THIS MSG 24 DEC 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 23 DEC BY\n   M/V POLARCUS NALIA TOWING 12 6500 METER LONG\n   CABLES IN AREA BOUND BY\n   21-58.5S 039-41.5W, 22-00.3S 039-37.5W,\n   22-41.8S 039-54.4W, 22-40.1S 039-58.5W,\n   22-23.8S 040-22.3W, 22-08.1S 040-13.4W,\n   22-11.4S 040-07.3W, 22-06.1S 039-48.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 DEC 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 23 DEC BY\n   M/V POLARCUS NALIA TOWING 12 6500 METER LONG\n   CABLES IN AREA BOUND BY\n   21-58.5S 039-41.5W, 22-00.3S 039-37.5W,\n   22-41.8S 039-54.4W, 22-40.1S 039-58.5W,\n   22-23.8S 040-22.3W, 22-08.1S 040-13.4W,\n   22-11.4S 040-07.3W, 22-06.1S 039-48.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 DEC 20.",
+    "valid_from": "2020-12-17T02:01:00+00:00",
+    "valid_until": "2020-12-24T00:00:00+00:00",
+    "summary": null
   }
 }

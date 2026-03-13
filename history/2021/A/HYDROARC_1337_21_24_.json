@@ -3,17 +3,25 @@
   "id": "HYDROARC 1337/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.73,
+      -29.345
+    ]
   },
   "properties": {
     "dtg": "2021-05-17T22:15:00",
     "raw_dtg": "172215Z MAY 21",
     "msg_id": "HYDROARC 1337/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1747/21"
+      "THIS MSG 14 NOV 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. TORRES LIGHT 29-20.7S 049-43.8W UNLIT\n   UNTIL 13 NOV.\n2. CANCEL THIS MSG 14 NOV 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. TORRES LIGHT 29-20.7S 049-43.8W UNLIT\n   UNTIL 13 NOV.\n2. CANCEL THIS MSG 14 NOV 21.",
+    "valid_from": "2021-05-17T22:15:00+00:00",
+    "valid_until": "2021-11-14T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 513/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.833333333333333,
+      49.608333333333334
+    ]
   },
   "properties": {
     "dtg": "2016-03-01T10:36:00",
     "raw_dtg": "011036Z MAR 16",
     "msg_id": "HYDROARC 513/16(37)",
-    "cancellations": [
-      "HYDROARC 547/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP PIERRE DE FERMAT\nWITH SUBMERSIBLE VICINITY 49-36.5N 004-50.0W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP PIERRE DE FERMAT\nWITH SUBMERSIBLE VICINITY 49-36.5N 004-50.0W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2016-03-01T10:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

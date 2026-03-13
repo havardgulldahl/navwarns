@@ -3,17 +3,23 @@
   "id": "HYDROARC 232/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.96,
+      50.59166666666667
+    ]
   },
   "properties": {
     "dtg": "2011-02-08T10:30:00",
     "raw_dtg": "081030Z FEB 11",
     "msg_id": "HYDROARC 232/11(37)",
-    "cancellations": [
-      "HYDROARC 1093/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37090 (2ND ED).\nANVIL POINT LIGHT 50-35.5N 001-57.6W\nRANGE REDUCED TO NINE MILES AND DISPLAYED\nONLY DURING DARKNESS."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37090 (2ND ED).\nANVIL POINT LIGHT 50-35.5N 001-57.6W\nRANGE REDUCED TO NINE MILES AND DISPLAYED\nONLY DURING DARKNESS.",
+    "valid_from": "2011-02-08T10:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

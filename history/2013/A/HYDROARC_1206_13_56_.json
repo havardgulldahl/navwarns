@@ -3,17 +3,25 @@
   "id": "HYDROARC 1206/13(56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      24.266666666666666,
+      33.815
+    ]
   },
   "properties": {
     "dtg": "2013-05-14T13:19:00",
     "raw_dtg": "141319Z MAY 13",
     "msg_id": "HYDROARC 1206/13(56)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1206/13"
+      "THIS MSG 16 MAY 13"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\n1. OCEANOGRAPHIC OPERATIONS 15 MAY BY M/V ANGELES ALBARINO\n   VICINITY 33-48.9N 024-16.0E. WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 MAY 13."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\n1. OCEANOGRAPHIC OPERATIONS 15 MAY BY M/V ANGELES ALBARINO\n   VICINITY 33-48.9N 024-16.0E. WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 MAY 13.",
+    "valid_from": "2013-05-14T13:19:00+00:00",
+    "valid_until": "2013-05-16T00:00:00+00:00",
+    "summary": null
   }
 }

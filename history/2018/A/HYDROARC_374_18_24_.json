@@ -3,17 +3,25 @@
   "id": "HYDROARC 374/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.303333333333335,
+      -23.038333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-02-01T22:47:00",
     "raw_dtg": "012247Z FEB 18",
     "msg_id": "HYDROARC 374/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2325/18"
+      "THIS MSG 01 AUG 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\n1. ILHA PONTUDA LIGHT 23-02.3S 043-18.2W\n   UNLIT UNTIL 31 JUL.\n2. CANCEL THIS MSG 01 AUG 18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\n1. ILHA PONTUDA LIGHT 23-02.3S 043-18.2W\n   UNLIT UNTIL 31 JUL.\n2. CANCEL THIS MSG 01 AUG 18.",
+    "valid_from": "2018-02-01T22:47:00+00:00",
+    "valid_until": "2018-08-01T00:00:00+00:00",
+    "summary": null
   }
 }

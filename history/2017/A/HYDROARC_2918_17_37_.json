@@ -3,17 +3,25 @@
   "id": "HYDROARC 2918/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4716666666666667,
+      51.306666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-09-19T20:15:00",
     "raw_dtg": "192015Z SEP 17",
     "msg_id": "HYDROARC 2918/17(37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 3014/17"
+      "2887/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDOVER STRAIT.\nENGLAND.\nFRANCE.\nDNC 20.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE ALONG TRACKLINE BETWEEN\n   51-18.4N 001-28.3E AND 51-19.4N 002-11.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2887/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDOVER STRAIT.\nENGLAND.\nFRANCE.\nDNC 20.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE ALONG TRACKLINE BETWEEN\n   51-18.4N 001-28.3E AND 51-19.4N 002-11.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2887/17.",
+    "valid_from": "2017-09-19T20:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

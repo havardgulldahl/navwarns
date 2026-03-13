@@ -3,17 +3,25 @@
   "id": "HYDROARC 1799/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.79833333333333,
+      -7.148333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-06-15T09:29:00",
     "raw_dtg": "150929Z JUN 19",
     "msg_id": "HYDROARC 1799/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1858/19"
+      "THIS MSG 12 DEC 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24220, 24230.\n1. CABO BRANCO LIGHT 07-08.9S 034-47.9W UNLIT.\n2. CANCEL THIS MSG 12 DEC 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24220, 24230.\n1. CABO BRANCO LIGHT 07-08.9S 034-47.9W UNLIT.\n2. CANCEL THIS MSG 12 DEC 19.",
+    "valid_from": "2019-06-15T09:29:00+00:00",
+    "valid_until": "2019-12-12T00:00:00+00:00",
+    "summary": null
   }
 }

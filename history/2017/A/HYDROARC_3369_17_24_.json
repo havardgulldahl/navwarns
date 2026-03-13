@@ -3,18 +3,25 @@
   "id": "HYDROARC 3369/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -42.66166666666667,
+      -23.031666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-10-20T00:55:00",
     "raw_dtg": "200055Z OCT 17",
     "msg_id": "HYDROARC 3369/17(24)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 310001Z OCT 17",
-      "HYDROARC 3369/17"
+      "THIS MSG 310001Z OCT 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. UNDERWATER OPERATIONS 0800Z TO 2300Z DAILY\n   20 THRU 30 OCT BY M/V LORELAY IN AREA WITHIN\n   0.5 MILES OF 23-01.9S 042-39.7W.\n   WIDE BERTH REQUESTED.\n3. CANCEL THIS MSG 310001Z OCT 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. UNDERWATER OPERATIONS 0800Z TO 2300Z DAILY\n   20 THRU 30 OCT BY M/V LORELAY IN AREA WITHIN\n   0.5 MILES OF 23-01.9S 042-39.7W.\n   WIDE BERTH REQUESTED.\n3. CANCEL THIS MSG 310001Z OCT 17.",
+    "valid_from": "2017-10-20T00:55:00+00:00",
+    "valid_until": "2017-10-31T00:01:00+00:00",
+    "summary": null
   }
 }

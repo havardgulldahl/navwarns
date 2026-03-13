@@ -12,12 +12,16 @@
     "dtg": "2023-11-24T03:49:00",
     "raw_dtg": "240349Z NOV 23",
     "msg_id": "HYDROARC 2708/23(29)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 270347Z NOV 23",
-      "HYDROARC 2708/23"
+      "THIS MSG 270347Z NOV 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WEDDELL SEA.\nDNC 29.\n1. ICEBERG REPORTED IN 62-53.10S 053-06.10W.\n2. CANCEL THIS MSG 270347Z NOV 23."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WEDDELL SEA.\nDNC 29.\n1. ICEBERG REPORTED IN 62-53.10S 053-06.10W.\n2. CANCEL THIS MSG 270347Z NOV 23.",
+    "valid_from": "2023-11-24T03:49:00+00:00",
+    "valid_until": "2023-11-27T03:47:00+00:00",
+    "summary": null
   }
 }

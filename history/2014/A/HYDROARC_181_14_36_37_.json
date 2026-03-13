@@ -3,17 +3,23 @@
   "id": "HYDROARC 181/14(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.735,
+      50.105
+    ]
   },
   "properties": {
     "dtg": "2014-01-17T20:16:00",
     "raw_dtg": "172016Z JAN 14",
     "msg_id": "HYDROARC 181/14(36,37)",
-    "cancellations": [
-      "HYDROARC 199/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE AIX IN 50-06.3N 005-44.1W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE AIX IN 50-06.3N 005-44.1W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2014-01-17T20:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

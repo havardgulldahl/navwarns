@@ -3,18 +3,26 @@
   "id": "HYDROARC 1858/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.3983333333333333,
+      54.12
+    ]
   },
   "properties": {
     "dtg": "2021-07-14T14:06:00",
     "raw_dtg": "141406Z JUL 21",
     "msg_id": "HYDROARC 1858/21(37)",
+    "year": 2021,
     "cancellations": [
       "THIS MSG 141900Z JUL 21",
-      "HYDROARC 1858/21"
+      "1855/21"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL 141800Z JUL\n   IN AREA WITHIN TEN MILES OF 54-07.2N 000-23.9E.\n2. CANCEL HYDROLANT 1855/21.\n3. CANCEL THIS MSG 141900Z JUL 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL 141800Z JUL\n   IN AREA WITHIN TEN MILES OF 54-07.2N 000-23.9E.\n2. CANCEL HYDROLANT 1855/21.\n3. CANCEL THIS MSG 141900Z JUL 21.",
+    "valid_from": "2021-07-14T14:06:00+00:00",
+    "valid_until": "2021-07-14T19:00:00+00:00",
+    "summary": null
   }
 }

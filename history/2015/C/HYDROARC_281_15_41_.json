@@ -3,18 +3,25 @@
   "id": "HYDROARC 281/15(41)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      112.73333333333333,
+      76.81666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-09-15T07:58:00",
     "raw_dtg": "150758Z SEP 15",
     "msg_id": "HYDROARC 281/15(41)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 180804Z SEP 15",
-      "HYDROARC 281/15"
+      "THIS MSG 180804Z SEP 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nLAPTEV SEA.\nICE.\nDNC 27.\n1. ICEBERG REPORTED IN 76-49.0N 112-44.0E\n   AT 141240Z SEP.\n2. CANCEL THIS MSG 180804Z SEP 15."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nLAPTEV SEA.\nICE.\nDNC 27.\n1. ICEBERG REPORTED IN 76-49.0N 112-44.0E\n   AT 141240Z SEP.\n2. CANCEL THIS MSG 180804Z SEP 15.",
+    "valid_from": "2015-09-15T07:58:00+00:00",
+    "valid_until": "2015-09-18T08:04:00+00:00",
+    "summary": null
   }
 }

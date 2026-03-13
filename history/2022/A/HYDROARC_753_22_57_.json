@@ -2,19 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 753/22(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -3.953333333333333,
+          5.233333333333333
+        ],
+        [
+          -3.9383333333333335,
+          5.243333333333333
+        ],
+        [
+          -3.9183333333333334,
+          5.223333333333334
+        ],
+        [
+          -3.836666666666667,
+          5.026666666666666
+        ],
+        [
+          -3.8516666666666666,
+          5.016666666666667
+        ],
+        [
+          -3.885,
+          5.068333333333333
+        ],
+        [
+          -3.953333333333333,
+          5.233333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2022-03-15T14:03:00",
     "raw_dtg": "151403Z MAR 22",
     "msg_id": "HYDROARC 753/22(57)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 010100Z APR 22",
-      "HYDROARC 850/22"
+      "THIS MSG 010100Z APR 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nDNC 01.\n1. CABLE OPERATIONS 160001Z TO 312359Z MAR\n   BY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   05-14.0N 003-57.2W, 05-14.6N 003-56.3W,\n   05-13.4N 003-55.1W, 05-01.6N 003-50.2W,\n   05-01.0N 003-51.1W, 05-04.1N 003-53.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 010100Z APR 22."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nDNC 01.\n1. CABLE OPERATIONS 160001Z TO 312359Z MAR\n   BY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   05-14.0N 003-57.2W, 05-14.6N 003-56.3W,\n   05-13.4N 003-55.1W, 05-01.6N 003-50.2W,\n   05-01.0N 003-51.1W, 05-04.1N 003-53.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 010100Z APR 22.",
+    "valid_from": "2022-03-15T14:03:00+00:00",
+    "valid_until": "2022-04-01T01:00:00+00:00",
+    "summary": null
   }
 }

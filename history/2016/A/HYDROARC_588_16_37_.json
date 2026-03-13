@@ -3,17 +3,23 @@
   "id": "HYDROARC 588/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.435,
+      50.725
+    ]
   },
   "properties": {
     "dtg": "2016-03-11T03:25:00",
     "raw_dtg": "110325Z MAR 16",
     "msg_id": "HYDROARC 588/16(37)",
-    "cancellations": [
-      "HYDROARC 592/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 37115.\nROYAL SOVEREIGN LIGHT 50-43.5N 000-26.1E\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 37115.\nROYAL SOVEREIGN LIGHT 50-43.5N 000-26.1E\nUNRELIABLE.",
+    "valid_from": "2016-03-11T03:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

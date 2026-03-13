@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2481/12(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-10-24T03:43:00",
     "raw_dtg": "240343Z OCT 12",
     "msg_id": "HYDROARC 2481/12(24)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 282000Z OCT 12",
-      "HYDROARC 2481/12"
+      "THIS MSG 282000Z OCT 12"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 281500Z TO 281900Z OCT\n   WITHIN TEN MILES OF 13-48S 038-10W.\n2. CANCEL THIS MSG 282000Z OCT 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 281500Z TO 281900Z OCT\n   WITHIN TEN MILES OF 13-48S 038-10W.\n2. CANCEL THIS MSG 282000Z OCT 12.",
+    "valid_from": "2012-10-24T03:43:00+00:00",
+    "valid_until": "2012-10-28T20:00:00+00:00",
+    "summary": null
   }
 }

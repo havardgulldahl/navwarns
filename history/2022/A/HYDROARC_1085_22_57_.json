@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1085/22(57)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-04-17T10:41:00",
     "raw_dtg": "171041Z APR 22",
     "msg_id": "HYDROARC 1085/22(57)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 1085/22"
+      "1084/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nSOUTH AFRICA.\nDNC 01.\nCANCEL HYDROLANT 1084/22 AND THIS MSG,\nVESSEL LOCATED SAFE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nSOUTH AFRICA.\nDNC 01.\nCANCEL HYDROLANT 1084/22 AND THIS MSG,\nVESSEL LOCATED SAFE.",
+    "valid_from": "2022-04-17T10:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

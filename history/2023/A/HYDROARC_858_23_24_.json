@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 858/23(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -46.381166666666665,
-        -26.997
-      ],
-      [
-        -47.9145,
-        -26.997
-      ],
-      [
-        -47.9145,
-        -28.751166666666666
-      ],
-      [
-        -46.378,
-        -28.751166666666666
+        [
+          -46.381166666666665,
+          -26.997
+        ],
+        [
+          -47.9145,
+          -26.997
+        ],
+        [
+          -47.9145,
+          -28.751166666666666
+        ],
+        [
+          -46.378,
+          -28.751166666666666
+        ],
+        [
+          -46.381166666666665,
+          -26.997
+        ]
       ]
     ]
   },
@@ -26,12 +32,17 @@
     "dtg": "2023-04-21T04:03:00",
     "raw_dtg": "210403Z APR 23",
     "msg_id": "HYDROARC 858/23(24)",
+    "year": 2023,
     "cancellations": [
       "THIS MSG 130101Z MAY 23",
-      "HYDROARC 858/23"
+      "857/23"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. HAZARDOUS OPERATIONS\n   260001Z APR TO 130001Z MAY\n   IN AREA BOUND BY\n   26-59.82S 046-22.87W, 26-59.82S 047-54.87W,\n   28-45.07S 047-54.87W, 28-45.07S 046-22.68W.\n2. CANCEL HYDROLANT 857/23.\n3. CANCEL THIS MSG 130101Z MAY 23."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. HAZARDOUS OPERATIONS\n   260001Z APR TO 130001Z MAY\n   IN AREA BOUND BY\n   26-59.82S 046-22.87W, 26-59.82S 047-54.87W,\n   28-45.07S 047-54.87W, 28-45.07S 046-22.68W.\n2. CANCEL HYDROLANT 857/23.\n3. CANCEL THIS MSG 130101Z MAY 23.",
+    "valid_from": "2023-04-21T04:03:00+00:00",
+    "valid_until": "2023-05-13T01:01:00+00:00",
+    "summary": null
   }
 }

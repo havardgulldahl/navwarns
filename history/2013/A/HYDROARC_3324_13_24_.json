@@ -3,17 +3,23 @@
   "id": "HYDROARC 3324/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -51.891666666666666,
+      -32.24166666666667
+    ]
   },
   "properties": {
     "dtg": "2013-12-23T21:19:00",
     "raw_dtg": "232119Z DEC 13",
     "msg_id": "HYDROARC 3324/13(24)",
-    "cancellations": [
-      "HYDROARC 623/14"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24100\nM/V THORCO AFRICA ANCHORED IN 32-14.5S 051-53.5W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24100\nM/V THORCO AFRICA ANCHORED IN 32-14.5S 051-53.5W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2013-12-23T21:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 981/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2716666666666665,
+      58.93666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-05-30T17:30:00",
     "raw_dtg": "301730Z MAY 10",
     "msg_id": "HYDROARC 981/10(35)",
-    "cancellations": [
-      "HYDROARC 987/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nORKNEY ISLANDS.\nNGA CHART 35001 (2ND ED).\nGRAEMSAY ISLAND REAR RANGE LIGHT 58-56.2N 003-16.3W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nORKNEY ISLANDS.\nNGA CHART 35001 (2ND ED).\nGRAEMSAY ISLAND REAR RANGE LIGHT 58-56.2N 003-16.3W UNLIT.",
+    "valid_from": "2010-05-30T17:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

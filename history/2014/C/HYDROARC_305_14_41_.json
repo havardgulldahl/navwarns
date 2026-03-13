@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 305/14(41)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-10-20T12:34:00",
     "raw_dtg": "201234Z OCT 14",
     "msg_id": "HYDROARC 305/14(41)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 195/14",
-      "HYDROARC 305/14"
+      "HYDROARC 195/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nLAPTEV SEA.\nEAST SIBERIAN SEA.\nCANCEL HYDROARC 195/14 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nLAPTEV SEA.\nEAST SIBERIAN SEA.\nCANCEL HYDROARC 195/14 AND THIS MSG.",
+    "valid_from": "2014-10-20T12:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 3218/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.171666666666667,
+      55.30166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-10-21T11:56:00",
     "raw_dtg": "211156Z OCT 19",
     "msg_id": "HYDROARC 3218/19(35)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3218/19"
+      "THIS MSG 23 OCT 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 19.\n1. RATHLIN EAST LIGHT 55-18.1N 006-10.3W UNRELIABLE\n   UNTIL 22 OCT.\n2. CANCEL THIS MSG 23 OCT 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 19.\n1. RATHLIN EAST LIGHT 55-18.1N 006-10.3W UNRELIABLE\n   UNTIL 22 OCT.\n2. CANCEL THIS MSG 23 OCT 19.",
+    "valid_from": "2019-10-21T11:56:00+00:00",
+    "valid_until": "2019-10-23T00:00:00+00:00",
+    "summary": null
   }
 }

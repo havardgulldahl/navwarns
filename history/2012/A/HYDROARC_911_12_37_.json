@@ -3,17 +3,23 @@
   "id": "HYDROARC 911/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      4.3566666666666665,
+      56.0
+    ]
   },
   "properties": {
     "dtg": "2012-04-29T01:34:00",
     "raw_dtg": "290134Z APR 12",
     "msg_id": "HYDROARC 911/12(37)",
-    "cancellations": [
-      "HYDROARC 958/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP ILE DE BREHAT\nALONG TRACKLINE BETWEEN\n56-00.0N 004-21.4E AND 55-48.3N 004-33.8E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP ILE DE BREHAT\nALONG TRACKLINE BETWEEN\n56-00.0N 004-21.4E AND 55-48.3N 004-33.8E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2012-04-29T01:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

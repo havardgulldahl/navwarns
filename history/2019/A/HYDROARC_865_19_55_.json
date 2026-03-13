@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 865/19(55)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-03-18T13:09:00",
     "raw_dtg": "181309Z MAR 19",
     "msg_id": "HYDROARC 865/19(55)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 202159Z MAR 19",
-      "HYDROARC 865/19"
+      "THIS MSG 202159Z MAR 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANAKKALE BOGAZI.\nDNC 09.\n1. UNDERWATER OPERATIONS 182101Z TO 202059Z MAR\n   IN AREA BOUND BY\n   40-12.23N 40-11.85N AND 026-23.06E 026-23.47E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 202159Z MAR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANAKKALE BOGAZI.\nDNC 09.\n1. UNDERWATER OPERATIONS 182101Z TO 202059Z MAR\n   IN AREA BOUND BY\n   40-12.23N 40-11.85N AND 026-23.06E 026-23.47E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 202159Z MAR 19.",
+    "valid_from": "2019-03-18T13:09:00+00:00",
+    "valid_until": "2019-03-20T21:59:00+00:00",
+    "summary": null
   }
 }

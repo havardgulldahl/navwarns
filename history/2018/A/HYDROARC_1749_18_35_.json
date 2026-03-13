@@ -3,17 +3,25 @@
   "id": "HYDROARC 1749/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.965,
+      56.50333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-06-03T14:42:00",
     "raw_dtg": "031442Z JUN 18",
     "msg_id": "HYDROARC 1749/18(35)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2308/18"
+      "1278/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\n1. MF AND DSC SERVICES AT TIREE SITE 56-30.2N 006-57.9W\n   OFF AIR.\n2. CANCEL HYDROLANT 1278/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\n1. MF AND DSC SERVICES AT TIREE SITE 56-30.2N 006-57.9W\n   OFF AIR.\n2. CANCEL HYDROLANT 1278/18.",
+    "valid_from": "2018-06-03T14:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 759/10(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -46.96666666666667,
+          -26.866666666666667
+        ],
+        [
+          -46.55,
+          -27.183333333333334
+        ],
+        [
+          -46.891666666666666,
+          -27.533333333333335
+        ],
+        [
+          -47.3,
+          -27.216666666666665
+        ],
+        [
+          -46.96666666666667,
+          -26.866666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-05-01T01:16:00",
     "raw_dtg": "010116Z MAY 10",
     "msg_id": "HYDROARC 759/10(24)",
-    "cancellations": [
-      "HYDROARC 759/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 062200Z TO 070001Z MAY\n   IN AREA BOUND BY\n   26-52.0S 046-58.0W, 27-11.0S 046-33.0W,\n   27-32.0S 046-53.5W, 27-13.0S 047-18.0W.\n2. CANCEL THIS MSG 070101Z MAY."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 062200Z TO 070001Z MAY\n   IN AREA BOUND BY\n   26-52.0S 046-58.0W, 27-11.0S 046-33.0W,\n   27-32.0S 046-53.5W, 27-13.0S 047-18.0W.\n2. CANCEL THIS MSG 070101Z MAY.",
+    "valid_from": "2010-05-01T01:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

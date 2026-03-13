@@ -3,17 +3,23 @@
   "id": "HYDROARC 1773/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.6066666666666665,
+      53.42166666666667
+    ]
   },
   "properties": {
     "dtg": "2010-09-19T10:01:00",
     "raw_dtg": "191001Z SEP 10",
     "msg_id": "HYDROARC 1773/10(36)",
-    "cancellations": [
-      "HYDROARC 1782/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "WALES-NORTHWEST COAST.\nNGA CHART 36006 (1ST ED).\nRACON AT SKERRIES LIGHT 53-25.3N 004-36.4W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-NORTHWEST COAST.\nNGA CHART 36006 (1ST ED).\nRACON AT SKERRIES LIGHT 53-25.3N 004-36.4W INOPERATIVE.",
+    "valid_from": "2010-09-19T10:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

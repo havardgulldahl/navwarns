@@ -3,17 +3,23 @@
   "id": "HYDROARC 1804/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.206666666666667,
+      52.20333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-07-25T01:03:00",
     "raw_dtg": "250103Z JUL 14",
     "msg_id": "HYDROARC 1804/14(36)",
-    "cancellations": [
-      "HYDROARC 1815/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-SOUTHEAST COAST.\nCHART 36002\nTUSKAR ROCK LIGHT 52-12.2N 006-12.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-SOUTHEAST COAST.\nCHART 36002\nTUSKAR ROCK LIGHT 52-12.2N 006-12.4W UNRELIABLE.",
+    "valid_from": "2014-07-25T01:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

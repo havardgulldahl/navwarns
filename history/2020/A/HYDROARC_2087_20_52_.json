@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 2087/20(52)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         11.500333333333334,
@@ -22,11 +22,16 @@
     "dtg": "2020-06-29T12:37:00",
     "raw_dtg": "291237Z JUN 20",
     "msg_id": "HYDROARC 2087/20(52)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 2087/20"
+      "THIS MSG 01 AUG 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nSICILY.\nDNC 08\n1. SURVEY OPERATIONS 01 JUL THRU 31 JUL BY\n   M/V ODIN FINDER ALONG TRACKLINE JOINING\n   37-36.84N 011-30.02E, 37-36.94N 011-29.09E,\n   37-38.28N 011-23.02E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 AUG 20."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nSICILY.\nDNC 08\n1. SURVEY OPERATIONS 01 JUL THRU 31 JUL BY\n   M/V ODIN FINDER ALONG TRACKLINE JOINING\n   37-36.84N 011-30.02E, 37-36.94N 011-29.09E,\n   37-38.28N 011-23.02E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 AUG 20.",
+    "valid_from": "2020-06-29T12:37:00+00:00",
+    "valid_until": "2020-08-01T00:00:00+00:00",
+    "summary": null
   }
 }

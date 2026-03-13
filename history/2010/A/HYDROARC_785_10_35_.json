@@ -3,17 +3,25 @@
   "id": "HYDROARC 785/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.066666666666667,
+      59.33166666666666
+    ]
   },
   "properties": {
     "dtg": "2010-05-04T23:16:00",
     "raw_dtg": "042316Z MAY 10",
     "msg_id": "HYDROARC 785/10(35)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 786/10"
+      "780/10"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ORKNEY ISLANDS.\nNGA CHART 35001 (2ND ED).\n1. NOUP HEAD LIGHT 59-19.9N 003-04.0W UNLIT.\n2. CANCEL HYDROLANT 780/10(37), AID RESTORED."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ORKNEY ISLANDS.\nNGA CHART 35001 (2ND ED).\n1. NOUP HEAD LIGHT 59-19.9N 003-04.0W UNLIT.\n2. CANCEL HYDROLANT 780/10(37), AID RESTORED.",
+    "valid_from": "2010-05-04T23:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

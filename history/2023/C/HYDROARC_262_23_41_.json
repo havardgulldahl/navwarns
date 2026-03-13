@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 262/23(41)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2023-10-18T19:31:00",
     "raw_dtg": "181931Z OCT 23",
     "msg_id": "HYDROARC 262/23(41)",
+    "year": 2023,
     "cancellations": [
-      "HYDROARC 262/23"
+      "177/23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EAST SIBERIAN SEA.\nDNC 27.\nCANCEL HYDROPAC 177/23 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EAST SIBERIAN SEA.\nDNC 27.\nCANCEL HYDROPAC 177/23 AND THIS MSG.",
+    "valid_from": "2023-10-18T19:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 3411/20(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      25.465,
+      36.345
+    ]
   },
   "properties": {
     "dtg": "2020-11-05T13:04:00",
     "raw_dtg": "051304Z NOV 20",
     "msg_id": "HYDROARC 3411/20(54)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3411/20"
+      "THIS MSG 08 NOV 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\n1. UNDERWATER OPERATIONS BY CABLESHIP URBANO MONTI\n   IN PROGRESS UNTIL 07 NOV ALONG TRACKLINE JOINING\n   36-20.7N 025-27.9E, 36-46.3N 026-59.6E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 08 NOV 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. UNDERWATER OPERATIONS BY CABLESHIP URBANO MONTI\n   IN PROGRESS UNTIL 07 NOV ALONG TRACKLINE JOINING\n   36-20.7N 025-27.9E, 36-46.3N 026-59.6E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 08 NOV 20.",
+    "valid_from": "2020-11-05T13:04:00+00:00",
+    "valid_until": "2020-11-08T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1283/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.32333333333333,
+      -23.973333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-08-13T09:59:00",
     "raw_dtg": "130959Z AUG 11",
     "msg_id": "HYDROARC 1283/11(24)",
-    "cancellations": [
-      "HYDROARC 485/12"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24140 (18TH ED).\nRACON AT PRAIA DO BOQUEIRAO NO.2\nREAR RANGE LIGHT 23-58.4S 046-19.4W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24140 (18TH ED).\nRACON AT PRAIA DO BOQUEIRAO NO.2\nREAR RANGE LIGHT 23-58.4S 046-19.4W INOPERATIVE.",
+    "valid_from": "2011-08-13T09:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

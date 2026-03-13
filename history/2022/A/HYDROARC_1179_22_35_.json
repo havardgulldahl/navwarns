@@ -3,17 +3,23 @@
   "id": "HYDROARC 1179/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.4366666666666665,
+      56.64666666666667
+    ]
   },
   "properties": {
     "dtg": "2022-04-29T17:30:00",
     "raw_dtg": "291730Z APR 22",
     "msg_id": "HYDROARC 1179/22(35)",
-    "cancellations": [
-      "HYDROARC 1501/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nDANGEROUS WRECK, LEAST DEPTH 19.3 METERS,\nIN 56-38.8N 002-26.2W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nDANGEROUS WRECK, LEAST DEPTH 19.3 METERS,\nIN 56-38.8N 002-26.2W.",
+    "valid_from": "2022-04-29T17:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

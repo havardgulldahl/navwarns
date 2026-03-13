@@ -3,17 +3,25 @@
   "id": "HYDROARC 1189/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.486666666666665,
+      -5.161666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-04-30T04:12:00",
     "raw_dtg": "300412Z APR 21",
     "msg_id": "HYDROARC 1189/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1249/21"
+      "THIS MSG 27 OCT 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. RADIOBEACON AT PONTA DE CALCANHAR LIGHT\n   05-09.7S 035-29.2W INOPERATIVE UNTIL 26 OCT.\n2. CANCEL THIS MSG 27 OCT 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. RADIOBEACON AT PONTA DE CALCANHAR LIGHT\n   05-09.7S 035-29.2W INOPERATIVE UNTIL 26 OCT.\n2. CANCEL THIS MSG 27 OCT 21.",
+    "valid_from": "2021-04-30T04:12:00+00:00",
+    "valid_until": "2021-10-27T00:00:00+00:00",
+    "summary": null
   }
 }

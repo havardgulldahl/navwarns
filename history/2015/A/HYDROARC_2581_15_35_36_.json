@@ -3,17 +3,23 @@
   "id": "HYDROARC 2581/15(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.025,
+      51.605
+    ]
   },
   "properties": {
     "dtg": "2015-10-15T14:59:00",
     "raw_dtg": "151459Z OCT 15",
     "msg_id": "HYDROARC 2581/15(35,36)",
-    "cancellations": [
-      "HYDROARC 2593/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nIRELAND-SOUTH COAST.\nDNC 19, DNC 20.\nCHART 35147.\nFISHING GEAR MARKED BY TWO BLUE BARRELS\nABANDONED VICINITY 51-36.3N 007-01.5W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nIRELAND-SOUTH COAST.\nDNC 19, DNC 20.\nCHART 35147.\nFISHING GEAR MARKED BY TWO BLUE BARRELS\nABANDONED VICINITY 51-36.3N 007-01.5W.",
+    "valid_from": "2015-10-15T14:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 336/18(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.141666666666667,
+          -22.226666666666667
+        ],
+        [
+          13.976666666666667,
+          -22.236666666666668
+        ],
+        [
+          13.071666666666667,
+          -23.715
+        ],
+        [
+          12.241666666666667,
+          -23.703333333333333
+        ],
+        [
+          12.141666666666667,
+          -22.226666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-01-30T09:31:00",
     "raw_dtg": "300931Z JAN 18",
     "msg_id": "HYDROARC 336/18(57)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 664/18"
+      "4121/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V RAMFORM HYPERION TOWING 9000 METER LONG CABLE\n   IN AREA BOUND BY\n   22-13.6S 012-08.5E, 22-14.2S 013-58.6E,\n   23-42.9S 013-04.3E, 23-42.2S 012-14.5E,\n   22-13.6S 012-08.5E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4121/17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V RAMFORM HYPERION TOWING 9000 METER LONG CABLE\n   IN AREA BOUND BY\n   22-13.6S 012-08.5E, 22-14.2S 013-58.6E,\n   23-42.9S 013-04.3E, 23-42.2S 012-14.5E,\n   22-13.6S 012-08.5E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4121/17.",
+    "valid_from": "2018-01-30T09:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

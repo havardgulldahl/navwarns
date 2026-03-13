@@ -2,19 +2,36 @@
   "type": "Feature",
   "id": "HYDROARC 1340/14(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -14.211666666666666,
+        27.611666666666668
+      ],
+      [
+        -13.746666666666666,
+        27.808333333333334
+      ],
+      [
+        -13.516666666666667,
+        27.866666666666667
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-05-29T16:51:00",
     "raw_dtg": "291651Z MAY 14",
     "msg_id": "HYDROARC 1340/14(51)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 312000Z MAY 14",
-      "HYDROARC 1340/14"
+      "THIS MSG 312000Z MAY 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\n1. UNDERWATER OPERATIONS 291900Z TO 311900Z MAY\n   BY M/V JAMES COOK ALONG TRACKLINE JOINING\n   27-36.7N 014-12.7W, 27-48.5N 013-44.8W,\n   27-52.0N 013-31.0W. WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 312000Z MAY 14."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\n1. UNDERWATER OPERATIONS 291900Z TO 311900Z MAY\n   BY M/V JAMES COOK ALONG TRACKLINE JOINING\n   27-36.7N 014-12.7W, 27-48.5N 013-44.8W,\n   27-52.0N 013-31.0W. WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 312000Z MAY 14.",
+    "valid_from": "2014-05-29T16:51:00+00:00",
+    "valid_until": "2014-05-31T20:00:00+00:00",
+    "summary": null
   }
 }

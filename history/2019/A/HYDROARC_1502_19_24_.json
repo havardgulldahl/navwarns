@@ -3,17 +3,25 @@
   "id": "HYDROARC 1502/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.635,
+      -1.1666666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-05-16T21:30:00",
     "raw_dtg": "162130Z MAY 19",
     "msg_id": "HYDROARC 1502/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1502/19"
+      "THIS MSG 13 NOV 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. PONTA DA PRAIA GRANDE LIGHT 01-10.0S 045-38.1W\n   UNLIT.\n2. CANCEL THIS MSG 13 NOV 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. PONTA DA PRAIA GRANDE LIGHT 01-10.0S 045-38.1W\n   UNLIT.\n2. CANCEL THIS MSG 13 NOV 19.",
+    "valid_from": "2019-05-16T21:30:00+00:00",
+    "valid_until": "2019-11-13T00:00:00+00:00",
+    "summary": null
   }
 }

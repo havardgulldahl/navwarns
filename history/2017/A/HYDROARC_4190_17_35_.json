@@ -3,17 +3,23 @@
   "id": "HYDROARC 4190/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8133333333333335,
+      59.12166666666667
+    ]
   },
   "properties": {
     "dtg": "2017-12-26T19:22:00",
     "raw_dtg": "261922Z DEC 17",
     "msg_id": "HYDROARC 4190/17(35)",
-    "cancellations": [
-      "HYDROARC 4207/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 19, DNC 20.\nCHART 35172.\nRONA LIGHT 59-07.3N 005-48.8W UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 19, DNC 20.\nCHART 35172.\nRONA LIGHT 59-07.3N 005-48.8W UNLIT.",
+    "valid_from": "2017-12-26T19:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

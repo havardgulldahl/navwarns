@@ -3,17 +3,25 @@
   "id": "HYDROARC 1552/20(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.691666666666666,
+      44.19166666666667
+    ]
   },
   "properties": {
     "dtg": "2020-05-06T21:32:00",
     "raw_dtg": "062132Z MAY 20",
     "msg_id": "HYDROARC 1552/20(53)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 1556/20"
+      "THIS MSG 11 MAY 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "LIGURIAN SEA.\nITALY.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 10 MAY\n   BY UNMANNED SEVEN METER S/V IN VICINITY\n   44-11.5N 008-41.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 11 MAY 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "LIGURIAN SEA.\nITALY.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 10 MAY\n   BY UNMANNED SEVEN METER S/V IN VICINITY\n   44-11.5N 008-41.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 11 MAY 20.",
+    "valid_from": "2020-05-06T21:32:00+00:00",
+    "valid_until": "2020-05-11T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3298/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.18166666666666667,
+      50.38666666666666
+    ]
   },
   "properties": {
     "dtg": "2016-12-07T16:09:00",
     "raw_dtg": "071609Z DEC 16",
     "msg_id": "HYDROARC 3298/16(36,37)",
-    "cancellations": [
-      "HYDROARC 177/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 36005.\nFISHING GEAR ON SEABED IN 50-23.2N 000-10.9E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 36005.\nFISHING GEAR ON SEABED IN 50-23.2N 000-10.9E.",
+    "valid_from": "2016-12-07T16:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

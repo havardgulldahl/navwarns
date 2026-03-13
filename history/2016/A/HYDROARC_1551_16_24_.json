@@ -3,17 +3,26 @@
   "id": "HYDROARC 1551/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.62166666666667,
+      -11.955
+    ]
   },
   "properties": {
     "dtg": "2016-06-21T01:06:00",
     "raw_dtg": "210106Z JUN 16",
     "msg_id": "HYDROARC 1551/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1663/16"
+      "THIS MSG 16 DEC 16",
+      "1440/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24200, 24210.\n1. ITARIRI LIGHT 11-57.3S 037-37.3W\n   TEMPORARILY CHANGED TO:\n   FL W 15 SEC 18 MILES.\n2. CANCEL HYDROLANT 1440/16.\n3. CANCEL THIS MSG 16 DEC 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24200, 24210.\n1. ITARIRI LIGHT 11-57.3S 037-37.3W\n   TEMPORARILY CHANGED TO:\n   FL W 15 SEC 18 MILES.\n2. CANCEL HYDROLANT 1440/16.\n3. CANCEL THIS MSG 16 DEC 16.",
+    "valid_from": "2016-06-21T01:06:00+00:00",
+    "valid_until": "2016-12-16T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 463/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.56166666666667,
+      6.425
+    ]
   },
   "properties": {
     "dtg": "2012-03-01T08:22:00",
     "raw_dtg": "010822Z MAR 12",
     "msg_id": "HYDROARC 463/12(24)",
-    "cancellations": [
-      "HYDROARC 485/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nS/V MOMO DISMASTED IN 06-25.5N 050-33.7W\nAT 010710Z MAR. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO\nMRCC FORT DE FRANCE, TELEX: 42912008,\nPHONE: 59 659 670 9292,\nFAX: 59 659 663 2450."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nS/V MOMO DISMASTED IN 06-25.5N 050-33.7W\nAT 010710Z MAR. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO\nMRCC FORT DE FRANCE, TELEX: 42912008,\nPHONE: 59 659 670 9292,\nFAX: 59 659 663 2450.",
+    "valid_from": "2012-03-01T08:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

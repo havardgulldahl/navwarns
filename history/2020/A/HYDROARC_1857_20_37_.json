@@ -3,17 +3,23 @@
   "id": "HYDROARC 1857/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7633333333333332,
+      51.071666666666665
+    ]
   },
   "properties": {
     "dtg": "2020-06-02T15:27:00",
     "raw_dtg": "021527Z JUN 20",
     "msg_id": "HYDROARC 1857/20(37)",
-    "cancellations": [
-      "HYDROARC 1862/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nRUYTINGEN SW BUOY 51-04.3N 001-45.8E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nRUYTINGEN SW BUOY 51-04.3N 001-45.8E MISSING.",
+    "valid_from": "2020-06-02T15:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 766/14(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      30.766666666666666,
+      43.87
+    ]
   },
   "properties": {
     "dtg": "2014-03-17T13:57:00",
     "raw_dtg": "171357Z MAR 14",
     "msg_id": "HYDROARC 766/14(55)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 831/14"
+      "THIS MSG 29 MAR 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\n1. OCEANOGRAPHIC OPERATIONS 18 THRU 28 MAR\n   BY M/V GSP QUEEN IN 43-52.2N 030-46.0E.\n   500 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 29 MAR 14."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\n1. OCEANOGRAPHIC OPERATIONS 18 THRU 28 MAR\n   BY M/V GSP QUEEN IN 43-52.2N 030-46.0E.\n   500 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 29 MAR 14.",
+    "valid_from": "2014-03-17T13:57:00+00:00",
+    "valid_until": "2014-03-29T00:00:00+00:00",
+    "summary": null
   }
 }

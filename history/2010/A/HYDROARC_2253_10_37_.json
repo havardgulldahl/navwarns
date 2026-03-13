@@ -3,17 +3,23 @@
   "id": "HYDROARC 2253/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3183333333333334,
+      52.925
+    ]
   },
   "properties": {
     "dtg": "2010-11-25T22:20:00",
     "raw_dtg": "252220Z NOV 10",
     "msg_id": "HYDROARC 2253/10(37)",
-    "cancellations": [
-      "HYDROARC 2254/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nNGA CHART 37057 (2ND ED).\nRACON AT CROMER LIGHT 52-55.5N 001-19.1E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nNGA CHART 37057 (2ND ED).\nRACON AT CROMER LIGHT 52-55.5N 001-19.1E INOPERATIVE.",
+    "valid_from": "2010-11-25T22:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 113/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.68,
+      51.39666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-01-18T19:44:00",
     "raw_dtg": "181944Z JAN 10",
     "msg_id": "HYDROARC 113/10(37)",
-    "cancellations": [
-      "HYDROARC 113/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nNGA CHART 37140 (33RD ED).\nTHANET SOUTH BUOY 51-23.8N 001-40.8E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nNGA CHART 37140 (33RD ED).\nTHANET SOUTH BUOY 51-23.8N 001-40.8E UNLIT.",
+    "valid_from": "2010-01-18T19:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

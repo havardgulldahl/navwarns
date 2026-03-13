@@ -12,12 +12,16 @@
     "dtg": "2022-12-15T15:47:00",
     "raw_dtg": "151547Z DEC 22",
     "msg_id": "HYDROARC 3216/22(22)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 181545Z DEC 22",
-      "HYDROARC 3216/22"
+      "THIS MSG 181545Z DEC 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "DRAKE PASSAGE.\nDNC 07.\n1. ICEBERG REPORTED IN 58-48.50S 063-09.90W.\n2. CANCEL THIS MSG 181545Z DEC 22."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DRAKE PASSAGE.\nDNC 07.\n1. ICEBERG REPORTED IN 58-48.50S 063-09.90W.\n2. CANCEL THIS MSG 181545Z DEC 22.",
+    "valid_from": "2022-12-15T15:47:00+00:00",
+    "valid_until": "2022-12-18T15:45:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1443/17(14,51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.55,
+      37.24
+    ]
   },
   "properties": {
     "dtg": "2017-05-06T20:49:00",
     "raw_dtg": "062049Z MAY 17",
     "msg_id": "HYDROARC 1443/17(14,51)",
-    "cancellations": [
-      "HYDROARC 1444/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM VESSEL\nAELA IN 37-14.4N 045-33.0W AT 062000Z MAY.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM VESSEL\nAELA IN 37-14.4N 045-33.0W AT 062000Z MAY.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO RCC BOSTON,\nPHONE: 617 223 8555, E-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2017-05-06T20:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

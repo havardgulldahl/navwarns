@@ -3,17 +3,23 @@
   "id": "HYDROARC 290/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5150000000000001,
+      50.891666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-02-01T08:00:00",
     "raw_dtg": "010800Z FEB 21",
     "msg_id": "HYDROARC 290/21(37)",
-    "cancellations": [
-      "HYDROARC 735/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nZC2 BUOY 50-53.5N 001-30.9E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nZC2 BUOY 50-53.5N 001-30.9E INOPERATIVE.",
+    "valid_from": "2021-02-01T08:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

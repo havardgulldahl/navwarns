@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 36/16(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          45.25944444444445,
+          73.87444444444444
+        ],
+        [
+          48.019444444444446,
+          74.30472222222222
+        ],
+        [
+          48.47,
+          74.03944444444444
+        ],
+        [
+          45.740833333333335,
+          73.59555555555555
+        ],
+        [
+          45.25944444444445,
+          73.87444444444444
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-04-15T07:59:00",
     "raw_dtg": "150759Z APR 16",
     "msg_id": "HYDROARC 36/16(42)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 36/16"
+      "THIS MSG 24 APR 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nDNC 22.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 23 APR BY\n   M/V VYACHESLAV TIKHONOV TOWING EIGHT\n   5100 METER LONG CABLES IN AREA BOUND BY\n   73-52-28N 045-15-34E, 74-18-17N 048-01-10E,\n   74-02-22N 048-28-12E, 73-35-44N 045-44-27E.\n   FOUR MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 APR 16."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nDNC 22.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 23 APR BY\n   M/V VYACHESLAV TIKHONOV TOWING EIGHT\n   5100 METER LONG CABLES IN AREA BOUND BY\n   73-52-28N 045-15-34E, 74-18-17N 048-01-10E,\n   74-02-22N 048-28-12E, 73-35-44N 045-44-27E.\n   FOUR MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 APR 16.",
+    "valid_from": "2016-04-15T07:59:00+00:00",
+    "valid_until": "2016-04-24T00:00:00+00:00",
+    "summary": null
   }
 }

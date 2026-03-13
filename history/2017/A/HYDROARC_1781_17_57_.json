@@ -2,19 +2,55 @@
   "type": "Feature",
   "id": "HYDROARC 1781/17(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -4.003333333333333,
+          3.626666666666667
+        ],
+        [
+          -3.85,
+          4.406666666666666
+        ],
+        [
+          -3.4716666666666667,
+          4.406666666666666
+        ],
+        [
+          -3.3066666666666666,
+          4.181666666666667
+        ],
+        [
+          -3.485,
+          3.2816666666666667
+        ],
+        [
+          -3.748333333333333,
+          3.2816666666666667
+        ],
+        [
+          -4.003333333333333,
+          3.626666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-06-06T17:24:00",
     "raw_dtg": "061724Z JUN 17",
     "msg_id": "HYDROARC 1781/17(57)",
+    "year": 2017,
     "cancellations": [
       "THIS MSG 180059Z JUN 17",
-      "HYDROARC 1781/17"
+      "1127/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 172359Z JUN\n   BY M/V RAMFORM ATLAS TOWING 14 SIX MILE LONG\n   CABLES IN AREA BOUND BY\n   03-37.6N 004-00.2W, 04-24.4N 003-51.0W,\n   04-24.4N 003-28.3W, 04-10.9N 003-18.4W,\n   03-16.9N 003-29.1W, 03-16.9N 003-44.9W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1127/17.\n3. CANCEL THIS MSG 180059Z JUN 17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 172359Z JUN\n   BY M/V RAMFORM ATLAS TOWING 14 SIX MILE LONG\n   CABLES IN AREA BOUND BY\n   03-37.6N 004-00.2W, 04-24.4N 003-51.0W,\n   04-24.4N 003-28.3W, 04-10.9N 003-18.4W,\n   03-16.9N 003-29.1W, 03-16.9N 003-44.9W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1127/17.\n3. CANCEL THIS MSG 180059Z JUN 17.",
+    "valid_from": "2017-06-06T17:24:00+00:00",
+    "valid_until": "2017-06-18T00:59:00+00:00",
+    "summary": null
   }
 }

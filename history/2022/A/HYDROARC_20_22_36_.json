@@ -3,17 +3,23 @@
   "id": "HYDROARC 20/22(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.303333333333334,
+      49.93
+    ]
   },
   "properties": {
     "dtg": "2022-01-03T13:59:00",
     "raw_dtg": "031359Z JAN 22",
     "msg_id": "HYDROARC 20/22(36)",
-    "cancellations": [
-      "HYDROARC 25/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 19.\nCGOC FALMOUTH MF R/T SERVICES AT SCILLY ISLE\nSITE 49-55.8N 006-18.2W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 19.\nCGOC FALMOUTH MF R/T SERVICES AT SCILLY ISLE\nSITE 49-55.8N 006-18.2W OFF AIR.",
+    "valid_from": "2022-01-03T13:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 857/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.3,
+      54.435
+    ]
   },
   "properties": {
     "dtg": "2020-03-05T10:16:00",
     "raw_dtg": "051016Z MAR 20",
     "msg_id": "HYDROARC 857/20(37)",
-    "cancellations": [
-      "HYDROARC 996/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nPLATFORM 44/17-MH 54-26.1N 002-18.0E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nPLATFORM 44/17-MH 54-26.1N 002-18.0E UNLIT.",
+    "valid_from": "2020-03-05T10:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

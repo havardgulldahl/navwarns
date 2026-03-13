@@ -3,17 +3,23 @@
   "id": "HYDROARC 738/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.265,
+      -24.051666666666666
+    ]
   },
   "properties": {
     "dtg": "2013-03-23T00:25:00",
     "raw_dtg": "230025Z MAR 13",
     "msg_id": "HYDROARC 738/13(24)",
-    "cancellations": [
-      "HYDROARC 752/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24140\nRADIOBEACON AND DGPS STATION AT\nILHA DA MOELA LIGHT 24-03.1S 046-15.9W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24140\nRADIOBEACON AND DGPS STATION AT\nILHA DA MOELA LIGHT 24-03.1S 046-15.9W OFF AIR.",
+    "valid_from": "2013-03-23T00:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

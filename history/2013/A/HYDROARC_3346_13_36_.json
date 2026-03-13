@@ -3,17 +3,23 @@
   "id": "HYDROARC 3346/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.6066666666666665,
+      53.42166666666667
+    ]
   },
   "properties": {
     "dtg": "2013-12-26T09:34:00",
     "raw_dtg": "260934Z DEC 13",
     "msg_id": "HYDROARC 3346/13(36)",
-    "cancellations": [
-      "HYDROARC 3348/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "WALES-NORTHWEST COAST.\nCHART 36006\nRACON AT SKERRIES LIGHT 53-25.3N 004-36.4W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-NORTHWEST COAST.\nCHART 36006\nRACON AT SKERRIES LIGHT 53-25.3N 004-36.4W INOPERATIVE.",
+    "valid_from": "2013-12-26T09:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2383/16(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-09-14T06:36:00",
     "raw_dtg": "140636Z SEP 16",
     "msg_id": "HYDROARC 2383/16(36)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2383/16"
+      "2314/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCELTIC SEA.\nDNC 19, DNC 20.\nCANCEL HYDROLANT 2314/16 AND THIS MSG,\nSURVEY SUSPENDED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCELTIC SEA.\nDNC 19, DNC 20.\nCANCEL HYDROLANT 2314/16 AND THIS MSG,\nSURVEY SUSPENDED.",
+    "valid_from": "2016-09-14T06:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

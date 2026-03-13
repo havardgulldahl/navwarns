@@ -3,17 +3,23 @@
   "id": "HYDROARC 1404/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.033333333333333,
+      54.005
+    ]
   },
   "properties": {
     "dtg": "2021-05-25T18:41:00",
     "raw_dtg": "251841Z MAY 21",
     "msg_id": "HYDROARC 1404/21(36)",
-    "cancellations": [
-      "HYDROARC 1433/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nNORTHERN IRELAND.\nDNC 19.\nHELLYHUNTER BUOY LIGHT 54-00.3N 006-02.0W OFF STATION\nAND UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nNORTHERN IRELAND.\nDNC 19.\nHELLYHUNTER BUOY LIGHT 54-00.3N 006-02.0W OFF STATION\nAND UNRELIABLE.",
+    "valid_from": "2021-05-25T18:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

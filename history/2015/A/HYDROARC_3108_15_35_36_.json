@@ -3,17 +3,23 @@
   "id": "HYDROARC 3108/15(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.585,
+      52.17
+    ]
   },
   "properties": {
     "dtg": "2015-12-15T18:06:00",
     "raw_dtg": "151806Z DEC 15",
     "msg_id": "HYDROARC 3108/15(35,36)",
-    "cancellations": [
-      "HYDROARC 3119/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-SOUTHEAST COAST.\nDNC 19, DNC 20.\nCHART 36002.\nKILMORE BREAKWATER HEAD LIGHT\n52-10.2N 006-35.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-SOUTHEAST COAST.\nDNC 19, DNC 20.\nCHART 36002.\nKILMORE BREAKWATER HEAD LIGHT\n52-10.2N 006-35.1W UNRELIABLE.",
+    "valid_from": "2015-12-15T18:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2910/18(35)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.0316666666666667,
+          61.74333333333333
+        ],
+        [
+          -0.2,
+          61.32
+        ],
+        [
+          -2.0433333333333334,
+          60.50666666666667
+        ],
+        [
+          -2.8383333333333334,
+          60.91166666666667
+        ],
+        [
+          -1.0316666666666667,
+          61.74333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-09-14T16:26:00",
     "raw_dtg": "141626Z SEP 18",
     "msg_id": "HYDROARC 2910/18(35)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3764/18"
+      "2655/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nNORWEGIAN SEA.\nSHETLAND ISLANDS.\nDNC 20.\n1. SURVEY OPERATIONS IN PROGRESS BY M/V OCEANIC VEGA\n   TOWING 12 9300 METER LONG CABLES IN AREA BOUND BY\n   61-44.6N 001-01.9W, 61-19.2N 000-12.0W,\n   60-30.4N 002-02.6W, 60-54.7N 002-50.3W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2655/18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nNORWEGIAN SEA.\nSHETLAND ISLANDS.\nDNC 20.\n1. SURVEY OPERATIONS IN PROGRESS BY M/V OCEANIC VEGA\n   TOWING 12 9300 METER LONG CABLES IN AREA BOUND BY\n   61-44.6N 001-01.9W, 61-19.2N 000-12.0W,\n   60-30.4N 002-02.6W, 60-54.7N 002-50.3W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2655/18.",
+    "valid_from": "2018-09-14T16:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

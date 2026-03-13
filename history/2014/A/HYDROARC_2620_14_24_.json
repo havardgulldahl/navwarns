@@ -3,17 +3,25 @@
   "id": "HYDROARC 2620/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.135,
+      -30.008333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-10-28T20:42:00",
     "raw_dtg": "282042Z OCT 14",
     "msg_id": "HYDROARC 2620/14(24)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2685/14"
+      "THIS MSG 25 APR 15"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24110.\n1. RACON AT TRAMANDAI LIGHT 30-00.5S 050-08.1W INOPERATIVE.\n2. CANCEL THIS MSG 25 APR 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24110.\n1. RACON AT TRAMANDAI LIGHT 30-00.5S 050-08.1W INOPERATIVE.\n2. CANCEL THIS MSG 25 APR 15.",
+    "valid_from": "2014-10-28T20:42:00+00:00",
+    "valid_until": "2015-04-25T00:00:00+00:00",
+    "summary": null
   }
 }

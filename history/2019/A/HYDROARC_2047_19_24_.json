@@ -3,17 +3,25 @@
   "id": "HYDROARC 2047/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.135,
+      -22.938333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-07-06T05:13:00",
     "raw_dtg": "060513Z JUL 19",
     "msg_id": "HYDROARC 2047/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 2053/19"
+      "THIS MSG 02 JAN 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24160.\n1. FORT SANTA CRUZ LIGHT 22-56.3S 043-08.1W UNLIT\n   UNTIL 01 JAN 20.\n2. CANCEL THIS MSG 02 JAN 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24160.\n1. FORT SANTA CRUZ LIGHT 22-56.3S 043-08.1W UNLIT\n   UNTIL 01 JAN 20.\n2. CANCEL THIS MSG 02 JAN 20.",
+    "valid_from": "2019-07-06T05:13:00+00:00",
+    "valid_until": "2020-01-02T00:00:00+00:00",
+    "summary": null
   }
 }

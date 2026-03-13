@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2478/20(23,29)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-08-10T14:00:00",
     "raw_dtg": "101400Z AUG 20",
     "msg_id": "HYDROARC 2478/20(23,29)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 111400Z AUG 20",
-      "HYDROARC 2478/20"
+      "THIS MSG 111400Z AUG 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTIA SEA.\nANTARCTICA.\nDNC 01, DNC 07, DNC 29.\n1. ICEBERGS REPORTED IN:\n   A. A68A 58-47S 049-57W.\n   B. A68C 56-48S 037-13W.\n   C. 60-17S 056-33W.\n   D. 62-31S 055-55W.\n   E. 58-33S 051-51W.\n   F. 55-19S 045-19W.\n   G. 54-06S 043-42W.\n   H. 59-21S 044-31W.\n2. CANCEL THIS MSG 111400Z AUG 20."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTIA SEA.\nANTARCTICA.\nDNC 01, DNC 07, DNC 29.\n1. ICEBERGS REPORTED IN:\n   A. A68A 58-47S 049-57W.\n   B. A68C 56-48S 037-13W.\n   C. 60-17S 056-33W.\n   D. 62-31S 055-55W.\n   E. 58-33S 051-51W.\n   F. 55-19S 045-19W.\n   G. 54-06S 043-42W.\n   H. 59-21S 044-31W.\n2. CANCEL THIS MSG 111400Z AUG 20.",
+    "valid_from": "2020-08-10T14:00:00+00:00",
+    "valid_until": "2020-08-11T14:00:00+00:00",
+    "summary": null
   }
 }

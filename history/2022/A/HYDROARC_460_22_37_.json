@@ -3,18 +3,25 @@
   "id": "HYDROARC 460/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.53,
+      49.07666666666667
+    ]
   },
   "properties": {
     "dtg": "2022-02-16T15:31:00",
     "raw_dtg": "161531Z FEB 22",
     "msg_id": "HYDROARC 460/22(37)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 191531Z FEB 22",
-      "HYDROARC 460/22"
+      "THIS MSG 191531Z FEB 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\n1. FOUR CONTAINERS ADRIFT IN VICINITY OF\n   TRACKLINE JOINING\n   49-04.6N 005-31.8W, 49-03.7N 005-39.9W.\n2. CANCEL THIS MSG 191531Z FEB 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\n1. FOUR CONTAINERS ADRIFT IN VICINITY OF\n   TRACKLINE JOINING\n   49-04.6N 005-31.8W, 49-03.7N 005-39.9W.\n2. CANCEL THIS MSG 191531Z FEB 22.",
+    "valid_from": "2022-02-16T15:31:00+00:00",
+    "valid_until": "2022-02-19T15:31:00+00:00",
+    "summary": null
   }
 }

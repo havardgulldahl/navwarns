@@ -3,17 +3,23 @@
   "id": "HYDROARC 424/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.91,
+      -0.5766666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-02-18T21:34:00",
     "raw_dtg": "182134Z FEB 15",
     "msg_id": "HYDROARC 424/15(24)",
-    "cancellations": [
-      "HYDROARC 1007/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24291.\nVESSEL WRECKED IN 00-34.6S 047-54.6W AT 181930Z FEB.\nONE PERSON REMAINS MISSING. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF\nPOSSIBLE. REPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24291.\nVESSEL WRECKED IN 00-34.6S 047-54.6W AT 181930Z FEB.\nONE PERSON REMAINS MISSING. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF\nPOSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2015-02-18T21:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

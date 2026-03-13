@@ -3,18 +3,25 @@
   "id": "HYDROARC 99/16(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2016-06-16T22:24:00",
     "raw_dtg": "162224Z JUN 16",
     "msg_id": "HYDROARC 99/16(15)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 96/16",
-      "HYDROARC 114/16"
+      "HYDROARC 96/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nRADIO SERVICES.\nDNC 28.\n1. MCTS IQALUIT 63-43.8N 068-32.7W DSC AND R/T\n   SERVICES INOPERATIVE.\n2. CANCEL HYDROARC 96/16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nRADIO SERVICES.\nDNC 28.\n1. MCTS IQALUIT 63-43.8N 068-32.7W DSC AND R/T\n   SERVICES INOPERATIVE.\n2. CANCEL HYDROARC 96/16.",
+    "valid_from": "2016-06-16T22:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

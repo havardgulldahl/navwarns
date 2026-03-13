@@ -3,17 +3,23 @@
   "id": "HYDROARC 2132/14(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.511666666666667,
+      54.69833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-09-03T10:07:00",
     "raw_dtg": "031007Z SEP 14",
     "msg_id": "HYDROARC 2132/14(35,36)",
-    "cancellations": [
-      "HYDROARC 2150/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "IRELAND-NORTHEAST COAST.\nCHART 35119\nRACON AT MEW ISLAND LIGHT 54-41.9N 005-30.7W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTHEAST COAST.\nCHART 35119\nRACON AT MEW ISLAND LIGHT 54-41.9N 005-30.7W INOPERATIVE.",
+    "valid_from": "2014-09-03T10:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

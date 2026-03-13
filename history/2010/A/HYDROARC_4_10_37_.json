@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 4/10(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-01-01T13:07:00",
     "raw_dtg": "011307Z JAN 10",
     "msg_id": "HYDROARC 4/10(37)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 4/10"
+      "2540/09"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nCANCEL HYDROLANT 2540/09 AND THIS MSG, OPERATIONS SUSPENDED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nCANCEL HYDROLANT 2540/09 AND THIS MSG, OPERATIONS SUSPENDED.",
+    "valid_from": "2010-01-01T13:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

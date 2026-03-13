@@ -3,18 +3,25 @@
   "id": "HYDROARC 4025/19(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.113333333333333,
+      32.678333333333335
+    ]
   },
   "properties": {
     "dtg": "2019-12-31T16:42:00",
     "raw_dtg": "311642Z DEC 19",
     "msg_id": "HYDROARC 4025/19(51)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 031642Z JAN 20",
-      "HYDROARC 4025/19"
+      "THIS MSG 031642Z JAN 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   32-40.7N 009-06.8W.\n2. CANCEL THIS MSG 031642Z JAN 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   32-40.7N 009-06.8W.\n2. CANCEL THIS MSG 031642Z JAN 20.",
+    "valid_from": "2019-12-31T16:42:00+00:00",
+    "valid_until": "2020-01-03T16:42:00+00:00",
+    "summary": null
   }
 }

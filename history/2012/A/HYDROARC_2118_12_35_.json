@@ -3,17 +3,23 @@
   "id": "HYDROARC 2118/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.12,
+      60.12
+    ]
   },
   "properties": {
     "dtg": "2012-09-12T19:52:00",
     "raw_dtg": "121952Z SEP 12",
     "msg_id": "HYDROARC 2118/12(35)",
-    "cancellations": [
-      "HYDROARC 774/15"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35068\nKIRKABISTER NESS LIGHT 60-07.2N 001-07.2W REPLACED\nBY LIGHT, FL (2) W 20 SEC 18 METERS 10 MILES\nIN 60-07.2N 001-07.3W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35068\nKIRKABISTER NESS LIGHT 60-07.2N 001-07.2W REPLACED\nBY LIGHT, FL (2) W 20 SEC 18 METERS 10 MILES\nIN 60-07.2N 001-07.3W.",
+    "valid_from": "2012-09-12T19:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

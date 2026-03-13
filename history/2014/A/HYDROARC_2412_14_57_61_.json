@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2412/14(57,61)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-10-06T12:46:00",
     "raw_dtg": "061246Z OCT 14",
     "msg_id": "HYDROARC 2412/14(57,61)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2412/14"
+      "2323/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH AFRICA.\nRADIO SERVICES.\nCANCEL HYDROLANT 2323/14 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH AFRICA.\nRADIO SERVICES.\nCANCEL HYDROLANT 2323/14 AND THIS MSG.",
+    "valid_from": "2014-10-06T12:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

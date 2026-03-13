@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1676/21(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-06-24T10:34:00",
     "raw_dtg": "241034Z JUN 21",
     "msg_id": "HYDROARC 1676/21(36)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1676/21"
+      "1529/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 19.\nCANCEL HYDROLANT 1529/21 AND THIS MSG,\nAID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 19.\nCANCEL HYDROLANT 1529/21 AND THIS MSG,\nAID RESTORED.",
+    "valid_from": "2021-06-24T10:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

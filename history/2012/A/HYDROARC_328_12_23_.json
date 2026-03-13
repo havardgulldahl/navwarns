@@ -3,17 +3,23 @@
   "id": "HYDROARC 328/12(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -60.428333333333335,
+      -45.11
+    ]
   },
   "properties": {
     "dtg": "2012-02-08T16:01:00",
     "raw_dtg": "081601Z FEB 12",
     "msg_id": "HYDROARC 328/12(23)",
-    "cancellations": [
-      "HYDROARC 328/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\n1. DERELICT F/V JIN KYEONG 707 ADRIFT VICINITY\n   45-06.6S 060-25.7W.\n2. CANCEL THIS MSG 111600Z FEB."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\n1. DERELICT F/V JIN KYEONG 707 ADRIFT VICINITY\n   45-06.6S 060-25.7W.\n2. CANCEL THIS MSG 111600Z FEB.",
+    "valid_from": "2012-02-08T16:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

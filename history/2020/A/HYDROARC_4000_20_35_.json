@@ -3,17 +3,25 @@
   "id": "HYDROARC 4000/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.59,
+      58.288333333333334
+    ]
   },
   "properties": {
     "dtg": "2020-12-29T21:13:00",
     "raw_dtg": "292113Z DEC 20",
     "msg_id": "HYDROARC 4000/20(35)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 29/21"
+      "3978/20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\n1. FLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNLIT.\n2. CANCEL HYDROLANT 3978/20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\n1. FLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNLIT.\n2. CANCEL HYDROLANT 3978/20.",
+    "valid_from": "2020-12-29T21:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

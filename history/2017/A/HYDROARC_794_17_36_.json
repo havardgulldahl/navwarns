@@ -3,17 +3,23 @@
   "id": "HYDROARC 794/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8966666666666665,
+      50.13666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-03-10T18:53:00",
     "raw_dtg": "101853Z MAR 17",
     "msg_id": "HYDROARC 794/17(36)",
-    "cancellations": [
-      "HYDROARC 884/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP PETER FABER WITH\nSUBMERSIBLE IN VICINITY 50-08.2N 005-53.8W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP PETER FABER WITH\nSUBMERSIBLE IN VICINITY 50-08.2N 005-53.8W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2017-03-10T18:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

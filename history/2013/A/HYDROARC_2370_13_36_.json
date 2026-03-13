@@ -3,17 +3,23 @@
   "id": "HYDROARC 2370/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.461666666666667,
+      51.24666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-09-25T04:55:00",
     "raw_dtg": "250455Z SEP 13",
     "msg_id": "HYDROARC 2370/13(36)",
-    "cancellations": [
-      "HYDROARC 2405/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE AIX VICINITY 51-14.8N 003-27.7W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE AIX VICINITY 51-14.8N 003-27.7W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2013-09-25T04:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

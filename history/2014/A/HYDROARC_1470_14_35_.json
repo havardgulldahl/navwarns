@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1470/14(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-06-13T12:39:00",
     "raw_dtg": "131239Z JUN 14",
     "msg_id": "HYDROARC 1470/14(35)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1470/14"
+      "1460/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nRADIO SERVICES.\nCANCEL HYRDOLANT 1460/14 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nRADIO SERVICES.\nCANCEL HYRDOLANT 1460/14 AND THIS MSG.",
+    "valid_from": "2014-06-13T12:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

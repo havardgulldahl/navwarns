@@ -3,18 +3,25 @@
   "id": "HYDROARC 3979/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.796666666666667,
+      48.175
+    ]
   },
   "properties": {
     "dtg": "2020-12-26T06:14:00",
     "raw_dtg": "260614Z DEC 20",
     "msg_id": "HYDROARC 3979/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 290614Z DEC 20",
-      "HYDROARC 3979/20"
+      "THIS MSG 290614Z DEC 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "CELTIC SEA.\nFRANCE.\nDNC 20.\n1. DERELICT LIFERAFT ADRIFT IN VICINITY\n   48-10.5N 005-47.8W AT 261130Z DEC.\n2. CANCEL THIS MSG 290614Z DEC 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nFRANCE.\nDNC 20.\n1. DERELICT LIFERAFT ADRIFT IN VICINITY\n   48-10.5N 005-47.8W AT 261130Z DEC.\n2. CANCEL THIS MSG 290614Z DEC 20.",
+    "valid_from": "2020-12-26T06:14:00+00:00",
+    "valid_until": "2020-12-29T06:14:00+00:00",
+    "summary": null
   }
 }

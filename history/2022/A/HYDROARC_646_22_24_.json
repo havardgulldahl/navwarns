@@ -3,17 +3,25 @@
   "id": "HYDROARC 646/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.309999999999995,
+      -20.302500000000002
+    ]
   },
   "properties": {
     "dtg": "2022-03-04T10:26:00",
     "raw_dtg": "041026Z MAR 22",
     "msg_id": "HYDROARC 646/22(24)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 893/22"
+      "THIS MSG 01 SEP 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. MORRO GRANDE LIGHT 20-18-09S 040-18-36W\n   UNRELIABLE UNTIL 31 AUG.\n2. CANCEL THIS MSG 01 SEP 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. MORRO GRANDE LIGHT 20-18-09S 040-18-36W\n   UNRELIABLE UNTIL 31 AUG.\n2. CANCEL THIS MSG 01 SEP 22.",
+    "valid_from": "2022-03-04T10:26:00+00:00",
+    "valid_until": "2022-09-01T00:00:00+00:00",
+    "summary": null
   }
 }

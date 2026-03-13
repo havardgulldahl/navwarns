@@ -3,17 +3,23 @@
   "id": "HYDROARC 286/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.136666666666667,
+      58.26166666666666
+    ]
   },
   "properties": {
     "dtg": "2013-02-01T04:25:00",
     "raw_dtg": "010425Z FEB 13",
     "msg_id": "HYDROARC 286/13(35)",
-    "cancellations": [
-      "HYDROARC 290/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNORTH MINCH.\nCHART 35074\nTIUMPAN HEAD LIGHT 58-15.7N 006-08.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNORTH MINCH.\nCHART 35074\nTIUMPAN HEAD LIGHT 58-15.7N 006-08.2W UNRELIABLE.",
+    "valid_from": "2013-02-01T04:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

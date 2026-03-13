@@ -3,18 +3,25 @@
   "id": "HYDROARC 2825/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.72833333333333,
+      -1.5483333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-09-16T19:30:00",
     "raw_dtg": "161930Z SEP 19",
     "msg_id": "HYDROARC 2825/19(24)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 191930Z SEP 19",
-      "HYDROARC 2825/19"
+      "THIS MSG 191930Z SEP 19"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. DERELICT F/V PONTA NEGRA ADRIFT IN\n   VICINITY 01-32.9S 043-43.7W.\n2. CANCEL THIS MSG 191930Z SEP 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. DERELICT F/V PONTA NEGRA ADRIFT IN\n   VICINITY 01-32.9S 043-43.7W.\n2. CANCEL THIS MSG 191930Z SEP 19.",
+    "valid_from": "2019-09-16T19:30:00+00:00",
+    "valid_until": "2019-09-19T19:30:00+00:00",
+    "summary": null
   }
 }

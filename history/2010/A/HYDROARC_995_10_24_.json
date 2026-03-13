@@ -3,17 +3,25 @@
   "id": "HYDROARC 995/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.72833333333333,
+      -29.345
+    ]
   },
   "properties": {
     "dtg": "2010-06-01T00:43:00",
     "raw_dtg": "010043Z JUN 10",
     "msg_id": "HYDROARC 995/10(24)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1030/10"
+      "826/10"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24000 (39TH ED).\n1. TORRES LIGHT 29-20.7S 049-43.7W UNLIT.\n2. CANCEL HYDROLANT 826/10."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24000 (39TH ED).\n1. TORRES LIGHT 29-20.7S 049-43.7W UNLIT.\n2. CANCEL HYDROLANT 826/10.",
+    "valid_from": "2010-06-01T00:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

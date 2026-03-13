@@ -3,18 +3,25 @@
   "id": "HYDROARC 589/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.9783333333333335,
+      49.91
+    ]
   },
   "properties": {
     "dtg": "2014-02-25T14:31:00",
     "raw_dtg": "251431Z FEB 14",
     "msg_id": "HYDROARC 589/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 281430Z FEB 14",
-      "HYDROARC 589/14"
+      "THIS MSG 281430Z FEB 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\n1. CONTAINER ADRIFT IN 49-54.6N 003-58.7W AT 251120Z FEB.\n2. CANCEL THIS MSG 281430Z FEB 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\n1. CONTAINER ADRIFT IN 49-54.6N 003-58.7W AT 251120Z FEB.\n2. CANCEL THIS MSG 281430Z FEB 14.",
+    "valid_from": "2014-02-25T14:31:00+00:00",
+    "valid_until": "2014-02-28T14:30:00+00:00",
+    "summary": null
   }
 }

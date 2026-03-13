@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 710/24(57)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         7.043333333333333,
@@ -42,11 +42,14 @@
     "dtg": "2024-04-05T06:37:00",
     "raw_dtg": "050637Z APR 24",
     "msg_id": "HYDROARC 710/24(57)",
-    "cancellations": [
-      "HYDROARC 808/24"
-    ],
+    "year": 2024,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nNIGERIA.\nDNC 01.\nCABLE OPERATIONS 06 APR UNTIL FURTHER\nNOTICE BY CABLESHIP ILE DE SEIN\nALONG TRACKLINE JOINING\n03-14.80N 007-02.60E, 04-02.40N 007-38.80E,\n04-05.90N 007-39.80E, 04-06.80N 007-39.80E,\n04-11.90N 007-40.00E, 04-14.20N 007-40.60E,\n04-17.00N 007-42.50E, 04-23.80N 007-53.50E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nNIGERIA.\nDNC 01.\nCABLE OPERATIONS 06 APR UNTIL FURTHER\nNOTICE BY CABLESHIP ILE DE SEIN\nALONG TRACKLINE JOINING\n03-14.80N 007-02.60E, 04-02.40N 007-38.80E,\n04-05.90N 007-39.80E, 04-06.80N 007-39.80E,\n04-11.90N 007-40.00E, 04-14.20N 007-40.60E,\n04-17.00N 007-42.50E, 04-23.80N 007-53.50E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2024-04-05T06:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

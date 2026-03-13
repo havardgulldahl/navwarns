@@ -3,17 +3,25 @@
   "id": "HYDROARC 2788/19(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -58.401666666666664,
+      -51.92166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-09-13T01:12:00",
     "raw_dtg": "130112Z SEP 19",
     "msg_id": "HYDROARC 2788/19(23)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 149/20"
+      "1920/19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nFALKLAND ISLANDS.\nDNC 07.\nCHART 23150.\n1. FOX POINT LIGHT 51-55.3S 058-24.1W UNLIT.\n2. CANCEL HYDROLANT 1920/19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nFALKLAND ISLANDS.\nDNC 07.\nCHART 23150.\n1. FOX POINT LIGHT 51-55.3S 058-24.1W UNLIT.\n2. CANCEL HYDROLANT 1920/19.",
+    "valid_from": "2019-09-13T01:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 2611/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.32333333333333,
+      -23.973333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-10-20T00:24:00",
     "raw_dtg": "200024Z OCT 13",
     "msg_id": "HYDROARC 2611/13(24)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2644/13"
+      "THIS MSG 16 APR 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24140, 24142\n1. PRAIA DO BOQUEIRAO NO 2 LIGHT 23-58.4S 046-19.4W UNLIT.\n2. CANCEL THIS MSG 16 APR 14."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24140, 24142\n1. PRAIA DO BOQUEIRAO NO 2 LIGHT 23-58.4S 046-19.4W UNLIT.\n2. CANCEL THIS MSG 16 APR 14.",
+    "valid_from": "2013-10-20T00:24:00+00:00",
+    "valid_until": "2014-04-16T00:00:00+00:00",
+    "summary": null
   }
 }

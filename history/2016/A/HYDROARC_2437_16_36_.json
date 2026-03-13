@@ -3,17 +3,23 @@
   "id": "HYDROARC 2437/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.47,
+      52.8
+    ]
   },
   "properties": {
     "dtg": "2016-09-18T22:12:00",
     "raw_dtg": "182212Z SEP 16",
     "msg_id": "HYDROARC 2437/16(36)",
-    "cancellations": [
-      "HYDROARC 2444/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "CARDIGAN BAY.\nWALES-WEST COAST.\nDNC 20.\nCHART 36002.\nST. TUDWAL'S WEST ISLAND LIGHT 52-48.0N 004-28.2W UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CARDIGAN BAY.\nWALES-WEST COAST.\nDNC 20.\nCHART 36002.\nST. TUDWAL'S WEST ISLAND LIGHT 52-48.0N 004-28.2W UNLIT.",
+    "valid_from": "2016-09-18T22:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

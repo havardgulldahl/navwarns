@@ -3,17 +3,23 @@
   "id": "HYDROARC 1336/17(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.08166666666666668,
+      54.11666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-04-28T04:36:00",
     "raw_dtg": "280436Z APR 17",
     "msg_id": "HYDROARC 1336/17(35,37)",
-    "cancellations": [
-      "HYDROARC 1347/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 35006.\nDGPS STATION AT FLAMBOROUGH HEAD\n54-07.0N 000-04.9W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 35006.\nDGPS STATION AT FLAMBOROUGH HEAD\n54-07.0N 000-04.9W OFF AIR.",
+    "valid_from": "2017-04-28T04:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 356/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7853666666666665,
+      51.15591666666667
+    ]
   },
   "properties": {
     "dtg": "2012-02-12T15:30:00",
     "raw_dtg": "121530Z FEB 12",
     "msg_id": "HYDROARC 356/12(37)",
-    "cancellations": [
-      "HYDROARC 2020/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37140\nSANDETTIE LIGHTSHIP 51-09.355N 001-47.122E\nRANGE REDUCED TO 15 MILES AND\nDISPLAYED ONLY DURING DARKNESS."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37140\nSANDETTIE LIGHTSHIP 51-09.355N 001-47.122E\nRANGE REDUCED TO 15 MILES AND\nDISPLAYED ONLY DURING DARKNESS.",
+    "valid_from": "2012-02-12T15:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

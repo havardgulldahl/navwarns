@@ -3,17 +3,23 @@
   "id": "HYDROARC 2677/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.19166666666667,
+      -20.195
+    ]
   },
   "properties": {
     "dtg": "2012-11-11T20:44:00",
     "raw_dtg": "112044Z NOV 12",
     "msg_id": "HYDROARC 2677/12(24)",
-    "cancellations": [
-      "HYDROARC 2778/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nONE PERSON MISSING FROM VESSEL IZABELLA,\nWITHIN 2.5 MILES OF MANGUINHOS BEACH (20-11.7S 040-11.5W)\nAT 101800Z NOV. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nONE PERSON MISSING FROM VESSEL IZABELLA,\nWITHIN 2.5 MILES OF MANGUINHOS BEACH (20-11.7S 040-11.5W)\nAT 101800Z NOV. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL STATION.",
+    "valid_from": "2012-11-11T20:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 775/17(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.236666666666666,
+      50.25
+    ]
   },
   "properties": {
     "dtg": "2017-03-09T16:32:00",
     "raw_dtg": "091632Z MAR 17",
     "msg_id": "HYDROARC 775/17(36,37)",
-    "cancellations": [
-      "HYDROARC 815/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36050.\nFISHING GEAR, MARKED BY TWO ORANGE BUOYS,\nABANDONED IN 50-15.0N 004-14.2W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36050.\nFISHING GEAR, MARKED BY TWO ORANGE BUOYS,\nABANDONED IN 50-15.0N 004-14.2W.",
+    "valid_from": "2017-03-09T16:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

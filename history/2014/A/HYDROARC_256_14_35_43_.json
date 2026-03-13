@@ -3,17 +3,23 @@
   "id": "HYDROARC 256/14(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.03166666666666666,
+      57.903333333333336
+    ]
   },
   "properties": {
     "dtg": "2014-01-27T22:29:00",
     "raw_dtg": "272229Z JAN 14",
     "msg_id": "HYDROARC 256/14(35,43)",
-    "cancellations": [
-      "HYDROARC 366/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nCHART 35005\nPLATFORM 21/1-A 57-54.2N 000-01.9E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nCHART 35005\nPLATFORM 21/1-A 57-54.2N 000-01.9E UNLIT.",
+    "valid_from": "2014-01-27T22:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

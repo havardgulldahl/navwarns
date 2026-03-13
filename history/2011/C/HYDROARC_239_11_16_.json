@@ -3,17 +3,25 @@
   "id": "HYDROARC 239/11(16)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -164.30083333333334,
+      71.21623333333334
+    ]
   },
   "properties": {
     "dtg": "2011-12-09T14:23:00",
     "raw_dtg": "091423Z DEC 11",
     "msg_id": "HYDROARC 239/11(16)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 239/11"
+      "THIS MSG 02 AUG 20"
     ],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "ALASKA-NORTHWEST COAST.\nCHUKCHI SEA.\nNGA CHART 16005 (10TH ED).\n1. SCIENTIFIC MOORING, TOP FLOAT 36 METERS,\n   ESTABLISHED UNTIL 01 AUG 12\n   IN 71-12.974N 164-18.050W.\n2. CANCEL THIS MSG 02 AUG 2012."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ALASKA-NORTHWEST COAST.\nCHUKCHI SEA.\nNGA CHART 16005 (10TH ED).\n1. SCIENTIFIC MOORING, TOP FLOAT 36 METERS,\n   ESTABLISHED UNTIL 01 AUG 12\n   IN 71-12.974N 164-18.050W.\n2. CANCEL THIS MSG 02 AUG 2012.",
+    "valid_from": "2011-12-09T14:23:00+00:00",
+    "valid_until": "2020-08-02T00:00:00+00:00",
+    "summary": null
   }
 }

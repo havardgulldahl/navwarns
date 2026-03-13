@@ -3,17 +3,23 @@
   "id": "HYDROARC 3241/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.698333333333333,
+      53.306666666666665
+    ]
   },
   "properties": {
     "dtg": "2013-12-16T10:23:00",
     "raw_dtg": "161023Z DEC 13",
     "msg_id": "HYDROARC 3241/13(36)",
-    "cancellations": [
-      "HYDROARC 3247/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nWALES-NORTHWEST COAST.\nCHART 36006\nSOUTH STACK LIGHT 53-18.4N 004-41.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nWALES-NORTHWEST COAST.\nCHART 36006\nSOUTH STACK LIGHT 53-18.4N 004-41.9W UNRELIABLE.",
+    "valid_from": "2013-12-16T10:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

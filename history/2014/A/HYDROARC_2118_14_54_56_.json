@@ -3,18 +3,25 @@
   "id": "HYDROARC 2118/14(54,56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      21.06833333333333,
+      34.14333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-09-02T04:05:00",
     "raw_dtg": "020405Z SEP 14",
     "msg_id": "HYDROARC 2118/14(54,56)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 050409Z SEP 14",
-      "HYDROARC 2118/14"
+      "THIS MSG 050409Z SEP 14"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\n1. DERELICT F/V, RED HULL, ADRIFT IN 34-08.6N 021-04.1E.\n   REPORTS TO MRCC ROME, INMARSAT-C: 424744220,\n   PHONE: 39 065 908 4527, 39 065 908 4409,\n   FAX: 390 6592 2737, 3906 5908 4793,\n   E-MAIL: ITMRCC@MIT.GOV.IT.\n2. CANCEL THIS MSG 050409Z SEP 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\n1. DERELICT F/V, RED HULL, ADRIFT IN 34-08.6N 021-04.1E.\n   REPORTS TO MRCC ROME, INMARSAT-C: 424744220,\n   PHONE: 39 065 908 4527, 39 065 908 4409,\n   FAX: 390 6592 2737, 3906 5908 4793,\n   E-MAIL: ITMRCC@MIT.GOV.IT.\n2. CANCEL THIS MSG 050409Z SEP 14.",
+    "valid_from": "2014-09-02T04:05:00+00:00",
+    "valid_until": "2014-09-05T04:09:00+00:00",
+    "summary": null
   }
 }

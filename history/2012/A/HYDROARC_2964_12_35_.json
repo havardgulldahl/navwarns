@@ -3,17 +3,23 @@
   "id": "HYDROARC 2964/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8133333333333335,
+      59.12166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-12-16T07:01:00",
     "raw_dtg": "160701Z DEC 12",
     "msg_id": "HYDROARC 2964/12(35)",
-    "cancellations": [
-      "HYDROARC 2966/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTHWEST COAST.\nCHART 35073\nRONA LIGHT 59-07.3N 005-48.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTHWEST COAST.\nCHART 35073\nRONA LIGHT 59-07.3N 005-48.8W UNRELIABLE.",
+    "valid_from": "2012-12-16T07:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

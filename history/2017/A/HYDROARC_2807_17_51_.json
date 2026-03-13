@@ -3,18 +3,25 @@
   "id": "HYDROARC 2807/17(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -18.945,
+      35.20333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-09-12T00:30:00",
     "raw_dtg": "120030Z SEP 17",
     "msg_id": "HYDROARC 2807/17(51)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 150030Z SEP 17",
-      "HYDROARC 2807/17"
+      "THIS MSG 150030Z SEP 17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT S/V, RED HULL, DISABLED AND ADRIFT IN\n   VICINITY 35-12.2N 018-56.7W.\n2. CANCEL THIS MSG 150030Z SEP 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT S/V, RED HULL, DISABLED AND ADRIFT IN\n   VICINITY 35-12.2N 018-56.7W.\n2. CANCEL THIS MSG 150030Z SEP 17.",
+    "valid_from": "2017-09-12T00:30:00+00:00",
+    "valid_until": "2017-09-15T00:30:00+00:00",
+    "summary": null
   }
 }

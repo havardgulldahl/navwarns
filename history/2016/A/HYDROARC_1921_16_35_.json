@@ -3,17 +3,23 @@
   "id": "HYDROARC 1921/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.1416666666666666,
+      60.19
+    ]
   },
   "properties": {
     "dtg": "2016-07-29T14:25:00",
     "raw_dtg": "291425Z JUL 16",
     "msg_id": "HYDROARC 1921/16(35)",
-    "cancellations": [
-      "HYDROARC 1963/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nROVA HEAD LIGHT 60-11.4N 001-08.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nROVA HEAD LIGHT 60-11.4N 001-08.5W UNRELIABLE.",
+    "valid_from": "2016-07-29T14:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

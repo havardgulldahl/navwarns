@@ -3,17 +3,23 @@
   "id": "HYDROARC 992/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.366666666666666,
+      58.01833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-03-28T00:10:00",
     "raw_dtg": "280010Z MAR 17",
     "msg_id": "HYDROARC 992/17(35)",
-    "cancellations": [
-      "HYDROARC 1007/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCHART 35078.\nMILAID LIGHT 58-01.1N 006-22.0W UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCHART 35078.\nMILAID LIGHT 58-01.1N 006-22.0W UNLIT.",
+    "valid_from": "2017-03-28T00:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

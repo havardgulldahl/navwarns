@@ -3,17 +3,23 @@
   "id": "HYDROARC 88/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.025,
+      58.645
+    ]
   },
   "properties": {
     "dtg": "2015-01-11T19:01:00",
     "raw_dtg": "111901Z JAN 15",
     "msg_id": "HYDROARC 88/15(35)",
-    "cancellations": [
-      "HYDROARC 100/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-NORTH COAST.\nDNC 20.\nCHART 35059.\nDUNCANSBY HEAD LIGHT 58-38.7N 003-01.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-NORTH COAST.\nDNC 20.\nCHART 35059.\nDUNCANSBY HEAD LIGHT 58-38.7N 003-01.5W UNRELIABLE.",
+    "valid_from": "2015-01-11T19:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

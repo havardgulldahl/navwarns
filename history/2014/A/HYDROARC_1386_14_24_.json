@@ -3,18 +3,25 @@
   "id": "HYDROARC 1386/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.145,
+      -23.063333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-06-03T00:43:00",
     "raw_dtg": "030043Z JUN 14",
     "msg_id": "HYDROARC 1386/14(24)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 210400Z JUN 14",
-      "HYDROARC 1386/14"
+      "THIS MSG 210400Z JUN 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24150, 24160\n1. RADIOBEACON AND DGPS STATION AT ILHA RASA LIGHT\n   23-03.8S 043-08.7W OFF AIR.\n2. CANCEL THIS MSG 210400Z JUN 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24150, 24160\n1. RADIOBEACON AND DGPS STATION AT ILHA RASA LIGHT\n   23-03.8S 043-08.7W OFF AIR.\n2. CANCEL THIS MSG 210400Z JUN 14.",
+    "valid_from": "2014-06-03T00:43:00+00:00",
+    "valid_until": "2014-06-21T04:00:00+00:00",
+    "summary": null
   }
 }

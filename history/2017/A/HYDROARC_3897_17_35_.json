@@ -3,17 +3,25 @@
   "id": "HYDROARC 3897/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8116666666666665,
+      57.858333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-12-03T12:03:00",
     "raw_dtg": "031203Z DEC 17",
     "msg_id": "HYDROARC 3897/17(35)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 161/18"
+      "3407/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19, DNC 20.\nCHART 35078.\n1. RUBHA REIDH LIGHT 57-51.5N 005-48.7W RANGE\n   TEMPORARILY REDUCED TO 12 MILES.\n2. CANCEL HYDROLANT 3407/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19, DNC 20.\nCHART 35078.\n1. RUBHA REIDH LIGHT 57-51.5N 005-48.7W RANGE\n   TEMPORARILY REDUCED TO 12 MILES.\n2. CANCEL HYDROLANT 3407/17.",
+    "valid_from": "2017-12-03T12:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

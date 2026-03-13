@@ -3,17 +3,25 @@
   "id": "HYDROARC 617/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.635,
+      -1.1666666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-03-14T05:11:00",
     "raw_dtg": "140511Z MAR 15",
     "msg_id": "HYDROARC 617/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 617/15"
+      "THIS MSG 09 SEP 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. PONTA DA PRAIA GRANDE LIGHT 01-10.0S 045-38.1W UNLIT.\n2. CANCEL THIS MSG 09 SEP 15."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24270.\n1. PONTA DA PRAIA GRANDE LIGHT 01-10.0S 045-38.1W UNLIT.\n2. CANCEL THIS MSG 09 SEP 15.",
+    "valid_from": "2015-03-14T05:11:00+00:00",
+    "valid_until": "2015-09-09T00:00:00+00:00",
+    "summary": null
   }
 }

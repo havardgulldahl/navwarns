@@ -3,18 +3,25 @@
   "id": "HYDROARC 1665/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.0,
+      -0.17666666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-05-15T23:43:00",
     "raw_dtg": "152343Z MAY 20",
     "msg_id": "HYDROARC 1665/20(24)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 201800Z MAY 20",
-      "HYDROARC 1665/20"
+      "THIS MSG 201800Z MAY 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 201400Z TO 201700Z MAY\n   WITHIN SIX MILES OF 00-10.6S 047-00.0W.\n2. CANCEL THIS MSG 201800Z MAY 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 201400Z TO 201700Z MAY\n   WITHIN SIX MILES OF 00-10.6S 047-00.0W.\n2. CANCEL THIS MSG 201800Z MAY 20.",
+    "valid_from": "2020-05-15T23:43:00+00:00",
+    "valid_until": "2020-05-20T18:00:00+00:00",
+    "summary": null
   }
 }

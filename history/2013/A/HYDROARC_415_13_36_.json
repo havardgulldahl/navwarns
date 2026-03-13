@@ -3,17 +3,23 @@
   "id": "HYDROARC 415/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6666666666666665,
+      51.285
+    ]
   },
   "properties": {
     "dtg": "2013-02-15T04:15:00",
     "raw_dtg": "150415Z FEB 13",
     "msg_id": "HYDROARC 415/13(36)",
-    "cancellations": [
-      "HYDROARC 453/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP RAYMOND CROZE\nALONG TRACKLINE BETWEEN\n51-17.1N 003-40.0W AND 51-19.4N 003-47.9W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP RAYMOND CROZE\nALONG TRACKLINE BETWEEN\n51-17.1N 003-40.0W AND 51-19.4N 003-47.9W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2013-02-15T04:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

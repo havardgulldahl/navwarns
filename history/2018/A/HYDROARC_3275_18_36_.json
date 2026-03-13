@@ -3,17 +3,25 @@
   "id": "HYDROARC 3275/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.8566666666666665,
+      54.635
+    ]
   },
   "properties": {
     "dtg": "2018-10-18T18:53:00",
     "raw_dtg": "181853Z OCT 18",
     "msg_id": "HYDROARC 3275/18(36)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3285/18"
+      "3031/18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nSCOTLAND.\nDNC 20.\nCHART 36006.\n1. MULL OF GALLOWAY LIGHT 54-38.1N 004-51.4W\n   UNLIT.\n2. CANCEL HYDROLANT 3031/18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nSCOTLAND.\nDNC 20.\nCHART 36006.\n1. MULL OF GALLOWAY LIGHT 54-38.1N 004-51.4W\n   UNLIT.\n2. CANCEL HYDROLANT 3031/18.",
+    "valid_from": "2018-10-18T18:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

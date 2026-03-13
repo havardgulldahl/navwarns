@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1326/19(23,29)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-04-29T15:05:00",
     "raw_dtg": "291505Z APR 19",
     "msg_id": "HYDROARC 1326/19(23,29)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 301505Z APR 19",
-      "HYDROARC 1326/19"
+      "THIS MSG 301505Z APR 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WEDDELL SEA.\nSCOTIA SEA.\nANTARCTICA.\nDNC 01, DNC 07, DNC 29.\n1. ICEBERGS REPORTED IN:\n   A. B09F, 56-52S 042-32W.\n   B. A57A, 60-17S 054-01W.\n   C. A68B, 64-35S 059-20W.\n   D. A68A, 64-57S 059-33W.\n2. CANCEL THIS MSG 301505Z APR 19."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WEDDELL SEA.\nSCOTIA SEA.\nANTARCTICA.\nDNC 01, DNC 07, DNC 29.\n1. ICEBERGS REPORTED IN:\n   A. B09F, 56-52S 042-32W.\n   B. A57A, 60-17S 054-01W.\n   C. A68B, 64-35S 059-20W.\n   D. A68A, 64-57S 059-33W.\n2. CANCEL THIS MSG 301505Z APR 19.",
+    "valid_from": "2019-04-29T15:05:00+00:00",
+    "valid_until": "2019-04-30T15:05:00+00:00",
+    "summary": null
   }
 }

@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 1706/20(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.05195,
+          34.6775
+        ],
+        [
+          33.06028333333333,
+          34.67305
+        ],
+        [
+          33.05055,
+          34.66445
+        ],
+        [
+          33.04388333333333,
+          34.67028333333333
+        ],
+        [
+          33.05195,
+          34.6775
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-05-20T12:29:00",
     "raw_dtg": "201229Z MAY 20",
     "msg_id": "HYDROARC 1706/20(54)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 220600Z MAY 20",
-      "HYDROARC 1706/20"
+      "THIS MSG 220600Z MAY 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. HAZARDOUS OPERATIONS 220400Z TO 220500Z MAY\n   IN AREA BOUND BY\n   34-40.650N 033-03.117E, 34-40.383N 033-03.617E,\n   34-39.867N 033-03.033E, 34-40.217N 033-02.633E.\n2. CANCEL THIS MSG 220600Z MAY 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. HAZARDOUS OPERATIONS 220400Z TO 220500Z MAY\n   IN AREA BOUND BY\n   34-40.650N 033-03.117E, 34-40.383N 033-03.617E,\n   34-39.867N 033-03.033E, 34-40.217N 033-02.633E.\n2. CANCEL THIS MSG 220600Z MAY 20.",
+    "valid_from": "2020-05-20T12:29:00+00:00",
+    "valid_until": "2020-05-22T06:00:00+00:00",
+    "summary": null
   }
 }

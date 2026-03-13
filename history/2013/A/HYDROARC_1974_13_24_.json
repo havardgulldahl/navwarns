@@ -3,18 +3,25 @@
   "id": "HYDROARC 1974/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.755,
+      -3.796666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-08-13T00:53:00",
     "raw_dtg": "130053Z AUG 13",
     "msg_id": "HYDROARC 1974/13(24)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 160100Z AUG 13",
-      "HYDROARC 1979/13"
+      "THIS MSG 160100Z AUG 13"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\n1. DERELICT VESSEL RAMCO CRUSADER ADRIFT\n   VICINITY 03-47.8S 037-45.3W AT 122120Z AUG.\n2. CANCEL THIS MSG 160100Z AUG 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\n1. DERELICT VESSEL RAMCO CRUSADER ADRIFT\n   VICINITY 03-47.8S 037-45.3W AT 122120Z AUG.\n2. CANCEL THIS MSG 160100Z AUG 13.",
+    "valid_from": "2013-08-13T00:53:00+00:00",
+    "valid_until": "2013-08-16T01:00:00+00:00",
+    "summary": null
   }
 }

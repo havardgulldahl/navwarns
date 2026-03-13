@@ -3,18 +3,25 @@
   "id": "HYDROARC 3877/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.296666666666667,
+      50.108333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-11-30T20:29:00",
     "raw_dtg": "302029Z NOV 17",
     "msg_id": "HYDROARC 3877/17(37)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 032029Z DEC 17",
-      "HYDROARC 3877/17"
+      "THIS MSG 032029Z DEC 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. MINE ADRIFT IN VICINITY 50-06.5N 004-17.8W.\n2. CANCEL THIS MSG 032029Z DEC 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. MINE ADRIFT IN VICINITY 50-06.5N 004-17.8W.\n2. CANCEL THIS MSG 032029Z DEC 17.",
+    "valid_from": "2017-11-30T20:29:00+00:00",
+    "valid_until": "2017-12-03T20:29:00+00:00",
+    "summary": null
   }
 }

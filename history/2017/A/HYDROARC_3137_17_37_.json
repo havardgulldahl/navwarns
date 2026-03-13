@@ -3,17 +3,23 @@
   "id": "HYDROARC 3137/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.25,
+      44.645
+    ]
   },
   "properties": {
     "dtg": "2017-10-03T08:21:00",
     "raw_dtg": "030821Z OCT 17",
     "msg_id": "HYDROARC 3137/17(37)",
-    "cancellations": [
-      "HYDROARC 3422/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nCHART 37032, 37420.\nDGPS STATION AT CAP FERRET LIGHT 44-38.7N 001-15.0W\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nCHART 37032, 37420.\nDGPS STATION AT CAP FERRET LIGHT 44-38.7N 001-15.0W\nOFF AIR.",
+    "valid_from": "2017-10-03T08:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

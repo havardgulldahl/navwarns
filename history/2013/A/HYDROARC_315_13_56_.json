@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 315/13(56)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         14.316666666666666,
@@ -22,11 +22,14 @@
     "dtg": "2013-02-04T19:49:00",
     "raw_dtg": "041949Z FEB 13",
     "msg_id": "HYDROARC 315/13(56)",
-    "cancellations": [
-      "HYDROARC 361/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "MEDITERRANEAN SEA.\nLIBYA.\nCABLE REPAIR OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP RENE DESCARTES WITH SUBMERSIBLE\nALONG TRACKLINE JOINING\n32-40.07N 014-19.00E, \n32-40.07N 014-19.80E,\n32-40.70N 014-22.00E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "MEDITERRANEAN SEA.\nLIBYA.\nCABLE REPAIR OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP RENE DESCARTES WITH SUBMERSIBLE\nALONG TRACKLINE JOINING\n32-40.07N 014-19.00E, \n32-40.07N 014-19.80E,\n32-40.70N 014-22.00E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2013-02-04T19:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

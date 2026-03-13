@@ -3,17 +3,23 @@
   "id": "HYDROARC 2355/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.29,
+      57.14833333333333
+    ]
   },
   "properties": {
     "dtg": "2015-09-21T08:20:00",
     "raw_dtg": "210820Z SEP 15",
     "msg_id": "HYDROARC 2355/15(35)",
-    "cancellations": [
-      "HYDROARC 2364/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nLITTLE MINCH.\nDNC 19.\nCHART 35092.\nGASAY LIGHT 57-08.9N 007-17.4W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nLITTLE MINCH.\nDNC 19.\nCHART 35092.\nGASAY LIGHT 57-08.9N 007-17.4W UNLIT.",
+    "valid_from": "2015-09-21T08:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

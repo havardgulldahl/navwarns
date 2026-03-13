@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 30/18(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2018-01-03T19:43:00",
     "raw_dtg": "031943Z JAN 18",
     "msg_id": "HYDROARC 30/18(35)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 30/18"
+      "10/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCANCEL HYDROLANT 10/18 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCANCEL HYDROLANT 10/18 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2018-01-03T19:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

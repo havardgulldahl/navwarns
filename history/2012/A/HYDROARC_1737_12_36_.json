@@ -3,17 +3,23 @@
   "id": "HYDROARC 1737/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.5616666666666665,
+      53.875
+    ]
   },
   "properties": {
     "dtg": "2012-07-30T17:39:00",
     "raw_dtg": "301739Z JUL 12",
     "msg_id": "HYDROARC 1737/12(36)",
-    "cancellations": [
-      "HYDROARC 1795/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nCHART 36025\nFOG SIGNAL AT PLATFORM DP4 110/3\n53-52.5N 003-33.7W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nCHART 36025\nFOG SIGNAL AT PLATFORM DP4 110/3\n53-52.5N 003-33.7W INOPERATIVE.",
+    "valid_from": "2012-07-30T17:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

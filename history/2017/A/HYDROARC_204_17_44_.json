@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 204/17(44)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-01-20T08:39:00",
     "raw_dtg": "200839Z JAN 17",
     "msg_id": "HYDROARC 204/17(44)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 231600Z JAN 17",
-      "HYDROARC 204/17"
+      "THIS MSG 231600Z JAN 17"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN BALTIC SEA.\nLITHUANIA.\nHAZARDOUS OPERATIONS.\nDNC 22.\n1. HAZARDOUS OPERATIONS 230800Z TO 231500Z JAN\n   IN AREA BOUND BY\n   55-37N 020-46E, 55-34N 021-00E,\n   55-25N 021-00E, 55-22N 020-46E,\n   55-25N 020-42E, 55-34N 020-42E.\n2. CANCEL THIS MSG 231600Z JAN 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN BALTIC SEA.\nLITHUANIA.\nHAZARDOUS OPERATIONS.\nDNC 22.\n1. HAZARDOUS OPERATIONS 230800Z TO 231500Z JAN\n   IN AREA BOUND BY\n   55-37N 020-46E, 55-34N 021-00E,\n   55-25N 021-00E, 55-22N 020-46E,\n   55-25N 020-42E, 55-34N 020-42E.\n2. CANCEL THIS MSG 231600Z JAN 17.",
+    "valid_from": "2017-01-20T08:39:00+00:00",
+    "valid_until": "2017-01-23T16:00:00+00:00",
+    "summary": null
   }
 }

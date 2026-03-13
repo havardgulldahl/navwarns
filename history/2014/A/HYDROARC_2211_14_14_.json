@@ -3,17 +3,23 @@
   "id": "HYDROARC 2211/14(14)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.795,
+      41.656666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-09-12T13:00:00",
     "raw_dtg": "121300Z SEP 14",
     "msg_id": "HYDROARC 2211/14(14)",
-    "cancellations": [
-      "HYDROARC 2342/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nMAN OVERBOARD VICINITY 41-39.4N 047-47.7W AT\n111945Z SEP. VESSELS IN VICINITY REQUESTED\nKEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON, PHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nMAN OVERBOARD VICINITY 41-39.4N 047-47.7W AT\n111945Z SEP. VESSELS IN VICINITY REQUESTED\nKEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC BOSTON, PHONE: 617 223 8555,\nE-MAIL: RCCBOSTON@USCG.MIL.",
+    "valid_from": "2014-09-12T13:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

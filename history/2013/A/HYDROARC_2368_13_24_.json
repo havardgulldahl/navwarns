@@ -3,18 +3,25 @@
   "id": "HYDROARC 2368/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.975,
+      -5.358333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-09-25T00:05:00",
     "raw_dtg": "250005Z SEP 13",
     "msg_id": "HYDROARC 2368/13(24)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 271600Z SEP 13",
-      "HYDROARC 2368/13"
+      "THIS MSG 271600Z SEP 13"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 270900Z TO 271500Z SEP\n   WITHIN TEN MILES OF 05-21.5S 034-58.5W.\n2. CANCEL THIS MSG 271600Z SEP 13."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 270900Z TO 271500Z SEP\n   WITHIN TEN MILES OF 05-21.5S 034-58.5W.\n2. CANCEL THIS MSG 271600Z SEP 13.",
+    "valid_from": "2013-09-25T00:05:00+00:00",
+    "valid_until": "2013-09-27T16:00:00+00:00",
+    "summary": null
   }
 }

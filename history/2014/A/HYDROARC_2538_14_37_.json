@@ -3,17 +3,23 @@
   "id": "HYDROARC 2538/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.7483333333333333,
+      53.31333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-10-18T18:53:00",
     "raw_dtg": "181853Z OCT 14",
     "msg_id": "HYDROARC 2538/14(37)",
-    "cancellations": [
-      "HYDROARC 2909/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37059.\nFOG SIGNAL AT RACE BANK OFFSHORE WIND FARM\nMETEOROLOGICAL MAST 53-18.8N 000-44.9E INOPERATIVE."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37059.\nFOG SIGNAL AT RACE BANK OFFSHORE WIND FARM\nMETEOROLOGICAL MAST 53-18.8N 000-44.9E INOPERATIVE.",
+    "valid_from": "2014-10-18T18:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

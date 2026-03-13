@@ -3,17 +3,23 @@
   "id": "HYDROARC 1263/17(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.923333333333334,
+      35.791666666666664
+    ]
   },
   "properties": {
     "dtg": "2017-04-20T16:33:00",
     "raw_dtg": "201633Z APR 17",
     "msg_id": "HYDROARC 1263/17(51)",
-    "cancellations": [
-      "HYDROARC 82/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSTRAIT OF GIBRALTAR.\nMOROCCO-NORTHWEST COAST.\nDNC 08.\nCHART 51160.\nCAP SPARTEL LIGHT 35-47.5N 005-55.4W UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSTRAIT OF GIBRALTAR.\nMOROCCO-NORTHWEST COAST.\nDNC 08.\nCHART 51160.\nCAP SPARTEL LIGHT 35-47.5N 005-55.4W UNLIT.",
+    "valid_from": "2017-04-20T16:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

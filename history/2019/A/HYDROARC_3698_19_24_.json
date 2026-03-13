@@ -3,17 +3,25 @@
   "id": "HYDROARC 3698/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.42166666666667,
+      -5.22
+    ]
   },
   "properties": {
     "dtg": "2019-12-02T23:58:00",
     "raw_dtg": "022358Z DEC 19",
     "msg_id": "HYDROARC 3698/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3783/19"
+      "THIS MSG 31 MAY 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. PONTA DA GAMELEIRA LIGHT 05-13.2S 035-25.3W\n   UNLIT UNTIL 30 MAY 20.\n2. CANCEL THIS MSG 31 MAY 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. PONTA DA GAMELEIRA LIGHT 05-13.2S 035-25.3W\n   UNLIT UNTIL 30 MAY 20.\n2. CANCEL THIS MSG 31 MAY 20.",
+    "valid_from": "2019-12-02T23:58:00+00:00",
+    "valid_until": "2020-05-31T00:00:00+00:00",
+    "summary": null
   }
 }

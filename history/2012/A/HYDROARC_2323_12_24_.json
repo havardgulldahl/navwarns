@@ -3,17 +3,23 @@
   "id": "HYDROARC 2323/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.37,
+      -23.63
+    ]
   },
   "properties": {
     "dtg": "2012-10-04T01:23:00",
     "raw_dtg": "040123Z OCT 12",
     "msg_id": "HYDROARC 2323/12(24)",
-    "cancellations": [
-      "HYDROARC 2813/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24151\nMASSAGUACU LIGHT 23-37.8S 045-22.2W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24151\nMASSAGUACU LIGHT 23-37.8S 045-22.2W UNLIT.",
+    "valid_from": "2012-10-04T01:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

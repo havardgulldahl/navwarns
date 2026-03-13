@@ -3,18 +3,25 @@
   "id": "HYDROARC 846/24(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.041666666666664,
+      -23.066666666666666
+    ]
   },
   "properties": {
     "dtg": "2024-04-21T00:58:00",
     "raw_dtg": "210058Z APR 24",
     "msg_id": "HYDROARC 846/24(24)",
+    "year": 2024,
     "cancellations": [
-      "THIS MSG 200001Z MAY 24",
-      "HYDROARC 846/24"
+      "THIS MSG 200001Z MAY 24"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS\n   UNTIL 19 MAY IN 23-04.0S 043-02.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 200001Z MAY 24."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS\n   UNTIL 19 MAY IN 23-04.0S 043-02.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 200001Z MAY 24.",
+    "valid_from": "2024-04-21T00:58:00+00:00",
+    "valid_until": "2024-05-20T00:01:00+00:00",
+    "summary": null
   }
 }

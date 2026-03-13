@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 406/24(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2024-02-27T14:16:00",
     "raw_dtg": "271416Z FEB 24",
     "msg_id": "HYDROARC 406/24(37)",
+    "year": 2024,
     "cancellations": [
-      "HYDROARC 406/24"
+      "397/24"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCANCEL HYDROLANT 397/24 AND THIS MSG,\nAID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCANCEL HYDROLANT 397/24 AND THIS MSG,\nAID RESTORED.",
+    "valid_from": "2024-02-27T14:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

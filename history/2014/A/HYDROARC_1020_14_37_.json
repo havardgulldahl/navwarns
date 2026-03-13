@@ -3,17 +3,25 @@
   "id": "HYDROARC 1020/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.33,
+      53.446666666666665
+    ]
   },
   "properties": {
     "dtg": "2014-04-15T11:35:00",
     "raw_dtg": "151135Z APR 14",
     "msg_id": "HYDROARC 1020/14(37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1023/14"
+      "658/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37057\n1. ALL NAVIGATIONAL AIDS AT SATELLITE PLATFORMS\n   WITHIN FOUR MILES OF VIKING BRAVO PLATFORM\n   53-26.8N 002-19.8E UNRELIABLE.\n2. CANCEL HYDROLANT 658/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37057\n1. ALL NAVIGATIONAL AIDS AT SATELLITE PLATFORMS\n   WITHIN FOUR MILES OF VIKING BRAVO PLATFORM\n   53-26.8N 002-19.8E UNRELIABLE.\n2. CANCEL HYDROLANT 658/14.",
+    "valid_from": "2014-04-15T11:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

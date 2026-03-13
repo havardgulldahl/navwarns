@@ -3,17 +3,23 @@
   "id": "HYDROARC 3755/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.676666666666667,
+      51.20166666666667
+    ]
   },
   "properties": {
     "dtg": "2018-12-01T20:17:00",
     "raw_dtg": "012017Z DEC 18",
     "msg_id": "HYDROARC 3755/18(36)",
-    "cancellations": [
-      "HYDROARC 3787/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36049\nLUNDY ISLAND LIGHT 51-12.1N 004-40.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36049\nLUNDY ISLAND LIGHT 51-12.1N 004-40.6W UNRELIABLE.",
+    "valid_from": "2018-12-01T20:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

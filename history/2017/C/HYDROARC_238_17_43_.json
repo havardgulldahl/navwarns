@@ -3,18 +3,25 @@
   "id": "HYDROARC 238/17(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      19.758333333333333,
+      72.99
+    ]
   },
   "properties": {
     "dtg": "2017-08-29T18:41:00",
     "raw_dtg": "291841Z AUG 17",
     "msg_id": "HYDROARC 238/17(43)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 011841Z SEP 17",
-      "HYDROARC 238/17"
+      "THIS MSG 011841Z SEP 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nSVALBARD.\nDNC 22.\nCHART 804.\n1. FISHING GEAR ABANDONED IN VICINITY\n   72-59.4N 019-45.5E AT 291200Z AUG.\n2. CANCEL THIS MSG 011841Z SEP 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nSVALBARD.\nDNC 22.\nCHART 804.\n1. FISHING GEAR ABANDONED IN VICINITY\n   72-59.4N 019-45.5E AT 291200Z AUG.\n2. CANCEL THIS MSG 011841Z SEP 17.",
+    "valid_from": "2017-08-29T18:41:00+00:00",
+    "valid_until": "2017-09-01T18:41:00+00:00",
+    "summary": null
   }
 }

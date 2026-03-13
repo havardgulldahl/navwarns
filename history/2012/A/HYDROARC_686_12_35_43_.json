@@ -3,17 +3,23 @@
   "id": "HYDROARC 686/12(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8383333333333334,
+      57.01166666666666
+    ]
   },
   "properties": {
     "dtg": "2012-03-27T10:00:00",
     "raw_dtg": "271000Z MAR 12",
     "msg_id": "HYDROARC 686/12(35,43)",
-    "cancellations": [
-      "HYDROARC 969/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nCHART 35004\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE\nUNLESS AUTHORIZED BY MRCC ABERDEEN WITHIN\nTWO MILES OF 57-00.7N 001-50.3E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nCHART 35004\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE\nUNLESS AUTHORIZED BY MRCC ABERDEEN WITHIN\nTWO MILES OF 57-00.7N 001-50.3E.",
+    "valid_from": "2012-03-27T10:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

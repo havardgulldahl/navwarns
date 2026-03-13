@@ -3,17 +3,25 @@
   "id": "HYDROARC 2832/15(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.7283333333333334,
+      60.425
+    ]
   },
   "properties": {
     "dtg": "2015-11-17T15:26:00",
     "raw_dtg": "171526Z NOV 15",
     "msg_id": "HYDROARC 2832/15(35,43)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2838/15"
+      "2814/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35172.\n1. OUT SKERRIES LIGHT 60-25.5N 000-43.7W UNRELIABLE.\n2. CANCEL HYDROLANT 2814/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35172.\n1. OUT SKERRIES LIGHT 60-25.5N 000-43.7W UNRELIABLE.\n2. CANCEL HYDROLANT 2814/15.",
+    "valid_from": "2015-11-17T15:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

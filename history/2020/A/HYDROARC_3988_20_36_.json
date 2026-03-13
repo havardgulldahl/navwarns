@@ -3,17 +3,23 @@
   "id": "HYDROARC 3988/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.201666666666666,
+      51.19833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-12-27T17:54:00",
     "raw_dtg": "271754Z DEC 20",
     "msg_id": "HYDROARC 3988/20(36)",
-    "cancellations": [
-      "HYDROARC 3993/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nENGLAND.\nDNC 20.\nBULL POINT LIGHT 51-11.9N 004-12.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nENGLAND.\nDNC 20.\nBULL POINT LIGHT 51-11.9N 004-12.1W UNRELIABLE.",
+    "valid_from": "2020-12-27T17:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

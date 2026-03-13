@@ -3,17 +3,25 @@
   "id": "HYDROARC 2035/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4533333333333334,
+      50.75
+    ]
   },
   "properties": {
     "dtg": "2015-08-19T14:07:00",
     "raw_dtg": "191407Z AUG 15",
     "msg_id": "HYDROARC 2035/15(37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2186/15"
+      "1723/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nDNC 20.\nCHART 37103, 37106.\n1. ZC1 BUOY 50-45.0N 001-27.2E TEMPORARILY REMOVED.\n2. CANCEL HYDROLANT 1723/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nDNC 20.\nCHART 37103, 37106.\n1. ZC1 BUOY 50-45.0N 001-27.2E TEMPORARILY REMOVED.\n2. CANCEL HYDROLANT 1723/15.",
+    "valid_from": "2015-08-19T14:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

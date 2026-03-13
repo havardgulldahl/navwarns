@@ -3,17 +3,23 @@
   "id": "HYDROARC 1007/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.1416666666666666,
+      60.19166666666667
+    ]
   },
   "properties": {
     "dtg": "2014-04-12T23:17:00",
     "raw_dtg": "122317Z APR 14",
     "msg_id": "HYDROARC 1007/14(35)",
-    "cancellations": [
-      "HYDROARC 1015/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35063\nROVA HEAD LIGHT 60-11.5N 001-08.5W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35063\nROVA HEAD LIGHT 60-11.5N 001-08.5W UNLIT.",
+    "valid_from": "2014-04-12T23:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

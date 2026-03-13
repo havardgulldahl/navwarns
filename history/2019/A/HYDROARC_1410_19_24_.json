@@ -3,17 +3,25 @@
   "id": "HYDROARC 1410/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.9,
+      1.1883333333333335
+    ]
   },
   "properties": {
     "dtg": "2019-05-08T01:07:00",
     "raw_dtg": "080107Z MAY 19",
     "msg_id": "HYDROARC 1410/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1410/19"
+      "THIS MSG 04 NOV 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24320.\n1. GUARA LIGHT 01-11.3N 049-54.0W UNLIT\n   UNTIL 03 NOV.\n2. CANCEL THIS MSG 04 NOV 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24320.\n1. GUARA LIGHT 01-11.3N 049-54.0W UNLIT\n   UNTIL 03 NOV.\n2. CANCEL THIS MSG 04 NOV 19.",
+    "valid_from": "2019-05-08T01:07:00+00:00",
+    "valid_until": "2019-11-04T00:00:00+00:00",
+    "summary": null
   }
 }

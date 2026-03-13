@@ -3,17 +3,23 @@
   "id": "HYDROARC 1865/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.9066666666666667,
+      51.321666666666665
+    ]
   },
   "properties": {
     "dtg": "2018-06-11T17:15:00",
     "raw_dtg": "111715Z JUN 18",
     "msg_id": "HYDROARC 1865/18(37)",
-    "cancellations": [
-      "HYDROARC 1906/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V MAERSK CONNECTOR IN\n51-19.3N 001-54.4E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V MAERSK CONNECTOR IN\n51-19.3N 001-54.4E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2018-06-11T17:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

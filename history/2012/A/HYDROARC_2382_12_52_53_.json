@@ -3,17 +3,26 @@
   "id": "HYDROARC 2382/12(52,53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      4.473333333333334,
+      39.82833333333333
+    ]
   },
   "properties": {
     "dtg": "2012-10-11T15:22:00",
     "raw_dtg": "111522Z OCT 12",
     "msg_id": "HYDROARC 2382/12(52,53)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2382/12"
+      "THIS MSG 09 DEC 12",
+      "2378/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 08 DEC BY\n   VESSEL WITH SUBMERIBLE ALONG TRACKLINE BETWEEN\n   39-49.7N 004-28.4E AND 39-49.7N 008-05.8E.\n2. CANCEL HYDROLANT 2378/12(57).\n3. CANCEL THIS MSG 09 DEC 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 08 DEC BY\n   VESSEL WITH SUBMERIBLE ALONG TRACKLINE BETWEEN\n   39-49.7N 004-28.4E AND 39-49.7N 008-05.8E.\n2. CANCEL HYDROLANT 2378/12(57).\n3. CANCEL THIS MSG 09 DEC 12.",
+    "valid_from": "2012-10-11T15:22:00+00:00",
+    "valid_until": "2012-12-09T00:00:00+00:00",
+    "summary": null
   }
 }

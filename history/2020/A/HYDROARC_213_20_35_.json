@@ -3,17 +3,23 @@
   "id": "HYDROARC 213/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.025,
+      58.64388888888889
+    ]
   },
   "properties": {
     "dtg": "2020-01-22T07:52:00",
     "raw_dtg": "220752Z JAN 20",
     "msg_id": "HYDROARC 213/20(35)",
-    "cancellations": [
-      "HYDROARC 247/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nORKNEY ISLANDS.\nDNC 20.\nRACON AT DUNCANSBY HEAD LIGHT 58-38-38N 003-01-30W\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nORKNEY ISLANDS.\nDNC 20.\nRACON AT DUNCANSBY HEAD LIGHT 58-38-38N 003-01-30W\nINOPERATIVE.",
+    "valid_from": "2020-01-22T07:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 1526/23(55)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        28.883333333333333,
-        44.333333333333336
-      ],
-      [
-        29.0,
-        44.333333333333336
-      ],
-      [
-        29.0,
-        44.25
-      ],
-      [
-        28.883333333333333,
-        44.25
+        [
+          28.883333333333333,
+          44.333333333333336
+        ],
+        [
+          29.0,
+          44.333333333333336
+        ],
+        [
+          29.0,
+          44.25
+        ],
+        [
+          28.883333333333333,
+          44.25
+        ],
+        [
+          28.883333333333333,
+          44.333333333333336
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2023-07-07T12:53:00",
     "raw_dtg": "071253Z JUL 23",
     "msg_id": "HYDROARC 1526/23(55)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 140001Z JUL 23",
-      "HYDROARC 1551/23"
+      "THIS MSG 140001Z JUL 23"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 11 THRU 13 JUL\n   IN AREA BOUND BY\n   44-20.00N 028-53.00E, 44-20.00N 029-00.00E,\n   44-15.00N 029-00.00E, 44-15.00N 028-53.00E.\n2. CANCEL THIS MSG 140001Z JUL 23."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 11 THRU 13 JUL\n   IN AREA BOUND BY\n   44-20.00N 028-53.00E, 44-20.00N 029-00.00E,\n   44-15.00N 029-00.00E, 44-15.00N 028-53.00E.\n2. CANCEL THIS MSG 140001Z JUL 23.",
+    "valid_from": "2023-07-07T12:53:00+00:00",
+    "valid_until": "2023-07-14T00:01:00+00:00",
+    "summary": null
   }
 }

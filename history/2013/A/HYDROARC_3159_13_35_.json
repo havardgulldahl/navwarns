@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3159/13(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-12-07T17:24:00",
     "raw_dtg": "071724Z DEC 13",
     "msg_id": "HYDROARC 3159/13(35)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 3159/13"
+      "3151/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nSHETLAND ISLANDS.\nCANCEL HYDROLANT 3151/13 AND THIS MSG, STATION RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nSHETLAND ISLANDS.\nCANCEL HYDROLANT 3151/13 AND THIS MSG, STATION RESTORED.",
+    "valid_from": "2013-12-07T17:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

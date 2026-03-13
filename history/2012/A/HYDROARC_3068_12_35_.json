@@ -3,17 +3,23 @@
   "id": "HYDROARC 3068/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2716666666666667,
+      59.855
+    ]
   },
   "properties": {
     "dtg": "2012-12-28T17:46:00",
     "raw_dtg": "281746Z DEC 12",
     "msg_id": "HYDROARC 3068/12(35)",
-    "cancellations": [
-      "HYDROARC 73/13"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35063\nDGPS STATION AT SUMBURGH HEAD LIGHT 59-51.3N 001-16.3W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35063\nDGPS STATION AT SUMBURGH HEAD LIGHT 59-51.3N 001-16.3W\nUNRELIABLE.",
+    "valid_from": "2012-12-28T17:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

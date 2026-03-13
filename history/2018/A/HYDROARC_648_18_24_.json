@@ -3,18 +3,25 @@
   "id": "HYDROARC 648/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -24.768333333333334,
+      -32.36833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-02-24T16:14:00",
     "raw_dtg": "241614Z FEB 18",
     "msg_id": "HYDROARC 648/18(24)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 271614Z FEB 18",
-      "HYDROARC 671/18"
+      "THIS MSG 271614Z FEB 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT BARGE, ORANGE HULL, ADRIFT IN\n   32-22.1S 024-46.1W AT 241440Z FEB.\n2. CANCEL THIS MSG 271614Z FEB 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT BARGE, ORANGE HULL, ADRIFT IN\n   32-22.1S 024-46.1W AT 241440Z FEB.\n2. CANCEL THIS MSG 271614Z FEB 18.",
+    "valid_from": "2018-02-24T16:14:00+00:00",
+    "valid_until": "2018-02-27T16:14:00+00:00",
+    "summary": null
   }
 }

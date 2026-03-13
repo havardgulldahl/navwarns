@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 1470/10(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -31.95,
+        37.080000000000005
+      ],
+      [
+        -34.106944444444444,
+        39.42111111111111
+      ],
+      [
+        -38.35888888888889,
+        37.591944444444444
+      ],
+      [
+        -32.401111111111106,
+        32.45305555555556
+      ],
+      [
+        -29.33111111111111,
+        36.25111111111111
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-07-31T21:14:00",
     "raw_dtg": "312114Z JUL 10",
     "msg_id": "HYDROARC 1470/10(51)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1470/10"
+      "1398/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS 03 THRU 09 AUG BY\n   M/V LE SUROIT ALONG TRACKLINE JOINING\n   37-04-48N 031-57-00W,\n   39-25-16N 034-06-25W,\n   37-35-31N 038-21-32W,\n   32-27-11N 032-24-04W,\n   36-15-04N 029-19-52W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1398/10.\n3. CANCEL THIS MSG 10 AUG."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS 03 THRU 09 AUG BY\n   M/V LE SUROIT ALONG TRACKLINE JOINING\n   37-04-48N 031-57-00W,\n   39-25-16N 034-06-25W,\n   37-35-31N 038-21-32W,\n   32-27-11N 032-24-04W,\n   36-15-04N 029-19-52W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1398/10.\n3. CANCEL THIS MSG 10 AUG.",
+    "valid_from": "2010-07-31T21:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

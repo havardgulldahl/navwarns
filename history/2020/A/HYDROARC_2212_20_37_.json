@@ -3,18 +3,25 @@
   "id": "HYDROARC 2212/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.635,
+      53.565
+    ]
   },
   "properties": {
     "dtg": "2020-07-13T10:38:00",
     "raw_dtg": "131038Z JUL 20",
     "msg_id": "HYDROARC 2212/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 131330Z JUL 20",
-      "HYDROARC 2212/20"
+      "THIS MSG 131330Z JUL 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. UNDERWATER ORDNANCE DETONATION 131230Z JUL\n   IN VICINITY OF AREA WITHIN\n   ONE MILE OF 53-33.9N 000-38.1E.\n2. CANCEL THIS MSG 131330Z JUL 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. UNDERWATER ORDNANCE DETONATION 131230Z JUL\n   IN VICINITY OF AREA WITHIN\n   ONE MILE OF 53-33.9N 000-38.1E.\n2. CANCEL THIS MSG 131330Z JUL 20.",
+    "valid_from": "2020-07-13T10:38:00+00:00",
+    "valid_until": "2020-07-13T13:30:00+00:00",
+    "summary": null
   }
 }

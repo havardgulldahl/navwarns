@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 92/16(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-01-11T22:09:00",
     "raw_dtg": "112209Z JAN 16",
     "msg_id": "HYDROARC 92/16(54)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 130900Z JAN 16",
-      "HYDROARC 92/16"
+      "THIS MSG 130900Z JAN 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nORDNANCE.\nDNC 09.\n1. TORPEDO FIRING EXERCISES 121800Z TO 130800Z JAN\n   IN AREA BETWEEN\n   36-55N 37-12N AND 023-05E 023-20E.\n2. CANCEL THIS MSG 130900Z JAN 16."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nORDNANCE.\nDNC 09.\n1. TORPEDO FIRING EXERCISES 121800Z TO 130800Z JAN\n   IN AREA BETWEEN\n   36-55N 37-12N AND 023-05E 023-20E.\n2. CANCEL THIS MSG 130900Z JAN 16.",
+    "valid_from": "2016-01-11T22:09:00+00:00",
+    "valid_until": "2016-01-13T09:00:00+00:00",
+    "summary": null
   }
 }

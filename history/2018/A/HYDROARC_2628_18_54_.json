@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 2628/18(54)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         20.13383333333333,
@@ -11,6 +11,10 @@
       [
         20.6245,
         37.694
+      ],
+      [
+        20.1575,
+        36.996
       ],
       [
         23.30216666666667,
@@ -22,12 +26,17 @@
     "dtg": "2018-08-16T21:24:00",
     "raw_dtg": "162124Z AUG 18",
     "msg_id": "HYDROARC 2628/18(54)",
+    "year": 2018,
     "cancellations": [
       "THIS MSG 192100Z AUG 18",
-      "HYDROARC 2628/18"
+      "2621/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IONIAN SEA.\nEASTERN MEDITERRANEAN\nGREECE.\nCRETE.\nDNC 09.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 19 AUG\n   BY M/V SONG OF THE WHALE ALONG TRACKLINE JOINING\n   39-14.35N 020-08.03E, 37-41.64N 020-37.47E,\n   36-59.76N 020-09-27E, 35-09.68N 023-18.13E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2621/18.\n3. CANCEL THIS MSG 192100Z AUG 18."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "IONIAN SEA.\nEASTERN MEDITERRANEAN\nGREECE.\nCRETE.\nDNC 09.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 19 AUG\n   BY M/V SONG OF THE WHALE ALONG TRACKLINE JOINING\n   39-14.35N 020-08.03E, 37-41.64N 020-37.47E,\n   36-59.76N 020-09-27E, 35-09.68N 023-18.13E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2621/18.\n3. CANCEL THIS MSG 192100Z AUG 18.",
+    "valid_from": "2018-08-16T21:24:00+00:00",
+    "valid_until": "2018-08-19T21:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 549/14(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.3933333333333335,
+      51.52333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-02-21T21:16:00",
     "raw_dtg": "212116Z FEB 14",
     "msg_id": "HYDROARC 549/14(35,36)",
-    "cancellations": [
-      "HYDROARC 557/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nWALES-SOUTH COAST.\nCHART 35024, 36044.\nWEST HAWK BUOY 51-31.4N 004-23.6W DAMAGED,\nUNLIT AND RACON INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nWALES-SOUTH COAST.\nCHART 35024, 36044.\nWEST HAWK BUOY 51-31.4N 004-23.6W DAMAGED,\nUNLIT AND RACON INOPERATIVE.",
+    "valid_from": "2014-02-21T21:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

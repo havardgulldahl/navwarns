@@ -3,17 +3,25 @@
   "id": "HYDROARC 1099/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.25333333333333,
+      -25.275
+    ]
   },
   "properties": {
     "dtg": "2010-06-13T01:27:00",
     "raw_dtg": "130127Z JUN 10",
     "msg_id": "HYDROARC 1099/10(24)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1099/10"
+      "1098/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\n1. BUOY ADRIFT VICINITY 25-16.5S 043-15.2W\n   AT 112020Z JUN.\n2. CANCEL HYDROLANT 1098/10.\n3. CANCEL THIS MSG 160125Z JUN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\n1. BUOY ADRIFT VICINITY 25-16.5S 043-15.2W\n   AT 112020Z JUN.\n2. CANCEL HYDROLANT 1098/10.\n3. CANCEL THIS MSG 160125Z JUN.",
+    "valid_from": "2010-06-13T01:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

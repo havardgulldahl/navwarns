@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 513/15",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-03-02T13:58:00",
     "raw_dtg": "021358Z MAR 15",
     "msg_id": "HYDROARC 513/15",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 513/15"
+      "403/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "INDIAN OCEAN.\nSOUTH AFRICA TO THAILAND.\nCANCEL HYDROLANT 403/15 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "INDIAN OCEAN.\nSOUTH AFRICA TO THAILAND.\nCANCEL HYDROLANT 403/15 AND THIS MSG.",
+    "valid_from": "2015-03-02T13:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 201/14(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      72.75644444444444,
+      72.05449999999999
+    ]
   },
   "properties": {
     "dtg": "2014-09-05T09:30:00",
     "raw_dtg": "050930Z SEP 14",
     "msg_id": "HYDROARC 201/14(42)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 265/14"
+      "THIS MSG 02 OCT 14"
     ],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "ARCTIC.\nKARA SEA.\nRUSSIA.\nCHART 42160\n1. SCIENTIFIC MOORING, MARKED BY BUOYS, ESTABLISHED\n   IN 72-03-16.2N 072-45-23.2E.\n   0.5 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 OCT 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nKARA SEA.\nRUSSIA.\nCHART 42160\n1. SCIENTIFIC MOORING, MARKED BY BUOYS, ESTABLISHED\n   IN 72-03-16.2N 072-45-23.2E.\n   0.5 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 OCT 14.",
+    "valid_from": "2014-09-05T09:30:00+00:00",
+    "valid_until": "2014-10-02T00:00:00+00:00",
+    "summary": null
   }
 }

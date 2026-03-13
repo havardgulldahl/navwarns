@@ -3,17 +3,23 @@
   "id": "HYDROARC 112/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.298333333333334,
+      43.053333333333335
+    ]
   },
   "properties": {
     "dtg": "2019-01-13T21:06:00",
     "raw_dtg": "132106Z JAN 19",
     "msg_id": "HYDROARC 112/19(37)",
-    "cancellations": [
-      "HYDROARC 221/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EAST NORTH ATLANTIC.\nSPAIN.\nDNC 08.\nCHART 37025.\nCABO TORINANA LIGHT 43-03.2N 009-17.9W AT\nREDUCED INTENSITY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EAST NORTH ATLANTIC.\nSPAIN.\nDNC 08.\nCHART 37025.\nCABO TORINANA LIGHT 43-03.2N 009-17.9W AT\nREDUCED INTENSITY.",
+    "valid_from": "2019-01-13T21:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

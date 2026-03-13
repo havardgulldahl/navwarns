@@ -3,17 +3,23 @@
   "id": "HYDROARC 694/11(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.08,
+      54.11666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-04-25T01:41:00",
     "raw_dtg": "250141Z APR 11",
     "msg_id": "HYDROARC 694/11(35,37)",
-    "cancellations": [
-      "HYDROARC 695/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nNGA CHART 35006 (1ST ED)\nFLAMBOROUGH LIGHT 54-07.0N 000-04.8W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nNGA CHART 35006 (1ST ED)\nFLAMBOROUGH LIGHT 54-07.0N 000-04.8W UNLIT.",
+    "valid_from": "2011-04-25T01:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,19 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 214/21(42,43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.6,
+          71.79666666666667
+        ],
+        [
+          33.3,
+          71.82333333333334
+        ],
+        [
+          42.6,
+          71.35333333333334
+        ],
+        [
+          41.60333333333333,
+          70.155
+        ],
+        [
+          32.74,
+          70.99333333333334
+        ],
+        [
+          28.445,
+          71.585
+        ],
+        [
+          28.6,
+          71.79666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-09-06T20:28:00",
     "raw_dtg": "062028Z SEP 21",
     "msg_id": "HYDROARC 214/21(42,43)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 121700Z SEP 21",
-      "HYDROARC 214/21"
+      "THIS MSG 121700Z SEP 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nNORWAY.\nDNC 22.\n1. MISSILE OPERATIONS 111300Z TO 111600Z,\n   0800Z TO 1000Z AND 1200Z TO 1600Z 12 SEP\n   IN AREA BOUND BY\n   71-47.8N 028-36.0E, 71-49.4N 033-18.0E,\n   71-21.2N 042-36.0E, 70-09.3N 041-36.2E,\n   70-59.6N 032-44.4E, 71-35.1N 028-26.7E.\n2. CANCEL THIS MSG 121700Z SEP 21."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nNORWAY.\nDNC 22.\n1. MISSILE OPERATIONS 111300Z TO 111600Z,\n   0800Z TO 1000Z AND 1200Z TO 1600Z 12 SEP\n   IN AREA BOUND BY\n   71-47.8N 028-36.0E, 71-49.4N 033-18.0E,\n   71-21.2N 042-36.0E, 70-09.3N 041-36.2E,\n   70-59.6N 032-44.4E, 71-35.1N 028-26.7E.\n2. CANCEL THIS MSG 121700Z SEP 21.",
+    "valid_from": "2021-09-06T20:28:00+00:00",
+    "valid_until": "2021-09-12T17:00:00+00:00",
+    "summary": null
   }
 }

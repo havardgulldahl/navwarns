@@ -3,17 +3,23 @@
   "id": "HYDROARC 1608/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.283333333333333,
+      58.943333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-08-26T14:08:00",
     "raw_dtg": "261408Z AUG 10",
     "msg_id": "HYDROARC 1608/10(35)",
-    "cancellations": [
-      "HYDROARC 1609/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nORKNEY ISLANDS.\nNGA CHART 35057(1ST ED).\nBARR ROCK BUOY ESTABLISHED IN 58-56.6N 003-17.0W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nORKNEY ISLANDS.\nNGA CHART 35057(1ST ED).\nBARR ROCK BUOY ESTABLISHED IN 58-56.6N 003-17.0W.",
+    "valid_from": "2010-08-26T14:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

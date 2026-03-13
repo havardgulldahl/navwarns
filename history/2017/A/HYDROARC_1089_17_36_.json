@@ -3,17 +3,25 @@
   "id": "HYDROARC 1089/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.7,
+      53.306666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-04-04T14:52:00",
     "raw_dtg": "041452Z APR 17",
     "msg_id": "HYDROARC 1089/17(36)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 1530/17"
+      "589/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nWALES.\nDNC 20.\nCHART 36006.\n1. SOUTH STACK LIGHT 53-18.4N 004-42.0W RANGE\n   TEMPORARILY REDUCED TO 18 MILES.\n2. CANCEL HYDROLANT 589/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nWALES.\nDNC 20.\nCHART 36006.\n1. SOUTH STACK LIGHT 53-18.4N 004-42.0W RANGE\n   TEMPORARILY REDUCED TO 18 MILES.\n2. CANCEL HYDROLANT 589/17.",
+    "valid_from": "2017-04-04T14:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

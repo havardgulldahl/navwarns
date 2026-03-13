@@ -3,17 +3,23 @@
   "id": "HYDROARC 2288/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.465,
+      57.04666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-12-30T22:06:00",
     "raw_dtg": "302206Z DEC 11",
     "msg_id": "HYDROARC 2288/11(35)",
-    "cancellations": [
-      "HYDROARC 47/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nSEA OF HEBRIDES.\nCHART 35093\nCANNA LIGHT 57-02.8N 006-27.9W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nSEA OF HEBRIDES.\nCHART 35093\nCANNA LIGHT 57-02.8N 006-27.9W UNLIT.",
+    "valid_from": "2011-12-30T22:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

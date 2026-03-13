@@ -3,17 +3,23 @@
   "id": "HYDROARC 2574/21(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      5.6899999999999995,
+      36.81666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-10-19T03:10:00",
     "raw_dtg": "190310Z OCT 21",
     "msg_id": "HYDROARC 2574/21(52)",
-    "cancellations": [
-      "HYDROARC 2606/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52220.\nRAS AFIA LIGHT 36-49.0N 005-41.4E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52220.\nRAS AFIA LIGHT 36-49.0N 005-41.4E UNRELIABLE.",
+    "valid_from": "2021-10-19T03:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

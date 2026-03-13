@@ -3,17 +3,23 @@
   "id": "HYDROARC 1871/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.01,
+      51.39666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-06-22T08:35:00",
     "raw_dtg": "220835Z JUN 19",
     "msg_id": "HYDROARC 1871/19(37)",
-    "cancellations": [
-      "HYDROARC 1876/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37120.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37120.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E UNLIT.",
+    "valid_from": "2019-06-22T08:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

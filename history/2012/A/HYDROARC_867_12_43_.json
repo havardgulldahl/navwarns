@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 867/12(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.535,
+          62.07833333333333
+        ],
+        [
+          4.11,
+          62.07333333333333
+        ],
+        [
+          4.1033333333333335,
+          61.325
+        ],
+        [
+          3.5366666666666666,
+          61.32666666666667
+        ],
+        [
+          3.535,
+          62.07833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-04-21T01:04:00",
     "raw_dtg": "210104Z APR 12",
     "msg_id": "HYDROARC 867/12(43)",
-    "cancellations": [
-      "HYDROARC 1376/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEO CASPIAN TOWING 14 6500 METER\nLONG CABLES IN AREA BOUND BY\n62-04.7N 003-32.1E, 62-04.4N 004-06.6E,\n61-19.5N 004-06.2E, 61-19.6N 003-32.2E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEO CASPIAN TOWING 14 6500 METER\nLONG CABLES IN AREA BOUND BY\n62-04.7N 003-32.1E, 62-04.4N 004-06.6E,\n61-19.5N 004-06.2E, 61-19.6N 003-32.2E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-04-21T01:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2158/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.115,
+      56.32333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-12-14T22:22:00",
     "raw_dtg": "142222Z DEC 11",
     "msg_id": "HYDROARC 2158/11(35)",
-    "cancellations": [
-      "HYDROARC 2165/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35106 (1ST ED).\nSKERRYVORE LIGHT 56-19.4N 007-06.9W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35106 (1ST ED).\nSKERRYVORE LIGHT 56-19.4N 007-06.9W UNLIT.",
+    "valid_from": "2011-12-14T22:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

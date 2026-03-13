@@ -2,18 +2,78 @@
   "type": "Feature",
   "id": "HYDROARC 1426/16(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.58,
+          43.73833333333333
+        ],
+        [
+          28.668333333333333,
+          43.986666666666665
+        ],
+        [
+          28.695,
+          44.12
+        ],
+        [
+          29.333333333333332,
+          44.68333333333333
+        ],
+        [
+          29.496666666666666,
+          44.75333333333333
+        ],
+        [
+          29.833333333333332,
+          45.01833333333333
+        ],
+        [
+          30.976666666666667,
+          44.776666666666664
+        ],
+        [
+          31.175,
+          44.736666666666665
+        ],
+        [
+          31.41,
+          44.04833333333333
+        ],
+        [
+          31.331666666666667,
+          43.44
+        ],
+        [
+          31.11,
+          43.33166666666666
+        ],
+        [
+          30.47833333333333,
+          43.62833333333333
+        ],
+        [
+          28.58,
+          43.73833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-06-10T12:34:00",
     "raw_dtg": "101234Z JUN 16",
     "msg_id": "HYDROARC 1426/16(55)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1426/16"
+      "THIS MSG 22 JUN 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. OCEANOGRAPHIC OPERATIONS 12 THRU 21 JUN\n   BY M/V AKDEMIK IN AREA BOUND BY\n   43-44.3N 028-34.8E, 43-59.2N 028-40.1E,\n   44-07.2N 028-41.7E, 44-41.0N 029-20.0E,\n   44-45.2N 029-29.8E, 45-01.1N 029-50.0E,\n   44-46.6N 030-58.6E, 44-44.2N 031-10.5E,\n   44-02.9N 031-24.6E, 43-26.4N 031-19.9E,\n   43-19.9N 031-06.6E, 43-37.7N 030-28.7E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 22 JUN 16."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. OCEANOGRAPHIC OPERATIONS 12 THRU 21 JUN\n   BY M/V AKDEMIK IN AREA BOUND BY\n   43-44.3N 028-34.8E, 43-59.2N 028-40.1E,\n   44-07.2N 028-41.7E, 44-41.0N 029-20.0E,\n   44-45.2N 029-29.8E, 45-01.1N 029-50.0E,\n   44-46.6N 030-58.6E, 44-44.2N 031-10.5E,\n   44-02.9N 031-24.6E, 43-26.4N 031-19.9E,\n   43-19.9N 031-06.6E, 43-37.7N 030-28.7E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 22 JUN 16.",
+    "valid_from": "2016-06-10T12:34:00+00:00",
+    "valid_until": "2016-06-22T00:00:00+00:00",
+    "summary": null
   }
 }

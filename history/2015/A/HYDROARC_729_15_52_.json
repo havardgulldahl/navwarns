@@ -3,18 +3,25 @@
   "id": "HYDROARC 729/15(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.951666666666666,
+      38.31166666666667
+    ]
   },
   "properties": {
     "dtg": "2015-03-27T00:35:00",
     "raw_dtg": "270035Z MAR 15",
     "msg_id": "HYDROARC 729/15(52)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 300030Z MAR 15",
-      "HYDROARC 729/15"
+      "THIS MSG 300030Z MAR 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "TYRRHENIAN SEA.\nDNC 08.\n1. 12.2 METER DERELICT VESSEL, GREY HULL,\n   CAPSIZED AND ADRIFT VICINITY 38-18.7N 010-57.1E\n   AT 261305Z MAR 15.\n2. CANCEL THIS MSG 300030Z MAR 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TYRRHENIAN SEA.\nDNC 08.\n1. 12.2 METER DERELICT VESSEL, GREY HULL,\n   CAPSIZED AND ADRIFT VICINITY 38-18.7N 010-57.1E\n   AT 261305Z MAR 15.\n2. CANCEL THIS MSG 300030Z MAR 15.",
+    "valid_from": "2015-03-27T00:35:00+00:00",
+    "valid_until": "2015-03-30T00:30:00+00:00",
+    "summary": null
   }
 }

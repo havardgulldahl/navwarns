@@ -1,19 +1,19 @@
 {
   "type": "Feature",
   "id": "HYDROARC 453/19(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-02-11T13:40:00",
     "raw_dtg": "111340Z FEB 19",
     "msg_id": "HYDROARC 453/19(54)",
-    "cancellations": [
-      "HYDROARC 689/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nDNC 10.\nCHART 54440.\nNEW PORT NORTH BREAKWATER HEAD 34-39.1N 33-01.5E\nUNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nDNC 10.\nCHART 54440.\nNEW PORT NORTH BREAKWATER HEAD 34-39.1N 33-01.5E\nUNLIT.",
+    "valid_from": "2019-02-11T13:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

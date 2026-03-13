@@ -3,17 +3,23 @@
   "id": "HYDROARC 551/12(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.42,
+      35.72666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-03-09T19:47:00",
     "raw_dtg": "091947Z MAR 12",
     "msg_id": "HYDROARC 551/12(51)",
-    "cancellations": [
-      "HYDROARC 581/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\nCABLE LAYING OPERATIONS 102300Z MAR UNTIL FURTHER\nNOTICE BY CABLESHIP PETER FABER\nALONG TRACKLINE BETWEEN\n35-43.6N 006-25.2W AND 35-44.0N 006-25.6W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\nCABLE LAYING OPERATIONS 102300Z MAR UNTIL FURTHER\nNOTICE BY CABLESHIP PETER FABER\nALONG TRACKLINE BETWEEN\n35-43.6N 006-25.2W AND 35-44.0N 006-25.6W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-03-09T19:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

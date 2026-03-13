@@ -3,17 +3,25 @@
   "id": "HYDROARC 3460/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.57,
+      -27.835
+    ]
   },
   "properties": {
     "dtg": "2018-11-07T09:54:00",
     "raw_dtg": "070954Z NOV 18",
     "msg_id": "HYDROARC 3460/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3656/18"
+      "THIS MSG 06 MAY 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24120.\n1. PONTA DOS NAUFRAGADOS LIGHT 27-50.1S 048-34.2W\n   UNLIT.\n2. CANCEL THIS MSG 06 MAY 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24120.\n1. PONTA DOS NAUFRAGADOS LIGHT 27-50.1S 048-34.2W\n   UNLIT.\n2. CANCEL THIS MSG 06 MAY 19.",
+    "valid_from": "2018-11-07T09:54:00+00:00",
+    "valid_until": "2019-05-06T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 558/11(23,24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         -54.59883333333333,
@@ -34,11 +34,16 @@
     "dtg": "2011-04-02T16:40:00",
     "raw_dtg": "021640Z APR 11",
     "msg_id": "HYDROARC 558/11(23,24)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 571/11"
+      "521/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARGENTINA-NORTHEAST COAST.\nURUGUAY-SOUTH COAST.\n1. GEOPHYSICAL SURVEY IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V REFLECT ARIES TOWING 8500 METER\n   LONG CABLE ALONG TRACKLINE JOINING\n   36-56.61S 054-35.93W, 34-36.98S 051-58.30W,\n   34-29.13S 052-04.01W, 34-47.66S 052-25.60W,\n   34-44.98S 052-48.01W, 34-26.28S 053-19.65W.\n   6.5 MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 521/11."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "ARGENTINA-NORTHEAST COAST.\nURUGUAY-SOUTH COAST.\n1. GEOPHYSICAL SURVEY IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V REFLECT ARIES TOWING 8500 METER\n   LONG CABLE ALONG TRACKLINE JOINING\n   36-56.61S 054-35.93W, 34-36.98S 051-58.30W,\n   34-29.13S 052-04.01W, 34-47.66S 052-25.60W,\n   34-44.98S 052-48.01W, 34-26.28S 053-19.65W.\n   6.5 MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 521/11.",
+    "valid_from": "2011-04-02T16:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

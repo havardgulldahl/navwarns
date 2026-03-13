@@ -3,17 +3,25 @@
   "id": "HYDROARC 399/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.286666666666667,
+      51.693333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-02-20T21:42:00",
     "raw_dtg": "202142Z FEB 12",
     "msg_id": "HYDROARC 399/12(36)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1786/12"
+      "392/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-SOUTHWEST COAST.\nCHART 36035\n1. SKOKHOLM LIGHT 51-41.6N 005-17.2W RANGE\n   REDUCED TO EIGHT MILES.\n2. CANCEL HYDROLANT 392/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-SOUTHWEST COAST.\nCHART 36035\n1. SKOKHOLM LIGHT 51-41.6N 005-17.2W RANGE\n   REDUCED TO EIGHT MILES.\n2. CANCEL HYDROLANT 392/12.",
+    "valid_from": "2012-02-20T21:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

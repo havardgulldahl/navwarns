@@ -3,18 +3,26 @@
   "id": "HYDROARC 3221/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.278333333333333,
+      50.71
+    ]
   },
   "properties": {
     "dtg": "2020-10-23T16:25:00",
     "raw_dtg": "231625Z OCT 20",
     "msg_id": "HYDROARC 3221/20(36)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 261625Z OCT 20",
-      "HYDROARC 3226/20"
+      "3195/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nBRISTOL CHANNEL.\nENGLAND.\nDNC 20.\n1. EIGHT CONTAINERS ADRIFT IN AREA WITHIN 12 MILES OF\n   50-42.6N 005-16.7W AT 231210Z OCT.\n2. CANCEL HYDROLANT 3195/20.\n3. CANCEL THIS MSG 261625Z OCT 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nBRISTOL CHANNEL.\nENGLAND.\nDNC 20.\n1. EIGHT CONTAINERS ADRIFT IN AREA WITHIN 12 MILES OF\n   50-42.6N 005-16.7W AT 231210Z OCT.\n2. CANCEL HYDROLANT 3195/20.\n3. CANCEL THIS MSG 261625Z OCT 20.",
+    "valid_from": "2020-10-23T16:25:00+00:00",
+    "valid_until": "2020-10-26T16:25:00+00:00",
+    "summary": null
   }
 }

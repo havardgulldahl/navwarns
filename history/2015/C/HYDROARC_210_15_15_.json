@@ -3,17 +3,23 @@
   "id": "HYDROARC 210/15(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -131.44833333333332,
+      69.95333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-08-02T11:32:00",
     "raw_dtg": "021132Z AUG 15",
     "msg_id": "HYDROARC 210/15(15)",
-    "cancellations": [
-      "HYDROARC 214/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nDNC 27.\nCHART 15945.\nATKINSON POINT LIGHT 69-57.2N 131-26.9W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nDNC 27.\nCHART 15945.\nATKINSON POINT LIGHT 69-57.2N 131-26.9W UNLIT.",
+    "valid_from": "2015-08-02T11:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

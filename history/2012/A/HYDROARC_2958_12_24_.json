@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 2958/12(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -39.492,
-        -23.457
-      ],
-      [
-        -40.025333333333336,
-        -22.732833333333332
-      ],
-      [
-        -40.791666666666664,
-        -23.21
-      ],
-      [
-        -40.256166666666665,
-        -23.953
+        [
+          -39.492,
+          -23.457
+        ],
+        [
+          -40.025333333333336,
+          -22.732833333333332
+        ],
+        [
+          -40.791666666666664,
+          -23.21
+        ],
+        [
+          -40.256166666666665,
+          -23.953
+        ],
+        [
+          -39.492,
+          -23.457
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2012-12-15T14:59:00",
     "raw_dtg": "151459Z DEC 12",
     "msg_id": "HYDROARC 2958/12(24)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 220259Z DEC 12",
-      "HYDROARC 2958/12"
+      "THIS MSG 220259Z DEC 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 220159Z DEC\n   BY M/V RAMFORM VIKING TOWING TEN 8100 METER\n   LONG CABLES IN AREA BOUND BY\n   23-27.42S 039-29.52W, 22-43.97S 040-01.52W,\n   23-12.60S 040-47.50W, 23-57.18S 040-15.37W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 220259Z DEC 12."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 220159Z DEC\n   BY M/V RAMFORM VIKING TOWING TEN 8100 METER\n   LONG CABLES IN AREA BOUND BY\n   23-27.42S 039-29.52W, 22-43.97S 040-01.52W,\n   23-12.60S 040-47.50W, 23-57.18S 040-15.37W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 220259Z DEC 12.",
+    "valid_from": "2012-12-15T14:59:00+00:00",
+    "valid_until": "2012-12-22T02:59:00+00:00",
+    "summary": null
   }
 }

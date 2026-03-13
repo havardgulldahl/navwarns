@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2325/17(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-07-27T20:39:00",
     "raw_dtg": "272039Z JUL 17",
     "msg_id": "HYDROARC 2325/17(36)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2325/17"
+      "2305/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WESTERN COAST.\nDNC 19.\nCANCEL HYDROLANT 2305/17 AND THIS MSG,\nSERVICES RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WESTERN COAST.\nDNC 19.\nCANCEL HYDROLANT 2305/17 AND THIS MSG,\nSERVICES RESTORED.",
+    "valid_from": "2017-07-27T20:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

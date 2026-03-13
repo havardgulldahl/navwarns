@@ -3,17 +3,23 @@
   "id": "HYDROARC 733/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6383333333333332,
+      51.10166666666667
+    ]
   },
   "properties": {
     "dtg": "2011-04-30T10:17:00",
     "raw_dtg": "301017Z APR 11",
     "msg_id": "HYDROARC 733/11(37)",
-    "cancellations": [
-      "HYDROARC 757/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNGA CHART 37120 (3RD ED).\nMPC BUOY 51-06.1N 001-38.3E UNLIT\nAND RACON INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNGA CHART 37120 (3RD ED).\nMPC BUOY 51-06.1N 001-38.3E UNLIT\nAND RACON INOPERATIVE.",
+    "valid_from": "2011-04-30T10:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

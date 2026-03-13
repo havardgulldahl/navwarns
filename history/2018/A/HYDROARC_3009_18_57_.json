@@ -3,17 +3,23 @@
   "id": "HYDROARC 3009/18(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      15.658333333333333,
+      -27.93
+    ]
   },
   "properties": {
     "dtg": "2018-09-23T16:33:00",
     "raw_dtg": "231633Z SEP 18",
     "msg_id": "HYDROARC 3009/18(57)",
-    "cancellations": [
-      "HYDROARC 3247/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nTHREE SUBMERGED OBJECTS MARKED BY RED BOUYS\nIN 27-55.8S 015-39.5E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nTHREE SUBMERGED OBJECTS MARKED BY RED BOUYS\nIN 27-55.8S 015-39.5E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2018-09-23T16:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,26 @@
   "id": "HYDROARC 1102/22(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.983333333333333,
+      44.388333333333335
+    ]
   },
   "properties": {
     "dtg": "2022-04-19T09:30:00",
     "raw_dtg": "190930Z APR 22",
     "msg_id": "HYDROARC 1102/22(53)",
+    "year": 2022,
     "cancellations": [
       "THIS MSG 220059Z APR 22",
-      "HYDROARC 1102/22"
+      "1078/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nLIGURIAN SEA.\nITALY.\nDNC 08.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 212359Z APR\n   BY CABLESHIP ILE DE BATZ ALONG TRACKLINE JOINING\n   44-23.3N 008-59.0E, 43-14.4N 007-47.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1078/22.\n3. CANCEL THIS MSG 220059Z APR 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nLIGURIAN SEA.\nITALY.\nDNC 08.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 212359Z APR\n   BY CABLESHIP ILE DE BATZ ALONG TRACKLINE JOINING\n   44-23.3N 008-59.0E, 43-14.4N 007-47.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1078/22.\n3. CANCEL THIS MSG 220059Z APR 22.",
+    "valid_from": "2022-04-19T09:30:00+00:00",
+    "valid_until": "2022-04-22T00:59:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 826/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.42166666666667,
+      -27.25
+    ]
   },
   "properties": {
     "dtg": "2010-05-11T01:04:00",
     "raw_dtg": "110104Z MAY 10",
     "msg_id": "HYDROARC 826/10(24)",
-    "cancellations": [
-      "HYDROARC 995/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nCALHAU DE SAO PEDRO 27-15.0S 048-25.3W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nCALHAU DE SAO PEDRO 27-15.0S 048-25.3W UNLIT.",
+    "valid_from": "2010-05-11T01:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

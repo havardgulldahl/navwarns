@@ -3,17 +3,23 @@
   "id": "HYDROARC 872/11(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.113333333333333,
+      33.89333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-05-24T07:20:00",
     "raw_dtg": "240720Z MAY 11",
     "msg_id": "HYDROARC 872/11(52)",
-    "cancellations": [
-      "HYDROARC 880/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-EAST COAST.\nNGA CHART 52160 (7TH ED).\nGABES LIGHT 33-53.6N 010-06.8E UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TUNISIA-EAST COAST.\nNGA CHART 52160 (7TH ED).\nGABES LIGHT 33-53.6N 010-06.8E UNLIT.",
+    "valid_from": "2011-05-24T07:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

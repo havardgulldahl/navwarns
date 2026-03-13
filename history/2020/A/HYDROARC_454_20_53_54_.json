@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 454/20(53,54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-02-09T12:02:00",
     "raw_dtg": "091202Z FEB 20",
     "msg_id": "HYDROARC 454/20(53,54)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 151500Z FEB 20",
-      "HYDROARC 454/20"
+      "THIS MSG 151500Z FEB 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nIONIAN SEA.\nITALY.\nDNC 09.\n1. HAZARDOUS OPERATIONS 090600Z TO 110600Z AND\n   121500Z TO 151400Z FEB IN AREA BOUND BY\n   37-05N 016-35E, 35-40N 016-35E,\n   35-40N 020-10E, 37-05N 020-10E.\n2. CANCEL THIS MSG 151500Z FEB 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nIONIAN SEA.\nITALY.\nDNC 09.\n1. HAZARDOUS OPERATIONS 090600Z TO 110600Z AND\n   121500Z TO 151400Z FEB IN AREA BOUND BY\n   37-05N 016-35E, 35-40N 016-35E,\n   35-40N 020-10E, 37-05N 020-10E.\n2. CANCEL THIS MSG 151500Z FEB 20.",
+    "valid_from": "2020-02-09T12:02:00+00:00",
+    "valid_until": "2020-02-15T15:00:00+00:00",
+    "summary": null
   }
 }

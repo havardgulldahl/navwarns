@@ -3,17 +3,23 @@
   "id": "HYDROARC 622/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.91166666666667,
+      -0.15166666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-04-10T00:00:00",
     "raw_dtg": "100000Z APR 10",
     "msg_id": "HYDROARC 622/10(24)",
-    "cancellations": [
-      "HYDROARC 922/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24320 (4TH ED).\nCAMALEAO LIGHT 00-09.1S 048-54.7W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24320 (4TH ED).\nCAMALEAO LIGHT 00-09.1S 048-54.7W UNLIT.",
+    "valid_from": "2010-04-10T00:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

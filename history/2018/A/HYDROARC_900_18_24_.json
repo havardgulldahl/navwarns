@@ -3,17 +3,25 @@
   "id": "HYDROARC 900/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.54333333333334,
+      -27.933333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-03-15T12:05:00",
     "raw_dtg": "151205Z MAR 18",
     "msg_id": "HYDROARC 900/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 983/18"
+      "THIS MSG 12 SEP 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24120.\n1. ILHA DE CORAL LIGHT 27-56.0S 048-32.6W\n   UNLIT UNTIL 11 SEP.\n2. CANCEL THIS MSG 12 SEP 18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24120.\n1. ILHA DE CORAL LIGHT 27-56.0S 048-32.6W\n   UNLIT UNTIL 11 SEP.\n2. CANCEL THIS MSG 12 SEP 18.",
+    "valid_from": "2018-03-15T12:05:00+00:00",
+    "valid_until": "2018-09-12T00:00:00+00:00",
+    "summary": null
   }
 }

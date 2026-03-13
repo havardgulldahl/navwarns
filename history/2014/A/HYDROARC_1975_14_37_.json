@@ -3,18 +3,26 @@
   "id": "HYDROARC 1975/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.705,
+      53.42666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-08-18T20:20:00",
     "raw_dtg": "182020Z AUG 14",
     "msg_id": "HYDROARC 1975/14(37)",
+    "year": 2014,
     "cancellations": [
       "THIS MSG 212023Z AUG 14",
-      "HYDROARC 1991/14"
+      "1971/14"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\n1. DERELICT S/V ADRIFT IN 53-25.6N 001-42.3E\n   AT 181623Z AUG.\n2. CANCEL HYDROLANT 1971/14.\n3. CANCEL THIS MSG 212023Z AUG 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\n1. DERELICT S/V ADRIFT IN 53-25.6N 001-42.3E\n   AT 181623Z AUG.\n2. CANCEL HYDROLANT 1971/14.\n3. CANCEL THIS MSG 212023Z AUG 14.",
+    "valid_from": "2014-08-18T20:20:00+00:00",
+    "valid_until": "2014-08-21T20:23:00+00:00",
+    "summary": null
   }
 }

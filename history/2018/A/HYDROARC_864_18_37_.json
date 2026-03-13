@@ -3,17 +3,23 @@
   "id": "HYDROARC 864/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.545,
+      53.083333333333336
+    ]
   },
   "properties": {
     "dtg": "2018-03-11T00:48:00",
     "raw_dtg": "110048Z MAR 18",
     "msg_id": "HYDROARC 864/18(37)",
-    "cancellations": [
-      "HYDROARC 914/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V NORMAND REACH IN 53-05.0N 002-32.7E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V NORMAND REACH IN 53-05.0N 002-32.7E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2018-03-11T00:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

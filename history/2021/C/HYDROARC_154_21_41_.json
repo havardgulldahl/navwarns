@@ -3,18 +3,25 @@
   "id": "HYDROARC 154/21(41)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      103.21666666666667,
+      77.81333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-07-27T18:39:00",
     "raw_dtg": "271839Z JUL 21",
     "msg_id": "HYDROARC 154/21(41)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 301839Z JUL 21",
-      "HYDROARC 154/21"
+      "THIS MSG 301839Z JUL 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG IN 77-48.8N 103-13.0E.\n2. CANCEL THIS MSG 301839Z JUL 21."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG IN 77-48.8N 103-13.0E.\n2. CANCEL THIS MSG 301839Z JUL 21.",
+    "valid_from": "2021-07-27T18:39:00+00:00",
+    "valid_until": "2021-07-30T18:39:00+00:00",
+    "summary": null
   }
 }

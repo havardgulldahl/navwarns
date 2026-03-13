@@ -3,17 +3,25 @@
   "id": "HYDROARC 181/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.48,
+      -30.7
+    ]
   },
   "properties": {
     "dtg": "2022-01-19T22:48:00",
     "raw_dtg": "192248Z JAN 22",
     "msg_id": "HYDROARC 181/22(24)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 181/22"
+      "THIS MSG 19 JUL 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. SOLIDAO LIGHT 30-42.0S 050-28.8W UNLIT\n   UNTIL 18 JUL.\n2. CANCEL THIS MSG 19 JUL 22."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. SOLIDAO LIGHT 30-42.0S 050-28.8W UNLIT\n   UNTIL 18 JUL.\n2. CANCEL THIS MSG 19 JUL 22.",
+    "valid_from": "2022-01-19T22:48:00+00:00",
+    "valid_until": "2022-07-19T00:00:00+00:00",
+    "summary": null
   }
 }

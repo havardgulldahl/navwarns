@@ -3,18 +3,25 @@
   "id": "HYDROARC 921/15(52,53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.763333333333334,
+      33.555
+    ]
   },
   "properties": {
     "dtg": "2015-04-17T13:24:00",
     "raw_dtg": "171324Z APR 15",
     "msg_id": "HYDROARC 921/15(52,53)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 201324Z APR 15",
-      "HYDROARC 921/15"
+      "THIS MSG 201324Z APR 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. DERELICT VESSEL ADRIFT VICINITY 33-33.3N 011-45.8E\n   AT 161542Z APR.\n2. CANCEL THIS MSG 201324Z APR 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. DERELICT VESSEL ADRIFT VICINITY 33-33.3N 011-45.8E\n   AT 161542Z APR.\n2. CANCEL THIS MSG 201324Z APR 15.",
+    "valid_from": "2015-04-17T13:24:00+00:00",
+    "valid_until": "2015-04-20T13:24:00+00:00",
+    "summary": null
   }
 }

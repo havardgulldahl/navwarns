@@ -3,17 +3,23 @@
   "id": "HYDROARC 1810/17(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.278333333333332,
+      32.33
+    ]
   },
   "properties": {
     "dtg": "2017-06-09T15:12:00",
     "raw_dtg": "091512Z JUN 17",
     "msg_id": "HYDROARC 1810/17(51)",
-    "cancellations": [
-      "HYDROARC 3422/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NOTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCHART 51240.\nPOINT DE LA TOUR LIGHT 32-19.8N 009-16.7W UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NOTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCHART 51240.\nPOINT DE LA TOUR LIGHT 32-19.8N 009-16.7W UNLIT.",
+    "valid_from": "2017-06-09T15:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

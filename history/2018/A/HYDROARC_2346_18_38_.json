@@ -3,17 +3,25 @@
   "id": "HYDROARC 2346/18(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -32.145,
+      61.71333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-07-19T13:01:00",
     "raw_dtg": "191301Z JUL 18",
     "msg_id": "HYDROARC 2346/18(38)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2356/18"
+      "2310/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC\nDNC 19.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V LIDA ALONG TRACKLINE JOINING\n   61-42.8N 032-08.7W AND 61-22.3N 034-21.2W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2310/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC\nDNC 19.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V LIDA ALONG TRACKLINE JOINING\n   61-42.8N 032-08.7W AND 61-22.3N 034-21.2W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2310/18.",
+    "valid_from": "2018-07-19T13:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

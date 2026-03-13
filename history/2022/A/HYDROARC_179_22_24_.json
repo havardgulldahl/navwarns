@@ -3,18 +3,25 @@
   "id": "HYDROARC 179/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.57333333333333,
+      -22.258333333333333
+    ]
   },
   "properties": {
     "dtg": "2022-01-19T22:21:00",
     "raw_dtg": "192221Z JAN 22",
     "msg_id": "HYDROARC 179/22(24)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 222221Z JAN 22",
-      "HYDROARC 179/22"
+      "THIS MSG 222221Z JAN 22"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   22-15.5S 040-34.4W AT 191200Z JAN.\n2. CANCEL THIS MSG 222221Z JAN 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   22-15.5S 040-34.4W AT 191200Z JAN.\n2. CANCEL THIS MSG 222221Z JAN 22.",
+    "valid_from": "2022-01-19T22:21:00+00:00",
+    "valid_until": "2022-01-22T22:21:00+00:00",
+    "summary": null
   }
 }

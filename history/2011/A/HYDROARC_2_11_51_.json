@@ -3,17 +3,23 @@
   "id": "HYDROARC 2/11(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -24.291666666666668,
+      9.196666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-01-01T09:18:00",
     "raw_dtg": "010918Z JAN 11",
     "msg_id": "HYDROARC 2/11(51)",
-    "cancellations": [
-      "HYDROARC 258/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED IN 09-11.8N 024-17.5W.\nVESSELS IN VICINITY ARE REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS\nTO MRCC DAKAR, PHONE: 22 133 826 5001,\nFAX: 22 133 826 5000."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED IN 09-11.8N 024-17.5W.\nVESSELS IN VICINITY ARE REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS\nTO MRCC DAKAR, PHONE: 22 133 826 5001,\nFAX: 22 133 826 5000.",
+    "valid_from": "2011-01-01T09:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

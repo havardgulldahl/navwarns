@@ -3,18 +3,26 @@
   "id": "HYDROARC 549/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.203333333333333,
+      45.38666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-02-25T19:52:00",
     "raw_dtg": "251952Z FEB 21",
     "msg_id": "HYDROARC 549/21(37)",
+    "year": 2021,
     "cancellations": [
       "THIS MSG 281952Z FEB 21",
-      "HYDROARC 571/21"
+      "542/21"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nDNC 08.\n1. DERELICT 50 METER VESSEL, RED HULL, CAPSIZED\n   AND ADRIFT IN VICINITY 45-23.2N 006-12.2W\n   AT 251900Z FEB.\n2. CANCEL HYDROLANT 542/21.\n3. CANCEL THIS MSG 281952Z FEB 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nDNC 08.\n1. DERELICT 50 METER VESSEL, RED HULL, CAPSIZED\n   AND ADRIFT IN VICINITY 45-23.2N 006-12.2W\n   AT 251900Z FEB.\n2. CANCEL HYDROLANT 542/21.\n3. CANCEL THIS MSG 281952Z FEB 21.",
+    "valid_from": "2021-02-25T19:52:00+00:00",
+    "valid_until": "2021-02-28T19:52:00+00:00",
+    "summary": null
   }
 }

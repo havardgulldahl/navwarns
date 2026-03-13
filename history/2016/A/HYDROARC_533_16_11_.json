@@ -3,17 +3,23 @@
   "id": "HYDROARC 533/16(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -92.425,
+      28.655
+    ]
   },
   "properties": {
     "dtg": "2016-03-03T21:40:00",
     "raw_dtg": "032140Z MAR 16",
     "msg_id": "HYDROARC 533/16(11)",
-    "cancellations": [
-      "HYDROARC 680/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nLOUISIANA.\nDNC 15.\nPOSSIBLE DISTRESS FROM 12 FOOT CANOE, WHITE HULL,\nIN 28-39.3N 092-25.5W AT 031830Z MAR. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, E-MAIL: D8COMMANDCENTER@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nLOUISIANA.\nDNC 15.\nPOSSIBLE DISTRESS FROM 12 FOOT CANOE, WHITE HULL,\nIN 28-39.3N 092-25.5W AT 031830Z MAR. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, E-MAIL: D8COMMANDCENTER@USCG.MIL.",
+    "valid_from": "2016-03-03T21:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

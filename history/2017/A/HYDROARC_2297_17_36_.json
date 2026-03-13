@@ -3,17 +3,23 @@
   "id": "HYDROARC 2297/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.925,
+      53.31
+    ]
   },
   "properties": {
     "dtg": "2017-07-24T19:27:00",
     "raw_dtg": "241927Z JUL 17",
     "msg_id": "HYDROARC 2297/17(36)",
-    "cancellations": [
-      "HYDROARC 2303/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nIRELAND-EAST COAST.\nDNC 20.\nCHART 36006.\nKISH BANK LIGHT 53-18.6N 005-55.5W UNRELIABLE."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nIRELAND-EAST COAST.\nDNC 20.\nCHART 36006.\nKISH BANK LIGHT 53-18.6N 005-55.5W UNRELIABLE.",
+    "valid_from": "2017-07-24T19:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

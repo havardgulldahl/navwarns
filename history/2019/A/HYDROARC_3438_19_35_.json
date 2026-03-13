@@ -3,17 +3,23 @@
   "id": "HYDROARC 3438/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6283333333333334,
+      60.49
+    ]
   },
   "properties": {
     "dtg": "2019-11-07T23:20:00",
     "raw_dtg": "072320Z NOV 19",
     "msg_id": "HYDROARC 3438/19(35)",
-    "cancellations": [
-      "HYDROARC 3444/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nESHA NESS LIGHT 60-29.4N 001-37.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nESHA NESS LIGHT 60-29.4N 001-37.7W UNRELIABLE.",
+    "valid_from": "2019-11-07T23:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

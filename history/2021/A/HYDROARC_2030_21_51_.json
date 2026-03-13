@@ -3,17 +3,23 @@
   "id": "HYDROARC 2030/21(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.128333333333334,
+      13.603333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-08-04T13:00:00",
     "raw_dtg": "041300Z AUG 21",
     "msg_id": "HYDROARC 2030/21(51)",
-    "cancellations": [
-      "HYDROARC 853/22"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nTHE GAMBIA.\nDNC 01.\nF/V SANK IN VICINITY 13-36.2N 017-07.7W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nTHE GAMBIA.\nDNC 01.\nF/V SANK IN VICINITY 13-36.2N 017-07.7W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2021-08-04T13:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

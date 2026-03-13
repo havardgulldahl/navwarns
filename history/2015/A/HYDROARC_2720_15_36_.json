@@ -3,17 +3,23 @@
   "id": "HYDROARC 2720/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.483333333333333,
+      53.721666666666664
+    ]
   },
   "properties": {
     "dtg": "2015-11-05T02:00:00",
     "raw_dtg": "050200Z NOV 15",
     "msg_id": "HYDROARC 2720/15(36)",
-    "cancellations": [
-      "HYDROARC 2744/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY 53-43.3N 004-29.0W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY 53-43.3N 004-29.0W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2015-11-05T02:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

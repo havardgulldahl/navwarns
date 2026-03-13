@@ -12,12 +12,16 @@
     "dtg": "2022-08-15T20:01:00",
     "raw_dtg": "152001Z AUG 22",
     "msg_id": "HYDROARC 2031/22(24)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 180045Z AUG 22",
-      "HYDROARC 2031/22"
+      "THIS MSG 180045Z AUG 22"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. HAZARDOUS OPERATIONS 2230Z TO 2345Z DAILY\n   15 THRU 17 AUG IN AREA WITHIN SEVEN MILES\n   OF 23-51.35S 044-40.35W.\n2. CANCEL THIS MSG 180045Z AUG 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. HAZARDOUS OPERATIONS 2230Z TO 2345Z DAILY\n   15 THRU 17 AUG IN AREA WITHIN SEVEN MILES\n   OF 23-51.35S 044-40.35W.\n2. CANCEL THIS MSG 180045Z AUG 22.",
+    "valid_from": "2022-08-15T20:01:00+00:00",
+    "valid_until": "2022-08-18T00:45:00+00:00",
+    "summary": null
   }
 }

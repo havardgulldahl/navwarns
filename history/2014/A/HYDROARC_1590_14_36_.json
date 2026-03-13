@@ -3,17 +3,23 @@
   "id": "HYDROARC 1590/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.223333333333334,
+      53.8
+    ]
   },
   "properties": {
     "dtg": "2014-06-28T12:27:00",
     "raw_dtg": "281227Z JUN 14",
     "msg_id": "HYDROARC 1590/14(36)",
-    "cancellations": [
-      "HYDROARC 1595/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nCHART 36006\nPORT ORIEL LIGHT 53-48.0N 006-13.4W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nCHART 36006\nPORT ORIEL LIGHT 53-48.0N 006-13.4W UNLIT.",
+    "valid_from": "2014-06-28T12:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

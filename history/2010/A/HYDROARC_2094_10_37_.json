@@ -3,17 +3,23 @@
   "id": "HYDROARC 2094/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5150000000000001,
+      50.891666666666666
+    ]
   },
   "properties": {
     "dtg": "2010-11-03T04:19:00",
     "raw_dtg": "030419Z NOV 10",
     "msg_id": "HYDROARC 2094/10(37)",
-    "cancellations": [
-      "HYDROARC 2128/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "FRANCE-NORTH COAST.\nNGA CHART 37103 (9TH ED).\nZC2 BUOY 50-53.5N 001-30.9E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTH COAST.\nNGA CHART 37103 (9TH ED).\nZC2 BUOY 50-53.5N 001-30.9E OFF STATION.",
+    "valid_from": "2010-11-03T04:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

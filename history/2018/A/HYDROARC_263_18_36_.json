@@ -3,17 +3,23 @@
   "id": "HYDROARC 263/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.073333333333333,
+      52.03
+    ]
   },
   "properties": {
     "dtg": "2018-01-24T03:46:00",
     "raw_dtg": "240346Z JAN 18",
     "msg_id": "HYDROARC 263/18(36)",
-    "cancellations": [
-      "HYDROARC 271/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CARDIGAN BAY.\nWALES.\nDNC 20.\nCHART 36002.\nSTRUMBLE HEAD LIGHT 52-01.8N 005-04.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CARDIGAN BAY.\nWALES.\nDNC 20.\nCHART 36002.\nSTRUMBLE HEAD LIGHT 52-01.8N 005-04.4W UNRELIABLE.",
+    "valid_from": "2018-01-24T03:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 240/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0033333333333334,
+      57.69833333333333
+    ]
   },
   "properties": {
     "dtg": "2019-01-24T20:19:00",
     "raw_dtg": "242019Z JAN 19",
     "msg_id": "HYDROARC 240/19(35)",
-    "cancellations": [
-      "HYDROARC 2383/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35013.\nKINNAIRDS HEAD LIGHT 57-41.9N 002-00.2W,\nRANGE REDUCED TO 12 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35013.\nKINNAIRDS HEAD LIGHT 57-41.9N 002-00.2W,\nRANGE REDUCED TO 12 MILES.",
+    "valid_from": "2019-01-24T20:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

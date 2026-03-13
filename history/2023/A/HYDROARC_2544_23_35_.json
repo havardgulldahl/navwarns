@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2544/23(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2023-11-07T13:40:00",
     "raw_dtg": "071340Z NOV 23",
     "msg_id": "HYDROARC 2544/23(35)",
+    "year": 2023,
     "cancellations": [
-      "HYDROARC 2544/23"
+      "2489/23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 19.\nCANCEL HYDROLANT 2489/23 MSG AND THIS MSG,\nAID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 19.\nCANCEL HYDROLANT 2489/23 MSG AND THIS MSG,\nAID RESTORED.",
+    "valid_from": "2023-11-07T13:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

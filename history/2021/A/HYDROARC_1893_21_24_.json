@@ -3,17 +3,25 @@
   "id": "HYDROARC 1893/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.818333333333335,
+      -3.55
+    ]
   },
   "properties": {
     "dtg": "2021-07-19T19:40:00",
     "raw_dtg": "191940Z JUL 21",
     "msg_id": "HYDROARC 1893/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1983/21"
+      "THIS MSG 16 JAN 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. PONTA PECEM LIGHT 03-33.0S 038-49.1W\n   UNRELIABLE UNTIL 15 JAN 22.\n2. CANCEL THIS MSG 16 JAN 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. PONTA PECEM LIGHT 03-33.0S 038-49.1W\n   UNRELIABLE UNTIL 15 JAN 22.\n2. CANCEL THIS MSG 16 JAN 22.",
+    "valid_from": "2021-07-19T19:40:00+00:00",
+    "valid_until": "2022-01-16T00:00:00+00:00",
+    "summary": null
   }
 }

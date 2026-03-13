@@ -3,17 +3,25 @@
   "id": "HYDROARC 1012/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.576666666666666,
+      46.93333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-04-28T04:00:00",
     "raw_dtg": "280400Z APR 16",
     "msg_id": "HYDROARC 1012/16(37)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1020/16"
+      "982/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCELTIC SEA.\nDNC 08.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V SKANDI ACU\n   IN 46-56.0N 006-34.6W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 982/16(36,37)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCELTIC SEA.\nDNC 08.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V SKANDI ACU\n   IN 46-56.0N 006-34.6W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 982/16(36,37).",
+    "valid_from": "2016-04-28T04:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

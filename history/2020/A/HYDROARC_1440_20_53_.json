@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 1440/20(53)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         14.5155,
@@ -26,12 +26,16 @@
     "dtg": "2020-04-27T12:01:00",
     "raw_dtg": "271201Z APR 20",
     "msg_id": "HYDROARC 1440/20(53)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 050100Z MAY 20",
-      "HYDROARC 1440/20"
+      "THIS MSG 050100Z MAY 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nSICILY.\nDNC 08.\n1. CABLE OPERATIONS 280001Z APR TO 042359 MAY BY\n   M/V POLAR KING IN VICINITY OF TRACKLINE JOINING\n   36-33.28N 014-30.93E, 36-30.59N 014-31.09E,\n   36-16.62N 014-33.57E, 36-16.08N 014-33.53E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 050100Z MAY 20."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nSICILY.\nDNC 08.\n1. CABLE OPERATIONS 280001Z APR TO 042359 MAY BY\n   M/V POLAR KING IN VICINITY OF TRACKLINE JOINING\n   36-33.28N 014-30.93E, 36-30.59N 014-31.09E,\n   36-16.62N 014-33.57E, 36-16.08N 014-33.53E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 050100Z MAY 20.",
+    "valid_from": "2020-04-27T12:01:00+00:00",
+    "valid_until": "2020-05-05T01:00:00+00:00",
+    "summary": null
   }
 }

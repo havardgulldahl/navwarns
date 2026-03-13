@@ -3,17 +3,23 @@
   "id": "HYDROARC 351/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.8566666666666665,
+      54.635
+    ]
   },
   "properties": {
     "dtg": "2012-02-11T21:01:00",
     "raw_dtg": "112101Z FEB 12",
     "msg_id": "HYDROARC 351/12(36)",
-    "cancellations": [
-      "HYDROARC 355/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-SOUTHWEST COAST.\nNORTH CHANNEL.\nCHART 36006\nMULL OF GALLOWAY LIGHT 54-38.1N 004-51.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-SOUTHWEST COAST.\nNORTH CHANNEL.\nCHART 36006\nMULL OF GALLOWAY LIGHT 54-38.1N 004-51.4W UNRELIABLE.",
+    "valid_from": "2012-02-11T21:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

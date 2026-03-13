@@ -3,17 +3,23 @@
   "id": "HYDROARC 1504/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.76,
+      51.16166666666667
+    ]
   },
   "properties": {
     "dtg": "2021-06-05T08:04:00",
     "raw_dtg": "050804Z JUN 21",
     "msg_id": "HYDROARC 1504/21(37)",
-    "cancellations": [
-      "HYDROARC 1512/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nFRANCE.\nDNC 20.\nSANDETTIE SW BUOY 51-09.7N 001-45.6E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nFRANCE.\nDNC 20.\nSANDETTIE SW BUOY 51-09.7N 001-45.6E UNLIT.",
+    "valid_from": "2021-06-05T08:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 727/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -36.038333333333334,
+      -5.051666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-03-26T12:55:00",
     "raw_dtg": "261255Z MAR 15",
     "msg_id": "HYDROARC 727/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 731/15"
+      "THIS MSG 20 SEP 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24240.\n1. SANTO ALBERTO LIGHT 05-03.1S 036-02.3W UNLIT.\n2. CANCEL THIS MSG 20 SEP 15."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24240.\n1. SANTO ALBERTO LIGHT 05-03.1S 036-02.3W UNLIT.\n2. CANCEL THIS MSG 20 SEP 15.",
+    "valid_from": "2015-03-26T12:55:00+00:00",
+    "valid_until": "2015-09-20T00:00:00+00:00",
+    "summary": null
   }
 }

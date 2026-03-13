@@ -3,17 +3,23 @@
   "id": "HYDROARC 1218/11(51,52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.308333333333334,
+      35.92
+    ]
   },
   "properties": {
     "dtg": "2011-08-01T17:28:00",
     "raw_dtg": "011728Z AUG 11",
     "msg_id": "HYDROARC 1218/11(51,52)",
-    "cancellations": [
-      "HYDROARC 1235/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF GIBRALTAR.\nCABLE OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP CERTAMEN\nIN 35-55.2N 005-18.5W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF GIBRALTAR.\nCABLE OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP CERTAMEN\nIN 35-55.2N 005-18.5W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2011-08-01T17:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

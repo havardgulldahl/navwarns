@@ -12,12 +12,16 @@
     "dtg": "2022-05-21T08:03:00",
     "raw_dtg": "210803Z MAY 22",
     "msg_id": "HYDROARC 95/22(42)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 240755Z MAY 22",
-      "HYDROARC 95/22"
+      "THIS MSG 240755Z MAY 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN 77-15.40N 067-21.90E\n   AT 202132Z MAY.\n2. CANCEL THIS MSG 240755Z MAY 22."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. ICEBERG REPORTED IN 77-15.40N 067-21.90E\n   AT 202132Z MAY.\n2. CANCEL THIS MSG 240755Z MAY 22.",
+    "valid_from": "2022-05-21T08:03:00+00:00",
+    "valid_until": "2022-05-24T07:55:00+00:00",
+    "summary": null
   }
 }

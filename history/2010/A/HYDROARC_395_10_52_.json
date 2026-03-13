@@ -2,18 +2,34 @@
   "type": "Feature",
   "id": "HYDROARC 395/10(52)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        10.821666666666667,
+        36.115
+      ],
+      [
+        10.911666666666667,
+        36.468333333333334
+      ],
+      [
+        10.833333333333334,
+        36.516666666666666
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-03-04T12:56:00",
     "raw_dtg": "041256Z MAR 10",
     "msg_id": "HYDROARC 395/10(52)",
-    "cancellations": [
-      "HYDROARC 395/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-NORTHEAST COAST.\n1. PIPELINE OPERATIONS IN PROGRESS UNTIL 01 SEP\n   VICINITY OF TRACKLINE JOINING\n   36-06.9N 010-49.3E,\n   36-28.1N 010-54.7E,\n   36-31.0N 010-50.0E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 02 SEP."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTHEAST COAST.\n1. PIPELINE OPERATIONS IN PROGRESS UNTIL 01 SEP\n   VICINITY OF TRACKLINE JOINING\n   36-06.9N 010-49.3E,\n   36-28.1N 010-54.7E,\n   36-31.0N 010-50.0E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 02 SEP.",
+    "valid_from": "2010-03-04T12:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

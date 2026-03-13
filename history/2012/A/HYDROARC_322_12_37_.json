@@ -3,17 +3,25 @@
   "id": "HYDROARC 322/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6366666666666667,
+      51.10166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-02-08T13:52:00",
     "raw_dtg": "081352Z FEB 12",
     "msg_id": "HYDROARC 322/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 329/12"
+      "321/12"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37120\n1. MPC BUOY 51-06.1N 001-38.2E UNLIT AND RACON UNRELIABLE.\n2. CANCEL HYDROLANT 321/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37120\n1. MPC BUOY 51-06.1N 001-38.2E UNLIT AND RACON UNRELIABLE.\n2. CANCEL HYDROLANT 321/12.",
+    "valid_from": "2012-02-08T13:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

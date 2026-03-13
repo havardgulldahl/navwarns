@@ -3,17 +3,25 @@
   "id": "HYDROARC 1582/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2733333333333334,
+      59.855
+    ]
   },
   "properties": {
     "dtg": "2010-08-21T22:05:00",
     "raw_dtg": "212205Z AUG 10",
     "msg_id": "HYDROARC 1582/10(35)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1582/10"
+      "1578/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nNGA CHART 35172 (3RD ED).\n1. DGPS STATION AT SUMBURGH HEAD LIGHT\n   59-51.3N 001-16.4W AT REDUCED POWER.\n2. CANCEL HYDROLANT 1578/10, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nNGA CHART 35172 (3RD ED).\n1. DGPS STATION AT SUMBURGH HEAD LIGHT\n   59-51.3N 001-16.4W AT REDUCED POWER.\n2. CANCEL HYDROLANT 1578/10, AID RESTORED.",
+    "valid_from": "2010-08-21T22:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

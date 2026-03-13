@@ -3,17 +3,23 @@
   "id": "HYDROARC 2289/11(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.575,
+      54.708333333333336
+    ]
   },
   "properties": {
     "dtg": "2011-12-30T22:44:00",
     "raw_dtg": "302244Z DEC 11",
     "msg_id": "HYDROARC 2289/11(35,36)",
-    "cancellations": [
-      "HYDROARC 62/12"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-NORTHEAST COAST.\nCHART 35127\nNAVIGATION PROHIBITED UNLESS AUTHORIZED BY\nMRCC BELFAST 310001Z DEC UNTIL FURTHER NOTICE\nWITHIN ONE MILE OF 54-42.5N 005-34.5W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTHEAST COAST.\nCHART 35127\nNAVIGATION PROHIBITED UNLESS AUTHORIZED BY\nMRCC BELFAST 310001Z DEC UNTIL FURTHER NOTICE\nWITHIN ONE MILE OF 54-42.5N 005-34.5W.",
+    "valid_from": "2011-12-30T22:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

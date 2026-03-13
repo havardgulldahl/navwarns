@@ -3,17 +3,25 @@
   "id": "HYDROARC 3525/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.13,
+      51.88166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-11-17T21:35:00",
     "raw_dtg": "172135Z NOV 19",
     "msg_id": "HYDROARC 3525/19(36)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 3525/19"
+      "THIS MSG 23 NOV 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nWALES.\nDNC 20.\n1. GPS JAMMING EXERCISES 18 THRU 22 NOV\n   IN AREA WITHIN 12 MILES OF\n   51-52.9N 005-07.8W.\n2. CANCEL THIS MSG 23 NOV 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nWALES.\nDNC 20.\n1. GPS JAMMING EXERCISES 18 THRU 22 NOV\n   IN AREA WITHIN 12 MILES OF\n   51-52.9N 005-07.8W.\n2. CANCEL THIS MSG 23 NOV 19.",
+    "valid_from": "2019-11-17T21:35:00+00:00",
+    "valid_until": "2019-11-23T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1575/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.38,
+      59.39
+    ]
   },
   "properties": {
     "dtg": "2014-06-27T09:52:00",
     "raw_dtg": "270952Z JUN 14",
     "msg_id": "HYDROARC 1575/14(35)",
-    "cancellations": [
-      "HYDROARC 1587/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nCHART 35056\nNORTH RONALDSAY LIGHT 59-23.4N 002-22.8W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nCHART 35056\nNORTH RONALDSAY LIGHT 59-23.4N 002-22.8W UNLIT.",
+    "valid_from": "2014-06-27T09:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

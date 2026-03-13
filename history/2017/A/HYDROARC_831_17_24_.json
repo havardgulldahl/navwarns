@@ -3,17 +3,25 @@
   "id": "HYDROARC 831/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.14666666666667,
+      -23.063333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-03-15T03:05:00",
     "raw_dtg": "150305Z MAR 17",
     "msg_id": "HYDROARC 831/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 880/17"
+      "THIS MSG 15 SEP 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\n1. ILHA RASA LIGHT 23-03.8S 043-08.8W UNRELIABLE\n   UNTIL 14 SEP.\n2. CANCEL THIS MSG 15 SEP 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\n1. ILHA RASA LIGHT 23-03.8S 043-08.8W UNRELIABLE\n   UNTIL 14 SEP.\n2. CANCEL THIS MSG 15 SEP 17.",
+    "valid_from": "2017-03-15T03:05:00+00:00",
+    "valid_until": "2017-09-15T00:00:00+00:00",
+    "summary": null
   }
 }

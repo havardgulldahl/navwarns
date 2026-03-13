@@ -3,17 +3,23 @@
   "id": "HYDROARC 136/11(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.143333333333333,
+      -23.136666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-01-21T13:26:00",
     "raw_dtg": "211326Z JAN 11",
     "msg_id": "HYDROARC 136/11(57)",
-    "cancellations": [
-      "HYDROARC 197/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nSOUTH AFRICA-WEST COAST.\n1. CABLE LAYING OPERATIONS 22 JAN THRU 17 FEB BY\n   CABLESHIP ILE DE BREHAT ALONG TRACKLINE BETWEEN\n   23-08.2S 012-08.6E AND 33-20.4S 018-09.6E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 18 FEB."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nSOUTH AFRICA-WEST COAST.\n1. CABLE LAYING OPERATIONS 22 JAN THRU 17 FEB BY\n   CABLESHIP ILE DE BREHAT ALONG TRACKLINE BETWEEN\n   23-08.2S 012-08.6E AND 33-20.4S 018-09.6E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 18 FEB.",
+    "valid_from": "2011-01-21T13:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

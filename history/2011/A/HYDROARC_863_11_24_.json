@@ -3,17 +3,23 @@
   "id": "HYDROARC 863/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.585,
+      -0.58
+    ]
   },
   "properties": {
     "dtg": "2011-05-22T19:35:00",
     "raw_dtg": "221935Z MAY 11",
     "msg_id": "HYDROARC 863/11(24)",
-    "cancellations": [
-      "HYDROARC 1188/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED).\n1. PONTA MARAPANIM LIGHT 00-34.8S 047-35.1W\n   UNLIT UNTIL 170259Z NOV.\n2. CANCEL THIS MSG 170359Z NOV."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED).\n1. PONTA MARAPANIM LIGHT 00-34.8S 047-35.1W\n   UNLIT UNTIL 170259Z NOV.\n2. CANCEL THIS MSG 170359Z NOV.",
+    "valid_from": "2011-05-22T19:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

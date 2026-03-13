@@ -3,18 +3,25 @@
   "id": "HYDROARC 1385/17(14,51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.34,
+      37.42666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-05-01T18:26:00",
     "raw_dtg": "011826Z MAY 17",
     "msg_id": "HYDROARC 1385/17(14,51)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 041826Z MAY 17",
-      "HYDROARC 1385/17"
+      "THIS MSG 041826Z MAY 17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT 36 FOOT S/V PALAGOS JUNIOR ADRIFT IN\n   VICINITY 37-25.6N 046-20.4W AT 011650Z MAY.\n2. CANCEL THIS MSG 041826Z MAY 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT 36 FOOT S/V PALAGOS JUNIOR ADRIFT IN\n   VICINITY 37-25.6N 046-20.4W AT 011650Z MAY.\n2. CANCEL THIS MSG 041826Z MAY 17.",
+    "valid_from": "2017-05-01T18:26:00+00:00",
+    "valid_until": "2017-05-04T18:26:00+00:00",
+    "summary": null
   }
 }

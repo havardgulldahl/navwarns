@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 409/24",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2024-02-27T17:57:00",
     "raw_dtg": "271757Z FEB 24",
     "msg_id": "HYDROARC 409/24",
+    "year": 2024,
     "cancellations": [
-      "HYDROARC 409/24"
+      "404/24"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nFRANCE.\nCANCEL HYDROLANT 404/24 AND THIS MSG,\nEMAIL RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nFRANCE.\nCANCEL HYDROLANT 404/24 AND THIS MSG,\nEMAIL RESTORED.",
+    "valid_from": "2024-02-27T17:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

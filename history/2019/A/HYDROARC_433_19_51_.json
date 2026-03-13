@@ -3,17 +3,23 @@
   "id": "HYDROARC 433/19(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.5633333333333335,
+      33.615
+    ]
   },
   "properties": {
     "dtg": "2019-02-08T16:31:00",
     "raw_dtg": "081631Z FEB 19",
     "msg_id": "HYDROARC 433/19(51)",
-    "cancellations": [
-      "HYDROARC 485/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCHART 51220.\nPOINTE D'OUKACHA LIGHT 33-36.9N 007-33.8W UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCHART 51220.\nPOINTE D'OUKACHA LIGHT 33-36.9N 007-33.8W UNLIT.",
+    "valid_from": "2019-02-08T16:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

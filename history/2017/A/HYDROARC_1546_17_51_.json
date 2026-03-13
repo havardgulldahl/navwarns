@@ -3,18 +3,25 @@
   "id": "HYDROARC 1546/17(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -27.703333333333333,
+      38.093333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-05-16T18:01:00",
     "raw_dtg": "161801Z MAY 17",
     "msg_id": "HYDROARC 1546/17(51)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 191801Z MAY 17",
-      "HYDROARC 1546/17"
+      "THIS MSG 191801Z MAY 17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nAZORES.\nDNC 08.\n1. DERELICT VESSEL, WHITE HULL, CAPSIZED AND\n   ADRIFT IN VICINITY 38-05.6N 027-42.2W\n   AT 161049Z MAY.\n2. CANCEL THIS MSG 191801Z MAY 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nAZORES.\nDNC 08.\n1. DERELICT VESSEL, WHITE HULL, CAPSIZED AND\n   ADRIFT IN VICINITY 38-05.6N 027-42.2W\n   AT 161049Z MAY.\n2. CANCEL THIS MSG 191801Z MAY 17.",
+    "valid_from": "2017-05-16T18:01:00+00:00",
+    "valid_until": "2017-05-19T18:01:00+00:00",
+    "summary": null
   }
 }

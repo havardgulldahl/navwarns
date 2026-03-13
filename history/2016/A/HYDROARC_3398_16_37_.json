@@ -3,17 +3,23 @@
   "id": "HYDROARC 3398/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8833333333333333,
+      53.44833333333333
+    ]
   },
   "properties": {
     "dtg": "2016-12-16T22:00:00",
     "raw_dtg": "162200Z DEC 16",
     "msg_id": "HYDROARC 3398/16(37)",
-    "cancellations": [
-      "HYDROARC 156/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37166.\nPLATFORM 48/20, 53-26.9N 001-53.0E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37166.\nPLATFORM 48/20, 53-26.9N 001-53.0E UNLIT.",
+    "valid_from": "2016-12-16T22:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

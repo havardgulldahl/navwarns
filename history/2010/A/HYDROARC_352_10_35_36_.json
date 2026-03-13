@@ -3,17 +3,23 @@
   "id": "HYDROARC 352/10(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.06,
+      56.071666666666665
+    ]
   },
   "properties": {
     "dtg": "2010-02-24T20:30:00",
     "raw_dtg": "242030Z FEB 10",
     "msg_id": "HYDROARC 352/10(35,36)",
-    "cancellations": [
-      "HYDROARC 361/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND.\nNGA CHART 35000 (26TH ED).\nSTIRLING DGPS STATION 56-04.3N 004-03.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nNGA CHART 35000 (26TH ED).\nSTIRLING DGPS STATION 56-04.3N 004-03.6W UNRELIABLE.",
+    "valid_from": "2010-02-24T20:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

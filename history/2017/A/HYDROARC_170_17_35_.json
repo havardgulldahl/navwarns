@@ -3,17 +3,23 @@
   "id": "HYDROARC 170/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.4383333333333335,
+      56.70166666666667
+    ]
   },
   "properties": {
     "dtg": "2017-01-17T15:41:00",
     "raw_dtg": "171541Z JAN 17",
     "msg_id": "HYDROARC 170/17(35)",
-    "cancellations": [
-      "HYDROARC 657/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-WEST COAST.\nDNC 20.\nCHART 35013, 35014.\nSCURDIE NESS LIGHT 56-42.1N 002-26.3W RANGE\nTEMPORARILY REDUCED TO 12 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-WEST COAST.\nDNC 20.\nCHART 35013, 35014.\nSCURDIE NESS LIGHT 56-42.1N 002-26.3W RANGE\nTEMPORARILY REDUCED TO 12 MILES.",
+    "valid_from": "2017-01-17T15:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

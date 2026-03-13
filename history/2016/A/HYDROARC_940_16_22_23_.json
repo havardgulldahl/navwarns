@@ -3,17 +3,23 @@
   "id": "HYDROARC 940/16(22,23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -61.535,
+      -54.84166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-04-20T14:08:00",
     "raw_dtg": "201408Z APR 16",
     "msg_id": "HYDROARC 940/16(22,23)",
-    "cancellations": [
-      "HYDROARC 946/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nSCOTIA SEA.\nARGENTINA.\nDNC 07.\nOCEANOGRAPHIC OPERATIONS IN PROGRESS\nUNTIL FURTHER NOTICE BY M/V PUERTO DESEADO\nIN 54-50.5S 061-32.1W.\nONE MILE BERTH REQUESTED."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nSCOTIA SEA.\nARGENTINA.\nDNC 07.\nOCEANOGRAPHIC OPERATIONS IN PROGRESS\nUNTIL FURTHER NOTICE BY M/V PUERTO DESEADO\nIN 54-50.5S 061-32.1W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2016-04-20T14:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1624/15(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      36.47666666666667,
+      45.303333333333335
+    ]
   },
   "properties": {
     "dtg": "2015-07-03T10:57:00",
     "raw_dtg": "031057Z JUL 15",
     "msg_id": "HYDROARC 1624/15(55)",
-    "cancellations": [
-      "HYDROARC 1714/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "KERCH STRAIT.\nORDNANCE.\nDNC 10.\nCHART 55205.\nUNEXPLODED ORDNANCE IN 45-18.2N 036-28.6E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KERCH STRAIT.\nORDNANCE.\nDNC 10.\nCHART 55205.\nUNEXPLODED ORDNANCE IN 45-18.2N 036-28.6E.",
+    "valid_from": "2015-07-03T10:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

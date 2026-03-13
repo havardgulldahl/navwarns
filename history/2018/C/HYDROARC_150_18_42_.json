@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 150/18(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          66.31833333333333,
+          72.73166666666667
+        ],
+        [
+          67.655,
+          72.71833333333333
+        ],
+        [
+          67.53833333333333,
+          72.165
+        ],
+        [
+          66.26333333333334,
+          72.07333333333334
+        ],
+        [
+          66.31833333333333,
+          72.73166666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-07-12T07:22:00",
     "raw_dtg": "120722Z JUL 18",
     "msg_id": "HYDROARC 150/18(42)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 150/18"
+      "THIS MSG 01 NOV 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. SURVEY OPERATIONS 16 JUL THRU 31 OCT BY\n   M/V AKADEMIK PRIMAKOV TOWING 12 5600 METER\n   LONG CABLES IN AREA BOUND BY\n   72-43.9N 066-19.1E, 72-43.1N 067-39.3E,\n   72-09.9N 067-32.3E, 72-04.4N 066-15.8E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 NOV 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. SURVEY OPERATIONS 16 JUL THRU 31 OCT BY\n   M/V AKADEMIK PRIMAKOV TOWING 12 5600 METER\n   LONG CABLES IN AREA BOUND BY\n   72-43.9N 066-19.1E, 72-43.1N 067-39.3E,\n   72-09.9N 067-32.3E, 72-04.4N 066-15.8E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 NOV 18.",
+    "valid_from": "2018-07-12T07:22:00+00:00",
+    "valid_until": "2018-11-01T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2882/16(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.125,
+      54.843333333333334
+    ]
   },
   "properties": {
     "dtg": "2016-11-01T23:58:00",
     "raw_dtg": "012358Z NOV 16",
     "msg_id": "HYDROARC 2882/16(35,36)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 020700Z NOV 16",
-      "HYDROARC 2882/16"
+      "THIS MSG 020700Z NOV 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nSCOTLAND-SOUTHWEST COAST.\nNAVTEX.\nDNC 19, DNC 20.\n1. NAVTEX STATION PORTPATRICK (O)\n   54-50.6N 005-07.5W UNRELIABLE\n   020001Z TO 020600Z NOV.\n2. CANCEL THIS MSG 020700Z NOV 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nSCOTLAND-SOUTHWEST COAST.\nNAVTEX.\nDNC 19, DNC 20.\n1. NAVTEX STATION PORTPATRICK (O)\n   54-50.6N 005-07.5W UNRELIABLE\n   020001Z TO 020600Z NOV.\n2. CANCEL THIS MSG 020700Z NOV 16.",
+    "valid_from": "2016-11-01T23:58:00+00:00",
+    "valid_until": "2016-11-02T07:00:00+00:00",
+    "summary": null
   }
 }

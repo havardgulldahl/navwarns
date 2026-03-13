@@ -3,18 +3,25 @@
   "id": "HYDROARC 2502/15(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      9.47,
+      37.43666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-10-06T15:33:00",
     "raw_dtg": "061533Z OCT 15",
     "msg_id": "HYDROARC 2502/15(52)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 091533Z OCT 15",
-      "HYDROARC 2502/15"
+      "THIS MSG 091533Z OCT 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nDNC 08.\n1. CONTAINER ADRIFT VICINITY 37-26.2N 009-28.2E.\n2. CANCEL THIS MSG 091533Z OCT 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nDNC 08.\n1. CONTAINER ADRIFT VICINITY 37-26.2N 009-28.2E.\n2. CANCEL THIS MSG 091533Z OCT 15.",
+    "valid_from": "2015-10-06T15:33:00+00:00",
+    "valid_until": "2015-10-09T15:33:00+00:00",
+    "summary": null
   }
 }

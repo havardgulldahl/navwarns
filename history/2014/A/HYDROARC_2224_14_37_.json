@@ -3,17 +3,25 @@
   "id": "HYDROARC 2224/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.4516666666666667,
+      50.60666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-09-14T09:35:00",
     "raw_dtg": "140935Z SEP 14",
     "msg_id": "HYDROARC 2224/14(37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2224/14"
+      "THIS MSG 22 SEP 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nRADIO SERVICES.\n1. MRCC PORTLAND 50-36.4N 002-27.1W WILL BE DISCONTINUED\n   191500Z SEP. NATIONAL MARITIME OPERATIONS CENTER\n   FAREHAM 50-51.5N 001-14.9W ASSUMES CONTROL.\n2. CANCEL THIS MSG 22 SEP 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nRADIO SERVICES.\n1. MRCC PORTLAND 50-36.4N 002-27.1W WILL BE DISCONTINUED\n   191500Z SEP. NATIONAL MARITIME OPERATIONS CENTER\n   FAREHAM 50-51.5N 001-14.9W ASSUMES CONTROL.\n2. CANCEL THIS MSG 22 SEP 14.",
+    "valid_from": "2014-09-14T09:35:00+00:00",
+    "valid_until": "2014-09-22T00:00:00+00:00",
+    "summary": null
   }
 }

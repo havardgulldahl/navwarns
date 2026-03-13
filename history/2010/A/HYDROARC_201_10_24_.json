@@ -3,17 +3,23 @@
   "id": "HYDROARC 201/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -52.085,
+      -32.185
+    ]
   },
   "properties": {
     "dtg": "2010-02-02T01:10:00",
     "raw_dtg": "020110Z FEB 10",
     "msg_id": "HYDROARC 201/10(24)",
-    "cancellations": [
-      "HYDROARC 226/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24091 (7TH ED).\nWEST MOLE LIGHT 32-11.1S 052-05.1W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24091 (7TH ED).\nWEST MOLE LIGHT 32-11.1S 052-05.1W UNLIT.",
+    "valid_from": "2010-02-02T01:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

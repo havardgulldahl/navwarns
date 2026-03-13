@@ -3,18 +3,25 @@
   "id": "HYDROARC 3547/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.116666666666666,
+      49.13
+    ]
   },
   "properties": {
     "dtg": "2018-11-15T20:57:00",
     "raw_dtg": "152057Z NOV 18",
     "msg_id": "HYDROARC 3547/18(37)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 182057Z NOV 18",
-      "HYDROARC 3547/18"
+      "THIS MSG 182057Z NOV 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 19, DNC 20.\n1. NINE CONTAINERS ADRIFT IN 49-07.8N 005-07.0W.\n2. CANCEL THIS MSG 182057Z NOV 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 19, DNC 20.\n1. NINE CONTAINERS ADRIFT IN 49-07.8N 005-07.0W.\n2. CANCEL THIS MSG 182057Z NOV 18.",
+    "valid_from": "2018-11-15T20:57:00+00:00",
+    "valid_until": "2018-11-18T20:57:00+00:00",
+    "summary": null
   }
 }

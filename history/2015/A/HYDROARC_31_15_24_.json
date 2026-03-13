@@ -3,17 +3,23 @@
   "id": "HYDROARC 31/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.12,
+      -22.92
+    ]
   },
   "properties": {
     "dtg": "2015-01-05T00:02:00",
     "raw_dtg": "050002Z JAN 15",
     "msg_id": "HYDROARC 31/15(24)",
-    "cancellations": [
-      "HYDROARC 64/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nDNC 01.\nMAN OVERBOARD VICINITY PONTA DO JURUJUBA (22-55.2S 043-07.2W)\nAT 041730Z JAN. VESSELS IN VICINITY REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS TO ANY COASTAL\nRADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nDNC 01.\nMAN OVERBOARD VICINITY PONTA DO JURUJUBA (22-55.2S 043-07.2W)\nAT 041730Z JAN. VESSELS IN VICINITY REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS TO ANY COASTAL\nRADIO STATION.",
+    "valid_from": "2015-01-05T00:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

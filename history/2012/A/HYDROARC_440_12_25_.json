@@ -3,17 +3,23 @@
   "id": "HYDROARC 440/12(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -67.375,
+      17.96
+    ]
   },
   "properties": {
     "dtg": "2012-02-28T00:38:00",
     "raw_dtg": "280038Z FEB 12",
     "msg_id": "HYDROARC 440/12(25)",
-    "cancellations": [
-      "HYDROARC 558/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "PUERTO RICO-SOUTHWEST COAST.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n17-57.6N 067-22.5W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST\nIF POSSIBLE. REPORTS TO USCG SAN JUAN,\nPHONE: 787 289 2041, E-MAIL: SSJCC@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "PUERTO RICO-SOUTHWEST COAST.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n17-57.6N 067-22.5W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST\nIF POSSIBLE. REPORTS TO USCG SAN JUAN,\nPHONE: 787 289 2041, E-MAIL: SSJCC@USCG.MIL.",
+    "valid_from": "2012-02-28T00:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

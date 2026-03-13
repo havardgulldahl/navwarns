@@ -3,17 +3,23 @@
   "id": "HYDROARC 628/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.73,
+      56.458333333333336
+    ]
   },
   "properties": {
     "dtg": "2019-02-26T18:08:00",
     "raw_dtg": "261808Z FEB 19",
     "msg_id": "HYDROARC 628/19(35)",
-    "cancellations": [
-      "HYDROARC 644/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19, DNC 20.\nCGOC STORNOWAY DSC AND R/T SERVICES AT\nTOROSAY SITE 56-27.5N 005-43.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19, DNC 20.\nCGOC STORNOWAY DSC AND R/T SERVICES AT\nTOROSAY SITE 56-27.5N 005-43.8W UNRELIABLE.",
+    "valid_from": "2019-02-26T18:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

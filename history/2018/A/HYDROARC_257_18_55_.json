@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 257/18(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.263333333333335,
+          44.725
+        ],
+        [
+          37.196666666666665,
+          44.875
+        ],
+        [
+          37.25666666666667,
+          44.89
+        ],
+        [
+          37.32333333333333,
+          44.74
+        ],
+        [
+          37.263333333333335,
+          44.725
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-01-24T00:49:00",
     "raw_dtg": "240049Z JAN 18",
     "msg_id": "HYDROARC 257/18(55)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 271800Z JAN 18",
-      "HYDROARC 257/18"
+      "THIS MSG 271800Z JAN 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nRUSSIA.\nDNC 10.\n1. GUNNERY EXERCISES 0400Z TO 1700Z DAILY\n   24 THRU 27 JAN IN AREA BOUND BY\n   44-43.5N 037-15.8E, 44-52.5N 037-11.8E,\n   44-53.4N 037-15.4E, 44-44.4N 037-19.4E.\n2. CANCEL THIS MSG 271800Z JAN 18."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nRUSSIA.\nDNC 10.\n1. GUNNERY EXERCISES 0400Z TO 1700Z DAILY\n   24 THRU 27 JAN IN AREA BOUND BY\n   44-43.5N 037-15.8E, 44-52.5N 037-11.8E,\n   44-53.4N 037-15.4E, 44-44.4N 037-19.4E.\n2. CANCEL THIS MSG 271800Z JAN 18.",
+    "valid_from": "2018-01-24T00:49:00+00:00",
+    "valid_until": "2018-01-27T18:00:00+00:00",
+    "summary": null
   }
 }

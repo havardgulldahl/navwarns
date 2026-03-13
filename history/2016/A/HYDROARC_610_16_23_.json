@@ -3,18 +3,25 @@
   "id": "HYDROARC 610/16(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.81,
+      -49.65
+    ]
   },
   "properties": {
     "dtg": "2016-03-13T15:44:00",
     "raw_dtg": "131544Z MAR 16",
     "msg_id": "HYDROARC 610/16(23)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 161544Z MAR 16",
-      "HYDROARC 624/16"
+      "THIS MSG 161544Z MAR 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nICE.\nDNC 01.\n1. ICEBERG REPORTED IN 49-39.0S 045-48.6W AT 071400Z MAR.\n2. CANCEL THIS MSG 161544Z MAR 16."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nICE.\nDNC 01.\n1. ICEBERG REPORTED IN 49-39.0S 045-48.6W AT 071400Z MAR.\n2. CANCEL THIS MSG 161544Z MAR 16.",
+    "valid_from": "2016-03-13T15:44:00+00:00",
+    "valid_until": "2016-03-16T15:44:00+00:00",
+    "summary": null
   }
 }

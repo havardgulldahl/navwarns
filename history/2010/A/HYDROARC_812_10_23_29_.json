@@ -3,17 +3,23 @@
   "id": "HYDROARC 812/10(23,29)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -28.928333333333335,
+      -51.43
+    ]
   },
   "properties": {
     "dtg": "2010-05-08T19:48:00",
     "raw_dtg": "081948Z MAY 10",
     "msg_id": "HYDROARC 812/10(23,29)",
-    "cancellations": [
-      "HYDROARC 812/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\n1. DERELICT VESSEL HOLLINSCLOUGH ADRIFT\n   IN 51-25.8S 028-55.7W.\n2. CANCEL THIS MSG 111945Z MAY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\n1. DERELICT VESSEL HOLLINSCLOUGH ADRIFT\n   IN 51-25.8S 028-55.7W.\n2. CANCEL THIS MSG 111945Z MAY.",
+    "valid_from": "2010-05-08T19:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

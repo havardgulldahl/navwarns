@@ -3,17 +3,23 @@
   "id": "HYDROARC 2381/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.92,
+      53.47
+    ]
   },
   "properties": {
     "dtg": "2020-07-30T10:32:00",
     "raw_dtg": "301032Z JUL 20",
     "msg_id": "HYDROARC 2381/20(37)",
-    "cancellations": [
-      "HYDROARC 2621/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSHAMROCK PLATFORM 53-28.2N 002-55.2E LIGHT\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSHAMROCK PLATFORM 53-28.2N 002-55.2E LIGHT\nUNRELIABLE.",
+    "valid_from": "2020-07-30T10:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

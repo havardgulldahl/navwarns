@@ -3,17 +3,23 @@
   "id": "HYDROARC 2824/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.368333333333333,
+      50.666666666666664
+    ]
   },
   "properties": {
     "dtg": "2021-11-16T14:15:00",
     "raw_dtg": "161415Z NOV 21",
     "msg_id": "HYDROARC 2824/21(36)",
-    "cancellations": [
-      "HYDROARC 2839/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DAIX\nIN VICINITY 50-40.0N 005-22.1W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DAIX\nIN VICINITY 50-40.0N 005-22.1W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2021-11-16T14:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

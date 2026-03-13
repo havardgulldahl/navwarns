@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 2012/17(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.538333333333334,
+          -7.165
+        ],
+        [
+          11.815,
+          -7.285
+        ],
+        [
+          11.615,
+          -7.74
+        ],
+        [
+          11.34,
+          -7.62
+        ],
+        [
+          11.538333333333334,
+          -7.165
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-06-30T07:34:00",
     "raw_dtg": "300734Z JUN 17",
     "msg_id": "HYDROARC 2012/17(57)",
-    "cancellations": [
-      "HYDROARC 2633/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\nSEISMIC SURVEY 01 JUL UNTIL FURTHER NOTICE\nBY M/V RAMFORM ATLAS TOWING 5000 METER LONG\nCABLE IN AREA BOUND BY\n07-09.9S 011-32.3E, 07-17.1S 011-48.9E,\n07-44.4S 011-36.9E, 07-37.2S 011-20.4E.\nTHREE MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\nSEISMIC SURVEY 01 JUL UNTIL FURTHER NOTICE\nBY M/V RAMFORM ATLAS TOWING 5000 METER LONG\nCABLE IN AREA BOUND BY\n07-09.9S 011-32.3E, 07-17.1S 011-48.9E,\n07-44.4S 011-36.9E, 07-37.2S 011-20.4E.\nTHREE MILE BERTH REQUESTED.",
+    "valid_from": "2017-06-30T07:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,26 @@
   "id": "HYDROARC 4107/17(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.458333333333334,
+      -9.7
+    ]
   },
   "properties": {
     "dtg": "2017-12-18T17:01:00",
     "raw_dtg": "181701Z DEC 17",
     "msg_id": "HYDROARC 4107/17(57)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 4200/17"
+      "THIS MSG 31 DEC 17",
+      "3566/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 30 DEC\n   BY CABLESHIP RENE DESCARTES WITH SUBMERSIBLE\n   IN AREA WITHIN TWO MILES OF 09-42.0S 012-27.5E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3566/17.\n3. CANCEL THIS MSG 31 DEC 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 30 DEC\n   BY CABLESHIP RENE DESCARTES WITH SUBMERSIBLE\n   IN AREA WITHIN TWO MILES OF 09-42.0S 012-27.5E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3566/17.\n3. CANCEL THIS MSG 31 DEC 17.",
+    "valid_from": "2017-12-18T17:01:00+00:00",
+    "valid_until": "2017-12-31T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 516/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.205,
+      -23.026666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-02-18T09:20:00",
     "raw_dtg": "180920Z FEB 19",
     "msg_id": "HYDROARC 516/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 586/19"
+      "THIS MSG 18 AUG 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\n1. ILHA DE PALMAS LIGHT 23-01.6S 043-12.3W\n   UNLIT UNTIL 17 AUG.\n2. CANCEL THIS MSG 18 AUG 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150, 24160.\n1. ILHA DE PALMAS LIGHT 23-01.6S 043-12.3W\n   UNLIT UNTIL 17 AUG.\n2. CANCEL THIS MSG 18 AUG 19.",
+    "valid_from": "2019-02-18T09:20:00+00:00",
+    "valid_until": "2019-08-18T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2165/21(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -13.698333333333334,
+      27.516666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-08-22T21:20:00",
     "raw_dtg": "222120Z AUG 21",
     "msg_id": "HYDROARC 2165/21(51)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 252120Z AUG 21",
-      "HYDROARC 2165/21"
+      "THIS MSG 252120Z AUG 21"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nWESTERN SAHARA.\nDNC 01.\n1. DERELICT SEVEN METER VESSEL, GREY HULL, ADRIFT\n   IN VICINITY 27-31.0N 013-41.9W AT 222030Z AUG.\n2. CANCEL THIS MSG 252120Z AUG 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nWESTERN SAHARA.\nDNC 01.\n1. DERELICT SEVEN METER VESSEL, GREY HULL, ADRIFT\n   IN VICINITY 27-31.0N 013-41.9W AT 222030Z AUG.\n2. CANCEL THIS MSG 252120Z AUG 21.",
+    "valid_from": "2021-08-22T21:20:00+00:00",
+    "valid_until": "2021-08-25T21:20:00+00:00",
+    "summary": null
   }
 }

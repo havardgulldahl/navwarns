@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 489/14(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -2.8528333333333333,
+          4.843333333333334
+        ],
+        [
+          -2.9783333333333335,
+          4.193333333333333
+        ],
+        [
+          -3.286,
+          4.193333333333333
+        ],
+        [
+          -3.1388333333333334,
+          4.971666666666667
+        ],
+        [
+          -2.8528333333333333,
+          4.843333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-02-17T15:18:00",
     "raw_dtg": "171518Z FEB 14",
     "msg_id": "HYDROARC 489/14(57)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1357/14"
+      "482/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nGHANA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V GECO TRITON TOWING 12\n   7000 METER LONG CABLES IN AREA BOUND BY\n   04-50.6N 002-51.17W, 04-11.6N 002-58.70W,\n   04-11.6N 003-17.16W, 04-58.3N 003-08.33W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 482/14(35), AID RESTORED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nGHANA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V GECO TRITON TOWING 12\n   7000 METER LONG CABLES IN AREA BOUND BY\n   04-50.6N 002-51.17W, 04-11.6N 002-58.70W,\n   04-11.6N 003-17.16W, 04-58.3N 003-08.33W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 482/14(35), AID RESTORED.",
+    "valid_from": "2014-02-17T15:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 330/14(42)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-10-30T18:53:00",
     "raw_dtg": "301853Z OCT 14",
     "msg_id": "HYDROARC 330/14(42)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 319/14",
-      "HYDROARC 330/14"
+      "HYDROARC 319/14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nROCKETS.\nDNC 22.\nCANCEL HYDROARC 319/14 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nROCKETS.\nDNC 22.\nCANCEL HYDROARC 319/14 AND THIS MSG.",
+    "valid_from": "2014-10-30T18:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

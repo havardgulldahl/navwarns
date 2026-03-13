@@ -3,17 +3,23 @@
   "id": "HYDROARC 288/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.296666666666667,
+      53.248333333333335
+    ]
   },
   "properties": {
     "dtg": "2020-01-27T14:51:00",
     "raw_dtg": "271451Z JAN 20",
     "msg_id": "HYDROARC 288/20(37)",
-    "cancellations": [
-      "HYDROARC 305/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nEUROPA 49/22 PLATFORM 53-14.9N 002-17.8E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nEUROPA 49/22 PLATFORM 53-14.9N 002-17.8E UNLIT.",
+    "valid_from": "2020-01-27T14:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2031/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.4,
+      -24.036666666666665
+    ]
   },
   "properties": {
     "dtg": "2013-08-20T01:18:00",
     "raw_dtg": "200118Z AUG 13",
     "msg_id": "HYDROARC 2031/13(24)",
-    "cancellations": [
-      "HYDROARC 2121/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nVESSEL, THREE PERSONS ON BOARD, UNREPORTED.\nLAST KNOWN POSITION 24-02.2S 046-24.0W\nAT 182300Z AUG. VESSELS IN VICINITY REQUESTED TO\nKEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nVESSEL, THREE PERSONS ON BOARD, UNREPORTED.\nLAST KNOWN POSITION 24-02.2S 046-24.0W\nAT 182300Z AUG. VESSELS IN VICINITY REQUESTED TO\nKEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2013-08-20T01:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

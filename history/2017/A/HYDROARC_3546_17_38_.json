@@ -3,18 +3,25 @@
   "id": "HYDROARC 3546/17(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -26.516666666666666,
+      49.053333333333335
+    ]
   },
   "properties": {
     "dtg": "2017-11-02T11:12:00",
     "raw_dtg": "021112Z NOV 17",
     "msg_id": "HYDROARC 3546/17(38)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 051112Z NOV 17",
-      "HYDROARC 3546/17"
+      "THIS MSG 051112Z NOV 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 19.\n1. CONTAINER ADRIFT IN\n   49-03.2N 026-31.0W AT 020930Z NOV.\n2. CANCEL THIS MSG 051112Z NOV 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 19.\n1. CONTAINER ADRIFT IN\n   49-03.2N 026-31.0W AT 020930Z NOV.\n2. CANCEL THIS MSG 051112Z NOV 17.",
+    "valid_from": "2017-11-02T11:12:00+00:00",
+    "valid_until": "2017-11-05T11:12:00+00:00",
+    "summary": null
   }
 }

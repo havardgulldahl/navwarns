@@ -3,17 +3,23 @@
   "id": "HYDROARC 1401/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.888333333333335,
+      -0.5566666666666666
+    ]
   },
   "properties": {
     "dtg": "2011-09-03T10:27:00",
     "raw_dtg": "031027Z SEP 11",
     "msg_id": "HYDROARC 1401/11(24)",
-    "cancellations": [
-      "HYDROARC 1933/14"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED)\nRACON AT PONTA TIJOCA LIGHT 00-33.4S 047-53.3W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED)\nRACON AT PONTA TIJOCA LIGHT 00-33.4S 047-53.3W INOPERATIVE.",
+    "valid_from": "2011-09-03T10:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

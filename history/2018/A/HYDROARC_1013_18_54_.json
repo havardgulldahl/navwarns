@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 1013/18(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.148333333333333,
+          36.35666666666667
+        ],
+        [
+          29.993333333333332,
+          36.215
+        ],
+        [
+          29.993333333333332,
+          35.66
+        ],
+        [
+          29.148333333333333,
+          35.66
+        ],
+        [
+          29.148333333333333,
+          36.35666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-03-26T14:51:00",
     "raw_dtg": "261451Z MAR 18",
     "msg_id": "HYDROARC 1013/18(54)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 271500Z MAR 18",
-      "HYDROARC 1013/18"
+      "THIS MSG 271500Z MAR 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. SEARCH AND RESCUE OPERATIONS\n   271000Z TO 271400Z MAR IN AREA BOUND BY\n   36-21.4N 029-08.9E, 36-12.9N 029-59.6E,\n   35-39.6N 029-59.6E, 35-39.6N 029-08.9E.\n   CAUTION ADVISED.\n2. CANCEL THIS MSG 271500Z MAR 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. SEARCH AND RESCUE OPERATIONS\n   271000Z TO 271400Z MAR IN AREA BOUND BY\n   36-21.4N 029-08.9E, 36-12.9N 029-59.6E,\n   35-39.6N 029-59.6E, 35-39.6N 029-08.9E.\n   CAUTION ADVISED.\n2. CANCEL THIS MSG 271500Z MAR 18.",
+    "valid_from": "2018-03-26T14:51:00+00:00",
+    "valid_until": "2018-03-27T15:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2083/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.288333333333333,
+      53.416666666666664
+    ]
   },
   "properties": {
     "dtg": "2015-08-25T05:01:00",
     "raw_dtg": "250501Z AUG 15",
     "msg_id": "HYDROARC 2083/15(36)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 271700Z AUG 15",
-      "HYDROARC 2083/15"
+      "THIS MSG 271700Z AUG 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-NORTH COAST.\nDNC 20.\nCHART 36025.\n1. DPGS STATION AT POINT LYNAS LIGHT\n   53-25.0N 004-17.3W OFF AIR\n   0800Z TO 1600Z DAILY 25 THRU 27 AUG.\n2. CANCEL THIS MSG 271700Z AUG 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-NORTH COAST.\nDNC 20.\nCHART 36025.\n1. DPGS STATION AT POINT LYNAS LIGHT\n   53-25.0N 004-17.3W OFF AIR\n   0800Z TO 1600Z DAILY 25 THRU 27 AUG.\n2. CANCEL THIS MSG 271700Z AUG 15.",
+    "valid_from": "2015-08-25T05:01:00+00:00",
+    "valid_until": "2015-08-27T17:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2081/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.1966666666666668,
+      51.075
+    ]
   },
   "properties": {
     "dtg": "2013-08-26T12:20:00",
     "raw_dtg": "261220Z AUG 13",
     "msg_id": "HYDROARC 2081/13(37)",
-    "cancellations": [
-      "HYDROARC 2140/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37121\nFOLKESTONE HARBOUR LIGHT 51-04.5N 001-11.8E UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37121\nFOLKESTONE HARBOUR LIGHT 51-04.5N 001-11.8E UNLIT.",
+    "valid_from": "2013-08-26T12:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

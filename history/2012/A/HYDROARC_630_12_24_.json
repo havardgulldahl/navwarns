@@ -3,17 +3,25 @@
   "id": "HYDROARC 630/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -33.06166666666667,
+      1.095
+    ]
   },
   "properties": {
     "dtg": "2012-03-21T23:19:00",
     "raw_dtg": "212319Z MAR 12",
     "msg_id": "HYDROARC 630/12(24)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 630/12"
+      "623/12"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\n1. DERELICT VESSEL BLEU CITRON ADRIFT VICINITY\n   01-05.7N 033-03.7W AT 211757Z MAR.\n2. CANCEL HYDROLANT 623/12.\n3. CANCEL THIS MSG 242317Z MAR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\n1. DERELICT VESSEL BLEU CITRON ADRIFT VICINITY\n   01-05.7N 033-03.7W AT 211757Z MAR.\n2. CANCEL HYDROLANT 623/12.\n3. CANCEL THIS MSG 242317Z MAR.",
+    "valid_from": "2012-03-21T23:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

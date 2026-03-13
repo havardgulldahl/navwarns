@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2707/15(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.63166666666667,
+          45.07
+        ],
+        [
+          35.69833333333333,
+          45.105
+        ],
+        [
+          35.763333333333335,
+          45.07666666666667
+        ],
+        [
+          35.71666666666667,
+          45.00666666666667
+        ],
+        [
+          35.63166666666667,
+          45.07
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-11-03T14:15:00",
     "raw_dtg": "031415Z NOV 15",
     "msg_id": "HYDROARC 2707/15(55)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 131300Z NOV 15",
-      "HYDROARC 2707/15"
+      "THIS MSG 131300Z NOV 15"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nMISSILES.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0600Z TO 1200Z DAILY\n   04 THRU 06 AND 10 THRU 13 NOV\n   IN AREA BOUND BY\n   45-04.2N 035-37.9E, 45-06.3N 035-41.9E,\n   45-04.6N 035-45.8E, 45-00.4N 035-43.0E.\n2. CANCEL THIS MSG 131300Z NOV 15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nMISSILES.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0600Z TO 1200Z DAILY\n   04 THRU 06 AND 10 THRU 13 NOV\n   IN AREA BOUND BY\n   45-04.2N 035-37.9E, 45-06.3N 035-41.9E,\n   45-04.6N 035-45.8E, 45-00.4N 035-43.0E.\n2. CANCEL THIS MSG 131300Z NOV 15.",
+    "valid_from": "2015-11-03T14:15:00+00:00",
+    "valid_until": "2015-11-13T13:00:00+00:00",
+    "summary": null
   }
 }

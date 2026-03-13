@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 309/12(52)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.543333333333333,
+          36.015
+        ],
+        [
+          11.638333333333334,
+          35.968333333333334
+        ],
+        [
+          11.56,
+          35.86333333333333
+        ],
+        [
+          11.498333333333333,
+          35.91
+        ],
+        [
+          11.543333333333333,
+          36.015
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-02-07T15:38:00",
     "raw_dtg": "071538Z FEB 12",
     "msg_id": "HYDROARC 309/12(52)",
-    "cancellations": [
-      "HYDROARC 309/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-EAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 29 FEB\n   BY M/V GEO BARENTS IN AREA BOUND BY\n   36-00.9N 011-32.6E, 35-58.1N 011-38.3E,\n   35-51.8N 011-33.6E, 35-54.6N 011-29.9E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 01 MAR."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "TUNISIA-EAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 29 FEB\n   BY M/V GEO BARENTS IN AREA BOUND BY\n   36-00.9N 011-32.6E, 35-58.1N 011-38.3E,\n   35-51.8N 011-33.6E, 35-54.6N 011-29.9E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 01 MAR.",
+    "valid_from": "2012-02-07T15:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

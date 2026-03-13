@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 185/14(42)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-08-19T09:09:00",
     "raw_dtg": "190909Z AUG 14",
     "msg_id": "HYDROARC 185/14(42)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 251700Z AUG 14",
-      "HYDROARC 185/14"
+      "THIS MSG 251700Z AUG 14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\nRUSSIA.\nMISSILES.\n1. HAZARDOUS OPERATIONS 0400Z TO 1600Z DAILY\n   22 THRU 25 AUG IN AREA BETWEEN\n   69-58.0N 69-34.5N AND 034-48.0E 033-38.0E.\n2. CANCEL THIS MSG 251700Z AUG 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\nRUSSIA.\nMISSILES.\n1. HAZARDOUS OPERATIONS 0400Z TO 1600Z DAILY\n   22 THRU 25 AUG IN AREA BETWEEN\n   69-58.0N 69-34.5N AND 034-48.0E 033-38.0E.\n2. CANCEL THIS MSG 251700Z AUG 14.",
+    "valid_from": "2014-08-19T09:09:00+00:00",
+    "valid_until": "2014-08-25T17:00:00+00:00",
+    "summary": null
   }
 }

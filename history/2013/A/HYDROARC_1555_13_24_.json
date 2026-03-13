@@ -3,17 +3,23 @@
   "id": "HYDROARC 1555/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -37.03666666666667,
+      -10.97
+    ]
   },
   "properties": {
     "dtg": "2013-06-26T22:23:00",
     "raw_dtg": "262223Z JUN 13",
     "msg_id": "HYDROARC 1555/13(24)",
-    "cancellations": [
-      "HYDROARC 2104/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nCHART 24012\nRADIOBEACON AND DGPS STATION AT SERGIPE LIGHT\n10-58.2S 037-02.2W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nCHART 24012\nRADIOBEACON AND DGPS STATION AT SERGIPE LIGHT\n10-58.2S 037-02.2W OFF AIR.",
+    "valid_from": "2013-06-26T22:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

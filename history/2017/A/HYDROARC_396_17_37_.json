@@ -3,17 +3,23 @@
   "id": "HYDROARC 396/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.053333333333334,
+      48.47666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-02-04T22:49:00",
     "raw_dtg": "042249Z FEB 17",
     "msg_id": "HYDROARC 396/17(37)",
-    "cancellations": [
-      "HYDROARC 401/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nBAY OF BISCAY.\nFRANCE-NORTHWEST COAST.\nDNC 20.\nNAVTEX STATION CROSS CORSEN (A)\n48-28.6N 005-03.2W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nBAY OF BISCAY.\nFRANCE-NORTHWEST COAST.\nDNC 20.\nNAVTEX STATION CROSS CORSEN (A)\n48-28.6N 005-03.2W INOPERATIVE.",
+    "valid_from": "2017-02-04T22:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

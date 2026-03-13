@@ -3,17 +3,25 @@
   "id": "HYDROARC 2612/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.145,
+      -30.01
+    ]
   },
   "properties": {
     "dtg": "2013-10-20T00:36:00",
     "raw_dtg": "200036Z OCT 13",
     "msg_id": "HYDROARC 2612/13(24)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2854/13"
+      "THIS MSG 14 NOV 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24110\n1. RADIOBEACON AT TRAMANDAI LIGHT 30-00.6S 050-08.7W\n   OFF AIR UNTIL 13 NOV.\n2. CANCEL THIS MSG 14 NOV 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24110\n1. RADIOBEACON AT TRAMANDAI LIGHT 30-00.6S 050-08.7W\n   OFF AIR UNTIL 13 NOV.\n2. CANCEL THIS MSG 14 NOV 13.",
+    "valid_from": "2013-10-20T00:36:00+00:00",
+    "valid_until": "2013-11-14T00:00:00+00:00",
+    "summary": null
   }
 }

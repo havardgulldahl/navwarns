@@ -3,17 +3,23 @@
   "id": "HYDROARC 690/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.615,
+      50.66
+    ]
   },
   "properties": {
     "dtg": "2013-03-19T09:09:00",
     "raw_dtg": "190909Z MAR 13",
     "msg_id": "HYDROARC 690/13(37)",
-    "cancellations": [
-      "HYDROARC 692/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nCHART 37017\nRACON AT BRIDGE BUOY 50-39.6N 001-36.9W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nCHART 37017\nRACON AT BRIDGE BUOY 50-39.6N 001-36.9W INOPERATIVE.",
+    "valid_from": "2013-03-19T09:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1318/10(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-07-12T11:58:00",
     "raw_dtg": "121158Z JUL 10",
     "msg_id": "HYDROARC 1318/10(51)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1318/10"
+      "1290/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO-WEST COAST.\nCANCEL HYDROLANT 1290/10 AND THIS MSG, OPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO-WEST COAST.\nCANCEL HYDROLANT 1290/10 AND THIS MSG, OPERATIONS COMPLETED.",
+    "valid_from": "2010-07-12T11:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

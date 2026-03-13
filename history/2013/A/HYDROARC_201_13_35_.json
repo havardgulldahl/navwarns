@@ -3,17 +3,23 @@
   "id": "HYDROARC 201/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2633333333333334,
+      60.58166666666666
+    ]
   },
   "properties": {
     "dtg": "2013-01-23T00:35:00",
     "raw_dtg": "230035Z JAN 13",
     "msg_id": "HYDROARC 201/13(35)",
-    "cancellations": [
-      "HYDROARC 204/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nYELL SOUND.\nCHART 35071\nMUCKLE HOLM LIGHT 60-34.9N 001-15.8W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nYELL SOUND.\nCHART 35071\nMUCKLE HOLM LIGHT 60-34.9N 001-15.8W UNLIT.",
+    "valid_from": "2013-01-23T00:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

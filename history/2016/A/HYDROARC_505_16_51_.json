@@ -3,18 +3,25 @@
   "id": "HYDROARC 505/16(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -13.506666666666666,
+      34.06166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-02-29T18:07:00",
     "raw_dtg": "291807Z FEB 16",
     "msg_id": "HYDROARC 505/16(51)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 031807Z MAR 16",
-      "HYDROARC 505/16"
+      "THIS MSG 031807Z MAR 16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT SEVEN METER VESSEL CAPSIZED AND\n   ADRIFT IN 34-03.7N 013-30.4W AT 291630Z FEB.\n2. CANCEL THIS MSG 031807Z MAR 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT SEVEN METER VESSEL CAPSIZED AND\n   ADRIFT IN 34-03.7N 013-30.4W AT 291630Z FEB.\n2. CANCEL THIS MSG 031807Z MAR 16.",
+    "valid_from": "2016-02-29T18:07:00+00:00",
+    "valid_until": "2016-03-03T18:07:00+00:00",
+    "summary": null
   }
 }

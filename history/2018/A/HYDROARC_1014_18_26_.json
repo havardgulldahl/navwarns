@@ -3,17 +3,23 @@
   "id": "HYDROARC 1014/18(26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -78.04666666666667,
+      29.576666666666668
+    ]
   },
   "properties": {
     "dtg": "2018-03-26T21:11:00",
     "raw_dtg": "262111Z MAR 18",
     "msg_id": "HYDROARC 1014/18(26)",
-    "cancellations": [
-      "HYDROARC 1188/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC\nDNC 15, DNC 16.\nDISTRESS SIGNAL RECEIVED FROM 60 FOOT F/V POT LUCK\nIN 29-34.6N 078-02.8W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC MIAMI, PHONE: 305 415 6800,\nE-MAIL: RCCMIAMI@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC\nDNC 15, DNC 16.\nDISTRESS SIGNAL RECEIVED FROM 60 FOOT F/V POT LUCK\nIN 29-34.6N 078-02.8W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC MIAMI, PHONE: 305 415 6800,\nE-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2018-03-26T21:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

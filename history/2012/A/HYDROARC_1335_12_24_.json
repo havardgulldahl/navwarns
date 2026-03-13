@@ -3,17 +3,23 @@
   "id": "HYDROARC 1335/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.29833333333333,
+      -22.16
+    ]
   },
   "properties": {
     "dtg": "2012-06-20T00:16:00",
     "raw_dtg": "200016Z JUN 12",
     "msg_id": "HYDROARC 1335/12(24)",
-    "cancellations": [
-      "HYDROARC 1395/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24160\nQUISSAMA LIGHT 22-09.6S 041-17.9W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24160\nQUISSAMA LIGHT 22-09.6S 041-17.9W UNLIT.",
+    "valid_from": "2012-06-20T00:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

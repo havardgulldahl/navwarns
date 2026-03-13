@@ -3,17 +3,25 @@
   "id": "HYDROARC 2032/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.821666666666665,
+      44.376666666666665
+    ]
   },
   "properties": {
     "dtg": "2018-06-22T16:13:00",
     "raw_dtg": "221613Z JUN 18",
     "msg_id": "HYDROARC 2032/18(36)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2040/18"
+      "2007/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V THALASSA ALONG TRACKLINE BETWEEN\n   44-22.6N 017-49.3W AND 45-25.4N 018-48.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2007/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V THALASSA ALONG TRACKLINE BETWEEN\n   44-22.6N 017-49.3W AND 45-25.4N 018-48.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2007/18.",
+    "valid_from": "2018-06-22T16:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

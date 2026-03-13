@@ -3,17 +3,23 @@
   "id": "HYDROARC 4115/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.3866666666666667,
+      56.435
+    ]
   },
   "properties": {
     "dtg": "2017-12-19T10:12:00",
     "raw_dtg": "191012Z DEC 17",
     "msg_id": "HYDROARC 4115/17(35)",
-    "cancellations": [
-      "HYDROARC 4140/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35014.\nBELL ROCK LIGHT 56-26.1N 002-23.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35014.\nBELL ROCK LIGHT 56-26.1N 002-23.2W UNRELIABLE.",
+    "valid_from": "2017-12-19T10:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2387/14(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.615,
+      36.395
+    ]
   },
   "properties": {
     "dtg": "2014-10-03T12:28:00",
     "raw_dtg": "031228Z OCT 14",
     "msg_id": "HYDROARC 2387/14(52)",
-    "cancellations": [
-      "HYDROARC 2441/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-NORTHEAST COAST.\nDNC 08.\nCHART 52172.\nHAMMAMET LIGHT 36-23.7N 010-36.9E UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTHEAST COAST.\nDNC 08.\nCHART 52172.\nHAMMAMET LIGHT 36-23.7N 010-36.9E UNLIT.",
+    "valid_from": "2014-10-03T12:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

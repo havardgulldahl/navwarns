@@ -3,17 +3,23 @@
   "id": "HYDROARC 308/12(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.758333333333333,
+      36.96333333333333
+    ]
   },
   "properties": {
     "dtg": "2012-02-07T15:23:00",
     "raw_dtg": "071523Z FEB 12",
     "msg_id": "HYDROARC 308/12(52)",
-    "cancellations": [
-      "HYDROARC 361/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-NORTH COAST.\nCHART 52200\nJAZIRAT TABARGAH LIGHT 36-57.8N 008-45.5E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTH COAST.\nCHART 52200\nJAZIRAT TABARGAH LIGHT 36-57.8N 008-45.5E UNRELIABLE.",
+    "valid_from": "2012-02-07T15:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

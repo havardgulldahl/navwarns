@@ -3,18 +3,25 @@
   "id": "HYDROARC 590/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.55,
+      50.708333333333336
+    ]
   },
   "properties": {
     "dtg": "2017-02-21T17:50:00",
     "raw_dtg": "211750Z FEB 17",
     "msg_id": "HYDROARC 590/17(37)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 212300Z FEB 17",
-      "HYDROARC 590/17"
+      "THIS MSG 212300Z FEB 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 37015, 37095.\n1. HURST POINT LIGHT 50-42.5N 001-33.0W UNRELIABLE\n   211800Z TO 212200Z FEB.\n2. CANCEL THIS MSG 212300Z FEB 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND-SOUTH COAST.\nDNC 20.\nCHART 37015, 37095.\n1. HURST POINT LIGHT 50-42.5N 001-33.0W UNRELIABLE\n   211800Z TO 212200Z FEB.\n2. CANCEL THIS MSG 212300Z FEB 17.",
+    "valid_from": "2017-02-21T17:50:00+00:00",
+    "valid_until": "2017-02-21T23:00:00+00:00",
+    "summary": null
   }
 }

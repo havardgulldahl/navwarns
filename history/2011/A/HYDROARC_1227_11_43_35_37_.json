@@ -3,17 +3,25 @@
   "id": "HYDROARC 1227/11(43,35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.1166666666666667,
+      57.541666666666664
+    ]
   },
   "properties": {
     "dtg": "2011-08-03T00:31:00",
     "raw_dtg": "030031Z AUG 11",
     "msg_id": "HYDROARC 1227/11(43,35,37)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 1240/11"
+      "1213/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35005 (1ST ED).\n1. NAVIGATION PROHIBITED UNTIL FURTHER\n   NOTICE WITHIN 2000 METERS OF\n   57-32.5N 001-07.0W.\n2. CANCEL HYDROLANT 1213/11."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35005 (1ST ED).\n1. NAVIGATION PROHIBITED UNTIL FURTHER\n   NOTICE WITHIN 2000 METERS OF\n   57-32.5N 001-07.0W.\n2. CANCEL HYDROLANT 1213/11.",
+    "valid_from": "2011-08-03T00:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

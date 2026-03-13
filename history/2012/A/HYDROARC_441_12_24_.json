@@ -3,17 +3,23 @@
   "id": "HYDROARC 441/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -52.55833333333333,
+      -32.97666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-02-28T01:38:00",
     "raw_dtg": "280138Z FEB 12",
     "msg_id": "HYDROARC 441/12(24)",
-    "cancellations": [
-      "HYDROARC 2600/13"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24080\nRACON AT VERGA LIGHT 32-58.6S 052-33.5W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24080\nRACON AT VERGA LIGHT 32-58.6S 052-33.5W INOPERATIVE.",
+    "valid_from": "2012-02-28T01:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

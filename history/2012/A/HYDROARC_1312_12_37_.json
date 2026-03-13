@@ -3,17 +3,25 @@
   "id": "HYDROARC 1312/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.73,
+      49.68
+    ]
   },
   "properties": {
     "dtg": "2012-06-17T21:32:00",
     "raw_dtg": "172132Z JUN 12",
     "msg_id": "HYDROARC 1312/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1570/12"
+      "1290/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V ODYSSEY EXPLORER VICINITY 49-40.8N 003-43.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1290/12(35), AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V ODYSSEY EXPLORER VICINITY 49-40.8N 003-43.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1290/12(35), AID RESTORED.",
+    "valid_from": "2012-06-17T21:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

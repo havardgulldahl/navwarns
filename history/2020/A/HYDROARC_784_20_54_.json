@@ -2,19 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 784/20(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.733333333333334,
+          36.083333333333336
+        ],
+        [
+          29.343333333333334,
+          36.04
+        ],
+        [
+          29.385,
+          36.071666666666665
+        ],
+        [
+          29.633333333333333,
+          35.98
+        ],
+        [
+          29.633333333333333,
+          35.05
+        ],
+        [
+          28.166666666666668,
+          35.5
+        ],
+        [
+          28.733333333333334,
+          36.083333333333336
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-03-02T00:45:00",
     "raw_dtg": "020045Z MAR 20",
     "msg_id": "HYDROARC 784/20(54)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 022100Z MAR 20",
-      "HYDROARC 784/20"
+      "THIS MSG 022100Z MAR 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 021800Z TO 022000Z MAR\n   IN AREA BOUND BY\n   36-05.0N 028-44.0E, 36-02.4N 029-20.6E,\n   36-04.3N 029-23.1E, 35-58.8N 029-38.0E,\n   35-03.0N 029-38.0E, 35-30.0N 028-10.0E.\n2. CANCEL THIS MSG 022100Z MAR 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 021800Z TO 022000Z MAR\n   IN AREA BOUND BY\n   36-05.0N 028-44.0E, 36-02.4N 029-20.6E,\n   36-04.3N 029-23.1E, 35-58.8N 029-38.0E,\n   35-03.0N 029-38.0E, 35-30.0N 028-10.0E.\n2. CANCEL THIS MSG 022100Z MAR 20.",
+    "valid_from": "2020-03-02T00:45:00+00:00",
+    "valid_until": "2020-03-02T21:00:00+00:00",
+    "summary": null
   }
 }

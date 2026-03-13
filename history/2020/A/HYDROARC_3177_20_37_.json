@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3177/20(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-10-20T09:33:00",
     "raw_dtg": "200933Z OCT 20",
     "msg_id": "HYDROARC 3177/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 230933Z OCT 20",
-      "HYDROARC 3182/20"
+      "THIS MSG 230933Z OCT 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT F/V CAPSIZED AND ADRIFT IN\n   50-30N 002-23W AT 200743Z OCT.\n2. CANCEL THIS MSG 230933Z OCT 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT F/V CAPSIZED AND ADRIFT IN\n   50-30N 002-23W AT 200743Z OCT.\n2. CANCEL THIS MSG 230933Z OCT 20.",
+    "valid_from": "2020-10-20T09:33:00+00:00",
+    "valid_until": "2020-10-23T09:33:00+00:00",
+    "summary": null
   }
 }

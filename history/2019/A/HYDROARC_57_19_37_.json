@@ -3,17 +3,23 @@
   "id": "HYDROARC 57/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4716666666666667,
+      51.30833333333333
+    ]
   },
   "properties": {
     "dtg": "2019-01-06T15:39:00",
     "raw_dtg": "061539Z JAN 19",
     "msg_id": "HYDROARC 57/19(37)",
-    "cancellations": [
-      "HYDROARC 68/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNORTH SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP MAERSK CONNECTOR\nIN VICINITY OF TRACKLINE BETWEEN\n51-18.5N 001-28.3E AND 51-19.5N 001-58.3E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNORTH SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP MAERSK CONNECTOR\nIN VICINITY OF TRACKLINE BETWEEN\n51-18.5N 001-28.3E AND 51-19.5N 001-58.3E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2019-01-06T15:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

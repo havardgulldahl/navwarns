@@ -3,17 +3,23 @@
   "id": "HYDROARC 2168/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.911666666666667,
+      56.538333333333334
+    ]
   },
   "properties": {
     "dtg": "2013-09-05T00:15:00",
     "raw_dtg": "050015Z SEP 13",
     "msg_id": "HYDROARC 2168/13(35)",
-    "cancellations": [
-      "HYDROARC 2179/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nSEA OF HEBRIDES.\nCHART 35097\nEILEANAN GLASA DEARG SGEIR LIGHT 56-32.3N 005-54.7W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nSEA OF HEBRIDES.\nCHART 35097\nEILEANAN GLASA DEARG SGEIR LIGHT 56-32.3N 005-54.7W UNLIT.",
+    "valid_from": "2013-09-05T00:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

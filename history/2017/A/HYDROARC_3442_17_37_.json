@@ -3,17 +3,23 @@
   "id": "HYDROARC 3442/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.3449999999999998,
+      49.43666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-10-25T00:31:00",
     "raw_dtg": "250031Z OCT 17",
     "msg_id": "HYDROARC 3442/17(37)",
-    "cancellations": [
-      "HYDROARC 3935/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\nCHART 37080.\nFOG SIGNAL AT POINT ROBERT LIGHT 49-26.2N 002-20.7W\nINOPERATIVE."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\nCHART 37080.\nFOG SIGNAL AT POINT ROBERT LIGHT 49-26.2N 002-20.7W\nINOPERATIVE.",
+    "valid_from": "2017-10-25T00:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

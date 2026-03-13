@@ -3,17 +3,23 @@
   "id": "HYDROARC 2728/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.98,
+      58.18333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-08-27T12:47:00",
     "raw_dtg": "271247Z AUG 18",
     "msg_id": "HYDROARC 2728/18(35)",
-    "cancellations": [
-      "HYDROARC 3134/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\nFOG SIGNAL AT PLATFORM 12/21C JACKY,\n58-11.0N 002-58.8W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\nFOG SIGNAL AT PLATFORM 12/21C JACKY,\n58-11.0N 002-58.8W INOPERATIVE.",
+    "valid_from": "2018-08-27T12:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

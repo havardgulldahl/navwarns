@@ -3,17 +3,23 @@
   "id": "HYDROARC 2705/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7666666666666666,
+      51.835
+    ]
   },
   "properties": {
     "dtg": "2013-10-28T16:49:00",
     "raw_dtg": "281649Z OCT 13",
     "msg_id": "HYDROARC 2705/13(37)",
-    "cancellations": [
-      "HYDROARC 2711/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\nSUNK CENTER LIGHTFLOAT 51-50.1N 001-46.0E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\nSUNK CENTER LIGHTFLOAT 51-50.1N 001-46.0E OFF STATION.",
+    "valid_from": "2013-10-28T16:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

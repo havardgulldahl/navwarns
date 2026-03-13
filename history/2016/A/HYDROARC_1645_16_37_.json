@@ -3,17 +3,23 @@
   "id": "HYDROARC 1645/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.501666666666667,
+      52.215
+    ]
   },
   "properties": {
     "dtg": "2016-06-30T09:32:00",
     "raw_dtg": "300932Z JUN 16",
     "msg_id": "HYDROARC 1645/16(37)",
-    "cancellations": [
-      "HYDROARC 1835/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20, DNC 21.\nCHART 37166.\nRACON AT METEOROLOGICAL MAST 52-12.9N 002-30.1E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20, DNC 21.\nCHART 37166.\nRACON AT METEOROLOGICAL MAST 52-12.9N 002-30.1E UNRELIABLE.",
+    "valid_from": "2016-06-30T09:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

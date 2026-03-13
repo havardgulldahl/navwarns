@@ -3,17 +3,23 @@
   "id": "HYDROARC 243/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.998333333333333,
+      48.05
+    ]
   },
   "properties": {
     "dtg": "2018-01-22T17:05:00",
     "raw_dtg": "221705Z JAN 18",
     "msg_id": "HYDROARC 243/18(37)",
-    "cancellations": [
-      "HYDROARC 269/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08, DNC 20.\nCHART 37320.\nAR-MEN LIGHT 48-03.0N 004-59.9W UNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08, DNC 20.\nCHART 37320.\nAR-MEN LIGHT 48-03.0N 004-59.9W UNLIT.",
+    "valid_from": "2018-01-22T17:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

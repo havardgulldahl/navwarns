@@ -3,18 +3,25 @@
   "id": "HYDROARC 1491/18(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -52.358333333333334,
+      -52.27
+    ]
   },
   "properties": {
     "dtg": "2018-05-13T04:14:00",
     "raw_dtg": "130414Z MAY 18",
     "msg_id": "HYDROARC 1491/18(23)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 160414Z MAY 18",
-      "HYDROARC 1491/18"
+      "THIS MSG 160414Z MAY 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01, DNC 07.\n1. CONTAINER ADRIFT IN 52-16.2S 052-21.5W.\n2. CANCEL THIS MSG 160414Z MAY 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01, DNC 07.\n1. CONTAINER ADRIFT IN 52-16.2S 052-21.5W.\n2. CANCEL THIS MSG 160414Z MAY 18.",
+    "valid_from": "2018-05-13T04:14:00+00:00",
+    "valid_until": "2018-05-16T04:14:00+00:00",
+    "summary": null
   }
 }

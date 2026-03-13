@@ -3,17 +3,23 @@
   "id": "HYDROARC 4060/18(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      14.49,
+      35.83833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-12-29T02:13:00",
     "raw_dtg": "290213Z DEC 18",
     "msg_id": "HYDROARC 4060/18(53)",
-    "cancellations": [
-      "HYDROARC 149/19"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nNAVTEX.\nDNC 09.\nNAVTEX STATION MALTA (O) 35-50.3N 014-29.4E\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nNAVTEX.\nDNC 09.\nNAVTEX STATION MALTA (O) 35-50.3N 014-29.4E\nOFF AIR.",
+    "valid_from": "2018-12-29T02:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

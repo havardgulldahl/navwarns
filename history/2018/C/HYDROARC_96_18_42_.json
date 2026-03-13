@@ -3,18 +3,25 @@
   "id": "HYDROARC 96/18(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      73.615,
+      69.215
+    ]
   },
   "properties": {
     "dtg": "2018-05-29T17:27:00",
     "raw_dtg": "291727Z MAY 18",
     "msg_id": "HYDROARC 96/18(42)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 011727Z JUN 18",
-      "HYDROARC 96/18"
+      "THIS MSG 011727Z JUN 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. OBJECT ADRIFT IN VICINITY\n   69-12.9N 073-36.9E AT 050115Z NOV 17.\n2. CANCEL THIS MSG 011727Z JUN 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. OBJECT ADRIFT IN VICINITY\n   69-12.9N 073-36.9E AT 050115Z NOV 17.\n2. CANCEL THIS MSG 011727Z JUN 18.",
+    "valid_from": "2018-05-29T17:27:00+00:00",
+    "valid_until": "2018-06-01T17:27:00+00:00",
+    "summary": null
   }
 }

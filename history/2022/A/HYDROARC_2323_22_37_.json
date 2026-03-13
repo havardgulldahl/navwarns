@@ -2,23 +2,47 @@
   "type": "Feature",
   "id": "HYDROARC 2323/22(37)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "MultiPolygon",
     "coordinates": [
       [
-        -3.663333333333333,
-        46.777833333333334
+        [
+          [
+            -3.569780770470288,
+            46.8680330915542
+          ],
+          [
+            -3.663333333333333,
+            46.777833333333334
+          ],
+          [
+            -3.6613333333333333,
+            46.78
+          ],
+          [
+            -3.569780770470288,
+            46.8680330915542
+          ]
+        ]
       ],
       [
-        -3.6613333333333333,
-        46.78
-      ],
-      [
-        -3.3318333333333334,
-        47.096833333333336
-      ],
-      [
-        -3.3285,
-        47.10066666666667
+        [
+          [
+            -3.3318333333333334,
+            47.096833333333336
+          ],
+          [
+            -3.569780770470288,
+            46.8680330915542
+          ],
+          [
+            -3.3285,
+            47.10066666666667
+          ],
+          [
+            -3.3318333333333334,
+            47.096833333333336
+          ]
+        ]
       ]
     ]
   },
@@ -26,12 +50,16 @@
     "dtg": "2022-09-14T18:03:00",
     "raw_dtg": "141803Z SEP 22",
     "msg_id": "HYDROARC 2323/22(37)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 260001Z SEP 22",
-      "HYDROARC 2323/22"
+      "THIS MSG 260001Z SEP 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS BY M/V ATALANTE\n   UNTIL 25 SEP WITH FOUR MOORED SCIENTIFIC\n   INSTRUMENTS IN AREA BOUND BY\n   46-46.67N 003-39.80W, 46-46.80N 003-39.68W,\n   47-05.81N 003-19.91W, 47-06.04N 003-19.71W.\n   WIDE BERTH REQUESTED\n2. CANCEL THIS MSG 260001Z SEP 22."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS BY M/V ATALANTE\n   UNTIL 25 SEP WITH FOUR MOORED SCIENTIFIC\n   INSTRUMENTS IN AREA BOUND BY\n   46-46.67N 003-39.80W, 46-46.80N 003-39.68W,\n   47-05.81N 003-19.91W, 47-06.04N 003-19.71W.\n   WIDE BERTH REQUESTED\n2. CANCEL THIS MSG 260001Z SEP 22.",
+    "valid_from": "2022-09-14T18:03:00+00:00",
+    "valid_until": "2022-09-26T00:01:00+00:00",
+    "summary": null
   }
 }

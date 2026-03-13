@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1091/13",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-05-01T06:32:00",
     "raw_dtg": "010632Z MAY 13",
     "msg_id": "HYDROARC 1091/13",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1091/13"
+      "1089/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "MARITIME SAFETY INFORMATION WEBSITE.\nCANCEL HYDROLANT 1089/13 AND THIS MSG, SERVICE RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "MARITIME SAFETY INFORMATION WEBSITE.\nCANCEL HYDROLANT 1089/13 AND THIS MSG, SERVICE RESTORED.",
+    "valid_from": "2013-05-01T06:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

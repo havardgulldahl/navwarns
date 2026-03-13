@@ -3,17 +3,23 @@
   "id": "HYDROARC 3023/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.248333333333333,
+      55.27333333333333
+    ]
   },
   "properties": {
     "dtg": "2012-12-23T07:09:00",
     "raw_dtg": "230709Z DEC 12",
     "msg_id": "HYDROARC 3023/12(35)",
-    "cancellations": [
-      "HYDROARC 3027/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-NORTH COAST.\nCHART 35121\nDGPS STATION AT TORY ISLAND LIGHT 55-16.4N 008-14.9W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTH COAST.\nCHART 35121\nDGPS STATION AT TORY ISLAND LIGHT 55-16.4N 008-14.9W OFF AIR.",
+    "valid_from": "2012-12-23T07:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

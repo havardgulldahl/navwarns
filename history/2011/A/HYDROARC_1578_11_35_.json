@@ -3,17 +3,23 @@
   "id": "HYDROARC 1578/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.24,
+      58.47
+    ]
   },
   "properties": {
     "dtg": "2011-09-28T01:33:00",
     "raw_dtg": "280133Z SEP 11",
     "msg_id": "HYDROARC 1578/11(35)",
-    "cancellations": [
-      "HYDROARC 1582/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "HEBRIDES ISLANDS.\nRADIO SERVICES.\nBUTT OF LEWIS 58-28.2N 006-14.4W\nMF R/T AND DSC OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "HEBRIDES ISLANDS.\nRADIO SERVICES.\nBUTT OF LEWIS 58-28.2N 006-14.4W\nMF R/T AND DSC OFF AIR.",
+    "valid_from": "2011-09-28T01:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

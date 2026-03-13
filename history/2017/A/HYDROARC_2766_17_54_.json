@@ -2,18 +2,42 @@
   "type": "Feature",
   "id": "HYDROARC 2766/17(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        26.383333333333333,
+        35.406666666666666
+      ],
+      [
+        26.381666666666668,
+        35.43333333333333
+      ],
+      [
+        26.443333333333335,
+        35.17
+      ],
+      [
+        26.483333333333334,
+        35.0
+      ],
+      [
+        26.523333333333333,
+        34.82833333333333
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-09-08T15:24:00",
     "raw_dtg": "081524Z SEP 17",
     "msg_id": "HYDROARC 2766/17(54)",
-    "cancellations": [
-      "HYDROARC 2831/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nAEGEAN SEA.\nCRETE.\nDNC 09.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V ODIN FINDER IN VICINITY OF TRACKLINE JOINING\n35-24.4N 026-23.0E, 35-26.0N 026-22.9E,\n35-10.2N 026-26.6E, 35-00.0N 026-29.0E,\n34-49.7N 026-31.4E.\nTWO MILE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nAEGEAN SEA.\nCRETE.\nDNC 09.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V ODIN FINDER IN VICINITY OF TRACKLINE JOINING\n35-24.4N 026-23.0E, 35-26.0N 026-22.9E,\n35-10.2N 026-26.6E, 35-00.0N 026-29.0E,\n34-49.7N 026-31.4E.\nTWO MILE BERTH REQUESTED.",
+    "valid_from": "2017-09-08T15:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,34 @@
   "type": "Feature",
   "id": "HYDROARC 1941/16(37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.22,
+        52.75833333333333
+      ],
+      [
+        3.2116666666666664,
+        52.865
+      ],
+      [
+        3.18,
+        52.968333333333334
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-08-01T07:22:00",
     "raw_dtg": "010722Z AUG 16",
     "msg_id": "HYDROARC 1941/16(37)",
-    "cancellations": [
-      "HYDROARC 1996/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\nVICINITY OF TRACKLINE JOINING\n52-45.5N 003-13.2E, 52-51.9N 003-12.7E,\n52-58.1N 003-10.8E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\nVICINITY OF TRACKLINE JOINING\n52-45.5N 003-13.2E, 52-51.9N 003-12.7E,\n52-58.1N 003-10.8E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2016-08-01T07:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

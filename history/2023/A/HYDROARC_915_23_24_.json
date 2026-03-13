@@ -12,12 +12,16 @@
     "dtg": "2023-04-29T00:55:00",
     "raw_dtg": "290055Z APR 23",
     "msg_id": "HYDROARC 915/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 260001Z OCT 23",
-      "HYDROARC 915/23"
+      "THIS MSG 260001Z OCT 23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. CABO FRIO LIGHT 23-00.81S 042-00.05W\n   AT REDUCED INTENSITY UNTIL 25 OCT.\n2. CANCEL THIS MSG 260001Z OCT 23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. CABO FRIO LIGHT 23-00.81S 042-00.05W\n   AT REDUCED INTENSITY UNTIL 25 OCT.\n2. CANCEL THIS MSG 260001Z OCT 23.",
+    "valid_from": "2023-04-29T00:55:00+00:00",
+    "valid_until": "2023-10-26T00:01:00+00:00",
+    "summary": null
   }
 }

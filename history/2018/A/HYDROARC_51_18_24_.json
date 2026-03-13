@@ -3,17 +3,23 @@
   "id": "HYDROARC 51/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.25666666666667,
+      -4.966666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-01-05T10:31:00",
     "raw_dtg": "051031Z JAN 18",
     "msg_id": "HYDROARC 51/18(24)",
-    "cancellations": [
-      "HYDROARC 53/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nMAN OVERBOARD FROM VESSEL IN VICINITY\n04-58.0S 035-15.4W ON 04 JAN. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nMAN OVERBOARD FROM VESSEL IN VICINITY\n04-58.0S 035-15.4W ON 04 JAN. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2018-01-05T10:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

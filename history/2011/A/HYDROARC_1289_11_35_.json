@@ -3,17 +3,23 @@
   "id": "HYDROARC 1289/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.815,
+      57.61
+    ]
   },
   "properties": {
     "dtg": "2011-08-14T23:39:00",
     "raw_dtg": "142339Z AUG 11",
     "msg_id": "HYDROARC 1289/11(35)",
-    "cancellations": [
-      "HYDROARC 1293/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35013 (3RD ED).\nRATTRAY LIGHT 57-36.6N 001-48.9W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nNGA CHART 35013 (3RD ED).\nRATTRAY LIGHT 57-36.6N 001-48.9W UNLIT.",
+    "valid_from": "2011-08-14T23:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

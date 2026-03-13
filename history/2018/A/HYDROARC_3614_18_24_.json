@@ -3,17 +3,25 @@
   "id": "HYDROARC 3614/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.26833333333333,
+      -20.325
+    ]
   },
   "properties": {
     "dtg": "2018-11-21T07:56:00",
     "raw_dtg": "210756Z NOV 18",
     "msg_id": "HYDROARC 3614/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3655/18"
+      "THIS MSG 21 MAY 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. PONTA DE SANTA LUZIA LIGHT 20-19.5S 040-16.1W\n   UNLIT UNTIL 20 MAY 19.\n2. CANCEL THIS MSG 21 MAY 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\n1. PONTA DE SANTA LUZIA LIGHT 20-19.5S 040-16.1W\n   UNLIT UNTIL 20 MAY 19.\n2. CANCEL THIS MSG 21 MAY 19.",
+    "valid_from": "2018-11-21T07:56:00+00:00",
+    "valid_until": "2019-05-21T00:00:00+00:00",
+    "summary": null
   }
 }

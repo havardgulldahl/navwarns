@@ -3,17 +3,23 @@
   "id": "HYDROARC 409/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.165,
+      49.72833333333333
+    ]
   },
   "properties": {
     "dtg": "2011-03-12T11:03:00",
     "raw_dtg": "121103Z MAR 11",
     "msg_id": "HYDROARC 409/11(37)",
-    "cancellations": [
-      "HYDROARC 1093/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nCHANNEL ISLANDS.\nNGA CHART 37090 (8TH ED).\nALDERNEY LIGHT 49-43.7N 002-09.9W RANGE REDUCED\nTO 12 MILES AND DISPLAYED ONLY DURING DARKNESS.\nFOG SIGNAL PERMANENTLY DISCONTINUED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nCHANNEL ISLANDS.\nNGA CHART 37090 (8TH ED).\nALDERNEY LIGHT 49-43.7N 002-09.9W RANGE REDUCED\nTO 12 MILES AND DISPLAYED ONLY DURING DARKNESS.\nFOG SIGNAL PERMANENTLY DISCONTINUED.",
+    "valid_from": "2011-03-12T11:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

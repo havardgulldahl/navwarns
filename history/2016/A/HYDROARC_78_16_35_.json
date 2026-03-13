@@ -3,17 +3,25 @@
   "id": "HYDROARC 78/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0633333333333335,
+      60.11333333333334
+    ]
   },
   "properties": {
     "dtg": "2016-01-10T07:10:00",
     "raw_dtg": "100710Z JAN 16",
     "msg_id": "HYDROARC 78/16(35)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 87/16"
+      "73/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\n1. FOULA ISLAND SOUTH NESS LIGHT 60-06.8N 002-03.8W UNRELIABLE.\n2. CANCEL HYDROLANT 73/16(36), AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\n1. FOULA ISLAND SOUTH NESS LIGHT 60-06.8N 002-03.8W UNRELIABLE.\n2. CANCEL HYDROLANT 73/16(36), AID RESTORED.",
+    "valid_from": "2016-01-10T07:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

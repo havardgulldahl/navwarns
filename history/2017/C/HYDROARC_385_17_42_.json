@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 385/17(42)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-11-15T22:21:00",
     "raw_dtg": "152221Z NOV 17",
     "msg_id": "HYDROARC 385/17(42)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 374/17",
-      "HYDROARC 385/17"
+      "HYDROARC 374/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\nCANCEL HYDROARC 374/17 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\nCANCEL HYDROARC 374/17 AND THIS MSG.",
+    "valid_from": "2017-11-15T22:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

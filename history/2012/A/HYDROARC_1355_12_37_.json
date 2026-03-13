@@ -2,18 +2,38 @@
   "type": "Feature",
   "id": "HYDROARC 1355/12(37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        0.13333333333333333,
+        53.66166666666667
+      ],
+      [
+        0.21166666666666664,
+        53.68833333333333
+      ],
+      [
+        0.2533333333333333,
+        53.74333333333333
+      ],
+      [
+        0.43166666666666664,
+        53.885
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-06-21T16:29:00",
     "raw_dtg": "211629Z JUN 12",
     "msg_id": "HYDROARC 1355/12(37)",
-    "cancellations": [
-      "HYDROARC 1844/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY BARGE TOG MOR ALONG TRACKLINE JOINING\n53-39.7N 000-08.0E, 53-41.3N 000-12.7E,\n53-44.6N 000-15.2E, 53-53.1N 000-25.9E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY BARGE TOG MOR ALONG TRACKLINE JOINING\n53-39.7N 000-08.0E, 53-41.3N 000-12.7E,\n53-44.6N 000-15.2E, 53-53.1N 000-25.9E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-06-21T16:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

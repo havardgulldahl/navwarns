@@ -3,17 +3,25 @@
   "id": "HYDROARC 480/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.3933333333333335,
+      53.44
+    ]
   },
   "properties": {
     "dtg": "2011-03-23T07:03:00",
     "raw_dtg": "230703Z MAR 11",
     "msg_id": "HYDROARC 480/11(37)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 687/11"
+      "2110/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nNGA CHART 37166 (2ND ED).\n1. FOG SIGNAL AT PLATFORM 49/17-DD 53-26.4N 002-23.6E\n   INOPERATIVE.\n2. CANCEL HYDROLANT 2110/10."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nNGA CHART 37166 (2ND ED).\n1. FOG SIGNAL AT PLATFORM 49/17-DD 53-26.4N 002-23.6E\n   INOPERATIVE.\n2. CANCEL HYDROLANT 2110/10.",
+    "valid_from": "2011-03-23T07:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

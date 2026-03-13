@@ -3,17 +3,23 @@
   "id": "HYDROARC 4136/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.861666666666667,
+      54.026666666666664
+    ]
   },
   "properties": {
     "dtg": "2017-12-20T15:17:00",
     "raw_dtg": "201517Z DEC 17",
     "msg_id": "HYDROARC 4136/17(36)",
-    "cancellations": [
-      "HYDROARC 4147/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nCHART 36025.\nFOG SIGNAL AT PLATFORM 113/26, 54-01.6N 003-51.7W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nCHART 36025.\nFOG SIGNAL AT PLATFORM 113/26, 54-01.6N 003-51.7W\nUNRELIABLE.",
+    "valid_from": "2017-12-20T15:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

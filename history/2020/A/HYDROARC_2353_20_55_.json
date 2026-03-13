@@ -2,19 +2,58 @@
   "type": "Feature",
   "id": "HYDROARC 2353/20(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.75,
+          44.38666666666666
+        ],
+        [
+          33.8,
+          43.95333333333333
+        ],
+        [
+          33.483333333333334,
+          43.666666666666664
+        ],
+        [
+          31.386666666666667,
+          42.725
+        ],
+        [
+          30.685,
+          43.49
+        ],
+        [
+          32.71666666666667,
+          44.7
+        ],
+        [
+          33.38333333333333,
+          44.583333333333336
+        ],
+        [
+          33.75,
+          44.38666666666666
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-07-27T12:52:00",
     "raw_dtg": "271252Z JUL 20",
     "msg_id": "HYDROARC 2353/20(55)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 012000Z AUG 20",
-      "HYDROARC 2377/20"
+      "THIS MSG 012000Z AUG 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. MISSILE AND GUNNERY EXERCISES 0500Z TO 1900Z\n   DAILY 29 JUL THRU 01 AUG IN AREA BOUND BY\n   44-23.2N 033-45.0E, 43-57.2N 033-48.0E,\n   43-40.0N 033-29.0E, 42-43.5N 031-23.2E,\n   43-29.4N 030-41.1E, 44-42.0N 032-43.0E,\n   44-35.0N 033-23.0E.\n2. CANCEL THIS MSG 012000Z AUG 20."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. MISSILE AND GUNNERY EXERCISES 0500Z TO 1900Z\n   DAILY 29 JUL THRU 01 AUG IN AREA BOUND BY\n   44-23.2N 033-45.0E, 43-57.2N 033-48.0E,\n   43-40.0N 033-29.0E, 42-43.5N 031-23.2E,\n   43-29.4N 030-41.1E, 44-42.0N 032-43.0E,\n   44-35.0N 033-23.0E.\n2. CANCEL THIS MSG 012000Z AUG 20.",
+    "valid_from": "2020-07-27T12:52:00+00:00",
+    "valid_until": "2020-08-01T20:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 728/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6083333333333334,
+      55.64333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-03-13T03:27:00",
     "raw_dtg": "130327Z MAR 14",
     "msg_id": "HYDROARC 728/14(35)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 140059Z MAR 14",
-      "HYDROARC 728/14"
+      "THIS MSG 140059Z MAR 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-NORTHEAST COAST.\nCHART 35010\n1. LONGSTONE LIGHT 55-38.6N 001-36.5W UNRELIABLE\n   130900Z TO 132359Z MAR.\n2. CANCEL THIS MSG 140059Z MAR 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-NORTHEAST COAST.\nCHART 35010\n1. LONGSTONE LIGHT 55-38.6N 001-36.5W UNRELIABLE\n   130900Z TO 132359Z MAR.\n2. CANCEL THIS MSG 140059Z MAR 14.",
+    "valid_from": "2014-03-13T03:27:00+00:00",
+    "valid_until": "2014-03-14T00:59:00+00:00",
+    "summary": null
   }
 }

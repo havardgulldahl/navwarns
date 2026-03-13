@@ -2,19 +2,62 @@
   "type": "Feature",
   "id": "HYDROARC 63/20(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15.975,
+          69.29166666666667
+        ],
+        [
+          15.9,
+          69.31666666666666
+        ],
+        [
+          15.5,
+          69.54166666666667
+        ],
+        [
+          13.183333333333334,
+          70.05
+        ],
+        [
+          15.775,
+          70.7
+        ],
+        [
+          15.766666666666667,
+          69.575
+        ],
+        [
+          16.05,
+          69.34166666666667
+        ],
+        [
+          16.05,
+          69.30833333333334
+        ],
+        [
+          15.975,
+          69.29166666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-05-08T17:23:00",
     "raw_dtg": "081723Z MAY 20",
     "msg_id": "HYDROARC 63/20(43)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 160100Z MAY 20",
-      "HYDROARC 65/20"
+      "THIS MSG 160100Z MAY 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS 1800Z TO 2359Z DAILY\n   11 THRU 15 MAY IN AREA BOUND BY\n   69-17.5N 015-58.5E, 69-19.0N 015-54.0E,\n   69-32.5N 015-30.0E, 70-03.0N 013-11.0E,\n   70-42.0N 015-46.5E, 69-34.5N 015-46.0E,\n   69-20.5N 016-03.0E, 69-18.5N 016-03.0E.\n2. CANCEL THIS MSG 160100Z MAY 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. HAZARDOUS OPERATIONS 1800Z TO 2359Z DAILY\n   11 THRU 15 MAY IN AREA BOUND BY\n   69-17.5N 015-58.5E, 69-19.0N 015-54.0E,\n   69-32.5N 015-30.0E, 70-03.0N 013-11.0E,\n   70-42.0N 015-46.5E, 69-34.5N 015-46.0E,\n   69-20.5N 016-03.0E, 69-18.5N 016-03.0E.\n2. CANCEL THIS MSG 160100Z MAY 20.",
+    "valid_from": "2020-05-08T17:23:00+00:00",
+    "valid_until": "2020-05-16T01:00:00+00:00",
+    "summary": null
   }
 }

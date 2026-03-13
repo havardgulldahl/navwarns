@@ -3,17 +3,23 @@
   "id": "HYDROARC 1302/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.04333333333334,
+      -21.465
+    ]
   },
   "properties": {
     "dtg": "2010-07-09T02:33:00",
     "raw_dtg": "090233Z JUL 10",
     "msg_id": "HYDROARC 1302/10(24)",
-    "cancellations": [
-      "HYDROARC 1411/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nNGA CHART 24170 (14TH ED).\nGUAXINDIBA LIGHT 21-27.9S 041-02.6W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nNGA CHART 24170 (14TH ED).\nGUAXINDIBA LIGHT 21-27.9S 041-02.6W UNLIT.",
+    "valid_from": "2010-07-09T02:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

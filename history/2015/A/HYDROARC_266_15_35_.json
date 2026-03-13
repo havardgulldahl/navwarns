@@ -3,17 +3,23 @@
   "id": "HYDROARC 266/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0866666666666667,
+      60.25
+    ]
   },
   "properties": {
     "dtg": "2015-01-31T01:42:00",
     "raw_dtg": "310142Z JAN 15",
     "msg_id": "HYDROARC 266/15(35)",
-    "cancellations": [
-      "HYDROARC 273/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35072.\nHOO STACK LIGHT 60-15.0N 001-05.2W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35072.\nHOO STACK LIGHT 60-15.0N 001-05.2W UNLIT.",
+    "valid_from": "2015-01-31T01:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

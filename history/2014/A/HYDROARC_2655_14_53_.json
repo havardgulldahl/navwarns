@@ -3,17 +3,25 @@
   "id": "HYDROARC 2655/14(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      14.49,
+      35.83833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-11-03T16:04:00",
     "raw_dtg": "031604Z NOV 14",
     "msg_id": "HYDROARC 2655/14(53)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2655/14"
+      "THIS MSG 07 NOV 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nNAVTEX.\nDNC 09.\n1. NAVTEX STATION MALTA 35-50.3N 014-29.4E UNRELIABLE 06 NOV.\n2. CANCEL THIS MSG 07 NOV 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nNAVTEX.\nDNC 09.\n1. NAVTEX STATION MALTA 35-50.3N 014-29.4E UNRELIABLE 06 NOV.\n2. CANCEL THIS MSG 07 NOV 14.",
+    "valid_from": "2014-11-03T16:04:00+00:00",
+    "valid_until": "2014-11-07T00:00:00+00:00",
+    "summary": null
   }
 }

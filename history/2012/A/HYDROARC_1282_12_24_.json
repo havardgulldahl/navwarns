@@ -3,17 +3,25 @@
   "id": "HYDROARC 1282/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -32.38666666666666,
+      -3.8133333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-06-15T05:11:00",
     "raw_dtg": "150511Z JUN 12",
     "msg_id": "HYDROARC 1282/12(24)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1549/12"
+      "1275/12"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nCHART 24531\n1. ILHA RATA LIGHT 03-48.8S 032-23.2W UNLIT.\n2. CANCEL HYDROLANT 1275/12."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nCHART 24531\n1. ILHA RATA LIGHT 03-48.8S 032-23.2W UNLIT.\n2. CANCEL HYDROLANT 1275/12.",
+    "valid_from": "2012-06-15T05:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

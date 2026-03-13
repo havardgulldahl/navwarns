@@ -3,17 +3,23 @@
   "id": "HYDROARC 2275/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.11666666666667,
+      0.76
+    ]
   },
   "properties": {
     "dtg": "2012-09-29T01:12:00",
     "raw_dtg": "290112Z SEP 12",
     "msg_id": "HYDROARC 2275/12(24)",
-    "cancellations": [
-      "HYDROARC 2600/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24322\nPONTA DO CEU LIGHT 00-45.6N 050-07.0W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24322\nPONTA DO CEU LIGHT 00-45.6N 050-07.0W UNLIT.",
+    "valid_from": "2012-09-29T01:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

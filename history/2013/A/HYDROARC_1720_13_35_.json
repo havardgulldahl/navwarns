@@ -3,17 +3,23 @@
   "id": "HYDROARC 1720/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0,
+      60.37
+    ]
   },
   "properties": {
     "dtg": "2013-07-17T01:36:00",
     "raw_dtg": "170136Z JUL 13",
     "msg_id": "HYDROARC 1720/13(35)",
-    "cancellations": [
-      "HYDROARC 1725/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35072\nSUTHER NESS LIGHT 60-22.2N 001-00.0W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35072\nSUTHER NESS LIGHT 60-22.2N 001-00.0W UNLIT.",
+    "valid_from": "2013-07-17T01:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

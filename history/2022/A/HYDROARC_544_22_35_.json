@@ -3,17 +3,23 @@
   "id": "HYDROARC 544/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.6883333333333335,
+      57.7
+    ]
   },
   "properties": {
     "dtg": "2022-02-23T21:31:00",
     "raw_dtg": "232131Z FEB 22",
     "msg_id": "HYDROARC 544/22(35)",
-    "cancellations": [
-      "HYDROARC 618/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nHASKIER ISLAND LIGHT 57-42.0N 007-41.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nHASKIER ISLAND LIGHT 57-42.0N 007-41.3W UNRELIABLE.",
+    "valid_from": "2022-02-23T21:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

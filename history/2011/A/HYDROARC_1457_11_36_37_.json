@@ -2,18 +2,86 @@
   "type": "Feature",
   "id": "HYDROARC 1457/11(36,37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        -4.083333333333333,
+        45.75
+      ],
+      [
+        -3.5833333333333335,
+        45.416666666666664
+      ],
+      [
+        -3.3333333333333335,
+        45.583333333333336
+      ],
+      [
+        -3.75,
+        45.916666666666664
+      ],
+      [
+        -6.0,
+        46.75
+      ],
+      [
+        -4.5,
+        46.083333333333336
+      ],
+      [
+        -4.25,
+        46.41833333333334
+      ],
+      [
+        -5.5,
+        47.083333333333336
+      ],
+      [
+        -8.0,
+        47.416666666666664
+      ],
+      [
+        -6.25,
+        47.166666666666664
+      ],
+      [
+        -6.166666666666667,
+        47.416666666666664
+      ],
+      [
+        -7.75,
+        48.0
+      ],
+      [
+        -9.416666666666666,
+        48.0
+      ],
+      [
+        -8.833333333333334,
+        47.833333333333336
+      ],
+      [
+        -8.666666666666666,
+        48.333333333333336
+      ],
+      [
+        -9.25,
+        48.333333333333336
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-09-12T13:14:00",
     "raw_dtg": "121314Z SEP 11",
     "msg_id": "HYDROARC 1457/11(36,37)",
-    "cancellations": [
-      "HYDROARC 1457/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   23 SEP BY M/V POURGQUOI PAS\n   ALONG TRACKLINE JOINING\n   45-45.0N 004-05.0W, 45-25.0N 003-35.0W,\n   45-35.0N 003-20.0W, 45-55.0N 003-45.0W,\n   46-45.0N 006-00.0W, 46-05.0N 004-30.0W,\n   46-25.1N 004-15.0W, 47-05.0N 005-30.0W,\n   47-25.0N 008-00.0W, 47-10.0N 006-15.0W,\n   47-25.0N 006-10.0W, 48-00.0N 007-45.0W,\n   48-00.0N 009-25.0W, 47-50.0N 008-50.0W,\n   48-20.0N 008-40.0W, 48-20.0N 009-15.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 SEP."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   23 SEP BY M/V POURGQUOI PAS\n   ALONG TRACKLINE JOINING\n   45-45.0N 004-05.0W, 45-25.0N 003-35.0W,\n   45-35.0N 003-20.0W, 45-55.0N 003-45.0W,\n   46-45.0N 006-00.0W, 46-05.0N 004-30.0W,\n   46-25.1N 004-15.0W, 47-05.0N 005-30.0W,\n   47-25.0N 008-00.0W, 47-10.0N 006-15.0W,\n   47-25.0N 006-10.0W, 48-00.0N 007-45.0W,\n   48-00.0N 009-25.0W, 47-50.0N 008-50.0W,\n   48-20.0N 008-40.0W, 48-20.0N 009-15.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 SEP.",
+    "valid_from": "2011-09-12T13:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3219/15(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -89.475,
+      28.178333333333335
+    ]
   },
   "properties": {
     "dtg": "2015-12-31T03:48:00",
     "raw_dtg": "310348Z DEC 15",
     "msg_id": "HYDROARC 3219/15(11)",
-    "cancellations": [
-      "HYDROARC 29/16"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nLOUISIANA.\nDNC 15.\nS/V NORTH STAR IN NEED OF ASSISTANCE.\nLAST KNOWN POSITION 28-10.7N 089-28.5W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nU.S. COAST GUARD SECTOR NEW ORLEANS,\nPHONE: 504 365 2533."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nLOUISIANA.\nDNC 15.\nS/V NORTH STAR IN NEED OF ASSISTANCE.\nLAST KNOWN POSITION 28-10.7N 089-28.5W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nU.S. COAST GUARD SECTOR NEW ORLEANS,\nPHONE: 504 365 2533.",
+    "valid_from": "2015-12-31T03:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2586/20(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.311666666666667,
+      34.245
+    ]
   },
   "properties": {
     "dtg": "2020-08-21T12:22:00",
     "raw_dtg": "211222Z AUG 20",
     "msg_id": "HYDROARC 2586/20(52)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 241222Z AUG 20",
-      "HYDROARC 2586/20"
+      "THIS MSG 241222Z AUG 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. DERELICT F/V ADRIFT IN VICINITY\n   34-14.7N 011-18.7E.\n2. CANCEL THIS MSG 241222Z AUG 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. DERELICT F/V ADRIFT IN VICINITY\n   34-14.7N 011-18.7E.\n2. CANCEL THIS MSG 241222Z AUG 20.",
+    "valid_from": "2020-08-21T12:22:00+00:00",
+    "valid_until": "2020-08-24T12:22:00+00:00",
+    "summary": null
   }
 }

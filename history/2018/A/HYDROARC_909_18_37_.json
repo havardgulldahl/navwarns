@@ -3,17 +3,25 @@
   "id": "HYDROARC 909/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.895,
+      49.906666666666666
+    ]
   },
   "properties": {
     "dtg": "2018-03-16T11:54:00",
     "raw_dtg": "161154Z MAR 18",
     "msg_id": "HYDROARC 909/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 1034/18"
+      "19/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 37015.\n1. CHANNEL LIGHTSHIP 49-54.4N 002-53.7W OFF STATION.\n2. CANCEL HYDROLANT 19/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 37015.\n1. CHANNEL LIGHTSHIP 49-54.4N 002-53.7W OFF STATION.\n2. CANCEL HYDROLANT 19/18.",
+    "valid_from": "2018-03-16T11:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

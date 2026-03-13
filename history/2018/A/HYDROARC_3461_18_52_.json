@@ -3,17 +3,23 @@
   "id": "HYDROARC 3461/18(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      6.886666666666667,
+      36.93833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-11-07T12:30:00",
     "raw_dtg": "071230Z NOV 18",
     "msg_id": "HYDROARC 3461/18(52)",
-    "cancellations": [
-      "HYDROARC 234/19"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52220.\nILE SRIDINA LIGHT 36-56.3N 006-53.2E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52220.\nILE SRIDINA LIGHT 36-56.3N 006-53.2E UNRELIABLE.",
+    "valid_from": "2018-11-07T12:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

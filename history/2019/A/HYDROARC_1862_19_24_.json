@@ -3,17 +3,25 @@
   "id": "HYDROARC 1862/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.486666666666665,
+      -5.161666666666667
+    ]
   },
   "properties": {
     "dtg": "2019-06-21T13:52:00",
     "raw_dtg": "211352Z JUN 19",
     "msg_id": "HYDROARC 1862/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 1862/19"
+      "THIS MSG 19 DEC 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. PONTA DE CALCANHAR RADIOBEACON 05-09.7S 035-29.2W\n   INOPERATIVE.\n2. CANCEL THIS MSG 19 DEC 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. PONTA DE CALCANHAR RADIOBEACON 05-09.7S 035-29.2W\n   INOPERATIVE.\n2. CANCEL THIS MSG 19 DEC 19.",
+    "valid_from": "2019-06-21T13:52:00+00:00",
+    "valid_until": "2019-12-19T00:00:00+00:00",
+    "summary": null
   }
 }

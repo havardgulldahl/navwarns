@@ -3,17 +3,23 @@
   "id": "HYDROARC 2993/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.04333333333334,
+      -21.465
+    ]
   },
   "properties": {
     "dtg": "2017-09-23T15:28:00",
     "raw_dtg": "231528Z SEP 17",
     "msg_id": "HYDROARC 2993/17(24)",
-    "cancellations": [
-      "HYDROARC 54/18"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24170.\nGUAXINDIBA LIGHT 21-27.9S 041-02.6W REMOVED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24170.\nGUAXINDIBA LIGHT 21-27.9S 041-02.6W REMOVED.",
+    "valid_from": "2017-09-23T15:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

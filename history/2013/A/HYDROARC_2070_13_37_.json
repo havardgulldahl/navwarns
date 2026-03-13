@@ -3,17 +3,25 @@
   "id": "HYDROARC 2070/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.22,
+      52.75666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-08-24T13:02:00",
     "raw_dtg": "241302Z AUG 13",
     "msg_id": "HYDROARC 2070/13(37)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2133/13"
+      "2038/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP RAYMOND CROZE WITH\n   SUBMERSIBLE VICINITY OF TRACKLINE BETWEEN\n   52-45.4N 003-13.2E AND 52-15.9N 003-11.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2038/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP RAYMOND CROZE WITH\n   SUBMERSIBLE VICINITY OF TRACKLINE BETWEEN\n   52-45.4N 003-13.2E AND 52-15.9N 003-11.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2038/13.",
+    "valid_from": "2013-08-24T13:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2352/14(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-09-29T17:21:00",
     "raw_dtg": "291721Z SEP 14",
     "msg_id": "HYDROARC 2352/14(37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2352/14"
+      "2088/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCANCEL HYDROLANT 2088/14 AND THIS MSG, AIDS RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCANCEL HYDROLANT 2088/14 AND THIS MSG, AIDS RESTORED.",
+    "valid_from": "2014-09-29T17:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

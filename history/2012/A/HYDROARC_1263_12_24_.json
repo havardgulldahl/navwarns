@@ -3,17 +3,23 @@
   "id": "HYDROARC 1263/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.79666666666667,
+      -7.15
+    ]
   },
   "properties": {
     "dtg": "2012-06-13T01:24:00",
     "raw_dtg": "130124Z JUN 12",
     "msg_id": "HYDROARC 1263/12(24)",
-    "cancellations": [
-      "HYDROARC 1283/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nCHART 24230\nCABO BRANCO LIGHT 07-09.0S 034-47.8W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nCHART 24230\nCABO BRANCO LIGHT 07-09.0S 034-47.8W UNLIT.",
+    "valid_from": "2012-06-13T01:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1970/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.053333333333334,
+      48.47666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-06-26T21:56:00",
     "raw_dtg": "262156Z JUN 17",
     "msg_id": "HYDROARC 1970/17(37)",
-    "cancellations": [
-      "HYDROARC 1976/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "FRANCE-NORTHWEST COAST.\nDNC 20.\nNAVTEX STATION CROSS CORSEN (A)\n48-28.6N 005-03.2W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTHWEST COAST.\nDNC 20.\nNAVTEX STATION CROSS CORSEN (A)\n48-28.6N 005-03.2W OFF AIR.",
+    "valid_from": "2017-06-26T21:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

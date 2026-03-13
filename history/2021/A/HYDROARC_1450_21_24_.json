@@ -3,17 +3,25 @@
   "id": "HYDROARC 1450/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.28666666666667,
+      -20.323333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-05-30T00:18:00",
     "raw_dtg": "300018Z MAY 21",
     "msg_id": "HYDROARC 1450/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1620/21"
+      "THIS MSG 26 NOV 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. PONTA UCHURIA B3 RANGE FRONT LIGHT\n   20-19.4S 040-17.2W UNRELIABLE UNTIL 25 NOV.\n2. CANCEL THIS MSG 26 NOV 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. PONTA UCHURIA B3 RANGE FRONT LIGHT\n   20-19.4S 040-17.2W UNRELIABLE UNTIL 25 NOV.\n2. CANCEL THIS MSG 26 NOV 21.",
+    "valid_from": "2021-05-30T00:18:00+00:00",
+    "valid_until": "2021-11-26T00:00:00+00:00",
+    "summary": null
   }
 }

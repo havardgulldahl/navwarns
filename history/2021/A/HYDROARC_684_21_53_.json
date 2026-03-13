@@ -2,18 +2,54 @@
   "type": "Feature",
   "id": "HYDROARC 684/21(53)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          14.6072,
+          35.916716666666666
+        ],
+        [
+          14.6296,
+          35.93586666666667
+        ],
+        [
+          14.66185,
+          35.92568333333333
+        ],
+        [
+          14.648033333333334,
+          35.899566666666665
+        ],
+        [
+          14.624483333333334,
+          35.907716666666666
+        ],
+        [
+          14.6222,
+          35.90501666666667
+        ],
+        [
+          14.6072,
+          35.916716666666666
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-03-09T16:44:00",
     "raw_dtg": "091644Z MAR 21",
     "msg_id": "HYDROARC 684/21(53)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 684/21"
+      "THIS MSG 28 MAR 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nDNC 09.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 27 MAR\n   BY M/V CHIKO IN AREA BOUND BY\n   35-55.003N  014-36.432E, 35-56.152N  014-37.776E,\n   35-55.541N  014-39.711E, 35-53.974N  014-38.882E,\n   35-54.463N  014-37.469E, 35-54.301N  014-37.332E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 28 MAR 21."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nDNC 09.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 27 MAR\n   BY M/V CHIKO IN AREA BOUND BY\n   35-55.003N  014-36.432E, 35-56.152N  014-37.776E,\n   35-55.541N  014-39.711E, 35-53.974N  014-38.882E,\n   35-54.463N  014-37.469E, 35-54.301N  014-37.332E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 28 MAR 21.",
+    "valid_from": "2021-03-09T16:44:00+00:00",
+    "valid_until": "2021-03-28T00:00:00+00:00",
+    "summary": null
   }
 }

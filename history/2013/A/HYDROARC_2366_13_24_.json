@@ -3,17 +3,23 @@
   "id": "HYDROARC 2366/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.5,
+      -2.788333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-09-24T23:41:00",
     "raw_dtg": "242341Z SEP 13",
     "msg_id": "HYDROARC 2366/13(24)",
-    "cancellations": [
-      "HYDROARC 2503/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24250\nJERICOACOARA LIGHT 02-47.3S 040-30.0W DESTROYED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24250\nJERICOACOARA LIGHT 02-47.3S 040-30.0W DESTROYED.",
+    "valid_from": "2013-09-24T23:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

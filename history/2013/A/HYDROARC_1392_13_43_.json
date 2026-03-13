@@ -2,18 +2,56 @@
   "type": "Feature",
   "id": "HYDROARC 1392/13(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.835,
+          63.99666666666667
+        ],
+        [
+          7.97,
+          64.11833333333334
+        ],
+        [
+          8.298333333333334,
+          64.355
+        ],
+        [
+          8.335,
+          64.55166666666666
+        ],
+        [
+          7.933333333333334,
+          64.65
+        ],
+        [
+          7.828333333333333,
+          64.61833333333334
+        ],
+        [
+          7.276666666666666,
+          64.12833333333333
+        ],
+        [
+          7.835,
+          63.99666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-06-05T22:32:00",
     "raw_dtg": "052232Z JUN 13",
     "msg_id": "HYDROARC 1392/13(43)",
-    "cancellations": [
-      "HYDROARC 1871/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V ATLANTIC EXPLORER TOWING SIX 6800 METER LONG\nCABLES IN AREA BOUND BY\n63-59.8N 007-50.1E, 64-07.1N 007-58.2E,\n64-21.3N 008-17.9E, 64-33.1N 008-20.1E,\n64-39.0N 007-56.0E, 64-37.1N 007-49.7E,\n64-07.7N 007-16.6E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V ATLANTIC EXPLORER TOWING SIX 6800 METER LONG\nCABLES IN AREA BOUND BY\n63-59.8N 007-50.1E, 64-07.1N 007-58.2E,\n64-21.3N 008-17.9E, 64-33.1N 008-20.1E,\n64-39.0N 007-56.0E, 64-37.1N 007-49.7E,\n64-07.7N 007-16.6E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2013-06-05T22:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

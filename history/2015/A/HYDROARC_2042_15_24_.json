@@ -3,18 +3,25 @@
   "id": "HYDROARC 2042/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.428333333333335,
+      -22.4
+    ]
   },
   "properties": {
     "dtg": "2015-08-20T08:19:00",
     "raw_dtg": "200819Z AUG 15",
     "msg_id": "HYDROARC 2042/15(24)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 230821Z AUG 15",
-      "HYDROARC 2042/15"
+      "THIS MSG 230821Z AUG 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. DERELICT F/V SKANDI STOLMEN ADRIFT VICINITY\n   22-24.0S 040-25.7W AT 200030Z AUG.\n2. CANCEL THIS MSG 230821Z AUG 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. DERELICT F/V SKANDI STOLMEN ADRIFT VICINITY\n   22-24.0S 040-25.7W AT 200030Z AUG.\n2. CANCEL THIS MSG 230821Z AUG 15.",
+    "valid_from": "2015-08-20T08:19:00+00:00",
+    "valid_until": "2015-08-23T08:21:00+00:00",
+    "summary": null
   }
 }

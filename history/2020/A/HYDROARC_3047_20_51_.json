@@ -3,17 +3,25 @@
   "id": "HYDROARC 3047/20(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.5600000000000005,
+      36.04833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-10-07T08:12:00",
     "raw_dtg": "070812Z OCT 20",
     "msg_id": "HYDROARC 3047/20(51)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3049/20"
+      "3019/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF GIBRALTAR.\nSPAIN.\nDNC 08.\n1. NAVTEX STATION TARIFA (G) 36-02.9N 005-33.6W\n   AT REDUCED POWER.\n2. CANCEL HYDROLANT 3019/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF GIBRALTAR.\nSPAIN.\nDNC 08.\n1. NAVTEX STATION TARIFA (G) 36-02.9N 005-33.6W\n   AT REDUCED POWER.\n2. CANCEL HYDROLANT 3019/20.",
+    "valid_from": "2020-10-07T08:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

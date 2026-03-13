@@ -3,17 +3,23 @@
   "id": "HYDROARC 1161/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      5.263333333333334,
+      54.11833333333333
+    ]
   },
   "properties": {
     "dtg": "2011-07-21T19:53:00",
     "raw_dtg": "211953Z JUL 11",
     "msg_id": "HYDROARC 1161/11(37)",
-    "cancellations": [
-      "HYDROARC 1446/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nEAST FRIESLAND TSS.\nNGA CHART 37165 (3RD ED).\nPLATFORM ESTABLISHED IN 54-07.1N 005-15.8E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nEAST FRIESLAND TSS.\nNGA CHART 37165 (3RD ED).\nPLATFORM ESTABLISHED IN 54-07.1N 005-15.8E.",
+    "valid_from": "2011-07-21T19:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

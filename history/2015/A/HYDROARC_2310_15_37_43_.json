@@ -3,17 +3,23 @@
   "id": "HYDROARC 2310/15(37,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.9716666666666666,
+      56.54
+    ]
   },
   "properties": {
     "dtg": "2015-09-17T01:18:00",
     "raw_dtg": "170118Z SEP 15",
     "msg_id": "HYDROARC 2310/15(37,43)",
-    "cancellations": [
-      "HYDROARC 2323/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V ISLAND VANGUARD IN\n56-32.4N 000-58.3E. WIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V ISLAND VANGUARD IN\n56-32.4N 000-58.3E. WIDE BERTH REQUESTED.",
+    "valid_from": "2015-09-17T01:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

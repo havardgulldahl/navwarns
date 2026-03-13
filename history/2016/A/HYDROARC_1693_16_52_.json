@@ -3,17 +3,23 @@
   "id": "HYDROARC 1693/16(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.29,
+      35.873333333333335
+    ]
   },
   "properties": {
     "dtg": "2016-07-05T12:00:00",
     "raw_dtg": "051200Z JUL 16",
     "msg_id": "HYDROARC 1693/16(52)",
-    "cancellations": [
-      "HYDROARC 2095/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52060.\nILOT D'ARZEW LIGHT 35-52.4N 000-17.4W UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52060.\nILOT D'ARZEW LIGHT 35-52.4N 000-17.4W UNLIT.",
+    "valid_from": "2016-07-05T12:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

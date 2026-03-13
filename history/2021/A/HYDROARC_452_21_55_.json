@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 452/21(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.733183333333333,
+          44.19956666666667
+        ],
+        [
+          28.7624,
+          44.199533333333335
+        ],
+        [
+          28.769833333333334,
+          44.181066666666666
+        ],
+        [
+          28.733033333333335,
+          44.18118333333334
+        ],
+        [
+          28.733183333333333,
+          44.19956666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-02-16T15:18:00",
     "raw_dtg": "161518Z FEB 21",
     "msg_id": "HYDROARC 452/21(55)",
-    "cancellations": [
-      "HYDROARC 625/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE\nIN AREA BOUND BY\n44-11.974N 028-43.991E, 44-11.972N 028-45.744E,\n44-10.864N 028-46.190E, 44-10.871N 028-43.982E."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE\nIN AREA BOUND BY\n44-11.974N 028-43.991E, 44-11.972N 028-45.744E,\n44-10.864N 028-46.190E, 44-10.871N 028-43.982E.",
+    "valid_from": "2021-02-16T15:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3201/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.33,
+      51.11333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-12-28T23:34:00",
     "raw_dtg": "282334Z DEC 15",
     "msg_id": "HYDROARC 3201/15(37)",
-    "cancellations": [
-      "HYDROARC 62/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nDOVER STRAIT.\nDNC 20.\nCHART 37120.\nSOUTHERN BREAKWATER WEST HEAD LIGHT 51-06.8N 001-19.8E UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nDOVER STRAIT.\nDNC 20.\nCHART 37120.\nSOUTHERN BREAKWATER WEST HEAD LIGHT 51-06.8N 001-19.8E UNLIT.",
+    "valid_from": "2015-12-28T23:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

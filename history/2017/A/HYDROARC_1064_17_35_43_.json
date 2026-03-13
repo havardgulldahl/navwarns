@@ -3,18 +3,26 @@
   "id": "HYDROARC 1064/17(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8366666666666667,
+      60.98
+    ]
   },
   "properties": {
     "dtg": "2017-04-01T13:27:00",
     "raw_dtg": "011327Z APR 17",
     "msg_id": "HYDROARC 1064/17(35,43)",
+    "year": 2017,
     "cancellations": [
       "THIS MSG 041327Z APR 17",
-      "HYDROARC 1064/17"
+      "1056/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nDNC 20, DNC 21.\n1. SEVEN CONTAINERS ADRIFT IN VICINITY\n   60-58.8N 001-50.2E. REPORTS TO SHETLAND\n   COAST GUARD.\n2. CANCEL HYDROLANT 1056/17.\n3. CANCEL THIS MSG 041327Z APR 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nDNC 20, DNC 21.\n1. SEVEN CONTAINERS ADRIFT IN VICINITY\n   60-58.8N 001-50.2E. REPORTS TO SHETLAND\n   COAST GUARD.\n2. CANCEL HYDROLANT 1056/17.\n3. CANCEL THIS MSG 041327Z APR 17.",
+    "valid_from": "2017-04-01T13:27:00+00:00",
+    "valid_until": "2017-04-04T13:27:00+00:00",
+    "summary": null
   }
 }

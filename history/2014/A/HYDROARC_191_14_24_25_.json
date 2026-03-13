@@ -3,17 +3,23 @@
   "id": "HYDROARC 191/14(24,25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -52.041666666666664,
+      15.736666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-01-19T10:53:00",
     "raw_dtg": "191053Z JAN 14",
     "msg_id": "HYDROARC 191/14(24,25)",
-    "cancellations": [
-      "HYDROARC 192/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 15-44.2N 052-02.5W\nAT 190910Z JAN. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC FORT DE FRANCE,\nINMARSAT-C: 422799024, TELEX: 42912008,\nPHONE: 596 596 709 292, FAX: 596 596 632 450,\nE-MAIL: ANTILLES@MRCCFR.EU."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 15-44.2N 052-02.5W\nAT 190910Z JAN. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC FORT DE FRANCE,\nINMARSAT-C: 422799024, TELEX: 42912008,\nPHONE: 596 596 709 292, FAX: 596 596 632 450,\nE-MAIL: ANTILLES@MRCCFR.EU.",
+    "valid_from": "2014-01-19T10:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

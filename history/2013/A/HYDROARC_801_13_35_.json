@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 801/13(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-03-28T15:31:00",
     "raw_dtg": "281531Z MAR 13",
     "msg_id": "HYDROARC 801/13(35)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 801/13"
+      "683/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-NORTHEAST COAST.\nCANCEL HYDROLANT 683/13 AND THIS MSG, OPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-NORTHEAST COAST.\nCANCEL HYDROLANT 683/13 AND THIS MSG, OPERATIONS COMPLETED.",
+    "valid_from": "2013-03-28T15:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

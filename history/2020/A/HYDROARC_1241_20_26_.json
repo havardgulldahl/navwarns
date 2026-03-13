@@ -3,18 +3,25 @@
   "id": "HYDROARC 1241/20(26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -81.05,
+      10.376666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-04-06T13:16:00",
     "raw_dtg": "061316Z APR 20",
     "msg_id": "HYDROARC 1241/20(26)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 091316Z APR 20",
-      "HYDROARC 1241/20"
+      "THIS MSG 091316Z APR 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN CARIBBEAN SEA.\nPANAMA.\nDNC 14.\n1. DERELICT F/V, BLUE HULL, ADRIFT IN VICINITY\n   10-22.6N 081-03.0W AT 050001Z APR.\n2. CANCEL THIS MSG 091316Z APR 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN CARIBBEAN SEA.\nPANAMA.\nDNC 14.\n1. DERELICT F/V, BLUE HULL, ADRIFT IN VICINITY\n   10-22.6N 081-03.0W AT 050001Z APR.\n2. CANCEL THIS MSG 091316Z APR 20.",
+    "valid_from": "2020-04-06T13:16:00+00:00",
+    "valid_until": "2020-04-09T13:16:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 895/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.128333333333333,
+      48.06333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-05-28T09:42:00",
     "raw_dtg": "280942Z MAY 11",
     "msg_id": "HYDROARC 895/11(37)",
-    "cancellations": [
-      "HYDROARC 1092/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nCHAUSSEE DE SEIN BUOY 48-03.8N 005-07.7W UNLIT\nAND RACON INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nCHAUSSEE DE SEIN BUOY 48-03.8N 005-07.7W UNLIT\nAND RACON INOPERATIVE.",
+    "valid_from": "2011-05-28T09:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

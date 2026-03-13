@@ -3,18 +3,25 @@
   "id": "HYDROARC 1394/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.72,
+      54.86333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-06-06T07:39:00",
     "raw_dtg": "060739Z JUN 13",
     "msg_id": "HYDROARC 1394/13(36)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 061900Z JUN 13",
-      "HYDROARC 1394/13"
+      "THIS MSG 061900Z JUN 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nNORTH CHANNEL.\n1. PIPELINE OPERATIONS IN PROGRESS UNTIL 061800Z JUN\n   ALONG TRACKLINE BETWEEN\n   54-51.8N 005-43.2W AND 54-53.2N 005-10.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 061900Z JUN 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nNORTH CHANNEL.\n1. PIPELINE OPERATIONS IN PROGRESS UNTIL 061800Z JUN\n   ALONG TRACKLINE BETWEEN\n   54-51.8N 005-43.2W AND 54-53.2N 005-10.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 061900Z JUN 13.",
+    "valid_from": "2013-06-06T07:39:00+00:00",
+    "valid_until": "2013-06-06T19:00:00+00:00",
+    "summary": null
   }
 }

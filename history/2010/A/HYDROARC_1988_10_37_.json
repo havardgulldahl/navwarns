@@ -3,17 +3,23 @@
   "id": "HYDROARC 1988/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.4783333333333335,
+      51.85666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-10-20T21:21:00",
     "raw_dtg": "202121Z OCT 10",
     "msg_id": "HYDROARC 1988/10(37)",
-    "cancellations": [
-      "HYDROARC 2005/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37244 (11TH ED).\nNHR-S BUOY 51-51.4N 002-28.7E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37244 (11TH ED).\nNHR-S BUOY 51-51.4N 002-28.7E UNLIT.",
+    "valid_from": "2010-10-20T21:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

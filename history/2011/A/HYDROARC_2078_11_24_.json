@@ -3,17 +3,23 @@
   "id": "HYDROARC 2078/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -36.29,
+      -5.088333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-12-08T05:30:00",
     "raw_dtg": "080530Z DEC 11",
     "msg_id": "HYDROARC 2078/11(24)",
-    "cancellations": [
-      "HYDROARC 2110/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24240 (5TH ED).\nGALINHOS LIGHT 05-05.3S 036-17.4W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24240 (5TH ED).\nGALINHOS LIGHT 05-05.3S 036-17.4W UNLIT.",
+    "valid_from": "2011-12-08T05:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

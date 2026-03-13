@@ -3,17 +3,23 @@
   "id": "HYDROARC 2236/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.178333333333334,
+      50.155
+    ]
   },
   "properties": {
     "dtg": "2010-11-22T14:13:00",
     "raw_dtg": "221413Z NOV 10",
     "msg_id": "HYDROARC 2236/10(37)",
-    "cancellations": [
-      "HYDROARC 2236/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\n1. 12 CONTAINERS ADRIFT IN 50-09.3N 004-10.7W\n   AT 221116Z NOV.\n2. CANCEL THIS MSG 251410Z NOV."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\n1. 12 CONTAINERS ADRIFT IN 50-09.3N 004-10.7W\n   AT 221116Z NOV.\n2. CANCEL THIS MSG 251410Z NOV.",
+    "valid_from": "2010-11-22T14:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

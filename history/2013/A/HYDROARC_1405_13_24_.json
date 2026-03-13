@@ -3,18 +3,25 @@
   "id": "HYDROARC 1405/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.415,
+      0.51
+    ]
   },
   "properties": {
     "dtg": "2013-06-07T01:22:00",
     "raw_dtg": "070122Z JUN 13",
     "msg_id": "HYDROARC 1405/13(24)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 101700Z JUN 13",
-      "HYDROARC 1405/13"
+      "THIS MSG 101700Z JUN 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24320\n1. CANIVETE RADIOBEACON AND DGPS STATION 00-30.6N 050-24.9W\n   OFF AIR UNTIL 101600Z JUN.\n2. CANCEL THIS MSG 101700Z JUN 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24320\n1. CANIVETE RADIOBEACON AND DGPS STATION 00-30.6N 050-24.9W\n   OFF AIR UNTIL 101600Z JUN.\n2. CANCEL THIS MSG 101700Z JUN 13.",
+    "valid_from": "2013-06-07T01:22:00+00:00",
+    "valid_until": "2013-06-10T17:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 3896/20(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.617777777777778,
+      36.63388888888889
+    ]
   },
   "properties": {
     "dtg": "2020-12-17T01:45:00",
     "raw_dtg": "170145Z DEC 20",
     "msg_id": "HYDROARC 3896/20(52)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3896/20"
+      "THIS MSG 23 DEC 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\n1. HELICOPTER DITCHED IN 36-38-02N 002-37-04E.\n   VESSELS IN VICINITY REQUESTED TO KEEP A\n   SHARP LOOKOUT, ASSIST IF POSSIBLE.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 23 DEC 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\n1. HELICOPTER DITCHED IN 36-38-02N 002-37-04E.\n   VESSELS IN VICINITY REQUESTED TO KEEP A\n   SHARP LOOKOUT, ASSIST IF POSSIBLE.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 23 DEC 20.",
+    "valid_from": "2020-12-17T01:45:00+00:00",
+    "valid_until": "2020-12-23T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -2,19 +2,66 @@
   "type": "Feature",
   "id": "HYDROARC 3070/16(35)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -6.456666666666667,
+          57.01
+        ],
+        [
+          -6.328333333333333,
+          57.05833333333333
+        ],
+        [
+          -6.348333333333334,
+          57.22666666666667
+        ],
+        [
+          -5.658333333333333,
+          57.236666666666665
+        ],
+        [
+          -5.605,
+          57.22
+        ],
+        [
+          -5.741666666666667,
+          57.01166666666666
+        ],
+        [
+          -5.663333333333333,
+          56.87166666666667
+        ],
+        [
+          -5.908333333333333,
+          56.745
+        ],
+        [
+          -6.445,
+          56.705
+        ],
+        [
+          -6.456666666666667,
+          57.01
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-11-18T09:41:00",
     "raw_dtg": "180941Z NOV 16",
     "msg_id": "HYDROARC 3070/16(35)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 211900Z NOV 16",
-      "HYDROARC 3070/16"
+      "THIS MSG 211900Z NOV 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nLITTLE MINCH.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS 181200Z TO 211800Z NOV\n   BY M/V SD NORTHERN RIVER WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   57-00.6N 006-27.4W, 57-03.5N 006-19.7W,\n   57-13.6N 006-20.9W, 57-14.2N 005-39.5W,\n   57-13.2N 005-36.3W, 57-00.7N 005-44.5W,\n   56-52.3N 005-39.8W, 56-44.7N 005-54.5W,\n   56-42.3N 006-26.7W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 211900Z NOV 16."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nLITTLE MINCH.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\n1. UNDERWATER OPERATIONS 181200Z TO 211800Z NOV\n   BY M/V SD NORTHERN RIVER WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   57-00.6N 006-27.4W, 57-03.5N 006-19.7W,\n   57-13.6N 006-20.9W, 57-14.2N 005-39.5W,\n   57-13.2N 005-36.3W, 57-00.7N 005-44.5W,\n   56-52.3N 005-39.8W, 56-44.7N 005-54.5W,\n   56-42.3N 006-26.7W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 211900Z NOV 16.",
+    "valid_from": "2016-11-18T09:41:00+00:00",
+    "valid_until": "2016-11-21T19:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 65/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.265,
+      50.18
+    ]
   },
   "properties": {
     "dtg": "2012-01-08T16:54:00",
     "raw_dtg": "081654Z JAN 12",
     "msg_id": "HYDROARC 65/12(37)",
-    "cancellations": [
-      "HYDROARC 67/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 37003\nRACON AT EDDYSTONE LIGHT 50-10.8N 004-15.9W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 37003\nRACON AT EDDYSTONE LIGHT 50-10.8N 004-15.9W INOPERATIVE.",
+    "valid_from": "2012-01-08T16:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

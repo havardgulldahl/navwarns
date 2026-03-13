@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1791/21(43)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-07-07T17:30:00",
     "raw_dtg": "071730Z JUL 21",
     "msg_id": "HYDROARC 1791/21(43)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1791/21"
+      "1519/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nNORWEGIAN SEA.\nNORWAY.\nDNC 21.\nCANCEL HYDROLANT 1519/21 AND THIS MSG, OPERATIONS\nCOMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nNORWEGIAN SEA.\nNORWAY.\nDNC 21.\nCANCEL HYDROLANT 1519/21 AND THIS MSG, OPERATIONS\nCOMPLETED.",
+    "valid_from": "2021-07-07T17:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

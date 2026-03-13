@@ -3,17 +3,23 @@
   "id": "HYDROARC 2883/21(29)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -57.95,
+      -63.325
+    ]
   },
   "properties": {
     "dtg": "2021-11-24T15:14:00",
     "raw_dtg": "241514Z NOV 21",
     "msg_id": "HYDROARC 2883/21(29)",
-    "cancellations": [
-      "HYDROARC 3064/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRANSFIELD STRAIT.\nANTARCTICA.\nDNC 29.\nRACON (M) 63-19.5S 057-57.0W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRANSFIELD STRAIT.\nANTARCTICA.\nDNC 29.\nRACON (M) 63-19.5S 057-57.0W INOPERATIVE.",
+    "valid_from": "2021-11-24T15:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

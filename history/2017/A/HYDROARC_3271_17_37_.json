@@ -3,17 +3,23 @@
   "id": "HYDROARC 3271/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.185,
+      53.00833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-10-13T18:09:00",
     "raw_dtg": "131809Z OCT 17",
     "msg_id": "HYDROARC 3271/17(37)",
-    "cancellations": [
-      "HYDROARC 3292/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37057.\nPLATFORM 49/26-D, 53-00.5N 002-11.1E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37057.\nPLATFORM 49/26-D, 53-00.5N 002-11.1E UNLIT.",
+    "valid_from": "2017-10-13T18:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

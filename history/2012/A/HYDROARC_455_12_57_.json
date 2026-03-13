@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 455/12(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.72,
+          -10.813333333333333
+        ],
+        [
+          12.72,
+          -12.793333333333333
+        ],
+        [
+          12.385,
+          -12.801666666666666
+        ],
+        [
+          12.201666666666666,
+          -10.83
+        ],
+        [
+          12.72,
+          -10.813333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-02-29T20:24:00",
     "raw_dtg": "292024Z FEB 12",
     "msg_id": "HYDROARC 455/12(57)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 638/12"
+      "2263/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V RAMFORM VALIANT TOWING TEN CABLES\n   IN AREA BOUND BY\n   10-48.8S 012-43.2E, 12-47.6S 012-43.2E,\n   12-48.1S 012-23.1E, 10-49.8S 012-12.1E.\n   EIGHT MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2263/11."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V RAMFORM VALIANT TOWING TEN CABLES\n   IN AREA BOUND BY\n   10-48.8S 012-43.2E, 12-47.6S 012-43.2E,\n   12-48.1S 012-23.1E, 10-49.8S 012-12.1E.\n   EIGHT MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2263/11.",
+    "valid_from": "2012-02-29T20:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

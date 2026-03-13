@@ -3,17 +3,25 @@
   "id": "HYDROARC 2645/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.865,
+      -8.055
+    ]
   },
   "properties": {
     "dtg": "2015-10-25T00:52:00",
     "raw_dtg": "250052Z OCT 15",
     "msg_id": "HYDROARC 2645/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 516/16"
+      "THIS MSG 21 APR 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24220.\n1. RECIFE LIGHT 08-03.3S 034-51.9W UNLIT.\n2. CANCEL THIS MSG 21 APR 16."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24220.\n1. RECIFE LIGHT 08-03.3S 034-51.9W UNLIT.\n2. CANCEL THIS MSG 21 APR 16.",
+    "valid_from": "2015-10-25T00:52:00+00:00",
+    "valid_until": "2016-04-21T00:00:00+00:00",
+    "summary": null
   }
 }

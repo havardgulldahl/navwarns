@@ -3,17 +3,25 @@
   "id": "HYDROARC 1539/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.9916666666666667,
+      53.885
+    ]
   },
   "properties": {
     "dtg": "2012-07-11T21:37:00",
     "raw_dtg": "112137Z JUL 12",
     "msg_id": "HYDROARC 1539/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1591/12"
+      "1463/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37058\n1. ALL NAVIGATIONAL AIDS AT METEOROLOGICAL MAST\n    53-53.1N 001-59.5E INOPERATIVE.\n2. CANCEL HYDROLANT 1463/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37058\n1. ALL NAVIGATIONAL AIDS AT METEOROLOGICAL MAST\n    53-53.1N 001-59.5E INOPERATIVE.\n2. CANCEL HYDROLANT 1463/12.",
+    "valid_from": "2012-07-11T21:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

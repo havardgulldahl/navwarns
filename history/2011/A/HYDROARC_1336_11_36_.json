@@ -3,17 +3,25 @@
   "id": "HYDROARC 1336/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.9816666666666665,
+      52.67166666666667
+    ]
   },
   "properties": {
     "dtg": "2011-08-23T00:01:00",
     "raw_dtg": "230001Z AUG 11",
     "msg_id": "HYDROARC 1336/11(36)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 1339/11"
+      "1335/11"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nNGA CHART 36002 (0 ED).\n1. SOUTH ARKLOW BUOY 52-40.3N 005-58.9W UNLIT\n   AND RACON UNRELIABLE.\n2. CANCEL HYDROLANT 1335/11."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nNGA CHART 36002 (0 ED).\n1. SOUTH ARKLOW BUOY 52-40.3N 005-58.9W UNLIT\n   AND RACON UNRELIABLE.\n2. CANCEL HYDROLANT 1335/11.",
+    "valid_from": "2011-08-23T00:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

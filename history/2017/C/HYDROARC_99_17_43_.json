@@ -3,18 +3,25 @@
   "id": "HYDROARC 99/17(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      18.85,
+      75.1
+    ]
   },
   "properties": {
     "dtg": "2017-06-07T19:03:00",
     "raw_dtg": "071903Z JUN 17",
     "msg_id": "HYDROARC 99/17(43)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 101903Z JUN 17",
-      "HYDROARC 99/17"
+      "THIS MSG 101903Z JUN 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nSVALBARD.\nDNC 22.\n1. ICEBERG REPORTED IN 75-06.0N 018-51.0E\n   AT 071600Z JUN.\n2. CANCEL THIS MSG 101903Z JUN 17."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nSVALBARD.\nDNC 22.\n1. ICEBERG REPORTED IN 75-06.0N 018-51.0E\n   AT 071600Z JUN.\n2. CANCEL THIS MSG 101903Z JUN 17.",
+    "valid_from": "2017-06-07T19:03:00+00:00",
+    "valid_until": "2017-06-10T19:03:00+00:00",
+    "summary": null
   }
 }

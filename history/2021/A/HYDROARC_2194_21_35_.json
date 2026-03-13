@@ -3,17 +3,23 @@
   "id": "HYDROARC 2194/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6533333333333333,
+      59.513333333333335
+    ]
   },
   "properties": {
     "dtg": "2021-08-26T12:16:00",
     "raw_dtg": "261216Z AUG 21",
     "msg_id": "HYDROARC 2194/21(35)",
-    "cancellations": [
-      "HYDROARC 853/22"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nSKADAN LIGHT 59-30.8N 001-39.2W RANGE REDUCED\nTO 12 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nSKADAN LIGHT 59-30.8N 001-39.2W RANGE REDUCED\nTO 12 MILES.",
+    "valid_from": "2021-08-26T12:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

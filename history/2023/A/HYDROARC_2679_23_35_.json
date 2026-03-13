@@ -3,17 +3,25 @@
   "id": "HYDROARC 2679/23(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.07,
+      58.73833333333333
+    ]
   },
   "properties": {
     "dtg": "2023-11-21T17:52:00",
     "raw_dtg": "211752Z NOV 23",
     "msg_id": "HYDROARC 2679/23(35)",
+    "year": 2023,
     "cancellations": [
-      "HYDROARC 2714/23"
+      "2676/23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nSCOTLAND.\nDNC 20.\n1. THE TARF LIGHT 58-44.3N 003-04.2W UNLIT.\n2. CANCEL HYDROLANT 2676/23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nSCOTLAND.\nDNC 20.\n1. THE TARF LIGHT 58-44.3N 003-04.2W UNLIT.\n2. CANCEL HYDROLANT 2676/23.",
+    "valid_from": "2023-11-21T17:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

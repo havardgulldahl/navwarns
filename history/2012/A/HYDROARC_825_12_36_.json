@@ -3,17 +3,23 @@
   "id": "HYDROARC 825/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.6066666666666665,
+      53.42166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-04-14T01:25:00",
     "raw_dtg": "140125Z APR 12",
     "msg_id": "HYDROARC 825/12(36)",
-    "cancellations": [
-      "HYDROARC 835/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-NORTHWEST COAST.\nCHART 36006\nSKERRIES LIGHT 53-25.3N 004-36.4W RED SECTOR UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-NORTHWEST COAST.\nCHART 36006\nSKERRIES LIGHT 53-25.3N 004-36.4W RED SECTOR UNRELIABLE.",
+    "valid_from": "2012-04-14T01:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

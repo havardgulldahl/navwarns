@@ -3,17 +3,23 @@
   "id": "HYDROARC 1226/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.506666666666667,
+      49.42666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-06-07T11:35:00",
     "raw_dtg": "071135Z JUN 12",
     "msg_id": "HYDROARC 1226/12(37)",
-    "cancellations": [
-      "HYDROARC 1226/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\n1. DERELICT SEVEN METER S/V ADRIFT IN 49-25.6N 005-30.4W\n   AT 070920Z JUN.\n2. CANCEL THIS MSG 101135Z JUN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\n1. DERELICT SEVEN METER S/V ADRIFT IN 49-25.6N 005-30.4W\n   AT 070920Z JUN.\n2. CANCEL THIS MSG 101135Z JUN.",
+    "valid_from": "2012-06-07T11:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

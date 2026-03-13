@@ -3,17 +3,25 @@
   "id": "HYDROARC 1082/13",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7233333333333332,
+      52.60666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-04-30T09:18:00",
     "raw_dtg": "300918Z APR 13",
     "msg_id": "HYDROARC 1082/13",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1187/13"
+      "1079/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nRADIO SERVICES.\n1. MRCC YARMOUTH 52-36.4N 001-43.4E DISCONTINUED 011350Z MAY.\n   MRCC HUMBER 54-05.6N 000-10.5W ASSUMES CONTROL.\n2. CANCEL HYDROLANT 1079/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nRADIO SERVICES.\n1. MRCC YARMOUTH 52-36.4N 001-43.4E DISCONTINUED 011350Z MAY.\n   MRCC HUMBER 54-05.6N 000-10.5W ASSUMES CONTROL.\n2. CANCEL HYDROLANT 1079/13.",
+    "valid_from": "2013-04-30T09:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

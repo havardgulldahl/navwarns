@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2433/10(51,52)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-12-16T16:31:00",
     "raw_dtg": "161631Z DEC 10",
     "msg_id": "HYDROARC 2433/10(51,52)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 2433/10"
+      "2296/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF CADIZ.\nMORROCCO.\nCANCEL HYDROLANT 2296/10 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF CADIZ.\nMORROCCO.\nCANCEL HYDROLANT 2296/10 AND THIS MSG.",
+    "valid_from": "2010-12-16T16:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3037/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.053333333333334,
+      53.361666666666665
+    ]
   },
   "properties": {
     "dtg": "2015-12-07T17:58:00",
     "raw_dtg": "071758Z DEC 15",
     "msg_id": "HYDROARC 3037/15(36)",
-    "cancellations": [
-      "HYDROARC 3040/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nDNC 19, DNC 20.\nCHART 36006.\nBAILY LIGHT 53-21.7N 006-03.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nDNC 19, DNC 20.\nCHART 36006.\nBAILY LIGHT 53-21.7N 006-03.2W UNRELIABLE.",
+    "valid_from": "2015-12-07T17:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 216/13(16)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -166.96136666666666,
+      72.21366666666667
+    ]
   },
   "properties": {
     "dtg": "2013-10-10T05:48:00",
     "raw_dtg": "100548Z OCT 13",
     "msg_id": "HYDROARC 216/13(16)",
-    "cancellations": [
-      "HYDROARC 108/14"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "ARCTIC.\nCHUKCHI SEA.\nCHART 16003\nSCIENTIFIC MOORING, AT DEPTH 37 METERS,\nESTABLISHED IN 72-12.820N 166-57.682W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCHUKCHI SEA.\nCHART 16003\nSCIENTIFIC MOORING, AT DEPTH 37 METERS,\nESTABLISHED IN 72-12.820N 166-57.682W.",
+    "valid_from": "2013-10-10T05:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

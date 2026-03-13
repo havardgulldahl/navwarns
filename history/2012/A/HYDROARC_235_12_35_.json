@@ -3,17 +3,23 @@
   "id": "HYDROARC 235/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.5666666666666667,
+      54.47666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-01-29T08:08:00",
     "raw_dtg": "290808Z JAN 12",
     "msg_id": "HYDROARC 235/12(35)",
-    "cancellations": [
-      "HYDROARC 239/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nCHART 35006\nWHITBY HIGH LIGHT 54-28.6N 000-34.0W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nCHART 35006\nWHITBY HIGH LIGHT 54-28.6N 000-34.0W UNRELIABLE.",
+    "valid_from": "2012-01-29T08:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

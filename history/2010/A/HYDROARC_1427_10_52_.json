@@ -3,17 +3,23 @@
   "id": "HYDROARC 1427/10(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      9.21,
+      37.23166666666667
+    ]
   },
   "properties": {
     "dtg": "2010-07-26T12:00:00",
     "raw_dtg": "261200Z JUL 10",
     "msg_id": "HYDROARC 1427/10(52)",
-    "cancellations": [
-      "HYDROARC 1446/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-NORTH COAST.\nNGA CHART 52200 (8TH ED).\nCAP SERRAT LIGHT 37-13.9N 009-12.6E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTH COAST.\nNGA CHART 52200 (8TH ED).\nCAP SERRAT LIGHT 37-13.9N 009-12.6E UNRELIABLE.",
+    "valid_from": "2010-07-26T12:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

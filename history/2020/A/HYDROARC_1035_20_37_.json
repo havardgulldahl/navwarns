@@ -3,17 +3,23 @@
   "id": "HYDROARC 1035/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.3,
+      52.725
+    ]
   },
   "properties": {
     "dtg": "2020-03-19T10:56:00",
     "raw_dtg": "191056Z MAR 20",
     "msg_id": "HYDROARC 1035/20(37)",
-    "cancellations": [
-      "HYDROARC 1043/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSMITHS KNOLL SOUTH CARDINAL BUOY 52-43.5N 002-18.0E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSMITHS KNOLL SOUTH CARDINAL BUOY 52-43.5N 002-18.0E MISSING.",
+    "valid_from": "2020-03-19T10:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

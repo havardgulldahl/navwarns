@@ -3,17 +3,23 @@
   "id": "HYDROARC 1853/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.123333333333333,
+      57.03333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-09-30T10:57:00",
     "raw_dtg": "301057Z SEP 10",
     "msg_id": "HYDROARC 1853/10(35)",
-    "cancellations": [
-      "HYDROARC 1853/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z DAILY\n   01 THRU 03 OCT WITHIN 60 MILES OF\n   57-02.0N 009-07.4W.\n2. CANCEL THIS MSG 032100Z OCT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z DAILY\n   01 THRU 03 OCT WITHIN 60 MILES OF\n   57-02.0N 009-07.4W.\n2. CANCEL THIS MSG 032100Z OCT.",
+    "valid_from": "2010-09-30T10:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

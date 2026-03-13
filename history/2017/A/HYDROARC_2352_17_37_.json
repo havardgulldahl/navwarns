@@ -3,18 +3,25 @@
   "id": "HYDROARC 2352/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.045,
+      52.815
+    ]
   },
   "properties": {
     "dtg": "2017-07-30T16:56:00",
     "raw_dtg": "301656Z JUL 17",
     "msg_id": "HYDROARC 2352/17(37)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 021656Z AUG 17",
-      "HYDROARC 2352/17"
+      "THIS MSG 021656Z AUG 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\n1. 30 METER LONG PIPE ADRIFT IN 52-48.9N 002-02.7E\n   AT 301215Z JUL 17.\n2. CANCEL THIS MSG 021656Z AUG 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\n1. 30 METER LONG PIPE ADRIFT IN 52-48.9N 002-02.7E\n   AT 301215Z JUL 17.\n2. CANCEL THIS MSG 021656Z AUG 17.",
+    "valid_from": "2017-07-30T16:56:00+00:00",
+    "valid_until": "2017-08-02T16:56:00+00:00",
+    "summary": null
   }
 }

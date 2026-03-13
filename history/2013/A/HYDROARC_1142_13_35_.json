@@ -3,17 +3,23 @@
   "id": "HYDROARC 1142/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.115,
+      56.32333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-05-08T01:18:00",
     "raw_dtg": "080118Z MAY 13",
     "msg_id": "HYDROARC 1142/13(35)",
-    "cancellations": [
-      "HYDROARC 1156/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nCHART 35106\nRACON AT SKERRYVORE LIGHT 56-19.4N 007-06.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nCHART 35106\nRACON AT SKERRYVORE LIGHT 56-19.4N 007-06.9W UNRELIABLE.",
+    "valid_from": "2013-05-08T01:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 433/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.5516666666666667,
+      51.4
+    ]
   },
   "properties": {
     "dtg": "2013-02-16T13:55:00",
     "raw_dtg": "161355Z FEB 13",
     "msg_id": "HYDROARC 433/13(36)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 433/13"
+      "THIS MSG 09 MAR 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-SOUTH COAST.\nCHART 36044\n1. DGPS STATION AT NASH POINT LIGHT 51-24.0N 003-33.1W\n   UNUSABLE 18 FEB THRU 08 MAR.\n2. CANCEL THIS MSG 09 MAR 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-SOUTH COAST.\nCHART 36044\n1. DGPS STATION AT NASH POINT LIGHT 51-24.0N 003-33.1W\n   UNUSABLE 18 FEB THRU 08 MAR.\n2. CANCEL THIS MSG 09 MAR 13.",
+    "valid_from": "2013-02-16T13:55:00+00:00",
+    "valid_until": "2013-03-09T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 1314/11(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.876666666666667,
+      37.498333333333335
+    ]
   },
   "properties": {
     "dtg": "2011-08-19T11:36:00",
     "raw_dtg": "191136Z AUG 11",
     "msg_id": "HYDROARC 1314/11(52)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 112/13"
+      "1301/11"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nNGA CHART 52200 (8TH ED).\n1. GALITON DE L'OUEST LIGHT 37-29.9N 008-52.6E,\n   AUXILIARY RED LIGHT UNLIT.\n2. CANCEL HYDROLANT 1301/11."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nNGA CHART 52200 (8TH ED).\n1. GALITON DE L'OUEST LIGHT 37-29.9N 008-52.6E,\n   AUXILIARY RED LIGHT UNLIT.\n2. CANCEL HYDROLANT 1301/11.",
+    "valid_from": "2011-08-19T11:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

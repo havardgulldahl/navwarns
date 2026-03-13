@@ -3,17 +3,25 @@
   "id": "HYDROARC 2285/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.846666666666664,
+      -8.011666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-09-04T00:58:00",
     "raw_dtg": "040058Z SEP 16",
     "msg_id": "HYDROARC 2285/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2316/16"
+      "THIS MSG 03 MAR 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24220.\n1. OLINDA LIGHT 08-00.7S 034-50.8W UNLIT.\n2. CANCEL THIS MSG 03 MAR 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24220.\n1. OLINDA LIGHT 08-00.7S 034-50.8W UNLIT.\n2. CANCEL THIS MSG 03 MAR 17.",
+    "valid_from": "2016-09-04T00:58:00+00:00",
+    "valid_until": "2017-03-03T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 832/10(26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -74.66833333333334,
+      26.286666666666665
+    ]
   },
   "properties": {
     "dtg": "2010-05-11T19:37:00",
     "raw_dtg": "111937Z MAY 10",
     "msg_id": "HYDROARC 832/10(26)",
-    "cancellations": [
-      "HYDROARC 1141/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED FROM M/V SPAR LUPAS ON 406 MHZ IN\n26-17.2N 074-40.10W. VESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS TO U.S. COAST\nGUARD MIAMI, PHONE: 305 415 6800."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED FROM M/V SPAR LUPAS ON 406 MHZ IN\n26-17.2N 074-40.10W. VESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS TO U.S. COAST\nGUARD MIAMI, PHONE: 305 415 6800.",
+    "valid_from": "2010-05-11T19:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

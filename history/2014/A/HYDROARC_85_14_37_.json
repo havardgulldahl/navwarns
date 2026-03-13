@@ -3,17 +3,23 @@
   "id": "HYDROARC 85/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.5700000000000003,
+      53.36333333333334
+    ]
   },
   "properties": {
     "dtg": "2014-01-09T16:06:00",
     "raw_dtg": "091606Z JAN 14",
     "msg_id": "HYDROARC 85/14(37)",
-    "cancellations": [
-      "HYDROARC 91/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37057\nALL NAVIGATIONAL AIDS AT PLATFORM 49/18-A\n53-21.8N 002-34.2E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37057\nALL NAVIGATIONAL AIDS AT PLATFORM 49/18-A\n53-21.8N 002-34.2E INOPERATIVE.",
+    "valid_from": "2014-01-09T16:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

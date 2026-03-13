@@ -3,17 +3,23 @@
   "id": "HYDROARC 287/17(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      80.48,
+      73.51
+    ]
   },
   "properties": {
     "dtg": "2017-09-20T12:11:00",
     "raw_dtg": "201211Z SEP 17",
     "msg_id": "HYDROARC 287/17(42)",
-    "cancellations": [
-      "HYDROARC 34/18"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nCHART 42141.\nSAKHALIN RANGE FRONT LIGHT 73-30.6N 080-28.8E DESTROYED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nCHART 42141.\nSAKHALIN RANGE FRONT LIGHT 73-30.6N 080-28.8E DESTROYED.",
+    "valid_from": "2017-09-20T12:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

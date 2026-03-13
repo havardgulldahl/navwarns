@@ -3,18 +3,25 @@
   "id": "HYDROARC 250/13(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      63.038333333333334,
+      70.23833333333333
+    ]
   },
   "properties": {
     "dtg": "2013-10-22T01:48:00",
     "raw_dtg": "220148Z OCT 13",
     "msg_id": "HYDROARC 250/13(42)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 250145Z OCT 13",
-      "HYDROARC 250/13"
+      "THIS MSG 250145Z OCT 13"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ARCTIC.\nKARA SEA.\n1. DERELICT BARGE, RED HULL, ADRIFT VICINITY\n   70-14.3N 063-02.3E AT 182230Z OCT 13.\n2. CANCEL THIS MSG 250145Z OCT 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nKARA SEA.\n1. DERELICT BARGE, RED HULL, ADRIFT VICINITY\n   70-14.3N 063-02.3E AT 182230Z OCT 13.\n2. CANCEL THIS MSG 250145Z OCT 13.",
+    "valid_from": "2013-10-22T01:48:00+00:00",
+    "valid_until": "2013-10-25T01:45:00+00:00",
+    "summary": null
   }
 }

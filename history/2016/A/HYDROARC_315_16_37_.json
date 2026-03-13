@@ -3,17 +3,23 @@
   "id": "HYDROARC 315/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8966666666666665,
+      52.736666666666665
+    ]
   },
   "properties": {
     "dtg": "2016-02-04T05:48:00",
     "raw_dtg": "040548Z FEB 16",
     "msg_id": "HYDROARC 315/16(37)",
-    "cancellations": [
-      "HYDROARC 317/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20, DNC 21.\nCHART 37166.\nNE CROSS SAND BUOY 52-44.2N 001-53.8E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20, DNC 21.\nCHART 37166.\nNE CROSS SAND BUOY 52-44.2N 001-53.8E UNLIT.",
+    "valid_from": "2016-02-04T05:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 129/21",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-07-05T16:36:00",
     "raw_dtg": "051636Z JUL 21",
     "msg_id": "HYDROARC 129/21",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 102/21",
-      "HYDROARC 129/21"
+      "HYDROARC 102/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANADA.\nCANCEL HYDROARC 102/21 AND THIS MSG, SERVICE\nRESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA.\nCANCEL HYDROARC 102/21 AND THIS MSG, SERVICE\nRESTORED.",
+    "valid_from": "2021-07-05T16:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

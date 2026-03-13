@@ -1,20 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1765/20(54,56)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-05-25T19:57:00",
     "raw_dtg": "251957Z MAY 20",
     "msg_id": "HYDROARC 1765/20(54,56)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 261000Z MAY 20",
-      "HYDROARC 1765/20"
+      "1758/20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCRETE.\nDNC 09.\n1. HAZARDOUS OPERATIONS 260500Z TO 260900Z MAY\n   IN AREA BOUND BY\n   34-30N 025-30E, 33-50N 025-30E,\n   33-50N 024-11E, 34-30N 024-11E.\n2. CANCEL HYDROLANT 1758/20.\n3. CANCEL THIS MSG 261000Z MAY 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCRETE.\nDNC 09.\n1. HAZARDOUS OPERATIONS 260500Z TO 260900Z MAY\n   IN AREA BOUND BY\n   34-30N 025-30E, 33-50N 025-30E,\n   33-50N 024-11E, 34-30N 024-11E.\n2. CANCEL HYDROLANT 1758/20.\n3. CANCEL THIS MSG 261000Z MAY 20.",
+    "valid_from": "2020-05-25T19:57:00+00:00",
+    "valid_until": "2020-05-26T10:00:00+00:00",
+    "summary": null
   }
 }

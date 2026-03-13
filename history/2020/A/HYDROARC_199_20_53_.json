@@ -3,17 +3,23 @@
   "id": "HYDROARC 199/20(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      5.991666666666667,
+      43.105
+    ]
   },
   "properties": {
     "dtg": "2020-01-21T15:25:00",
     "raw_dtg": "211525Z JAN 20",
     "msg_id": "HYDROARC 199/20(53)",
-    "cancellations": [
-      "HYDROARC 2192/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nFRANCE.\nDNC 08.\nNAVTEX STATION CROSS LA GARDE (W) 43-06.3N 005-59.5E\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nFRANCE.\nDNC 08.\nNAVTEX STATION CROSS LA GARDE (W) 43-06.3N 005-59.5E\nUNRELIABLE.",
+    "valid_from": "2020-01-21T15:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

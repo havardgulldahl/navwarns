@@ -1,19 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 806/10(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-05-07T15:32:00",
     "raw_dtg": "071532Z MAY 10",
     "msg_id": "HYDROARC 806/10(35)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 806/10"
+      "778/10",
+      "709/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\n1. CANCEL HYDROLANT 778/10, AID RESTORED.\n2. CANCEL HYDROLANT 709/10(37), AIDS RESTORED.\n2. CANCEL THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\n1. CANCEL HYDROLANT 778/10, AID RESTORED.\n2. CANCEL HYDROLANT 709/10(37), AIDS RESTORED.\n2. CANCEL THIS MSG.",
+    "valid_from": "2010-05-07T15:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

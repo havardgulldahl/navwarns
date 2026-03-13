@@ -3,17 +3,23 @@
   "id": "HYDROARC 242/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.67,
+      51.721666666666664
+    ]
   },
   "properties": {
     "dtg": "2012-01-30T10:32:00",
     "raw_dtg": "301032Z JAN 12",
     "msg_id": "HYDROARC 242/12(36)",
-    "cancellations": [
-      "HYDROARC 260/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "WALES-WEST COAST.\nCHART 36035\nRACON AT THE SMALLS LIGHT 51-43.3N 005-40.2W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-WEST COAST.\nCHART 36035\nRACON AT THE SMALLS LIGHT 51-43.3N 005-40.2W INOPERATIVE.",
+    "valid_from": "2012-01-30T10:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

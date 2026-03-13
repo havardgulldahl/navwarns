@@ -3,17 +3,23 @@
   "id": "HYDROARC 2796/16(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -12.363333333333333,
+      34.52333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-10-24T14:45:00",
     "raw_dtg": "241445Z OCT 16",
     "msg_id": "HYDROARC 2796/16(51)",
-    "cancellations": [
-      "HYDROARC 3062/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\nM/V FIDELITY IN 34-31.4N 012-21.8W AT 241211Z OCT.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO MRCC RABAT,\nPHONE: 2125 3762 5877, 2125 3762 5897,\nE-MAIL: MRCC.RABAT@MPM.GOV.MA, MRCCRABAT@GMAIL.COM."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\nM/V FIDELITY IN 34-31.4N 012-21.8W AT 241211Z OCT.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO MRCC RABAT,\nPHONE: 2125 3762 5877, 2125 3762 5897,\nE-MAIL: MRCC.RABAT@MPM.GOV.MA, MRCCRABAT@GMAIL.COM.",
+    "valid_from": "2016-10-24T14:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

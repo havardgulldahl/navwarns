@@ -3,17 +3,23 @@
   "id": "HYDROARC 962/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.97833333333333,
+      -14.275
+    ]
   },
   "properties": {
     "dtg": "2020-03-13T21:07:00",
     "raw_dtg": "132107Z MAR 20",
     "msg_id": "HYDROARC 962/20(24)",
-    "cancellations": [
-      "HYDROARC 1008/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nMAN OVERBOARD FROM VESSEL NANDA I IN\n14-16.5S 038-58.7W AT 09 MAR.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nMAN OVERBOARD FROM VESSEL NANDA I IN\n14-16.5S 038-58.7W AT 09 MAR.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2020-03-13T21:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

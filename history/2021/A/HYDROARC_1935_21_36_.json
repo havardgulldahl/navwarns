@@ -3,17 +3,25 @@
   "id": "HYDROARC 1935/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.411666666666667,
+      51.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-07-24T15:16:00",
     "raw_dtg": "241516Z JUL 21",
     "msg_id": "HYDROARC 1935/21(36)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1941/21"
+      "1929/21"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "CELTIC SEA.\nWALES.\nDNC 20.\n1. RACON AT SOUTH BISHOP LIGHT 51-51.2N 005-24.7W\n   INOPERATIVE.\n2. CANCEL HYDROLANT 1929/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nWALES.\nDNC 20.\n1. RACON AT SOUTH BISHOP LIGHT 51-51.2N 005-24.7W\n   INOPERATIVE.\n2. CANCEL HYDROLANT 1929/21.",
+    "valid_from": "2021-07-24T15:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

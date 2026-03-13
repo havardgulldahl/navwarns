@@ -3,17 +3,23 @@
   "id": "HYDROARC 380/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4,
+      51.02
+    ]
   },
   "properties": {
     "dtg": "2012-02-17T05:46:00",
     "raw_dtg": "170546Z FEB 12",
     "msg_id": "HYDROARC 380/12(37)",
-    "cancellations": [
-      "HYDROARC 387/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37120\nVARNE LIGHTVESSEL 51-01.2N 001-24.0E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37120\nVARNE LIGHTVESSEL 51-01.2N 001-24.0E UNRELIABLE.",
+    "valid_from": "2012-02-17T05:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

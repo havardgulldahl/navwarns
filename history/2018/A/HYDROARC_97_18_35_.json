@@ -3,17 +3,25 @@
   "id": "HYDROARC 97/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.275,
+      59.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-01-08T22:45:00",
     "raw_dtg": "082245Z JAN 18",
     "msg_id": "HYDROARC 97/18(35)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 110/18"
+      "THIS MESSAGE 121800Z JAN 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nNORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\n1. DGPS STATION AT SUMBURGH HEAD LIGHT\n   59-51.2N 001-16.5W, OFF AIR\n   090900Z TO 121700Z JAN.\n2. CANCEL THIS MESSAGE 121800Z JAN 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nNORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\n1. DGPS STATION AT SUMBURGH HEAD LIGHT\n   59-51.2N 001-16.5W, OFF AIR\n   090900Z TO 121700Z JAN.\n2. CANCEL THIS MESSAGE 121800Z JAN 18.",
+    "valid_from": "2018-01-08T22:45:00+00:00",
+    "valid_until": "2018-01-12T18:00:00+00:00",
+    "summary": null
   }
 }

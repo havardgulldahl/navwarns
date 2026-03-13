@@ -3,17 +3,23 @@
   "id": "HYDROARC 1366/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.151666666666664,
+      -0.775
+    ]
   },
   "properties": {
     "dtg": "2012-06-23T14:11:00",
     "raw_dtg": "231411Z JUN 12",
     "msg_id": "HYDROARC 1366/12(24)",
-    "cancellations": [
-      "HYDROARC 1378/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24292\nPONTA MARIA TERESA LIGHT 00-46.5S 048-09.1W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24292\nPONTA MARIA TERESA LIGHT 00-46.5S 048-09.1W UNLIT.",
+    "valid_from": "2012-06-23T14:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

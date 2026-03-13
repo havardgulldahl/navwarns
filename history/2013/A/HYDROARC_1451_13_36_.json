@@ -3,17 +3,23 @@
   "id": "HYDROARC 1451/13(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.798333333333334,
+      52.75
+    ]
   },
   "properties": {
     "dtg": "2013-06-13T17:36:00",
     "raw_dtg": "131736Z JUN 13",
     "msg_id": "HYDROARC 1451/13(36)",
-    "cancellations": [
-      "HYDROARC 1454/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-WEST COAST.\nSAINT GEORGE'S CHANNEL.\nCHART 36002\nBARDSEY LIGHT 52-45.0N 004-47.9W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-WEST COAST.\nSAINT GEORGE'S CHANNEL.\nCHART 36002\nBARDSEY LIGHT 52-45.0N 004-47.9W UNLIT.",
+    "valid_from": "2013-06-13T17:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

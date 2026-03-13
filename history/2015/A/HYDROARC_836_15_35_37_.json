@@ -3,17 +3,25 @@
   "id": "HYDROARC 836/15(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.66,
+      54.403333333333336
+    ]
   },
   "properties": {
     "dtg": "2015-04-09T19:33:00",
     "raw_dtg": "091933Z APR 15",
     "msg_id": "HYDROARC 836/15(35,37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 966/15"
+      "478/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 35002.\n1. ALL NAVIGATIONAL AIDS AT KATY PLATFORM\n   54-24.2N 002-39.6E INOPERATIVE.\n2. CANCEL HYDROLANT 478/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 35002.\n1. ALL NAVIGATIONAL AIDS AT KATY PLATFORM\n   54-24.2N 002-39.6E INOPERATIVE.\n2. CANCEL HYDROLANT 478/15.",
+    "valid_from": "2015-04-09T19:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

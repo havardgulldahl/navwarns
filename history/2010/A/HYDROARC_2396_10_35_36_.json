@@ -3,17 +3,23 @@
   "id": "HYDROARC 2396/10(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.351666666666667,
+      56.01833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-12-11T18:41:00",
     "raw_dtg": "111841Z DEC 10",
     "msg_id": "HYDROARC 2396/10(35,36)",
-    "cancellations": [
-      "HYDROARC 2408/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 36017 (1ST ED).\nGLAS EILEAN LIGHT 56-01.1N 005-21.1W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 36017 (1ST ED).\nGLAS EILEAN LIGHT 56-01.1N 005-21.1W UNLIT.",
+    "valid_from": "2010-12-11T18:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1349/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -42.70666666666666,
+      -2.591666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-06-21T01:29:00",
     "raw_dtg": "210129Z JUN 12",
     "msg_id": "HYDROARC 1349/12(24)",
-    "cancellations": [
-      "HYDROARC 1360/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24260\nBARRA DAS PREQUICAS LIGHT 02-35.5S 042-42.4W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24260\nBARRA DAS PREQUICAS LIGHT 02-35.5S 042-42.4W UNLIT.",
+    "valid_from": "2012-06-21T01:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

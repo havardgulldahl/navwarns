@@ -3,17 +3,23 @@
   "id": "HYDROARC 1119/16(52,53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      9.291666666666666,
+      39.01
+    ]
   },
   "properties": {
     "dtg": "2016-05-11T12:25:00",
     "raw_dtg": "111225Z MAY 16",
     "msg_id": "HYDROARC 1119/16(52,53)",
-    "cancellations": [
-      "HYDROARC 1171/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TYRRHENIAN SEA.\nSARDINIA.\nDNC 08.\nCABLE OPERATIONS 12 MAY UNTIL FURTHER NOTICE\nBY CABLESHIP RAYMOND CROZE WITH SUBMERSIBLE\nIN 39-00.6N 009-17.5E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TYRRHENIAN SEA.\nSARDINIA.\nDNC 08.\nCABLE OPERATIONS 12 MAY UNTIL FURTHER NOTICE\nBY CABLESHIP RAYMOND CROZE WITH SUBMERSIBLE\nIN 39-00.6N 009-17.5E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2016-05-11T12:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

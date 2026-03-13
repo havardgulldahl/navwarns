@@ -3,17 +3,23 @@
   "id": "HYDROARC 3830/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.7283333333333334,
+      60.425
+    ]
   },
   "properties": {
     "dtg": "2020-12-10T20:53:00",
     "raw_dtg": "102053Z DEC 20",
     "msg_id": "HYDROARC 3830/20(35)",
-    "cancellations": [
-      "HYDROARC 3845/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nOUT SKERRIES LIGHT 60-25.5N 000-43.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nOUT SKERRIES LIGHT 60-25.5N 000-43.7W UNRELIABLE.",
+    "valid_from": "2020-12-10T20:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

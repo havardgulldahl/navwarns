@@ -1,19 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 671/12",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-03-26T09:19:00",
     "raw_dtg": "260919Z MAR 12",
     "msg_id": "HYDROARC 671/12",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 671/12"
+      "667/12",
+      "652/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EUROPE-NORTHWEST COAST.\nCANCEL HYDROLANT 667/12 AND THIS MSG, 652/12 REFERS."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EUROPE-NORTHWEST COAST.\nCANCEL HYDROLANT 667/12 AND THIS MSG, 652/12 REFERS.",
+    "valid_from": "2012-03-26T09:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

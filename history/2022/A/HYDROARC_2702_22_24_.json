@@ -1,20 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2702/22(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-10-24T03:53:00",
     "raw_dtg": "240353Z OCT 22",
     "msg_id": "HYDROARC 2702/22(24)",
+    "year": 2022,
     "cancellations": [
       "THIS MSG 230001Z APR 23",
-      "HYDROARC 2702/22"
+      "2414/22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PEBA LIGHT 10-29.50S 36-23.20W UNLIT\n   UNTIL 22 APR 23.\n2. CANCEL HYDROLANT 2414/22.\n3. CANCEL THIS MSG 230001Z APR 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PEBA LIGHT 10-29.50S 36-23.20W UNLIT\n   UNTIL 22 APR 23.\n2. CANCEL HYDROLANT 2414/22.\n3. CANCEL THIS MSG 230001Z APR 23.",
+    "valid_from": "2022-10-24T03:53:00+00:00",
+    "valid_until": "2023-04-23T00:01:00+00:00",
+    "summary": null
   }
 }

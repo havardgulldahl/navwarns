@@ -3,17 +3,25 @@
   "id": "HYDROARC 2219/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.0516666666666667,
+      43.54666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-08-30T08:42:00",
     "raw_dtg": "300842Z AUG 21",
     "msg_id": "HYDROARC 2219/21(37)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 2321/21"
+      "2115/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nSPAIN.\nDNC 08.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V RESPONDER IN AREA WITHIN\n   TEN MILES OF 43-32.8N 003-03.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2115/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nSPAIN.\nDNC 08.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V RESPONDER IN AREA WITHIN\n   TEN MILES OF 43-32.8N 003-03.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2115/21.",
+    "valid_from": "2021-08-30T08:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

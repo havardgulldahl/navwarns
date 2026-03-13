@@ -3,18 +3,26 @@
   "id": "HYDROARC 2148/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.915,
+      49.18333333333333
+    ]
   },
   "properties": {
     "dtg": "2020-07-06T16:33:00",
     "raw_dtg": "061633Z JUL 20",
     "msg_id": "HYDROARC 2148/20(37)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 091633Z JUL 20",
-      "HYDROARC 2163/20"
+      "2145/20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLAND.\nDNC 20.\n1. DERELICT S/V CAPSIZED AND ADRIFT IN VICINITY\n   49-11.0N 005-54.9W AT 061300Z JUL.\n2. CANCEL HYDROLANT 2145/20.\n3. CANCEL THIS MSG 091633Z JUL 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLAND.\nDNC 20.\n1. DERELICT S/V CAPSIZED AND ADRIFT IN VICINITY\n   49-11.0N 005-54.9W AT 061300Z JUL.\n2. CANCEL HYDROLANT 2145/20.\n3. CANCEL THIS MSG 091633Z JUL 20.",
+    "valid_from": "2020-07-06T16:33:00+00:00",
+    "valid_until": "2020-07-09T16:33:00+00:00",
+    "summary": null
   }
 }

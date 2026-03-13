@@ -3,18 +3,26 @@
   "id": "HYDROARC 737/20(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      7.2716666666666665,
+      42.80833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-02-28T00:48:00",
     "raw_dtg": "280048Z FEB 20",
     "msg_id": "HYDROARC 737/20(53)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 020048Z MAR 20",
-      "HYDROARC 737/20"
+      "706/20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN.\nFRANCE.\nDNC 08.\n1. DERELICT 13 METER S/V ODYSSEUS SPIRIT ADRIFT\n   IN 42-48.5N 007-16.3E AT 271016Z FEB.\n2. CANCEL HYDROLANT 706/20.\n3. CANCEL THIS MSG 020048Z MAR 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN.\nFRANCE.\nDNC 08.\n1. DERELICT 13 METER S/V ODYSSEUS SPIRIT ADRIFT\n   IN 42-48.5N 007-16.3E AT 271016Z FEB.\n2. CANCEL HYDROLANT 706/20.\n3. CANCEL THIS MSG 020048Z MAR 20.",
+    "valid_from": "2020-02-28T00:48:00+00:00",
+    "valid_until": "2020-03-02T00:48:00+00:00",
+    "summary": null
   }
 }

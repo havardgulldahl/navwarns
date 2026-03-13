@@ -3,18 +3,25 @@
   "id": "HYDROARC 1832/12(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      9.935,
+      37.58833333333333
+    ]
   },
   "properties": {
     "dtg": "2012-08-10T13:21:00",
     "raw_dtg": "101321Z AUG 12",
     "msg_id": "HYDROARC 1832/12(52)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 131320Z AUG 12",
-      "HYDROARC 1832/12"
+      "THIS MSG 131320Z AUG 12"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "TUNISIA-NORTH COAST.\n1. DERELICT F/V ADRIFT VICINITY 37-35.3N 009-56.1E\n   ON 10 AUG.\n2. CANCEL THIS MSG 131320Z AUG 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTH COAST.\n1. DERELICT F/V ADRIFT VICINITY 37-35.3N 009-56.1E\n   ON 10 AUG.\n2. CANCEL THIS MSG 131320Z AUG 12.",
+    "valid_from": "2012-08-10T13:21:00+00:00",
+    "valid_until": "2012-08-13T13:20:00+00:00",
+    "summary": null
   }
 }

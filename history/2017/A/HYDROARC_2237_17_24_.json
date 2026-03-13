@@ -3,17 +3,23 @@
   "id": "HYDROARC 2237/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.471666666666664,
+      -3.7266666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-07-18T21:41:00",
     "raw_dtg": "182141Z JUL 17",
     "msg_id": "HYDROARC 2237/17(24)",
-    "cancellations": [
-      "HYDROARC 2246/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24240, 24250.\nPONTA DE MUCURIPE LIGHT 03-43.6S 038-28.3W AT\nREDUCED INTENSITY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24240, 24250.\nPONTA DE MUCURIPE LIGHT 03-43.6S 038-28.3W AT\nREDUCED INTENSITY.",
+    "valid_from": "2017-07-18T21:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

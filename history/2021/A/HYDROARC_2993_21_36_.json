@@ -3,18 +3,25 @@
   "id": "HYDROARC 2993/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.125,
+      54.843333333333334
+    ]
   },
   "properties": {
     "dtg": "2021-12-07T01:52:00",
     "raw_dtg": "070152Z DEC 21",
     "msg_id": "HYDROARC 2993/21(36)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 081630Z DEC 21",
-      "HYDROARC 2993/21"
+      "THIS MSG 081630Z DEC 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\n1. NAVTEX STATION PORTPATRICK (O) 54-50.6N 005-07.5W\n   OFF AIR 0900Z TO 1530Z DAILY 07 AND 08 DEC.\n2. CANCEL THIS MSG 081630Z DEC 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\n1. NAVTEX STATION PORTPATRICK (O) 54-50.6N 005-07.5W\n   OFF AIR 0900Z TO 1530Z DAILY 07 AND 08 DEC.\n2. CANCEL THIS MSG 081630Z DEC 21.",
+    "valid_from": "2021-12-07T01:52:00+00:00",
+    "valid_until": "2021-12-08T16:30:00+00:00",
+    "summary": null
   }
 }

@@ -2,19 +2,58 @@
   "type": "Feature",
   "id": "HYDROARC 410/13(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          26.216666666666665,
+          35.05
+        ],
+        [
+          26.406666666666666,
+          35.52333333333333
+        ],
+        [
+          26.64,
+          35.45333333333333
+        ],
+        [
+          26.798333333333332,
+          35.185
+        ],
+        [
+          26.798333333333332,
+          35.016666666666666
+        ],
+        [
+          26.64666666666667,
+          34.75666666666667
+        ],
+        [
+          26.4,
+          34.666666666666664
+        ],
+        [
+          26.216666666666665,
+          35.05
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-02-14T10:52:00",
     "raw_dtg": "141052Z FEB 13",
     "msg_id": "HYDROARC 410/13(54)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 161400Z FEB 13",
-      "HYDROARC 410/13"
+      "THIS MSG 161400Z FEB 13"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "AEGEAN SEA.\nEASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0700Z TO 1300Z DAILY\n   14 THRU 16 FEB IN AREA BOUND BY\n   35-03.0N 026-13.0E, 35-31.4N 026-24.4E,\n   35-27.2N 026-38.4E, 35-11.1N 026-47.9E,\n   35-01.0N 026-47.9E, 34-45.4N 026-38.8E,\n   34-40.0N 026-24.0E.\n2. CANCEL THIS MSG 161400Z FEB 13."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nEASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0700Z TO 1300Z DAILY\n   14 THRU 16 FEB IN AREA BOUND BY\n   35-03.0N 026-13.0E, 35-31.4N 026-24.4E,\n   35-27.2N 026-38.4E, 35-11.1N 026-47.9E,\n   35-01.0N 026-47.9E, 34-45.4N 026-38.8E,\n   34-40.0N 026-24.0E.\n2. CANCEL THIS MSG 161400Z FEB 13.",
+    "valid_from": "2013-02-14T10:52:00+00:00",
+    "valid_until": "2013-02-16T14:00:00+00:00",
+    "summary": null
   }
 }

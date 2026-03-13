@@ -3,17 +3,23 @@
   "id": "HYDROARC 1196/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.0483333333333333,
+      52.37
+    ]
   },
   "properties": {
     "dtg": "2021-04-30T11:53:00",
     "raw_dtg": "301153Z APR 21",
     "msg_id": "HYDROARC 1196/21(37)",
-    "cancellations": [
-      "HYDROARC 1553/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK, LEAST DEPTH 10.3 METERS,\nIN 52-22.2N 002-02.9E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK, LEAST DEPTH 10.3 METERS,\nIN 52-22.2N 002-02.9E.",
+    "valid_from": "2021-04-30T11:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

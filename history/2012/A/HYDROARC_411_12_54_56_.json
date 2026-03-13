@@ -3,17 +3,23 @@
   "id": "HYDROARC 411/12(54,56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      30.348333333333333,
+      34.085
+    ]
   },
   "properties": {
     "dtg": "2012-02-23T15:31:00",
     "raw_dtg": "231531Z FEB 12",
     "msg_id": "HYDROARC 411/12(54,56)",
-    "cancellations": [
-      "HYDROARC 558/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDISTRESS SIGNAL RECEIVED IN 34-05.1N 030-20.9E\nAT 230826Z FEB. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO  JRCC LARNACA,\nPHONE: 357 2464 3005, FAX: 357 2464 3254."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDISTRESS SIGNAL RECEIVED IN 34-05.1N 030-20.9E\nAT 230826Z FEB. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO  JRCC LARNACA,\nPHONE: 357 2464 3005, FAX: 357 2464 3254.",
+    "valid_from": "2012-02-23T15:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

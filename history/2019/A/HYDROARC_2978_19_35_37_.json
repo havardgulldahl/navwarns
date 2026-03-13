@@ -3,17 +3,23 @@
   "id": "HYDROARC 2978/19(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.02,
+      54.263333333333335
+    ]
   },
   "properties": {
     "dtg": "2019-09-28T21:05:00",
     "raw_dtg": "282105Z SEP 19",
     "msg_id": "HYDROARC 2978/19(35,37)",
-    "cancellations": [
-      "HYDROARC 2982/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP ILE D'AIX\nIN AREA WITHIN TWO MILES OF 54-15.8N 000-01.2E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP ILE D'AIX\nIN AREA WITHIN TWO MILES OF 54-15.8N 000-01.2E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2019-09-28T21:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

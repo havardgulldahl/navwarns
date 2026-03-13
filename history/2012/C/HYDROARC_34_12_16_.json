@@ -3,17 +3,23 @@
   "id": "HYDROARC 34/12(16)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -159.9193,
+      70.74425
+    ]
   },
   "properties": {
     "dtg": "2012-05-23T21:42:00",
     "raw_dtg": "232142Z MAY 12",
     "msg_id": "HYDROARC 34/12(16)",
-    "cancellations": [
-      "HYDROARC 34/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nALASKA-NORTH COAST.\nICE.\n1. ICEBERG REPORTED IN 70-44.655N 159-55.158W.\n2. CANCEL THIS MSG 262145Z MAY."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nALASKA-NORTH COAST.\nICE.\n1. ICEBERG REPORTED IN 70-44.655N 159-55.158W.\n2. CANCEL THIS MSG 262145Z MAY.",
+    "valid_from": "2012-05-23T21:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

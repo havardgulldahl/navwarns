@@ -3,17 +3,25 @@
   "id": "HYDROARC 141/18(56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      29.68,
+      31.163333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-01-12T12:45:00",
     "raw_dtg": "121245Z JAN 18",
     "msg_id": "HYDROARC 141/18(56)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 180/18"
+      "4172/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\nDNC 10.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP RAYMOND CROZE IN VICINITY OF\n   31-09.8N 029-40.8E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4172/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\nDNC 10.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP RAYMOND CROZE IN VICINITY OF\n   31-09.8N 029-40.8E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4172/17.",
+    "valid_from": "2018-01-12T12:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

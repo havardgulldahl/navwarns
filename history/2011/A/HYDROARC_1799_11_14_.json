@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 1799/11(14)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         -35.87416666666667,
@@ -22,11 +22,14 @@
     "dtg": "2011-10-31T13:48:00",
     "raw_dtg": "311348Z OCT 11",
     "msg_id": "HYDROARC 1799/11(14)",
-    "cancellations": [
-      "HYDROARC 1908/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nCABLE REPAIR OPERATIONS 030800Z NOV UNTIL\nFURTHER NOTICE BY CABLESHIP LEON THEVENIN\nALONG TRACKLINE JOINING\n43-37.00N 035-52.45W, 43-40.00N 035-47.65W,\n43-45.00N 035-28.55W.\nTWO MILE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nCABLE REPAIR OPERATIONS 030800Z NOV UNTIL\nFURTHER NOTICE BY CABLESHIP LEON THEVENIN\nALONG TRACKLINE JOINING\n43-37.00N 035-52.45W, 43-40.00N 035-47.65W,\n43-45.00N 035-28.55W.\nTWO MILE BERTH REQUESTED.",
+    "valid_from": "2011-10-31T13:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

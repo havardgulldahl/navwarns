@@ -3,17 +3,25 @@
   "id": "HYDROARC 3778/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.6216666666666666,
+      53.695
+    ]
   },
   "properties": {
     "dtg": "2017-11-23T16:06:00",
     "raw_dtg": "231606Z NOV 17",
     "msg_id": "HYDROARC 3778/17(37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 44/18"
+      "3260/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37058.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 49/9-QC,\n   53-41.7N 002-37.3E INOPERATIVE.\n2. CANCEL HYDROLANT 3260/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37058.\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 49/9-QC,\n   53-41.7N 002-37.3E INOPERATIVE.\n2. CANCEL HYDROLANT 3260/17.",
+    "valid_from": "2017-11-23T16:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

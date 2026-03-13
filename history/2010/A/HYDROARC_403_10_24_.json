@@ -3,17 +3,23 @@
   "id": "HYDROARC 403/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.516666666666666,
+      -25.421666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-03-08T02:57:00",
     "raw_dtg": "080257Z MAR 10",
     "msg_id": "HYDROARC 403/10(24)",
-    "cancellations": [
-      "HYDROARC 403/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\n1. 7500 METER LONG SEISMIC CABLES WITH BUOY ADRIFT\n   IN 25-25.3S 041-31.0W AT 071430Z MAR.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 110300Z MAR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\n1. 7500 METER LONG SEISMIC CABLES WITH BUOY ADRIFT\n   IN 25-25.3S 041-31.0W AT 071430Z MAR.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 110300Z MAR.",
+    "valid_from": "2010-03-08T02:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

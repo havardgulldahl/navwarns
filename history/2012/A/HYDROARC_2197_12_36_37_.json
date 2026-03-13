@@ -3,18 +3,25 @@
   "id": "HYDROARC 2197/12(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.875,
+      49.766666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-09-22T09:54:00",
     "raw_dtg": "220954Z SEP 12",
     "msg_id": "HYDROARC 2197/12(36,37)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 250950Z SEP 12",
-      "HYDROARC 2197/12"
+      "THIS MSG 250950Z SEP 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\n1. CONTAINER ADRIFT VICINITY 49-46.0N 006-52.5W\n   AT 220755Z SEP.\n2. CANCEL THIS MSG 250950Z SEP 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\n1. CONTAINER ADRIFT VICINITY 49-46.0N 006-52.5W\n   AT 220755Z SEP.\n2. CANCEL THIS MSG 250950Z SEP 12.",
+    "valid_from": "2012-09-22T09:54:00+00:00",
+    "valid_until": "2012-09-25T09:50:00+00:00",
+    "summary": null
   }
 }

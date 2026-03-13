@@ -3,18 +3,25 @@
   "id": "HYDROARC 1896/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.583333333333333,
+      51.81166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-08-17T22:48:00",
     "raw_dtg": "172248Z AUG 12",
     "msg_id": "HYDROARC 1896/12(36)",
+    "year": 2012,
     "cancellations": [
-      "THIS MSG 202245Z AUG 12",
-      "HYDROARC 1896/12"
+      "THIS MSG 202245Z AUG 12"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "IRELAND-SOUTHEAST COAST.\nCELTIC SEA.\n1. DERELICT SEVEN METER VESSEL ADRIFT IN\n   51-48.7N 006-35.0W AT 172110Z AUG.\n2. CANCEL THIS MSG 202245Z AUG 12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-SOUTHEAST COAST.\nCELTIC SEA.\n1. DERELICT SEVEN METER VESSEL ADRIFT IN\n   51-48.7N 006-35.0W AT 172110Z AUG.\n2. CANCEL THIS MSG 202245Z AUG 12.",
+    "valid_from": "2012-08-17T22:48:00+00:00",
+    "valid_until": "2012-08-20T22:45:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 203/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.223333333333334,
+      56.72666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-01-24T02:07:00",
     "raw_dtg": "240207Z JAN 15",
     "msg_id": "HYDROARC 203/15(35)",
-    "cancellations": [
-      "HYDROARC 212/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nSCOTLAND-WEST COAST.\nDNC 19, DNC 20.\nCHART 35079, 35096.\nARDNAMURCHAN LIGHT 56-43.6N 006-13.4W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nSCOTLAND-WEST COAST.\nDNC 19, DNC 20.\nCHART 35079, 35096.\nARDNAMURCHAN LIGHT 56-43.6N 006-13.4W UNLIT.",
+    "valid_from": "2015-01-24T02:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

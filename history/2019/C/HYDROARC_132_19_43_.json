@@ -2,18 +2,58 @@
   "type": "Feature",
   "id": "HYDROARC 132/19(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.251666666666665,
+          72.935
+        ],
+        [
+          20.733333333333334,
+          72.855
+        ],
+        [
+          20.738333333333333,
+          72.41166666666666
+        ],
+        [
+          20.991666666666667,
+          72.30333333333333
+        ],
+        [
+          20.848333333333333,
+          72.155
+        ],
+        [
+          18.265,
+          72.265
+        ],
+        [
+          18.64,
+          72.51833333333333
+        ],
+        [
+          19.251666666666665,
+          72.935
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-07-16T13:58:00",
     "raw_dtg": "161358Z JUL 19",
     "msg_id": "HYDROARC 132/19(43)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 132/19"
+      "THIS MSG 01 NOV 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 31 OCT\n   BY M/V OCEANIC SIRIUS TOWING 16 8000 METER\n   LONG CABLES IN AREA BOUND BY\n   72-56.1N 019-15.1E, 72-51.3N 020-44.0E,\n   72-24.7N 020-44.3E, 72-18.2N 020-59.5E,\n   72-09.3N 020-50.9E, 72-15.9N 018-15.9E,\n   72-31.1N 018-38.4E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 NOV 19."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 31 OCT\n   BY M/V OCEANIC SIRIUS TOWING 16 8000 METER\n   LONG CABLES IN AREA BOUND BY\n   72-56.1N 019-15.1E, 72-51.3N 020-44.0E,\n   72-24.7N 020-44.3E, 72-18.2N 020-59.5E,\n   72-09.3N 020-50.9E, 72-15.9N 018-15.9E,\n   72-31.1N 018-38.4E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 NOV 19.",
+    "valid_from": "2019-07-16T13:58:00+00:00",
+    "valid_until": "2019-11-01T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1973/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.81333333333333,
+      -28.60333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-11-24T10:17:00",
     "raw_dtg": "241017Z NOV 11",
     "msg_id": "HYDROARC 1973/11(24)",
-    "cancellations": [
-      "HYDROARC 1973/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\n1. RADIOBEACON AT CABO SANTA MARTA LIGHT\n   28-36.2S 048-48.8W OFF AIR\n   UNTIL 242000Z NOV.\n2. CANCEL THIS MSG 242100Z NOV."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\n1. RADIOBEACON AT CABO SANTA MARTA LIGHT\n   28-36.2S 048-48.8W OFF AIR\n   UNTIL 242000Z NOV.\n2. CANCEL THIS MSG 242100Z NOV.",
+    "valid_from": "2011-11-24T10:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

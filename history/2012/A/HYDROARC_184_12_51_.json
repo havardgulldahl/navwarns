@@ -3,17 +3,23 @@
   "id": "HYDROARC 184/12(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -39.651666666666664,
+      23.651666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-01-23T02:35:00",
     "raw_dtg": "230235Z JAN 12",
     "msg_id": "HYDROARC 184/12(51)",
-    "cancellations": [
-      "HYDROARC 184/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED FROM VESSEL SVENDBORG\nIN 23-39.1N 039-39.1W AT 230001Z JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A \nSHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS TO \nMRCC PONTA DELGADA, TELEX: 40460747,\nPHONE: 35 129 628 1777, FAX: 35 129 620 5239."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED FROM VESSEL SVENDBORG\nIN 23-39.1N 039-39.1W AT 230001Z JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A \nSHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS TO \nMRCC PONTA DELGADA, TELEX: 40460747,\nPHONE: 35 129 628 1777, FAX: 35 129 620 5239.",
+    "valid_from": "2012-01-23T02:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

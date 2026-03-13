@@ -3,17 +3,23 @@
   "id": "HYDROARC 2088/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2516666666666665,
+      47.38861111111111
+    ]
   },
   "properties": {
     "dtg": "2021-08-11T09:18:00",
     "raw_dtg": "110918Z AUG 21",
     "msg_id": "HYDROARC 2088/21(37)",
-    "cancellations": [
-      "HYDROARC 2089/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nPOINTE DES POULAINS LIGHT 47-23-19N 003-15-06W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nPOINTE DES POULAINS LIGHT 47-23-19N 003-15-06W\nUNRELIABLE.",
+    "valid_from": "2021-08-11T09:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

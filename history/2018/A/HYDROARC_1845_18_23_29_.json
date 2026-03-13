@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1845/18(23,29)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2018-06-09T17:25:00",
     "raw_dtg": "091725Z JUN 18",
     "msg_id": "HYDROARC 1845/18(23,29)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 101725Z JUN 18",
-      "HYDROARC 1845/18"
+      "THIS MSG 101725Z JUN 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nSCOTIA SEA.\nDNC 01, DNC 07, DNC 29.\n1. ICEBERGS REPORTED IN:\n   A. B15T, 59-03S 036-52W.\n   B. B09F, 61-51S 054-00W.\n   C. C28B, 58-13S 044-34W.\n   D. 57-22S 061-38W.\n   E. 50-26S 039-35W.\n   F. 50-31S 039-33W.\n   G. 50-45S 039-32W.\n2. CANCEL THIS MSG 101725Z JUN 18."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nSCOTIA SEA.\nDNC 01, DNC 07, DNC 29.\n1. ICEBERGS REPORTED IN:\n   A. B15T, 59-03S 036-52W.\n   B. B09F, 61-51S 054-00W.\n   C. C28B, 58-13S 044-34W.\n   D. 57-22S 061-38W.\n   E. 50-26S 039-35W.\n   F. 50-31S 039-33W.\n   G. 50-45S 039-32W.\n2. CANCEL THIS MSG 101725Z JUN 18.",
+    "valid_from": "2018-06-09T17:25:00+00:00",
+    "valid_until": "2018-06-10T17:25:00+00:00",
+    "summary": null
   }
 }

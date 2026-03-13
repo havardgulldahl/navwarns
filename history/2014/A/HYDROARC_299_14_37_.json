@@ -3,17 +3,23 @@
   "id": "HYDROARC 299/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.7466666666666666,
+      53.31333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-01-31T17:27:00",
     "raw_dtg": "311727Z JAN 14",
     "msg_id": "HYDROARC 299/14(37)",
-    "cancellations": [
-      "HYDROARC 684/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nCHART 37059\nMETEOROLOGICAL MAST 53-18.8N 000-44.8E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nCHART 37059\nMETEOROLOGICAL MAST 53-18.8N 000-44.8E UNLIT.",
+    "valid_from": "2014-01-31T17:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

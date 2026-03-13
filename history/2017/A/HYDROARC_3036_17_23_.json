@@ -3,17 +3,25 @@
   "id": "HYDROARC 3036/17(23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -58.78666666666667,
+      -45.63333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-09-26T04:07:00",
     "raw_dtg": "260407Z SEP 17",
     "msg_id": "HYDROARC 3036/17(23)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 3054/17"
+      "3018/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V A.R.A. AUSTRAL IN\n   45-38.0S 058-47.2W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3018/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V A.R.A. AUSTRAL IN\n   45-38.0S 058-47.2W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3018/17.",
+    "valid_from": "2017-09-26T04:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

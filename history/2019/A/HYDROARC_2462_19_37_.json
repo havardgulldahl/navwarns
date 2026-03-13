@@ -3,17 +3,23 @@
   "id": "HYDROARC 2462/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.9533333333333334,
+      50.66833333333334
+    ]
   },
   "properties": {
     "dtg": "2019-08-12T21:45:00",
     "raw_dtg": "122145Z AUG 19",
     "msg_id": "HYDROARC 2462/19(37)",
-    "cancellations": [
-      "HYDROARC 2471/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nCHART 37095.\nDNC 20.\nRACON AT NAB LIGHT 50-40.1N 000-57.2W\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nCHART 37095.\nDNC 20.\nRACON AT NAB LIGHT 50-40.1N 000-57.2W\nINOPERATIVE.",
+    "valid_from": "2019-08-12T21:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

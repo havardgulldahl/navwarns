@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 1481/11(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -0.125,
+          5.3133333333333335
+        ],
+        [
+          -0.11166666666666666,
+          5.18
+        ],
+        [
+          0.47333333333333333,
+          4.091666666666667
+        ],
+        [
+          0.5666666666666667,
+          4.023333333333333
+        ],
+        [
+          -0.125,
+          5.3133333333333335
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-09-15T11:40:00",
     "raw_dtg": "151140Z SEP 11",
     "msg_id": "HYDROARC 1481/11(57)",
-    "cancellations": [
-      "HYDROARC 1481/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\n1. CABLE OPERATIONS 152000Z TO 201200Z SEP\n   BY CABLESHIP RENE DESCARTES WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   05-18.8N 000-07.5W, 05-10.8N 000-06.7W,\n   04-05.5N 000-28.4E, 04-01.4N 000-34.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 201300Z SEP."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\n1. CABLE OPERATIONS 152000Z TO 201200Z SEP\n   BY CABLESHIP RENE DESCARTES WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   05-18.8N 000-07.5W, 05-10.8N 000-06.7W,\n   04-05.5N 000-28.4E, 04-01.4N 000-34.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 201300Z SEP.",
+    "valid_from": "2011-09-15T11:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

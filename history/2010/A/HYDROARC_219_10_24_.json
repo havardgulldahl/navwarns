@@ -3,17 +3,23 @@
   "id": "HYDROARC 219/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.38,
+      -20.615
+    ]
   },
   "properties": {
     "dtg": "2010-02-03T15:10:00",
     "raw_dtg": "031510Z FEB 10",
     "msg_id": "HYDROARC 219/10(24)",
-    "cancellations": [
-      "HYDROARC 221/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nVESSEL LAVINGNA MARES, TWO PERSONS ON BOARD,\nUNREPORTED BETWEEN TRES ILHAS (20-36.9S 040-22.8W)\nAND ILHA RASA (20-40.8S 040-21.9W). VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT, ASSIST\nIF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nVESSEL LAVINGNA MARES, TWO PERSONS ON BOARD,\nUNREPORTED BETWEEN TRES ILHAS (20-36.9S 040-22.8W)\nAND ILHA RASA (20-40.8S 040-21.9W). VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT, ASSIST\nIF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2010-02-03T15:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

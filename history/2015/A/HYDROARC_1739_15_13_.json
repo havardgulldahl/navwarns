@@ -3,17 +3,23 @@
   "id": "HYDROARC 1739/15(13)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.75333333333333,
+      42.82333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-07-15T10:33:00",
     "raw_dtg": "151033Z JUL 15",
     "msg_id": "HYDROARC 1739/15(13)",
-    "cancellations": [
-      "HYDROARC 1740/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nMAINE.\nDNC 17, DNC 18.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM F/V AMERICAN HERITAGE\nIN 42-49.4N 068-45.2W AT 150904Z JUL. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF\nPOSSIBLE. REPORTS TO RCC BOSTON, PHONE: 617-223-8555,\nE-MAIL: RCC BOSTON@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nMAINE.\nDNC 17, DNC 18.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM F/V AMERICAN HERITAGE\nIN 42-49.4N 068-45.2W AT 150904Z JUL. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF\nPOSSIBLE. REPORTS TO RCC BOSTON, PHONE: 617-223-8555,\nE-MAIL: RCC BOSTON@USCG.MIL.",
+    "valid_from": "2015-07-15T10:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

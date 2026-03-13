@@ -3,17 +3,25 @@
   "id": "HYDROARC 3086/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.958333333333333,
+      57.57833333333333
+    ]
   },
   "properties": {
     "dtg": "2016-11-19T01:37:00",
     "raw_dtg": "190137Z NOV 16",
     "msg_id": "HYDROARC 3086/16(35)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 3093/16"
+      "3079/16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND-WEST COAST.\nDNC 20.\nCHART 35015.\n1. RONA LIGHT 57-34.7N 005-57.5W UNLIT.\n2. CANCEL HYDROLANT 3079/16."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND-WEST COAST.\nDNC 20.\nCHART 35015.\n1. RONA LIGHT 57-34.7N 005-57.5W UNLIT.\n2. CANCEL HYDROLANT 3079/16.",
+    "valid_from": "2016-11-19T01:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

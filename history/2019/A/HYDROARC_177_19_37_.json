@@ -3,17 +3,23 @@
   "id": "HYDROARC 177/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.955,
+      49.721666666666664
+    ]
   },
   "properties": {
     "dtg": "2019-01-19T19:27:00",
     "raw_dtg": "191927Z JAN 19",
     "msg_id": "HYDROARC 177/19(37)",
-    "cancellations": [
-      "HYDROARC 198/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCHART 37080.\nCAP DE LA HAGUE LIGHT 49-43.3N 001-57.3W UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCHART 37080.\nCAP DE LA HAGUE LIGHT 49-43.3N 001-57.3W UNLIT.",
+    "valid_from": "2019-01-19T19:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

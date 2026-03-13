@@ -3,17 +3,23 @@
   "id": "HYDROARC 326/14(22,29)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -63.916666666666664,
+      -59.778333333333336
+    ]
   },
   "properties": {
     "dtg": "2014-02-03T01:51:00",
     "raw_dtg": "030151Z FEB 14",
     "msg_id": "HYDROARC 326/14(22,29)",
-    "cancellations": [
-      "HYDROARC 346/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ANTARCTICA.\nDRAKE PASSAGE.\nOCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V ARA PUERTO DESEADO\nVICINITY 59-46.7S 063-55.0W."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ANTARCTICA.\nDRAKE PASSAGE.\nOCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V ARA PUERTO DESEADO\nVICINITY 59-46.7S 063-55.0W.",
+    "valid_from": "2014-02-03T01:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

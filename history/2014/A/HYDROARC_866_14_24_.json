@@ -3,17 +3,23 @@
   "id": "HYDROARC 866/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.275,
+      -20.321666666666665
+    ]
   },
   "properties": {
     "dtg": "2014-03-30T15:23:00",
     "raw_dtg": "301523Z MAR 14",
     "msg_id": "HYDROARC 866/14(24)",
-    "cancellations": [
-      "HYDROARC 876/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24172\nPONTA DO TAGANO REAR RANGE LIGHT 20-19.3S 040-16.5W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24172\nPONTA DO TAGANO REAR RANGE LIGHT 20-19.3S 040-16.5W UNLIT.",
+    "valid_from": "2014-03-30T15:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

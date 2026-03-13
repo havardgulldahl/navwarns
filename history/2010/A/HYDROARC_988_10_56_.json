@@ -3,17 +3,23 @@
   "id": "HYDROARC 988/10(56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      19.558333333333334,
+      30.5
+    ]
   },
   "properties": {
     "dtg": "2010-05-31T11:47:00",
     "raw_dtg": "311147Z MAY 10",
     "msg_id": "HYDROARC 988/10(56)",
-    "cancellations": [
-      "HYDROARC 1015/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nGULF OF SIDRA.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE\nVICINITY OF TRACKLINE BETWEEN\n30-30.0N 019-33.5E AND 30-29.8N 019-35.5E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nGULF OF SIDRA.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE\nVICINITY OF TRACKLINE BETWEEN\n30-30.0N 019-33.5E AND 30-29.8N 019-35.5E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2010-05-31T11:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

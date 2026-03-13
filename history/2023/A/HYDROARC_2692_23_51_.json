@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 2692/23(51)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         -19.958333333333332,
@@ -54,11 +54,14 @@
     "dtg": "2023-11-22T16:23:00",
     "raw_dtg": "221623Z NOV 23",
     "msg_id": "HYDROARC 2692/23(51)",
-    "cancellations": [
-      "HYDROARC 2705/23"
-    ],
+    "year": 2023,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\nDNC 01, DNC 08.\nCABLE OPERATIONS 250001Z NOV UNTIL FURTHER NOTICE\nBY M/V ILE DE BATZ ALONG TRACKLINE JOINING\n20-05.60N 019-57.50W, 22-45.10N 019-17.20W,\n24-21.00N 019-18.30W, 26-32.10N 018-55.40W,\n27-02.70N 019-14.70W, 28-58.90N 018-46.90W,\n29-30.20N 018-33.20W, 29-37.40N 018-20.50W,\n29-38.70N 017-53.80W, 30-14.60N 017-14.30W,\n30-33.60N 016-35.50W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\nDNC 01, DNC 08.\nCABLE OPERATIONS 250001Z NOV UNTIL FURTHER NOTICE\nBY M/V ILE DE BATZ ALONG TRACKLINE JOINING\n20-05.60N 019-57.50W, 22-45.10N 019-17.20W,\n24-21.00N 019-18.30W, 26-32.10N 018-55.40W,\n27-02.70N 019-14.70W, 28-58.90N 018-46.90W,\n29-30.20N 018-33.20W, 29-37.40N 018-20.50W,\n29-38.70N 017-53.80W, 30-14.60N 017-14.30W,\n30-33.60N 016-35.50W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2023-11-22T16:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

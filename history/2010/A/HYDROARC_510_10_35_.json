@@ -3,17 +3,23 @@
   "id": "HYDROARC 510/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.5366666666666666,
+      55.333333333333336
+    ]
   },
   "properties": {
     "dtg": "2010-03-24T03:16:00",
     "raw_dtg": "240316Z MAR 10",
     "msg_id": "HYDROARC 510/10(35)",
-    "cancellations": [
-      "HYDROARC 510/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-NORTHEAST COAST.\nNGA CHART 35010 (1ST ED).\n1. COQUET ISLAND LIGHT 55-20.0N 001-32.2W\n   UNLIT 240900Z TO 241800Z MAR.\n2. CANCEL THIS MSG 241900Z MAR."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-NORTHEAST COAST.\nNGA CHART 35010 (1ST ED).\n1. COQUET ISLAND LIGHT 55-20.0N 001-32.2W\n   UNLIT 240900Z TO 241800Z MAR.\n2. CANCEL THIS MSG 241900Z MAR.",
+    "valid_from": "2010-03-24T03:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

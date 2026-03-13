@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 916/17(14,51)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         -29.772666666666666,
@@ -22,11 +22,14 @@
     "dtg": "2017-03-21T13:35:00",
     "raw_dtg": "211335Z MAR 17",
     "msg_id": "HYDROARC 916/17(14,51)",
-    "cancellations": [
-      "HYDROARC 1016/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 08.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP REBECCA ALONG TRACK LINE JOINING\n38-21.17N 029-46.36W, 38-21.17N 029-44.87W,\n39-25.61N 044-44.89W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 08.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP REBECCA ALONG TRACK LINE JOINING\n38-21.17N 029-46.36W, 38-21.17N 029-44.87W,\n39-25.61N 044-44.89W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2017-03-21T13:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

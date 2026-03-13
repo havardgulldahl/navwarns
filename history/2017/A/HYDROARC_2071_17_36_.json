@@ -3,17 +3,23 @@
   "id": "HYDROARC 2071/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.5616666666666665,
+      53.876666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-07-05T08:00:00",
     "raw_dtg": "050800Z JUL 17",
     "msg_id": "HYDROARC 2071/17(36)",
-    "cancellations": [
-      "HYDROARC 2088/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\nALL NAVIGATIONAL AIDS AT PLATFORM DP4,\n53-52.6N 003-33.7W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\nALL NAVIGATIONAL AIDS AT PLATFORM DP4,\n53-52.6N 003-33.7W INOPERATIVE.",
+    "valid_from": "2017-07-05T08:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

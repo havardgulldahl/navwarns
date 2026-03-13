@@ -3,17 +3,25 @@
   "id": "HYDROARC 9/15",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.038333333333334,
+      36.80166666666667
+    ]
   },
   "properties": {
     "dtg": "2015-01-02T12:30:00",
     "raw_dtg": "021230Z JAN 15",
     "msg_id": "HYDROARC 9/15",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 861/16"
+      "620/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTHEAST COAST.\nNAVTEX.\nDNC 08.\n1. NAVTEX STATION KELIBIA 36-48.1N 011-02.3E OFF AIR.\n2. CANCEL HYDROLANT 620/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTHEAST COAST.\nNAVTEX.\nDNC 08.\n1. NAVTEX STATION KELIBIA 36-48.1N 011-02.3E OFF AIR.\n2. CANCEL HYDROLANT 620/13.",
+    "valid_from": "2015-01-02T12:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

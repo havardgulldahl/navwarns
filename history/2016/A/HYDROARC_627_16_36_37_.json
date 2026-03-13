@@ -3,17 +3,23 @@
   "id": "HYDROARC 627/16(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.365,
+      52.196666666666665
+    ]
   },
   "properties": {
     "dtg": "2016-03-14T17:15:00",
     "raw_dtg": "141715Z MAR 16",
     "msg_id": "HYDROARC 627/16(36,37)",
-    "cancellations": [
-      "HYDROARC 640/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND.\nWALES.\nDNC 20.\nCHART 37010.\nWORMLEIGHTON DGPS STATION 52-11.8N 001-21.9W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND.\nWALES.\nDNC 20.\nCHART 37010.\nWORMLEIGHTON DGPS STATION 52-11.8N 001-21.9W OFF AIR.",
+    "valid_from": "2016-03-14T17:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

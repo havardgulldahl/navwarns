@@ -2,18 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 2016/12(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.251666666666665,
+          73.65166666666667
+        ],
+        [
+          32.37166666666667,
+          73.46333333333334
+        ],
+        [
+          32.31166666666667,
+          72.34666666666666
+        ],
+        [
+          26.346666666666668,
+          72.54833333333333
+        ],
+        [
+          21.996666666666666,
+          73.13166666666666
+        ],
+        [
+          22.251666666666665,
+          73.65166666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-08-31T21:40:00",
     "raw_dtg": "312140Z AUG 12",
     "msg_id": "HYDROARC 2016/12(43)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2218/12"
+      "1633/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nBARENTS SEA.\n1. SEISMIC SURVEY 01 SEP UNTIL FURTHER NOTICE\n   BY M/V OSPREY EXPLORER TOWING 12000 METER\n   LONG CABLE IN AREA BOUND BY\n   73-39.1N 022-15.1E, 73-27.8N 032-22.3E,\n   72-20.8N 032-18.7E, 72-32.9N 026-20.8E,\n   73-07.9N 021-59.8E.\n   EIGHT MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1633/12."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBARENTS SEA.\n1. SEISMIC SURVEY 01 SEP UNTIL FURTHER NOTICE\n   BY M/V OSPREY EXPLORER TOWING 12000 METER\n   LONG CABLE IN AREA BOUND BY\n   73-39.1N 022-15.1E, 73-27.8N 032-22.3E,\n   72-20.8N 032-18.7E, 72-32.9N 026-20.8E,\n   73-07.9N 021-59.8E.\n   EIGHT MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1633/12.",
+    "valid_from": "2012-08-31T21:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

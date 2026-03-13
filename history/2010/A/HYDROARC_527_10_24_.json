@@ -3,17 +3,23 @@
   "id": "HYDROARC 527/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.04333333333334,
+      -0.6616666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-03-26T23:22:00",
     "raw_dtg": "262322Z MAR 10",
     "msg_id": "HYDROARC 527/10(24)",
-    "cancellations": [
-      "HYDROARC 662/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED).\nTAIPU LIGHT 00-39.7S 048-02.6W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED).\nTAIPU LIGHT 00-39.7S 048-02.6W UNLIT.",
+    "valid_from": "2010-03-26T23:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

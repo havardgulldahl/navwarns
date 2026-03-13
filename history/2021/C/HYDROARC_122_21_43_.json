@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 122/21(43)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-07-02T16:04:00",
     "raw_dtg": "021604Z JUL 21",
     "msg_id": "HYDROARC 122/21(43)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 79/21",
-      "HYDROARC 122/21"
+      "HYDROARC 79/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nNORWAY.\nDNC 22.\nCANCEL HYDROARC 79/21 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nNORWAY.\nDNC 22.\nCANCEL HYDROARC 79/21 AND THIS MSG.",
+    "valid_from": "2021-07-02T16:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2590/19(43)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-08-25T03:10:00",
     "raw_dtg": "250310Z AUG 19",
     "msg_id": "HYDROARC 2590/19(43)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 2590/19"
+      "2323/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21.\nCANCEL HYDROLANT 2323/19 AND THIS MSG,\nOPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21.\nCANCEL HYDROLANT 2323/19 AND THIS MSG,\nOPERATIONS COMPLETED.",
+    "valid_from": "2019-08-25T03:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

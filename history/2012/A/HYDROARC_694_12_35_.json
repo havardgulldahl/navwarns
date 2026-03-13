@@ -3,17 +3,23 @@
   "id": "HYDROARC 694/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0483333333333333,
+      57.138333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-03-28T19:04:00",
     "raw_dtg": "281904Z MAR 12",
     "msg_id": "HYDROARC 694/12(35)",
-    "cancellations": [
-      "HYDROARC 701/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nCHART 35013\nDGPS STATION AT GIRDLE NESS LIGHT 57-08.3N 002-02.9W\nAT REDUCED POWER."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nCHART 35013\nDGPS STATION AT GIRDLE NESS LIGHT 57-08.3N 002-02.9W\nAT REDUCED POWER.",
+    "valid_from": "2012-03-28T19:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

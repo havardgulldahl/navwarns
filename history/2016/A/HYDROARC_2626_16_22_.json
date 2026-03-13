@@ -3,17 +3,23 @@
   "id": "HYDROARC 2626/16(22)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.60666666666667,
+      -52.66
+    ]
   },
   "properties": {
     "dtg": "2016-10-08T02:35:00",
     "raw_dtg": "080235Z OCT 16",
     "msg_id": "HYDROARC 2626/16(22)",
-    "cancellations": [
-      "HYDROARC 1053/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\nCHILE.\nDNC 07.\nCHART 22471.\nRACON AT CABO ESPIRITU SANTO LIGHT 52-39.6S 068-36.4W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\nCHILE.\nDNC 07.\nCHART 22471.\nRACON AT CABO ESPIRITU SANTO LIGHT 52-39.6S 068-36.4W INOPERATIVE.",
+    "valid_from": "2016-10-08T02:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

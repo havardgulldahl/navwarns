@@ -2,19 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 2236/15(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.666666666666668,
+          44.233333333333334
+        ],
+        [
+          32.166666666666664,
+          44.975
+        ],
+        [
+          33.45,
+          44.975
+        ],
+        [
+          33.0,
+          44.25
+        ],
+        [
+          32.53333333333333,
+          44.041666666666664
+        ],
+        [
+          31.666666666666668,
+          44.233333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-09-09T13:43:00",
     "raw_dtg": "091343Z SEP 15",
     "msg_id": "HYDROARC 2236/15(55)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 121800Z SEP 15",
-      "HYDROARC 2236/15"
+      "THIS MSG 121800Z SEP 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nGUNNERY.\nDNC 10.\n1. GUNNERY EXERCISES 0500Z TO 1700Z DAILY\n   10 THRU 12 SEP IN AREA BOUND BY\n   44-14.0N 031-40.0E, 44-58.5N 032-10.0E,\n   44-58.5N 033-27.0E, 44-15.0N 033-00.0E,\n   44-02.5N 032-32.0E.\n2. CANCEL THIS MSG 121800Z SEP 15."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nGUNNERY.\nDNC 10.\n1. GUNNERY EXERCISES 0500Z TO 1700Z DAILY\n   10 THRU 12 SEP IN AREA BOUND BY\n   44-14.0N 031-40.0E, 44-58.5N 032-10.0E,\n   44-58.5N 033-27.0E, 44-15.0N 033-00.0E,\n   44-02.5N 032-32.0E.\n2. CANCEL THIS MSG 121800Z SEP 15.",
+    "valid_from": "2015-09-09T13:43:00+00:00",
+    "valid_until": "2015-09-12T18:00:00+00:00",
+    "summary": null
   }
 }

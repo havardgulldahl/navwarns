@@ -3,17 +3,23 @@
   "id": "HYDROARC 2914/20(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.22666666666666666,
+      36.11333333333334
+    ]
   },
   "properties": {
     "dtg": "2020-09-25T04:03:00",
     "raw_dtg": "250403Z SEP 20",
     "msg_id": "HYDROARC 2914/20(52)",
-    "cancellations": [
-      "HYDROARC 1070/21"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCAP IVI LIGHT 36-06.8N 000-13.6E UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCAP IVI LIGHT 36-06.8N 000-13.6E UNLIT.",
+    "valid_from": "2020-09-25T04:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1601/17(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.825,
+      54.083333333333336
+    ]
   },
   "properties": {
     "dtg": "2017-05-22T12:13:00",
     "raw_dtg": "221213Z MAY 17",
     "msg_id": "HYDROARC 1601/17(35,37)",
-    "cancellations": [
-      "HYDROARC 1601/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COST.\nDNC 20.\nCHART 35006.\nALL NAVIGATIONAL AIDS AT PLATFORM 42/30-C, 54-05.0N 000-49.5E\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COST.\nDNC 20.\nCHART 35006.\nALL NAVIGATIONAL AIDS AT PLATFORM 42/30-C, 54-05.0N 000-49.5E\nINOPERATIVE.",
+    "valid_from": "2017-05-22T12:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

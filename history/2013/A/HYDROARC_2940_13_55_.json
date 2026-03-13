@@ -3,17 +3,25 @@
   "id": "HYDROARC 2940/13(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      37.255,
+      45.955
+    ]
   },
   "properties": {
     "dtg": "2013-11-20T12:59:00",
     "raw_dtg": "201259Z NOV 13",
     "msg_id": "HYDROARC 2940/13(55)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2940/13"
+      "THIS MSG 31 DEC 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF AZOV.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 30 DEC\n   WITHIN 2500 METERS OF 45-57.3N 037-15.3E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 DEC 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF AZOV.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 30 DEC\n   WITHIN 2500 METERS OF 45-57.3N 037-15.3E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 DEC 13.",
+    "valid_from": "2013-11-20T12:59:00+00:00",
+    "valid_until": "2013-12-31T00:00:00+00:00",
+    "summary": null
   }
 }

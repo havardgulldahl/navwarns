@@ -3,17 +3,23 @@
   "id": "HYDROARC 2573/14(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -10.066666666666666,
+      5.765
+    ]
   },
   "properties": {
     "dtg": "2014-10-23T16:23:00",
     "raw_dtg": "231623Z OCT 14",
     "msg_id": "HYDROARC 2573/14(51)",
-    "cancellations": [
-      "HYDROARC 774/15"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nLIBERIA.\nDNC 01.\nCHART 51642.\nDANGEROUS OBSTRUCTION REPORTED IN 05-45.9N 010-04.0W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nLIBERIA.\nDNC 01.\nCHART 51642.\nDANGEROUS OBSTRUCTION REPORTED IN 05-45.9N 010-04.0W.",
+    "valid_from": "2014-10-23T16:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2827/21(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.966666666666667,
+      29.666666666666668
+    ]
   },
   "properties": {
     "dtg": "2021-11-16T15:12:00",
     "raw_dtg": "161512Z NOV 21",
     "msg_id": "HYDROARC 2827/21(51)",
-    "cancellations": [
-      "HYDROARC 3145/21"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nCAP D'AGLOU LIGHT 29-40.0N 009-58.0W UNLIT."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nCAP D'AGLOU LIGHT 29-40.0N 009-58.0W UNLIT.",
+    "valid_from": "2021-11-16T15:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

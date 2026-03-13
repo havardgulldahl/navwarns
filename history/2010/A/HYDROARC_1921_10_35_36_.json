@@ -3,17 +3,23 @@
   "id": "HYDROARC 1921/10(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.726666666666667,
+      54.928333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-10-09T21:10:00",
     "raw_dtg": "092110Z OCT 10",
     "msg_id": "HYDROARC 1921/10(35,36)",
-    "cancellations": [
-      "HYDROARC 300/11"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-NORTHEAST COAST.\nNGA CHART 35119 (2ND ED).\nEAST MAIDEN LIGHT 54-55.7N 005-43.6W\nCHANGED TO: FL (3) W 15 SEC."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTHEAST COAST.\nNGA CHART 35119 (2ND ED).\nEAST MAIDEN LIGHT 54-55.7N 005-43.6W\nCHANGED TO: FL (3) W 15 SEC.",
+    "valid_from": "2010-10-09T21:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 447/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.305,
+      49.931666666666665
+    ]
   },
   "properties": {
     "dtg": "2019-02-10T15:24:00",
     "raw_dtg": "101524Z FEB 19",
     "msg_id": "HYDROARC 447/19(36)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 744/19"
+      "4071/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLISH CHANNEL.\nENGLAND.\nDNC 19.\nCHART 36035.\n1. CGOC FALMOUTH MF R/T AND DSC SERVICES\n   AT ISLES OF SCILLY SITE 49-55.9N 006-18.3W\n   UNRELIABLE.\n2. CANCEL HYDROLANT 4071/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLISH CHANNEL.\nENGLAND.\nDNC 19.\nCHART 36035.\n1. CGOC FALMOUTH MF R/T AND DSC SERVICES\n   AT ISLES OF SCILLY SITE 49-55.9N 006-18.3W\n   UNRELIABLE.\n2. CANCEL HYDROLANT 4071/18.",
+    "valid_from": "2019-02-10T15:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

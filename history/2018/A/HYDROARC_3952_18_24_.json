@@ -3,18 +3,25 @@
   "id": "HYDROARC 3952/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.36,
+      -28.938333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-12-19T13:49:00",
     "raw_dtg": "191349Z DEC 18",
     "msg_id": "HYDROARC 3952/18(24)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 161740Z JUN 19",
-      "HYDROARC 4002/18"
+      "THIS MSG 161740Z JUN 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nCHART 24120.\n1. ARARANGUA LIGHT 28-56.3S 049-21.6W UNLIT.\n2. CANCEL THIS MSG 161740Z JUN 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nCHART 24120.\n1. ARARANGUA LIGHT 28-56.3S 049-21.6W UNLIT.\n2. CANCEL THIS MSG 161740Z JUN 19.",
+    "valid_from": "2018-12-19T13:49:00+00:00",
+    "valid_until": "2019-06-16T17:40:00+00:00",
+    "summary": null
   }
 }

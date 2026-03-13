@@ -3,17 +3,23 @@
   "id": "HYDROARC 1181/22(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.673333333333334,
+      50.02
+    ]
   },
   "properties": {
     "dtg": "2022-04-30T15:34:00",
     "raw_dtg": "301534Z APR 22",
     "msg_id": "HYDROARC 1181/22(36)",
-    "cancellations": [
-      "HYDROARC 1191/22"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT SOUTH CARDINAL LIGHT BUOY\n50-01.2N 005-40.4W INOPERATIVE."
+    "year": 2022,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT SOUTH CARDINAL LIGHT BUOY\n50-01.2N 005-40.4W INOPERATIVE.",
+    "valid_from": "2022-04-30T15:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

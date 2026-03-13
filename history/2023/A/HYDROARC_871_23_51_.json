@@ -12,12 +12,16 @@
     "dtg": "2023-04-22T21:38:00",
     "raw_dtg": "222138Z APR 23",
     "msg_id": "HYDROARC 871/23(51)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 252132Z APR 23",
-      "HYDROARC 871/23"
+      "THIS MSG 252132Z APR 23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. CONTAINER ADRIFT IN VICINITY\n   36-54.64N 014-36.77W AT 222050Z APR.\n2. CANCEL THIS MSG 252132Z APR 23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. CONTAINER ADRIFT IN VICINITY\n   36-54.64N 014-36.77W AT 222050Z APR.\n2. CANCEL THIS MSG 252132Z APR 23.",
+    "valid_from": "2023-04-22T21:38:00+00:00",
+    "valid_until": "2023-04-25T21:32:00+00:00",
+    "summary": null
   }
 }

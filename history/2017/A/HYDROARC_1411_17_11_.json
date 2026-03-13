@@ -3,17 +3,23 @@
   "id": "HYDROARC 1411/17(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -94.36,
+      28.585
+    ]
   },
   "properties": {
     "dtg": "2017-05-04T08:06:00",
     "raw_dtg": "040806Z MAY 17",
     "msg_id": "HYDROARC 1411/17(11)",
-    "cancellations": [
-      "HYDROARC 1577/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nTEXAS.\nDNC 15.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n28-35.1N 094-21.6W AT 040754Z MAY. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nRCC NEW ORLEANS, PHONE: 504 589 6225,\nFAX: 504 589 2148,\nE-MAIL: D8COMMANDCENTER@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nTEXAS.\nDNC 15.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n28-35.1N 094-21.6W AT 040754Z MAY. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nRCC NEW ORLEANS, PHONE: 504 589 6225,\nFAX: 504 589 2148,\nE-MAIL: D8COMMANDCENTER@USCG.MIL.",
+    "valid_from": "2017-05-04T08:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

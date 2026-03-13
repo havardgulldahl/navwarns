@@ -3,18 +3,26 @@
   "id": "HYDROARC 1627/14(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.016666666666666666,
+      59.318333333333335
+    ]
   },
   "properties": {
     "dtg": "2014-07-04T12:27:00",
     "raw_dtg": "041227Z JUL 14",
     "msg_id": "HYDROARC 1627/14(35,43)",
+    "year": 2014,
     "cancellations": [
       "THIS MSG 071225Z JUL 14",
-      "HYDROARC 1627/14"
+      "864/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\n1. 16 METER LONG MAST WITH RIGGING ADRIFT\n   IN 59-19.1N 000-01.0E AT 041050Z JUL.\n2. CANCEL HYDROLANT 864/14(24).\n3. CANCEL THIS MSG 071225Z JUL 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\n1. 16 METER LONG MAST WITH RIGGING ADRIFT\n   IN 59-19.1N 000-01.0E AT 041050Z JUL.\n2. CANCEL HYDROLANT 864/14(24).\n3. CANCEL THIS MSG 071225Z JUL 14.",
+    "valid_from": "2014-07-04T12:27:00+00:00",
+    "valid_until": "2014-07-07T12:25:00+00:00",
+    "summary": null
   }
 }

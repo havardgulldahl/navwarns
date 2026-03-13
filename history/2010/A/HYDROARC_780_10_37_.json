@@ -3,17 +3,23 @@
   "id": "HYDROARC 780/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.575,
+      51.21666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-05-04T01:16:00",
     "raw_dtg": "040116Z MAY 10",
     "msg_id": "HYDROARC 780/10(37)",
-    "cancellations": [
-      "HYDROARC 785/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNGA CHART 37120 (3RD ED).\nSOUTH EAST GOODWIN BUOY 51-13.0N 001-34.5E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNGA CHART 37120 (3RD ED).\nSOUTH EAST GOODWIN BUOY 51-13.0N 001-34.5E UNLIT.",
+    "valid_from": "2010-05-04T01:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

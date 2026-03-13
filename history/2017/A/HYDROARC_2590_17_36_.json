@@ -3,17 +3,23 @@
   "id": "HYDROARC 2590/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.861666666666667,
+      54.026666666666664
+    ]
   },
   "properties": {
     "dtg": "2017-08-25T07:09:00",
     "raw_dtg": "250709Z AUG 17",
     "msg_id": "HYDROARC 2590/17(36)",
-    "cancellations": [
-      "HYDROARC 2628/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nCHART 36025.\nALL NAVIGATIONAL AIDS AT PLATFORM 113/26,\n54-01.6N 003-51.7W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nCHART 36025.\nALL NAVIGATIONAL AIDS AT PLATFORM 113/26,\n54-01.6N 003-51.7W INOPERATIVE.",
+    "valid_from": "2017-08-25T07:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

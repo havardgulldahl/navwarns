@@ -3,17 +3,23 @@
   "id": "HYDROARC 893/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -33.141666666666666,
+      -4.6
+    ]
   },
   "properties": {
     "dtg": "2010-05-18T23:38:00",
     "raw_dtg": "182338Z MAY 10",
     "msg_id": "HYDROARC 893/10(24)",
-    "cancellations": [
-      "HYDROARC 893/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 240600Z TO 241700Z MAY\n   WITHIN TEN MILES OF 04-36.0S 033-08.5W.\n2. CANCEL THIS MSG 241800Z MAY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 240600Z TO 241700Z MAY\n   WITHIN TEN MILES OF 04-36.0S 033-08.5W.\n2. CANCEL THIS MSG 241800Z MAY.",
+    "valid_from": "2010-05-18T23:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3503/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.113333333333333,
+      56.32333333333333
+    ]
   },
   "properties": {
     "dtg": "2020-11-11T20:03:00",
     "raw_dtg": "112003Z NOV 20",
     "msg_id": "HYDROARC 3503/20(35)",
-    "cancellations": [
-      "HYDROARC 3516/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\nSKERRYVORE LIGHT 56-19.4N 007-06.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\nSKERRYVORE LIGHT 56-19.4N 007-06.8W UNRELIABLE.",
+    "valid_from": "2020-11-11T20:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

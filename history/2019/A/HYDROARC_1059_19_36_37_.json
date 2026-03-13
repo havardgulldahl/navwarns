@@ -3,18 +3,25 @@
   "id": "HYDROARC 1059/19(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.34,
+      50.05166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-04-03T16:49:00",
     "raw_dtg": "031649Z APR 19",
     "msg_id": "HYDROARC 1059/19(36,37)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 061649Z APR 19",
-      "HYDROARC 1059/19"
+      "THIS MSG 061649Z APR 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. 100 METER ROPE ADRIFT IN VICINITY\n   50-03.1N 004-20.4W AT 031438Z APR.\n2. CANCEL THIS MSG 061649Z APR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. 100 METER ROPE ADRIFT IN VICINITY\n   50-03.1N 004-20.4W AT 031438Z APR.\n2. CANCEL THIS MSG 061649Z APR 19.",
+    "valid_from": "2019-04-03T16:49:00+00:00",
+    "valid_until": "2019-04-06T16:49:00+00:00",
+    "summary": null
   }
 }

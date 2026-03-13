@@ -3,18 +3,25 @@
   "id": "HYDROARC 1386/21(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -15.663333333333334,
+      27.18166666666667
+    ]
   },
   "properties": {
     "dtg": "2021-05-24T07:02:00",
     "raw_dtg": "240702Z MAY 21",
     "msg_id": "HYDROARC 1386/21(51)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 270702Z MAY 21",
-      "HYDROARC 1386/21"
+      "THIS MSG 270702Z MAY 21"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\nDNC 01.\n1. DERELICT VESSEL, BLUE AND GREEN HULL, ADRIFT\n   IN VICINITY 27-10.9N 015-39.8W AT 240245Z MAY.\n2. CANCEL THIS MSG 270702Z MAY 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\nDNC 01.\n1. DERELICT VESSEL, BLUE AND GREEN HULL, ADRIFT\n   IN VICINITY 27-10.9N 015-39.8W AT 240245Z MAY.\n2. CANCEL THIS MSG 270702Z MAY 21.",
+    "valid_from": "2021-05-24T07:02:00+00:00",
+    "valid_until": "2021-05-27T07:02:00+00:00",
+    "summary": null
   }
 }

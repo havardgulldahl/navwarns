@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 166/22(29)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-01-18T16:47:00",
     "raw_dtg": "181647Z JAN 22",
     "msg_id": "HYDROARC 166/22(29)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 190800Z JAN 22",
-      "HYDROARC 166/22"
+      "THIS MSG 190800Z JAN 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTIA SEA.\nENGLAND\nDNC 01.\n1. NAVTEX STATION CULLERCOATS (G)\n   55-04N 001-28W OFF AIR\n   190001Z AND 190700Z JAN.\n2. CANCEL THIS MSG 190800Z JAN 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTIA SEA.\nENGLAND\nDNC 01.\n1. NAVTEX STATION CULLERCOATS (G)\n   55-04N 001-28W OFF AIR\n   190001Z AND 190700Z JAN.\n2. CANCEL THIS MSG 190800Z JAN 22.",
+    "valid_from": "2022-01-18T16:47:00+00:00",
+    "valid_until": "2022-01-19T08:00:00+00:00",
+    "summary": null
   }
 }

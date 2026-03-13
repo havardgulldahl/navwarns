@@ -3,18 +3,25 @@
   "id": "HYDROARC 395/17(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      36.65833333333333,
+      45.36333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-02-04T17:14:00",
     "raw_dtg": "041714Z FEB 17",
     "msg_id": "HYDROARC 395/17(55)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 071714Z FEB 17",
-      "HYDROARC 397/17"
+      "THIS MSG 071714Z FEB 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "KERCH STRAIT.\nDNC 10.\n1. SIX METER LONG METAL PONTOON ADRIFT IN\n   VICINITY 45-21.8N 036-39.5E ON 04 FEB.\n2. CANCEL THIS MSG 071714Z FEB 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KERCH STRAIT.\nDNC 10.\n1. SIX METER LONG METAL PONTOON ADRIFT IN\n   VICINITY 45-21.8N 036-39.5E ON 04 FEB.\n2. CANCEL THIS MSG 071714Z FEB 17.",
+    "valid_from": "2017-02-04T17:14:00+00:00",
+    "valid_until": "2017-02-07T17:14:00+00:00",
+    "summary": null
   }
 }

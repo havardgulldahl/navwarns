@@ -3,17 +3,23 @@
   "id": "HYDROARC 176/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.035,
+      50.54833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-01-29T03:44:00",
     "raw_dtg": "290344Z JAN 10",
     "msg_id": "HYDROARC 176/10(36)",
-    "cancellations": [
-      "HYDROARC 186/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 36035 (0 ED).\nTREVOSE HEAD LIGHT 50-32.9N 005-02.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 36035 (0 ED).\nTREVOSE HEAD LIGHT 50-32.9N 005-02.1W UNRELIABLE.",
+    "valid_from": "2010-01-29T03:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

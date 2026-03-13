@@ -3,17 +3,25 @@
   "id": "HYDROARC 14/10(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -138.14333333333335,
+      70.38333333333334
+    ]
   },
   "properties": {
     "dtg": "2010-07-02T17:23:00",
     "raw_dtg": "021723Z JUL 10",
     "msg_id": "HYDROARC 14/10(15)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 59/10"
+      "24/06"
     ],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "ARCTIC.\nBEAUFORT SEA.\nNGA CHART 15926 (0 ED).\n1. BOTTOM SCIENTIFIC MOORING, TOP FLOAT 40 METERS,\n   ESTABLISHED IN 70-23.0N 138-08.6W.\n2. CANCEL AMSI 24/06."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nBEAUFORT SEA.\nNGA CHART 15926 (0 ED).\n1. BOTTOM SCIENTIFIC MOORING, TOP FLOAT 40 METERS,\n   ESTABLISHED IN 70-23.0N 138-08.6W.\n2. CANCEL AMSI 24/06.",
+    "valid_from": "2010-07-02T17:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

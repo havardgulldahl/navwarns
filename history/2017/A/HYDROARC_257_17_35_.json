@@ -3,17 +3,23 @@
   "id": "HYDROARC 257/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6533333333333333,
+      59.513333333333335
+    ]
   },
   "properties": {
     "dtg": "2017-01-24T18:55:00",
     "raw_dtg": "241855Z JAN 17",
     "msg_id": "HYDROARC 257/17(35)",
-    "cancellations": [
-      "HYDROARC 266/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nSKADAN LIGHT 59-30.8N 001-39.2W UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nSKADAN LIGHT 59-30.8N 001-39.2W UNLIT.",
+    "valid_from": "2017-01-24T18:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

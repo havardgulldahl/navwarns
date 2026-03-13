@@ -3,17 +3,23 @@
   "id": "HYDROARC 800/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.195,
+      -0.9116666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-05-07T05:51:00",
     "raw_dtg": "070551Z MAY 10",
     "msg_id": "HYDROARC 800/10(24)",
-    "cancellations": [
-      "HYDROARC 1313/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24270 (3RD ED).\nILHA DO APEU LIGHT 00-54.7S 046-11.7W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24270 (3RD ED).\nILHA DO APEU LIGHT 00-54.7S 046-11.7W UNLIT.",
+    "valid_from": "2010-05-07T05:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

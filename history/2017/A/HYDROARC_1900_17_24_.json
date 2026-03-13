@@ -3,17 +3,25 @@
   "id": "HYDROARC 1900/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -39.22,
+      -17.286666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-06-19T23:47:00",
     "raw_dtg": "192347Z JUN 17",
     "msg_id": "HYDROARC 1900/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2208/17"
+      "THIS MSG 17 DEC 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24180.\n1. BARREIRAS DO PRADO LIGHT 17-17.2S 039-13.2W UNLIT\n   UNTIL 16 DEC.\n2. CANCEL THIS MSG 17 DEC 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24180.\n1. BARREIRAS DO PRADO LIGHT 17-17.2S 039-13.2W UNLIT\n   UNTIL 16 DEC.\n2. CANCEL THIS MSG 17 DEC 17.",
+    "valid_from": "2017-06-19T23:47:00+00:00",
+    "valid_until": "2017-12-17T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 349/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.075,
+      53.751666666666665
+    ]
   },
   "properties": {
     "dtg": "2011-03-01T02:43:00",
     "raw_dtg": "010243Z MAR 11",
     "msg_id": "HYDROARC 349/11(37)",
-    "cancellations": [
-      "HYDROARC 362/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nNGA CHART 37058 (2ND ED).\nALL NAVIGATIONAL AIDS AT PLATFORM 48/6-C 53-45.1N 001-04.5E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nNGA CHART 37058 (2ND ED).\nALL NAVIGATIONAL AIDS AT PLATFORM 48/6-C 53-45.1N 001-04.5E INOPERATIVE.",
+    "valid_from": "2011-03-01T02:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

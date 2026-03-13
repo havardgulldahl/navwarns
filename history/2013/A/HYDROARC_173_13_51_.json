@@ -3,17 +3,25 @@
   "id": "HYDROARC 173/13(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.863333333333333,
+      5.023333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-01-19T14:33:00",
     "raw_dtg": "191433Z JAN 13",
     "msg_id": "HYDROARC 173/13(51)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 631/13"
+      "THIS MSG 29 MAR 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nLIBERIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 28 MAR\n   VICINITY 05-01.4N 009-51.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 MAR 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nLIBERIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 28 MAR\n   VICINITY 05-01.4N 009-51.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 MAR 13.",
+    "valid_from": "2013-01-19T14:33:00+00:00",
+    "valid_until": "2013-03-29T00:00:00+00:00",
+    "summary": null
   }
 }

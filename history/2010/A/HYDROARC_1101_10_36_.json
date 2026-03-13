@@ -3,17 +3,23 @@
   "id": "HYDROARC 1101/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.678333333333334,
+      53.05
+    ]
   },
   "properties": {
     "dtg": "2010-06-13T19:06:00",
     "raw_dtg": "131906Z JUN 10",
     "msg_id": "HYDROARC 1101/10(36)",
-    "cancellations": [
-      "HYDROARC 1105/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-EAST COAST.\nNGA CHART 36007 (1ST ED).\nRACON AT CODLING LANBY 53-03.0N 005-40.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-EAST COAST.\nNGA CHART 36007 (1ST ED).\nRACON AT CODLING LANBY 53-03.0N 005-40.7W UNRELIABLE.",
+    "valid_from": "2010-06-13T19:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

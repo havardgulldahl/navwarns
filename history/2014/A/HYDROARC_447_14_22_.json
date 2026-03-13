@@ -3,17 +3,23 @@
   "id": "HYDROARC 447/14(22)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -64.75666666666666,
+      -55.541666666666664
+    ]
   },
   "properties": {
     "dtg": "2014-02-13T15:11:00",
     "raw_dtg": "131511Z FEB 14",
     "msg_id": "HYDROARC 447/14(22)",
-    "cancellations": [
-      "HYDROARC 461/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDRAKE PASSAGE.\nOCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V PUERTO DESEADO VICINITY 55-32.5S 064-45.4W."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDRAKE PASSAGE.\nOCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V PUERTO DESEADO VICINITY 55-32.5S 064-45.4W.",
+    "valid_from": "2014-02-13T15:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

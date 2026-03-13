@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3728/20(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-11-29T20:46:00",
     "raw_dtg": "292046Z NOV 20",
     "msg_id": "HYDROARC 3728/20(35)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 3728/20"
+      "3718/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 3718/20 AND THIS MSG,\nAID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 3718/20 AND THIS MSG,\nAID RESTORED.",
+    "valid_from": "2020-11-29T20:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

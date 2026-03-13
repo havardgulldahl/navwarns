@@ -3,17 +3,23 @@
   "id": "HYDROARC 857/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.7716666666666665,
+      57.47
+    ]
   },
   "properties": {
     "dtg": "2013-04-04T16:27:00",
     "raw_dtg": "041627Z APR 13",
     "msg_id": "HYDROARC 857/13(35)",
-    "cancellations": [
-      "HYDROARC 833/15"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nCHART 35013\nBUCHAN NESS LIGHT 57-28.2N 001-46.3W RANGE REDUCED TO 18 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nCHART 35013\nBUCHAN NESS LIGHT 57-28.2N 001-46.3W RANGE REDUCED TO 18 MILES.",
+    "valid_from": "2013-04-04T16:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

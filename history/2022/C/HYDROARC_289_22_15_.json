@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 289/22(15)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-09-23T06:00:00",
     "raw_dtg": "230600Z SEP 22",
     "msg_id": "HYDROARC 289/22(15)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 288/22",
-      "HYDROARC 289/22"
+      "HYDROARC 288/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "HUDSON BAY.\nCANADA.\nDNC 28.\nCANCEL HYDROARC 288/22 AND THIS MSG,\nSERVICE RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "HUDSON BAY.\nCANADA.\nDNC 28.\nCANCEL HYDROARC 288/22 AND THIS MSG,\nSERVICE RESTORED.",
+    "valid_from": "2022-09-23T06:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

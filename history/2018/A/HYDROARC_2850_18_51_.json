@@ -3,18 +3,25 @@
   "id": "HYDROARC 2850/18(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.008333333333333,
+      12.461666666666666
+    ]
   },
   "properties": {
     "dtg": "2018-09-07T21:16:00",
     "raw_dtg": "072116Z SEP 18",
     "msg_id": "HYDROARC 2850/18(51)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 102116Z SEP 18",
-      "HYDROARC 2850/18"
+      "THIS MSG 102116Z SEP 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\n1. DERELICT VESSEL ADRIFT AND SINKING IN VICINITY\n   12-27.7N 017-00.5W AT 071750Z SEP.\n2. CANCEL THIS MSG 102116Z SEP 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\n1. DERELICT VESSEL ADRIFT AND SINKING IN VICINITY\n   12-27.7N 017-00.5W AT 071750Z SEP.\n2. CANCEL THIS MSG 102116Z SEP 18.",
+    "valid_from": "2018-09-07T21:16:00+00:00",
+    "valid_until": "2018-09-10T21:16:00+00:00",
+    "summary": null
   }
 }

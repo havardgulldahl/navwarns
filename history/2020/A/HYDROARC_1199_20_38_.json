@@ -3,17 +3,23 @@
   "id": "HYDROARC 1199/20(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.855,
+      53.30166666666667
+    ]
   },
   "properties": {
     "dtg": "2020-04-02T16:41:00",
     "raw_dtg": "021641Z APR 20",
     "msg_id": "HYDROARC 1199/20(38)",
-    "cancellations": [
-      "HYDROARC 1358/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\nDISTRESS SIGNAL RECEIVED ON 406MHZ\nIN 53-18.1N 017-51.3W AT 020743Z APR.\nVESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO UK COAST GUARD,\nPHONE: 44 344 382 0025,\nE-MAIL: UKMRCC@HMCG.GOV.UK."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\nDISTRESS SIGNAL RECEIVED ON 406MHZ\nIN 53-18.1N 017-51.3W AT 020743Z APR.\nVESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO UK COAST GUARD,\nPHONE: 44 344 382 0025,\nE-MAIL: UKMRCC@HMCG.GOV.UK.",
+    "valid_from": "2020-04-02T16:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

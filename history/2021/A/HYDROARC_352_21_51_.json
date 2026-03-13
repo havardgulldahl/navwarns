@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 352/21(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -16.586666666666666,
+          16.115
+        ],
+        [
+          -16.575,
+          16.113333333333333
+        ],
+        [
+          -16.58,
+          16.06833333333333
+        ],
+        [
+          -16.598333333333333,
+          16.046666666666667
+        ],
+        [
+          -16.621666666666666,
+          16.065
+        ],
+        [
+          -16.586666666666666,
+          16.115
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-02-06T16:40:00",
     "raw_dtg": "061640Z FEB 21",
     "msg_id": "HYDROARC 352/21(51)",
-    "cancellations": [
-      "HYDROARC 362/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nDNC 01.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE IN AREA BOUND BY\n16-06.9N 016-35.2W, 16-06.8N 016-34.5W,\n16-04.1N 016-34.8W, 16-02.8N 016-35.9W,\n16-03.9N 016-37.3W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nDNC 01.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE IN AREA BOUND BY\n16-06.9N 016-35.2W, 16-06.8N 016-34.5W,\n16-04.1N 016-34.8W, 16-02.8N 016-35.9W,\n16-03.9N 016-37.3W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2021-02-06T16:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,18 +2,60 @@
   "type": "Feature",
   "id": "HYDROARC 3108/18(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.2083333333333335,
+          56.925
+        ],
+        [
+          1.7083333333333335,
+          57.458333333333336
+        ],
+        [
+          2.0483333333333333,
+          57.56
+        ],
+        [
+          2.125,
+          57.47833333333333
+        ],
+        [
+          2.2,
+          57.501666666666665
+        ],
+        [
+          2.2716666666666665,
+          57.425
+        ],
+        [
+          2.37,
+          57.45166666666667
+        ],
+        [
+          2.7133333333333334,
+          57.075
+        ],
+        [
+          2.2083333333333335,
+          56.925
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-10-02T23:32:00",
     "raw_dtg": "022332Z OCT 18",
     "msg_id": "HYDROARC 3108/18(43)",
-    "cancellations": [
-      "HYDROARC 3336/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V RAMFORM ATLAS TOWING 12 FIVE MILE LONG CABLES\nIN AREA BOUND BY\n56-55.5N 002-12.5E, 57-27.5N 001-42.5E,\n57-33.6N 002-02.9E, 57-28.7N 002-07.5E,\n57-30.1N 002-12.0E, 57-25.5N 002-16.3E,\n57-27.1N 002-22.2E, 57-04.5N 002-42.8E.\nSIX MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V RAMFORM ATLAS TOWING 12 FIVE MILE LONG CABLES\nIN AREA BOUND BY\n56-55.5N 002-12.5E, 57-27.5N 001-42.5E,\n57-33.6N 002-02.9E, 57-28.7N 002-07.5E,\n57-30.1N 002-12.0E, 57-25.5N 002-16.3E,\n57-27.1N 002-22.2E, 57-04.5N 002-42.8E.\nSIX MILE BERTH REQUESTED.",
+    "valid_from": "2018-10-02T23:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

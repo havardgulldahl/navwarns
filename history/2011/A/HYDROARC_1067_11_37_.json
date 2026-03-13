@@ -2,18 +2,32 @@
   "type": "Feature",
   "id": "HYDROARC 1067/11(37)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        1.1183333333333334,
+        53.718333333333334
+      ],
+      [
+        1.0783333333333334,
+        53.75333333333333
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-06-28T09:38:00",
     "raw_dtg": "280938Z JUN 11",
     "msg_id": "HYDROARC 1067/11(37)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 1153/11"
+      "1061/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nNGA CHART 37058 (2ND ED).\n1. ALL NAVIGATIONAL AIDS AT PLATFORMS 48/6-B 53-43.1N 001-07.1E\n   AND 48/6-C 53-45.2N 001-04.7E INOPERATIVE.\n2. CANCEL HYDROLANT 1061/11."
+    "geometry_kind": "multipoint",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nNGA CHART 37058 (2ND ED).\n1. ALL NAVIGATIONAL AIDS AT PLATFORMS 48/6-B 53-43.1N 001-07.1E\n   AND 48/6-C 53-45.2N 001-04.7E INOPERATIVE.\n2. CANCEL HYDROLANT 1061/11.",
+    "valid_from": "2011-06-28T09:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

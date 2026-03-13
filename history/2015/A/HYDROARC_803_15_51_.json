@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 803/15(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-04-06T16:59:00",
     "raw_dtg": "061659Z APR 15",
     "msg_id": "HYDROARC 803/15(51)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 827/15"
+      "736/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL.\nDNC 08.\n1. CABLE REPAIR OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\n   WITH SUBMERSIBLE IN AREA BETWEEN\n   38-37.1N 38-33.1N AND 009-37.8W 009-44.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 736/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL.\nDNC 08.\n1. CABLE REPAIR OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\n   WITH SUBMERSIBLE IN AREA BETWEEN\n   38-37.1N 38-33.1N AND 009-37.8W 009-44.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 736/15.",
+    "valid_from": "2015-04-06T16:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

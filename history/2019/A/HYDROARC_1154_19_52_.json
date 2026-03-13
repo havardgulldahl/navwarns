@@ -3,18 +3,25 @@
   "id": "HYDROARC 1154/19(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.646666666666667,
+      33.43
+    ]
   },
   "properties": {
     "dtg": "2019-04-12T12:49:00",
     "raw_dtg": "121249Z APR 19",
     "msg_id": "HYDROARC 1154/19(52)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 151249Z APR 19",
-      "HYDROARC 1154/19"
+      "THIS MSG 151249Z APR 19"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nLIBYA.\nDNC 08.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   33-25.8N 011-38.8E AT 111021Z APR.\n2. CANCEL THIS MSG 151249Z APR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nLIBYA.\nDNC 08.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   33-25.8N 011-38.8E AT 111021Z APR.\n2. CANCEL THIS MSG 151249Z APR 19.",
+    "valid_from": "2019-04-12T12:49:00+00:00",
+    "valid_until": "2019-04-15T12:49:00+00:00",
+    "summary": null
   }
 }

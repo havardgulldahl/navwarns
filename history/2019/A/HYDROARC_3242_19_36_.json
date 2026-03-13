@@ -3,18 +3,25 @@
   "id": "HYDROARC 3242/19(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.530833333333334,
+      54.644999999999996
+    ]
   },
   "properties": {
     "dtg": "2019-10-23T07:36:00",
     "raw_dtg": "230736Z OCT 19",
     "msg_id": "HYDROARC 3242/19(36)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 241500Z OCT 19",
-      "HYDROARC 3242/19"
+      "THIS MSG 241500Z OCT 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\n1. DONAGHADEE HARBOR LIGHT 54-38-42N 005-31-51W\n   UNRELIABLE 231000Z TO 241400Z OCT.\n2. CANCEL THIS MSG 241500Z OCT 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\n1. DONAGHADEE HARBOR LIGHT 54-38-42N 005-31-51W\n   UNRELIABLE 231000Z TO 241400Z OCT.\n2. CANCEL THIS MSG 241500Z OCT 19.",
+    "valid_from": "2019-10-23T07:36:00+00:00",
+    "valid_until": "2019-10-24T15:00:00+00:00",
+    "summary": null
   }
 }

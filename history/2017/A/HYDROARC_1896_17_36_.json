@@ -3,18 +3,25 @@
   "id": "HYDROARC 1896/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.5516666666666667,
+      51.4
+    ]
   },
   "properties": {
     "dtg": "2017-06-19T02:47:00",
     "raw_dtg": "190247Z JUN 17",
     "msg_id": "HYDROARC 1896/17(36)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 191700Z JUN 17",
-      "HYDROARC 1896/17"
+      "THIS MSG 191700Z JUN 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nWALES-SOUTH COAST.\nDNC 20.\nCHART 36044.\n1. DGPS STATION AT NASH POINT LIGHT 51-24.0N 003-33.1W\n   OFF AIR 190900Z TO 191600Z JUN.\n2. CANCEL THIS MSG 191700Z JUN 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nWALES-SOUTH COAST.\nDNC 20.\nCHART 36044.\n1. DGPS STATION AT NASH POINT LIGHT 51-24.0N 003-33.1W\n   OFF AIR 190900Z TO 191600Z JUN.\n2. CANCEL THIS MSG 191700Z JUN 17.",
+    "valid_from": "2017-06-19T02:47:00+00:00",
+    "valid_until": "2017-06-19T17:00:00+00:00",
+    "summary": null
   }
 }

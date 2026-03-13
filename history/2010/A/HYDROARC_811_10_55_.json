@@ -3,17 +3,23 @@
   "id": "HYDROARC 811/10(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      29.358333333333334,
+      44.6
+    ]
   },
   "properties": {
     "dtg": "2010-05-08T11:27:00",
     "raw_dtg": "081127Z MAY 10",
     "msg_id": "HYDROARC 811/10(55)",
-    "cancellations": [
-      "HYDROARC 904/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nNGA CHART 55120 (2ND ED).\nPLATFORM JUPITER ESTABLISHED IN 44-36.0N 029-21.5E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nNGA CHART 55120 (2ND ED).\nPLATFORM JUPITER ESTABLISHED IN 44-36.0N 029-21.5E.",
+    "valid_from": "2010-05-08T11:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

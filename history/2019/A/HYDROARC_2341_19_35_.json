@@ -3,17 +3,23 @@
   "id": "HYDROARC 2341/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.3383333333333334,
+      59.13666666666666
+    ]
   },
   "properties": {
     "dtg": "2019-07-31T01:24:00",
     "raw_dtg": "310124Z JUL 19",
     "msg_id": "HYDROARC 2341/19(35)",
-    "cancellations": [
-      "HYDROARC 2381/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35001.\nBROUGH HEAD LIGHT 59-08.2N 003-20.3W UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35001.\nBROUGH HEAD LIGHT 59-08.2N 003-20.3W UNLIT.",
+    "valid_from": "2019-07-31T01:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

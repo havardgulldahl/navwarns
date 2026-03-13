@@ -3,17 +3,25 @@
   "id": "HYDROARC 3368/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.3533333333333335,
+      57.88
+    ]
   },
   "properties": {
     "dtg": "2020-11-02T17:31:00",
     "raw_dtg": "021731Z NOV 20",
     "msg_id": "HYDROARC 3368/20(35)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 790/22"
+      "3360/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\n1. F/V SANK IN 57-52.8N 006-21.2W AT 021410Z NOV.\n2. CANCEL HYDROLANT 3360/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\n1. F/V SANK IN 57-52.8N 006-21.2W AT 021410Z NOV.\n2. CANCEL HYDROLANT 3360/20.",
+    "valid_from": "2020-11-02T17:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

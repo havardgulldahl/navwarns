@@ -3,17 +3,23 @@
   "id": "HYDROARC 337/14(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      63.83833333333333,
+      74.45666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-11-06T14:13:00",
     "raw_dtg": "061413Z NOV 14",
     "msg_id": "HYDROARC 337/14(42)",
-    "cancellations": [
-      "HYDROARC 31/16"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nKARA SEA.\nDNC 22.\nINT 804.\nSUBMERGED OBSTRUCTION REPORTED IN 74-27.4N 063-50.3E.\n200 METER BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nKARA SEA.\nDNC 22.\nINT 804.\nSUBMERGED OBSTRUCTION REPORTED IN 74-27.4N 063-50.3E.\n200 METER BERTH REQUESTED.",
+    "valid_from": "2014-11-06T14:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

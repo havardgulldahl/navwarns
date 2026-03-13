@@ -3,18 +3,25 @@
   "id": "HYDROARC 1178/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.7316666666666667,
+      50.70166666666667
+    ]
   },
   "properties": {
     "dtg": "2020-04-01T17:15:00",
     "raw_dtg": "011715Z APR 20",
     "msg_id": "HYDROARC 1178/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 041715Z APR 20",
-      "HYDROARC 1178/20"
+      "THIS MSG 041715Z APR 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. BUOY ADRIFT IN VICINITY 50-42.1N 000-43.9E\n   AT 011413Z APR.\n2. CANCEL THIS MSG 041715Z APR 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. BUOY ADRIFT IN VICINITY 50-42.1N 000-43.9E\n   AT 011413Z APR.\n2. CANCEL THIS MSG 041715Z APR 20.",
+    "valid_from": "2020-04-01T17:15:00+00:00",
+    "valid_until": "2020-04-04T17:15:00+00:00",
+    "summary": null
   }
 }

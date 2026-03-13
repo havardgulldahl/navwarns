@@ -3,18 +3,25 @@
   "id": "HYDROARC 3290/13(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      5.921666666666667,
+      41.885
+    ]
   },
   "properties": {
     "dtg": "2013-12-20T12:46:00",
     "raw_dtg": "201246Z DEC 13",
     "msg_id": "HYDROARC 3290/13(53)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 231244Z DEC 13",
-      "HYDROARC 3290/13"
+      "THIS MSG 231244Z DEC 13"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\n1. DERELICT NINE METER S/V SEYCHELLES 3, WHITE HULL,\n   ADRIFT IN 41-53.1N 005-55.3E.\n2. CANCEL THIS MSG 231244Z DEC 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\n1. DERELICT NINE METER S/V SEYCHELLES 3, WHITE HULL,\n   ADRIFT IN 41-53.1N 005-55.3E.\n2. CANCEL THIS MSG 231244Z DEC 13.",
+    "valid_from": "2013-12-20T12:46:00+00:00",
+    "valid_until": "2013-12-23T12:44:00+00:00",
+    "summary": null
   }
 }

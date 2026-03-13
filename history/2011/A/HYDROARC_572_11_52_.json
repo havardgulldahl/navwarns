@@ -3,17 +3,23 @@
   "id": "HYDROARC 572/11(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.495,
+      34.62833333333333
+    ]
   },
   "properties": {
     "dtg": "2011-04-05T04:46:00",
     "raw_dtg": "050446Z APR 11",
     "msg_id": "HYDROARC 572/11(52)",
-    "cancellations": [
-      "HYDROARC 572/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\n1. DERELICT F/V ADRIFT VICINITY\n   34-37.7N 011-29.7E ON 02 APR.\n2. CANCEL THIS MSG 080445Z APR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\n1. DERELICT F/V ADRIFT VICINITY\n   34-37.7N 011-29.7E ON 02 APR.\n2. CANCEL THIS MSG 080445Z APR.",
+    "valid_from": "2011-04-05T04:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 541/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4516666666666667,
+      50.75
+    ]
   },
   "properties": {
     "dtg": "2014-02-21T16:27:00",
     "raw_dtg": "211627Z FEB 14",
     "msg_id": "HYDROARC 541/14(37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 910/14"
+      "92/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37115\n1. ZC1 BUOY 50-45.0N 001-27.1E MISSING.\n2. CANCEL HYDROLANT 92/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37115\n1. ZC1 BUOY 50-45.0N 001-27.1E MISSING.\n2. CANCEL HYDROLANT 92/14.",
+    "valid_from": "2014-02-21T16:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 450/17(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.601666666666667,
+      37.185
+    ]
   },
   "properties": {
     "dtg": "2017-02-09T09:03:00",
     "raw_dtg": "090903Z FEB 17",
     "msg_id": "HYDROARC 450/17(52)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 120903Z FEB 17",
-      "HYDROARC 450/17"
+      "THIS MSG 120903Z FEB 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. THREE CONTAINERS ADRIFT IN VICINITY\n   37-11.1N 008-36.1E ON 08 FEB.\n2. CANCEL THIS MSG 120903Z FEB 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. THREE CONTAINERS ADRIFT IN VICINITY\n   37-11.1N 008-36.1E ON 08 FEB.\n2. CANCEL THIS MSG 120903Z FEB 17.",
+    "valid_from": "2017-02-09T09:03:00+00:00",
+    "valid_until": "2017-02-12T09:03:00+00:00",
+    "summary": null
   }
 }

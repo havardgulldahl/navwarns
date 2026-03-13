@@ -3,18 +3,25 @@
   "id": "HYDROARC 3420/19(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.768333333333333,
+      -22.198333333333334
+    ]
   },
   "properties": {
     "dtg": "2019-11-06T18:15:00",
     "raw_dtg": "061815Z NOV 19",
     "msg_id": "HYDROARC 3420/19(57)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 091815Z NOV 19",
-      "HYDROARC 3420/19"
+      "THIS MSG 091815Z NOV 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. 23 CONTAINERS ADRIFT IN 22-11.9S 009-46.1W\n   ON 05 NOV.\n2. CANCEL THIS MSG 091815Z NOV 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. 23 CONTAINERS ADRIFT IN 22-11.9S 009-46.1W\n   ON 05 NOV.\n2. CANCEL THIS MSG 091815Z NOV 19.",
+    "valid_from": "2019-11-06T18:15:00+00:00",
+    "valid_until": "2019-11-09T18:15:00+00:00",
+    "summary": null
   }
 }

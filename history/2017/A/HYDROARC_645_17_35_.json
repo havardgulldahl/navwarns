@@ -3,17 +3,25 @@
   "id": "HYDROARC 645/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.776666666666667,
+      57.865
+    ]
   },
   "properties": {
     "dtg": "2017-02-26T18:07:00",
     "raw_dtg": "261807Z FEB 17",
     "msg_id": "HYDROARC 645/17(35)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 1147/17"
+      "124/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35055.\n1. TARBAT NESS LIGHT 57-51.9N 003-46.6W RANGE\n   TEMPORARILY REDUCED TO 12 MILES.\n2. CANCEL HYDROLANT 124/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35055.\n1. TARBAT NESS LIGHT 57-51.9N 003-46.6W RANGE\n   TEMPORARILY REDUCED TO 12 MILES.\n2. CANCEL HYDROLANT 124/17.",
+    "valid_from": "2017-02-26T18:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

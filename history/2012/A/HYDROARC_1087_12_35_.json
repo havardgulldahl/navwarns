@@ -3,17 +3,23 @@
   "id": "HYDROARC 1087/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2349999999999999,
+      60.516666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-05-20T23:38:00",
     "raw_dtg": "202338Z MAY 12",
     "msg_id": "HYDROARC 1087/12(35)",
-    "cancellations": [
-      "HYDROARC 1099/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35072\nBROTHER ISLAND LIGHT 60-31.0N 001-14.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35072\nBROTHER ISLAND LIGHT 60-31.0N 001-14.1W UNRELIABLE.",
+    "valid_from": "2012-05-20T23:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

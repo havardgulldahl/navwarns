@@ -3,17 +3,25 @@
   "id": "HYDROARC 1160/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.108333333333334,
+      -4.158333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-04-10T22:20:00",
     "raw_dtg": "102220Z APR 18",
     "msg_id": "HYDROARC 1160/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 1160/18"
+      "THIS MSG 08 OCT 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24240.\n1. MORRO BRANCO LIGHT 04-09.5S 038-06.5W UNLIT UNTIL\n   07 OCT.\n2. CANCEL THIS MSG 08 OCT 18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24240.\n1. MORRO BRANCO LIGHT 04-09.5S 038-06.5W UNLIT UNTIL\n   07 OCT.\n2. CANCEL THIS MSG 08 OCT 18.",
+    "valid_from": "2018-04-10T22:20:00+00:00",
+    "valid_until": "2018-10-08T00:00:00+00:00",
+    "summary": null
   }
 }

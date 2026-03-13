@@ -3,17 +3,23 @@
   "id": "HYDROARC 278/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.88,
+      53.635
+    ]
   },
   "properties": {
     "dtg": "2015-02-01T16:00:00",
     "raw_dtg": "011600Z FEB 15",
     "msg_id": "HYDROARC 278/15(36)",
-    "cancellations": [
-      "HYDROARC 320/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\nWITH SUBMERSIBLE VICINITY 53-38.1N 004-52.8W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\nWITH SUBMERSIBLE VICINITY 53-38.1N 004-52.8W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2015-02-01T16:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

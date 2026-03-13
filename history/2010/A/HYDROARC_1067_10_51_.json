@@ -3,17 +3,23 @@
   "id": "HYDROARC 1067/10(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -12.938333333333333,
+      27.921666666666667
+    ]
   },
   "properties": {
     "dtg": "2010-06-09T17:44:00",
     "raw_dtg": "091744Z JUN 10",
     "msg_id": "HYDROARC 1067/10(51)",
-    "cancellations": [
-      "HYDROARC 1124/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nNGA CHART 51380 (5TH ED).\nTARFAYA LIGHT 27-55.3N 012-56.3W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nNGA CHART 51380 (5TH ED).\nTARFAYA LIGHT 27-55.3N 012-56.3W UNLIT.",
+    "valid_from": "2010-06-09T17:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

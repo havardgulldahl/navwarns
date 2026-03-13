@@ -12,12 +12,16 @@
     "dtg": "2022-11-03T20:00:00",
     "raw_dtg": "032000Z NOV 22",
     "msg_id": "HYDROARC 348/22(42)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 061956Z NOV 22",
-      "HYDROARC 348/22"
+      "THIS MSG 061956Z NOV 22"
     ],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "BARENTS SEA.\nDNC 22.\n1. MOORING BUOY ADRIFT IN 72-05.60N 041-23.10E\n   AT 010945Z NOV.\n2. CANCEL THIS MSG 061956Z NOV 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nDNC 22.\n1. MOORING BUOY ADRIFT IN 72-05.60N 041-23.10E\n   AT 010945Z NOV.\n2. CANCEL THIS MSG 061956Z NOV 22.",
+    "valid_from": "2022-11-03T20:00:00+00:00",
+    "valid_until": "2022-11-06T19:56:00+00:00",
+    "summary": null
   }
 }

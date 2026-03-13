@@ -3,17 +3,23 @@
   "id": "HYDROARC 6/10(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.91,
+      4.535
+    ]
   },
   "properties": {
     "dtg": "2010-01-02T00:54:00",
     "raw_dtg": "020054Z JAN 10",
     "msg_id": "HYDROARC 6/10(57)",
-    "cancellations": [
-      "HYDROARC 1194/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF GUINEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nWITHIN FIVE MILES OF 04-32.1N 002-54.6W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF GUINEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nWITHIN FIVE MILES OF 04-32.1N 002-54.6W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2010-01-02T00:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

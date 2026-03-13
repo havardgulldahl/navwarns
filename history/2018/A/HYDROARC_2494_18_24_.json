@@ -3,17 +3,26 @@
   "id": "HYDROARC 2494/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.13666666666666,
+      -30.008333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-08-01T21:21:00",
     "raw_dtg": "012121Z AUG 18",
     "msg_id": "HYDROARC 2494/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 27/19"
+      "THIS MSG 29 JAN 19",
+      "730/18"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24110.\n1. RACON AT TRAMANDAI LIGHT 30-00.5S 050-08.2W\n   INOPERATIVE UNTIL 28 JAN 19.\n2. CANCEL HYDROLANT 730/18.\n3. CANCEL THIS MSG 29 JAN 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24110.\n1. RACON AT TRAMANDAI LIGHT 30-00.5S 050-08.2W\n   INOPERATIVE UNTIL 28 JAN 19.\n2. CANCEL HYDROLANT 730/18.\n3. CANCEL THIS MSG 29 JAN 19.",
+    "valid_from": "2018-08-01T21:21:00+00:00",
+    "valid_until": "2019-01-29T00:00:00+00:00",
+    "summary": null
   }
 }

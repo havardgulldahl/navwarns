@@ -3,17 +3,23 @@
   "id": "HYDROARC 1259/15(11,26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -79.19081666666666,
+      26.913916666666665
+    ]
   },
   "properties": {
     "dtg": "2015-05-22T07:42:00",
     "raw_dtg": "220742Z MAY 15",
     "msg_id": "HYDROARC 1259/15(11,26)",
-    "cancellations": [
-      "HYDROARC 1270/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 15.\nPOSSIBLE DISTRESS SIGNAL REPORTED VICINITY 26-54.835N 079-11.449W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC MIAMI,\nPHONE: 305 415 6800."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 15.\nPOSSIBLE DISTRESS SIGNAL REPORTED VICINITY 26-54.835N 079-11.449W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO RCC MIAMI,\nPHONE: 305 415 6800.",
+    "valid_from": "2015-05-22T07:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

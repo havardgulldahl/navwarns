@@ -3,17 +3,23 @@
   "id": "HYDROARC 1904/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.666666666666667,
+      48.288333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-06-20T11:20:00",
     "raw_dtg": "201120Z JUN 17",
     "msg_id": "HYDROARC 1904/17(37)",
-    "cancellations": [
-      "HYDROARC 4026/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "CELTIC SEA.\nFRANCE-NORTHWEST COAST.\nDNC 20.\nCHART 37320.\nSUB-SURFACE SCIENTIFIC MOORING, AT DEPTH 120\nMETERS, ESTABLISHED IN 48-17.3N 005-40.0W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nFRANCE-NORTHWEST COAST.\nDNC 20.\nCHART 37320.\nSUB-SURFACE SCIENTIFIC MOORING, AT DEPTH 120\nMETERS, ESTABLISHED IN 48-17.3N 005-40.0W.",
+    "valid_from": "2017-06-20T11:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

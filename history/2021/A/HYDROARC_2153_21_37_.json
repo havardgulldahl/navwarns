@@ -3,17 +3,25 @@
   "id": "HYDROARC 2153/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.895,
+      49.906666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-08-20T15:16:00",
     "raw_dtg": "201516Z AUG 21",
     "msg_id": "HYDROARC 2153/21(37)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 2205/21"
+      "2144/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\n1. CHANNEL LIGHTSHIP 49-54.4N 002-53.7W REPLACED\n   BY SAFE WATER MARK BUOY, LFL 10 SEC, RACON (O).\n2. CANCEL HYDROLANT 2144/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\n1. CHANNEL LIGHTSHIP 49-54.4N 002-53.7W REPLACED\n   BY SAFE WATER MARK BUOY, LFL 10 SEC, RACON (O).\n2. CANCEL HYDROLANT 2144/21.",
+    "valid_from": "2021-08-20T15:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

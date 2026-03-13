@@ -3,17 +3,23 @@
   "id": "HYDROARC 2003/19(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      14.218333333333334,
+      36.071666666666665
+    ]
   },
   "properties": {
     "dtg": "2019-07-03T08:44:00",
     "raw_dtg": "030844Z JUL 19",
     "msg_id": "HYDROARC 2003/19(53)",
-    "cancellations": [
-      "HYDROARC 128/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nDNC 09.\nCHART 53200.\nGURDEN LIGHT 36-04.3N 014-13.1E UNLIT 06 JUL\nUNTIL FURTHER NOTICE."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nDNC 09.\nCHART 53200.\nGURDEN LIGHT 36-04.3N 014-13.1E UNLIT 06 JUL\nUNTIL FURTHER NOTICE.",
+    "valid_from": "2019-07-03T08:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

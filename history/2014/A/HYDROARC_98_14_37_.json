@@ -3,17 +3,23 @@
   "id": "HYDROARC 98/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.37,
+      50.66
+    ]
   },
   "properties": {
     "dtg": "2014-01-10T16:50:00",
     "raw_dtg": "101650Z JAN 14",
     "msg_id": "HYDROARC 98/14(37)",
-    "cancellations": [
-      "HYDROARC 130/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37115\nVERGOYER NORD BUOY 50-39.6N 001-22.2E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37115\nVERGOYER NORD BUOY 50-39.6N 001-22.2E MISSING.",
+    "valid_from": "2014-01-10T16:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

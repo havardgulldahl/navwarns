@@ -3,17 +3,23 @@
   "id": "HYDROARC 44/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.9033333333333333,
+      51.3
+    ]
   },
   "properties": {
     "dtg": "2016-01-04T16:55:00",
     "raw_dtg": "041655Z JAN 16",
     "msg_id": "HYDROARC 44/16(36)",
-    "cancellations": [
-      "HYDROARC 60/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP ILE D'AIX\nVICINITY 51-18.0N 003-54.2W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP ILE D'AIX\nVICINITY 51-18.0N 003-54.2W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2016-01-04T16:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 176/12(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -13.608333333333333,
+      31.873333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-01-22T09:57:00",
     "raw_dtg": "220957Z JAN 12",
     "msg_id": "HYDROARC 176/12(51)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 283/12"
+      "172/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. DISTRESS SIGNAL RECEIVED VICINITY 31-52.4N 013-36.5W.\n   VESSELS IN VICINITY REQUESTED TO KEEP A SHARP\n   LOOKOUT, ASSIST IF POSSIBLE. REPORTS TO MRCC RABAT,\n   PHONE: 21 253 762 5877, FAX: 21 253 762 5017,\n   E-MAIL: MRCC.RABBAT@MPM.GOV.MA.\n2. CANCEL HYDROLANT 172/12(57,61)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. DISTRESS SIGNAL RECEIVED VICINITY 31-52.4N 013-36.5W.\n   VESSELS IN VICINITY REQUESTED TO KEEP A SHARP\n   LOOKOUT, ASSIST IF POSSIBLE. REPORTS TO MRCC RABAT,\n   PHONE: 21 253 762 5877, FAX: 21 253 762 5017,\n   E-MAIL: MRCC.RABBAT@MPM.GOV.MA.\n2. CANCEL HYDROLANT 172/12(57,61).",
+    "valid_from": "2012-01-22T09:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 246/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -64.57833333333333,
+      10.271666666666667
+    ]
   },
   "properties": {
     "dtg": "2022-01-27T00:17:00",
     "raw_dtg": "270017Z JAN 22",
     "msg_id": "HYDROARC 246/22(24)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 030017Z FEB 22",
-      "HYDROARC 246/22"
+      "THIS MSG 030017Z FEB 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN CARIBBEAN SEA.\nVENEZUELA.\nDNC 14.\n1. M/V ATTACKED IN 10-16.3N 064-34.7W AT\n   250610Z JAN. VESSELS ARE ADVISED TO KEEP\n   CLEAR OF THIS POSITION AND TO EXERCISE\n   EXTREME CAUTION.\n2. CANCEL THIS MSG 030017Z FEB 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN CARIBBEAN SEA.\nVENEZUELA.\nDNC 14.\n1. M/V ATTACKED IN 10-16.3N 064-34.7W AT\n   250610Z JAN. VESSELS ARE ADVISED TO KEEP\n   CLEAR OF THIS POSITION AND TO EXERCISE\n   EXTREME CAUTION.\n2. CANCEL THIS MSG 030017Z FEB 22.",
+    "valid_from": "2022-01-27T00:17:00+00:00",
+    "valid_until": "2022-02-03T00:17:00+00:00",
+    "summary": null
   }
 }

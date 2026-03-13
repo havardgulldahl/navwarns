@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3507/17(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-10-29T20:46:00",
     "raw_dtg": "292046Z OCT 17",
     "msg_id": "HYDROARC 3507/17(54)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 031000Z NOV 17",
-      "HYDROARC 3507/17"
+      "THIS MSG 031000Z NOV 17"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 030500Z TO 030900Z NOV\n   IN AREA BETWEEN\n   35-50N 36-03N AND 025-55E 026-20E.\n2. CANCEL THIS MSG 031000Z NOV 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 030500Z TO 030900Z NOV\n   IN AREA BETWEEN\n   35-50N 36-03N AND 025-55E 026-20E.\n2. CANCEL THIS MSG 031000Z NOV 17.",
+    "valid_from": "2017-10-29T20:46:00+00:00",
+    "valid_until": "2017-11-03T10:00:00+00:00",
+    "summary": null
   }
 }

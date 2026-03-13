@@ -3,17 +3,25 @@
   "id": "HYDROARC 1986/17(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -19.091666666666665,
+      15.3
+    ]
   },
   "properties": {
     "dtg": "2017-06-28T04:11:00",
     "raw_dtg": "280411Z JUN 17",
     "msg_id": "HYDROARC 1986/17(51)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2058/17"
+      "1978/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 01.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY CABLESHIP PIERRE DE FERMAT IN VICINITY\n   15-18.0N 019-05.5W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1978/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 01.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY CABLESHIP PIERRE DE FERMAT IN VICINITY\n   15-18.0N 019-05.5W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1978/17.",
+    "valid_from": "2017-06-28T04:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

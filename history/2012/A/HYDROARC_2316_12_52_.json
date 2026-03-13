@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2316/12(52)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.108333333333333,
+          37.015
+        ],
+        [
+          11.105,
+          37.03333333333333
+        ],
+        [
+          11.056666666666667,
+          37.026666666666664
+        ],
+        [
+          11.06,
+          37.00833333333333
+        ],
+        [
+          11.108333333333333,
+          37.015
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-10-03T16:28:00",
     "raw_dtg": "031628Z OCT 12",
     "msg_id": "HYDROARC 2316/12(52)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2316/12"
+      "THIS MSG 06 NOV 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "TUNISIA-NORTHEAST COAST.\n1. PIPELINE OPERATIONS IN PROGRESS UNTIL 05 NOV BY\n   M/V ENNAWRES IN AREA BOUND BY\n   37-00.9N 011-06.5E, 37-02.0N 011-06.3E,\n   37-01.6N 011-03.4E, 37-00.5N 011-03.6E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 06 NOV 12."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "TUNISIA-NORTHEAST COAST.\n1. PIPELINE OPERATIONS IN PROGRESS UNTIL 05 NOV BY\n   M/V ENNAWRES IN AREA BOUND BY\n   37-00.9N 011-06.5E, 37-02.0N 011-06.3E,\n   37-01.6N 011-03.4E, 37-00.5N 011-03.6E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 06 NOV 12.",
+    "valid_from": "2012-10-03T16:28:00+00:00",
+    "valid_until": "2012-11-06T00:00:00+00:00",
+    "summary": null
   }
 }

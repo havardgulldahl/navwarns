@@ -3,18 +3,25 @@
   "id": "HYDROARC 3421/19(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      5.996666666666666,
+      -35.038333333333334
+    ]
   },
   "properties": {
     "dtg": "2019-11-06T18:24:00",
     "raw_dtg": "061824Z NOV 19",
     "msg_id": "HYDROARC 3421/19(57)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 091824Z NOV 19",
-      "HYDROARC 3432/19"
+      "THIS MSG 091824Z NOV 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. CARGO HATCH COVER ADRIFT IN 35-02.3S 005-59.8E.\n2. CANCEL THIS MSG 091824Z NOV 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. CARGO HATCH COVER ADRIFT IN 35-02.3S 005-59.8E.\n2. CANCEL THIS MSG 091824Z NOV 19.",
+    "valid_from": "2019-11-06T18:24:00+00:00",
+    "valid_until": "2019-11-09T18:24:00+00:00",
+    "summary": null
   }
 }

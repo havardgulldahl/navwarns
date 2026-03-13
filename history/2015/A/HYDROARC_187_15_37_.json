@@ -3,17 +3,23 @@
   "id": "HYDROARC 187/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7833333333333332,
+      51.31
+    ]
   },
   "properties": {
     "dtg": "2015-01-22T05:24:00",
     "raw_dtg": "220524Z JAN 15",
     "msg_id": "HYDROARC 187/15(37)",
-    "cancellations": [
-      "HYDROARC 192/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nSOUTH FALLS HEAD.\nDNC 20.\nCHART 37120.\nMID FALLS BUOY 51-18.6N 001-47.0E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nSOUTH FALLS HEAD.\nDNC 20.\nCHART 37120.\nMID FALLS BUOY 51-18.6N 001-47.0E OFF STATION.",
+    "valid_from": "2015-01-22T05:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

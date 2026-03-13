@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3323/16(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-12-09T12:16:00",
     "raw_dtg": "091216Z DEC 16",
     "msg_id": "HYDROARC 3323/16(35)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 3323/16"
+      "3289/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 3289/16 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 3289/16 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2016-12-09T12:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

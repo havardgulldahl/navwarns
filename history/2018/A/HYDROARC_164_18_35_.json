@@ -3,17 +3,23 @@
   "id": "HYDROARC 164/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2533333333333334,
+      54.95333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-01-14T12:52:00",
     "raw_dtg": "141252Z JAN 18",
     "msg_id": "HYDROARC 164/18(35)",
-    "cancellations": [
-      "HYDROARC 381/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 35006.\nFISHING GEAR, MARKED BY BUOYS, ABANDONED\nIN 54-57.2N 001-15.2W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 35006.\nFISHING GEAR, MARKED BY BUOYS, ABANDONED\nIN 54-57.2N 001-15.2W.",
+    "valid_from": "2018-01-14T12:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

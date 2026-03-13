@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 151/11",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2011-09-01T07:31:00",
     "raw_dtg": "010731Z SEP 11",
     "msg_id": "HYDROARC 151/11",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 150/11",
-      "HYDROARC 151/11"
+      "HYDROARC 150/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GPS SATELLITE SYSTEM.\nCANCEL HYDROARC 150/11 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GPS SATELLITE SYSTEM.\nCANCEL HYDROARC 150/11 AND THIS MSG.",
+    "valid_from": "2011-09-01T07:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

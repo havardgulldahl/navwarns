@@ -3,17 +3,23 @@
   "id": "HYDROARC 227/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.693333333333333,
+      57.526666666666664
+    ]
   },
   "properties": {
     "dtg": "2022-01-24T21:36:00",
     "raw_dtg": "242136Z JAN 22",
     "msg_id": "HYDROARC 227/22(35)",
-    "cancellations": [
-      "HYDROARC 260/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nMONACH ISLANDS LIGHT 57-31.6N 007-41.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nMONACH ISLANDS LIGHT 57-31.6N 007-41.6W UNRELIABLE.",
+    "valid_from": "2022-01-24T21:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

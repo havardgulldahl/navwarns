@@ -3,18 +3,25 @@
   "id": "HYDROARC 597/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.533333333333333,
+      56.973333333333336
+    ]
   },
   "properties": {
     "dtg": "2021-03-01T02:10:00",
     "raw_dtg": "010210Z MAR 21",
     "msg_id": "HYDROARC 597/21(35)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 042000Z MAR 21",
-      "HYDROARC 620/21"
+      "THIS MSG 042000Z MAR 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\n1. GUNNERY EXERCISE 0800Z TO 1900Z DAILY\n   02 THRU 04 MAR IN AREA WITHIN 72 MILES OF\n   56-58.4N 009-32.0W.\n2. CANCEL THIS MSG 042000Z MAR 21."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\n1. GUNNERY EXERCISE 0800Z TO 1900Z DAILY\n   02 THRU 04 MAR IN AREA WITHIN 72 MILES OF\n   56-58.4N 009-32.0W.\n2. CANCEL THIS MSG 042000Z MAR 21.",
+    "valid_from": "2021-03-01T02:10:00+00:00",
+    "valid_until": "2021-03-04T20:00:00+00:00",
+    "summary": null
   }
 }

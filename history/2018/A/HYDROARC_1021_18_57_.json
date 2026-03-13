@@ -3,18 +3,25 @@
   "id": "HYDROARC 1021/18(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.766666666666667,
+      -7.708333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-03-27T09:46:00",
     "raw_dtg": "270946Z MAR 18",
     "msg_id": "HYDROARC 1021/18(57)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 300946Z MAR 18",
-      "HYDROARC 1021/18"
+      "THIS MSG 300946Z MAR 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\n1. DERELICT F/V ADRIFT IN 07-42.5S 011-46.0E.\n   REPORTS TO MRCC CAPE TOWN OR CAPE TOWN RADIO.\n2. CANCEL THIS MSG 300946Z MAR 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\n1. DERELICT F/V ADRIFT IN 07-42.5S 011-46.0E.\n   REPORTS TO MRCC CAPE TOWN OR CAPE TOWN RADIO.\n2. CANCEL THIS MSG 300946Z MAR 18.",
+    "valid_from": "2018-03-27T09:46:00+00:00",
+    "valid_until": "2018-03-30T09:46:00+00:00",
+    "summary": null
   }
 }

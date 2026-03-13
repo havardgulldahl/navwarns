@@ -3,17 +3,23 @@
   "id": "HYDROARC 2812/14(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.628333333333334,
+      33.16166666666667
+    ]
   },
   "properties": {
     "dtg": "2014-11-19T18:20:00",
     "raw_dtg": "191820Z NOV 14",
     "msg_id": "HYDROARC 2812/14(51)",
-    "cancellations": [
-      "HYDROARC 3129/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCHART 51240.\nEL JORF LASFAR LIGHT 33-09.7N 008-37.7W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCHART 51240.\nEL JORF LASFAR LIGHT 33-09.7N 008-37.7W UNLIT.",
+    "valid_from": "2014-11-19T18:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 225/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.36,
+      53.54666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-01-25T12:40:00",
     "raw_dtg": "251240Z JAN 21",
     "msg_id": "HYDROARC 225/21(37)",
-    "cancellations": [
-      "HYDROARC 247/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nPLATFORM 48/12A, 53-32.8N 001-21.6E UNLIT AND\nAIDS TO NAVIGATION INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nPLATFORM 48/12A, 53-32.8N 001-21.6E UNLIT AND\nAIDS TO NAVIGATION INOPERATIVE.",
+    "valid_from": "2021-01-25T12:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

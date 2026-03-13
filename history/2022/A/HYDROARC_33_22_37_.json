@@ -3,17 +3,26 @@
   "id": "HYDROARC 33/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.92,
+      53.47
+    ]
   },
   "properties": {
     "dtg": "2022-01-04T14:25:00",
     "raw_dtg": "041425Z JAN 22",
     "msg_id": "HYDROARC 33/22(37)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 93/22"
+      "2862/21",
+      "26/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. ALL NAVIGATIONAL AIDS AT SHAMROCK PLATFORM\n   53-28.2N 002-55.2E INOPERATIVE.\n2. CANCEL HYDROLANT 2862/21, 26/22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. ALL NAVIGATIONAL AIDS AT SHAMROCK PLATFORM\n   53-28.2N 002-55.2E INOPERATIVE.\n2. CANCEL HYDROLANT 2862/21, 26/22.",
+    "valid_from": "2022-01-04T14:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

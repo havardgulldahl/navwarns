@@ -2,31 +2,37 @@
   "type": "Feature",
   "id": "HYDROARC 2347/16(55)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        28.764666666666667,
-        44.427
-      ],
-      [
-        28.795333333333332,
-        44.421
-      ],
-      [
-        29.159166666666668,
-        44.4965
-      ],
-      [
-        29.5225,
-        44.493
-      ],
-      [
-        29.977166666666665,
-        44.0775
-      ],
-      [
-        28.778,
-        44.42133333333334
+        [
+          28.764666666666667,
+          44.427
+        ],
+        [
+          28.795333333333332,
+          44.421
+        ],
+        [
+          29.159166666666668,
+          44.4965
+        ],
+        [
+          29.5225,
+          44.493
+        ],
+        [
+          29.977166666666665,
+          44.0775
+        ],
+        [
+          28.778,
+          44.42133333333334
+        ],
+        [
+          28.764666666666667,
+          44.427
+        ]
       ]
     ]
   },
@@ -34,11 +40,16 @@
     "dtg": "2016-09-09T15:06:00",
     "raw_dtg": "091506Z SEP 16",
     "msg_id": "HYDROARC 2347/16(55)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2347/16"
+      "THIS MSG 02 OCT 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. OCEANOGRAPHIC OPERATIONS 12 SEP THRU 01 OCT\n   BY M/V OCEAN SPIRIT IN AREA BOUND BY\n   44-25.62N 028-45.88E, 44-25.26N 028-47.72E,\n   44-29.79N 029-09.55E, 44-29.58N 029-31.35E,\n   44-04.65N 029-58.63E, 44-25.28N 028-46.68E.\n   500 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 02 OCT 16."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. OCEANOGRAPHIC OPERATIONS 12 SEP THRU 01 OCT\n   BY M/V OCEAN SPIRIT IN AREA BOUND BY\n   44-25.62N 028-45.88E, 44-25.26N 028-47.72E,\n   44-29.79N 029-09.55E, 44-29.58N 029-31.35E,\n   44-04.65N 029-58.63E, 44-25.28N 028-46.68E.\n   500 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 02 OCT 16.",
+    "valid_from": "2016-09-09T15:06:00+00:00",
+    "valid_until": "2016-10-02T00:00:00+00:00",
+    "summary": null
   }
 }

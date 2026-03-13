@@ -3,17 +3,23 @@
   "id": "HYDROARC 3906/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.073611111111111,
+      52.02972222222222
+    ]
   },
   "properties": {
     "dtg": "2020-12-18T05:59:00",
     "raw_dtg": "180559Z DEC 20",
     "msg_id": "HYDROARC 3906/20(36)",
-    "cancellations": [
-      "HYDROARC 3911/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CARDIGAN BAY.\nWALES.\nDNC 20.\nSTRUMBLE HEAD LIGHT 52-01-47N 005-04-25W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CARDIGAN BAY.\nWALES.\nDNC 20.\nSTRUMBLE HEAD LIGHT 52-01-47N 005-04-25W\nUNRELIABLE.",
+    "valid_from": "2020-12-18T05:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

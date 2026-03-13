@@ -3,17 +3,23 @@
   "id": "HYDROARC 3016/15(24,25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -53.18666666666667,
+      17.98
+    ]
   },
   "properties": {
     "dtg": "2015-12-05T06:40:00",
     "raw_dtg": "050640Z DEC 15",
     "msg_id": "HYDROARC 3016/15(24,25)",
-    "cancellations": [
-      "HYDROARC 3017/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 14, DNC 16.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM VESSEL QUOKKA 8\nIN 17-58.8N 053-11.2W AT 050200Z DEC. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC FORT DE FRANCE, INMARSAT-C: 422799024,\nTELEX: 42912008, PHONE: 596 596 709 292,\nFAX: 596 596 632 450, E-MAIL: ANTILLES@MRCCFR.EU."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 14, DNC 16.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM VESSEL QUOKKA 8\nIN 17-58.8N 053-11.2W AT 050200Z DEC. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC FORT DE FRANCE, INMARSAT-C: 422799024,\nTELEX: 42912008, PHONE: 596 596 709 292,\nFAX: 596 596 632 450, E-MAIL: ANTILLES@MRCCFR.EU.",
+    "valid_from": "2015-12-05T06:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

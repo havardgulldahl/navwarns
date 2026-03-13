@@ -3,17 +3,23 @@
   "id": "HYDROARC 31/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.175,
+      51.681666666666665
+    ]
   },
   "properties": {
     "dtg": "2011-01-06T21:07:00",
     "raw_dtg": "062107Z JAN 11",
     "msg_id": "HYDROARC 31/11(36)",
-    "cancellations": [
-      "HYDROARC 42/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-SOUTHWEST COAST.\nRADIO SERVICES.\nDSC STATION ST ANNS HEAD 51-40.9N 005-10.5W\nMF DSC OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-SOUTHWEST COAST.\nRADIO SERVICES.\nDSC STATION ST ANNS HEAD 51-40.9N 005-10.5W\nMF DSC OFF AIR.",
+    "valid_from": "2011-01-06T21:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

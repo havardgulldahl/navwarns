@@ -3,17 +3,23 @@
   "id": "HYDROARC 1094/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3366666666666667,
+      54.29
+    ]
   },
   "properties": {
     "dtg": "2020-03-25T07:56:00",
     "raw_dtg": "250756Z MAR 20",
     "msg_id": "HYDROARC 1094/20(37)",
-    "cancellations": [
-      "HYDROARC 1171/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT KILMAR PLATFORM\n54-17.4N 001-20.2E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT KILMAR PLATFORM\n54-17.4N 001-20.2E INOPERATIVE.",
+    "valid_from": "2020-03-25T07:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

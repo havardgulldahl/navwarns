@@ -3,17 +3,23 @@
   "id": "HYDROARC 992/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6383333333333332,
+      56.973333333333336
+    ]
   },
   "properties": {
     "dtg": "2012-05-10T19:07:00",
     "raw_dtg": "101907Z MAY 12",
     "msg_id": "HYDROARC 992/12(35)",
-    "cancellations": [
-      "HYDROARC 998/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\n1. DERELICT HELICOPTER IN 56-58.4N 001-38.3W\n   AT 101810Z MAY. 800 METER BERTH REQUESTED.\n   NAVIGATION PROHIBITED UNTIL FURTHER NOTICE\n   UNLESS AUTHORIZED BY MRCC ABERDEEN.\n2. CANCEL THIS MSG 131910Z MAY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\n1. DERELICT HELICOPTER IN 56-58.4N 001-38.3W\n   AT 101810Z MAY. 800 METER BERTH REQUESTED.\n   NAVIGATION PROHIBITED UNTIL FURTHER NOTICE\n   UNLESS AUTHORIZED BY MRCC ABERDEEN.\n2. CANCEL THIS MSG 131910Z MAY.",
+    "valid_from": "2012-05-10T19:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

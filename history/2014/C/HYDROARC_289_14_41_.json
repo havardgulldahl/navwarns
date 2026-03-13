@@ -3,18 +3,25 @@
   "id": "HYDROARC 289/14(41)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      135.26833333333335,
+      78.14333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-10-09T06:46:00",
     "raw_dtg": "090646Z OCT 14",
     "msg_id": "HYDROARC 289/14(41)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 273/14",
-      "HYDROARC 326/14"
+      "HYDROARC 273/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nDNC 27.\n1. GEOPHYSICAL OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V NIKOLAY TRUBYATCHINSKY TOWING 8100 METER\n   LONG CABLE ALONG TRACKLINE BETWEEN\n   78-08.6N 135-16.1E AND 83-31.3N 140-27.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROARC 273/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nDNC 27.\n1. GEOPHYSICAL OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V NIKOLAY TRUBYATCHINSKY TOWING 8100 METER\n   LONG CABLE ALONG TRACKLINE BETWEEN\n   78-08.6N 135-16.1E AND 83-31.3N 140-27.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROARC 273/14.",
+    "valid_from": "2014-10-09T06:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

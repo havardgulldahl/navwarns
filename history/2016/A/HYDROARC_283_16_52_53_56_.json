@@ -3,18 +3,25 @@
   "id": "HYDROARC 283/16(52,53,56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      13.071666666666667,
+      34.09166666666667
+    ]
   },
   "properties": {
     "dtg": "2016-02-01T12:58:00",
     "raw_dtg": "011258Z FEB 16",
     "msg_id": "HYDROARC 283/16(52,53,56)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 041258Z FEB 16",
-      "HYDROARC 283/16"
+      "THIS MSG 041258Z FEB 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 08, DNC 09.\n1. TEN METER FISH CAGE ADRIFT IN 34-05.5N 013-04.3E.\n2. CANCEL THIS MSG 041258Z FEB 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 08, DNC 09.\n1. TEN METER FISH CAGE ADRIFT IN 34-05.5N 013-04.3E.\n2. CANCEL THIS MSG 041258Z FEB 16.",
+    "valid_from": "2016-02-01T12:58:00+00:00",
+    "valid_until": "2016-02-04T12:58:00+00:00",
+    "summary": null
   }
 }

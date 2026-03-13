@@ -3,17 +3,25 @@
   "id": "HYDROARC 584/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6383333333333332,
+      51.10166666666667
+    ]
   },
   "properties": {
     "dtg": "2020-02-17T21:32:00",
     "raw_dtg": "172132Z FEB 20",
     "msg_id": "HYDROARC 584/20(37)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 622/20"
+      "553/20"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\n1. MPC BUOY 51-06.1N 001-38.3E OFF STATION RACON\n   AND AIS INOPERATIVE.\n2. CANCEL HYDROLANT 553/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\n1. MPC BUOY 51-06.1N 001-38.3E OFF STATION RACON\n   AND AIS INOPERATIVE.\n2. CANCEL HYDROLANT 553/20.",
+    "valid_from": "2020-02-17T21:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

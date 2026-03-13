@@ -3,17 +3,25 @@
   "id": "HYDROARC 2609/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.31,
+      -23.985
+    ]
   },
   "properties": {
     "dtg": "2013-10-19T20:32:00",
     "raw_dtg": "192032Z OCT 13",
     "msg_id": "HYDROARC 2609/13(24)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2644/13"
+      "THIS MSG 16 APR 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHARTS 24140 24142\n1. PONTA DA PRAIA NO 4 LIGHT 23-59.1S 046-18.6W UNLIT.\n2. CANCEL THIS MSG 16 APR 14."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHARTS 24140 24142\n1. PONTA DA PRAIA NO 4 LIGHT 23-59.1S 046-18.6W UNLIT.\n2. CANCEL THIS MSG 16 APR 14.",
+    "valid_from": "2013-10-19T20:32:00+00:00",
+    "valid_until": "2014-04-16T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 222/17(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          16.241666666666667,
+          -28.746666666666666
+        ],
+        [
+          16.585,
+          -28.726666666666667
+        ],
+        [
+          16.596666666666668,
+          -28.885
+        ],
+        [
+          16.248333333333335,
+          -28.888333333333332
+        ],
+        [
+          16.241666666666667,
+          -28.746666666666666
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-01-21T19:06:00",
     "raw_dtg": "211906Z JAN 17",
     "msg_id": "HYDROARC 222/17(57)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 222/17"
+      "THIS MSG 29 JAN 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nSOUTH AFRICA.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 28 JAN\n   BY M/V DP STAR TOWING 100 METER\n   LONG CABLE IN AREA BOUND BY\n   28-44.8S 016-14.5E, 28-43.6S 016-35.1E,\n   28-53.1S 016-35.8E, 28-53.3S 016-14.9E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 JAN 17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nSOUTH AFRICA.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 28 JAN\n   BY M/V DP STAR TOWING 100 METER\n   LONG CABLE IN AREA BOUND BY\n   28-44.8S 016-14.5E, 28-43.6S 016-35.1E,\n   28-53.1S 016-35.8E, 28-53.3S 016-14.9E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 JAN 17.",
+    "valid_from": "2017-01-21T19:06:00+00:00",
+    "valid_until": "2017-01-29T00:00:00+00:00",
+    "summary": null
   }
 }

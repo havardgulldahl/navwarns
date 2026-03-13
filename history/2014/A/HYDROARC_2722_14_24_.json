@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 2722/14(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -43.8505,
-        -23.033833333333334
-      ],
-      [
-        -43.58383333333333,
-        -23.033333333333335
-      ],
-      [
-        -43.58383333333333,
-        -23.067166666666665
-      ],
-      [
-        -43.8505,
-        -23.083833333333335
+        [
+          -43.8505,
+          -23.033833333333334
+        ],
+        [
+          -43.58383333333333,
+          -23.033333333333335
+        ],
+        [
+          -43.58383333333333,
+          -23.067166666666665
+        ],
+        [
+          -43.8505,
+          -23.083833333333335
+        ],
+        [
+          -43.8505,
+          -23.033833333333334
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2014-11-12T02:27:00",
     "raw_dtg": "120227Z NOV 14",
     "msg_id": "HYDROARC 2722/14(24)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 181800Z NOV 14",
-      "HYDROARC 2722/14"
+      "THIS MSG 181800Z NOV 14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 1500Z TO 1700Z DAILY\n   17 AND 18 NOV IN AREA BOUND BY\n   23-02.03S 043-51.03W, 23-02.00S 043-35.03W,\n   23-04.03S 043-35.03W, 23-05.03S 043-51.03W.\n2. CANCEL THIS MSG 181800Z NOV 14."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 1500Z TO 1700Z DAILY\n   17 AND 18 NOV IN AREA BOUND BY\n   23-02.03S 043-51.03W, 23-02.00S 043-35.03W,\n   23-04.03S 043-35.03W, 23-05.03S 043-51.03W.\n2. CANCEL THIS MSG 181800Z NOV 14.",
+    "valid_from": "2014-11-12T02:27:00+00:00",
+    "valid_until": "2014-11-18T18:00:00+00:00",
+    "summary": null
   }
 }

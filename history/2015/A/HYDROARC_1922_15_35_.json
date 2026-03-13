@@ -3,17 +3,23 @@
   "id": "HYDROARC 1922/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.6883333333333335,
+      57.7
+    ]
   },
   "properties": {
     "dtg": "2015-08-06T20:24:00",
     "raw_dtg": "062024Z AUG 15",
     "msg_id": "HYDROARC 1922/15(35)",
-    "cancellations": [
-      "HYDROARC 1955/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35104.\nRACON AT HASKIER LIGHT 57-42.0N 007-41.3W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35104.\nRACON AT HASKIER LIGHT 57-42.0N 007-41.3W INOPERATIVE.",
+    "valid_from": "2015-08-06T20:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

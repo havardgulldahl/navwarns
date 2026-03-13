@@ -3,17 +3,25 @@
   "id": "HYDROARC 1334/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -36.935,
+      -10.825
+    ]
   },
   "properties": {
     "dtg": "2016-06-02T10:34:00",
     "raw_dtg": "021034Z JUN 16",
     "msg_id": "HYDROARC 1334/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2880/16"
+      "THIS MSG 01 DEC 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24210.\n1. SANTA ISABEL LIGHT 10-49.5S 036-56.1W\n   TEMPORARILY CHANGED TO: FL W 10 SEC.\n2. CANCEL THIS MSG 01 DEC 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24210.\n1. SANTA ISABEL LIGHT 10-49.5S 036-56.1W\n   TEMPORARILY CHANGED TO: FL W 10 SEC.\n2. CANCEL THIS MSG 01 DEC 16.",
+    "valid_from": "2016-06-02T10:34:00+00:00",
+    "valid_until": "2016-12-01T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 78/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -42.69166666666667,
+      -22.96
+    ]
   },
   "properties": {
     "dtg": "2010-01-14T02:31:00",
     "raw_dtg": "140231Z JAN 10",
     "msg_id": "HYDROARC 78/10(24)",
-    "cancellations": [
-      "HYDROARC 145/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24160 (21ST ED).\nPONTA NEGRA LIGHT 22-57.6S 042-41.5W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24160 (21ST ED).\nPONTA NEGRA LIGHT 22-57.6S 042-41.5W UNLIT.",
+    "valid_from": "2010-01-14T02:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

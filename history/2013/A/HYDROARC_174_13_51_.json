@@ -3,18 +3,25 @@
   "id": "HYDROARC 174/13(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.05,
+      35.14333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-01-19T14:41:00",
     "raw_dtg": "191441Z JAN 13",
     "msg_id": "HYDROARC 174/13(51)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 221440Z JAN 13",
-      "HYDROARC 174/13"
+      "THIS MSG 221440Z JAN 13"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\n1. DERELICT VESSEL ADRIFT VICINITY\n   35-08.6N 007-03.0W AT 191250Z JAN.\n2. CANCEL THIS MSG 221440Z JAN 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\n1. DERELICT VESSEL ADRIFT VICINITY\n   35-08.6N 007-03.0W AT 191250Z JAN.\n2. CANCEL THIS MSG 221440Z JAN 13.",
+    "valid_from": "2013-01-19T14:41:00+00:00",
+    "valid_until": "2013-01-22T14:40:00+00:00",
+    "summary": null
   }
 }

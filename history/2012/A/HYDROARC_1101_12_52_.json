@@ -3,17 +3,23 @@
   "id": "HYDROARC 1101/12(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.103333333333333,
+      33.85
+    ]
   },
   "properties": {
     "dtg": "2012-05-23T08:57:00",
     "raw_dtg": "230857Z MAY 12",
     "msg_id": "HYDROARC 1101/12(52)",
-    "cancellations": [
-      "HYDROARC 1101/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA-EAST COAST.\n1. CONTAINER ADRIFT VICINITY 33-51.0N 011-06.2E\n   AT 221918Z MAY.\n2. CANCEL THIS MSG 260851Z MAY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA-EAST COAST.\n1. CONTAINER ADRIFT VICINITY 33-51.0N 011-06.2E\n   AT 221918Z MAY.\n2. CANCEL THIS MSG 260851Z MAY.",
+    "valid_from": "2012-05-23T08:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

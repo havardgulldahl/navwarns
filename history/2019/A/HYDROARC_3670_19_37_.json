@@ -3,17 +3,23 @@
   "id": "HYDROARC 3670/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.6533333333333333,
+      53.36833333333333
+    ]
   },
   "properties": {
     "dtg": "2019-11-29T15:50:00",
     "raw_dtg": "291550Z NOV 19",
     "msg_id": "HYDROARC 3670/19(37)",
-    "cancellations": [
-      "HYDROARC 3800/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nANGLIA GAS PLATFORM 53-22.1N 001-39.2E UNLIT AND\nALL AIDS TO NAVIGATION INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nANGLIA GAS PLATFORM 53-22.1N 001-39.2E UNLIT AND\nALL AIDS TO NAVIGATION INOPERATIVE.",
+    "valid_from": "2019-11-29T15:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1039/21(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      7.783333333333333,
+      36.96666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-04-16T01:09:00",
     "raw_dtg": "160109Z APR 21",
     "msg_id": "HYDROARC 1039/21(52)",
-    "cancellations": [
-      "HYDROARC 3120/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCAP DE GARDE LIGHT 36-58.0N 007-47.0E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCAP DE GARDE LIGHT 36-58.0N 007-47.0E UNRELIABLE.",
+    "valid_from": "2021-04-16T01:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

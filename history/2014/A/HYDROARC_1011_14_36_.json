@@ -3,17 +3,23 @@
   "id": "HYDROARC 1011/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.9816666666666665,
+      50.376666666666665
+    ]
   },
   "properties": {
     "dtg": "2014-04-14T00:36:00",
     "raw_dtg": "140036Z APR 14",
     "msg_id": "HYDROARC 1011/14(36)",
-    "cancellations": [
-      "HYDROARC 1038/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE AIX IN 50-22.6N 005-58.9W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP ILE DE AIX IN 50-22.6N 005-58.9W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2014-04-14T00:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

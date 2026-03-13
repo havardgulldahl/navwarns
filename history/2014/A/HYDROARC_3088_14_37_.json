@@ -3,18 +3,25 @@
   "id": "HYDROARC 3088/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.1733333333333333,
+      52.28666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-12-19T00:05:00",
     "raw_dtg": "190005Z DEC 14",
     "msg_id": "HYDROARC 3088/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 220005Z DEC 14",
-      "HYDROARC 3088/14"
+      "THIS MSG 220005Z DEC 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\n1. LARGE YELLOW SUBSEA BUOY ADRIFT VICINITY\n   52-17.2N 002-10.4E AT 182140Z DEC.\n2. CANCEL THIS MSG 220005Z DEC 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\n1. LARGE YELLOW SUBSEA BUOY ADRIFT VICINITY\n   52-17.2N 002-10.4E AT 182140Z DEC.\n2. CANCEL THIS MSG 220005Z DEC 14.",
+    "valid_from": "2014-12-19T00:05:00+00:00",
+    "valid_until": "2014-12-22T00:05:00+00:00",
+    "summary": null
   }
 }

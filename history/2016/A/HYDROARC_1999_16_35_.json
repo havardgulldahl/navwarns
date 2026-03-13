@@ -3,17 +3,23 @@
   "id": "HYDROARC 1999/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.885,
+      60.855
+    ]
   },
   "properties": {
     "dtg": "2016-08-07T23:26:00",
     "raw_dtg": "072326Z AUG 16",
     "msg_id": "HYDROARC 1999/16(35)",
-    "cancellations": [
-      "HYDROARC 2016/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nNORTH UNST, MUCKLE FLUGGA LIGHT\n60-51.3N 000-53.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nNORTH UNST, MUCKLE FLUGGA LIGHT\n60-51.3N 000-53.1W UNRELIABLE.",
+    "valid_from": "2016-08-07T23:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

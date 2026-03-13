@@ -3,17 +3,23 @@
   "id": "HYDROARC 3978/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.59,
+      58.288333333333334
+    ]
   },
   "properties": {
     "dtg": "2020-12-25T23:18:00",
     "raw_dtg": "252318Z DEC 20",
     "msg_id": "HYDROARC 3978/20(35)",
-    "cancellations": [
-      "HYDROARC 4000/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nFLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nFLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNRELIABLE.",
+    "valid_from": "2020-12-25T23:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

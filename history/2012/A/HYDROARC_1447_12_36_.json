@@ -3,17 +3,23 @@
   "id": "HYDROARC 1447/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6366666666666667,
+      54.513333333333335
+    ]
   },
   "properties": {
     "dtg": "2012-07-01T23:33:00",
     "raw_dtg": "012333Z JUL 12",
     "msg_id": "HYDROARC 1447/12(36)",
-    "cancellations": [
-      "HYDROARC 1475/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-WEST COAST.\nCHART 36025\nSAINT BEES HEAD LIGHT 54-30.8N 003-38.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-WEST COAST.\nCHART 36025\nSAINT BEES HEAD LIGHT 54-30.8N 003-38.2W UNRELIABLE.",
+    "valid_from": "2012-07-01T23:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

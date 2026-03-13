@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2888/15(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -42.333333333333336,
+          -23.316666666666666
+        ],
+        [
+          -41.93333333333333,
+          -23.475
+        ],
+        [
+          -42.075,
+          -23.775
+        ],
+        [
+          -42.475,
+          -23.616666666666667
+        ],
+        [
+          -42.333333333333336,
+          -23.316666666666666
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-11-24T02:06:00",
     "raw_dtg": "240206Z NOV 15",
     "msg_id": "HYDROARC 2888/15(24)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 271600Z NOV 15",
-      "HYDROARC 2888/15"
+      "THIS MSG 271600Z NOV 15"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 270800Z TO 271500Z NOV\n   IN AREA BOUND BY\n   23-19.0S 042-20.0W, 23-28.5S 041-56.0W,\n   23-46.5S 042-04.5W, 23-37.0S 042-28.5W.\n2. CANCEL THIS MSG 271600Z NOV 15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 270800Z TO 271500Z NOV\n   IN AREA BOUND BY\n   23-19.0S 042-20.0W, 23-28.5S 041-56.0W,\n   23-46.5S 042-04.5W, 23-37.0S 042-28.5W.\n2. CANCEL THIS MSG 271600Z NOV 15.",
+    "valid_from": "2015-11-24T02:06:00+00:00",
+    "valid_until": "2015-11-27T16:00:00+00:00",
+    "summary": null
   }
 }

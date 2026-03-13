@@ -3,18 +3,25 @@
   "id": "HYDROARC 429/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.29833333333333,
+      -22.161666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-02-07T20:20:00",
     "raw_dtg": "072020Z FEB 17",
     "msg_id": "HYDROARC 429/17(24)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 060459Z AUG 17",
-      "HYDROARC 770/17"
+      "THIS MSG 060459Z AUG 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24160\n1. QUISSAMA LIGHT 22-09.7S 041-17.9W UNLIT\n   UNTIL 060359Z AUG.\n2. CANCEL THIS MSG 060459Z AUG 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24160\n1. QUISSAMA LIGHT 22-09.7S 041-17.9W UNLIT\n   UNTIL 060359Z AUG.\n2. CANCEL THIS MSG 060459Z AUG 17.",
+    "valid_from": "2017-02-07T20:20:00+00:00",
+    "valid_until": "2017-08-06T04:59:00+00:00",
+    "summary": null
   }
 }

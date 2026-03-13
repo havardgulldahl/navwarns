@@ -3,17 +3,23 @@
   "id": "HYDROARC 762/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.18333333333333,
+      -24.32
+    ]
   },
   "properties": {
     "dtg": "2011-05-05T08:56:00",
     "raw_dtg": "050856Z MAY 11",
     "msg_id": "HYDROARC 762/11(24)",
-    "cancellations": [
-      "HYDROARC 1008/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24140 (18TH ED).\nLAJE DE SANTOS LIGHT 24-19.2S 046-11.0W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24140 (18TH ED).\nLAJE DE SANTOS LIGHT 24-19.2S 046-11.0W UNLIT.",
+    "valid_from": "2011-05-05T08:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 1121/22(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.985,
+      44.388333333333335
+    ]
   },
   "properties": {
     "dtg": "2022-04-21T19:19:00",
     "raw_dtg": "211919Z APR 22",
     "msg_id": "HYDROARC 1121/22(53)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 300059Z APR 22",
-      "HYDROARC 1174/22"
+      "THIS MSG 300059Z APR 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "LIGURIAN SEA.\nITALY.\nDNC 08.\n1. CABLE OPERATIONS 221000Z TO 292359Z APR BY\n   CABLESHIP ILE DE BATZ ALONG TRACKLINE JOINING\n   44-23.3N 008-59.1E, 43-21.8N 009-32.5E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 300059Z APR 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "LIGURIAN SEA.\nITALY.\nDNC 08.\n1. CABLE OPERATIONS 221000Z TO 292359Z APR BY\n   CABLESHIP ILE DE BATZ ALONG TRACKLINE JOINING\n   44-23.3N 008-59.1E, 43-21.8N 009-32.5E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 300059Z APR 22.",
+    "valid_from": "2022-04-21T19:19:00+00:00",
+    "valid_until": "2022-04-30T00:59:00+00:00",
+    "summary": null
   }
 }

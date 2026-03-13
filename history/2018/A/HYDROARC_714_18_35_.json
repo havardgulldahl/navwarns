@@ -3,17 +3,23 @@
   "id": "HYDROARC 714/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3366666666666667,
+      54.29
+    ]
   },
   "properties": {
     "dtg": "2018-03-01T13:34:00",
     "raw_dtg": "011334Z MAR 18",
     "msg_id": "HYDROARC 714/18(35)",
-    "cancellations": [
-      "HYDROARC 1035/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCHART 35002.\nALL NAVIGATIONAL AIDS AT KILMAR GAS PLATFORM\n54-17.4N 001-20.2E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCHART 35002.\nALL NAVIGATIONAL AIDS AT KILMAR GAS PLATFORM\n54-17.4N 001-20.2E INOPERATIVE.",
+    "valid_from": "2018-03-01T13:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

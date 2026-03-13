@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 3137/20(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -35.1605,
-        -5.922833333333333
-      ],
-      [
-        -35.11416666666667,
-        -5.866833333333333
-      ],
-      [
-        -35.08833333333333,
-        -5.922833333333333
-      ],
-      [
-        -35.11416666666667,
-        -5.977833333333333
+        [
+          -35.1605,
+          -5.922833333333333
+        ],
+        [
+          -35.11416666666667,
+          -5.866833333333333
+        ],
+        [
+          -35.08833333333333,
+          -5.922833333333333
+        ],
+        [
+          -35.11416666666667,
+          -5.977833333333333
+        ],
+        [
+          -35.1605,
+          -5.922833333333333
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2020-10-16T00:42:00",
     "raw_dtg": "160042Z OCT 20",
     "msg_id": "HYDROARC 3137/20(24)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 212200Z OCT 20",
-      "HYDROARC 3137/20"
+      "THIS MSG 212200Z OCT 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 211000Z TO 212100Z OCT\n   IN AREA BOUND BY\n   05-55.37S 035-09.63W, 05-52.01S 035-06.85W,\n   05-55.37S 035-05.30W, 05-58.67S 035-06.85W.\n2. CANCEL THIS MSG 212200Z OCT 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 211000Z TO 212100Z OCT\n   IN AREA BOUND BY\n   05-55.37S 035-09.63W, 05-52.01S 035-06.85W,\n   05-55.37S 035-05.30W, 05-58.67S 035-06.85W.\n2. CANCEL THIS MSG 212200Z OCT 20.",
+    "valid_from": "2020-10-16T00:42:00+00:00",
+    "valid_until": "2020-10-21T22:00:00+00:00",
+    "summary": null
   }
 }

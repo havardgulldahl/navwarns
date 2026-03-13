@@ -3,18 +3,26 @@
   "id": "HYDROARC 3347/13(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.458333333333334,
+      33.44166666666667
+    ]
   },
   "properties": {
     "dtg": "2013-12-26T13:51:00",
     "raw_dtg": "261351Z DEC 13",
     "msg_id": "HYDROARC 3347/13(52)",
+    "year": 2013,
     "cancellations": [
       "THIS MSG 291350Z DEC 13",
-      "HYDROARC 3347/13"
+      "3301/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA-EAST COAST.\nCHART 52160\n1. VESSEL SANK VICINITY 33-26.5N 011-27.5E.\n2. CANCEL HYDROLANT 3301/13(25), SEARCH SUSPENDED.\n3. CANCEL THIS MSG 291350Z DEC 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA-EAST COAST.\nCHART 52160\n1. VESSEL SANK VICINITY 33-26.5N 011-27.5E.\n2. CANCEL HYDROLANT 3301/13(25), SEARCH SUSPENDED.\n3. CANCEL THIS MSG 291350Z DEC 13.",
+    "valid_from": "2013-12-26T13:51:00+00:00",
+    "valid_until": "2013-12-29T13:50:00+00:00",
+    "summary": null
   }
 }

@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 172/14(36)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -3.7916666666666665,
+          51.31333333333333
+        ],
+        [
+          -3.875,
+          51.336666666666666
+        ],
+        [
+          -3.8566666666666665,
+          51.36333333333334
+        ],
+        [
+          -3.776666666666667,
+          51.32333333333333
+        ],
+        [
+          -3.7916666666666665,
+          51.31333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-01-17T06:06:00",
     "raw_dtg": "170606Z JAN 14",
     "msg_id": "HYDROARC 172/14(36)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 173/14"
+      "160/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY CABLESHIP RAYMOND CROZE IN AREA BOUND BY\n   51-18.8N 003-47.5W, 51-20.2N 003-52.5W,\n   51-21.8N 003-51.4W, 51-19.4N 003-46.6W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 160/14."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY CABLESHIP RAYMOND CROZE IN AREA BOUND BY\n   51-18.8N 003-47.5W, 51-20.2N 003-52.5W,\n   51-21.8N 003-51.4W, 51-19.4N 003-46.6W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 160/14.",
+    "valid_from": "2014-01-17T06:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

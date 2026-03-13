@@ -1,19 +1,19 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2147/10(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-11-12T07:10:00",
     "raw_dtg": "120710Z NOV 10",
     "msg_id": "HYDROARC 2147/10(24)",
-    "cancellations": [
-      "HYDROARC 2147/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 170900Z TO 171900Z NOV\n   IN AREA BETWEEN\n   01-25N 01-40N AND 047-35W 047-50W.\n2. CANCEL THIS MSG 172000Z NOV."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 170900Z TO 171900Z NOV\n   IN AREA BETWEEN\n   01-25N 01-40N AND 047-35W 047-50W.\n2. CANCEL THIS MSG 172000Z NOV.",
+    "valid_from": "2010-11-12T07:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

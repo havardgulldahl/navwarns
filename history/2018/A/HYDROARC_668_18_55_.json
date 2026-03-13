@@ -3,17 +3,23 @@
   "id": "HYDROARC 668/18(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      28.988333333333333,
+      44.67666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-02-26T13:21:00",
     "raw_dtg": "261321Z FEB 18",
     "msg_id": "HYDROARC 668/18(55)",
-    "cancellations": [
-      "HYDROARC 717/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nCHART 55120.\nGURA PORTITA LIGHT 44-40.6N 028-59.3E UNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nCHART 55120.\nGURA PORTITA LIGHT 44-40.6N 028-59.3E UNLIT.",
+    "valid_from": "2018-02-26T13:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

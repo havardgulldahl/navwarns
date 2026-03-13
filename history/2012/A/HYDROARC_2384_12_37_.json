@@ -3,17 +3,23 @@
   "id": "HYDROARC 2384/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.155,
+      51.39833333333333
+    ]
   },
   "properties": {
     "dtg": "2012-10-11T17:56:00",
     "raw_dtg": "111756Z OCT 12",
     "msg_id": "HYDROARC 2384/12(37)",
-    "cancellations": [
-      "HYDROARC 2468/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37129\nFAIRY WEST BUOY 51-23.9N 002-09.3E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37129\nFAIRY WEST BUOY 51-23.9N 002-09.3E UNLIT.",
+    "valid_from": "2012-10-11T17:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

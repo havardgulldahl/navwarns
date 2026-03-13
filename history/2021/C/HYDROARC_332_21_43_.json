@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 332/21(43)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-12-01T13:06:00",
     "raw_dtg": "011306Z DEC 21",
     "msg_id": "HYDROARC 332/21(43)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 331/21",
-      "HYDROARC 332/21"
+      "HYDROARC 331/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21, DNC 22.\nCANCEL HYDROARC 331/21 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21, DNC 22.\nCANCEL HYDROARC 331/21 AND THIS MSG.",
+    "valid_from": "2021-12-01T13:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

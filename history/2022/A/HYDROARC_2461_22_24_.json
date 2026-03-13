@@ -12,12 +12,16 @@
     "dtg": "2022-09-28T07:41:00",
     "raw_dtg": "280741Z SEP 22",
     "msg_id": "HYDROARC 2461/22(24)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 280001Z MAR 23",
-      "HYDROARC 2461/22"
+      "THIS MSG 280001Z MAR 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DOS MEROS LIGHT 23-13.57S 044-20.83W\n   UNLIT UNTIL 27 MAR 23.\n2. CANCEL THIS MSG 280001Z MAR 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DOS MEROS LIGHT 23-13.57S 044-20.83W\n   UNLIT UNTIL 27 MAR 23.\n2. CANCEL THIS MSG 280001Z MAR 23.",
+    "valid_from": "2022-09-28T07:41:00+00:00",
+    "valid_until": "2023-03-28T00:01:00+00:00",
+    "summary": null
   }
 }

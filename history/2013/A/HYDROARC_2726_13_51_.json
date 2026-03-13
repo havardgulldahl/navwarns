@@ -3,17 +3,23 @@
   "id": "HYDROARC 2726/13(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -15.158333333333333,
+      38.96666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-10-31T10:54:00",
     "raw_dtg": "311054Z OCT 13",
     "msg_id": "HYDROARC 2726/13(51)",
-    "cancellations": [
-      "HYDROARC 2729/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED FROM F/V FRANCES\nPARTIALLY SUBMERGED AND ADRIFT VICINITY\n38-58.0N 015-09.5W AT 310815Z OCT.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED FROM F/V FRANCES\nPARTIALLY SUBMERGED AND ADRIFT VICINITY\n38-58.0N 015-09.5W AT 310815Z OCT.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS ANY COASTAL RADIO STATION.",
+    "valid_from": "2013-10-31T10:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

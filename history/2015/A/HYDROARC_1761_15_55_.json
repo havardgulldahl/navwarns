@@ -3,17 +3,25 @@
   "id": "HYDROARC 1761/15(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      28.775,
+      44.29666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-07-17T12:04:00",
     "raw_dtg": "171204Z JUL 15",
     "msg_id": "HYDROARC 1761/15(55)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 1761/15"
+      "THIS MSG 25 JUL 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 24 JUL\n   WITHIN ONE MILE OF 44-17.8N 028-46.5E\n2. CANCEL THIS MSG 25 JUL 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 24 JUL\n   WITHIN ONE MILE OF 44-17.8N 028-46.5E\n2. CANCEL THIS MSG 25 JUL 15.",
+    "valid_from": "2015-07-17T12:04:00+00:00",
+    "valid_until": "2015-07-25T00:00:00+00:00",
+    "summary": null
   }
 }

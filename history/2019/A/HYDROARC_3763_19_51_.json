@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3763/19(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-12-08T12:05:00",
     "raw_dtg": "081205Z DEC 19",
     "msg_id": "HYDROARC 3763/19(51)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 582/20"
+      "3623/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V OCEANIC VEGA TOWING TEN 8100\n   METER LONG CABLES IN AREA BOUND BY\n   18-41N 017-11W, 18-41N 016-33W,\n   16-51N 016-45W, 16-51N 017-20W.\n   SEVEN METER BERTH REQUESTED.\n2. CANCEL HYDROLANT 3623/19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V OCEANIC VEGA TOWING TEN 8100\n   METER LONG CABLES IN AREA BOUND BY\n   18-41N 017-11W, 18-41N 016-33W,\n   16-51N 016-45W, 16-51N 017-20W.\n   SEVEN METER BERTH REQUESTED.\n2. CANCEL HYDROLANT 3623/19.",
+    "valid_from": "2019-12-08T12:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

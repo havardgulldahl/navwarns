@@ -3,17 +3,25 @@
   "id": "HYDROARC 1371/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.996666666666666,
+      48.05
+    ]
   },
   "properties": {
     "dtg": "2014-06-01T23:37:00",
     "raw_dtg": "012337Z JUN 14",
     "msg_id": "HYDROARC 1371/14(37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1619/14"
+      "1287/14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "FRANCE-NORTHWEST COAST.\nCHART 37320\n1. AR-MEN LIGHT 48-03.0N 004-59.8W UNLIT.\n2. CANCEL HYDROLANT 1287/14."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTHWEST COAST.\nCHART 37320\n1. AR-MEN LIGHT 48-03.0N 004-59.8W UNLIT.\n2. CANCEL HYDROLANT 1287/14.",
+    "valid_from": "2014-06-01T23:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

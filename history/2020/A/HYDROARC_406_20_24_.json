@@ -3,17 +3,23 @@
   "id": "HYDROARC 406/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.486666666666665,
+      -5.161666666666667
+    ]
   },
   "properties": {
     "dtg": "2020-02-05T14:57:00",
     "raw_dtg": "051457Z FEB 20",
     "msg_id": "HYDROARC 406/20(24)",
-    "cancellations": [
-      "HYDROARC 411/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nRACON AT PONTA DE CALCANHAR LIGHT\n05-09.7S 035-29.2W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nRACON AT PONTA DE CALCANHAR LIGHT\n05-09.7S 035-29.2W INOPERATIVE.",
+    "valid_from": "2020-02-05T14:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

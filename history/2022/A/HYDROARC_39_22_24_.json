@@ -3,18 +3,25 @@
   "id": "HYDROARC 39/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.925,
+      -29.738333333333333
+    ]
   },
   "properties": {
     "dtg": "2022-01-05T03:58:00",
     "raw_dtg": "050358Z JAN 22",
     "msg_id": "HYDROARC 39/22(24)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 101600Z JAN 22",
-      "HYDROARC 39/22"
+      "THIS MSG 101600Z JAN 22"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 100300Z TO 101500Z JAN 22\n   IN AREA WITHIN 15 MILES OF 29-44.3S 047-55.5W.\n2. CANCEL THIS MSG 101600Z JAN 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 100300Z TO 101500Z JAN 22\n   IN AREA WITHIN 15 MILES OF 29-44.3S 047-55.5W.\n2. CANCEL THIS MSG 101600Z JAN 22.",
+    "valid_from": "2022-01-05T03:58:00+00:00",
+    "valid_until": "2022-01-10T16:00:00+00:00",
+    "summary": null
   }
 }

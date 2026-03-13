@@ -2,19 +2,66 @@
   "type": "Feature",
   "id": "HYDROARC 30/18(41)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          99.0,
+          83.0
+        ],
+        [
+          137.0,
+          83.0
+        ],
+        [
+          137.0,
+          77.16666666666667
+        ],
+        [
+          134.5,
+          76.0
+        ],
+        [
+          121.66666666666667,
+          77.33333333333333
+        ],
+        [
+          109.66666666666667,
+          77.83333333333333
+        ],
+        [
+          106.83333333333333,
+          78.33333333333333
+        ],
+        [
+          106.83333333333333,
+          78.66666666666667
+        ],
+        [
+          99.0,
+          80.5
+        ],
+        [
+          99.0,
+          83.0
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-03-21T08:17:00",
     "raw_dtg": "210817Z MAR 18",
     "msg_id": "HYDROARC 30/18(41)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 312140Z MAR 18",
-      "HYDROARC 30/18"
+      "THIS MSG 312140Z MAR 18"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 22, DNC 27.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   260250Z TO 260740Z MAR, ALTERNATE\n   311450Z TO 312040Z MAR\n   IN AREA BOUND BY\n   83-00.0N 099-00.0E, 83-00.0N 137-00.0E,\n   77-10.0N 137-00.0E, 76-00.0N 134-30.0E,\n   77-20.0N 121-40.0E, 77-50.0N 109-40.0E,\n   78-20.0N 106-50.0E, 78-40.0N 106-50.0E,\n   80-30.0N 099-00.0E.\n2. CANCEL THIS MSG 312140Z MAR 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 22, DNC 27.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   260250Z TO 260740Z MAR, ALTERNATE\n   311450Z TO 312040Z MAR\n   IN AREA BOUND BY\n   83-00.0N 099-00.0E, 83-00.0N 137-00.0E,\n   77-10.0N 137-00.0E, 76-00.0N 134-30.0E,\n   77-20.0N 121-40.0E, 77-50.0N 109-40.0E,\n   78-20.0N 106-50.0E, 78-40.0N 106-50.0E,\n   80-30.0N 099-00.0E.\n2. CANCEL THIS MSG 312140Z MAR 18.",
+    "valid_from": "2018-03-21T08:17:00+00:00",
+    "valid_until": "2018-03-31T21:40:00+00:00",
+    "summary": null
   }
 }

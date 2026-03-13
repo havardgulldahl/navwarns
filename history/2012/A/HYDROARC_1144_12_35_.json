@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1144/12(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-05-28T16:34:00",
     "raw_dtg": "281634Z MAY 12",
     "msg_id": "HYDROARC 1144/12(35)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1144/12"
+      "1136/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCANCEL HYDROLANT 1136/12 AND THIS MSG, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCANCEL HYDROLANT 1136/12 AND THIS MSG, AID RESTORED.",
+    "valid_from": "2012-05-28T16:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

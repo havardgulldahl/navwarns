@@ -3,17 +3,23 @@
   "id": "HYDROARC 1846/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.275,
+      59.855
+    ]
   },
   "properties": {
     "dtg": "2011-11-07T03:50:00",
     "raw_dtg": "070350Z NOV 11",
     "msg_id": "HYDROARC 1846/11(35)",
-    "cancellations": [
-      "HYDROARC 1846/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35172 (2ND ED).\n1. DGPS STATION AT SUMBURGH HEAD LIGHT\n   59-51.3N 001-16.5W OFF AIR\n   071100Z TO 071800Z NOV.\n2. CANCEL THIS MESSAGE 071900Z NOV."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35172 (2ND ED).\n1. DGPS STATION AT SUMBURGH HEAD LIGHT\n   59-51.3N 001-16.5W OFF AIR\n   071100Z TO 071800Z NOV.\n2. CANCEL THIS MESSAGE 071900Z NOV.",
+    "valid_from": "2011-11-07T03:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1821/10",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-09-26T08:39:00",
     "raw_dtg": "260839Z SEP 10",
     "msg_id": "HYDROARC 1821/10",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1821/10"
+      "1818/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GPS SATELLITE SYSTEM.\n1. PRN 30 UNUSABLE 302130Z SEP TO 012130Z OCT.\n2. CANCEL HYDROLANT 1818/10(25), SEARCH SUSPENDED.\n3. CANCEL THIS MSG 012230Z OCT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GPS SATELLITE SYSTEM.\n1. PRN 30 UNUSABLE 302130Z SEP TO 012130Z OCT.\n2. CANCEL HYDROLANT 1818/10(25), SEARCH SUSPENDED.\n3. CANCEL THIS MSG 012230Z OCT.",
+    "valid_from": "2010-09-26T08:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

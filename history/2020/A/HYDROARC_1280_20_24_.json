@@ -3,17 +3,23 @@
   "id": "HYDROARC 1280/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.986666666666665,
+      -29.053333333333335
+    ]
   },
   "properties": {
     "dtg": "2020-04-10T01:23:00",
     "raw_dtg": "100123Z APR 20",
     "msg_id": "HYDROARC 1280/20(24)",
-    "cancellations": [
-      "HYDROARC 1400/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\nDANGEROUS WRECK IN 29-03.2S 043-59.2W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\nDANGEROUS WRECK IN 29-03.2S 043-59.2W.",
+    "valid_from": "2020-04-10T01:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

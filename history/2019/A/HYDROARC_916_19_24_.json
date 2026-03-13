@@ -3,17 +3,25 @@
   "id": "HYDROARC 916/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -39.373333333333335,
+      -17.898333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-03-22T06:06:00",
     "raw_dtg": "220606Z MAR 19",
     "msg_id": "HYDROARC 916/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 2018/19"
+      "THIS MSG 17 SEP 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24180.\n1. NOVA VICOSA LIGHT 17-53.9S 039-22.4W UNLIT.\n2. CANCEL THIS MSG 17 SEP 19."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-EAST COAST.\nDNC 01.\nCHART 24180.\n1. NOVA VICOSA LIGHT 17-53.9S 039-22.4W UNLIT.\n2. CANCEL THIS MSG 17 SEP 19.",
+    "valid_from": "2019-03-22T06:06:00+00:00",
+    "valid_until": "2019-09-17T00:00:00+00:00",
+    "summary": null
   }
 }

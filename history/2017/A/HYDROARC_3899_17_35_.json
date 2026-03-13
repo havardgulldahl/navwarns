@@ -3,17 +3,23 @@
   "id": "HYDROARC 3899/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.5649999999999995,
+      57.848333333333336
+    ]
   },
   "properties": {
     "dtg": "2017-12-03T16:03:00",
     "raw_dtg": "031603Z DEC 17",
     "msg_id": "HYDROARC 3899/17(35)",
-    "cancellations": [
-      "HYDROARC 4002/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nCHART 35078.\nSGEIR INOE BUOY 57-50.9N 006-33.9W RACON INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nCHART 35078.\nSGEIR INOE BUOY 57-50.9N 006-33.9W RACON INOPERATIVE.",
+    "valid_from": "2017-12-03T16:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1208/20(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.923333333333334,
+      35.791666666666664
+    ]
   },
   "properties": {
     "dtg": "2020-04-03T14:21:00",
     "raw_dtg": "031421Z APR 20",
     "msg_id": "HYDROARC 1208/20(51)",
-    "cancellations": [
-      "HYDROARC 1890/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCAP SPARTEL LIGHTHOUSE 35-47.5N 005-55.4W UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCAP SPARTEL LIGHTHOUSE 35-47.5N 005-55.4W UNLIT.",
+    "valid_from": "2020-04-03T14:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

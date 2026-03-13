@@ -3,17 +3,25 @@
   "id": "HYDROARC 698/16(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.9299999999999997,
+      35.26166666666666
+    ]
   },
   "properties": {
     "dtg": "2016-03-22T14:22:00",
     "raw_dtg": "221422Z MAR 16",
     "msg_id": "HYDROARC 698/16(52)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2609/16"
+      "688/16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALBORAN SEA.\nMOROCCO.\nDNC 08.\nCHART 52040.\n1. MORRO NUEVO LIGHT 35-15.7N 003-55.8W UNLIT.\n2. CANCEL HYDROLANT 688/16(52,56)."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALBORAN SEA.\nMOROCCO.\nDNC 08.\nCHART 52040.\n1. MORRO NUEVO LIGHT 35-15.7N 003-55.8W UNLIT.\n2. CANCEL HYDROLANT 688/16(52,56).",
+    "valid_from": "2016-03-22T14:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1290/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0033333333333334,
+      57.69833333333333
+    ]
   },
   "properties": {
     "dtg": "2015-05-27T05:55:00",
     "raw_dtg": "270555Z MAY 15",
     "msg_id": "HYDROARC 1290/15(35)",
-    "cancellations": [
-      "HYDROARC 1295/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nDNC 20.\nCHART 35055.\nKINNAIRDS HEAD LIGHT 57-41.9N 002-00.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nDNC 20.\nCHART 35055.\nKINNAIRDS HEAD LIGHT 57-41.9N 002-00.2W UNRELIABLE.",
+    "valid_from": "2015-05-27T05:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3300/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.403333333333333,
+      58.24
+    ]
   },
   "properties": {
     "dtg": "2016-12-07T17:06:00",
     "raw_dtg": "071706Z DEC 16",
     "msg_id": "HYDROARC 3300/16(35)",
-    "cancellations": [
-      "HYDROARC 181/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCHART 35073.\nRHU STOER LIGHT 58-14.4N 005-24.2W RANGE\nTEMPORARILY REDUCED TO 12 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCHART 35073.\nRHU STOER LIGHT 58-14.4N 005-24.2W RANGE\nTEMPORARILY REDUCED TO 12 MILES.",
+    "valid_from": "2016-12-07T17:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

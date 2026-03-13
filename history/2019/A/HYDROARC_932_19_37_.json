@@ -3,18 +3,25 @@
   "id": "HYDROARC 932/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.47,
+      51.375
+    ]
   },
   "properties": {
     "dtg": "2019-03-24T16:39:00",
     "raw_dtg": "241639Z MAR 19",
     "msg_id": "HYDROARC 932/19(37)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 271639Z MAR 19",
-      "HYDROARC 932/19"
+      "THIS MSG 271639Z MAR 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDOVER STRAIT.\nENGLAND.\nDNC 20.\n1. SIX METER VESSEL ADRIFT IN 51-22.5N 001-28.2E\n   AT 241550Z MAR.\n2. CANCEL THIS MSG 271639Z MAR 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDOVER STRAIT.\nENGLAND.\nDNC 20.\n1. SIX METER VESSEL ADRIFT IN 51-22.5N 001-28.2E\n   AT 241550Z MAR.\n2. CANCEL THIS MSG 271639Z MAR 19.",
+    "valid_from": "2019-03-24T16:39:00+00:00",
+    "valid_until": "2019-03-27T16:39:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 199/16(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2016-08-31T23:42:00",
     "raw_dtg": "312342Z AUG 16",
     "msg_id": "HYDROARC 199/16(15)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 141/16",
-      "HYDROARC 306/16"
+      "HYDROARC 141/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nNAVTEX.\nDNC 28.\n1. NAVTEX STATION IQALUIT 63-43.8N 068-32.7W UNRELIABLE.\n2. CANCEL HYDROARC 141/16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nNAVTEX.\nDNC 28.\n1. NAVTEX STATION IQALUIT 63-43.8N 068-32.7W UNRELIABLE.\n2. CANCEL HYDROARC 141/16.",
+    "valid_from": "2016-08-31T23:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 163/11(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      25.236666666666668,
+      37.49666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-01-26T13:13:00",
     "raw_dtg": "261313Z JAN 11",
     "msg_id": "HYDROARC 163/11(54)",
-    "cancellations": [
-      "HYDROARC 189/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP RAYMOND CROZE IN 37-29.8N 025-14.2E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP RAYMOND CROZE IN 37-29.8N 025-14.2E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2011-01-26T13:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

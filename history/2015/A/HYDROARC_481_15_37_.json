@@ -3,17 +3,23 @@
   "id": "HYDROARC 481/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.2833333333333332,
+      53.276666666666664
+    ]
   },
   "properties": {
     "dtg": "2015-02-27T03:49:00",
     "raw_dtg": "270349Z FEB 15",
     "msg_id": "HYDROARC 481/15(37)",
-    "cancellations": [
-      "HYDROARC 500/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37057.\nRACON AT DUDGEON BUOY 53-16.6N 001-17.0E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37057.\nRACON AT DUDGEON BUOY 53-16.6N 001-17.0E INOPERATIVE.",
+    "valid_from": "2015-02-27T03:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

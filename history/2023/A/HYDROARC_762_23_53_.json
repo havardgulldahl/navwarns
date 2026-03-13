@@ -3,18 +3,26 @@
   "id": "HYDROARC 762/23(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      4.083333333333333,
+      41.36666666666667
+    ]
   },
   "properties": {
     "dtg": "2023-04-09T16:51:00",
     "raw_dtg": "091651Z APR 23",
     "msg_id": "HYDROARC 762/23(53)",
+    "year": 2023,
     "cancellations": [
       "THIS MSG 111900Z APR 23",
-      "HYDROARC 762/23"
+      "758/23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nBALEARIC ISLANDS.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 111700Z APR\n   BY M/V TETHYS II IN VICINITY OF TRACKLINE JOINING\n   41-22.0N 004-05.00E, 40-52.0N 005-08.0E.\n2. CANCEL HYDRLANT 758/23.\n3. CANCEL THIS MSG 111900Z APR 23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nBALEARIC ISLANDS.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 111700Z APR\n   BY M/V TETHYS II IN VICINITY OF TRACKLINE JOINING\n   41-22.0N 004-05.00E, 40-52.0N 005-08.0E.\n2. CANCEL HYDRLANT 758/23.\n3. CANCEL THIS MSG 111900Z APR 23.",
+    "valid_from": "2023-04-09T16:51:00+00:00",
+    "valid_until": "2023-04-11T19:00:00+00:00",
+    "summary": null
   }
 }

@@ -2,19 +2,66 @@
   "type": "Feature",
   "id": "HYDROARC 1305/21(36)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.558333333333334,
+          49.21666666666667
+        ],
+        [
+          -8.87,
+          48.78333333333333
+        ],
+        [
+          -9.183333333333334,
+          49.21666666666667
+        ],
+        [
+          -9.183333333333334,
+          49.56666666666667
+        ],
+        [
+          -8.525,
+          50.666666666666664
+        ],
+        [
+          -8.525,
+          51.0
+        ],
+        [
+          -6.891666666666667,
+          51.0
+        ],
+        [
+          -6.891666666666667,
+          50.666666666666664
+        ],
+        [
+          -7.475,
+          49.96666666666667
+        ],
+        [
+          -7.558333333333334,
+          49.21666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-05-13T18:44:00",
     "raw_dtg": "131844Z MAY 21",
     "msg_id": "HYDROARC 1305/21(36)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 210059Z MAY 21",
-      "HYDROARC 1305/21"
+      "THIS MSG 210059Z MAY 21"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLAND.\nDNC 19.\n1. HAZARDOUS OPERATIONS 140001Z TO 202359Z MAY\n   IN AREA BOUND BY\n   49-13.0N 007-33.5W, 48-47.0N 008-52.2W,\n   49-13.0N 009-11.0W, 49-34.0N 009-11.0W,\n   50-40.0N 008-31.5W, 51-00.0N 008-31.5W,\n   51-00.0N 006-53.5W, 50-40.0N 006-53.5W,\n   49-58.0N 007-28.5W.\n2. CANCEL THIS MSG 210059Z MAY 21."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLAND.\nDNC 19.\n1. HAZARDOUS OPERATIONS 140001Z TO 202359Z MAY\n   IN AREA BOUND BY\n   49-13.0N 007-33.5W, 48-47.0N 008-52.2W,\n   49-13.0N 009-11.0W, 49-34.0N 009-11.0W,\n   50-40.0N 008-31.5W, 51-00.0N 008-31.5W,\n   51-00.0N 006-53.5W, 50-40.0N 006-53.5W,\n   49-58.0N 007-28.5W.\n2. CANCEL THIS MSG 210059Z MAY 21.",
+    "valid_from": "2021-05-13T18:44:00+00:00",
+    "valid_until": "2021-05-21T00:59:00+00:00",
+    "summary": null
   }
 }

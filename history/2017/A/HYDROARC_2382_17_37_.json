@@ -3,17 +3,23 @@
   "id": "HYDROARC 2382/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.128333333333333,
+      48.458333333333336
+    ]
   },
   "properties": {
     "dtg": "2017-08-02T01:39:00",
     "raw_dtg": "020139Z AUG 17",
     "msg_id": "HYDROARC 2382/17(37)",
-    "cancellations": [
-      "HYDROARC 2391/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nFRANCE.\nDNC 20.\nCHART 37050.\nPOINTE DE CREACH LIGHT 48-27.5N 005-07.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nFRANCE.\nDNC 20.\nCHART 37050.\nPOINTE DE CREACH LIGHT 48-27.5N 005-07.7W UNRELIABLE.",
+    "valid_from": "2017-08-02T01:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

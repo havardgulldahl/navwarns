@@ -3,17 +3,23 @@
   "id": "HYDROARC 2509/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.46,
+      53.93333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-08-03T12:28:00",
     "raw_dtg": "031228Z AUG 18",
     "msg_id": "HYDROARC 2509/18(36)",
-    "cancellations": [
-      "HYDROARC 2831/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nCHART 36025.\nDANGEROUS WRECK IN 53-56.0N 003-27.6W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nCHART 36025.\nDANGEROUS WRECK IN 53-56.0N 003-27.6W.",
+    "valid_from": "2018-08-03T12:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

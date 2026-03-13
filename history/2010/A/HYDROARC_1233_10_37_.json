@@ -3,17 +3,23 @@
   "id": "HYDROARC 1233/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5833333333333335,
+      50.86833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-07-01T02:31:00",
     "raw_dtg": "010231Z JUL 10",
     "msg_id": "HYDROARC 1233/10(37)",
-    "cancellations": [
-      "HYDROARC 1236/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNGA CHART 37120 (3RD ED).\nCAP GRIZ NEZ LIGHT 50-52.1N 001-35.0E UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNGA CHART 37120 (3RD ED).\nCAP GRIZ NEZ LIGHT 50-52.1N 001-35.0E UNLIT.",
+    "valid_from": "2010-07-01T02:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

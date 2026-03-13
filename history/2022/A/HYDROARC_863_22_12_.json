@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 863/22(12)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-03-26T00:33:00",
     "raw_dtg": "260033Z MAR 22",
     "msg_id": "HYDROARC 863/22(12)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 863/22"
+      "861/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nNORTH CAROLINA.\nDNC 17.\nCANCEL HYDROLANT 861/22 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nNORTH CAROLINA.\nDNC 17.\nCANCEL HYDROLANT 861/22 AND THIS MSG.",
+    "valid_from": "2022-03-26T00:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

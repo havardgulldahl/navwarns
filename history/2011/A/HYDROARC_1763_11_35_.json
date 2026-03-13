@@ -3,17 +3,23 @@
   "id": "HYDROARC 1763/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2716666666666667,
+      59.855
+    ]
   },
   "properties": {
     "dtg": "2011-10-26T00:16:00",
     "raw_dtg": "260016Z OCT 11",
     "msg_id": "HYDROARC 1763/11(35)",
-    "cancellations": [
-      "HYDROARC 1768/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nSHETLAND ISLANDS.\nSUMBURGH HEAD LIGHT 59-51.3N 001-16.3W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nSHETLAND ISLANDS.\nSUMBURGH HEAD LIGHT 59-51.3N 001-16.3W UNLIT.",
+    "valid_from": "2011-10-26T00:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

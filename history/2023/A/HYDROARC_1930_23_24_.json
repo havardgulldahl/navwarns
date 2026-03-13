@@ -12,12 +12,17 @@
     "dtg": "2023-08-29T03:21:00",
     "raw_dtg": "290321Z AUG 23",
     "msg_id": "HYDROARC 1930/23(24)",
+    "year": 2023,
     "cancellations": [
       "THIS MSG 150001Z FEB 24",
-      "HYDROARC 1930/23"
+      "1843/23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PAU CAVADO LIGHT 00-11.50N 050-47.24W\n   DAMAGED.\n2. CANCEL HYDROLANT 1843/23.\n3. CANCEL THIS MSG 150001Z FEB 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PAU CAVADO LIGHT 00-11.50N 050-47.24W\n   DAMAGED.\n2. CANCEL HYDROLANT 1843/23.\n3. CANCEL THIS MSG 150001Z FEB 24.",
+    "valid_from": "2023-08-29T03:21:00+00:00",
+    "valid_until": "2024-02-15T00:01:00+00:00",
+    "summary": null
   }
 }

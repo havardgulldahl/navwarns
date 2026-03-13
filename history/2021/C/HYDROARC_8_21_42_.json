@@ -3,17 +3,23 @@
   "id": "HYDROARC 8/21(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      45.27,
+      72.93166666666667
+    ]
   },
   "properties": {
     "dtg": "2021-01-15T17:37:00",
     "raw_dtg": "151737Z JAN 21",
     "msg_id": "HYDROARC 8/21(42)",
-    "cancellations": [
-      "HYDROARC 43/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nDNC 22.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE IN 72-55.9N 045-16.2E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nDNC 22.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE IN 72-55.9N 045-16.2E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2021-01-15T17:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

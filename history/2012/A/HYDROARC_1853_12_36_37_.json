@@ -3,17 +3,25 @@
   "id": "HYDROARC 1853/12(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.73,
+      49.68
+    ]
   },
   "properties": {
     "dtg": "2012-08-13T08:04:00",
     "raw_dtg": "130804Z AUG 12",
     "msg_id": "HYDROARC 1853/12(36,37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2603/12"
+      "1619/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN ENGLISH CHANNEL.\nCHART 36050\n1. SUBMERGED OBSTRUCTION VICINITY 49-40.8N 003-43.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1619/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN ENGLISH CHANNEL.\nCHART 36050\n1. SUBMERGED OBSTRUCTION VICINITY 49-40.8N 003-43.8W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1619/12.",
+    "valid_from": "2012-08-13T08:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

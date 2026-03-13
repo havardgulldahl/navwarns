@@ -3,17 +3,23 @@
   "id": "HYDROARC 1900/11(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -21.498333333333335,
+      14.985
+    ]
   },
   "properties": {
     "dtg": "2011-11-14T17:02:00",
     "raw_dtg": "141702Z NOV 11",
     "msg_id": "HYDROARC 1900/11(51)",
-    "cancellations": [
-      "HYDROARC 1950/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. CABLE REPAIR OPERATIONS 16 THRU 23 NOV\n   BY CABLESHIP ILE DE BREHAT\n   IN 14-59.1N 021-29.9W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 NOV."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. CABLE REPAIR OPERATIONS 16 THRU 23 NOV\n   BY CABLESHIP ILE DE BREHAT\n   IN 14-59.1N 021-29.9W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 NOV.",
+    "valid_from": "2011-11-14T17:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

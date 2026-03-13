@@ -3,18 +3,25 @@
   "id": "HYDROARC 328/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.086666666666667,
+      46.93666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-02-05T21:35:00",
     "raw_dtg": "052135Z FEB 13",
     "msg_id": "HYDROARC 328/13(37)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 082135Z FEB 13",
-      "HYDROARC 328/13"
+      "THIS MSG 082135Z FEB 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. NUMEROUS CONTAINERS ADRIFT ALONG TRACKLINE BETWEEN\n   46-56.2N 007-05.2W AND 48-57.7N 005-06.4W.\n2. CANCEL THIS MSG 082135Z FEB 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. NUMEROUS CONTAINERS ADRIFT ALONG TRACKLINE BETWEEN\n   46-56.2N 007-05.2W AND 48-57.7N 005-06.4W.\n2. CANCEL THIS MSG 082135Z FEB 13.",
+    "valid_from": "2013-02-05T21:35:00+00:00",
+    "valid_until": "2013-02-08T21:35:00+00:00",
+    "summary": null
   }
 }

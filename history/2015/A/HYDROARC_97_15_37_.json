@@ -3,17 +3,23 @@
   "id": "HYDROARC 97/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.9700000000000002,
+      53.568333333333335
+    ]
   },
   "properties": {
     "dtg": "2015-01-12T11:12:00",
     "raw_dtg": "121112Z JAN 15",
     "msg_id": "HYDROARC 97/15(37)",
-    "cancellations": [
-      "HYDROARC 180/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nAUDREY GAS FIELD.\nDNC 20.\nCHART 37057.\nALL NAVIGATIONAL AIDS AT PLATFORM 48/15B-PXW,\n53-34.1N 001-58.2E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nAUDREY GAS FIELD.\nDNC 20.\nCHART 37057.\nALL NAVIGATIONAL AIDS AT PLATFORM 48/15B-PXW,\n53-34.1N 001-58.2E INOPERATIVE.",
+    "valid_from": "2015-01-12T11:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

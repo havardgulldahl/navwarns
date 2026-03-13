@@ -3,18 +3,25 @@
   "id": "HYDROARC 400/19(54,56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      29.503333333333334,
+      33.96
+    ]
   },
   "properties": {
     "dtg": "2019-02-06T12:31:00",
     "raw_dtg": "061231Z FEB 19",
     "msg_id": "HYDROARC 400/19(54,56)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 091231Z FEB 19",
-      "HYDROARC 400/19"
+      "THIS MSG 091231Z FEB 19"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   33-57.6N 029-30.2E AT 051500Z FEB.\n2. CANCEL THIS MSG 091231Z FEB 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. DERELICT VESSEL ADRIFT IN VICINITY\n   33-57.6N 029-30.2E AT 051500Z FEB.\n2. CANCEL THIS MSG 091231Z FEB 19.",
+    "valid_from": "2019-02-06T12:31:00+00:00",
+    "valid_until": "2019-02-09T12:31:00+00:00",
+    "summary": null
   }
 }

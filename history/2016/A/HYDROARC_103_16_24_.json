@@ -5,19 +5,23 @@
     "type": "Point",
     "coordinates": [
       -39.633833333333335,
-      -55.45
+      -19.924166666666668
     ]
   },
   "properties": {
     "dtg": "2016-01-13T02:22:00",
     "raw_dtg": "130222Z JAN 16",
     "msg_id": "HYDROARC 103/16(24)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 152000Z JAN 16",
-      "HYDROARC 103/16"
+      "THIS MSG 152000Z JAN 16"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 140900Z TO 151900Z JAN\n   WITHIN THREE MILES OF 19-55-27.00S 039-38.03W.\n2. CANCEL THIS MSG 152000Z JAN 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 140900Z TO 151900Z JAN\n   WITHIN THREE MILES OF 19-55-27.00S 039-38.03W.\n2. CANCEL THIS MSG 152000Z JAN 16.",
+    "valid_from": "2016-01-13T02:22:00+00:00",
+    "valid_until": "2016-01-15T20:00:00+00:00",
+    "summary": null
   }
 }

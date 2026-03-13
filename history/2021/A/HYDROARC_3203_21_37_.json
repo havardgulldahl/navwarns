@@ -3,17 +3,23 @@
   "id": "HYDROARC 3203/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.49333333333333335,
+      53.60666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-12-30T22:41:00",
     "raw_dtg": "302241Z DEC 21",
     "msg_id": "HYDROARC 3203/21(37)",
-    "cancellations": [
-      "HYDROARC 135/22"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nOUTER SAND BUOY 53-36.4N 000-29.6E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nOUTER SAND BUOY 53-36.4N 000-29.6E UNLIT.",
+    "valid_from": "2021-12-30T22:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

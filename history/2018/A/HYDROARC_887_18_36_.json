@@ -3,17 +3,23 @@
   "id": "HYDROARC 887/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.513333333333334,
+      54.69833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-03-13T16:28:00",
     "raw_dtg": "131628Z MAR 18",
     "msg_id": "HYDROARC 887/18(36)",
-    "cancellations": [
-      "HYDROARC 27/19"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nCHART 36006.\nMEW ISLAND 54-41.9N 005-30.8W CHANGED TO:\nFFL (4) W 30 SEC 35 METERS 18 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nCHART 36006.\nMEW ISLAND 54-41.9N 005-30.8W CHANGED TO:\nFFL (4) W 30 SEC 35 METERS 18 MILES.",
+    "valid_from": "2018-03-13T16:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

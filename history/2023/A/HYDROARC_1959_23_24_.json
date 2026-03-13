@@ -12,12 +12,16 @@
     "dtg": "2023-09-01T05:42:00",
     "raw_dtg": "010542Z SEP 23",
     "msg_id": "HYDROARC 1959/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 280001Z FEB 24",
-      "HYDROARC 1959/23"
+      "THIS MSG 280001Z FEB 24"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA TIJOCA LIGHT 00-33.44S 047-53.85W DAMAGED\n   AND UNLIT UNTIL 27 FEB 24.\n2. CANCEL THIS MSG 280001Z FEB 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA TIJOCA LIGHT 00-33.44S 047-53.85W DAMAGED\n   AND UNLIT UNTIL 27 FEB 24.\n2. CANCEL THIS MSG 280001Z FEB 24.",
+    "valid_from": "2023-09-01T05:42:00+00:00",
+    "valid_until": "2024-02-28T00:01:00+00:00",
+    "summary": null
   }
 }

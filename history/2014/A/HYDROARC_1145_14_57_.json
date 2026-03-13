@@ -3,17 +3,23 @@
   "id": "HYDROARC 1145/14(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      15.836666666666666,
+      -28.443333333333335
+    ]
   },
   "properties": {
     "dtg": "2014-05-05T19:33:00",
     "raw_dtg": "051933Z MAY 14",
     "msg_id": "HYDROARC 1145/14(57)",
-    "cancellations": [
-      "HYDROARC 1871/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "scientific mooring",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nCHART 57420\nMOORING GEAR MARKED BY ORANGE BUOY\nIN 28-26.6S 015-50.2E.\nTWO MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nCHART 57420\nMOORING GEAR MARKED BY ORANGE BUOY\nIN 28-26.6S 015-50.2E.\nTWO MILE BERTH REQUESTED.",
+    "valid_from": "2014-05-05T19:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

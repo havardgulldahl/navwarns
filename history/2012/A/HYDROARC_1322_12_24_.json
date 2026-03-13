@@ -3,17 +3,23 @@
   "id": "HYDROARC 1322/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -51.16833333333334,
+      5.835
+    ]
   },
   "properties": {
     "dtg": "2012-06-18T23:40:00",
     "raw_dtg": "182340Z JUN 12",
     "msg_id": "HYDROARC 1322/12(24)",
-    "cancellations": [
-      "HYDROARC 3061/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nCHART 24350\nNAVIGATION PROHIBITED WITHIN 500 METERS\nOF M/V STENA ICE MAX 05-50.1N 051-10.1W.\nTWO MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nCHART 24350\nNAVIGATION PROHIBITED WITHIN 500 METERS\nOF M/V STENA ICE MAX 05-50.1N 051-10.1W.\nTWO MILE BERTH REQUESTED.",
+    "valid_from": "2012-06-18T23:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

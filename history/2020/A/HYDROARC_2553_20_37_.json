@@ -3,17 +3,23 @@
   "id": "HYDROARC 2553/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.105,
+      50.18833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-08-18T13:38:00",
     "raw_dtg": "181338Z AUG 20",
     "msg_id": "HYDROARC 2553/20(37)",
-    "cancellations": [
-      "HYDROARC 2557/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFISHING GEAR, MARKED BY BUOY, ABANDONED\nIN VICINITY 50-11.3N 004-06.3W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFISHING GEAR, MARKED BY BUOY, ABANDONED\nIN VICINITY 50-11.3N 004-06.3W.",
+    "valid_from": "2020-08-18T13:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

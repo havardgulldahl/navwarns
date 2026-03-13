@@ -3,17 +3,23 @@
   "id": "HYDROARC 394/19(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.318333333333335,
+      20.608333333333334
+    ]
   },
   "properties": {
     "dtg": "2019-02-06T08:55:00",
     "raw_dtg": "060855Z FEB 19",
     "msg_id": "HYDROARC 394/19(51)",
-    "cancellations": [
-      "HYDROARC 455/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nDNC 01.\nSEARCH AND RESCUE OPERATIONS IN VICINITY\n20-36.5N 017-19.1W.\nCAUTION ADVISED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nDNC 01.\nSEARCH AND RESCUE OPERATIONS IN VICINITY\n20-36.5N 017-19.1W.\nCAUTION ADVISED.",
+    "valid_from": "2019-02-06T08:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

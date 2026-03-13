@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2522/15(51)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-10-09T18:59:00",
     "raw_dtg": "091859Z OCT 15",
     "msg_id": "HYDROARC 2522/15(51)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2522/15"
+      "2521/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nWESTERN SAHARA.\nDNC 01.\nCANCEL HYDROLANT 2521/15 AND THIS MSG, SEARCH SUSPENDED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nWESTERN SAHARA.\nDNC 01.\nCANCEL HYDROLANT 2521/15 AND THIS MSG, SEARCH SUSPENDED.",
+    "valid_from": "2015-10-09T18:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1576/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.095,
+      55.87166666666667
+    ]
   },
   "properties": {
     "dtg": "2014-06-27T09:57:00",
     "raw_dtg": "270957Z JUN 14",
     "msg_id": "HYDROARC 1576/14(35)",
-    "cancellations": [
-      "HYDROARC 1587/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nSEA OF THE HEBRIDES.\nCHART 35118\nCARRAGH AN T'STRUITH LIGHT 55-52.3N 006-05.7W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nSEA OF THE HEBRIDES.\nCHART 35118\nCARRAGH AN T'STRUITH LIGHT 55-52.3N 006-05.7W UNLIT.",
+    "valid_from": "2014-06-27T09:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

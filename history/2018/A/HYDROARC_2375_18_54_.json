@@ -3,17 +3,23 @@
   "id": "HYDROARC 2375/18(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      23.578333333333333,
+      35.64833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-07-22T20:56:00",
     "raw_dtg": "222056Z JUL 18",
     "msg_id": "HYDROARC 2375/18(54)",
-    "cancellations": [
-      "HYDROARC 27/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\nCHART 54300.\nNISIS AGRIA GRAMVOUSA LIGHT 35-38.9N 023-34.7E UNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\nCHART 54300.\nNISIS AGRIA GRAMVOUSA LIGHT 35-38.9N 023-34.7E UNLIT.",
+    "valid_from": "2018-07-22T20:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

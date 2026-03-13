@@ -3,17 +3,23 @@
   "id": "HYDROARC 509/15(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -62.75833333333333,
+      24.618333333333332
+    ]
   },
   "properties": {
     "dtg": "2015-03-02T05:56:00",
     "raw_dtg": "020556Z MAR 15",
     "msg_id": "HYDROARC 509/15(25)",
-    "cancellations": [
-      "HYDROARC 606/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDNC 16.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 24-37.1N 062-45.5W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041, E-MAIL: SSJCC@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDNC 16.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 24-37.1N 062-45.5W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041, E-MAIL: SSJCC@USCG.MIL.",
+    "valid_from": "2015-03-02T05:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

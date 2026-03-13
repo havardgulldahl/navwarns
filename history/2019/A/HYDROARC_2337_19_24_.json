@@ -3,18 +3,25 @@
   "id": "HYDROARC 2337/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.135,
+      -30.01
+    ]
   },
   "properties": {
     "dtg": "2019-07-30T21:16:00",
     "raw_dtg": "302116Z JUL 19",
     "msg_id": "HYDROARC 2337/19(24)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 261653Z JAN 20",
-      "HYDROARC 2713/19"
+      "THIS MSG 261653Z JAN 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24110.\n1. RADIOBEACON AT TRAMANDAI LIGHT\n   30-00.6S 050-08.1W INOPERATIVE.\n2. CANCEL THIS MSG 261653Z JAN 20."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24110.\n1. RADIOBEACON AT TRAMANDAI LIGHT\n   30-00.6S 050-08.1W INOPERATIVE.\n2. CANCEL THIS MSG 261653Z JAN 20.",
+    "valid_from": "2019-07-30T21:16:00+00:00",
+    "valid_until": "2020-01-26T16:53:00+00:00",
+    "summary": null
   }
 }

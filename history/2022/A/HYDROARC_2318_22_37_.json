@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 2318/22(37)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         -6.0,
@@ -22,12 +22,16 @@
     "dtg": "2022-09-14T12:59:00",
     "raw_dtg": "141259Z SEP 22",
     "msg_id": "HYDROARC 2318/22(37)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 210001Z OCT 22",
-      "HYDROARC 2318/22"
+      "THIS MSG 210001Z OCT 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. SURVEY OPERATIONS 15 SEPT THRU 20 OCT\n   BY M/V THLASSA IN VICINITY OF TRACKLINE JOINING\n   48-30.00N 006-00.00W, 49-55.00N 002-00.00W,\n   51-00.00N 002-00.00E.\n   WIDE BERTH REQUESTED\n2. CANCEL THIS MSG 210001Z OCT 22."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. SURVEY OPERATIONS 15 SEPT THRU 20 OCT\n   BY M/V THLASSA IN VICINITY OF TRACKLINE JOINING\n   48-30.00N 006-00.00W, 49-55.00N 002-00.00W,\n   51-00.00N 002-00.00E.\n   WIDE BERTH REQUESTED\n2. CANCEL THIS MSG 210001Z OCT 22.",
+    "valid_from": "2022-09-14T12:59:00+00:00",
+    "valid_until": "2022-10-21T00:01:00+00:00",
+    "summary": null
   }
 }

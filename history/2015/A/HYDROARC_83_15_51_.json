@@ -3,17 +3,23 @@
   "id": "HYDROARC 83/15(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.25,
+      13.18
+    ]
   },
   "properties": {
     "dtg": "2015-01-11T05:55:00",
     "raw_dtg": "110555Z JAN 15",
     "msg_id": "HYDROARC 83/15(51)",
-    "cancellations": [
-      "HYDROARC 86/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nCANOE IBRAHIM CISS, YELLOW HULL, DISABLED AND ADRIFT\nDUE TO ENGINE TROUBLE IN 13-10.8N 017-15.0W ON 06 JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC DAKAR,\nPHONE: 2213 3826 5001, FAX: 2213 3826 5000,\nE-MAIL: MARINENAT@ORANGE.SN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nCANOE IBRAHIM CISS, YELLOW HULL, DISABLED AND ADRIFT\nDUE TO ENGINE TROUBLE IN 13-10.8N 017-15.0W ON 06 JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO MRCC DAKAR,\nPHONE: 2213 3826 5001, FAX: 2213 3826 5000,\nE-MAIL: MARINENAT@ORANGE.SN.",
+    "valid_from": "2015-01-11T05:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

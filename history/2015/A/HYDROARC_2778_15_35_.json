@@ -3,17 +3,23 @@
   "id": "HYDROARC 2778/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6083333333333334,
+      55.64333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-11-12T16:08:00",
     "raw_dtg": "121608Z NOV 15",
     "msg_id": "HYDROARC 2778/15(35)",
-    "cancellations": [
-      "HYDROARC 2778/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35010.\nLONGSTONE LIGHTSHIP 55-38.6N 001-36.5W LIGHT UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35010.\nLONGSTONE LIGHTSHIP 55-38.6N 001-36.5W LIGHT UNRELIABLE.",
+    "valid_from": "2015-11-12T16:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 1121/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.3449999999999998,
+      49.43666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-05-01T10:49:00",
     "raw_dtg": "011049Z MAY 14",
     "msg_id": "HYDROARC 1121/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 020059Z MAY 14",
-      "HYDROARC 1121/14"
+      "THIS MSG 020059Z MAY 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nCHART 37080\n1. POINT ROBERT LIGHT 49-26.2N 002-20.7W\n   UNRELIABLE 011800Z TO 012359Z MAY.\n2. CANCEL THIS MSG 020059Z MAY 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nCHART 37080\n1. POINT ROBERT LIGHT 49-26.2N 002-20.7W\n   UNRELIABLE 011800Z TO 012359Z MAY.\n2. CANCEL THIS MSG 020059Z MAY 14.",
+    "valid_from": "2014-05-01T10:49:00+00:00",
+    "valid_until": "2014-05-02T00:59:00+00:00",
+    "summary": null
   }
 }

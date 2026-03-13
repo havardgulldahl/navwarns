@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2376/21(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-09-21T18:38:00",
     "raw_dtg": "211838Z SEP 21",
     "msg_id": "HYDROARC 2376/21(54)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 2376/21"
+      "2371/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ADRIATIC SEA.\nITALY.\nDNC 09.\nCANCEL HYDROLANT 2371/21 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ADRIATIC SEA.\nITALY.\nDNC 09.\nCANCEL HYDROLANT 2371/21 AND THIS MSG.",
+    "valid_from": "2021-09-21T18:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

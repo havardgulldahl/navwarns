@@ -3,17 +3,23 @@
   "id": "HYDROARC 2823/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.31,
+      60.635
+    ]
   },
   "properties": {
     "dtg": "2012-11-30T22:40:00",
     "raw_dtg": "302240Z NOV 12",
     "msg_id": "HYDROARC 2823/12(35)",
-    "cancellations": [
-      "HYDROARC 2836/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nCHART 35066\nPOINT OF FETHALAND LIGHT 60-38.1N 001-18.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nCHART 35066\nPOINT OF FETHALAND LIGHT 60-38.1N 001-18.6W UNRELIABLE.",
+    "valid_from": "2012-11-30T22:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

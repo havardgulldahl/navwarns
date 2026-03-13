@@ -3,17 +3,25 @@
   "id": "HYDROARC 2003/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.985,
+      53.178333333333335
+    ]
   },
   "properties": {
     "dtg": "2020-06-19T18:49:00",
     "raw_dtg": "191849Z JUN 20",
     "msg_id": "HYDROARC 2003/20(37)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 2402/20"
+      "1580/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. LIGHT AT MAST 53-10.7N 002-59.1E UNRELIABLE.\n2. CANCEL HYDROLANT 1580/20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\n1. LIGHT AT MAST 53-10.7N 002-59.1E UNRELIABLE.\n2. CANCEL HYDROLANT 1580/20.",
+    "valid_from": "2020-06-19T18:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

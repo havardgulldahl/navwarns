@@ -3,17 +3,23 @@
   "id": "HYDROARC 3071/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.9516666666666667,
+      50.66833333333334
+    ]
   },
   "properties": {
     "dtg": "2012-12-28T22:37:00",
     "raw_dtg": "282237Z DEC 12",
     "msg_id": "HYDROARC 3071/12(37)",
-    "cancellations": [
-      "HYDROARC 3073/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nCHART 37017\nNAB LIGHT 50-40.1N 000-57.1W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nCHART 37017\nNAB LIGHT 50-40.1N 000-57.1W UNLIT.",
+    "valid_from": "2012-12-28T22:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

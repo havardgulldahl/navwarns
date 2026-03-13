@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 851/13(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -45.31916666666667,
-        -25.375
-      ],
-      [
-        -44.83,
-        -25.375
-      ],
-      [
-        -44.82866666666666,
-        -26.23
-      ],
-      [
-        -45.321666666666665,
-        -26.23
+        [
+          -45.31916666666667,
+          -25.375
+        ],
+        [
+          -44.83,
+          -25.375
+        ],
+        [
+          -44.82866666666666,
+          -26.23
+        ],
+        [
+          -45.321666666666665,
+          -26.23
+        ],
+        [
+          -45.31916666666667,
+          -25.375
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2013-04-04T00:40:00",
     "raw_dtg": "040040Z APR 13",
     "msg_id": "HYDROARC 851/13(24)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 130359Z APR 13",
-      "HYDROARC 851/13"
+      "THIS MSG 130359Z APR 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY 060300Z TO 130259Z APR\n   BY M/V RAMFORM SOVERIGN TOWING 12 FIVE MILE LONG\n   CABLES IN AREA BOUND BY\n   25-22.50S 045-19.15W, 25-22.50S 044-49.80W,\n   26-13.80S 044-49.72W, 26-13.80S 045-19.30W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 130359Z APR 13."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY 060300Z TO 130259Z APR\n   BY M/V RAMFORM SOVERIGN TOWING 12 FIVE MILE LONG\n   CABLES IN AREA BOUND BY\n   25-22.50S 045-19.15W, 25-22.50S 044-49.80W,\n   26-13.80S 044-49.72W, 26-13.80S 045-19.30W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 130359Z APR 13.",
+    "valid_from": "2013-04-04T00:40:00+00:00",
+    "valid_until": "2013-04-13T03:59:00+00:00",
+    "summary": null
   }
 }

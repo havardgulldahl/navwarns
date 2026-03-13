@@ -12,12 +12,16 @@
     "dtg": "2023-05-04T17:14:00",
     "raw_dtg": "041714Z MAY 23",
     "msg_id": "HYDROARC 967/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 010001Z NOV 23",
-      "HYDROARC 1035/23"
+      "THIS MSG 010001Z NOV 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA PECEM LIGHT 03-33.00S 038-49.10W\n   UNLIT UNTIL 31 OCT.\n2. CANCEL THIS MSG 010001Z NOV 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA PECEM LIGHT 03-33.00S 038-49.10W\n   UNLIT UNTIL 31 OCT.\n2. CANCEL THIS MSG 010001Z NOV 23.",
+    "valid_from": "2023-05-04T17:14:00+00:00",
+    "valid_until": "2023-11-01T00:01:00+00:00",
+    "summary": null
   }
 }

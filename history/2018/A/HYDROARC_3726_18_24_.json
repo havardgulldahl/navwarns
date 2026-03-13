@@ -3,17 +3,25 @@
   "id": "HYDROARC 3726/18(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -34.81166666666667,
+      -7.628333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-11-30T01:26:00",
     "raw_dtg": "300126Z NOV 18",
     "msg_id": "HYDROARC 3726/18(24)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3823/18"
+      "THIS MSG 29 MAY 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24210.\n1. PONTA DE PEDRAS LIGHT 07-37.7S 034-48.7W\n   TEMPORARILY REMOVED.\n2. CANCEL THIS MSG 29 MAY 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24210.\n1. PONTA DE PEDRAS LIGHT 07-37.7S 034-48.7W\n   TEMPORARILY REMOVED.\n2. CANCEL THIS MSG 29 MAY 19.",
+    "valid_from": "2018-11-30T01:26:00+00:00",
+    "valid_until": "2019-05-29T00:00:00+00:00",
+    "summary": null
   }
 }

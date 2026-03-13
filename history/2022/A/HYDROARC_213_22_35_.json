@@ -3,17 +3,23 @@
   "id": "HYDROARC 213/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.6099999999999999,
+      59.55166666666667
+    ]
   },
   "properties": {
     "dtg": "2022-01-23T05:33:00",
     "raw_dtg": "230533Z JAN 22",
     "msg_id": "HYDROARC 213/22(35)",
-    "cancellations": [
-      "HYDROARC 219/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nSKROO LIGHT 59-33.1N 001-36.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nSKROO LIGHT 59-33.1N 001-36.6W UNRELIABLE.",
+    "valid_from": "2022-01-23T05:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

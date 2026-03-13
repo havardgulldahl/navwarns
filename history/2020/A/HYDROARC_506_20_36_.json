@@ -3,17 +3,23 @@
   "id": "HYDROARC 506/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.4,
+      51.23833333333334
+    ]
   },
   "properties": {
     "dtg": "2020-02-12T11:36:00",
     "raw_dtg": "121136Z FEB 20",
     "msg_id": "HYDROARC 506/20(36)",
-    "cancellations": [
-      "HYDROARC 548/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP ILE D'AIX IN VICINITY\n51-14.3N 003-24.0W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP ILE D'AIX IN VICINITY\n51-14.3N 003-24.0W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2020-02-12T11:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

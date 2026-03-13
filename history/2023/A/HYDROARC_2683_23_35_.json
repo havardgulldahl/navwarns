@@ -12,9 +12,16 @@
     "dtg": "2023-11-21T19:58:00",
     "raw_dtg": "211958Z NOV 23",
     "msg_id": "HYDROARC 2683/23(35)",
-    "cancellations": [],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\n1. TARF LIGHT 58-44.30N 003-04.20W UNLIT.\n2. CANCEL HYDROLANT 2676/23."
+    "year": 2023,
+    "cancellations": [
+      "2676/23"
+    ],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\n1. TARF LIGHT 58-44.30N 003-04.20W UNLIT.\n2. CANCEL HYDROLANT 2676/23.",
+    "valid_from": "2023-11-21T19:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 774/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.6216666666666666,
+      53.23166666666667
+    ]
   },
   "properties": {
     "dtg": "2021-03-19T02:49:00",
     "raw_dtg": "190249Z MAR 21",
     "msg_id": "HYDROARC 774/21(37)",
-    "cancellations": [
-      "HYDROARC 1199/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT PLATFORM 49/24, 53-13.9N 002-37.3E\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT PLATFORM 49/24, 53-13.9N 002-37.3E\nINOPERATIVE.",
+    "valid_from": "2021-03-19T02:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 3864/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.261666666666667,
+      58.515
+    ]
   },
   "properties": {
     "dtg": "2017-11-30T01:20:00",
     "raw_dtg": "300120Z NOV 17",
     "msg_id": "HYDROARC 3864/17(35)",
-    "cancellations": [
-      "HYDROARC 3872/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19, DNC 20.\nCHART 35073.\nDGPS STATION AT BUTT OF LEWIS LIGHT\n58-30.9N 006-15.7W OFF AIR 300930Z NOV UNTIL\nFURTHER NOTICE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19, DNC 20.\nCHART 35073.\nDGPS STATION AT BUTT OF LEWIS LIGHT\n58-30.9N 006-15.7W OFF AIR 300930Z NOV UNTIL\nFURTHER NOTICE.",
+    "valid_from": "2017-11-30T01:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

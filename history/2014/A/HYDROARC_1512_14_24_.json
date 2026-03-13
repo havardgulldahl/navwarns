@@ -3,17 +3,23 @@
   "id": "HYDROARC 1512/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.49166666666667,
+      -4.778333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-06-19T00:31:00",
     "raw_dtg": "190031Z JUN 14",
     "msg_id": "HYDROARC 1512/14(24)",
-    "cancellations": [
-      "HYDROARC 1602/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nMAN OVERBOARD IN 04-46.7S 035-29.5W AT 181957Z JUN.\nVESSELS IN VICINITY REQUESTED KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nMAN OVERBOARD IN 04-46.7S 035-29.5W AT 181957Z JUN.\nVESSELS IN VICINITY REQUESTED KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2014-06-19T00:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

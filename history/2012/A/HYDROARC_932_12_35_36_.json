@@ -3,17 +3,23 @@
   "id": "HYDROARC 932/12(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.035,
+      50.54833333333333
+    ]
   },
   "properties": {
     "dtg": "2012-05-02T15:53:00",
     "raw_dtg": "021553Z MAY 12",
     "msg_id": "HYDROARC 932/12(35,36)",
-    "cancellations": [
-      "HYDROARC 1786/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 35024\nFOG SIGNAL AT TREVOSE HEAD LIGHT 50-32.9N 005-02.1W DISCONTINUED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 35024\nFOG SIGNAL AT TREVOSE HEAD LIGHT 50-32.9N 005-02.1W DISCONTINUED.",
+    "valid_from": "2012-05-02T15:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

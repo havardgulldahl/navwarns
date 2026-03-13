@@ -3,18 +3,25 @@
   "id": "HYDROARC 2620/18(27)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -83.53666666666666,
+      22.920333333333332
+    ]
   },
   "properties": {
     "dtg": "2018-08-16T15:43:00",
     "raw_dtg": "161543Z AUG 18",
     "msg_id": "HYDROARC 2620/18(27)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 191543Z AUG 18",
-      "HYDROARC 2620/18"
+      "THIS MSG 191543Z AUG 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nCUBA.\nDNC 15.\n1. DERELICT TUG ADRIFT IN 22-55.22N 083-32.2W.\n   VESSELS IN VICINITY REQUESTED TO KEEP A SHARP\n   LOOKOUT. REPORTS TO RCC MIAMI,\n   PHONE: 305 415 6800,\n   E-MAIL: RCCMIAMI@USCG.MIL.\n2. CANCEL THIS MSG 191543Z AUG 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nCUBA.\nDNC 15.\n1. DERELICT TUG ADRIFT IN 22-55.22N 083-32.2W.\n   VESSELS IN VICINITY REQUESTED TO KEEP A SHARP\n   LOOKOUT. REPORTS TO RCC MIAMI,\n   PHONE: 305 415 6800,\n   E-MAIL: RCCMIAMI@USCG.MIL.\n2. CANCEL THIS MSG 191543Z AUG 18.",
+    "valid_from": "2018-08-16T15:43:00+00:00",
+    "valid_until": "2018-08-19T15:43:00+00:00",
+    "summary": null
   }
 }

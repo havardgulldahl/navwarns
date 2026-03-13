@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 396/12(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-02-20T17:35:00",
     "raw_dtg": "201735Z FEB 12",
     "msg_id": "HYDROARC 396/12(35)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 396/12"
+      "390/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nFAIR ISLE.\nCANCEL HYDROLANT 390/12 AND THIS MSG,\nAID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nFAIR ISLE.\nCANCEL HYDROLANT 390/12 AND THIS MSG,\nAID RESTORED.",
+    "valid_from": "2012-02-20T17:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

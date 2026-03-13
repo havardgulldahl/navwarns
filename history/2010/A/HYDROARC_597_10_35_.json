@@ -3,17 +3,23 @@
   "id": "HYDROARC 597/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.113333333333333,
+      56.32333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-04-06T00:05:00",
     "raw_dtg": "060005Z APR 10",
     "msg_id": "HYDROARC 597/10(35)",
-    "cancellations": [
-      "HYDROARC 619/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35106 (2ND ED).\nRACON AT SKERRYVORE LIGHT 56-19.4N 007-06.8W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nNGA CHART 35106 (2ND ED).\nRACON AT SKERRYVORE LIGHT 56-19.4N 007-06.8W INOPERATIVE.",
+    "valid_from": "2010-04-06T00:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

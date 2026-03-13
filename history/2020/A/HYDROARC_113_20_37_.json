@@ -3,18 +3,25 @@
   "id": "HYDROARC 113/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.8016666666666667,
+      49.735
+    ]
   },
   "properties": {
     "dtg": "2020-01-13T16:03:00",
     "raw_dtg": "131603Z JAN 20",
     "msg_id": "HYDROARC 113/20(37)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 161540Z JAN 20",
-      "HYDROARC 113/20"
+      "THIS MSG 161540Z JAN 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\n1. LIGHT-BUOY ADRIFT IN VICINITY 49-44.1N 002-48.1W\n   AT 130950Z JAN.\n2. CANCEL THIS MSG 161540Z JAN 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\n1. LIGHT-BUOY ADRIFT IN VICINITY 49-44.1N 002-48.1W\n   AT 130950Z JAN.\n2. CANCEL THIS MSG 161540Z JAN 20.",
+    "valid_from": "2020-01-13T16:03:00+00:00",
+    "valid_until": "2020-01-16T15:40:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 2140/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.37,
+      50.66166666666667
+    ]
   },
   "properties": {
     "dtg": "2013-09-02T15:10:00",
     "raw_dtg": "021510Z SEP 13",
     "msg_id": "HYDROARC 2140/13(37)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2543/13"
+      "2081/13"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "DOVER STRAIT.\nCHART 37115\n1. RACON AT VERGOYER NORD BUOY 50-39.7N 001-22.2E INOPERATIVE.\n2. CANCEL HYDROLANT 2081/13, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nCHART 37115\n1. RACON AT VERGOYER NORD BUOY 50-39.7N 001-22.2E INOPERATIVE.\n2. CANCEL HYDROLANT 2081/13, AID RESTORED.",
+    "valid_from": "2013-09-02T15:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

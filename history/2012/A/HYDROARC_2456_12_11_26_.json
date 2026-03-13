@@ -3,17 +3,23 @@
   "id": "HYDROARC 2456/12(11,26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -79.37833333333333,
+      23.846666666666668
+    ]
   },
   "properties": {
     "dtg": "2012-10-21T06:03:00",
     "raw_dtg": "210603Z OCT 12",
     "msg_id": "HYDROARC 2456/12(11,26)",
-    "cancellations": [
-      "HYDROARC 2466/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "STRAITS OF FLORIDA.\nGREAT BAHAMA BANK.\nMAN OVERBOARD FROM M/V CARNIVAL DESTINY IN 23-50.8N 079-22.7W\nAT 210434Z OCT. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IS POSSIBLE.\nREPORTS TO U.S. COAST GUARD RCC MIAMI,\nPHONE: 305 615 4800, E-MAIL: RCCMIAMI@USCG.MIL."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "shoals",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAITS OF FLORIDA.\nGREAT BAHAMA BANK.\nMAN OVERBOARD FROM M/V CARNIVAL DESTINY IN 23-50.8N 079-22.7W\nAT 210434Z OCT. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IS POSSIBLE.\nREPORTS TO U.S. COAST GUARD RCC MIAMI,\nPHONE: 305 615 4800, E-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2012-10-21T06:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

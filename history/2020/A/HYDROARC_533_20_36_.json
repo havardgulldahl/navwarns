@@ -3,18 +3,26 @@
   "id": "HYDROARC 533/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.158333333333333,
+      49.75
+    ]
   },
   "properties": {
     "dtg": "2020-02-14T14:17:00",
     "raw_dtg": "141417Z FEB 20",
     "msg_id": "HYDROARC 533/20(36)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 171417Z FEB 20",
-      "HYDROARC 533/20"
+      "503/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nDNC 19.\n1. ODAS BUOY K1, ADRIFT IN 49-45.0N 007-09.5W\n   AT 140800Z FEB.\n2. CANCEL HYDROLANT 503/20.\n3. CANCEL THIS MSG 171417Z FEB 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nDNC 19.\n1. ODAS BUOY K1, ADRIFT IN 49-45.0N 007-09.5W\n   AT 140800Z FEB.\n2. CANCEL HYDROLANT 503/20.\n3. CANCEL THIS MSG 171417Z FEB 20.",
+    "valid_from": "2020-02-14T14:17:00+00:00",
+    "valid_until": "2020-02-17T14:17:00+00:00",
+    "summary": null
   }
 }

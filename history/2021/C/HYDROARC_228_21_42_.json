@@ -3,18 +3,25 @@
   "id": "HYDROARC 228/21(42)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.71,
+      69.96166666666667
+    ]
   },
   "properties": {
     "dtg": "2021-09-13T18:34:00",
     "raw_dtg": "131834Z SEP 21",
     "msg_id": "HYDROARC 228/21(42)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 161834Z SEP 21",
-      "HYDROARC 229/21"
+      "THIS MSG 161834Z SEP 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. LIFERAFT ADRIFT IN 69-57.7N 003-42.6E\n   AT 121400Z SEP.\n2. CANCEL THIS MSG 161834Z SEP 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. LIFERAFT ADRIFT IN 69-57.7N 003-42.6E\n   AT 121400Z SEP.\n2. CANCEL THIS MSG 161834Z SEP 21.",
+    "valid_from": "2021-09-13T18:34:00+00:00",
+    "valid_until": "2021-09-16T18:34:00+00:00",
+    "summary": null
   }
 }

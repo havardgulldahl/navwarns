@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2196/13(35,43)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-09-08T01:05:00",
     "raw_dtg": "080105Z SEP 13",
     "msg_id": "HYDROARC 2196/13(35,43)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2196/13"
+      "2195/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nRADIO SERVICES.\nCANCEL HYDROLANT 2195/13 AND THIS MSG, SERVICE RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nRADIO SERVICES.\nCANCEL HYDROLANT 2195/13 AND THIS MSG, SERVICE RESTORED.",
+    "valid_from": "2013-09-08T01:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

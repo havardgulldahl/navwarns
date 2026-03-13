@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 963/18(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2018-03-21T20:29:00",
     "raw_dtg": "212029Z MAR 18",
     "msg_id": "HYDROARC 963/18(35)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 963/18"
+      "777/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCANCEL HYDROLANT 777/18 AND THIS MSG,\nSTATION RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCANCEL HYDROLANT 777/18 AND THIS MSG,\nSTATION RESTORED.",
+    "valid_from": "2018-03-21T20:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

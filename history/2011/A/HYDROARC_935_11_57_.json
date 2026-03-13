@@ -3,17 +3,23 @@
   "id": "HYDROARC 935/11(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.033333333333333,
+      -7.368333333333333
+    ]
   },
   "properties": {
     "dtg": "2011-06-04T08:10:00",
     "raw_dtg": "040810Z JUN 11",
     "msg_id": "HYDROARC 935/11(57)",
-    "cancellations": [
-      "HYDROARC 1345/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORD STERLING\nALONG TRACKLINE BETWEEN\n07-22.1S 012-02.0E AND 07-47.4S 011-51.1E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORD STERLING\nALONG TRACKLINE BETWEEN\n07-22.1S 012-02.0E AND 07-47.4S 011-51.1E.",
+    "valid_from": "2011-06-04T08:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

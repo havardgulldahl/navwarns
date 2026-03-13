@@ -3,17 +3,23 @@
   "id": "HYDROARC 1521/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.91,
+      58.885
+    ]
   },
   "properties": {
     "dtg": "2012-07-09T18:51:00",
     "raw_dtg": "091851Z JUL 12",
     "msg_id": "HYDROARC 1521/12(35)",
-    "cancellations": [
-      "HYDROARC 1530/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "SCOTLAND.\nORKNEY ISLANDS.\n1. DERELICT F/V ON FIRE AND ADRIFT IN 58-53.1N 000-54.6W\n   AT 091640Z JUL.\n2. CANCEL THIS MSG 121850Z JUL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND.\nORKNEY ISLANDS.\n1. DERELICT F/V ON FIRE AND ADRIFT IN 58-53.1N 000-54.6W\n   AT 091640Z JUL.\n2. CANCEL THIS MSG 121850Z JUL.",
+    "valid_from": "2012-07-09T18:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

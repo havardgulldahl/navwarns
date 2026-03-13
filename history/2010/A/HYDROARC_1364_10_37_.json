@@ -3,17 +3,23 @@
   "id": "HYDROARC 1364/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.4,
+      48.99166666666667
+    ]
   },
   "properties": {
     "dtg": "2010-07-17T23:58:00",
     "raw_dtg": "172358Z JUL 10",
     "msg_id": "HYDROARC 1364/10(37)",
-    "cancellations": [
-      "HYDROARC 1439/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37050 (9TH ED).\nNORTHEAST BUOY 48-59.5N 005-24.0W OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37050 (9TH ED).\nNORTHEAST BUOY 48-59.5N 005-24.0W OFF STATION.",
+    "valid_from": "2010-07-17T23:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

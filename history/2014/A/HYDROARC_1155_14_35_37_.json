@@ -3,17 +3,25 @@
   "id": "HYDROARC 1155/14(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.0016666666666666668,
+      54.24166666666667
+    ]
   },
   "properties": {
     "dtg": "2014-05-06T22:19:00",
     "raw_dtg": "062219Z MAY 14",
     "msg_id": "HYDROARC 1155/14(35,37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1180/14"
+      "1154/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP ILE DE AIX\n   VICINITY OF TRACKLINE BETWEEN\n   54-14.5N 000-00.1W AND 54-16.4N 000-02.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1154/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP ILE DE AIX\n   VICINITY OF TRACKLINE BETWEEN\n   54-14.5N 000-00.1W AND 54-16.4N 000-02.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1154/14.",
+    "valid_from": "2014-05-06T22:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 305/16(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2016-10-17T15:50:00",
     "raw_dtg": "171550Z OCT 16",
     "msg_id": "HYDROARC 305/16(15)",
-    "cancellations": [
-      "HYDROARC 350/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nDAVIS STRAIT.\nNAVTEX.\nDNC 28.\nMCTS IQALUIT CENTRE 63-43.8N 068-32.7W\nNAVTEX INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nDAVIS STRAIT.\nNAVTEX.\nDNC 28.\nMCTS IQALUIT CENTRE 63-43.8N 068-32.7W\nNAVTEX INOPERATIVE.",
+    "valid_from": "2016-10-17T15:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 949/12(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -16.816666666666666,
+      12.521666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-05-04T17:11:00",
     "raw_dtg": "041711Z MAY 12",
     "msg_id": "HYDROARC 949/12(51)",
-    "cancellations": [
-      "HYDROARC 958/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nCHART 51560\nM/V CAP SAINT GEORGES AGROUND IN 12-31.3N 016-49.0W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nCHART 51560\nM/V CAP SAINT GEORGES AGROUND IN 12-31.3N 016-49.0W.",
+    "valid_from": "2012-05-04T17:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

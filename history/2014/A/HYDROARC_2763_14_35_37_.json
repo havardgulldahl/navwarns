@@ -3,17 +3,25 @@
   "id": "HYDROARC 2763/14(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.703333333333333,
+      55.1
+    ]
   },
   "properties": {
     "dtg": "2014-11-15T19:47:00",
     "raw_dtg": "151947Z NOV 14",
     "msg_id": "HYDROARC 2763/14(35,37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 2832/14"
+      "565/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\n1. METEOROLOGICAL MAST REMOVAL IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V PACIFIC ORCA IN 55-06.0N 002-42.2E.\n2. CANCEL HYDROLANT 565/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\n1. METEOROLOGICAL MAST REMOVAL IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V PACIFIC ORCA IN 55-06.0N 002-42.2E.\n2. CANCEL HYDROLANT 565/13.",
+    "valid_from": "2014-11-15T19:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

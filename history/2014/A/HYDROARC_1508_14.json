@@ -3,17 +3,23 @@
   "id": "HYDROARC 1508/14",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -86.735,
+      21.235
+    ]
   },
   "properties": {
     "dtg": "2014-06-18T14:07:00",
     "raw_dtg": "181407Z JUN 14",
     "msg_id": "HYDROARC 1508/14",
-    "cancellations": [
-      "HYDROARC 1866/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nMEXICO TO FLORIDA.\n63 FOOT S/V CHELONE, WHITE HULL, TWO PERSONS ON BOARD,\nOVERDUE ISLA MUJERES (21-14.1N 086-44.1W) TO\nDRY TORTUGAS (24-38.0N 082-55.1W). VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD\nRCC MIAMI, PHONE: 305 415 6800,\nE-MAIL: RCCMIAMI@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nMEXICO TO FLORIDA.\n63 FOOT S/V CHELONE, WHITE HULL, TWO PERSONS ON BOARD,\nOVERDUE ISLA MUJERES (21-14.1N 086-44.1W) TO\nDRY TORTUGAS (24-38.0N 082-55.1W). VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD\nRCC MIAMI, PHONE: 305 415 6800,\nE-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2014-06-18T14:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

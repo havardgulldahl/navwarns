@@ -3,18 +3,25 @@
   "id": "HYDROARC 985/16(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -13.133333333333333,
+      7.13
+    ]
   },
   "properties": {
     "dtg": "2016-04-26T15:03:00",
     "raw_dtg": "261503Z APR 16",
     "msg_id": "HYDROARC 985/16(51)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 291503Z APR 16",
-      "HYDROARC 985/16"
+      "THIS MSG 291503Z APR 16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSIERRA LEONE.\nDNC 01.\n1. DERELICT 64 METER VESSEL PARTIALLY SUBMERGED\n   AND ADRIFT VICINITY 07-07.8N 013-08.0W.\n2. CANCEL THIS MSG 291503Z APR 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSIERRA LEONE.\nDNC 01.\n1. DERELICT 64 METER VESSEL PARTIALLY SUBMERGED\n   AND ADRIFT VICINITY 07-07.8N 013-08.0W.\n2. CANCEL THIS MSG 291503Z APR 16.",
+    "valid_from": "2016-04-26T15:03:00+00:00",
+    "valid_until": "2016-04-29T15:03:00+00:00",
+    "summary": null
   }
 }

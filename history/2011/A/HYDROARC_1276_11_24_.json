@@ -3,17 +3,23 @@
   "id": "HYDROARC 1276/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.108333333333334,
+      -4.161666666666667
+    ]
   },
   "properties": {
     "dtg": "2011-08-13T01:10:00",
     "raw_dtg": "130110Z AUG 11",
     "msg_id": "HYDROARC 1276/11(24)",
-    "cancellations": [
-      "HYDROARC 1367/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24240 (5TH ED).\nMORRO BRANCO LIGHT 04-09.7S 038-06.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24240 (5TH ED).\nMORRO BRANCO LIGHT 04-09.7S 038-06.5W UNRELIABLE.",
+    "valid_from": "2011-08-13T01:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

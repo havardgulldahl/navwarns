@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1242/12(12)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-06-09T17:38:00",
     "raw_dtg": "091738Z JUN 12",
     "msg_id": "HYDROARC 1242/12(12)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 1242/12"
+      "1241/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nCANCEL HYDROLANT 1241/12 AND THIS MSG, VESSEL LOCATED SAFE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nCANCEL HYDROLANT 1241/12 AND THIS MSG, VESSEL LOCATED SAFE.",
+    "valid_from": "2012-06-09T17:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

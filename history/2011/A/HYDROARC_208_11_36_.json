@@ -3,17 +3,23 @@
   "id": "HYDROARC 208/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.53,
+      54.645
+    ]
   },
   "properties": {
     "dtg": "2011-02-03T01:39:00",
     "raw_dtg": "030139Z FEB 11",
     "msg_id": "HYDROARC 208/11(36)",
-    "cancellations": [
-      "HYDROARC 215/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-NORTHEAST COAST.\nNGA CHART 36011 (1ST ED).\nDONAGHADEE HARBOR LIGHT 54-38.7N 005-31.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-NORTHEAST COAST.\nNGA CHART 36011 (1ST ED).\nDONAGHADEE HARBOR LIGHT 54-38.7N 005-31.8W UNRELIABLE.",
+    "valid_from": "2011-02-03T01:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

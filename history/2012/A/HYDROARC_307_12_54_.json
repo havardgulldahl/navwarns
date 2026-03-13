@@ -3,17 +3,23 @@
   "id": "HYDROARC 307/12(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      17.41,
+      36.34166666666667
+    ]
   },
   "properties": {
     "dtg": "2012-02-07T14:58:00",
     "raw_dtg": "071458Z FEB 12",
     "msg_id": "HYDROARC 307/12(54)",
-    "cancellations": [
-      "HYDROARC 307/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\n1. CONTAINER ADRIFT VICINITY 36-20.5N 017-24.6E\n   AT 07 FEB.\n2. CANCEL THIS MSG 101453Z FEB."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\n1. CONTAINER ADRIFT VICINITY 36-20.5N 017-24.6E\n   AT 07 FEB.\n2. CANCEL THIS MSG 101453Z FEB.",
+    "valid_from": "2012-02-07T14:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

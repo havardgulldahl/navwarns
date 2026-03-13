@@ -3,17 +3,23 @@
   "id": "HYDROARC 2001/14(26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -73.175,
+      29.5
+    ]
   },
   "properties": {
     "dtg": "2014-08-21T11:47:00",
     "raw_dtg": "211147Z AUG 14",
     "msg_id": "HYDROARC 2001/14(26)",
-    "cancellations": [
-      "HYDROARC 2086/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 29-30.0N 073-10.5W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 29-30.0N 073-10.5W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2014-08-21T11:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

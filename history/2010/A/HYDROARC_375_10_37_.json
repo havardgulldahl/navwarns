@@ -3,17 +3,23 @@
   "id": "HYDROARC 375/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.08,
+      51.30833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-03-01T16:44:00",
     "raw_dtg": "011644Z MAR 10",
     "msg_id": "HYDROARC 375/10(37)",
-    "cancellations": [
-      "HYDROARC 503/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT\nNGA CHART 37120 (3RD ED).\nSANDETTIE NORTH BUOY 51-18.5N 002-04.8E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT\nNGA CHART 37120 (3RD ED).\nSANDETTIE NORTH BUOY 51-18.5N 002-04.8E MISSING.",
+    "valid_from": "2010-03-01T16:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

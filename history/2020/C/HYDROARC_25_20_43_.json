@@ -3,18 +3,25 @@
   "id": "HYDROARC 25/20(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      17.748333333333335,
+      70.47833333333334
+    ]
   },
   "properties": {
     "dtg": "2020-02-15T18:41:00",
     "raw_dtg": "151841Z FEB 20",
     "msg_id": "HYDROARC 25/20(43)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 181841Z FEB 20",
-      "HYDROARC 25/20"
+      "THIS MSG 181841Z FEB 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. BUOY ADRIFT IN VICINITY 70-28.7N 017-44.9E\n   AT 151710Z FEB.\n2. CANCEL THIS MSG 181841Z FEB 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 22.\n1. BUOY ADRIFT IN VICINITY 70-28.7N 017-44.9E\n   AT 151710Z FEB.\n2. CANCEL THIS MSG 181841Z FEB 20.",
+    "valid_from": "2020-02-15T18:41:00+00:00",
+    "valid_until": "2020-02-18T18:41:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 189/10(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.638333333333333,
+      53.925
+    ]
   },
   "properties": {
     "dtg": "2010-01-30T16:38:00",
     "raw_dtg": "301638Z JAN 10",
     "msg_id": "HYDROARC 189/10(36)",
-    "cancellations": [
-      "HYDROARC 645/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nNGA CHART 36025 (1ST ED).\nEAST CARDINAL BUOY 53-55.5N 003-38.3W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nNGA CHART 36025 (1ST ED).\nEAST CARDINAL BUOY 53-55.5N 003-38.3W UNLIT.",
+    "valid_from": "2010-01-30T16:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

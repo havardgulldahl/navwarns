@@ -12,12 +12,16 @@
     "dtg": "2024-04-02T13:41:00",
     "raw_dtg": "021341Z APR 24",
     "msg_id": "HYDROARC 679/24(24)",
+    "year": 2024,
     "cancellations": [
-      "THIS MSG 300001Z SEP 24",
-      "HYDROARC 679/24"
+      "THIS MSG 300001Z SEP 24"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DE SAO MARCOS LIGHT IN 02-29.31S 044-18.12W\n   UNLIT UNTIL 29 SEP.\n2. CANCEL THIS MSG 300001Z SEP 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DE SAO MARCOS LIGHT IN 02-29.31S 044-18.12W\n   UNLIT UNTIL 29 SEP.\n2. CANCEL THIS MSG 300001Z SEP 24.",
+    "valid_from": "2024-04-02T13:41:00+00:00",
+    "valid_until": "2024-09-30T00:01:00+00:00",
+    "summary": null
   }
 }

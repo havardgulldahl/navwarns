@@ -3,17 +3,23 @@
   "id": "HYDROARC 1680/16(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.5066666666666666,
+      57.46666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-07-04T06:37:00",
     "raw_dtg": "040637Z JUL 16",
     "msg_id": "HYDROARC 1680/16(43)",
-    "cancellations": [
-      "HYDROARC 2049/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP APACHE II\nVICINITY OF TRACKLINE BETWEEN\n57-28.0N 000-30.4E AND 57-40.1N 000-25.2E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP APACHE II\nVICINITY OF TRACKLINE BETWEEN\n57-28.0N 000-30.4E AND 57-40.1N 000-25.2E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2016-07-04T06:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

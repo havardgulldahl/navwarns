@@ -3,17 +3,23 @@
   "id": "HYDROARC 1835/12(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      13.743333333333334,
+      -10.725
+    ]
   },
   "properties": {
     "dtg": "2012-08-10T19:51:00",
     "raw_dtg": "101951Z AUG 12",
     "msg_id": "HYDROARC 1835/12(57)",
-    "cancellations": [
-      "HYDROARC 2989/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "shoals",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nCHART 57280\nSHOAL REPORTED LESS THAN 7.2 METERS IN 10-43.5S 013-44.6E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nCHART 57280\nSHOAL REPORTED LESS THAN 7.2 METERS IN 10-43.5S 013-44.6E.",
+    "valid_from": "2012-08-10T19:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

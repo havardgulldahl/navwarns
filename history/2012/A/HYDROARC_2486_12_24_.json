@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2486/12(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2012-10-24T03:58:00",
     "raw_dtg": "240358Z OCT 12",
     "msg_id": "HYDROARC 2486/12(24)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2486/12"
+      "2459/12"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nROCKETS.\nCANCEL HYDROLANT 2459/12 AND THIS MSG, OPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nROCKETS.\nCANCEL HYDROLANT 2459/12 AND THIS MSG, OPERATIONS COMPLETED.",
+    "valid_from": "2012-10-24T03:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

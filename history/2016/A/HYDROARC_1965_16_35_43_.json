@@ -3,17 +3,23 @@
   "id": "HYDROARC 1965/16(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0033333333333334,
+      60.58
+    ]
   },
   "properties": {
     "dtg": "2016-08-04T04:28:00",
     "raw_dtg": "040428Z AUG 16",
     "msg_id": "HYDROARC 1965/16(35,43)",
-    "cancellations": [
-      "HYDROARC 1975/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nVATSETTER WHITEHILL LIGHT 60-34.8N 001-00.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nVATSETTER WHITEHILL LIGHT 60-34.8N 001-00.2W UNRELIABLE.",
+    "valid_from": "2016-08-04T04:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

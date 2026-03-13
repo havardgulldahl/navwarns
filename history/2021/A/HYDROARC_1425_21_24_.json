@@ -3,17 +3,25 @@
   "id": "HYDROARC 1425/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.36,
+      -28.938333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-05-27T18:19:00",
     "raw_dtg": "271819Z MAY 21",
     "msg_id": "HYDROARC 1425/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1610/21"
+      "THIS MSG 24 NOV 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. ARARANGUA LIGHT 28-56.3S 049-21.6W UNLIT\n   UNTIL 23 NOV.\n2. CANCEL THIS MSG 24 NOV 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. ARARANGUA LIGHT 28-56.3S 049-21.6W UNLIT\n   UNTIL 23 NOV.\n2. CANCEL THIS MSG 24 NOV 21.",
+    "valid_from": "2021-05-27T18:19:00+00:00",
+    "valid_until": "2021-11-24T00:00:00+00:00",
+    "summary": null
   }
 }

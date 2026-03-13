@@ -3,17 +3,23 @@
   "id": "HYDROARC 2312/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.3916666666666666,
+      60.53333333333333
+    ]
   },
   "properties": {
     "dtg": "2020-07-22T19:37:00",
     "raw_dtg": "221937Z JUL 20",
     "msg_id": "HYDROARC 2312/20(35)",
-    "cancellations": [
-      "HYDROARC 2412/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nCGOC SHETLAND MF DSC AT COLLAFIRTH HILL SITE 60-32.0N 001-23.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nCGOC SHETLAND MF DSC AT COLLAFIRTH HILL SITE 60-32.0N 001-23.5W UNRELIABLE.",
+    "valid_from": "2020-07-22T19:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

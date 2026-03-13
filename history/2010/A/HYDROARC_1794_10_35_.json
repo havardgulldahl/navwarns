@@ -3,17 +3,23 @@
   "id": "HYDROARC 1794/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.016666666666667,
+      58.6
+    ]
   },
   "properties": {
     "dtg": "2010-09-22T22:36:00",
     "raw_dtg": "222236Z SEP 10",
     "msg_id": "HYDROARC 1794/10(35)",
-    "cancellations": [
-      "HYDROARC 1802/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (2ND ED).\nSTRATHY POINT LIGHT 58-36.0N 004-01.0W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (2ND ED).\nSTRATHY POINT LIGHT 58-36.0N 004-01.0W UNLIT.",
+    "valid_from": "2010-09-22T22:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

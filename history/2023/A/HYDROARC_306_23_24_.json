@@ -12,12 +12,16 @@
     "dtg": "2023-02-07T06:54:00",
     "raw_dtg": "070654Z FEB 23",
     "msg_id": "HYDROARC 306/23(24)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 070001Z AUG 23",
-      "HYDROARC 306/23"
+      "THIS MSG 070001Z AUG 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. NOVA VICOSA LIGHT 17-53.89S 039-22.40W\n   UNLIT UNTIL 06 AUG.\n2. CANCEL THIS MSG 070001Z AUG 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. NOVA VICOSA LIGHT 17-53.89S 039-22.40W\n   UNLIT UNTIL 06 AUG.\n2. CANCEL THIS MSG 070001Z AUG 23.",
+    "valid_from": "2023-02-07T06:54:00+00:00",
+    "valid_until": "2023-08-07T00:01:00+00:00",
+    "summary": null
   }
 }

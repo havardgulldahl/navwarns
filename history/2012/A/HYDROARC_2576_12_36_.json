@@ -3,17 +3,23 @@
   "id": "HYDROARC 2576/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.206666666666667,
+      52.20333333333333
+    ]
   },
   "properties": {
     "dtg": "2012-11-01T19:54:00",
     "raw_dtg": "011954Z NOV 12",
     "msg_id": "HYDROARC 2576/12(36)",
-    "cancellations": [
-      "HYDROARC 2650/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRELAND-SOUTHEAST COAST.\nCHART 36002\nRACON AT TUSKAR ROCK LIGHT 52-12.2N 006-12.4W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRELAND-SOUTHEAST COAST.\nCHART 36002\nRACON AT TUSKAR ROCK LIGHT 52-12.2N 006-12.4W UNRELIABLE.",
+    "valid_from": "2012-11-01T19:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

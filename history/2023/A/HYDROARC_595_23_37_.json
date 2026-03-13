@@ -12,12 +12,16 @@
     "dtg": "2023-03-18T02:52:00",
     "raw_dtg": "180252Z MAR 23",
     "msg_id": "HYDROARC 595/23(37)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 290001Z MAR 23",
-      "HYDROARC 595/23"
+      "THIS MSG 290001Z MAR 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\n1. OCEANOGRAPHIC EQUIPMENT TEMPORARILY ESTABLISHED\n   20 THRU 28 MAR BY M/V REBORN IN\n   47-04.22N 003-19.86W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 290001Z MAR 23."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\n1. OCEANOGRAPHIC EQUIPMENT TEMPORARILY ESTABLISHED\n   20 THRU 28 MAR BY M/V REBORN IN\n   47-04.22N 003-19.86W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 290001Z MAR 23.",
+    "valid_from": "2023-03-18T02:52:00+00:00",
+    "valid_until": "2023-03-29T00:01:00+00:00",
+    "summary": null
   }
 }

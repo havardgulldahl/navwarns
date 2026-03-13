@@ -3,17 +3,25 @@
   "id": "HYDROARC 1861/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8366666666666667,
+      52.02
+    ]
   },
   "properties": {
     "dtg": "2011-11-08T15:26:00",
     "raw_dtg": "081526Z NOV 11",
     "msg_id": "HYDROARC 1861/11(37)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 1939/11"
+      "1848/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\n1. CABLE LAYING OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP ASV PIONEER\n   VICINITY 52-01.2N 001-50.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1848/11."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\n1. CABLE LAYING OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP ASV PIONEER\n   VICINITY 52-01.2N 001-50.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1848/11.",
+    "valid_from": "2011-11-08T15:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

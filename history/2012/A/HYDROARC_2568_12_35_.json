@@ -3,17 +3,23 @@
   "id": "HYDROARC 2568/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.751666666666667,
+      56.51833333333333
+    ]
   },
   "properties": {
     "dtg": "2012-11-01T05:09:00",
     "raw_dtg": "010509Z NOV 12",
     "msg_id": "HYDROARC 2568/12(35)",
-    "cancellations": [
-      "HYDROARC 2568/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nCHART 35096\nARDTORNISH POINT LIGHT 56-31.1N 005-45.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nCHART 35096\nARDTORNISH POINT LIGHT 56-31.1N 005-45.1W UNRELIABLE.",
+    "valid_from": "2012-11-01T05:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

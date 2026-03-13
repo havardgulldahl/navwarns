@@ -3,17 +3,25 @@
   "id": "HYDROARC 186/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.965,
+      54.03
+    ]
   },
   "properties": {
     "dtg": "2012-01-23T04:33:00",
     "raw_dtg": "230433Z JAN 12",
     "msg_id": "HYDROARC 186/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 195/12"
+      "180/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA. \nCHART 37059\n1. PLATFORM 42/30-A 54-01.8N 000-57.9E UNLIT.\n2. CANCEL HYDROLANT 180/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA. \nCHART 37059\n1. PLATFORM 42/30-A 54-01.8N 000-57.9E UNLIT.\n2. CANCEL HYDROLANT 180/12.",
+    "valid_from": "2012-01-23T04:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

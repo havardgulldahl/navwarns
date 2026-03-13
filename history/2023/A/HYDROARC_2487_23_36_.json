@@ -3,17 +3,25 @@
   "id": "HYDROARC 2487/23(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.303333333333334,
+      49.928333333333335
+    ]
   },
   "properties": {
     "dtg": "2023-11-01T01:25:00",
     "raw_dtg": "010125Z NOV 23",
     "msg_id": "HYDROARC 2487/23(36)",
+    "year": 2023,
     "cancellations": [
-      "HYDROARC 2720/23"
+      "2441/23"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 19.\n1. CGOC FALMOUTH MF DSC AND R/T SERVICES\n   AT SCILLY ISLE SITE 49-55.7N 006-18.2W OFF AIR.\n2. CANCEL HYDROLANT 2441/23."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 19.\n1. CGOC FALMOUTH MF DSC AND R/T SERVICES\n   AT SCILLY ISLE SITE 49-55.7N 006-18.2W OFF AIR.\n2. CANCEL HYDROLANT 2441/23.",
+    "valid_from": "2023-11-01T01:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

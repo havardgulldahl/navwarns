@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 33/11(24)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -50.7,
+          -33.475
+        ],
+        [
+          -50.358333333333334,
+          -33.65
+        ],
+        [
+          -50.7,
+          -34.13333333333333
+        ],
+        [
+          -51.05,
+          -33.96666666666667
+        ],
+        [
+          -50.7,
+          -33.475
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-01-07T01:04:00",
     "raw_dtg": "070104Z JAN 11",
     "msg_id": "HYDROARC 33/11(24)",
-    "cancellations": [
-      "HYDROARC 33/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 110930Z TO 111330Z JAN\n   IN AREA BOUND BY\n   33-28.5S 050-42.0W, 33-39.0S 050-21.5W,\n   34-08.0S 050-42.0W, 33-58.0S 051-03.0W.\n2. CANCEL THIS MSG 111430Z JAN."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 110930Z TO 111330Z JAN\n   IN AREA BOUND BY\n   33-28.5S 050-42.0W, 33-39.0S 050-21.5W,\n   34-08.0S 050-42.0W, 33-58.0S 051-03.0W.\n2. CANCEL THIS MSG 111430Z JAN.",
+    "valid_from": "2011-01-07T01:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

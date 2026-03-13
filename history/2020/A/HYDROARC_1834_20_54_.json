@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 1834/20(54)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        28.5,
-        35.527833333333334
-      ],
-      [
-        28.5,
-        34.7875
-      ],
-      [
-        28.0,
-        34.7875
-      ],
-      [
-        28.0,
-        35.527833333333334
+        [
+          28.5,
+          35.527833333333334
+        ],
+        [
+          28.5,
+          34.7875
+        ],
+        [
+          28.0,
+          34.7875
+        ],
+        [
+          28.0,
+          35.527833333333334
+        ],
+        [
+          28.5,
+          35.527833333333334
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2020-06-01T12:59:00",
     "raw_dtg": "011259Z JUN 20",
     "msg_id": "HYDROARC 1834/20(54)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 031800Z JUN 20",
-      "HYDROARC 1834/20"
+      "THIS MSG 031800Z JUN 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 031200Z TO 031700Z\n   IN AREA BOUND BY\n   35-31.67N 028-30.00E, 34-47.25N 028-30.00E,\n   34-47.25N 028-00.00E, 35-31.67N 028-00.00E.\n2. CANCEL THIS MSG 031800Z JUN 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 031200Z TO 031700Z\n   IN AREA BOUND BY\n   35-31.67N 028-30.00E, 34-47.25N 028-30.00E,\n   34-47.25N 028-00.00E, 35-31.67N 028-00.00E.\n2. CANCEL THIS MSG 031800Z JUN 20.",
+    "valid_from": "2020-06-01T12:59:00+00:00",
+    "valid_until": "2020-06-03T18:00:00+00:00",
+    "summary": null
   }
 }

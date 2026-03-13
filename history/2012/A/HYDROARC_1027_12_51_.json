@@ -3,17 +3,23 @@
   "id": "HYDROARC 1027/12(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.846666666666667,
+      34.035
+    ]
   },
   "properties": {
     "dtg": "2012-05-14T17:47:00",
     "raw_dtg": "141747Z MAY 12",
     "msg_id": "HYDROARC 1027/12(51)",
-    "cancellations": [
-      "HYDROARC 2276/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nCHART 51013\nRABAT LIGHT 34-02.1N 006-50.8W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nCHART 51013\nRABAT LIGHT 34-02.1N 006-50.8W UNLIT.",
+    "valid_from": "2012-05-14T17:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

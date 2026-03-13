@@ -3,17 +3,23 @@
   "id": "HYDROARC 1426/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -47.35666666666667,
+      -0.615
+    ]
   },
   "properties": {
     "dtg": "2013-06-10T13:27:00",
     "raw_dtg": "101327Z JUN 13",
     "msg_id": "HYDROARC 1426/13(24)",
-    "cancellations": [
-      "HYDROARC 2825/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nCHART 24290\nRADIOBEACON AT SALINOPOLIS LIGHT 00-36.9S 047-21.4W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nCHART 24290\nRADIOBEACON AT SALINOPOLIS LIGHT 00-36.9S 047-21.4W OFF AIR.",
+    "valid_from": "2013-06-10T13:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 3638/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -44.346666666666664,
+      -23.225
+    ]
   },
   "properties": {
     "dtg": "2017-11-11T03:00:00",
     "raw_dtg": "110300Z NOV 17",
     "msg_id": "HYDROARC 3638/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 640/18"
+      "THIS MSG 10 MAY 18"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150.\n1. PONTA DOS MEROS LIGHT 23-13.5S 044-20.8W\n   UNLIT UNTIL 09 MAY 18.\n2. CANCEL THIS MSG 10 MAY 18."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150.\n1. PONTA DOS MEROS LIGHT 23-13.5S 044-20.8W\n   UNLIT UNTIL 09 MAY 18.\n2. CANCEL THIS MSG 10 MAY 18.",
+    "valid_from": "2017-11-11T03:00:00+00:00",
+    "valid_until": "2018-05-10T00:00:00+00:00",
+    "summary": null
   }
 }

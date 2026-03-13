@@ -3,17 +3,23 @@
   "id": "HYDROARC 221/12(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201666666666666,
+      49.96
+    ]
   },
   "properties": {
     "dtg": "2012-01-27T14:50:00",
     "raw_dtg": "271450Z JAN 12",
     "msg_id": "HYDROARC 221/12(36,37)",
-    "cancellations": [
-      "HYDROARC 666/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36051\nLIZARD POINT LIGHT 49-57.6N 005-12.1W\nDISPLAYED ONLY DURING DARKNESS."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36051\nLIZARD POINT LIGHT 49-57.6N 005-12.1W\nDISPLAYED ONLY DURING DARKNESS.",
+    "valid_from": "2012-01-27T14:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 2384/17(55)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         32.34616666666667,
@@ -26,11 +26,16 @@
     "dtg": "2017-08-02T08:21:00",
     "raw_dtg": "020821Z AUG 17",
     "msg_id": "HYDROARC 2384/17(55)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 3344/17"
+      "THIS MSG 23 OCT 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nDNC 10.\n1. SURVEY OPERATIONS 07 AUG THRU 22 OCT\n   BY M/V OLYMPIC DELTA ALONG TRACKLINE JOINING\n   42-59.07N 032-20.77E, 42-58.07N 032-09.67E,\n   42-54.77N 031-36.42E, 42-50.18N 030-52.17E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 23 OCT 17."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nDNC 10.\n1. SURVEY OPERATIONS 07 AUG THRU 22 OCT\n   BY M/V OLYMPIC DELTA ALONG TRACKLINE JOINING\n   42-59.07N 032-20.77E, 42-58.07N 032-09.67E,\n   42-54.77N 031-36.42E, 42-50.18N 030-52.17E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 23 OCT 17.",
+    "valid_from": "2017-08-02T08:21:00+00:00",
+    "valid_until": "2017-10-23T00:00:00+00:00",
+    "summary": null
   }
 }

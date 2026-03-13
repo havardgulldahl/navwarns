@@ -3,17 +3,23 @@
   "id": "HYDROARC 1270/16(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.94,
+      36.443333333333335
+    ]
   },
   "properties": {
     "dtg": "2016-05-27T13:54:00",
     "raw_dtg": "271354Z MAY 16",
     "msg_id": "HYDROARC 1270/16(52)",
-    "cancellations": [
-      "HYDROARC 2319/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52240.\nPOINTE COLOMBI LIGHT 36-26.6N 000-56.4E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52240.\nPOINTE COLOMBI LIGHT 36-26.6N 000-56.4E UNRELIABLE.",
+    "valid_from": "2016-05-27T13:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

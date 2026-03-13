@@ -3,17 +3,23 @@
   "id": "HYDROARC 1745/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.23166666666667,
+      -3.33
+    ]
   },
   "properties": {
     "dtg": "2021-07-03T00:47:00",
     "raw_dtg": "030047Z JUL 21",
     "msg_id": "HYDROARC 1745/21(24)",
-    "cancellations": [
-      "HYDROARC 1758/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nMAN OVERBOARD FROM VESSEL IN 03-19.8S 038-13.9W\nON 02 JUL. VESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nMAN OVERBOARD FROM VESSEL IN 03-19.8S 038-13.9W\nON 02 JUL. VESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2021-07-03T00:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

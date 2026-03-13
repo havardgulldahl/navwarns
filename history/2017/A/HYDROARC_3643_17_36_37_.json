@@ -3,17 +3,25 @@
   "id": "HYDROARC 3643/17(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.6416666666666666,
+      50.221666666666664
+    ]
   },
   "properties": {
     "dtg": "2017-11-11T07:40:00",
     "raw_dtg": "110740Z NOV 17",
     "msg_id": "HYDROARC 3643/17(36,37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 3664/17"
+      "3642/17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36050.\n1. FOG SIGNAL AT START POINT LIGHT\n   50-13.3N 003-38.5W INOPERATIVE.\n2. CANCEL HYDROLANT 3642/17, AID RESTORED."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36050.\n1. FOG SIGNAL AT START POINT LIGHT\n   50-13.3N 003-38.5W INOPERATIVE.\n2. CANCEL HYDROLANT 3642/17, AID RESTORED.",
+    "valid_from": "2017-11-11T07:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

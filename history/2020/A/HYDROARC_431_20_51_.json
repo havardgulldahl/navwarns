@@ -3,17 +3,23 @@
   "id": "HYDROARC 431/20(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.281666666666666,
+      32.54
+    ]
   },
   "properties": {
     "dtg": "2020-02-07T16:07:00",
     "raw_dtg": "071607Z FEB 20",
     "msg_id": "HYDROARC 431/20(51)",
-    "cancellations": [
-      "HYDROARC 132/22"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nBEDDOUZA LIGHT 32-32.4N 009-16.9W UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nBEDDOUZA LIGHT 32-32.4N 009-16.9W UNLIT.",
+    "valid_from": "2020-02-07T16:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

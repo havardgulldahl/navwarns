@@ -3,17 +3,23 @@
   "id": "HYDROARC 1379/15(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.5733333333333333,
+      53.525
+    ]
   },
   "properties": {
     "dtg": "2015-06-06T11:10:00",
     "raw_dtg": "061110Z JUN 15",
     "msg_id": "HYDROARC 1379/15(36)",
-    "cancellations": [
-      "HYDROARC 1411/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND-NORTHWEST COAST.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V SURF RANGER WITH SUBMERSIBLE\nVICINITY 53-31.5N 003-34.4W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND-NORTHWEST COAST.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V SURF RANGER WITH SUBMERSIBLE\nVICINITY 53-31.5N 003-34.4W.",
+    "valid_from": "2015-06-06T11:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 110/20(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8133333333333335,
+      59.12166666666667
+    ]
   },
   "properties": {
     "dtg": "2020-01-13T14:44:00",
     "raw_dtg": "131444Z JAN 20",
     "msg_id": "HYDROARC 110/20(35)",
-    "cancellations": [
-      "HYDROARC 273/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nRONA LIGHTHOUSE 59-07.3N 005-48.8W INOPERATIVE."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nRONA LIGHTHOUSE 59-07.3N 005-48.8W INOPERATIVE.",
+    "valid_from": "2020-01-13T14:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

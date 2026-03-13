@@ -3,17 +3,23 @@
   "id": "HYDROARC 998/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4,
+      51.02
+    ]
   },
   "properties": {
     "dtg": "2016-04-27T05:30:00",
     "raw_dtg": "270530Z APR 16",
     "msg_id": "HYDROARC 998/16(37)",
-    "cancellations": [
-      "HYDROARC 1027/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nDNC 20.\nCHART 37121.\nVARNE LIGHTSHIP 51-01.2N 001-24.0E OFF STATION\nIN 51-00.8N 001-22.7E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nDNC 20.\nCHART 37121.\nVARNE LIGHTSHIP 51-01.2N 001-24.0E OFF STATION\nIN 51-00.8N 001-22.7E.",
+    "valid_from": "2016-04-27T05:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

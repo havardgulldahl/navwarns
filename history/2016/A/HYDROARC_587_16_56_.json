@@ -3,18 +3,25 @@
   "id": "HYDROARC 587/16(56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      34.77,
+      33.27333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-03-10T22:27:00",
     "raw_dtg": "102227Z MAR 16",
     "msg_id": "HYDROARC 587/16(56)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 132227Z MAR 16",
-      "HYDROARC 587/16"
+      "THIS MSG 132227Z MAR 16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. LARGE RECTANGULAR OBJECT PARTIALLY \n   SUBMERGED AND ADRIFT \n   VICINITY 33-16.4N 034-46.2E AT 101357Z MAR.\n2. CANCEL THIS MSG 132227Z MAR 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. LARGE RECTANGULAR OBJECT PARTIALLY \n   SUBMERGED AND ADRIFT \n   VICINITY 33-16.4N 034-46.2E AT 101357Z MAR.\n2. CANCEL THIS MSG 132227Z MAR 16.",
+    "valid_from": "2016-03-10T22:27:00+00:00",
+    "valid_until": "2016-03-13T22:27:00+00:00",
+    "summary": null
   }
 }

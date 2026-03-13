@@ -3,17 +3,23 @@
   "id": "HYDROARC 318/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.195,
+      51.07666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-01-30T17:30:00",
     "raw_dtg": "301730Z JAN 17",
     "msg_id": "HYDROARC 318/17(37)",
-    "cancellations": [
-      "HYDROARC 817/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37120.\nBREAKWATER LIGHT 51-04.6N 001-11.7E UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37120.\nBREAKWATER LIGHT 51-04.6N 001-11.7E UNLIT.",
+    "valid_from": "2017-01-30T17:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

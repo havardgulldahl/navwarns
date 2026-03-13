@@ -3,17 +3,23 @@
   "id": "HYDROARC 590/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.128333333333333,
+      48.06333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-04-04T16:05:00",
     "raw_dtg": "041605Z APR 10",
     "msg_id": "HYDROARC 590/10(37)",
-    "cancellations": [
-      "HYDROARC 2451/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nRACON AT CHAUSSEE DE SEIN BUOY 48-03.8N 005-07.7W\nCHANGED TO: (B)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nRACON AT CHAUSSEE DE SEIN BUOY 48-03.8N 005-07.7W\nCHANGED TO: (B).",
+    "valid_from": "2010-04-04T16:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

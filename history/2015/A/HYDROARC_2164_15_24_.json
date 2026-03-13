@@ -3,17 +3,25 @@
   "id": "HYDROARC 2164/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.031666666666666,
+      -0.5783333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-09-02T00:57:00",
     "raw_dtg": "020057Z SEP 15",
     "msg_id": "HYDROARC 2164/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2214/15"
+      "THIS MSG 22 FEB 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24290.\n1. COROA DAS GAIVOTAS LIGHT 00-34.7S 048-01.9W UNLIT.\n2. CANCEL THIS MSG 22 FEB 16."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nCHART 24290.\n1. COROA DAS GAIVOTAS LIGHT 00-34.7S 048-01.9W UNLIT.\n2. CANCEL THIS MSG 22 FEB 16.",
+    "valid_from": "2015-09-02T00:57:00+00:00",
+    "valid_until": "2016-02-22T00:00:00+00:00",
+    "summary": null
   }
 }

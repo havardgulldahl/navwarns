@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 265/21(15)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-10-02T12:05:00",
     "raw_dtg": "021205Z OCT 21",
     "msg_id": "HYDROARC 265/21(15)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 263/21",
-      "HYDROARC 265/21"
+      "HYDROARC 263/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANADA-NORTH COAST.\nDNC 28.\nCANCEL HYDROARC 263/21 AND THIS MSG, \tAIDS RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA-NORTH COAST.\nDNC 28.\nCANCEL HYDROARC 263/21 AND THIS MSG, \tAIDS RESTORED.",
+    "valid_from": "2021-10-02T12:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

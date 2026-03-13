@@ -3,17 +3,25 @@
   "id": "HYDROARC 826/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.56166666666667,
+      -23.081666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-04-14T01:31:00",
     "raw_dtg": "140131Z APR 12",
     "msg_id": "HYDROARC 826/12(24)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 871/12"
+      "716/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24150\n1. PONTA DE GUARATIBA LIGHT 23-04.9S 043-33.7W UNRELIABLE.\n2. CANCEL HYDROLANT 716/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24150\n1. PONTA DE GUARATIBA LIGHT 23-04.9S 043-33.7W UNRELIABLE.\n2. CANCEL HYDROLANT 716/12.",
+    "valid_from": "2012-04-14T01:31:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

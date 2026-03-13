@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1791/13(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-07-24T01:29:00",
     "raw_dtg": "240129Z JUL 13",
     "msg_id": "HYDROARC 1791/13(24)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 292100Z JUL 13",
-      "HYDROARC 1791/13"
+      "THIS MSG 292100Z JUL 13"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 291500Z TO 292000Z JUL\n   IN AREA BOUND BY\n   25-27S 045-19W, 25-45S 044-51W,\n   26-07S 045-09W, 25-49S 045-36W.\n2. CANCEL THIS MSG 292100Z JUL 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 291500Z TO 292000Z JUL\n   IN AREA BOUND BY\n   25-27S 045-19W, 25-45S 044-51W,\n   26-07S 045-09W, 25-49S 045-36W.\n2. CANCEL THIS MSG 292100Z JUL 13.",
+    "valid_from": "2013-07-24T01:29:00+00:00",
+    "valid_until": "2013-07-29T21:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1189/15(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.065,
+      54.19
+    ]
   },
   "properties": {
     "dtg": "2015-05-14T21:30:00",
     "raw_dtg": "142130Z MAY 15",
     "msg_id": "HYDROARC 1189/15(35,37)",
-    "cancellations": [
-      "HYDROARC 1267/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 35006.\nFISHING GEAR MARKED BY BUOYS ABANDONED\nIN 54-11.4N 000-03.9E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 35006.\nFISHING GEAR MARKED BY BUOYS ABANDONED\nIN 54-11.4N 000-03.9E.",
+    "valid_from": "2015-05-14T21:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2454/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.5683333333333334,
+      54.47833333333333
+    ]
   },
   "properties": {
     "dtg": "2022-09-27T15:47:00",
     "raw_dtg": "271547Z SEP 22",
     "msg_id": "HYDROARC 2454/22(35)",
-    "cancellations": [
-      "HYDROARC 2477/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nWHITBY HIGH LIGHT AT 54-28.7N 000-34.1W\nREPORTED UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nWHITBY HIGH LIGHT AT 54-28.7N 000-34.1W\nREPORTED UNRELIABLE.",
+    "valid_from": "2022-09-27T15:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

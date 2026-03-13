@@ -3,17 +3,23 @@
   "id": "HYDROARC 1028/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.0866666666666667,
+      60.25
+    ]
   },
   "properties": {
     "dtg": "2010-06-04T23:55:00",
     "raw_dtg": "042355Z JUN 10",
     "msg_id": "HYDROARC 1028/10(35)",
-    "cancellations": [
-      "HYDROARC 1039/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nNGA CHART 35072 (1ST ED).\nHOO STACK LIGHT 60-15.0N 001-05.2W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nNGA CHART 35072 (1ST ED).\nHOO STACK LIGHT 60-15.0N 001-05.2W UNLIT.",
+    "valid_from": "2010-06-04T23:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

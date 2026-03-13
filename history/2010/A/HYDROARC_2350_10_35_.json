@@ -3,17 +3,25 @@
   "id": "HYDROARC 2350/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.151666666666667,
+      58.095
+    ]
   },
   "properties": {
     "dtg": "2010-12-05T17:56:00",
     "raw_dtg": "051756Z DEC 10",
     "msg_id": "HYDROARC 2350/10(35)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 53/11"
+      "2272/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTHEAST COAST.\nNGA CHART 35055 (1ST ED).\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 11/30-C\n   58-05.7N 003-09.1W INOPERATIVE.\n2. CANCEL HYDROLANT 2272/10, AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTHEAST COAST.\nNGA CHART 35055 (1ST ED).\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 11/30-C\n   58-05.7N 003-09.1W INOPERATIVE.\n2. CANCEL HYDROLANT 2272/10, AID RESTORED.",
+    "valid_from": "2010-12-05T17:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

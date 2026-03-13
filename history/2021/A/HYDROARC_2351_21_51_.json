@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 2351/21(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.796666666666667,
+          35.93333333333333
+        ],
+        [
+          -5.6033333333333335,
+          35.958333333333336
+        ],
+        [
+          -5.58,
+          35.90833333333333
+        ],
+        [
+          -5.796666666666667,
+          35.858333333333334
+        ],
+        [
+          -5.796666666666667,
+          35.93333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-09-17T19:09:00",
     "raw_dtg": "171909Z SEP 21",
     "msg_id": "HYDROARC 2351/21(51)",
-    "cancellations": [
-      "HYDROARC 2456/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "STRAIT OF GIBRALTAR.\nMOROCCO.\nDNC 08.\nCABLE OPERATIONS 200001Z SEP UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE WITH\nSUBMERSIBLE IN AREA BOUND BY\n35-56.0N 005-47.8W, 35-57.5N 005-36.2W,\n35-54.5N 005-34.8W, 35-51.5N 005-47.8W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "STRAIT OF GIBRALTAR.\nMOROCCO.\nDNC 08.\nCABLE OPERATIONS 200001Z SEP UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE WITH\nSUBMERSIBLE IN AREA BOUND BY\n35-56.0N 005-47.8W, 35-57.5N 005-36.2W,\n35-54.5N 005-34.8W, 35-51.5N 005-47.8W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2021-09-17T19:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

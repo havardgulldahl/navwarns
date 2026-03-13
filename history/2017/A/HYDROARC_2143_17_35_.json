@@ -3,17 +3,23 @@
   "id": "HYDROARC 2143/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.09,
+      60.25
+    ]
   },
   "properties": {
     "dtg": "2017-07-11T02:50:00",
     "raw_dtg": "110250Z JUL 17",
     "msg_id": "HYDROARC 2143/17(35)",
-    "cancellations": [
-      "HYDROARC 2144/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063, 35066.\nHOO STACK LIGHT 60-15.0N 001-05.4W UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063, 35066.\nHOO STACK LIGHT 60-15.0N 001-05.4W UNLIT.",
+    "valid_from": "2017-07-11T02:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 92/13(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.503333333333334,
+      14.723333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-01-10T18:32:00",
     "raw_dtg": "101832Z JAN 13",
     "msg_id": "HYDROARC 92/13(51)",
-    "cancellations": [
-      "HYDROARC 400/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nCHART 51560\nCAPE VERT LIGHT 14-43.4N 017-30.2W UNLIT."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nCHART 51560\nCAPE VERT LIGHT 14-43.4N 017-30.2W UNLIT.",
+    "valid_from": "2013-01-10T18:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

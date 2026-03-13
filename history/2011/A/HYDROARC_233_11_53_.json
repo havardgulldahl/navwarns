@@ -2,18 +2,42 @@
   "type": "Feature",
   "id": "HYDROARC 233/11(53)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        14.556666666666667,
+        36.776666666666664
+      ],
+      [
+        14.583333333333334,
+        36.47666666666667
+      ],
+      [
+        14.655,
+        36.21666666666667
+      ],
+      [
+        14.531666666666666,
+        35.98
+      ],
+      [
+        14.47,
+        35.945
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-02-08T12:37:00",
     "raw_dtg": "081237Z FEB 11",
     "msg_id": "HYDROARC 233/11(53)",
-    "cancellations": [
-      "HYDROARC 233/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nSICILY-SOUTH COAST.\nMALTA.\n1. GEOLOGICAL OPERATIONS IN PROGRESS UNTIL 28 FEB\n   BY M/V ODIN FINDER ALONG TRACKLINE JOINING\n   36-46.6N 014-33.4E, 36-28.6N 014-35.0E,\n   36-13.0N 014-39.3E, 35-58.8N 014-31.9E,\n   35-56.7N 014-28.2E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 MAR."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nSICILY-SOUTH COAST.\nMALTA.\n1. GEOLOGICAL OPERATIONS IN PROGRESS UNTIL 28 FEB\n   BY M/V ODIN FINDER ALONG TRACKLINE JOINING\n   36-46.6N 014-33.4E, 36-28.6N 014-35.0E,\n   36-13.0N 014-39.3E, 35-58.8N 014-31.9E,\n   35-56.7N 014-28.2E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 MAR.",
+    "valid_from": "2011-02-08T12:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

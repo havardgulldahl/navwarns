@@ -3,17 +3,23 @@
   "id": "HYDROARC 1500/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.128333333333333,
+      48.458333333333336
+    ]
   },
   "properties": {
     "dtg": "2021-06-04T16:18:00",
     "raw_dtg": "041618Z JUN 21",
     "msg_id": "HYDROARC 1500/21(37)",
-    "cancellations": [
-      "HYDROARC 2488/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nFRANCE.\nDNC 20.\nPOINTE DE CREACH LIGHT 48-27.5N 005-07.7W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nFRANCE.\nDNC 20.\nPOINTE DE CREACH LIGHT 48-27.5N 005-07.7W UNRELIABLE.",
+    "valid_from": "2021-06-04T16:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

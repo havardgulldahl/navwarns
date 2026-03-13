@@ -1,19 +1,23 @@
 {
   "type": "Feature",
   "id": "HYDROARC 707/17",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-03-03T16:07:00",
     "raw_dtg": "031607Z MAR 17",
     "msg_id": "HYDROARC 707/17",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 707/17"
+      "474/17",
+      "478/17",
+      "500/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "1. CANCEL HYDROLANT 474/17, 478/17, 500/17,\n   504/17, 531/17, 535/17, 536/17, 554/17.\n2. CANCEL THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "1. CANCEL HYDROLANT 474/17, 478/17, 500/17,\n   504/17, 531/17, 535/17, 536/17, 554/17.\n2. CANCEL THIS MSG.",
+    "valid_from": "2017-03-03T16:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

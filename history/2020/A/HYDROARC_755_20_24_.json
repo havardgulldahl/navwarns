@@ -3,17 +3,25 @@
   "id": "HYDROARC 755/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.053333333333335,
+      -22.041666666666668
+    ]
   },
   "properties": {
     "dtg": "2020-02-29T01:25:00",
     "raw_dtg": "290125Z FEB 20",
     "msg_id": "HYDROARC 755/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 1009/20"
+      "THIS MSG 27 AUG 20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. CABO SAO TOME RADIOBEACON 22-02.5S 041-03.2W\n   OFF AIR UNTIL 26 AUG.\n2. CANCEL THIS MSG 27 AUG 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. CABO SAO TOME RADIOBEACON 22-02.5S 041-03.2W\n   OFF AIR UNTIL 26 AUG.\n2. CANCEL THIS MSG 27 AUG 20.",
+    "valid_from": "2020-02-29T01:25:00+00:00",
+    "valid_until": "2020-08-27T00:00:00+00:00",
+    "summary": null
   }
 }

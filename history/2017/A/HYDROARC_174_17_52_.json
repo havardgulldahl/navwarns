@@ -3,17 +3,23 @@
   "id": "HYDROARC 174/17(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.758333333333333,
+      36.96333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-01-17T22:07:00",
     "raw_dtg": "172207Z JAN 17",
     "msg_id": "HYDROARC 174/17(52)",
-    "cancellations": [
-      "HYDROARC 197/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nDNC 08.\nCHART 52200.\nJAZIRAT TABARGAH LIGHT 36-57.8N 008-45.5E\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA-NORTH COAST.\nDNC 08.\nCHART 52200.\nJAZIRAT TABARGAH LIGHT 36-57.8N 008-45.5E\nUNRELIABLE.",
+    "valid_from": "2017-01-17T22:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

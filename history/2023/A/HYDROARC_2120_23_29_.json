@@ -12,12 +12,16 @@
     "dtg": "2023-09-21T02:39:00",
     "raw_dtg": "210239Z SEP 23",
     "msg_id": "HYDROARC 2120/23(29)",
+    "year": 2023,
     "cancellations": [
-      "THIS MSG 240233Z SEP 23",
-      "HYDROARC 2120/23"
+      "THIS MSG 240233Z SEP 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTIA SEA.\nSOUTH SHETLAND ISLANDS.\nDNC 29.\n1. ICEBERG REPORTED IN 60-25.40S 054-04.10W.\n2. CANCEL THIS MSG 240233Z SEP 23."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTIA SEA.\nSOUTH SHETLAND ISLANDS.\nDNC 29.\n1. ICEBERG REPORTED IN 60-25.40S 054-04.10W.\n2. CANCEL THIS MSG 240233Z SEP 23.",
+    "valid_from": "2023-09-21T02:39:00+00:00",
+    "valid_until": "2023-09-24T02:33:00+00:00",
+    "summary": null
   }
 }

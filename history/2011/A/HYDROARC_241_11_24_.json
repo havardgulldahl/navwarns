@@ -3,17 +3,23 @@
   "id": "HYDROARC 241/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -49.361666666666665,
+      -28.935
+    ]
   },
   "properties": {
     "dtg": "2011-02-09T02:29:00",
     "raw_dtg": "090229Z FEB 11",
     "msg_id": "HYDROARC 241/11(24)",
-    "cancellations": [
-      "HYDROARC 286/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nARARANGUA LIGHT 28-56.1S 049-21.7W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nARARANGUA LIGHT 28-56.1S 049-21.7W UNLIT.",
+    "valid_from": "2011-02-09T02:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

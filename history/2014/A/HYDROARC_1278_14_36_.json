@@ -3,17 +3,23 @@
   "id": "HYDROARC 1278/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.308333333333334,
+      54.295
+    ]
   },
   "properties": {
     "dtg": "2014-05-20T23:17:00",
     "raw_dtg": "202317Z MAY 14",
     "msg_id": "HYDROARC 1278/14(36)",
-    "cancellations": [
-      "HYDROARC 1280/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nISLE OF MAN.\nCHART 36025\nMAUGHOLD HEAD LIGHT 54-17.7N 004-18.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nISLE OF MAN.\nCHART 36025\nMAUGHOLD HEAD LIGHT 54-17.7N 004-18.5W UNRELIABLE.",
+    "valid_from": "2014-05-20T23:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

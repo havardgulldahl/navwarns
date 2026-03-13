@@ -3,17 +3,23 @@
   "id": "HYDROARC 3143/17(54,56)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      35.76,
+      34.49666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-10-03T16:50:00",
     "raw_dtg": "031650Z OCT 17",
     "msg_id": "HYDROARC 3143/17(54,56)",
-    "cancellations": [
-      "HYDROARC 3154/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\nDNC 10.\nCHART 54480.\nJAZIRAT RAMKIN LIGHT 34-29.8N 035-45.6E UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\nDNC 10.\nCHART 54480.\nJAZIRAT RAMKIN LIGHT 34-29.8N 035-45.6E UNLIT.",
+    "valid_from": "2017-10-03T16:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

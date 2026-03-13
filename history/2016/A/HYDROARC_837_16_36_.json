@@ -3,17 +3,23 @@
   "id": "HYDROARC 837/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.493333333333333,
+      53.91833333333334
+    ]
   },
   "properties": {
     "dtg": "2016-04-08T09:46:00",
     "raw_dtg": "080946Z APR 16",
     "msg_id": "HYDROARC 837/16(36)",
-    "cancellations": [
-      "HYDROARC 897/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY 53-55.1N 004-29.6W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY 53-55.1N 004-29.6W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2016-04-08T09:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

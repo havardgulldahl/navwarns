@@ -3,17 +3,25 @@
   "id": "HYDROARC 756/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5133333333333332,
+      50.891666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-03-17T11:39:00",
     "raw_dtg": "171139Z MAR 21",
     "msg_id": "HYDROARC 756/21(37)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1168/21"
+      "735/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\n1. ZC2 BUOY 50-53.5N 001-30.8E UNLIT.\n2. CANCEL HYDROLANT 735/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\n1. ZC2 BUOY 50-53.5N 001-30.8E UNLIT.\n2. CANCEL HYDROLANT 735/21.",
+    "valid_from": "2021-03-17T11:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

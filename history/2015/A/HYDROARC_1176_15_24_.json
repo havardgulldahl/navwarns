@@ -3,18 +3,25 @@
   "id": "HYDROARC 1176/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.54333333333334,
+      -29.141666666666666
+    ]
   },
   "properties": {
     "dtg": "2015-05-14T01:10:00",
     "raw_dtg": "140110Z MAY 15",
     "msg_id": "HYDROARC 1176/15(24)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 170100Z MAY 15",
-      "HYDROARC 1176/15"
+      "THIS MSG 170100Z MAY 15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. THREE CONTAINERS ADRIFT IN 29-08.5S 048-32.6W\n   AT 111710Z MAY.\n2. CANCEL THIS MSG 170100Z MAY 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. THREE CONTAINERS ADRIFT IN 29-08.5S 048-32.6W\n   AT 111710Z MAY.\n2. CANCEL THIS MSG 170100Z MAY 15.",
+    "valid_from": "2015-05-14T01:10:00+00:00",
+    "valid_until": "2015-05-17T01:00:00+00:00",
+    "summary": null
   }
 }

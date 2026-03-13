@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2970/17(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.16,
+          37.99333333333333
+        ],
+        [
+          25.626666666666665,
+          37.99333333333333
+        ],
+        [
+          25.626666666666665,
+          37.755
+        ],
+        [
+          25.426666666666666,
+          37.755
+        ],
+        [
+          25.16,
+          37.99333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-09-22T14:39:00",
     "raw_dtg": "221439Z SEP 17",
     "msg_id": "HYDROARC 2970/17(54)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 230900Z SEP 17",
-      "HYDROARC 2970/17"
+      "THIS MSG 230900Z SEP 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\n1. GUNNERY EXERCISES 230600Z TO 230800Z SEP\n   IN AREA BOUND BY\n   37-59.6N 025-09.6E, 37-59.6N 025-37.6E,\n   37-45.3N 025-37.6E, 37-45.3N 025-25.6E.\n2. CANCEL THIS MSG 230900Z SEP 17."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. GUNNERY EXERCISES 230600Z TO 230800Z SEP\n   IN AREA BOUND BY\n   37-59.6N 025-09.6E, 37-59.6N 025-37.6E,\n   37-45.3N 025-37.6E, 37-45.3N 025-25.6E.\n2. CANCEL THIS MSG 230900Z SEP 17.",
+    "valid_from": "2017-09-22T14:39:00+00:00",
+    "valid_until": "2017-09-23T09:00:00+00:00",
+    "summary": null
   }
 }

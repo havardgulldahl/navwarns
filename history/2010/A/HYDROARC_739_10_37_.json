@@ -3,17 +3,23 @@
   "id": "HYDROARC 739/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.2266666666666666,
+      50.57833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-04-27T15:20:00",
     "raw_dtg": "271520Z APR 10",
     "msg_id": "HYDROARC 739/10(37)",
-    "cancellations": [
-      "HYDROARC 1213/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNGA CHART 37115 (2ND ED).\nVERGOYER WEST BUOY 50-34.7N 001-13.6E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNGA CHART 37115 (2ND ED).\nVERGOYER WEST BUOY 50-34.7N 001-13.6E MISSING.",
+    "valid_from": "2010-04-27T15:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

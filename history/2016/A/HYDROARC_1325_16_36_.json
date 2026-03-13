@@ -3,17 +3,23 @@
   "id": "HYDROARC 1325/16(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.66,
+      54.22666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-06-01T00:59:00",
     "raw_dtg": "010059Z JUN 16",
     "msg_id": "HYDROARC 1325/16(36)",
-    "cancellations": [
-      "HYDROARC 1339/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nNORTHERN IRELAND-EAST COAST.\nCHART 36006.\nDNC 19, DNC 20.\nST JOHN'S POINT LIGHT 54-13.6N 005-39.6W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nNORTHERN IRELAND-EAST COAST.\nCHART 36006.\nDNC 19, DNC 20.\nST JOHN'S POINT LIGHT 54-13.6N 005-39.6W UNRELIABLE.",
+    "valid_from": "2016-06-01T00:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 120/19(42,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      16.326666666666668,
+      75.92833333333333
+    ]
   },
   "properties": {
     "dtg": "2019-07-08T22:56:00",
     "raw_dtg": "082256Z JUL 19",
     "msg_id": "HYDROARC 120/19(42,43)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 112256Z JUL 19",
-      "HYDROARC 120/19"
+      "THIS MSG 112256Z JUL 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nSVALBARD.\nDNC 22.\n1. ICEBERG REPORTED IN 75-55.7N 016-19.6E\n   AT 081800Z JUL.\n2. CANCEL THIS MSG 112256Z JUL 19."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nSVALBARD.\nDNC 22.\n1. ICEBERG REPORTED IN 75-55.7N 016-19.6E\n   AT 081800Z JUL.\n2. CANCEL THIS MSG 112256Z JUL 19.",
+    "valid_from": "2019-07-08T22:56:00+00:00",
+    "valid_until": "2019-07-11T22:56:00+00:00",
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3165/14(52)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-12-29T10:14:00",
     "raw_dtg": "291014Z DEC 14",
     "msg_id": "HYDROARC 3165/14(52)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 3165/14"
+      "3116/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nNAVTEX.\nDNC 08.\nCANCEL HYDROLANT 3116/14 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nNAVTEX.\nDNC 08.\nCANCEL HYDROLANT 3116/14 AND THIS MSG.",
+    "valid_from": "2014-12-29T10:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

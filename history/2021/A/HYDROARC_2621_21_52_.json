@@ -3,17 +3,23 @@
   "id": "HYDROARC 2621/21(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.151666666666667,
+      41.325
+    ]
   },
   "properties": {
     "dtg": "2021-10-24T12:57:00",
     "raw_dtg": "241257Z OCT 21",
     "msg_id": "HYDROARC 2621/21(52)",
-    "cancellations": [
-      "HYDROARC 910/22"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nDNC 08.\nRIO LLOBREGAT LIGHT 41-19.5N 002-09.1E RANGE\nREDUCED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nDNC 08.\nRIO LLOBREGAT LIGHT 41-19.5N 002-09.1E RANGE\nREDUCED.",
+    "valid_from": "2021-10-24T12:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

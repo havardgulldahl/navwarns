@@ -3,17 +3,23 @@
   "id": "HYDROARC 2649/16(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      3.078333333333333,
+      36.776666666666664
+    ]
   },
   "properties": {
     "dtg": "2016-10-11T14:15:00",
     "raw_dtg": "111415Z OCT 16",
     "msg_id": "HYDROARC 2649/16(52)",
-    "cancellations": [
-      "HYDROARC 2724/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52240.\nPASSE NORD LIGHT 36-46.6N 003-04.7E UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52240.\nPASSE NORD LIGHT 36-46.6N 003-04.7E UNLIT.",
+    "valid_from": "2016-10-11T14:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

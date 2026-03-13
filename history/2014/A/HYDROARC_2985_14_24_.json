@@ -3,17 +3,25 @@
   "id": "HYDROARC 2985/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.25,
+      -23.966666666666665
+    ]
   },
   "properties": {
     "dtg": "2014-12-06T19:59:00",
     "raw_dtg": "061959Z DEC 14",
     "msg_id": "HYDROARC 2985/14(24)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 3018/14"
+      "THIS MSG 03 JUN 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150.\n1. PONTA DO BOI LIGHT 23-58.0S 045-15.0W UNLIT.\n2. CANCEL THIS MSG 03 JUN 15."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24150.\n1. PONTA DO BOI LIGHT 23-58.0S 045-15.0W UNLIT.\n2. CANCEL THIS MSG 03 JUN 15.",
+    "valid_from": "2014-12-06T19:59:00+00:00",
+    "valid_until": "2015-06-03T00:00:00+00:00",
+    "summary": null
   }
 }

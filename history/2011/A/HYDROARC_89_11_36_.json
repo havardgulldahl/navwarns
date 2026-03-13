@@ -3,17 +3,23 @@
   "id": "HYDROARC 89/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.173333333333334,
+      51.681666666666665
+    ]
   },
   "properties": {
     "dtg": "2011-01-16T16:27:00",
     "raw_dtg": "161627Z JAN 11",
     "msg_id": "HYDROARC 89/11(36)",
-    "cancellations": [
-      "HYDROARC 99/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WALES-SOUTHWEST COAST.\nNGA CHART 36032 (0 ED).\nFOG SIGNAL AT ST ANNS HEAD 51-40.9N 005-10.4W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WALES-SOUTHWEST COAST.\nNGA CHART 36032 (0 ED).\nFOG SIGNAL AT ST ANNS HEAD 51-40.9N 005-10.4W INOPERATIVE.",
+    "valid_from": "2011-01-16T16:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

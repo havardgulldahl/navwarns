@@ -3,17 +3,23 @@
   "id": "HYDROARC 1763/17(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.613333333333333,
+      51.655
+    ]
   },
   "properties": {
     "dtg": "2017-06-04T18:48:00",
     "raw_dtg": "041848Z JUN 17",
     "msg_id": "HYDROARC 1763/17(35,36)",
-    "cancellations": [
-      "HYDROARC 1783/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nIRELAND.\nDNC 19.\nFISHING GEAR ABANDONED IN VICINITY 51-39.3N 007-36.8W,\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nIRELAND.\nDNC 19.\nFISHING GEAR ABANDONED IN VICINITY 51-39.3N 007-36.8W,\nWIDE BERTH REQUESTED.",
+    "valid_from": "2017-06-04T18:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

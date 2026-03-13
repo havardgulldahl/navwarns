@@ -12,12 +12,16 @@
     "dtg": "2022-04-27T21:07:00",
     "raw_dtg": "272107Z APR 22",
     "msg_id": "HYDROARC 1156/22(24)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 010100Z MAY 22",
-      "HYDROARC 1156/22"
+      "THIS MSG 010100Z MAY 22"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 280001Z TO 302359Z APR\n   IN AREA WITHIN 15 MILES OF 23-27.33S 041-44.28W.\n2. CANCEL THIS MSG 010100Z MAY 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 280001Z TO 302359Z APR\n   IN AREA WITHIN 15 MILES OF 23-27.33S 041-44.28W.\n2. CANCEL THIS MSG 010100Z MAY 22.",
+    "valid_from": "2022-04-27T21:07:00+00:00",
+    "valid_until": "2022-05-01T01:00:00+00:00",
+    "summary": null
   }
 }

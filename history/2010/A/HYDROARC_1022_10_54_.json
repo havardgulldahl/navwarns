@@ -3,17 +3,23 @@
   "id": "HYDROARC 1022/10(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.95,
+      45.071666666666665
+    ]
   },
   "properties": {
     "dtg": "2010-06-04T12:03:00",
     "raw_dtg": "041203Z JUN 10",
     "msg_id": "HYDROARC 1022/10(54)",
-    "cancellations": [
-      "HYDROARC 1022/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORTHERN ADRIATIC SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 080800Z TO 082100Z JUN\n   WITHIN THREE MILES OF 45-04.3N 012-57.0E.\n2. CANCEL THIS MSG 082200Z JUN."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTHERN ADRIATIC SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 080800Z TO 082100Z JUN\n   WITHIN THREE MILES OF 45-04.3N 012-57.0E.\n2. CANCEL THIS MSG 082200Z JUN.",
+    "valid_from": "2010-06-04T12:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

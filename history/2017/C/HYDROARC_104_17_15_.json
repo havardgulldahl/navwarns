@@ -3,17 +3,23 @@
   "id": "HYDROARC 104/17(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2017-06-15T22:28:00",
     "raw_dtg": "152228Z JUN 17",
     "msg_id": "HYDROARC 104/17(15)",
-    "cancellations": [
-      "HYDROARC 410/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANADA-NORTHEAST COAST.\nDNC 28.\nNAVTEX STATION IQALUIT (T) 63-43.8N 068-32.7W\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA-NORTHEAST COAST.\nDNC 28.\nNAVTEX STATION IQALUIT (T) 63-43.8N 068-32.7W\nINOPERATIVE.",
+    "valid_from": "2017-06-15T22:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

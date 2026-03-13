@@ -2,18 +2,38 @@
   "type": "Feature",
   "id": "HYDROARC 1158/12(56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        35.29833333333333,
+        33.665
+      ],
+      [
+        35.31666666666667,
+        33.64666666666667
+      ],
+      [
+        35.348333333333336,
+        33.635
+      ],
+      [
+        35.36833333333333,
+        33.605
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-05-30T09:09:00",
     "raw_dtg": "300909Z MAY 12",
     "msg_id": "HYDROARC 1158/12(56)",
-    "cancellations": [
-      "HYDROARC 1213/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP RENE DESCARTES WITH\nSUBMERSIBLE ALONG TRACKLINE JOINING\n33-39.9N 035-17.9E, 33-38.8N 035-19.0E,\n33-38.1N 035-20.9E, 33-36.3N 035-22.1E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP RENE DESCARTES WITH\nSUBMERSIBLE ALONG TRACKLINE JOINING\n33-39.9N 035-17.9E, 33-38.8N 035-19.0E,\n33-38.1N 035-20.9E, 33-36.3N 035-22.1E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-05-30T09:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

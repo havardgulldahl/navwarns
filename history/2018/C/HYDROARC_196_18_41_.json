@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 196/18(41)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          124.36666666666666,
+          74.65833333333333
+        ],
+        [
+          125.35,
+          74.97
+        ],
+        [
+          126.96666666666667,
+          74.61
+        ],
+        [
+          125.96666666666667,
+          74.3
+        ],
+        [
+          124.36666666666666,
+          74.65833333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-08-20T08:37:00",
     "raw_dtg": "200837Z AUG 18",
     "msg_id": "HYDROARC 196/18(41)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 251400Z AUG 18",
-      "HYDROARC 197/18"
+      "THIS MSG 251400Z AUG 18"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 27.\n1. HAZARDOUS OPERATIONS 2300Z TO 1300Z\n   COMMENCING DAILY 22 THRU 24 AUG\n   IN AREA BOUND BY\n   74-39.5N 124-22.0E, 74-58.2N 125-21.0E,\n   74-36.6N 126-58.0E, 74-18.0N 125-58.0E.\n2. CANCEL THIS MSG 251400Z AUG 18."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 27.\n1. HAZARDOUS OPERATIONS 2300Z TO 1300Z\n   COMMENCING DAILY 22 THRU 24 AUG\n   IN AREA BOUND BY\n   74-39.5N 124-22.0E, 74-58.2N 125-21.0E,\n   74-36.6N 126-58.0E, 74-18.0N 125-58.0E.\n2. CANCEL THIS MSG 251400Z AUG 18.",
+    "valid_from": "2018-08-20T08:37:00+00:00",
+    "valid_until": "2018-08-25T14:00:00+00:00",
+    "summary": null
   }
 }

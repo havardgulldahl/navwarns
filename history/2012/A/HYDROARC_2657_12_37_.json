@@ -3,17 +3,25 @@
   "id": "HYDROARC 2657/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4983333333333333,
+      51.465
+    ]
   },
   "properties": {
     "dtg": "2012-11-09T17:56:00",
     "raw_dtg": "091756Z NOV 12",
     "msg_id": "HYDROARC 2657/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2667/12"
+      "2635/12"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\n1. RACON AT NE SPIT BUOY 51-27.9N 001-29.9E INOPERATIVE.\n2. CANCEL HYDROLANT 2635/12(35), AID RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37140\n1. RACON AT NE SPIT BUOY 51-27.9N 001-29.9E INOPERATIVE.\n2. CANCEL HYDROLANT 2635/12(35), AID RESTORED.",
+    "valid_from": "2012-11-09T17:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

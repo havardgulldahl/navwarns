@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 23/22(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-01-03T17:00:00",
     "raw_dtg": "031700Z JAN 22",
     "msg_id": "HYDROARC 23/22(37)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 23/22"
+      "3192/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCANCEL HYDROLANT 3192/21 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCANCEL HYDROLANT 3192/21 AND THIS MSG.",
+    "valid_from": "2022-01-03T17:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

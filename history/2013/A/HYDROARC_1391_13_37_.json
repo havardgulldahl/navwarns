@@ -3,18 +3,25 @@
   "id": "HYDROARC 1391/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.4483333333333333,
+      51.375
+    ]
   },
   "properties": {
     "dtg": "2013-06-05T16:14:00",
     "raw_dtg": "051614Z JUN 13",
     "msg_id": "HYDROARC 1391/13(37)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 121800Z JUN 13",
-      "HYDROARC 1391/13"
+      "THIS MSG 121800Z JUN 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37120\n1. DGPS STATION AT NORTH FORELAND LIGHT 51-22.5N 001-26.9E\n   OFF AIR 041700Z TO 121700Z JUN.\n2. CANCEL THIS MSG 121800Z JUN 13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37120\n1. DGPS STATION AT NORTH FORELAND LIGHT 51-22.5N 001-26.9E\n   OFF AIR 041700Z TO 121700Z JUN.\n2. CANCEL THIS MSG 121800Z JUN 13.",
+    "valid_from": "2013-06-05T16:14:00+00:00",
+    "valid_until": "2013-06-12T18:00:00+00:00",
+    "summary": null
   }
 }

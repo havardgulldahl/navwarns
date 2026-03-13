@@ -3,17 +3,23 @@
   "id": "HYDROARC 328/11(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -51.108333333333334,
+      5.82
+    ]
   },
   "properties": {
     "dtg": "2011-02-25T14:27:00",
     "raw_dtg": "251427Z FEB 11",
     "msg_id": "HYDROARC 328/11(24)",
-    "cancellations": [
-      "HYDROARC 332/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nNGA CHART 24350 (2ND ED).\nPLATFORM ESTABLISHED IN 05-49.2N 051-06.5W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nNGA CHART 24350 (2ND ED).\nPLATFORM ESTABLISHED IN 05-49.2N 051-06.5W.",
+    "valid_from": "2011-02-25T14:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -12,12 +12,17 @@
     "dtg": "2022-05-06T21:05:00",
     "raw_dtg": "062105Z MAY 22",
     "msg_id": "HYDROARC 1227/22(37)",
+    "year": 2022,
     "cancellations": [
       "THIS MSG 092102Z MAY 22",
-      "HYDROARC 1227/22"
+      "1218/22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nDNC 08.\n1. OCEANOGRAPHIC BUOY ADRIFT IN VICINITY\n   47-33.00N 007-24.00W AT 061041Z MAY.\n2. CANCEL HYDROLANT 1218/22.\n3. CANCEL THIS MSG 092102Z MAY 22."
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nDNC 08.\n1. OCEANOGRAPHIC BUOY ADRIFT IN VICINITY\n   47-33.00N 007-24.00W AT 061041Z MAY.\n2. CANCEL HYDROLANT 1218/22.\n3. CANCEL THIS MSG 092102Z MAY 22.",
+    "valid_from": "2022-05-06T21:05:00+00:00",
+    "valid_until": "2022-05-09T21:02:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1221/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.535,
+      -25.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2010-06-30T01:48:00",
     "raw_dtg": "300148Z JUN 10",
     "msg_id": "HYDROARC 1221/10(24)",
-    "cancellations": [
-      "HYDROARC 1237/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24130 (14TH ED).\nILHA CAIOBA LIGHT 25-51.2S 048-32.1W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24130 (14TH ED).\nILHA CAIOBA LIGHT 25-51.2S 048-32.1W UNLIT.",
+    "valid_from": "2010-06-30T01:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

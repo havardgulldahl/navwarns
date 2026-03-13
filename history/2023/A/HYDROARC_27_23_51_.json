@@ -3,17 +3,23 @@
   "id": "HYDROARC 27/23(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.511666666666667,
+      14.161666666666667
+    ]
   },
   "properties": {
     "dtg": "2023-01-03T20:45:00",
     "raw_dtg": "032045Z JAN 23",
     "msg_id": "HYDROARC 27/23(51)",
-    "cancellations": [
-      "HYDROARC 309/23"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nOCEANOGRAPHIC BUOY ESTABLISHED IN 14-09.7N 017-30.7W.\nWIDE BERTH REQUESTED."
+    "year": 2023,
+    "cancellations": [],
+    "hazard_type": "scientific mooring",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nOCEANOGRAPHIC BUOY ESTABLISHED IN 14-09.7N 017-30.7W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2023-01-03T20:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

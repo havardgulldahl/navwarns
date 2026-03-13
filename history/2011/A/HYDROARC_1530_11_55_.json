@@ -2,18 +2,50 @@
   "type": "Feature",
   "id": "HYDROARC 1530/11(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.975,
+          41.541666666666664
+        ],
+        [
+          32.3,
+          41.71666666666667
+        ],
+        [
+          32.975,
+          41.93333333333333
+        ],
+        [
+          31.975,
+          42.49166666666667
+        ],
+        [
+          30.966666666666665,
+          42.21666666666667
+        ],
+        [
+          30.975,
+          41.541666666666664
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-09-21T13:32:00",
     "raw_dtg": "211332Z SEP 11",
     "msg_id": "HYDROARC 1530/11(55)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 1530/11"
+      "1511/11"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nGUNNERY.\n1. GUNNERY EXERCISES 0900Z TO 1500Z DAILY\n   21 THRU 23 SEP IN AREA BOUND BY\n   41-32.5N 030-58.5E, 41-43.0N 032-18.0E,\n   41-56.0N 032-58.5E, 42-29.5N 031-58.5E,\n   42-13.0N 030-58.0E.\n2. CANCEL HYDROPAC 1511/11.\n3. CANCEL THIS MSG 231600Z SEP."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nGUNNERY.\n1. GUNNERY EXERCISES 0900Z TO 1500Z DAILY\n   21 THRU 23 SEP IN AREA BOUND BY\n   41-32.5N 030-58.5E, 41-43.0N 032-18.0E,\n   41-56.0N 032-58.5E, 42-29.5N 031-58.5E,\n   42-13.0N 030-58.0E.\n2. CANCEL HYDROPAC 1511/11.\n3. CANCEL THIS MSG 231600Z SEP.",
+    "valid_from": "2011-09-21T13:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

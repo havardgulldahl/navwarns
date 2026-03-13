@@ -3,17 +3,23 @@
   "id": "HYDROARC 899/13(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.08,
+      54.11666666666667
+    ]
   },
   "properties": {
     "dtg": "2013-04-11T00:30:00",
     "raw_dtg": "110030Z APR 13",
     "msg_id": "HYDROARC 899/13(35,37)",
-    "cancellations": [
-      "HYDROARC 924/13"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nCHART 37010\nFOG SIGNAL AT FLAMBOROUGH HEAD LIGHT 54-07.0N 000-04.8W INOPERATIVE."
+    "year": 2013,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nCHART 37010\nFOG SIGNAL AT FLAMBOROUGH HEAD LIGHT 54-07.0N 000-04.8W INOPERATIVE.",
+    "valid_from": "2013-04-11T00:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

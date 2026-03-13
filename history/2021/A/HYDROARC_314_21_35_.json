@@ -3,17 +3,25 @@
   "id": "HYDROARC 314/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.3916666666666666,
+      60.53333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-02-03T11:44:00",
     "raw_dtg": "031144Z FEB 21",
     "msg_id": "HYDROARC 314/21(35)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 347/21"
+      "307/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\n1. CGOC SHETLAND MF DSC AND R/T SERVICES AT\n   COLLAFIRTH HILL SITE 60-32.0N 001-23.5W OFF AIR.\n2. CANCEL HYDROLANT 307/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\n1. CGOC SHETLAND MF DSC AND R/T SERVICES AT\n   COLLAFIRTH HILL SITE 60-32.0N 001-23.5W OFF AIR.\n2. CANCEL HYDROLANT 307/21.",
+    "valid_from": "2021-02-03T11:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

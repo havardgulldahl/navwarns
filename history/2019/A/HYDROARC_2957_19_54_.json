@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 2957/19(54)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        25.091666666666665,
-        40.75833333333333
-      ],
-      [
-        25.44,
-        40.86666666666667
-      ],
-      [
-        25.636333333333333,
-        40.74166666666667
-      ],
-      [
-        25.276666666666667,
-        40.547
+        [
+          25.091666666666665,
+          40.75833333333333
+        ],
+        [
+          25.44,
+          40.86666666666667
+        ],
+        [
+          25.636333333333333,
+          40.74166666666667
+        ],
+        [
+          25.276666666666667,
+          40.547
+        ],
+        [
+          25.091666666666665,
+          40.75833333333333
+        ]
       ]
     ]
   },
@@ -26,12 +32,16 @@
     "dtg": "2019-09-27T16:07:00",
     "raw_dtg": "271607Z SEP 19",
     "msg_id": "HYDROARC 2957/19(54)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 031030Z OCT 19",
-      "HYDROARC 2957/19"
+      "THIS MSG 031030Z OCT 19"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 0730Z TO 0930Z DAILY\n   30 SEP 01 AND 03 OCT IN AREA BOUND BY\n   40-45.50N 025-05.50E, 40-52.00N 025-26.40E,\n   40-44.50N 025-38.18E, 40-32.82N 025-16.60E.\n2. CANCEL THIS MSG 031030Z OCT 19."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 0730Z TO 0930Z DAILY\n   30 SEP 01 AND 03 OCT IN AREA BOUND BY\n   40-45.50N 025-05.50E, 40-52.00N 025-26.40E,\n   40-44.50N 025-38.18E, 40-32.82N 025-16.60E.\n2. CANCEL THIS MSG 031030Z OCT 19.",
+    "valid_from": "2019-09-27T16:07:00+00:00",
+    "valid_until": "2019-10-03T10:30:00+00:00",
+    "summary": null
   }
 }

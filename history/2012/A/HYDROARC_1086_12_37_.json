@@ -3,17 +3,23 @@
   "id": "HYDROARC 1086/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.575,
+      52.083333333333336
+    ]
   },
   "properties": {
     "dtg": "2012-05-20T22:36:00",
     "raw_dtg": "202236Z MAY 12",
     "msg_id": "HYDROARC 1086/12(37)",
-    "cancellations": [
-      "HYDROARC 1089/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nCHART 37140\nORFORD NESS LIGHT 52-05.0N 001-34.5E, RED LIGHT UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nCHART 37140\nORFORD NESS LIGHT 52-05.0N 001-34.5E, RED LIGHT UNLIT.",
+    "valid_from": "2012-05-20T22:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

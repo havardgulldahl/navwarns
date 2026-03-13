@@ -3,17 +3,23 @@
   "id": "HYDROARC 1058/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.0816666666666668,
+      53.75333333333333
+    ]
   },
   "properties": {
     "dtg": "2018-03-30T12:59:00",
     "raw_dtg": "301259Z MAR 18",
     "msg_id": "HYDROARC 1058/18(37)",
-    "cancellations": [
-      "HYDROARC 1070/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37058, 37059.\nALL NAVIGATIONAL AIDS AT PLATFORM 48/6-C,\n53-45.2N 001-04.9E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37058, 37059.\nALL NAVIGATIONAL AIDS AT PLATFORM 48/6-C,\n53-45.2N 001-04.9E INOPERATIVE.",
+    "valid_from": "2018-03-30T12:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

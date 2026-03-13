@@ -3,17 +3,23 @@
   "id": "HYDROARC 1276/14(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.736666666666666,
+      31.983333333333334
+    ]
   },
   "properties": {
     "dtg": "2014-05-20T16:57:00",
     "raw_dtg": "201657Z MAY 14",
     "msg_id": "HYDROARC 1276/14(51)",
-    "cancellations": [
-      "HYDROARC 1306/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nCHART 51280\nDANGEROUS WRECK IN 31-59.0N 009-44.2W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nCHART 51280\nDANGEROUS WRECK IN 31-59.0N 009-44.2W.",
+    "valid_from": "2014-05-20T16:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

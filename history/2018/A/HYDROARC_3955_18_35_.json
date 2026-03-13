@@ -3,17 +3,23 @@
   "id": "HYDROARC 3955/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.8116666666666665,
+      57.858333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-12-19T18:40:00",
     "raw_dtg": "191840Z DEC 18",
     "msg_id": "HYDROARC 3955/18(35)",
-    "cancellations": [
-      "HYDROARC 834/19"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 20.\nCHART 35015.\nRUBHA REIDH LIGHT 57-51.5N 005-48.7W RANGE\nPERMANENTLY CHANGED TO 18 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 20.\nCHART 35015.\nRUBHA REIDH LIGHT 57-51.5N 005-48.7W RANGE\nPERMANENTLY CHANGED TO 18 MILES.",
+    "valid_from": "2018-12-19T18:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

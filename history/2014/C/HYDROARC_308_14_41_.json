@@ -3,17 +3,23 @@
   "id": "HYDROARC 308/14(41)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      143.425,
+      74.38833333333334
+    ]
   },
   "properties": {
     "dtg": "2014-10-21T09:21:00",
     "raw_dtg": "210921Z OCT 14",
     "msg_id": "HYDROARC 308/14(41)",
-    "cancellations": [
-      "HYDROARC 31/16"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nEAST SIBERIAN SEA.\nDNC 27.\nCHART 41000.\n14.8 METER DEPTH REPORTED IN 74-23.3N 143-25.5E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nEAST SIBERIAN SEA.\nDNC 27.\nCHART 41000.\n14.8 METER DEPTH REPORTED IN 74-23.3N 143-25.5E.",
+    "valid_from": "2014-10-21T09:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

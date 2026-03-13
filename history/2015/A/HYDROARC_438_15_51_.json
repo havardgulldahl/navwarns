@@ -3,17 +3,23 @@
   "id": "HYDROARC 438/15(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.398333333333333,
+      14.663333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-02-21T16:41:00",
     "raw_dtg": "211641Z FEB 15",
     "msg_id": "HYDROARC 438/15(51)",
-    "cancellations": [
-      "HYDROARC 1377/15"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nCHART 51560.\nILE DE GOREE LIGHT 14-39.8N 017-23.9W UNLIT."
+    "year": 2015,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nCHART 51560.\nILE DE GOREE LIGHT 14-39.8N 017-23.9W UNLIT.",
+    "valid_from": "2015-02-21T16:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

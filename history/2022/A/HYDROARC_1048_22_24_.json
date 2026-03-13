@@ -3,17 +3,25 @@
   "id": "HYDROARC 1048/22(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.70666666666666,
+      -22.415
+    ]
   },
   "properties": {
     "dtg": "2022-04-13T10:15:00",
     "raw_dtg": "131015Z APR 22",
     "msg_id": "HYDROARC 1048/22(24)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 1055/22"
+      "THIS MSG 11 OCT 22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. MACAE LIGHT 22-24.9S 041-42.4W AT REDUCED\n   INTENSITY UNTIL 10 OCT 22.\n2. CANCEL THIS MSG 11 OCT 22."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. MACAE LIGHT 22-24.9S 041-42.4W AT REDUCED\n   INTENSITY UNTIL 10 OCT 22.\n2. CANCEL THIS MSG 11 OCT 22.",
+    "valid_from": "2022-04-13T10:15:00+00:00",
+    "valid_until": "2022-10-11T00:00:00+00:00",
+    "summary": null
   }
 }

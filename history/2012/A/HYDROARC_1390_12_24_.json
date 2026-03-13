@@ -3,17 +3,23 @@
   "id": "HYDROARC 1390/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -42.69166666666667,
+      -22.96
+    ]
   },
   "properties": {
     "dtg": "2012-06-26T01:14:00",
     "raw_dtg": "260114Z JUN 12",
     "msg_id": "HYDROARC 1390/12(24)",
-    "cancellations": [
-      "HYDROARC 1432/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24160\nPONTA NEGRA LIGHT 22-57.6S 042-41.5W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24160\nPONTA NEGRA LIGHT 22-57.6S 042-41.5W UNLIT.",
+    "valid_from": "2012-06-26T01:14:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

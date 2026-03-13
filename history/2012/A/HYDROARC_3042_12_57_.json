@@ -3,17 +3,25 @@
   "id": "HYDROARC 3042/12(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      15.871666666666666,
+      -28.39666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-12-27T07:56:00",
     "raw_dtg": "270756Z DEC 12",
     "msg_id": "HYDROARC 3042/12(57)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 31/13"
+      "3029/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V CORAL SEA IN 28-23.8S 015-52.3E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3029/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V CORAL SEA IN 28-23.8S 015-52.3E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3029/12.",
+    "valid_from": "2012-12-27T07:56:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1922/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -7.191666666666666,
+      57.29833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-08-12T09:53:00",
     "raw_dtg": "120953Z AUG 14",
     "msg_id": "HYDROARC 1922/14(35)",
-    "cancellations": [
-      "HYDROARC 1928/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-WEST COAST.\nLITTLE MINCH.\nCHART 35092\nUSHENISH LIGHT 57-17.9N 007-11.5W CHANGED TO:\nFL 20 SEC 54 METERS 19 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-WEST COAST.\nLITTLE MINCH.\nCHART 35092\nUSHENISH LIGHT 57-17.9N 007-11.5W CHANGED TO:\nFL 20 SEC 54 METERS 19 MILES.",
+    "valid_from": "2014-08-12T09:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

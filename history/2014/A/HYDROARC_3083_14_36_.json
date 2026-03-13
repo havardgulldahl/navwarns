@@ -3,17 +3,23 @@
   "id": "HYDROARC 3083/14(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.663333333333333,
+      53.80833333333333
+    ]
   },
   "properties": {
     "dtg": "2014-12-18T15:11:00",
     "raw_dtg": "181511Z DEC 14",
     "msg_id": "HYDROARC 3083/14(36)",
-    "cancellations": [
-      "HYDROARC 3112/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\nALL NAVIGATIONAL AIDS AT CALDER PLATFORM 110/7A,\n53-48.5N 003-39.8W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nENGLAND-WEST COAST.\nDNC 20.\nCHART 36025.\nALL NAVIGATIONAL AIDS AT CALDER PLATFORM 110/7A,\n53-48.5N 003-39.8W INOPERATIVE.",
+    "valid_from": "2014-12-18T15:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 889/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2966666666666666,
+      50.575
+    ]
   },
   "properties": {
     "dtg": "2010-05-18T17:07:00",
     "raw_dtg": "181707Z MAY 10",
     "msg_id": "HYDROARC 889/10(37)",
-    "cancellations": [
-      "HYDROARC 889/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37090 (8TH ED).\n1. DGPS STATION AT ST CATHERINES POINT LIGHT 50-34.5N 001-17.8W\n   INOPERATIVE 0800Z TO 1600Z DAILY 18 THRU 20 MAY.\n2. CANCEL THIS MSG 201700Z MAY."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37090 (8TH ED).\n1. DGPS STATION AT ST CATHERINES POINT LIGHT 50-34.5N 001-17.8W\n   INOPERATIVE 0800Z TO 1600Z DAILY 18 THRU 20 MAY.\n2. CANCEL THIS MSG 201700Z MAY.",
+    "valid_from": "2010-05-18T17:07:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

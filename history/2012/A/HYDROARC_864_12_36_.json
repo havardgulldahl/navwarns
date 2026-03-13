@@ -3,17 +3,23 @@
   "id": "HYDROARC 864/12(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.5,
+      50.751666666666665
+    ]
   },
   "properties": {
     "dtg": "2012-04-20T16:57:00",
     "raw_dtg": "201657Z APR 12",
     "msg_id": "HYDROARC 864/12(36)",
-    "cancellations": [
-      "HYDROARC 893/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP LEON THEVENIN WITH\nSUBMERSIBLE ALONG TRACKLINE BETWEEN\n50-45.1N 005-30.0W AND 50-45.5N 005-25.0W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP LEON THEVENIN WITH\nSUBMERSIBLE ALONG TRACKLINE BETWEEN\n50-45.1N 005-30.0W AND 50-45.5N 005-25.0W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2012-04-20T16:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

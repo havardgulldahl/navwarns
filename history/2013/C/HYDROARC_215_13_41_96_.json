@@ -3,18 +3,25 @@
   "id": "HYDROARC 215/13(41,96)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      171.70666666666668,
+      70.67166666666667
+    ]
   },
   "properties": {
     "dtg": "2013-10-09T18:54:00",
     "raw_dtg": "091854Z OCT 13",
     "msg_id": "HYDROARC 215/13(41,96)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 211/13",
-      "HYDROARC 226/13"
+      "HYDROARC 211/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nEASTERN SIBERIAN SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V ZEFIR I TOWING 10000 METER LONG CABLE\n   ALONG TRACKLINE BETWEEN\n   70-40.3N 171-42.4E AND 72-50.6N 178-49.9W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 211/13."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nEASTERN SIBERIAN SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V ZEFIR I TOWING 10000 METER LONG CABLE\n   ALONG TRACKLINE BETWEEN\n   70-40.3N 171-42.4E AND 72-50.6N 178-49.9W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 211/13.",
+    "valid_from": "2013-10-09T18:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

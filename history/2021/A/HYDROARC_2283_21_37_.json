@@ -3,18 +3,25 @@
   "id": "HYDROARC 2283/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.2980555555555555,
+      50.57555555555556
+    ]
   },
   "properties": {
     "dtg": "2021-09-08T05:49:00",
     "raw_dtg": "080549Z SEP 21",
     "msg_id": "HYDROARC 2283/21(37)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 091930Z SEP 21",
-      "HYDROARC 2283/21"
+      "THIS MSG 091930Z SEP 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. ST. CATHERINE'S POINT LIGHT\n   50-34-32N 001-17-53W UNRELIABLE\n   0530Z TO 1830Z DAILY 08 AND 09 SEP.\n2. CANCEL THIS MSG 091930Z SEP 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. ST. CATHERINE'S POINT LIGHT\n   50-34-32N 001-17-53W UNRELIABLE\n   0530Z TO 1830Z DAILY 08 AND 09 SEP.\n2. CANCEL THIS MSG 091930Z SEP 21.",
+    "valid_from": "2021-09-08T05:49:00+00:00",
+    "valid_until": "2021-09-09T19:30:00+00:00",
+    "summary": null
   }
 }

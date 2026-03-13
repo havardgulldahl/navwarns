@@ -3,17 +3,25 @@
   "id": "HYDROARC 2941/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.5883333333333334,
+      56.278333333333336
+    ]
   },
   "properties": {
     "dtg": "2021-11-29T19:58:00",
     "raw_dtg": "291958Z NOV 21",
     "msg_id": "HYDROARC 2941/21(35)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 2946/21"
+      "2940/21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. MRCC ABERDEEN DSC AND R/T SERVICE AT FIFE NESS\n   SITE 56-16.7N 002-35.3W OFF AIR.\n2. CANCEL HYDROLANT 2940/21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\n1. MRCC ABERDEEN DSC AND R/T SERVICE AT FIFE NESS\n   SITE 56-16.7N 002-35.3W OFF AIR.\n2. CANCEL HYDROLANT 2940/21.",
+    "valid_from": "2021-11-29T19:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

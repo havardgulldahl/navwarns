@@ -3,17 +3,23 @@
   "id": "HYDROARC 2070/10(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.125,
+      49.693333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-10-30T19:26:00",
     "raw_dtg": "301926Z OCT 10",
     "msg_id": "HYDROARC 2070/10(36,37)",
-    "cancellations": [
-      "HYDROARC 2070/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC\n1. SEVEN METER LONG RIGGING SPAR\n   ADRIFT IN 49-41.6N 006-07.5W\n2. CANCEL THIS MSG 021930Z NOV."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC\n1. SEVEN METER LONG RIGGING SPAR\n   ADRIFT IN 49-41.6N 006-07.5W\n2. CANCEL THIS MSG 021930Z NOV.",
+    "valid_from": "2010-10-30T19:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

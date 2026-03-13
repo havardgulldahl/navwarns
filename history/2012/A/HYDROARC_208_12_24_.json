@@ -3,17 +3,25 @@
   "id": "HYDROARC 208/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.675,
+      -24.48
+    ]
   },
   "properties": {
     "dtg": "2012-01-26T13:52:00",
     "raw_dtg": "261352Z JAN 12",
     "msg_id": "HYDROARC 208/12(24)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2082/12"
+      "2256/10"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24140\n1. ILHA QUEIMADA GRANDE LIGHT 24-28.8S 046-40.5W UNLIT.\n2. CANCEL HYDROLANT 2256/10."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24140\n1. ILHA QUEIMADA GRANDE LIGHT 24-28.8S 046-40.5W UNLIT.\n2. CANCEL HYDROLANT 2256/10.",
+    "valid_from": "2012-01-26T13:52:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

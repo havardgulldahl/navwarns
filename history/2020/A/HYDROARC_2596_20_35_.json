@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2596/20(35)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-08-22T04:49:00",
     "raw_dtg": "220449Z AUG 20",
     "msg_id": "HYDROARC 2596/20(35)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 2596/20"
+      "2578/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 2578/20 AND THIS MSG,\nSERVICE RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nCANCEL HYDROLANT 2578/20 AND THIS MSG,\nSERVICE RESTORED.",
+    "valid_from": "2020-08-22T04:49:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

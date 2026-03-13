@@ -3,17 +3,25 @@
   "id": "HYDROARC 2286/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -40.281666666666666,
+      -20.31
+    ]
   },
   "properties": {
     "dtg": "2020-07-20T21:55:00",
     "raw_dtg": "202155Z JUL 20",
     "msg_id": "HYDROARC 2286/20(24)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 2358/20"
+      "THIS MSG 17 JAN 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. ILHA DO BOI LIGHT 20-18.6S 040-16.9W UNRELIABLE\n   UNTIL 16 JAN 21.\n2. CANCEL THIS MSG 17 JAN 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. ILHA DO BOI LIGHT 20-18.6S 040-16.9W UNRELIABLE\n   UNTIL 16 JAN 21.\n2. CANCEL THIS MSG 17 JAN 21.",
+    "valid_from": "2020-07-20T21:55:00+00:00",
+    "valid_until": "2021-01-17T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2558/17(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.72,
+      26.843333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-08-23T12:45:00",
     "raw_dtg": "231245Z AUG 17",
     "msg_id": "HYDROARC 2558/17(51)",
-    "cancellations": [
-      "HYDROARC 2626/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC\nCANARY ISLANDS.\nDNC 01.\nSEARCH AND RESCUE OPERATIONS IN 26-50.6N 017-43.2W.\nCAUTION ADVISED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC\nCANARY ISLANDS.\nDNC 01.\nSEARCH AND RESCUE OPERATIONS IN 26-50.6N 017-43.2W.\nCAUTION ADVISED.",
+    "valid_from": "2017-08-23T12:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

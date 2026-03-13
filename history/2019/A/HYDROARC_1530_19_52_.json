@@ -3,17 +3,23 @@
   "id": "HYDROARC 1530/19(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.22666666666666666,
+      36.11333333333334
+    ]
   },
   "properties": {
     "dtg": "2019-05-20T17:43:00",
     "raw_dtg": "201743Z MAY 19",
     "msg_id": "HYDROARC 1530/19(52)",
-    "cancellations": [
-      "HYDROARC 1560/19"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52060, 52240.\nCAP IVI LIGHT 36-06.8N 000-13.6E UNLIT."
+    "year": 2019,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52060, 52240.\nCAP IVI LIGHT 36-06.8N 000-13.6E UNLIT.",
+    "valid_from": "2019-05-20T17:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

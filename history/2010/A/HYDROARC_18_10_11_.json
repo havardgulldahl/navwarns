@@ -3,17 +3,23 @@
   "id": "HYDROARC 18/10(11)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -96.36833333333334,
+      27.088333333333335
+    ]
   },
   "properties": {
     "dtg": "2010-01-05T10:54:00",
     "raw_dtg": "051054Z JAN 10",
     "msg_id": "HYDROARC 18/10(11)",
-    "cancellations": [
-      "HYDROARC 106/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF MEXICO.\nTEXAS.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\n62 FOOT F/V EL SUENO II IN 27-05.3N 096-22.1W\nAT 050518Z JAN. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF MEXICO.\nTEXAS.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\n62 FOOT F/V EL SUENO II IN 27-05.3N 096-22.1W\nAT 050518Z JAN. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC NEW ORLEANS,\nPHONE: 504 589 6225, FAX: 504 589 2148.",
+    "valid_from": "2010-01-05T10:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

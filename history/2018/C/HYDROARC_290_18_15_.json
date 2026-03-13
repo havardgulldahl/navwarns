@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 290/18(15)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2018-11-02T11:38:00",
     "raw_dtg": "021138Z NOV 18",
     "msg_id": "HYDROARC 290/18(15)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 212/18",
-      "HYDROARC 290/18"
+      "HYDROARC 212/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF BOOTHIA.\nCANADA.\nDNC 28.\nCANCEL HYDROARC 212/18 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GULF OF BOOTHIA.\nCANADA.\nDNC 28.\nCANCEL HYDROARC 212/18 AND THIS MSG.",
+    "valid_from": "2018-11-02T11:38:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 748/12(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.525,
+      49.45666666666666
+    ]
   },
   "properties": {
     "dtg": "2012-04-04T22:35:00",
     "raw_dtg": "042235Z APR 12",
     "msg_id": "HYDROARC 748/12(36,37)",
-    "cancellations": [
-      "HYDROARC 748/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT 6.5 METER S/V, WHITE HULL,\n   ADRIFT 49-27.4N 006-31.5W.\n2. CANCEL THIS MSG 072235Z APR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT 6.5 METER S/V, WHITE HULL,\n   ADRIFT 49-27.4N 006-31.5W.\n2. CANCEL THIS MSG 072235Z APR.",
+    "valid_from": "2012-04-04T22:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

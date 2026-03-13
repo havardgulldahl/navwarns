@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2877/14(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-11-26T15:07:00",
     "raw_dtg": "261507Z NOV 14",
     "msg_id": "HYDROARC 2877/14(54)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 041330Z DEC 14",
-      "HYDROARC 2877/14"
+      "THIS MSG 041330Z DEC 14"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "IONIAN SEA.\nHAZARDOUS OPERATIONS.\nDNC 09.\n1. HAZARDOUS OPERATIONS 0730Z TO 0900Z AND 1100Z TO 1230Z\n   DAILY 27 NOV AND 02 THRU 04 DEC IN AREA BOUND BY\n   37-12N 020-18E, 37-56N 020-00E,\n   37-56N 020-28E, 37-15N 020-49E.\n2. CANCEL THIS MSG 041330Z DEC 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IONIAN SEA.\nHAZARDOUS OPERATIONS.\nDNC 09.\n1. HAZARDOUS OPERATIONS 0730Z TO 0900Z AND 1100Z TO 1230Z\n   DAILY 27 NOV AND 02 THRU 04 DEC IN AREA BOUND BY\n   37-12N 020-18E, 37-56N 020-00E,\n   37-56N 020-28E, 37-15N 020-49E.\n2. CANCEL THIS MSG 041330Z DEC 14.",
+    "valid_from": "2014-11-26T15:07:00+00:00",
+    "valid_until": "2014-12-04T13:30:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 778/19(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.31666666666667,
+      -25.5
+    ]
   },
   "properties": {
     "dtg": "2019-03-12T06:43:00",
     "raw_dtg": "120643Z MAR 19",
     "msg_id": "HYDROARC 778/19(24)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 2019/19"
+      "THIS MSG 07 SEP 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24004.\n1. PARANAGUA RADIOBEACON 25-30.0S 048-19.0W\n   OFF AIR.\n2. CANCEL THIS MSG 07 SEP 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24004.\n1. PARANAGUA RADIOBEACON 25-30.0S 048-19.0W\n   OFF AIR.\n2. CANCEL THIS MSG 07 SEP 19.",
+    "valid_from": "2019-03-12T06:43:00+00:00",
+    "valid_until": "2019-09-07T00:00:00+00:00",
+    "summary": null
   }
 }

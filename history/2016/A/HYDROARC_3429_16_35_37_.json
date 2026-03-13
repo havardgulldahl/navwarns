@@ -3,17 +3,23 @@
   "id": "HYDROARC 3429/16(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.4516666666666667,
+      54.20333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-12-19T12:23:00",
     "raw_dtg": "191223Z DEC 16",
     "msg_id": "HYDROARC 3429/16(35,37)",
-    "cancellations": [
-      "HYDROARC 315/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37058.\nPLATFORM 44/23 A-CM, 54-12.2N 002-27.1E UNLIT\nAND FOG SIGNAL INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37058.\nPLATFORM 44/23 A-CM, 54-12.2N 002-27.1E UNLIT\nAND FOG SIGNAL INOPERATIVE.",
+    "valid_from": "2016-12-19T12:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

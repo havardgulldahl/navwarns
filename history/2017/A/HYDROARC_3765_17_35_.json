@@ -3,17 +3,23 @@
   "id": "HYDROARC 3765/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.05,
+      58.47833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-11-22T16:33:00",
     "raw_dtg": "221633Z NOV 17",
     "msg_id": "HYDROARC 3765/17(35)",
-    "cancellations": [
-      "HYDROARC 56/18"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\nNOSS HEAD LIGHT 58-28.7N 003-03.0W TEMPORARILY\nCHANGED TO: FL W 20 SEC 12 MILES. RED SECTOR\nREMOVED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35055.\nNOSS HEAD LIGHT 58-28.7N 003-03.0W TEMPORARILY\nCHANGED TO: FL W 20 SEC 12 MILES. RED SECTOR\nREMOVED.",
+    "valid_from": "2017-11-22T16:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

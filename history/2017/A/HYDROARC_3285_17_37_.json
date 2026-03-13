@@ -3,17 +3,23 @@
   "id": "HYDROARC 3285/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3283333333333334,
+      51.111666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-10-14T13:47:00",
     "raw_dtg": "141347Z OCT 17",
     "msg_id": "HYDROARC 3285/17(37)",
-    "cancellations": [
-      "HYDROARC 3481/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37115, 37140.\nADMIRALTY PIER LIGHT 51-06.7N 001-19.7E UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37115, 37140.\nADMIRALTY PIER LIGHT 51-06.7N 001-19.7E UNLIT.",
+    "valid_from": "2017-10-14T13:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

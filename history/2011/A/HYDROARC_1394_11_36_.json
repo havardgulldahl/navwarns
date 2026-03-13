@@ -3,17 +3,23 @@
   "id": "HYDROARC 1394/11(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.428333333333334,
+      53.80166666666667
+    ]
   },
   "properties": {
     "dtg": "2011-09-02T06:33:00",
     "raw_dtg": "020633Z SEP 11",
     "msg_id": "HYDROARC 1394/11(36)",
-    "cancellations": [
-      "HYDROARC 1438/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY OF TRACKLINE BETWEEN\n53-48.1N 004-25.7W AND 53-47.6N 004-20.9W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY OF TRACKLINE BETWEEN\n53-48.1N 004-25.7W AND 53-47.6N 004-20.9W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2011-09-02T06:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

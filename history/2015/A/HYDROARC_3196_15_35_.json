@@ -3,17 +3,23 @@
   "id": "HYDROARC 3196/15(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.275,
+      59.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-12-28T16:30:00",
     "raw_dtg": "281630Z DEC 15",
     "msg_id": "HYDROARC 3196/15(35)",
-    "cancellations": [
-      "HYDROARC 3202/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nSUMBURGH HEAD LIGHT 59-51.2N 001-16.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nSUMBURGH HEAD LIGHT 59-51.2N 001-16.5W UNRELIABLE.",
+    "valid_from": "2015-12-28T16:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

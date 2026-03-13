@@ -3,17 +3,23 @@
   "id": "HYDROARC 102/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.411666666666667,
+      51.85333333333333
+    ]
   },
   "properties": {
     "dtg": "2020-01-12T22:05:00",
     "raw_dtg": "122205Z JAN 20",
     "msg_id": "HYDROARC 102/20(36)",
-    "cancellations": [
-      "HYDROARC 170/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "CELTIC SEA.\nWALES.\nDNC 20.\nSOUTH BISHOP LIGHTHOUSE 51-51.2N 005-24.7W,\nRACON INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nWALES.\nDNC 20.\nSOUTH BISHOP LIGHTHOUSE 51-51.2N 005-24.7W,\nRACON INOPERATIVE.",
+    "valid_from": "2020-01-12T22:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

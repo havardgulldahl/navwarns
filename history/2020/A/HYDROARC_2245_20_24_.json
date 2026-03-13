@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2245/20(24)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-07-17T00:55:00",
     "raw_dtg": "170055Z JUL 20",
     "msg_id": "HYDROARC 2245/20(24)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 250100Z JUL 20",
-      "HYDROARC 2245/20"
+      "THIS MSG 250100Z JUL 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 220800Z JUL TO 250001Z JUL\n   IN AREA WITHIN SEVEN MILES OF 20-58S 040-43W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 250100Z JUL 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 220800Z JUL TO 250001Z JUL\n   IN AREA WITHIN SEVEN MILES OF 20-58S 040-43W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 250100Z JUL 20.",
+    "valid_from": "2020-07-17T00:55:00+00:00",
+    "valid_until": "2020-07-25T01:00:00+00:00",
+    "summary": null
   }
 }

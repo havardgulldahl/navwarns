@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2173/10(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-11-16T12:59:00",
     "raw_dtg": "161259Z NOV 10",
     "msg_id": "HYDROARC 2173/10(37)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 2173/10"
+      "392/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCANCEL HYDROLANT 392/10 AND THIS MSG, OPERATIONS SUSPENDED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCANCEL HYDROLANT 392/10 AND THIS MSG, OPERATIONS SUSPENDED.",
+    "valid_from": "2010-11-16T12:59:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

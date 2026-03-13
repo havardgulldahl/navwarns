@@ -3,17 +3,25 @@
   "id": "HYDROARC 2768/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.205,
+      53.803333333333335
+    ]
   },
   "properties": {
     "dtg": "2018-08-30T15:04:00",
     "raw_dtg": "301504Z AUG 18",
     "msg_id": "HYDROARC 2768/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2787/18"
+      "2354/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37058.\n1. PLATFORM 48/7B-HOTON, 53-48.2N 001-12.3E UNLIT.\n2. CANCEL HYDROLANT 2354/18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37058.\n1. PLATFORM 48/7B-HOTON, 53-48.2N 001-12.3E UNLIT.\n2. CANCEL HYDROLANT 2354/18.",
+    "valid_from": "2018-08-30T15:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 2458/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -48.401666666666664,
+      -0.25666666666666665
+    ]
   },
   "properties": {
     "dtg": "2010-12-19T08:17:00",
     "raw_dtg": "190817Z DEC 10",
     "msg_id": "HYDROARC 2458/10(24)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 838/11"
+      "2026/09"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED).\n1. SIMAO GRANDE LIGHT 00-15.4S 048-24.1W UNLIT\n   AND RACON INOPERATIVE.\n2. CANCEL HYDROLANT 2026/09."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED).\n1. SIMAO GRANDE LIGHT 00-15.4S 048-24.1W UNLIT\n   AND RACON INOPERATIVE.\n2. CANCEL HYDROLANT 2026/09.",
+    "valid_from": "2010-12-19T08:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 3452/16(43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5583333333333333,
+      59.53333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-12-21T17:19:00",
     "raw_dtg": "211719Z DEC 16",
     "msg_id": "HYDROARC 3452/16(43)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 338/17"
+      "2969/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCHART 43300.\n1. FOG SIGNAL AT PLATFORM 9/13-SPM3, 59-32.0N 001-33.5E\n   INOPERATIVE.\n2. CANCEL HYDROLANT 2969/16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCHART 43300.\n1. FOG SIGNAL AT PLATFORM 9/13-SPM3, 59-32.0N 001-33.5E\n   INOPERATIVE.\n2. CANCEL HYDROLANT 2969/16.",
+    "valid_from": "2016-12-21T17:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

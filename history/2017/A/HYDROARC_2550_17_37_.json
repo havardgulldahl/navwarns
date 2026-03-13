@@ -3,18 +3,25 @@
   "id": "HYDROARC 2550/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.96,
+      49.95333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-08-22T00:05:00",
     "raw_dtg": "220005Z AUG 17",
     "msg_id": "HYDROARC 2550/17(37)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 250005Z AUG 17",
-      "HYDROARC 2560/17"
+      "THIS MSG 250005Z AUG 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. BUOY ADRIFT IN 49-57.2N 001-57.6W.\n2. CANCEL THIS MSG 250005Z AUG 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nDNC 20.\n1. BUOY ADRIFT IN 49-57.2N 001-57.6W.\n2. CANCEL THIS MSG 250005Z AUG 17.",
+    "valid_from": "2017-08-22T00:05:00+00:00",
+    "valid_until": "2017-08-25T00:05:00+00:00",
+    "summary": null
   }
 }

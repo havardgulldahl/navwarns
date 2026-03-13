@@ -3,18 +3,25 @@
   "id": "HYDROARC 786/15(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -17.866666666666667,
+      14.458333333333334
+    ]
   },
   "properties": {
     "dtg": "2015-04-03T16:45:00",
     "raw_dtg": "031645Z APR 15",
     "msg_id": "HYDROARC 786/15(51)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 061900Z APR 15",
-      "HYDROARC 786/15"
+      "THIS MSG 061900Z APR 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nGUNNERY.\nDNC 01.\n1. GUNNERY EXERCISES 060800Z TO 061800Z APR\n   WITHIN 15 MILES OF 14-27.5N 017-52.0W.\n2. CANCEL THIS MSG 061900Z APR 15."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nGUNNERY.\nDNC 01.\n1. GUNNERY EXERCISES 060800Z TO 061800Z APR\n   WITHIN 15 MILES OF 14-27.5N 017-52.0W.\n2. CANCEL THIS MSG 061900Z APR 15.",
+    "valid_from": "2015-04-03T16:45:00+00:00",
+    "valid_until": "2015-04-06T19:00:00+00:00",
+    "summary": null
   }
 }

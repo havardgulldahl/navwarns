@@ -3,17 +3,25 @@
   "id": "HYDROARC 50/11(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.5933333333333334,
+      53.95
+    ]
   },
   "properties": {
     "dtg": "2011-01-08T14:32:00",
     "raw_dtg": "081432Z JAN 11",
     "msg_id": "HYDROARC 50/11(37)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 200/11"
+      "2279/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nMINERVA GAS FIELD.\nNGA CHART 37059 (0 ED).\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 47/3C\n   53-57.0N 000-35.6E INOPERATIVE.\n2. CANCEL HYDROLANT 2279/10."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nMINERVA GAS FIELD.\nNGA CHART 37059 (0 ED).\n1. ALL NAVIGATIONAL AIDS AT PLATFORM 47/3C\n   53-57.0N 000-35.6E INOPERATIVE.\n2. CANCEL HYDROLANT 2279/10.",
+    "valid_from": "2011-01-08T14:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

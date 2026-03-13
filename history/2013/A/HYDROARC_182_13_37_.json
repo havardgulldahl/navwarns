@@ -3,17 +3,23 @@
   "id": "HYDROARC 182/13(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.598333333333333,
+      52.905
+    ]
   },
   "properties": {
     "dtg": "2013-01-20T15:00:00",
     "raw_dtg": "201500Z JAN 13",
     "msg_id": "HYDROARC 182/13(37)",
-    "cancellations": [
-      "HYDROARC 945/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37166\nALL NAVIGATIONAL AIDS AT PLATFORM HORNE AND WREN\n52-54.3N 002-35.9E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37166\nALL NAVIGATIONAL AIDS AT PLATFORM HORNE AND WREN\n52-54.3N 002-35.9E INOPERATIVE.",
+    "valid_from": "2013-01-20T15:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

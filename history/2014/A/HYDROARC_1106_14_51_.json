@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 1106/14(51)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -17.026666666666667,
+          14.323333333333334
+        ],
+        [
+          -16.818333333333335,
+          13.598333333333333
+        ],
+        [
+          -17.493333333333332,
+          13.596666666666666
+        ],
+        [
+          -17.471666666666668,
+          14.296666666666667
+        ],
+        [
+          -17.026666666666667,
+          14.323333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2014-04-28T21:02:00",
     "raw_dtg": "282102Z APR 14",
     "msg_id": "HYDROARC 1106/14(51)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1106/14"
+      "THIS MSG 22 JUN 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 21 JUN BY\n   M/V ARTEMIS ATLANTIC IN AREA BOUND BY\n   14-19.4N 017-01.6W, 13-35.9N 016-49.1W,\n   13-35.8N 017-29.6W, 14-17.8N 017-28.3W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 22 JUN 14."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 21 JUN BY\n   M/V ARTEMIS ATLANTIC IN AREA BOUND BY\n   14-19.4N 017-01.6W, 13-35.9N 016-49.1W,\n   13-35.8N 017-29.6W, 14-17.8N 017-28.3W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 22 JUN 14.",
+    "valid_from": "2014-04-28T21:02:00+00:00",
+    "valid_until": "2014-06-22T00:00:00+00:00",
+    "summary": null
   }
 }

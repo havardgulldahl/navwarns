@@ -3,17 +3,23 @@
   "id": "HYDROARC 2475/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.855,
+      53.733333333333334
+    ]
   },
   "properties": {
     "dtg": "2012-10-23T12:21:00",
     "raw_dtg": "231221Z OCT 12",
     "msg_id": "HYDROARC 2475/12(37)",
-    "cancellations": [
-      "HYDROARC 2505/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37058\nGROVE PLATFORM 53-44.0N 002-51.3E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37058\nGROVE PLATFORM 53-44.0N 002-51.3E UNLIT.",
+    "valid_from": "2012-10-23T12:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

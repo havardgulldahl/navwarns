@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 59/12(42)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          72.0,
+          73.0
+        ],
+        [
+          74.79416666666667,
+          72.78333333333333
+        ],
+        [
+          74.93305555555555,
+          72.12777777777777
+        ],
+        [
+          72.70055555555555,
+          72.12777777777777
+        ],
+        [
+          72.2275,
+          72.79527777777777
+        ],
+        [
+          72.0,
+          73.0
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-06-28T13:16:00",
     "raw_dtg": "281316Z JUN 12",
     "msg_id": "HYDROARC 59/12(42)",
-    "cancellations": [
-      "HYDROARC 207/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "KARA SEA.\nOBSKAYA GUBA.\n1. SEISMIC SURVEY 01 JUL THRU 31 OCT BY\n   M/V PROFESSOR RJABINKIN TOWING 5500 METER\n   LONG CABLE IN AREA BOUND BY\n   73-00-00N 072-00-00E, 72-47-00N 074-47-39E,\n   72-07-40N 074-55-59E, 72-07-40N 072-42-02E,\n   72-47-43N 072-13-39E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 NOV."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "KARA SEA.\nOBSKAYA GUBA.\n1. SEISMIC SURVEY 01 JUL THRU 31 OCT BY\n   M/V PROFESSOR RJABINKIN TOWING 5500 METER\n   LONG CABLE IN AREA BOUND BY\n   73-00-00N 072-00-00E, 72-47-00N 074-47-39E,\n   72-07-40N 074-55-59E, 72-07-40N 072-42-02E,\n   72-47-43N 072-13-39E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 NOV.",
+    "valid_from": "2012-06-28T13:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

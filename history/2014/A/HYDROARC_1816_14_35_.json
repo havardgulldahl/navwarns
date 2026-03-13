@@ -3,17 +3,25 @@
   "id": "HYDROARC 1816/14(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.5700000000000003,
+      59.026666666666664
+    ]
   },
   "properties": {
     "dtg": "2014-07-26T12:32:00",
     "raw_dtg": "261232Z JUL 14",
     "msg_id": "HYDROARC 1816/14(35)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 1821/14"
+      "1813/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nCHART 35056\n1. AUSKERRY LIGHT 59-01.6N 002-34.2W UNRELIABLE.\n2. CANCEL HYDROLANT 1813/14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nCHART 35056\n1. AUSKERRY LIGHT 59-01.6N 002-34.2W UNRELIABLE.\n2. CANCEL HYDROLANT 1813/14.",
+    "valid_from": "2014-07-26T12:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

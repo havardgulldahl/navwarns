@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1736/15(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2015-07-15T07:48:00",
     "raw_dtg": "150748Z JUL 15",
     "msg_id": "HYDROARC 1736/15(36)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 1736/15"
+      "1686/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRISTOL CHANNEL.\nDNC 20.\nCANCEL HYDROLANT 1686/15 AND THIS MSG, OPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRISTOL CHANNEL.\nDNC 20.\nCANCEL HYDROLANT 1686/15 AND THIS MSG, OPERATIONS COMPLETED.",
+    "valid_from": "2015-07-15T07:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

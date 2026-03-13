@@ -3,17 +3,23 @@
   "id": "HYDROARC 1306/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3883333333333334,
+      50.958333333333336
+    ]
   },
   "properties": {
     "dtg": "2022-05-17T22:17:00",
     "raw_dtg": "172217Z MAY 22",
     "msg_id": "HYDROARC 1306/22(37)",
-    "cancellations": [
-      "HYDROARC 1648/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nCOLBART NORTH LIGHT BUOY 50-57.5N 001-23.3E OFF STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nCOLBART NORTH LIGHT BUOY 50-57.5N 001-23.3E OFF STATION.",
+    "valid_from": "2022-05-17T22:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

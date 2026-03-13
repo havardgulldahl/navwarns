@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 2296/10(51,52)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.75,
+          35.818333333333335
+        ],
+        [
+          -5.953333333333333,
+          35.71
+        ],
+        [
+          -6.011666666666667,
+          35.718333333333334
+        ],
+        [
+          -5.968333333333334,
+          35.833333333333336
+        ],
+        [
+          -5.75,
+          35.86833333333333
+        ],
+        [
+          -5.75,
+          35.818333333333335
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-11-30T12:29:00",
     "raw_dtg": "301229Z NOV 10",
     "msg_id": "HYDROARC 2296/10(51,52)",
-    "cancellations": [
-      "HYDROARC 2433/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "GULF OF CADIZ.\nMOROCCO.\nNGA CHART 52039 (4TH ED).\nNAVIGATION PROHIBITED 010700Z DEC UNTIL FURTHER NOTICE\nIN AREA BOUND BY\n35-49.1N 005-45.0W, 35-42.6N 005-57.2W,\n35-43.1N 006-00.7W, 35-50.0N 005-58.1W,\n35-52.1N 005-45.0W.\nANY VESSEL INTENDING TO CROSS\nTHIS AREA SHOULD CONTACT THE\nMOROCAN MARITIME AUTHORITIES."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "GULF OF CADIZ.\nMOROCCO.\nNGA CHART 52039 (4TH ED).\nNAVIGATION PROHIBITED 010700Z DEC UNTIL FURTHER NOTICE\nIN AREA BOUND BY\n35-49.1N 005-45.0W, 35-42.6N 005-57.2W,\n35-43.1N 006-00.7W, 35-50.0N 005-58.1W,\n35-52.1N 005-45.0W.\nANY VESSEL INTENDING TO CROSS\nTHIS AREA SHOULD CONTACT THE\nMOROCAN MARITIME AUTHORITIES.",
+    "valid_from": "2010-11-30T12:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

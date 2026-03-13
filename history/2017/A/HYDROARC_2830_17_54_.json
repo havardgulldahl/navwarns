@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2830/17(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-09-13T11:34:00",
     "raw_dtg": "131134Z SEP 17",
     "msg_id": "HYDROARC 2830/17(54)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 141400Z SEP 17",
-      "HYDROARC 2830/17"
+      "THIS MSG 141400Z SEP 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nDNC 10.\n1. SEARCH AND RESCUE OPERATIONS\n   140900Z TO 141300Z SEP\n   IN AREA BOUND BY\n   35-42N 034-52E, 35-51N 035-14E,\n   35-42N 035-19E, 35-33N 034-57E.\n2. CANCEL THIS MSG 141400Z SEP 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nDNC 10.\n1. SEARCH AND RESCUE OPERATIONS\n   140900Z TO 141300Z SEP\n   IN AREA BOUND BY\n   35-42N 034-52E, 35-51N 035-14E,\n   35-42N 035-19E, 35-33N 034-57E.\n2. CANCEL THIS MSG 141400Z SEP 17.",
+    "valid_from": "2017-09-13T11:34:00+00:00",
+    "valid_until": "2017-09-14T14:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1667/17(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      14.435,
+      -22.891666666666666
+    ]
   },
   "properties": {
     "dtg": "2017-05-27T22:40:00",
     "raw_dtg": "272240Z MAY 17",
     "msg_id": "HYDROARC 1667/17(57)",
-    "cancellations": [
-      "HYDROARC 1686/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nCHART 57380.\nPELICAN POINT LIGHT 22-53.5S 014-26.1E UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nCHART 57380.\nPELICAN POINT LIGHT 22-53.5S 014-26.1E UNLIT.",
+    "valid_from": "2017-05-27T22:40:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

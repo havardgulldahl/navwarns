@@ -3,18 +3,25 @@
   "id": "HYDROARC 812/21(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.571666666666666,
+      52.141666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-03-23T04:21:00",
     "raw_dtg": "230421Z MAR 21",
     "msg_id": "HYDROARC 812/21(36)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 241700Z MAR 21",
-      "HYDROARC 814/21"
+      "THIS MSG 241700Z MAR 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CARDIGAN BAY.\nSAINT GEORGES CHANNEL.\nWALES.\nDNC 20.\n1. GPA JAMMING EXERCISES 1400Z TO 1600Z DAILY\n   23 AND 24 MAR IN AREA WITHIN 30 MILES OF\n   52-08.5N 004-34.3W.\n2. CANCEL THIS MSG 241700Z MAR 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CARDIGAN BAY.\nSAINT GEORGES CHANNEL.\nWALES.\nDNC 20.\n1. GPA JAMMING EXERCISES 1400Z TO 1600Z DAILY\n   23 AND 24 MAR IN AREA WITHIN 30 MILES OF\n   52-08.5N 004-34.3W.\n2. CANCEL THIS MSG 241700Z MAR 21.",
+    "valid_from": "2021-03-23T04:21:00+00:00",
+    "valid_until": "2021-03-24T17:00:00+00:00",
+    "summary": null
   }
 }

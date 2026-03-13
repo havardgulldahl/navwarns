@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 837/20(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          26.818055555555556,
+          37.87027777777778
+        ],
+        [
+          26.818055555555556,
+          37.82055555555556
+        ],
+        [
+          26.636388888888888,
+          37.82027777777778
+        ],
+        [
+          26.636388888888888,
+          37.86972222222222
+        ],
+        [
+          26.818055555555556,
+          37.87027777777778
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2020-03-04T16:57:00",
     "raw_dtg": "041657Z MAR 20",
     "msg_id": "HYDROARC 837/20(54)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 061200Z MAR 20",
-      "HYDROARC 837/20"
+      "THIS MSG 061200Z MAR 20"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 051800Z TO 052000Z AND\n   060900Z TO 061100Z MAR IN AREA BOUND BY\n   37-52-13N 026-49-05E, 37-49-14N 026-49-05E,\n   37-49-13N 026-38-11E, 37-52-11N 026-38-11E.\n2. CANCEL THIS MSG 061200Z MAR 20."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 051800Z TO 052000Z AND\n   060900Z TO 061100Z MAR IN AREA BOUND BY\n   37-52-13N 026-49-05E, 37-49-14N 026-49-05E,\n   37-49-13N 026-38-11E, 37-52-11N 026-38-11E.\n2. CANCEL THIS MSG 061200Z MAR 20.",
+    "valid_from": "2020-03-04T16:57:00+00:00",
+    "valid_until": "2020-03-06T12:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1645/15(36,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201666666666666,
+      49.96
+    ]
   },
   "properties": {
     "dtg": "2015-07-06T12:04:00",
     "raw_dtg": "061204Z JUL 15",
     "msg_id": "HYDROARC 1645/15(36,37)",
-    "cancellations": [
-      "HYDROARC 1676/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 36049.\nDGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 36049.\nDGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W OFF AIR.",
+    "valid_from": "2015-07-06T12:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

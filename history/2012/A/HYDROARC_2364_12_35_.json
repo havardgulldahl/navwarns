@@ -3,17 +3,23 @@
   "id": "HYDROARC 2364/12(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.405,
+      59.083333333333336
+    ]
   },
   "properties": {
     "dtg": "2012-10-09T06:28:00",
     "raw_dtg": "090628Z OCT 12",
     "msg_id": "HYDROARC 2364/12(35)",
-    "cancellations": [
-      "HYDROARC 2365/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTH COAST.\nCHART 35001\nSULE SKERRY LIGHT 59-05.0N 004-24.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTH COAST.\nCHART 35001\nSULE SKERRY LIGHT 59-05.0N 004-24.3W UNRELIABLE.",
+    "valid_from": "2012-10-09T06:28:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

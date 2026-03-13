@@ -3,17 +3,23 @@
   "id": "HYDROARC 412/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3166666666666667,
+      52.925
+    ]
   },
   "properties": {
     "dtg": "2021-02-11T02:08:00",
     "raw_dtg": "110208Z FEB 21",
     "msg_id": "HYDROARC 412/21(37)",
-    "cancellations": [
-      "HYDROARC 426/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCROMER LIGHT 52-55.5N 001-19.0E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCROMER LIGHT 52-55.5N 001-19.0E UNRELIABLE.",
+    "valid_from": "2021-02-11T02:08:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

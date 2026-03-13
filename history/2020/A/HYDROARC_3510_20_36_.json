@@ -3,17 +3,23 @@
   "id": "HYDROARC 3510/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.0,
+      53.596666666666664
+    ]
   },
   "properties": {
     "dtg": "2020-11-12T13:58:00",
     "raw_dtg": "121358Z NOV 20",
     "msg_id": "HYDROARC 3510/20(36)",
-    "cancellations": [
-      "HYDROARC 3630/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IRISH SEA.\nIRELAND.\nDNC 19.\nROCKABILL LIGHT 53-35.8N 006-00.0W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IRISH SEA.\nIRELAND.\nDNC 19.\nROCKABILL LIGHT 53-35.8N 006-00.0W UNRELIABLE.",
+    "valid_from": "2020-11-12T13:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

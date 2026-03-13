@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 531/16(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.6,
+          44.96666666666667
+        ],
+        [
+          36.93333333333333,
+          44.96666666666667
+        ],
+        [
+          37.15833333333333,
+          44.608333333333334
+        ],
+        [
+          36.666666666666664,
+          44.516666666666666
+        ],
+        [
+          36.6,
+          44.96666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-03-03T12:10:00",
     "raw_dtg": "031210Z MAR 16",
     "msg_id": "HYDROARC 531/16(55)",
+    "year": 2016,
     "cancellations": [
-      "THIS MSG 041500Z MAR 16",
-      "HYDROARC 531/16"
+      "THIS MSG 041500Z MAR 16"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nRUSSIA.\nGUNNERY. MISSILES.\nDNC 10.\n1. HAZARDOUS OPERATIONS 040600Z TO 041400Z MAR\n   IN AREA BOUND BY\n   44-58.0N 036-36.0E, 44-58.0N 036-56.0E,\n   44-36.5N 037-09.5E, 44-31.0N 036-40.0E.\n2. CANCEL THIS MSG 041500Z MAR 16."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nRUSSIA.\nGUNNERY. MISSILES.\nDNC 10.\n1. HAZARDOUS OPERATIONS 040600Z TO 041400Z MAR\n   IN AREA BOUND BY\n   44-58.0N 036-36.0E, 44-58.0N 036-56.0E,\n   44-36.5N 037-09.5E, 44-31.0N 036-40.0E.\n2. CANCEL THIS MSG 041500Z MAR 16.",
+    "valid_from": "2016-03-03T12:10:00+00:00",
+    "valid_until": "2016-03-04T15:00:00+00:00",
+    "summary": null
   }
 }

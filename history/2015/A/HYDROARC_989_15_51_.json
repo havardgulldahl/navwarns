@@ -3,18 +3,25 @@
   "id": "HYDROARC 989/15(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.771666666666667,
+      35.333333333333336
+    ]
   },
   "properties": {
     "dtg": "2015-04-24T15:15:00",
     "raw_dtg": "241515Z APR 15",
     "msg_id": "HYDROARC 989/15(51)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 271515Z APR 15",
-      "HYDROARC 989/15"
+      "THIS MSG 271515Z APR 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT VESSEL, BLACK HULL, ADRIFT IN\n   35-20.0N 008-46.3W AT 241330Z APR.\n2. CANCEL THIS MSG 271515Z APR 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\n1. DERELICT VESSEL, BLACK HULL, ADRIFT IN\n   35-20.0N 008-46.3W AT 241330Z APR.\n2. CANCEL THIS MSG 271515Z APR 15.",
+    "valid_from": "2015-04-24T15:15:00+00:00",
+    "valid_until": "2015-04-27T15:15:00+00:00",
+    "summary": null
   }
 }

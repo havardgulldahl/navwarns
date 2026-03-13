@@ -3,17 +3,26 @@
   "id": "HYDROARC 771/16(52,53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      10.876666666666667,
+      37.105
+    ]
   },
   "properties": {
     "dtg": "2016-03-31T12:22:00",
     "raw_dtg": "311222Z MAR 16",
     "msg_id": "HYDROARC 771/16(52,53)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 1182/16"
+      "753/16",
+      "747/16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nTUNISIA-NORTHEAST COAST.\nDNC 08, DNC 09.\nCHART 52180.\n1. ZEMBRETTA ISLE LIGHT 37-06.3N 010-52.6E UNLIT.\n2. CANCEL HYDROLANT 753/16(55), 747/16 REFERS."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\nTUNISIA-NORTHEAST COAST.\nDNC 08, DNC 09.\nCHART 52180.\n1. ZEMBRETTA ISLE LIGHT 37-06.3N 010-52.6E UNLIT.\n2. CANCEL HYDROLANT 753/16(55), 747/16 REFERS.",
+    "valid_from": "2016-03-31T12:22:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

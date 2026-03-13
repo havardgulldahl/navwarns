@@ -3,17 +3,23 @@
   "id": "HYDROARC 313/17",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.451666666666666,
+      42.36666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-01-30T14:15:00",
     "raw_dtg": "301415Z JAN 17",
     "msg_id": "HYDROARC 313/17",
-    "cancellations": [
-      "HYDROARC 317/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nNAVTEX STATION CORUNA (D) 42-22.0N 008-27.1W OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nNAVTEX STATION CORUNA (D) 42-22.0N 008-27.1W OFF AIR.",
+    "valid_from": "2017-01-30T14:15:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

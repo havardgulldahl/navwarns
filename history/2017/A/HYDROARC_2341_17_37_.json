@@ -3,18 +3,25 @@
   "id": "HYDROARC 2341/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.835,
+      52.56333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-07-29T09:18:00",
     "raw_dtg": "290918Z JUL 17",
     "msg_id": "HYDROARC 2341/17(37)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 010918Z AUG 17",
-      "HYDROARC 2342/17"
+      "THIS MSG 010918Z AUG 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20, DNC 21.\n1. TWO PIPES ADRIFT IN 52-33.8N 002-50.1E\n   AT 290143Z JUL. REPORTS TO HUMBER COAST GUARD.\n2. CANCEL THIS MSG 010918Z AUG 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20, DNC 21.\n1. TWO PIPES ADRIFT IN 52-33.8N 002-50.1E\n   AT 290143Z JUL. REPORTS TO HUMBER COAST GUARD.\n2. CANCEL THIS MSG 010918Z AUG 17.",
+    "valid_from": "2017-07-29T09:18:00+00:00",
+    "valid_until": "2017-08-01T09:18:00+00:00",
+    "summary": null
   }
 }

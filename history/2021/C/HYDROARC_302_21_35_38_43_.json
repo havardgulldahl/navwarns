@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 302/21(35,38,43)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2021-10-29T03:01:00",
     "raw_dtg": "290301Z OCT 21",
     "msg_id": "HYDROARC 302/21(35,38,43)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 171200Z NOV 21",
-      "HYDROARC 306/21"
+      "THIS MSG 171200Z NOV 21"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nJAN MAYEN.\nDNC 19, DNC 20.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0400Z TO 1100Z DAILY 03 THRU 17 NOV\n   IN AREA BOUND BY\n   71-26N 004-05W, 71-00N 001-30E,\n   66-25N 000-15E, 67-52N 008-45W.\n2. CANCEL THIS MSG 171200Z NOV 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nJAN MAYEN.\nDNC 19, DNC 20.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0400Z TO 1100Z DAILY 03 THRU 17 NOV\n   IN AREA BOUND BY\n   71-26N 004-05W, 71-00N 001-30E,\n   66-25N 000-15E, 67-52N 008-45W.\n2. CANCEL THIS MSG 171200Z NOV 21.",
+    "valid_from": "2021-10-29T03:01:00+00:00",
+    "valid_until": "2021-11-17T12:00:00+00:00",
+    "summary": null
   }
 }

@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 15/14(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-01-03T05:13:00",
     "raw_dtg": "030513Z JAN 14",
     "msg_id": "HYDROARC 15/14(36)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 060513Z JAN 14",
-      "HYDROARC 15/14"
+      "THIS MSG 060513Z JAN 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\n1. NUMEROUS CONTAINERS ADRIFT VICINITY 43-00N 021-08W\n   AT 030400Z JAN.\n2. CANCEL THIS MSG 060513Z JAN 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\n1. NUMEROUS CONTAINERS ADRIFT VICINITY 43-00N 021-08W\n   AT 030400Z JAN.\n2. CANCEL THIS MSG 060513Z JAN 14.",
+    "valid_from": "2014-01-03T05:13:00+00:00",
+    "valid_until": "2014-01-06T05:13:00+00:00",
+    "summary": null
   }
 }

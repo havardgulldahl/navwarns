@@ -3,17 +3,23 @@
   "id": "HYDROARC 69/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.591666666666667,
+      57.705
+    ]
   },
   "properties": {
     "dtg": "2017-01-07T16:39:00",
     "raw_dtg": "071639Z JAN 17",
     "msg_id": "HYDROARC 69/17(35)",
-    "cancellations": [
-      "HYDROARC 171/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nORDNANCE.\nDNC 20.\nCHART 35055.\nUNEXPLODED ORDNANCE, MARKED BY BUOY,\nIN 57-42.3N 003-35.5W.\n0.5 MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nORDNANCE.\nDNC 20.\nCHART 35055.\nUNEXPLODED ORDNANCE, MARKED BY BUOY,\nIN 57-42.3N 003-35.5W.\n0.5 MILE BERTH REQUESTED.",
+    "valid_from": "2017-01-07T16:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

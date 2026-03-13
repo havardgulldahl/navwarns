@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 195/19(43)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2019-09-01T09:18:00",
     "raw_dtg": "010918Z SEP 19",
     "msg_id": "HYDROARC 195/19(43)",
+    "year": 2019,
     "cancellations": [
-      "HYDROARC 184/19",
-      "HYDROARC 195/19"
+      "HYDROARC 184/19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21.\nCANCEL HYDROARC 184/19 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21.\nCANCEL HYDROARC 184/19 AND THIS MSG.",
+    "valid_from": "2019-09-01T09:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

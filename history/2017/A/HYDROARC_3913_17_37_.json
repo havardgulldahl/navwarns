@@ -3,17 +3,25 @@
   "id": "HYDROARC 3913/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5833333333333335,
+      50.86833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-12-04T21:29:00",
     "raw_dtg": "042129Z DEC 17",
     "msg_id": "HYDROARC 3913/17(37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 3926/17"
+      "3911/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nCHART 37120.\n1. CAP GRIS NEZ LIGHT 50-52.1N 001-35.0E UNRELIABLE.\n2. CANCEL HYDROLANT 3911/17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nCHART 37120.\n1. CAP GRIS NEZ LIGHT 50-52.1N 001-35.0E UNRELIABLE.\n2. CANCEL HYDROLANT 3911/17.",
+    "valid_from": "2017-12-04T21:29:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 332/22(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.295,
+      53.58833333333333
+    ]
   },
   "properties": {
     "dtg": "2022-02-03T04:01:00",
     "raw_dtg": "030401Z FEB 22",
     "msg_id": "HYDROARC 332/22(37)",
-    "cancellations": [
-      "HYDROARC 736/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT WENLOCK PLATFORM,\n53-35.3N 002-17.7E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT WENLOCK PLATFORM,\n53-35.3N 002-17.7E INOPERATIVE.",
+    "valid_from": "2022-02-03T04:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 3598/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.47,
+      52.8
+    ]
   },
   "properties": {
     "dtg": "2018-11-20T08:57:00",
     "raw_dtg": "200857Z NOV 18",
     "msg_id": "HYDROARC 3598/18(36)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 210101Z NOV 18",
-      "HYDROARC 3600/18"
+      "THIS MSG 210101Z NOV 18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CARDIGAN BAY.\nWALES.\nDNC 20.\nCHART 36002.\n1. ST. TUDWAL'S WEST ISLAND LIGHT 52-48.0N 004-28.2W\n   UNRELIABLE 201200Z TO 210001Z NOV.\n2. CANCEL THIS MSG 210101Z NOV 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CARDIGAN BAY.\nWALES.\nDNC 20.\nCHART 36002.\n1. ST. TUDWAL'S WEST ISLAND LIGHT 52-48.0N 004-28.2W\n   UNRELIABLE 201200Z TO 210001Z NOV.\n2. CANCEL THIS MSG 210101Z NOV 18.",
+    "valid_from": "2018-11-20T08:57:00+00:00",
+    "valid_until": "2018-11-21T01:01:00+00:00",
+    "summary": null
   }
 }

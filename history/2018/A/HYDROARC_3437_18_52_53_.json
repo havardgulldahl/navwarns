@@ -3,18 +3,25 @@
   "id": "HYDROARC 3437/18(52,53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      4.886666666666667,
+      40.58166666666666
+    ]
   },
   "properties": {
     "dtg": "2018-11-05T13:57:00",
     "raw_dtg": "051357Z NOV 18",
     "msg_id": "HYDROARC 3437/18(52,53)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 081357Z NOV 18",
-      "HYDROARC 3437/18"
+      "THIS MSG 081357Z NOV 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WEST MEDITERRANEAN SEA.\nBALEARIC ISLANDS.\nDNC 08.\n1. DERELICT S/V O2 ADRIFT ADRIFT IN VICINITY\n   40-34.9N 004-53.2E AT 051052Z NOV.\n2. CANCEL THIS MSG 081357Z NOV 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WEST MEDITERRANEAN SEA.\nBALEARIC ISLANDS.\nDNC 08.\n1. DERELICT S/V O2 ADRIFT ADRIFT IN VICINITY\n   40-34.9N 004-53.2E AT 051052Z NOV.\n2. CANCEL THIS MSG 081357Z NOV 18.",
+    "valid_from": "2018-11-05T13:57:00+00:00",
+    "valid_until": "2018-11-08T13:57:00+00:00",
+    "summary": null
   }
 }

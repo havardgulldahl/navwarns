@@ -3,17 +3,23 @@
   "id": "HYDROARC 78/18(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.545,
+      63.73
+    ]
   },
   "properties": {
     "dtg": "2018-05-17T16:23:00",
     "raw_dtg": "171623Z MAY 18",
     "msg_id": "HYDROARC 78/18(15)",
-    "cancellations": [
-      "HYDROARC 81/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nDNC 28.\nMCTS CENTRE IQALUIT 63-43.8N 068-32.7W HF DSC\nSTATION INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nDNC 28.\nMCTS CENTRE IQALUIT 63-43.8N 068-32.7W HF DSC\nSTATION INOPERATIVE.",
+    "valid_from": "2018-05-17T16:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

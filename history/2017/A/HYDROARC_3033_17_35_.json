@@ -3,17 +3,23 @@
   "id": "HYDROARC 3033/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.38166666666666665,
+      58.001666666666665
+    ]
   },
   "properties": {
     "dtg": "2017-09-25T21:50:00",
     "raw_dtg": "252150Z SEP 17",
     "msg_id": "HYDROARC 3033/17(35)",
-    "cancellations": [
-      "HYDROARC 3040/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35005.\nPLATFORM 14/29A GOLDENEYE, 58-00.1N 000-22.9W\nLIGHTS UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35005.\nPLATFORM 14/29A GOLDENEYE, 58-00.1N 000-22.9W\nLIGHTS UNRELIABLE.",
+    "valid_from": "2017-09-25T21:50:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

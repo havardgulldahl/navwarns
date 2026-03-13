@@ -3,18 +3,25 @@
   "id": "HYDROARC 1407/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.415,
+      50.49666666666667
+    ]
   },
   "properties": {
     "dtg": "2014-06-05T12:23:00",
     "raw_dtg": "051223Z JUN 14",
     "msg_id": "HYDROARC 1407/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 081220Z JUN 14",
-      "HYDROARC 1407/14"
+      "THIS MSG 081220Z JUN 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\n1. CONTAINER ADRIFT VICINITY 50-29.8N 000-24.9W\n   AT 051025Z JUN.\n2. CANCEL THIS MSG 081220Z JUN 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\n1. CONTAINER ADRIFT VICINITY 50-29.8N 000-24.9W\n   AT 051025Z JUN.\n2. CANCEL THIS MSG 081220Z JUN 14.",
+    "valid_from": "2014-06-05T12:23:00+00:00",
+    "valid_until": "2014-06-08T12:20:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 508/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.0716666666666668,
+      58.096666666666664
+    ]
   },
   "properties": {
     "dtg": "2016-03-01T04:17:00",
     "raw_dtg": "010417Z MAR 16",
     "msg_id": "HYDROARC 508/16(35)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 865/16"
+      "83/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35055.\n1. WIND TURBINE B, 58-05.8N 003-04.3W UNLIT.\n2. CANCEL HYDROLANT 83/16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-NORTHEAST COAST.\nDNC 20.\nCHART 35055.\n1. WIND TURBINE B, 58-05.8N 003-04.3W UNLIT.\n2. CANCEL HYDROLANT 83/16.",
+    "valid_from": "2016-03-01T04:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

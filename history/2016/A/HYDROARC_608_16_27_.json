@@ -3,17 +3,23 @@
   "id": "HYDROARC 608/16(27)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -76.78625,
+      21.528483333333334
+    ]
   },
   "properties": {
     "dtg": "2016-03-13T08:05:00",
     "raw_dtg": "130805Z MAR 16",
     "msg_id": "HYDROARC 608/16(27)",
-    "cancellations": [
-      "HYDROARC 646/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "OLD BAHAMA CHANNEL.\nCUBA-NORTHEAST COAST.\nDNC 16.\nVESSEL SINKING IN 21-31.709N 076-47.175W AT 130750Z MAR.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "OLD BAHAMA CHANNEL.\nCUBA-NORTHEAST COAST.\nDNC 16.\nVESSEL SINKING IN 21-31.709N 076-47.175W AT 130750Z MAR.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2016-03-13T08:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

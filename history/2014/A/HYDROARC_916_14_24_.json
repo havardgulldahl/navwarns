@@ -3,17 +3,23 @@
   "id": "HYDROARC 916/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -41.015,
+      -21.625
+    ]
   },
   "properties": {
     "dtg": "2014-04-04T06:37:00",
     "raw_dtg": "040637Z APR 14",
     "msg_id": "HYDROARC 916/14(24)",
-    "cancellations": [
-      "HYDROARC 1418/14"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24170\nATAFONA LIGHT 21-37.5S 041-00.9W UNLIT."
+    "year": 2014,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24170\nATAFONA LIGHT 21-37.5S 041-00.9W UNLIT.",
+    "valid_from": "2014-04-04T06:37:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

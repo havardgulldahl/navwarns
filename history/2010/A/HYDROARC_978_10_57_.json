@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 978/10(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.625,
+          -7.428333333333334
+        ],
+        [
+          11.105,
+          -7.758333333333333
+        ],
+        [
+          10.945,
+          -7.506666666666667
+        ],
+        [
+          11.465,
+          -7.176666666666667
+        ],
+        [
+          11.625,
+          -7.428333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2010-05-30T08:19:00",
     "raw_dtg": "300819Z MAY 10",
     "msg_id": "HYDROARC 978/10(57)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 2035/10"
+      "2119/09"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V RAMFORM STERLING TOWING 8500 METER\n   LONG CABLES IN AREA BOUND BY\n   07-25.7S 011-37.5E, 07-45.5S 011-06.3E,\n   07-30.4S 010-56.7E, 07-10.6S 011-27.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2119/09."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V RAMFORM STERLING TOWING 8500 METER\n   LONG CABLES IN AREA BOUND BY\n   07-25.7S 011-37.5E, 07-45.5S 011-06.3E,\n   07-30.4S 010-56.7E, 07-10.6S 011-27.9E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2119/09.",
+    "valid_from": "2010-05-30T08:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

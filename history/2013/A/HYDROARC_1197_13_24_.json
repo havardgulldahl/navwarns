@@ -3,17 +3,23 @@
   "id": "HYDROARC 1197/13(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -45.27333333333333,
+      7.128333333333333
+    ]
   },
   "properties": {
     "dtg": "2013-05-13T12:39:00",
     "raw_dtg": "131239Z MAY 13",
     "msg_id": "HYDROARC 1197/13(24)",
-    "cancellations": [
-      "HYDROARC 1228/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nVESSEL ROUGH BOUNDS, ONE PERSON ON BOARD, UNREPORTED.\nLAST KNOWN POSITION 07-07.7N 045-16.4W ON 05 MAY.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nVESSEL ROUGH BOUNDS, ONE PERSON ON BOARD, UNREPORTED.\nLAST KNOWN POSITION 07-07.7N 045-16.4W ON 05 MAY.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2013-05-13T12:39:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

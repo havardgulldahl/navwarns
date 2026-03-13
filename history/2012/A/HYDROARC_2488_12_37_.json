@@ -3,17 +3,25 @@
   "id": "HYDROARC 2488/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.9916666666666667,
+      53.885
+    ]
   },
   "properties": {
     "dtg": "2012-10-24T09:23:00",
     "raw_dtg": "240923Z OCT 12",
     "msg_id": "HYDROARC 2488/12(37)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2875/12"
+      "1752/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37058\n1. FOG SIGNAL AT METEOROLOGICAL MAST 53-53.1N 001-59.5E INOPERATIVE.\n2. CANCEL HYDROLANT 1752/12."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37058\n1. FOG SIGNAL AT METEOROLOGICAL MAST 53-53.1N 001-59.5E INOPERATIVE.\n2. CANCEL HYDROLANT 1752/12.",
+    "valid_from": "2012-10-24T09:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

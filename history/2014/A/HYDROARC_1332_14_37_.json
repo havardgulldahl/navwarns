@@ -3,18 +3,25 @@
   "id": "HYDROARC 1332/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.26,
+      49.30166666666667
+    ]
   },
   "properties": {
     "dtg": "2014-05-28T10:10:00",
     "raw_dtg": "281010Z MAY 14",
     "msg_id": "HYDROARC 1332/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 311010Z MAY 14",
-      "HYDROARC 1332/14"
+      "THIS MSG 311010Z MAY 14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nCELTIC SEA.\n1. CONTAINER ADRIFT VICINITY\n   49-18.1N 005-15.6W AT 280910Z MAY.\n2. CANCEL THIS MSG 311010Z MAY 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nCELTIC SEA.\n1. CONTAINER ADRIFT VICINITY\n   49-18.1N 005-15.6W AT 280910Z MAY.\n2. CANCEL THIS MSG 311010Z MAY 14.",
+    "valid_from": "2014-05-28T10:10:00+00:00",
+    "valid_until": "2014-05-31T10:10:00+00:00",
+    "summary": null
   }
 }

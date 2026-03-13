@@ -3,17 +3,23 @@
   "id": "HYDROARC 580/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7799999999999998,
+      51.083333333333336
+    ]
   },
   "properties": {
     "dtg": "2010-04-03T06:27:00",
     "raw_dtg": "030627Z APR 10",
     "msg_id": "HYDROARC 580/10(37)",
-    "cancellations": [
-      "HYDROARC 694/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNGA CHART 37121 (11TH ED).\nRUYTINGEN SW BUOY 51-05.0N 001-46.8E MISSING."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNGA CHART 37121 (11TH ED).\nRUYTINGEN SW BUOY 51-05.0N 001-46.8E MISSING.",
+    "valid_from": "2010-04-03T06:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

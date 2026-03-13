@@ -3,18 +3,26 @@
   "id": "HYDROARC 450/16(35,37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.046666666666667,
+      57.138333333333335
+    ]
   },
   "properties": {
     "dtg": "2016-02-22T10:29:00",
     "raw_dtg": "221029Z FEB 16",
     "msg_id": "HYDROARC 450/16(35,37)",
+    "year": 2016,
     "cancellations": [
       "THIS MSG 271800Z FEB 16",
-      "HYDROARC 450/16"
+      "449/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-EAST COAST.\nDNC 20.\nCHART 35008, 37005.\n1. DGPS STATION AT GIRDLE NESS LIGHT\n   57-08.3N 002-02.8W OFF AIR 221000Z TO 271700Z FEB.\n2. CANCEL HYDROLANT 449/16.\n3. CANCEL THIS MSG 271800Z FEB 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-EAST COAST.\nDNC 20.\nCHART 35008, 37005.\n1. DGPS STATION AT GIRDLE NESS LIGHT\n   57-08.3N 002-02.8W OFF AIR 221000Z TO 271700Z FEB.\n2. CANCEL HYDROLANT 449/16.\n3. CANCEL THIS MSG 271800Z FEB 16.",
+    "valid_from": "2016-02-22T10:29:00+00:00",
+    "valid_until": "2016-02-27T18:00:00+00:00",
+    "summary": null
   }
 }

@@ -12,12 +12,16 @@
     "dtg": "2022-05-04T14:20:00",
     "raw_dtg": "041420Z MAY 22",
     "msg_id": "HYDROARC 1211/22(29)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 051420Z MAY 22",
-      "HYDROARC 1211/22"
+      "THIS MSG 051420Z MAY 22"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. ICEBERG B09I REPORTED IN 56-32.00S 024-20.00W.\n2. CANCEL THIS MSG 051420Z MAY 22."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. ICEBERG B09I REPORTED IN 56-32.00S 024-20.00W.\n2. CANCEL THIS MSG 051420Z MAY 22.",
+    "valid_from": "2022-05-04T14:20:00+00:00",
+    "valid_until": "2022-05-05T14:20:00+00:00",
+    "summary": null
   }
 }

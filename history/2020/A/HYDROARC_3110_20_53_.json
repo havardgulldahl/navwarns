@@ -3,18 +3,25 @@
   "id": "HYDROARC 3110/20(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.508333333333333,
+      34.99166666666667
+    ]
   },
   "properties": {
     "dtg": "2020-10-13T12:26:00",
     "raw_dtg": "131226Z OCT 20",
     "msg_id": "HYDROARC 3110/20(53)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 161226Z OCT 20",
-      "HYDROARC 3110/20"
+      "THIS MSG 161226Z OCT 20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nLAMPEDUSA.\nDNC 09.\n1. DERELICT SEVEN METER VESSEL ADRIFT IN VICINITY\n   34-59.5N 012-30.5E.\n2. CANCEL THIS MSG 161226Z OCT 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nLAMPEDUSA.\nDNC 09.\n1. DERELICT SEVEN METER VESSEL ADRIFT IN VICINITY\n   34-59.5N 012-30.5E.\n2. CANCEL THIS MSG 161226Z OCT 20.",
+    "valid_from": "2020-10-13T12:26:00+00:00",
+    "valid_until": "2020-10-16T12:26:00+00:00",
+    "summary": null
   }
 }

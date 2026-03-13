@@ -3,17 +3,23 @@
   "id": "HYDROARC 2481/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.2413888888888889,
+      50.73388888888889
+    ]
   },
   "properties": {
     "dtg": "2020-08-11T01:09:00",
     "raw_dtg": "110109Z AUG 20",
     "msg_id": "HYDROARC 2481/20(37)",
-    "cancellations": [
-      "HYDROARC 2490/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nBEACHY HEAD LIGHT 50-44-02N 000-14-29E UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nBEACHY HEAD LIGHT 50-44-02N 000-14-29E UNLIT.",
+    "valid_from": "2020-08-11T01:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

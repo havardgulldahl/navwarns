@@ -3,17 +3,23 @@
   "id": "HYDROARC 2417/14(35,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.03166666666666666,
+      57.903333333333336
+    ]
   },
   "properties": {
     "dtg": "2014-10-06T16:01:00",
     "raw_dtg": "061601Z OCT 14",
     "msg_id": "HYDROARC 2417/14(35,43)",
-    "cancellations": [
-      "HYDROARC 2466/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCHART 35005.\nALL NAVIGATIONAL AIDS AT PLATFORM BUCHAN ALPHA\n57-54.2N 000-01.9E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCHART 35005.\nALL NAVIGATIONAL AIDS AT PLATFORM BUCHAN ALPHA\n57-54.2N 000-01.9E UNRELIABLE.",
+    "valid_from": "2014-10-06T16:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

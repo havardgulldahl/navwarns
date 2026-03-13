@@ -3,17 +3,23 @@
   "id": "HYDROARC 916/15(26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -76.64,
+      26.296666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-04-17T09:00:00",
     "raw_dtg": "170900Z APR 15",
     "msg_id": "HYDROARC 916/15(26)",
-    "cancellations": [
-      "HYDROARC 1007/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 16.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 26-17.8N 076-38.4W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD RCC MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nBAHAMAS.\nDNC 16.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 26-17.8N 076-38.4W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD RCC MIAMI,\nPHONE: 305 415 6800, E-MAIL: RCCMIAMI@USCG.MIL.",
+    "valid_from": "2015-04-17T09:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

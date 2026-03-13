@@ -2,19 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 3990/18(56)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.038333333333334,
+          33.64666666666667
+        ],
+        [
+          33.69833333333333,
+          33.483333333333334
+        ],
+        [
+          33.09166666666667,
+          32.98833333333333
+        ],
+        [
+          32.471666666666664,
+          33.156666666666666
+        ],
+        [
+          33.038333333333334,
+          33.64666666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2018-12-21T21:21:00",
     "raw_dtg": "212121Z DEC 18",
     "msg_id": "HYDROARC 3990/18(56)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 052300Z JAN 19",
-      "HYDROARC 3997/18"
+      "THIS MSG 052300Z JAN 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. SURVEY OPERATIONS 220001Z DEC TO 052200Z JAN 19\n   BY M/V RAMFORM TITAN TOWING 12 FIVE MILE LONG CABLES,\n   IN AREA BOUND BY\n   33-38.8N 033-02.3E, 33-29.0N 033-41.9E,\n   32-59.3N 033-05.5E, 33-09.4N 032-28.3E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 052300Z JAN 19."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. SURVEY OPERATIONS 220001Z DEC TO 052200Z JAN 19\n   BY M/V RAMFORM TITAN TOWING 12 FIVE MILE LONG CABLES,\n   IN AREA BOUND BY\n   33-38.8N 033-02.3E, 33-29.0N 033-41.9E,\n   32-59.3N 033-05.5E, 33-09.4N 032-28.3E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 052300Z JAN 19.",
+    "valid_from": "2018-12-21T21:21:00+00:00",
+    "valid_until": "2019-01-05T23:00:00+00:00",
+    "summary": null
   }
 }

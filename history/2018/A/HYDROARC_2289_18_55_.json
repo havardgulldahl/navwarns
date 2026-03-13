@@ -3,17 +3,25 @@
   "id": "HYDROARC 2289/18(55)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      28.666666666666668,
+      43.99
+    ]
   },
   "properties": {
     "dtg": "2018-07-13T13:19:00",
     "raw_dtg": "131319Z JUL 18",
     "msg_id": "HYDROARC 2289/18(55)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 3480/18"
+      "3948/17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nCHART 55120.\n1. FOG SIGNAL AT CAPUL TUZLA LIGHT 43-59.4N 028-40.0E UNLIT.\n2. CANCEL HYDROLANT 3948/17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\nCHART 55120.\n1. FOG SIGNAL AT CAPUL TUZLA LIGHT 43-59.4N 028-40.0E UNLIT.\n2. CANCEL HYDROLANT 3948/17.",
+    "valid_from": "2018-07-13T13:19:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

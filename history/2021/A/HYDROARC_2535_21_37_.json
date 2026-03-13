@@ -3,17 +3,23 @@
   "id": "HYDROARC 2535/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.665,
+      53.91
+    ]
   },
   "properties": {
     "dtg": "2021-10-14T09:34:00",
     "raw_dtg": "140934Z OCT 21",
     "msg_id": "HYDROARC 2535/21(37)",
-    "cancellations": [
-      "HYDROARC 2888/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT TURBINE H27 53-54.6N 001-39.9E\nINOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT TURBINE H27 53-54.6N 001-39.9E\nINOPERATIVE.",
+    "valid_from": "2021-10-14T09:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

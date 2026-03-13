@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 3107/19(57)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          14.941666666666666,
+          -26.446666666666665
+        ],
+        [
+          15.013333333333334,
+          -26.446666666666665
+        ],
+        [
+          15.013333333333334,
+          -26.605
+        ],
+        [
+          14.941666666666666,
+          -26.605
+        ],
+        [
+          14.941666666666666,
+          -26.446666666666665
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-10-11T20:03:00",
     "raw_dtg": "112003Z OCT 19",
     "msg_id": "HYDROARC 3107/19(57)",
-    "cancellations": [
-      "HYDROARC 89/20"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V EXPLORER IN AREA BOUND BY\n26-26.8S 014-56.5E, 26-26.8S 015-00.8E,\n26-36.3S 015-00.8E, 26-36.3S 014-56.5E.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V EXPLORER IN AREA BOUND BY\n26-26.8S 014-56.5E, 26-26.8S 015-00.8E,\n26-36.3S 015-00.8E, 26-36.3S 014-56.5E.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2019-10-11T20:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2088/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.058333333333333,
+      53.651666666666664
+    ]
   },
   "properties": {
     "dtg": "2014-08-30T14:53:00",
     "raw_dtg": "301453Z AUG 14",
     "msg_id": "HYDROARC 2088/14(37)",
-    "cancellations": [
-      "HYDROARC 2352/14"
-    ],
+    "year": 2014,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nCHART 37058\nALL NAVIGATIONAL AIDS AT PLATFORM TETHYS\n53-39.1N 002-03.5E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nCHART 37058\nALL NAVIGATIONAL AIDS AT PLATFORM TETHYS\n53-39.1N 002-03.5E INOPERATIVE.",
+    "valid_from": "2014-08-30T14:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

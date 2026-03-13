@@ -3,17 +3,23 @@
   "id": "HYDROARC 1759/17(35,36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.7283333333333335,
+      54.928333333333335
+    ]
   },
   "properties": {
     "dtg": "2017-06-04T03:47:00",
     "raw_dtg": "040347Z JUN 17",
     "msg_id": "HYDROARC 1759/17(35,36)",
-    "cancellations": [
-      "HYDROARC 1762/17"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nNORTHERN IRELAND-NORTHEAST COAST.\nDNC 19, DNC 20.\nCHART 35119.\nEAST MAIDEN LIGHT 54-55.7N 005-43.7W UNLIT."
+    "year": 2017,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nNORTHERN IRELAND-NORTHEAST COAST.\nDNC 19, DNC 20.\nCHART 35119.\nEAST MAIDEN LIGHT 54-55.7N 005-43.7W UNLIT.",
+    "valid_from": "2017-06-04T03:47:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

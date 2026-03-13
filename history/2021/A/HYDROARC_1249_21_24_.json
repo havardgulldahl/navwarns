@@ -3,17 +3,26 @@
   "id": "HYDROARC 1249/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.486666666666665,
+      -5.161666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-05-05T21:14:00",
     "raw_dtg": "052114Z MAY 21",
     "msg_id": "HYDROARC 1249/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1292/21"
+      "THIS MSG 02 NOV 21",
+      "1189/21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. PONTA DE CALCANHAR LIGHT 05-09.7S 035-29.2W\n   UNLIT UNTIL 01 NOV.\n2. CANCEL HYDROLANT 1189/21.\n3. CANCEL THIS MSG 02 NOV 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. PONTA DE CALCANHAR LIGHT 05-09.7S 035-29.2W\n   UNLIT UNTIL 01 NOV.\n2. CANCEL HYDROLANT 1189/21.\n3. CANCEL THIS MSG 02 NOV 21.",
+    "valid_from": "2021-05-05T21:14:00+00:00",
+    "valid_until": "2021-11-02T00:00:00+00:00",
+    "summary": null
   }
 }

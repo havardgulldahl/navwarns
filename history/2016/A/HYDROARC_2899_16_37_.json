@@ -3,17 +3,23 @@
   "id": "HYDROARC 2899/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.445,
+      51.375
+    ]
   },
   "properties": {
     "dtg": "2016-11-03T05:06:00",
     "raw_dtg": "030506Z NOV 16",
     "msg_id": "HYDROARC 2899/16(37)",
-    "cancellations": [
-      "HYDROARC 2901/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nDOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37120, 37140.\nDGPS STATION AT NORTH FORELAND LIGHT\n51-22.5N 001-26.7E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nDOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nCHART 37120, 37140.\nDGPS STATION AT NORTH FORELAND LIGHT\n51-22.5N 001-26.7E UNRELIABLE.",
+    "valid_from": "2016-11-03T05:06:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

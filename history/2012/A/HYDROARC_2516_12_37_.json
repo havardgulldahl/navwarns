@@ -3,17 +3,23 @@
   "id": "HYDROARC 2516/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.3449999999999998,
+      49.43666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-10-27T00:09:00",
     "raw_dtg": "270009Z OCT 12",
     "msg_id": "HYDROARC 2516/12(37)",
-    "cancellations": [
-      "HYDROARC 2562/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nCHART 37080\nFOG SIGNAL AT POINT ROBERT LIGHT 49-26.2N 002-20.7W INOPERATIVE."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nCHART 37080\nFOG SIGNAL AT POINT ROBERT LIGHT 49-26.2N 002-20.7W INOPERATIVE.",
+    "valid_from": "2012-10-27T00:09:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

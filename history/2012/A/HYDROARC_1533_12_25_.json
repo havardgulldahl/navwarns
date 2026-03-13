@@ -3,17 +3,23 @@
   "id": "HYDROARC 1533/12(25)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -58.27333333333333,
+      20.64666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-07-11T03:32:00",
     "raw_dtg": "110332Z JUL 12",
     "msg_id": "HYDROARC 1533/12(25)",
-    "cancellations": [
-      "HYDROARC 1655/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n20-38.8N 058-16.4W AT 101942Z JUL. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nU.S. COAST GUARD SAN JUAN, PHONE: 787 289 2041."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n20-38.8N 058-16.4W AT 101942Z JUL. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nU.S. COAST GUARD SAN JUAN, PHONE: 787 289 2041.",
+    "valid_from": "2012-07-11T03:32:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

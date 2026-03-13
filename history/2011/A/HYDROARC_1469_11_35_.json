@@ -3,17 +3,23 @@
   "id": "HYDROARC 1469/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.7933333333333333,
+      60.74166666666667
+    ]
   },
   "properties": {
     "dtg": "2011-09-13T21:46:00",
     "raw_dtg": "132146Z SEP 11",
     "msg_id": "HYDROARC 1469/11(35)",
-    "cancellations": [
-      "HYDROARC 1477/11"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nNGA CHART 35066 (1ST ED).\nBALTA ISLET LIGHT 60-44.5N 000-47.6W UNLIT."
+    "year": 2011,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nNGA CHART 35066 (1ST ED).\nBALTA ISLET LIGHT 60-44.5N 000-47.6W UNLIT.",
+    "valid_from": "2011-09-13T21:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

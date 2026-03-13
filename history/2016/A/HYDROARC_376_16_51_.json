@@ -3,18 +3,26 @@
   "id": "HYDROARC 376/16(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -31.36,
+      18.798333333333332
+    ]
   },
   "properties": {
     "dtg": "2016-02-14T02:40:00",
     "raw_dtg": "140240Z FEB 16",
     "msg_id": "HYDROARC 376/16(51)",
+    "year": 2016,
     "cancellations": [
       "THIS MSG 170240Z FEB 16",
-      "HYDROARC 376/16"
+      "371/16"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "NORTH ATLANTIC.\nDNC 01.\n1. DERELICT 24 FOOT VESSEL FIRE ANT, WHITE HULL,\n   ADRIFT VICINITY 18-47.9N 031-21.6W.\n2. CANCEL HYDROLANT 371/16, PERSONS RESCUED.\n3. CANCEL THIS MSG 170240Z FEB 16."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH ATLANTIC.\nDNC 01.\n1. DERELICT 24 FOOT VESSEL FIRE ANT, WHITE HULL,\n   ADRIFT VICINITY 18-47.9N 031-21.6W.\n2. CANCEL HYDROLANT 371/16, PERSONS RESCUED.\n3. CANCEL THIS MSG 170240Z FEB 16.",
+    "valid_from": "2016-02-14T02:40:00+00:00",
+    "valid_until": "2016-02-17T02:40:00+00:00",
+    "summary": null
   }
 }

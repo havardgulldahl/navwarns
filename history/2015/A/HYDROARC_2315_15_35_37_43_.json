@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2315/15(35,37,43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.35666666666666663,
+          57.04333333333334
+        ],
+        [
+          0.975,
+          56.80833333333333
+        ],
+        [
+          0.825,
+          56.346666666666664
+        ],
+        [
+          0.38833333333333336,
+          56.391666666666666
+        ],
+        [
+          0.35666666666666663,
+          57.04333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2015-09-17T09:03:00",
     "raw_dtg": "170903Z SEP 15",
     "msg_id": "HYDROARC 2315/15(35,37,43)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 2326/15"
+      "2297/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\n   M/V WESTERN REGENT TOWING 8400 METER LONG CABLE\n   IN AREA BOUND BY\n   57-02.6N 000-21.4E, 56-48.5N 000-58.5E,\n   56-20.8N 000-49.5E, 56-23.5N 000-23.3E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2297/15."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\n   M/V WESTERN REGENT TOWING 8400 METER LONG CABLE\n   IN AREA BOUND BY\n   57-02.6N 000-21.4E, 56-48.5N 000-58.5E,\n   56-20.8N 000-49.5E, 56-23.5N 000-23.3E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2297/15.",
+    "valid_from": "2015-09-17T09:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

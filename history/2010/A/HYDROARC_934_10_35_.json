@@ -3,17 +3,23 @@
   "id": "HYDROARC 934/10(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -9.38,
+      57.545
+    ]
   },
   "properties": {
     "dtg": "2010-05-23T17:24:00",
     "raw_dtg": "231724Z MAY 10",
     "msg_id": "HYDROARC 934/10(35)",
-    "cancellations": [
-      "HYDROARC 951/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z\n   DAILY 24 THRU 28 MAY WITHIN\n   30 MILES OF 57-32.7N 009-22.8W.\n   VESSELS INTENDING TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 FOR ADVICE.\n2. CANCEL THIS MSG 282100Z MAY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z\n   DAILY 24 THRU 28 MAY WITHIN\n   30 MILES OF 57-32.7N 009-22.8W.\n   VESSELS INTENDING TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 FOR ADVICE.\n2. CANCEL THIS MSG 282100Z MAY.",
+    "valid_from": "2010-05-23T17:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

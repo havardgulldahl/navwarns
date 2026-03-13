@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 1402/13(57)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         12.202,
@@ -22,11 +22,16 @@
     "dtg": "2013-06-06T23:27:00",
     "raw_dtg": "062327Z JUN 13",
     "msg_id": "HYDROARC 1402/13(57)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2349/13"
+      "407/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE VICINITY OF TRACKLINE JOINING\n   06-03.65S 012-12.12E,\n   06-07.22S 012-11.92E,\n   06-11.66S 012-12.65E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 407/13."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE VICINITY OF TRACKLINE JOINING\n   06-03.65S 012-12.12E,\n   06-07.22S 012-11.92E,\n   06-11.66S 012-12.65E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 407/13.",
+    "valid_from": "2013-06-06T23:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

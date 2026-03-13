@@ -3,17 +3,23 @@
   "id": "HYDROARC 1362/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -29.325,
+      -20.525
+    ]
   },
   "properties": {
     "dtg": "2010-07-17T21:44:00",
     "raw_dtg": "172144Z JUL 10",
     "msg_id": "HYDROARC 1362/10(24)",
-    "cancellations": [
-      "HYDROARC 1424/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nILHAS DA TRINDADE AND MARTIN VAZ.\nMAN OVERBOARD VICINITY PRAIA DO PRINCIPE/GAROUPA\n(20-31.5S 029-19.5W) AT 171610Z JUL. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL\nRADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nILHAS DA TRINDADE AND MARTIN VAZ.\nMAN OVERBOARD VICINITY PRAIA DO PRINCIPE/GAROUPA\n(20-31.5S 029-19.5W) AT 171610Z JUL. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL\nRADIO STATION.",
+    "valid_from": "2010-07-17T21:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

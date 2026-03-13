@@ -12,12 +12,19 @@
     "dtg": "2023-12-31T22:22:00",
     "raw_dtg": "312222Z DEC 23",
     "msg_id": "HYDROARC 2990/23(24)",
+    "year": 2023,
     "cancellations": [
       "THIS MSG 290001Z JUN 24",
-      "HYDROARC 148/24"
+      "2982/23",
+      "2983/23",
+      "2984/23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. BAIA DA TRAICAO LIGHT 06-40.53S 034-55.97W UNLIT\n   UNTIL 28 JUN 24.\n2. CANCEL HYDRLOANT 2982/23(54), 2983/23(54) AND 2984/23(54).\n3. CANCEL THIS MSG 290001Z JUN 24."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. BAIA DA TRAICAO LIGHT 06-40.53S 034-55.97W UNLIT\n   UNTIL 28 JUN 24.\n2. CANCEL HYDRLOANT 2982/23(54), 2983/23(54) AND 2984/23(54).\n3. CANCEL THIS MSG 290001Z JUN 24.",
+    "valid_from": "2023-12-31T22:22:00+00:00",
+    "valid_until": "2024-06-29T00:01:00+00:00",
+    "summary": null
   }
 }

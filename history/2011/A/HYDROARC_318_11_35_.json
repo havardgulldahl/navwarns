@@ -3,17 +3,23 @@
   "id": "HYDROARC 318/11(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.1966666666666668,
+      56.22833333333333
+    ]
   },
   "properties": {
     "dtg": "2011-02-23T00:02:00",
     "raw_dtg": "230002Z FEB 11",
     "msg_id": "HYDROARC 318/11(35)",
-    "cancellations": [
-      "HYDROARC 338/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH SEA.\nSCOTLAND-EAST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V ODYSSEY EXPLORER\nWITHIN ONE MILE OF 56-13.7N 002-11.8W.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH SEA.\nSCOTLAND-EAST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V ODYSSEY EXPLORER\nWITHIN ONE MILE OF 56-13.7N 002-11.8W.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2011-02-23T00:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

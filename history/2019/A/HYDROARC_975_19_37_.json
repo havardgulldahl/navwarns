@@ -3,17 +3,23 @@
   "id": "HYDROARC 975/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.015,
+      49.93
+    ]
   },
   "properties": {
     "dtg": "2019-03-28T01:27:00",
     "raw_dtg": "280127Z MAR 19",
     "msg_id": "HYDROARC 975/19(37)",
-    "cancellations": [
-      "HYDROARC 1036/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP PIERRE DE FERMAT\nIN AREA WITHIN FOUR MILES OF 49-55.8N 005-00.9W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP PIERRE DE FERMAT\nIN AREA WITHIN FOUR MILES OF 49-55.8N 005-00.9W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2019-03-28T01:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

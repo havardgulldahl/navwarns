@@ -3,17 +3,23 @@
   "id": "HYDROARC 2816/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.138333333333334,
+      58.26166666666666
+    ]
   },
   "properties": {
     "dtg": "2016-10-26T17:10:00",
     "raw_dtg": "261710Z OCT 16",
     "msg_id": "HYDROARC 2816/16(35)",
-    "cancellations": [
-      "HYDROARC 2889/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCHART 35073.\nTIUMPAN HEAD LIGHT 58-15.7N 006-08.3W RANGE\nTEMPORARILY REDUCED TO 12 MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCHART 35073.\nTIUMPAN HEAD LIGHT 58-15.7N 006-08.3W RANGE\nTEMPORARILY REDUCED TO 12 MILES.",
+    "valid_from": "2016-10-26T17:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

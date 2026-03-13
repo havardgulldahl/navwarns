@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1918/13(43)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-08-07T01:21:00",
     "raw_dtg": "070121Z AUG 13",
     "msg_id": "HYDROARC 1918/13(43)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 1918/13"
+      "1862/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nCANCEL HYDROLANT 1862/13 AND THIS MSG, OPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nCANCEL HYDROLANT 1862/13 AND THIS MSG, OPERATIONS COMPLETED.",
+    "valid_from": "2013-08-07T01:21:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 613/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.576666666666666,
+      56.515
+    ]
   },
   "properties": {
     "dtg": "2016-03-13T17:58:00",
     "raw_dtg": "131758Z MAR 16",
     "msg_id": "HYDROARC 613/16(35)",
-    "cancellations": [
-      "HYDROARC 659/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF HEBRIDES.\nSCOTLAND-WEST COAST.\nDNC 19, DNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY 56-30.9N 006-34.6W.\nONE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF HEBRIDES.\nSCOTLAND-WEST COAST.\nDNC 19, DNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP WAVE SENTINEL\nVICINITY 56-30.9N 006-34.6W.\nONE MILE BERTH REQUESTED.",
+    "valid_from": "2016-03-13T17:58:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1353/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201666666666666,
+      49.96
+    ]
   },
   "properties": {
     "dtg": "2020-04-16T23:10:00",
     "raw_dtg": "162310Z APR 20",
     "msg_id": "HYDROARC 1353/20(37)",
-    "cancellations": [
-      "HYDROARC 1358/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nDGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nDGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W UNRELIABLE.",
+    "valid_from": "2020-04-16T23:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

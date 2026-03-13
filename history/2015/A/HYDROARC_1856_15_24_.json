@@ -3,17 +3,25 @@
   "id": "HYDROARC 1856/15(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -35.195,
+      -5.751666666666667
+    ]
   },
   "properties": {
     "dtg": "2015-07-30T00:59:00",
     "raw_dtg": "300059Z JUL 15",
     "msg_id": "HYDROARC 1856/15(24)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 1916/15"
+      "THIS MSG 24 JAN 16"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. RECIFE DE NATAL LIGHT 05-45.1S 035-11.7W UNLIT.\n2. CANCEL THIS MSG 24 JAN 16."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTHEAST COAST.\nDNC 01.\nCHART 24230.\n1. RECIFE DE NATAL LIGHT 05-45.1S 035-11.7W UNLIT.\n2. CANCEL THIS MSG 24 JAN 16.",
+    "valid_from": "2015-07-30T00:59:00+00:00",
+    "valid_until": "2016-01-24T00:00:00+00:00",
+    "summary": null
   }
 }

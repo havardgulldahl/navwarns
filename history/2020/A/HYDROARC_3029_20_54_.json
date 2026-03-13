@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3029/20(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-10-06T00:03:00",
     "raw_dtg": "060003Z OCT 20",
     "msg_id": "HYDROARC 3029/20(54)",
+    "year": 2020,
     "cancellations": [
-      "THIS MSG 071000Z OCT 20",
-      "HYDROARC 3029/20"
+      "THIS MSG 071000Z OCT 20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. GUNNERY EXERCISES 070500Z TO 070900Z\n   IN AREA BOUND BY\n   34-37N 033-13E, 34-37N 033-17E,\n   34-34N 033-17E, 34-34N 033-13E.\n2. CANCEL THIS MSG 071000Z OCT 20."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN.\nCYPRUS-SOUTH COAST.\nDNC 10.\n1. GUNNERY EXERCISES 070500Z TO 070900Z\n   IN AREA BOUND BY\n   34-37N 033-13E, 34-37N 033-17E,\n   34-34N 033-17E, 34-34N 033-13E.\n2. CANCEL THIS MSG 071000Z OCT 20.",
+    "valid_from": "2020-10-06T00:03:00+00:00",
+    "valid_until": "2020-10-07T10:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 62/10(38)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -65.96333333333334,
+      73.74833333333333
+    ]
   },
   "properties": {
     "dtg": "2010-08-18T05:46:00",
     "raw_dtg": "180546Z AUG 10",
     "msg_id": "HYDROARC 62/10(38)",
-    "cancellations": [
-      "HYDROARC 62/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BAFFIN BAY.\nGUNNERY.\n1. GUNNERY EXERCISES 191100Z TO 191200Z AUG\n   WITHIN TEN MILES OF 73-44.9N 065-57.8W.\n2. CANCEL THIS MSG 191300Z AUG."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAFFIN BAY.\nGUNNERY.\n1. GUNNERY EXERCISES 191100Z TO 191200Z AUG\n   WITHIN TEN MILES OF 73-44.9N 065-57.8W.\n2. CANCEL THIS MSG 191300Z AUG.",
+    "valid_from": "2010-08-18T05:46:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

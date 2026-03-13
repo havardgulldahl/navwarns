@@ -3,17 +3,23 @@
   "id": "HYDROARC 3395/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.4816666666666665,
+      49.97833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-10-31T20:34:00",
     "raw_dtg": "312034Z OCT 18",
     "msg_id": "HYDROARC 3395/18(37)",
-    "cancellations": [
-      "HYDROARC 3457/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\nCHART 37015.\nEAST CHANNEL LIGHT-BUOY 49-58.7N 002-28.9W\nPERMANENTLY DISCONTINUED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\nCHART 37015.\nEAST CHANNEL LIGHT-BUOY 49-58.7N 002-28.9W\nPERMANENTLY DISCONTINUED.",
+    "valid_from": "2018-10-31T20:34:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

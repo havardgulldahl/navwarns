@@ -3,17 +3,23 @@
   "id": "HYDROARC 2565/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.965,
+      56.50333333333333
+    ]
   },
   "properties": {
     "dtg": "2019-08-23T08:24:00",
     "raw_dtg": "230824Z AUG 19",
     "msg_id": "HYDROARC 2565/19(35)",
-    "cancellations": [
-      "HYDROARC 3019/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SEA OF HEBRIDES.\nSCOTLAND.\nDNC 19.\nCGOC BELFAST MF DSC AND R/T SERVICES AT TIREE\nSITE 56-30.2N 006-57.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SEA OF HEBRIDES.\nSCOTLAND.\nDNC 19.\nCGOC BELFAST MF DSC AND R/T SERVICES AT TIREE\nSITE 56-30.2N 006-57.9W UNRELIABLE.",
+    "valid_from": "2019-08-23T08:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

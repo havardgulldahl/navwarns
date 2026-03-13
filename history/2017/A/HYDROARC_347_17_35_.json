@@ -3,17 +3,23 @@
   "id": "HYDROARC 347/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.0633333333333335,
+      60.11333333333334
+    ]
   },
   "properties": {
     "dtg": "2017-02-02T04:44:00",
     "raw_dtg": "020444Z FEB 17",
     "msg_id": "HYDROARC 347/17(35)",
-    "cancellations": [
-      "HYDROARC 361/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nFOULA ISLAND SOUTH NESS LIGHT\n60-06.8N 002-03.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nFOULA ISLAND SOUTH NESS LIGHT\n60-06.8N 002-03.8W UNRELIABLE.",
+    "valid_from": "2017-02-02T04:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

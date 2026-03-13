@@ -3,17 +3,23 @@
   "id": "HYDROARC 360/17(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.531666666666666,
+      54.645
+    ]
   },
   "properties": {
     "dtg": "2017-02-02T19:16:00",
     "raw_dtg": "021916Z FEB 17",
     "msg_id": "HYDROARC 360/17(36)",
-    "cancellations": [
-      "HYDROARC 363/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH CHANNEL.\nIRELAND-NORTHEAST COAST.\nDNC 20.\nCHART 36006.\nDONAGHADEE HARBOR LIGHT 54-38.7N 005-31.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH CHANNEL.\nIRELAND-NORTHEAST COAST.\nDNC 20.\nCHART 36006.\nDONAGHADEE HARBOR LIGHT 54-38.7N 005-31.9W UNRELIABLE.",
+    "valid_from": "2017-02-02T19:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

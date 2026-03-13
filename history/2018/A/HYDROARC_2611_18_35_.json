@@ -3,17 +3,23 @@
   "id": "HYDROARC 2611/18(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.756666666666667,
+      57.28666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-08-15T23:25:00",
     "raw_dtg": "152325Z AUG 18",
     "msg_id": "HYDROARC 2611/18(35)",
-    "cancellations": [
-      "HYDROARC 2616/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 20.\nCHART 35015.\nKYLE AKIN GREEN LATERAL BUOY 57-17.2N 005-45.4W\nUNLIT AND RACON INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH MINCH.\nSCOTLAND.\nDNC 20.\nCHART 35015.\nKYLE AKIN GREEN LATERAL BUOY 57-17.2N 005-45.4W\nUNLIT AND RACON INOPERATIVE.",
+    "valid_from": "2018-08-15T23:25:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

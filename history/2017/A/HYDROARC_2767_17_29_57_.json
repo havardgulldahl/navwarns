@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2767/17(29,57)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2017-09-08T15:58:00",
     "raw_dtg": "081558Z SEP 17",
     "msg_id": "HYDROARC 2767/17(29,57)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 091558Z SEP 17",
-      "HYDROARC 2767/17"
+      "THIS MSG 091558Z SEP 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. ICEBERG A61, IN 57-42S 021-25W AT\n   081400Z SEP.\n2. CANCEL THIS MSG 091558Z SEP 17."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. ICEBERG A61, IN 57-42S 021-25W AT\n   081400Z SEP.\n2. CANCEL THIS MSG 091558Z SEP 17.",
+    "valid_from": "2017-09-08T15:58:00+00:00",
+    "valid_until": "2017-09-09T15:58:00+00:00",
+    "summary": null
   }
 }

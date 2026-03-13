@@ -3,17 +3,25 @@
   "id": "HYDROARC 1322/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.77,
+      53.83166666666666
+    ]
   },
   "properties": {
     "dtg": "2010-07-12T19:45:00",
     "raw_dtg": "121945Z JUL 10",
     "msg_id": "HYDROARC 1322/10(37)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 1474/10"
+      "1313/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37058 (2ND ED).\n1. PLATFORM 49/9B 53-49.9N 002-46.2E UNLIT.\n2. CANCEL HYDROLANT 1313/10, AIDS RESTORED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nNGA CHART 37058 (2ND ED).\n1. PLATFORM 49/9B 53-49.9N 002-46.2E UNLIT.\n2. CANCEL HYDROLANT 1313/10, AIDS RESTORED.",
+    "valid_from": "2010-07-12T19:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

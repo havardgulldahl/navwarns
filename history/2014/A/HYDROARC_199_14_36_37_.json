@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 199/14(36,37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2014-01-20T23:03:00",
     "raw_dtg": "202303Z JAN 14",
     "msg_id": "HYDROARC 199/14(36,37)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 199/14"
+      "181/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-SOUTHWEST COAST.\nCANCEL HYDROLANT 181/14 AND THIS MSG, OPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTHWEST COAST.\nCANCEL HYDROLANT 181/14 AND THIS MSG, OPERATIONS COMPLETED.",
+    "valid_from": "2014-01-20T23:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

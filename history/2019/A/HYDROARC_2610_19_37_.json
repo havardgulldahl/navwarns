@@ -3,18 +3,25 @@
   "id": "HYDROARC 2610/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.4583333333333333,
+      50.41
+    ]
   },
   "properties": {
     "dtg": "2019-08-28T10:39:00",
     "raw_dtg": "281039Z AUG 19",
     "msg_id": "HYDROARC 2610/19(37)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 311039Z AUG 19",
-      "HYDROARC 2610/19"
+      "THIS MSG 311039Z AUG 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. BLACK OBJECT ADRIFT IN 50-24.6N 000-27.5E\n2. CANCEL THIS MSG 311039Z AUG 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. BLACK OBJECT ADRIFT IN 50-24.6N 000-27.5E\n2. CANCEL THIS MSG 311039Z AUG 19.",
+    "valid_from": "2019-08-28T10:39:00+00:00",
+    "valid_until": "2019-08-31T10:39:00+00:00",
+    "summary": null
   }
 }

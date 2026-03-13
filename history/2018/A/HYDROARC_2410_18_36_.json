@@ -3,17 +3,23 @@
   "id": "HYDROARC 2410/18(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.138333333333334,
+      52.79333333333334
+    ]
   },
   "properties": {
     "dtg": "2018-07-27T00:36:00",
     "raw_dtg": "270036Z JUL 18",
     "msg_id": "HYDROARC 2410/18(36)",
-    "cancellations": [
-      "HYDROARC 2500/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19.\nCHART 36006.\nARKLOW HARBOR N. PIER HEAD LIGHT 52-47.6N 006-08.3W\nUNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19.\nCHART 36006.\nARKLOW HARBOR N. PIER HEAD LIGHT 52-47.6N 006-08.3W\nUNLIT.",
+    "valid_from": "2018-07-27T00:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

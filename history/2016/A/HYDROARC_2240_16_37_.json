@@ -1,19 +1,23 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2240/16(37)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2016-08-30T16:51:00",
     "raw_dtg": "301651Z AUG 16",
     "msg_id": "HYDROARC 2240/16(37)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2240/16"
+      "1961/16",
+      "2003/16",
+      "2193/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nORDNANCE.\nDNC 20, DNC 21.\nCANCEL HYDROLANT 1961/16, 2003/16, 2193/16 AND THIS MSG,\nORDNANCE REMOVED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTHERN NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nORDNANCE.\nDNC 20, DNC 21.\nCANCEL HYDROLANT 1961/16, 2003/16, 2193/16 AND THIS MSG,\nORDNANCE REMOVED.",
+    "valid_from": "2016-08-30T16:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

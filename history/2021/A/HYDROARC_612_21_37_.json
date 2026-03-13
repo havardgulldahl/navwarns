@@ -3,17 +3,23 @@
   "id": "HYDROARC 612/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201944444444445,
+      49.96
+    ]
   },
   "properties": {
     "dtg": "2021-03-03T04:03:00",
     "raw_dtg": "030403Z MAR 21",
     "msg_id": "HYDROARC 612/21(37)",
-    "cancellations": [
-      "HYDROARC 622/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nLIZARD POINT LIGHT 49-57-36N 005-12-07W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nLIZARD POINT LIGHT 49-57-36N 005-12-07W UNRELIABLE.",
+    "valid_from": "2021-03-03T04:03:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

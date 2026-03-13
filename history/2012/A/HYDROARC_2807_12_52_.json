@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 2807/12(52)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        2.1816666666666666,
+        39.50666666666667
+      ],
+      [
+        1.6533333333333333,
+        39.215
+      ],
+      [
+        1.2816666666666667,
+        39.23833333333334
+      ],
+      [
+        1.0966666666666667,
+        38.98166666666667
+      ],
+      [
+        0.12666666666666665,
+        38.986666666666665
+      ],
+      [
+        1.0966666666666667,
+        38.98166666666667
+      ]
+    ]
   },
   "properties": {
     "dtg": "2012-11-28T16:14:00",
     "raw_dtg": "281614Z NOV 12",
     "msg_id": "HYDROARC 2807/12(52)",
+    "year": 2012,
     "cancellations": [
-      "HYDROARC 2807/12"
+      "THIS MSG 11 DEC 12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   10 DEC BY VESSEL WITH SUBMERSIBLE ALONG\n   TRACKLINE JOINING\n   39-30.4N 002-10.9E, 39-12.9N 001-39.2E,\n   39-14.3N 001-16.9E, 38-58.9N 001-05.8E,\n   38-59.2N 000-07.6E, 38-58.9N 001-05.8E.\n2. CANCEL THIS MSG 11 DEC 12."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   10 DEC BY VESSEL WITH SUBMERSIBLE ALONG\n   TRACKLINE JOINING\n   39-30.4N 002-10.9E, 39-12.9N 001-39.2E,\n   39-14.3N 001-16.9E, 38-58.9N 001-05.8E,\n   38-59.2N 000-07.6E, 38-58.9N 001-05.8E.\n2. CANCEL THIS MSG 11 DEC 12.",
+    "valid_from": "2012-11-28T16:14:00+00:00",
+    "valid_until": "2012-12-11T00:00:00+00:00",
+    "summary": null
   }
 }

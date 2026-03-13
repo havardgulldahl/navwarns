@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 845/11(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          1.395,
+          59.495
+        ],
+        [
+          1.8116666666666668,
+          59.461666666666666
+        ],
+        [
+          1.7116666666666667,
+          59.163333333333334
+        ],
+        [
+          1.29,
+          59.195
+        ],
+        [
+          1.395,
+          59.495
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2011-05-19T02:41:00",
     "raw_dtg": "190241Z MAY 11",
     "msg_id": "HYDROARC 845/11(43)",
+    "year": 2011,
     "cancellations": [
-      "HYDROARC 1087/11"
+      "739/11"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 052359Z JUL\n   BY M/V GECO TRITON TOWING EIGHT 4100 METER\n   LONG CABLES IN AREA BOUND BY\n   59-29.7N 001-23.7E, 59-27.7N 001-48.7E,\n   59-09.8N 001-42.7E, 59-11.7N 001-17.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 739/11.\n3. CANCEL THIS MSG 060059Z JUL."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORTH SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 052359Z JUL\n   BY M/V GECO TRITON TOWING EIGHT 4100 METER\n   LONG CABLES IN AREA BOUND BY\n   59-29.7N 001-23.7E, 59-27.7N 001-48.7E,\n   59-09.8N 001-42.7E, 59-11.7N 001-17.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 739/11.\n3. CANCEL THIS MSG 060059Z JUL.",
+    "valid_from": "2011-05-19T02:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

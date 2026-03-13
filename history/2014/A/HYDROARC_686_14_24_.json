@@ -3,17 +3,25 @@
   "id": "HYDROARC 686/14(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -46.265,
+      -24.051666666666666
+    ]
   },
   "properties": {
     "dtg": "2014-03-07T13:54:00",
     "raw_dtg": "071354Z MAR 14",
     "msg_id": "HYDROARC 686/14(24)",
+    "year": 2014,
     "cancellations": [
-      "HYDROARC 749/14"
+      "THIS MSG 02 SEP 14"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nCHART 24140\n1. RADIOBEACON AT ILHA DA MOELA LIGHT 24-03.1S 046-15.9W\n   INOPERATIVE.\n2. CANCEL THIS MSG 02 SEP 14."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nCHART 24140\n1. RADIOBEACON AT ILHA DA MOELA LIGHT 24-03.1S 046-15.9W\n   INOPERATIVE.\n2. CANCEL THIS MSG 02 SEP 14.",
+    "valid_from": "2014-03-07T13:54:00+00:00",
+    "valid_until": "2014-09-02T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 3874/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.335,
+      50.52166666666667
+    ]
   },
   "properties": {
     "dtg": "2019-12-17T14:46:00",
     "raw_dtg": "171446Z DEC 19",
     "msg_id": "HYDROARC 3874/19(37)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 201446Z DEC 19",
-      "HYDROARC 3874/19"
+      "THIS MSG 201446Z DEC 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. FISHING GEAR, ABANDONED IN VICINITY\n   50-31.3N 002-20.1W.\n2. CANCEL THIS MSG 201446Z DEC 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. FISHING GEAR, ABANDONED IN VICINITY\n   50-31.3N 002-20.1W.\n2. CANCEL THIS MSG 201446Z DEC 19.",
+    "valid_from": "2019-12-17T14:46:00+00:00",
+    "valid_until": "2019-12-20T14:46:00+00:00",
+    "summary": null
   }
 }

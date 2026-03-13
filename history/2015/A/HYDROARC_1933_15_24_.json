@@ -12,12 +12,16 @@
     "dtg": "2015-08-08T00:48:00",
     "raw_dtg": "080048Z AUG 15",
     "msg_id": "HYDROARC 1933/15(24)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 132100Z AUG 15",
-      "HYDROARC 1958/15"
+      "THIS MSG 132100Z AUG 15"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nGUNNERY.\nDNC 01.\n1. GUNNERY EXERCISES 131500Z TO 132000Z AUG\n   WITHIN TEN MILES OF 09-39.07S 034-44.05W.\n2. CANCEL THIS MSG 132100Z AUG 15."
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nGUNNERY.\nDNC 01.\n1. GUNNERY EXERCISES 131500Z TO 132000Z AUG\n   WITHIN TEN MILES OF 09-39.07S 034-44.05W.\n2. CANCEL THIS MSG 132100Z AUG 15.",
+    "valid_from": "2015-08-08T00:48:00+00:00",
+    "valid_until": "2015-08-13T21:00:00+00:00",
+    "summary": null
   }
 }

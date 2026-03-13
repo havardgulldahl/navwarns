@@ -3,17 +3,23 @@
   "id": "HYDROARC 1857/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.435,
+      50.49166666666667
+    ]
   },
   "properties": {
     "dtg": "2018-06-10T14:10:00",
     "raw_dtg": "101410Z JUN 18",
     "msg_id": "HYDROARC 1857/18(37)",
-    "cancellations": [
-      "HYDROARC 1862/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFISHING NET, MARKED BY YELLOW FLOATS, ABANDONED\nIN 50-29.5N 000-26.1W."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFISHING NET, MARKED BY YELLOW FLOATS, ABANDONED\nIN 50-29.5N 000-26.1W.",
+    "valid_from": "2018-06-10T14:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

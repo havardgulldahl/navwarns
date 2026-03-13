@@ -3,18 +3,26 @@
   "id": "HYDROARC 953/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -0.5850000000000001,
+      50.18666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-03-21T01:36:00",
     "raw_dtg": "210136Z MAR 18",
     "msg_id": "HYDROARC 953/18(37)",
+    "year": 2018,
     "cancellations": [
       "THIS MSG 240136Z MAR 18",
-      "HYDROARC 960/18"
+      "951/18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT 82 METER VESSEL CAPSIZED AND ADRIFT\n   IN 50-11.2N 000-35.1W.\n2. CANCEL HYDROLANT 951/18.\n3. CANCEL THIS MSG 240136Z MAR 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DERELICT 82 METER VESSEL CAPSIZED AND ADRIFT\n   IN 50-11.2N 000-35.1W.\n2. CANCEL HYDROLANT 951/18.\n3. CANCEL THIS MSG 240136Z MAR 18.",
+    "valid_from": "2018-03-21T01:36:00+00:00",
+    "valid_until": "2018-03-24T01:36:00+00:00",
+    "summary": null
   }
 }

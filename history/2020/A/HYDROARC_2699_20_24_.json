@@ -3,18 +3,26 @@
   "id": "HYDROARC 2699/20(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -52.07666666666667,
+      -32.11833333333333
+    ]
   },
   "properties": {
     "dtg": "2020-09-01T18:36:00",
     "raw_dtg": "011836Z SEP 20",
     "msg_id": "HYDROARC 2699/20(24)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 281650Z FEB 21",
-      "HYDROARC 2724/20"
+      "2691/20"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. RADIOBEACON AND NDB AT RIO GRANDE LIGHT\n   32-07.1S 052-04.6W INOPERATIVE.\n2. CANCEL HYDROLANT 2691/20.\n3. CANCEL THIS MSG 281650Z FEB 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. RADIOBEACON AND NDB AT RIO GRANDE LIGHT\n   32-07.1S 052-04.6W INOPERATIVE.\n2. CANCEL HYDROLANT 2691/20.\n3. CANCEL THIS MSG 281650Z FEB 21.",
+    "valid_from": "2020-09-01T18:36:00+00:00",
+    "valid_until": "2021-02-28T16:50:00+00:00",
+    "summary": null
   }
 }

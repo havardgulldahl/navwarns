@@ -2,18 +2,64 @@
   "type": "Feature",
   "id": "HYDROARC 510/19(23)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -55.49333333333333,
+          -36.348333333333336
+        ],
+        [
+          -54.08166666666666,
+          -36.86
+        ],
+        [
+          -55.42166666666667,
+          -39.04833333333333
+        ],
+        [
+          -57.73166666666667,
+          -41.79333333333334
+        ],
+        [
+          -58.68,
+          -42.295
+        ],
+        [
+          -61.946666666666665,
+          -40.915
+        ],
+        [
+          -61.638333333333335,
+          -39.861666666666665
+        ],
+        [
+          -61.11833333333333,
+          -39.345
+        ],
+        [
+          -57.781666666666666,
+          -38.51833333333333
+        ],
+        [
+          -55.49333333333333,
+          -36.348333333333336
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2019-02-17T02:05:00",
     "raw_dtg": "170205Z FEB 19",
     "msg_id": "HYDROARC 510/19(23)",
-    "cancellations": [
-      "HYDROARC 895/19"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\nDNC 07.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V BGP PIONEER TOWING SEVEN MILE\nLONG CABLE IN AREA BOUND BY\n36-20.9S 055-29.6W, 36-51.6S 054-04.9W,\n39-02.9S 055-25.3W, 41-47.6S 057-43.9W,\n42-17.7S 058-40.8W, 40-54.9S 061-56.8W,\n39-51.7S 061-38.3W, 39-20.7S 061-07.1W,\n38-31.1S 057-46.9W, 36-20.9S 055-29.6W.\nNINE MILE BERTH REQUESTED."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\nDNC 07.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V BGP PIONEER TOWING SEVEN MILE\nLONG CABLE IN AREA BOUND BY\n36-20.9S 055-29.6W, 36-51.6S 054-04.9W,\n39-02.9S 055-25.3W, 41-47.6S 057-43.9W,\n42-17.7S 058-40.8W, 40-54.9S 061-56.8W,\n39-51.7S 061-38.3W, 39-20.7S 061-07.1W,\n38-31.1S 057-46.9W, 36-20.9S 055-29.6W.\nNINE MILE BERTH REQUESTED.",
+    "valid_from": "2019-02-17T02:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

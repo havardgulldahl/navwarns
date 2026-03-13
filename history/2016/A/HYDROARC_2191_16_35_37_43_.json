@@ -3,17 +3,23 @@
   "id": "HYDROARC 2191/16(35,37,43)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.2933333333333334,
+      57.0
+    ]
   },
   "properties": {
     "dtg": "2016-08-26T08:54:00",
     "raw_dtg": "260854Z AUG 16",
     "msg_id": "HYDROARC 2191/16(35,37,43)",
-    "cancellations": [
-      "HYDROARC 1240/17"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nDNC 20.\nCHART 35004.\nALL NAVIGATIONAL AIDS AT PLATFORM RANFORM BANFF,\n57-00.0N 001-17.6E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nDNC 20.\nCHART 35004.\nALL NAVIGATIONAL AIDS AT PLATFORM RANFORM BANFF,\n57-00.0N 001-17.6E INOPERATIVE.",
+    "valid_from": "2016-08-26T08:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

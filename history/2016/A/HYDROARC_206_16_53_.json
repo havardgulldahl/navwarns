@@ -2,18 +2,44 @@
   "type": "Feature",
   "id": "HYDROARC 206/16(53)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "LineString",
+    "coordinates": [
+      [
+        15.466666666666667,
+        37.35
+      ],
+      [
+        15.708333333333334,
+        37.31333333333333
+      ],
+      [
+        15.786666666666667,
+        37.13166666666667
+      ],
+      [
+        15.936666666666667,
+        36.998333333333335
+      ],
+      [
+        16.0,
+        36.75666666666667
+      ]
+    ]
   },
   "properties": {
     "dtg": "2016-01-23T19:30:00",
     "raw_dtg": "231930Z JAN 16",
     "msg_id": "HYDROARC 206/16(53)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 226/16"
+      "177/16"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN MEDITERRANEAN SEA.\nSOUTHERN IONIAN SEA.\nSICILY-EAST COAST.\nDNC 09.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP RAYMOND CROZE\n   VICINITY OF TRACKLINE JOINING\n   37-21.0N 015-28.0E, 37-18.8N 015-42.5E,\n   37-07.9N 015-47.2E, 36-59.9N 015-56.2E,\n   36-51.0E 015-58.4E, 36-45.4N 016-00.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 177/16."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "EASTERN MEDITERRANEAN SEA.\nSOUTHERN IONIAN SEA.\nSICILY-EAST COAST.\nDNC 09.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP RAYMOND CROZE\n   VICINITY OF TRACKLINE JOINING\n   37-21.0N 015-28.0E, 37-18.8N 015-42.5E,\n   37-07.9N 015-47.2E, 36-59.9N 015-56.2E,\n   36-51.0E 015-58.4E, 36-45.4N 016-00.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 177/16.",
+    "valid_from": "2016-01-23T19:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

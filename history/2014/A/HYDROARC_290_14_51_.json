@@ -3,18 +3,26 @@
   "id": "HYDROARC 290/14(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -19.09,
+      21.001666666666665
+    ]
   },
   "properties": {
     "dtg": "2014-01-31T10:17:00",
     "raw_dtg": "311017Z JAN 14",
     "msg_id": "HYDROARC 290/14(51)",
+    "year": 2014,
     "cancellations": [
       "THIS MSG 031017Z FEB 14",
-      "HYDROARC 290/14"
+      "264/14"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nWESTERN SAHARA.\n1. DERELICT M/V OCEAN VIKING ADRIFT VICINITY\n   21-00.1N 019-05.4W AT 310600Z JAN.\n2. CANCEL HYDROLANT 264/14.\n3. CANCEL THIS MSG 031017Z FEB 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nWESTERN SAHARA.\n1. DERELICT M/V OCEAN VIKING ADRIFT VICINITY\n   21-00.1N 019-05.4W AT 310600Z JAN.\n2. CANCEL HYDROLANT 264/14.\n3. CANCEL THIS MSG 031017Z FEB 14.",
+    "valid_from": "2014-01-31T10:17:00+00:00",
+    "valid_until": "2014-02-03T10:17:00+00:00",
+    "summary": null
   }
 }

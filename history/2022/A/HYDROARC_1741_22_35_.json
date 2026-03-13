@@ -3,17 +3,23 @@
   "id": "HYDROARC 1741/22(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.5583333333333336,
+      56.185
+    ]
   },
   "properties": {
     "dtg": "2022-07-10T05:18:00",
     "raw_dtg": "100518Z JUL 22",
     "msg_id": "HYDROARC 1741/22(35)",
-    "cancellations": [
-      "HYDROARC 1750/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nISLE OF MAY LIGHT 56-11.1N 002-33.5W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nISLE OF MAY LIGHT 56-11.1N 002-33.5W UNRELIABLE.",
+    "valid_from": "2022-07-10T05:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

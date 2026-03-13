@@ -3,18 +3,25 @@
   "id": "HYDROARC 2909/19(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -5.201666666666666,
+      49.96
+    ]
   },
   "properties": {
     "dtg": "2019-09-24T01:15:00",
     "raw_dtg": "240115Z SEP 19",
     "msg_id": "HYDROARC 2909/19(37)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 261700Z SEP 19",
-      "HYDROARC 2909/19"
+      "THIS MSG 261700Z SEP 19"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DGPS STATION AT LIZARD POINT LIGHTHOUSE\n   49-57.6N 005-12.1W OFF AIR 0800Z TO 1600Z DAILY\n   24 THRU 26 SEP.\n2. CANCEL THIS MSG 261700Z SEP 19."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. DGPS STATION AT LIZARD POINT LIGHTHOUSE\n   49-57.6N 005-12.1W OFF AIR 0800Z TO 1600Z DAILY\n   24 THRU 26 SEP.\n2. CANCEL THIS MSG 261700Z SEP 19.",
+    "valid_from": "2019-09-24T01:15:00+00:00",
+    "valid_until": "2019-09-26T17:00:00+00:00",
+    "summary": null
   }
 }

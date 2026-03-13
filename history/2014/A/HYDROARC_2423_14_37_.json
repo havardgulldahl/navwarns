@@ -3,18 +3,25 @@
   "id": "HYDROARC 2423/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.365,
+      50.23833333333334
+    ]
   },
   "properties": {
     "dtg": "2014-10-07T06:26:00",
     "raw_dtg": "070626Z OCT 14",
     "msg_id": "HYDROARC 2423/14(37)",
+    "year": 2014,
     "cancellations": [
-      "THIS MSG 100633Z OCT 14",
-      "HYDROARC 2423/14"
+      "THIS MSG 100633Z OCT 14"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLAND-SOUTH COAST.\nDNC 20.\n1. DERELICT VESSEL DISMASTED AND ADRIFT IN\n   50-14.3N 002-21.9W AT 070504Z OCT.\n2. CANCEL THIS MSG 100633Z OCT 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-SOUTH COAST.\nDNC 20.\n1. DERELICT VESSEL DISMASTED AND ADRIFT IN\n   50-14.3N 002-21.9W AT 070504Z OCT.\n2. CANCEL THIS MSG 100633Z OCT 14.",
+    "valid_from": "2014-10-07T06:26:00+00:00",
+    "valid_until": "2014-10-10T06:33:00+00:00",
+    "summary": null
   }
 }

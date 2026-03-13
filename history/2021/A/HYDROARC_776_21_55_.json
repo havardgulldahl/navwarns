@@ -2,19 +2,62 @@
   "type": "Feature",
   "id": "HYDROARC 776/21(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.245,
+          45.88166666666667
+        ],
+        [
+          30.433333333333334,
+          46.06666666666667
+        ],
+        [
+          30.633333333333333,
+          46.25
+        ],
+        [
+          31.1,
+          46.61666666666667
+        ],
+        [
+          31.766666666666666,
+          46.43333333333333
+        ],
+        [
+          31.91,
+          46.126666666666665
+        ],
+        [
+          30.815,
+          45.97
+        ],
+        [
+          30.461666666666666,
+          45.84166666666667
+        ],
+        [
+          30.245,
+          45.88166666666667
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2021-03-19T09:27:00",
     "raw_dtg": "190927Z MAR 21",
     "msg_id": "HYDROARC 776/21(55)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 281800Z MAR 21",
-      "HYDROARC 776/21"
+      "THIS MSG 281800Z MAR 21"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 2200Z TO 1700Z COMMENCING\n   DAILY 23 THRU 27 MAR IN AREA BOUND BY\n   45-52.9N 030-14.7E, 46-04.0N 030-26.0E,\n   46-15.0N 030-38.0E, 46-37.0N 031-06.0E,\n   46-26.0N 031-46.0E, 46-07.6N 031-54.6E,\n   45-58.2N 030-48.9E, 45-50.5N 030-27.7E.\n2. CANCEL THIS MSG 281800Z MAR 21."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 2200Z TO 1700Z COMMENCING\n   DAILY 23 THRU 27 MAR IN AREA BOUND BY\n   45-52.9N 030-14.7E, 46-04.0N 030-26.0E,\n   46-15.0N 030-38.0E, 46-37.0N 031-06.0E,\n   46-26.0N 031-46.0E, 46-07.6N 031-54.6E,\n   45-58.2N 030-48.9E, 45-50.5N 030-27.7E.\n2. CANCEL THIS MSG 281800Z MAR 21.",
+    "valid_from": "2021-03-19T09:27:00+00:00",
+    "valid_until": "2021-03-28T18:00:00+00:00",
+    "summary": null
   }
 }

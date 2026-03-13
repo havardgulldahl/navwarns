@@ -3,17 +3,23 @@
   "id": "HYDROARC 2369/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.2416666666666667,
+      56.44
+    ]
   },
   "properties": {
     "dtg": "2017-07-31T19:02:00",
     "raw_dtg": "311902Z JUL 17",
     "msg_id": "HYDROARC 2369/17(35)",
-    "cancellations": [
-      "HYDROARC 2375/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\nCHART 35014.\nMETEOROLOGICAL MAST 56-26.4N 002-14.5W UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND-EAST COAST.\nDNC 20.\nCHART 35014.\nMETEOROLOGICAL MAST 56-26.4N 002-14.5W UNLIT.",
+    "valid_from": "2017-07-31T19:02:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

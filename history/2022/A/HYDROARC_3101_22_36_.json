@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3101/22(36)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2022-12-03T10:11:00",
     "raw_dtg": "031011Z DEC 22",
     "msg_id": "HYDROARC 3101/22(36)",
+    "year": 2022,
     "cancellations": [
-      "HYDROARC 3101/22"
+      "2959/22"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CELTIC SEA.\nENGLAND.\nDNC 20.\nCANCEL HYDROLANT 2959/22 AND THIS MSG,\nOPERATIONS COMPLETED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CELTIC SEA.\nENGLAND.\nDNC 20.\nCANCEL HYDROLANT 2959/22 AND THIS MSG,\nOPERATIONS COMPLETED.",
+    "valid_from": "2022-12-03T10:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 1294/20(51)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -11.125,
+      28.675
+    ]
   },
   "properties": {
     "dtg": "2020-04-10T15:33:00",
     "raw_dtg": "101533Z APR 20",
     "msg_id": "HYDROARC 1294/20(51)",
-    "cancellations": [
-      "HYDROARC 1890/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nCAP DRAA LIGHT 28-40.5N 011-07.5W UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nCAP DRAA LIGHT 28-40.5N 011-07.5W UNLIT.",
+    "valid_from": "2020-04-10T15:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,25 @@
   "id": "HYDROARC 2712/17(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.29,
+      -30.398333333333333
+    ]
   },
   "properties": {
     "dtg": "2017-09-04T21:56:00",
     "raw_dtg": "042156Z SEP 17",
     "msg_id": "HYDROARC 2712/17(24)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2712/17"
+      "THIS MSG 04 MAR 18"
     ],
     "hazard_type": "aid to navigation outage",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24110.\n1. RACON AT BERTA LIGHT 30-23.9S 050-17.4W INOPERATIVE\n   UNTIL 03 MAR 18.\n2. CANCEL THIS MSG 04 MAR 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24110.\n1. RACON AT BERTA LIGHT 30-23.9S 050-17.4W INOPERATIVE\n   UNTIL 03 MAR 18.\n2. CANCEL THIS MSG 04 MAR 18.",
+    "valid_from": "2017-09-04T21:56:00+00:00",
+    "valid_until": "2018-03-04T00:00:00+00:00",
+    "summary": null
   }
 }

@@ -3,18 +3,25 @@
   "id": "HYDROARC 2332/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.255,
+      50.586666666666666
+    ]
   },
   "properties": {
     "dtg": "2021-09-15T05:37:00",
     "raw_dtg": "150537Z SEP 21",
     "msg_id": "HYDROARC 2332/21(37)",
+    "year": 2021,
     "cancellations": [
-      "THIS MSG 151600Z SEP 21",
-      "HYDROARC 2332/21"
+      "THIS MSG 151600Z SEP 21"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. NAVTEX STATION NITON (E) 50-35.2N 001-15.3W\n   OFF AIR 150900Z TO 151500Z SEP.\n2. CANCEL THIS MSG 151600Z SEP 21."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\n1. NAVTEX STATION NITON (E) 50-35.2N 001-15.3W\n   OFF AIR 150900Z TO 151500Z SEP.\n2. CANCEL THIS MSG 151600Z SEP 21.",
+    "valid_from": "2021-09-15T05:37:00+00:00",
+    "valid_until": "2021-09-15T16:00:00+00:00",
+    "summary": null
   }
 }

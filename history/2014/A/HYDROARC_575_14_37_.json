@@ -3,18 +3,26 @@
   "id": "HYDROARC 575/14(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.788333333333333,
+      50.20333333333333
+    ]
   },
   "properties": {
     "dtg": "2014-02-24T10:42:00",
     "raw_dtg": "241042Z FEB 14",
     "msg_id": "HYDROARC 575/14(37)",
+    "year": 2014,
     "cancellations": [
       "THIS MSG 271041Z FEB 14",
-      "HYDROARC 575/14"
+      "566/14"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\n1. CONTAINER ADRIFT IN 50-12.2N 002-47.3W\n   AT 231430Z FEB.\n2. CANCEL HYDROLANT 566/14.\n3. CANCEL THIS MSG 271041Z FEB 14."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\n1. CONTAINER ADRIFT IN 50-12.2N 002-47.3W\n   AT 231430Z FEB.\n2. CANCEL HYDROLANT 566/14.\n3. CANCEL THIS MSG 271041Z FEB 14.",
+    "valid_from": "2014-02-24T10:42:00+00:00",
+    "valid_until": "2014-02-27T10:41:00+00:00",
+    "summary": null
   }
 }

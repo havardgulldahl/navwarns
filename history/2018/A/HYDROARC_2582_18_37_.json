@@ -3,17 +3,25 @@
   "id": "HYDROARC 2582/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.2016666666666667,
+      49.65833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-08-13T12:44:00",
     "raw_dtg": "131244Z AUG 18",
     "msg_id": "HYDROARC 2582/18(37)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 2609/18"
+      "THIS MESSAGE 161244Z AUG 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\n1. DERELICT VESSEL, WHITE HULL, ADRIFT IN\n   49-39.5N 002-12.1W.\n2. CANCEL THIS MESSAGE 161244Z AUG 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\n1. DERELICT VESSEL, WHITE HULL, ADRIFT IN\n   49-39.5N 002-12.1W.\n2. CANCEL THIS MESSAGE 161244Z AUG 18.",
+    "valid_from": "2018-08-13T12:44:00+00:00",
+    "valid_until": "2018-08-16T12:44:00+00:00",
+    "summary": null
   }
 }

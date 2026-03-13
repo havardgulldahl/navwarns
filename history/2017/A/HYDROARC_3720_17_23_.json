@@ -2,18 +2,48 @@
   "type": "Feature",
   "id": "HYDROARC 3720/17(23)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.14,
+          -46.74
+        ],
+        [
+          -60.75,
+          -44.333333333333336
+        ],
+        [
+          -57.833333333333336,
+          -43.75
+        ],
+        [
+          -57.2,
+          -45.333333333333336
+        ],
+        [
+          -60.11666666666667,
+          -45.916666666666664
+        ],
+        [
+          -60.14,
+          -46.74
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-11-18T03:12:00",
     "raw_dtg": "180312Z NOV 17",
     "msg_id": "HYDROARC 3720/17(23)",
-    "cancellations": [
-      "HYDROARC 3801/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\nSUBMARINE UNREPORTED. LAST KNOWN POSITION IN\n46-44.4S 060-08.4W AT 150330Z NOV. SEARCH AND\nRESCUE OPERATIONS IN AREA BOUND BY\n44-20.0S 060-45.0W, 43-45.0S 057-50.0W,\n45-20.0S 057-12.0W, 45-55.0S 060-07.0W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.  REPORTS TO MRCC\nPUERTO BELGRANO, INMARSAT-C: 470100125,\nPHONE: 5429 3248 7150, 5429 3248 7162."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\nSUBMARINE UNREPORTED. LAST KNOWN POSITION IN\n46-44.4S 060-08.4W AT 150330Z NOV. SEARCH AND\nRESCUE OPERATIONS IN AREA BOUND BY\n44-20.0S 060-45.0W, 43-45.0S 057-50.0W,\n45-20.0S 057-12.0W, 45-55.0S 060-07.0W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.  REPORTS TO MRCC\nPUERTO BELGRANO, INMARSAT-C: 470100125,\nPHONE: 5429 3248 7150, 5429 3248 7162.",
+    "valid_from": "2017-11-18T03:12:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

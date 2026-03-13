@@ -3,17 +3,23 @@
   "id": "HYDROARC 1207/21(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      8.223333333333333,
+      39.14666666666667
+    ]
   },
   "properties": {
     "dtg": "2021-05-01T17:35:00",
     "raw_dtg": "011735Z MAY 21",
     "msg_id": "HYDROARC 1207/21(53)",
-    "cancellations": [
-      "HYDROARC 1229/21"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nSARDINIA.\nDNC 08.\nCAPO SANDALO LIGHT 39-08.8N 008-13.4E UNLIT."
+    "year": 2021,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nSARDINIA.\nDNC 08.\nCAPO SANDALO LIGHT 39-08.8N 008-13.4E UNLIT.",
+    "valid_from": "2021-05-01T17:35:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

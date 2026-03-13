@@ -1,20 +1,22 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1672/20(23)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2020-05-16T18:22:00",
     "raw_dtg": "161822Z MAY 20",
     "msg_id": "HYDROARC 1672/20(23)",
+    "year": 2020,
     "cancellations": [
       "THIS MSG 191822Z MAY 20",
-      "HYDROARC 1684/20"
+      "1661/20"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT 54 METER F/V KOSTAR, WHITE HULL,\n   ADRIFT IN 39-43S 023-36W.\n2. CANCEL HYDROLANT 1661/20.\n3. CANCEL THIS MSG 191822Z MAY 20."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SOUTH ATLANTIC.\nDNC 01.\n1. DERELICT 54 METER F/V KOSTAR, WHITE HULL,\n   ADRIFT IN 39-43S 023-36W.\n2. CANCEL HYDROLANT 1661/20.\n3. CANCEL THIS MSG 191822Z MAY 20.",
+    "valid_from": "2020-05-16T18:22:00+00:00",
+    "valid_until": "2020-05-19T18:22:00+00:00",
+    "summary": null
   }
 }

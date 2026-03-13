@@ -3,17 +3,23 @@
   "id": "HYDROARC 2551/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.5716666666666668,
+      59.025
+    ]
   },
   "properties": {
     "dtg": "2017-08-22T00:18:00",
     "raw_dtg": "220018Z AUG 17",
     "msg_id": "HYDROARC 2551/17(35)",
-    "cancellations": [
-      "HYDROARC 2559/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35056.\nAUSKERRY LIGHT 59-01.5N 002-34.3W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35056.\nAUSKERRY LIGHT 59-01.5N 002-34.3W\nUNRELIABLE.",
+    "valid_from": "2017-08-22T00:18:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

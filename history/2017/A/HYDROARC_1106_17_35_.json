@@ -3,18 +3,25 @@
   "id": "HYDROARC 1106/17(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.4633333333333334,
+      55.075
+    ]
   },
   "properties": {
     "dtg": "2017-04-05T21:07:00",
     "raw_dtg": "052107Z APR 17",
     "msg_id": "HYDROARC 1106/17(35)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 061800Z APR 17",
-      "HYDROARC 1106/17"
+      "THIS MSG 061800Z APR 17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\n1. NAVTEX STATION CULLERCOATS (G) 55-04.5N 001-27.8W\n   OFF AIR 060700Z TO 061700Z APR.\n2. CANCEL THIS MSG 061800Z APR 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\n1. NAVTEX STATION CULLERCOATS (G) 55-04.5N 001-27.8W\n   OFF AIR 060700Z TO 061700Z APR.\n2. CANCEL THIS MSG 061800Z APR 17.",
+    "valid_from": "2017-04-05T21:07:00+00:00",
+    "valid_until": "2017-04-06T18:00:00+00:00",
+    "summary": null
   }
 }

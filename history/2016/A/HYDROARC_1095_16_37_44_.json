@@ -3,17 +3,23 @@
   "id": "HYDROARC 1095/16(37,44)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      9.808333333333334,
+      53.675
+    ]
   },
   "properties": {
     "dtg": "2016-05-08T17:23:00",
     "raw_dtg": "081723Z MAY 16",
     "msg_id": "HYDROARC 1095/16(37,44)",
-    "cancellations": [
-      "HYDROARC 1102/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nBALTIC SEA.\nGERMANY.\nNAVTEX.\nDNC 21.\nNAVTEX STATION PINNEBERG 53-40.5N 009-48.5E OFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nBALTIC SEA.\nGERMANY.\nNAVTEX.\nDNC 21.\nNAVTEX STATION PINNEBERG 53-40.5N 009-48.5E OFF AIR.",
+    "valid_from": "2016-05-08T17:23:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

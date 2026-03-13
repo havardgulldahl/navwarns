@@ -3,17 +3,25 @@
   "id": "HYDROARC 1018/13(57)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      12.111666666666666,
+      -7.848333333333334
+    ]
   },
   "properties": {
     "dtg": "2013-04-23T11:41:00",
     "raw_dtg": "231141Z APR 13",
     "msg_id": "HYDROARC 1018/13(57)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 2068/13"
+      "2990/12"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nCHART 57260\n1. RACON AT FPSO GREATER PLUTONIO\n   07-50.9S 012-06.7E OFF STATION.\n2. CANCEL HYDROLANT 2990/12(57,61)."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nCHART 57260\n1. RACON AT FPSO GREATER PLUTONIO\n   07-50.9S 012-06.7E OFF STATION.\n2. CANCEL HYDROLANT 2990/12(57,61).",
+    "valid_from": "2013-04-23T11:41:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

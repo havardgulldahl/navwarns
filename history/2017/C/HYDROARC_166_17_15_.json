@@ -3,17 +3,23 @@
   "id": "HYDROARC 166/17(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -95.00333333333333,
+      74.74666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-07-26T20:24:00",
     "raw_dtg": "262024Z JUL 17",
     "msg_id": "HYDROARC 166/17(15)",
-    "cancellations": [
-      "HYDROARC 167/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANADA-NORTH COAST.\nDNC 28.\nMCTS IQALUIT REMOTE STATION\nRESOLUTE 74-44.8N 095-00.2W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA-NORTH COAST.\nDNC 28.\nMCTS IQALUIT REMOTE STATION\nRESOLUTE 74-44.8N 095-00.2W INOPERATIVE.",
+    "valid_from": "2017-07-26T20:24:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

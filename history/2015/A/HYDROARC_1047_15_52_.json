@@ -3,18 +3,25 @@
   "id": "HYDROARC 1047/15(52)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      11.205,
+      37.14
+    ]
   },
   "properties": {
     "dtg": "2015-04-30T14:39:00",
     "raw_dtg": "301439Z APR 15",
     "msg_id": "HYDROARC 1047/15(52)",
+    "year": 2015,
     "cancellations": [
-      "THIS MSG 031439Z MAY 15",
-      "HYDROARC 1047/15"
+      "THIS MSG 031439Z MAY 15"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "STRAIT OF SICILY.\nTUNISIA-NORTHEAST COAST.\nDNC 08, DNC 09.\n1. DERELICT VESSEL ATHEOS ADRIFT VICINITY\n   37-08.4N 011-12.3E AT 301047Z APR.\n2. CANCEL THIS MSG 031439Z MAY 15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STRAIT OF SICILY.\nTUNISIA-NORTHEAST COAST.\nDNC 08, DNC 09.\n1. DERELICT VESSEL ATHEOS ADRIFT VICINITY\n   37-08.4N 011-12.3E AT 301047Z APR.\n2. CANCEL THIS MSG 031439Z MAY 15.",
+    "valid_from": "2015-04-30T14:39:00+00:00",
+    "valid_until": "2015-05-03T14:39:00+00:00",
+    "summary": null
   }
 }

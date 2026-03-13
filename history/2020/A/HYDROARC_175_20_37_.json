@@ -3,17 +3,23 @@
   "id": "HYDROARC 175/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.3983333333333334,
+      53.00333333333333
+    ]
   },
   "properties": {
     "dtg": "2020-01-17T20:57:00",
     "raw_dtg": "172057Z JAN 20",
     "msg_id": "HYDROARC 175/20(37)",
-    "cancellations": [
-      "HYDROARC 201/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP SOVEREIGN\nIN VICINITY 53-00.2N 002-23.9E.\nWIDE MILE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY CABLESHIP SOVEREIGN\nIN VICINITY 53-00.2N 002-23.9E.\nWIDE MILE BERTH REQUESTED.",
+    "valid_from": "2020-01-17T20:57:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

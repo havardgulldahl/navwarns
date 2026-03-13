@@ -3,17 +3,23 @@
   "id": "HYDROARC 172/11(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -105.05333333333333,
+      69.11666666666666
+    ]
   },
   "properties": {
     "dtg": "2011-09-16T11:55:00",
     "raw_dtg": "161155Z SEP 11",
     "msg_id": "HYDROARC 172/11(15)",
-    "cancellations": [
-      "HYDROARC 177/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nIQALUIT MCTS REMOTE STATION,\nCAMBRIDGE BAY 69-07.0N 105-03.2W INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nIQALUIT MCTS REMOTE STATION,\nCAMBRIDGE BAY 69-07.0N 105-03.2W INOPERATIVE.",
+    "valid_from": "2011-09-16T11:55:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 714/10(11,26)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -79.08,
+      27.505
+    ]
   },
   "properties": {
     "dtg": "2010-04-24T15:04:00",
     "raw_dtg": "241504Z APR 10",
     "msg_id": "HYDROARC 714/10(11,26)",
-    "cancellations": [
-      "HYDROARC 810/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ\nIN 27-30.3N 079-04.8W. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD MIAMI,\nPHONE: 305 415 6800."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ\nIN 27-30.3N 079-04.8W. VESSELS IN\nVICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD MIAMI,\nPHONE: 305 415 6800.",
+    "valid_from": "2010-04-24T15:04:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

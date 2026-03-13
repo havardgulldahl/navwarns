@@ -3,17 +3,23 @@
   "id": "HYDROARC 1961/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.5666666666666667,
+      51.141666666666666
+    ]
   },
   "properties": {
     "dtg": "2010-10-15T21:42:00",
     "raw_dtg": "152142Z OCT 10",
     "msg_id": "HYDROARC 1961/10(37)",
-    "cancellations": [
-      "HYDROARC 1970/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nNGA CHART 37120 (3RD ED).\nCS4 BUOY 51-08.5N 001-34.0E UNLIT."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nNGA CHART 37120 (3RD ED).\nCS4 BUOY 51-08.5N 001-34.0E UNLIT.",
+    "valid_from": "2010-10-15T21:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

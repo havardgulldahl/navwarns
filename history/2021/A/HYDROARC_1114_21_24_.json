@@ -3,17 +3,25 @@
   "id": "HYDROARC 1114/21(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -33.815,
+      -3.8566666666666665
+    ]
   },
   "properties": {
     "dtg": "2021-04-22T16:51:00",
     "raw_dtg": "221651Z APR 21",
     "msg_id": "HYDROARC 1114/21(24)",
+    "year": 2021,
     "cancellations": [
-      "HYDROARC 1307/21"
+      "THIS MSG 20 OCT 21"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. ATOL DAS ROCAS LIGHT 03-51.4S 033-48.9W UNLIT\n   UNTIL 19 OCT.\n2. CANCEL THIS MSG 20 OCT 21."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\n1. ATOL DAS ROCAS LIGHT 03-51.4S 033-48.9W UNLIT\n   UNTIL 19 OCT.\n2. CANCEL THIS MSG 20 OCT 21.",
+    "valid_from": "2021-04-22T16:51:00+00:00",
+    "valid_until": "2021-10-20T00:00:00+00:00",
+    "summary": null
   }
 }

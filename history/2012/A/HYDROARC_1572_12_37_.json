@@ -3,17 +3,23 @@
   "id": "HYDROARC 1572/12(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.996666666666666,
+      48.05
+    ]
   },
   "properties": {
     "dtg": "2012-07-15T06:27:00",
     "raw_dtg": "150627Z JUL 12",
     "msg_id": "HYDROARC 1572/12(37)",
-    "cancellations": [
-      "HYDROARC 1582/12"
-    ],
+    "year": 2012,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "FRANCE-NORTHWEST COAST.\nCHART 37320\nAR-MEN LIGHT 48-03.0N 004-59.8W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FRANCE-NORTHWEST COAST.\nCHART 37320\nAR-MEN LIGHT 48-03.0N 004-59.8W UNRELIABLE.",
+    "valid_from": "2012-07-15T06:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

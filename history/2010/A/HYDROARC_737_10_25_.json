@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 737/10(25)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2010-04-27T12:20:00",
     "raw_dtg": "271220Z APR 10",
     "msg_id": "HYDROARC 737/10(25)",
+    "year": 2010,
     "cancellations": [
-      "HYDROARC 737/10"
+      "728/10"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nCANCEL HYDROLANT 728/10 AND THIS MSG, PERSON ASSISTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nCANCEL HYDROLANT 728/10 AND THIS MSG, PERSON ASSISTED.",
+    "valid_from": "2010-04-27T12:20:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

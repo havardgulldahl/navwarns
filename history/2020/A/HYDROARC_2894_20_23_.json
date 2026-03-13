@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "HYDROARC 2894/20(23)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "LineString",
     "coordinates": [
       [
         -54.7795,
@@ -26,11 +26,16 @@
     "dtg": "2020-09-23T05:42:00",
     "raw_dtg": "230542Z SEP 20",
     "msg_id": "HYDROARC 2894/20(23)",
+    "year": 2020,
     "cancellations": [
-      "HYDROARC 2950/20"
+      "2848/20"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP ILE DE SEIN ALONG\n   TRACKLINE JOINING\n   36-35.59S 054-46.77W, 36-37.60S 054-27.87W,\n   36-41.41S 053-48.72W, 36-43.33S 053-32.80W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2848/20."
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nDNC 07.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP ILE DE SEIN ALONG\n   TRACKLINE JOINING\n   36-35.59S 054-46.77W, 36-37.60S 054-27.87W,\n   36-41.41S 053-48.72W, 36-43.33S 053-32.80W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2848/20.",
+    "valid_from": "2020-09-23T05:42:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

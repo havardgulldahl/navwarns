@@ -2,19 +2,62 @@
   "type": "Feature",
   "id": "HYDROARC 3054/13(54)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          26.545,
+          40.571666666666665
+        ],
+        [
+          26.12,
+          39.91166666666667
+        ],
+        [
+          26.071666666666665,
+          39.848333333333336
+        ],
+        [
+          25.93,
+          39.776666666666664
+        ],
+        [
+          25.963333333333335,
+          39.88666666666667
+        ],
+        [
+          25.966666666666665,
+          39.885
+        ],
+        [
+          26.016666666666666,
+          40.18833333333333
+        ],
+        [
+          25.998333333333335,
+          40.18833333333333
+        ],
+        [
+          26.545,
+          40.571666666666665
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2013-11-29T17:06:00",
     "raw_dtg": "291706Z NOV 13",
     "msg_id": "HYDROARC 3054/13(54)",
+    "year": 2013,
     "cancellations": [
-      "THIS MSG 051630Z DEC 13",
-      "HYDROARC 3090/13"
+      "THIS MSG 051630Z DEC 13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nTURKEY.\nORDNANCE.\n1. ORDNANCE DISPOSAL OPERATIONS 0400Z TO 1530Z DAILY\n   02 THRU 05 DEC IN AREA BOUND BY\n   40-34.3N 026-32.7E, 39-54.7N 026-07.2E,\n   39-50.9N 026-04.3E, 39-46.6N 025-55.8E,\n   39-53.2N 025-57.8E, 39-53.1N 025-58.0E,\n   40-11.3N 026-01.0E, 40-11.3N 025-59.9E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 051630Z DEC 13."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nTURKEY.\nORDNANCE.\n1. ORDNANCE DISPOSAL OPERATIONS 0400Z TO 1530Z DAILY\n   02 THRU 05 DEC IN AREA BOUND BY\n   40-34.3N 026-32.7E, 39-54.7N 026-07.2E,\n   39-50.9N 026-04.3E, 39-46.6N 025-55.8E,\n   39-53.2N 025-57.8E, 39-53.1N 025-58.0E,\n   40-11.3N 026-01.0E, 40-11.3N 025-59.9E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 051630Z DEC 13.",
+    "valid_from": "2013-11-29T17:06:00+00:00",
+    "valid_until": "2013-12-05T16:30:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 358/22(15)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.55,
+      63.71666666666667
+    ]
   },
   "properties": {
     "dtg": "2022-11-11T15:43:00",
     "raw_dtg": "111543Z NOV 22",
     "msg_id": "HYDROARC 358/22(15)",
-    "cancellations": [
-      "HYDROARC 361/22"
-    ],
+    "year": 2022,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DAVIS STRAIT.\nCANADA.\nDNC 28.\nMCTS IQALUIT CENTRE 63-43.0N 068-33.0W\nHF DSC FREQUENCY 8414.5 KHZ RECEIVE SERVICES\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DAVIS STRAIT.\nCANADA.\nDNC 28.\nMCTS IQALUIT CENTRE 63-43.0N 068-33.0W\nHF DSC FREQUENCY 8414.5 KHZ RECEIVE SERVICES\nOFF AIR.",
+    "valid_from": "2022-11-11T15:43:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

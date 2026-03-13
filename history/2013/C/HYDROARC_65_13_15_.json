@@ -1,20 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 65/13(15)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2013-06-28T09:17:00",
     "raw_dtg": "280917Z JUN 13",
     "msg_id": "HYDROARC 65/13(15)",
+    "year": 2013,
     "cancellations": [
-      "HYDROARC 63/13",
-      "HYDROARC 65/13"
+      "HYDROARC 63/13"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CANADA-NORTH COAST.\nLANCASTER SOUND.\nBORDEN PENINSULA.\nCANCEL HYDROARC 63/13 AND THIS MSG, PERSONS RESCUED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CANADA-NORTH COAST.\nLANCASTER SOUND.\nBORDEN PENINSULA.\nCANCEL HYDROARC 63/13 AND THIS MSG, PERSONS RESCUED.",
+    "valid_from": "2013-06-28T09:17:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

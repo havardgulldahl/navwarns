@@ -3,17 +3,25 @@
   "id": "HYDROARC 960/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.7799999999999998,
+      51.083333333333336
+    ]
   },
   "properties": {
     "dtg": "2015-04-21T20:44:00",
     "raw_dtg": "212044Z APR 15",
     "msg_id": "HYDROARC 960/15(37)",
+    "year": 2015,
     "cancellations": [
-      "HYDROARC 1067/15"
+      "904/15"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nDNC 20.\nCHART 37120.\n1. RUYTINGEN SW BUOY 51-05.0N 001-46.8E MISSING.\n2. CANCEL HYDROLANT 904/15."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nDNC 20.\nCHART 37120.\n1. RUYTINGEN SW BUOY 51-05.0N 001-46.8E MISSING.\n2. CANCEL HYDROLANT 904/15.",
+    "valid_from": "2015-04-21T20:44:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

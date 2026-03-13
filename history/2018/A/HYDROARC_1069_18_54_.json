@@ -3,18 +3,25 @@
   "id": "HYDROARC 1069/18(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      17.033333333333335,
+      41.49666666666667
+    ]
   },
   "properties": {
     "dtg": "2018-04-01T01:20:00",
     "raw_dtg": "010120Z APR 18",
     "msg_id": "HYDROARC 1069/18(54)",
+    "year": 2018,
     "cancellations": [
-      "THIS MSG 040120Z APR 18",
-      "HYDROARC 1069/18"
+      "THIS MSG 040120Z APR 18"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "ADRIATIC SEA.\nITALY.\nDNC 09.\n1. DERELICT 190 METER BARGE ADRIFT\n   IN 41-29.8N 017-02.0E.\n2. CANCEL THIS MSG 040120Z APR 18."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ADRIATIC SEA.\nITALY.\nDNC 09.\n1. DERELICT 190 METER BARGE ADRIFT\n   IN 41-29.8N 017-02.0E.\n2. CANCEL THIS MSG 040120Z APR 18.",
+    "valid_from": "2018-04-01T01:20:00+00:00",
+    "valid_until": "2018-04-04T01:20:00+00:00",
+    "summary": null
   }
 }

@@ -3,17 +3,23 @@
   "id": "HYDROARC 2079/10(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -50.135,
+      -30.01
+    ]
   },
   "properties": {
     "dtg": "2010-10-31T23:11:00",
     "raw_dtg": "312311Z OCT 10",
     "msg_id": "HYDROARC 2079/10(24)",
-    "cancellations": [
-      "HYDROARC 2091/10"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24110 (3RD ED).\nTRAMANDAI LIGHT 30-00.6S 050-08.1W UNLIT."
+    "year": 2010,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24110 (3RD ED).\nTRAMANDAI LIGHT 30-00.6S 050-08.1W UNLIT.",
+    "valid_from": "2010-10-31T23:11:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

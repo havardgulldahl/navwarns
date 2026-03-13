@@ -3,17 +3,23 @@
   "id": "HYDROARC 1378/20(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.915,
+      48.31166666666667
+    ]
   },
   "properties": {
     "dtg": "2020-04-20T16:16:00",
     "raw_dtg": "201616Z APR 20",
     "msg_id": "HYDROARC 1378/20(37)",
-    "cancellations": [
-      "HYDROARC 1405/20"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nLES PIERRES NOIRES LIGHT 48-18.7N 004-54.9W UNLIT."
+    "year": 2020,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nLES PIERRES NOIRES LIGHT 48-18.7N 004-54.9W UNLIT.",
+    "valid_from": "2020-04-20T16:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

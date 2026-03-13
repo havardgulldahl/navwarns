@@ -3,17 +3,23 @@
   "id": "HYDROARC 323/11(22,23)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -68.60833333333333,
+      -52.65833333333333
+    ]
   },
   "properties": {
     "dtg": "2011-02-24T04:48:00",
     "raw_dtg": "240448Z FEB 11",
     "msg_id": "HYDROARC 323/11(22,23)",
-    "cancellations": [
-      "HYDROARC 1399/11"
-    ],
+    "year": 2011,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "CHILE-SOUTHEAST COAST.\nNGA CHART 23000 (5TH ED).\nCABO ESPIRITU SANTO LIGHT 52-39.5S 068-36.5W\nRANGE TEMPORARILY REDUCED TO SIX MILES."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "CHILE-SOUTHEAST COAST.\nNGA CHART 23000 (5TH ED).\nCABO ESPIRITU SANTO LIGHT 52-39.5S 068-36.5W\nRANGE TEMPORARILY REDUCED TO SIX MILES.",
+    "valid_from": "2011-02-24T04:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

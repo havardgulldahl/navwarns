@@ -3,17 +3,23 @@
   "id": "HYDROARC 1338/17(53,54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      16.718333333333334,
+      38.87
+    ]
   },
   "properties": {
     "dtg": "2017-04-28T07:36:00",
     "raw_dtg": "280736Z APR 17",
     "msg_id": "HYDROARC 1338/17(53,54)",
-    "cancellations": [
-      "HYDROARC 1485/17"
-    ],
+    "year": 2017,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "IONIAN SEA.\nITALY.\nDNC 09.\nNAVTEX STATION SELLIA MARINA (V) 38-52.2N 016-43.1E\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "IONIAN SEA.\nITALY.\nDNC 09.\nNAVTEX STATION SELLIA MARINA (V) 38-52.2N 016-43.1E\nOFF AIR.",
+    "valid_from": "2017-04-28T07:36:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -12,12 +12,16 @@
     "dtg": "2022-07-06T21:04:00",
     "raw_dtg": "062104Z JUL 22",
     "msg_id": "HYDROARC 1713/22(24)",
+    "year": 2022,
     "cancellations": [
-      "THIS MSG 021900Z JAN 23",
-      "HYDROARC 1713/22"
+      "THIS MSG 021900Z JAN 23"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DO GINO LIGHT 01-20.80S 044-53.40W UNLIT\n   UNTIL 021800Z JAN 23.\n2. CANCEL THIS MSG 021900Z JAN 23."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PONTA DO GINO LIGHT 01-20.80S 044-53.40W UNLIT\n   UNTIL 021800Z JAN 23.\n2. CANCEL THIS MSG 021900Z JAN 23.",
+    "valid_from": "2022-07-06T21:04:00+00:00",
+    "valid_until": "2023-01-02T19:00:00+00:00",
+    "summary": null
   }
 }

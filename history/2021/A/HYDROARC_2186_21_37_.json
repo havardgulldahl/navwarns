@@ -3,17 +3,23 @@
   "id": "HYDROARC 2186/21(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      2.18,
+      52.57
+    ]
   },
   "properties": {
     "dtg": "2021-08-25T10:26:00",
     "raw_dtg": "251026Z AUG 21",
     "msg_id": "HYDROARC 2186/21(37)",
-    "cancellations": [
-      "HYDROARC 2484/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNEXPLODED ORDNANCE REPORTED IN 52-34.2N 002-10.8E."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNEXPLODED ORDNANCE REPORTED IN 52-34.2N 002-10.8E.",
+    "valid_from": "2021-08-25T10:26:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

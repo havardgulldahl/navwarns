@@ -3,17 +3,23 @@
   "id": "HYDROARC 3296/18(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.3166666666666667,
+      52.925
+    ]
   },
   "properties": {
     "dtg": "2018-10-20T05:01:00",
     "raw_dtg": "200501Z OCT 18",
     "msg_id": "HYDROARC 3296/18(37)",
-    "cancellations": [
-      "HYDROARC 3299/18"
-    ],
+    "year": 2018,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37057.\nCROMER LIGHT 52-55.5N 001-19.0E UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37057.\nCROMER LIGHT 52-55.5N 001-19.0E UNRELIABLE.",
+    "valid_from": "2018-10-20T05:01:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

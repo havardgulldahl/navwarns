@@ -3,17 +3,23 @@
   "id": "HYDROARC 1768/20(36)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -6.206111111111111,
+      52.20194444444445
+    ]
   },
   "properties": {
     "dtg": "2020-05-25T22:10:00",
     "raw_dtg": "252210Z MAY 20",
     "msg_id": "HYDROARC 1768/20(36)",
-    "cancellations": [
-      "HYDROARC 1846/20"
-    ],
+    "year": 2020,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19.\nTUSKAR ROCK LIGHT 52-12-07N 006-12-22W\nUNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19.\nTUSKAR ROCK LIGHT 52-12-07N 006-12-22W\nUNRELIABLE.",
+    "valid_from": "2020-05-25T22:10:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

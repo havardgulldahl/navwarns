@@ -3,17 +3,23 @@
   "id": "HYDROARC 4013/19(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -3.2716666666666665,
+      58.935
+    ]
   },
   "properties": {
     "dtg": "2019-12-30T17:54:00",
     "raw_dtg": "301754Z DEC 19",
     "msg_id": "HYDROARC 4013/19(35)",
-    "cancellations": [
-      "HYDROARC 31/20"
-    ],
+    "year": 2019,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nHOY SOUND REAR LIGHT 58-56.1N 003-16.3W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nHOY SOUND REAR LIGHT 58-56.1N 003-16.3W UNRELIABLE.",
+    "valid_from": "2019-12-30T17:54:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

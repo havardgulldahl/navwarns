@@ -3,17 +3,25 @@
   "id": "HYDROARC 2423/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -38.915,
+      -13.376666666666667
+    ]
   },
   "properties": {
     "dtg": "2016-09-17T00:50:00",
     "raw_dtg": "170050Z SEP 16",
     "msg_id": "HYDROARC 2423/16(24)",
+    "year": 2016,
     "cancellations": [
-      "HYDROARC 2431/16"
+      "THIS MSG 15 MAR 17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. MORRO DE SAO PAULO LIGHT 13-22.6S 038-54.9W UNLIT.\n2. CANCEL THIS MSG 15 MAR 17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-EAST COAST.\nDNC 01.\nCHART 24200.\n1. MORRO DE SAO PAULO LIGHT 13-22.6S 038-54.9W UNLIT.\n2. CANCEL THIS MSG 15 MAR 17.",
+    "valid_from": "2016-09-17T00:50:00+00:00",
+    "valid_until": "2017-03-15T00:00:00+00:00",
+    "summary": null
   }
 }

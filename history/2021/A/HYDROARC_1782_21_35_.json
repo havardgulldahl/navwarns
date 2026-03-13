@@ -3,17 +3,23 @@
   "id": "HYDROARC 1782/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -2.004166666666667,
+      57.6975
+    ]
   },
   "properties": {
     "dtg": "2021-07-07T01:27:00",
     "raw_dtg": "070127Z JUL 21",
     "msg_id": "HYDROARC 1782/21(35)",
-    "cancellations": [
-      "HYDROARC 1788/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nKINNAIRD HEAD LIGHT 57-41-51N 002-00-15W REDUCED\nINTENSITY."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nKINNAIRD HEAD LIGHT 57-41-51N 002-00-15W REDUCED\nINTENSITY.",
+    "valid_from": "2021-07-07T01:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

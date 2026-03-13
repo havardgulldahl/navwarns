@@ -3,17 +3,23 @@
   "id": "HYDROARC 1729/16(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -43.763333333333335,
+      -1.68
+    ]
   },
   "properties": {
     "dtg": "2016-07-09T05:05:00",
     "raw_dtg": "090505Z JUL 16",
     "msg_id": "HYDROARC 1729/16(24)",
-    "cancellations": [
-      "HYDROARC 2043/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nMAN OVERBOARD IN 01-40.8S 043-45.8W ON 08 JUL.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRAZIL-NORTH COAST.\nDNC 01.\nMAN OVERBOARD IN 01-40.8S 043-45.8W ON 08 JUL.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "valid_from": "2016-07-09T05:05:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

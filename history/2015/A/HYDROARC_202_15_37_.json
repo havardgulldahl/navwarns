@@ -3,17 +3,23 @@
   "id": "HYDROARC 202/15(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      0.7466666666666666,
+      53.31333333333333
+    ]
   },
   "properties": {
     "dtg": "2015-01-24T01:45:00",
     "raw_dtg": "240145Z JAN 15",
     "msg_id": "HYDROARC 202/15(37)",
-    "cancellations": [
-      "HYDROARC 542/15"
-    ],
+    "year": 2015,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37059.\nFOG SIGNAL AT METEOROLOGICAL MAST 53-18.8N 000-44.8E INOPERATIVE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37059.\nFOG SIGNAL AT METEOROLOGICAL MAST 53-18.8N 000-44.8E INOPERATIVE.",
+    "valid_from": "2015-01-24T01:45:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

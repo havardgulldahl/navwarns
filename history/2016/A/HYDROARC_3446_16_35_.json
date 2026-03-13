@@ -3,17 +3,23 @@
   "id": "HYDROARC 3446/16(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.248333333333333,
+      55.27333333333333
+    ]
   },
   "properties": {
     "dtg": "2016-12-21T07:13:00",
     "raw_dtg": "210713Z DEC 16",
     "msg_id": "HYDROARC 3446/16(35)",
-    "cancellations": [
-      "HYDROARC 3449/16"
-    ],
+    "year": 2016,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nIRELAND.\nDNC 19.\nCHART 35019.\nDGPS STATION AT TORY ISLAND LIGHT 55-16.4N 008-14.9W\nOFF AIR."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nIRELAND.\nDNC 19.\nCHART 35019.\nDGPS STATION AT TORY ISLAND LIGHT 55-16.4N 008-14.9W\nOFF AIR.",
+    "valid_from": "2016-12-21T07:13:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

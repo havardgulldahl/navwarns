@@ -3,17 +3,25 @@
   "id": "HYDROARC 817/17(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.195,
+      51.07666666666667
+    ]
   },
   "properties": {
     "dtg": "2017-03-13T19:00:00",
     "raw_dtg": "131900Z MAR 17",
     "msg_id": "HYDROARC 817/17(37)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 1240/17"
+      "318/17"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "DOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\n1. FOLKESTONE BREAKWATER HEAD LIGHT 51-04.6N 001-11.7E\n   UNLIT.\n2. CANCEL HYDROLANT 318/17."
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "DOVER STRAIT.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\n1. FOLKESTONE BREAKWATER HEAD LIGHT 51-04.6N 001-11.7E\n   UNLIT.\n2. CANCEL HYDROLANT 318/17.",
+    "valid_from": "2017-03-13T19:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

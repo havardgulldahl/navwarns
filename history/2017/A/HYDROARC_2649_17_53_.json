@@ -3,18 +3,25 @@
   "id": "HYDROARC 2649/17(53)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      7.79,
+      41.58833333333333
+    ]
   },
   "properties": {
     "dtg": "2017-08-30T13:56:00",
     "raw_dtg": "301356Z AUG 17",
     "msg_id": "HYDROARC 2649/17(53)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 021356Z SEP 17",
-      "HYDROARC 2649/17"
+      "THIS MSG 021356Z SEP 17"
     ],
     "hazard_type": "derelict vessel",
-    "summary": null,
-    "body": "WESTERN MEDITERRANEAN SEA.\nCORSICA.\nDNC 08.\n1. DERELICT SIX METER VESSEL, ORANGE HULL,\n   ADRIFT IN VICINITY 41-35.3N 007-47.4E\n   AT 291233Z AUG.\n2. CANCEL THIS MSG 021356Z SEP 17."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN MEDITERRANEAN SEA.\nCORSICA.\nDNC 08.\n1. DERELICT SIX METER VESSEL, ORANGE HULL,\n   ADRIFT IN VICINITY 41-35.3N 007-47.4E\n   AT 291233Z AUG.\n2. CANCEL THIS MSG 021356Z SEP 17.",
+    "valid_from": "2017-08-30T13:56:00+00:00",
+    "valid_until": "2017-09-02T13:56:00+00:00",
+    "summary": null
   }
 }

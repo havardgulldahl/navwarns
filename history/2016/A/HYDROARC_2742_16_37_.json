@@ -3,17 +3,23 @@
   "id": "HYDROARC 2742/16(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -4.998333333333333,
+      48.05
+    ]
   },
   "properties": {
     "dtg": "2016-10-19T01:33:00",
     "raw_dtg": "190133Z OCT 16",
     "msg_id": "HYDROARC 2742/16(37)",
-    "cancellations": [
-      "HYDROARC 2755/16"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "BAY OF BISCAY.\nFRANCE-NORTHWEST COAST.\nDNC 20.\nCHART 37320.\nAR-MEN LIGHT 48-03.0N 004-59.9W UNLIT."
+    "year": 2016,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BAY OF BISCAY.\nFRANCE-NORTHWEST COAST.\nDNC 20.\nCHART 37320.\nAR-MEN LIGHT 48-03.0N 004-59.9W UNLIT.",
+    "valid_from": "2016-10-19T01:33:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

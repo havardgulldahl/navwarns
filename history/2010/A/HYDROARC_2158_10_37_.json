@@ -3,17 +3,23 @@
   "id": "HYDROARC 2158/10(37)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      1.8033333333333332,
+      52.415
+    ]
   },
   "properties": {
     "dtg": "2010-11-13T11:00:00",
     "raw_dtg": "131100Z NOV 10",
     "msg_id": "HYDROARC 2158/10(37)",
-    "cancellations": [
-      "HYDROARC 2171/10"
-    ],
+    "year": 2010,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL WITH\nSUBMERSIBLE VICINITY 52-24.9N 001-48.2E.\nWIDE BERTH REQUESTED."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP WAVE SENTINEL WITH\nSUBMERSIBLE VICINITY 52-24.9N 001-48.2E.\nWIDE BERTH REQUESTED.",
+    "valid_from": "2010-11-13T11:00:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

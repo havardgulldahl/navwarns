@@ -3,17 +3,23 @@
   "id": "HYDROARC 139/21(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -8.248333333333333,
+      55.27333333333333
+    ]
   },
   "properties": {
     "dtg": "2021-01-14T17:53:00",
     "raw_dtg": "141753Z JAN 21",
     "msg_id": "HYDROARC 139/21(35)",
-    "cancellations": [
-      "HYDROARC 140/21"
-    ],
+    "year": 2021,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "EASTERN NORTH ATLANTIC.\nIRELAND.\nDNC 19.\nTORY ISLAND LIGHT 55-16.4N 008-14.9W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "EASTERN NORTH ATLANTIC.\nIRELAND.\nDNC 19.\nTORY ISLAND LIGHT 55-16.4N 008-14.9W UNRELIABLE.",
+    "valid_from": "2021-01-14T17:53:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

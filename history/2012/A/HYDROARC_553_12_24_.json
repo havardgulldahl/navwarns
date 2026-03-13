@@ -3,17 +3,23 @@
   "id": "HYDROARC 553/12(24)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -52.35666666666667,
+      5.041666666666667
+    ]
   },
   "properties": {
     "dtg": "2012-03-09T23:30:00",
     "raw_dtg": "092330Z MAR 12",
     "msg_id": "HYDROARC 553/12(24)",
-    "cancellations": [
-      "HYDROARC 672/12"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nCHART 24350\nL'ENFANT PERDU LIGHT 05-02.5N 052-21.4W UNLIT."
+    "year": 2012,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nCHART 24350\nL'ENFANT PERDU LIGHT 05-02.5N 052-21.4W UNLIT.",
+    "valid_from": "2012-03-09T23:30:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

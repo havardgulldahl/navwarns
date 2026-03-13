@@ -3,17 +3,23 @@
   "id": "HYDROARC 3065/13(35)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      -1.5366666666666666,
+      55.333333333333336
+    ]
   },
   "properties": {
     "dtg": "2013-11-30T00:51:00",
     "raw_dtg": "300051Z NOV 13",
     "msg_id": "HYDROARC 3065/13(35)",
-    "cancellations": [
-      "HYDROARC 3116/13"
-    ],
+    "year": 2013,
+    "cancellations": [],
     "hazard_type": "general",
-    "summary": null,
-    "body": "ENGLAND-EAST COAST.\nCHART 35010\nCOQUET ISLAND LIGHT 55-20.0N 001-32.2W UNRELIABLE."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ENGLAND-EAST COAST.\nCHART 35010\nCOQUET ISLAND LIGHT 55-20.0N 001-32.2W UNRELIABLE.",
+    "valid_from": "2013-11-30T00:51:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

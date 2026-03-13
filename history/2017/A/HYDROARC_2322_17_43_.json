@@ -2,18 +2,46 @@
   "type": "Feature",
   "id": "HYDROARC 2322/17(43)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.288333333333333,
+          65.21333333333334
+        ],
+        [
+          3.288333333333333,
+          66.63
+        ],
+        [
+          8.543333333333333,
+          66.57
+        ],
+        [
+          8.581666666666667,
+          65.20166666666667
+        ],
+        [
+          3.288333333333333,
+          65.21333333333334
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-07-27T12:27:00",
     "raw_dtg": "271227Z JUL 17",
     "msg_id": "HYDROARC 2322/17(43)",
+    "year": 2017,
     "cancellations": [
-      "HYDROARC 2449/17"
+      "2273/17"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V WG AMUNDSEN TOWING\n   12 6000 METER LONG CABLES IN AREA BOUND BY\n   65-12.8N 003-17.3E, 66-37.8N 003-17.3E,\n   66-34.2N 008-32.6E, 65-12.1N 008-34.9E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2273/17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 21.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V WG AMUNDSEN TOWING\n   12 6000 METER LONG CABLES IN AREA BOUND BY\n   65-12.8N 003-17.3E, 66-37.8N 003-17.3E,\n   66-34.2N 008-32.6E, 65-12.1N 008-34.9E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2273/17.",
+    "valid_from": "2017-07-27T12:27:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

@@ -1,19 +1,21 @@
 {
   "type": "Feature",
   "id": "HYDROARC 144/18(54)",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
+  "geometry": null,
   "properties": {
     "dtg": "2018-01-12T13:48:00",
     "raw_dtg": "121348Z JAN 18",
     "msg_id": "HYDROARC 144/18(54)",
+    "year": 2018,
     "cancellations": [
-      "HYDROARC 144/18"
+      "96/18"
     ],
     "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\nCANCEL HYDROLANT 96/18 AND THIS MSG."
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\nCANCEL HYDROLANT 96/18 AND THIS MSG.",
+    "valid_from": "2018-01-12T13:48:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

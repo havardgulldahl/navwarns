@@ -3,17 +3,23 @@
   "id": "HYDROARC 1329/18(54)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      24.625,
+      38.75833333333333
+    ]
   },
   "properties": {
     "dtg": "2018-04-27T03:16:00",
     "raw_dtg": "270316Z APR 18",
     "msg_id": "HYDROARC 1329/18(54)",
-    "cancellations": [
-      "HYDROARC 1340/18"
-    ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "AEGEAN SEA.\nDNC 09.\nCHART 54380.\nSARAKINO ISLAND LIGHT 38-45.5N 024-37.5E UNLIT."
+    "year": 2018,
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "AEGEAN SEA.\nDNC 09.\nCHART 54380.\nSARAKINO ISLAND LIGHT 38-45.5N 024-37.5E UNLIT.",
+    "valid_from": "2018-04-27T03:16:00+00:00",
+    "valid_until": null,
+    "summary": null
   }
 }

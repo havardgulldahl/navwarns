@@ -3,18 +3,25 @@
   "id": "HYDROARC 282/19(41)",
   "geometry": {
     "type": "Point",
-    "coordinates": []
+    "coordinates": [
+      117.695,
+      77.38833333333334
+    ]
   },
   "properties": {
     "dtg": "2019-11-11T17:44:00",
     "raw_dtg": "111744Z NOV 19",
     "msg_id": "HYDROARC 282/19(41)",
+    "year": 2019,
     "cancellations": [
-      "THIS MSG 141744Z NOV 19",
-      "HYDROARC 282/19"
+      "THIS MSG 141744Z NOV 19"
     ],
-    "hazard_type": "general",
-    "summary": null,
-    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 27.\n1. ICEBERG REPORTED IN VICINITY\n   77-23.3N 117-41.7E ON 110921Z NOV.\n2. CANCEL THIS MSG 141744Z NOV 19."
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "LAPTEV SEA.\nRUSSIA.\nDNC 27.\n1. ICEBERG REPORTED IN VICINITY\n   77-23.3N 117-41.7E ON 110921Z NOV.\n2. CANCEL THIS MSG 141744Z NOV 19.",
+    "valid_from": "2019-11-11T17:44:00+00:00",
+    "valid_until": "2019-11-14T17:44:00+00:00",
+    "summary": null
   }
 }

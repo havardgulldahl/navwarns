@@ -2,19 +2,58 @@
   "type": "Feature",
   "id": "HYDROARC 2256/17(55)",
   "geometry": {
-    "type": "Point",
-    "coordinates": []
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.708333333333332,
+          44.42333333333333
+        ],
+        [
+          28.926666666666666,
+          45.49166666666667
+        ],
+        [
+          29.02,
+          44.41833333333334
+        ],
+        [
+          29.013333333333332,
+          44.32833333333333
+        ],
+        [
+          28.965,
+          44.24333333333333
+        ],
+        [
+          28.938333333333333,
+          44.218333333333334
+        ],
+        [
+          28.706666666666667,
+          44.36833333333333
+        ],
+        [
+          28.708333333333332,
+          44.42333333333333
+        ]
+      ]
+    ]
   },
   "properties": {
     "dtg": "2017-07-20T12:57:00",
     "raw_dtg": "201257Z JUL 17",
     "msg_id": "HYDROARC 2256/17(55)",
+    "year": 2017,
     "cancellations": [
-      "THIS MSG 211300Z JUL 17",
-      "HYDROARC 2256/17"
+      "THIS MSG 211300Z JUL 17"
     ],
     "hazard_type": "hazardous operations",
-    "summary": null,
-    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 210800Z TO 211200Z\n   IN AREA BOUND BY\n   44-25.4N 028-42.5E, 45-29.5N 028-55.6E,\n   44-25.1N 029-01.2E, 44-19.7N 029-00.8E,\n   44-14.6N 028-57.9E, 44-13.1N 028-56.3E,\n   44-22.1N 028-42.4E.\n2. CANCEL THIS MSG 211300Z JUL 17."
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 210800Z TO 211200Z\n   IN AREA BOUND BY\n   44-25.4N 028-42.5E, 45-29.5N 028-55.6E,\n   44-25.1N 029-01.2E, 44-19.7N 029-00.8E,\n   44-14.6N 028-57.9E, 44-13.1N 028-56.3E,\n   44-22.1N 028-42.4E.\n2. CANCEL THIS MSG 211300Z JUL 17.",
+    "valid_from": "2017-07-20T12:57:00+00:00",
+    "valid_until": "2017-07-21T13:00:00+00:00",
+    "summary": null
   }
 }
