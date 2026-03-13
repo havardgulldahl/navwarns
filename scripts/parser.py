@@ -811,6 +811,7 @@ def analyze_geometry(
             "STATION",
             "LIGHT",
             "BEACON",
+            "RIGLIST",
             "ЗНАК",
             "СВЕТЯЩИЙ",
             "БУЙ",
@@ -843,6 +844,7 @@ def analyze_geometry(
                 "AREA BOUNDED BY",
                 "AREA BOUNDED",
                 "AREAS BOUND BY",
+                "BOUNDED BY",
                 "BOUND BY",
                 "РАЙОНЕ",  # Russian: area/zone
             ]

@@ -110,6 +110,32 @@ def test_navarea_xx_158_25_parsing():
     assert coords_b[0][1] == pytest.approx(74.066667, abs=0.001)
 
 
+SAMPLE_NAVAREA_XX_28_26 = "NAVAREA XX 28/26BARENTS SEA.CHART RUS 10100.1. MISSILE FIRINGS 0000 TO 1300 UTCDAILY 11 TO 13 MAR IN AREA DANGEROUSTO NAVIGATION BOUNDED BY:72-46.0N 035-00.5E, 70-28.5N 038-18.0E,69-38.0N 038-45.0E, 69-28.0N 038-00.0E,72-03.5N 031-04.0E.2. CANCEL THIS MSG 131400 UTC MAR 26.=NNNN"
+
+
+def test_navarea_xx_28_26_is_polygon():
+    messages = parse_navwarns(SAMPLE_NAVAREA_XX_28_26)
+    assert len(messages) == 1
+    msg = messages[0]
+
+    assert msg.msg_id == "NAVAREA XX 28/26"
+    assert msg.year == 2026
+    assert msg.geometry == "polygon"
+    assert len(msg.coordinates) == 5
+
+    feat = msg.to_geojson_feature()
+    assert feat["geometry"]["type"] == "Polygon"
+    ring = feat["geometry"]["coordinates"][0]
+    # Polygon ring must be closed (first == last)
+    assert ring[0][0] == pytest.approx(ring[-1][0], abs=1e-6)
+    assert ring[0][1] == pytest.approx(ring[-1][1], abs=1e-6)
+    # 5 input points + closure = 6 ring positions
+    assert len(ring) == 6
+    # First point: 72-46.0N 035-00.5E -> lat 72.7667, lon 35.0083
+    assert ring[0][0] == pytest.approx(35.0083, abs=0.001)
+    assert ring[0][1] == pytest.approx(72.7667, abs=0.001)
+
+
 SAMPLE_NAVAREA_XX_182 = """NAVAREA XX 182/25
 KARA SEA.
 CHART RUS 11126.

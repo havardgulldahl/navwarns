@@ -141,6 +141,35 @@ class TestParseNavareaXIX:
         assert msg.coordinates[0][0] == pytest.approx(72.5233, abs=0.001)
         assert msg.coordinates[0][1] == pytest.approx(20.3433, abs=0.001)
 
+    def test_riglist_geometry_is_multipoint(self):
+        dtg = normalize_dtg("271830 UTC feb 26")
+        body = (
+            "NAVAREA XIX 31/26\n"
+            "\n"
+            "1. RIGLIST. CORRECT AT 271830 UTC FEB 26\n"
+            "NORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n"
+            "\n"
+            "72-31.40N 020-20.60E TRANSOCEAN ENABLER\n"
+            "72-22.00N 020-07.30E COSL PROSPECTOR\n"
+            "65-51.70N 007-23.80E SCARABEO 8\n"
+            "65-31.00N 007-12.00E TRANSOCEAN NORGE\n"
+            "65-18.70N 007-15.70E ISLAND INNOVATOR\n"
+            "65-01.90N 006-52.40E TRANSOCEAN ENCOURAGE\n"
+            "\n"
+            "NOTES:\n"
+            "A. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n"
+            "B. FOR RIGS LOCATED SOUTH OF 65N, REFER TO "
+            "NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n"
+            "2. CANCEL NAVAREA XIX 29/26"
+        )
+        msgs = parse_navwarns(f"{dtg}\n{body}")
+        assert len(msgs) == 1
+        msg = msgs[0]
+        assert msg.geometry == "multipoint"
+        feat = msg.to_geojson_feature()
+        assert feat["geometry"]["type"] == "MultiPoint"
+        assert len(feat["geometry"]["coordinates"]) == 6
+
     def test_cancellations_captured(self):
         body = (
             "NAVAREA XIX 34/26\n"
