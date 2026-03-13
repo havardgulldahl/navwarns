@@ -128,6 +128,22 @@ def regenerate_navwarn_file(
     # Re-parse with the current parser
     msg = navparser.NavwarnMessage.from_text(raw_dtg, body)
 
+    # Always prefer the original stored msg_id over whatever the parser
+    # extracted from the body text.  The body often lacks the message's own
+    # ID header, or worse, contains a *different* ID (e.g. from a "CANCEL
+    # HYDROARC 37/10" reference) that the parser mistakenly picks up.
+    # The stored msg_id / feature id is authoritative.
+    # Use parent_id for group features to avoid accumulating #grp suffixes
+    # on repeated runs (e.g. _grp1_grp1_grp1...).
+    original_msg_id: Optional[str] = (
+        props.get("parent_id") or props.get("msg_id") or feat.get("id")
+    )
+    if original_msg_id:
+        # Strip any existing #grp suffix so to_geojson_features() can
+        # re-derive clean group IDs from the base msg_id.
+        original_msg_id = original_msg_id.split("#")[0]
+        msg.msg_id = original_msg_id
+
     # Preserve the original dtg if the parser could not derive one
     if msg.dtg is None:
         msg.dtg = _parse_iso_dtg(original_dtg_iso)
@@ -136,7 +152,10 @@ def regenerate_navwarn_file(
 
     # Preserve year from original if parser couldn't derive it
     if msg.year is None and props.get("year"):
-        msg.year = props["year"]
+        try:
+            msg.year = int(props["year"])
+        except (ValueError, TypeError):
+            pass
 
     # Generate features (may be multi-group)
     new_feats: List[dict]
@@ -145,12 +164,26 @@ def regenerate_navwarn_file(
     else:
         new_feats = [msg.to_geojson_feature()]
 
+    # Safety check: refuse to write if any feature would get a generic
+    # filename (NOID / MSG_grp*) — this means the ID was lost and writing
+    # would silently overwrite unrelated features, causing data loss.
     written: List[Path] = []
     new_filenames: Set[str] = set()
     for nf in new_feats:
         nf.setdefault("properties", {})["summary"] = summary
         feat_id = nf.get("id") or msg.msg_id or "NOID"
         fname = _feature_filename(feat_id)
+        if fname in new_filenames:
+            # Duplicate filename within the same message's outputs — fine
+            pass
+        elif fname == "NOID.json" or (fname.startswith("MSG_grp") and not msg.msg_id):
+            logging.warning(
+                "Skipping %s — re-parse lost msg_id, would write to "
+                "generic filename %s (data loss risk)",
+                path.name,
+                fname,
+            )
+            return []
         new_filenames.add(fname)
         out_path = output_dir / fname
 
@@ -163,16 +196,34 @@ def regenerate_navwarn_file(
 
     # If re-parsing expanded a single file into groups, remove the
     # original non-group file to avoid stale duplicates.
-    if path.name not in new_filenames and not dry_run:
-        try:
-            path.unlink()
-            logging.info(
-                "Removed stale %s (replaced by %d group files)",
+    # Safety: only delete if new files were actually written and all share
+    # the same base msg_id (preventing accidental deletion when the parser
+    # extracted a wrong ID).
+    if path.name not in new_filenames and not dry_run and written:
+        # Verify the new files are genuinely derived from this message
+        # by checking they reference the same msg_id as the original.
+        original_base = (original_msg_id or "").split("#")[0]
+        new_ids_match = all(
+            (nf.get("id") or "").split("#")[0] == original_base
+            or (nf.get("properties", {}).get("parent_id") or "") == original_base
+            for nf in new_feats
+        )
+        if new_ids_match and original_base:
+            try:
+                path.unlink()
+                logging.info(
+                    "Removed stale %s (replaced by %d group files)",
+                    path.name,
+                    len(new_filenames),
+                )
+            except OSError:
+                pass
+        else:
+            logging.warning(
+                "NOT removing %s — new feature IDs don't match original %s",
                 path.name,
-                len(new_filenames),
+                original_base,
             )
-        except OSError:
-            pass
 
     return written
 
@@ -212,7 +263,10 @@ def regenerate_prip_file(
 
     # Preserve year from original if parser couldn't derive it
     if msg.year is None and props.get("year"):
-        msg.year = props["year"]
+        try:
+            msg.year = int(props["year"])
+        except (ValueError, TypeError):
+            pass
 
     new_feat = msg.to_geojson_feature()
     new_feat["properties"]["summary"] = summary
