@@ -14,8 +14,10 @@ from __future__ import annotations
 import argparse
 import datetime
 import json
+import logging
 import os
 import sys
+import time
 from pathlib import Path
 from typing import Iterable, Any, List
 import requests
@@ -43,6 +45,21 @@ except ImportError:  # running as a script
 API_URL = "https://msi.nga.mil/api/publications/smaps?navArea=C&status=active&category=14&output=xml"
 CURRENT_DIR = Path("current")
 OUTPUT_DIR = CURRENT_DIR / "navwarns"
+MAX_RETRIES = 4
+RETRY_BACKOFF = 2.0
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+        " (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/xml, text/xml, */*",
+}
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    datefmt="%H:%M:%S",
+)
 
 
 def ensure_output_dir() -> None:
@@ -50,9 +67,49 @@ def ensure_output_dir() -> None:
 
 
 def fetch_xml(url: str = API_URL) -> str:
-    r = requests.get(url, timeout=60)
-    r.raise_for_status()
-    return r.text
+    """Fetch XML from *url* with retries and backoff.
+
+    Validates the response looks like XML before returning.
+    Raises RuntimeError when all retries are exhausted.
+    """
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            r = requests.get(
+                url,
+                timeout=60,
+                headers=HEADERS,
+            )
+            r.raise_for_status()
+        except requests.RequestException as exc:
+            logging.warning(
+                "Request error (attempt %d/%d): %s",
+                attempt,
+                MAX_RETRIES,
+                exc,
+            )
+            if attempt < MAX_RETRIES:
+                time.sleep(RETRY_BACKOFF**attempt)
+                continue
+            raise
+
+        text = r.text.strip()
+        if text.startswith("<") and "<html" not in text[:200].lower():
+            return text
+
+        logging.warning(
+            "Non-XML response (attempt %d/%d), " "Content-Type: %s",
+            attempt,
+            MAX_RETRIES,
+            r.headers.get("content-type", "unknown"),
+        )
+        if attempt < MAX_RETRIES:
+            time.sleep(RETRY_BACKOFF**attempt)
+
+    raise RuntimeError(
+        "API returned non-XML response after "
+        f"{MAX_RETRIES} attempts (possible bot protection). "
+        f"Content-Type: {r.headers.get('content-type', 'unknown')}"
+    )
 
 
 def extract_msg_text_blocks(xml_text: str) -> Iterable[str]:
