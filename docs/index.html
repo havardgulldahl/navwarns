@@ -607,10 +607,37 @@
         }
 
         // ============ Rendering ============
+        function hasValidGeometry(feature) {
+            const geom = feature && feature.geometry;
+            if (!geom || !geom.type || !Array.isArray(geom.coordinates)) return false;
+            const coords = geom.coordinates;
+            if (coords.length === 0) return false;
+            // For Point: [lng, lat]
+            if (geom.type === 'Point') {
+                return coords.length >= 2 && Number.isFinite(coords[0]) && Number.isFinite(coords[1]);
+            }
+            // For MultiPoint: [[lng, lat], ...]
+            if (geom.type === 'MultiPoint') {
+                return coords.some(c => Array.isArray(c) && c.length >= 2 && Number.isFinite(c[0]) && Number.isFinite(c[1]));
+            }
+            // For LineString / Polygon / Multi*: check first nested coord
+            try {
+                const flat = coords.flat(Infinity);
+                return flat.length >= 2 && flat.every(Number.isFinite);
+            } catch { return false; }
+        }
+
         function renderFeatures(features) {
             activeFeatureGroup.clearLayers();
 
-            L.geoJSON({ type: 'FeatureCollection', features }, {
+            const validFeatures = features.filter(f => {
+                if (hasValidGeometry(f)) return true;
+                const id = f.properties?.title || f.properties?.msg_id || 'unknown';
+                console.warn(`[NavWarns] Skipping feature "${id}": missing or invalid geometry`, f.geometry);
+                return false;
+            });
+
+            L.geoJSON({ type: 'FeatureCollection', features: validFeatures }, {
                 pointToLayer: (feature, latlng) => {
                     const color = getCategoryColor(feature.properties?.category);
                     return L.circleMarker(latlng, {
