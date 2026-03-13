@@ -49,7 +49,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 357/21 КАРТА 18001\r\nМОТОВСКИЙ ЗАЛИВ ГУБА ТИТОВКА",
         "msg_id": "PRIP MURMANSK 357/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "linestring",
@@ -152,15 +152,58 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 234/25 КАРТА 13331\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 234/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "multipoint",
         "radius_nm": null,
-        "body": "АКВАТОРИЯ ПОРТА САБЕТТА\nУЧАСТОК НР 2 ТЕРМИНАЛ УТРЕННИЙ\nВИРТУАЛЬНЫЕ БУИ АИС ВВЕДЕНЫ ДЕЙСТВИЕ\n1. БУЙ ОСЕВОЙ 71-00-01.13С 073-36-02.74В\n2. БУЙ НР 1 ПРАВОЙ СТОРОНЫ 70-59-50.74С 073-37-35.45В\n3. БУЙ НР 2 ЛЕВОЙ СТОРОНЫ 71-00-07.14С 073-37-37.54В\n4. БУЙ НР 3 ПРАВОЙ СТОРОНЫ 70-59-46.54С 073-40-38.46В\n5. БУЙ НР 4 ЛЕВОЙ СТОРОНЫ 71-00-02.94С 073-40-40.56В\n6. БУЙ НР 5 ПРАВОЙ СТОРОНЫ 70-59-42.24С 073-43'41.07В\n7. БУЙ НР 6 ЛЕВОЙ СТОРОНЫ 70-59-58.64С 073-43'43.57В\n8. БУЙ НР 7 ПРАВОЙ СТОРОНЫ 70-59-37.24С 073-47-11.18В\n9. БУЙ НР 8 ЛЕВОЙ СТОРОНЫ 70-59-53.74С 073-47-12.68В\n10. БУЙ НР 9 ПРАВОЙ СТОРОНЫ 70-59-24.04С 073-49-46.60В\n11. БУЙ НР 10 ЛЕВОЙ СТОРОНЫ 71-00-33.04С 073-46-55.77В\n12. БУЙ НР 11 ПРАВОЙ СТОРОНЫ 71-00-06.34С 073-48-05.88В\nСИСТЕМА КООРДИНАТ WGS-84=\n\nCOASTAL WARNING WEST 234/25\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nPART NR 2.\nCHART RUS 13331.\nVIRTUAL BUOYS AIS PUT INTO OPERATION:\n1. MID-CHANNEL BUOY 71-00-01.13N 073-36-02.74E.\n2. NR 1 STARBOARD HAND BUOY 70-59-50.74N 073-37-35.45E.\n3. NR 2 PORT HAND BUOY 71-00-07.14N 073-37-37.54E.\n4. NR 3 STARBOARD HAND BUOY 70-59-46.54N 073-40-38.46E.\n5. NR 4 PORT HAND BUOY 71-00-02.94N 073-40-40.56E.\n6. NR 5 STARBOARD HAND BUOY 70-59-42.24N 073-43'41.07E.\n7. NR 6 PORT HAND BUOY 70-59-58.64N 073-43'43.57E.\n8. NR 7 STARBOARD HAND BUOY 70-59-37.24N 073-47-11.18E.\n9. NR 8 PORT HAND BUOY 70-59-53.74N 073-47-12.68E.\n10. NR 9 STARBOARD HAND BUOY 70-59-24.04N 073-49-46.60E.\n11. NR 10 PORT HAND BUOY 71-00-33.04N 073-46-55.77E.\n12. NR 11 STARBOARD HAND BUOY 71-00-06.34N 073-48-05.88E.\nWGS-84 DATUM.=\nNNNN",
+        "body": "АКВАТОРИЯ ПОРТА САБЕТТА\nУЧАСТОК НР 2 ТЕРМИНАЛ УТРЕННИЙ\nВИРТУАЛЬНЫЕ БУИ АИС ВВЕДЕНЫ ДЕЙСТВИЕ\n1. БУЙ ОСЕВОЙ 71-00-01.13С 073-36-02.74В\n2. БУЙ НР 1 ПРАВОЙ СТОРОНЫ 70-59-50.74С 073-37-35.45В\n3. БУЙ НР 2 ЛЕВОЙ СТОРОНЫ 71-00-07.14С 073-37-37.54В\n4. БУЙ НР 3 ПРАВОЙ СТОРОНЫ 70-59-46.54С 073-40-38.46В\n5. БУЙ НР 4 ЛЕВОЙ СТОРОНЫ 71-00-02.94С 073-40-40.56В\n6. БУЙ НР 5 ПРАВОЙ СТОРОНЫ 70-59-42.24С 073-43'41.07В\n7. БУЙ НР 6 ЛЕВОЙ СТОРОНЫ 70-59-58.64С 073-43'43.57В\n8. БУЙ НР 7 ПРАВОЙ СТОРОНЫ 70-59-37.24С 073-47-11.18В\n9. БУЙ НР 8 ЛЕВОЙ СТОРОНЫ 70-59-53.74С 073-47-12.68В\n10. БУЙ НР 9 ПРАВОЙ СТОРОНЫ 70-59-24.04С 073-49-46.60В\n11. БУЙ НР 10 ЛЕВОЙ СТОРОНЫ 71-00-33.04С 073-46-55.77В\n12. БУЙ НР 11 ПРАВОЙ СТОРОНЫ 71-00-06.34С 073-48-05.88В\nСИСТЕМА КООРДИНАТ WGS-84=\nCOASTAL WARNING WEST 234/25\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nPART NR 2.\nCHART RUS 13331.\nVIRTUAL BUOYS AIS PUT INTO OPERATION:\n1. MID-CHANNEL BUOY 71-00-01.13N 073-36-02.74E.\n2. NR 1 STARBOARD HAND BUOY 70-59-50.74N 073-37-35.45E.\n3. NR 2 PORT HAND BUOY 71-00-07.14N 073-37-37.54E.\n4. NR 3 STARBOARD HAND BUOY 70-59-46.54N 073-40-38.46E.\n5. NR 4 PORT HAND BUOY 71-00-02.94N 073-40-40.56E.\n6. NR 5 STARBOARD HAND BUOY 70-59-42.24N 073-43'41.07E.\n7. NR 6 PORT HAND BUOY 70-59-58.64N 073-43'43.57E.\n8. NR 7 STARBOARD HAND BUOY 70-59-37.24N 073-47-11.18E.\n9. NR 8 PORT HAND BUOY 70-59-53.74N 073-47-12.68E.\n10. NR 9 STARBOARD HAND BUOY 70-59-24.04N 073-49-46.60E.\n11. NR 10 PORT HAND BUOY 71-00-33.04N 073-46-55.77E.\n12. NR 11 STARBOARD HAND BUOY 71-00-06.34N 073-48-05.88E.\nWGS-84 DATUM.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Virtual Buoys Activated"
+        "category": "navigation",
+        "title": "AIS Virtual Buoys Active"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 182/25#grp1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              58.733333333333334,
+              74.21666666666667
+            ],
+            [
+              59.733333333333334,
+              74.56666666666666
+            ],
+            [
+              60.61666666666667,
+              74.43333333333334
+            ],
+            [
+              59.766666666666666,
+              74.06666666666666
+            ],
+            [
+              58.733333333333334,
+              74.21666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "NAVAREA XX 182/25",
+        "group_index": 1,
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 182/25KARA SEA.CHART RUS 11126.1. SPECIAL ACTIVITIES 01 JAN TO 30 JUNNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 74-13.0N 058-44.0E THEN COASTAL LINE TO74-34.0N 059-44.0E, 74-26.0N 060-37.0E, 74-04.0N 059-46.0E.B. 73-26.0N 057-11.0E THEN COASTAL LINE TO73-45.0N 057-50.0E, 73-37.0N 058-52.0E, 73-17.0N 058-19.0E.C. 72-13.0N 055-34.0E THEN COASTAL LINE TO72-40.0N 055-57.0E, 72-38.0N 057-04.0E, 72-12.0N 056-53.0E.2. CANCEL THIS MSG 01 JUL 26.=NNNN",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "NAVAREA XX 182/25KARA SEA.CHART RUS 11126.1. SPECIAL ACTIVITIES 01 JAN TO 30 JUNNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 74-13.0N 058-44.0E THEN COASTAL LINE TO74-34.0N 059-44.0E, 74-26.0N 060-37.0E, 74-04.0N 059-46.0E.B. 73-26.0N 057-11.0E THEN COASTAL LINE TO73-45.0N 057-50.0E, 73-37.0N 058-52.0E, 73-17.0N 058-19.0E.C. 72-13.0N 055-34.0E THEN COASTAL LINE TO72-40.0N 055-57.0E, 72-38.0N 057-04.0E, 72-12.0N 056-53.0E.2. CANCEL THIS MSG 01 JUL 26.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Kara Sea Special Activities"
       }
     },
     {
@@ -202,7 +245,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 50/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 50/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 261400 UTC FEB 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -247,7 +292,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 69/26 КАРТА 13004\r\n\r\nБАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 69/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 312200 UTC MAR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -255,6 +302,49 @@
         "summary": null,
         "category": "military",
         "title": "Special Works Barents"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 182/25#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              57.18333333333333,
+              73.43333333333334
+            ],
+            [
+              57.833333333333336,
+              73.75
+            ],
+            [
+              58.86666666666667,
+              73.61666666666666
+            ],
+            [
+              58.31666666666667,
+              73.28333333333333
+            ],
+            [
+              57.18333333333333,
+              73.43333333333334
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "NAVAREA XX 182/25",
+        "group_index": 2,
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 182/25KARA SEA.CHART RUS 11126.1. SPECIAL ACTIVITIES 01 JAN TO 30 JUNNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 74-13.0N 058-44.0E THEN COASTAL LINE TO74-34.0N 059-44.0E, 74-26.0N 060-37.0E, 74-04.0N 059-46.0E.B. 73-26.0N 057-11.0E THEN COASTAL LINE TO73-45.0N 057-50.0E, 73-37.0N 058-52.0E, 73-17.0N 058-19.0E.C. 72-13.0N 055-34.0E THEN COASTAL LINE TO72-40.0N 055-57.0E, 72-38.0N 057-04.0E, 72-12.0N 056-53.0E.2. CANCEL THIS MSG 01 JUL 26.=NNNN",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "NAVAREA XX 182/25KARA SEA.CHART RUS 11126.1. SPECIAL ACTIVITIES 01 JAN TO 30 JUNNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 74-13.0N 058-44.0E THEN COASTAL LINE TO74-34.0N 059-44.0E, 74-26.0N 060-37.0E, 74-04.0N 059-46.0E.B. 73-26.0N 057-11.0E THEN COASTAL LINE TO73-45.0N 057-50.0E, 73-37.0N 058-52.0E, 73-17.0N 058-19.0E.C. 72-13.0N 055-34.0E THEN COASTAL LINE TO72-40.0N 055-57.0E, 72-38.0N 057-04.0E, 72-12.0N 056-53.0E.2. CANCEL THIS MSG 01 JUL 26.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Kara Sea Restricted Area"
       }
     },
     {
@@ -271,15 +361,15 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 95/25 КАРТЫ 10103 11127 12321 13347 15379  \r\nCHARTS RUS 10103, 11127, 12321, 13347, 15379",
         "msg_id": "PRIP WEST 95/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "КАРСКОЕ МОРЕ\nЕНИСЕЙСКИЙ ЗАЛИВ\nПОДВОДНОЕ ПРЕПЯТСТВИЕ В 73-08-56C 079-59-26В\nС ГЛУБИНОЙ НАД НИМ 25.1 МЕТРА\nСИСТЕМА КООРДИНАТ WGS-84=\n\n KARA SEA\nYENISEY BAY.\nCHARTS RUS 10103, 11127, 12321, 13347, 15379.\nUNDERWATER OBSTRUCTION\n25.1 METRES DEPTH ABOVE IT IN:\n73-08-56N 079-59-26E.\nWGS 84 DATUM.=\nNNNN",
+        "body": "КАРСКОЕ МОРЕ\nЕНИСЕЙСКИЙ ЗАЛИВ\nПОДВОДНОЕ ПРЕПЯТСТВИЕ В 73-08-56C 079-59-26В\nС ГЛУБИНОЙ НАД НИМ 25.1 МЕТРА\nСИСТЕМА КООРДИНАТ WGS-84=\n KARA SEA\nYENISEY BAY.\nCHARTS RUS 10103, 11127, 12321, 13347, 15379.\nUNDERWATER OBSTRUCTION\n25.1 METRES DEPTH ABOVE IT IN:\n73-08-56N 079-59-26E.\nWGS 84 DATUM.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Underwater Obstruction"
+        "category": "navigation",
+        "title": "Underwater Obstruction Found"
       }
     },
     {
@@ -322,7 +412,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 49/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 49/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 210700 UTC FEB 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
@@ -336,21 +428,15 @@
       "type": "Feature",
       "id": "PRIP MURMANSK 116/21",
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              31.643055555555556,
-              69.67416666666666
-            ],
-            [
-              31.704583333333332,
-              69.70458333333333
-            ],
-            [
-              31.643055555555556,
-              69.67416666666666
-            ]
+            31.643055555555556,
+            69.67416666666666
+          ],
+          [
+            31.704583333333332,
+            69.70458333333333
           ]
         ]
       },
@@ -358,7 +444,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 116/21 КАРТА 17011\r\nГУБА МАЛАЯ ВОЛОКОВАЯ",
         "msg_id": "PRIP MURMANSK 116/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [
           "7/20"
         ],
@@ -375,10 +461,16 @@
       "type": "Feature",
       "id": "PRIP MURMANSK 36/26",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          33.5,
-          69.39833333333333
+          [
+            33.5,
+            69.39833333333333
+          ],
+          [
+            35.15833333333333,
+            69.25166666666667
+          ]
         ]
       },
       "properties": {
@@ -391,7 +483,7 @@
           "128/24"
         ],
         "hazard_type": "general",
-        "geometry_kind": "point",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "БАРЕНЦЕВО МОРЕ\nМОРСКИЕ РАДИОМАЯКИ\n1. СЕТЬНАВОЛОКСКИЙ 69-23.9С 033-30.0В НР 1250\nПЕРЕВЕДЕН В РЕЖИМ РАБОТЫ ПО ТРЕБОВАНИЮ\n2. ТЕРИБЕРСКИЙ 69-15.1С 035-09.5В НР 1260\nНЕ ДЕЙСТВУЕТ С 01 АПР 2024\n3. ОТМ 29/24 128/24 И ЭТОТ ПУНКТ=\n091000 МСК  ГС-",
         "summary": null,
@@ -434,7 +526,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 67/26 КАРТА 12000\r\n\r\nБАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 67/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 010000 UTC APR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -442,6 +536,45 @@
         "summary": null,
         "category": "military",
         "title": "Naval Exercises Barents Sea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 53/24",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            82.58913333333332,
+            71.89999166666668
+          ],
+          [
+            82.60794444444444,
+            71.92461944444445
+          ],
+          [
+            82.60982222222222,
+            71.91204444444445
+          ],
+          [
+            82.60064444444444,
+            71.88907222222223
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "ПРИП ЗАПАД 53/24 КАРТЫ 18383 15383 13348 \r\nКАРСКОЕ МОРЕ ЕНИСЕЙСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP WEST 53/24",
+        "year": 2024,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "multipoint",
+        "radius_nm": null,
+        "body": "СТВОР КСЕНЬЕВСКИЙ ЮЖНЫЙ\nПРОМЕРОМ 2023 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\n1. НА ЛИНИИ СТВОРА 12.2 МЕТРА В 71-53-59.97С 082-35-20.88В\n2.\tВБЛИЗИ ЛИНИИ СТВОРА\nА. 9.7 МЕТРА В 71-55-28.63С 082-36-28.60В \nБ. 9.9. МЕТРА В 71-54-59.13С 082 33-11.63В \nВ. 8.2 МЕТРА В 71-54-43.36С 082-36-35.36В \nГ. 9.4 МЕТРА В 71-53-20.66С 082-36-02.32В \nСИСТЕМА КООРДИНАТ WGS-84\n3.РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ ФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=",
+        "summary": null,
+        "category": "navigation",
+        "title": "Shallow Depths Detected"
       }
     },
     {
@@ -459,7 +592,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 37/26 КАРТА 11114 КНИГА 3003",
         "msg_id": "PRIP MURMANSK 37/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 032100 UTC MAR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
@@ -544,7 +679,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 89/20 КАРТА 18002\r\nВОСТОЧНЫЙ РУКАВ ГУБЫ УРА",
         "msg_id": "PRIP MURMANSK 89/20",
-        "year": "2020",
+        "year": 2020,
         "cancellations": [
           "3/20",
           "13/20"
@@ -624,7 +759,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 185/24 КАРТА 17007\r\n\r\nКОЛЬСКИЙ ЗАЛИВ ПОРТ МУРМАНСК",
         "msg_id": "PRIP MURMANSK 185/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -663,7 +798,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 4/17 КАРТЫ 15387 15389\r\n\r\nКАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 4/17",
-        "year": "2017",
+        "year": 2017,
         "cancellations": [],
         "hazard_type": "shoals",
         "geometry_kind": "linestring",
@@ -688,7 +823,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 169/22 КАРТА 18011 КИЛЬДИНСКИЙ ПРОЛИВ",
         "msg_id": "PRIP MURMANSK 169/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [
           "106/21",
           "175/21"
@@ -716,7 +851,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 23/22 КАРТА 15005\r\nСЕВЕРНАЯ ЧАСТЬ КОЛЬСКОГО ЗАЛИВА\r\nПРОЛИВ ПЕРЕЙМА",
         "msg_id": "PRIP MURMANSK 23/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [
           "250/21"
         ],
@@ -760,7 +895,7 @@
       "type": "Feature",
       "id": "PRIP WEST 49/17",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPoint",
         "coordinates": [
           [
             83.49770833333334,
@@ -780,13 +915,13 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 49/17 КАРТЫ 15389 15390 18389 КАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 49/17",
-        "year": "2017",
+        "year": 2017,
         "cancellations": [
           "59/16",
           "49/17"
         ],
         "hazard_type": "general",
-        "geometry_kind": "linestring",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "ПРИП ЗАПАД 49/17 КАРТЫ 15389 15390 18389 КАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ 1. ПРОМЕР 2016 НАИМЕНЬШИЕ ГЛУБИНЫ ОБНАРУЖЕНЫ В А. 9.6 МЕТРА 69-54-21.80С 083-29-51.75В НА СТВОРЕ ОСТРОВА БОЛЬШОЙ Б. 17.4 МЕТРА 69-46-37.00С 083-51-00.83В НА СТВОРЕ МАЛЫЙ ЕНИСЕЙ В. 19.3 МЕТРА 69-46-02.61С 083-52-26.31В НА СТВОРЕ КАЗАНСКИЙ 2. ОТМ 59/16 И ЭТОТ ПУНКТ=",
         "summary": null,
@@ -840,7 +975,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 162/22 КАРТА 17052 КОЛЬСКИЙ ЗАЛИВ ГУБА ПИТЬКОВА",
         "msg_id": "PRIP MURMANSK 162/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [
           "33/21"
         ],
@@ -857,20 +992,26 @@
       "type": "Feature",
       "id": "PRIP WEST 208/24",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          63.50705555555555,
-          72.94413888888889
+          [
+            63.50705555555555,
+            72.94413888888889
+          ],
+          [
+            66.98661111111112,
+            73.40458333333333
+          ]
         ]
       },
       "properties": {
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 208/24 КАРТЫ 10103 11126 11164 12311",
         "msg_id": "PRIP WEST 208/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [],
         "hazard_type": "general",
-        "geometry_kind": "point",
+        "geometry_kind": "linestring",
         "radius_nm": null,
         "body": "КАРСКОЕ МОРЕ ПОДХОД К ОБСКОЙ ГУБЕ\n1.УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 2800 МЕТРОВ\nПО 1400 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 65.4-245.4 ГРАД МЕЖДУ 72-56-38.9С 063-30-25.4В И 73-24-16.5С 066-59-11.8В\nНАИМЕНЬШАЯ ГЛУБИНА 41.4 МЕТРА СИСТЕМА КООРДИНАТ WGS-84\n2.РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=",
         "summary": null,
@@ -994,7 +1135,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 59/25 КАРТЫ 13353 15387 18387 КАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 59/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "linestring",
@@ -1040,7 +1181,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 88/26 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 88/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 191800 UTC MAR 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -1109,7 +1252,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 204/21 КАРТА 15009\r\nГУБА МАЛАЯ ШАРКОВКА",
         "msg_id": "PRIP MURMANSK 204/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -1268,16 +1411,16 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 229/25 КАРТЫ 13331 18331\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА\r\nАКВАТОРИЯ ПОРТА САБЕТТА\r\nCHARTS RUS 13331, 18331.",
         "msg_id": "PRIP WEST 229/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [
           "190/24"
         ],
         "hazard_type": "general",
         "geometry_kind": "multipoint",
         "radius_nm": null,
-        "body": "ВИРТУАЛЬНЫЕ БУИ АИС ВВЕДЕНЫ ДЕЙСТВИЕ\n1. УЧАСТОК НР 1\nА. БУЙ ОСЕВОЙ НР 1 71-21-18.00С 072-20-05.22В\nБ. БУЙ НР 2 ЛЕВОЙ СТОРОНЫ 71-19-11.04С 072-13-42.90В\nВ. БУЙ НР 3 ПРАВОЙ СТОРОНЫ 71-19-21.84С 072-13-10.62В\nГ. БУЙ НР 4 ЛЕВОЙ СТОРОНЫ 71-18-29.28С 072-11-26.34В\nД. БУЙ НР 5 ПРАВОЙ СТОРОНЫ 71-18-40.56С 072-10-53.16В\nЕ. БУЙ НР 6 ЛЕВОЙ СТОРОНЫ 71-17-47.04С 072-09-07.98В\nЖ. БУЙ НР 7 ПРАВОЙ СТОРОНЫ 71-17-58.26С 072-08-34.08В\n3. БУЙ НР 8 ЛЕВОЙ СТОРОНЫ 71-17-03.06С 072-06-43.08В\nИ. БУЙ НР 9 ПРАВОЙ СТОРОНЫ 71-17-13.50С 072-06-09.48В\nК. БУЙ НР 10 ЛЕВОЙ СТОРОНЫ 71-16-21.10С 072-05-17.41В\nЛ. БУЙ НР 12 ЛЕВОЙ СТОРОНЫ 71-16-35.97С 072-04-58.10В\nМ. БУЙ НР 13 ПРАВОЙ СТОРОНЫ 71-16-56.50С 072-04-21.30В\nН. БУЙ НР 11 ПРАВОЙ СТОРОНЫ 71-16-53.30С 072-05-00.70В\nО. БУЙ НР 14 ОСНОВНОЙ ФАРВАТЕР СПРАВА 71-16-44.77С 072-04-37.15В\nП. БУЙ НР 15 ПРАВОЙ СТОРОНЫ 71-16-58.70С 072-03-54.60В\nР. БУЙ НР 17 ПРАВОЙ СТОРОНЫ 71-17-02.28С 072-03-19.62В\nС. БУЙ ОГРАЖДЕНИЯ ОТДЕЛЬНОЙ ОПАСНОСТИ\n71-17-05.21С 072-03-14.04В\nСИСТЕМА КООРДИНАТ WGS-84\n2. ОТМЕНА 190/24 И ЭТОТ ПУНКТ =\n\nVIRTUAL BUOYS AIS PUT INTO OPERATION:\n1. PART NR 1.\nA. NR 1 MID-CHANNEL BUOY 71-21-18.00N 072-20-05.22E.\nB. NR 2 PORT HAND BUOY 71-19-11.04N 072-13-42.90E.\nC. NR 3 STARBOARD HAND BUOY 71-19-21.84N 072-13-10.62E.\nD. NR 4 PORT HAND BUOY 71-18-29.28N 072-11-26.34E.\nE. NR 5 STARBOARD HAND BUOY 71-18-40.56N 072-10-53.16E.\nF. NR 6 PORT HAND BUOY 71-17-47.04N 072-09-07.98E.\nG. NR 7 STARBOARD HAND BUOY 71-17-58.26N 072-08-34.08E.\nH. NR 8 PORT HAND BUOY 71-17-03.06N 072-06-43.08E.\nI. NR 9 STARBOARD HAND BUOY 71-17-13.50N 072-06-09.48E.\nJ. NR 10 PORT HAND BUOY 71-16-21.10N 072-05-17.41E.\nK. NR 12 PORT HAND BUOY 71-16-35.97N 072-04-58.10E.\nL. NR 13 STARBOARD HAND BUOY 71-16-56.50N 072-04-21.30E.\nM. NR 11 STARBOARD HAND BUOY 71-16-53.30N 072-05-00.70E.\nN. NR 14 PREFERRED CHANNEL TO STARBOARD 71-16-44.77N 072-04-37.15E.\nO. NR 15 STARBOARD HAND BUOY 71-16-58.70N 072-03-54.60E.\nP. NR 17 STARBOARD HAND BUOY 71-17-02.28N 072-03-19.62E.\nQ. ISOLATED DANGER BUOY 71-17-05.21N 072-03-14.04E.\nWGS-84 DATUM.\n2. CANCEL 190/24 AND THIS PARA.=\nNNNN",
+        "body": "ВИРТУАЛЬНЫЕ БУИ АИС ВВЕДЕНЫ ДЕЙСТВИЕ\n1. УЧАСТОК НР 1\nА. БУЙ ОСЕВОЙ НР 1 71-21-18.00С 072-20-05.22В\nБ. БУЙ НР 2 ЛЕВОЙ СТОРОНЫ 71-19-11.04С 072-13-42.90В\nВ. БУЙ НР 3 ПРАВОЙ СТОРОНЫ 71-19-21.84С 072-13-10.62В\nГ. БУЙ НР 4 ЛЕВОЙ СТОРОНЫ 71-18-29.28С 072-11-26.34В\nД. БУЙ НР 5 ПРАВОЙ СТОРОНЫ 71-18-40.56С 072-10-53.16В\nЕ. БУЙ НР 6 ЛЕВОЙ СТОРОНЫ 71-17-47.04С 072-09-07.98В\nЖ. БУЙ НР 7 ПРАВОЙ СТОРОНЫ 71-17-58.26С 072-08-34.08В\n3. БУЙ НР 8 ЛЕВОЙ СТОРОНЫ 71-17-03.06С 072-06-43.08В\nИ. БУЙ НР 9 ПРАВОЙ СТОРОНЫ 71-17-13.50С 072-06-09.48В\nК. БУЙ НР 10 ЛЕВОЙ СТОРОНЫ 71-16-21.10С 072-05-17.41В\nЛ. БУЙ НР 12 ЛЕВОЙ СТОРОНЫ 71-16-35.97С 072-04-58.10В\nМ. БУЙ НР 13 ПРАВОЙ СТОРОНЫ 71-16-56.50С 072-04-21.30В\nН. БУЙ НР 11 ПРАВОЙ СТОРОНЫ 71-16-53.30С 072-05-00.70В\nО. БУЙ НР 14 ОСНОВНОЙ ФАРВАТЕР СПРАВА 71-16-44.77С 072-04-37.15В\nП. БУЙ НР 15 ПРАВОЙ СТОРОНЫ 71-16-58.70С 072-03-54.60В\nР. БУЙ НР 17 ПРАВОЙ СТОРОНЫ 71-17-02.28С 072-03-19.62В\nС. БУЙ ОГРАЖДЕНИЯ ОТДЕЛЬНОЙ ОПАСНОСТИ\n71-17-05.21С 072-03-14.04В\nСИСТЕМА КООРДИНАТ WGS-84\n2. ОТМЕНА 190/24 И ЭТОТ ПУНКТ =\nVIRTUAL BUOYS AIS PUT INTO OPERATION:\n1. PART NR 1.\nA. NR 1 MID-CHANNEL BUOY 71-21-18.00N 072-20-05.22E.\nB. NR 2 PORT HAND BUOY 71-19-11.04N 072-13-42.90E.\nC. NR 3 STARBOARD HAND BUOY 71-19-21.84N 072-13-10.62E.\nD. NR 4 PORT HAND BUOY 71-18-29.28N 072-11-26.34E.\nE. NR 5 STARBOARD HAND BUOY 71-18-40.56N 072-10-53.16E.\nF. NR 6 PORT HAND BUOY 71-17-47.04N 072-09-07.98E.\nG. NR 7 STARBOARD HAND BUOY 71-17-58.26N 072-08-34.08E.\nH. NR 8 PORT HAND BUOY 71-17-03.06N 072-06-43.08E.\nI. NR 9 STARBOARD HAND BUOY 71-17-13.50N 072-06-09.48E.\nJ. NR 10 PORT HAND BUOY 71-16-21.10N 072-05-17.41E.\nK. NR 12 PORT HAND BUOY 71-16-35.97N 072-04-58.10E.\nL. NR 13 STARBOARD HAND BUOY 71-16-56.50N 072-04-21.30E.\nM. NR 11 STARBOARD HAND BUOY 71-16-53.30N 072-05-00.70E.\nN. NR 14 PREFERRED CHANNEL TO STARBOARD 71-16-44.77N 072-04-37.15E.\nO. NR 15 STARBOARD HAND BUOY 71-16-58.70N 072-03-54.60E.\nP. NR 17 STARBOARD HAND BUOY 71-17-02.28N 072-03-19.62E.\nQ. ISOLATED DANGER BUOY 71-17-05.21N 072-03-14.04E.\nWGS-84 DATUM.\n2. CANCEL 190/24 AND THIS PARA.=\nNNNN",
         "summary": null,
-        "category": "other",
+        "category": "navigation",
         "title": "Virtual AIS Buoys"
       }
     },
@@ -1319,7 +1462,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 88/20 КАРТА 15013\r\nГУБА ЗЕЛЕНЕЦКАЯ-ЗАПАДНАЯ",
         "msg_id": "PRIP MURMANSK 88/20",
-        "year": "2020",
+        "year": 2020,
         "cancellations": [
           "8/20"
         ],
@@ -1363,10 +1506,6 @@
         "coordinates": [
           [
             [
-              77.5,
-              77.5
-            ],
-            [
               77.0,
               79.5
             ],
@@ -1385,18 +1524,6 @@
             [
               77.0,
               79.5
-            ],
-            [
-              84.5,
-              79.5
-            ],
-            [
-              82.5,
-              77.5
-            ],
-            [
-              77.5,
-              77.5
             ]
           ]
         ]
@@ -1405,14 +1532,14 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 108/25 КАРТА 10102 \r\nКАРСКОЕ МОРЕ",
         "msg_id": "PRIP WEST 108/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
         "radius_nm": null,
-        "body": "БАРЖА ДРЕЙФУЕТ СУДАМ СОБЛЮДАТЬ \nОСТОРОЖНОСТЬ В РАЙОНЕ\n77-30.0С 077-30.0В 79-30.0С 077-00.0В\n79-30.0С 084-30.0В 77-30.0С 082-30.0В= \n\nCOASTAL WARNING WEST 108/25 KARA SEA.\nCHART RUS 10102.\nBARGE ADRIFT CAUTION ADVISED IN AREA: \n77-30.0N 077-30.0E, 79-30.0N 077-00.0E,\n79-30.0N 084-30.0E, 77-30.0N 082-30.0E.= \nNNNN",
+        "body": "БАРЖА ДРЕЙФУЕТ СУДАМ СОБЛЮДАТЬ \nОСТОРОЖНОСТЬ В РАЙОНЕ\n77-30.0С 077-30.0В 79-30.0С 077-00.0В\n79-30.0С 084-30.0В 77-30.0С 082-30.0В= \nCOASTAL WARNING WEST 108/25 KARA SEA.\nCHART RUS 10102.\nBARGE ADRIFT CAUTION ADVISED IN AREA: \n77-30.0N 077-30.0E, 79-30.0N 077-00.0E,\n79-30.0N 084-30.0E, 77-30.0N 082-30.0E.= \nNNNN",
         "summary": null,
-        "category": "accident",
+        "category": "navigation",
         "title": "Barge Adrift Warning"
       }
     },
@@ -1455,7 +1582,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 51/26 КАРТА 12000 ВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
         "msg_id": "PRIP MURMANSK 51/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 271800 UTC FEB 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -1463,6 +1592,53 @@
         "summary": null,
         "category": "military",
         "title": "Artillery Firing Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XIX 31/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            20.343333333333334,
+            72.52333333333333
+          ],
+          [
+            20.121666666666666,
+            72.36666666666666
+          ],
+          [
+            7.3966666666666665,
+            65.86166666666666
+          ],
+          [
+            7.2,
+            65.51666666666667
+          ],
+          [
+            6.873333333333333,
+            65.03166666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-02-27T18:30:00",
+        "raw_dtg": "271830Z FEB 26",
+        "msg_id": "NAVAREA XIX 31/26",
+        "year": 2026,
+        "cancellations": [
+          "29/26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 31/26\n\n\n\n1. RIGLIST. CORRECT AT  271830 UTC FEB 26\n\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n\n\n72-31.40N 020-20.60E TRANSOCEAN ENABLER\n\n72-22.00N 020-07.30E COSL PROSPECTOR\n\n65-51.70N 007-23.80E SCARABEO 8\n\n65-31.00N 007-12.00E TRANSOCEAN NORGE\n\n65-18.70N 007-15.70 ISLAND INNOVATOR\n\n65-01.90N 006-52.40E TRANSOCEAN ENCOURAGE\n\n\n\nNOTES:\n\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX　29/26",
+        "valid_from": "2026-02-27T18:30:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Oil Rig Positions"
       }
     },
     {
@@ -1493,16 +1669,16 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 91/25 КАРТА 12317\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 91/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [
           "72/24"
         ],
         "hazard_type": "general",
         "geometry_kind": "multipoint",
         "radius_nm": null,
-        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 67-17.83С 072-40.43В\nБ. 67-20.36С 072-46.85В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ 72/24=\n\nCOASTAL WARNING WEST 91/25\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 12317.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 67-17.83N 072-40.43E.\nB. 67-20.36N 072-46.85E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL 72/24.=\nNNNN",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 67-17.83С 072-40.43В\nБ. 67-20.36С 072-46.85В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ 72/24=\nCOASTAL WARNING WEST 91/25\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 12317.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 67-17.83N 072-40.43E.\nB. 67-20.36N 072-46.85E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL 72/24.=\nNNNN",
         "summary": null,
-        "category": "other",
+        "category": "navigation",
         "title": "Bottom Stations Deployed"
       }
     },
@@ -1533,7 +1709,7 @@
       "type": "Feature",
       "id": "PRIP MURMANSK 241/25",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPoint",
         "coordinates": [
           [
             33.986666666666665,
@@ -1557,10 +1733,10 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 241/25 КАРТА 15003 КНИГА 2103\r\n\r\nКИЛЬДИНСКИЙ ПРОЛИВ",
         "msg_id": "PRIP MURMANSK 241/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
-        "geometry_kind": "linestring",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "ПРИП МУРМАНСК 241 КАРТА 15003 КНИГА 2103\nКИЛЬДИНСКИЙ ПРОЛИВ\nОГНИ ЗНАКОВ НЕ ДЕЙСТВУЮТ\n1. КИЛЬДИНСКИЙ-ЗАПАДНЫЙ 69-20.2С 033-59.2В НР 810\n2. ЗАРУБИХА 69-18.1С 034-18.0В НР 840\n3. ЗАРУБИХА-ВОСТОЧНЫЙ 69-18.1С 034-19.1В НР 843\n4. КИЛЬДИНСКИЙ-ВОСТОЧНЫЙ 69-19.0С 34-21.5В НР 850\n5. ЧЕВРАЙ 69-17.5С 034-24.2В НР 855=\n151000 МСК  ГС-",
         "summary": null,
@@ -1572,7 +1748,7 @@
       "type": "Feature",
       "id": "PRIP WEST 51/24",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPoint",
         "coordinates": [
           [
             82.04587777777778,
@@ -1596,10 +1772,10 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 51/24 КАРТА 13348  КАРСКОЕ МОРЕ ЕНИСЕЙСКИЙ ЗАЛИВ",
         "msg_id": "PRIP WEST 51/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [],
         "hazard_type": "shoals",
-        "geometry_kind": "linestring",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "СТВОР КСЕНЬЕВСКИЙ СЕВЕРО-ЗАПАДНЫЙ\nПРОМЕРОМ 2023 ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\n1. НА ЛИНИИ СТВОРА 10.4 МЕТРА В 72-06-17.77С 082-02-45.16В\n2. ВБЛИЗИ ЛИНИИ СТВОРА\nА. 9.3 МЕТРА В 72-02-33.99С 082-16-57.57В \nБ. 9.7 МЕТРА В 72-00-33.36С 082-27-54.32В\n3. БАНКА 8.7 МЕТРА В 72-06-36.43С 082-11-43.30В \nСИСТЕМА КООРДИНАТ WGS-84\n4. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ ФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=",
         "summary": null,
@@ -1611,7 +1787,7 @@
       "type": "Feature",
       "id": "PRIP MURMANSK 240/25",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPoint",
         "coordinates": [
           [
             32.15,
@@ -1659,10 +1835,10 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 240/25 КАРТЫ 13003 13004 15003 15009 15058\r\n\r\n15059 15061 15062 КНИГА 2103\r\n\r\nБАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 240/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
-        "geometry_kind": "linestring",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "МУРМАНСК 01 15/08 1500=\n \nПРИП МУРМАНСК 240 КАРТЫ 13003 13004 15003 15009 15058\n15059 15061 15062 КНИГА 2103\nБАРЕНЦЕВО МОРЕ\nОГНИ НЕ ДЕЙСТВУЮТ\n1. СТВОРА ЗНАКОВ БУХТЫ ОЗЕРКО ВХОДНОЙ\n   69-43.8С 032-09.0В НР 155 156\n2. ЗНАКА ШУРИНОВСКИЙ 69-25.1С 033-13.9В НР 235\n3. МАЯКА КИЛЬДИНСКИЙ-СЕВЕРНЫЙ 69-22.9С 034-09.1В НР 795\n4. ЗНАКА ЖИЛОЙ 69-12.1С 035-07.9В НР 910\n5. ЗНАКА ЛОДЕЙНЫЙ 69-10.7С 035-07.8В НР 915\n6. ЗНАКА ГАВРИЛОВСКИЙ 69-12.1С 035-49.2В НР 930\n7. МАЯКА РУССКИЙ 69-04.7С 036-20.9В НР 980\n8. ЗНАКА ЗОЛОТОЙ 68-52.1С 037-02.9В НР 1040\n9. МАЯКА ВОСТОЧНО-ЛИЦКИЙ 68-38.4С 037-48.0В НР 1065\n10. МАЯКА ЧЕРНЫЙ 68-22.1С 038-38.8В НР 1090=\n151000 МСК  ГС-",
         "summary": null,
@@ -1694,7 +1870,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 90/21 КАРТЫ 15348 13331 13332\r\nКАРСКОЕ МОРЕ \r\nОБСКАЯ ГУБА \r\nТЕРМИНАЛ УТРЕННИЙ",
         "msg_id": "PRIP WEST 90/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [
           "89/21"
         ],
@@ -1747,7 +1923,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 87/26 КАРТА 12000 МОТОВСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 87/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 110000 UTC APR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
@@ -1772,7 +1950,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 82/26 КАРТА 11114 КНИГА 3003 БАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 82/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 070300 UTC MAR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
@@ -1818,7 +1998,7 @@
         "dtg": "2026-01-17T01:30:09.619941",
         "raw_dtg": "ПРИП ЗАПАД 1/26 КАРТА 15342 КАРСКОЕ МОРЕ\r\nОБСКАЯ ГУБА\r\nПОРТ САБЕТТА УЧАСТОК НР 3",
         "msg_id": "PRIP WEST 1/26",
-        "year": "2026",
+        "year": 2026,
         "cancellations": [
           "106/25",
           "143/25"
@@ -1826,10 +2006,10 @@
         "hazard_type": "general",
         "geometry_kind": "linestring",
         "radius_nm": null,
-        "body": "1.ЗАТОНУВШИЙ ОБЪЕКТ (ОСТАТКИ РЫБОЛОВНЫХ СЕТЕЙ) НАИМЕНЬШЕЙ ГЛУБИНОЙ НАД НИМ\n6.8 МЕТРА В 68-30-30.4С 073-38-30.54В\n2.ЗАТОНУВШИЙ ОБЪЕКТ (КРАНЦЕВОЕ ОГРАЖДЕНИЕ) НАИМЕНЬШЕЙ ГЛУБИНОЙ НАД НИМ\n10.2 МЕТРА В 68-30-47.8С 073-39-54.48В\n3.ЗАТОНУВШИЙ ОБЪЕКТ (ЯКОРЬ) НАИМЕНЬШЕЙ ГЛУБИНОЙ НАД НИМ 11.7 МЕТРА В 68-29-57.2С 073-41-21.4В СИСТЕМА КООРДИНАТ WGS-84\n4.ОТМ 106/25 143/25 И ЭТОТ ПУНКТ= \n\nCOASTAL WARNING WEST 1/26 KARA SEA.\nOBSKAYA GUBA.\nAREA NR 3 PORT SABETTA. CHART RUS 15342.\n1.SUNKEN OBJECT (REMNANTS OF FISHING NETS) LEAST DEPTH 6.8 METRE ABOVE IT\nLOCATED 68-30-30.4N 073-38-30.54E.\n2.SUNKEN OBJECT (FENDER FENCE) LEAST DEPTH 10.2 METRE ABOVE IT LOCATED 68-30-47.8N 073-39-54.48E.\n3.SUNKEN OBJECT (ANCHOR) LEAST DEPTH 11.7 METRE ABOVE IT LOCATED 68-29-57.2N 073-41-21.4E. WGS 84 DATUM.\n4.CANCEL 106/25, 143/25 AND THIS PARA.=\nNNNN",
+        "body": "1.ЗАТОНУВШИЙ ОБЪЕКТ (ОСТАТКИ РЫБОЛОВНЫХ СЕТЕЙ) НАИМЕНЬШЕЙ ГЛУБИНОЙ НАД НИМ\n6.8 МЕТРА В 68-30-30.4С 073-38-30.54В\n2.ЗАТОНУВШИЙ ОБЪЕКТ (КРАНЦЕВОЕ ОГРАЖДЕНИЕ) НАИМЕНЬШЕЙ ГЛУБИНОЙ НАД НИМ\n10.2 МЕТРА В 68-30-47.8С 073-39-54.48В\n3.ЗАТОНУВШИЙ ОБЪЕКТ (ЯКОРЬ) НАИМЕНЬШЕЙ ГЛУБИНОЙ НАД НИМ 11.7 МЕТРА В 68-29-57.2С 073-41-21.4В СИСТЕМА КООРДИНАТ WGS-84\n4.ОТМ 106/25 143/25 И ЭТОТ ПУНКТ= \nCOASTAL WARNING WEST 1/26 KARA SEA.\nOBSKAYA GUBA.\nAREA NR 3 PORT SABETTA. CHART RUS 15342.\n1.SUNKEN OBJECT (REMNANTS OF FISHING NETS) LEAST DEPTH 6.8 METRE ABOVE IT\nLOCATED 68-30-30.4N 073-38-30.54E.\n2.SUNKEN OBJECT (FENDER FENCE) LEAST DEPTH 10.2 METRE ABOVE IT LOCATED 68-30-47.8N 073-39-54.48E.\n3.SUNKEN OBJECT (ANCHOR) LEAST DEPTH 11.7 METRE ABOVE IT LOCATED 68-29-57.2N 073-41-21.4E. WGS 84 DATUM.\n4.CANCEL 106/25, 143/25 AND THIS PARA.=\nNNNN",
         "summary": null,
-        "category": "accident",
-        "title": "Sunken Objects Kara Sea"
+        "category": "navigation",
+        "title": "Sunken Objects Reported"
       }
     },
     {
@@ -1974,14 +2154,14 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 64/25 КАРТЫ 15389 15390\r\nКАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 64/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "multipoint",
         "radius_nm": null,
-        "body": "1. ПРОМЕРОМ 2024 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\nА. 9.3 МЕТРА В 69-47-06.07С 083-50-29.10В\nБ. 7.4 МЕТРА В 69-46-57.81С 083-50-56.97В\nВ. 8.5 МЕТРА В 69-46-49.89С 083-51-19.69В\nГ. 9.9 МЕТРА В 69-46-38.97С 083-51-35.29В\nД. 9.6 МЕТРА В 69-44-12.33С 083-57-21.74В\nЕ. 9.4 МЕТРА В 69-44-11.30С 083-57-25.49В\nЖ. 9.9 МЕТРА В 69-44-06.14С 083-57-49.70В\nЗ. 8.4 МЕТРА В 69-44-00.33С 083-58-09.13В\nИ. 9.2 МЕТРА В 69-43-49.92С 083-58-46.82В\nК. 23.5 МЕТРА В 69-42-36.20С 084-04-21.06В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\nCOASTAL WARNING WEST 64/25\nKARA SEA.\nREKA YENISEY.\nLEADING LIGHT OSTROV BOL’SHOY.\nCHARTS RUS 15389, 18389.\n1. SOUNDING 2024 FOUND LEAST DEPTHS:\nA. 9.3 METRES 69-47-06.07N 083-50-29.10E.\nB. 7.4 METRES 69-46-57.81N 083-50-56.97E.\nC. 8.5 METRES 69-46-49.89N 083-51-19.69E.\nD. 9.9 METRES 69-46-38.97N 083-51-35.29E.\nE. 9.6 METRES 69-44-12.33N 083-57-21.74E.\nF. 9.4 METRES 69-44-11.30N 083-57-25.49E.\nG. 9.9 METRES 69-44-06.14N 083-57-49.70E.\nH. 8.4 METRES 69-44-00.33N 083-58-09.13E.\nI. 9.2 METRES 69-43-49.92N 083-58-46.82E.\nJ. 23.5 METRES 69-42-36.20N 084-04-21.06E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "body": "1. ПРОМЕРОМ 2024 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\nА. 9.3 МЕТРА В 69-47-06.07С 083-50-29.10В\nБ. 7.4 МЕТРА В 69-46-57.81С 083-50-56.97В\nВ. 8.5 МЕТРА В 69-46-49.89С 083-51-19.69В\nГ. 9.9 МЕТРА В 69-46-38.97С 083-51-35.29В\nД. 9.6 МЕТРА В 69-44-12.33С 083-57-21.74В\nЕ. 9.4 МЕТРА В 69-44-11.30С 083-57-25.49В\nЖ. 9.9 МЕТРА В 69-44-06.14С 083-57-49.70В\nЗ. 8.4 МЕТРА В 69-44-00.33С 083-58-09.13В\nИ. 9.2 МЕТРА В 69-43-49.92С 083-58-46.82В\nК. 23.5 МЕТРА В 69-42-36.20С 084-04-21.06В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\nCOASTAL WARNING WEST 64/25\nKARA SEA.\nREKA YENISEY.\nLEADING LIGHT OSTROV BOL’SHOY.\nCHARTS RUS 15389, 18389.\n1. SOUNDING 2024 FOUND LEAST DEPTHS:\nA. 9.3 METRES 69-47-06.07N 083-50-29.10E.\nB. 7.4 METRES 69-46-57.81N 083-50-56.97E.\nC. 8.5 METRES 69-46-49.89N 083-51-19.69E.\nD. 9.9 METRES 69-46-38.97N 083-51-35.29E.\nE. 9.6 METRES 69-44-12.33N 083-57-21.74E.\nF. 9.4 METRES 69-44-11.30N 083-57-25.49E.\nG. 9.9 METRES 69-44-06.14N 083-57-49.70E.\nH. 8.4 METRES 69-44-00.33N 083-58-09.13E.\nI. 9.2 METRES 69-43-49.92N 083-58-46.82E.\nJ. 23.5 METRES 69-42-36.20N 084-04-21.06E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
         "summary": null,
-        "category": "other",
+        "category": "navigation",
         "title": "Least Depths Reported"
       }
     },
@@ -2045,7 +2225,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 8/23 КАРТА 13353 КАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 8/23",
-        "year": "2023",
+        "year": 2023,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -2107,7 +2287,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 74/23 КАРТА 15391\r\nКАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 74/23",
-        "year": "2023",
+        "year": 2023,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -2132,7 +2312,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 166/25 КАРТА 15054\r\n\r\nБАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 166/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -2158,7 +2338,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 70/26 КАРТА 17055\r\n\r\nКОЛЬСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 70/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 011740 UTC MAR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
@@ -2248,7 +2430,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 117/21 КАРТА 15000\r\nГУБА АМБАРНАЯ",
         "msg_id": "PRIP MURMANSK 117/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [
           "14/20"
         ],
@@ -2300,7 +2482,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 86/26 КАРТА 12000 ВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
         "msg_id": "PRIP MURMANSK 86/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 161800 UTC MAR 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -2314,7 +2498,7 @@
       "type": "Feature",
       "id": "PRIP WEST 52/24",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPoint",
         "coordinates": [
           [
             82.54914444444444,
@@ -2346,10 +2530,10 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 52/24 КАРТЫ 18383 15383 13348 \r\nКАРСКОЕ МОРЕ ЕНИСЕЙСКИЙ ЗАЛИВ",
         "msg_id": "PRIP WEST 52/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [],
         "hazard_type": "general",
-        "geometry_kind": "linestring",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "СТВОР САРИХА\nПРОМЕРОМ 2023 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\n1. НА ЛИНИИ СТВОРА 11.1 МЕТРА В 71-58-09.42С 082-32-56.92В\n2.\tВБЛИЗИ ЛИНИИ СТВОРА\nА. 9.9 МЕТРА В 71-59-24.53С 082-30-28.65В \nБ. 9.8 МЕТРА В 71-58-43.24С 082-31-33.26В\nВ. 9.8 МЕТРА В 71-58-11.09С 082-32-09.12В \nГ. 9.8 МЕТРА В 71-57-34.71С 082-32-38.08В \nД. 9.8 МЕТРА В 71-56-56.61С 082-33-26.90В \nСИСТЕМА КООРДИНАТ WGS-84\n3.\tРЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ ФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=",
         "summary": null,
@@ -2372,7 +2556,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 80/26 КАРТА 17055 КОЛЬСКИЙ ЗАЛИВ АКВАТОРИЯ МОРСКОГО ПОРТА МУРМАНСК",
         "msg_id": "PRIP MURMANSK 80/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 192200 UTC MAR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
@@ -2396,7 +2582,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 2/25 КАРТА 15342\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 2/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -2511,7 +2697,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 27/22 КАРТА 15003\r\nКИЛЬДИНСКИЙ ПРОЛИВ",
         "msg_id": "PRIP MURMANSK 27/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [
           "119/21"
         ],
@@ -2528,20 +2714,26 @@
       "type": "Feature",
       "id": "PRIP WEST 54/24",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          82.57004444444443,
-          71.85680555555555
+          [
+            82.57004444444443,
+            71.85680555555555
+          ],
+          [
+            82.55969999999999,
+            71.85890555555555
+          ]
         ]
       },
       "properties": {
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 54/24 КАРТЫ 18383 15383 13348 \r\nКАРСКОЕ МОРЕ ЕНИСЕЙСКИЙ ЗАЛИВ",
         "msg_id": "PRIP WEST 54/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [],
         "hazard_type": "general",
-        "geometry_kind": "point",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "СТВОР МИРОНОВСКИЙ\nПРОМЕРОМ 2023 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\n1. НА ЛИНИИ СТВОРА 11.8 МЕТРА В 71-51-24.50С 082-34-12.16В\n2. ВБЛИЗИ СТВОРА 9.7 МЕТРА В 71-51-32.06С 082-33-34.92В СИСТЕМА КООРДИНАТ WGS-84\n3. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=",
         "summary": null,
@@ -2563,7 +2755,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 31/24 КАРТА 17053\r\n\r\nКОЛЬСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 31/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [
           "14/22"
         ],
@@ -2614,9 +2806,10 @@
         "dtg": "2026-01-29T01:31:17.280504",
         "raw_dtg": "ПРИП МУРМАНСК 12/26 КАРТА 17054\r\nКОЛЬСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 12/26",
-        "year": "2026",
+        "year": 2026,
         "cancellations": [
-          "5/26"
+          "5/26",
+          "THIS MSG 270000 UTC FEB 26"
         ],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -2641,7 +2834,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 122/24 КАРТА 18011\r\nКИЛЬДИНСКИЙ ПРОЛИВ БУХТА МОГИЛЬНАЯ",
         "msg_id": "PRIP MURMANSK 122/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [
           "10/22"
         ],
@@ -2754,15 +2947,15 @@
         "dtg": "2025-12-10T01:30:08.445850",
         "raw_dtg": "ПРИП ЗАПАД 247/25 КАРТЫ 13331 18332 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 247/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "linestring",
         "radius_nm": null,
-        "body": "ПОРТ САБЕТТА ПОДХОДНОЙ КАНАЛ\n1.ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ А. 13.2 МЕТРА В 71-17-05.18С 072-06-49.55В\nБ. 13.2 МЕТРА В 71-17-26.55С 072-07-49.92В \nВ. 13.2 МЕТРА В 71-17-31.90С 072-08-16.40В\n Г. 13.2 МЕТРА В 71-17-40.51С 072-07-37.52В \nД. 13.1 МЕТРА В 71-17-47.10С 072-08-00.08В \nЕ. 13.1 МЕТРА В 71-17-51.72С 072-08-14.52В \nЖ. 13.1 МЕТРА В 71-17-38.86С 072-08-40.39В \nЗ. 13.1 МЕТРА В 71-17-45.19С 072-09-00.50В\n И. 13.2 МЕТРА В 71-17-45.48С 072-09-01.40В \nК. 13.1 МЕТРА В 71-17-55.14С 072-08-25.40В\n Л. 13.2 МЕТРА В 71-18-00.00С 072-08-40.09В \nСИСТЕМА КООРДИНАТ WGS-84\n2.РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ= \n\nCOASTAL WARNING WEST 247/25 KARA SEA, OBSKAYA GUBA.\nPORT SABETTA PODKHODNOY CANAL. CHARTS RUS 13331, 18332.\n1.\tSOUNDING 2025 FOUND LEAST DEPTHS:\n A. 13.2 METRES E 71-17-05.18N 072-06-49.55E. \nB. 13.2 METRES E 71-17-26.55N 072-07-49.92E. \nC. 13.2 METRES E 71-17-31.90N 072-08-16.40E. \nD. 13.2 METRES E 71-17-40.51N 072-07-37.52E. \nE. 13.1 METRES E 71-17-47.10N 072-08-00.08E. \nF. 13.1 METRES E 71-17-51.72N 072-08-14.52E. \nG. 13.1 METRES E 71-17-38.86N 072-08-40.39E. \nH. 13.1 METRES E 71-17-45.19N 072-09-00.50E. \nI. 13.2 METRES E 71-17-45.48N 072-09-01.40E. \nK. 13.1 METRES E 71-17-55.14N 072-08-25.40E. \nL. 13.2 METRES E 71-18-00.00N 072-08-40.09E. \nWGS 84 DATUM.\n2.RECOMMENDED TO USE NAVIGATION INFORMATION IN THE FORM OF DIGITAL REFERENCE SETS OF FSUE HYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "body": "ПОРТ САБЕТТА ПОДХОДНОЙ КАНАЛ\n1.ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ А. 13.2 МЕТРА В 71-17-05.18С 072-06-49.55В\nБ. 13.2 МЕТРА В 71-17-26.55С 072-07-49.92В \nВ. 13.2 МЕТРА В 71-17-31.90С 072-08-16.40В\n Г. 13.2 МЕТРА В 71-17-40.51С 072-07-37.52В \nД. 13.1 МЕТРА В 71-17-47.10С 072-08-00.08В \nЕ. 13.1 МЕТРА В 71-17-51.72С 072-08-14.52В \nЖ. 13.1 МЕТРА В 71-17-38.86С 072-08-40.39В \nЗ. 13.1 МЕТРА В 71-17-45.19С 072-09-00.50В\n И. 13.2 МЕТРА В 71-17-45.48С 072-09-01.40В \nК. 13.1 МЕТРА В 71-17-55.14С 072-08-25.40В\n Л. 13.2 МЕТРА В 71-18-00.00С 072-08-40.09В \nСИСТЕМА КООРДИНАТ WGS-84\n2.РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ= \nCOASTAL WARNING WEST 247/25 KARA SEA, OBSKAYA GUBA.\nPORT SABETTA PODKHODNOY CANAL. CHARTS RUS 13331, 18332.\n1.\tSOUNDING 2025 FOUND LEAST DEPTHS:\n A. 13.2 METRES E 71-17-05.18N 072-06-49.55E. \nB. 13.2 METRES E 71-17-26.55N 072-07-49.92E. \nC. 13.2 METRES E 71-17-31.90N 072-08-16.40E. \nD. 13.2 METRES E 71-17-40.51N 072-07-37.52E. \nE. 13.1 METRES E 71-17-47.10N 072-08-00.08E. \nF. 13.1 METRES E 71-17-51.72N 072-08-14.52E. \nG. 13.1 METRES E 71-17-38.86N 072-08-40.39E. \nH. 13.1 METRES E 71-17-45.19N 072-09-00.50E. \nI. 13.2 METRES E 71-17-45.48N 072-09-01.40E. \nK. 13.1 METRES E 71-17-55.14N 072-08-25.40E. \nL. 13.2 METRES E 71-18-00.00N 072-08-40.09E. \nWGS 84 DATUM.\n2.RECOMMENDED TO USE NAVIGATION INFORMATION IN THE FORM OF DIGITAL REFERENCE SETS OF FSUE HYDROGRAPHIC ENTERPRISE.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Sabetta Canal Depths"
+        "category": "navigation",
+        "title": "Port Sabetta Depths"
       }
     },
     {
@@ -2865,8 +3058,10 @@
         "dtg": "2026-01-23T01:30:38.346117",
         "raw_dtg": "ПРИП МУРМАНСК 8/26 КАРТЫ 10100 10103\r\n\r\nБАРЕНЦЕВО И КАРСКОЕ МОРЯ",
         "msg_id": "PRIP MURMANSK 8/26",
-        "year": "2026",
-        "cancellations": [],
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 230000 UTC FEB 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "linestring",
         "radius_nm": null,
@@ -2938,7 +3133,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 71/26 КАРТА 12000\r\n\r\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
         "msg_id": "PRIP MURMANSK 71/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 062000 UTC MAR 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -2983,7 +3180,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 72/26 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 72/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 062000 UTC MAR 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -3037,47 +3236,162 @@
         "dtg": "2025-12-10T01:30:08.445709",
         "raw_dtg": "ПРИП ЗАПАД 249/25 КАРТЫ 13335 15335 15342 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 249/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "linestring",
         "radius_nm": null,
-        "body": "ПОДХОДЫ К ТЕРМИНАЛУ ВОРОТА АРКТИКИ\n1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ А. 9.9 МЕТРА В 68-37-48.20С 073-52-10.29В\nБ. 10.1 МЕТРА В 68-35-46.08С 073-50-52.91В \nВ. 10.1 МЕТРА В 68-35-48.36С 073-51-49.68В \nГ. 10.1 МЕТРА В 68-35-12.19С 073-50-17.22В \nСИСТЕМА КООРДИНАТ WGS-84=\n\nCOASTAL WARNING WEST 249/25 KARA SEA, OBSKAYA GUBA. TERMINAL VOROTA ARKTIKI. \nCHARTS RUS 13335, 15335, 15342.\n1. SOUNDING 2025 FOUND LEAST DEPTHS: \nA. 9.9 METRES 68-37-48.20N 073-52-10.29E. \nB. 10.1 METRES 68-35-46.08N 073-50-52.91E. \nC. 10.1 METRES 68-35-48.36N 073-51-49.68E. \nD. 10.1 METRES 68-35-12.19N 073-50-17.22E. \nWGS 84 DATUM.=\nNNNN",
+        "body": "ПОДХОДЫ К ТЕРМИНАЛУ ВОРОТА АРКТИКИ\n1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ А. 9.9 МЕТРА В 68-37-48.20С 073-52-10.29В\nБ. 10.1 МЕТРА В 68-35-46.08С 073-50-52.91В \nВ. 10.1 МЕТРА В 68-35-48.36С 073-51-49.68В \nГ. 10.1 МЕТРА В 68-35-12.19С 073-50-17.22В \nСИСТЕМА КООРДИНАТ WGS-84=\nCOASTAL WARNING WEST 249/25 KARA SEA, OBSKAYA GUBA. TERMINAL VOROTA ARKTIKI. \nCHARTS RUS 13335, 15335, 15342.\n1. SOUNDING 2025 FOUND LEAST DEPTHS: \nA. 9.9 METRES 68-37-48.20N 073-52-10.29E. \nB. 10.1 METRES 68-35-46.08N 073-50-52.91E. \nC. 10.1 METRES 68-35-48.36N 073-51-49.68E. \nD. 10.1 METRES 68-35-12.19N 073-50-17.22E. \nWGS 84 DATUM.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Least Depths Reported"
+        "category": "navigation",
+        "title": "Least Depths Found"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 115/21",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.44527777777778,
+            69.68166666666667
+          ],
+          [
+            31.451944444444443,
+            69.68166666666667
+          ],
+          [
+            31.428333333333335,
+            69.64916666666667
+          ],
+          [
+            31.411388888888887,
+            69.64916666666667
+          ],
+          [
+            31.44527777777778,
+            69.68166666666667
+          ],
+          [
+            31.459166666666665,
+            69.66388888888889
+          ],
+          [
+            31.467777777777776,
+            69.66388888888889
+          ],
+          [
+            31.40972222222222,
+            69.63805555555557
+          ],
+          [
+            31.416666666666668,
+            69.64
+          ],
+          [
+            31.430555555555557,
+            69.64
+          ],
+          [
+            31.3625,
+            69.64250000000001
+          ],
+          [
+            31.3725,
+            69.64250000000001
+          ],
+          [
+            31.3725,
+            69.64055555555557
+          ],
+          [
+            31.3625,
+            69.64055555555557
+          ],
+          [
+            31.39,
+            69.64666666666668
+          ],
+          [
+            31.41583333333333,
+            69.64666666666668
+          ],
+          [
+            31.41583333333333,
+            69.64444444444445
+          ],
+          [
+            31.39,
+            69.64361111111111
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "ПРИП МУРМАНСК 115/21 КАРТА 15000\r\nГУБА ПЕЧЕНГА",
+        "msg_id": "PRIP MURMANSK 115/21",
+        "year": 2021,
+        "cancellations": [
+          "20/20"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 115 КАРТА 15000\nГУБА ПЕЧЕНГА\n1. САДКОВЫЕ КОМПЛЕКСЫ ВЫСТАВЛЕНЫ РАЙОНАХ\nА. 69-40-54С 031-26-43В\n   69-40-54С 031-27-07В\n   69-38-57С 031-25-42В\n   69-38-57С 031-24-41В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n   69-40-54С 031-26-43В\nБ. 69-39-50С 031-27-33В\n   69-39-50С 031-28-04В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n   69-38-17С 031-24-35В\n   69-38-24С 031-25-00В\n   69-38-24С 031-25-50В\nВ. 69-38-33С 031-21-45В\n   69-38-33С 031-22-21В\n   69-38-26С 031-22-21В\n   69-38-26С 031-21-45В\nГ. 69-38-48С 031-23-24В\n   69-38-48С 031-24-57В\n   69-38-40С 031-24-57В\n   69-38-37С 031-23-24В\nОБОРУДОВАНЫ РЛП И ОГНЯМИ ЖЛ ПР\n2. ОТМ 20/20 И ЭТОТ ПУНКТ=\n131200 МСК  ГС-",
+        "summary": null,
+        "category": "navigation",
+        "title": "Fish Farm Areas"
       }
     },
     {
       "type": "Feature",
       "id": "PRIP MURMANSK 204/20",
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
-              34.72822777777778,
-              69.24065
-            ],
+              [
+                34.72822777777778,
+                69.2392611111111
+              ],
+              [
+                34.74401346383491,
+                69.23925882333053
+              ],
+              [
+                34.74821111111111,
+                69.2388888888889
+              ],
+              [
+                34.72822777777778,
+                69.2392611111111
+              ]
+            ]
+          ],
+          [
             [
-              34.747394444444446,
-              69.24064722222222
-            ],
-            [
-              34.747394444444446,
-              69.23925833333334
-            ],
-            [
-              34.72822777777778,
-              69.2392611111111
-            ],
-            [
-              34.74821111111111,
-              69.2388888888889
-            ],
-            [
-              34.72822777777778,
-              69.24065
+              [
+                34.747394444444446,
+                69.23925833333334
+              ],
+              [
+                34.74401346383491,
+                69.23925882333053
+              ],
+              [
+                34.72822777777778,
+                69.24065
+              ],
+              [
+                34.747394444444446,
+                69.24064722222222
+              ],
+              [
+                34.747394444444446,
+                69.23925833333334
+              ]
             ]
           ]
         ]
@@ -3086,7 +3400,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 204/20 КАРТА 18013\r\nПРОЛИВ МАЛЫЙ ОЛЕНИЙ",
         "msg_id": "PRIP MURMANSK 204/20",
-        "year": "2020",
+        "year": 2020,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -3101,7 +3415,7 @@
       "type": "Feature",
       "id": "PRIP MURMANSK 32/26",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPoint",
         "coordinates": [
           [
             31.096666666666668,
@@ -3160,7 +3474,7 @@
           "338/25"
         ],
         "hazard_type": "scientific mooring",
-        "geometry_kind": "linestring",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "ПРИП МУРМАНСК 32 КАРТЫ 13000 13003 13004\n15003 15005 15009 15010 15054 КНИГА 2103\nБАРЕНЦЕВО МОРЕ\nЗНАКИ НЕПРИГОДНЫ ДЛЯ НАВИГАЦИОННЫХ ЦЕЛЕЙ\n1. БАЗАРНЫЙ 69-45.9С 031-05.8В НР 10\n2. ЗЕМЛЯНОЙ-СРЕДНИЙ СВЕТЯЩИЙ 69-49.8С 031-46.9В НР 60\n3. КОРОВИЙ СВЕТЯЩИЙ 69-51.1С 031-57.0В НР 62\n4. ПУШКА 69-23.0С 033-28.6В НР 280\n5. АЛЕКСЕЕВА СВЕТЯЩИЙ 69-16.8С 033-24.9В НР 333\n6. СТВОР ГОРЯЧИНСКИЙ 69-10.5С 033-28.0В НР 438 439\n7. КИЛЬДИНСКИЙ ЯКОРНЫЙ ЗАПАДНЫЙ 69-18.9С 034-13.7В НР 835.5\n8. КИЛЬДИНСКИЙ ЯКОРНЫЙ 69-19.3С 034-16.8В НР 836\n9. ЗАРУБИХА СВЕТЯЩИЙ 69-18.1С 034-18.0В НР 840\n10. ЖИЛОЙ СВЕТЯЩИЙ 69-12.1С 035-07.9В НР 910\n11. ЗЕЛЕНЕЦКИЙ-ПРИЧАЛЬНЫЙ 69-07.1С 036-04.3В НР 964\n12. ОТМ 12/24 261/25 338/25 И ЭТОТ ПУНКТ=\n061000 МСК  ГС-",
         "summary": null,
@@ -3195,7 +3509,7 @@
       "type": "Feature",
       "id": "PRIP WEST 5/17",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPoint",
         "coordinates": [
           [
             83.43255555555557,
@@ -3219,10 +3533,10 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 5/17 КАРТЫ 18389 15389\r\n\r\nКАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 5/17",
-        "year": "2017",
+        "year": 2017,
         "cancellations": [],
         "hazard_type": "general",
-        "geometry_kind": "linestring",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "1. НАИМЕНЬШИЕ ГЛУБИНЫ В\nА. 8.6 МЕТРА 69-57-44.2С 083-25-57.2В\nБ. 7.2 МЕТРА 69-56-10.1С 083-26-58.8В\nВ. 8.2 МЕТРА 69-54-30.9С 083-29-48.7В\nГ. 4.4 МЕТРА 69-56-15.0С 083-27-07.3В\nНА СТВОРЕ НИЖНЕСЕЧЕНСКИЙ 172.2-352.2 ГРАДУСА",
         "summary": null,
@@ -3303,7 +3617,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 200/21 КАРТА 15005\r\nСЕВЕРНАЯ ЧАСТЬ КОЛЬСКОГО ЗАЛИВА\r\nГУБА КИСЛАЯ",
         "msg_id": "PRIP MURMANSK 200/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -3342,17 +3656,17 @@
         "dtg": "2025-12-10T01:30:08.445594",
         "raw_dtg": "ПРИП ЗАПАД 250/25 КАРТЫ 13335 13336 15335 15342 18328 КАРСКОЕ МОРЕ \r\nОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 250/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [
           "21/22"
         ],
         "hazard_type": "general",
         "geometry_kind": "linestring",
         "radius_nm": null,
-        "body": "ТЕРМИНАЛ ВОРОТА АРКТИКИ\n1.ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ А. 8.4 МЕТРА В 68-30-01.15С 073-39-26.92В\nБ. 9.1 МЕТРА В 68-30-05.12С 073-39-50.57В\nСИСТЕМА КООРДИНАТ WGS-84\n2.РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ ФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ\n3.ОТМ 21/22 И ЭТОТ ПУНКТ= \n\nCOASTAL WARNING WEST 250/25 KARA SEA, OBSKAYA GUBA. TERMINAL VOROTA ARKTIKI.\nCHARTS RUS 13335, 13336, 15335, 15342, 18328.\n1.SOUNDING 2025 FOUND LEAST DEPTHS:\nA. 8.4 METRES 68-30-01.15N 073-39-26.92E. \nB. 9.1 METRES 68-30-05.12N 073-39-50.57E.\n WGS 84 DATUM.\n2.RECOMMENDED TO USE NAVIGATION INFORMATION IN THE FORM OF DIGITAL REFERENCE SETS OF FSUE HYDROGRAPHIC ENTERPRISE\n3.\tCANCEL 21/22 AND THIS PARA.= \nNNNN",
+        "body": "ТЕРМИНАЛ ВОРОТА АРКТИКИ\n1.ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ А. 8.4 МЕТРА В 68-30-01.15С 073-39-26.92В\nБ. 9.1 МЕТРА В 68-30-05.12С 073-39-50.57В\nСИСТЕМА КООРДИНАТ WGS-84\n2.РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ ФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ\n3.ОТМ 21/22 И ЭТОТ ПУНКТ= \nCOASTAL WARNING WEST 250/25 KARA SEA, OBSKAYA GUBA. TERMINAL VOROTA ARKTIKI.\nCHARTS RUS 13335, 13336, 15335, 15342, 18328.\n1.SOUNDING 2025 FOUND LEAST DEPTHS:\nA. 8.4 METRES 68-30-01.15N 073-39-26.92E. \nB. 9.1 METRES 68-30-05.12N 073-39-50.57E.\n WGS 84 DATUM.\n2.RECOMMENDED TO USE NAVIGATION INFORMATION IN THE FORM OF DIGITAL REFERENCE SETS OF FSUE HYDROGRAPHIC ENTERPRISE\n3.\tCANCEL 21/22 AND THIS PARA.= \nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "New Depths Reported"
+        "category": "navigation",
+        "title": "Least Depths Found"
       }
     },
     {
@@ -3389,7 +3703,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 28/22 КАРТА 17055\r\nКОЛЬСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 28/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [
           "18/21"
         ],
@@ -3416,7 +3730,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 278/22 КАРТА 17009\r\nКОЛЬСКИЙ ЗАЛИВ ПОРТ МУРМАНСК",
         "msg_id": "PRIP MURMANSK 278/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -3478,7 +3792,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 53/25 КАРТЫ 13347 13348 15381 18381 КАРСКОЕ МОРЕ ЕНИСЕЙСКИЙ ЗАЛИВ",
         "msg_id": "PRIP WEST 53/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "linestring",
@@ -3596,7 +3910,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 60/25 КАРТЫ 13353 15389 18389\r\nКАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 60/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "linestring",
@@ -3611,20 +3925,26 @@
       "type": "Feature",
       "id": "PRIP WEST 209/24",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          73.28841666666666,
-          74.07565555555556
+          [
+            73.28841666666666,
+            74.07565555555556
+          ],
+          [
+            81.76316111111112,
+            74.07565555555556
+          ]
         ]
       },
       "properties": {
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 209/24 КАРТЫ 10103 11127 11132 12322 12327 14300",
         "msg_id": "PRIP WEST 209/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [],
         "hazard_type": "general",
-        "geometry_kind": "point",
+        "geometry_kind": "linestring",
         "radius_nm": null,
         "body": "1.УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 2800 МЕТРОВ\nПО 1400 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 90-270 ГРАД МЕЖДУ 74-04-32.36С 073-17-18.30В И 74-04-32.36С 081-45-47.38В НАИМЕНЬШАЯ ГЛУБИНА 21.2 МЕТРА\nСИСТЕМА КООРДИНАТ WGS-84\n2.РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=",
         "summary": null,
@@ -3733,7 +4053,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 54/26 КАРТЫ 10100 10103 БАРЕНЦЕВО И КАРСКОЕ МОРЯ",
         "msg_id": "PRIP MURMANSK 54/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 230000 UTC MAR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "linestring",
         "radius_nm": null,
@@ -3781,7 +4103,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 59/21 КАРТА 18001\r\nМОТОВСКИЙ ЗАЛИВ ГУБА КИСЛУХА",
         "msg_id": "PRIP MURMANSK 59/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -3806,7 +4128,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 340/25 КАРТА 17052 КНИГА 2103\r\n\r\nКОЛЬСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 340/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -3850,7 +4172,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 68/26 КАРТА 12000\r\n\r\nЗАЛИВ ВАРАНГЕР-ФЬОРД",
         "msg_id": "PRIP MURMANSK 68/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 010000 UTC APR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "linestring",
         "radius_nm": null,
@@ -3894,7 +4218,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 227/24 КАРТА 18010\r\n\r\nЗАПАДНАЯ ЧАСТЬ КИЛЬДИНСКОГО ПРОЛИВА",
         "msg_id": "PRIP MURMANSK 227/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -3939,8 +4263,10 @@
         "dtg": "2025-12-20T01:29:33.119119",
         "raw_dtg": "ПРИП МУРМАНСК 409/25 КАРТА 15006\r\nСРЕДНЕЕ КОЛЕНО КОЛЬСКОГО ЗАЛИВА",
         "msg_id": "PRIP MURMANSK 409/25",
-        "year": "2025",
-        "cancellations": [],
+        "year": 2025,
+        "cancellations": [
+          "THIS MSG 010000 UTC JAN 28"
+        ],
         "hazard_type": "general",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -3964,7 +4290,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 9/22 КАРТА 17007\r\nКОЛЬСКИЙ ЗАЛИВ ПОРТ МУРМАНСК",
         "msg_id": "PRIP MURMANSK 9/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [
           "357/20"
         ],
@@ -4101,15 +4427,15 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 232/25 КАРТЫ 13331 18331\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 232/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "multipoint",
         "radius_nm": null,
-        "body": "АКВАТОРИЯ ПОРТА САБЕТТА\nМОРСКОЙ КАНАЛ\nВИРТУАЛЬНЫЕ БУИ АИС ВВЕДЕНЫ ДЕЙСТВИЕ\n1. БУЙ НР1 ПРАВОЙ СТОРОНЫ 72-33-19.25С 073-47-14.85В\n2. БУЙ НР 2 ЛЕВОЙ СТОРОНЫ 72-33-20.74С 073-48-01.17В\n3. БУЙ НР 3 ПРАВОЙ СТОРОНЫ 72-З1-35.61С 073- 47-51.84В\n4. БУЙ НР 4 ЛЕВОЙ СТОРОНЫ 72-З137.09С 073-48-38.09В\n5. БУЙ НР 5 ПРАВОЙ СТОРОНЫ 72-29-51.96С 073-48-28.72В\n6. БУЙ НР 6 ЛЕВОЙ СТОРОНЫ 72-29-53.44С 073-49-14.89В\n7. БУЙ НР 7 ПРАВОЙ СТОРОНЫ 72-28-08.31С 073-49-05.47В\n8. БУЙ НР 8 ЛЕВОЙ СТОРОНЫ 72-28-09.79С 073-49-51.58В\n9. БУЙ НР 9 ПРАВОЙ СТОРОНЫ 72-26-24.51С 073-49-36.89В\n10. БУЙ НР 10 ЛЕВОЙ СТОРОНЫ 72-26-26.32С 073-50-33.34В\n11. БУЙ НР 11 ПРАВОЙ СТОРОНЫ 72-25-25.68С 073-49-19.64В\n12. БУЙ НР 12 ЛЕВОЙ СТОРОНЫ 72-25-20.90С 073-50-14.10В\n13. БУЙ НР 13 ПРАВОЙ СТОРОНЫ 72-24-33.21С 073-47-49.92В\n14. БУЙ НР 14 ЛЕВОЙ СТОРОНЫ 72-24-22.55С 073-48-34.28В\n15. БУЙ НР 15 ПРАВОЙ СТОРОНЫ 72-22-53.49С 073-43-41.77В\n16. БУЙ НР 16 ЛЕВОЙ СТОРОНЫ 72-22-44.81С 073-44-17.92В\nСИСТЕМА КООРДИНАТ WGS=\n\nCOASTAL WARNING WEST 232/25\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nSEA CANAL.\nCHARTS RUS 13331, 18331.\nVIRTUAL BUOYS AIS PUT INTO OPERATION:\n1. NR 1 STARBOARD HAND BUOY 72-33-19.25N 073-47-14.85E.\n2. NR 2 PORT HAND BUOY 72-33-20.74N 073-48-01.17E.\n3. NR 3 STARBOARD HAND BUOY 72-З1-35.61N 073- 47-51.84E.\n4. NR 4 PORT HAND BUOY 72-З137.09N 073-48-38.09E.\n5. NR 5 STARBOARD HAND BUOY 72-29-51.96N 073-48-28.72E.\n6. NR 6 PORT HAND BUOY 72-29-53.44N 073-49-14.89E.\n7. NR 7 STARBOARD HAND BUOY 72-28-08.31N 073-49-05.47E.\n8. NR 8 PORT HAND BUOY 72-28-09.79N 073-49-51.58E.\n9. NR 9 STARBOARD HAND BUOY 72-26-24.51N 073-49-36.89E.\n10. NR 10 PORT HAND BUOY 72-26-26.32N 073-50-33.34E.\n11. NR 11 STARBOARD HAND BUOY 72-25-25.68N 073-49-19.64E.\n12. NR 12 PORT HAND BUOY 72-25-20.90N 073-50-14.10E.\n13. NR 13 STARBOARD HAND BUOY 72-24-33.21С 073-47-49.92E.\n14. NR 14 PORT HAND BUOY 72-24-22.55N 073-48-34.28E.\n15. NR 15 STARBOARD HAND BUOY 72-22-53.49С 073-43-41.77E.\n16. NR 16 PORT HAND BUOY 72-22-44.81N 073-44-17.92E.\nWGS-84 DATUM.=\nNNNN",
+        "body": "АКВАТОРИЯ ПОРТА САБЕТТА\nМОРСКОЙ КАНАЛ\nВИРТУАЛЬНЫЕ БУИ АИС ВВЕДЕНЫ ДЕЙСТВИЕ\n1. БУЙ НР1 ПРАВОЙ СТОРОНЫ 72-33-19.25С 073-47-14.85В\n2. БУЙ НР 2 ЛЕВОЙ СТОРОНЫ 72-33-20.74С 073-48-01.17В\n3. БУЙ НР 3 ПРАВОЙ СТОРОНЫ 72-З1-35.61С 073- 47-51.84В\n4. БУЙ НР 4 ЛЕВОЙ СТОРОНЫ 72-З137.09С 073-48-38.09В\n5. БУЙ НР 5 ПРАВОЙ СТОРОНЫ 72-29-51.96С 073-48-28.72В\n6. БУЙ НР 6 ЛЕВОЙ СТОРОНЫ 72-29-53.44С 073-49-14.89В\n7. БУЙ НР 7 ПРАВОЙ СТОРОНЫ 72-28-08.31С 073-49-05.47В\n8. БУЙ НР 8 ЛЕВОЙ СТОРОНЫ 72-28-09.79С 073-49-51.58В\n9. БУЙ НР 9 ПРАВОЙ СТОРОНЫ 72-26-24.51С 073-49-36.89В\n10. БУЙ НР 10 ЛЕВОЙ СТОРОНЫ 72-26-26.32С 073-50-33.34В\n11. БУЙ НР 11 ПРАВОЙ СТОРОНЫ 72-25-25.68С 073-49-19.64В\n12. БУЙ НР 12 ЛЕВОЙ СТОРОНЫ 72-25-20.90С 073-50-14.10В\n13. БУЙ НР 13 ПРАВОЙ СТОРОНЫ 72-24-33.21С 073-47-49.92В\n14. БУЙ НР 14 ЛЕВОЙ СТОРОНЫ 72-24-22.55С 073-48-34.28В\n15. БУЙ НР 15 ПРАВОЙ СТОРОНЫ 72-22-53.49С 073-43-41.77В\n16. БУЙ НР 16 ЛЕВОЙ СТОРОНЫ 72-22-44.81С 073-44-17.92В\nСИСТЕМА КООРДИНАТ WGS=\nCOASTAL WARNING WEST 232/25\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nSEA CANAL.\nCHARTS RUS 13331, 18331.\nVIRTUAL BUOYS AIS PUT INTO OPERATION:\n1. NR 1 STARBOARD HAND BUOY 72-33-19.25N 073-47-14.85E.\n2. NR 2 PORT HAND BUOY 72-33-20.74N 073-48-01.17E.\n3. NR 3 STARBOARD HAND BUOY 72-З1-35.61N 073- 47-51.84E.\n4. NR 4 PORT HAND BUOY 72-З137.09N 073-48-38.09E.\n5. NR 5 STARBOARD HAND BUOY 72-29-51.96N 073-48-28.72E.\n6. NR 6 PORT HAND BUOY 72-29-53.44N 073-49-14.89E.\n7. NR 7 STARBOARD HAND BUOY 72-28-08.31N 073-49-05.47E.\n8. NR 8 PORT HAND BUOY 72-28-09.79N 073-49-51.58E.\n9. NR 9 STARBOARD HAND BUOY 72-26-24.51N 073-49-36.89E.\n10. NR 10 PORT HAND BUOY 72-26-26.32N 073-50-33.34E.\n11. NR 11 STARBOARD HAND BUOY 72-25-25.68N 073-49-19.64E.\n12. NR 12 PORT HAND BUOY 72-25-20.90N 073-50-14.10E.\n13. NR 13 STARBOARD HAND BUOY 72-24-33.21С 073-47-49.92E.\n14. NR 14 PORT HAND BUOY 72-24-22.55N 073-48-34.28E.\n15. NR 15 STARBOARD HAND BUOY 72-22-53.49С 073-43-41.77E.\n16. NR 16 PORT HAND BUOY 72-22-44.81N 073-44-17.92E.\nWGS-84 DATUM.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Virtual Buoys Activated"
+        "category": "navigation",
+        "title": "AIS Virtual Buoys"
       }
     },
     {
@@ -4244,15 +4570,15 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 233/25 КАРТЫ 13331 18331\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 233/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "multipoint",
         "radius_nm": null,
-        "body": "АКВАТОРИЯ ПОРТА САБЕТТА\nМОРСКОЙ КАНАЛ\nВИРТУАЛЬНЫЕ БУИ АИС ВВЕДЕНЫ ДЕЙСТВИЕ\n1. БУЙ НР 17 ПРАВОЙ СТОРОНЫ 72-21-15.64С 073-39-26.19В\n2. БУЙ НР 18 ЛЕВОЙ СТОРОНЫ 72-21-06.97С 073-40-02.32В\n3. БУЙ НР 19 ПРАВОЙ СТОРОНЫ 72-19-37.70С 073-35-11.37В\n4. БУЙ НР 20 ЛЕВОЙ СТОРОНЫ 72-19-29.04С 073-35-47.48В\n5. БУЙ НР 21 ПРАВОЙ СТОРОНЫ 72-17-59.67С 073-30-57.31В\n6. БУЙ НР 22 ЛЕВОЙ СТОРОНЫ 72-17-51.03С 073-31 -33.40В\n7. БУЙ НР 23 ПРАВОЙ СТОРОНЫ 72-16-21.55С 073-26-44.00В\n8. БУЙ НР 24 ЛЕВОЙ СТОРОНЫ 72-16-12.92С 073-27-20.08В\n9. БУЙ НР 25 ПРАВОЙ СТОРОНЫ 72-14-43.34С 073-22-31.45В\n10. БУЙ НР 26 ЛЕВОЙ СТОРОНЫ 72-14-34.72С 073-23-07.50В\n11. БУЙ НР 27 ПРАВОЙ СТОРОНЫ 72-13-05.04С 073-18-19.65В\n12. БУЙ НР 28 ЛЕВОЙ СТОРОНЫ 72-12-56.44С 073-18-55.68В\n13. БУЙ НР 29 ПРАВОЙ СТОРОНЫ 72-11-26.65С 073-14-08.59В\n14. БУЙ НР 30 ЛЕВОЙ СТОРОНЫ 72-11-18.06С 073-14-44.60В\n15. БУЙ НР 31 ПРАВОЙ СТОРОНЫ 72-09-48.24С 073-09-58.44В\n16. БУЙ НР 32 ЛЕВОЙ СТОРОНЫ 72-09-39.60С 073-10-34.27В\nСИСТЕМА КООРДИНАТ WGS-84=\n\nCOASTAL WARNING WEST 233/25\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nSEA CANAL.\nCHARTS RUS 13331, 18331.\nVIRTUAL BUOYS AIS PUT INTO OPERATION:\n1. NR 17 STARBOARD HAND BUOY 72-21-15.64N 073-39-26.19E.\n2. NR 18 PORT HAND BUOY 72-21-06.97N 073-40-02.32E.\n3. NR 19 STARBOARD HAND BUOY 72-19-37.70N 073-35-11.37E.\n4. NR 20 PORT HAND BUOY 72-19-29.04N 073-35-47.48E.\n5. NR 21 STARBOARD HAND BUOY 72-17-59.67N 073-30-57.31E.\n6. NR 22 PORT HAND BUOY 72-17-51.03N 073-31 -33.40E.\n7. NR 23 STARBOARD HAND BUOY 72-16-21.55N 073-26-44.00E.\n8. NR 24 PORT HAND BUOY 72-16-12.92N 073-27-20.08E.\n9. NR 25 STARBOARD HAND BUOY 72-14-43.34N 073-22-31.45E.\n10. NR 26 PORT HAND BUOY 72-14-34.72С 073-23-07.50E.\n11. NR 27 STARBOARD HAND BUOY 72-13-05.04N 073-18-19.65E.\n12. NR 28 PORT HAND BUOY 72-12-56.44N 073-18-55.68E.\n13. NR 29 STARBOARD HAND BUOY 72-11-26.65N 073-14-08.59E.\n14. NR 30 PORT HAND BUOY 72-11-18.06N 073-14-44.60E.\n15. NR 31 STARBOARD HAND BUOY 72-09-48.24N 073-09-58.44E.\n16. NR 32 PORT HAND BUOY 72-09-39.60N 073-10-34.27E.\nWGS-84 DATUM.=\nNNNN",
+        "body": "АКВАТОРИЯ ПОРТА САБЕТТА\nМОРСКОЙ КАНАЛ\nВИРТУАЛЬНЫЕ БУИ АИС ВВЕДЕНЫ ДЕЙСТВИЕ\n1. БУЙ НР 17 ПРАВОЙ СТОРОНЫ 72-21-15.64С 073-39-26.19В\n2. БУЙ НР 18 ЛЕВОЙ СТОРОНЫ 72-21-06.97С 073-40-02.32В\n3. БУЙ НР 19 ПРАВОЙ СТОРОНЫ 72-19-37.70С 073-35-11.37В\n4. БУЙ НР 20 ЛЕВОЙ СТОРОНЫ 72-19-29.04С 073-35-47.48В\n5. БУЙ НР 21 ПРАВОЙ СТОРОНЫ 72-17-59.67С 073-30-57.31В\n6. БУЙ НР 22 ЛЕВОЙ СТОРОНЫ 72-17-51.03С 073-31 -33.40В\n7. БУЙ НР 23 ПРАВОЙ СТОРОНЫ 72-16-21.55С 073-26-44.00В\n8. БУЙ НР 24 ЛЕВОЙ СТОРОНЫ 72-16-12.92С 073-27-20.08В\n9. БУЙ НР 25 ПРАВОЙ СТОРОНЫ 72-14-43.34С 073-22-31.45В\n10. БУЙ НР 26 ЛЕВОЙ СТОРОНЫ 72-14-34.72С 073-23-07.50В\n11. БУЙ НР 27 ПРАВОЙ СТОРОНЫ 72-13-05.04С 073-18-19.65В\n12. БУЙ НР 28 ЛЕВОЙ СТОРОНЫ 72-12-56.44С 073-18-55.68В\n13. БУЙ НР 29 ПРАВОЙ СТОРОНЫ 72-11-26.65С 073-14-08.59В\n14. БУЙ НР 30 ЛЕВОЙ СТОРОНЫ 72-11-18.06С 073-14-44.60В\n15. БУЙ НР 31 ПРАВОЙ СТОРОНЫ 72-09-48.24С 073-09-58.44В\n16. БУЙ НР 32 ЛЕВОЙ СТОРОНЫ 72-09-39.60С 073-10-34.27В\nСИСТЕМА КООРДИНАТ WGS-84=\nCOASTAL WARNING WEST 233/25\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nSEA CANAL.\nCHARTS RUS 13331, 18331.\nVIRTUAL BUOYS AIS PUT INTO OPERATION:\n1. NR 17 STARBOARD HAND BUOY 72-21-15.64N 073-39-26.19E.\n2. NR 18 PORT HAND BUOY 72-21-06.97N 073-40-02.32E.\n3. NR 19 STARBOARD HAND BUOY 72-19-37.70N 073-35-11.37E.\n4. NR 20 PORT HAND BUOY 72-19-29.04N 073-35-47.48E.\n5. NR 21 STARBOARD HAND BUOY 72-17-59.67N 073-30-57.31E.\n6. NR 22 PORT HAND BUOY 72-17-51.03N 073-31 -33.40E.\n7. NR 23 STARBOARD HAND BUOY 72-16-21.55N 073-26-44.00E.\n8. NR 24 PORT HAND BUOY 72-16-12.92N 073-27-20.08E.\n9. NR 25 STARBOARD HAND BUOY 72-14-43.34N 073-22-31.45E.\n10. NR 26 PORT HAND BUOY 72-14-34.72С 073-23-07.50E.\n11. NR 27 STARBOARD HAND BUOY 72-13-05.04N 073-18-19.65E.\n12. NR 28 PORT HAND BUOY 72-12-56.44N 073-18-55.68E.\n13. NR 29 STARBOARD HAND BUOY 72-11-26.65N 073-14-08.59E.\n14. NR 30 PORT HAND BUOY 72-11-18.06N 073-14-44.60E.\n15. NR 31 STARBOARD HAND BUOY 72-09-48.24N 073-09-58.44E.\n16. NR 32 PORT HAND BUOY 72-09-39.60N 073-10-34.27E.\nWGS-84 DATUM.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Virtual Buoys Activated"
+        "category": "navigation",
+        "title": "Virtual AIS Buoys"
       }
     },
     {
@@ -4294,7 +4620,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 44/26 КАРТА 12000\r\n\r\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
         "msg_id": "PRIP MURMANSK 44/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 222000 UTC FEB 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -4318,7 +4646,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 31/21 КАРТА 13348 КАРСКОЕ МОРЕ ЕНИСЕЙСКИЙ ЗАЛИВ",
         "msg_id": "PRIP WEST 31/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -4343,15 +4671,15 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 23/25 КАРТА 15383\r\nКАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 23/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "ПОЛУЗАТОПЛЕННОЕ СУДНО С ВЫСТУПАЮЩИМИ\nЧАСТЯМИ НАД ВОДОЙ В 71-44.31С 083-25.57В=\n\nKARA SEA.\nREKA YENISEY.\nCHART RUS 15383.\nSEMI-SUBMERGED VESSEL WITH PROTRUDING\nPARTS ABOVE THE WATER IN 71-44.31N 083-25.57E.=\nNNNN",
+        "body": "ПОЛУЗАТОПЛЕННОЕ СУДНО С ВЫСТУПАЮЩИМИ\nЧАСТЯМИ НАД ВОДОЙ В 71-44.31С 083-25.57В=\nKARA SEA.\nREKA YENISEY.\nCHART RUS 15383.\nSEMI-SUBMERGED VESSEL WITH PROTRUDING\nPARTS ABOVE THE WATER IN 71-44.31N 083-25.57E.=\nNNNN",
         "summary": null,
-        "category": "accident",
-        "title": "Semi-submerged Vessel"
+        "category": "navigation",
+        "title": "Semi-submerged Vessel Hazard"
       }
     },
     {
@@ -4462,15 +4790,15 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 58/25 КАРТЫ 13352 13353 15385 15387 18387\r\nКАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ",
         "msg_id": "PRIP WEST 58/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "linestring",
         "radius_nm": null,
-        "body": "1. ПРОМЕРОМ 2024 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\nА. 16.6 МЕТРА 71-20-11.29С 083-00-53.35В\nБ. 11.2 МЕТРА 70-48-58.68С 083-28-08.41В\nВ. 10.9 МЕТРА 70-40-46.51С 083-29-34.61В\nГ. 9.7 МЕТРА 70-40-32.91С 083-29-24.43В\nД. 9.2 МЕТРА 70-40-25.46С 083-29-24.05В\nЕ. 10.2 МЕТРА 70-40-20.38С 083-29-08.78В\nЖ. 10.5 МЕТРА 70-40-08.58С 083-28-54.11В\nЗ. 9.4 МЕТРА 70-39-01.55С 083-28-44.54В\nИ. 9.8 МЕТРА 70-35-43.01С 083-28-09.57В\nК. 9.3 МЕТРА 70-35-35.88С 083-28-00.75В\nЛ. 10.1 МЕТРА 70-35-27.82С 083-27-52.01В\nМ. 10.1 МЕТРА 70-35-21.95С 083-27-43.40В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\nCOASTAL WARNING WEST 58/25\nKARA SEA.\nREKA YENISEY.\nCHARTS RUS 13352, 13353, 15385, 15387, 18387.\n1. SOUNDING 2024 FOUND LEAST DEPTHS:\nA. 16.6 METRES 71-20-11.29N 083-00-53.35E.\nB. 11.2 METRES 70-48-58.68N 083-28-08.41E.\nC. 10.9 METRES 70-40-46.51N 083-29-34.61E.\nD. 9.7 METRES 70-40-32.91N 083-29-24.43E.\nE. 9.2 METRES 70-40-25.46N 083-29-24.05E.\nF. 10.2 METRES 70-40-20.38N 083-29-08.78E.\nG. 10.5 METRES 70-40-08.58N 083-28-54.11E.\nH. 9.4 METRES 70-39-01.55N 083-28-44.54E.\nI. 9.8 METRES 70-35-43.01N 083-28-09.57E.\nJ. 9.3 METRES 70-35-35.88N 083-28-00.75E.\nK. 10.1 METRES 70-35-27.82N 083-27-52.01E.\nL. 10.1 METRES 70-35-21.95N 083-27-43.40E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "body": "1. ПРОМЕРОМ 2024 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\nА. 16.6 МЕТРА 71-20-11.29С 083-00-53.35В\nБ. 11.2 МЕТРА 70-48-58.68С 083-28-08.41В\nВ. 10.9 МЕТРА 70-40-46.51С 083-29-34.61В\nГ. 9.7 МЕТРА 70-40-32.91С 083-29-24.43В\nД. 9.2 МЕТРА 70-40-25.46С 083-29-24.05В\nЕ. 10.2 МЕТРА 70-40-20.38С 083-29-08.78В\nЖ. 10.5 МЕТРА 70-40-08.58С 083-28-54.11В\nЗ. 9.4 МЕТРА 70-39-01.55С 083-28-44.54В\nИ. 9.8 МЕТРА 70-35-43.01С 083-28-09.57В\nК. 9.3 МЕТРА 70-35-35.88С 083-28-00.75В\nЛ. 10.1 МЕТРА 70-35-27.82С 083-27-52.01В\nМ. 10.1 МЕТРА 70-35-21.95С 083-27-43.40В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\nCOASTAL WARNING WEST 58/25\nKARA SEA.\nREKA YENISEY.\nCHARTS RUS 13352, 13353, 15385, 15387, 18387.\n1. SOUNDING 2024 FOUND LEAST DEPTHS:\nA. 16.6 METRES 71-20-11.29N 083-00-53.35E.\nB. 11.2 METRES 70-48-58.68N 083-28-08.41E.\nC. 10.9 METRES 70-40-46.51N 083-29-34.61E.\nD. 9.7 METRES 70-40-32.91N 083-29-24.43E.\nE. 9.2 METRES 70-40-25.46N 083-29-24.05E.\nF. 10.2 METRES 70-40-20.38N 083-29-08.78E.\nG. 10.5 METRES 70-40-08.58N 083-28-54.11E.\nH. 9.4 METRES 70-39-01.55N 083-28-44.54E.\nI. 9.8 METRES 70-35-43.01N 083-28-09.57E.\nJ. 9.3 METRES 70-35-35.88N 083-28-00.75E.\nK. 10.1 METRES 70-35-27.82N 083-27-52.01E.\nL. 10.1 METRES 70-35-21.95N 083-27-43.40E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Least Depths Reported"
+        "category": "navigation",
+        "title": "Least Depths Sounding"
       }
     },
     {
@@ -4488,7 +4816,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 66/26 КАРТА 12000\r\n\r\nВОСТОЧНЕЕ ОСТРОВА КИЛЬДИН",
         "msg_id": "PRIP MURMANSK 66/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 010000 UTC APR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
@@ -4512,7 +4842,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 38/25 КАРТА 15005 КНИГА 2103\r\nКОЛЬСКИЙ ЗАЛИВ ГУБА КИСЛАЯ",
         "msg_id": "PRIP MURMANSK 38/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -4531,10 +4861,6 @@
         "coordinates": [
           [
             [
-              80.4015,
-              73.1555
-            ],
-            [
               80.39666666666666,
               73.15916666666666
             ],
@@ -4553,18 +4879,6 @@
             [
               80.39666666666666,
               73.15916666666666
-            ],
-            [
-              80.40333333333334,
-              73.16
-            ],
-            [
-              80.40833333333333,
-              73.15633333333334
-            ],
-            [
-              80.4015,
-              73.1555
             ]
           ]
         ]
@@ -4573,7 +4887,7 @@
         "dtg": "2025-12-12T01:30:15.462020",
         "raw_dtg": "ПРИП ЗАПАД 253/25 КАРТА 15379 КАРСКОЕ МОРЕ ЕНИСЕЙСКИЙ ЗАЛИВ",
         "msg_id": "PRIP WEST 253/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [
           "252/25"
         ],
@@ -4647,7 +4961,7 @@
         "dtg": "2026-01-22T01:30:43.778978",
         "raw_dtg": "ПРИП МУРМАНСК 4/26 КАРТА 15000 КНИГА 2103 БАРЕНЦЕВО МОРЕ ГУБА ПЕЧЕНГА",
         "msg_id": "PRIP MURMANSK 4/26",
-        "year": "2026",
+        "year": 2026,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -4808,15 +5122,15 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 63/25 КАРТЫ 15389 18389\r\nКАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ \r\nСТВОР ОСТРОВА БОЛЬШОЙ",
         "msg_id": "PRIP WEST 63/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "multipoint",
         "radius_nm": null,
-        "body": "1. ПРОМЕРОМ 2024 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\nА. 9.3 МЕТРА В 69-53-25.28С 083-32-52.83В\nБ. 10.6 МЕТРА В 69-53-16.67С 083-33-41.11В\nВ. 8.8 МЕТРА В 69-53-09.67С 083-33-57.12В\nГ. 9.1 МЕТРА В 69-53-04.99С 083-34-18.79В\nД. 8.8 МЕТРА В 69-53-02.44С 083-34-34.88В\nЕ. 9.4 МЕТРА В 69-52-57.21С 083-34-57.22В\nЖ. 5.7 МЕТРА В 69-52-51.92С 083-34-54.24В\nЗ. 8.6 МЕТРА В 69-52-48.18С 083-35-30.75В\nИ. 8.9 МЕТРА В 69-52-44.22С 083-35-44.17В\nК. 8.4 МЕТРА В 69-52-39.21С 083-35-57.57В\nЛ. 9.6 МЕТРА В 69-52-32.65С 083-36-14.40В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\nCOASTAL WARNING WEST 63/25\nKARA SEA.\nREKA YENISEY.\nLEADING LIGHT OSTROV BOL’SHOY.\nCHARTS RUS 15389, 18389.\n1. SOUNDING 2024 FOUND LEAST DEPTHS:\nA. 9.3 METRES 69-53-25.28N 083-32-52.83E.\nB. 10.6 METRES 69-53-16.67N 083-33-41.11E.\nC. 8.8 METRES 69-53-09.67N 083-33-57.12E.\nD. 9.1 METRES 69-53-04.99N 083-34-18.79E.\nE. 8.8 METRES 69-53-02.44N 083-34-34.88E.\nF. 9.4 METRES 69-52-57.21N 083-34-57.22E.\nG. 5.7 METRES 69-52-51.92N 083-34-54.24E.\nH. 8.6 METRES 69-52-48.18N 083-35-30.75E.\nI. 8.9 METRES 69-52-44.22N 083-35-44.17E.\nK. 8.4 METRES 69-52-39.21N 083-35-57.57E.\nL. 9.6 METRES 69-52-32.65N 083-36-14.40E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "body": "1. ПРОМЕРОМ 2024 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\nА. 9.3 МЕТРА В 69-53-25.28С 083-32-52.83В\nБ. 10.6 МЕТРА В 69-53-16.67С 083-33-41.11В\nВ. 8.8 МЕТРА В 69-53-09.67С 083-33-57.12В\nГ. 9.1 МЕТРА В 69-53-04.99С 083-34-18.79В\nД. 8.8 МЕТРА В 69-53-02.44С 083-34-34.88В\nЕ. 9.4 МЕТРА В 69-52-57.21С 083-34-57.22В\nЖ. 5.7 МЕТРА В 69-52-51.92С 083-34-54.24В\nЗ. 8.6 МЕТРА В 69-52-48.18С 083-35-30.75В\nИ. 8.9 МЕТРА В 69-52-44.22С 083-35-44.17В\nК. 8.4 МЕТРА В 69-52-39.21С 083-35-57.57В\nЛ. 9.6 МЕТРА В 69-52-32.65С 083-36-14.40В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\nCOASTAL WARNING WEST 63/25\nKARA SEA.\nREKA YENISEY.\nLEADING LIGHT OSTROV BOL’SHOY.\nCHARTS RUS 15389, 18389.\n1. SOUNDING 2024 FOUND LEAST DEPTHS:\nA. 9.3 METRES 69-53-25.28N 083-32-52.83E.\nB. 10.6 METRES 69-53-16.67N 083-33-41.11E.\nC. 8.8 METRES 69-53-09.67N 083-33-57.12E.\nD. 9.1 METRES 69-53-04.99N 083-34-18.79E.\nE. 8.8 METRES 69-53-02.44N 083-34-34.88E.\nF. 9.4 METRES 69-52-57.21N 083-34-57.22E.\nG. 5.7 METRES 69-52-51.92N 083-34-54.24E.\nH. 8.6 METRES 69-52-48.18N 083-35-30.75E.\nI. 8.9 METRES 69-52-44.22N 083-35-44.17E.\nK. 8.4 METRES 69-52-39.21N 083-35-57.57E.\nL. 9.6 METRES 69-52-32.65N 083-36-14.40E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Least Depths Found"
+        "category": "navigation",
+        "title": "Least Depths Charted"
       }
     },
     {
@@ -4854,7 +5168,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 52/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 52/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 251800 UTC FEB 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -4868,20 +5184,26 @@
       "type": "Feature",
       "id": "PRIP MURMANSK 126/25",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          33.033055555555556,
-          69.03291666666667
+          [
+            33.033055555555556,
+            69.03291666666667
+          ],
+          [
+            33.03930555555555,
+            69.03833333333333
+          ]
         ]
       },
       "properties": {
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 126/25 КАРТА 17009\r\nКОЛЬСКИЙ ЗАЛИВ ПОРТ МУРМАНСК",
         "msg_id": "PRIP MURMANSK 126/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
-        "geometry_kind": "point",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "СВЕТЯЩИЕ НАВИГАЦИОННЫЕ ЗНАКИ ТЕРМИНАЛА «ЛАВНА»\nВ ВИДЕ МЕТАЛЛИЧЕСКИХ КОЛОНН КРАСНОГО ЦВЕТА\nВЫСОТА СООРУЖЕНИЙ ОТ ОСНОВАНИЯ 5 МЕТРОВ\nВЫСОТА ОГНЕЙ 11.1 МЕТРА ХАРАКТЕРИСТИКА ОГНЕЙ\nЗЛ ИЗО 3С 3М ОБОРУДОВАНЫ ПРЛО УСТАНОВЛЕНЫ В\n1. ЮЖНЫЙ 69-01-58.5С 033-01-59.0В\n2. СЕВЕРНЫЙ 69-02-18.0С 033-02-21.5В=\n231000 МСК  ГС-",
         "summary": null,
@@ -4903,7 +5225,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 77/23 КАРТА 13331\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 77/23",
-        "year": "2023",
+        "year": 2023,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -4971,7 +5293,7 @@
         "dtg": "2025-11-07T01:29:59.506717",
         "raw_dtg": "ПРИП МУРМАНСК 350/25 КАРТА 18013 ПРОЛИВ МАЛЫЙ ОЛЕНИЙ",
         "msg_id": "PRIP MURMANSK 350/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -5016,7 +5338,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 404/22 КАРТА 15009 БАРЕНЦЕВО МОРЕ ПРОЛИВ ОСТРОВОВ ТИПУНКОВЫХ",
         "msg_id": "PRIP MURMANSK 404/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -5041,14 +5363,14 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 110/25 КАРТЫ 13347 15379 КАРСКОЕ МОРЕ\r\nKARA SEA. CHARTS RUS 13347, 15379.",
         "msg_id": "PRIP WEST 110/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "ЕНИСЕЙСКИЙ ЗАЛИВ\nОБНАРУЖЕНА НАИМЕНЬШАЯ ГЛУБИНА\n5.73 МЕТРА 73-02-43.39С 080-34-18.65В\nСИСТЕМА КООРДИНАТ WGS-84=\n\nYENISEYSKIY ZALIV.\nCHARTS RUS 13347, 15379.\nFOUND LEAST DEPTHS\n5.73 METRES 73-02-43.39N 080-34-18.65E.\nWGS 84 DATUM.=\nNNNN",
+        "body": "ЕНИСЕЙСКИЙ ЗАЛИВ\nОБНАРУЖЕНА НАИМЕНЬШАЯ ГЛУБИНА\n5.73 МЕТРА 73-02-43.39С 080-34-18.65В\nСИСТЕМА КООРДИНАТ WGS-84=\nYENISEYSKIY ZALIV.\nCHARTS RUS 13347, 15379.\nFOUND LEAST DEPTHS\n5.73 METRES 73-02-43.39N 080-34-18.65E.\nWGS 84 DATUM.=\nNNNN",
         "summary": null,
-        "category": "other",
+        "category": "navigation",
         "title": "Least Depth Found"
       }
     },
@@ -5066,7 +5388,7 @@
         "dtg": "2025-11-15T01:29:53.705942",
         "raw_dtg": "ПРИП МУРМАНСК 364/25 КАРТА 17055 КНИГА 2103\r\nКОЛЬСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 364/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -5091,7 +5413,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 96/24 КАРТА 15053\r\nМОТОВСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 96/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
@@ -5141,7 +5463,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 39/22 КАРТА 18013\r\nГУБА ТЕРИБЕРСКАЯ",
         "msg_id": "PRIP MURMANSK 39/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [
           "160/21"
         ],
@@ -5168,48 +5490,42 @@
         "dtg": "2025-12-13T01:30:00.436563",
         "raw_dtg": "ПРИП ЗАПАД 255/25 КАРТЫ 13331 13332 15348\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА ТЕРМИНАЛ УТРЕННИЙ",
         "msg_id": "PRIP WEST 255/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "ПРОМЕРОМ 2022 ГОДА ОБНАРУЖЕНА\nНАИМЕНЬШАЯ ГЛУБИНА 3.9 МЕТРА В\n71-00-24.33С 073-46-54.82В\nСИСТЕМА КООРДИНАТ WGS-84=\n\nCOASTAL WARNING WEST 255/25\nKARA SEA.\nOBSKAYA GUBA.\nTERMINAL UTRENNIY.\nCHARTS RUS 13331, 13332, 15348.\nSOUNDING 2022 FOUND LEAST DEPTH\n3.9 METRES IN 71-00-24.33N 073-46-54.82E.\nWGS 84 DATUM.=\nNNNN",
+        "body": "ПРОМЕРОМ 2022 ГОДА ОБНАРУЖЕНА\nНАИМЕНЬШАЯ ГЛУБИНА 3.9 МЕТРА В\n71-00-24.33С 073-46-54.82В\nСИСТЕМА КООРДИНАТ WGS-84=\nCOASTAL WARNING WEST 255/25\nKARA SEA.\nOBSKAYA GUBA.\nTERMINAL UTRENNIY.\nCHARTS RUS 13331, 13332, 15348.\nSOUNDING 2022 FOUND LEAST DEPTH\n3.9 METRES IN 71-00-24.33N 073-46-54.82E.\nWGS 84 DATUM.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Shallow Depth Reported"
+        "category": "navigation",
+        "title": "Least Depth Found"
       }
     },
     {
       "type": "Feature",
       "id": "PRIP MURMANSK 169/23",
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiPoint",
         "coordinates": [
           [
-            [
-              33.01315833333334,
-              68.94560833333334
-            ],
-            [
-              33.01355,
-              68.94536944444445
-            ],
-            [
-              33.01260555555555,
-              68.9451638888889
-            ],
-            [
-              33.012211111111114,
-              68.94540277777779
-            ],
-            [
-              33.01475277777778,
-              68.94555555555556
-            ],
-            [
-              33.01315833333334,
-              68.94560833333334
-            ]
+            33.01315833333334,
+            68.94560833333334
+          ],
+          [
+            33.01355,
+            68.94536944444445
+          ],
+          [
+            33.01260555555555,
+            68.9451638888889
+          ],
+          [
+            33.012211111111114,
+            68.94540277777779
+          ],
+          [
+            33.01475277777778,
+            68.94555555555556
           ]
         ]
       },
@@ -5217,12 +5533,12 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 169/23 КАРТА 17007\r\nКОЛЬСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 169/23",
-        "year": "2023",
+        "year": 2023,
         "cancellations": [
           "131/20"
         ],
         "hazard_type": "general",
-        "geometry_kind": "polygon",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
         "body": "ПРИП МУРМАНСК 169 КАРТА 17007\nКОЛЬСКИЙ ЗАЛИВ\n1. САДКОВЫЙ КОМПЛЕКС ВЫСТАВЛЕН РАЙОНЕ\n68-56-44.19С 033-00-47.37В\n68-56-43.33С 033-00-48.78В\n68-56-42.59С 033-00-45.38В\n68-56-43.45С 033-00-43.96В\nОБОЗНАЧЕН БУЕМ И ОГНЯМИ\n2. БУЙ КАРДИНАЛЬНЫЙ ВОСТОЧНЫЙ ВЫСТАВЛЕН В\n68-56-44.00С 033-00-53.11В\n3. ОТМ 131/20 И ЭТОТ ПУНКТ=\n271200 МСК  ГС-",
         "summary": null,
@@ -5244,7 +5560,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 277/21 КАРТА 17054\r\nКОЛЬСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 277/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [
           "232/21"
         ],
@@ -5291,7 +5607,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 57/21 КАРТА 17052\r\nКОЛЬСКИЙ ЗАЛИВ ГУБА ТЮВА",
         "msg_id": "PRIP MURMANSK 57/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -5364,7 +5680,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 90/26 КАРТА 15005\r\n\r\nСЕВЕРНАЯ ЧАСТЬ КОЛЬСКОГО ЗАЛИВА",
         "msg_id": "PRIP MURMANSK 90/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 131400 UTC MAR 26"
+        ],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
@@ -5434,7 +5752,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 16/22 КАРТА 15064\r\nБАРЕНЦЕВО МОРЕ",
         "msg_id": "PRIP MURMANSK 16/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [
           "113/21"
         ],
@@ -5508,7 +5826,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 89/26 КАРТА 12000\r\n\r\nЗАПАДНЕЕ И СЕВЕРНЕЕ ОСТРОВА КИЛЬДИН",
         "msg_id": "PRIP MURMANSK 89/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 191800 UTC MAR 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "linestring",
         "radius_nm": null,
@@ -5532,14 +5852,14 @@
         "dtg": "2025-11-26T01:29:55.164267",
         "raw_dtg": "ПРИП ЗАПАД 241/25 КАРТЫ 15389 18389 КАРСКОЕ МОРЕ РЕКА ЕНИСЕЙ\r\nKARA SEA.REKA YENISEY. CHARTS RUS 15389, 18389",
         "msg_id": "PRIP WEST 241/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНА НАИМЕНЬШАЯ ГЛУБИНА\nА. 9.3 МЕТРА В 69-55-06.84С 083-27-58.00В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\n1. SOUNDING 2025 FOUND LEAST DEPTH:\nA. 9.3 METRES 69-55-06.84N 083-27-58.00E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "body": "1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНА НАИМЕНЬШАЯ ГЛУБИНА\nА. 9.3 МЕТРА В 69-55-06.84С 083-27-58.00В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n1. SOUNDING 2025 FOUND LEAST DEPTH:\nA. 9.3 METRES 69-55-06.84N 083-27-58.00E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
         "summary": null,
-        "category": "other",
+        "category": "navigation",
         "title": "Least Depth Found"
       }
     },
@@ -5610,7 +5930,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 53/26 КАРТА 15005 СЕВЕРНАЯ ЧАСТЬ КОЛЬСКОГО ЗАЛИВА",
         "msg_id": "PRIP MURMANSK 53/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 271400 UTC FEB 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -5659,7 +5981,9 @@
         "raw_dtg": "ПРИП МУРМАНСК 61/26 КАРТА 12000\r\n\r\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
         "msg_id": "PRIP MURMANSK 61/26",
         "year": 2026,
-        "cancellations": [],
+        "cancellations": [
+          "THIS MSG 011800 UTC MAR 26"
+        ],
         "hazard_type": "hazardous operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
@@ -5698,28 +6022,46 @@
       "type": "Feature",
       "id": "PRIP MURMANSK 323/21",
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
-              31.97,
-              69.82666666666667
-            ],
+              [
+                31.975,
+                69.82333333333334
+              ],
+              [
+                31.97416666666667,
+                69.825
+              ],
+              [
+                31.97833333333333,
+                69.82333333333334
+              ],
+              [
+                31.975,
+                69.82333333333334
+              ]
+            ]
+          ],
+          [
             [
-              31.973333333333333,
-              69.82666666666667
-            ],
-            [
-              31.975,
-              69.82333333333334
-            ],
-            [
-              31.97833333333333,
-              69.82333333333334
-            ],
-            [
-              31.97,
-              69.82666666666667
+              [
+                31.97416666666667,
+                69.825
+              ],
+              [
+                31.97,
+                69.82666666666667
+              ],
+              [
+                31.973333333333333,
+                69.82666666666667
+              ],
+              [
+                31.97416666666667,
+                69.825
+              ]
             ]
           ]
         ]
@@ -5728,7 +6070,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 323/21 КАРТА 15001\r\nЗАЛИВ ВАРАНГЕР-ФЬОРД\r\nГУБА БОЛЬШАЯ ВОЛОКОВАЯ",
         "msg_id": "PRIP MURMANSK 323/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -5737,167 +6079,6 @@
         "summary": null,
         "category": "other",
         "title": "Net Farm Established"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XX 182/25",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                56.67131153457487,
-                72.64513497906742
-              ],
-              [
-                55.56666666666667,
-                72.21666666666667
-              ],
-              [
-                55.95,
-                72.66666666666667
-              ],
-              [
-                56.67131153457487,
-                72.64513497906742
-              ]
-            ]
-          ],
-          [
-            [
-              [
-                56.67131153457487,
-                72.64513497906742
-              ],
-              [
-                57.63435191664722,
-                73.01867791514397
-              ],
-              [
-                56.88333333333333,
-                72.2
-              ],
-              [
-                57.06666666666667,
-                72.63333333333334
-              ],
-              [
-                56.67131153457487,
-                72.64513497906742
-              ]
-            ]
-          ],
-          [
-            [
-              [
-                58.25528804131903,
-                73.69555423122765
-              ],
-              [
-                58.86666666666667,
-                73.61666666666666
-              ],
-              [
-                58.31666666666667,
-                73.28333333333333
-              ],
-              [
-                57.63435191664722,
-                73.01867791514397
-              ],
-              [
-                58.25528804131903,
-                73.69555423122765
-              ]
-            ]
-          ],
-          [
-            [
-              [
-                58.2537356321839,
-                73.69575454208379
-              ],
-              [
-                57.18333333333333,
-                73.43333333333334
-              ],
-              [
-                57.833333333333336,
-                73.75
-              ],
-              [
-                58.2537356321839,
-                73.69575454208379
-              ]
-            ]
-          ],
-          [
-            [
-              [
-                58.25597555662562,
-                73.69630368485015
-              ],
-              [
-                58.25528804131903,
-                73.69555423122765
-              ],
-              [
-                58.2537356321839,
-                73.69575454208379
-              ],
-              [
-                58.25597555662562,
-                73.69630368485015
-              ]
-            ]
-          ],
-          [
-            [
-              [
-                58.25597555662562,
-                73.69630368485015
-              ],
-              [
-                58.733333333333334,
-                74.21666666666667
-              ],
-              [
-                59.733333333333334,
-                74.56666666666666
-              ],
-              [
-                60.61666666666667,
-                74.43333333333334
-              ],
-              [
-                59.766666666666666,
-                74.06666666666666
-              ],
-              [
-                58.25597555662562,
-                73.69630368485015
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": null,
-        "raw_dtg": "NAVAREA XX 182/25KARA SEA.CHART RUS 11126.1. SPECIAL ACTIVITIES 01 JAN TO 30 JUNNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 74-13.0N 058-44.0E THEN COASTAL LINE TO74-34.0N 059-44.0E, 74-26.0N 060-37.0E, 74-04.0N 059-46.0E.B. 73-26.0N 057-11.0E THEN COASTAL LINE TO73-45.0N 057-50.0E, 73-37.0N 058-52.0E, 73-17.0N 058-19.0E.C. 72-13.0N 055-34.0E THEN COASTAL LINE TO72-40.0N 055-57.0E, 72-38.0N 057-04.0E, 72-12.0N 056-53.0E.2. CANCEL THIS MSG 01 JUL 26.=NNNN",
-        "msg_id": "NAVAREA XX 182/25",
-        "year": 2025,
-        "cancellations": [
-          "THIS MSG 01 JUL 26"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "NAVAREA XX 182/25KARA SEA.CHART RUS 11126.1. SPECIAL ACTIVITIES 01 JAN TO 30 JUNNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 74-13.0N 058-44.0E THEN COASTAL LINE TO74-34.0N 059-44.0E, 74-26.0N 060-37.0E, 74-04.0N 059-46.0E.B. 73-26.0N 057-11.0E THEN COASTAL LINE TO73-45.0N 057-50.0E, 73-37.0N 058-52.0E, 73-17.0N 058-19.0E.C. 72-13.0N 055-34.0E THEN COASTAL LINE TO72-40.0N 055-57.0E, 72-38.0N 057-04.0E, 72-12.0N 056-53.0E.2. CANCEL THIS MSG 01 JUL 26.=NNNN",
-        "summary": null,
-        "category": "military",
-        "title": "Kara Sea Activity"
       }
     },
     {
@@ -5934,7 +6115,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 58/21 КАРТА 18013\r\nПОДХОДЫ К ПРОЛИВУ МАЛЫЙ ОЛЕНИЙ ГУБА ЗЕЛЁНАЯ",
         "msg_id": "PRIP MURMANSK 58/21",
-        "year": "2021",
+        "year": 2021,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -5976,10 +6157,6 @@
         "coordinates": [
           [
             [
-              72.33413333333333,
-              71.17866666666667
-            ],
-            [
               72.4767,
               71.19925
             ],
@@ -5998,18 +6175,6 @@
             [
               72.4767,
               71.19925
-            ],
-            [
-              73.03808333333333,
-              71.20018333333333
-            ],
-            [
-              73.58373333333333,
-              71.20103333333333
-            ],
-            [
-              72.33413333333333,
-              71.17866666666667
             ]
           ]
         ]
@@ -6018,15 +6183,15 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 190/25 КАРТА 13331\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 190/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [],
         "hazard_type": "ice and icebergs",
         "geometry_kind": "polygon",
         "radius_nm": null,
-        "body": "ПРОКЛАДКА КАБЕЛЯ И ВОДОЛАЗНЫЕ\nРАБОТЫ В РАЙОНЕ 71-10.72С 072-20.048В\n71-11. 953С 072-25.08В 71-11.955С 072-28.602В\n71-12.011С 073-02.285В 71-12.062С 073-35.024В\nВСЕМ СУДАМ СЛЕДОВАТЬ С ОСТОРОЖНОСТЬЮ\nПОСТАНОВКА НА ЯКОРЬ ЗАПРЕЩЕНА=\n\nCOASTAL WARNING WEST 190/25\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13331.\nCABLE LAYING AND UNDERWATER OPERATIONS\nIN PROGRESS IN AREA: 71-10.72N 072-20.048E,\n71-11. 953N 072-25.08E, 71-11.955N 072-28.602E,\n71-12.011N 073-02.285E, 71-12.062N 073-35.024E.\nALL VESSELS PROCEED WITH CAUTION.\nANCHORAGE PROHIBITED.=\nNNNN",
+        "body": "ПРОКЛАДКА КАБЕЛЯ И ВОДОЛАЗНЫЕ\nРАБОТЫ В РАЙОНЕ 71-10.72С 072-20.048В\n71-11. 953С 072-25.08В 71-11.955С 072-28.602В\n71-12.011С 073-02.285В 71-12.062С 073-35.024В\nВСЕМ СУДАМ СЛЕДОВАТЬ С ОСТОРОЖНОСТЬЮ\nПОСТАНОВКА НА ЯКОРЬ ЗАПРЕЩЕНА=\nCOASTAL WARNING WEST 190/25\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13331.\nCABLE LAYING AND UNDERWATER OPERATIONS\nIN PROGRESS IN AREA: 71-10.72N 072-20.048E,\n71-11. 953N 072-25.08E, 71-11.955N 072-28.602E,\n71-12.011N 073-02.285E, 71-12.062N 073-35.024E.\nALL VESSELS PROCEED WITH CAUTION.\nANCHORAGE PROHIBITED.=\nNNNN",
         "summary": null,
-        "category": "other",
-        "title": "Cable Laying Operations"
+        "category": "cable",
+        "title": "Cable Laying Activities"
       }
     },
     {
@@ -6043,7 +6208,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 96/22 КАРТА 17052 КНИГА 2103 КОЛЬСКИЙ ЗАЛИВ",
         "msg_id": "PRIP MURMANSK 96/22",
-        "year": "2022",
+        "year": 2022,
         "cancellations": [
           "158/21"
         ],
@@ -6320,16 +6485,16 @@
         "dtg": "2025-12-27T01:29:59.591229",
         "raw_dtg": "ПРИП ЗАПАД 258/25 КАРТЫ 13335 13336 15335 15336 15342\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 258/25",
-        "year": "2025",
+        "year": 2025,
         "cancellations": [
           "257/25"
         ],
         "hazard_type": "general",
         "geometry_kind": "linestring",
         "radius_nm": null,
-        "body": "ПОДХОДЫ К ТЕРМИНАЛУ ВОРОТА АРКТИКИ\n1. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 155.3-335.3 ГРАД\nМЕЖДУ 68-48-08.70С 073-45-51.70В И 68-42-06.60С 073-53-31.60В\n2. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 176-356 ГРАД\nМЕЖДУ 68-42-06.60С 073-53-31.60В И 68-38-52.20С 073-54-09.20В\n3. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 193.6-13.6 ГРАД\nМЕЖДУ 68-38-52.20С 073-54-09.20В И 68-36-53.70С 073-52-50.60В\n4. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 206-26 ГРАД\nМЕЖДУ 68-36-53.70С 073-52-50.60В И 68-34-30.58С 073-49-39.47В\n5. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 194.5-14.5 ГРАД\nМЕЖДУ 68-34-30.58С 073-49-39.47В И 68-30-35.36С 073-46-53.24В\n6. УПРАЗДНЕН ДВУСТОРОННИЙ ПУТЬ\nГРАНИЦЫ ДВУСТОРОННЕГО ПУТИ\nА. ЗАПАДНАЯ ГРАНИЦА\n68-51-43.01C 073-38-03.56В 68-43-11.78С 073-50-24.80В\n68-38-21.20С 073-52-16.04В 68-37-03.13С 073-51-29.89В\n68-34-35.84С 073-48-43.90В\nБ. ВОСТОЧНАЯ ГРАНИЦА\n68-52-16.98С 073-41-26.46В 68-48-19.81С 073-46-51.23В\n68-42-16.71С 073-54-32.13В 68-39-55.22С 073-54-47.10В\n68-38-53.44С 073-54-57.81В 68-36-50.85С 073-53-22.84В\n68-34-25.31С 073-50-35.03В\n7. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 1250 МЕТРОВ\nПО 625 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 154.9‒334.9 ГРАД\nМЕЖДУ 68-48-08.70С 073-45-51.70В И 68-40-15.90С 073-56-00.70В\nНАИМЕНЬШАЯ ГЛУБИНА 10.2 МЕТРА\n8. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 1250 МЕТРОВ\nПО 625 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 185.1‒5.1 ГРАД\nМЕЖДУ 68-40-15.90С 073-56-00.70В И 68-36-29.70С 073-55-05.10В\nНАИМЕНЬШАЯ ГЛУБИНА 10.2 МЕТРА\n9. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 700 МЕТРОВ\nПО 350 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 191.6-11.6 ГРАД\nМЕЖДУ 68-36-29.70С 073-55-05.10В И 68-35-10.40С 073-54-20.50В\nНАИМЕНЬШАЯ ГЛУБИНА 10.2 МЕТРА\n10. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 700 МЕТРОВ\nПО 350 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 197.5-17.5 ГРАД\nМЕЖДУ 68-35-10.40С 073-54-20.50В И 68-33-43.00С 073-53-05.00В\nНАИМЕНЬШАЯ ГЛУБИНА 10.4 МЕТРА\n11. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 700 МЕТРОВ\nПО 350 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 206.8-26.8 ГРАД\nМЕЖДУ 68-33-43.00С 073-53-05.00В И 68-30-49.30С 073-49-05.40В\nНАИМЕНЬШАЯ ГЛУБИНА 10.5 МЕТРА\nСИСТЕМА КООРДИНАТ WGS-84\n12. ОТМ ПРИП ЗАПАД 257/25 И ЭТОТ ПУНКТ=\n\nCOASTAL WARNING WEST 258/25\nKARA SEA.\nOBSKAYA GUBA.\nTERMINAL VOROTA ARKTIKI.\nCHARTS RUS 13335, 15335, 15336, 15342, 15343.\n1. RECOMMENDED DEEPWATER ROUTES 155.3-335.3 DEGREES\nBETWEEN 68-48-08.70N 073-45-51.70E AND 68-42-06.60N 073-53-31.60E\nCANCELLED.\n2. RECOMMENDED DEEPWATER ROUTES 176-356 DEGREES\nBETWEEN 68-42-06.60N 073-53-31.60E AND 68-38-52.20N 073-54-09.20E\nCANCELLED.\n3. RECOMMENDED DEEPWATER ROUTES 193.6-13.6 DEGREES\nBETWEEN 68-38-52.20N 073-54-09.20E AND 68-36-53.70N 073-52-50.60E\nCANCELLED.\n4. RECOMMENDED DEEPWATER ROUTES 206-26 DEGREES\nBETWEEN 68-36-53.70N 073-52-50.60E AND 68-34-30.58N 073-49-39.47E\nCANCELLED.\n5. RECOMMENDED DEEPWATER ROUTES 194.5-14.5 DEGREES\nBETWEEN 68-34-30.58N 073-49-39.47E AND 68-30-35.36N 073-46-53.24E\nCANCELLED.\n6. CANCELLED TWO-WAY ROUTE.\nBORDERS TWO-WAY ROUTE.\nA. WEST BORDER:\n68-51-43.01N 073-38-03.56E, 68-43-11.78N 073-50-24.80E,\n68-38-21.20N 073-52-16.04E, 68-37-03.13N 073-51-29.89E,\n68-34-35.84N 073-48-43.90E.\nB. EAST BORDER:\n68-52-16.98N 073-41-26.46E, 68-48-19.81N 073-46-51.23E,\n68-42-16.71N 073-54-32.13E, 68-39-55.22N 073-54-47.10E,\n68-38-53.44N 073-54-57.81E, 68-36-50.85N 073-53-22.84E,\n68-34-25.31N 073-50-35.03E.\n7. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n1250 METRES EACH SIDE 625 METRES CENTRE LINE 154.9-334.9 DEGREES\nBETWEEN 68-48-08.70N 073-45-51.70E AND 68-40-15.90N 073-56-00.70E.\nMINIMUM DEPTH 10.2 METRES.\n8. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n1250 METRES EACH SIDE 625 METRES CENTRE LINE 185.1-5.1 DEGREES\nBETWEEN 68-40-15.90N 073-56-00.70E AND 68-36-29.70N 073-55-05.10E.\nMINIMUM DEPTH 10.2 METRES.\n9. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n700 METRES EACH SIDE 350 METRES CENTRE LINE 191.6-11.6 DEGREES\nBETWEEN 68-36-29.70N 073-55-05.10E AND 68-35-10.40N 073-54-20.50E.\nMINIMUM DEPTH 10.2 METRES.\n10. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n700 METRES EACH SIDE 350 METRES CENTRE LINE 197.5-17.5 DEGREES\nBETWEEN 68-35-10.40N 073-54-20.50E AND 68-33-43.00N 073-53-05.00E.\nMINIMUM DEPTH 10.4 METRES.\n11. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n700 METRES EACH SIDE 350 METRES CENTRE LINE 206.8-26.8 DEGREES\nBETWEEN 68-33-43.00N 073-53-05.00E AND 68-30-49.30N 073-49-05.40E.\nMINIMUM DEPTH 10.5 METRES.\nWGS84 DATUM.\n12. CANCEL 257/25 AND THIS PARA.=\nNNNN",
+        "body": "ПОДХОДЫ К ТЕРМИНАЛУ ВОРОТА АРКТИКИ\n1. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 155.3-335.3 ГРАД\nМЕЖДУ 68-48-08.70С 073-45-51.70В И 68-42-06.60С 073-53-31.60В\n2. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 176-356 ГРАД\nМЕЖДУ 68-42-06.60С 073-53-31.60В И 68-38-52.20С 073-54-09.20В\n3. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 193.6-13.6 ГРАД\nМЕЖДУ 68-38-52.20С 073-54-09.20В И 68-36-53.70С 073-52-50.60В\n4. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 206-26 ГРАД\nМЕЖДУ 68-36-53.70С 073-52-50.60В И 68-34-30.58С 073-49-39.47В\n5. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 194.5-14.5 ГРАД\nМЕЖДУ 68-34-30.58С 073-49-39.47В И 68-30-35.36С 073-46-53.24В\n6. УПРАЗДНЕН ДВУСТОРОННИЙ ПУТЬ\nГРАНИЦЫ ДВУСТОРОННЕГО ПУТИ\nА. ЗАПАДНАЯ ГРАНИЦА\n68-51-43.01C 073-38-03.56В 68-43-11.78С 073-50-24.80В\n68-38-21.20С 073-52-16.04В 68-37-03.13С 073-51-29.89В\n68-34-35.84С 073-48-43.90В\nБ. ВОСТОЧНАЯ ГРАНИЦА\n68-52-16.98С 073-41-26.46В 68-48-19.81С 073-46-51.23В\n68-42-16.71С 073-54-32.13В 68-39-55.22С 073-54-47.10В\n68-38-53.44С 073-54-57.81В 68-36-50.85С 073-53-22.84В\n68-34-25.31С 073-50-35.03В\n7. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 1250 МЕТРОВ\nПО 625 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 154.9‒334.9 ГРАД\nМЕЖДУ 68-48-08.70С 073-45-51.70В И 68-40-15.90С 073-56-00.70В\nНАИМЕНЬШАЯ ГЛУБИНА 10.2 МЕТРА\n8. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 1250 МЕТРОВ\nПО 625 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 185.1‒5.1 ГРАД\nМЕЖДУ 68-40-15.90С 073-56-00.70В И 68-36-29.70С 073-55-05.10В\nНАИМЕНЬШАЯ ГЛУБИНА 10.2 МЕТРА\n9. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 700 МЕТРОВ\nПО 350 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 191.6-11.6 ГРАД\nМЕЖДУ 68-36-29.70С 073-55-05.10В И 68-35-10.40С 073-54-20.50В\nНАИМЕНЬШАЯ ГЛУБИНА 10.2 МЕТРА\n10. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 700 МЕТРОВ\nПО 350 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 197.5-17.5 ГРАД\nМЕЖДУ 68-35-10.40С 073-54-20.50В И 68-33-43.00С 073-53-05.00В\nНАИМЕНЬШАЯ ГЛУБИНА 10.4 МЕТРА\n11. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 700 МЕТРОВ\nПО 350 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 206.8-26.8 ГРАД\nМЕЖДУ 68-33-43.00С 073-53-05.00В И 68-30-49.30С 073-49-05.40В\nНАИМЕНЬШАЯ ГЛУБИНА 10.5 МЕТРА\nСИСТЕМА КООРДИНАТ WGS-84\n12. ОТМ ПРИП ЗАПАД 257/25 И ЭТОТ ПУНКТ=\nCOASTAL WARNING WEST 258/25\nKARA SEA.\nOBSKAYA GUBA.\nTERMINAL VOROTA ARKTIKI.\nCHARTS RUS 13335, 15335, 15336, 15342, 15343.\n1. RECOMMENDED DEEPWATER ROUTES 155.3-335.3 DEGREES\nBETWEEN 68-48-08.70N 073-45-51.70E AND 68-42-06.60N 073-53-31.60E\nCANCELLED.\n2. RECOMMENDED DEEPWATER ROUTES 176-356 DEGREES\nBETWEEN 68-42-06.60N 073-53-31.60E AND 68-38-52.20N 073-54-09.20E\nCANCELLED.\n3. RECOMMENDED DEEPWATER ROUTES 193.6-13.6 DEGREES\nBETWEEN 68-38-52.20N 073-54-09.20E AND 68-36-53.70N 073-52-50.60E\nCANCELLED.\n4. RECOMMENDED DEEPWATER ROUTES 206-26 DEGREES\nBETWEEN 68-36-53.70N 073-52-50.60E AND 68-34-30.58N 073-49-39.47E\nCANCELLED.\n5. RECOMMENDED DEEPWATER ROUTES 194.5-14.5 DEGREES\nBETWEEN 68-34-30.58N 073-49-39.47E AND 68-30-35.36N 073-46-53.24E\nCANCELLED.\n6. CANCELLED TWO-WAY ROUTE.\nBORDERS TWO-WAY ROUTE.\nA. WEST BORDER:\n68-51-43.01N 073-38-03.56E, 68-43-11.78N 073-50-24.80E,\n68-38-21.20N 073-52-16.04E, 68-37-03.13N 073-51-29.89E,\n68-34-35.84N 073-48-43.90E.\nB. EAST BORDER:\n68-52-16.98N 073-41-26.46E, 68-48-19.81N 073-46-51.23E,\n68-42-16.71N 073-54-32.13E, 68-39-55.22N 073-54-47.10E,\n68-38-53.44N 073-54-57.81E, 68-36-50.85N 073-53-22.84E,\n68-34-25.31N 073-50-35.03E.\n7. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n1250 METRES EACH SIDE 625 METRES CENTRE LINE 154.9-334.9 DEGREES\nBETWEEN 68-48-08.70N 073-45-51.70E AND 68-40-15.90N 073-56-00.70E.\nMINIMUM DEPTH 10.2 METRES.\n8. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n1250 METRES EACH SIDE 625 METRES CENTRE LINE 185.1-5.1 DEGREES\nBETWEEN 68-40-15.90N 073-56-00.70E AND 68-36-29.70N 073-55-05.10E.\nMINIMUM DEPTH 10.2 METRES.\n9. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n700 METRES EACH SIDE 350 METRES CENTRE LINE 191.6-11.6 DEGREES\nBETWEEN 68-36-29.70N 073-55-05.10E AND 68-35-10.40N 073-54-20.50E.\nMINIMUM DEPTH 10.2 METRES.\n10. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n700 METRES EACH SIDE 350 METRES CENTRE LINE 197.5-17.5 DEGREES\nBETWEEN 68-35-10.40N 073-54-20.50E AND 68-33-43.00N 073-53-05.00E.\nMINIMUM DEPTH 10.4 METRES.\n11. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n700 METRES EACH SIDE 350 METRES CENTRE LINE 206.8-26.8 DEGREES\nBETWEEN 68-33-43.00N 073-53-05.00E AND 68-30-49.30N 073-49-05.40E.\nMINIMUM DEPTH 10.5 METRES.\nWGS84 DATUM.\n12. CANCEL 257/25 AND THIS PARA.=\nNNNN",
         "summary": null,
-        "category": "other",
+        "category": "navigation",
         "title": "Deepwater Routes Updated"
       }
     },
@@ -6340,10 +6505,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              34.26660277777778,
-              69.30595555555556
-            ],
             [
               34.29354722222222,
               69.30151111111111
@@ -6357,16 +6518,34 @@
               69.30234444444444
             ],
             [
-              34.293225,
-              69.30145277777777
+              34.284682903835964,
+              69.30170470839782
             ],
+            [
+              34.26660277777778,
+              69.30595555555556
+            ],
+            [
+              34.29354722222222,
+              69.30151111111111
+            ]
+          ],
+          [
             [
               34.289877777777775,
               69.30048333333333
             ],
             [
-              34.26660277777778,
-              69.30595555555556
+              34.293225,
+              69.30145277777777
+            ],
+            [
+              34.284682903835964,
+              69.30170470839782
+            ],
+            [
+              34.289877777777775,
+              69.30048333333333
             ]
           ]
         ]
@@ -6375,7 +6554,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 203/20 КАРТА 15003\r\nКИЛЬДИНСКИЙ ПРОЛИВ",
         "msg_id": "PRIP MURMANSK 203/20",
-        "year": "2020",
+        "year": 2020,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "polygon",
@@ -6422,7 +6601,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 87/20 КАРТЫ 18339 18338 \r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
         "msg_id": "PRIP WEST 87/20",
-        "year": "2020",
+        "year": 2020,
         "cancellations": [],
         "hazard_type": "ice and icebergs",
         "geometry_kind": "linestring",
@@ -6431,6 +6610,49 @@
         "summary": null,
         "category": "other",
         "title": "Mine Danger Area Removed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 182/25#grp3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.56666666666667,
+              72.21666666666667
+            ],
+            [
+              55.95,
+              72.66666666666667
+            ],
+            [
+              57.06666666666667,
+              72.63333333333334
+            ],
+            [
+              56.88333333333333,
+              72.2
+            ],
+            [
+              55.56666666666667,
+              72.21666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "NAVAREA XX 182/25",
+        "group_index": 3,
+        "dtg": null,
+        "raw_dtg": "NAVAREA XX 182/25KARA SEA.CHART RUS 11126.1. SPECIAL ACTIVITIES 01 JAN TO 30 JUNNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 74-13.0N 058-44.0E THEN COASTAL LINE TO74-34.0N 059-44.0E, 74-26.0N 060-37.0E, 74-04.0N 059-46.0E.B. 73-26.0N 057-11.0E THEN COASTAL LINE TO73-45.0N 057-50.0E, 73-37.0N 058-52.0E, 73-17.0N 058-19.0E.C. 72-13.0N 055-34.0E THEN COASTAL LINE TO72-40.0N 055-57.0E, 72-38.0N 057-04.0E, 72-12.0N 056-53.0E.2. CANCEL THIS MSG 01 JUL 26.=NNNN",
+        "year": 2025,
+        "hazard_type": "general",
+        "body": "NAVAREA XX 182/25KARA SEA.CHART RUS 11126.1. SPECIAL ACTIVITIES 01 JAN TO 30 JUNNAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY:A. 74-13.0N 058-44.0E THEN COASTAL LINE TO74-34.0N 059-44.0E, 74-26.0N 060-37.0E, 74-04.0N 059-46.0E.B. 73-26.0N 057-11.0E THEN COASTAL LINE TO73-45.0N 057-50.0E, 73-37.0N 058-52.0E, 73-17.0N 058-19.0E.C. 72-13.0N 055-34.0E THEN COASTAL LINE TO72-40.0N 055-57.0E, 72-38.0N 057-04.0E, 72-12.0N 056-53.0E.2. CANCEL THIS MSG 01 JUL 26.=NNNN",
+        "summary": null,
+        "category": "military",
+        "title": "Kara Sea Military Activities"
       }
     },
     {
@@ -6471,7 +6693,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП МУРМАНСК 51/20 КАРТА 18001\r\nМОТОВСКИЙ ЗАЛИВ ГУБА ТИТОВКА",
         "msg_id": "PRIP MURMANSK 51/20",
-        "year": "2020",
+        "year": 2020,
         "cancellations": [
           "4/20"
         ],
@@ -6498,7 +6720,7 @@
         "dtg": null,
         "raw_dtg": "ПРИП ЗАПАД 18/24 КАРТЫ 15387 18387\r\nКАРСКОЕ МОРЕ",
         "msg_id": "PRIP WEST 18/24",
-        "year": "2024",
+        "year": 2024,
         "cancellations": [],
         "hazard_type": "general",
         "geometry_kind": "point",
