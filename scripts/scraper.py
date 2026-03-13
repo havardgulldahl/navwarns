@@ -154,6 +154,8 @@ def parse_broadcast_warn_xml(
                 cancellations.append(structured_cancel)
         coords = navparser.parse_coordinates(text_body)
         hazard = navparser.classify_hazard(text_body)
+        geometry, radius = navparser.analyze_geometry(text_body, coords)
+        groups = navparser.parse_coordinate_groups(text_body)
         messages.append(
             navparser.NavwarnMessage(
                 dtg=navparser.parse_dtg(raw_dtg) if raw_dtg else None,
@@ -162,6 +164,9 @@ def parse_broadcast_warn_xml(
                 coordinates=coords,
                 cancellations=cancellations,
                 hazard_type=hazard,
+                geometry=geometry,
+                radius=radius,
+                groups=groups,
                 body=text_body,
             )
         )

@@ -2,6 +2,8 @@ import importlib
 from pathlib import Path
 import pytest
 
+from scripts.scraper import parse_broadcast_warn_xml, serialize_message_features
+
 # Base directory for this test file
 HERE = Path(__file__).parent
 DATA_DIR = HERE / "test_data"
@@ -98,3 +100,55 @@ def test_parser_accepts_path_and_string(xml_files, parser):
     assert str(res_path) == str(
         res_str
     ), "Parser produced different results for Path vs str input"
+
+
+# --- Tests for broadcast-warn XML geometry classification ---
+
+BROADCAST_WARN_AREA_BOUND = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<broadcast-warn>
+    <broadcastWarnCancelledEntity>
+        <msgYear>2017</msgYear>
+        <msgNumber>421</msgNumber>
+        <navArea>C</navArea>
+        <subregion>42</subregion>
+        <text>BARENTS SEA.
+RUSSIA.
+DNC 22.
+1. GUNNERY AND MISSILE OPERATIONS 0300Z TO 2100Z
+   DAILY 26 THRU 29 DEC IN AREA BOUND BY
+   72-20.0N 035-40.0E, 72-10.0N 038-00.0E,
+   71-00.0N 041-35.0E, 70-15.0N 042-00.0E,
+   69-15.0N 035-09.4E, 69-20.2N 034-24.2E,
+   69-20.5N 033-58.0E, 69-35.0N 033-38.0E,
+   69-58.0N 033-38.0E.
+2. CANCEL THIS MSG 292200Z DEC 17.
+</text>
+        <status>C</status>
+        <issueDate>220632Z DEC 2017</issueDate>
+        <authority>NAVAREA XX 214/17 220530Z DEC 17.</authority>
+        <cancelDate>292200Z DEC 2017</cancelDate>
+        <cancelNavArea>C</cancelNavArea>
+        <cancelMsgYear>2017</cancelMsgYear>
+        <cancelMsgNumber>421</cancelMsgNumber>
+    </broadcastWarnCancelledEntity>
+</broadcast-warn>"""
+
+
+def test_broadcast_warn_polygon_geometry():
+    """parse_broadcast_warn_xml should classify 'AREA BOUND BY'
+    messages as polygon, not point."""
+    messages = parse_broadcast_warn_xml(BROADCAST_WARN_AREA_BOUND)
+    assert len(messages) == 1
+    msg = messages[0]
+    assert msg.msg_id == "HYDROARC 421/17(42)"
+    assert msg.geometry == "polygon"
+    assert len(msg.coordinates) == 9
+
+    feats = serialize_message_features(msg)
+    assert len(feats) == 1
+    feat = feats[0]
+    assert feat["geometry"]["type"] == "Polygon"
+    ring = feat["geometry"]["coordinates"][0]
+    # Ring should be closed
+    assert ring[0][0] == pytest.approx(ring[-1][0], abs=1e-6)
+    assert ring[0][1] == pytest.approx(ring[-1][1], abs=1e-6)

@@ -2,9 +2,12 @@
 """Re-parse all existing GeoJSON warning files using the current parser.
 
 Reads the ``body`` (and ``raw_dtg``) text stored in previously generated
-GeoJSON Feature files under ``current/navwarns/`` and ``current/prips/``,
-re-parses them with the latest parser routines, and overwrites the files
-with updated geometry and metadata.
+GeoJSON Feature files under ``current/navwarns/``, ``current/prips/``, and
+``history/<year>/`` directories, re-parses them with the latest parser
+routines, and overwrites the files with updated geometry and metadata.
+
+After regeneration, rebuilds the archive GeoJSON files and manifest so
+the webapp reflects the updated data.
 
 This is useful after parser upgrades that improve coordinate extraction,
 geometry classification, or hazard typing — the early-converted warnings
@@ -28,6 +31,7 @@ from typing import Any, Dict, List, Optional, Set
 
 try:
     from . import parser as navparser  # type: ignore
+    from . import build_archives  # type: ignore
 except ImportError:  # running as a script
     import importlib.util
     import pathlib
@@ -39,6 +43,12 @@ except ImportError:  # running as a script
     assert spec and spec.loader
     spec.loader.exec_module(navparser)  # type: ignore
 
+    ba_path = this_dir / "build_archives.py"
+    spec_ba = importlib.util.spec_from_file_location("build_archives", ba_path)
+    build_archives = importlib.util.module_from_spec(spec_ba)  # type: ignore
+    assert spec_ba and spec_ba.loader
+    spec_ba.loader.exec_module(build_archives)  # type: ignore
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s %(levelname)s %(message)s",
@@ -48,6 +58,7 @@ logging.basicConfig(
 CURRENT_DIR = Path("current")
 NAVWARNS_DIR = CURRENT_DIR / "navwarns"
 PRIPS_DIR = CURRENT_DIR / "prips"
+HISTORY_DIR = Path("history")
 
 
 # ---- helpers --------------------------------------------------------
@@ -218,6 +229,55 @@ def regenerate_prip_file(
     return [out_path]
 
 
+def regenerate_history(
+    *,
+    dry_run: bool = False,
+) -> Dict[str, int]:
+    """Re-parse all historical JSON files under history/<year>/.
+
+    Walks history/<year>/<area>/*.json and re-parses each feature
+    using the current parser, updating geometry and metadata.
+
+    Returns a dict with counts of processed / written / skipped.
+    """
+    stats: Dict[str, int] = {
+        "history_processed": 0,
+        "history_written": 0,
+        "history_skipped": 0,
+    }
+    if not HISTORY_DIR.is_dir():
+        logging.info("No history directory found at %s", HISTORY_DIR)
+        return stats
+
+    processed_parents: Set[str] = set()
+
+    for year_dir in sorted(HISTORY_DIR.iterdir()):
+        if not year_dir.is_dir() or not year_dir.name.isdigit():
+            continue
+        for json_path in sorted(year_dir.rglob("*.json")):
+            feat = _load_feature(json_path)
+            if feat is None:
+                stats["history_skipped"] += 1
+                continue
+
+            props = feat.get("properties", {})
+            parent_id = props.get("parent_id")
+            if parent_id and parent_id in processed_parents:
+                continue
+            if parent_id:
+                processed_parents.add(parent_id)
+
+            stats["history_processed"] += 1
+            output_dir = json_path.parent
+            written = regenerate_navwarn_file(json_path, output_dir, dry_run=dry_run)
+            if written:
+                stats["history_written"] += len(written)
+            else:
+                stats["history_skipped"] += 1
+
+    return stats
+
+
 def regenerate_all(
     *,
     dry_run: bool = False,
@@ -278,6 +338,17 @@ def regenerate_all(
     else:
         logging.info("No prips directory found at %s", PRIPS_DIR)
 
+    # --- Historical archives (history/<year>/) -------------------------
+    history_stats = regenerate_history(dry_run=dry_run)
+    stats.update(history_stats)
+
+    # --- Rebuild archive GeoJSON + manifest ----------------------------
+    if not dry_run:
+        logging.info("Rebuilding archive GeoJSON files and manifest...")
+        build_archives.main()
+    else:
+        logging.info("[dry-run] would rebuild archives and manifest")
+
     return stats
 
 
@@ -321,6 +392,12 @@ def main(argv: list[str] | None = None) -> int:
         stats["prips_processed"],
         stats["prips_written"],
         stats["prips_skipped"],
+    )
+    logging.info(
+        "History:  %d processed, %d files written, %d skipped",
+        stats.get("history_processed", 0),
+        stats.get("history_written", 0),
+        stats.get("history_skipped", 0),
     )
 
     return 0
