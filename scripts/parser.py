@@ -304,16 +304,23 @@ class NavwarnMessage:
                 return self.year
             return None
 
-        for cancel in self.cancellations:
+        # Search both cancellations list and body text for self-cancel patterns
+        sources = list(self.cancellations)
+        if self.body:
+            for line in re.split(r'[.\n]', self.body.upper()):
+                if 'THIS MSG' in line or 'THIS MESSAGE' in line:
+                    sources.append(line.strip())
+
+        for cancel in sources:
             if not cancel:
                 continue
-            upper = cancel.upper()
+            upper = cancel.upper() if isinstance(cancel, str) else str(cancel).upper()
             if "THIS" not in upper:
                 continue
-            # Full DTG: DDHHMM[Z| UTC] MON YY
-            m = re.match(
+            # Full DTG: DDHHMM[Z| UTC| ] MON YY
+            m = re.search(
                 r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})"
-                r"(?:Z| UTC) ([A-Z]{3}) (\d{2})",
+                r"(?:Z| UTC)? ?([A-Z]{3}) (\d{2})",
                 cancel,
             )
             if m:
@@ -336,9 +343,9 @@ class NavwarnMessage:
                         ).isoformat()
                     except ValueError:
                         pass
-            # DTG without year: DDHHMMZ MON
-            m_noy = re.match(
-                r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})" r"Z ([A-Z]{3})$",
+            # DTG without year: DDHHMM[Z] MON
+            m_noy = re.search(
+                r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})Z? ([A-Z]{3})$",
                 cancel,
             )
             if m_noy:

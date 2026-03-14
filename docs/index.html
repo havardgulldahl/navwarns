@@ -434,7 +434,7 @@
                 'JAN': 0, 'FEB': 1, 'MAR': 2, 'APR': 3, 'MAY': 4, 'JUN': 5,
                 'JUL': 6, 'AUG': 7, 'SEP': 8, 'OCT': 9, 'NOV': 10, 'DEC': 11
             };
-            const matchFull = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC) ([A-Z]{3}) (\d{2})/);
+            const matchFull = cancelStr.match(/THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| UTC)? ?([A-Z]{3}) (\d{2})/);
             if (matchFull) {
                 const [, day, hour, minute, monthStr, year] = matchFull;
                 const month = monthMap[monthStr];
@@ -485,6 +485,19 @@
                     }
                 }
             }
+            // Also search body text for self-cancellation patterns
+            if (!endDate) {
+                const body = p.body || '';
+                if (body) {
+                    const lines = body.toUpperCase().split(/[.\n]/);
+                    for (const line of lines) {
+                        if (line.includes('THIS MSG') || line.includes('THIS MESSAGE')) {
+                            endDate = parseCancellationDate(line.trim());
+                            if (endDate) break;
+                        }
+                    }
+                }
+            }
             if (endDate && !isNaN(endDate.getTime()) && checkDate > endDate) return false;
 
             return true;
@@ -496,9 +509,13 @@
             for (const year of Object.keys(yearData)) {
                 features = features.concat(yearData[year]);
             }
-            // Include current data only if the current year's archive isn't loaded
+            // Include current data only when viewing the current year
+            // and no archive is loaded for it yet
             if (currentData && !yearData[currentYear]) {
-                features = features.concat(currentData.features || []);
+                const viewingYear = viewDate.getUTCFullYear();
+                if (viewingYear >= currentYear || Object.keys(yearData).length === 0) {
+                    features = features.concat(currentData.features || []);
+                }
             }
             return features;
         }

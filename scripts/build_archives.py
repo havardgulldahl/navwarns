@@ -69,17 +69,25 @@ def _compute_valid_from(props: Dict[str, Any]) -> Optional[str]:
 def _compute_valid_until(
     props: Dict[str, Any],
 ) -> Optional[str]:
-    """Parse self-cancellation dates from cancellations list."""
-    cancellations = props.get("cancellations") or []
-    for cancel in cancellations:
+    """Parse self-cancellation dates from cancellations list and body text."""
+    # Search both cancellations list and body text for self-cancel patterns
+    sources = list(props.get("cancellations") or [])
+    body = props.get("body") or ""
+    if body:
+        for line in re.split(r'[.\n]', body.upper()):
+            if 'THIS MSG' in line or 'THIS MESSAGE' in line:
+                sources.append(line.strip())
+
+    for cancel in sources:
         if not cancel:
             continue
         upper = cancel.upper()
         if "THIS MSG" not in upper and "THIS MESSAGE" not in upper:
             continue
-        m = re.match(
+        # Full DTG: DDHHMM[Z| UTC| ] MON YY
+        m = re.search(
             r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})"
-            r"(?:Z| UTC) ([A-Z]{3}) (\d{2})",
+            r"(?:Z| UTC)? ?([A-Z]{3}) (\d{2})",
             cancel,
         )
         if m:
@@ -102,7 +110,7 @@ def _compute_valid_until(
                     ).isoformat()
                 except ValueError:
                     pass
-        m2 = re.match(
+        m2 = re.search(
             r"THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3})" r" (\d{2})",
             cancel,
         )
@@ -144,6 +152,149 @@ def _infer_year_from_dir(
         return None
 
 
+def _dedup_key(feat: Dict[str, Any]) -> str:
+    """Return a deduplication key for a feature.
+
+    Uses feature id (includes group suffix like #grp1),
+    then msg_id, then body+geometry hash as fallback.
+    """
+    fid = feat.get("id")
+    if fid:
+        return f"fid:{fid}"
+    props = feat.get("properties") or {}
+    mid = props.get("msg_id")
+    if mid:
+        return f"id:{mid}"
+    # Fallback: body text + geometry type to distinguish
+    # features at different locations with different geometry
+    body = (props.get("body") or "").strip()[:150]
+    geom = feat.get("geometry") or {}
+    geom_key = str(geom.get("coordinates", ""))[:60]
+    return f"body:{body}|geo:{geom_key}"
+
+
+def _deduplicate_features(
+    features: List[Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    """Remove duplicate features, keeping the best date coverage.
+
+    Daily scrapes of the same warning produce near-identical
+    features.  Keep the copy with the earliest valid_from and
+    latest valid_until so the timeline filter is most accurate.
+    """
+    best: Dict[str, Dict[str, Any]] = {}
+    for feat in features:
+        key = _dedup_key(feat)
+        if key not in best:
+            best[key] = feat
+            continue
+        # Merge: keep earliest valid_from, latest valid_until
+        old_p = best[key].get("properties") or {}
+        new_p = feat.get("properties") or {}
+        old_from = old_p.get("valid_from")
+        new_from = new_p.get("valid_from")
+        if new_from and (not old_from or new_from < old_from):
+            old_p["valid_from"] = new_from
+        old_until = old_p.get("valid_until")
+        new_until = new_p.get("valid_until")
+        if new_until and (not old_until or new_until > old_until):
+            old_p["valid_until"] = new_until
+    return list(best.values())
+
+
+def _scan_daily_presence(
+    year_dir: Path,
+) -> Dict[str, str]:
+    """Scan daily scrape snapshots to find last-seen dates.
+
+    Returns a mapping of msg_id -> last date (ISO string) the
+    message appeared in a daily scrape.  Works for NAVAREAXX
+    (navwarns_raw.txt) and PRIP (HTML files).
+    """
+    RU_MAP = {
+        "АРХАНГЕЛЬСК": "ARKHANGELSK",
+        "МУРМАНСК": "MURMANSK",
+        "ЗАПАД": "WEST",
+    }
+    last_seen: Dict[str, str] = {}
+    all_dates: List[str] = []
+
+    # NAVAREAXX: dated subdirectories with navwarns_raw.txt
+    nxx_dir = year_dir / "NAVAREAXX"
+    if nxx_dir.is_dir():
+        for d in nxx_dir.iterdir():
+            if not d.is_dir():
+                continue
+            date_str = d.name  # e.g. 2025-09-23
+            raw = d / "navwarns_raw.txt"
+            if not raw.exists():
+                continue
+            all_dates.append(date_str)
+            text = raw.read_text(errors="replace")
+            for m in re.finditer(r"NAVAREA XX (\d+/\d+)", text):
+                mid = f"NAVAREA XX {m.group(1)}"
+                if mid not in last_seen or date_str > last_seen[mid]:
+                    last_seen[mid] = date_str
+
+    # PRIP: HTML files with date in filename
+    prip_dir = year_dir / "PRIP"
+    if prip_dir.is_dir():
+        for html_file in prip_dir.glob("*.html"):
+            dm = re.search(r"(\d{4}-\d{2}-\d{2})", html_file.name)
+            if not dm:
+                continue
+            date_str = dm.group(1)
+            all_dates.append(date_str)
+            text = html_file.read_text(errors="replace")
+            for m in re.finditer(
+                r"ПРИП\s+(АРХАНГЕЛЬСК|МУРМАНСК|ЗАПАД)"
+                r"\s+(\d+)/(\d+)",
+                text,
+            ):
+                reg = RU_MAP.get(m.group(1), m.group(1))
+                ref = f"PRIP {reg} {m.group(2)}/{m.group(3)}"
+                if ref not in last_seen or date_str > last_seen[ref]:
+                    last_seen[ref] = date_str
+
+    if not all_dates:
+        return {}
+
+    # Only use last_seen as valid_until when the message disappeared
+    # *before* the final scrape date (otherwise it may still be active)
+    final_date = max(all_dates)
+    return {
+        mid: date
+        for mid, date in last_seen.items()
+        if date < final_date
+    }
+
+
+def _apply_last_seen(
+    features: List[Dict[str, Any]],
+    last_seen: Dict[str, str],
+) -> int:
+    """Set valid_until from last-seen dates for features that lack one.
+
+    Returns count of features updated.
+    """
+    updated = 0
+    for feat in features:
+        props = feat.get("properties") or {}
+        if props.get("valid_until"):
+            continue
+        # Match by msg_id or feature id (without group suffix)
+        mid = props.get("msg_id") or ""
+        fid = feat.get("id") or ""
+        # For grouped features like "PRIP WEST 87/25#grp3",
+        # strip the group suffix to match the parent msg_id
+        base_id = re.sub(r"#grp\d+$", "", fid)
+        date = last_seen.get(mid) or last_seen.get(base_id)
+        if date:
+            props["valid_until"] = f"{date}T23:59:59+00:00"
+            updated += 1
+    return updated
+
+
 def collect_features(year_dir: Path) -> List[Dict[str, Any]]:
     """Collect all GeoJSON Features from a year directory."""
     features: List[Dict[str, Any]] = []
@@ -183,6 +334,19 @@ def build_archive(
     if not features:
         print(f"  {year}: no features found, skipping")
         return 0
+
+    before = len(features)
+    features = _deduplicate_features(features)
+    if before != len(features):
+        print(f"  {year}: deduplicated {before} -> {len(features)}")
+
+    # Infer valid_until from daily scrape disappearance
+    last_seen = _scan_daily_presence(year_dir)
+    if last_seen:
+        n = _apply_last_seen(features, last_seen)
+        if n:
+            print(f"  {year}: inferred valid_until for {n} features"
+                  " from daily scrapes")
 
     collection = {
         "type": "FeatureCollection",
