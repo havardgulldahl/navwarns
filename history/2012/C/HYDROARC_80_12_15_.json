@@ -13,13 +13,16 @@
     "raw_dtg": "130843Z JUL 12",
     "msg_id": "HYDROARC 80/12(15)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 122/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA-NORTH COAST.\nREQUISITE CHANNEL.\nCHART 15887\nNORDENSKIOLD ISLANDS RACON 68-21.2N 100-47.2W INOPERATIVE.",
+    "cancel_date": "2012-08-13T15:06:00+00:00",
     "valid_from": "2012-07-13T08:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-08-13T15:06:00+00:00",
     "summary": null
   }
 }

@@ -23,13 +23,17 @@
     "raw_dtg": "100236Z OCT 11",
     "msg_id": "HYDROARC 1664/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 312100Z OCT",
+      "HYDROARC 1664/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\n1. UNDERWATER OPERATIONS 130900Z TO 312000Z OCT\n   ALONG TRACKLINE JOINING\n   04-52.52S 036-22.30W, 04-52.52S 036-22.32W,\n   04-52.58S 036-22.43W.\n2. CANCEL THIS MSG 312100Z OCT.",
+    "cancel_date": "2011-10-31T21:00:00+00:00",
     "valid_from": "2011-10-10T02:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-31T21:00:00+00:00",
     "summary": null
   }
 }

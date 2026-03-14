@@ -13,13 +13,16 @@
     "raw_dtg": "070803Z DEC 21",
     "msg_id": "HYDROARC 2994/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3023/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nTHANET WIND FARM TURBINE 51-24.4N 001-40.8E\nUNLIT AND FOG SIGNALS INOPERATIVE.",
+    "cancel_date": "2021-12-10T13:43:00+00:00",
     "valid_from": "2021-12-07T08:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-12-10T13:43:00+00:00",
     "summary": null
   }
 }

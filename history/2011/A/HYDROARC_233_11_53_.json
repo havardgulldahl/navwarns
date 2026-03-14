@@ -31,13 +31,17 @@
     "raw_dtg": "081237Z FEB 11",
     "msg_id": "HYDROARC 233/11(53)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 MAR",
+      "HYDROARC 233/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nSICILY-SOUTH COAST.\nMALTA.\n1. GEOLOGICAL OPERATIONS IN PROGRESS UNTIL 28 FEB\n   BY M/V ODIN FINDER ALONG TRACKLINE JOINING\n   36-46.6N 014-33.4E, 36-28.6N 014-35.0E,\n   36-13.0N 014-39.3E, 35-58.8N 014-31.9E,\n   35-56.7N 014-28.2E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 MAR.",
+    "cancel_date": "2011-03-01T00:01:00+00:00",
     "valid_from": "2011-02-08T12:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-01T00:01:00+00:00",
     "summary": null
   }
 }

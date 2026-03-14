@@ -13,13 +13,17 @@
     "raw_dtg": "102218Z JAN 12",
     "msg_id": "HYDROARC 85/12(54)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 132216Z JAN",
+      "HYDROARC 85/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IONIAN SEA.\n1. DERELICT 25 METER M/V, GREEN HULL, ADRIFT\n   VICINITY 38-19-42N 017-36-00E ON 10 JAN.\n2. CANCEL THIS MSG 132216Z JAN.",
+    "cancel_date": "2012-01-13T22:16:00+00:00",
     "valid_from": "2012-01-10T22:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-13T22:16:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "101729Z NOV 16",
     "msg_id": "HYDROARC 2975/16(35,36)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3155/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND.\nDNC 20.\nCHART 35000.\nSTIRLING DGPS STATION 56-04N 004-04W OFF AIR.",
+    "cancel_date": "2016-11-25T16:49:00+00:00",
     "valid_from": "2016-11-10T17:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-11-25T16:49:00+00:00",
     "summary": null
   }
 }

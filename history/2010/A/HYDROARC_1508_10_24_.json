@@ -7,13 +7,17 @@
     "raw_dtg": "080253Z AUG 10",
     "msg_id": "HYDROARC 1508/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 130400Z AUG",
+      "HYDROARC 1522/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nURUGUAY-SOUTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 122200Z TO 130300Z AUG\n   IN AREA BETWEEN\n   35-20S 35-35S AND 054-35W 055-17W.\n2. CANCEL THIS MSG 130400Z AUG.",
+    "cancel_date": "2010-08-10T15:58:00+00:00",
     "valid_from": "2010-08-08T02:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-10T15:58:00+00:00",
     "summary": null
   }
 }

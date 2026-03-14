@@ -7,13 +7,17 @@
     "raw_dtg": "061827Z JUN 10",
     "msg_id": "HYDROARC 1037/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 130700Z JUN",
+      "HYDROARC 1071/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 080001Z TO 130600Z JUN\n   IN AREA BOUND BY\n   10-19S 002-47W, 13-49S 002-01E,\n   14-07S 003-38E, 13-17S 004-07E,\n   09-10S 000-15W, 09-26S 001-55W.\n2. CANCEL THIS MSG 130700Z JUN.",
+    "cancel_date": "2010-06-10T09:25:00+00:00",
     "valid_from": "2010-06-06T18:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-10T09:25:00+00:00",
     "summary": null
   }
 }

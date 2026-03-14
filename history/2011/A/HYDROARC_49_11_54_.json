@@ -7,13 +7,17 @@
     "raw_dtg": "081232Z JAN 11",
     "msg_id": "HYDROARC 49/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 141130Z JAN",
+      "HYDROARC 49/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 101200Z TO 102100Z\n   AND 130630Z TO 141030Z JAN\n   IN AREA BOUND BY\n   36-30N 028-34E, 36-23N 028-34E,\n   36-09N 029-19E, 36-25N 029-19E.\n2. CANCEL THIS MSG 141130Z JAN.",
+    "cancel_date": "2011-01-14T11:30:00+00:00",
     "valid_from": "2011-01-08T12:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-14T11:30:00+00:00",
     "summary": null
   }
 }

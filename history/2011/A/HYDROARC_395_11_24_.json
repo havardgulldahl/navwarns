@@ -13,13 +13,16 @@
     "raw_dtg": "100337Z MAR 11",
     "msg_id": "HYDROARC 395/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 408/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n34-35.3S 052-23.9W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY\nCOASTAL RADIO STATION.",
+    "cancel_date": "2011-03-12T09:53:00+00:00",
     "valid_from": "2011-03-10T03:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-12T09:53:00+00:00",
     "summary": null
   }
 }

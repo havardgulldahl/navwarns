@@ -7,13 +7,17 @@
     "raw_dtg": "250820Z JUN 12",
     "msg_id": "HYDROARC 1381/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 262100Z JUN",
+      "HYDROARC 1381/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION BO, RATES 7001-MASTER AND\n   9007-X, OFF AIR 260600Z TO 262000Z JUN.\n2. CANCEL THIS MSG 262100Z JUN.",
+    "cancel_date": "2012-06-26T21:00:00+00:00",
     "valid_from": "2012-06-25T08:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-26T21:00:00+00:00",
     "summary": null
   }
 }

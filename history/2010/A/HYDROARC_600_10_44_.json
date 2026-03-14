@@ -7,13 +7,17 @@
     "raw_dtg": "061151Z APR 10",
     "msg_id": "HYDROARC 600/10(44)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 081000Z APR",
+      "HYDROARC 600/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN BALTIC SEA.\nLITHUANIA.\n1. SURVEY OPERATIONS 070900Z TO 080900Z APR BY\n   M/V SUDUVIS IN AREA BETWEEN\n   55-43.69N 55-43.81N AND 020-59.60E 021-04.60E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 081000Z APR.",
+    "cancel_date": "2010-04-08T10:00:00+00:00",
     "valid_from": "2010-04-06T11:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-08T10:00:00+00:00",
     "summary": null
   }
 }

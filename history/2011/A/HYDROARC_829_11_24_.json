@@ -7,13 +7,17 @@
     "raw_dtg": "161249Z MAY 11",
     "msg_id": "HYDROARC 829/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 02 JUN",
+      "HYDROARC 829/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTHEAST COAST.\n1. SURVEY OPERATIONS 19 MAY THRU 01 JUN\n   BY M/V SIRIUS IN AREA BOUND BY\n   03-50S 032-40W, 03-57S 032-40W,\n   03-57S 032-18W, 03-42S 032-18W.\n2. CANCEL THIS MSG 02 JUN.",
+    "cancel_date": "2011-06-02T00:01:00+00:00",
     "valid_from": "2011-05-16T12:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-02T00:01:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "310626Z JUL 11",
     "msg_id": "HYDROARC 1212/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 SEP",
+      "HYDROARC 1479/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 15 SEP\n   BY M/V RAMFORM VIKING TOWING 12\n   6000 METER LONG CABLES IN AREA BETWEEN\n   60-17N 60-47N AND 004-50W 004-00W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 SEP.",
+    "cancel_date": "2011-09-15T06:26:00+00:00",
     "valid_from": "2011-07-31T06:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-15T06:26:00+00:00",
     "summary": null
   }
 }

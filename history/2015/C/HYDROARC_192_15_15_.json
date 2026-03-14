@@ -7,13 +7,16 @@
     "raw_dtg": "161351Z JUL 15",
     "msg_id": "HYDROARC 192/15(15)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 193/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 27.\nMCTS IQALUIT CENTRE REMOTE STATION INUVIK UNRELIABLE.",
+    "cancel_date": "2015-07-17T16:10:00+00:00",
     "valid_from": "2015-07-16T13:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-07-17T16:10:00+00:00",
     "summary": null
   }
 }

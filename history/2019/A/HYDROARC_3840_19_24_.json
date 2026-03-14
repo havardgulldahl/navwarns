@@ -13,13 +13,16 @@
     "raw_dtg": "142356Z DEC 19",
     "msg_id": "HYDROARC 3840/19(24)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 31/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nDNC 01.\nMAN OVERBOARD FROM VESSEL IN 05-07.5N 047-40.0W\nON 14 DEC. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "cancel_date": "2020-01-03T12:57:00+00:00",
     "valid_from": "2019-12-14T23:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-03T12:57:00+00:00",
     "summary": null
   }
 }

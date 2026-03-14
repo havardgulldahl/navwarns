@@ -7,13 +7,16 @@
     "raw_dtg": "011815Z JAN 12",
     "msg_id": "HYDROARC 1/12(42)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 9/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BARENTS SEA.\nCHART 42740\nFISHING NETS ANCHORED IN AREA BETWEEN\n68-52N 69-10N AND 042-33E 043-25E.",
+    "cancel_date": "2013-02-17T09:16:00+00:00",
     "valid_from": "2012-01-01T18:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-02-17T09:16:00+00:00",
     "summary": null
   }
 }

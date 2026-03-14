@@ -41,13 +41,16 @@
     "raw_dtg": "121716Z MAR 18",
     "msg_id": "HYDROARC 881/18(55)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 991/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\nCHART 55140.\nNAVIGATION PROHIBITED 130900Z MAR UNTIL FURTHER\nNOTICE IN AREA BOUND BY\n44-23.2N 033-46.6E, 44-23.2N 033-47.9E,\n44-19.2N 033-47.9E, 44-19.2N 033-43.2E,\n44-23.2N 033-43.2E, 44-23.2N 033-45.5E.",
+    "cancel_date": "2018-03-23T14:27:00+00:00",
     "valid_from": "2018-03-12T17:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-03-23T14:27:00+00:00",
     "summary": null
   }
 }

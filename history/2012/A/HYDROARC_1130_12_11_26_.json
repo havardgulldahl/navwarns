@@ -13,13 +13,17 @@
     "raw_dtg": "261534Z MAY 12",
     "msg_id": "HYDROARC 1130/12(11,26)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 291532Z MAY",
+      "HYDROARC 1133/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "STRAITS OF FLORIDA.\n1. DERELICT 16 FOOT VESSEL, WHITE HULL, ADRIFT\n   IN 24-13.4N 079-25.0W AT 260844Z MAY.\n   REPORTS TO U.S. COAST GUARD RCC MIAMI,\n   PHONE: 305 415 6800.\n2. CANCEL THIS MSG 291532Z MAY.",
+    "cancel_date": "2012-05-27T07:06:00+00:00",
     "valid_from": "2012-05-26T15:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-27T07:06:00+00:00",
     "summary": null
   }
 }

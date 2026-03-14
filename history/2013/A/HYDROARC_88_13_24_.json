@@ -13,13 +13,16 @@
     "raw_dtg": "092330Z JAN 13",
     "msg_id": "HYDROARC 88/13(24)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 735/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nCHART 24160\nLAJINHA LIGHT 22-53.4S 042-00.2W UNLIT.",
+    "cancel_date": "2013-03-22T23:15:00+00:00",
     "valid_from": "2013-01-09T23:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-03-22T23:15:00+00:00",
     "summary": null
   }
 }

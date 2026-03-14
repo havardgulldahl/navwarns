@@ -13,13 +13,16 @@
     "raw_dtg": "192246Z AUG 19",
     "msg_id": "HYDROARC 176/19(15)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 213/19"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CORONATION GULF.\nCANADA.\nDNC 28.\n6.3 METER SHOAL IN 68-35.41N 111-01.28W.",
+    "cancel_date": "2019-09-13T15:22:00+00:00",
     "valid_from": "2019-08-19T22:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-09-13T15:22:00+00:00",
     "summary": null
   }
 }

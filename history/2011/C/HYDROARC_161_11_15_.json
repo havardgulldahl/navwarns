@@ -13,13 +13,16 @@
     "raw_dtg": "080012Z SEP 11",
     "msg_id": "HYDROARC 161/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 98/13"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA.\nST. ROCH BASIN.\nCHART 15881\n22 METER SHOAL IN 69-06.49N 094-54.87W.",
+    "cancel_date": "2013-07-27T23:22:00+00:00",
     "valid_from": "2011-09-08T00:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-07-27T23:22:00+00:00",
     "summary": null
   }
 }

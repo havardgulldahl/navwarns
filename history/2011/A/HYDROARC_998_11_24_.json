@@ -123,13 +123,17 @@
     "raw_dtg": "150120Z JUN 11",
     "msg_id": "HYDROARC 998/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 02 AUG",
+      "HYDROARC 1045/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 01 AUG\n   BY M/V ANDREW CHARLES\n   IN AREA BOUND BY\n   26-12.11S 048-21.25W, 26-51.44S 048-43.29W,\n   26-54.44S 048-36.52W, 26-47.40S 048-31.60W,\n   26-12.10S 048-17.49W, 26-13.12S 048-29.37W,\n   26-14.45S 048-30.02W, 26-14.36S 048-17.46W.\n2. CANCEL THIS MSG 02 AUG.",
+    "cancel_date": "2011-06-25T09:00:00+00:00",
     "valid_from": "2011-06-15T01:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-25T09:00:00+00:00",
     "summary": null
   }
 }

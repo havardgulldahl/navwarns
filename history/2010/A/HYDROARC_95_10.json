@@ -7,13 +7,16 @@
     "raw_dtg": "160546Z JAN 10",
     "msg_id": "HYDROARC 95/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 95/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nFRANCE.\nNAVTEX.\nNAVTEX STATION CORSEN OFF AIR.",
+    "cancel_date": "2010-01-16T19:50:00+00:00",
     "valid_from": "2010-01-16T05:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-16T19:50:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "182010Z JUL 18",
     "msg_id": "HYDROARC 158/18(15)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 199/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA.\nDNC 28.\nMCTS IQALUIT REMOTE STATION RESOLUTE\n74-45N 094-58W INOPERATIVE.",
+    "cancel_date": "2018-08-20T23:10:00+00:00",
     "valid_from": "2018-07-18T20:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-08-20T23:10:00+00:00",
     "summary": null
   }
 }

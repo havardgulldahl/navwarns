@@ -13,13 +13,16 @@
     "raw_dtg": "251255Z FEB 14",
     "msg_id": "HYDROARC 586/14(35)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 586/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nSHETLAND ISLANDS.\nCHART 35063\n1. DGPS STATION AT SUMBURGH HEAD LIGHT 59-51.2N 001-16.5W\n   OFF AIR 260800Z TO 261700Z AND 270800Z TO 271400Z FEB.\n2. CANCEL THIS 271500Z FEB 14.",
+    "cancel_date": "2014-02-27T15:00:00+00:00",
     "valid_from": "2014-02-25T12:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-02-27T15:00:00+00:00",
     "summary": null
   }
 }

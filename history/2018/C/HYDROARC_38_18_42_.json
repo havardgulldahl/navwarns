@@ -33,13 +33,16 @@
     "raw_dtg": "270748Z MAR 18",
     "msg_id": "HYDROARC 38/18(42)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 164/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nDNC 22.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V PROFESSOR KURENTSOV TOWING 1500 METER\nLONG CABLE IN AREA BOUND BY\n73-57.12N 045-56.33E, 74-09.23N 047-13.87E,\n74-00.33N 047-33.90E, 73-45.68N 046-26.73E.\nTWO MILE BERTH REQUESTED.",
+    "cancel_date": "2018-07-26T12:55:00+00:00",
     "valid_from": "2018-03-27T07:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-07-26T12:55:00+00:00",
     "summary": null
   }
 }

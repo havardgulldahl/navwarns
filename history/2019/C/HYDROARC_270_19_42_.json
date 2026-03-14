@@ -13,13 +13,16 @@
     "raw_dtg": "290935Z OCT 19",
     "msg_id": "HYDROARC 270/19(42)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 273/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nSUBMERGED OBSTRUCTION IN VICINITY\n68-32.92N 073-39.82E.",
+    "cancel_date": "2019-11-01T15:00:00+00:00",
     "valid_from": "2019-10-29T09:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-11-01T15:00:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,17 @@
     "raw_dtg": "021555Z JUL 12",
     "msg_id": "HYDROARC 1455/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 072230Z JUL",
+      "HYDROARC 1455/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nGUNNERY.\n1. GUNNERY EXERCISES 0430Z TO 2130Z DAILY\n   03 THRU 07 JUL IN AREA BOUND BY\n   44-52.8N 032-54.9E, 44-44.8N 033-05.9E,\n   44-44.8N 033-10.7E, 44-51.6N 033-10.9E.\n2. CANCEL THIS MSG 072230Z JUL.",
+    "cancel_date": "2012-07-07T22:30:00+00:00",
     "valid_from": "2012-07-02T15:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-07T22:30:00+00:00",
     "summary": null
   }
 }

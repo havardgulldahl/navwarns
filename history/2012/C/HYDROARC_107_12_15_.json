@@ -7,13 +7,16 @@
     "raw_dtg": "030740Z AUG 12",
     "msg_id": "HYDROARC 107/12(15)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 201/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nRADIO SERVICES.\nIQALUIT MCTS REMOTE STATION\nKILLINEK 60-25N 064-50W INOPERATIVE.",
+    "cancel_date": "2012-10-07T23:46:00+00:00",
     "valid_from": "2012-08-03T07:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-10-07T23:46:00+00:00",
     "summary": null
   }
 }

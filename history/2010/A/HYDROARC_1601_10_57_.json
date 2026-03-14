@@ -7,13 +7,17 @@
     "raw_dtg": "251717Z AUG 10",
     "msg_id": "HYDROARC 1601/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 281708Z AUG",
+      "HYDROARC 1601/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nGULF OF GUINEA.\n1. 20 FOOT LONG METAL OBJECT ADRIFT\n   VICINITY 03-59N 008-43E AT 251511Z AUG.\n2. CANCEL THIS MSG 281708Z AUG.",
+    "cancel_date": "2010-08-28T17:08:00+00:00",
     "valid_from": "2010-08-25T17:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-28T17:08:00+00:00",
     "summary": null
   }
 }

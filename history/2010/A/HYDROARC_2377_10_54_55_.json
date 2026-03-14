@@ -7,13 +7,17 @@
     "raw_dtg": "091216Z DEC 10",
     "msg_id": "HYDROARC 2377/10(54,55)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 12 DEC",
+      "HYDROARC 2377/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AEGEAN SEA.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 11 DEC\n   BY CABLESHIP TELIRI ALONG TRACKLINE BETWEEN\n   39-49N 026-03E AND 40-09N 026-24E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 12 DEC.",
+    "cancel_date": "2010-12-12T00:01:00+00:00",
     "valid_from": "2010-12-09T12:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-12T00:01:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "080123Z SEP 15",
     "msg_id": "HYDROARC 2223/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2232/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTH COAST.\nDNC 19, DNC 20.\nCHART 35001.\nCAPE WRATH LIGHT 58-37.5N 005-00.0W UNLIT.",
+    "cancel_date": "2015-09-09T06:30:00+00:00",
     "valid_from": "2015-09-08T01:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-09-09T06:30:00+00:00",
     "summary": null
   }
 }

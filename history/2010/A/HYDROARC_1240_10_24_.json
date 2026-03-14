@@ -7,13 +7,17 @@
     "raw_dtg": "012313Z JUL 10",
     "msg_id": "HYDROARC 1240/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 082359Z JUL",
+      "HYDROARC 1240/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 070600Z TO 082300Z JUL\n   IN AREA BOUND BY\n   24-17S 041-49W, 24-35S 041-39W,\n   24-57S 042-27W, 24-39S 042-36W.\n2. CANCEL THIS MSG 082359Z JUL.",
+    "cancel_date": "2010-07-08T23:59:00+00:00",
     "valid_from": "2010-07-01T23:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-07-08T23:59:00+00:00",
     "summary": null
   }
 }

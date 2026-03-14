@@ -13,13 +13,16 @@
     "raw_dtg": "031344Z MAR 16",
     "msg_id": "HYDROARC 532/16(37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 645/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 37166.\nPLATFORM SHAMROCK, 53-28.2N 002-55.3E UNLIT.",
+    "cancel_date": "2016-03-16T12:45:00+00:00",
     "valid_from": "2016-03-03T13:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-03-16T12:45:00+00:00",
     "summary": null
   }
 }

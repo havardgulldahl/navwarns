@@ -13,13 +13,16 @@
     "raw_dtg": "252318Z DEC 20",
     "msg_id": "HYDROARC 3978/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 4000/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nFLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNRELIABLE.",
+    "cancel_date": "2020-12-29T21:13:00+00:00",
     "valid_from": "2020-12-25T23:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-12-29T21:13:00+00:00",
     "summary": null
   }
 }

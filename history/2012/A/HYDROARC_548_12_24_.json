@@ -13,13 +13,17 @@
     "raw_dtg": "091521Z MAR 12",
     "msg_id": "HYDROARC 548/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 121500Z MAR",
+      "HYDROARC 548/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT M/V BLEU CITRON NR92 ADRIFT IN 01-46.52N 028-45.17W\n   AT 080001Z MAR. REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 121500Z MAR.",
+    "cancel_date": "2012-03-11T13:53:00+00:00",
     "valid_from": "2012-03-09T15:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-11T13:53:00+00:00",
     "summary": null
   }
 }

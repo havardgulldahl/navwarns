@@ -13,13 +13,17 @@
     "raw_dtg": "250744Z OCT 11",
     "msg_id": "HYDROARC 1756/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 261700Z OCT",
+      "HYDROARC 1756/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nNGA CHART 35119 (2ND ED).\n1. RATHLIN EAST LIGHT 55-18.1N 006-10.3W\n   UNRELIABLE 0800Z TO 1600Z\n   DAILY 25 AND 26 OCT.\n2. CANCEL THIS MSG 261700Z OCT.",
+    "cancel_date": "2011-10-26T17:00:00+00:00",
     "valid_from": "2011-10-25T07:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-26T17:00:00+00:00",
     "summary": null
   }
 }

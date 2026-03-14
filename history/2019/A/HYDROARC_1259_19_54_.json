@@ -7,13 +7,16 @@
     "raw_dtg": "232106Z APR 19",
     "msg_id": "HYDROARC 1259/19(54)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1494/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\nCHART 54320.\nAKRA SPATHI LIGHT 37-06.7N 24-30.3E UNLIT.",
+    "cancel_date": "2020-05-01T11:44:00+00:00",
     "valid_from": "2019-04-23T21:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-05-01T11:44:00+00:00",
     "summary": null
   }
 }

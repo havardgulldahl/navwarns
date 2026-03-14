@@ -13,13 +13,16 @@
     "raw_dtg": "131546Z FEB 18",
     "msg_id": "HYDROARC 525/18(35,37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 665/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nCHART 35002.\nPLATFORM 44/23, 54-20.0N 002-28.7E UNLIT.",
+    "cancel_date": "2018-02-26T10:19:00+00:00",
     "valid_from": "2018-02-13T15:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-02-26T10:19:00+00:00",
     "summary": null
   }
 }

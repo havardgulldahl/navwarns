@@ -7,13 +7,17 @@
     "raw_dtg": "171611Z OCT 11",
     "msg_id": "HYDROARC 1708/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 13 NOV",
+      "HYDROARC 1708/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 12 NOV\n   BY M/V GEO NATUNA TOWING 4500 METER\n   LONG CABLE IN AREA BOUND BY\n   43-16N 028-12E, 43-16N 028-37E,\n   43-03N 028-37E, 43-03N 028-01E,\n   43-11N 028-01E, 43-11N 028-12E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 13 NOV.",
+    "cancel_date": "2011-11-13T00:01:00+00:00",
     "valid_from": "2011-10-17T16:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-13T00:01:00+00:00",
     "summary": null
   }
 }

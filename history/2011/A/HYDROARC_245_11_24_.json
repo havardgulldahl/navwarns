@@ -37,13 +37,17 @@
     "raw_dtg": "100038Z FEB 11",
     "msg_id": "HYDROARC 245/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 172300Z FEB",
+      "HYDROARC 245/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nNGA CHART 24160 (21ST ED).\n1. NAVIGATION PROHIBITED 0830Z TO 2200Z DAILY\n   15 THRU 17 FEB IN AREA BOUND BY\n   22-58.72S 042-02.15W, 23-01.00S 042-00.00W,\n   23-07.00S 042-00.00W, 23-07.00S 042-04.48W,\n   23-01.20S 042-04.48W.\n2. CANCEL THIS MSG 172300Z FEB.",
+    "cancel_date": "2011-02-17T23:00:00+00:00",
     "valid_from": "2011-02-10T00:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-17T23:00:00+00:00",
     "summary": null
   }
 }

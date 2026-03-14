@@ -7,13 +7,17 @@
     "raw_dtg": "121010Z DEC 10",
     "msg_id": "HYDROARC 2405/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 141800Z DEC",
+      "HYDROARC 2405/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nGUNNERY.\n1. GUNNERY EXERCISES 141500Z TO 141700Z DEC\n   WITHIN 50 MILES OF 32-43N 034-05W.\n2. CANCEL THIS MSG 141800Z DEC.",
+    "cancel_date": "2010-12-14T18:00:00+00:00",
     "valid_from": "2010-12-12T10:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-14T18:00:00+00:00",
     "summary": null
   }
 }

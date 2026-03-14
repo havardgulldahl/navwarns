@@ -7,13 +7,17 @@
     "raw_dtg": "280400Z JAN 11",
     "msg_id": "HYDROARC 15/11(43)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 041550Z FEB",
+      "HYDROARC 15/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BARENTS SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 1350Z TO 1450Z\n   DAILY 01 THRU 04 FEB WITHIN 27 MILES\n   OF 74-01N 027-01E.\n2. CANCEL THIS MSG 041550Z FEB.",
+    "cancel_date": "2011-02-04T15:50:00+00:00",
     "valid_from": "2011-01-28T04:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-04T15:50:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "271600Z JUL 12",
     "msg_id": "HYDROARC 96/12(15)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 106/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nINUVIK MCTS REMOTE STATION CAMBRIDGE BAY\n69-07.0N 105-03.2W INOPERATIVE.",
+    "cancel_date": "2012-08-02T01:50:00+00:00",
     "valid_from": "2012-07-27T16:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-08-02T01:50:00+00:00",
     "summary": null
   }
 }

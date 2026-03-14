@@ -7,13 +7,17 @@
     "raw_dtg": "111533Z JUN 12",
     "msg_id": "HYDROARC 1250/12(54,56)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 152330Z JUN",
+      "HYDROARC 1250/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 130130Z TO 130430Z,\n   130730Z TO 131030Z, 131200Z TO 131500Z,\n   140930Z TO 141230Z AND 151930Z TO 152230Z JUN\n   IN AREAS BOUND BY:\n   A. 34-25N 034-00E, 34-31N 034-10E,\n      34-25N 034-20E, 34-00N 034-08E,\n      34-10N 034-00E.\n   B. 34-23N 034-24E, 34-15N 034-36E,\n      34-00N 034-33E, 34-00N 034-14E.\n2. CANCEL THIS MSG 152330Z JUN.",
+    "cancel_date": "2012-06-15T23:30:00+00:00",
     "valid_from": "2012-06-11T15:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-15T23:30:00+00:00",
     "summary": null
   }
 }

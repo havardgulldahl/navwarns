@@ -13,13 +13,16 @@
     "raw_dtg": "070531Z MAY 12",
     "msg_id": "HYDROARC 964/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 965/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nCHART 35072\nSUTHER NESS LIGHT 60-22.2N 001-00.0W UNLIT.",
+    "cancel_date": "2012-05-07T08:07:00+00:00",
     "valid_from": "2012-05-07T05:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-07T08:07:00+00:00",
     "summary": null
   }
 }

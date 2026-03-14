@@ -7,13 +7,16 @@
     "raw_dtg": "012135Z JUN 12",
     "msg_id": "HYDROARC 1170/12(35,36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1176/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nNAVTEX.\nNAVTEX STATION PORTPATRICK OFF AIR.",
+    "cancel_date": "2012-06-02T09:52:00+00:00",
     "valid_from": "2012-06-01T21:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-02T09:52:00+00:00",
     "summary": null
   }
 }

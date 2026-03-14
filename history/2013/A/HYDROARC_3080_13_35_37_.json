@@ -13,13 +13,16 @@
     "raw_dtg": "010903Z DEC 13",
     "msg_id": "HYDROARC 3080/13(35,37)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3093/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nCHART 35006\nDGPS STATION AT FLAMBOROUGH HEAD LIGHT\n54-07.0N 000-04.9W UNRELIABLE.",
+    "cancel_date": "2013-12-02T16:53:00+00:00",
     "valid_from": "2013-12-01T09:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-12-02T16:53:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "082322Z SEP 15",
     "msg_id": "HYDROARC 266/15(15)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 295/15"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nSPENCE BAY.\nDNC 28.\nCHART 15880.\n9.3 METER SHOAL REPORTED IN 69-23.57N 094-02.41W.",
+    "cancel_date": "2015-09-20T08:35:00+00:00",
     "valid_from": "2015-09-08T23:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-09-20T08:35:00+00:00",
     "summary": null
   }
 }

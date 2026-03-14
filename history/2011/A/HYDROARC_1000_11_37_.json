@@ -7,13 +7,17 @@
     "raw_dtg": "151411Z JUN 11",
     "msg_id": "HYDROARC 1000/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 02 AUG",
+      "HYDROARC 1000/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 01 AUG\n   BY CABLESHIP ODYSSEY EXPLORER IN AREA BOUND BY\n   47-40N 006-18W, 47-32N 005-54W,\n   47-16N 006-07W, 47-25N 006-30W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 AUG.",
+    "cancel_date": "2011-08-02T00:01:00+00:00",
     "valid_from": "2011-06-15T14:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-02T00:01:00+00:00",
     "summary": null
   }
 }

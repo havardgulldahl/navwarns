@@ -7,13 +7,17 @@
     "raw_dtg": "192313Z NOV 10",
     "msg_id": "HYDROARC 2214/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 260101Z DEC",
+      "HYDROARC 2267/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 1339Z TO 0001Z\n   COMMENCING DAILY 25 NOV THRU 25 DEC\n   IN AREA BOUND BY\n   00-13N 002-13E, 01-35S 002-00E,\n   00-29N 014-36W, 02-17N 014-23W.\n2. CANCEL THIS MSG 260101Z DEC.",
+    "cancel_date": "2010-11-26T20:47:00+00:00",
     "valid_from": "2010-11-19T23:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-26T20:47:00+00:00",
     "summary": null
   }
 }

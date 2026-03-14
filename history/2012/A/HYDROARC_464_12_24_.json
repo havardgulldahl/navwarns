@@ -13,13 +13,16 @@
     "raw_dtg": "011349Z MAR 12",
     "msg_id": "HYDROARC 464/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 478/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nCHART 24100\nMOSTARDAS LIGHT 31-14.9S 050-54.4W UNLIT.",
+    "cancel_date": "2012-03-02T09:52:00+00:00",
     "valid_from": "2012-03-01T13:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-02T09:52:00+00:00",
     "summary": null
   }
 }

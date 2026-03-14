@@ -13,13 +13,16 @@
     "raw_dtg": "251528Z APR 13",
     "msg_id": "HYDROARC 1035/13(35,37)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1098/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nCHART 35006, 37059\nFOG SIGNAL AT FLAMBOROUGH HEAD LIGHT\n54-07.0N 000-04.8W INOPERATIVE.",
+    "cancel_date": "2013-05-01T20:44:00+00:00",
     "valid_from": "2013-04-25T15:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-05-01T20:44:00+00:00",
     "summary": null
   }
 }

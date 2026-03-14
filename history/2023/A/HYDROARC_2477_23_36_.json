@@ -13,13 +13,16 @@
     "raw_dtg": "301714Z OCT 23",
     "msg_id": "HYDROARC 2477/23(36)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2522/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nNAVTEX STATION PORTPATRICK (O) 54-50.63N 005-07.46W\nUNRELIABLE 310800Z OCT UNTIL FURTHER NOTICE.",
+    "cancel_date": "2023-11-04T10:38:00+00:00",
     "valid_from": "2023-10-30T17:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-11-04T10:38:00+00:00",
     "summary": null
   }
 }

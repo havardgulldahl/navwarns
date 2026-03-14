@@ -13,13 +13,16 @@
     "raw_dtg": "122328Z SEP 10",
     "msg_id": "HYDROARC 80/10(15)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 82/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nCORONATION GULF.\nSALVAGE OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE IN 67-58.27N 112-40.34W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2010-09-15T00:04:00+00:00",
     "valid_from": "2010-09-12T23:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-15T00:04:00+00:00",
     "summary": null
   }
 }

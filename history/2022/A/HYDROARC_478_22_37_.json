@@ -13,13 +13,16 @@
     "raw_dtg": "181651Z FEB 22",
     "msg_id": "HYDROARC 478/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 532/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\n1. EAST GOODWIN LIGHTFLOAT OFF STATION IN VICINITY\n   51-13.3N 001-36.4E AND RACON INOPERATIVE.\n2. CANCEL MSG 211615Z FEB 22.",
+    "cancel_date": "2022-02-22T14:33:00+00:00",
     "valid_from": "2022-02-18T16:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-02-22T14:33:00+00:00",
     "summary": null
   }
 }

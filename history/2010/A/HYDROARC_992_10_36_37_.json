@@ -13,13 +13,17 @@
     "raw_dtg": "311748Z MAY 10",
     "msg_id": "HYDROARC 992/10(36,37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 031700Z JUN",
+      "HYDROARC 992/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHWEST COAST.\nENGLISH CHANNEL.\nNGA CHART 36005 (2ND ED).\n1. DGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W\n   OFF AIR 0800Z TO 1600Z DAILY 01 THRU 03 JUN.\n2. CANCEL THIS MSG 031700Z JUN.",
+    "cancel_date": "2010-06-03T17:00:00+00:00",
     "valid_from": "2010-05-31T17:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-03T17:00:00+00:00",
     "summary": null
   }
 }

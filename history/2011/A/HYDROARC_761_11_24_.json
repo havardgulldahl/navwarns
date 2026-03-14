@@ -13,13 +13,16 @@
     "raw_dtg": "050845Z MAY 11",
     "msg_id": "HYDROARC 761/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 775/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nNGA CHART 24008 (42ND ED).\nARARIPE LIGHT 16-08.1S 038-57.9W UNLIT.",
+    "cancel_date": "2011-05-07T11:41:00+00:00",
     "valid_from": "2011-05-05T08:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-07T11:41:00+00:00",
     "summary": null
   }
 }

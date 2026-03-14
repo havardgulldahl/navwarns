@@ -27,13 +27,17 @@
     "raw_dtg": "260023Z JUN 12",
     "msg_id": "HYDROARC 1388/12(54)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 07 AUG",
+      "HYDROARC 1496/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCRETE-EAST COAST.\n1. CABLE REPAIR OPERATIONS IN PROGRESS UNTIL\n   06 AUG BY CABLESHIP RAYMOND CROZE\n   ALONG TRACKLINE JOINING\n   35-12.60N 026-27.06E, 35-12.36N 026-24.09E,\n   35-15.25N 026-23.39E, 35-11.40N 026-16.70E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 07 AUG.",
+    "cancel_date": "2012-07-07T09:50:00+00:00",
     "valid_from": "2012-06-26T00:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-07T09:50:00+00:00",
     "summary": null
   }
 }

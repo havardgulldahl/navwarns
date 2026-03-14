@@ -7,13 +7,17 @@
     "raw_dtg": "171140Z JUN 10",
     "msg_id": "HYDROARC 1128/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 24 JUL",
+      "HYDROARC 1128/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SURVEY OPERATIONS IN PROGRESS\n   UNTIL 23 JUL BY M/V ALBATROS I\n   IN AREA BETWEEN\n   31-48N 31-29N AND 030-21E 030-00E.\n2. CANCEL THIS MSG 24 JUL.",
+    "cancel_date": "2010-07-24T00:01:00+00:00",
     "valid_from": "2010-06-17T11:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-07-24T00:01:00+00:00",
     "summary": null
   }
 }

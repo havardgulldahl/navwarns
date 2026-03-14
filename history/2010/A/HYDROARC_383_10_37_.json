@@ -13,13 +13,17 @@
     "raw_dtg": "022105Z MAR 10",
     "msg_id": "HYDROARC 383/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 052100Z MAR",
+      "HYDROARC 383/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\n1. TRAWL ADRIFT VICINITY 48-44.0N 005-41.0W\n   AT 021800Z MAR.\n2. CANCEL THIS MSG 052100Z MAR.",
+    "cancel_date": "2010-03-05T21:00:00+00:00",
     "valid_from": "2010-03-02T21:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-05T21:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "170647Z MAR 11",
     "msg_id": "HYDROARC 436/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 200645Z MAR",
+      "HYDROARC 436/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. DERELICT VESSEL ADRIFT IN 21-14.35S 039-57.41W\n   AT 151930Z MAR.\n2. CANCEL THIS MSG 200645Z MAR.",
+    "cancel_date": "2011-03-20T06:45:00+00:00",
     "valid_from": "2011-03-17T06:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-20T06:45:00+00:00",
     "summary": null
   }
 }

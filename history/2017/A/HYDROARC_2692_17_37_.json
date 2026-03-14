@@ -13,13 +13,16 @@
     "raw_dtg": "030740Z SEP 17",
     "msg_id": "HYDROARC 2692/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2863/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37057.\nALL NAVIGATIONAL AIDS AT PLATFORM 48/17C,\n53-21.2N 001-18.3E INOPERATIVE.",
+    "cancel_date": "2017-09-15T10:48:00+00:00",
     "valid_from": "2017-09-03T07:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-09-15T10:48:00+00:00",
     "summary": null
   }
 }

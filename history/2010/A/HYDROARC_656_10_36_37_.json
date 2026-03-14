@@ -7,13 +7,16 @@
     "raw_dtg": "152342Z APR 10",
     "msg_id": "HYDROARC 656/10(36,37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 690/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHWEST COAST.\nRADIO SERVICES.\nMRCC FALMOUTH 50-09N 005-03W MF RT AND DSC INOPERATIVE.",
+    "cancel_date": "2010-04-20T07:31:00+00:00",
     "valid_from": "2010-04-15T23:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-20T07:31:00+00:00",
     "summary": null
   }
 }

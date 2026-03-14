@@ -7,13 +7,17 @@
     "raw_dtg": "170701Z APR 12",
     "msg_id": "HYDROARC 27/12(42)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 211400Z APR",
+      "HYDROARC 27/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "KARA SEA.\nBARENTS SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 0530Z TO 1300Z DAILY\n   19 THRU 21 APR IN AREA BOUND BY\n   69-55N 058-40E, 70-30N 057-40E,\n   70-45N 058-25E, 70-40N 059-30E,\n   69-52N 061-06E, 69-27N 060-18E.\n2. CANCEL THIS MSG 211400Z APR.",
+    "cancel_date": "2012-04-21T14:00:00+00:00",
     "valid_from": "2012-04-17T07:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-21T14:00:00+00:00",
     "summary": null
   }
 }

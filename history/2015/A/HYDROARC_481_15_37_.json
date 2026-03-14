@@ -13,13 +13,16 @@
     "raw_dtg": "270349Z FEB 15",
     "msg_id": "HYDROARC 481/15(37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 500/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTHERN NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37057.\nRACON AT DUDGEON BUOY 53-16.6N 001-17.0E INOPERATIVE.",
+    "cancel_date": "2015-02-28T15:20:00+00:00",
     "valid_from": "2015-02-27T03:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-02-28T15:20:00+00:00",
     "summary": null
   }
 }

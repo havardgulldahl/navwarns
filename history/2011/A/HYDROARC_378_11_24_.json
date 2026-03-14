@@ -7,13 +7,17 @@
     "raw_dtg": "070100Z MAR 11",
     "msg_id": "HYDROARC 378/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 19 MAR",
+      "HYDROARC 378/11"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. OCEANOGRAPHIC OPERATIONS 10 THRU 18 MAR\n   BY M/V AMORIM DO VALLE IN AREA BETWEEN\n   26-00.00S 27-12.48S AND 048-36.00W 046-40.16W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 19 MAR.",
+    "cancel_date": "2011-03-19T00:01:00+00:00",
     "valid_from": "2011-03-07T01:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-19T00:01:00+00:00",
     "summary": null
   }
 }

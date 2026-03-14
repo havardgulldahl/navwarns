@@ -37,13 +37,16 @@
     "raw_dtg": "260003Z MAY 21",
     "msg_id": "HYDROARC 1405/21(24)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 790/22"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nSHOAL DEPTHS REPORTED IN AREA BOUND BY\n01-11.37N 049-33.75W, 01-12.16N 049-33.84W,\n01-11.67N 049-34.91W, 01-10.18N 049-35.61W,\n01-09.97N 049-34.64W.",
+    "cancel_date": "2022-03-18T15:09:00+00:00",
     "valid_from": "2021-05-26T00:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-03-18T15:09:00+00:00",
     "summary": null
   }
 }

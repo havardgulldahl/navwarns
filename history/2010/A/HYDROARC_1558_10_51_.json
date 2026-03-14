@@ -7,13 +7,17 @@
     "raw_dtg": "171406Z AUG 10",
     "msg_id": "HYDROARC 1558/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 07 SEP",
+      "HYDROARC 1558/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nGULF OF CADIZ.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 06 SEP\n   BY M/V TELIRI WITH SUBMERSIBLE IN AREA BETWEEN\n   35-50.9N 36-15.8N AND 006-07.9W 006-52.6W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 07 SEP.",
+    "cancel_date": "2010-09-07T00:01:00+00:00",
     "valid_from": "2010-08-17T14:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-07T00:01:00+00:00",
     "summary": null
   }
 }

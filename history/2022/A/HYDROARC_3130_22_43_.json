@@ -13,13 +13,16 @@
     "raw_dtg": "052346Z DEC 22",
     "msg_id": "HYDROARC 3130/22(43)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3165/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORWEGIAN SEA.\nDNC 20.\n500 METER SAFETY ZONE ESTABLISHED IN 61-02.05N 001-41.97E.",
+    "cancel_date": "2022-12-09T14:27:00+00:00",
     "valid_from": "2022-12-05T23:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-12-09T14:27:00+00:00",
     "summary": null
   }
 }

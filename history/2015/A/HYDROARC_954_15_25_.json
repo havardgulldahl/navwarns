@@ -13,13 +13,16 @@
     "raw_dtg": "210139Z APR 15",
     "msg_id": "HYDROARC 954/15(25)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 974/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nDNC 01.\nMAN OVERBOARD VICINITY 23-54.60N 045-27.85W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "cancel_date": "2015-04-23T01:27:00+00:00",
     "valid_from": "2015-04-21T01:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-04-23T01:27:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "081701Z JAN 18",
     "msg_id": "HYDROARC 93/18(35)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 151/18"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nCHART 35001.\nSULE SKERRY LIGHT 59-05.1N 004-24.5W INOPERATIVE.",
+    "cancel_date": "2018-01-13T17:15:00+00:00",
     "valid_from": "2018-01-08T17:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-01-13T17:15:00+00:00",
     "summary": null
   }
 }

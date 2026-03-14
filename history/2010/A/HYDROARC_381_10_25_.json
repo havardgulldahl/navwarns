@@ -7,13 +7,17 @@
     "raw_dtg": "021551Z MAR 10",
     "msg_id": "HYDROARC 381/10(25)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 051446Z MAR",
+      "HYDROARC 390/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN CARIBBEAN SEA.\nWEST INDIES.\n1. CONTAINERS ADRIFT IN AREA BETWEEN\n   SAINT LUCIA (13-54N 061-07W) AND\n   GUADELOUPE (16-07N 061-48W).\n2. CANCEL THIS MSG 051446Z MAR.",
+    "cancel_date": "2010-03-03T11:34:00+00:00",
     "valid_from": "2010-03-02T15:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-03T11:34:00+00:00",
     "summary": null
   }
 }

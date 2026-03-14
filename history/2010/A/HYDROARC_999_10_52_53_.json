@@ -7,13 +7,17 @@
     "raw_dtg": "010732Z JUN 10",
     "msg_id": "HYDROARC 999/10(52,53)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 032330Z JUN",
+      "HYDROARC 999/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nORDNANCE.\n1. BOMBING EXERCISES 031530Z TO 032230Z JUN\n   IN AREA BOUND BY\n   40-00N 005-00E, 40-00N 007-00E,\n   37-30N 007-00E, 37-30N 004-00E,\n   39-00N 004-00E, 39-00N 005-00E.\n2. CANCEL THIS MSG 032330Z JUN.",
+    "cancel_date": "2010-06-03T23:30:00+00:00",
     "valid_from": "2010-06-01T07:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-03T23:30:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "310910Z JAN 10",
     "msg_id": "HYDROARC 196/10(53,54)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 030910Z FEB",
+      "HYDROARC 196/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IONIAN SEA.\n1. DERELICT 34 METER M/V TYNDALIS, BLACK HULL,\n   ADRIFT IN 37-51.0N 016-11.7E ON 31 JAN.\n   REPORTS TO MRCC ROME, INMARSAT-C: 424744220,\n   PHONE: 390 6592 4145, FAX: 390 6592 2737 OR\n   MRSC REGGIO CALABRIA, PHONE: 3909 6565 0090,\n   FAX: 390 9656 5633.\n2. CANCEL THIS MSG 030910Z FEB.",
+    "cancel_date": "2010-02-03T09:10:00+00:00",
     "valid_from": "2010-01-31T09:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-03T09:10:00+00:00",
     "summary": null
   }
 }

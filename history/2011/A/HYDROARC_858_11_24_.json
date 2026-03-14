@@ -7,13 +7,17 @@
     "raw_dtg": "212002Z MAY 11",
     "msg_id": "HYDROARC 858/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 250359Z MAY",
+      "HYDROARC 858/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 250259Z MAY\n   BY M/V GECO DIAMOND TOWING 250 METER LONG\n   CABLE IN AREA BOUND BY\n   19-46S 039-32W, 19-57S 039-49W,\n   20-21S 039-28W, 20-09S 039-08W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 250359Z MAY.",
+    "cancel_date": "2011-05-25T03:59:00+00:00",
     "valid_from": "2011-05-21T20:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-25T03:59:00+00:00",
     "summary": null
   }
 }

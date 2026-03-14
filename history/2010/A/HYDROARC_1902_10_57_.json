@@ -13,13 +13,17 @@
     "raw_dtg": "061733Z OCT 10",
     "msg_id": "HYDROARC 1902/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 091730Z OCT",
+      "HYDROARC 1902/10"
+    ],
     "hazard_type": "ice and icebergs",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nICE.\n1. ICEBERG REPORTED VICINITY 49-00.5S 015-20.1W\n   AT 061619Z OCT.\n2. CANCEL THIS MSG 091730Z OCT.",
+    "cancel_date": "2010-10-09T17:30:00+00:00",
     "valid_from": "2010-10-06T17:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-09T17:30:00+00:00",
     "summary": null
   }
 }

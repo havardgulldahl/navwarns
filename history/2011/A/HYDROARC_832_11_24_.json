@@ -7,13 +7,17 @@
     "raw_dtg": "170059Z MAY 11",
     "msg_id": "HYDROARC 832/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 211900Z MAY",
+      "HYDROARC 832/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1300Z TO 1800Z\n   18 THRU 21 MAY IN AREA BETWEEN\n   03-30S 03-28S AND 038-40W 038-35W.\n2. CANCEL THIS MSG 211900Z MAY.",
+    "cancel_date": "2011-05-21T19:00:00+00:00",
     "valid_from": "2011-05-17T00:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-21T19:00:00+00:00",
     "summary": null
   }
 }

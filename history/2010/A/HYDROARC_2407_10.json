@@ -7,13 +7,17 @@
     "raw_dtg": "121225Z DEC 10",
     "msg_id": "HYDROARC 2407/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 172015Z DEC",
+      "HYDROARC 2407/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GPS SATELLITE SYSTEM.\n1. PRN 04 UNUSABLE 170715Z TO 171915Z DEC.\n2. CANCEL THIS MSG 172015Z DEC.",
+    "cancel_date": "2010-12-17T20:15:00+00:00",
     "valid_from": "2010-12-12T12:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-17T20:15:00+00:00",
     "summary": null
   }
 }

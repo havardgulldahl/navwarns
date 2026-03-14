@@ -13,13 +13,16 @@
     "raw_dtg": "270845Z JAN 15",
     "msg_id": "HYDROARC 227/15(52)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 375/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52060.\nDNC 08.\nCAP DE L'AIGUILLE LIGHT 35-52.6N 000-29.4W UNLIT.",
+    "cancel_date": "2015-02-13T13:25:00+00:00",
     "valid_from": "2015-01-27T08:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-02-13T13:25:00+00:00",
     "summary": null
   }
 }

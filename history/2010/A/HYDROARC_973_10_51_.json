@@ -7,13 +7,17 @@
     "raw_dtg": "290719Z MAY 10",
     "msg_id": "HYDROARC 973/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 310330Z MAY",
+      "HYDROARC 973/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nAZORES.\nORDNANCE.\n1. BOMBING EXERCISES 291300Z TO 300230Z\n   AND 301300Z TO 310230Z MAY IN AREAS:\n   A. BOUND BY\n      38-00N 029-00W, 35-00N 029-00W,\n      35-00N 026-00W, 34-00N 026-00W,\n      34-00N 024-00W, 36-30N 024-00W,\n      36-30N 026-00W, 37-00N 026-00W,\n      37-00N 027-00W, 38-00N 027-00W.\n   B. BETWEEN\n      39-00N 41-00N AND 022-00W 026-00W.\n2. CANCEL THIS MSG 310330Z MAY.",
+    "cancel_date": "2010-05-31T03:30:00+00:00",
     "valid_from": "2010-05-29T07:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-31T03:30:00+00:00",
     "summary": null
   }
 }

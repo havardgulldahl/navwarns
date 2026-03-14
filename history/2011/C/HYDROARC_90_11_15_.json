@@ -7,13 +7,16 @@
     "raw_dtg": "060051Z JUL 11",
     "msg_id": "HYDROARC 90/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 93/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA.\nNAVTEX.\nNAVTEX STATION IQALUIT INOPERATIVE.",
+    "cancel_date": "2011-07-07T00:06:00+00:00",
     "valid_from": "2011-07-06T00:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-07T00:06:00+00:00",
     "summary": null
   }
 }

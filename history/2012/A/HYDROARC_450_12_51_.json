@@ -7,13 +7,17 @@
     "raw_dtg": "291103Z FEB 12",
     "msg_id": "HYDROARC 450/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 05 MAR",
+      "HYDROARC 450/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 04 MAR\n   BY M/V POLARCUS NAILA TOWING TEN 8000 METER\n   LONG CABLES IN AREA BETWEEN\n   36-14.9N 36-44.9N AND 007-45.1W 009-00.1W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 05 MAR.",
+    "cancel_date": "2012-03-05T00:01:00+00:00",
     "valid_from": "2012-02-29T11:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-05T00:01:00+00:00",
     "summary": null
   }
 }

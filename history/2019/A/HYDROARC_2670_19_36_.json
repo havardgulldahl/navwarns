@@ -13,13 +13,16 @@
     "raw_dtg": "010840Z SEP 19",
     "msg_id": "HYDROARC 2670/19(36)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2709/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nENGLAND.\nDNC 20.\nLUNDY ISLAND LIGHT 51-12.1N 004-40.6W UNRELIABLE.",
+    "cancel_date": "2019-09-04T16:55:00+00:00",
     "valid_from": "2019-09-01T08:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-09-04T16:55:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "252325Z APR 16",
     "msg_id": "HYDROARC 50/16(42)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 95/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nDNC 22.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V PROFESSOR KURENTSOV TOWING 150 METER\nLONG CABLE IN AREA BOUND BY\n76-00N 048-00E, 76-00N 058-00E,\n75-20N 054-50E, 72-44N 051-45E,\n72-05N 051-00E, 72-00N 051-00E,\n72-00N 048-00E.\nTWO MILE BERTH REQUESTED.",
+    "cancel_date": "2016-06-15T13:15:00+00:00",
     "valid_from": "2016-04-25T23:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-06-15T13:15:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "110406Z JAN 23",
     "msg_id": "HYDROARC 95/23(24)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 115/23"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\nDERELICT SUBMERSIBLE UNREPORTED, LAST KNOWN\nPOSITION IN 23-37.80S 039-41.10W AT 082207Z JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "cancel_date": "2023-01-13T17:50:00+00:00",
     "valid_from": "2023-01-11T04:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-01-13T17:50:00+00:00",
     "summary": null
   }
 }

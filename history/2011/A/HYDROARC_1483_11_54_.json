@@ -61,13 +61,17 @@
     "raw_dtg": "151248Z SEP 11",
     "msg_id": "HYDROARC 1483/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 NOV",
+      "HYDROARC 1493/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nTURKEY-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 15 NOV BY\n   M/V SHARONA, M/V GLOMAR VENTURE AND\n   M/V THOR BEAMER IN AREA BOUND BY\n   34-30.85N 029-29.53E, 35-53.67N 029-32.53E,\n   36-14.83N 030-15.15E, 36-08.47N 030-25.18E,\n   36-45.70N 030-41.20E, 36-45.97N 031-18.50E,\n   36-30.55N 032-01.22E, 36-04.18N 032-28.78E,\n   35-35.93N 032-41.08E, 35-16.00N 032-00.00E,\n   34-23.13N 031-41.83E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 NOV.",
+    "cancel_date": "2011-09-16T15:53:00+00:00",
     "valid_from": "2011-09-15T12:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-16T15:53:00+00:00",
     "summary": null
   }
 }

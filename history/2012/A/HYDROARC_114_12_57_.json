@@ -27,13 +27,17 @@
     "raw_dtg": "141903Z JAN 12",
     "msg_id": "HYDROARC 114/12(57)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 17 JAN",
+      "HYDROARC 114/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nGABON.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 16 JAN BY\n   CABLESHIP ILE DE SEIN ALONG TRACKLINE JOINING\n   00-25.4N 009-18.3E, 00-25.3N 009-16.7E,\n   00-25.3N 009-15.2E, 00-23.9N 009-14.7E.\n2. CANCEL THIS MSG 17 JAN.",
+    "cancel_date": "2012-01-17T00:01:00+00:00",
     "valid_from": "2012-01-14T19:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-17T00:01:00+00:00",
     "summary": null
   }
 }

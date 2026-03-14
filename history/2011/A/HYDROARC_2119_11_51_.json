@@ -47,13 +47,17 @@
     "raw_dtg": "101836Z DEC 11",
     "msg_id": "HYDROARC 2119/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 22 DEC",
+      "HYDROARC 2119/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 21 DEC\n   BY CABLESHIP BLUE CASTOR ALONG TRACKLINE JOINING\n   36-15.87N 006-47.76W, 36-10.58N 006-46.92W,\n   36-04.08N 006-44.55W, 36-59.81N 006-41.04W,\n   35-57.62N 006-39.18W, 35-53.56N 006-34.36W,\n   35-51.15N 006-32.39W, 35-47.60N 006-28.75W,\n   35-28.81N 006-02.74W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 22 DEC.",
+    "cancel_date": "2011-12-22T00:01:00+00:00",
     "valid_from": "2011-12-10T18:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-22T00:01:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "200412Z JUN 11",
     "msg_id": "HYDROARC 1018/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 231700Z JUN",
+      "HYDROARC 1018/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C CHAIN LESSAY, RATES 6731 AND 7499\n   OFF AIR 0630Z TO 1600Z DAILY 22 AND 23 JUN.\n2. CANCEL THIS MSG 231700Z JUN.",
+    "cancel_date": "2011-06-23T17:00:00+00:00",
     "valid_from": "2011-06-20T04:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-23T17:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "050104Z MAR 21",
     "msg_id": "HYDROARC 635/21(36)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 642/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nIRELAND.\nDNC 19.\nRACON AT HOOK HEAD LIGHT 52-07.3N 006-55.8W\nUNRELIABLE.",
+    "cancel_date": "2021-03-05T09:13:00+00:00",
     "valid_from": "2021-03-05T01:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-03-05T09:13:00+00:00",
     "summary": null
   }
 }

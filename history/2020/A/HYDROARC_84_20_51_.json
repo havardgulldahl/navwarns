@@ -13,13 +13,16 @@
     "raw_dtg": "101523Z JAN 20",
     "msg_id": "HYDROARC 84/20(51)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 95/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "STRAIT OF GIBRALTAR.\nSPAIN.\nDNC 08.\nNAVTEX STATION TARIFA (G) 36-02.9N 005-33.6W\nOFF AIR.",
+    "cancel_date": "2020-01-11T10:27:00+00:00",
     "valid_from": "2020-01-10T15:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-11T10:27:00+00:00",
     "summary": null
   }
 }

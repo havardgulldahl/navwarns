@@ -33,13 +33,17 @@
     "raw_dtg": "141316Z FEB 11",
     "msg_id": "HYDROARC 269/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 161800Z FEB",
+      "HYDROARC 269/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0500Z TO 1700Z DAILY\n   15 AND 16 FEB IN AREA BOUND BY\n   39-00.0N 025-48.0E, 38-53.5N 026-10.0E,\n   38-42.7N 026-10.0E, 38-45.0N 025-48.0E.\n2. CANCEL THIS MSG 161800Z FEB.",
+    "cancel_date": "2011-02-16T18:00:00+00:00",
     "valid_from": "2011-02-14T13:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-16T18:00:00+00:00",
     "summary": null
   }
 }

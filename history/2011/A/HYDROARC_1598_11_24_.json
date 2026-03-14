@@ -13,13 +13,16 @@
     "raw_dtg": "010045Z OCT 11",
     "msg_id": "HYDROARC 1598/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1653/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nNGA CHART 24270 (3RD ED).\nILHA MAIAU LIGHT 01-16.9S 044-54.3W UNLIT.",
+    "cancel_date": "2011-10-08T00:15:00+00:00",
     "valid_from": "2011-10-01T00:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-08T00:15:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "111551Z JUL 22",
     "msg_id": "HYDROARC 152/22(42)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 323/23"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "KARA SEA.\nDNC 22.\nSUB-SURFACE SCIENTIFIC MOORING, LEAST DEPTH\n15 METERS, ESTABLISHED UNTIL FURTHER NOTICE\nIN 73-00.82N 066-03.29E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2023-12-17T09:00:00+00:00",
     "valid_from": "2022-07-11T15:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-12-17T09:00:00+00:00",
     "summary": null
   }
 }

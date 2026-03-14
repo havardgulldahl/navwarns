@@ -13,13 +13,16 @@
     "raw_dtg": "280025Z SEP 12",
     "msg_id": "HYDROARC 2259/12(36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2268/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 36016\nPILLAR ROCK POINT LIGHT 55-31.0N 005-03.6W UNLIT.",
+    "cancel_date": "2012-09-28T15:30:00+00:00",
     "valid_from": "2012-09-28T00:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-09-28T15:30:00+00:00",
     "summary": null
   }
 }

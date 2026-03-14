@@ -41,13 +41,17 @@
     "raw_dtg": "271248Z MAY 11",
     "msg_id": "HYDROARC 890/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 28 JUL",
+      "HYDROARC 890/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AZOV SEA.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   27 JUL BY M/V EKO AND M/V SEYS 1\n   IN AREA BOUND BY\n   47-00.05N 038-21.00E, 47-03.80N 038-21.30E,\n   47-01.65N 038-30.40E, 46-43.85N 038-16.15E,\n   46-41.25N 037-44.90E, 46-42.15N 037-35.30E.\n2. CANCEL THIS MSG 28 JUL.",
+    "cancel_date": "2011-07-28T00:00:00+00:00",
     "valid_from": "2011-05-27T12:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-28T00:00:00+00:00",
     "summary": null
   }
 }

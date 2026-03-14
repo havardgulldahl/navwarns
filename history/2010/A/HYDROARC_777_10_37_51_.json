@@ -7,13 +7,17 @@
     "raw_dtg": "032308Z MAY 10",
     "msg_id": "HYDROARC 777/10(37,51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 061300Z MAY",
+      "HYDROARC 777/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSPAIN-NORTH COAST.\nPORTUGAL-WEST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES:\n   A. 050400Z TO 051100Z MAY IN AREA BOUND BY\n      44-27N 007-20W, 44-19N 005-18W,\n      43-50N 005-18W, 43-57N 007-20W.\n   B. 060400Z TO 061200Z MAY IN AREA BOUND BY\n      40-22N 010-24W, 40-22N 009-19W,\n      39-38N 009-25W, 39-27N 009-40W,\n      39-03N 009-43W, 39-03N 010-24W.\n2. CANCEL THIS MSG 061300Z MAY.",
+    "cancel_date": "2010-05-06T13:00:00+00:00",
     "valid_from": "2010-05-03T23:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-06T13:00:00+00:00",
     "summary": null
   }
 }

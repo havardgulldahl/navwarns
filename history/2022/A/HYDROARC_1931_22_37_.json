@@ -13,13 +13,16 @@
     "raw_dtg": "031904Z AUG 22",
     "msg_id": "HYDROARC 1931/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2062/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT VARNE LIGHTSHIP 51-01.20N 001-24.00E\nINOPERATIVE.",
+    "cancel_date": "2022-08-19T17:59:00+00:00",
     "valid_from": "2022-08-03T19:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-08-19T17:59:00+00:00",
     "summary": null
   }
 }

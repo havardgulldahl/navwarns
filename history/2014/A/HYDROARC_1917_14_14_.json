@@ -13,13 +13,17 @@
     "raw_dtg": "111650Z AUG 14",
     "msg_id": "HYDROARC 1917/14(14)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 141650Z AUG",
+      "HYDROARC 1917/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. CONTAINER ADRIFT VICINITY 42-10.7N 034-44.6W\n   AT 110920Z AUG 14.\n2. CANCEL THIS MSG 141650Z AUG.",
+    "cancel_date": "2014-08-14T16:50:00+00:00",
     "valid_from": "2014-08-11T16:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-08-14T16:50:00+00:00",
     "summary": null
   }
 }

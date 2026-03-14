@@ -13,13 +13,16 @@
     "raw_dtg": "291529Z OCT 19",
     "msg_id": "HYDROARC 3324/19(54)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3358/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\nAKRA TAMELOS LIGHT 37-31.3N 024-16.5E UNLIT.",
+    "cancel_date": "2019-11-01T14:30:00+00:00",
     "valid_from": "2019-10-29T15:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-11-01T14:30:00+00:00",
     "summary": null
   }
 }

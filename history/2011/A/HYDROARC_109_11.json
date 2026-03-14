@@ -7,13 +7,16 @@
     "raw_dtg": "190258Z JAN 11",
     "msg_id": "HYDROARC 109/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1123/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\nLORAN-C STATION VAERLANDET, RATES 9007-Y AND 7499-Y,\nOFF AIR.",
+    "cancel_date": "2011-07-08T08:23:00+00:00",
     "valid_from": "2011-01-19T02:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-08T08:23:00+00:00",
     "summary": null
   }
 }

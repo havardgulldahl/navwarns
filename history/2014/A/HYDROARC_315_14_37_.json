@@ -13,13 +13,16 @@
     "raw_dtg": "020216Z FEB 14",
     "msg_id": "HYDROARC 315/14(37)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 473/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nCHART 37121\nZC2 BUOY 50-53.6N 001-30.9E MISSING.",
+    "cancel_date": "2014-02-16T02:12:00+00:00",
     "valid_from": "2014-02-02T02:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-02-16T02:12:00+00:00",
     "summary": null
   }
 }

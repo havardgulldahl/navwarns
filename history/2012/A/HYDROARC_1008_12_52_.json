@@ -13,13 +13,16 @@
     "raw_dtg": "121101Z MAY 12",
     "msg_id": "HYDROARC 1008/12(52)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1165/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TUNISIA-NORTH COAST.\nCHART 52180\nILES CANI LIGHT 37-21.4N 010-07.4E UNRELIABLE.",
+    "cancel_date": "2012-05-31T09:14:00+00:00",
     "valid_from": "2012-05-12T11:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-31T09:14:00+00:00",
     "summary": null
   }
 }

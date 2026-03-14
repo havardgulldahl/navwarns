@@ -13,13 +13,17 @@
     "raw_dtg": "030514Z OCT 11",
     "msg_id": "HYDROARC 1613/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 070500Z OCT",
+      "HYDROARC 1613/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS 050400Z TO 070400Z OCT\n   BY CABLESHIP JAMES COOK VICINITY\n   27-16.9N 015-24.9W. WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 070500Z OCT.",
+    "cancel_date": "2011-10-07T05:00:00+00:00",
     "valid_from": "2011-10-03T05:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-07T05:00:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "120440Z JUN 15",
     "msg_id": "HYDROARC 1432/15(23,24)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1643/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\nNAVTEX.\nDNC 01, DNC 07.\nNAVTEX STATION BUENOS AIRES 35-23S 057-10W INOPERATIVE.\nBUENOS AIRES BROADCASTS WILL BE TRANSMITTED FROM\nNAVTEX STATION MAR DEL PLATA.",
+    "cancel_date": "2015-07-06T07:10:00+00:00",
     "valid_from": "2015-06-12T04:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-07-06T07:10:00+00:00",
     "summary": null
   }
 }

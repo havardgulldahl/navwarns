@@ -13,13 +13,16 @@
     "raw_dtg": "201600Z NOV 16",
     "msg_id": "HYDROARC 3101/16(35,43)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3110/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nCHART 35005.\nFOG SIGNAL AT VOYAGER SPIRIT FPSO 57-37.0N 001-38.4E\nINOPERATIVE.",
+    "cancel_date": "2016-11-21T19:40:00+00:00",
     "valid_from": "2016-11-20T16:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-11-21T19:40:00+00:00",
     "summary": null
   }
 }

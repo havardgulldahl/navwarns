@@ -13,13 +13,16 @@
     "raw_dtg": "011615Z JUN 18",
     "msg_id": "HYDROARC 1731/18(37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2141/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37166.\nFOG SIGNAL AT PLATFORM 49/27-B,\n53-03.1N 002-17.1E INOPERATIVE.",
+    "cancel_date": "2018-07-01T10:22:00+00:00",
     "valid_from": "2018-06-01T16:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-07-01T10:22:00+00:00",
     "summary": null
   }
 }

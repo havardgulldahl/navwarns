@@ -13,13 +13,16 @@
     "raw_dtg": "180716Z JAN 20",
     "msg_id": "HYDROARC 181/20(24)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 316/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nRIO CALCOENE LIGHT 02-30.4N 050-48.4W INOPERABLE.",
+    "cancel_date": "2020-01-29T10:25:00+00:00",
     "valid_from": "2020-01-18T07:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-29T10:25:00+00:00",
     "summary": null
   }
 }

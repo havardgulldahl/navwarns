@@ -13,13 +13,16 @@
     "raw_dtg": "212319Z JUL 16",
     "msg_id": "HYDROARC 141/16(15)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 199/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nNAVTEX.\nDNC 28.\nNAVTEX STATION IQALUIT 63-43.8N 068-32.7W\nINOPERATIVE.",
+    "cancel_date": "2016-08-31T23:42:00+00:00",
     "valid_from": "2016-07-21T23:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-08-31T23:42:00+00:00",
     "summary": null
   }
 }

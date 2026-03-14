@@ -13,13 +13,16 @@
     "raw_dtg": "030139Z FEB 11",
     "msg_id": "HYDROARC 208/11(36)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 215/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRELAND-NORTHEAST COAST.\nNGA CHART 36011 (1ST ED).\nDONAGHADEE HARBOR LIGHT 54-38.7N 005-31.8W UNRELIABLE.",
+    "cancel_date": "2011-02-03T22:01:00+00:00",
     "valid_from": "2011-02-03T01:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-03T22:01:00+00:00",
     "summary": null
   }
 }

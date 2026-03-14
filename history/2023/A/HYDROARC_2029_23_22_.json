@@ -13,13 +13,16 @@
     "raw_dtg": "090402Z SEP 23",
     "msg_id": "HYDROARC 2029/23(22)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2188/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH PACIFIC.\nCHILE.\nDNC 07.\nBAJO SATELITE LIGHT 52-33.40S 069-41.50W UNLIT.",
+    "cancel_date": "2023-09-28T04:12:00+00:00",
     "valid_from": "2023-09-09T04:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-09-28T04:12:00+00:00",
     "summary": null
   }
 }

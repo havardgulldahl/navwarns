@@ -67,13 +67,17 @@
     "raw_dtg": "220726Z AUG 11",
     "msg_id": "HYDROARC 1329/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 061300Z SEP",
+      "HYDROARC 1329/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. CABLE LAYING OPERATIONS 231200Z AUG TO 061200Z SEP\n   BY CABLESHIP RENE DESCARTES ALONG TRACKLINE JOINING\n   05-14.5N 003-57.2W, 05-02.9N 003-51.8W,\n   04-55.2N 003-49.3W, 04-54.7N 003-49.3W,\n   04-29.6N 003-39.8W, 04-04.3N 003-37.4W,\n   03-50.9N 003-28.7W, 03-31.0N 002-58.3W,\n   03-14.1N 002-34.7W, 03-04.5N 002-27.1W,\n   03-03.5N 002-13.9W, 03-13.0N 001-14.7W,\n   03-32.2N 000-16.7W, 04-01.4N 000-34.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 061300Z SEP.",
+    "cancel_date": "2011-09-06T13:00:00+00:00",
     "valid_from": "2011-08-22T07:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-06T13:00:00+00:00",
     "summary": null
   }
 }

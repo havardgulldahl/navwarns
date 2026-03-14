@@ -7,13 +7,17 @@
     "raw_dtg": "031948Z APR 12",
     "msg_id": "HYDROARC 735/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 301900Z APR",
+      "HYDROARC 735/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nGUNNERY.\n1. GUNNERY EXERCISES 0800Z TO 1800Z DAILY\n   04 THRU 30 APR WITHIN 20 MILES OF:\n   A. 33-41N 008-03W.\n   B. 29-53N 010-15W.\n   C. 27-00N 013-50W.\n   D. 23-35N 017-00W.\n2. CANCEL THIS MSG 301900Z APR.",
+    "cancel_date": "2012-04-30T19:00:00+00:00",
     "valid_from": "2012-04-03T19:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-30T19:00:00+00:00",
     "summary": null
   }
 }

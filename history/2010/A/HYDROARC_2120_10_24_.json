@@ -7,13 +7,17 @@
     "raw_dtg": "061510Z NOV 10",
     "msg_id": "HYDROARC 2120/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 09 DEC",
+      "HYDROARC 2120/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nNGA CHART 24130 (14TH ED).\n1. PARANAGUA DGPS STATION AND RADIOBEACON\n   25-30S 048-19W OFF AIR 08 NOV THRU 08 DEC.\n2. CANCEL THIS MSG 09 DEC.",
+    "cancel_date": "2010-12-09T00:01:00+00:00",
     "valid_from": "2010-11-06T15:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-09T00:01:00+00:00",
     "summary": null
   }
 }

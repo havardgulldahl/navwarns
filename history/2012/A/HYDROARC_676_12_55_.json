@@ -23,13 +23,17 @@
     "raw_dtg": "261615Z MAR 12",
     "msg_id": "HYDROARC 676/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 11 APR",
+      "HYDROARC 676/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 10 APR\n   BY M/V GSP PRINCE VICINITY OF TRACKLINE JOINING\n   42-48.4N 030-34.6E, 43-07.5N 034-14.1E,\n   43-25.2N 036-13.3E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 11 APR.",
+    "cancel_date": "2012-04-11T00:01:00+00:00",
     "valid_from": "2012-03-26T16:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-11T00:01:00+00:00",
     "summary": null
   }
 }

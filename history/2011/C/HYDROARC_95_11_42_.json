@@ -41,13 +41,17 @@
     "raw_dtg": "090559Z JUL 11",
     "msg_id": "HYDROARC 95/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 141900Z JUL",
+      "HYDROARC 95/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nKYLDIN ISLAND.\nMISSILES. GUNNERY.\n1. HAZARDOUS OPERATIONS 0400Z TO 1800Z DAILY\n   12 THRU 14 JUL IN AREA BOUND BY \n   69-26.3N 033-47.0E, 69-58.0N 033-47.0E, \n   69-58.0N 035-17.0E, 69-21.0N 035-17.0E, \n   69-21.0N 034-45.0E, 69-26.3N 034-15.0E.\n2. CANCEL THIS MSG 141900Z JUL.",
+    "cancel_date": "2011-07-14T19:00:00+00:00",
     "valid_from": "2011-07-09T05:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-14T19:00:00+00:00",
     "summary": null
   }
 }

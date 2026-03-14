@@ -19,7 +19,7 @@ import os
 import sys
 import time
 from pathlib import Path
-from typing import Iterable, Any, List
+from typing import Iterable, Any, List, Optional
 import requests
 from xml.etree import ElementTree as ET
 
@@ -50,9 +50,11 @@ RETRY_BACKOFF = 2.0
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
-        " (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        " (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
     ),
     "Accept": "application/xml, text/xml, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://msi.nga.mil/",
 }
 
 logging.basicConfig(
@@ -164,6 +166,56 @@ def serialize_message_features(msg: Any) -> List[dict]:
     return [serialize_message(msg)]
 
 
+_MONTH_MAP = {
+    "JAN": 1,
+    "FEB": 2,
+    "MAR": 3,
+    "APR": 4,
+    "MAY": 5,
+    "JUN": 6,
+    "JUL": 7,
+    "AUG": 8,
+    "SEP": 9,
+    "OCT": 10,
+    "NOV": 11,
+    "DEC": 12,
+}
+
+
+def _parse_cancel_date(raw: str) -> Optional[str]:
+    """Parse a cancel-date string like '050214Z FEB 2011'.
+
+    Returns ISO-8601 string or None on failure.
+    """
+    import re as _re
+
+    m = _re.match(
+        r"(\d{2})(\d{2})(\d{2})Z\s+([A-Z]{3})\s+(\d{4})",
+        raw.strip(),
+    )
+    if m:
+        day, hour, minute = (
+            int(m.group(1)),
+            int(m.group(2)),
+            int(m.group(3)),
+        )
+        mon = _MONTH_MAP.get(m.group(4))
+        yr = int(m.group(5))
+        if mon:
+            try:
+                return datetime.datetime(
+                    yr,
+                    mon,
+                    day,
+                    hour,
+                    minute,
+                    tzinfo=datetime.timezone.utc,
+                ).isoformat()
+            except ValueError:
+                pass
+    return None
+
+
 def parse_broadcast_warn_xml(
     xml_text: str,
 ) -> List[Any]:  # returns list[NavwarnMessage]
@@ -186,6 +238,7 @@ def parse_broadcast_warn_xml(
         issue_date = (ent.findtext("issueDate") or "").strip()
         cancel_msg_year = (ent.findtext("cancelMsgYear") or "").strip()
         cancel_msg_number = (ent.findtext("cancelMsgNumber") or "").strip()
+        cancel_date_raw = (ent.findtext("cancelDate") or "").strip()
 
         raw_dtg = ""
         if issue_date:
@@ -213,6 +266,12 @@ def parse_broadcast_warn_xml(
         hazard = navparser.classify_hazard(text_body)
         geometry, radius = navparser.analyze_geometry(text_body, coords)
         groups = navparser.parse_coordinate_groups(text_body)
+
+        # Parse structured <cancelDate> (e.g. "050214Z FEB 2011")
+        cancel_date_iso = None
+        if cancel_date_raw:
+            cancel_date_iso = _parse_cancel_date(cancel_date_raw)
+
         messages.append(
             navparser.NavwarnMessage(
                 dtg=navparser.parse_dtg(raw_dtg) if raw_dtg else None,
@@ -225,6 +284,7 @@ def parse_broadcast_warn_xml(
                 radius=radius,
                 groups=groups,
                 body=text_body,
+                cancel_date=cancel_date_iso,
             )
         )
     return messages
@@ -283,9 +343,8 @@ def run_scrape(
 ) -> int:
     xml_text = fetch_xml(url)
     if store_xml:
-        (OUTPUT_DIR / f"{url.split('/')[-1]}.xml").write_text(
-            xml_text, encoding="utf-8"
-        )
+        xml_name = url.split("/")[-1] + ".xml"
+        (OUTPUT_DIR / xml_name).write_text(xml_text, encoding="utf-8")
     total_written = 0
     try:
         root = ET.fromstring(xml_text)

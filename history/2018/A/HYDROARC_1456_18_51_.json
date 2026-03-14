@@ -13,13 +13,16 @@
     "raw_dtg": "092115Z MAY 18",
     "msg_id": "HYDROARC 1456/18(51)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2840/18"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nCHART 51480, 51560.\nCAP VERT LIGHT 14-43.4N 017-30.2W UNLIT.",
+    "cancel_date": "2018-09-07T10:37:00+00:00",
     "valid_from": "2018-05-09T21:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-09-07T10:37:00+00:00",
     "summary": null
   }
 }

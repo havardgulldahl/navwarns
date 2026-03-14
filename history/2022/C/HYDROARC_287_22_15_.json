@@ -13,13 +13,16 @@
     "raw_dtg": "221635Z SEP 22",
     "msg_id": "HYDROARC 287/22(15)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 290/22"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AMUNDSEN GULF.\nCANADA.\nDNC 27.\n4.2 METER SHOAL IN 69-50.27N 124-16.28W.",
+    "cancel_date": "2022-09-23T14:00:00+00:00",
     "valid_from": "2022-09-22T16:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-09-23T14:00:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "111118Z DEC 10",
     "msg_id": "HYDROARC 2394/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 121500Z DEC",
+      "HYDROARC 2394/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 121400Z DEC\n   BY M/V RAMFORM VIKING TOWING 12 6500 METER\n   LONG CABLES IN AREA BETWEEN\n   03-26.0N 02-19.0N AND 009-11.0E 008-43.5E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 121500Z DEC.",
+    "cancel_date": "2010-12-12T15:00:00+00:00",
     "valid_from": "2010-12-11T11:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-12T15:00:00+00:00",
     "summary": null
   }
 }

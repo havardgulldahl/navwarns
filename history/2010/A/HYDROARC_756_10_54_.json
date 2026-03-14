@@ -13,13 +13,17 @@
     "raw_dtg": "301039Z APR 10",
     "msg_id": "HYDROARC 756/10(54)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 042200Z MAY",
+      "HYDROARC 756/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ADRIATIC SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 041200Z TO 042100Z MAY\n   WITHIN THREE MILES OF 45-04.3N 012-57.0E.\n2. CANCEL THIS MSG 042200Z MAY.",
+    "cancel_date": "2010-05-04T22:00:00+00:00",
     "valid_from": "2010-04-30T10:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-04T22:00:00+00:00",
     "summary": null
   }
 }

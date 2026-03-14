@@ -13,13 +13,16 @@
     "raw_dtg": "090026Z MAR 12",
     "msg_id": "HYDROARC 540/12(36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 543/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nCHART 36025\nSPECIAL LIGHT BUOY, FL Y 5 SEC, ESTABLISHED\nIN 53-53.43N 004-11.84W.",
+    "cancel_date": "2012-03-09T02:17:00+00:00",
     "valid_from": "2012-03-09T00:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-09T02:17:00+00:00",
     "summary": null
   }
 }

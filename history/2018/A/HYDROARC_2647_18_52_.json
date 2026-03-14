@@ -13,13 +13,16 @@
     "raw_dtg": "191225Z AUG 18",
     "msg_id": "HYDROARC 2647/18(52)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 27/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ALBORAN SEA.\nALGERIA.\nDNC 08.\nCHART 52060.\nNEMOURS LIGHT 35-05.7N 001-52.4W UNLIT.",
+    "cancel_date": "2019-01-04T14:30:00+00:00",
     "valid_from": "2018-08-19T12:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-04T14:30:00+00:00",
     "summary": null
   }
 }

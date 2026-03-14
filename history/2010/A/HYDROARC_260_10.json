@@ -8,15 +8,18 @@
     "msg_id": "HYDROARC 260/10",
     "year": 2010,
     "cancellations": [
+      "THIS MSG 111730Z FEB",
       "255/10",
-      "258/10"
+      "258/10",
+      "HYDROARC 266/10"
     ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION SOUSTONS, RATE 6731-X,\n   OFF AIR 111230Z TO 111630Z FEB.\n2. CANCEL HYDROLANT 255/10(24), 258/10.\n3. CANCEL THIS MSG 111730Z FEB.",
+    "cancel_date": "2010-02-11T13:10:00+00:00",
     "valid_from": "2010-02-10T17:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-11T13:10:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "311600Z DEC 11",
     "msg_id": "HYDROARC 2303/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTHERN NORTH SEA.\nCHART 37059\nPLATFORM 42/30-B 54-03.6N 000-54.0E UNLIT.",
+    "cancel_date": "2012-01-01T08:01:00+00:00",
     "valid_from": "2011-12-31T16:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-01T08:01:00+00:00",
     "summary": null
   }
 }

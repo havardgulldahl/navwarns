@@ -13,13 +13,16 @@
     "raw_dtg": "220407Z OCT 21",
     "msg_id": "HYDROARC 2607/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2641/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT FLAMBOROUGH HEAD LIGHT\n54-07.0N 000-05.0W INOPERATIVE.",
+    "cancel_date": "2021-10-26T19:47:00+00:00",
     "valid_from": "2021-10-22T04:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-10-26T19:47:00+00:00",
     "summary": null
   }
 }

@@ -41,13 +41,16 @@
     "raw_dtg": "162153Z JAN 12",
     "msg_id": "HYDROARC 128/12(57)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 348/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V POLARCUS ASIMA TOWING 6700\nMETER LONG CABLES IN AREA BOUND BY\n28-11.64S 013-58.86E, 27-42.79S 013-54.00E,\n27-41.00S 013-50.54E, 27-43.75S 013-33.16E,\n27-47.33S 013-26.22E, 28-16.90S 013-31.08E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2012-02-11T10:17:00+00:00",
     "valid_from": "2012-01-16T21:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-11T10:17:00+00:00",
     "summary": null
   }
 }

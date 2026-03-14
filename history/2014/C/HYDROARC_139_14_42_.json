@@ -33,13 +33,16 @@
     "raw_dtg": "251303Z JUL 14",
     "msg_id": "HYDROARC 139/14(42)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 242/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nKARA SEA.\nRUSSIA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V VYACHESLAV TIKHONOV TOWING 9100 METER\nLONG CABLE IN AREA BOUND BY\n72-47.7N 068-38.3E, 72-10.2N 068-24.8E,\n72-10.8N 067-28.6E, 72-48.0N 067-32.0E.\nFOUR MILE BERTH REQUESTED.",
+    "cancel_date": "2014-09-24T15:58:00+00:00",
     "valid_from": "2014-07-25T13:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-09-24T15:58:00+00:00",
     "summary": null
   }
 }

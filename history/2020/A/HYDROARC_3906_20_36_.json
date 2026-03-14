@@ -13,13 +13,16 @@
     "raw_dtg": "180559Z DEC 20",
     "msg_id": "HYDROARC 3906/20(36)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3911/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CARDIGAN BAY.\nWALES.\nDNC 20.\nSTRUMBLE HEAD LIGHT 52-01-47N 005-04-25W\nUNRELIABLE.",
+    "cancel_date": "2020-12-18T14:22:00+00:00",
     "valid_from": "2020-12-18T05:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-12-18T14:22:00+00:00",
     "summary": null
   }
 }

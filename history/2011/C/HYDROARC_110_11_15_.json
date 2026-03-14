@@ -7,13 +7,16 @@
     "raw_dtg": "210002Z JUL 11",
     "msg_id": "HYDROARC 110/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 112/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA-NORTHEAST COAST.\nRADIO SERVICES.\nIQALUIT MCTS STATION HF DSC INOPERATIVE.",
+    "cancel_date": "2011-07-23T23:29:00+00:00",
     "valid_from": "2011-07-21T00:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-23T23:29:00+00:00",
     "summary": null
   }
 }

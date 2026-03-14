@@ -49,13 +49,16 @@
     "raw_dtg": "280515Z MAR 15",
     "msg_id": "HYDROARC 736/15(51)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 803/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL.\nDNC 08.\nCABLE REPAIR OPERATIONS 301500Z MAR UNTIL\nFURTHER NOTICE BY CABLESHIP PIERRE DE FERMAT\nWITH SUBMERSIBLE IN AREA BOUND BY\n38-32.0N 009-57.5W, 38-34.2N 009-57.5W,\n38-33.7N 009-50.3W, 38-35.7N 009-43.3W,\n38-37.2N 009-30.8W, 38-35.0N 009-30.8W,\n38-33.6N 009-43.3W, 38-31.5N 009-50.3W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2015-04-06T16:59:00+00:00",
     "valid_from": "2015-03-28T05:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-04-06T16:59:00+00:00",
     "summary": null
   }
 }

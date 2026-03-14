@@ -7,13 +7,17 @@
     "raw_dtg": "220957Z APR 12",
     "msg_id": "HYDROARC 873/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 250950Z APR",
+      "HYDROARC 873/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\n1. DERELICT VESSEL AND DEBRIS ADRIFT VICINITY\n   48-31N 005-45W AT 220730Z APR.\n2. CANCEL THIS MSG 250950Z APR.",
+    "cancel_date": "2012-04-25T09:50:00+00:00",
     "valid_from": "2012-04-22T09:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-25T09:50:00+00:00",
     "summary": null
   }
 }

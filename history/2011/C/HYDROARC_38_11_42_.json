@@ -7,13 +7,17 @@
     "raw_dtg": "041127Z APR 11",
     "msg_id": "HYDROARC 38/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 100059Z APR",
+      "HYDROARC 38/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BARENTS SEA.\nMISSILES.\n1. HAZARDOUS OPERATIONS 1630Z TO 2359Z DAILY\n   07 THRU 09 APR IN AREA BETWEEN\n   69-45N 70-15N AND 034-00E 038-00E.\n2. CANCEL THIS MSG 100059Z APR.",
+    "cancel_date": "2011-04-10T00:59:00+00:00",
     "valid_from": "2011-04-04T11:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-10T00:59:00+00:00",
     "summary": null
   }
 }

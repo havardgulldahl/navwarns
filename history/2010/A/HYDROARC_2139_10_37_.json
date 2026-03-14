@@ -7,13 +7,17 @@
     "raw_dtg": "100100Z NOV 10",
     "msg_id": "HYDROARC 2139/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 130100Z NOV",
+      "HYDROARC 2139/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "FRANCE-NORTHWEST COAST.\n1. 50 CONTAINERS ADRIFT VICINITY 49-07N 004-45W\n   AT 092108Z NOV.\n2. CANCEL THIS MSG 130100Z NOV.",
+    "cancel_date": "2010-11-13T01:00:00+00:00",
     "valid_from": "2010-11-10T01:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-13T01:00:00+00:00",
     "summary": null
   }
 }

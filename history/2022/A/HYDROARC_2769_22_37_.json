@@ -13,13 +13,16 @@
     "raw_dtg": "010420Z NOV 22",
     "msg_id": "HYDROARC 2769/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2816/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nRACON AT EAST GOODWIN LIGHTFLOAT\n51-13.00N 001-36.30E INOPERATIVE.",
+    "cancel_date": "2022-11-04T12:43:00+00:00",
     "valid_from": "2022-11-01T04:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-11-04T12:43:00+00:00",
     "summary": null
   }
 }

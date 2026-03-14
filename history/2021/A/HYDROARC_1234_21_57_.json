@@ -33,13 +33,16 @@
     "raw_dtg": "042043Z MAY 21",
     "msg_id": "HYDROARC 1234/21(57)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1421/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V THE EXPLORER IN AREA BOUND BY\n26-17.03S 014-54.04E, 26-17.03S 014-54.96E,\n26-17.88S 014-54.96E, 26-17.88S 014-54.04E.\nTWO MILE BERTH REQUESTED.",
+    "cancel_date": "2021-05-27T10:47:00+00:00",
     "valid_from": "2021-05-04T20:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-05-27T10:47:00+00:00",
     "summary": null
   }
 }

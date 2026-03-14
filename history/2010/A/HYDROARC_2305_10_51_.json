@@ -13,13 +13,16 @@
     "raw_dtg": "011234Z DEC 10",
     "msg_id": "HYDROARC 2305/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2316/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NGA CHART 51220 (8TH ED).\nEASTERN NORTH ATLANTIC.\nMOROCCO.\nEL HANK LIGHT 33-36.7N 007-39.4W UNLIT.",
+    "cancel_date": "2010-12-02T13:32:00+00:00",
     "valid_from": "2010-12-01T12:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-02T13:32:00+00:00",
     "summary": null
   }
 }

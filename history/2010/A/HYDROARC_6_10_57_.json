@@ -13,13 +13,16 @@
     "raw_dtg": "020054Z JAN 10",
     "msg_id": "HYDROARC 6/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1194/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nWITHIN FIVE MILES OF 04-32.1N 002-54.6W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2010-06-26T09:18:00+00:00",
     "valid_from": "2010-01-02T00:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-26T09:18:00+00:00",
     "summary": null
   }
 }

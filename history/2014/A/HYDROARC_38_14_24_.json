@@ -13,13 +13,16 @@
     "raw_dtg": "060042Z JAN 14",
     "msg_id": "HYDROARC 38/14(24)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 45/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTHEAST COAST.\nDISTRESS SIGNAL RECEIVED IN 06-53.00S 034-08.03W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "cancel_date": "2014-01-06T09:44:00+00:00",
     "valid_from": "2014-01-06T00:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-01-06T09:44:00+00:00",
     "summary": null
   }
 }

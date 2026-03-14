@@ -13,13 +13,17 @@
     "raw_dtg": "271803Z FEB 11",
     "msg_id": "HYDROARC 339/11(24,57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 021800Z MAR",
+      "HYDROARC 339/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nBRAZIL.\n1. 27 CONTAINERS ADRIFT IN 32-30.0S 021-25.4W\n   ON 26 FEB.\n2. CANCEL THIS MSG 021800Z MAR.",
+    "cancel_date": "2011-03-02T18:00:00+00:00",
     "valid_from": "2011-02-27T18:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-02T18:00:00+00:00",
     "summary": null
   }
 }

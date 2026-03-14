@@ -13,13 +13,17 @@
     "raw_dtg": "080528Z AUG 10",
     "msg_id": "HYDROARC 1510/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 081700Z AUG",
+      "HYDROARC 1510/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nNGA CHART 35172 (3RD ED).\n1. DGPS STATION AT SUMBURGH HEAD LIGHT 59-51.3N 001-16.4W\n   OFF AIR 081000Z TO 081600Z AUG.\n2. CANCEL THIS MSG 081700Z AUG.",
+    "cancel_date": "2010-08-08T17:00:00+00:00",
     "valid_from": "2010-08-08T05:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-08T17:00:00+00:00",
     "summary": null
   }
 }

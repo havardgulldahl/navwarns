@@ -7,13 +7,17 @@
     "raw_dtg": "260853Z FEB 12",
     "msg_id": "HYDROARC 429/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 291100Z FEB",
+      "HYDROARC 429/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN C STATION LESSAY, RATES 6731-MASTER AND\n   7499-X, UNUSABLE 290800Z TO 291000Z FEB.\n2. CANCEL THIS MSG 291100Z FEB.",
+    "cancel_date": "2012-02-29T11:00:00+00:00",
     "valid_from": "2012-02-26T08:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-29T11:00:00+00:00",
     "summary": null
   }
 }

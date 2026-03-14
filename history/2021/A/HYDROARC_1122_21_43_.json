@@ -37,13 +37,16 @@
     "raw_dtg": "230820Z APR 21",
     "msg_id": "HYDROARC 1122/21(43)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1203/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM VANGUARD TOWING\n12 6500 METER LONG CABLES IN AREA BOUND BY\n59-30.4N 001-40.3E, 59-21.9N 002-12.9E,\n59-11.1N 002-03.2E, 59-19.3N 001-33.9E,\n59-22.4N 001-33.5E.\nFIVE MILE BERTH REQUESTED.",
+    "cancel_date": "2021-05-01T02:25:00+00:00",
     "valid_from": "2021-04-23T08:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-05-01T02:25:00+00:00",
     "summary": null
   }
 }

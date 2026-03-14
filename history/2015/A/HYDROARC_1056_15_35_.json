@@ -13,13 +13,16 @@
     "raw_dtg": "010836Z MAY 15",
     "msg_id": "HYDROARC 1056/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 290/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nCHART 35005.\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE\nWITHIN 500 METERS OF 58-00.79N 000-55.38W.",
+    "cancel_date": "2017-01-27T19:01:00+00:00",
     "valid_from": "2015-05-01T08:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-27T19:01:00+00:00",
     "summary": null
   }
 }

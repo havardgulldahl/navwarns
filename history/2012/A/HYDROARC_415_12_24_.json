@@ -7,13 +7,17 @@
     "raw_dtg": "240118Z FEB 12",
     "msg_id": "HYDROARC 415/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 020359Z MAR",
+      "HYDROARC 415/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL\n   020259Z MAR BY M/V NPS GECO DIAMOND\n   IN AREA BETWEEN\n   21-44S 22-11S AND 040-05W 039-24W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 020359Z MAR.",
+    "cancel_date": "2012-03-02T03:59:00+00:00",
     "valid_from": "2012-02-24T01:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-02T03:59:00+00:00",
     "summary": null
   }
 }

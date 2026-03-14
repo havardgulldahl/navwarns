@@ -49,13 +49,17 @@
     "raw_dtg": "261634Z SEP 11",
     "msg_id": "HYDROARC 1569/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 OCT",
+      "HYDROARC 1569/11"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS\n   UNTIL 30 SEP BY M/V AKADEMIK\n   IN AREA BOUND BY\n   42-47.70N 030-40.62E, 43-07.62N 031-00.18E,\n   43-09.12N 031-44.46E, 43-13.50N 034-54.12E,\n   43-24.00N 036-11.46E, 43-13.02N 036-17.46E,\n   42-59.16N 034-58.14E, 42-52.32N 032-56.22E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT.",
+    "cancel_date": "2011-10-01T00:01:00+00:00",
     "valid_from": "2011-09-26T16:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-01T00:01:00+00:00",
     "summary": null
   }
 }

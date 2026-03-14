@@ -13,13 +13,17 @@
     "raw_dtg": "190111Z AUG 11",
     "msg_id": "HYDROARC 1310/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 10 SEP",
+      "HYDROARC 1330/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nNGA CHART 24012 (40TH ED).\n1. DGPS STATION AT SERGIPE LIGHT\n   10-58.2S 037-02.2W OFF AIR UNTIL 09 SEP.\n2. CANCEL THIS MSG 10 SEP.",
+    "cancel_date": "2011-08-22T07:50:00+00:00",
     "valid_from": "2011-08-19T01:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-22T07:50:00+00:00",
     "summary": null
   }
 }

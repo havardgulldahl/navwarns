@@ -13,13 +13,17 @@
     "raw_dtg": "031016Z APR 10",
     "msg_id": "HYDROARC 582/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 02 MAY",
+      "HYDROARC 712/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 01 MAY\n   BY M/V ILE DE SEIN, M/V PETER FABER AND\n   M/V ILE DE BREHAT IN 31-05.60N 029-42.54E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 MAY.",
+    "cancel_date": "2010-04-24T09:25:00+00:00",
     "valid_from": "2010-04-03T10:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-24T09:25:00+00:00",
     "summary": null
   }
 }

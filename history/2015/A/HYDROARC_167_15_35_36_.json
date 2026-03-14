@@ -13,13 +13,16 @@
     "raw_dtg": "191949Z JAN 15",
     "msg_id": "HYDROARC 167/15(35,36)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 200/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRELAND-SOUTHEAST COAST.\nDNC 19.\nCHART 36002.\nHOOK HEAD LIGHT 52-07.4N 006-55.8W UNRELIABLE.",
+    "cancel_date": "2015-01-23T20:32:00+00:00",
     "valid_from": "2015-01-19T19:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-23T20:32:00+00:00",
     "summary": null
   }
 }

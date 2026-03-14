@@ -33,13 +33,17 @@
     "raw_dtg": "010902Z APR 10",
     "msg_id": "HYDROARC 568/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 260400Z AUG",
+      "HYDROARC 568/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\n1. PIPELINE OPERATIONS 041300Z APR TO 260300Z AUG\n   BY M/V SEISRANGER IN AREA BOUND BY\n   22-26.57S 040-13.78W, 22-26.57S 039-52.78W,\n   22-45.18S 039-52.28W, 22-45.18S 040-13.78W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 260400Z AUG.",
+    "cancel_date": "2010-08-26T04:00:00+00:00",
     "valid_from": "2010-04-01T09:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-26T04:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "010500Z OCT 11",
     "msg_id": "HYDROARC 1600/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1878/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nNGA CHART 37115 (2ND ED).\nVERGOYER NORD BUOY 50-39.7N 001-22.3E UNLIT.",
+    "cancel_date": "2011-11-11T12:21:00+00:00",
     "valid_from": "2011-10-01T05:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-11T12:21:00+00:00",
     "summary": null
   }
 }

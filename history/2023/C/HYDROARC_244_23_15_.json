@@ -13,13 +13,16 @@
     "raw_dtg": "052018Z OCT 23",
     "msg_id": "HYDROARC 244/23(15)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 293/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "HUDSON BAY.\nCANADA.\nDNC 28.\nMCTS IQALUIT REMOTE STATION CORAL HARBOUR\n64-09.00N 083-22.00W MF AND HF OFF AIR.",
+    "cancel_date": "2023-11-15T08:24:00+00:00",
     "valid_from": "2023-10-05T20:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-11-15T08:24:00+00:00",
     "summary": null
   }
 }

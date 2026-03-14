@@ -33,13 +33,16 @@
     "raw_dtg": "090508Z SEP 13",
     "msg_id": "HYDROARC 2204/13(23,24)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2244/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nURUGUAY.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V WESTERN REGENT TOWING TEN 8800 METER LONG\nCABLES IN AREA BOUND BY\n35-11.25S 052-00.63W, 36-01.93S 052-51.02W,\n37-00.30S 051-52.57W, 36-07.87S 051-01.43W.\nEIGHT MILE BERTH REQUESTED.",
+    "cancel_date": "2013-09-12T23:31:00+00:00",
     "valid_from": "2013-09-09T05:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-09-12T23:31:00+00:00",
     "summary": null
   }
 }

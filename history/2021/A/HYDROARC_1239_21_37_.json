@@ -13,13 +13,16 @@
     "raw_dtg": "051050Z MAY 21",
     "msg_id": "HYDROARC 1239/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1242/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\nNAVTEX STATION CORUNA (D) 43-22.03N 008-27.13W\nOFF AIR.",
+    "cancel_date": "2021-05-05T12:49:00+00:00",
     "valid_from": "2021-05-05T10:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-05-05T12:49:00+00:00",
     "summary": null
   }
 }

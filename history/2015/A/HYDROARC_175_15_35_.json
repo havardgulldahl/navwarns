@@ -13,13 +13,16 @@
     "raw_dtg": "210222Z JAN 15",
     "msg_id": "HYDROARC 175/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 179/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35066.\nPOINT OF FETHALAND LIGHT 60-38.1N 001-18.6W UNLIT.",
+    "cancel_date": "2015-01-21T11:26:00+00:00",
     "valid_from": "2015-01-21T02:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-21T11:26:00+00:00",
     "summary": null
   }
 }

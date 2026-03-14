@@ -7,13 +7,17 @@
     "raw_dtg": "061300Z APR 10",
     "msg_id": "HYDROARC 601/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 301900Z JUN",
+      "HYDROARC 601/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nAFRICA-NORTHWEST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 0800Z TO 1800Z DAILY\n   UNTIL 30 JUN WITHIN 20 MILES OF:\n   A. 23-35N 017-00W.\n   B. 27-00N 013-50W.\n2. CANCEL THIS MSG 301900Z JUN.",
+    "cancel_date": "2010-06-30T19:00:00+00:00",
     "valid_from": "2010-04-06T13:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-30T19:00:00+00:00",
     "summary": null
   }
 }

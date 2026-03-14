@@ -13,13 +13,16 @@
     "raw_dtg": "120131Z MAY 10",
     "msg_id": "HYDROARC 835/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 849/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nNGA CHART 24200 (14TH ED).\nGARCIA D'AVILA LIGHT 12-34.6S 038-00.1W UNLIT.",
+    "cancel_date": "2010-05-13T16:25:00+00:00",
     "valid_from": "2010-05-12T01:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-13T16:25:00+00:00",
     "summary": null
   }
 }

@@ -49,13 +49,17 @@
     "raw_dtg": "090414Z MAR 10",
     "msg_id": "HYDROARC 409/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 130359Z MAR",
+      "HYDROARC 409/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 130259Z MAR BY\n   M/V WESTERN PATRIOT TOWING EIGHT FOUR MILE LONG\n   CABLES AND M/V GECO DIAMOND TOWING 250 METER\n   LONG CABLE IN AREA BOUND BY\n   26-06.4S 045-54.6W, 26-20.4S 045-54.6W,\n   26-20.5S 046-20.5W, 26-06.0S 046-20.4W,\n   26-00.7S 047-17.2W, 25-55.7S 046-10.7W,\n   25-51.1S 046-04.6W, 25-51.2S 045-54.6W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 130359Z MAR.",
+    "cancel_date": "2010-03-13T03:59:00+00:00",
     "valid_from": "2010-03-09T04:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-13T03:59:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "011330Z SEP 11",
     "msg_id": "HYDROARC 1386/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 300800Z SEP",
+      "HYDROARC 1386/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0500Z TO 0630Z AND\n   1200Z TO 1300Z DAILY 01, 05 THRU 08,\n   12 THRU 15, 19 THRU 22, 26 THRU 29 AND\n   0600Z TO 0700Z DAILY 02, 09, 16, 23 AND\n   30 SEP IN AREA BOUND BY\n   37-12N 020-18E, 37-56N 020-00E,\n   37-56N 020-28E, 37-15N 020-49E.\n2. CANCEL THIS MSG 300800Z SEP.",
+    "cancel_date": "2011-09-30T08:00:00+00:00",
     "valid_from": "2011-09-01T13:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-30T08:00:00+00:00",
     "summary": null
   }
 }

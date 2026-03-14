@@ -49,13 +49,17 @@
     "raw_dtg": "180128Z JUL 11",
     "msg_id": "HYDROARC 104/11(43)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 OCT",
+      "HYDROARC 104/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 30 SEP BY\n   M/V GGS ATLANTIC TOWING 10000 METER LONG CABLE\n   IN AREA BOUND BY\n   73-18.43N 020-59.22E, 72-17.80N 018-35.17E,\n   71-39.25N 018-51.10E, 71-42.75N 015-24.97E,\n   72-46-10N 015-41.80E, 73-22.00N 014-46.15E,\n   73-45.55N 015-54.60E, 73-42.28N 019-34.07E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT.",
+    "cancel_date": "2011-10-01T00:00:00+00:00",
     "valid_from": "2011-07-18T01:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-01T00:00:00+00:00",
     "summary": null
   }
 }

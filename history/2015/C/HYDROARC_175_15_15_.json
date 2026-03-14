@@ -7,13 +7,16 @@
     "raw_dtg": "100025Z JUL 15",
     "msg_id": "HYDROARC 175/15(15)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 182/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT CENTRE DSC STATION HF6 INOPERATIVE.",
+    "cancel_date": "2015-07-12T23:53:00+00:00",
     "valid_from": "2015-07-10T00:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-07-12T23:53:00+00:00",
     "summary": null
   }
 }

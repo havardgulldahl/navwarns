@@ -13,13 +13,16 @@
     "raw_dtg": "311208Z MAR 14",
     "msg_id": "HYDROARC 875/14(36)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1205/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nCHART 36035\nFISHING GEAR ABANDONED VICINITY 50-25.3N 005-50.5W.",
+    "cancel_date": "2014-05-12T17:17:00+00:00",
     "valid_from": "2014-03-31T12:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-05-12T17:17:00+00:00",
     "summary": null
   }
 }

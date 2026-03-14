@@ -13,13 +13,17 @@
     "raw_dtg": "150700Z JUN 11",
     "msg_id": "HYDROARC 999/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 161600Z JUN",
+      "HYDROARC 999/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nNGA CHART 35073 (2ND ED).\n1. DGPS STATION AT BUTT OF LEWIS LIGHT 58-30.8N 006-15.6W\n   OFF AIR 0900Z TO 1500Z DAILY 15 AND 16 JUN.\n2.  CANCEL THIS MSG 161600Z JUN.",
+    "cancel_date": "2011-06-16T16:00:00+00:00",
     "valid_from": "2011-06-15T07:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-16T16:00:00+00:00",
     "summary": null
   }
 }

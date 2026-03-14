@@ -13,13 +13,17 @@
     "raw_dtg": "301926Z OCT 10",
     "msg_id": "HYDROARC 2070/10(36,37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 021930Z NOV",
+      "HYDROARC 2070/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC\n1. SEVEN METER LONG RIGGING SPAR\n   ADRIFT IN 49-41.6N 006-07.5W\n2. CANCEL THIS MSG 021930Z NOV.",
+    "cancel_date": "2010-11-02T19:30:00+00:00",
     "valid_from": "2010-10-30T19:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-02T19:30:00+00:00",
     "summary": null
   }
 }

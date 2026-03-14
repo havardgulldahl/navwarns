@@ -13,13 +13,16 @@
     "raw_dtg": "090051Z NOV 12",
     "msg_id": "HYDROARC 2648/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2671/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nCHART 24200\nSUBAUMA LIGHT 12-14.4S 037-46.8W UNLIT.",
+    "cancel_date": "2012-11-10T22:34:00+00:00",
     "valid_from": "2012-11-09T00:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-11-10T22:34:00+00:00",
     "summary": null
   }
 }

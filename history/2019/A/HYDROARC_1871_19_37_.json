@@ -13,13 +13,16 @@
     "raw_dtg": "220835Z JUN 19",
     "msg_id": "HYDROARC 1871/19(37)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1876/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37120.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E UNLIT.",
+    "cancel_date": "2019-06-22T17:00:00+00:00",
     "valid_from": "2019-06-22T08:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-06-22T17:00:00+00:00",
     "summary": null
   }
 }

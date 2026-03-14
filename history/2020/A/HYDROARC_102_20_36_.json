@@ -13,13 +13,16 @@
     "raw_dtg": "122205Z JAN 20",
     "msg_id": "HYDROARC 102/20(36)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 170/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nWALES.\nDNC 20.\nSOUTH BISHOP LIGHTHOUSE 51-51.2N 005-24.7W,\nRACON INOPERATIVE.",
+    "cancel_date": "2020-01-17T14:36:00+00:00",
     "valid_from": "2020-01-12T22:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-17T14:36:00+00:00",
     "summary": null
   }
 }

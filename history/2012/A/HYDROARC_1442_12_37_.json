@@ -13,13 +13,16 @@
     "raw_dtg": "011502Z JUL 12",
     "msg_id": "HYDROARC 1442/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1461/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nCHART 37110\nZC2 BUOY 50-53.6N 001-30.9E OFF STATION.",
+    "cancel_date": "2012-07-03T12:00:00+00:00",
     "valid_from": "2012-07-01T15:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-03T12:00:00+00:00",
     "summary": null
   }
 }

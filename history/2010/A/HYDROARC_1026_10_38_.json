@@ -7,13 +7,17 @@
     "raw_dtg": "041902Z JUN 10",
     "msg_id": "HYDROARC 1026/10(38)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 071900Z JUN",
+      "HYDROARC 1026/10"
+    ],
     "hazard_type": "ice and icebergs",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nICE.\n1. ICEBERG DETECTED VICINITY 59-42N 042-27W\n   AT 040600Z JUN.\n2. CANCEL THIS MSG 071900Z JUN..",
+    "cancel_date": "2010-06-07T19:00:00+00:00",
     "valid_from": "2010-06-04T19:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-07T19:00:00+00:00",
     "summary": null
   }
 }

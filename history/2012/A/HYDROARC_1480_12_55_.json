@@ -33,13 +33,17 @@
     "raw_dtg": "051740Z JUL 12",
     "msg_id": "HYDROARC 1480/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 071400Z JUL",
+      "HYDROARC 1480/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nTURKEY.\nGUNNERY.\n1. GUNNERY EXERCISES 0700Z TO 1300Z DAILY\n   06 AND 07 JUL IN AREA BOUND BY\n   41-34.33N 029-37.50E, 41-32.50N 029-50.50E,\n   41-22.60N 029-48.17E, 41-24.50N 029-35.17E.\n2. CANCEL THIS MSG 071400Z JUL.",
+    "cancel_date": "2012-07-07T14:00:00+00:00",
     "valid_from": "2012-07-05T17:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-07T14:00:00+00:00",
     "summary": null
   }
 }

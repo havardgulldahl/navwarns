@@ -13,13 +13,16 @@
     "raw_dtg": "241456Z FEB 20",
     "msg_id": "HYDROARC 687/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 742/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nPLATFORM 44/26A 54-03.6N 002-04.7E UNLIT, ALL\nAIDS TO NAVIGATION INOPERATIVE.",
+    "cancel_date": "2020-02-28T13:45:00+00:00",
     "valid_from": "2020-02-24T14:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-28T13:45:00+00:00",
     "summary": null
   }
 }

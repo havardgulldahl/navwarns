@@ -13,13 +13,16 @@
     "raw_dtg": "100023Z DEC 13",
     "msg_id": "HYDROARC 3182/13(24)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1132/14"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nCHART 24290, 24320\nILHA DO MACHADINHO LIGHT 00-10.8S 048-45.9W UNLIT.",
+    "cancel_date": "2014-05-03T09:26:00+00:00",
     "valid_from": "2013-12-10T00:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-05-03T09:26:00+00:00",
     "summary": null
   }
 }

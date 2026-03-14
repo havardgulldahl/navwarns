@@ -13,13 +13,16 @@
     "raw_dtg": "250936Z SEP 20",
     "msg_id": "HYDROARC 2915/20(36)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3087/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nDNC 20.\nFOG SIGNAL AT PLATFORM 113/26 54-01.6N 003-51.7W\nINOPERATIVE.",
+    "cancel_date": "2020-10-11T05:27:00+00:00",
     "valid_from": "2020-09-25T09:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-10-11T05:27:00+00:00",
     "summary": null
   }
 }

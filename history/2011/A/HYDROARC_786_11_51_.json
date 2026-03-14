@@ -7,13 +7,17 @@
     "raw_dtg": "091710Z MAY 11",
     "msg_id": "HYDROARC 786/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 190101Z MAY",
+      "HYDROARC 786/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS 110001Z TO 190001Z MAY BY\n   M/V ZVEZDOCHKA IN AREAS BETWEEN:\n   A. 33-32.0N 33-35.0N AND 027-02.0W 027-05.0W.\n   B. 30-15.3N 30-18.3N AND 030-18.5W 030-22.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 190101Z MAY.",
+    "cancel_date": "2011-05-19T01:01:00+00:00",
     "valid_from": "2011-05-09T17:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-19T01:01:00+00:00",
     "summary": null
   }
 }

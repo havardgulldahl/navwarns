@@ -13,13 +13,16 @@
     "raw_dtg": "211610Z JAN 20",
     "msg_id": "HYDROARC 202/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 440/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nZC2 BUOY 50-53.6N 001-30.9E TEMPORARILY REMOVED.",
+    "cancel_date": "2020-02-08T11:46:00+00:00",
     "valid_from": "2020-01-21T16:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-08T11:46:00+00:00",
     "summary": null
   }
 }

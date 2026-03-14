@@ -7,13 +7,17 @@
     "raw_dtg": "031631Z OCT 11",
     "msg_id": "HYDROARC 1616/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 14 OCT",
+      "HYDROARC 1671/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nNORTH MINCH.\nGPS SATELLITE SYSTEM.\n1. GPS JAMMING EXERCISES 04 THRU 13 OCT:\n   A. IN AREA BETWEEN\n      57-36N 58-14N AND 006-38W 005-24W.\n   B. WITHIN 35 MILES OF 58-36N 004-46W.\n2. CANCEL THIS MSG 14 OCT.",
+    "cancel_date": "2011-10-11T11:21:00+00:00",
     "valid_from": "2011-10-03T16:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-11T11:21:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "140001Z AUG 19",
     "msg_id": "HYDROARC 2470/19(51)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2643/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nDNC 08.\n18 METER S/V BOINGO ALIVE, OVERDUE.\nLAST KNOWN POSITION 32-23.5N 034-58.1W\nAT 102013Z AUG.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO MRCC DELGADA,\nINMARSAT-C: 426300065,\nPHONE: 3512 9628 1777,\nFAX: 3512 1193 8518,\nE-MAIL: MRCC.DELGADA@MARINHA.PT.",
+    "cancel_date": "2019-08-30T12:15:00+00:00",
     "valid_from": "2019-08-14T00:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-08-30T12:15:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "050119Z JUN 10",
     "msg_id": "HYDROARC 1029/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 110100Z JUN",
+      "HYDROARC 1029/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\n1. UNDERWATER OPERATIONS 070001Z TO 110001Z JUN\n   BY M/V POURQUOI PAS ALONG TRACKLINE BETWEEN\n   48-15.0N 006-06.0W AND 47-16.0N 006-02.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 110100Z JUN.",
+    "cancel_date": "2010-06-11T01:00:00+00:00",
     "valid_from": "2010-06-05T01:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-11T01:00:00+00:00",
     "summary": null
   }
 }

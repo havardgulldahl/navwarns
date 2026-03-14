@@ -13,13 +13,16 @@
     "raw_dtg": "121615Z JAN 10",
     "msg_id": "HYDROARC 59/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 124/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT\nNGA CHART 37120 (3RD ED).\nRUYTINGEN EAST BUOY 51-14.5N 002-17.9E OFF STATION.",
+    "cancel_date": "2010-01-20T12:23:00+00:00",
     "valid_from": "2010-01-12T16:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-20T12:23:00+00:00",
     "summary": null
   }
 }

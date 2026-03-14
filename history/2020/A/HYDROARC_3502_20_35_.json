@@ -13,13 +13,16 @@
     "raw_dtg": "111802Z NOV 20",
     "msg_id": "HYDROARC 3502/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3517/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCOPINSAY LIGHT 58-53.8N 002-40.3W UNRELIABLE.",
+    "cancel_date": "2020-11-12T15:19:00+00:00",
     "valid_from": "2020-11-11T18:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-11-12T15:19:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "260202Z FEB 11",
     "msg_id": "HYDROARC 330/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 040359Z MAR",
+      "HYDROARC 330/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SURVEY OPERATIONS 280300Z FEB TO 040259Z MAR\n   BY M/V SIRIUS IN AREA BOUND BY\n   26-04S 045-54W, 26-15S 045-41W,\n   26-53S 046-24W, 26-41S 046-37W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 040359Z MAR.",
+    "cancel_date": "2011-03-04T03:59:00+00:00",
     "valid_from": "2011-02-26T02:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-04T03:59:00+00:00",
     "summary": null
   }
 }

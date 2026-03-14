@@ -7,13 +7,16 @@
     "raw_dtg": "300046Z JAN 15",
     "msg_id": "HYDROARC 251/15(24)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 259/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\nPLATFORM ESTABLISHED IN 21-20S 040-02W.",
+    "cancel_date": "2015-01-30T14:01:00+00:00",
     "valid_from": "2015-01-30T00:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-30T14:01:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "100452Z NOV 10",
     "msg_id": "HYDROARC 2140/10(36,37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 130450Z NOV",
+      "HYDROARC 2140/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. CONTAINERS ADRIFT IN AREA BETWEEN\n   44-20N 48-28N AND 009-21W 005-49W\n   AT 091800Z NOV.\n2. CANCEL THIS MSG 130450Z NOV.",
+    "cancel_date": "2010-11-13T04:50:00+00:00",
     "valid_from": "2010-11-10T04:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-13T04:50:00+00:00",
     "summary": null
   }
 }

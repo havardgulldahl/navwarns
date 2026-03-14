@@ -13,13 +13,17 @@
     "raw_dtg": "291133Z APR 12",
     "msg_id": "HYDROARC 916/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 032100Z MAY",
+      "HYDROARC 916/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 2000Z DAILY 30 APR THRU\n   03 MAY WITHIN 60 MILES OF 57-02.0N 009-07.4W.\n   VESSELS INTENDING TO ENTER AREA SHOULD CONTACT\n   HEBRIDES RANGE CONTROL ON VHF CH 16 FOR ADVICE.\n2. CANCEL THIS MSG 032100Z MAY.",
+    "cancel_date": "2012-05-03T21:00:00+00:00",
     "valid_from": "2012-04-29T11:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-03T21:00:00+00:00",
     "summary": null
   }
 }

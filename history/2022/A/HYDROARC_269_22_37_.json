@@ -27,13 +27,16 @@
     "raw_dtg": "280540Z JAN 22",
     "msg_id": "HYDROARC 269/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 539/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V NORTHERN FRANKLIN IN VICINITY\nOF TRACKLINE JOINING\n51-22.6N 001-27.1E, 51-23.4N 001-38.0E,\n51-23.0N 001-49.8E, 51-23.0N 002-05.0E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2022-02-23T07:20:00+00:00",
     "valid_from": "2022-01-28T05:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-02-23T07:20:00+00:00",
     "summary": null
   }
 }

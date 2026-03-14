@@ -7,13 +7,17 @@
     "raw_dtg": "110723Z MAY 11",
     "msg_id": "HYDROARC 802/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 21 MAY",
+      "HYDROARC 802/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "URUGUAY-SOUTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 16 THRU 20 MAY\n   IN AREA BETWEEN\n   35-20S 35-35S AND 054-35W 055-17W\n2. CANCEL THIS MSG 21 MAY.",
+    "cancel_date": "2011-05-21T00:01:00+00:00",
     "valid_from": "2011-05-11T07:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-21T00:01:00+00:00",
     "summary": null
   }
 }

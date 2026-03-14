@@ -7,13 +7,16 @@
     "raw_dtg": "201818Z DEC 12",
     "msg_id": "HYDROARC 3000/12(53)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 365/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nNAVTEX.\nNAVTEX STATION MALTA OFF AIR.",
+    "cancel_date": "2013-02-09T11:38:00+00:00",
     "valid_from": "2012-12-20T18:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-02-09T11:38:00+00:00",
     "summary": null
   }
 }

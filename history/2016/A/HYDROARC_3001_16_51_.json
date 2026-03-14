@@ -13,13 +13,16 @@
     "raw_dtg": "122250Z NOV 16",
     "msg_id": "HYDROARC 3001/16(51)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3006/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nDNC 01.\nCHART 51560.\nF/V MAYI 6 SANK IN 13-55.14N 017-34.49W\nAT 121700Z NOV 16.",
+    "cancel_date": "2016-11-13T12:38:00+00:00",
     "valid_from": "2016-11-12T22:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-11-13T12:38:00+00:00",
     "summary": null
   }
 }

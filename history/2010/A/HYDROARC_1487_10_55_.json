@@ -7,13 +7,17 @@
     "raw_dtg": "030816Z AUG 10",
     "msg_id": "HYDROARC 1487/10(55)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 051100Z AUG",
+      "HYDROARC 1487/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 0500Z TO 1000Z DAILY\n   03 THRU 05 AUG WITHIN 22 MILES OF 44-09N 029-23E.\n2. CANCEL THIS MSG 051100Z AUG.",
+    "cancel_date": "2010-08-05T11:00:00+00:00",
     "valid_from": "2010-08-03T08:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-05T11:00:00+00:00",
     "summary": null
   }
 }

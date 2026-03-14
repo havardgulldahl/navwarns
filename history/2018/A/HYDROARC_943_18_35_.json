@@ -13,13 +13,16 @@
     "raw_dtg": "192042Z MAR 18",
     "msg_id": "HYDROARC 943/18(35)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 955/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nNAVTEX STATION CULLERCOATS (G) 55-04.5N 001-27.8W\nUNRELIABLE.",
+    "cancel_date": "2018-03-21T01:46:00+00:00",
     "valid_from": "2018-03-19T20:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-03-21T01:46:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "051150Z AUG 10",
     "msg_id": "HYDROARC 1497/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 29 AUG",
+      "HYDROARC 1497/10"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL 28 AUG\n   BY M/V HESPERIDES IN AREA BETWEEN\n   27-00N 31-30N AND 020-00W 024-30W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 AUG.",
+    "cancel_date": "2010-08-29T00:00:00+00:00",
     "valid_from": "2010-08-05T11:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-29T00:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "310806Z JAN 12",
     "msg_id": "HYDROARC 254/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 030805Z FEB",
+      "HYDROARC 254/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT VESSEL SARA G CAPSIZED AND ADRIFT\n   IN 13-44.9N 050-58.5W AT 310720Z JAN.\n2. CANCEL THIS MSG 030805Z FEB.",
+    "cancel_date": "2012-02-03T08:05:00+00:00",
     "valid_from": "2012-01-31T08:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-03T08:05:00+00:00",
     "summary": null
   }
 }

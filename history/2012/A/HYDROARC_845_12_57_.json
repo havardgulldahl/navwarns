@@ -7,13 +7,17 @@
     "raw_dtg": "170157Z APR 12",
     "msg_id": "HYDROARC 845/12(57)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 28 APR",
+      "HYDROARC 875/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. CABLE OPERATIONS 19 THRU 27 APR BY\n   CABLESHIP ILE D'AIX ALONG TRACKLINE BETWEEN\n   01-38N 005-05E AND 01-28N 004-55E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 28 APR.",
+    "cancel_date": "2012-04-22T16:46:00+00:00",
     "valid_from": "2012-04-17T01:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-22T16:46:00+00:00",
     "summary": null
   }
 }

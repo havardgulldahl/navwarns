@@ -50,12 +50,14 @@
     "msg_id": "HYDROARC 36/23(42,43)",
     "year": 2023,
     "cancellations": [
-      "THIS MSG 032200Z APR 23"
+      "THIS MSG 032200Z APR 23",
+      "HYDROARC 36/23"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nSVALBARD.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   1900Z TO 2100Z DAILY 29 MAR THRU 03 APR\n   IN AREA BOUND BY\n   75-50.00N 022-05.00E, 75-59.00N 021-26.00E,\n   75-53.00N 020-43.00E, 75-36.00N 020-51.00E,\n   75-24.00N 021-29.00E, 75-15.00N 022-13.00E,\n   75-21.00N 022-52.00E, 75-35.00N 022-47.00E.\n2. CANCEL THIS MSG 032200Z APR 23.",
+    "cancel_date": "2023-04-03T22:00:00+00:00",
     "valid_from": "2023-03-25T02:45:00+00:00",
     "valid_until": "2023-04-03T22:00:00+00:00",
     "summary": null

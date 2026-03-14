@@ -7,13 +7,17 @@
     "raw_dtg": "121033Z FEB 11",
     "msg_id": "HYDROARC 260/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 14 FEB",
+      "HYDROARC 260/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 13 FEB\n   BY M/V BLEU CASTOR WITHIN FIVE MILES OF\n   35-56N 007-48W. ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 14 FEB.",
+    "cancel_date": "2011-02-14T00:00:00+00:00",
     "valid_from": "2011-02-12T10:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-14T00:00:00+00:00",
     "summary": null
   }
 }

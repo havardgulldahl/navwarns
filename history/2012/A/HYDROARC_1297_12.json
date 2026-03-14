@@ -7,13 +7,17 @@
     "raw_dtg": "161122Z JUN 12",
     "msg_id": "HYDROARC 1297/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 JUL",
+      "HYDROARC 1297/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "UNITED KINGDOM.\nNAVTEX.\n1. UNITED KINGDOM NAVTEX STATIONS\n   UNRELIABLE UNTIL 30 JUN.\n2. CANCEL THIS MSG 01 JUL.",
+    "cancel_date": "2012-07-01T00:00:00+00:00",
     "valid_from": "2012-06-16T11:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-01T00:00:00+00:00",
     "summary": null
   }
 }

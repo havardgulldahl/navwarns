@@ -13,13 +13,16 @@
     "raw_dtg": "120147Z JAN 11",
     "msg_id": "HYDROARC 74/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 75/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nNGA CHART 35121 (1ST ED).\nRHINNS OF ISLAY LIGHT 55-40.4N 006-30.8W UNLIT.",
+    "cancel_date": "2011-01-12T05:00:00+00:00",
     "valid_from": "2011-01-12T01:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-12T05:00:00+00:00",
     "summary": null
   }
 }

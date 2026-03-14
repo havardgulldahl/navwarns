@@ -7,13 +7,16 @@
     "raw_dtg": "031300Z APR 18",
     "msg_id": "HYDROARC 1094/18(35)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1094/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND.\nDNC 20.\nCHART 35000.\nSTIRLING DGPS STATION 56-04N 004-04W UNRELIABLE.",
+    "cancel_date": "2018-04-03T13:57:00+00:00",
     "valid_from": "2018-04-03T13:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-04-03T13:57:00+00:00",
     "summary": null
   }
 }

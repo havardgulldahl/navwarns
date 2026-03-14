@@ -34,12 +34,14 @@
     "msg_id": "HYDROARC 236/23(15,16,41)",
     "year": 2023,
     "cancellations": [
-      "THIS MSG 040400Z NOV 23"
+      "THIS MSG 040400Z NOV 23",
+      "HYDROARC 236/23"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nDNC 27.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0144Z TO 0300Z DAILY 05 OCT THRU 04 NOV\n   IN AREA BOUND BY\n   81-32.00N 130-53.00W, 82-09.00N 129-36.00W,\n   80-33.00N 175-03.00E, 80-02.00N 177-23.00E.\n2. CANCEL THIS MSG 040400Z NOV 23.",
+    "cancel_date": "2023-11-04T04:00:00+00:00",
     "valid_from": "2023-09-30T13:10:00+00:00",
     "valid_until": "2023-11-04T04:00:00+00:00",
     "summary": null

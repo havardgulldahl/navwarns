@@ -13,13 +13,16 @@
     "raw_dtg": "042007Z DEC 10",
     "msg_id": "HYDROARC 2343/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2349/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nNGA CHART 37140 (33RD ED).\nRACON AT SUNK CENTRE LIGHTFLOAT 51-50.1N 001-46.0E INOPERATIVE.",
+    "cancel_date": "2010-12-05T13:16:00+00:00",
     "valid_from": "2010-12-04T20:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-05T13:16:00+00:00",
     "summary": null
   }
 }

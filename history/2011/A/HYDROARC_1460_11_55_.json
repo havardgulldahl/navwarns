@@ -7,13 +7,17 @@
     "raw_dtg": "121522Z SEP 11",
     "msg_id": "HYDROARC 1460/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 160300Z SEP",
+      "HYDROARC 1460/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\nGUNNERY.\n1. GUNNERY EXERCISES 121500Z TO 141500Z AND\n   151500Z TO 160200Z SEP IN AREA BOUND BY\n   42-10N 029-30E, 42-30N 030-05E,\n   41-39N 030-56E, 41-38N 030-42E.\n2. CANCEL THIS MSG 160300Z SEP.",
+    "cancel_date": "2011-09-16T03:00:00+00:00",
     "valid_from": "2011-09-12T15:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-16T03:00:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,17 @@
     "raw_dtg": "051158Z MAY 10",
     "msg_id": "HYDROARC 787/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 05 JUN",
+      "HYDROARC 787/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL 04 JUN\n   BY M/V HIGH LAND NAVIGATOR, M/V HIGH LAND FORTRESS,\n   M/V AUDACIA AND M/V CALAMITY JAN IN AREA BOUND BY\n   31-22.15N 030-17.06E, 31-32.16N 030-14.95E\n   31-53.33N 030-27.90E, 31-55.31N 030-31.08E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 05 JUN.",
+    "cancel_date": "2010-06-05T00:01:00+00:00",
     "valid_from": "2010-05-05T11:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-05T00:01:00+00:00",
     "summary": null
   }
 }

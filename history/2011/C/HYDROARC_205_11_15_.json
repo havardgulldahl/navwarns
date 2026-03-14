@@ -7,13 +7,17 @@
     "raw_dtg": "121054Z OCT 11",
     "msg_id": "HYDROARC 205/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 182020Z OCT",
+      "HYDROARC 205/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\n1. INUVIK MCTS REMOTE STATIONS, CAMBRIDGE BAY\n   AND INUVIK, SATELLITE SERVICES UNRELIABLE\n   1857Z TO 1920Z DAILY UNTIL 18 OCT.\n2. CANCEL THIS MSG 182020Z OCT.",
+    "cancel_date": "2011-10-18T20:20:00+00:00",
     "valid_from": "2011-10-12T10:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-18T20:20:00+00:00",
     "summary": null
   }
 }

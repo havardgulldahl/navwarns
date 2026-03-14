@@ -13,13 +13,16 @@
     "raw_dtg": "100223Z JAN 15",
     "msg_id": "HYDROARC 75/15(36,37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 87/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 36049.\nDGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W OFF AIR.",
+    "cancel_date": "2015-01-11T17:36:00+00:00",
     "valid_from": "2015-01-10T02:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-11T17:36:00+00:00",
     "summary": null
   }
 }

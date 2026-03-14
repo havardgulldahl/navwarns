@@ -13,13 +13,16 @@
     "raw_dtg": "081541Z JUN 22",
     "msg_id": "HYDROARC 1480/22(51)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1520/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nEL HANK LIGHT 33-36.60N 007-39.30W UNLIT.",
+    "cancel_date": "2022-06-13T21:20:00+00:00",
     "valid_from": "2022-06-08T15:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-06-13T21:20:00+00:00",
     "summary": null
   }
 }

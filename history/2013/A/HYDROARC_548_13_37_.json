@@ -13,13 +13,16 @@
     "raw_dtg": "020215Z MAR 13",
     "msg_id": "HYDROARC 548/13(37)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 923/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nCHART 37121\nZC2 BUOY 50-53.5N 001-30.9E OFF STATION\nAPPROXIMATELY 0.5 MILES NNE FROM CHARTED POSITION.",
+    "cancel_date": "2013-04-12T15:55:00+00:00",
     "valid_from": "2013-03-02T02:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-04-12T15:55:00+00:00",
     "summary": null
   }
 }

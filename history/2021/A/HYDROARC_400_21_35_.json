@@ -13,13 +13,16 @@
     "raw_dtg": "100707Z FEB 21",
     "msg_id": "HYDROARC 400/21(35)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 405/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nDNC 20.\nAUSKERRY LIGHT 59-01.5N 002-34.3W UNRELIABLE.",
+    "cancel_date": "2021-02-10T16:02:00+00:00",
     "valid_from": "2021-02-10T07:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-02-10T16:02:00+00:00",
     "summary": null
   }
 }

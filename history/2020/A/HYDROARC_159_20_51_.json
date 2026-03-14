@@ -37,13 +37,16 @@
     "raw_dtg": "161920Z JAN 20",
     "msg_id": "HYDROARC 159/20(51)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 552/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V SW AMUNDSEN TOWING 12 8000 METER\nLONG CABLES IN AREA BOUND BY\n14-30.6N 018-24.3W, 14-30.6N 017-56.3W,\n13-28.3N 017-14.0W, 12-55.1N 017-14.5W,\n12-54.3N 018-21.2W.\nSIX MILE BERTH REQUESTED.",
+    "cancel_date": "2020-02-15T13:45:00+00:00",
     "valid_from": "2020-01-16T19:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-15T13:45:00+00:00",
     "summary": null
   }
 }

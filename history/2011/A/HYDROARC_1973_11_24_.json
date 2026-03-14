@@ -13,13 +13,17 @@
     "raw_dtg": "241017Z NOV 11",
     "msg_id": "HYDROARC 1973/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 242100Z NOV",
+      "HYDROARC 1973/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\n1. RADIOBEACON AT CABO SANTA MARTA LIGHT\n   28-36.2S 048-48.8W OFF AIR\n   UNTIL 242000Z NOV.\n2. CANCEL THIS MSG 242100Z NOV.",
+    "cancel_date": "2011-11-24T21:00:00+00:00",
     "valid_from": "2011-11-24T10:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-24T21:00:00+00:00",
     "summary": null
   }
 }

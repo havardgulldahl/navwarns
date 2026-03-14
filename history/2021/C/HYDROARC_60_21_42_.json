@@ -13,13 +13,16 @@
     "raw_dtg": "220729Z APR 21",
     "msg_id": "HYDROARC 60/21(42)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 61/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\nDANGEROUS WRECK, LEAST DEPTH 160 METERS,\nIN 70-10.72N 032-56.55E.",
+    "cancel_date": "2021-04-22T11:48:00+00:00",
     "valid_from": "2021-04-22T07:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-04-22T11:48:00+00:00",
     "summary": null
   }
 }

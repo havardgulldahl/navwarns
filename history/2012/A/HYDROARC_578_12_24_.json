@@ -33,13 +33,17 @@
     "raw_dtg": "112332Z MAR 12",
     "msg_id": "HYDROARC 578/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 262200Z MAR",
+      "HYDROARC 578/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SURVEY OPERATIONS 1000Z TO 2100Z DAILY 12 THRU 26 MAR\n   IN AREA BOUND BY\n   21-13.07S 040-50.10W, 21-19.33S 040-51.95W,\n   21-17.88S 040-57.52W, 21-11.62S 040-55.67W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 262200Z MAR.",
+    "cancel_date": "2012-03-26T22:00:00+00:00",
     "valid_from": "2012-03-11T23:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-26T22:00:00+00:00",
     "summary": null
   }
 }

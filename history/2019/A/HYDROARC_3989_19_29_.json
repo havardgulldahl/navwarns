@@ -13,13 +13,16 @@
     "raw_dtg": "281725Z DEC 19",
     "msg_id": "HYDROARC 3989/19(29)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 149/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DRAKE PASSAGE.\nSOUTH SHETLAND ISLANDS.\nDNC 29.\nUNCOVERED ROCK REPORTED IN 62-27.4S 060-16.8W.",
+    "cancel_date": "2020-01-15T15:23:00+00:00",
     "valid_from": "2019-12-28T17:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-15T15:23:00+00:00",
     "summary": null
   }
 }

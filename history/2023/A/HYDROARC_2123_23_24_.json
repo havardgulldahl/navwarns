@@ -34,12 +34,14 @@
     "msg_id": "HYDROARC 2123/23(24)",
     "year": 2023,
     "cancellations": [
-      "THIS MSG 270001Z SEP 23"
+      "THIS MSG 270001Z SEP 23",
+      "HYDROARC 2123/23"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. HAZARDOUS OPERATIONS 261600Z TO 262300Z SEP\n   IN AREA BOUND BY\n   16-45.00S 036-11.00W, 16-49.00S 036-20.00W,\n   17-00.00S 036-15.00W, 16-56.00S 036-06.00W.\n2. CANCEL THIS MSG 270001Z SEP 23.",
+    "cancel_date": "2023-09-27T00:01:00+00:00",
     "valid_from": "2023-09-21T13:07:00+00:00",
     "valid_until": "2023-09-27T00:01:00+00:00",
     "summary": null

@@ -13,13 +13,16 @@
     "raw_dtg": "120046Z SEP 10",
     "msg_id": "HYDROARC 1723/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1726/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nNGA CHART 35172 (3RD ED).\nDGPS STATION AT SUMBURGH HEAD LIGHT\n59-51.3N 001-16.4W UNRELIABLE.",
+    "cancel_date": "2010-09-12T15:04:00+00:00",
     "valid_from": "2010-09-12T00:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-12T15:04:00+00:00",
     "summary": null
   }
 }

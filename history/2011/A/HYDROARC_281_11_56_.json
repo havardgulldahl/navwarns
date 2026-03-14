@@ -7,13 +7,17 @@
     "raw_dtg": "151405Z FEB 11",
     "msg_id": "HYDROARC 281/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 APR",
+      "HYDROARC 507/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 31 MAR BY\n   M/V RAMFORM VANGUARD IN AREA BOUND BY\n   33-16N 035-04E, 33-20N 034-17E,\n   33-45N 034-26E, 33-43N 035-10E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 APR.",
+    "cancel_date": "2011-03-26T09:27:00+00:00",
     "valid_from": "2011-02-15T14:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-26T09:27:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "250127Z MAY 11",
     "msg_id": "HYDROARC 879/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 152200Z JUL",
+      "HYDROARC 879/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\n1. SURVEY OPERATIONS 0900Z TO 2100Z DAILY\n   25 MAY THRU 15 JUL\n   BY M/V MAR AZUL AND M/V FERMISA VICINITY\n   19-33.80S 039-15.33W.\n2. CANCEL THIS MSG 152200Z JUL.",
+    "cancel_date": "2011-07-15T22:00:00+00:00",
     "valid_from": "2011-05-25T01:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-15T22:00:00+00:00",
     "summary": null
   }
 }

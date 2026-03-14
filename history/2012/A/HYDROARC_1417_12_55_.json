@@ -7,13 +7,17 @@
     "raw_dtg": "281634Z JUN 12",
     "msg_id": "HYDROARC 1417/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 05 JUL",
+      "HYDROARC 1417/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\nGEORGIA.\n1. SCIENTIFIC SURVEY IN PROGRESS UNTIL 04 JUL\n   BY M/V DENEB IN AREA BOUND BY\n   43-04N 040-48E, 42-28N 040-37E,\n   42-37N 039-56E, 43-07N 040-08E,\n   43-28N 040-07E, 43-10N 040-25E.\n2. CANCEL THIS MSG 05 JUL.",
+    "cancel_date": "2012-07-05T00:00:00+00:00",
     "valid_from": "2012-06-28T16:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-05T00:00:00+00:00",
     "summary": null
   }
 }

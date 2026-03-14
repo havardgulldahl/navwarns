@@ -13,13 +13,16 @@
     "raw_dtg": "111719Z MAR 15",
     "msg_id": "HYDROARC 595/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 598/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nDGPS STATION AT SUMBURGH HEAD LIGHT 59-51.3N 001-16.3W UNRELIABLE.",
+    "cancel_date": "2015-03-11T21:40:00+00:00",
     "valid_from": "2015-03-11T17:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-03-11T21:40:00+00:00",
     "summary": null
   }
 }

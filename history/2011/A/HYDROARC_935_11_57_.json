@@ -13,13 +13,16 @@
     "raw_dtg": "040810Z JUN 11",
     "msg_id": "HYDROARC 935/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1345/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORD STERLING\nALONG TRACKLINE BETWEEN\n07-22.1S 012-02.0E AND 07-47.4S 011-51.1E.",
+    "cancel_date": "2011-08-24T11:36:00+00:00",
     "valid_from": "2011-06-04T08:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-24T11:36:00+00:00",
     "summary": null
   }
 }

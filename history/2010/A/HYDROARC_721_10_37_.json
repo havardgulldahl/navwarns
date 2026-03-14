@@ -13,13 +13,17 @@
     "raw_dtg": "260457Z APR 10",
     "msg_id": "HYDROARC 721/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 02 MAY",
+      "HYDROARC 746/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "FRANCE-NORTHWEST COAST.\n1. HYDROGRAPHIC SURVEY IN PROGRESS UNTIL 01 MAY\n   BY M/V LA PEROUSE ALONG TRACKLINE BETWEEN\n   48-46.6N 005-49.3W AND 48-57.0N 006-03.2W.\n2. CANCEL THIS MSG 02 MAY.",
+    "cancel_date": "2010-04-29T12:34:00+00:00",
     "valid_from": "2010-04-26T04:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-29T12:34:00+00:00",
     "summary": null
   }
 }

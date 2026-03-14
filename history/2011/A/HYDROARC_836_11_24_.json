@@ -33,13 +33,17 @@
     "raw_dtg": "172039Z MAY 11",
     "msg_id": "HYDROARC 836/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 240359Z MAY",
+      "HYDROARC 862/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 240259Z MAY\n   BY M/V WESTERN MONARCH TOWING THREE MILE\n   LONG CABLES IN AREA BOUND BY\n   19-42.00S 039-34.00W, 20-14.00S 039-07.00W,\n   20-25.30S 039-20.00W, 19-50.06S 039-50.24W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 240359Z MAY.",
+    "cancel_date": "2011-05-22T17:47:00+00:00",
     "valid_from": "2011-05-17T20:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-22T17:47:00+00:00",
     "summary": null
   }
 }

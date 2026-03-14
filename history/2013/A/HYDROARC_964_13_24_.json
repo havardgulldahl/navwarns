@@ -13,13 +13,16 @@
     "raw_dtg": "170045Z APR 13",
     "msg_id": "HYDROARC 964/13(24)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 994/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nCHART 24120\nARARANGUA LIGHT 28-56.1S 049-21.8W UNLIT.",
+    "cancel_date": "2013-04-20T09:59:00+00:00",
     "valid_from": "2013-04-17T00:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-04-20T09:59:00+00:00",
     "summary": null
   }
 }

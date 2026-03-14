@@ -7,13 +7,17 @@
     "raw_dtg": "152052Z APR 12",
     "msg_id": "HYDROARC 25/12(42,43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 08 MAY",
+      "HYDROARC 26/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nNORWAY.\nNAVTEX.\n1. ON 01 MAY NAVTEX STATION VARDO (70-22N 031-06E)\n   WILL CHANGE THE B1 CHARACTER FROM\n   V (VICTOR) TO C (CHARLIE).\n2. CANCEL THIS MSG 08 MAY.",
+    "cancel_date": "2012-04-16T10:18:00+00:00",
     "valid_from": "2012-04-15T20:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-16T10:18:00+00:00",
     "summary": null
   }
 }

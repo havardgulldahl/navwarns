@@ -13,13 +13,16 @@
     "raw_dtg": "252001Z AUG 16",
     "msg_id": "HYDROARC 2184/16(35)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2190/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCHART 35073.\nDGPS STATION AT BUTT OF LEWIS LIGHT 58-30.9N 006-15.7W OFF AIR.",
+    "cancel_date": "2016-08-26T03:50:00+00:00",
     "valid_from": "2016-08-25T20:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-08-26T03:50:00+00:00",
     "summary": null
   }
 }

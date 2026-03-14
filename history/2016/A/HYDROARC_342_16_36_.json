@@ -13,13 +13,16 @@
     "raw_dtg": "090928Z FEB 16",
     "msg_id": "HYDROARC 342/16(36)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 377/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WALES-SOUTH COAST.\nBRISTOL CHANNEL.\nDNC 20.\nCHART 36035.\nSAINT GOWAN BUOY 51-31.9N 004-59.8W OFF STATION\nAND RACON INOPERATIVE.",
+    "cancel_date": "2016-02-14T10:10:00+00:00",
     "valid_from": "2016-02-09T09:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-02-14T10:10:00+00:00",
     "summary": null
   }
 }

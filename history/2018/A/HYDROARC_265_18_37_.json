@@ -13,13 +13,16 @@
     "raw_dtg": "241221Z JAN 18",
     "msg_id": "HYDROARC 265/18(37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 806/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37095.\n22.8 METER DEPTH REPORTED IN 50-34.38N 000-37.69W.",
+    "cancel_date": "2018-03-07T11:49:00+00:00",
     "valid_from": "2018-01-24T12:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-03-07T11:49:00+00:00",
     "summary": null
   }
 }

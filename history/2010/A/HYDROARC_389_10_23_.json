@@ -13,13 +13,17 @@
     "raw_dtg": "030223Z MAR 10",
     "msg_id": "HYDROARC 389/10(23)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 060230Z MAR",
+      "HYDROARC 389/10"
+    ],
     "hazard_type": "ice and icebergs",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nICE.\n1. ICEBERGS SIGHTED IN 58-46.0S 047-28.6W\n   AND 58-59.4S 048-02.6W ON 01 MAR.\n2. CANCEL THIS MSG 060230Z MAR.",
+    "cancel_date": "2010-03-06T02:30:00+00:00",
     "valid_from": "2010-03-03T02:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-06T02:30:00+00:00",
     "summary": null
   }
 }

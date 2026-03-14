@@ -33,13 +33,16 @@
     "raw_dtg": "292053Z MAR 13",
     "msg_id": "HYDROARC 17/13(43)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 87/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEOLOG DMITRIY NALIVKIN TOWING 10000 METER\nLONG CABLE IN AREA BOUND BY\n72-11.5N 015-42.4E, 71-48.9N 021-29.8E,\n70-29.5N 018-41.5E, 70-46.6N 015-38.7E.\nFIVE MILE BERTH REQUESTED.",
+    "cancel_date": "2013-07-14T09:16:00+00:00",
     "valid_from": "2013-03-29T20:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-07-14T09:16:00+00:00",
     "summary": null
   }
 }

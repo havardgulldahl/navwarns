@@ -45,13 +45,16 @@
     "raw_dtg": "051833Z JUN 15",
     "msg_id": "HYDROARC 103/15(42)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 159/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nDNC 22.\nSEISMIC SURVEY 06 JUN UNTIL FURTHER NOTICE BY\nM/V PROFESSOR KURENTSOV AND M/V MARSHAL VASILEVSKIY\nIN AREA BOUND BY\n68-14.00N 048-52.00E, 68-43.00N 050-08.00E,\n68-26.00N 050-51.00E, 68-22.40N 050-47.83E,\n68-06.47N 050-04.10E, 68-05.98N 050-02.62E,\n67-58.00N 049-37.00E, 68-14.00N 048-52.00E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2015-07-03T19:51:00+00:00",
     "valid_from": "2015-06-05T18:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-07-03T19:51:00+00:00",
     "summary": null
   }
 }

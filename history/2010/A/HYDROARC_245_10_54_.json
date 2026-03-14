@@ -7,13 +7,17 @@
     "raw_dtg": "081523Z FEB 10",
     "msg_id": "HYDROARC 245/10(54)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 312200Z DEC",
+      "HYDROARC 283/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SEA OF CRETE.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS SUNRISE TO 2100Z DAILY\n   UNTIL 31 DEC EXCEPT SATURDAYS, SUNDAYS AND\n   HOLIDAYS IN AREA BOUND BY\n   35-29N 023-46E, 35-29N 023-51E,\n   35-34N 023-55E, 35-36N 023-49E,\n   35-36N 023-48E.\n2. CANCEL THIS MSG 312200Z DEC.",
+    "cancel_date": "2010-02-13T10:48:00+00:00",
     "valid_from": "2010-02-08T15:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-13T10:48:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "111814Z NOV 12",
     "msg_id": "HYDROARC 2676/12(36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2684/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36049\nTATER DU LIGHT 50-03.1N 005-34.6W, RED SECTOR LIGHT UNLIT.",
+    "cancel_date": "2012-11-12T12:14:00+00:00",
     "valid_from": "2012-11-11T18:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-11-12T12:14:00+00:00",
     "summary": null
   }
 }

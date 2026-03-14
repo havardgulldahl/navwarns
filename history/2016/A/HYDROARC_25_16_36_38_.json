@@ -37,13 +37,16 @@
     "raw_dtg": "022238Z JAN 16",
     "msg_id": "HYDROARC 25/16(36,38)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 33/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n46-05.22N 025-09.86W AT 022131Z JAN. SEARCH\nAND RESCUE OPERATIONS IN AREA BOUND BY\n46-50.00N 025-22.00W, 46-50.00N 022-46.00W,\n45-37.00N 022-46.00W, 45-37.00N 025-22.00W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP\nLOOKOUT, ASSIST IF POSSIBLE. REPORTS TO\nUK COAST GUARD, PHONE: 4423 9255 2100,\nE-MAIL: ZONE25@HMCG.GOV.UK.",
+    "cancel_date": "2016-01-03T15:15:00+00:00",
     "valid_from": "2016-01-02T22:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-01-03T15:15:00+00:00",
     "summary": null
   }
 }

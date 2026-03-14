@@ -7,13 +7,17 @@
     "raw_dtg": "270949Z MAR 12",
     "msg_id": "HYDROARC 685/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 271300Z MAR",
+      "HYDROARC 685/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION SOUSTONS, RATE 6731-X,\n   OFF AIR 270800Z TO 271200Z MAR.\n2. CANCEL THIS MSG 271300Z MAR.",
+    "cancel_date": "2012-03-27T13:00:00+00:00",
     "valid_from": "2012-03-27T09:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-27T13:00:00+00:00",
     "summary": null
   }
 }

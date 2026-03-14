@@ -13,13 +13,17 @@
     "raw_dtg": "291959Z SEP 10",
     "msg_id": "HYDROARC 1846/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 NOV",
+      "HYDROARC 1846/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 31 OCT BY\n   CABLESHIP ILE DE BATZ AND CABLESHIP ILE DE SEIN\n   VICINITY OF TRACKLINE BETWEEN\n   31-22.9N 029-23.8E AND 31-25.2N 029-30.8E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 NOV.",
+    "cancel_date": "2010-11-01T00:01:00+00:00",
     "valid_from": "2010-09-29T19:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-01T00:01:00+00:00",
     "summary": null
   }
 }

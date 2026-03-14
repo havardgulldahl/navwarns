@@ -7,13 +7,16 @@
     "raw_dtg": "282127Z SEP 15",
     "msg_id": "HYDROARC 2430/15(54,56)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2430/15"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\nDNC 10.\n1. HAZARDOUS OPERATIONS 300500Z TO 301500Z SEP\n   IN AREA BETWEEN\n   35-08N 34-49N AND 035-27E 035-04E.\n2. CANCEL THIS MSG ON 301600Z SEP 15.",
+    "cancel_date": "2015-09-30T16:00:00+00:00",
     "valid_from": "2015-09-28T21:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-09-30T16:00:00+00:00",
     "summary": null
   }
 }

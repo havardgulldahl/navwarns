@@ -7,13 +7,16 @@
     "raw_dtg": "110006Z MAR 14",
     "msg_id": "HYDROARC 713/14(24)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 4/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nURUGUAY.\nNAVTEX.\nNAVTEX STATION LA PALOMA 34-40S 054-09W INOPERATIVE.",
+    "cancel_date": "2015-01-01T13:04:00+00:00",
     "valid_from": "2014-03-11T00:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-01T13:04:00+00:00",
     "summary": null
   }
 }

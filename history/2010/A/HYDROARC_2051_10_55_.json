@@ -7,13 +7,17 @@
     "raw_dtg": "281557Z OCT 10",
     "msg_id": "HYDROARC 2051/10(55)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 292100Z OCT",
+      "HYDROARC 2051/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "STRAIT OF ISTANBUL.\nNGA CHART 55040 (4TH ED).\n1. STRAIT OF ISTANBUL CLOSED TO VESSEL\n   TRAFFIC 291100Z TO 292000Z OCT.\n2. CANCEL THIS MSG 292100Z OCT.",
+    "cancel_date": "2010-10-29T21:00:00+00:00",
     "valid_from": "2010-10-28T15:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-29T21:00:00+00:00",
     "summary": null
   }
 }

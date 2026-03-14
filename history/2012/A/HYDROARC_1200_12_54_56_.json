@@ -7,13 +7,17 @@
     "raw_dtg": "041735Z JUN 12",
     "msg_id": "HYDROARC 1200/12(54,56)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 061300Z JUN",
+      "HYDROARC 1200/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0200Z TO 1200Z DAILY\n   05 AND 06 JUN IN AREA BETWEEN\n   33-08N 34-02N AND 032-59E 033-14E.\n2. CANCEL THIS MSG 061300Z JUN.",
+    "cancel_date": "2012-06-06T13:00:00+00:00",
     "valid_from": "2012-06-04T17:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-06T13:00:00+00:00",
     "summary": null
   }
 }

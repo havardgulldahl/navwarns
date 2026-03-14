@@ -13,13 +13,16 @@
     "raw_dtg": "010422Z FEB 13",
     "msg_id": "HYDROARC 285/13(35)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 289/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND.\nSHETLAND ISLANDS.\nCHART 35066\nHOO STACK LIGHT 60-15.0N 001-05.2W UNLIT.",
+    "cancel_date": "2013-02-01T10:33:00+00:00",
     "valid_from": "2013-02-01T04:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-02-01T10:33:00+00:00",
     "summary": null
   }
 }

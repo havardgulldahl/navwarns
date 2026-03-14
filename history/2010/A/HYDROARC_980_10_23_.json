@@ -7,13 +7,17 @@
     "raw_dtg": "301452Z MAY 10",
     "msg_id": "HYDROARC 980/10(23)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 021444Z JUN",
+      "HYDROARC 986/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\n1. DERELICT F/V RIO VELLO ADRIFT VICINITY\n   39-19S 052-42W AT 301027Z MAY.\n2. CANCEL THIS MSG 021444Z JUN.",
+    "cancel_date": "2010-05-31T08:49:00+00:00",
     "valid_from": "2010-05-30T14:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-31T08:49:00+00:00",
     "summary": null
   }
 }

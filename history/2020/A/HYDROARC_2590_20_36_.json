@@ -13,13 +13,16 @@
     "raw_dtg": "211601Z AUG 20",
     "msg_id": "HYDROARC 2590/20(36)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2606/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nTATER-DU LIGHT 50-03.1N 005-34.7W UNRELIABLE.",
+    "cancel_date": "2020-08-23T22:47:00+00:00",
     "valid_from": "2020-08-21T16:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-08-23T22:47:00+00:00",
     "summary": null
   }
 }

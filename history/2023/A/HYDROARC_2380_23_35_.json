@@ -13,13 +13,16 @@
     "raw_dtg": "192211Z OCT 23",
     "msg_id": "HYDROARC 2380/23(35)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2384/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nNAVTEX STATION CULLERCOATS (G) 55-04.00N 001-28.00W OFF AIR.",
+    "cancel_date": "2023-10-20T15:50:00+00:00",
     "valid_from": "2023-10-19T22:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-10-20T15:50:00+00:00",
     "summary": null
   }
 }

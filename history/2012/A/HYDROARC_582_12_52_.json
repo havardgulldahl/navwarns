@@ -13,13 +13,16 @@
     "raw_dtg": "121600Z MAR 12",
     "msg_id": "HYDROARC 582/12(52)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 640/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERREAN SEA.\nALGERIA.\nCHART 53011\nCAP CARBON LIGHT 36-46.6N 005-06.3E UNRELIABLE.",
+    "cancel_date": "2012-03-22T16:42:00+00:00",
     "valid_from": "2012-03-12T16:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-22T16:42:00+00:00",
     "summary": null
   }
 }

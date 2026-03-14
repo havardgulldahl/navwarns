@@ -7,13 +7,17 @@
     "raw_dtg": "031109Z MAY 11",
     "msg_id": "HYDROARC 56/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 101900Z MAY",
+      "HYDROARC 56/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC OCEAN.\nBARENTS SEA.\nMISSILES.\n1. HAZARDOUS OPERATIONS 2000Z TO 1800Z COMMENCING\n   DAILY 05 THRU 07 AND 09 MAY IN AREA BETWEEN\n   69-34.5N 69-58.0N AND 033-38.0E 034-47.0E.\n2. CANCEL THIS MSG 101900Z MAY.",
+    "cancel_date": "2011-05-10T19:00:00+00:00",
     "valid_from": "2011-05-03T11:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-10T19:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "141653Z OCT 10",
     "msg_id": "HYDROARC 1954/10(36,37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 171655Z OCT",
+      "HYDROARC 1954/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. DERELICT VESSEL ADRIFT VICINITY\n   48-17.2N 007-28.2W AT 141340Z OCT.\n2. CANCEL THIS MSG 171655Z OCT.",
+    "cancel_date": "2010-10-17T16:55:00+00:00",
     "valid_from": "2010-10-14T16:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-17T16:55:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "161009Z JAN 12",
     "msg_id": "HYDROARC 123/12(52)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 191010Z JAN",
+      "HYDROARC 133/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TUNISIA-NORTH COAST.\n1. DERELICT F/V ADRIFT VICINITY\n   37-26.8N 010-32.8E ON 15 JAN.\n2. CANCEL THIS MSG 191010Z JAN.",
+    "cancel_date": "2012-01-17T22:46:00+00:00",
     "valid_from": "2012-01-16T10:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-17T22:46:00+00:00",
     "summary": null
   }
 }

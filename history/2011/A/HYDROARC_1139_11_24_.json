@@ -13,13 +13,17 @@
     "raw_dtg": "140213Z JUL 11",
     "msg_id": "HYDROARC 1139/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 14 SEP",
+      "HYDROARC 1151/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nIHLA GRANDE.\n1.  CAUTION IS ADVISED TO AVOID EIGHT UNLIT ORANGE\n    BUOYS INSTALLED IN A 1500 METER RADIUS CENTERED\n    ON 24-29.10S 044-12.50W FROM 13 JUL THRU 13 SEP.\n2.  CANCEL THIS MSG 14 SEP.",
+    "cancel_date": "2011-07-16T08:52:00+00:00",
     "valid_from": "2011-07-14T02:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-16T08:52:00+00:00",
     "summary": null
   }
 }

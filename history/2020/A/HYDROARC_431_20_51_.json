@@ -13,13 +13,16 @@
     "raw_dtg": "071607Z FEB 20",
     "msg_id": "HYDROARC 431/20(51)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 132/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nBEDDOUZA LIGHT 32-32.4N 009-16.9W UNLIT.",
+    "cancel_date": "2022-01-14T17:39:00+00:00",
     "valid_from": "2020-02-07T16:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-01-14T17:39:00+00:00",
     "summary": null
   }
 }

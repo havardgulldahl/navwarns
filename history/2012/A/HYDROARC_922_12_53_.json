@@ -7,13 +7,17 @@
     "raw_dtg": "300958Z APR 12",
     "msg_id": "HYDROARC 922/12(53)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 302359Z APR",
+      "HYDROARC 922/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 301200Z TO 302300Z APR\n   IN AREA BOUND BY\n   35-59N 013-35E, 36-34N 014-22E,\n   35-20N 014-15E, 35-40N 013-24E.\n2. CANCEL THIS MSG 302359Z APR.",
+    "cancel_date": "2012-04-30T23:59:00+00:00",
     "valid_from": "2012-04-30T09:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-30T23:59:00+00:00",
     "summary": null
   }
 }

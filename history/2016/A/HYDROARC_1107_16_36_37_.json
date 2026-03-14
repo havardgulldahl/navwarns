@@ -13,13 +13,16 @@
     "raw_dtg": "100830Z MAY 16",
     "msg_id": "HYDROARC 1107/16(36,37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1108/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 36050.\nFOG SIGNAL AT START POINT LIGHT 50-13.3N 003-38.5W INOPERATIVE.",
+    "cancel_date": "2016-05-10T10:40:00+00:00",
     "valid_from": "2016-05-10T08:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-05-10T10:40:00+00:00",
     "summary": null
   }
 }

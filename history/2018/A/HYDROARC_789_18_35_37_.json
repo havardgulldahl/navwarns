@@ -13,13 +13,16 @@
     "raw_dtg": "060005Z MAR 18",
     "msg_id": "HYDROARC 789/18(35,37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 824/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 35002.\nALL NAVIGATIONAL AIDS AT PLATFORM TRENT 43/24,\n54-18.0N 001-39.6E INOPERATIVE.",
+    "cancel_date": "2018-03-08T16:38:00+00:00",
     "valid_from": "2018-03-06T00:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-03-08T16:38:00+00:00",
     "summary": null
   }
 }

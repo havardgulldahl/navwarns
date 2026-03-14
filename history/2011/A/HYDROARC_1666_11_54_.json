@@ -33,13 +33,17 @@
     "raw_dtg": "101401Z OCT 11",
     "msg_id": "HYDROARC 1666/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 121300Z OCT",
+      "HYDROARC 1666/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ADRIATIC SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 120900Z TO 121200Z OCT\n   IN AREA BOUND BY\n   42-23.0N 018-32.4E, 42-16.0N 018-46.4E,\n   42-09.0N 019-01.4E, 42-07.0N 018-34.4E.\n2. CANCEL THIS MSG 121300Z OCT.",
+    "cancel_date": "2011-10-12T13:00:00+00:00",
     "valid_from": "2011-10-10T14:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-12T13:00:00+00:00",
     "summary": null
   }
 }

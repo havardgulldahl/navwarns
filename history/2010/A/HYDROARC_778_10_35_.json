@@ -13,13 +13,16 @@
     "raw_dtg": "040040Z MAY 10",
     "msg_id": "HYDROARC 778/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 806/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nNGA CHART 35075 (2ND ED).\nGASKER ISLAND LIGHT 57-59.1N 007-17.2W UNLIT.",
+    "cancel_date": "2010-05-07T15:32:00+00:00",
     "valid_from": "2010-05-04T00:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-07T15:32:00+00:00",
     "summary": null
   }
 }

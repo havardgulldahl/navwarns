@@ -13,13 +13,16 @@
     "raw_dtg": "240203Z JAN 17",
     "msg_id": "HYDROARC 246/17(35)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 251/17"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nSKADAN LIGHT 59-30.8N 001-39.2W UNLIT.",
+    "cancel_date": "2017-01-24T10:25:00+00:00",
     "valid_from": "2017-01-24T02:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-24T10:25:00+00:00",
     "summary": null
   }
 }

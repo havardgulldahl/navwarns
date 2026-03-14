@@ -13,13 +13,16 @@
     "raw_dtg": "081735Z DEC 21",
     "msg_id": "HYDROARC 3005/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3010/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT TETHYS PLATFORM\n53-39.0N 002-03.3E INOPERATIVE.",
+    "cancel_date": "2021-12-09T14:19:00+00:00",
     "valid_from": "2021-12-08T17:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-12-09T14:19:00+00:00",
     "summary": null
   }
 }

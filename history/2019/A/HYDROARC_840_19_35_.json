@@ -13,13 +13,16 @@
     "raw_dtg": "160055Z MAR 19",
     "msg_id": "HYDROARC 840/19(35)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 848/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH MINCH.\nSCOTLAND-WEST COAST.\nDNC 20.\nCHART 35015.\nRONA LIGHT 57-34.7N 005-57.5W UNRELIABLE.",
+    "cancel_date": "2019-03-16T18:59:00+00:00",
     "valid_from": "2019-03-16T00:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-03-16T18:59:00+00:00",
     "summary": null
   }
 }

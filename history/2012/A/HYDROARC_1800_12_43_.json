@@ -33,13 +33,16 @@
     "raw_dtg": "060733Z AUG 12",
     "msg_id": "HYDROARC 1800/12(43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2043/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORWEGIAN SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V RAMFORM VANGUARD TOWING 14 CABLES\nIN AREA BOUND BY\n66-01.5N 007-22.5E, 65-47.3N 006-55.0E,\n65-37.6N 007-44.5E, 65-51.0N 008-15.0E.\nSIX MILE BERTH REQUESTED.",
+    "cancel_date": "2012-09-04T11:37:00+00:00",
     "valid_from": "2012-08-06T07:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-09-04T11:37:00+00:00",
     "summary": null
   }
 }

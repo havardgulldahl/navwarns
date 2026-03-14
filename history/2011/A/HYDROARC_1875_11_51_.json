@@ -13,13 +13,17 @@
     "raw_dtg": "110513Z NOV 11",
     "msg_id": "HYDROARC 1875/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 140512Z NOV",
+      "HYDROARC 1875/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT 14 METER S/V SAILER ELENA, ADRIFT\n   VICINITY 36-39.2N 015-48.0W AT 110030Z NOV.\n   REPORTS TO MRCC LISBOA.\n2. CANCEL THIS MSG 140512Z NOV.",
+    "cancel_date": "2011-11-14T05:12:00+00:00",
     "valid_from": "2011-11-11T05:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-14T05:12:00+00:00",
     "summary": null
   }
 }

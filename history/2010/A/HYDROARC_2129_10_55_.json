@@ -33,13 +33,17 @@
     "raw_dtg": "081521Z NOV 10",
     "msg_id": "HYDROARC 2129/10(55)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 31 DEC",
+      "HYDROARC 2129/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 30 DEC BY\n   M/V AKADEMIC GOLITSYN AND M/V PROFESSOR RYABINKIN\n   TOWING 1200 METER LONG CABLE IN AREA BOUND BY\n   44-54.4N 037-19.1E, 44-00.1N 039-11.4E,\n   43-10.9N 036-50.7E, 43-26.1N 036-11.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 31 DEC.",
+    "cancel_date": "2010-12-31T00:01:00+00:00",
     "valid_from": "2010-11-08T15:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-31T00:01:00+00:00",
     "summary": null
   }
 }

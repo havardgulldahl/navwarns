@@ -49,13 +49,16 @@
     "raw_dtg": "292321Z JAN 10",
     "msg_id": "HYDROARC 183/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1358/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nSEISMIC SURVEY 01 FEB UNTIL FURTHER NOTICE BY\nM/V RANDFORM GUARD IN AREA BOUND BY\n06-10.18S 011-00.46E, 06-10.15S 011-01.98E,\n06-08.00S 011-01.98E, 06-08.00S 011-09.45E,\n06-13.59S 011-09.45E, 06-13.50S 011-05.13E,\n06-15.34S 011-04.00E, 06-15.30S 011-00.45E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2010-07-17T08:57:00+00:00",
     "valid_from": "2010-01-29T23:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-07-17T08:57:00+00:00",
     "summary": null
   }
 }

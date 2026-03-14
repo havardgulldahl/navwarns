@@ -13,13 +13,16 @@
     "raw_dtg": "100018Z JAN 12",
     "msg_id": "HYDROARC 77/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 259/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nDISTRESS SIGNAL RECEIVED IN 22-42.47S 040-24.13W.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO ANY COASTAL RADIO STATION.",
+    "cancel_date": "2012-02-01T08:34:00+00:00",
     "valid_from": "2012-01-10T00:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-01T08:34:00+00:00",
     "summary": null
   }
 }

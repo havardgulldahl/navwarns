@@ -13,13 +13,16 @@
     "raw_dtg": "110429Z SEP 12",
     "msg_id": "HYDROARC 168/12(41)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 186/12"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nEAST SIBERIAN SEA.\nCHART 41000\nSCIENTIFIC MOORING ESTABLISHED\nIN 75-08.34N 155-44.00E.\n0.2 MILE BERTH REQUESTED.",
+    "cancel_date": "2012-09-23T09:20:00+00:00",
     "valid_from": "2012-09-11T04:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-09-23T09:20:00+00:00",
     "summary": null
   }
 }

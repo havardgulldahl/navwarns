@@ -13,13 +13,16 @@
     "raw_dtg": "111554Z DEC 17",
     "msg_id": "HYDROARC 4000/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 4003/17"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC\nSPAIN.\nDNC 08.\nCHART 37034.\nCABO TORINANA LIGHT 43-03.2N 009-17.9W UNLIT.",
+    "cancel_date": "2017-12-11T17:08:00+00:00",
     "valid_from": "2017-12-11T15:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-12-11T17:08:00+00:00",
     "summary": null
   }
 }

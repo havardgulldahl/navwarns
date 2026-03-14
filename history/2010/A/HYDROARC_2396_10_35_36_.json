@@ -13,13 +13,16 @@
     "raw_dtg": "111841Z DEC 10",
     "msg_id": "HYDROARC 2396/10(35,36)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2408/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nNGA CHART 36017 (1ST ED).\nGLAS EILEAN LIGHT 56-01.1N 005-21.1W UNLIT.",
+    "cancel_date": "2010-12-12T17:23:00+00:00",
     "valid_from": "2010-12-11T18:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-12T17:23:00+00:00",
     "summary": null
   }
 }

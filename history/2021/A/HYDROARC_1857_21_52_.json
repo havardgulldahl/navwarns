@@ -37,13 +37,16 @@
     "raw_dtg": "141308Z JUL 21",
     "msg_id": "HYDROARC 1857/21(52)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1857/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nSICILY.\nDNC 08.\n1. UNDERWATER OPERATIONS 15 THRU 19 JUL\n   NOTICE BY M/V HERCULES IN AREA BOUND BY\n   36-19.50N 014-53.28E, 36-27.262N 014-57.94E,\n   35-46.80N 013-04.20E, 35-51.000N 012-43.80E,\n   35-30.00N 012-48.00E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG ON 200100Z JUL 21.",
+    "cancel_date": "2021-07-20T01:00:00+00:00",
     "valid_from": "2021-07-14T13:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-07-20T01:00:00+00:00",
     "summary": null
   }
 }

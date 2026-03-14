@@ -7,13 +7,17 @@
     "raw_dtg": "220122Z MAR 10",
     "msg_id": "HYDROARC 492/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 241445Z MAR",
+      "HYDROARC 492/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1215Z TO 1345Z DAILY\n   22 THRU 24 MAR IN AREA BOUND BY\n   55-02N 001-00W, 55-20N 001-07W,\n   55-20N 000-23W, 55-02N 000-40W.\n2. CANCEL THIS MSG 241445Z MAR.",
+    "cancel_date": "2010-03-24T14:45:00+00:00",
     "valid_from": "2010-03-22T01:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-24T14:45:00+00:00",
     "summary": null
   }
 }

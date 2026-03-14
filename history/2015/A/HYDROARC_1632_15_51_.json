@@ -13,13 +13,16 @@
     "raw_dtg": "040540Z JUL 15",
     "msg_id": "HYDROARC 1632/15(51)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1682/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMADEIRA.\nNAVTEX.\nDNC 01, DNC 08.\nNAVTEX STATION PORTO SANTO 33-05.7N 016-20.4W OFF AIR.",
+    "cancel_date": "2015-07-09T16:43:00+00:00",
     "valid_from": "2015-07-04T05:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-07-09T16:43:00+00:00",
     "summary": null
   }
 }

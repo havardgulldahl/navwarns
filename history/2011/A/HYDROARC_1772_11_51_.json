@@ -13,13 +13,17 @@
     "raw_dtg": "271343Z OCT 11",
     "msg_id": "HYDROARC 1772/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 301335Z OCT",
+      "HYDROARC 1772/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT VESSEL, ORANGE HULL, CAPSIZED AND ADRIFT\n   IN 38-18.7N 036-30.7W AT 270918Z OCT.\n2. CANCEL THIS MSG 301335Z OCT.",
+    "cancel_date": "2011-10-30T13:35:00+00:00",
     "valid_from": "2011-10-27T13:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-30T13:35:00+00:00",
     "summary": null
   }
 }

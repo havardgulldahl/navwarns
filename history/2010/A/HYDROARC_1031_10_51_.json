@@ -7,13 +7,17 @@
     "raw_dtg": "050932Z JUN 10",
     "msg_id": "HYDROARC 1031/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 061300Z JUN",
+      "HYDROARC 1031/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO-NORTHWEST COAST.\n1. SESMIC SURVEY 052200Z TO 061200Z JUN\n   BY M/V SARMIENTO DE GAMBOA TOWING\n   TEN 3900 METER LONG CABLES\n   ALONG TRACKLINE BETWEEN\n   35-40N 006-30W AND 34-40N 007-15W.\n   THREE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 061300Z JUN.",
+    "cancel_date": "2010-06-06T13:00:00+00:00",
     "valid_from": "2010-06-05T09:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-06T13:00:00+00:00",
     "summary": null
   }
 }

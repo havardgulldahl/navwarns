@@ -13,13 +13,16 @@
     "raw_dtg": "010857Z MAY 18",
     "msg_id": "HYDROARC 1373/18(37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1378/18"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37057.\nRACON AT DUDGEON LIGHT 53-16.6N 001-17.0E INOPERATIVE.",
+    "cancel_date": "2018-05-01T19:18:00+00:00",
     "valid_from": "2018-05-01T08:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-05-01T19:18:00+00:00",
     "summary": null
   }
 }

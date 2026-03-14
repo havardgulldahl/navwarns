@@ -13,13 +13,16 @@
     "raw_dtg": "032230Z SEP 15",
     "msg_id": "HYDROARC 257/15(15)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 258/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT CENTRE FREQUENCY 5803 KHZ AT REMOTE STATION\nCAMBRIDGE BAY 69-07.0N 105-03.2W INOPERATIVE.",
+    "cancel_date": "2015-09-03T23:18:00+00:00",
     "valid_from": "2015-09-03T22:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-09-03T23:18:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "291028Z APR 20",
     "msg_id": "HYDROARC 1460/20(57)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1492/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nDNC 01.\nDISTRESS SIGNAL RECEIVED IN VICINITY\n19-12.2S 014-08.0W. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST IF\nPOSSIBLE. REPORTS TO ANY COASTAL RADIO STATION.",
+    "cancel_date": "2020-05-01T09:21:00+00:00",
     "valid_from": "2020-04-29T10:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-05-01T09:21:00+00:00",
     "summary": null
   }
 }

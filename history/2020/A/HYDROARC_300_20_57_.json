@@ -33,13 +33,16 @@
     "raw_dtg": "280955Z JAN 20",
     "msg_id": "HYDROARC 300/20(57)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2622/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM SOVEREIGN TOWING\n8025 METER LONG CABLES IN AREA BOUND BY\n15-16.0S 010-48.0E, 15-16.0S 011-51.0E,\n17-14.7S 011-22.0E, 17-14.7S 010-18.0E.\nSEVEN MILE BERTH REQUESTED.",
+    "cancel_date": "2020-08-25T13:20:00+00:00",
     "valid_from": "2020-01-28T09:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-08-25T13:20:00+00:00",
     "summary": null
   }
 }

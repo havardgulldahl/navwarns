@@ -7,13 +7,17 @@
     "raw_dtg": "151414Z APR 10",
     "msg_id": "HYDROARC 654/10(44)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 23 APR",
+      "HYDROARC 654/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN BALTIC SEA.\nLITHUANIA.\n1. SURVEY OPERATIONS 12 AND 13 APR\n   BY M/V KURSIS, 21 AND 22 BY\n   M/V SUDUVIS IN AREA BETWEEN\n   55-56N 55-54N AND 020-46E 020-40E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 23 APR.",
+    "cancel_date": "2010-04-23T00:01:00+00:00",
     "valid_from": "2010-04-15T14:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-23T00:01:00+00:00",
     "summary": null
   }
 }

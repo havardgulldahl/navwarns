@@ -33,13 +33,16 @@
     "raw_dtg": "230531Z JUL 18",
     "msg_id": "HYDROARC 160/18(42)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 324/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEOLOG DMITRIY NALIVKIN TOWING 1500 METER\nLONG CABLE IN AREA BOUND BY\n69-18-50N 056-55-35E, 69-24-12N 057-13-22E,\n69-12-50N 057-40-42E, 69-07-30N 057-23-02E.\nTHREE MILE BERTH REQUESTED.",
+    "cancel_date": "2018-11-30T12:31:00+00:00",
     "valid_from": "2018-07-23T05:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-11-30T12:31:00+00:00",
     "summary": null
   }
 }

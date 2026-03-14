@@ -13,13 +13,16 @@
     "raw_dtg": "172032Z MAY 12",
     "msg_id": "HYDROARC 1062/12(36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1786/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRELAND-EAST COAST.\nCHART 36007\nBAILY LIGHT 53-21.7N 006-03.1W RANGE REDUCED TO 18 MILES.",
+    "cancel_date": "2012-08-04T10:00:00+00:00",
     "valid_from": "2012-05-17T20:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-08-04T10:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "101704Z DEC 21",
     "msg_id": "HYDROARC 3024/21(35)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3196/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCGOC ABERDEEN MF R/T SERVICE AT GREGNESS\n57-07.7N 002-03.2W OFF AIR.",
+    "cancel_date": "2021-12-30T05:14:00+00:00",
     "valid_from": "2021-12-10T17:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-12-30T05:14:00+00:00",
     "summary": null
   }
 }

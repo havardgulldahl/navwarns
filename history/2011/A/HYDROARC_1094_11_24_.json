@@ -7,13 +7,17 @@
     "raw_dtg": "021606Z JUL 11",
     "msg_id": "HYDROARC 1094/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 072200Z JUL",
+      "HYDROARC 1094/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nURUGUAY.\nGUNNERY.\n1. GUNNERY EXERCISES 1100Z TO 2100Z DAILY\n   05 THRU 07 JUL IN AREA BETWEEN\n   35-20S 36-00S AND 052-00W 052-24W.\n2. CANCEL THIS MSG 072200Z JUL.",
+    "cancel_date": "2011-07-07T22:00:00+00:00",
     "valid_from": "2011-07-02T16:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-07T22:00:00+00:00",
     "summary": null
   }
 }

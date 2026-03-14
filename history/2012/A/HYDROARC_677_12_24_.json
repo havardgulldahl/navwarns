@@ -33,13 +33,17 @@
     "raw_dtg": "261932Z MAR 12",
     "msg_id": "HYDROARC 677/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 281900Z MAR",
+      "HYDROARC 677/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 281200Z TO 281800Z MAR\n   IN AREA BOUND BY\n   13-02.0S 038-25.2W, 13-02.7S 038-16.5W,\n   13-14.3S 038-11.5W, 13-12.4S 038-33.5W.\n2. CANCEL THIS MSG 281900Z MAR.",
+    "cancel_date": "2012-03-28T19:00:00+00:00",
     "valid_from": "2012-03-26T19:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-28T19:00:00+00:00",
     "summary": null
   }
 }

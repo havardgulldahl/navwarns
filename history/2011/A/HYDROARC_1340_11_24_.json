@@ -13,13 +13,16 @@
     "raw_dtg": "240243Z AUG 11",
     "msg_id": "HYDROARC 1340/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1602/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24004 (36TH ED).\nLAJE MARAMBAIA LIGHT 23-06.9S 043-50.1W UNLIT.",
+    "cancel_date": "2011-10-01T09:00:00+00:00",
     "valid_from": "2011-08-24T02:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-01T09:00:00+00:00",
     "summary": null
   }
 }

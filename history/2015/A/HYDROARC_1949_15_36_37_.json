@@ -13,13 +13,16 @@
     "raw_dtg": "100635Z AUG 15",
     "msg_id": "HYDROARC 1949/15(36,37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2002/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 36005.\nFOG SIGNAL AT CHANNEL LIGHTSHIP\n49-54.4N 002-53.7W UNRELIABLE.",
+    "cancel_date": "2015-08-15T16:49:00+00:00",
     "valid_from": "2015-08-10T06:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-08-15T16:49:00+00:00",
     "summary": null
   }
 }

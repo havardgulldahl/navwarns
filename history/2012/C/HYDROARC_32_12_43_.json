@@ -37,13 +37,17 @@
     "raw_dtg": "190922Z MAY 12",
     "msg_id": "HYDROARC 32/12(43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 252300Z MAY",
+      "HYDROARC 32/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORWEGIAN SEA.\nNORWAY-NORTHWEST COAST.\nROCKETS.\n1. HAZARDOUS OPERATIONS 1700Z TO 2200Z DAILY\n   21 THRU 25 MAY IN AREA BOUND BY\n   69-01.50N 015-29.40E,\n   69-03.29N 014-32.00E,\n   69-29.00N 014-32.00E,\n   69-29.00N 015-45.30E,\n   69-11.37N 015-49.38E.\n2. CANCEL THIS MSG 252300Z MAY.",
+    "cancel_date": "2012-05-25T23:00:00+00:00",
     "valid_from": "2012-05-19T09:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-25T23:00:00+00:00",
     "summary": null
   }
 }

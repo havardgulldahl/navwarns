@@ -7,13 +7,17 @@
     "raw_dtg": "011153Z DEC 10",
     "msg_id": "HYDROARC 2304/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 24 DEC",
+      "HYDROARC 2304/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 23 DEC BY\n   M/V POURQUOI PAS IN AREA BETWEEN\n   01-50N 01-50S AND 002-00W 010-00E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 DEC.",
+    "cancel_date": "2010-12-24T00:01:00+00:00",
     "valid_from": "2010-12-01T11:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-24T00:01:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "280138Z FEB 12",
     "msg_id": "HYDROARC 441/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2600/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nCHART 24080\nRACON AT VERGA LIGHT 32-58.6S 052-33.5W INOPERATIVE.",
+    "cancel_date": "2013-10-19T10:28:00+00:00",
     "valid_from": "2012-02-28T01:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-10-19T10:28:00+00:00",
     "summary": null
   }
 }

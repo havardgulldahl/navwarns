@@ -13,13 +13,16 @@
     "raw_dtg": "011556Z JAN 17",
     "msg_id": "HYDROARC 19/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 217/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20, DNC 21.\nCHART 37166.\nALL NAVIGATIONAL AIDS AT METEOROLOGICAL MAST\n53-10.6N 002-59.1E INOPERATIVE.",
+    "cancel_date": "2017-01-20T22:24:00+00:00",
     "valid_from": "2017-01-01T15:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-20T22:24:00+00:00",
     "summary": null
   }
 }

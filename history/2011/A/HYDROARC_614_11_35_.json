@@ -7,13 +7,17 @@
     "raw_dtg": "131302Z APR 11",
     "msg_id": "HYDROARC 614/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 141000Z APR",
+      "HYDROARC 614/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nNORTH MINCH.\nGPS SATELLITE SYSTEM.\n1. GPS JAMMING EXERCISES 140100Z TO 140300Z\n   AND 140800Z TO 140900Z APR\n   WITHIN 35 MILES OF 57-52N 005-41W.\n2. CANCEL THIS MSG 141000Z APR.",
+    "cancel_date": "2011-04-14T10:00:00+00:00",
     "valid_from": "2011-04-13T13:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-14T10:00:00+00:00",
     "summary": null
   }
 }

@@ -41,13 +41,17 @@
     "raw_dtg": "181620Z NOV 10",
     "msg_id": "HYDROARC 2195/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 23 DEC",
+      "HYDROARC 2195/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 22 DEC BY\n   M/V RAMFORM VALIANT, M/V ABO SULTAN\n   AND M/V REMUS IN AREA BOUND BY\n   32-30.00N 031-42.00E, 32-26.00N 031-29.00E,\n   32-10.00N 031-04.00E, 32-05.26N 030-57.00E,\n   32-05.00N 030-47.00E, 32-30.00N 030-42.00E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 23 DEC.",
+    "cancel_date": "2010-12-23T00:00:00+00:00",
     "valid_from": "2010-11-18T16:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-23T00:00:00+00:00",
     "summary": null
   }
 }

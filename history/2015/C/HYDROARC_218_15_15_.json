@@ -13,13 +13,16 @@
     "raw_dtg": "051758Z AUG 15",
     "msg_id": "HYDROARC 218/15(15)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 219/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT REMOTE STATION\nRESOLUTE 74-44.8N 095-00.2W INOPERATIVE.",
+    "cancel_date": "2015-08-05T23:27:00+00:00",
     "valid_from": "2015-08-05T17:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-08-05T23:27:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "230710Z SEP 23",
     "msg_id": "HYDROARC 2143/23(36)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2149/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nNASH POINT LIGHT 51-24.10N 003-33.10W UNRELIABLE.",
+    "cancel_date": "2023-09-24T14:10:00+00:00",
     "valid_from": "2023-09-23T07:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-09-24T14:10:00+00:00",
     "summary": null
   }
 }

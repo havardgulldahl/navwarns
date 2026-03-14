@@ -7,13 +7,16 @@
     "raw_dtg": "131037Z APR 15",
     "msg_id": "HYDROARC 868/15(35,37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1000/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nRADIO SERVICES.\nDNC 19, DNC 20.\nMRCC HUMBER MF DSC AND R/T SERVICES OFF AIR.",
+    "cancel_date": "2015-04-25T18:29:00+00:00",
     "valid_from": "2015-04-13T10:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-04-25T18:29:00+00:00",
     "summary": null
   }
 }

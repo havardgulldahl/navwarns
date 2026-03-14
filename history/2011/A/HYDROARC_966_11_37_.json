@@ -7,13 +7,17 @@
     "raw_dtg": "091243Z JUN 11",
     "msg_id": "HYDROARC 966/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 150200Z JUN",
+      "HYDROARC 966/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSPAIN-NORTHWEST COAST.\n1. UNDERWATER OPERATIONS 100600Z TO 150100Z JUN\n   BY M/V BELGICA IN AREA BOUND BY\n   43-59N 004-50W, 43-57N 005-11W,\n   43-51N 004-55W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 150200Z JUN.",
+    "cancel_date": "2011-06-15T02:00:00+00:00",
     "valid_from": "2011-06-09T12:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-15T02:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "120151Z JUN 11",
     "msg_id": "HYDROARC 981/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 22 JUN",
+      "HYDROARC 1007/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSTRAIT OF GIBRALTAR.\n1. CABLE OPERATIONS 14 THRU 21 JUN BY CABLESHIP\n   RAYMOND CROZE VICINITY OF TRACKLINE BETWEEN\n   35-57.5N 006-01.6W AND 35-55.8N 006-04.1W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 22 JUN.",
+    "cancel_date": "2011-06-17T11:37:00+00:00",
     "valid_from": "2011-06-12T01:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-17T11:37:00+00:00",
     "summary": null
   }
 }

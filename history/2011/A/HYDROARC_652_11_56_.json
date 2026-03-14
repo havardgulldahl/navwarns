@@ -33,13 +33,17 @@
     "raw_dtg": "181213Z APR 11",
     "msg_id": "HYDROARC 652/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 26 MAY",
+      "HYDROARC 819/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 25 MAY\n   BY M/V FUGRO NAVIGATOR IN AREA BOUND BY\n   31-28.0N 032-41.5E, 31-27.6N 032-49.1E,\n   31-39.4N 032-49.2E, 31-39.5N 032-41.6E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 MAY.",
+    "cancel_date": "2011-05-14T09:21:00+00:00",
     "valid_from": "2011-04-18T12:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-14T09:21:00+00:00",
     "summary": null
   }
 }

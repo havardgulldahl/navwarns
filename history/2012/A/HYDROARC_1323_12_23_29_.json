@@ -7,13 +7,17 @@
     "raw_dtg": "190447Z JUN 12",
     "msg_id": "HYDROARC 1323/12(23,29)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 220445Z JUN",
+      "HYDROARC 1323/12"
+    ],
     "hazard_type": "ice and icebergs",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nSCOTIA SEA.\nICE.\n1. ICEBERGS REPORTED ON 18 JUN:\n   A. C19C, 55-54S 042-09W.\n   B. B15F, 60-58S 053-04W.\n2. CANCEL THIS MSG 220445Z JUN.",
+    "cancel_date": "2012-06-22T04:45:00+00:00",
     "valid_from": "2012-06-19T04:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-22T04:45:00+00:00",
     "summary": null
   }
 }

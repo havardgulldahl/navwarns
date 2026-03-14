@@ -13,13 +13,16 @@
     "raw_dtg": "030014Z FEB 22",
     "msg_id": "HYDROARC 327/22(54)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 329/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ADRIATIC SEA.\nCROATIA.\nDNC 09.\nNAVTEX STATION SPLIT RADIO (Q)\n43-10.54N 016-25.38E OFF AIR.",
+    "cancel_date": "2022-02-03T00:16:00+00:00",
     "valid_from": "2022-02-03T00:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-02-03T00:16:00+00:00",
     "summary": null
   }
 }

@@ -23,13 +23,17 @@
     "raw_dtg": "221242Z AUG 11",
     "msg_id": "HYDROARC 1333/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 02 SEP",
+      "HYDROARC 1333/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 01 SEP BY\n   M/V AKADEMIC GOLITSYN ALONG TRACKLINE JOINING\n   43-24.2N 036-13.2E, 43-13.0N 034-49.0E,\n   42-49.0N 030-36.3E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 SEP.",
+    "cancel_date": "2011-09-02T00:01:00+00:00",
     "valid_from": "2011-08-22T12:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-02T00:01:00+00:00",
     "summary": null
   }
 }

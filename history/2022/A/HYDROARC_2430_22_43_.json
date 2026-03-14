@@ -13,13 +13,16 @@
     "raw_dtg": "260030Z SEP 22",
     "msg_id": "HYDROARC 2430/22(43)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2547/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nPLATFORM 29/5B 56-58.00N 001-52.00E LIGHTS UNRELIABLE.",
+    "cancel_date": "2022-10-07T09:35:00+00:00",
     "valid_from": "2022-09-26T00:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-10-07T09:35:00+00:00",
     "summary": null
   }
 }

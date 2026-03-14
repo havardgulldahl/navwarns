@@ -33,13 +33,17 @@
     "raw_dtg": "030515Z AUG 10",
     "msg_id": "HYDROARC 1483/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 100359Z AUG",
+      "HYDROARC 1483/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 100259Z AUG\n   BY M/V OCEAN EUROPE AND M/V SANCO STAR\n   IN AREA BOUND BY\n   22-23.98S 040-47.08W, 22-34.72S 040-28.82W,\n   22-20.48S 040-19.17W, 22-09.75S 040-37.40W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 100359Z AUG.",
+    "cancel_date": "2010-08-10T03:59:00+00:00",
     "valid_from": "2010-08-03T05:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-10T03:59:00+00:00",
     "summary": null
   }
 }

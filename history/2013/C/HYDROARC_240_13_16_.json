@@ -13,13 +13,16 @@
     "raw_dtg": "190014Z OCT 13",
     "msg_id": "HYDROARC 240/13(16)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 242/13"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nBEAUFORT SEA.\nCHART 16004\nSCIENTIFIC MOORING, TOP FLOAT 35.9 METERS,\nESTABLISHED IN 72-23.64N 152-02.92W.",
+    "cancel_date": "2013-10-19T13:26:00+00:00",
     "valid_from": "2013-10-19T00:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-10-19T13:26:00+00:00",
     "summary": null
   }
 }

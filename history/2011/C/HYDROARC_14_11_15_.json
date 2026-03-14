@@ -7,13 +7,17 @@
     "raw_dtg": "280136Z JAN 11",
     "msg_id": "HYDROARC 14/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 041610Z FEB",
+      "HYDROARC 18/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BAFFIN BAY.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1350Z TO 1510Z DAILY\n   01 THRU 04 FEB IN AREA BETWEEN\n   77-35N 76-35N AND 078-00W 073-00W.\n2. CANCEL THIS MSG 041610Z FEB.",
+    "cancel_date": "2011-02-01T23:50:00+00:00",
     "valid_from": "2011-01-28T01:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-01T23:50:00+00:00",
     "summary": null
   }
 }

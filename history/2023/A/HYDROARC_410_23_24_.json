@@ -42,12 +42,14 @@
     "msg_id": "HYDROARC 410/23(24)",
     "year": 2023,
     "cancellations": [
-      "THIS MSG 010400Z APR 23"
+      "THIS MSG 010400Z APR 23",
+      "HYDROARC 410/23"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   270300Z FEB TO 010300Z APR IN AREA BOUND BY\n   01-46.43S 043-57.20W, 01-42.38S 044-04.36W,\n   01-39.84S 044-10.32W, 02-09.80S 044-22.96W,\n   02-18.96S 044-22.09W, 02-11.45S 044-13.36W,\n2. CANCEL THIS MSG 010400Z APR 23.",
+    "cancel_date": "2023-04-01T04:00:00+00:00",
     "valid_from": "2023-02-22T02:34:00+00:00",
     "valid_until": "2023-04-01T04:00:00+00:00",
     "summary": null

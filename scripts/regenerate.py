@@ -157,6 +157,22 @@ def regenerate_navwarn_file(
         except (ValueError, TypeError):
             pass
 
+    # Merge cancellations: the original JSON may contain entries that came
+    # from structured XML fields (cancelMsgNumber/cancelMsgYear) that the
+    # body-text parser won't re-extract.  Merge any originals the parser
+    # missed, preserving the new parser's results as the primary list.
+    original_cancels: List[str] = props.get("cancellations") or []
+    if original_cancels:
+        existing = set(msg.cancellations)
+        for oc in original_cancels:
+            if oc and oc not in existing:
+                msg.cancellations.append(oc)
+
+    # Preserve structured cancel_date from XML if the parser
+    # didn't derive one (body-text parsing can't recover it).
+    if not msg.cancel_date and props.get("cancel_date"):
+        msg.cancel_date = props["cancel_date"]
+
     # Generate features (may be multi-group)
     new_feats: List[dict]
     if hasattr(msg, "to_geojson_features"):

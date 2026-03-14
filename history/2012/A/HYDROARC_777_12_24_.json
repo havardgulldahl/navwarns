@@ -13,13 +13,16 @@
     "raw_dtg": "080134Z APR 12",
     "msg_id": "HYDROARC 777/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 811/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nCHART 24160\nILHA DOS PAPAGAIOS LIGHT 22-23.0S 041-45.5W UNLIT.",
+    "cancel_date": "2012-04-12T17:35:00+00:00",
     "valid_from": "2012-04-08T01:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-12T17:35:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "181849Z JUN 12",
     "msg_id": "HYDROARC 1320/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 21 JUN",
+      "HYDROARC 1320/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 20 JUN\n   BY M/V SEA SURVEYVOR, TOWING 400 METER\n   LONG CABLES IN AREA BETWEEN\n   20-00N 23-00N AND 021-40W 025-00W.\n   WIDE BERTH REQUESTED.\n3. CANCEL THIS MSG 21 JUN.",
+    "cancel_date": "2012-06-21T00:01:00+00:00",
     "valid_from": "2012-06-18T18:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-21T00:01:00+00:00",
     "summary": null
   }
 }

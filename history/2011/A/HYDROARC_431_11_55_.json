@@ -7,13 +7,17 @@
     "raw_dtg": "161338Z MAR 11",
     "msg_id": "HYDROARC 431/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 181600Z MAR",
+      "HYDROARC 438/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TURKEY.\nDARDANELLES.\n1. DARDANELLES CLOSED TO VESSEL TRAFFIC\n   0700Z TO 1500Z DAILY 17 AND 18 MAR.\n2. CANCEL THIS MSG 181600Z MAR.",
+    "cancel_date": "2011-03-17T11:56:00+00:00",
     "valid_from": "2011-03-16T13:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-17T11:56:00+00:00",
     "summary": null
   }
 }

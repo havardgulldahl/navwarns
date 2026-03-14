@@ -13,13 +13,16 @@
     "raw_dtg": "230051Z JAN 19",
     "msg_id": "HYDROARC 217/19(24)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 220/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\nCHART 24140.\nGUARAU ISLAND LIGHT 24-22.9S 046-59.2W DAMAGED.",
+    "cancel_date": "2019-01-23T02:38:00+00:00",
     "valid_from": "2019-01-23T00:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-23T02:38:00+00:00",
     "summary": null
   }
 }

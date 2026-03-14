@@ -7,13 +7,17 @@
     "raw_dtg": "181840Z JUN 12",
     "msg_id": "HYDROARC 1319/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 211600Z JUN",
+      "HYDROARC 1319/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nGUNNERY.\n1. GUNNERY EXERCISES 211300Z TO 211500Z JUN\n   WITHIN 15 MILES OF 06-00N 052-30W.\n2. CANCEL THIS MSG 211600Z JUN.",
+    "cancel_date": "2012-06-21T16:00:00+00:00",
     "valid_from": "2012-06-18T18:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-21T16:00:00+00:00",
     "summary": null
   }
 }

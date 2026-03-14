@@ -7,13 +7,17 @@
     "raw_dtg": "291331Z MAR 11",
     "msg_id": "HYDROARC 527/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 010059Z MAY",
+      "HYDROARC 527/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IONIAN SEA.\nORDNANCE.\n1. BOMBING EXERCISES 010001Z TO 302359Z APR\n   WITHIN 25 MILES OF 37-30N 018-30E.\n2. CANCEL THIS MSG 010059Z MAY.",
+    "cancel_date": "2011-05-01T00:59:00+00:00",
     "valid_from": "2011-03-29T13:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-01T00:59:00+00:00",
     "summary": null
   }
 }

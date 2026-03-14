@@ -7,13 +7,17 @@
     "raw_dtg": "010212Z FEB 12",
     "msg_id": "HYDROARC 258/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 040230Z FEB",
+      "HYDROARC 258/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\n1. DERELICT 7.8 METER VESSEL, ORANGE HULL,\n   ADRIFT VICINITY 06-18N 048-02W.\n2. CANCEL THIS MSG 040230Z FEB.",
+    "cancel_date": "2012-02-04T02:30:00+00:00",
     "valid_from": "2012-02-01T02:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-04T02:30:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "131444Z JAN 20",
     "msg_id": "HYDROARC 110/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 273/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nRONA LIGHTHOUSE 59-07.3N 005-48.8W INOPERATIVE.",
+    "cancel_date": "2020-01-26T13:12:00+00:00",
     "valid_from": "2020-01-13T14:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-26T13:12:00+00:00",
     "summary": null
   }
 }

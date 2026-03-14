@@ -13,13 +13,16 @@
     "raw_dtg": "132106Z JAN 19",
     "msg_id": "HYDROARC 112/19(37)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 221/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EAST NORTH ATLANTIC.\nSPAIN.\nDNC 08.\nCHART 37025.\nCABO TORINANA LIGHT 43-03.2N 009-17.9W AT\nREDUCED INTENSITY.",
+    "cancel_date": "2019-01-23T07:22:00+00:00",
     "valid_from": "2019-01-13T21:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-23T07:22:00+00:00",
     "summary": null
   }
 }

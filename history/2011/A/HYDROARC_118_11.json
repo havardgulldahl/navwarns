@@ -7,13 +7,17 @@
     "raw_dtg": "191415Z JAN 11",
     "msg_id": "HYDROARC 118/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 222100Z JAN",
+      "HYDROARC 118/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "MARITIME SAFETY INFORMATION DIVISION WEBSITE.\n1. NGA MARITIME SAFETY INFORMATION DIVISION WEBSITE\n   UNUSABLE 221400Z TO 222000Z JAN. FOR URGENT\n   SERVICE, CONTACT NGA NAVSAFETY, DSN: 287 3147,\n   COMM: 800 362 6289 OR 301 227 3147,\n   E-MAIL: NAVSAFETY@NGA.MIL OR MSG TO\n   NGA NAVSAFETY BETHESDA MD.\n2. CANCEL THIS MSG 222100Z JAN.",
+    "cancel_date": "2011-01-22T21:00:00+00:00",
     "valid_from": "2011-01-19T14:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-22T21:00:00+00:00",
     "summary": null
   }
 }

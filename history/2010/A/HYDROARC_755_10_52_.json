@@ -13,13 +13,17 @@
     "raw_dtg": "301032Z APR 10",
     "msg_id": "HYDROARC 755/10(52)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 MAY",
+      "HYDROARC 755/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TUNISIA-NORTHEAST COAST.\n1. SURVEY OPERATIONS 01 THRU 15 MAY\n   BY M/V ALEX CHALLENGER\n   IN 36-58.6N 011-43.9E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 16 MAY.",
+    "cancel_date": "2010-05-16T00:01:00+00:00",
     "valid_from": "2010-04-30T10:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-16T00:01:00+00:00",
     "summary": null
   }
 }

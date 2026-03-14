@@ -7,13 +7,17 @@
     "raw_dtg": "161713Z SEP 11",
     "msg_id": "HYDROARC 174/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 241000Z SEP",
+      "HYDROARC 174/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 2300Z TO 0900Z COMMENCING\n   DAILY 20 THRU 23 SEP IN AREA BOUND BY\n   69-55N 058-40E, 70-30N 057-40E,\n   70-55N 058-00E, 70-50N 059-30E,\n   69-52N 061-06E, 69-27N 060-18E.\n2. CANCEL THIS MSG 241000Z SEP.",
+    "cancel_date": "2011-09-24T10:00:00+00:00",
     "valid_from": "2011-09-16T17:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-24T10:00:00+00:00",
     "summary": null
   }
 }

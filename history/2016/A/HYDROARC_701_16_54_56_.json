@@ -51,13 +51,16 @@
     "raw_dtg": "222301Z MAR 16",
     "msg_id": "HYDROARC 701/16(54,56)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1001/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCRETE.\nDNC 09.\nCABLE LAYING OPERATIONS 230600Z MAR UNTIL FURTHER NOTICE\nBY CABLESHIP TENEO VICINITY OF TRACKLINE JOINING\n35-31.78N 023-59.09E, 35-35.96N 023-58.02E,\n35-42.77N 023-48.43E, 35-46.15N 023-37.90E,\n35-36.93N 023-24.10E, 35-14.91N 023-23.44E,\n35-04.03N 023-26.60E, 34-56.92N 023-17.69E,\n34-30.34N 023-13.55E, 34-18.84N 023-11.55E.\nONE MILE BERTH REQUESTED.",
+    "cancel_date": "2016-04-27T10:00:00+00:00",
     "valid_from": "2016-03-22T23:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-04-27T10:00:00+00:00",
     "summary": null
   }
 }

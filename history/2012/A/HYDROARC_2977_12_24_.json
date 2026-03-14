@@ -13,13 +13,16 @@
     "raw_dtg": "180022Z DEC 12",
     "msg_id": "HYDROARC 2977/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2600/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nCHART 24160\nMACAE LIGHT 22-25.0S 041-42.4W UNRELIABLE.",
+    "cancel_date": "2013-10-19T10:28:00+00:00",
     "valid_from": "2012-12-18T00:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-10-19T10:28:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "300134Z APR 13",
     "msg_id": "HYDROARC 1077/13(24)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1118/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nCHART 24210\nSAO CRISTOVAO LIGHT 11-07.8S 037-08.9W UNLIT.",
+    "cancel_date": "2013-05-04T10:27:00+00:00",
     "valid_from": "2013-04-30T01:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-05-04T10:27:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "192242Z JAN 22",
     "msg_id": "HYDROARC 180/22(24)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 251/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 07.\nCAPAO DA MARCA LIGHT 31-19.0S 051-10.0W UNLIT.",
+    "cancel_date": "2022-01-27T10:18:00+00:00",
     "valid_from": "2022-01-19T22:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-01-27T10:18:00+00:00",
     "summary": null
   }
 }

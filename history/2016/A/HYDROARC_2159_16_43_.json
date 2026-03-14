@@ -33,13 +33,16 @@
     "raw_dtg": "231728Z AUG 16",
     "msg_id": "HYDROARC 2159/16(43)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2637/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20, DNC 21.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V WG TASMAN IN AREA BOUND BY\n58-55.0N 002-06.8E, 58-47.6N 002-07.0E,\n58-47.6N 002-21.3E, 58-55.0N 002-21.3E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2016-10-09T09:20:00+00:00",
     "valid_from": "2016-08-23T17:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-10-09T09:20:00+00:00",
     "summary": null
   }
 }

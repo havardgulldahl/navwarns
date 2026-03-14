@@ -37,13 +37,16 @@
     "raw_dtg": "021530Z JAN 23",
     "msg_id": "HYDROARC 16/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 75/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nOFFSHORE WIND FARM CONSTRUCTION AREA ESTABLISHED\nIN AREA BOUND BY\n55-04.40N 001-29.00E, 55-06.30N 001-40.40E,\n55-06.30N 001-51.70E, 54-51.10N 001-52.20E,\n54-52.00N 001-26.90E.",
+    "cancel_date": "2023-01-09T16:51:00+00:00",
     "valid_from": "2023-01-02T15:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-01-09T16:51:00+00:00",
     "summary": null
   }
 }

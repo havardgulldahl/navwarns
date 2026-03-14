@@ -13,13 +13,16 @@
     "raw_dtg": "160927Z MAY 23",
     "msg_id": "HYDROARC 85/23(15)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 87/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BEAUFORT SEA.\nCANADA.\nDNC 27.\nMCTS IQALUIT REMOTE STATION INUVIK\n68-19.00N 133-35.00W OFF AIR.",
+    "cancel_date": "2023-05-16T23:55:00+00:00",
     "valid_from": "2023-05-16T09:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-05-16T23:55:00+00:00",
     "summary": null
   }
 }

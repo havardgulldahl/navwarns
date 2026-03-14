@@ -13,13 +13,17 @@
     "raw_dtg": "240316Z MAR 10",
     "msg_id": "HYDROARC 510/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 241900Z MAR",
+      "HYDROARC 510/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-NORTHEAST COAST.\nNGA CHART 35010 (1ST ED).\n1. COQUET ISLAND LIGHT 55-20.0N 001-32.2W\n   UNLIT 240900Z TO 241800Z MAR.\n2. CANCEL THIS MSG 241900Z MAR.",
+    "cancel_date": "2010-03-24T19:00:00+00:00",
     "valid_from": "2010-03-24T03:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-24T19:00:00+00:00",
     "summary": null
   }
 }

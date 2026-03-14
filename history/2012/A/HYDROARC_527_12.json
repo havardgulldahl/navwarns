@@ -7,13 +7,17 @@
     "raw_dtg": "080018Z MAR 12",
     "msg_id": "HYDROARC 527/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 081100Z MAR",
+      "HYDROARC 527/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SPACE WEATHER.\n1. STRONG SOLAR RADIATION STORM IN PROGRESS\n   UNTIL 081000Z MAR. EXPECT INTERMITTENT\n   HF RADIO AND SATELLITE NAVIGATION SERVICES.\n   CAUTION ADVISED.\n2. CANCEL THIS MSG 081100Z MAR.",
+    "cancel_date": "2012-03-08T11:00:00+00:00",
     "valid_from": "2012-03-08T00:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-08T11:00:00+00:00",
     "summary": null
   }
 }

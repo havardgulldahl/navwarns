@@ -13,13 +13,16 @@
     "raw_dtg": "031837Z JUN 22",
     "msg_id": "HYDROARC 112/22(42)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 145/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BARENTS SEA.\nDNC 22.\nSUB-SURFACE BUOY ESTABLISHED\nIN 70-34.00N 037-57.00E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2022-07-06T18:35:00+00:00",
     "valid_from": "2022-06-03T18:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-07-06T18:35:00+00:00",
     "summary": null
   }
 }

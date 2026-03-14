@@ -13,13 +13,16 @@
     "raw_dtg": "111406Z SEP 13",
     "msg_id": "HYDROARC 2227/13(35)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2511/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nCHART 35063\nDGPS STATION AT SUMBURGH HEAD LIGHT\n59-51.3N 001-16.4W OFF AIR.",
+    "cancel_date": "2013-10-11T10:04:00+00:00",
     "valid_from": "2013-09-11T14:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-10-11T10:04:00+00:00",
     "summary": null
   }
 }

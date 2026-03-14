@@ -13,13 +13,17 @@
     "raw_dtg": "101448Z NOV 11",
     "msg_id": "HYDROARC 1873/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 14 NOV",
+      "HYDROARC 1873/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nISRAEL.\n1. UNDERWATER OPERATIONS 11 THRU 13 NOV\n   BY CABLESHIP PETER FABER\n   VICINITY OF TRACKLINE BETWEEN\n   32-04.9N 034-45.3E AND 32-05.1N 034-44.2E.\n   0.5 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 14 NOV.",
+    "cancel_date": "2011-11-14T00:01:00+00:00",
     "valid_from": "2011-11-10T14:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-14T00:01:00+00:00",
     "summary": null
   }
 }

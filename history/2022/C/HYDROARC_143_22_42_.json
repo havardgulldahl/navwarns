@@ -42,12 +42,14 @@
     "msg_id": "HYDROARC 143/22(42)",
     "year": 2022,
     "cancellations": [
-      "THIS MSG 122100Z JUL 22"
+      "THIS MSG 122100Z JUL 22",
+      "HYDROARC 143/22"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. HAZARDOUS OPERATIONS 082100Z TO 122000Z JUL\n   IN AREA BOUND BY\n   73-43.50N 052-42.00E, 73-55.00N 053-30.00E,\n   74-00.00N 054-00.00E, 73-46.00N 053-45.00E,\n   73-05.00N 053-00.00E, 73-20.00N 052-00.00E.\n2. CANCEL THIS MSG 122100Z JUL 22.",
+    "cancel_date": "2022-07-12T21:00:00+00:00",
     "valid_from": "2022-07-05T08:51:00+00:00",
     "valid_until": "2022-07-12T21:00:00+00:00",
     "summary": null

@@ -7,13 +7,17 @@
     "raw_dtg": "060543Z OCT 11",
     "msg_id": "HYDROARC 195/11(42,43)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 111900Z OCT",
+      "HYDROARC 195/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BARENTS SEA.\nGUNNERY.\n1. GUNNERY EXERCISES 0400Z TO 1800Z DAILY\n   10 AND 11 OCT IN AREA BETWEEN\n   69-34.5N 69-58.0N AND 033-38.0E 034-48.0E.\n2. CANCEL THIS MSG 111900Z OCT.",
+    "cancel_date": "2011-10-11T19:00:00+00:00",
     "valid_from": "2011-10-06T05:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-11T19:00:00+00:00",
     "summary": null
   }
 }

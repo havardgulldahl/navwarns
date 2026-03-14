@@ -51,13 +51,16 @@
     "raw_dtg": "271200Z MAY 20",
     "msg_id": "HYDROARC 1785/20(54)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1906/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\nCABLE OPERATIONS 280500Z MAY UNTIL FURTHER NOTICE\nBY M/V HYDNA ALONG TRACKLINE JOINING\n37-44.5N 024-05.0E, 37-34.9N 024-06.3E,\n37-26.5N 024-13.3E, 37-17.9N 024-16.2E,\n37-07.3N 024-18.3E, 37-02.7N 024-25.0E,\n37-07.8N 024-31.7E, 37-00.3N 024-33.0E,\n36-54.5N 024-28.6E, 36-45.3N 024-29.0E.\nTWO MILE BERTH REQUESTED.",
+    "cancel_date": "2020-06-09T19:16:00+00:00",
     "valid_from": "2020-05-27T12:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-06-09T19:16:00+00:00",
     "summary": null
   }
 }

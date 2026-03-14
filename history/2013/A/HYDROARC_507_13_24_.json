@@ -13,13 +13,16 @@
     "raw_dtg": "240556Z FEB 13",
     "msg_id": "HYDROARC 507/13(24)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 555/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nCHART 24140\nRADIOBEACON AT ILHA DA MOELA LIGHT 24-03.1S 046-15.9W INOPERATIVE.",
+    "cancel_date": "2013-03-02T18:05:00+00:00",
     "valid_from": "2013-02-24T05:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-03-02T18:05:00+00:00",
     "summary": null
   }
 }

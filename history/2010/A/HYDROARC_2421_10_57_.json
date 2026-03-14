@@ -27,13 +27,17 @@
     "raw_dtg": "141936Z DEC 10",
     "msg_id": "HYDROARC 2421/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 19 DEC",
+      "HYDROARC 2421/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 18 DEC BY\n   CABLESHIP ILE DE BREHAT ALONG TRACKLINE JOINING\n   01-00.36S 006-11.09E, 02-02.08S 006-36.51E,\n   02-59.37S 007-03.84E, 05-53.49S 008-21.72E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 19 DEC.",
+    "cancel_date": "2010-12-19T00:01:00+00:00",
     "valid_from": "2010-12-14T19:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-19T00:01:00+00:00",
     "summary": null
   }
 }

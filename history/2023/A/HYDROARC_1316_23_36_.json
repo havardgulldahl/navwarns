@@ -13,13 +13,16 @@
     "raw_dtg": "140612Z JUN 23",
     "msg_id": "HYDROARC 1316/23(36)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1671/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT LONGSHIPS LIGHT\n50-04.00N 005-44.80W INOPERATIVE.",
+    "cancel_date": "2023-07-26T02:44:00+00:00",
     "valid_from": "2023-06-14T06:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-07-26T02:44:00+00:00",
     "summary": null
   }
 }

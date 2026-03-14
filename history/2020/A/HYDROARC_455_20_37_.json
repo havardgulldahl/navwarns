@@ -13,13 +13,16 @@
     "raw_dtg": "091328Z FEB 20",
     "msg_id": "HYDROARC 455/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 458/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nEAST GOODWIN LIGHTFLOAT 51-13.0N 001-36.3E UNRELIABLE.",
+    "cancel_date": "2020-02-09T14:45:00+00:00",
     "valid_from": "2020-02-09T13:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-09T14:45:00+00:00",
     "summary": null
   }
 }

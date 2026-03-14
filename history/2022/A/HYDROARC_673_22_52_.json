@@ -13,13 +13,16 @@
     "raw_dtg": "070011Z MAR 22",
     "msg_id": "HYDROARC 673/22(52)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 920/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nILES HABIBAS LIGHT 35-43.3N 001-08.1W UNLIT.",
+    "cancel_date": "2022-03-31T08:07:00+00:00",
     "valid_from": "2022-03-07T00:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-03-31T08:07:00+00:00",
     "summary": null
   }
 }

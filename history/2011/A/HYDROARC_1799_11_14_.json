@@ -23,13 +23,16 @@
     "raw_dtg": "311348Z OCT 11",
     "msg_id": "HYDROARC 1799/11(14)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1908/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nCABLE REPAIR OPERATIONS 030800Z NOV UNTIL\nFURTHER NOTICE BY CABLESHIP LEON THEVENIN\nALONG TRACKLINE JOINING\n43-37.00N 035-52.45W, 43-40.00N 035-47.65W,\n43-45.00N 035-28.55W.\nTWO MILE BERTH REQUESTED.",
+    "cancel_date": "2011-11-15T11:52:00+00:00",
     "valid_from": "2011-10-31T13:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-15T11:52:00+00:00",
     "summary": null
   }
 }

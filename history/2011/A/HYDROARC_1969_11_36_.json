@@ -13,13 +13,17 @@
     "raw_dtg": "231543Z NOV 11",
     "msg_id": "HYDROARC 1969/11(36)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 232359Z NOV",
+      "HYDROARC 1969/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRELAND-EAST COAST.\nDUBLIN BAY.\nNGA CHART 36007 (1ST ED).\n1. BAILY LIGHT 53-21.7N 006-03.1W UNRELIABLE\n   231600Z TO 232300Z NOV.\n2. CANCEL THIS MSG 232359Z NOV.",
+    "cancel_date": "2011-11-23T23:59:00+00:00",
     "valid_from": "2011-11-23T15:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-23T23:59:00+00:00",
     "summary": null
   }
 }

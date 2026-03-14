@@ -7,13 +7,17 @@
     "raw_dtg": "020951Z MAY 10",
     "msg_id": "HYDROARC 769/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 071900Z MAY",
+      "HYDROARC 769/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION EJDE, RATE 9007-MASTER,\n   OFF AIR 031000Z TO 031800Z MAY AND\n   0900Z TO 1800Z DAILY 04 THRU 07 MAY.\n2. CANCEL THIS MSG 071900Z MAY.",
+    "cancel_date": "2010-05-07T19:00:00+00:00",
     "valid_from": "2010-05-02T09:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-07T19:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "251026Z AUG 21",
     "msg_id": "HYDROARC 2186/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2484/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nUNEXPLODED ORDNANCE REPORTED IN 52-34.2N 002-10.8E.",
+    "cancel_date": "2021-10-06T16:03:00+00:00",
     "valid_from": "2021-08-25T10:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-10-06T16:03:00+00:00",
     "summary": null
   }
 }

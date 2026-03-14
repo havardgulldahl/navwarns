@@ -13,13 +13,16 @@
     "raw_dtg": "250421Z MAR 22",
     "msg_id": "HYDROARC 849/22(36)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 853/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nBUOY 55-16.9N 005-32.5W UNLIT.",
+    "cancel_date": "2022-03-25T12:12:00+00:00",
     "valid_from": "2022-03-25T04:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-03-25T12:12:00+00:00",
     "summary": null
   }
 }

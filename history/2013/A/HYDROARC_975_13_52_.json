@@ -33,13 +33,16 @@
     "raw_dtg": "181436Z APR 13",
     "msg_id": "HYDROARC 975/13(52)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1358/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "TUNISIA-NORTHEAST COAST.\nCHART 52184\nNAVIGATION PROHIBITED IN AREA BOUND BY\n37-07.3N 010-16.8E, 37-07.0N 010-17.3E,\n37-07.0N 010-16.8E, 37-07.0N 010-16.3E.",
+    "cancel_date": "2013-06-01T11:10:00+00:00",
     "valid_from": "2013-04-18T14:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-06-01T11:10:00+00:00",
     "summary": null
   }
 }

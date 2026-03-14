@@ -13,13 +13,16 @@
     "raw_dtg": "060210Z JAN 12",
     "msg_id": "HYDROARC 39/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 76/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nCHART 35058\nCOPINSAY LIGHT 58-53.8N 002-40.2W UNRELIABLE.",
+    "cancel_date": "2012-01-09T21:08:00+00:00",
     "valid_from": "2012-01-06T02:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-09T21:08:00+00:00",
     "summary": null
   }
 }

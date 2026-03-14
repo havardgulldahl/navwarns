@@ -7,13 +7,17 @@
     "raw_dtg": "051023Z MAR 11",
     "msg_id": "HYDROARC 369/11(53)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 010059Z APR",
+      "HYDROARC 487/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nORDNANCE.\n1. BOMBING EXERCISES 070001Z TO 312359Z MAR\n   WITHIN 25 MILES OF 34-44N 015-40E.\n2. CANCEL THIS MSG 010059Z APR.",
+    "cancel_date": "2011-03-24T11:53:00+00:00",
     "valid_from": "2011-03-05T10:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-24T11:53:00+00:00",
     "summary": null
   }
 }

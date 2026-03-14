@@ -13,13 +13,16 @@
     "raw_dtg": "290626Z AUG 23",
     "msg_id": "HYDROARC 1933/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1938/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSUNK INNER LIGHTFLOAT 51-51.03N 001-34.89E\nUNLIT.",
+    "cancel_date": "2023-08-29T14:11:00+00:00",
     "valid_from": "2023-08-29T06:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-08-29T14:11:00+00:00",
     "summary": null
   }
 }

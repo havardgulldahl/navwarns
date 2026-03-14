@@ -13,13 +13,16 @@
     "raw_dtg": "122341Z APR 11",
     "msg_id": "HYDROARC 610/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 617/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTH COAST.\nNGA CHART 37110 (11TH ED).\nBEACHY HEAD LIGHT 50-44.0N 000-14.6E UNLIT.",
+    "cancel_date": "2011-04-13T15:08:00+00:00",
     "valid_from": "2011-04-12T23:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-13T15:08:00+00:00",
     "summary": null
   }
 }

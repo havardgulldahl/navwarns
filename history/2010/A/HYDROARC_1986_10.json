@@ -7,13 +7,17 @@
     "raw_dtg": "201553Z OCT 10",
     "msg_id": "HYDROARC 1986/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 211630Z OCT",
+      "HYDROARC 1986/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATIONS LESSAY, RATE 6731-M\n   AND SYLT, RATE 7499-X, OFF AIR\n   211130Z TO 211530Z OCT.\n2. CANCEL THIS MSG 211630Z OCT.",
+    "cancel_date": "2010-10-21T16:30:00+00:00",
     "valid_from": "2010-10-20T15:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-21T16:30:00+00:00",
     "summary": null
   }
 }

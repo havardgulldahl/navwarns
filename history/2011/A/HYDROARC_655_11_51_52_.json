@@ -35,13 +35,16 @@
     "raw_dtg": "190831Z APR 11",
     "msg_id": "HYDROARC 655/11(51,52)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 745/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "GULF OF CADIZ.\nALBORAN SEA.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V OGS EXPLORA ALONG\nTRACKLINE JOINING\n35-53.3N 006.33.5W, 35-56.3N 006-37.1W,\n36-00.6N 006-42.0W, 36-04.4N 006-44.8W,\n36-10.7N 006-47.4W, 36-20.5N 006-49.6W,\n36-24.8N 006-50.8W.\n1.5 MILE BERTH REQUESTED.",
+    "cancel_date": "2011-05-02T13:07:00+00:00",
     "valid_from": "2011-04-19T08:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-02T13:07:00+00:00",
     "summary": null
   }
 }

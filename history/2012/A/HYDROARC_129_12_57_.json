@@ -33,13 +33,16 @@
     "raw_dtg": "162236Z JAN 12",
     "msg_id": "HYDROARC 129/12(57)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 341/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM VIKING TOWING 12\n7050 METER LONG CABLES IN AREA BOUND BY\n22-52.75S 012-24.00E, 22-49.75S 012-56.15E,\n23-56.50S 013-03.50E, 23-59.50S 012-31.00E.\nFIVE MILE BERTH REQUESTED.",
+    "cancel_date": "2012-02-10T11:31:00+00:00",
     "valid_from": "2012-01-16T22:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-10T11:31:00+00:00",
     "summary": null
   }
 }

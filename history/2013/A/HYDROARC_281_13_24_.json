@@ -13,13 +13,16 @@
     "raw_dtg": "311718Z JAN 13",
     "msg_id": "HYDROARC 281/13(24)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2600/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nCHART 24320\nRACON AT BAILIQUE LIGHT 00-59.4N 049-56.9W INOPERATIVE.",
+    "cancel_date": "2013-10-19T10:28:00+00:00",
     "valid_from": "2013-01-31T17:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-10-19T10:28:00+00:00",
     "summary": null
   }
 }

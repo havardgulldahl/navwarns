@@ -13,13 +13,16 @@
     "raw_dtg": "081631Z FEB 20",
     "msg_id": "HYDROARC 443/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 477/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL LIGHTS AT LEMAN GASFIELD CHARLIE\nPLATFORM 53-01.6N 002-15.4E INOPERATIVE.",
+    "cancel_date": "2020-02-10T18:27:00+00:00",
     "valid_from": "2020-02-08T16:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-10T18:27:00+00:00",
     "summary": null
   }
 }

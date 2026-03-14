@@ -13,13 +13,17 @@
     "raw_dtg": "221303Z FEB 11",
     "msg_id": "HYDROARC 313/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 25 MAR",
+      "HYDROARC 313/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 24 MAR\n   BY CABLESHIP FUGRO GAUSS ALONG TRACKLINE BETWEEN\n   31-12.1N 029-54.1E AND 33-21.0N 031-06.1E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 25 MAR.",
+    "cancel_date": "2011-03-25T00:01:00+00:00",
     "valid_from": "2011-02-22T13:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-25T00:01:00+00:00",
     "summary": null
   }
 }

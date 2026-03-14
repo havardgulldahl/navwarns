@@ -13,13 +13,17 @@
     "raw_dtg": "232142Z MAY 12",
     "msg_id": "HYDROARC 34/12(16)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 262145Z MAY",
+      "HYDROARC 34/12"
+    ],
     "hazard_type": "ice and icebergs",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nALASKA-NORTH COAST.\nICE.\n1. ICEBERG REPORTED IN 70-44.655N 159-55.158W.\n2. CANCEL THIS MSG 262145Z MAY.",
+    "cancel_date": "2012-05-26T21:45:00+00:00",
     "valid_from": "2012-05-23T21:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-26T21:45:00+00:00",
     "summary": null
   }
 }

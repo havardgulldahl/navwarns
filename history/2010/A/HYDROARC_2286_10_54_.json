@@ -7,13 +7,17 @@
     "raw_dtg": "290944Z NOV 10",
     "msg_id": "HYDROARC 2286/10(54)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 301030Z NOV",
+      "HYDROARC 2286/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 300900Z TO 300930Z\n   IN AREA BOUND BY\n   36-30N 028-34E, 36-23N 028-34E,\n   36-09N 029-19E, 36-25N 029-19E.\n2. CANCEL THIS MSG 301030Z NOV.",
+    "cancel_date": "2010-11-30T10:30:00+00:00",
     "valid_from": "2010-11-29T09:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-30T10:30:00+00:00",
     "summary": null
   }
 }

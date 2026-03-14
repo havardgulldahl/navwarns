@@ -7,13 +7,16 @@
     "raw_dtg": "080123Z MAR 12",
     "msg_id": "HYDROARC 529/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 558/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\nNAVTEX.\nNAVTEX STATION CORSEN OFF AIR. CORSEN BROADCASTS\nWILL BE TRANSMITTED FROM NAVTEX STATION NITON.",
+    "cancel_date": "2012-03-10T10:28:00+00:00",
     "valid_from": "2012-03-08T01:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-10T10:28:00+00:00",
     "summary": null
   }
 }

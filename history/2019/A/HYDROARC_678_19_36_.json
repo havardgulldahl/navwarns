@@ -13,13 +13,16 @@
     "raw_dtg": "011916Z MAR 19",
     "msg_id": "HYDROARC 678/19(36)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2383/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19, DNC 20.\nCHART 36006.\nWICKLOW HEAD LIGHT 52-58.0N 006-00.0W RANGE\nPERMANENTLY REDUCED TO 18 MILES.",
+    "cancel_date": "2019-08-03T06:22:00+00:00",
     "valid_from": "2019-03-01T19:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-08-03T06:22:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "110419Z APR 14",
     "msg_id": "HYDROARC 988/14(36)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 999/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nISLE OF MAN.\nCHART 36006\nCHICKEN ROCK LIGHT 54-02.3N 004-50.3W UNRELIABLE.",
+    "cancel_date": "2014-04-11T21:45:00+00:00",
     "valid_from": "2014-04-11T04:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-04-11T21:45:00+00:00",
     "summary": null
   }
 }

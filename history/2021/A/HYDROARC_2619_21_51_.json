@@ -13,13 +13,16 @@
     "raw_dtg": "240226Z OCT 21",
     "msg_id": "HYDROARC 2619/21(51)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2983/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nSIDI IFINI LIGHT 29-22.5N 010-10.7W UNLIT.",
+    "cancel_date": "2021-12-05T10:05:00+00:00",
     "valid_from": "2021-10-24T02:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-12-05T10:05:00+00:00",
     "summary": null
   }
 }

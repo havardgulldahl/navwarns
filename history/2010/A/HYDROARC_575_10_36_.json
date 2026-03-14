@@ -13,13 +13,16 @@
     "raw_dtg": "020831Z APR 10",
     "msg_id": "HYDROARC 575/10(36)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 583/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WALES-WEST COAST.\nNGA CHART 36032 (0 ED).\nRACON AT THE SMALLS LIGHT 51-43.3N 005-40.2W INOPERATIVE.",
+    "cancel_date": "2010-04-03T17:33:00+00:00",
     "valid_from": "2010-04-02T08:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-03T17:33:00+00:00",
     "summary": null
   }
 }

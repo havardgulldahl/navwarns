@@ -7,13 +7,17 @@
     "raw_dtg": "090350Z MAY 12",
     "msg_id": "HYDROARC 978/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 142100Z MAY",
+      "HYDROARC 978/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTHEAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 141200Z TO 142000Z MAY\n   WITHIN THREE MILES OF 04-07S 032-55W.\n2. CANCEL THIS MSG 142100Z MAY.",
+    "cancel_date": "2012-05-14T21:00:00+00:00",
     "valid_from": "2012-05-09T03:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-14T21:00:00+00:00",
     "summary": null
   }
 }

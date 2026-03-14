@@ -13,13 +13,16 @@
     "raw_dtg": "060640Z DEC 15",
     "msg_id": "HYDROARC 3024/15(37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 290/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 37115.\nOBSTRUCTION REPORTED IN 50-33.10N 000-38.98E.",
+    "cancel_date": "2017-01-27T19:01:00+00:00",
     "valid_from": "2015-12-06T06:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-27T19:01:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "122055Z JAN 15",
     "msg_id": "HYDROARC 101/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 135/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35056.\nAUSKERRY LIGHT 59-01.6N 002-34.2W UNLIT.",
+    "cancel_date": "2015-01-15T16:12:00+00:00",
     "valid_from": "2015-01-12T20:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-15T16:12:00+00:00",
     "summary": null
   }
 }

@@ -38,12 +38,14 @@
     "msg_id": "HYDROARC 10/15(54)",
     "year": 2015,
     "cancellations": [
-      "THIS MSG 311700Z DEC 15"
+      "THIS MSG 311700Z DEC 15",
+      "HYDROARC 10/15"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nHAZARDOUS OPERATIONS.\nDNC 09, DNC 10.\n1. HAZARDOUS OPERATIONS 0500Z TO 1600Z DAILY\n   UNTIL 31 DEC EXCEPT SATURDAYS AND SUNDAYS\n   IN AREA BOUND BY\n   37-27.0N 026-17.0E, 37-24.0N 026-04.0E,\n   37-24.0N 026-00.0E, 37-05.0N 026-09.0E,\n   37-08.5N 026-27.5E.\n2. CANCEL THIS MSG 311700Z DEC 15.",
+    "cancel_date": "2015-12-31T17:00:00+00:00",
     "valid_from": "2015-01-02T12:46:00+00:00",
     "valid_until": "2015-12-31T17:00:00+00:00",
     "summary": null

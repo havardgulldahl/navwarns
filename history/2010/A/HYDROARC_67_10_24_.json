@@ -13,13 +13,17 @@
     "raw_dtg": "130137Z JAN 10",
     "msg_id": "HYDROARC 67/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 160130Z JAN",
+      "HYDROARC 67/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. DERELICT 12 METER F/V DALLAS II CAPSIZED AND\n   ADRIFT IN 22-12.50S 039-55.20W ON 12 JAN.\n2. CANCEL THIS MSG 160130Z JAN.",
+    "cancel_date": "2010-01-16T01:30:00+00:00",
     "valid_from": "2010-01-13T01:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-16T01:30:00+00:00",
     "summary": null
   }
 }

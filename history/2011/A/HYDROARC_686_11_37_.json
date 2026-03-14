@@ -7,13 +7,17 @@
     "raw_dtg": "230535Z APR 11",
     "msg_id": "HYDROARC 686/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 282300Z APR",
+      "HYDROARC 686/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. CABLE OPERATIONS 252200Z TO 282200Z APR\n   BY CABLESHIP RENE DESCARTES:\n   A. WITHIN ONE MILE OF 47-27N 006-35W.\n   B. ALONG TRACKLINE BETWEEN\n      47-39N 006-05W AND 47-42N 006-05W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 282300Z APR.",
+    "cancel_date": "2011-04-28T23:00:00+00:00",
     "valid_from": "2011-04-23T05:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-28T23:00:00+00:00",
     "summary": null
   }
 }

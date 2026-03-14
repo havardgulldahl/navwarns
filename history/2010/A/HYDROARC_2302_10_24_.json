@@ -13,13 +13,16 @@
     "raw_dtg": "010119Z DEC 10",
     "msg_id": "HYDROARC 2302/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 124/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24150 (27TH ED).\nILHA PONTUDA LIGHT 23-02.3S 043-18.2W UNLIT.",
+    "cancel_date": "2011-01-20T05:10:00+00:00",
     "valid_from": "2010-12-01T01:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-20T05:10:00+00:00",
     "summary": null
   }
 }

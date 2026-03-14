@@ -13,13 +13,16 @@
     "raw_dtg": "170203Z JAN 11",
     "msg_id": "HYDROARC 94/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 125/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24140(18TH ED).\nGUARAU LIGHT 24-22.9S 046-59.2W UNLIT.",
+    "cancel_date": "2011-01-20T05:19:00+00:00",
     "valid_from": "2011-01-17T02:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-20T05:19:00+00:00",
     "summary": null
   }
 }

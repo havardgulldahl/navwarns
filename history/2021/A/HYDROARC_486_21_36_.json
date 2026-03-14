@@ -13,13 +13,16 @@
     "raw_dtg": "192205Z FEB 21",
     "msg_id": "HYDROARC 486/21(36)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 506/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nIRELAND.\nDNC 19.\nHOOK HEAD LIGHT 52-07-21N 006-55-50W UNRELIABLE.",
+    "cancel_date": "2021-02-21T21:51:00+00:00",
     "valid_from": "2021-02-19T22:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-02-21T21:51:00+00:00",
     "summary": null
   }
 }

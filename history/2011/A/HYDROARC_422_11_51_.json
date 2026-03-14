@@ -13,13 +13,17 @@
     "raw_dtg": "150453Z MAR 11",
     "msg_id": "HYDROARC 422/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 180450Z MAR",
+      "HYDROARC 422/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT S/V ADRIFT VICINITY 20-32.5N 033-46.4W\n   AT 150050Z MAR.\n2. CANCEL THIS MSG 180450Z MAR.",
+    "cancel_date": "2011-03-18T04:50:00+00:00",
     "valid_from": "2011-03-15T04:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-18T04:50:00+00:00",
     "summary": null
   }
 }

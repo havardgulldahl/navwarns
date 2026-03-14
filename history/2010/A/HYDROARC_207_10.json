@@ -8,14 +8,17 @@
     "msg_id": "HYDROARC 207/10",
     "year": 2010,
     "cancellations": [
-      "60/10"
+      "THIS MSG 031100Z FEB",
+      "60/10",
+      "HYDROARC 207/10"
     ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION BERLEVAG, RATE 7001-Y,\n   OFF AIR 030800Z TO 031000Z FEB.\n2. CANCEL HYDROLANT 60/10(24).\n3. CANCEL THIS MSG 031100Z FEB.",
+    "cancel_date": "2010-02-03T11:00:00+00:00",
     "valid_from": "2010-02-02T13:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-03T11:00:00+00:00",
     "summary": null
   }
 }

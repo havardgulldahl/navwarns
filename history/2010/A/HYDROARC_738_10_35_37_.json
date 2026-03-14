@@ -7,13 +7,16 @@
     "raw_dtg": "271417Z APR 10",
     "msg_id": "HYDROARC 738/10(35,37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 746/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nRADIO SERVICES.\nMRCC HUMBER MF DSC SERVICE 55-31N 001-37W UNRELIABLE.",
+    "cancel_date": "2010-04-29T12:34:00+00:00",
     "valid_from": "2010-04-27T14:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-29T12:34:00+00:00",
     "summary": null
   }
 }

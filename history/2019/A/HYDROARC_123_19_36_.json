@@ -13,13 +13,16 @@
     "raw_dtg": "150755Z JAN 19",
     "msg_id": "HYDROARC 123/19(36)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 225/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nWALES.\nISLE OF MAN.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP SOVEREIGN IN 53-43.3N 004-33.2W.\nONE MILE BERTH REQUESTED.",
+    "cancel_date": "2019-01-23T15:56:00+00:00",
     "valid_from": "2019-01-15T07:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-23T15:56:00+00:00",
     "summary": null
   }
 }

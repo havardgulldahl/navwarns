@@ -7,13 +7,16 @@
     "raw_dtg": "131000Z JAN 10",
     "msg_id": "HYDROARC 70/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 81/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "FRANCE-NORTH COAST.\nNGA CHART 37090 (8TH ED).\nLA HAGUE DGPS STATION 49-35N 001-47W UNUSABLE.",
+    "cancel_date": "2010-01-14T11:35:00+00:00",
     "valid_from": "2010-01-13T10:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-14T11:35:00+00:00",
     "summary": null
   }
 }

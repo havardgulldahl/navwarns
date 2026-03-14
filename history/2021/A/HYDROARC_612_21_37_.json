@@ -13,13 +13,16 @@
     "raw_dtg": "030403Z MAR 21",
     "msg_id": "HYDROARC 612/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 622/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nLIZARD POINT LIGHT 49-57-36N 005-12-07W UNRELIABLE.",
+    "cancel_date": "2021-03-04T04:18:00+00:00",
     "valid_from": "2021-03-03T04:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-03-04T04:18:00+00:00",
     "summary": null
   }
 }

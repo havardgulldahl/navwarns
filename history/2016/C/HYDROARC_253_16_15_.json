@@ -7,13 +7,16 @@
     "raw_dtg": "200315Z SEP 16",
     "msg_id": "HYDROARC 253/16(15)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 254/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nRADIO SERVICES.\nDNC 18, 28.\nMCTS IQALUIT CENTRE NBDP AND DSC SERVICES INOPERATIVE.",
+    "cancel_date": "2016-09-20T11:10:00+00:00",
     "valid_from": "2016-09-20T03:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-09-20T11:10:00+00:00",
     "summary": null
   }
 }

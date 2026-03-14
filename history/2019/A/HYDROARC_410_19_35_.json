@@ -13,13 +13,16 @@
     "raw_dtg": "070022Z FEB 19",
     "msg_id": "HYDROARC 410/19(35)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 445/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35014.\nBELL ROCK LIGHT 56-26.1N 002-23.2W UNRELIABLE.",
+    "cancel_date": "2019-02-10T05:28:00+00:00",
     "valid_from": "2019-02-07T00:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-02-10T05:28:00+00:00",
     "summary": null
   }
 }

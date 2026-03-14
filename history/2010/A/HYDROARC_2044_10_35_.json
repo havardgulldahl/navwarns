@@ -13,13 +13,16 @@
     "raw_dtg": "272341Z OCT 10",
     "msg_id": "HYDROARC 2044/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2101/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND.\nISLAY.\nNGA CHART 35119 (2ND ED).\nCHUIRN LIGHT 55-40.2N 006-01.1W UNLIT.",
+    "cancel_date": "2010-11-03T23:59:00+00:00",
     "valid_from": "2010-10-27T23:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-03T23:59:00+00:00",
     "summary": null
   }
 }

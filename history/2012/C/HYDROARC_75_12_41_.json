@@ -7,13 +7,17 @@
     "raw_dtg": "100718Z JUL 12",
     "msg_id": "HYDROARC 75/12(41)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 140500Z JUL",
+      "HYDROARC 75/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nEAST SIBERIAN SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 0230Z TO 0400Z DAILY\n   13 AND 14 JUL WITHIN 27 MILES OF 78-16N 163-55E.\n2. CANCEL THIS MSG 140500Z JUL.",
+    "cancel_date": "2012-07-14T05:00:00+00:00",
     "valid_from": "2012-07-10T07:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-14T05:00:00+00:00",
     "summary": null
   }
 }

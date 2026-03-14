@@ -23,13 +23,16 @@
     "raw_dtg": "051318Z NOV 20",
     "msg_id": "HYDROARC 3412/20(54)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3467/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP GIULO VERNE ALONG TRACKLINE JOINING\n35-58.70N 023-17.90E, 36-04.60N 023-14.10E,\n36-13.30N 023-09.90E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2020-11-09T22:19:00+00:00",
     "valid_from": "2020-11-05T13:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-11-09T22:19:00+00:00",
     "summary": null
   }
 }

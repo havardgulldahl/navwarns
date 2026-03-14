@@ -13,13 +13,16 @@
     "raw_dtg": "291701Z FEB 12",
     "msg_id": "HYDROARC 452/12(52)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 808/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TUNISIA-NORTH COAST.\nCHART 52202\nCAP ROSA LIGHT 36-56.9N 008-14.4E UNLIT.",
+    "cancel_date": "2012-04-12T10:56:00+00:00",
     "valid_from": "2012-02-29T17:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-12T10:56:00+00:00",
     "summary": null
   }
 }

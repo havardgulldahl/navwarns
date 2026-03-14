@@ -13,13 +13,16 @@
     "raw_dtg": "100836Z SEP 15",
     "msg_id": "HYDROARC 2238/15(37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2279/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 37058.\nFOG SIGNAL AT PLATFORM TETHYS 53-39.1N 002-03.5E INOPERATIVE.",
+    "cancel_date": "2015-09-14T09:19:00+00:00",
     "valid_from": "2015-09-10T08:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-09-14T09:19:00+00:00",
     "summary": null
   }
 }

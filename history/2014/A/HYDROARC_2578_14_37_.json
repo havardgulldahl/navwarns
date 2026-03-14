@@ -13,13 +13,16 @@
     "raw_dtg": "241233Z OCT 14",
     "msg_id": "HYDROARC 2578/14(37)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2875/14"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 37115.\nRACON AT BASSURELLE BUOY 50-32.8N 000-57.7E INOPERATIVE.",
+    "cancel_date": "2014-11-26T13:12:00+00:00",
     "valid_from": "2014-10-24T12:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-11-26T13:12:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "021501Z JUN 12",
     "msg_id": "HYDROARC 1179/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 051500Z JUN",
+      "HYDROARC 1187/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\n1. DERELICT F/V CARMENE PILAR ADRIFT VICINITY\n   19-34.92N 017-12.02W AT 021315Z JUN.\n2. CANCEL THIS MSG 051500Z JUN.",
+    "cancel_date": "2012-06-03T06:21:00+00:00",
     "valid_from": "2012-06-02T15:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-03T06:21:00+00:00",
     "summary": null
   }
 }

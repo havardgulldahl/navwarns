@@ -27,13 +27,17 @@
     "raw_dtg": "141009Z MAY 11",
     "msg_id": "HYDROARC 820/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 20 MAY",
+      "HYDROARC 820/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\n1. CABLE LAYING OPERATIONS 16 THRU 19 MAY BY\n   CABLESHIP ILE DE BATZ ALONG TRACKLINE JOINING\n   27-50.73N 016-36.29W, 27-51.21N 017-18.05W,\n   28-27.68N 017-31.17W, 28-39.86N 017-45.86W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 20 MAY.",
+    "cancel_date": "2011-05-20T00:01:00+00:00",
     "valid_from": "2011-05-14T10:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-20T00:01:00+00:00",
     "summary": null
   }
 }

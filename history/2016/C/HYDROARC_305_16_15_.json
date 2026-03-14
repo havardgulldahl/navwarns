@@ -13,13 +13,16 @@
     "raw_dtg": "171550Z OCT 16",
     "msg_id": "HYDROARC 305/16(15)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 350/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nDAVIS STRAIT.\nNAVTEX.\nDNC 28.\nMCTS IQALUIT CENTRE 63-43.8N 068-32.7W\nNAVTEX INOPERATIVE.",
+    "cancel_date": "2016-12-27T23:58:00+00:00",
     "valid_from": "2016-10-17T15:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-12-27T23:58:00+00:00",
     "summary": null
   }
 }

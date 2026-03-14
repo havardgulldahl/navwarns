@@ -41,13 +41,16 @@
     "raw_dtg": "281304Z JAN 20",
     "msg_id": "HYDROARC 306/20(53)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 515/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nMALTA.\nDNC 09.\nSURVEY OPERATIONS FROM 31 JAN UNTIL\nFURTHER NOTICE IN AREA BOUND BY\n35-55.45N 014-18.63E, 35-55.86N 014-20.28E,\n35-45.09N 014-03.92E, 35-41.94N 014-00.34E,\n35-40.42N 013-53.02E, 35-40.60N 013-51.65E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2020-02-13T09:39:00+00:00",
     "valid_from": "2020-01-28T13:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-13T09:39:00+00:00",
     "summary": null
   }
 }

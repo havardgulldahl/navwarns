@@ -7,13 +7,17 @@
     "raw_dtg": "080601Z MAY 11",
     "msg_id": "HYDROARC 58/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 121700Z MAY",
+      "HYDROARC 58/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC OCEAN.\nBARENTS SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0600Z TO 1600Z DAILY\n   11 AND 12 MAY IN AREA BOUND BY\n   69-41N 033-55E, 69-58N 033-39E,\n   69-58N 034-47E, 69-35N 034-47E.\n2. CANCEL THIS MSG 121700Z MAY.",
+    "cancel_date": "2011-05-12T17:00:00+00:00",
     "valid_from": "2011-05-08T06:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-12T17:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "281509Z DEC 22",
     "msg_id": "HYDROARC 3318/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3326/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT DUNGENESS LIGHT\n50-54.80N 000-58.50E INOPERATIVE.",
+    "cancel_date": "2022-12-29T12:11:00+00:00",
     "valid_from": "2022-12-28T15:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-12-29T12:11:00+00:00",
     "summary": null
   }
 }

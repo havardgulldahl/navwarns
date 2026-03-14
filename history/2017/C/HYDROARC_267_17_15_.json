@@ -13,13 +13,16 @@
     "raw_dtg": "120823Z SEP 17",
     "msg_id": "HYDROARC 267/17(15)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA.\nDNC 28.\nCHART 15881.\n4.27 METER DEPTH REPORTED IN 68-24.82N 096-21.65W.",
+    "cancel_date": "2019-01-04T13:40:00+00:00",
     "valid_from": "2017-09-12T08:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-04T13:40:00+00:00",
     "summary": null
   }
 }

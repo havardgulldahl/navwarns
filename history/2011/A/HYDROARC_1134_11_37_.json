@@ -13,13 +13,17 @@
     "raw_dtg": "120847Z JUL 11",
     "msg_id": "HYDROARC 1134/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 141700Z JUL",
+      "HYDROARC 1134/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHEAST COAST.\nNGA CHART 37120 (3RD ED).\n1. DGPS STATION AT NORTH FORELAND LIGHT\n   51-22.5N 001-26.9E UNUSABLE\n   0800Z TO 1600Z DAILY 12 THRU 14 JUL.\n2. CANCEL THIS MSG 141700Z JUL.",
+    "cancel_date": "2011-07-14T17:00:00+00:00",
     "valid_from": "2011-07-12T08:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-14T17:00:00+00:00",
     "summary": null
   }
 }

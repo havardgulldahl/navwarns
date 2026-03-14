@@ -46,12 +46,14 @@
     "msg_id": "HYDROARC 320/23(42,43)",
     "year": 2023,
     "cancellations": [
-      "THIS MSG 251100Z DEC 23"
+      "THIS MSG 251100Z DEC 23",
+      "HYDROARC 320/23"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0800Z TO 1000Z DAILY 21 THRU 25 DEC\n   IN AREA BOUND BY\n   70-56.00N 032-04.97E, 70-10.00N 033-40.00E,\n   69-54.00N 032-40.00E, 70-08.00N 032-04.97E,\n   70-15.00N 031-50.00E, 70-30.11N 031-50.00E,\n   70-36.37N 031-43.30E.\n2. CANCEL THIS MSG 251100Z DEC 23.",
+    "cancel_date": "2023-12-25T11:00:00+00:00",
     "valid_from": "2023-12-17T06:48:00+00:00",
     "valid_until": "2023-12-25T11:00:00+00:00",
     "summary": null

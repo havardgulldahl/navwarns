@@ -7,13 +7,17 @@
     "raw_dtg": "141107Z JAN 12",
     "msg_id": "HYDROARC 104/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 160404Z JAN",
+      "HYDROARC 104/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nSPACE DEBRIS.\n1. PHOBOS-GRUNT SATELLITE PROBE RE-ENRTY\n   POSSIBLE 150804Z TO 160304Z JAN.\n2. CANCEL THIS MSG 160404Z JAN.",
+    "cancel_date": "2012-01-16T04:04:00+00:00",
     "valid_from": "2012-01-14T11:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-16T04:04:00+00:00",
     "summary": null
   }
 }

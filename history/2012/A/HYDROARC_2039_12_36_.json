@@ -13,13 +13,16 @@
     "raw_dtg": "040321Z SEP 12",
     "msg_id": "HYDROARC 2039/12(36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2047/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTHERN IRISH SEA.\nSOLWAY FIRTH.\nCHART 36025\nHESTAN ISLET LIGHT 54-50.0N 003-48.4W UNLIT.",
+    "cancel_date": "2012-09-04T23:15:00+00:00",
     "valid_from": "2012-09-04T03:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-09-04T23:15:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,17 @@
     "raw_dtg": "171617Z SEP 10",
     "msg_id": "HYDROARC 1759/10(52)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 21 OCT",
+      "HYDROARC 1759/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "TUNISIA-NORTHEAST COAST.\n1. PIPELINE OPERATIONS IN PROGRESS UNTIL 20 OCT\n   BY M/V AKYRA IN AREA BOUND BY\n   37-01.58N 011-03.40E, 37-01.97N 011-06.28E,\n   37-00.92N 011-08.62E, 37-00.50N 011-03.67E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 21 OCT.",
+    "cancel_date": "2010-10-21T00:01:00+00:00",
     "valid_from": "2010-09-17T16:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-21T00:01:00+00:00",
     "summary": null
   }
 }

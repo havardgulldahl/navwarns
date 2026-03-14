@@ -13,13 +13,16 @@
     "raw_dtg": "042144Z JAN 15",
     "msg_id": "HYDROARC 30/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 54/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35056.\nCOPINSAY LIGHT 58-53.8N 002-40.2W UNLIT.",
+    "cancel_date": "2015-01-06T16:42:00+00:00",
     "valid_from": "2015-01-04T21:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-06T16:42:00+00:00",
     "summary": null
   }
 }

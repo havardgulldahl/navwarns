@@ -13,13 +13,16 @@
     "raw_dtg": "011523Z AUG 11",
     "msg_id": "HYDROARC 118/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 146/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nNGA CHART 15945 (0 ED).\nRACON AT PULLEN ISLAND LIGHT 69-46.5N 134-24.3W INOPERATIVE.",
+    "cancel_date": "2011-08-29T11:48:00+00:00",
     "valid_from": "2011-08-01T15:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-29T11:48:00+00:00",
     "summary": null
   }
 }

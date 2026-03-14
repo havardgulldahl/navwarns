@@ -13,13 +13,17 @@
     "raw_dtg": "272007Z SEP 10",
     "msg_id": "HYDROARC 1830/10(24,57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 302000Z SEP",
+      "HYDROARC 1830/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\n1. DERELICT LIFEBOAT ADRIFT VICINITY\n   27-30.5S 020-53.7W.\n2. CANCEL THIS MSG 302000Z SEP.",
+    "cancel_date": "2010-09-30T20:00:00+00:00",
     "valid_from": "2010-09-27T20:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-30T20:00:00+00:00",
     "summary": null
   }
 }

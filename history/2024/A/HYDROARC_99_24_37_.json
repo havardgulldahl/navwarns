@@ -7,13 +7,16 @@
     "raw_dtg": "131419Z JAN 24",
     "msg_id": "HYDROARC 99/24(37)",
     "year": 2024,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 194/24"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nNAVTEX STATION NITON (E)(K) 50-35N 001-15W UNRELIABLE.",
+    "cancel_date": "2024-01-25T22:30:00+00:00",
     "valid_from": "2024-01-13T14:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2024-01-25T22:30:00+00:00",
     "summary": null
   }
 }

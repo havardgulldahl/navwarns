@@ -7,13 +7,17 @@
     "raw_dtg": "041756Z APR 12",
     "msg_id": "HYDROARC 744/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 201600Z APR",
+      "HYDROARC 744/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\nTURKEY.\nGUNNERY.\n1. GUNNERY EXERCISES 0600Z TO 1500Z DAILY\n   09, 10 AND 20 APR IN AREA BOUND BY\n   41-15N 029-22E, 42-09N 029-22E,\n   42-18N 030-18E, 41-45N 030-52E,\n   41-05N 030-55E.\n2. CANCEL THIS MSG 201600Z APR.",
+    "cancel_date": "2012-04-20T16:00:00+00:00",
     "valid_from": "2012-04-04T17:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-20T16:00:00+00:00",
     "summary": null
   }
 }

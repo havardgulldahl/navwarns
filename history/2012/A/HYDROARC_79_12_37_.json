@@ -7,13 +7,17 @@
     "raw_dtg": "100813Z JAN 12",
     "msg_id": "HYDROARC 79/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 11 JAN",
+      "HYDROARC 79/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. CABLE REPAIR OPERATIONS 10 JAN BY\n   CABLESHIP RESPONDER WITH SUBMERSIBLE\n   IN AREA BETWEEN\n   47-00N 47-20N AND 006-00W 006-20W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 11 JAN.",
+    "cancel_date": "2012-01-11T00:01:00+00:00",
     "valid_from": "2012-01-10T08:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-11T00:01:00+00:00",
     "summary": null
   }
 }

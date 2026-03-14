@@ -13,13 +13,16 @@
     "raw_dtg": "270530Z APR 16",
     "msg_id": "HYDROARC 998/16(37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1027/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nDNC 20.\nCHART 37121.\nVARNE LIGHTSHIP 51-01.2N 001-24.0E OFF STATION\nIN 51-00.8N 001-22.7E.",
+    "cancel_date": "2016-04-29T11:20:00+00:00",
     "valid_from": "2016-04-27T05:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-04-29T11:20:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,17 @@
     "raw_dtg": "191127Z APR 14",
     "msg_id": "HYDROARC 1050/14(55)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "THIS 29 JUL 14",
+      "HYDROARC 1335/14"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. OCEANOGRAPHIC OPERATIONS 21 APR THRU 28 JUL\n   BY M/V SEA SURVEYOR IN AREA BOUND BY\n   44-22.3N 030-45.3E, 44-44.0N 031-09.8E,\n   44-00.6N 031-24.3E, 44-03.0N 031-09.6E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL THIS 29 JUL 14.",
+    "cancel_date": "2014-05-28T15:45:00+00:00",
     "valid_from": "2014-04-19T11:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-05-28T15:45:00+00:00",
     "summary": null
   }
 }

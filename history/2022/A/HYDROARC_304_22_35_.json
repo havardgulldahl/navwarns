@@ -13,13 +13,16 @@
     "raw_dtg": "310111Z JAN 22",
     "msg_id": "HYDROARC 304/22(35)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 314/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nHASKIER ISLAND LIGHT 57-42.0N 007-41.3W UNRELIABLE.",
+    "cancel_date": "2022-01-31T20:13:00+00:00",
     "valid_from": "2022-01-31T01:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-01-31T20:13:00+00:00",
     "summary": null
   }
 }

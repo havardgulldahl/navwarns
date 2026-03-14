@@ -13,13 +13,16 @@
     "raw_dtg": "111520Z JUN 23",
     "msg_id": "HYDROARC 107/23(15)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 278/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA.\nDNC 27.\nMCTS IQALUIT REMOTE STATION INUVIK\n68-19.00N 133-35.00W OFF AIR.",
+    "cancel_date": "2023-11-01T05:31:00+00:00",
     "valid_from": "2023-06-11T15:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-11-01T05:31:00+00:00",
     "summary": null
   }
 }

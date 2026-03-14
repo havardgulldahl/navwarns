@@ -13,13 +13,17 @@
     "raw_dtg": "142012Z MAY 12",
     "msg_id": "HYDROARC 1029/12(38)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 172010Z MAY",
+      "HYDROARC 1029/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT S/V KAMU ADRIFT VICINITY\n   44-55.7N 026-13.8W AT 141612Z MAY.\n2. CANCEL THIS MSG 172010Z MAY.",
+    "cancel_date": "2012-05-17T20:10:00+00:00",
     "valid_from": "2012-05-14T20:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-17T20:10:00+00:00",
     "summary": null
   }
 }

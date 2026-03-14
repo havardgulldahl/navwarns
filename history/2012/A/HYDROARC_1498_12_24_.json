@@ -41,13 +41,17 @@
     "raw_dtg": "071252Z JUL 12",
     "msg_id": "HYDROARC 1498/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 140359Z JUL",
+      "HYDROARC 1498/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 140259Z JUL\n   BY M/V NPS VERITAS VIKING TOWING EIGHT\n   3.5 MILE LONG CABLES IN AREA BOUND BY\n   24-07.13S 042-11.87W, 24-25.77S 042-01.50W,\n   24-43.58S 041-52.42W, 24-51.18S 041-41.38W,\n   24-12.75S 042-03.15W, 24-00.37S 042-10.02W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 140359Z JUL.",
+    "cancel_date": "2012-07-14T03:59:00+00:00",
     "valid_from": "2012-07-07T12:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-14T03:59:00+00:00",
     "summary": null
   }
 }

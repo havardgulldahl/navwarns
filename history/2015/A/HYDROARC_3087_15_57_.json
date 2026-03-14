@@ -33,13 +33,16 @@
     "raw_dtg": "131728Z DEC 15",
     "msg_id": "HYDROARC 3087/15(57)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nCONGO.\nDNC 01.\nSEISMIC SURVEY 141200Z DEC UNTIL FURTHER NOTICE\nBY M/V POLARCUS ALIMA TOWING TEN\n8000 METER LONG CABLES IN AREA BOUND BY\n04-40.5S 010-56.5E, 05-04.0S 011-12.6E,\n04-51.0S 011-32.0E, 04-27.3S 011-15.5E.\nEIGHT MILE BERTH REQUESTED.",
+    "cancel_date": "2016-01-01T04:31:00+00:00",
     "valid_from": "2015-12-13T17:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-01-01T04:31:00+00:00",
     "summary": null
   }
 }

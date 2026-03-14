@@ -13,13 +13,16 @@
     "raw_dtg": "081724Z FEB 20",
     "msg_id": "HYDROARC 445/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 525/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nOBSTRUCTION REPORTED IN 56-14.66N 002-18.45W.",
+    "cancel_date": "2020-02-13T17:29:00+00:00",
     "valid_from": "2020-02-08T17:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-13T17:29:00+00:00",
     "summary": null
   }
 }

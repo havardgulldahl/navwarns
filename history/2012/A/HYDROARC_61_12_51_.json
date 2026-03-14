@@ -13,13 +13,17 @@
     "raw_dtg": "071730Z JAN 12",
     "msg_id": "HYDROARC 61/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 101730Z JAN",
+      "HYDROARC 61/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT EIGHT METER S/V ADRIFT VICINITY\n   25-04.0N 033-52.7W AT 071330Z JAN.\n2. CANCEL THIS MSG 101730Z JAN.",
+    "cancel_date": "2012-01-10T17:30:00+00:00",
     "valid_from": "2012-01-07T17:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-10T17:30:00+00:00",
     "summary": null
   }
 }

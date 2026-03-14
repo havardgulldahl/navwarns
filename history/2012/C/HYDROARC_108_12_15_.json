@@ -7,13 +7,16 @@
     "raw_dtg": "040010Z AUG 12",
     "msg_id": "HYDROARC 108/12(15)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 202/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BEAUFORT SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V WESTERN NEPTUNE TOWING EQUIPMENT\nIN AREA BOUND BY\n71-20N 139-49W, 71-20N 132-30W,\n70-04N 132-31W, 70-15N 139-59W.\nFIVE MILE BERTH REQUESTED.",
+    "cancel_date": "2012-10-09T11:37:00+00:00",
     "valid_from": "2012-08-04T00:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-10-09T11:37:00+00:00",
     "summary": null
   }
 }

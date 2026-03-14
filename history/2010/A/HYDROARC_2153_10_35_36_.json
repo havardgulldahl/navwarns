@@ -13,13 +13,17 @@
     "raw_dtg": "121024Z NOV 10",
     "msg_id": "HYDROARC 2153/10(35,36)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 121800Z NOV",
+      "HYDROARC 2153/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRELAND-NORTHEAST COAST.\nNGA CHART 35119 (2ND ED).\n1. EAST MAIDEN LIGHT 54-55.7N 005-43.6W\n   UNRELIABLE UNTIL 121700Z NOV.\n2. CANCEL THIS MSG 121800Z NOV.",
+    "cancel_date": "2010-11-12T18:00:00+00:00",
     "valid_from": "2010-11-12T10:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-12T18:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "051348Z FEB 15",
     "msg_id": "HYDROARC 302/15(37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 342/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nDNC 20.\nCHART 37121.\nABBEVILLE LIGHT BUOY 50-56.1N 001-37.2E OFF STATION.",
+    "cancel_date": "2015-02-10T17:18:00+00:00",
     "valid_from": "2015-02-05T13:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-02-10T17:18:00+00:00",
     "summary": null
   }
 }

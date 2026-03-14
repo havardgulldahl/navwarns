@@ -7,13 +7,17 @@
     "raw_dtg": "130134Z AUG 11",
     "msg_id": "HYDROARC 1278/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 170359Z AUG",
+      "HYDROARC 1278/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 170259Z AUG\n   BY M/V WESTERN TOWING THREE MILE\n   LONG CABLES IN AREA BETWEEN\n   21-54S 22-21S AND 040-12W 039-30W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 170359Z AUG.",
+    "cancel_date": "2011-08-17T03:59:00+00:00",
     "valid_from": "2011-08-13T01:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-17T03:59:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "302333Z JAN 12",
     "msg_id": "HYDROARC 246/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 256/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nOUTER HEBRIDES.\nCHART 35075\nHASKIER ISLAND LIGHT 57-42.0N 007-41.3W UNRELIABLE.",
+    "cancel_date": "2012-01-31T17:25:00+00:00",
     "valid_from": "2012-01-30T23:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-31T17:25:00+00:00",
     "summary": null
   }
 }

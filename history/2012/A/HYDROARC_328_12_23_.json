@@ -13,13 +13,17 @@
     "raw_dtg": "081601Z FEB 12",
     "msg_id": "HYDROARC 328/12(23)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 111600Z FEB",
+      "HYDROARC 328/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\n1. DERELICT F/V JIN KYEONG 707 ADRIFT VICINITY\n   45-06.6S 060-25.7W.\n2. CANCEL THIS MSG 111600Z FEB.",
+    "cancel_date": "2012-02-11T16:00:00+00:00",
     "valid_from": "2012-02-08T16:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-11T16:00:00+00:00",
     "summary": null
   }
 }

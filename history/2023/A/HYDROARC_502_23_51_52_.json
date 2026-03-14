@@ -13,13 +13,16 @@
     "raw_dtg": "051531Z MAR 23",
     "msg_id": "HYDROARC 502/23(51,52)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 504/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ALBORAN SEA.\nEASTERN NORTH ATLANTIC.\nSTRAIT OF GIBRALTAR.\nSPAIN.\nDNC 08.\nNAVTEX STATION TARIFA (G) 36-02.53N 005-33.38W\nOFF AIR.",
+    "cancel_date": "2023-03-05T17:16:00+00:00",
     "valid_from": "2023-03-05T15:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-03-05T17:16:00+00:00",
     "summary": null
   }
 }

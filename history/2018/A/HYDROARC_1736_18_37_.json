@@ -13,13 +13,16 @@
     "raw_dtg": "021104Z JUN 18",
     "msg_id": "HYDROARC 1736/18(37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1837/18"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\nCHART 37080.\nFOG SIGNAL AT POINT ROBERT LIGHT\n49-26.2N 002-20.7W INOPERATIVE.",
+    "cancel_date": "2018-06-09T07:51:00+00:00",
     "valid_from": "2018-06-02T11:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-06-09T07:51:00+00:00",
     "summary": null
   }
 }

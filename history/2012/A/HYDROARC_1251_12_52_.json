@@ -13,13 +13,17 @@
     "raw_dtg": "111543Z JUN 12",
     "msg_id": "HYDROARC 1251/12(52)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 JUL",
+      "HYDROARC 1251/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TUNISIA-NORTHEAST COAST.\n1. SURVEY OPERATIONS 15 THRU 30 JUN BY\n   M/V INVESTIGATOR IN 36-20.8N 011-04.1E\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 01 JUL.",
+    "cancel_date": "2012-07-01T00:01:00+00:00",
     "valid_from": "2012-06-11T15:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-01T00:01:00+00:00",
     "summary": null
   }
 }

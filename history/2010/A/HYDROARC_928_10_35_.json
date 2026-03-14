@@ -13,13 +13,16 @@
     "raw_dtg": "231030Z MAY 10",
     "msg_id": "HYDROARC 928/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 930/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nNGA CHART 35093 (1ST ED).\nRACON AT OIGH SGEIR LIGHT 56-58.2N 006-40.9W INOPERATIVE.",
+    "cancel_date": "2010-05-23T12:13:00+00:00",
     "valid_from": "2010-05-23T10:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-23T12:13:00+00:00",
     "summary": null
   }
 }

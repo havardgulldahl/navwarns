@@ -33,13 +33,17 @@
     "raw_dtg": "101655Z MAY 10",
     "msg_id": "HYDROARC 824/10(52)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 15 MAY",
+      "HYDROARC 824/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL\n   14 MAY IN AREA BOUND BY\n   35-43.0N 000-36.0W, 36-07.5N 000-59.5W,\n   36-13.5N 000-32.0W, 35-52.5N 000-29.0W.\n2. CANCEL THIS MSG 15 MAY.",
+    "cancel_date": "2010-05-15T00:01:00+00:00",
     "valid_from": "2010-05-10T16:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-15T00:01:00+00:00",
     "summary": null
   }
 }

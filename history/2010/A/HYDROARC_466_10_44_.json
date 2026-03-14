@@ -7,13 +7,17 @@
     "raw_dtg": "181412Z MAR 10",
     "msg_id": "HYDROARC 466/10(44)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 27 MAR",
+      "HYDROARC 466/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BALTIC SEA.\nLITHUANIA.\n1. SURVEY OPERATIONS 23 THRU 26 MAR BY\n   M/V SUDUVIS IN AREA BETWEEN\n   55-56N 55-54N AND 020-36E 020-40E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 27 MAR.",
+    "cancel_date": "2010-03-27T00:01:00+00:00",
     "valid_from": "2010-03-18T14:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-27T00:01:00+00:00",
     "summary": null
   }
 }

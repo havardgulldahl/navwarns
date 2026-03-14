@@ -13,13 +13,17 @@
     "raw_dtg": "131234Z MAY 11",
     "msg_id": "HYDROARC 817/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 192200Z MAY",
+      "HYDROARC 817/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTHERN ADRIATIC SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0800Z TO 2100Z\n   17 AND 19 MAY WITHIN THREE MILES OF\n   45-04.3N 012-57.0E.\n2. CANCEL THIS MSG 192200Z MAY.",
+    "cancel_date": "2011-05-19T22:00:00+00:00",
     "valid_from": "2011-05-13T12:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-19T22:00:00+00:00",
     "summary": null
   }
 }

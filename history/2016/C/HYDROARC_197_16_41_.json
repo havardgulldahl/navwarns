@@ -41,13 +41,16 @@
     "raw_dtg": "301850Z AUG 16",
     "msg_id": "HYDROARC 197/16(41)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 294/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nEAST SIBERIAN SEA.\nDNC 27.\nSEISMIC SURVEY 01 SEP UNTIL FURTHER NOTICE\nBY M/V NIKOLAY TRUBYATCHINSKY TOWING 8100 METER\nLONG CABLE IN AREA BOUND BY\n79-45.0N 152-40.9E, 80-18.9N 165-59.4E,\n80-21.6N 167-17.2E, 78-00.8N 168-33.5E,\n76-41.4N 168-46.1E, 76-42.4N 158-15.3E.\nEIGHT MILE BERTH REQUESTED.",
+    "cancel_date": "2016-10-11T10:25:00+00:00",
     "valid_from": "2016-08-30T18:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-10-11T10:25:00+00:00",
     "summary": null
   }
 }

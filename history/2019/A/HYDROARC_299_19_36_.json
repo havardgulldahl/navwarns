@@ -13,13 +13,16 @@
     "raw_dtg": "300206Z JAN 19",
     "msg_id": "HYDROARC 299/19(36)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 303/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36049.\nLIZARD POINT LIGHT 49-57.6N 005-12.1W\nUNRELIABLE.",
+    "cancel_date": "2019-01-30T12:09:00+00:00",
     "valid_from": "2019-01-30T02:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-30T12:09:00+00:00",
     "summary": null
   }
 }

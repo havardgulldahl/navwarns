@@ -13,13 +13,16 @@
     "raw_dtg": "311209Z OCT 19",
     "msg_id": "HYDROARC 3335/19(35)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3367/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nRACON AT EILEAN GLAS LIGHT 57-51.4N 006-38.5W\nINOPERATIVE.",
+    "cancel_date": "2019-11-01T20:20:00+00:00",
     "valid_from": "2019-10-31T12:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-11-01T20:20:00+00:00",
     "summary": null
   }
 }

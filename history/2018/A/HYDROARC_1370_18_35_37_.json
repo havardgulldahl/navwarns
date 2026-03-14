@@ -7,13 +7,16 @@
     "raw_dtg": "302141Z APR 18",
     "msg_id": "HYDROARC 1370/18(35,37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1541/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 35006, 37059.\nDGPS STATION AT FLAMBOROUGH HEAD LIGHT\n54-07N 000-05W UNRELIABLE.",
+    "cancel_date": "2018-05-17T12:17:00+00:00",
     "valid_from": "2018-04-30T21:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-05-17T12:17:00+00:00",
     "summary": null
   }
 }

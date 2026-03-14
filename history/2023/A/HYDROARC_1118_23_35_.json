@@ -13,13 +13,16 @@
     "raw_dtg": "220340Z MAY 23",
     "msg_id": "HYDROARC 1118/23(35)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1131/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 19.\nINISHOWEN HEAD LIGHT 55-13.60N 006-55.70W\nUNLIT.",
+    "cancel_date": "2023-05-23T08:21:00+00:00",
     "valid_from": "2023-05-22T03:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-05-23T08:21:00+00:00",
     "summary": null
   }
 }

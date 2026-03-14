@@ -13,13 +13,17 @@
     "raw_dtg": "241327Z JAN 12",
     "msg_id": "HYDROARC 194/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 24 APR",
+      "HYDROARC 194/12"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nCHART 24180\n1. SCIENTIFIC BUOY, FL Y 20 SEC,\n   ESTABLISHED UNTIL 23 APR\n   IN 19-24.20S 039-37.51W.\n2. CANCEL THIS MSG 24 APR.",
+    "cancel_date": "2012-04-24T00:01:00+00:00",
     "valid_from": "2012-01-24T13:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-24T00:01:00+00:00",
     "summary": null
   }
 }

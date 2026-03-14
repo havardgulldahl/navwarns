@@ -7,13 +7,17 @@
     "raw_dtg": "102236Z JAN 12",
     "msg_id": "HYDROARC 86/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 13 JAN",
+      "HYDROARC 86/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\n1. SEISMIC SURVEY BY M/V DISCOVERER TOWING\n   5.4 MILE LONG CABLE ON 12 JAN IN AREA BOUND BY\n   03-27S 035-11W, 03-27S 035-02W,\n   04-08S 035-00W, 04-08S 035-06W.\n2. CANCEL THIS MSG 13 JAN.",
+    "cancel_date": "2012-01-10T16:42:00+00:00",
     "valid_from": "2012-01-10T22:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-10T16:42:00+00:00",
     "summary": null
   }
 }

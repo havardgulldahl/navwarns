@@ -13,13 +13,16 @@
     "raw_dtg": "161258Z JAN 12",
     "msg_id": "HYDROARC 126/12(54,56)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 361/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nSYRIA.\nCHART 54480\nJAZIRAT ARWAD LIGHT 34-51.4N 035-51.3E UNLIT.",
+    "cancel_date": "2012-02-13T17:48:00+00:00",
     "valid_from": "2012-01-16T12:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-13T17:48:00+00:00",
     "summary": null
   }
 }

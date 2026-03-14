@@ -13,13 +13,16 @@
     "raw_dtg": "100743Z MAR 12",
     "msg_id": "HYDROARC 556/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1149/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nCHART 24150\nJUATINGA LIGHT 23-17.6S 044-30.3W UNLIT.",
+    "cancel_date": "2012-05-29T07:32:00+00:00",
     "valid_from": "2012-03-10T07:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-29T07:32:00+00:00",
     "summary": null
   }
 }

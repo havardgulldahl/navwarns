@@ -7,13 +7,17 @@
     "raw_dtg": "091125Z JUN 11",
     "msg_id": "HYDROARC 965/11(25)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 121130Z JUN",
+      "HYDROARC 965/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\n1. DERELICT VESSEL, MULTI COLORED HULL,\n   ADRIFT VICINITY 23-56N 056-03W AT 082050Z JUN.\n2. CANCEL THIS MSG 121130Z JUN.",
+    "cancel_date": "2011-06-12T11:30:00+00:00",
     "valid_from": "2011-06-09T11:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-12T11:30:00+00:00",
     "summary": null
   }
 }

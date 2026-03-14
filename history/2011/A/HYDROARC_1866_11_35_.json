@@ -7,13 +7,17 @@
     "raw_dtg": "091249Z NOV 11",
     "msg_id": "HYDROARC 1866/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 141900Z NOV",
+      "HYDROARC 1866/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 0900Z TO 1800Z DAILY\n   10 THRU 14 NOV VICINTY 57-21N 007-23W.\n   VESSELS INTENDING TO ENTER AREA SHOULD\n   CONTACT HEBRIDES RANGE CONTROL ON\n   VHF CH 16 FOR ADVICE.\n2. CANCEL THIS MSG 141900Z NOV.",
+    "cancel_date": "2011-11-14T19:00:00+00:00",
     "valid_from": "2011-11-09T12:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-14T19:00:00+00:00",
     "summary": null
   }
 }

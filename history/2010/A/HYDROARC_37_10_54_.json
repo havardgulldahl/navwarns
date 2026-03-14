@@ -33,13 +33,16 @@
     "raw_dtg": "081345Z JAN 10",
     "msg_id": "HYDROARC 37/10(54)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 124/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "CRETE-NORTHWEST COAST.\nCABLE REPAIR OPERATIONS 092300Z JAN UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE WITH SUBMERSIBLE\nIN AREA BOUND BY\n35-40.1N 023-54.8E, 35-40.1N 023-55.6E,\n35-34.2N 023-58.6E, 35-34.2N 023-57.7E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2010-01-20T12:23:00+00:00",
     "valid_from": "2010-01-08T13:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-20T12:23:00+00:00",
     "summary": null
   }
 }

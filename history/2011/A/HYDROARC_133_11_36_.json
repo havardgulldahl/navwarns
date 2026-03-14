@@ -13,13 +13,16 @@
     "raw_dtg": "210224Z JAN 11",
     "msg_id": "HYDROARC 133/11(36)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 137/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRELAND-SOUTHEAST COAST.\nNGA CHART 36002 (0 ED).\nTUSKAR ROCK LIGHT 52-12.2N 006-12.4W UNLIT.",
+    "cancel_date": "2011-01-21T23:15:00+00:00",
     "valid_from": "2011-01-21T02:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-21T23:15:00+00:00",
     "summary": null
   }
 }

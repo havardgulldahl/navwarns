@@ -41,13 +41,17 @@
     "raw_dtg": "231726Z MAR 12",
     "msg_id": "HYDROARC 647/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 311130Z MAR",
+      "HYDROARC 647/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0530Z TO 2230Z DAILY\n   26 THRU 30 AND 310530Z TO 311030Z MAR\n   IN AREA BOUND BY\n   45-03.53N 036-22.50E, 44-49.50N 036-22.00E,\n   44-45.00N 036-12.00E, 44-45.00N 035-57.00E,\n   44-49.60N 035-50.50E, 44-59.95N 035-50.50E.\n2. CANCEL THIS MSG 311130Z MAR.",
+    "cancel_date": "2012-03-31T11:30:00+00:00",
     "valid_from": "2012-03-23T17:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-31T11:30:00+00:00",
     "summary": null
   }
 }

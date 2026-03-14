@@ -91,13 +91,17 @@
     "raw_dtg": "081600Z SEP 11",
     "msg_id": "HYDROARC 1431/11(54,56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 23 OCT",
+      "HYDROARC 1718/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\n1. CABLE LAYING OPERATIONS 11 SEP THRU 22 OCT BY\n   M/V ILE DE BREHAT VICINITY OF TRACKLINE JOINING\n   32-04.90N 034-45.37E, 32-18.73N 034-17.54E,\n   33-02.56N 032-41.63E, 33-17.28N 032-24.96E,\n   33-14.05N 031-38.05E, 33-30.16N 030-43.93E,\n   33-52.81N 030-19.50E, 33-56.58N 025-27.78E,\n   34-02.47N 024-52.12E, 34-17.22N 024-26.08E,\n   35-05.29N 021-52.06E, 36-20.27N 020-06.43E,\n   39-00.59N 018-58.17E, 40-01.32N 018-53.62E,\n   40-09.24N 018-57.38E, 40-21.64N 018-49.74E,\n   40-25.46N 018-52.00E, 40-52.23N 018-33.93E,\n   41-07.99N 017-56.77E, 41-06.85N 016-57.53E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 23 OCT.",
+    "cancel_date": "2011-10-19T14:20:00+00:00",
     "valid_from": "2011-09-08T16:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-19T14:20:00+00:00",
     "summary": null
   }
 }

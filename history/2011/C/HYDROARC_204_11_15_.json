@@ -7,13 +7,17 @@
     "raw_dtg": "121035Z OCT 11",
     "msg_id": "HYDROARC 204/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 192030Z OCT",
+      "HYDROARC 209/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\n1. IQALUIT MCTS REMOTE STATIONS, CORAL HARBOUR,\n   RESOLUTE AND IQALUIT, SATELLITE SERVICES\n   UNRELIABLE 1904Z TO 1930Z DAILY UNTIL 19 OCT.\n2. CANCEL THIS MSG 192030Z OCT.",
+    "cancel_date": "2011-10-14T01:05:00+00:00",
     "valid_from": "2011-10-12T10:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-14T01:05:00+00:00",
     "summary": null
   }
 }

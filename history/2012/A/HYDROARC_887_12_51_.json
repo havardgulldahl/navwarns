@@ -7,13 +7,17 @@
     "raw_dtg": "241726Z APR 12",
     "msg_id": "HYDROARC 887/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 11 MAY",
+      "HYDROARC 887/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\n1. UNDERWATER OPERATIONS 25 APR THRU 10 MAY BY\n   M/V SARMIENTO DE GAMBOA IN AREA BETWEEN\n   36-20N 36-00N AND 008-20W 009-00W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 11 MAY.",
+    "cancel_date": "2012-05-11T00:01:00+00:00",
     "valid_from": "2012-04-24T17:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-11T00:01:00+00:00",
     "summary": null
   }
 }

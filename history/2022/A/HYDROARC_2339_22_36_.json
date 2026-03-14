@@ -13,13 +13,16 @@
     "raw_dtg": "160036Z SEP 22",
     "msg_id": "HYDROARC 2339/22(36)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2356/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH CHANNEL.\nSCOTLAND.\nDNC 20.\nAILSA CRAIG LIGHT 55-15.10N 005-06.50W UNLIT.",
+    "cancel_date": "2022-09-17T17:31:00+00:00",
     "valid_from": "2022-09-16T00:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-09-17T17:31:00+00:00",
     "summary": null
   }
 }

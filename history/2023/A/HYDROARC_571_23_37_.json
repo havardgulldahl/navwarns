@@ -13,13 +13,16 @@
     "raw_dtg": "160437Z MAR 23",
     "msg_id": "HYDROARC 571/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 583/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nAR-MEN LIGHT 48-03.00N 005-00.00W UNLIT.",
+    "cancel_date": "2023-03-17T11:07:00+00:00",
     "valid_from": "2023-03-16T04:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-03-17T11:07:00+00:00",
     "summary": null
   }
 }

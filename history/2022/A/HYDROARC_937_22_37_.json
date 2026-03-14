@@ -13,13 +13,16 @@
     "raw_dtg": "012130Z APR 22",
     "msg_id": "HYDROARC 937/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 972/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nMID FALLS BUOY 51-18.6N 001-47.0E UNLIT.",
+    "cancel_date": "2022-04-05T14:45:00+00:00",
     "valid_from": "2022-04-01T21:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-04-05T14:45:00+00:00",
     "summary": null
   }
 }

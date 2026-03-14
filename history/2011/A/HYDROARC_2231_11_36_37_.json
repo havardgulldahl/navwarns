@@ -7,13 +7,16 @@
     "raw_dtg": "240200Z DEC 11",
     "msg_id": "HYDROARC 2231/11(36,37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2233/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "FRANCE-NORTHWEST COAST.\nNAVTEX.\nNAVTEX STATION CORSEN OFF AIR.",
+    "cancel_date": "2011-12-24T10:39:00+00:00",
     "valid_from": "2011-12-24T02:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-24T10:39:00+00:00",
     "summary": null
   }
 }

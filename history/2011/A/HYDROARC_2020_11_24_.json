@@ -7,13 +7,17 @@
     "raw_dtg": "290045Z NOV 11",
     "msg_id": "HYDROARC 2020/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 04 DEC",
+      "HYDROARC 2020/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 03 DEC BY\n   M/V POLAR EXPLORER TOWING 10.5 MILE\n   LONG CABLE IN AREA BETWEEN\n   00-33.10S 02-04.82S AND 042-39.23W 041-37.80W.\n2. CANCEL THIS MSG 04 DEC.",
+    "cancel_date": "2011-12-04T00:00:00+00:00",
     "valid_from": "2011-11-29T00:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-04T00:00:00+00:00",
     "summary": null
   }
 }

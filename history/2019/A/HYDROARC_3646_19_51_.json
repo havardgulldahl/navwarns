@@ -13,13 +13,16 @@
     "raw_dtg": "271650Z NOV 19",
     "msg_id": "HYDROARC 3646/19(51)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 47/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nTARFAYA LIGHT 27-54.8N 012-56.5W UNLIT.",
+    "cancel_date": "2020-01-06T14:34:00+00:00",
     "valid_from": "2019-11-27T16:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-06T14:34:00+00:00",
     "summary": null
   }
 }

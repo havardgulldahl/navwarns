@@ -33,13 +33,16 @@
     "raw_dtg": "311923Z AUG 11",
     "msg_id": "HYDROARC 149/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 236/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "KARA SEA.\nPIPELAYING OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V DEFENDER IN AREA BOUND BY\n68-51.54N 066-52.55E, 69-18.82N 068-03.46E,\n69-16.08N 068-04.53E, 68-50.63N 066-58.35E.",
+    "cancel_date": "2011-12-03T10:33:00+00:00",
     "valid_from": "2011-08-31T19:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-03T10:33:00+00:00",
     "summary": null
   }
 }

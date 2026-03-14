@@ -13,13 +13,16 @@
     "raw_dtg": "250020Z OCT 10",
     "msg_id": "HYDROARC 103/10(16,41)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 55/17"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCHUCHKI SEA.\nCHART 803\nSCIENTIFIC MOORINGS ESTABLISHED\nIN 75-06.019N 168-00.042W.",
+    "cancel_date": "2017-04-07T15:40:00+00:00",
     "valid_from": "2010-10-25T00:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-04-07T15:40:00+00:00",
     "summary": null
   }
 }

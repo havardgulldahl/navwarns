@@ -33,13 +33,16 @@
     "raw_dtg": "110114Z FEB 22",
     "msg_id": "HYDROARC 417/22(29)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2727/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "SCOTIA SEA.\nWEDDELL SEA.\nANTARCTICA.\nDNC 29.\nLEAST DEPTH 4.6 METERS REPORTED IN AREA BOUND BY\n60-12.3S 045-42.2W, 60-12.3S 045-41.4W,\n60-43.4S 045-41.4W, 60-43.4S 045-42.2W.",
+    "cancel_date": "2023-11-26T02:54:00+00:00",
     "valid_from": "2022-02-11T01:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-11-26T02:54:00+00:00",
     "summary": null
   }
 }

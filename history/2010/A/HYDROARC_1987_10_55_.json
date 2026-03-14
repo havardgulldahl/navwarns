@@ -13,13 +13,17 @@
     "raw_dtg": "202056Z OCT 10",
     "msg_id": "HYDROARC 1987/10(55)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 DEC",
+      "HYDROARC 2234/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. GEOLOGICAL AND GEOPHYSICAL OPERATIONS\n   IN PROGRESS UNTIL 30 NOV BY M/V EKO\n   ALONG TRACKLINE BETWEEN\n   45-21.25N 036-39.44E AND 45-20.84N 036-40.16E.\n2. CANCEL THIS MSG 01 DEC.",
+    "cancel_date": "2010-11-22T14:03:00+00:00",
     "valid_from": "2010-10-20T20:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-22T14:03:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "250003Z FEB 23",
     "msg_id": "HYDROARC 432/23(35)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 455/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCGOC SHETLAND MF R/T SERVICE AT LERWICK SITE\n60-08.92N 001-08.43W UNRELIABLE.",
+    "cancel_date": "2023-02-27T15:31:00+00:00",
     "valid_from": "2023-02-25T00:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-02-27T15:31:00+00:00",
     "summary": null
   }
 }

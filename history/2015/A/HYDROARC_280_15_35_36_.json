@@ -13,13 +13,16 @@
     "raw_dtg": "020215Z FEB 15",
     "msg_id": "HYDROARC 280/15(35,36)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 281/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRELAND-SOUTHEAST COAST.\nDNC 19.\nCHART 36002.\nHOOK HEAD LIGHT 52-07.4N 006-55.8W RACON INOPERATIVE.",
+    "cancel_date": "2015-02-02T03:11:00+00:00",
     "valid_from": "2015-02-02T02:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-02-02T03:11:00+00:00",
     "summary": null
   }
 }

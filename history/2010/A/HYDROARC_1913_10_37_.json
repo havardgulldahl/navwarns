@@ -7,13 +7,17 @@
     "raw_dtg": "081208Z OCT 10",
     "msg_id": "HYDROARC 1913/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 111205Z OCT",
+      "HYDROARC 1913/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\n1. DERELICT M/V URANUS ADRIFT VICINITY\n   48-27N 005-51W AT 080550Z OCT.\n2. CANCEL THIS MSG 111205Z OCT.",
+    "cancel_date": "2010-10-11T12:05:00+00:00",
     "valid_from": "2010-10-08T12:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-11T12:05:00+00:00",
     "summary": null
   }
 }

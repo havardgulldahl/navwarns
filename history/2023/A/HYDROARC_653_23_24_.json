@@ -13,13 +13,16 @@
     "raw_dtg": "242204Z MAR 23",
     "msg_id": "HYDROARC 653/23(24)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 917/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nALTO DA BANDEIRA LIGHT 03-52.48S 032-27.70W UNLIT.",
+    "cancel_date": "2023-04-29T01:40:00+00:00",
     "valid_from": "2023-03-24T22:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-04-29T01:40:00+00:00",
     "summary": null
   }
 }

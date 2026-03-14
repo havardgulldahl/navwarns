@@ -7,13 +7,16 @@
     "raw_dtg": "100940Z JUL 14",
     "msg_id": "HYDROARC 107/14(15)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 112/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nMCTS IQALUIT DSC SERVICES FREQUENCY 16804.5 KHZ INOPERATIVE.",
+    "cancel_date": "2014-07-12T23:31:00+00:00",
     "valid_from": "2014-07-10T09:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-07-12T23:31:00+00:00",
     "summary": null
   }
 }

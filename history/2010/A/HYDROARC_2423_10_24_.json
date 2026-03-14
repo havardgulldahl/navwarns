@@ -13,13 +13,17 @@
     "raw_dtg": "150120Z DEC 10",
     "msg_id": "HYDROARC 2423/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 25 DEC",
+      "HYDROARC 2423/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 24 DEC\n   BY VESSEL SEA E MAR III ALONG TRACKLINE BETWEEN\n   20-25.01S 040-13.71W AND 20-25.14S 040-12.14W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 25 DEC.",
+    "cancel_date": "2010-12-25T00:01:00+00:00",
     "valid_from": "2010-12-15T01:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-25T00:01:00+00:00",
     "summary": null
   }
 }

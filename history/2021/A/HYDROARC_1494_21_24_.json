@@ -13,13 +13,16 @@
     "raw_dtg": "032132Z JUN 21",
     "msg_id": "HYDROARC 1494/21(24)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 853/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\nPLATFORM ESTABLISHED IN 24-59.38S 042-38.42W.",
+    "cancel_date": "2022-03-25T12:12:00+00:00",
     "valid_from": "2021-06-03T21:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-03-25T12:12:00+00:00",
     "summary": null
   }
 }

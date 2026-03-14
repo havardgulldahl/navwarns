@@ -41,13 +41,17 @@
     "raw_dtg": "181539Z MAY 12",
     "msg_id": "HYDROARC 1066/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 261500Z MAY",
+      "HYDROARC 1066/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nMISSILES.\n1. HAZARDOUS OPERATIONS 0100Z TO 1400Z DAILY\n   21 THRU 26 MAY IN AREA BOUND BY\n   44-12.0N 036-53.0E, 44-36.5N 036-37.0E,\n   44-44.0N 036-38.0E, 44-49.0N 036-52.0E,\n   44-49.0N 037-15.0E, 44-23.0N 037-30.0E.\n2. CANCEL THIS MSG 261500Z MAY.",
+    "cancel_date": "2012-05-26T15:00:00+00:00",
     "valid_from": "2012-05-18T15:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-26T15:00:00+00:00",
     "summary": null
   }
 }

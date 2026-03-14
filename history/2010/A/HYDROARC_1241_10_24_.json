@@ -7,13 +7,17 @@
     "raw_dtg": "021335Z JUL 10",
     "msg_id": "HYDROARC 1241/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 08 JUL",
+      "HYDROARC 1241/10"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS\n   UNTIL 07 JUL BY M/V ANTARES\n   IN AREA BOUND BY\n   22-08S 040-32W, 22-12S 040-35W,\n   24-30S 037-36W, 24-25S 037-31W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 08 JUL.",
+    "cancel_date": "2010-07-08T00:01:00+00:00",
     "valid_from": "2010-07-02T13:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-07-08T00:01:00+00:00",
     "summary": null
   }
 }

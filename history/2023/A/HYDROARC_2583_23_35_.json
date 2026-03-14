@@ -13,13 +13,16 @@
     "raw_dtg": "112332Z NOV 23",
     "msg_id": "HYDROARC 2583/23(35)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2626/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nIRELAND.\nDNC 19.\nYOUGHAL LIGHT 51-56.60N 007-50.50W UNLIT.",
+    "cancel_date": "2023-11-16T11:40:00+00:00",
     "valid_from": "2023-11-11T23:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-11-16T11:40:00+00:00",
     "summary": null
   }
 }

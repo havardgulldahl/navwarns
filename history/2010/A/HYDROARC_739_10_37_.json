@@ -13,13 +13,16 @@
     "raw_dtg": "271520Z APR 10",
     "msg_id": "HYDROARC 739/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1213/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nNGA CHART 37115 (2ND ED).\nVERGOYER WEST BUOY 50-34.7N 001-13.6E MISSING.",
+    "cancel_date": "2010-06-29T16:50:00+00:00",
     "valid_from": "2010-04-27T15:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-29T16:50:00+00:00",
     "summary": null
   }
 }

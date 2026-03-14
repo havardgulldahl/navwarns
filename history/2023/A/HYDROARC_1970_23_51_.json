@@ -13,13 +13,16 @@
     "raw_dtg": "020032Z SEP 23",
     "msg_id": "HYDROARC 1970/23(51)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2254/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AZORES.\nDNC 08.\nNAVTEX STATION SAO MIGUEL (F) 37-48.00N 025-33.00W OFF AIR.",
+    "cancel_date": "2023-10-05T08:59:00+00:00",
     "valid_from": "2023-09-02T00:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-10-05T08:59:00+00:00",
     "summary": null
   }
 }

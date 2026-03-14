@@ -13,13 +13,16 @@
     "raw_dtg": "041413Z JAN 11",
     "msg_id": "HYDROARC 14/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 27/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nRADIO SERVICES.\nMRCC HUMBER MF RT AND DSC SERVICE AT\nFLAMBOROUGH HEAD LIGHT 54-07.0N 000-04.9W UNRELIABLE.",
+    "cancel_date": "2011-01-06T08:25:00+00:00",
     "valid_from": "2011-01-04T14:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-06T08:25:00+00:00",
     "summary": null
   }
 }

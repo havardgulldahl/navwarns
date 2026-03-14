@@ -7,13 +7,17 @@
     "raw_dtg": "230805Z OCT 11",
     "msg_id": "HYDROARC 212/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 311800Z OCT",
+      "HYDROARC 217/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nMISSILES.\n1. HAZARDOUS OPERATIONS 2300Z TO 1700Z COMMENCING\n   DAILY 26 THRU 30 OCT IN AREA BOUND BY\n   72-00N 047-20E, 73-05N 051-00E,\n   72-30N 052-47E, 71-24N 049-25E.\n2. CANCEL THIS MSG 311800Z OCT.",
+    "cancel_date": "2011-10-29T17:35:00+00:00",
     "valid_from": "2011-10-23T08:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-29T17:35:00+00:00",
     "summary": null
   }
 }

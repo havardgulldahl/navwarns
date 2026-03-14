@@ -49,13 +49,17 @@
     "raw_dtg": "290057Z MAY 12",
     "msg_id": "HYDROARC 1147/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 03 JUN",
+      "HYDROARC 1147/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 02 JUN BY\n   M/V HARRIER EXPLORER TOWING SIX MILE LONG CABLES\n   IN AREA BOUND BY\n   13-34.6S 038-35.5W, 13-00.8S 038-02.8W,\n   13-00.9S 036-16.6W, 13-31.8S 036-22.6W,\n   16-00.0S 036-19.5W, 16-00.4S 037-43.9W,\n   15-27.5S 038-15.3W, 14-44.9S 038-35.5W.\n   EIGHT MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 03 JUN.",
+    "cancel_date": "2012-06-03T00:01:00+00:00",
     "valid_from": "2012-05-29T00:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-03T00:01:00+00:00",
     "summary": null
   }
 }

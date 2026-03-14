@@ -7,13 +7,17 @@
     "raw_dtg": "070120Z JAN 11",
     "msg_id": "HYDROARC 34/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 12 JAN",
+      "HYDROARC 34/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 11 JAN\n   BY M/V CRUZEIRO DO SUL IN AREA BETWEEN\n   21-55S 24-00S AND 040-00W 042-30W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 12 JAN.",
+    "cancel_date": "2011-01-12T00:01:00+00:00",
     "valid_from": "2011-01-07T01:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-12T00:01:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "181148Z FEB 10",
     "msg_id": "HYDROARC 310/10(35,43)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 313/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nRADIO SERVICES.\nDSC STATION SAXAVORD 60-50N 000-50W UNRELIABLE.",
+    "cancel_date": "2010-02-18T15:10:00+00:00",
     "valid_from": "2010-02-18T11:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-18T15:10:00+00:00",
     "summary": null
   }
 }

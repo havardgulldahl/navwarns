@@ -13,13 +13,16 @@
     "raw_dtg": "010652Z SEP 10",
     "msg_id": "HYDROARC 1650/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1651/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35073 (2ND ED).\nSULU SGEIR LIGHT 59-05.6N 006-09.5W UNLIT.",
+    "cancel_date": "2010-09-01T07:14:00+00:00",
     "valid_from": "2010-09-01T06:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-01T07:14:00+00:00",
     "summary": null
   }
 }

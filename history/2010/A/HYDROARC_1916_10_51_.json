@@ -33,13 +33,17 @@
     "raw_dtg": "090609Z OCT 10",
     "msg_id": "HYDROARC 1916/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 160001Z DEC",
+      "HYDROARC 1941/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 15 DEC\n   BY M/V GEO CARIBBEAN TOWING 12\n   9000 METER LONG CABLES\n   IN AREA BOUND BY\n   13-03.4N 017-59.2W, 13-40.0N 017-59.2W,\n   13-40.0N 017-38.4W, 13-03.4N 017-38.4W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 160001Z DEC.",
+    "cancel_date": "2010-10-12T17:06:00+00:00",
     "valid_from": "2010-10-09T06:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-12T17:06:00+00:00",
     "summary": null
   }
 }

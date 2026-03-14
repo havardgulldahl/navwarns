@@ -7,13 +7,17 @@
     "raw_dtg": "131145Z JUL 11",
     "msg_id": "HYDROARC 1137/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 20 JUL",
+      "HYDROARC 1137/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\n1. CABLE OPERATIONS 14 THRU 19 JUL BY\n   CABLESHIP ILE DE BREHAT IN AREA BOUND BY\n   04-39S 011-18E, 04-37S 011-29E,\n   04-39S 011-29E, 04-43S 011-18E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 20 JUL.",
+    "cancel_date": "2011-07-20T00:01:00+00:00",
     "valid_from": "2011-07-13T11:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-20T00:01:00+00:00",
     "summary": null
   }
 }

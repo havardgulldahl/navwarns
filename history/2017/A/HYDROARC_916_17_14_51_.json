@@ -23,13 +23,16 @@
     "raw_dtg": "211335Z MAR 17",
     "msg_id": "HYDROARC 916/17(14,51)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1016/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nDNC 08.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY CABLESHIP REBECCA ALONG TRACK LINE JOINING\n38-21.17N 029-46.36W, 38-21.17N 029-44.87W,\n39-25.61N 044-44.89W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2017-03-29T10:10:00+00:00",
     "valid_from": "2017-03-21T13:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-03-29T10:10:00+00:00",
     "summary": null
   }
 }

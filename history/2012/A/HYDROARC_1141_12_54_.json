@@ -7,13 +7,17 @@
     "raw_dtg": "281240Z MAY 12",
     "msg_id": "HYDROARC 1141/12(54)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 31 MAY",
+      "HYDROARC 1141/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nGUNNERY. MISSILES.\n1. HAZARDOUS OPERATIONS 0430Z TO SUNSET DAILY\n   29 AND 30 MAY IN AREA BOUND BY\n   36-18N 024-07E, 36-18N 025-59E,\n   35-35N 025-58E, 35-31N 024-11E,\n   35-36N 024-07E.\n2. CANCEL THIS MSG 31 MAY.",
+    "cancel_date": "2012-05-31T00:01:00+00:00",
     "valid_from": "2012-05-28T12:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-31T00:01:00+00:00",
     "summary": null
   }
 }

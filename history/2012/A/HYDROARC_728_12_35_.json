@@ -13,13 +13,16 @@
     "raw_dtg": "012307Z APR 12",
     "msg_id": "HYDROARC 728/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 730/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-EAST COAST.\nCHART 35055\nNOSS HEAD LIGHT 58-28.8N 003-03.0W UNRELIABLE.",
+    "cancel_date": "2012-04-02T12:06:00+00:00",
     "valid_from": "2012-04-01T23:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-02T12:06:00+00:00",
     "summary": null
   }
 }

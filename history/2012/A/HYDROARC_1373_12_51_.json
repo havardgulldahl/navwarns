@@ -7,13 +7,17 @@
     "raw_dtg": "241646Z JUN 12",
     "msg_id": "HYDROARC 1373/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 301601Z JUN",
+      "HYDROARC 1382/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 280930Z TO 281501Z FEB, ALTERNATE\n   0930Z TO 1501Z DAILY 29 AND 30 JUN VICINITY:\n   A. 18-22N 034-41W.\n   B. 17-44N 034-51W.\n2. CANCEL THIS MSG 301601Z JUN.",
+    "cancel_date": "2012-06-25T11:22:00+00:00",
     "valid_from": "2012-06-24T16:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-25T11:22:00+00:00",
     "summary": null
   }
 }

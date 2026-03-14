@@ -7,13 +7,16 @@
     "raw_dtg": "290312Z SEP 14",
     "msg_id": "HYDROARC 260/14(15)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 267/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA-NORTHEAST COAST.\nRADIO SERVICES.\nMCTS IQALUIT REMOTE STATION HOPEDALE MF SERVICE INOPERATIVE.",
+    "cancel_date": "2014-10-01T11:40:00+00:00",
     "valid_from": "2014-09-29T03:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-10-01T11:40:00+00:00",
     "summary": null
   }
 }

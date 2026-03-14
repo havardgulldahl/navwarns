@@ -7,13 +7,16 @@
     "raw_dtg": "010349Z MAY 10",
     "msg_id": "HYDROARC 762/10(23,24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1021/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nARGENTINA.\nNAVTEX.\nNAVTEX STATION BUENOS AIRES OFF AIR.",
+    "cancel_date": "2010-06-04T02:53:00+00:00",
     "valid_from": "2010-05-01T03:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-04T02:53:00+00:00",
     "summary": null
   }
 }

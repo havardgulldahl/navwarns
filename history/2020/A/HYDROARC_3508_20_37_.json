@@ -13,13 +13,16 @@
     "raw_dtg": "120121Z NOV 20",
     "msg_id": "HYDROARC 3508/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3748/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK REPORTED IN 50-24.0N 003-26.3W.",
+    "cancel_date": "2020-12-01T21:55:00+00:00",
     "valid_from": "2020-11-12T01:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-12-01T21:55:00+00:00",
     "summary": null
   }
 }

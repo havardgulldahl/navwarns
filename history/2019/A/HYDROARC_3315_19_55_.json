@@ -39,13 +39,16 @@
     "raw_dtg": "291050Z OCT 19",
     "msg_id": "HYDROARC 3315/19(55)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2853/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\nUNDERWATER CABLES ESTABLISHED\nALONG TRACKLINE JOINING\n44-35.47N 033-24.13E, 44-35.94N 033-24.63E,\n44-36.56N 033-24.09E, 44-40.63N 033-17.15E,\n44-49.86N 033-14.82E, 45-14.84N 032-57.36E,\n45-19.52N 032-59.44E.",
+    "cancel_date": "2020-09-18T13:04:00+00:00",
     "valid_from": "2019-10-29T10:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-09-18T13:04:00+00:00",
     "summary": null
   }
 }

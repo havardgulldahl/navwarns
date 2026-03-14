@@ -7,13 +7,17 @@
     "raw_dtg": "260600Z SEP 10",
     "msg_id": "HYDROARC 88/10(42)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 041700Z OCT",
+      "HYDROARC 88/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 0200Z TO 1600Z DAILY\n   30 SEP THRU 04 OCT IN AREA BOUND BY\n   72-00N 047-20E, 73-05N 051-00E,\n   72-30N 052-47E, 71-24N 049-25E.\n2. CANCEL THIS MSG 041700Z OCT.",
+    "cancel_date": "2010-10-04T17:00:00+00:00",
     "valid_from": "2010-09-26T06:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-04T17:00:00+00:00",
     "summary": null
   }
 }

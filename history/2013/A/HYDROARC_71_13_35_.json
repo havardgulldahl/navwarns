@@ -13,13 +13,16 @@
     "raw_dtg": "081028Z JAN 13",
     "msg_id": "HYDROARC 71/13(35)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 78/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nCHART 35059\nSWILKIE POINT LIGHT 58-41.8N 003-07.0W UNLIT.",
+    "cancel_date": "2013-01-08T18:28:00+00:00",
     "valid_from": "2013-01-08T10:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-01-08T18:28:00+00:00",
     "summary": null
   }
 }

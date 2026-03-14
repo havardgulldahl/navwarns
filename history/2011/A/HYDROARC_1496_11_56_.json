@@ -7,13 +7,17 @@
     "raw_dtg": "162038Z SEP 11",
     "msg_id": "HYDROARC 1496/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 25 OCT",
+      "HYDROARC 1512/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SURVEY OPERATIONS 17 SEP THRU 24 OCT\n   BY M/V LE SUROIT IN AREA BOUND BY\n   33-30N 027-23E, 33-30N 030-00E,\n   32-17N 030-00E, 32-07N 027-23E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 25 OCT.",
+    "cancel_date": "2011-09-19T14:09:00+00:00",
     "valid_from": "2011-09-16T20:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-19T14:09:00+00:00",
     "summary": null
   }
 }

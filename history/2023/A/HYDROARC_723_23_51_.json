@@ -13,13 +13,16 @@
     "raw_dtg": "041441Z APR 23",
     "msg_id": "HYDROARC 723/23(51)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1200/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nSAINT-LOUIS LIGHTHOUSE 16-01.50N 016-30.70W UNLIT.",
+    "cancel_date": "2023-05-30T07:03:00+00:00",
     "valid_from": "2023-04-04T14:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-05-30T07:03:00+00:00",
     "summary": null
   }
 }

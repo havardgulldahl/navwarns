@@ -13,13 +13,16 @@
     "raw_dtg": "181234Z NOV 18",
     "msg_id": "HYDROARC 3578/18(36)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 4071/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nENGLISH CHANNEL.\nENGLAND.\nDNC 19.\nCHART 36035.\nDSC STATION ISLES OF SCILLY 49-55.9N 006-18.3W\nMF R/T AND DSC UNRELIABLE.",
+    "cancel_date": "2018-12-30T12:05:00+00:00",
     "valid_from": "2018-11-18T12:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-12-30T12:05:00+00:00",
     "summary": null
   }
 }

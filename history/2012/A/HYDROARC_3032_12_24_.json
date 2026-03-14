@@ -13,13 +13,16 @@
     "raw_dtg": "250029Z DEC 12",
     "msg_id": "HYDROARC 3032/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1076/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nCHART 24274\nPONTA DO ARACAGI LIGHT 02-27.0S 044-08.9W UNRELIABLE.",
+    "cancel_date": "2013-04-30T01:01:00+00:00",
     "valid_from": "2012-12-25T00:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-04-30T01:01:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "021806Z JUN 14",
     "msg_id": "HYDROARC 1382/14(24)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3182/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nFRENCH GUIANA.\nCHART 24024\nMONTABO DGPS STATION 04-56N 052-18W INOPERATIVE.",
+    "cancel_date": "2014-12-31T12:12:00+00:00",
     "valid_from": "2014-06-02T18:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-12-31T12:12:00+00:00",
     "summary": null
   }
 }

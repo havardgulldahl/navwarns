@@ -7,13 +7,17 @@
     "raw_dtg": "070151Z JUL 12",
     "msg_id": "HYDROARC 1495/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 140359Z JUL",
+      "HYDROARC 1495/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY 070300Z TO 140259Z JUL BY\n   M/V NPS DISCOVERER TOWING 12 CABLES\n   IN AREA BOUND BY\n   21-47S 037-50W, 21-47S 039-40W,\n   24-39S 041-51W, 24-39S 037-50W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 140359Z JUL.",
+    "cancel_date": "2012-07-14T03:59:00+00:00",
     "valid_from": "2012-07-07T01:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-14T03:59:00+00:00",
     "summary": null
   }
 }

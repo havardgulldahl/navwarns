@@ -13,13 +13,16 @@
     "raw_dtg": "050002Z JAN 15",
     "msg_id": "HYDROARC 31/15(24)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 64/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nDNC 01.\nMAN OVERBOARD VICINITY PONTA DO JURUJUBA (22-55.2S 043-07.2W)\nAT 041730Z JAN. VESSELS IN VICINITY REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS TO ANY COASTAL\nRADIO STATION.",
+    "cancel_date": "2015-01-08T10:49:00+00:00",
     "valid_from": "2015-01-05T00:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-08T10:49:00+00:00",
     "summary": null
   }
 }

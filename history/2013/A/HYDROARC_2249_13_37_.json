@@ -13,13 +13,16 @@
     "raw_dtg": "131252Z SEP 13",
     "msg_id": "HYDROARC 2249/13(37)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2672/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "FRANCE-NORTH COAST.\nCHART 37080\nCAP DE LA HAGUE LIGHT 49-43.4N 001-57.3W UNRELIABLE.",
+    "cancel_date": "2013-10-25T19:28:00+00:00",
     "valid_from": "2013-09-13T12:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-10-25T19:28:00+00:00",
     "summary": null
   }
 }

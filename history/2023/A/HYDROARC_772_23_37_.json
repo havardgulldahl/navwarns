@@ -13,13 +13,16 @@
     "raw_dtg": "111238Z APR 23",
     "msg_id": "HYDROARC 772/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 774/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nCONTIS-LES-BAINS LIGHT 44-05.61N 001-19.01W UNLIT.",
+    "cancel_date": "2023-04-11T14:38:00+00:00",
     "valid_from": "2023-04-11T12:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-04-11T14:38:00+00:00",
     "summary": null
   }
 }

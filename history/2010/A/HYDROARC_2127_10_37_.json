@@ -13,13 +13,17 @@
     "raw_dtg": "081519Z NOV 10",
     "msg_id": "HYDROARC 2127/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 NOV",
+      "HYDROARC 2127/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 15 NOV\n   BY CABLESHIP FURGO MERCATOR\n   ALONG TRACKLINE BETWEEN\n   45-48.3N 008-32.9W AND 47-49.0N 004-21.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 NOV.",
+    "cancel_date": "2010-11-16T00:01:00+00:00",
     "valid_from": "2010-11-08T15:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-16T00:01:00+00:00",
     "summary": null
   }
 }

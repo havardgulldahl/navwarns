@@ -33,13 +33,16 @@
     "raw_dtg": "251212Z DEC 16",
     "msg_id": "HYDROARC 3490/16(55)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 957/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nDNC 10.\nCHART 55170.\nNAVIGATION PROHIBITED IN AREA BOUND BY\n43-25.4N 039-55.0E, 43-21.0N 039-55.0E,\n43-21.0N 039-45.0E, 43-33.8N 039-45.0E.",
+    "cancel_date": "2017-03-24T16:44:00+00:00",
     "valid_from": "2016-12-25T12:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-03-24T16:44:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "110819Z NOV 21",
     "msg_id": "HYDROARC 2785/21(29)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 810/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRANSFIELD STRAIT.\nANTARCTICA.\nDNC 29.\nRACON AT ISLOTE MONTRAVEL LIGHT\n63-08.6S 058-02.4W INOPERATIVE.",
+    "cancel_date": "2022-03-21T03:32:00+00:00",
     "valid_from": "2021-11-11T08:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-03-21T03:32:00+00:00",
     "summary": null
   }
 }

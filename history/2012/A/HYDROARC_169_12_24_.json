@@ -7,13 +7,17 @@
     "raw_dtg": "211400Z JAN 12",
     "msg_id": "HYDROARC 169/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 221600Z JAN",
+      "HYDROARC 169/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nCHART 24350\n1. NAVIGATION PROHIBITED UNTIL 221500Z JAN\n   IN AREA BOUND BY\n   04-57N 052-20W, 05-00N 052-18W,\n   05-00N 052-13W, 04-56N 052-13W,\n   04-53N 052-15W.\n2. CANCEL THIS MSG 221600Z JAN.",
+    "cancel_date": "2012-01-22T16:00:00+00:00",
     "valid_from": "2012-01-21T14:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-22T16:00:00+00:00",
     "summary": null
   }
 }

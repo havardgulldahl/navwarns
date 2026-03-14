@@ -13,13 +13,16 @@
     "raw_dtg": "150147Z SEP 23",
     "msg_id": "HYDROARC 220/23(15)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 221/23"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BAFFIN BAY.\nCANADA.\nDNC 28.\nSUB-SURFACE SCIENTIFIC MOORING, TOP FLOAT\n320 METERS, ESTABLISHED IN 82-08.37N 061-13.57W.",
+    "cancel_date": "2023-09-15T13:59:00+00:00",
     "valid_from": "2023-09-15T01:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-09-15T13:59:00+00:00",
     "summary": null
   }
 }

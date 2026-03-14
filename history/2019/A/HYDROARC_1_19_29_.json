@@ -13,13 +13,16 @@
     "raw_dtg": "011026Z JAN 19",
     "msg_id": "HYDROARC 1/19(29)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 834/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTIA SEA.\nWEDDELL SEA.\nANTARCTICA.\nDNC 29.\nCHART 29107.\nDESTACAMENTO LIGHT 60-44.2S 044-44.3W UNLIT.",
+    "cancel_date": "2019-03-15T12:36:00+00:00",
     "valid_from": "2019-01-01T10:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-03-15T12:36:00+00:00",
     "summary": null
   }
 }

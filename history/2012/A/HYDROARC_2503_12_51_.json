@@ -7,13 +7,17 @@
     "raw_dtg": "251745Z OCT 12",
     "msg_id": "HYDROARC 2503/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS 15 NOV 12",
+      "HYDROARC 2503/12"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\nMOROCCO.\n1. OCEANOGRAPHIC OPERATIONS 26 OCT THRU 14 NOV\n   BY M/V ANGELES ALBARINO IN AREA BETWEEN\n   30-20N 29-40N AND 012-20W 013-10W.\n2. CANCEL THIS 15 NOV 12.",
+    "cancel_date": "2012-11-15T00:01:00+00:00",
     "valid_from": "2012-10-25T17:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-11-15T00:01:00+00:00",
     "summary": null
   }
 }

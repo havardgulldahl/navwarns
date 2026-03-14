@@ -7,13 +7,17 @@
     "raw_dtg": "130835Z JUN 10",
     "msg_id": "HYDROARC 1100/10(53,54)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 152330Z JUN",
+      "HYDROARC 1100/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nORDNANCE.\n1. BOMBING EXERCISES:\n   A. 141530Z TO 142230Z JUN\n      IN AREA BOUND BY\n      36-00N 013-00E, 36-00N 014-00E,\n      34-12N 014-00E, 34-12N 012-00E,\n      35-00N 012-00E, 35-00N 013-00E.\n   B. 151530Z TO 152230Z JUN\n      IN AREA BETWEEN\n      34-12N 36-00N AND 021-00E 022-30E.\n2. CANCEL THIS MSG 152330Z JUN.",
+    "cancel_date": "2010-06-15T23:30:00+00:00",
     "valid_from": "2010-06-13T08:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-15T23:30:00+00:00",
     "summary": null
   }
 }

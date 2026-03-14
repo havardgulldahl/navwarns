@@ -7,13 +7,17 @@
     "raw_dtg": "290706Z MAY 10",
     "msg_id": "HYDROARC 972/10(52)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 291700Z MAY",
+      "HYDROARC 972/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nGUNNERY.\n1. GUNNERY EXERCISES 291500Z TO 291600Z MAY\n   WITHIN 15 MILES OF 38-45N 006-04E.\n2. CANCEL THIS MSG 291700Z MAY.",
+    "cancel_date": "2010-05-29T17:00:00+00:00",
     "valid_from": "2010-05-29T07:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-29T17:00:00+00:00",
     "summary": null
   }
 }

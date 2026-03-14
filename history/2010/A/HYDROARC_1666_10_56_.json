@@ -7,13 +7,17 @@
     "raw_dtg": "040054Z SEP 10",
     "msg_id": "HYDROARC 1666/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 03 OCT",
+      "HYDROARC 1666/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\n1. CABLE OPERATIONS 07 SEP THRU 02 OCT\n   BY CABLESHIP TYCO RESPONDER\n   IN AREA BOUND BY\n   33-03N 032-27E, 33-08N 032-24E,\n   33-12N 031-58E, 33-34N 031-58E,\n   33-34N 030-55E, 33-28N 030-55E,\n   33-28N 031-50E, 33-10N 031-50E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 03 OCT.",
+    "cancel_date": "2010-10-03T00:00:00+00:00",
     "valid_from": "2010-09-04T00:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-03T00:00:00+00:00",
     "summary": null
   }
 }

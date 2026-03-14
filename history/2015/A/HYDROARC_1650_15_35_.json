@@ -13,13 +13,16 @@
     "raw_dtg": "070020Z JUL 15",
     "msg_id": "HYDROARC 1650/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1669/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35072.\nHOO STACK LIGHT 60-15.0N 001-05.4W UNLIT.",
+    "cancel_date": "2015-07-08T16:57:00+00:00",
     "valid_from": "2015-07-07T00:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-07-08T16:57:00+00:00",
     "summary": null
   }
 }

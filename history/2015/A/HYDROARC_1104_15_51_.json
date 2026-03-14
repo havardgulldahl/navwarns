@@ -13,13 +13,16 @@
     "raw_dtg": "061700Z MAY 15",
     "msg_id": "HYDROARC 1104/15(51)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1126/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "MOROCCO-NORTHWEST COAST.\nDNC 08.\nCHART 51160.\nCAP SPARTEL LIGHT 35-47.5N 005-55.3W UNLIT.",
+    "cancel_date": "2015-05-08T16:28:00+00:00",
     "valid_from": "2015-05-06T17:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-05-08T16:28:00+00:00",
     "summary": null
   }
 }

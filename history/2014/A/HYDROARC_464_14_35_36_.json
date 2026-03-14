@@ -13,13 +13,16 @@
     "raw_dtg": "150156Z FEB 14",
     "msg_id": "HYDROARC 464/14(35,36)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 467/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND.\nCHART 35000\nSTIRLING DGPS STATION 56-04.3N 004-03.6W UNRELIABLE.",
+    "cancel_date": "2014-02-15T10:57:00+00:00",
     "valid_from": "2014-02-15T01:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-02-15T10:57:00+00:00",
     "summary": null
   }
 }

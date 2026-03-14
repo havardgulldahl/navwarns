@@ -33,13 +33,17 @@
     "raw_dtg": "290342Z JUN 12",
     "msg_id": "HYDROARC 1425/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 041500Z JUL",
+      "HYDROARC 1425/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 041200Z TO 041400Z JUL\n   IN AREA BOUND BY\n   32-16.8S 051-41.9W, 32-31.0S 051-25.0W,\n   32-42.0S 051-37.8W, 32-27.7S 051-54.0W.\n2. CANCEL THIS MSG 041500Z JUL.",
+    "cancel_date": "2012-07-04T15:00:00+00:00",
     "valid_from": "2012-06-29T03:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-04T15:00:00+00:00",
     "summary": null
   }
 }

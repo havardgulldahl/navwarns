@@ -13,13 +13,16 @@
     "raw_dtg": "252009Z SEP 19",
     "msg_id": "HYDROARC 2926/19(35)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2188/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK IN 55-03.1N 001-23.8W.",
+    "cancel_date": "2020-07-10T13:12:00+00:00",
     "valid_from": "2019-09-25T20:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-07-10T13:12:00+00:00",
     "summary": null
   }
 }

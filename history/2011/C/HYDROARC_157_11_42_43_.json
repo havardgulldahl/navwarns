@@ -37,13 +37,16 @@
     "raw_dtg": "061740Z SEP 11",
     "msg_id": "HYDROARC 157/11(42,43)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 170/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V HARRIER EXPLORER TOWING 8500 METER\nLONG CABLE IN AREA BOUND BY\n74-30.00N 031-51.01E, 73-41.10N 037-00.00E,\n70-30.00N 036-58.58E, 70-16.30N 032-04.20E,\n70-21.00N 031-52.02E.\nSIX MILE BERTH REQUESTED.",
+    "cancel_date": "2011-09-15T19:33:00+00:00",
     "valid_from": "2011-09-06T17:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-15T19:33:00+00:00",
     "summary": null
   }
 }

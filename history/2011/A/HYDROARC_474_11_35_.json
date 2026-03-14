@@ -13,13 +13,17 @@
     "raw_dtg": "230315Z MAR 11",
     "msg_id": "HYDROARC 474/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 231700Z MAR",
+      "HYDROARC 474/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-EAST COAST.\nNGA CHART 35013 (0 ED).\n1. DGPS STATION AT GIRDLE NESS LIGHT 57-08.3N 002-02.8W\n   OFF AIR 231000Z TO 231600Z MAR.\n2. CANCEL THIS MSG 231700Z MAR.",
+    "cancel_date": "2011-03-23T17:00:00+00:00",
     "valid_from": "2011-03-23T03:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-23T17:00:00+00:00",
     "summary": null
   }
 }

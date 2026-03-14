@@ -73,13 +73,16 @@
     "raw_dtg": "111615Z AUG 15",
     "msg_id": "HYDROARC 227/15(41)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 13/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nLAPTEV SEA.\nEAST SIBERIAN SEA.\nDNC 27.\nSEISMIC SURVEY 15 AUG UNTIL FURTHER NOTICE\nBY M/V GEO ARCTIC TOWING 8500 METER LONG CABLE\nIN AREA BOUND BY\n79-34.00N 140-37.00E, 77-05.42N 148-00.35E,\n76-31.65N 148-16.60E, 76-06.70N 149-43.30E,\n75-52.68N 151-44.30E, 75-24.10N 153-09.23E,\n75-20.00N 152-54.00E, 74-12.48N 153-04.45E,\n74-05.65N 151-58.73E, 75-06.95N 151-02.77E,\n76-09.82N 141-28.47E, 76-11.90N 138-56.77E,\n75-50.60N 134-16.83E, 77-56.00N 129-13.00E.\nSIX MILE BERTH REQUESTED.",
+    "cancel_date": "2016-02-21T10:55:00+00:00",
     "valid_from": "2015-08-11T16:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-02-21T10:55:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "271428Z APR 11",
     "msg_id": "HYDROARC 717/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 010059Z JUN",
+      "HYDROARC 717/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nLIBYA.\nORDNANCE.\n1. ORDNANCE JETTISON AREAS ESTABLISHED\n   302359Z APR TO 312359Z MAY:\n   A. WITHIN TEN MILES OF 33-37N 015-18E.\n   B. IN AREA BOUND BY\n      32-59N 018-15E, 32-59N 018-24E,\n      32-44N 018-38E, 32-39N 018-39E,\n      32-39N 018-15E.\n2. CANCEL THIS MSG 010059Z JUN.",
+    "cancel_date": "2011-06-01T00:59:00+00:00",
     "valid_from": "2011-04-27T14:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-01T00:59:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "180858Z OCT 11",
     "msg_id": "HYDROARC 1712/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 210900Z OCT",
+      "HYDROARC 1712/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT 20 METER S/V HUMPY, WHITE HULL,\n   PARTIALLY SUBMERGED AND ADRIFT IN\n   34-24.8N 043-33.3W. REPORTS TO RCC NORFOLK,\n   PHONE: 757 398 6231, FAX: 757 398 6392,\n   E-MAIL: D05-SMB-D5CC@USCG.MIL.\n2. CANCEL THIS MSG 210900Z OCT.",
+    "cancel_date": "2011-10-21T09:00:00+00:00",
     "valid_from": "2011-10-18T08:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-21T09:00:00+00:00",
     "summary": null
   }
 }

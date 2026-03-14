@@ -13,13 +13,16 @@
     "raw_dtg": "160935Z APR 11",
     "msg_id": "HYDROARC 638/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 894/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nRACON AT CHAUSSEE DE SEIN BUOY 48-03.8N 005-07.7W INOPERATIVE.",
+    "cancel_date": "2011-05-28T08:59:00+00:00",
     "valid_from": "2011-04-16T09:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-28T08:59:00+00:00",
     "summary": null
   }
 }

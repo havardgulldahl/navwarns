@@ -45,13 +45,16 @@
     "raw_dtg": "301739Z DEC 17",
     "msg_id": "HYDROARC 4257/17(54)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 105/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V METEOR IN AREA BOUND BY\n39-00.47N 023-27.48E, 39-01.44N 023-41.45E,\n38-47.47N 023-48.38E, 38-46.40N 023-44.30E,\n38-47.47N 023-36.06E, 38-53.03N 023-28.30E,\n39-00.42N 023-28.00E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2018-01-09T12:09:00+00:00",
     "valid_from": "2017-12-30T17:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-01-09T12:09:00+00:00",
     "summary": null
   }
 }

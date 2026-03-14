@@ -7,13 +7,16 @@
     "raw_dtg": "300203Z NOV 19",
     "msg_id": "HYDROARC 3679/19(54)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3747/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\nAKRA VRISAKI LIGHT 37-44N 024-05E UNRELIABLE.",
+    "cancel_date": "2019-12-06T13:06:00+00:00",
     "valid_from": "2019-11-30T02:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-12-06T13:06:00+00:00",
     "summary": null
   }
 }

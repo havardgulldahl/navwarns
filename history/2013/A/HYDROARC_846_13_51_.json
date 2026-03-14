@@ -13,13 +13,16 @@
     "raw_dtg": "032104Z APR 13",
     "msg_id": "HYDROARC 846/13(51)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 395/14"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nCHART 51320\nCAP DRAA LIGHT 28-40.7N 011-07.4W UNLIT.",
+    "cancel_date": "2014-02-08T11:03:00+00:00",
     "valid_from": "2013-04-03T21:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-02-08T11:03:00+00:00",
     "summary": null
   }
 }

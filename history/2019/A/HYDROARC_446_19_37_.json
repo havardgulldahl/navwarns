@@ -7,13 +7,16 @@
     "raw_dtg": "100540Z FEB 19",
     "msg_id": "HYDROARC 446/19(37)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 464/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37015.\nBERRY HEAD LIGHT 50-24N 003-29W UNRELIABLE.",
+    "cancel_date": "2019-02-12T12:34:00+00:00",
     "valid_from": "2019-02-10T05:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-02-12T12:34:00+00:00",
     "summary": null
   }
 }

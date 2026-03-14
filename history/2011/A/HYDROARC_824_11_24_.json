@@ -13,13 +13,17 @@
     "raw_dtg": "142337Z MAY 11",
     "msg_id": "HYDROARC 824/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 080359Z NOV",
+      "HYDROARC 885/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nNGA CHART 24160 (21ST ED).\n1. PONTA NEGRA LIGHT 22-57.6S 042-41.5W\n   UNLIT UNTIL 080259Z NOV.\n2. CANCEL THIS MSG 080359Z NOV.",
+    "cancel_date": "2011-05-26T17:10:00+00:00",
     "valid_from": "2011-05-14T23:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-26T17:10:00+00:00",
     "summary": null
   }
 }

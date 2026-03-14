@@ -33,13 +33,17 @@
     "raw_dtg": "191702Z JAN 11",
     "msg_id": "HYDROARC 120/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 FEB",
+      "HYDROARC 209/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 15 FEB BY\n   M/V NORDIC EXPLORER TOWING SIX 4000 METER LONG CABLES\n   IN AREA BOUND BY\n   03-34.3N 007-34.8E, 03-43.8N 007-57.7E,\n   03-34.5N 008-02.0E, 03-26.3N 007-43.4E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 FEB.",
+    "cancel_date": "2011-02-03T02:17:00+00:00",
     "valid_from": "2011-01-19T17:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-03T02:17:00+00:00",
     "summary": null
   }
 }

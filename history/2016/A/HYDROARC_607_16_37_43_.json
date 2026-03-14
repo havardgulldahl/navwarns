@@ -13,13 +13,16 @@
     "raw_dtg": "130740Z MAR 16",
     "msg_id": "HYDROARC 607/16(37,43)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 844/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY BARGE TAKLIFT 4 IN 53-00.5N 002-40.0E.",
+    "cancel_date": "2016-04-09T13:15:00+00:00",
     "valid_from": "2016-03-13T07:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-04-09T13:15:00+00:00",
     "summary": null
   }
 }

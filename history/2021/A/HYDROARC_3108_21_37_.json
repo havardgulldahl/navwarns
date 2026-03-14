@@ -13,13 +13,16 @@
     "raw_dtg": "201248Z DEC 21",
     "msg_id": "HYDROARC 3108/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3113/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nST CATHERINE'S POINT LIGHT 50-34.5N 001-17.9W\nUNLIT.",
+    "cancel_date": "2021-12-20T16:34:00+00:00",
     "valid_from": "2021-12-20T12:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-12-20T16:34:00+00:00",
     "summary": null
   }
 }

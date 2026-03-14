@@ -7,13 +7,17 @@
     "raw_dtg": "050027Z FEB 12",
     "msg_id": "HYDROARC 289/12(23)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 080030Z FEB",
+      "HYDROARC 289/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\n1. DERELICT F/V YINKYUNG 707 ADRIFT VICINITY\n   46-41S 060-42W AT 030537Z FEB.\n2. CANCEL THIS MSG 080030Z FEB.",
+    "cancel_date": "2012-02-08T00:30:00+00:00",
     "valid_from": "2012-02-05T00:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-08T00:30:00+00:00",
     "summary": null
   }
 }

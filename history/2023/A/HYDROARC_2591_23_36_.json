@@ -13,13 +13,16 @@
     "raw_dtg": "122214Z NOV 23",
     "msg_id": "HYDROARC 2591/23(36)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2624/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nFLAT HOLM LIGHT 51-22.50N 003-07.10W UNRELIABLE.",
+    "cancel_date": "2023-11-16T10:29:00+00:00",
     "valid_from": "2023-11-12T22:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-11-16T10:29:00+00:00",
     "summary": null
   }
 }

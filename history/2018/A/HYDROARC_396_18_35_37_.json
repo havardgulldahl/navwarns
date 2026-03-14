@@ -13,13 +13,16 @@
     "raw_dtg": "031730Z FEB 18",
     "msg_id": "HYDROARC 396/18(35,37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 926/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nCHART 35002.\nFOG SIGNAL AT PLATFORM 44/17-MH,\n54-26.1N 002-18.0E INOPERATIVE.",
+    "cancel_date": "2018-03-17T13:33:00+00:00",
     "valid_from": "2018-02-03T17:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-03-17T13:33:00+00:00",
     "summary": null
   }
 }

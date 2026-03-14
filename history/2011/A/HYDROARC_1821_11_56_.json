@@ -13,13 +13,17 @@
     "raw_dtg": "031328Z NOV 11",
     "msg_id": "HYDROARC 1821/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 09 NOV",
+      "HYDROARC 1848/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN.\nLIBYA.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 08 NOV\n   BY CABLESHIP RAYMOND CROZE WITH SUBMERSIBLE\n   IN 32-17.85N 015-26.32E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 09 NOV.",
+    "cancel_date": "2011-11-07T10:03:00+00:00",
     "valid_from": "2011-11-03T13:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-07T10:03:00+00:00",
     "summary": null
   }
 }

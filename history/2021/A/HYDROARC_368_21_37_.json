@@ -13,13 +13,16 @@
     "raw_dtg": "081704Z FEB 21",
     "msg_id": "HYDROARC 368/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 415/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nCAP D'ALPRECH LIGHT 50-41.9N 001-33.7E UNLIT.",
+    "cancel_date": "2021-02-11T15:14:00+00:00",
     "valid_from": "2021-02-08T17:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-02-11T15:14:00+00:00",
     "summary": null
   }
 }

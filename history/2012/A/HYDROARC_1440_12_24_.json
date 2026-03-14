@@ -33,13 +33,17 @@
     "raw_dtg": "010753Z JUL 12",
     "msg_id": "HYDROARC 1440/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 070359Z JUL",
+      "HYDROARC 1440/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 070259Z JUL\n   BY M/V POLAR EXPLORER TOWING 12 CABLES\n   IN AREA BOUND BY\n   23-55.90S 040-19.93W, 23-59.88S 041-50.87W,\n   26-33.72S 042-39.65W, 27-06.50S 042-05.42W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 070359Z JUL.",
+    "cancel_date": "2012-07-07T03:59:00+00:00",
     "valid_from": "2012-07-01T07:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-07T03:59:00+00:00",
     "summary": null
   }
 }

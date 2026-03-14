@@ -13,13 +13,16 @@
     "raw_dtg": "201812Z MAR 15",
     "msg_id": "HYDROARC 679/15(35,37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1058/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTHERN NORTH SEA.\nDNC 20.\nCHART 35002, 37058.\nFOG SIGNAL AT PLATFORM 44/22-MA, 54-16.1N 002-19.3E INOPERATIVE.",
+    "cancel_date": "2015-05-01T15:53:00+00:00",
     "valid_from": "2015-03-20T18:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-05-01T15:53:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "032200Z JUL 19",
     "msg_id": "HYDROARC 2011/19(24)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2556/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. PENEDOS DE SAO PEDRO E SAO PAULO LIGHT\n   00-55.2N 029-20.6W UNLIT UNTIL 30 DEC.\n2. CANCEL 31 DEC 19.",
+    "cancel_date": "2019-08-21T23:07:00+00:00",
     "valid_from": "2019-07-03T22:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-08-21T23:07:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "302206Z DEC 11",
     "msg_id": "HYDROARC 2288/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 47/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nSEA OF HEBRIDES.\nCHART 35093\nCANNA LIGHT 57-02.8N 006-27.9W UNLIT.",
+    "cancel_date": "2012-01-06T09:59:00+00:00",
     "valid_from": "2011-12-30T22:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-06T09:59:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "162006Z DEC 10",
     "msg_id": "HYDROARC 2436/10(36)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 243/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nNGA CHART 36007 (1ST ED).\nODAS BUOY 25 53-28.8N 005-25.5W OFF STATION AND UNLIT.",
+    "cancel_date": "2011-02-09T14:26:00+00:00",
     "valid_from": "2010-12-16T20:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-09T14:26:00+00:00",
     "summary": null
   }
 }

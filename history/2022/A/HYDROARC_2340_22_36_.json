@@ -13,13 +13,16 @@
     "raw_dtg": "160429Z SEP 22",
     "msg_id": "HYDROARC 2340/22(36)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2345/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nIRELAND.\nDNC 19.\nBAILY LIGHT 53-21.70N 006-03.20W UNRELIABLE.",
+    "cancel_date": "2022-09-16T11:51:00+00:00",
     "valid_from": "2022-09-16T04:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-09-16T11:51:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "181845Z JAN 10",
     "msg_id": "HYDROARC 112/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 MAR",
+      "HYDROARC 112/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 15 MAR\n   BY M/V DEEP WATER PATHFINDER\n   IN 04-39.6N 003-27.5W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 MAR.",
+    "cancel_date": "2010-03-16T00:01:00+00:00",
     "valid_from": "2010-01-18T18:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-16T00:01:00+00:00",
     "summary": null
   }
 }

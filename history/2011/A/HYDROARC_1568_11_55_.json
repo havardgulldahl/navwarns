@@ -59,13 +59,17 @@
     "raw_dtg": "261604Z SEP 11",
     "msg_id": "HYDROARC 1568/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 OCT",
+      "HYDROARC 1568/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 30 SEP\n   BY M/V MEZEN ALONG TRACKLINE JOINING\n   43-19.15N  032-18.17E, 42-07.12N  032-25.95E,\n   42-12.25N  032-48.35E, 43-15.18N  033-02.15E,\n   42-19.85N  033-57.87E, 43-12.17N  033-33.60E,\n   42-16.93N  035-09.65E, 43-06.93N  036-59.63E,\n   42-45.57N  037-47.95E, 41-33.62N  037-10.00E,\n   42-01.75N  036-08.63E, 43-12.65N  036-46.15E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT.",
+    "cancel_date": "2011-10-01T00:01:00+00:00",
     "valid_from": "2011-09-26T16:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-01T00:01:00+00:00",
     "summary": null
   }
 }

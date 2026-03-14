@@ -13,13 +13,16 @@
     "raw_dtg": "220450Z DEC 20",
     "msg_id": "HYDROARC 3941/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3950/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nSKADAN LIGHT 59-30-49N 001-39-10W UNRELIABLE.",
+    "cancel_date": "2020-12-22T17:08:00+00:00",
     "valid_from": "2020-12-22T04:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-12-22T17:08:00+00:00",
     "summary": null
   }
 }

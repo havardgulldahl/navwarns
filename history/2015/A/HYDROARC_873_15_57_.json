@@ -13,13 +13,16 @@
     "raw_dtg": "131615Z APR 15",
     "msg_id": "HYDROARC 873/15(57)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1158/15"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nDNC 01.\nSCIENTIFIC MOORING ESTABLISHED IN 06-09.69N 002-35.47E.",
+    "cancel_date": "2015-05-12T20:22:00+00:00",
     "valid_from": "2015-04-13T16:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-05-12T20:22:00+00:00",
     "summary": null
   }
 }

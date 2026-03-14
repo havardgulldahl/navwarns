@@ -7,13 +7,17 @@
     "raw_dtg": "231301Z MAR 10",
     "msg_id": "HYDROARC 499/10(52)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 JUN",
+      "HYDROARC 499/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TUNISIA-SOUTHEAST COAST.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 15 JUN\n   BY M/V CGG PRINCESS IN AREA BETWEEN\n   33-52.1N 33-38.5N AND 011-27.6E 011-54.1E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 16 JUN.",
+    "cancel_date": "2010-06-16T00:01:00+00:00",
     "valid_from": "2010-03-23T13:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-16T00:01:00+00:00",
     "summary": null
   }
 }

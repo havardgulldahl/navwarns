@@ -7,13 +7,16 @@
     "raw_dtg": "271318Z JUL 14",
     "msg_id": "HYDROARC 1823/14",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1868/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GPS SATELLITE SYSTEM.\nPRN 03 UNUSABLE 011430Z AUG UNTIL FURTHER NOTICE.",
+    "cancel_date": "2014-08-03T00:03:00+00:00",
     "valid_from": "2014-07-27T13:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-08-03T00:03:00+00:00",
     "summary": null
   }
 }

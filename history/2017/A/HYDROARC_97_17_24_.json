@@ -7,13 +7,16 @@
     "raw_dtg": "100035Z JAN 17",
     "msg_id": "HYDROARC 97/17(24)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 97/17"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 150900Z TO 151500Z JAN\n   IN AREA BOUND BY\n   29-26S 048-57W, 29-36S 048-22W,\n   30-07S 048-38W, 29-56S 049-10W.\n2. CANCEL THIS WARNING 151600Z JAN 17.",
+    "cancel_date": "2017-01-15T16:00:00+00:00",
     "valid_from": "2017-01-10T00:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-15T16:00:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "251326Z MAY 10",
     "msg_id": "HYDROARC 948/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 29 MAY",
+      "HYDROARC 964/10"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS UNTIL 28 MAY\n   BY M/V HESPERIDES ALONG TRACKLINE BETWEEN\n   33-39N 009-00W AND 36-36N 009-00W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 MAY.",
+    "cancel_date": "2010-05-27T14:50:00+00:00",
     "valid_from": "2010-05-25T13:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-27T14:50:00+00:00",
     "summary": null
   }
 }

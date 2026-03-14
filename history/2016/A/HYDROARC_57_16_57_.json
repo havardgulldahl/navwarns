@@ -33,13 +33,16 @@
     "raw_dtg": "060506Z JAN 16",
     "msg_id": "HYDROARC 57/16(57)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 400/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nCONGO.\nDNC 01.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM VANGUARD AND\nM/V SANCO SPIRIT TOWING 12 8000 METER\nLONG CABLES IN AREA BOUND BY\n04-30.3S 010-47.8E, 04-41.1S 011-04.8E,\n05-39.8S 010-28.3E, 05-29.0S 010-11.0E.\nEIGHT MILE BERTH REQUESTED.",
+    "cancel_date": "2016-02-17T07:40:00+00:00",
     "valid_from": "2016-01-06T05:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-02-17T07:40:00+00:00",
     "summary": null
   }
 }

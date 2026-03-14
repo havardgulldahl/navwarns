@@ -13,13 +13,17 @@
     "raw_dtg": "130126Z JAN 10",
     "msg_id": "HYDROARC 66/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 190030Z JAN",
+      "HYDROARC 66/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 181600Z TO 182330Z JAN\n   WITHIN TEN MILES OF 28-31.5S 048-23.5W.\n2. CANCEL THIS MSG 190030Z JAN.",
+    "cancel_date": "2010-01-19T00:30:00+00:00",
     "valid_from": "2010-01-13T01:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-19T00:30:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "201141Z APR 11",
     "msg_id": "HYDROARC 671/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 29 APR",
+      "HYDROARC 671/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 28 APR\n   BY M/V LE SUROIT IN AREA BETWEEN\n   05-36.74S 08-21.02S AND 005-33.79E 007-38.65E.\n   THREE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 APR.",
+    "cancel_date": "2011-04-29T00:01:00+00:00",
     "valid_from": "2011-04-20T11:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-29T00:01:00+00:00",
     "summary": null
   }
 }

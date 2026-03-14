@@ -13,13 +13,16 @@
     "raw_dtg": "041144Z MAY 14",
     "msg_id": "HYDROARC 1136/14(37)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1142/14"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nCHART 37166\nRACON AT WEST CARDINAL BUOY 53-03.8N 002-41.7E INOPERATIVE.",
+    "cancel_date": "2014-05-05T12:29:00+00:00",
     "valid_from": "2014-05-04T11:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-05-05T12:29:00+00:00",
     "summary": null
   }
 }

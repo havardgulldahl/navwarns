@@ -13,13 +13,17 @@
     "raw_dtg": "301237Z JUN 12",
     "msg_id": "HYDROARC 1434/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 031230Z JUL",
+      "HYDROARC 1434/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. 25 METER DERELICT F/V SPANISH FLAG, BLUE HULL,\n   ADRIFT IN 10-17.7N 033-00.6W AT 301110Z JUN.\n2. CANCEL THIS MSG 031230Z JUL.",
+    "cancel_date": "2012-07-03T12:30:00+00:00",
     "valid_from": "2012-06-30T12:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-03T12:30:00+00:00",
     "summary": null
   }
 }

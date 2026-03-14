@@ -13,13 +13,16 @@
     "raw_dtg": "150111Z JUL 23",
     "msg_id": "HYDROARC 1592/23(51)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1981/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nSIDI IFNI LIGHTHOUSE 29-22.50N 010-10.70W UNLIT.",
+    "cancel_date": "2023-09-03T23:26:00+00:00",
     "valid_from": "2023-07-15T01:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-09-03T23:26:00+00:00",
     "summary": null
   }
 }

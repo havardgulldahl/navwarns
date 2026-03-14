@@ -13,13 +13,16 @@
     "raw_dtg": "091211Z JAN 15",
     "msg_id": "HYDROARC 71/15(52)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 226/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCHART 52200.\nCAP DE GARDE LIGHT 36-58.1N 007-47.1E UNLIT.",
+    "cancel_date": "2015-01-27T08:14:00+00:00",
     "valid_from": "2015-01-09T12:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-27T08:14:00+00:00",
     "summary": null
   }
 }

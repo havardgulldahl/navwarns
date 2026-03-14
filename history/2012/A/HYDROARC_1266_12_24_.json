@@ -33,13 +33,17 @@
     "raw_dtg": "130409Z JUN 12",
     "msg_id": "HYDROARC 1266/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 270359Z JUN",
+      "HYDROARC 1285/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nURUGUAY-EAST COAST.\n1. HYDROGRAPHIC SURVEY IN PROGRESS UNTIL 270259Z JUN\n   BY M/V OYARBIDE IN AREA BOUND BY\n   34-22.25S 053-27.45W, 34-26.30S 053-20.90W,\n   34-09.83S 053-05.45W, 34-05.31S 053-12.75W.\n   1.5 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 270359Z JUN.",
+    "cancel_date": "2012-06-15T07:06:00+00:00",
     "valid_from": "2012-06-13T04:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-15T07:06:00+00:00",
     "summary": null
   }
 }

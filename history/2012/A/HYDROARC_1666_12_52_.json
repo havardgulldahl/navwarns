@@ -49,13 +49,17 @@
     "raw_dtg": "231318Z JUL 12",
     "msg_id": "HYDROARC 1666/12(52)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS 11 AUG 12",
+      "HYDROARC 1666/12"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "TUNISIA-NORTHEAST COAST.\n1. OCEANOGRAPHIC OPERATIONS 24 JULY THRU 10 AUG\n   BY M/V URANIA IN AREA BOUND BY\n   37-23.06N 011-35.59E, 37-34.88N 012-00.20E,\n   37-21.93N 011-39.70E, 37-18.83N 011-33.75E,\n   37-17.26N 011-29.95E, 37-16.79N 011-29.17E,\n   37-13.98N 011-25.98E, 37-10.80N 011-18.24E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS 11 AUG 12.",
+    "cancel_date": "2012-08-11T00:01:00+00:00",
     "valid_from": "2012-07-23T13:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-08-11T00:01:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "111703Z NOV 11",
     "msg_id": "HYDROARC 1881/11(53)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 17 NOV",
+      "HYDROARC 1897/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 16 NOV\n   BY CABLESHIP RAYMOND CROZE WITH SUBMERSIBLE\n   IN 37-38.2N 012-32.8E..\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 17 NOV.",
+    "cancel_date": "2011-11-14T15:01:00+00:00",
     "valid_from": "2011-11-11T17:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-14T15:01:00+00:00",
     "summary": null
   }
 }

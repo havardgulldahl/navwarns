@@ -7,13 +7,16 @@
     "raw_dtg": "280956Z MAR 10",
     "msg_id": "HYDROARC 540/10(35,36,37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 550/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nCELTIC SEA.\nMRCC MILFORD HAVEN 51-41N 005-10W\nMF DSC SERVICE UNABLE TO TRANSMIT.",
+    "cancel_date": "2010-03-30T14:15:00+00:00",
     "valid_from": "2010-03-28T09:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-30T14:15:00+00:00",
     "summary": null
   }
 }

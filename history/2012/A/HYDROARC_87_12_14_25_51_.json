@@ -13,13 +13,16 @@
     "raw_dtg": "110442Z JAN 12",
     "msg_id": "HYDROARC 87/12(14,25,51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 90/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ\nFROM VESSEL SHORTHORN EXPRESS IN\n37-35.2N 055-02.8W AT 110331Z JAN.\nVESSELS IN VICINITY REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO U.S. COAST GUARD BOSTON,\nPHONE: 617 223 8555,\nE-MAIL: RCC BOSTON@USCG.MIL.",
+    "cancel_date": "2012-01-11T11:32:00+00:00",
     "valid_from": "2012-01-11T04:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-11T11:32:00+00:00",
     "summary": null
   }
 }

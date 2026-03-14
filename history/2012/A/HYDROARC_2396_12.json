@@ -7,13 +7,16 @@
     "raw_dtg": "130609Z OCT 12",
     "msg_id": "HYDROARC 2396/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2620/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nRADIO SERVICES.\nCULLERCOATS 55-04N 001-28W TRANSMITTER UNRELIABLE.",
+    "cancel_date": "2012-11-05T21:18:00+00:00",
     "valid_from": "2012-10-13T06:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-11-05T21:18:00+00:00",
     "summary": null
   }
 }

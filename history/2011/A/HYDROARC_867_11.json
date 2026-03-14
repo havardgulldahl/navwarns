@@ -7,13 +7,17 @@
     "raw_dtg": "231132Z MAY 11",
     "msg_id": "HYDROARC 867/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 261900Z MAY",
+      "HYDROARC 868/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION SYLT, RATES 7499-MASTER AND\n   6731-Z, OFF AIR 240600Z TO 261800Z MAY.\n2. CANCEL THIS MSG 261900Z MAY.",
+    "cancel_date": "2011-05-23T11:50:00+00:00",
     "valid_from": "2011-05-23T11:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-23T11:50:00+00:00",
     "summary": null
   }
 }

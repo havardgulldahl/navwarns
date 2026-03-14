@@ -13,13 +13,16 @@
     "raw_dtg": "291501Z AUG 22",
     "msg_id": "HYDROARC 2135/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2157/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nPLATFORM 44/21A, 54-14.60N 002-09.20E\nUNLIT AND ALL NAVAIDS INOPERATIVE.",
+    "cancel_date": "2022-08-31T16:07:00+00:00",
     "valid_from": "2022-08-29T15:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-08-31T16:07:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "030932Z APR 14",
     "msg_id": "HYDROARC 905/14(37)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1028/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nCHART 37115\nBASSURELLE BUOY 50-32.8N 000-57.8E MISSING.",
+    "cancel_date": "2014-04-16T11:47:00+00:00",
     "valid_from": "2014-04-03T09:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-04-16T11:47:00+00:00",
     "summary": null
   }
 }

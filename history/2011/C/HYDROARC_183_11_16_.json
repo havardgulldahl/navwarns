@@ -7,13 +7,17 @@
     "raw_dtg": "222130Z SEP 11",
     "msg_id": "HYDROARC 183/11(16)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 252130Z SEP",
+      "HYDROARC 185/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BEAUFORT SEA.\n1. THREE CONTAINERS ADRIFT VICINITY\n   72-00N 150-00W AT 221455Z SEP.\n2. CANCEL THIS MSG 252130Z SEP.",
+    "cancel_date": "2011-09-23T08:19:00+00:00",
     "valid_from": "2011-09-22T21:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-23T08:19:00+00:00",
     "summary": null
   }
 }

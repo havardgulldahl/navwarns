@@ -34,12 +34,14 @@
     "msg_id": "HYDROARC 303/16(42)",
     "year": 2016,
     "cancellations": [
-      "THIS MSG 312200Z OCT 16"
+      "THIS MSG 312200Z OCT 16",
+      "HYDROARC 303/16"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nMISSILES.\nDNC 22.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL\n   312100Z OCT IN AREA BOUND BY\n   75-32.28N 046-34.20E, 74-29.00N 055-04.00E,\n   72-01.32N 051-01.34E, 73-09.49N 042-26.28E.\n2. CANCEL THIS MSG 312200Z OCT 16.",
+    "cancel_date": "2016-10-31T22:00:00+00:00",
     "valid_from": "2016-10-17T05:50:00+00:00",
     "valid_until": "2016-10-31T22:00:00+00:00",
     "summary": null

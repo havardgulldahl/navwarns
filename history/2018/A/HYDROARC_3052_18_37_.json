@@ -13,13 +13,16 @@
     "raw_dtg": "271708Z SEP 18",
     "msg_id": "HYDROARC 3052/18(37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3099/18"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37015.\nFOG SIGNAL AT START POINT LIGHT\n50-13.3N 003-38.5W INOPERATIVE.",
+    "cancel_date": "2018-10-01T23:33:00+00:00",
     "valid_from": "2018-09-27T17:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-10-01T23:33:00+00:00",
     "summary": null
   }
 }

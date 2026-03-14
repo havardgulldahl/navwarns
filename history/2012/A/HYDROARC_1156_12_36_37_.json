@@ -13,13 +13,17 @@
     "raw_dtg": "300349Z MAY 12",
     "msg_id": "HYDROARC 1156/12(36,37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 011700Z JUN",
+      "HYDROARC 1156/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WALES-SOUTH COAST.\nCHART 36044\n1. DGPS STATION AT NASH POINT LIGHT 51-24.0N 003-33.1W\n   UNUSABLE 0800Z TO 1600Z DAILY 30 MAY THRU 01 JUN.\n2. CANCEL THIS MSG 011700Z JUN.",
+    "cancel_date": "2012-06-01T17:00:00+00:00",
     "valid_from": "2012-05-30T03:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-01T17:00:00+00:00",
     "summary": null
   }
 }

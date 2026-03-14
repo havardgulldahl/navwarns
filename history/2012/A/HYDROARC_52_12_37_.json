@@ -13,13 +13,16 @@
     "raw_dtg": "062020Z JAN 12",
     "msg_id": "HYDROARC 52/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 59/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nCHART 37120\nRACON AT MPC BUOY 51-06.1N 001-38.3E INOPERATIVE.",
+    "cancel_date": "2012-01-07T14:46:00+00:00",
     "valid_from": "2012-01-06T20:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-07T14:46:00+00:00",
     "summary": null
   }
 }

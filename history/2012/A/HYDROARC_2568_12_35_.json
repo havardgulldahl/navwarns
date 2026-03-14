@@ -13,13 +13,16 @@
     "raw_dtg": "010509Z NOV 12",
     "msg_id": "HYDROARC 2568/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2568/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nCHART 35096\nARDTORNISH POINT LIGHT 56-31.1N 005-45.1W UNRELIABLE.",
+    "cancel_date": "2012-11-01T00:00:00+00:00",
     "valid_from": "2012-11-01T05:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-11-01T00:00:00+00:00",
     "summary": null
   }
 }

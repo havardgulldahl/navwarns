@@ -7,13 +7,17 @@
     "raw_dtg": "161735Z AUG 11",
     "msg_id": "HYDROARC 1296/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 192100Z AUG",
+      "HYDROARC 1296/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nFRANCE-WEST COAST.\n1. UNDERWATER OPERATIONS 190001Z TO 192000Z AUG\n   BY CABLESHIP LEON THEVENIN WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   48-15N 006-00W, 48-15N 006-15W,\n   48-00N 006-15W, 48-00N 006-00W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 192100Z AUG.",
+    "cancel_date": "2011-08-19T21:00:00+00:00",
     "valid_from": "2011-08-16T17:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-19T21:00:00+00:00",
     "summary": null
   }
 }

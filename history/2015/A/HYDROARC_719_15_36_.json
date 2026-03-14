@@ -13,13 +13,16 @@
     "raw_dtg": "252303Z MAR 15",
     "msg_id": "HYDROARC 719/15(36)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 734/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nDNC 20.\nCHART 36039.\nFLAT HOLM LIGHT 51-22.5N 003-07.0W UNLIT.",
+    "cancel_date": "2015-03-27T20:37:00+00:00",
     "valid_from": "2015-03-25T23:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-03-27T20:37:00+00:00",
     "summary": null
   }
 }

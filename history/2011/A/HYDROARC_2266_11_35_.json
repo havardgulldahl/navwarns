@@ -13,13 +13,16 @@
     "raw_dtg": "290103Z DEC 11",
     "msg_id": "HYDROARC 2266/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 363/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nCHART 35068.\nBULLIA SKERRY LIGHT 60-06.7N 001-21.6W UNLIT.",
+    "cancel_date": "2012-02-13T18:25:00+00:00",
     "valid_from": "2011-12-29T01:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-13T18:25:00+00:00",
     "summary": null
   }
 }

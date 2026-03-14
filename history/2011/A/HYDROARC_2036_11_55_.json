@@ -7,13 +7,17 @@
     "raw_dtg": "020054Z DEC 11",
     "msg_id": "HYDROARC 2036/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 06 DEC",
+      "HYDROARC 2036/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 05 DEC\n   BY M/V PROFESSOR SHTOKMAN\n   IN AREA BOUND BY\n   43-18N 032-00E, 43-05N 034-00E,\n   43-21N 029-20E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 06 DEC.",
+    "cancel_date": "2011-12-06T00:01:00+00:00",
     "valid_from": "2011-12-02T00:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-06T00:01:00+00:00",
     "summary": null
   }
 }

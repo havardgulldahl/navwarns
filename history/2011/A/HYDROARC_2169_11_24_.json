@@ -13,13 +13,16 @@
     "raw_dtg": "160228Z DEC 11",
     "msg_id": "HYDROARC 2169/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 49/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nDGPS STATION AT CABO SANTA MARTA LIGHT\n28-36.2S 048-48.8W INOPERATIVE.",
+    "cancel_date": "2012-01-06T15:48:00+00:00",
     "valid_from": "2011-12-16T02:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-06T15:48:00+00:00",
     "summary": null
   }
 }

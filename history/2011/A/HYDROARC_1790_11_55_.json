@@ -49,13 +49,17 @@
     "raw_dtg": "291723Z OCT 11",
     "msg_id": "HYDROARC 1790/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 NOV",
+      "HYDROARC 1790/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 15 NOV\n   BY M/V AKADEMIIK GOLITSYN IN AREA BOUND BY\n   42-47.7N 030-40.6E, 43-07.6N 031-00.2E,\n   43-09.1N 031-44.5E, 43-13.5N 034-54.1E,\n   43-24.0N 036-11.5E, 43-13.0N 036-17.5E,\n   42-59.2N 034-58.1E, 42-52.3N 032-56.2E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 NOV.",
+    "cancel_date": "2011-11-16T00:01:00+00:00",
     "valid_from": "2011-10-29T17:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-16T00:01:00+00:00",
     "summary": null
   }
 }

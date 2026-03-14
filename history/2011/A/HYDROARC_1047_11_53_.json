@@ -13,13 +13,17 @@
     "raw_dtg": "250902Z JUN 11",
     "msg_id": "HYDROARC 1047/11(53)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 281350Z JUN",
+      "HYDROARC 1047/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TYRRHENIAN SEA.\n1. DERELICT M/V ALMAHMOUD ADRIFT\n   IN 39-54-58N 010-31-38E.\n2. CANCEL THIS MSG 281350Z JUN.",
+    "cancel_date": "2011-06-28T13:50:00+00:00",
     "valid_from": "2011-06-25T09:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-28T13:50:00+00:00",
     "summary": null
   }
 }

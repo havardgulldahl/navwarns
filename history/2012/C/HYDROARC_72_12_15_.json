@@ -7,13 +7,16 @@
     "raw_dtg": "090000Z JUL 12",
     "msg_id": "HYDROARC 72/12(15)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 81/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA-NORTHEAST COAST.\nNAVTEX.\nNAVTEX STATION MCTS IQALUIT INOPERATIVE.",
+    "cancel_date": "2012-07-13T17:24:00+00:00",
     "valid_from": "2012-07-09T00:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-13T17:24:00+00:00",
     "summary": null
   }
 }

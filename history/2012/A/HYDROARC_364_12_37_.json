@@ -13,13 +13,17 @@
     "raw_dtg": "140405Z FEB 12",
     "msg_id": "HYDROARC 364/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 151300Z FEB",
+      "HYDROARC 364/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nCHART 37166\n1. RACON AT CROMER LIGHT 52-55.5N 001-19.1E\n   INOPERATIVE 0900Z TO 1200Z DAILY\n   14 AND 15 FEB.\n2. CANCEL THIS MSG 151300Z FEB.",
+    "cancel_date": "2012-02-15T13:00:00+00:00",
     "valid_from": "2012-02-14T04:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-15T13:00:00+00:00",
     "summary": null
   }
 }

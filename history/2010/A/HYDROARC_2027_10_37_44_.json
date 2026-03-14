@@ -7,13 +7,16 @@
     "raw_dtg": "261150Z OCT 10",
     "msg_id": "HYDROARC 2027/10(37,44)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2027/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nBALTIC SEA.\nNAVTEX.\n1. NAVTEX STATION PINNEBERG OFF AIR UNTIL 082359Z NOV.\n   PINNEBERG BROADCASTS WILL BE TRANSMITTED FROM\n   NAVTEX STATION NETHERLANDS COAST GUARD.\n2. CANEL THIS MSG 090159Z NOV.",
+    "cancel_date": "2010-11-09T01:59:00+00:00",
     "valid_from": "2010-10-26T11:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-09T01:59:00+00:00",
     "summary": null
   }
 }

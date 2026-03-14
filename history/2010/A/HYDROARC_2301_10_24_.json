@@ -13,13 +13,16 @@
     "raw_dtg": "010118Z DEC 10",
     "msg_id": "HYDROARC 2301/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2379/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24160 (21ST ED).\nLAJINHA LIGHT 22-53.4S 042-00.2W UNLIT.",
+    "cancel_date": "2010-12-10T00:26:00+00:00",
     "valid_from": "2010-12-01T01:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-10T00:26:00+00:00",
     "summary": null
   }
 }

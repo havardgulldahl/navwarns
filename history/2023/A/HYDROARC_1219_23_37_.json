@@ -33,13 +33,16 @@
     "raw_dtg": "011046Z JUN 23",
     "msg_id": "HYDROARC 1219/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1271/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nOFFSHORE WIND FARM CONSTRUCTION AREA ESTABLISHED\nIN AREA BOUND BY\n55-00.60N 001-55.00E, 55-09.40N 002-11.60E,\n54-58.20N 002-32.30E, 54-49.30N 002-16.80E.",
+    "cancel_date": "2023-06-08T09:16:00+00:00",
     "valid_from": "2023-06-01T10:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-06-08T09:16:00+00:00",
     "summary": null
   }
 }

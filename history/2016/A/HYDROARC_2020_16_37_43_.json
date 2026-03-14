@@ -33,13 +33,16 @@
     "raw_dtg": "091025Z AUG 16",
     "msg_id": "HYDROARC 2020/16(37,43)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2357/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20, DNC 21.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V RAMFORM VANGUARD TOWING 12\n8100 METER LONG CABLES IN AREA BOUND BY\n56-47.23N 002-12.04E, 57-11.21N 003-33.12E,\n57-40.29N 003-04.26E, 57-16.13N 001-42.33E.\nSEVEN MILE BERTH REQUESTED.",
+    "cancel_date": "2016-09-11T00:40:00+00:00",
     "valid_from": "2016-08-09T10:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-09-11T00:40:00+00:00",
     "summary": null
   }
 }

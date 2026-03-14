@@ -7,13 +7,17 @@
     "raw_dtg": "270045Z JUL 10",
     "msg_id": "HYDROARC 1433/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 05 AUG",
+      "HYDROARC 1433/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\n1. SURVEY OPERATIONS 30 JUL THRU 04 AUG\n   BY M/V CRUZEIRO DO SUL IN AREA BETWEEN\n   03-44S 04-00S AND 032-15W 032-33.00W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 05 AUG.",
+    "cancel_date": "2010-08-05T00:01:00+00:00",
     "valid_from": "2010-07-27T00:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-05T00:01:00+00:00",
     "summary": null
   }
 }

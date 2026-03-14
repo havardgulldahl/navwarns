@@ -7,13 +7,16 @@
     "raw_dtg": "221500Z DEC 19",
     "msg_id": "HYDROARC 3931/19(57)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 238/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nRACON AT PELICAN POINT LIGHT 22-53.5S 14-26.1E\nUNRELIABLE.",
+    "cancel_date": "2020-01-24T10:25:00+00:00",
     "valid_from": "2019-12-22T15:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-24T10:25:00+00:00",
     "summary": null
   }
 }

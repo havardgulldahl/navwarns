@@ -7,13 +7,17 @@
     "raw_dtg": "030942Z MAY 12",
     "msg_id": "HYDROARC 939/12(44)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 071700Z MAY",
+      "HYDROARC 939/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN BALTIC SEA.\nLITHUANIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 051600Z TO 052359Z,\n   060800Z TO 061600Z AND 071000Z TO 071600Z MAY\n   IN AREA BOUND BY\n   55-37N 020-46E, 55-34N 021-00E,\n   55-25N 021-00E, 55-22N 020-46E,\n   55-25N 020-42E, 55-34N 020-42E.\n2. CANCEL THIS MSG 071700Z MAY.",
+    "cancel_date": "2012-05-07T17:00:00+00:00",
     "valid_from": "2012-05-03T09:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-07T17:00:00+00:00",
     "summary": null
   }
 }

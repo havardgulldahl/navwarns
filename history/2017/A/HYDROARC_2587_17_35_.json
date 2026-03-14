@@ -13,13 +13,16 @@
     "raw_dtg": "250003Z AUG 17",
     "msg_id": "HYDROARC 2587/17(35)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2598/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35013.\nKINNAIRDS HEAD LIGHT 57-41.9N 002-00.2W UNRELIABLE.",
+    "cancel_date": "2017-08-25T13:08:00+00:00",
     "valid_from": "2017-08-25T00:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-08-25T13:08:00+00:00",
     "summary": null
   }
 }

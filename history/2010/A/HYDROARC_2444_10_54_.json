@@ -33,13 +33,17 @@
     "raw_dtg": "171308Z DEC 10",
     "msg_id": "HYDROARC 2444/10(54)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 231900Z DEC",
+      "HYDROARC 2444/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nTURKEY.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0400Z TO 1800Z DAILY\n   21 THRU 23 DEC IN AREA BOUND BY\n   39-00.0N 025-48.0E, 38-53.5N 026-10.0E,\n   38-42.7N 026-10.0E, 38-45.0N 025-48.0E.\n2. CANCEL THIS MSG 231900Z DEC.",
+    "cancel_date": "2010-12-23T19:00:00+00:00",
     "valid_from": "2010-12-17T13:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-23T19:00:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "012330Z FEB 14",
     "msg_id": "HYDROARC 312/14(23,24)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 353/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\nNAVTEX.\nNAVTEX STATION BUENOS AIRES INOPERATIVE.",
+    "cancel_date": "2014-02-05T02:28:00+00:00",
     "valid_from": "2014-02-01T23:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-02-05T02:28:00+00:00",
     "summary": null
   }
 }

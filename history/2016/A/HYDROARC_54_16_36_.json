@@ -13,13 +13,16 @@
     "raw_dtg": "051500Z JAN 16",
     "msg_id": "HYDROARC 54/16(36)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 65/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nCHART 36025.\nPOINT OF AYRE LIGHT 54-24.9N 004-22.1W UNRELIABLE.",
+    "cancel_date": "2016-01-07T14:30:00+00:00",
     "valid_from": "2016-01-05T15:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-01-07T14:30:00+00:00",
     "summary": null
   }
 }

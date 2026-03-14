@@ -13,13 +13,16 @@
     "raw_dtg": "022349Z JAN 23",
     "msg_id": "HYDROARC 18/23(35)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 34/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nTARBAT NESS LIGHT 57-51.9N 003-46.6W UNRELIABLE.",
+    "cancel_date": "2023-01-04T13:12:00+00:00",
     "valid_from": "2023-01-02T23:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-01-04T13:12:00+00:00",
     "summary": null
   }
 }

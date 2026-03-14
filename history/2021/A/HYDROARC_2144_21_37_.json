@@ -13,13 +13,16 @@
     "raw_dtg": "200018Z AUG 21",
     "msg_id": "HYDROARC 2144/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2153/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\nCHANNEL LIGHTSHIP 49-54.4N 002-53.7W UNLIT\nAND OFF STATION.",
+    "cancel_date": "2021-08-20T15:16:00+00:00",
     "valid_from": "2021-08-20T00:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-08-20T15:16:00+00:00",
     "summary": null
   }
 }

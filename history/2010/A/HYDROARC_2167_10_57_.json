@@ -13,13 +13,17 @@
     "raw_dtg": "151239Z NOV 10",
     "msg_id": "HYDROARC 2167/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 181240Z NOV",
+      "HYDROARC 2167/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\n1. SIX METER TANK ADRIFT IN 33-26.9S 003-46.5W.\n2. CANCEL THIS MSG 181240Z NOV.",
+    "cancel_date": "2010-11-18T12:40:00+00:00",
     "valid_from": "2010-11-15T12:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-18T12:40:00+00:00",
     "summary": null
   }
 }

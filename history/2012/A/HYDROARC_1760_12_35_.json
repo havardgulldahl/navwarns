@@ -13,13 +13,16 @@
     "raw_dtg": "012230Z AUG 12",
     "msg_id": "HYDROARC 1760/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1795/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nCHART 35055\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE\nUNLESS AUTHORIZED BY M/V HAVILA PHOENIX OR\nMRCC ABERDEEN WITHIN 2000 METERS OF\n58-13.48N 001-13.16W.",
+    "cancel_date": "2012-08-05T09:54:00+00:00",
     "valid_from": "2012-08-01T22:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-08-05T09:54:00+00:00",
     "summary": null
   }
 }

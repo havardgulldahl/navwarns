@@ -33,13 +33,17 @@
     "raw_dtg": "311332Z JAN 11",
     "msg_id": "HYDROARC 190/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 04 MAR",
+      "HYDROARC 350/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 03 MAR\n   BY M/V OTS YEOMAN IN AREA BOUND BY\n   31-53.8N 032-05.2E, 31-53.7N 032-17.9E,\n   31-42.9N 032-17.7E, 31-43.0N 032-05.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 04 MAR.",
+    "cancel_date": "2011-03-01T10:29:00+00:00",
     "valid_from": "2011-01-31T13:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-01T10:29:00+00:00",
     "summary": null
   }
 }

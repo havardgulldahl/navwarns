@@ -13,13 +13,16 @@
     "raw_dtg": "241651Z JAN 23",
     "msg_id": "HYDROARC 196/23(51)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 308/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nCABO NACHTIGAL LIGHT 28-30.00N 011-20.00W UNLIT.",
+    "cancel_date": "2023-02-07T13:06:00+00:00",
     "valid_from": "2023-01-24T16:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-02-07T13:06:00+00:00",
     "summary": null
   }
 }

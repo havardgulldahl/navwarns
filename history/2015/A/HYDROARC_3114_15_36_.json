@@ -13,13 +13,16 @@
     "raw_dtg": "161400Z DEC 15",
     "msg_id": "HYDROARC 3114/15(36)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 290/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nDNC 20.\nCHART 36025.\nOBSTRUCTION MARKED BY BUOY, YELLOW, FL Y 5 SEC,\nIN 54-46.3N 003-42.1W.",
+    "cancel_date": "2017-01-27T19:01:00+00:00",
     "valid_from": "2015-12-16T14:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-27T19:01:00+00:00",
     "summary": null
   }
 }

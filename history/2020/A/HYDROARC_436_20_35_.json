@@ -13,13 +13,16 @@
     "raw_dtg": "072112Z FEB 20",
     "msg_id": "HYDROARC 436/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 444/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nROVA HEAD LIGHT 60-11.4N 001-08.5W UNLIT.",
+    "cancel_date": "2020-02-08T17:07:00+00:00",
     "valid_from": "2020-02-07T21:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-08T17:07:00+00:00",
     "summary": null
   }
 }

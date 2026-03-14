@@ -33,13 +33,17 @@
     "raw_dtg": "291337Z NOV 10",
     "msg_id": "HYDROARC 2289/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 28 DEC",
+      "HYDROARC 2289/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nISRAEL.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 27 DEC BY\n    M/V RAMFORM VANGUARD IN AREA BOUND BY\n    32-30.1N 034-24.9E, 32-26.8N 034-33.8E,\n    32-02.3N 034-23.1E, 32-05.3N 034-13.7E.\n    TWO MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 28 DEC.",
+    "cancel_date": "2010-12-28T00:01:00+00:00",
     "valid_from": "2010-11-29T13:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-28T00:01:00+00:00",
     "summary": null
   }
 }

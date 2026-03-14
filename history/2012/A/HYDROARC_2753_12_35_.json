@@ -13,13 +13,16 @@
     "raw_dtg": "210102Z NOV 12",
     "msg_id": "HYDROARC 2753/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2759/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nCHART 35096\nEILEANAN GLASA DEARG SGEIR LIGHT 56-32.3N 005-54.7W UNRELIABLE.",
+    "cancel_date": "2012-11-21T10:27:00+00:00",
     "valid_from": "2012-11-21T01:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-11-21T10:27:00+00:00",
     "summary": null
   }
 }

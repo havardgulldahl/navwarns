@@ -27,13 +27,16 @@
     "raw_dtg": "081200Z AUG 20",
     "msg_id": "HYDROARC 2463/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2868/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20, DNC 21.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V HYDROGRAF TOWING EQUIPMENT\nALONG TRACKLINE JOINING\n52-43.6N 001-41.7E, 52-42.4N 002-24.0E,\n52-45.8N 003-02.4E,52-55.9N 003-25.0E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2020-09-19T11:58:00+00:00",
     "valid_from": "2020-08-08T12:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-09-19T11:58:00+00:00",
     "summary": null
   }
 }

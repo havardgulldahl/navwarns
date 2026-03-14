@@ -7,13 +7,17 @@
     "raw_dtg": "090552Z JAN 10",
     "msg_id": "HYDROARC 42/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 120001Z JAN",
+      "HYDROARC 42/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nAZORES.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1100Z TO 2300Z DAILY:\n   A. 10 JAN WITHIN 20 MILES OF 37-30N 028-00W.\n   B. 10 JAN WITHIN 20 MILES OF 36-30N 028-00W.\n   C. 11 JAN WITHIN 20 MILES OF 36-40N 023-30W.\n2. CANCEL THIS MSG 120001Z JAN.",
+    "cancel_date": "2010-01-12T00:01:00+00:00",
     "valid_from": "2010-01-09T05:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-12T00:01:00+00:00",
     "summary": null
   }
 }

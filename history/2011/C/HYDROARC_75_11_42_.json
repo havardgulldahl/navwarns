@@ -33,13 +33,17 @@
     "raw_dtg": "230818Z JUN 11",
     "msg_id": "HYDROARC 75/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 021800Z JUL",
+      "HYDROARC 75/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 1530Z TO 1700Z DAILY\n   27 JUN THRU 02 JUL IN AREA BOUND BY\n   75-25.00N 056-30.00E, 76-10.00N 059-30.00E,\n   76-01.00N 060-04.00E, 75-22.23N 057-02.45E.\n2. CANCEL THIS MSG 021800Z JUL.",
+    "cancel_date": "2011-07-02T18:00:00+00:00",
     "valid_from": "2011-06-23T08:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-02T18:00:00+00:00",
     "summary": null
   }
 }

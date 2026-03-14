@@ -13,13 +13,17 @@
     "raw_dtg": "170506Z OCT 11",
     "msg_id": "HYDROARC 1703/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 200515Z OCT",
+      "HYDROARC 1703/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF CADIZ.\n1. DERELICT TEN METER VESSEL ADRIFT VICINITY\n   35-41.7N 006-46.9W AT 162220Z OCT.\n2. CANCEL THIS MSG 200515Z OCT.",
+    "cancel_date": "2011-10-20T05:15:00+00:00",
     "valid_from": "2011-10-17T05:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-20T05:15:00+00:00",
     "summary": null
   }
 }

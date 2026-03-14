@@ -13,13 +13,16 @@
     "raw_dtg": "122025Z JAN 16",
     "msg_id": "HYDROARC 101/16(36,37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 101/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nFRANCE.\nDNC 20.\nCHART 36005.\nCAP DE CARTERET LIGHT 49-22.4N 001-48.4W UNRELIABLE.",
+    "cancel_date": "2016-01-13T18:12:00+00:00",
     "valid_from": "2016-01-12T20:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-01-13T18:12:00+00:00",
     "summary": null
   }
 }

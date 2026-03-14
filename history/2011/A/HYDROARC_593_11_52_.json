@@ -33,13 +33,17 @@
     "raw_dtg": "091324Z APR 11",
     "msg_id": "HYDROARC 593/11(52)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 02 MAY",
+      "HYDROARC 697/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 01 MAY\n   BY M/V BGP CHALLENGER TOWING CABLES\n   IN AREA BOUND BY\n   37-05.0N 004-45.0E, 37-45.0N 008-25.0E,\n   36-56.3N 008-38.4E, 36-53.4N 004-45.0E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 02 MAY.",
+    "cancel_date": "2011-04-25T13:30:00+00:00",
     "valid_from": "2011-04-09T13:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-25T13:30:00+00:00",
     "summary": null
   }
 }

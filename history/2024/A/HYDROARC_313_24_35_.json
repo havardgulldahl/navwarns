@@ -13,13 +13,16 @@
     "raw_dtg": "142126Z FEB 24",
     "msg_id": "HYDROARC 313/24(35)",
     "year": 2024,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 336/24"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nBASS ROCK LIGHT 56-04.6N 002-38.5W\nUNLIT.",
+    "cancel_date": "2024-02-17T18:05:00+00:00",
     "valid_from": "2024-02-14T21:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2024-02-17T18:05:00+00:00",
     "summary": null
   }
 }

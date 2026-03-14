@@ -13,13 +13,16 @@
     "raw_dtg": "101501Z JUL 12",
     "msg_id": "HYDROARC 1528/12(36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1960/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-WEST COAST.\nLUNDY.\nCHART 36035\nFOG SIGNAL AT SOUTH COAST LIGHT 51-09.7N 004-39.4W\nDISCONTINUED.",
+    "cancel_date": "2012-08-25T09:55:00+00:00",
     "valid_from": "2012-07-10T15:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-08-25T09:55:00+00:00",
     "summary": null
   }
 }

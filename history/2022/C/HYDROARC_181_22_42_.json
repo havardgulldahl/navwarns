@@ -13,13 +13,16 @@
     "raw_dtg": "011832Z AUG 22",
     "msg_id": "HYDROARC 181/22(42)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 146/23"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BARENTS SEA.\nDNC 22.\nSCIENTIFIC MOORING, AT DEPTH 15 METERS,\nESTABLISHED UNTIL FURTHER NOTICE IN\n74-45.96N 044-55.44E.\nONE MILE BERTH REQUESTED.",
+    "cancel_date": "2023-08-01T18:35:00+00:00",
     "valid_from": "2022-08-01T18:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-08-01T18:35:00+00:00",
     "summary": null
   }
 }

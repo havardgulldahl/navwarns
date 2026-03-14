@@ -13,13 +13,16 @@
     "raw_dtg": "211517Z MAR 16",
     "msg_id": "HYDROARC 692/16(51)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 770/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCHART 51200, 51220.\nRABAT LIGHT 34-01.9N 006-50.7W UNLIT.",
+    "cancel_date": "2016-03-31T08:04:00+00:00",
     "valid_from": "2016-03-21T15:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-03-31T08:04:00+00:00",
     "summary": null
   }
 }

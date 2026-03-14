@@ -13,13 +13,16 @@
     "raw_dtg": "301153Z APR 21",
     "msg_id": "HYDROARC 1196/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1553/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nDANGEROUS WRECK, LEAST DEPTH 10.3 METERS,\nIN 52-22.2N 002-02.9E.",
+    "cancel_date": "2021-06-10T11:53:00+00:00",
     "valid_from": "2021-04-30T11:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-06-10T11:53:00+00:00",
     "summary": null
   }
 }

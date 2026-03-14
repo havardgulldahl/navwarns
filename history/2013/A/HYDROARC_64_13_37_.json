@@ -13,13 +13,16 @@
     "raw_dtg": "072147Z JAN 13",
     "msg_id": "HYDROARC 64/13(37)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 99/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nCHART 37129\nRUYTINGEN EAST BUOY 51-14.5N 002-18.0E UNLIT.",
+    "cancel_date": "2013-01-11T15:08:00+00:00",
     "valid_from": "2013-01-07T21:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-01-11T15:08:00+00:00",
     "summary": null
   }
 }

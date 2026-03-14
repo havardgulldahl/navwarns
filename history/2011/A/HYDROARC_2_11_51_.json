@@ -13,13 +13,16 @@
     "raw_dtg": "010918Z JAN 11",
     "msg_id": "HYDROARC 2/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 258/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED IN 09-11.8N 024-17.5W.\nVESSELS IN VICINITY ARE REQUESTED TO KEEP A\nSHARP LOOKOUT, ASSIST IF POSSIBLE. REPORTS\nTO MRCC DAKAR, PHONE: 22 133 826 5001,\nFAX: 22 133 826 5000.",
+    "cancel_date": "2011-02-12T10:13:00+00:00",
     "valid_from": "2011-01-01T09:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-12T10:13:00+00:00",
     "summary": null
   }
 }

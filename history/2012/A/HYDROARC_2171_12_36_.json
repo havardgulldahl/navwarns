@@ -13,13 +13,16 @@
     "raw_dtg": "200304Z SEP 12",
     "msg_id": "HYDROARC 2171/12(36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2181/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nISLE OF MAN.\nCHART 36025\nPOINT OF AYRE LIGHT 54-24.9N 004-22.1W UNRELIABLE.",
+    "cancel_date": "2012-09-20T16:34:00+00:00",
     "valid_from": "2012-09-20T03:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-09-20T16:34:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "020510Z APR 15",
     "msg_id": "HYDROARC 771/15(37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 773/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nFRANCE-NORTHWEST COAST.\nDNC 20.\nCHART 37320.\nLA JUMENT LIGHT 48-25.3N 005-08.0W UNLIT.",
+    "cancel_date": "2015-04-02T16:06:00+00:00",
     "valid_from": "2015-04-02T05:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-04-02T16:06:00+00:00",
     "summary": null
   }
 }

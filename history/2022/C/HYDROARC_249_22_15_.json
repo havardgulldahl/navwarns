@@ -13,13 +13,16 @@
     "raw_dtg": "300103Z AUG 22",
     "msg_id": "HYDROARC 249/22(15)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 298/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "MCCLINTOCK CHANNEL.\nCANADA.\nDNC 28.\nTAYLOR POINT RACON, 69-37.30N 095-35.50W\nOUT OF SERVICE.",
+    "cancel_date": "2022-09-30T13:14:00+00:00",
     "valid_from": "2022-08-30T01:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-09-30T13:14:00+00:00",
     "summary": null
   }
 }

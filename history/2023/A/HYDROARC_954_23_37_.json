@@ -13,13 +13,16 @@
     "raw_dtg": "032134Z MAY 23",
     "msg_id": "HYDROARC 954/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 965/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nLOWESTOFT LIGHT 52-29.20N 001-45.30E UNRELIABLE.",
+    "cancel_date": "2023-05-04T14:13:00+00:00",
     "valid_from": "2023-05-03T21:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-05-04T14:13:00+00:00",
     "summary": null
   }
 }

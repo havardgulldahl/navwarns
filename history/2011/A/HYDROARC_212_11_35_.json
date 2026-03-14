@@ -13,13 +13,16 @@
     "raw_dtg": "030554Z FEB 11",
     "msg_id": "HYDROARC 212/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 221/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nHOXA HEAD LIGHT 58-49.3N 003-02.1W UNLIT.",
+    "cancel_date": "2011-02-04T13:46:00+00:00",
     "valid_from": "2011-02-03T05:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-04T13:46:00+00:00",
     "summary": null
   }
 }

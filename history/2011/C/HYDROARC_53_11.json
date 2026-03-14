@@ -7,13 +7,17 @@
     "raw_dtg": "281142Z APR 11",
     "msg_id": "HYDROARC 53/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 040600Z MAY",
+      "HYDROARC 53/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GPS SATELLITE SYSTEM.\n1. PRN 11 UNUSABLE 031700Z TO 040500Z MAY.\n2. CANCEL THIS MSG 040600Z MAY.",
+    "cancel_date": "2011-05-04T06:00:00+00:00",
     "valid_from": "2011-04-28T11:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-04T06:00:00+00:00",
     "summary": null
   }
 }

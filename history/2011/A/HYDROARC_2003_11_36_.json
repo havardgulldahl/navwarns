@@ -13,13 +13,17 @@
     "raw_dtg": "270753Z NOV 11",
     "msg_id": "HYDROARC 2003/11(36)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 300750Z NOV",
+      "HYDROARC 2013/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SAINT GEORGES CHANNEL.\n1. DERELICT 81 METER M/V AND DEBRIS\n   ADRIFT IN 52-52.6N 005-04.3W.\n2. CANCEL THIS MSG 300750Z NOV.",
+    "cancel_date": "2011-11-28T13:48:00+00:00",
     "valid_from": "2011-11-27T07:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-28T13:48:00+00:00",
     "summary": null
   }
 }

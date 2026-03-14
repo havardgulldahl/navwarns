@@ -7,13 +7,17 @@
     "raw_dtg": "091853Z MAY 12",
     "msg_id": "HYDROARC 981/12(23,29)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 121853Z MAY",
+      "HYDROARC 981/12"
+    ],
     "hazard_type": "ice and icebergs",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nSCOTIA SEA.\nICE.\n1. ICEBERG C19C REPORTED IN 59-21S 051-08W ON 09 MAY.\n2. CANCEL THIS MSG 121853Z MAY.",
+    "cancel_date": "2012-05-12T18:53:00+00:00",
     "valid_from": "2012-05-09T18:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-12T18:53:00+00:00",
     "summary": null
   }
 }

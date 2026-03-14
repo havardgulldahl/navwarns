@@ -7,13 +7,17 @@
     "raw_dtg": "250901Z JUN 11",
     "msg_id": "HYDROARC 1046/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 291700Z JUN",
+      "HYDROARC 1046/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nRADIO SERVICES.\n1. MRCC CLYDE 56-30N 006-59W MF DSC\n   INOPERATIVE 291000Z TO 291600Z JUN.\n2. CANCEL THIS MSG 291700Z JUN.",
+    "cancel_date": "2011-06-29T17:00:00+00:00",
     "valid_from": "2011-06-25T09:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-29T17:00:00+00:00",
     "summary": null
   }
 }

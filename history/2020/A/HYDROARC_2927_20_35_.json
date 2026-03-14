@@ -13,13 +13,16 @@
     "raw_dtg": "252109Z SEP 20",
     "msg_id": "HYDROARC 2927/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2930/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nSULE SKERRY LIGHT 59-05.1N 004-24.5W UNRELIABLE.",
+    "cancel_date": "2020-09-26T08:54:00+00:00",
     "valid_from": "2020-09-25T21:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-09-26T08:54:00+00:00",
     "summary": null
   }
 }

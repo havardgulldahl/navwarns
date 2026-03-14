@@ -13,13 +13,16 @@
     "raw_dtg": "100620Z AUG 15",
     "msg_id": "HYDROARC 1948/15(37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2038/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTH COAST.\nDNC 20.\nCHART 37015.\nFOG SIGNAL AT BILL OF PORTLAND LIGHT\n50-30.9N 002-27.4W INOPERATIVE.",
+    "cancel_date": "2015-08-19T20:24:00+00:00",
     "valid_from": "2015-08-10T06:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-08-19T20:24:00+00:00",
     "summary": null
   }
 }

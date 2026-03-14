@@ -13,13 +13,16 @@
     "raw_dtg": "232312Z JAN 15",
     "msg_id": "HYDROARC 201/15(35,36)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 205/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nWALES-SOUTH COAST.\nDNC 20.\nCHART 35024.\nRACON AT WEST HAWK BUOY 51-31.4N 004-23.6W INOPERATIVE.",
+    "cancel_date": "2015-01-24T17:40:00+00:00",
     "valid_from": "2015-01-23T23:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-24T17:40:00+00:00",
     "summary": null
   }
 }

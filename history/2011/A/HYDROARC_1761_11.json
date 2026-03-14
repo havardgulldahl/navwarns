@@ -7,13 +7,17 @@
     "raw_dtg": "252051Z OCT 11",
     "msg_id": "HYDROARC 1761/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 071500Z NOV",
+      "HYDROARC 1761/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nSOUTH AFRICA.\nRADIO SERVICES.\n1. CAPE NAVAL WEATHER FAX OFF AIR\n   280600Z OCT TO 071400Z NOV.\n2. CANCEL THIS MSG 071500Z NOV.",
+    "cancel_date": "2011-11-07T15:00:00+00:00",
     "valid_from": "2011-10-25T20:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-07T15:00:00+00:00",
     "summary": null
   }
 }

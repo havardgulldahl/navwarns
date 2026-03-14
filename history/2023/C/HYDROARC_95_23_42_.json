@@ -50,12 +50,14 @@
     "msg_id": "HYDROARC 95/23(42)",
     "year": 2023,
     "cancellations": [
-      "THIS MSG 032000Z JUN 23"
+      "THIS MSG 032000Z JUN 23",
+      "HYDROARC 95/23"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. MISSILE OPERATIONS 0500Z TO 1900Z\n   DAILY 01 THRU 03 JUN IN AREA BOUND BY\n   69-47.30N 032-41.48E, 69-52.32N 033-32.30E,\n   69-52.30N 034-15.00E, 69-32.00N 034-15.00E,\n   69-32.00N 033-30.00E, 69-25.18N 033-13.00E,\n   69-30.00N 032-50.00E, 69-34.80N 032-41.48E.\n2. CANCEL THIS MSG 032000Z JUN 23.",
+    "cancel_date": "2023-06-03T20:00:00+00:00",
     "valid_from": "2023-05-31T03:28:00+00:00",
     "valid_until": "2023-06-03T20:00:00+00:00",
     "summary": null

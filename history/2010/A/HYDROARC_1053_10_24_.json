@@ -13,13 +13,17 @@
     "raw_dtg": "080258Z JUN 10",
     "msg_id": "HYDROARC 1053/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 JUL",
+      "HYDROARC 1053/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nNGA CHART 24180 (15TH ED).\n1. RADIOBEACON AT CANAL DOS ABROLHOS LIGHT\n   17-57.8S 038-41.5W OFF AIR UNTIL 30 JUN.\n2. CANCEL THIS MSG 01 JUL.",
+    "cancel_date": "2010-07-01T00:01:00+00:00",
     "valid_from": "2010-06-08T02:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-07-01T00:01:00+00:00",
     "summary": null
   }
 }

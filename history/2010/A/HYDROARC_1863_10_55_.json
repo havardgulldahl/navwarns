@@ -13,13 +13,17 @@
     "raw_dtg": "010741Z OCT 10",
     "msg_id": "HYDROARC 1863/10(55)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 09 OCT",
+      "HYDROARC 1863/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL 08 OCT\n    VICINITY OF TRACKLINE BETWEEN\n    44-31.95N 029-28.09E AND 44-32.71N 029-26.81E.\n    WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 09 OCT.",
+    "cancel_date": "2010-10-09T00:01:00+00:00",
     "valid_from": "2010-10-01T07:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-09T00:01:00+00:00",
     "summary": null
   }
 }

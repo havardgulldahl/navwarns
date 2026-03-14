@@ -13,13 +13,16 @@
     "raw_dtg": "070006Z OCT 22",
     "msg_id": "HYDROARC 2544/22(35)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2559/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nBELL ROCK LIGHT 56-26.10N 002-23.20W UNLIT.",
+    "cancel_date": "2022-10-08T19:28:00+00:00",
     "valid_from": "2022-10-07T00:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-10-08T19:28:00+00:00",
     "summary": null
   }
 }

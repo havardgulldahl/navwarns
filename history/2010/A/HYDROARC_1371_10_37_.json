@@ -13,13 +13,16 @@
     "raw_dtg": "181900Z JUL 10",
     "msg_id": "HYDROARC 1371/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1380/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nNGA CHART 37121 (11TH ED).\nRACON AT VARNE LIGHTSHIP 51-01.2N 001-24.0E INOPERATIVE.",
+    "cancel_date": "2010-07-19T16:14:00+00:00",
     "valid_from": "2010-07-18T19:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-07-19T16:14:00+00:00",
     "summary": null
   }
 }

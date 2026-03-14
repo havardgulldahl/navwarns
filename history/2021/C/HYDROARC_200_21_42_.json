@@ -7,13 +7,16 @@
     "raw_dtg": "280742Z AUG 21",
     "msg_id": "HYDROARC 200/21(42)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 217/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nWRECK IN 68-33N 073-33E.",
+    "cancel_date": "2021-09-08T18:40:00+00:00",
     "valid_from": "2021-08-28T07:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-09-08T18:40:00+00:00",
     "summary": null
   }
 }

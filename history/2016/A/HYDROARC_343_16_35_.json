@@ -13,13 +13,16 @@
     "raw_dtg": "090938Z FEB 16",
     "msg_id": "HYDROARC 343/16(35)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 349/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nSUMBURGH HEAD LIGHT 59-51.2N 001-16.5W UNRELIABLE.",
+    "cancel_date": "2016-02-09T16:51:00+00:00",
     "valid_from": "2016-02-09T09:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-02-09T16:51:00+00:00",
     "summary": null
   }
 }

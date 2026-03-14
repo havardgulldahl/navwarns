@@ -13,13 +13,17 @@
     "raw_dtg": "191125Z JAN 11",
     "msg_id": "HYDROARC 115/11(36,51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 221125Z JAN",
+      "HYDROARC 115/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. ODAS BUOY ADRIFT VICINITY 41-54.1N 016-02.2W\n   AT 181934Z JAN.\n2. CANCEL THIS MSG 221125Z JAN.",
+    "cancel_date": "2011-01-22T11:25:00+00:00",
     "valid_from": "2011-01-19T11:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-22T11:25:00+00:00",
     "summary": null
   }
 }

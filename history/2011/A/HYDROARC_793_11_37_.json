@@ -13,13 +13,16 @@
     "raw_dtg": "101055Z MAY 11",
     "msg_id": "HYDROARC 793/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 843/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "FRANCE-NORTHWEST COAST.\nNGA CHART 37320 (16TH ED).\nAR MEN LIGHT 48-03.0N 004-59.8W UNLIT.",
+    "cancel_date": "2011-05-18T10:56:00+00:00",
     "valid_from": "2011-05-10T10:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-18T10:56:00+00:00",
     "summary": null
   }
 }

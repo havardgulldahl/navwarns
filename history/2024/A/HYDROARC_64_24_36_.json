@@ -13,13 +13,16 @@
     "raw_dtg": "090852Z JAN 24",
     "msg_id": "HYDROARC 64/24(36)",
     "year": 2024,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 66/24"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nBARROW WIND FARM TURBINE A07\n54-00.50N 003-18.20W UNLIT.",
+    "cancel_date": "2024-01-09T14:08:00+00:00",
     "valid_from": "2024-01-09T08:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2024-01-09T14:08:00+00:00",
     "summary": null
   }
 }

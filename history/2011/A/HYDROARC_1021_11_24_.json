@@ -7,13 +7,17 @@
     "raw_dtg": "210105Z JUN 11",
     "msg_id": "HYDROARC 1021/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 JUL",
+      "HYDROARC 1086/11"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. OCEANOGRAPHIC OPERATIONS IN PROGRESS\n   UNTIL 15 JUL BY M/V ANTARES\n   TOWING 20 METER LONG CABLE\n   IN AREA BETWEEN\n   23-00S 23-10S AND 042-50W 043-22W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 JUL.",
+    "cancel_date": "2011-07-01T02:09:00+00:00",
     "valid_from": "2011-06-21T01:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-01T02:09:00+00:00",
     "summary": null
   }
 }

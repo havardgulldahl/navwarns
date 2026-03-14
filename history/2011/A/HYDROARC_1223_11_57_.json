@@ -7,13 +7,16 @@
     "raw_dtg": "012308Z AUG 11",
     "msg_id": "HYDROARC 1223/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1499/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ FROM\nF/V CHIEN TSAO NO.322 IN 25-17S 005-19E\nAT 011800Z AUG. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO\nMRCC CAPE TOWN OR CAPE TOWN RADIO.",
+    "cancel_date": "2011-09-17T09:35:00+00:00",
     "valid_from": "2011-08-01T23:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-17T09:35:00+00:00",
     "summary": null
   }
 }

@@ -37,13 +37,16 @@
     "raw_dtg": "121847Z AUG 12",
     "msg_id": "HYDROARC 120/12(43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 188/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V NORDIC EXPLORER TOWING FIVE MILE LONG\nCABLE IN AREA BOUND BY\n73-39.70N 015-12.30E, 70-43.20N 015-45.00E,\n71-07.33N 022-19.50E, 72-18.45N 023-43.00E,\n73-43.37N 021-06.50E.\nSIX MILE BERTH REQUESTED.",
+    "cancel_date": "2012-09-24T07:28:00+00:00",
     "valid_from": "2012-08-12T18:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-09-24T07:28:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "221258Z FEB 11",
     "msg_id": "HYDROARC 312/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 25 MAR",
+      "HYDROARC 312/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 24 MAR\n   BY M/V GEYO EGEL, M/V MAYNTORT EYLEM\n   AND M/V SHARONA IN AREA BETWEEN\n   31-39N 32-11N AND 029-35E 030-14E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 25 MAR.",
+    "cancel_date": "2011-03-25T00:01:00+00:00",
     "valid_from": "2011-02-22T12:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-25T00:01:00+00:00",
     "summary": null
   }
 }

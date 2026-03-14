@@ -13,13 +13,16 @@
     "raw_dtg": "312031Z MAY 20",
     "msg_id": "HYDROARC 1826/20(52)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2007/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nDNC 08.\nCAP BENGUT LIGHT 36-55.3N 003-53.6E UNLIT.",
+    "cancel_date": "2021-08-02T12:43:00+00:00",
     "valid_from": "2020-05-31T20:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-08-02T12:43:00+00:00",
     "summary": null
   }
 }

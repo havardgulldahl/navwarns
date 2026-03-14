@@ -57,13 +57,17 @@
     "raw_dtg": "291241Z JUN 11",
     "msg_id": "HYDROARC 1080/11(52)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 02 AUG",
+      "HYDROARC 1080/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "TUNISIA-NORTHEAST COAST.\n1. SEISMIC SURVEY 01 JUL THRU 01 AUG BY\n   M/V PRINCESS IN AREA BOUND BY\n   37-52.8N 011-05.6E, 37-43.5N 011-34.7E,\n   37-17.0N 011-44.1E, 37-16.0N 011-42.5E,\n   37-19.9N 011-28.9E, 37-15.6N 011-13.3E,\n   37-15.6N 010-52.2E, 37-17.6N 010-34.3E\n   37-24.9N 010-24.3E, 37-46.2N 010-52.2E.\n   1000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 02 AUG.",
+    "cancel_date": "2011-08-02T00:01:00+00:00",
     "valid_from": "2011-06-29T12:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-02T00:01:00+00:00",
     "summary": null
   }
 }

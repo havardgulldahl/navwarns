@@ -13,13 +13,17 @@
     "raw_dtg": "302140Z APR 11",
     "msg_id": "HYDROARC 737/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 100101Z MAY",
+      "HYDROARC 778/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nCANARY ISLANDS.\n1. CABLE LAYING OPERATIONS 020001Z TO 100001Z MAY\n   BY CABLESHIP ILE DE BREHAT\n   ALONG TRACKLINE BETWEEN\n   31-21.9N 013-55.9W AND 28-25.1N 015-33.5W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 100101Z MAY.",
+    "cancel_date": "2011-05-08T06:32:00+00:00",
     "valid_from": "2011-04-30T21:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-08T06:32:00+00:00",
     "summary": null
   }
 }

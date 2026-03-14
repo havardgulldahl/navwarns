@@ -13,13 +13,16 @@
     "raw_dtg": "280930Z SEP 14",
     "msg_id": "HYDROARC 254/14(15)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 259/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nMCTS IQALUIT REMOTE STATION RESOLUTE 74-44.8N 095-00.2W\nUNABLE TO TRANSMIT RADIOFACSIMILE.",
+    "cancel_date": "2014-09-28T20:53:00+00:00",
     "valid_from": "2014-09-28T09:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-09-28T20:53:00+00:00",
     "summary": null
   }
 }

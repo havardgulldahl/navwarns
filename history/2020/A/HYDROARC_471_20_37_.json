@@ -13,13 +13,16 @@
     "raw_dtg": "101304Z FEB 20",
     "msg_id": "HYDROARC 471/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 535/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nFOXTROT 3 LIGHTSHIP 51-23.8N 002-00.6E\nUNRELIABLE.",
+    "cancel_date": "2020-02-14T14:31:00+00:00",
     "valid_from": "2020-02-10T13:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-14T14:31:00+00:00",
     "summary": null
   }
 }

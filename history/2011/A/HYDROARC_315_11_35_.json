@@ -13,13 +13,17 @@
     "raw_dtg": "221501Z FEB 11",
     "msg_id": "HYDROARC 315/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 221800Z FEB",
+      "HYDROARC 315/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nNGA CHART 35172 (2ND ED).\n1. DGPS STATION AT SUMBURGH HEAD LIGHT\n   59-51.3N 001-16.4W UNUSABLE\n   221500Z TO 221700Z FEB.\n2. CANCEL THIS MSG 221800Z FEB.",
+    "cancel_date": "2011-02-22T18:00:00+00:00",
     "valid_from": "2011-02-22T15:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-22T18:00:00+00:00",
     "summary": null
   }
 }

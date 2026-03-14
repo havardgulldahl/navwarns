@@ -7,13 +7,17 @@
     "raw_dtg": "201227Z APR 11",
     "msg_id": "HYDROARC 672/11(52)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 222359Z APR",
+      "HYDROARC 672/11"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\n1. OCEANOGRAPHIC OPERATIONS 220100Z TO 222300Z APR\n   BY M/V METEOR ALONG TRACKLINE BETWEEN\n   38-39N 005-36E AND 38-27N 005-00E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 222359Z APR.",
+    "cancel_date": "2011-04-22T23:59:00+00:00",
     "valid_from": "2011-04-20T12:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-22T23:59:00+00:00",
     "summary": null
   }
 }

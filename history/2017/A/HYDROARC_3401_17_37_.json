@@ -13,13 +13,16 @@
     "raw_dtg": "221215Z OCT 17",
     "msg_id": "HYDROARC 3401/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3476/17"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37095.\nNAB TOWER 50-40.1N 000-57.2W RACON INOPERATIVE.",
+    "cancel_date": "2017-10-26T12:36:00+00:00",
     "valid_from": "2017-10-22T12:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-10-26T12:36:00+00:00",
     "summary": null
   }
 }

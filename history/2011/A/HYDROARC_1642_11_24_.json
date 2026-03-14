@@ -7,13 +7,17 @@
     "raw_dtg": "070009Z OCT 11",
     "msg_id": "HYDROARC 1642/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 140359Z OCT",
+      "HYDROARC 1642/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 140259Z OCT\n   BY M/V NPS SYMPHONY TOWING TEN THREE METER\n   LONG CABLES IN AREA BOUND BY\n   25-05S 042-25W, 25-05S 041-44W,\n   24-19S 041-44W, 24-20S 042-24W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 140359Z OCT.",
+    "cancel_date": "2011-10-14T03:59:00+00:00",
     "valid_from": "2011-10-07T00:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-14T03:59:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "010247Z JAN 12",
     "msg_id": "HYDROARC 1/12(35,36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 5/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nCHART 35015\nLADY ISLE LIGHT 55-31.6N 004-44.0W UNRELIABLE\nAND RACON INOPERATIVE.",
+    "cancel_date": "2012-01-01T18:33:00+00:00",
     "valid_from": "2012-01-01T02:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-01T18:33:00+00:00",
     "summary": null
   }
 }

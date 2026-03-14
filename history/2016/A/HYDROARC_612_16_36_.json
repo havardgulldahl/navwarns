@@ -13,13 +13,16 @@
     "raw_dtg": "131732Z MAR 16",
     "msg_id": "HYDROARC 612/16(36)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 614/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WALES-NORTHWEST COAST.\nDNC 20.\nCHART 36006.\nSKERRIES LIGHT 53-25.3N 004-36.5W UNLIT.",
+    "cancel_date": "2016-03-13T18:59:00+00:00",
     "valid_from": "2016-03-13T17:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-03-13T18:59:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "270920Z APR 15",
     "msg_id": "HYDROARC 1015/15(36)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1049/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTH COAST.\nPENZANCE BAY.\nDNC 20.\nCHART 36049.\nTHE GEAR LIGHT 50-06.6N 005-31.6W UNLIT.",
+    "cancel_date": "2015-04-30T16:45:00+00:00",
     "valid_from": "2015-04-27T09:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-04-30T16:45:00+00:00",
     "summary": null
   }
 }

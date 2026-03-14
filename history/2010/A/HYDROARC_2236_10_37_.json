@@ -13,13 +13,17 @@
     "raw_dtg": "221413Z NOV 10",
     "msg_id": "HYDROARC 2236/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 251410Z NOV",
+      "HYDROARC 2236/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTH COAST.\n1. 12 CONTAINERS ADRIFT IN 50-09.3N 004-10.7W\n   AT 221116Z NOV.\n2. CANCEL THIS MSG 251410Z NOV.",
+    "cancel_date": "2010-11-25T14:10:00+00:00",
     "valid_from": "2010-11-22T14:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-25T14:10:00+00:00",
     "summary": null
   }
 }

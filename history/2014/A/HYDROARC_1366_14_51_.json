@@ -37,13 +37,16 @@
     "raw_dtg": "011641Z JUN 14",
     "msg_id": "HYDROARC 1366/14(51)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1366/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nSEISMIC SURVEY 04 JUN UNTIL FURTHER NOTICE\nBY M/V GECO TRITON TOWING 8500 METER LONG\nCABLE IN AREA BOUND BY\n20-32.6N 020-21.3W, 20-32.6N 017-41.4W,\n19-08.3N 016-45.8W, 18-14.0N 017-24.2W,\n18-14.0N 020-21.3W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2014-06-05T00:01:00+00:00",
     "valid_from": "2014-06-01T16:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-06-05T00:01:00+00:00",
     "summary": null
   }
 }

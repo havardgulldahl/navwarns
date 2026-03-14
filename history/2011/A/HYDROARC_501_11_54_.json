@@ -33,13 +33,17 @@
     "raw_dtg": "251532Z MAR 11",
     "msg_id": "HYDROARC 501/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 MAY",
+      "HYDROARC 637/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "SOUTHERN ADRIATIC SEA.\nSTRAIT OF OTRANTO.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 30 APR BY\n   M/V RAMFORM VANGUARD IN AREA BOUND BY\n   40-23.1N 018-48.0E, 40-24.0N 019-10.1E,\n   41-04.0N 019-09.1E, 41-03.1N 018-46.1E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 MAY.",
+    "cancel_date": "2011-04-16T09:14:00+00:00",
     "valid_from": "2011-03-25T15:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-16T09:14:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "120256Z JUN 23",
     "msg_id": "HYDROARC 109/23(15)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 235/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA.\nDNC 28.\nMCTS IQALUIT REMOTE STATION RESOLUTE\n74-45N 094-58W HF AND DSC SERVICES OFF AIR.",
+    "cancel_date": "2023-09-29T23:24:00+00:00",
     "valid_from": "2023-06-12T02:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-09-29T23:24:00+00:00",
     "summary": null
   }
 }

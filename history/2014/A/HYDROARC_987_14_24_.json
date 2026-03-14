@@ -13,13 +13,16 @@
     "raw_dtg": "110134Z APR 14",
     "msg_id": "HYDROARC 987/14(24)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1042/14"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nCHART 24140\nLAJE DA CONCEICAO LIGHT 24-14.2S 046-41.4W UNLIT.",
+    "cancel_date": "2014-04-18T12:20:00+00:00",
     "valid_from": "2014-04-11T01:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-04-18T12:20:00+00:00",
     "summary": null
   }
 }

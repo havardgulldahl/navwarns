@@ -13,13 +13,17 @@
     "raw_dtg": "091738Z NOV 11",
     "msg_id": "HYDROARC 1869/11(36)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 170059Z NOV",
+      "HYDROARC 1869/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. CABLE LAYING OPERATIONS 120001Z TO 162359Z NOV\n   BY CABLESHIP ILE DE BATZ ALONG TRACKLINE BETWEEN\n   47-17.5N 008-43.3W AND 46-58.0N 008-50.2W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 170059Z NOV.",
+    "cancel_date": "2011-11-17T00:59:00+00:00",
     "valid_from": "2011-11-09T17:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-17T00:59:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "222314Z MAY 10",
     "msg_id": "HYDROARC 925/10(53)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 252310Z MAY",
+      "HYDROARC 925/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nSTRAIT OF SICILY.\n1. SIX METER TANK ADRIFT VICINITY\n   34-29N 014-17E AT 201600Z MAY.\n2. CANCEL THIS MSG 252310Z MAY.",
+    "cancel_date": "2010-05-25T23:10:00+00:00",
     "valid_from": "2010-05-22T23:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-25T23:10:00+00:00",
     "summary": null
   }
 }

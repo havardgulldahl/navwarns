@@ -7,13 +7,17 @@
     "raw_dtg": "310101Z JAN 12",
     "msg_id": "HYDROARC 247/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 301900Z MAR",
+      "HYDROARC 247/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AFRICA-NORTHWEST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 0800Z TO 1800Z DAILY\n   02 FEB THRU 30 MAR:\n   A. WITHIN 20 MILES OF 33-41N 008-03W\n      BETWEEN 270 DEGREES AND 000 DEGREES.\n   B. WITHIN 20 MILES OF 29-53N 010-15W\n      BETWEEN 270 DEGREES AND 000 DEGREES.\n   C. WITHIN 20 MILES OF 27-00N 013-50W\n      BETWEEN 270 DEGREES AND 000 DEGREES.\n   D. WITHIN 20 MILES OF 23-35N 017-00W\n      BETWEEN 270 DEGREES AND 000 DEGREES.\n   E. WITHIN 20 MILES OF 35-22N 004-05W\n      BETWEEN 270 DEGREES AND 000 DEGREES.\n2. CANCEL THIS MSG 301900Z MAR.",
+    "cancel_date": "2012-03-30T19:00:00+00:00",
     "valid_from": "2012-01-31T01:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-30T19:00:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "011522Z SEP 11",
     "msg_id": "HYDROARC 1388/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 021200Z SEP",
+      "HYDROARC 1388/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION BERLEVAG, RATE 7001-Y\n   OFF AIR 020700Z TO 021100Z SEP.\n2. CANCEL THIS MSG 021200Z SEP.",
+    "cancel_date": "2011-09-02T12:00:00+00:00",
     "valid_from": "2011-09-01T15:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-02T12:00:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,17 @@
     "raw_dtg": "041657Z DEC 11",
     "msg_id": "HYDROARC 2048/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 101300Z DEC",
+      "HYDROARC 2048/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nGHANA.\n1. UNDERWATER OPERATIONS 050600Z TO 101200Z DEC\n   BY CABLESHIP RENE DESCARTES WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   05-30.4N 000-11.4W, 05-21.0N 000-07.2W,\n   05-20.6N 000-07.2W, 05-19.7N 000-07.3W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 101300Z DEC.",
+    "cancel_date": "2011-12-10T13:00:00+00:00",
     "valid_from": "2011-12-04T16:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-10T13:00:00+00:00",
     "summary": null
   }
 }

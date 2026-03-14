@@ -13,13 +13,16 @@
     "raw_dtg": "302050Z DEC 16",
     "msg_id": "HYDROARC 3535/16(35)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 46/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "LITTLE MINCH.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35092.\nNESS POINT LIGHT 57-25.4N 006-47.3W UNRELIABLE.",
+    "cancel_date": "2017-01-05T15:46:00+00:00",
     "valid_from": "2016-12-30T20:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-05T15:46:00+00:00",
     "summary": null
   }
 }

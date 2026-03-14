@@ -13,13 +13,16 @@
     "raw_dtg": "211250Z APR 11",
     "msg_id": "HYDROARC 677/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 819/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN 05-41.2N 028-09.4W.\nVESSELS IN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO U.S. COAST GUARD SAN JUAN,\nPHONE: 787 289 2041, E-MAIL: SSJCC@USGC.MIL.",
+    "cancel_date": "2011-05-14T09:21:00+00:00",
     "valid_from": "2011-04-21T12:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-14T09:21:00+00:00",
     "summary": null
   }
 }

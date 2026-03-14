@@ -13,13 +13,16 @@
     "raw_dtg": "270108Z JAN 16",
     "msg_id": "HYDROARC 227/16(35,43)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 245/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35172.\nOUT SKERRIES LIGHT 60-25.5N 000-43.7W UNRELIABLE.",
+    "cancel_date": "2016-01-28T17:40:00+00:00",
     "valid_from": "2016-01-27T01:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-01-28T17:40:00+00:00",
     "summary": null
   }
 }

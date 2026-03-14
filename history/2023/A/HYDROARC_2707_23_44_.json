@@ -13,13 +13,16 @@
     "raw_dtg": "240056Z NOV 23",
     "msg_id": "HYDROARC 2707/23(44)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2709/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BALTIC SEA.\nSWEDEN.\nDNC 22.\nNAVTEX STATION GISLOVSHAMMAR (J)\n55-29.37N 014-18.87E OFF AIR.",
+    "cancel_date": "2023-11-24T15:24:00+00:00",
     "valid_from": "2023-11-24T00:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-11-24T15:24:00+00:00",
     "summary": null
   }
 }

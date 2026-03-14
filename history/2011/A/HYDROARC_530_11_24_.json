@@ -34,14 +34,17 @@
     "msg_id": "HYDROARC 530/11(24)",
     "year": 2011,
     "cancellations": [
-      "490/11"
+      "THIS MSG 012000Z APR",
+      "490/11",
+      "HYDROARC 530/11"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 280900Z MAR TO 011900Z APR\n   IN AREA BOUND BY\n   32-12.76S 052-08.70W, 32-12.10S 052-09.19W,\n   32-10.53S 052-06.17W, 32-11.20S 052-05.65W.\n2. CANCEL HYDROLANT 490/11.\n3. CANCEL THIS MSG 012000Z APR.",
+    "cancel_date": "2011-04-01T20:00:00+00:00",
     "valid_from": "2011-03-30T01:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-01T20:00:00+00:00",
     "summary": null
   }
 }

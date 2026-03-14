@@ -13,13 +13,16 @@
     "raw_dtg": "071053Z SEP 17",
     "msg_id": "HYDROARC 2741/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2747/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\nNAVTEX STATION CORUNA (D) 43-22.0N 008-27.1W OFF AIR.",
+    "cancel_date": "2017-09-07T19:15:00+00:00",
     "valid_from": "2017-09-07T10:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-09-07T19:15:00+00:00",
     "summary": null
   }
 }

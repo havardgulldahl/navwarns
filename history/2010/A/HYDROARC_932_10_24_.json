@@ -7,13 +7,17 @@
     "raw_dtg": "231413Z MAY 10",
     "msg_id": "HYDROARC 932/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 272200Z MAY",
+      "HYDROARC 932/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "URUGUAY-SOUTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 271100Z TO 272100Z MAY\n   IN AREA BETWEEN\n   35-30S 35-45S AND 054-35W 055-16W.\n2. CANCEL THIS MSG 272200Z MAY.",
+    "cancel_date": "2010-05-27T22:00:00+00:00",
     "valid_from": "2010-05-23T14:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-27T22:00:00+00:00",
     "summary": null
   }
 }

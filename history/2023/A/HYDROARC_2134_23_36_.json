@@ -13,13 +13,16 @@
     "raw_dtg": "221344Z SEP 23",
     "msg_id": "HYDROARC 2134/23(36)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2138/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nIRELAND.\nDNC 19.\nBALBRIGGAN ISLAND LIGHT 53-36.80N 006-10.90W UNLIT.",
+    "cancel_date": "2023-09-22T17:27:00+00:00",
     "valid_from": "2023-09-22T13:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-09-22T17:27:00+00:00",
     "summary": null
   }
 }

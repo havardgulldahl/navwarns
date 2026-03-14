@@ -13,13 +13,16 @@
     "raw_dtg": "230520Z AUG 15",
     "msg_id": "HYDROARC 2070/15(37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2073/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nDNC 20.\nCHART 37121.\nVARNE LIGHTSHIP 51-01.2N 001-24.0E LIGHT UNRELIABLE.",
+    "cancel_date": "2015-08-23T19:24:00+00:00",
     "valid_from": "2015-08-23T05:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-08-23T19:24:00+00:00",
     "summary": null
   }
 }

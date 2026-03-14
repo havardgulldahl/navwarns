@@ -13,13 +13,16 @@
     "raw_dtg": "201645Z JUN 12",
     "msg_id": "HYDROARC 1344/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1754/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nCHART 37129\nBERGUES BUOY 51-17.2N 002-18.7E MISSING.",
+    "cancel_date": "2012-08-01T13:35:00+00:00",
     "valid_from": "2012-06-20T16:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-08-01T13:35:00+00:00",
     "summary": null
   }
 }

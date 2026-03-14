@@ -7,13 +7,17 @@
     "raw_dtg": "180418Z APR 12",
     "msg_id": "HYDROARC 849/12(57)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 MAY",
+      "HYDROARC 849/12"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN ATLANTIC.\nGULF OF GUINEA.\n1. OCEANOGRAPHIC OPERATIONS 20 THRU 30 APR\n   BY M/V LE SUROIT ALONG TRACKLINE JOINING\n   02-00S 000-00, 02-00N 000-00,\n   00-00 000-00, 01-30S 006-00E,\n   01-00N 006-00E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 MAY.",
+    "cancel_date": "2012-05-01T00:01:00+00:00",
     "valid_from": "2012-04-18T04:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-01T00:01:00+00:00",
     "summary": null
   }
 }

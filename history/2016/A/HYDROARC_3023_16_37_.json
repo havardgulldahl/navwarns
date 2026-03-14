@@ -13,13 +13,16 @@
     "raw_dtg": "141753Z NOV 16",
     "msg_id": "HYDROARC 3023/16(37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3025/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND-EAST COAST.\nDNC 20.\nCHART 37057.\nNORTH HAISBRO BUOY 53-00.2N 001-32.3E RACON INOPERATIVE.",
+    "cancel_date": "2016-11-14T20:48:00+00:00",
     "valid_from": "2016-11-14T17:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-11-14T20:48:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "310229Z DEC 10",
     "msg_id": "HYDROARC 2542/10(35,36)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-SOUTHWEST COAST.\nNGA CHART 35119 (2ND ED).\nCOREWALL LIGHT 55-00.5N 005-09.5W UNLIT.",
+    "cancel_date": "2011-01-01T06:51:00+00:00",
     "valid_from": "2010-12-31T02:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-01T06:51:00+00:00",
     "summary": null
   }
 }

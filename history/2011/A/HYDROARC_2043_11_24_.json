@@ -75,13 +75,17 @@
     "raw_dtg": "030206Z DEC 11",
     "msg_id": "HYDROARC 2043/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 222000Z DEC",
+      "HYDROARC 2043/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\n1. UNDERWATER OPERATIONS 0900Z TO 1900Z DAILY\n   06 THRU 22 DEC BY M/V PRESIDENT KENNEDY\n   ALONG TRACKLINE JOINING\n   21-21.67S 040-45.35W, 21-23.13S 040-43.88W,\n   21-24.50S 040-45.45W, 21-23.03S 040-46.92W,\n   21-20.55S 040-47.77W, 21-20.63S 040-47.85W,\n   21-14.88S 040-54.00W, 21-14.97S 040-54.08W,\n   21-14.52S 040-54.33W, 21-14.52S 040-53.98W,\n   21-14.83S 040-54.00W, 21-14.83S 040-54.33W,\n   21-14.20S 040-53.83W, 21-14.22S 040-53.85W,\n   21-12.93S 040-56.70W, 21-12.97S 040-56.72W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 222000Z DEC.",
+    "cancel_date": "2011-12-22T20:00:00+00:00",
     "valid_from": "2011-12-03T02:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-22T20:00:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "241521Z APR 12",
     "msg_id": "HYDROARC 885/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 251100Z APR",
+      "HYDROARC 885/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTHWEST EUROPE.\n1. LORAN-C CHAIN LESSAY, RATES 6731-X,\n   6731-Z AND SYLT CHAIN, RATE 7499-X,\n   OFF AIR 250700Z TO 251000Z APR.\n2. CANCEL THIS MSG 251100Z APR.",
+    "cancel_date": "2012-04-25T11:00:00+00:00",
     "valid_from": "2012-04-24T15:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-25T11:00:00+00:00",
     "summary": null
   }
 }

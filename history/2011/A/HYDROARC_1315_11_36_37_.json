@@ -7,13 +7,17 @@
     "raw_dtg": "191306Z AUG 11",
     "msg_id": "HYDROARC 1315/11(36,37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 270200Z AUG",
+      "HYDROARC 1364/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSPAIN-NORTHWEST COAST.\n1. UNDERWATER OPERATIONS 201900Z TO 270100Z AUG\n   BY M/V CORNIDE DE SAAVEDRA\n   ALONG TRACKLINE BETWEEN\n   43-00N 009-20W AND 43-00N 014-02W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 270200Z AUG.",
+    "cancel_date": "2011-08-26T09:15:00+00:00",
     "valid_from": "2011-08-19T13:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-26T09:15:00+00:00",
     "summary": null
   }
 }

@@ -31,13 +31,17 @@
     "raw_dtg": "030115Z OCT 10",
     "msg_id": "HYDROARC 1878/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 042200Z DEC",
+      "HYDROARC 1878/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. PIPELINE OPERATIONS 030300Z OCT TO 042100Z DEC\n   BY M/V SKANDI ACHIEVER ALONG TRACKLINE JOINING\n   24-21.14S 044-22.92W, 24-22.29S 044-21.27W,\n   24-49.58S 043-47.51W, 25-12.53S 043-20.86W,\n   25-32.07S 042-53.00W.\n2. CANCEL THIS MSG 042200Z DEC.",
+    "cancel_date": "2010-12-04T22:00:00+00:00",
     "valid_from": "2010-10-03T01:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-04T22:00:00+00:00",
     "summary": null
   }
 }

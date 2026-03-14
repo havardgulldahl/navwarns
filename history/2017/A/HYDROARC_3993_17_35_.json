@@ -13,13 +13,16 @@
     "raw_dtg": "102233Z DEC 17",
     "msg_id": "HYDROARC 3993/17(35)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 4012/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35075.\nFLANNAN ISLES LIGHT 58-17.3N 007-35.4W UNRELIABLE.",
+    "cancel_date": "2017-12-12T16:35:00+00:00",
     "valid_from": "2017-12-10T22:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-12-12T16:35:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "151550Z DEC 10",
     "msg_id": "HYDROARC 2425/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 181550Z DEC",
+      "HYDROARC 2425/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT VESSEL CALLISTE ADRIFT VICINITY 31-58N 031-22W\n   AT 141741Z DEC.\n2. CANCEL THIS MSG 181550Z DEC.",
+    "cancel_date": "2010-12-18T15:50:00+00:00",
     "valid_from": "2010-12-15T15:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-18T15:50:00+00:00",
     "summary": null
   }
 }

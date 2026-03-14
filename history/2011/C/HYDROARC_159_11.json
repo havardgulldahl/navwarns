@@ -7,13 +7,16 @@
     "raw_dtg": "062334Z SEP 11",
     "msg_id": "HYDROARC 159/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 190/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA.\nRADIO SERVICES.\nCAMBRIDGE BAY MF AND HF RADIOTELEPHONE SERVICES INOPERATIVE.",
+    "cancel_date": "2011-09-30T00:10:00+00:00",
     "valid_from": "2011-09-06T23:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-30T00:10:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "050100Z MAY 17",
     "msg_id": "HYDROARC 1418/17(36)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1435/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nWALES-NORTHWEST COAST.\nDNC 20.\nCHART 36006.\nSKERRIES LIGHT 53-25.3N 004-36.5W UNRELIABLE.",
+    "cancel_date": "2017-05-05T23:25:00+00:00",
     "valid_from": "2017-05-05T01:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-05-05T23:25:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,16 @@
     "raw_dtg": "241131Z MAY 18",
     "msg_id": "HYDROARC 1629/18(35,36)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 27/19"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nCHART 35024.\nSHOAL WATER REPORTED IN AREA BOUND BY\n51-25.6N 003-39.5W, 51-25.0N 003-39.7W,\n51-25.5N 003-43.5W, 51-26.1N 003-43.1W.",
+    "cancel_date": "2019-01-04T14:30:00+00:00",
     "valid_from": "2018-05-24T11:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-04T14:30:00+00:00",
     "summary": null
   }
 }

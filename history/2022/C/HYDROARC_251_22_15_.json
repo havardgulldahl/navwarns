@@ -13,13 +13,16 @@
     "raw_dtg": "301641Z AUG 22",
     "msg_id": "HYDROARC 251/22(15)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 68/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AMUNDSEN GULF.\nCANADA.\nDNC 27.\n22 METER DEPTH REPORTED IN 69-39.05N 120-45.29W.",
+    "cancel_date": "2023-04-28T19:30:00+00:00",
     "valid_from": "2022-08-30T16:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-04-28T19:30:00+00:00",
     "summary": null
   }
 }

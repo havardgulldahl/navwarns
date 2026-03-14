@@ -7,13 +7,17 @@
     "raw_dtg": "250730Z APR 10",
     "msg_id": "HYDROARC 718/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 302200Z APR",
+      "HYDROARC 718/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "URUGUAY-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. GUNNERY AND PYROTECHNICS EXERCISES 1200Z TO 2100Z\n   DAILY 29 AND 30 APR IN AREA BETWEEN\n   35-30S 35-45S AND 054-35W 055-16W.\n2. CANCEL THIS MSG 302200Z APR.",
+    "cancel_date": "2010-04-30T22:00:00+00:00",
     "valid_from": "2010-04-25T07:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-30T22:00:00+00:00",
     "summary": null
   }
 }

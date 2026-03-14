@@ -37,13 +37,17 @@
     "raw_dtg": "191936Z JUN 12",
     "msg_id": "HYDROARC 1330/12(54)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 06 JUL",
+      "HYDROARC 1330/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nTURKEY-SOUTH COAST.\n1. SURVEY OPERATIONS 20 JUN THRU 05 JUL\n   BY M/V BABA CEMIL IN AREA BOUND BY\n   36-09.05N 033-20.23E, 35-56.67N 033-32.55E,\n   36-04.77N 034-13.75E, 36-23.82N 034-38.08E,\n   36-23.80N 034-05.62E.\n   2000 METER BERTH REQUESTED.\n2. CANCEL THIS MSG 06 JUL.",
+    "cancel_date": "2012-07-06T00:01:00+00:00",
     "valid_from": "2012-06-19T19:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-06T00:01:00+00:00",
     "summary": null
   }
 }

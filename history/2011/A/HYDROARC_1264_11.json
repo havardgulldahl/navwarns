@@ -7,13 +7,16 @@
     "raw_dtg": "101225Z AUG 11",
     "msg_id": "HYDROARC 1264/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1297/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\nLORAN-C STATION SYLT, RATES 7499-M AND\n6731-Z OFF AIR.",
+    "cancel_date": "2011-08-16T20:02:00+00:00",
     "valid_from": "2011-08-10T12:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-16T20:02:00+00:00",
     "summary": null
   }
 }

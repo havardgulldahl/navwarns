@@ -7,13 +7,16 @@
     "raw_dtg": "142001Z AUG 15",
     "msg_id": "HYDROARC 1993/15(56)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2220/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SUEZ CANAL.\nDNC 10.\nNGA HAS UPDATED LIBRARY H1048040 OUT OF CYCLE TO SUPPORT\nTHE RECENT CHANGES TO THE SUEZ CANAL. THIS LIBRARY\nIS AVAILABLE ON THE UPDATED LIBRARIES SECTION OF\nTHE DNC WEBSITE AND MUST BE UPLOADED BEFORE THE\nNEXT VDU PATCH, WHICH WILL BE AVAILABLE ON\n21 AUG. THE LIBRARY CAN BE DOWNLOADED\nFROM THE NGA NIPR WEBSITE AT\nhttps:www.geointel.nga.mil/products/dnc/#updated\nOR FROM THE SIPR SITE. FOR URGENT SERVICE,\nCONTACT NGA NAVSAFETY, DSN: 547 5455,\nPHONE: 800 362 6289 OR 571 557 5455,\nE-MAIL: NAVSAFETY@NGA.MIL OR MSG TO\nNGA NAVSAFETY WASHINGTON DC OR\nE-MAIL: MCDDNC@NGA.MIL.",
+    "cancel_date": "2015-09-07T16:04:00+00:00",
     "valid_from": "2015-08-14T20:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-09-07T16:04:00+00:00",
     "summary": null
   }
 }

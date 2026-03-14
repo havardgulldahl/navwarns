@@ -13,13 +13,16 @@
     "raw_dtg": "152318Z DEC 22",
     "msg_id": "HYDROARC 3220/22(24)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3285/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\nBARRA DO ACU LIGHT 21-59.96S 040-59.15W UNLIT.",
+    "cancel_date": "2022-12-23T15:55:00+00:00",
     "valid_from": "2022-12-15T23:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-12-23T15:55:00+00:00",
     "summary": null
   }
 }

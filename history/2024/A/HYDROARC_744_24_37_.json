@@ -13,13 +13,16 @@
     "raw_dtg": "090759Z APR 24",
     "msg_id": "HYDROARC 744/24(37)",
     "year": 2024,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 752/24"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nRACON AT BRIDGE BUOY 50-39.60N 001-36.90W\nINOPERATIVE.",
+    "cancel_date": "2024-04-10T14:26:00+00:00",
     "valid_from": "2024-04-09T07:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2024-04-10T14:26:00+00:00",
     "summary": null
   }
 }

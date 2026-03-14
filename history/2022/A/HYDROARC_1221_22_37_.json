@@ -13,13 +13,16 @@
     "raw_dtg": "052216Z MAY 22",
     "msg_id": "HYDROARC 1221/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1243/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSUNK E BUOY 51-53.20N 002-07.50E\nUNLIT AND RACON INOPERATIVE.",
+    "cancel_date": "2022-05-08T13:35:00+00:00",
     "valid_from": "2022-05-05T22:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-05-08T13:35:00+00:00",
     "summary": null
   }
 }

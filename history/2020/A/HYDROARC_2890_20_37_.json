@@ -7,13 +7,16 @@
     "raw_dtg": "221611Z SEP 20",
     "msg_id": "HYDROARC 2890/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3190/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nTHANET WIND FARM TURBINE 51-24N 001-38E UNLIT,\nFOG SIGNALS INOPERATIVE.",
+    "cancel_date": "2020-10-21T12:10:00+00:00",
     "valid_from": "2020-09-22T16:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-10-21T12:10:00+00:00",
     "summary": null
   }
 }

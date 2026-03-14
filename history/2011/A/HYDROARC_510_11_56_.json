@@ -7,13 +7,17 @@
     "raw_dtg": "270952Z MAR 11",
     "msg_id": "HYDROARC 510/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 010059Z MAY",
+      "HYDROARC 510/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nLIBYA.\nORDNANCE.\n1. EMERGENCY ORDNANCE JETTISON AREA ESTABLISHED\n   UNTIL 302359Z APR WITHIN TEN MILES OF\n   33-37N 015-18E.\n2. CANCEL THIS MSG 010059Z MAY.",
+    "cancel_date": "2011-05-01T00:59:00+00:00",
     "valid_from": "2011-03-27T09:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-01T00:59:00+00:00",
     "summary": null
   }
 }

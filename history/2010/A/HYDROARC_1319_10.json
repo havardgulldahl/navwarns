@@ -7,13 +7,17 @@
     "raw_dtg": "121519Z JUL 10",
     "msg_id": "HYDROARC 1319/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 141600Z JUL",
+      "HYDROARC 1319/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION JAN MAYEN,\n   RATES 7001-X AND 9007-W, OFF AIR\n   1100Z TO 1500Z DAILY 13 AND 14 JUL.\n2. CANCEL THIS MSG 141600Z JUL.",
+    "cancel_date": "2010-07-14T16:00:00+00:00",
     "valid_from": "2010-07-12T15:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-07-14T16:00:00+00:00",
     "summary": null
   }
 }

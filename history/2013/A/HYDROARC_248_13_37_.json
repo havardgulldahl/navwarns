@@ -41,13 +41,16 @@
     "raw_dtg": "271147Z JAN 13",
     "msg_id": "HYDROARC 248/13(37)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 875/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\nM/V OCEANIC CHALLENGER TOWING EIGHT 5100 METER\nLONG CABLES IN AREA BOUND BY\n54-35.8N 003-05.3E, 54-36.0N 002-01.2E,\n54-55.1N 002-01.2E, 54-55.2N 002-22.4E,\n55-06.6N 002-22.8E, 55-06.3N 003-17.4E.\nFIVE MILE BERTH REQUESTED.",
+    "cancel_date": "2013-04-07T09:21:00+00:00",
     "valid_from": "2013-01-27T11:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-04-07T09:21:00+00:00",
     "summary": null
   }
 }

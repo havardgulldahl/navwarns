@@ -13,13 +13,16 @@
     "raw_dtg": "101933Z SEP 12",
     "msg_id": "HYDROARC 2103/12(57)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2746/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nCHART 57400\nDIAZ POINT LIGHT 26-38.2S 015-05.6E UNLIT AND\nFOG SIGNAL INOPERATIVE.",
+    "cancel_date": "2012-11-20T14:45:00+00:00",
     "valid_from": "2012-09-10T19:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-11-20T14:45:00+00:00",
     "summary": null
   }
 }

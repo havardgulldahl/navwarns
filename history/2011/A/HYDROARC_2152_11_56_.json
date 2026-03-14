@@ -13,13 +13,17 @@
     "raw_dtg": "141236Z DEC 11",
     "msg_id": "HYDROARC 2152/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 23 DEC",
+      "HYDROARC 2194/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\n1. CABLE OPERATIONS 15 THRU 22 DEC BY\n   CABLESHIP RAYMOND CROZE WITH\n   SUBMERSIBLE VICINITY 33-55.3N 035-34.2E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 23 DEC.",
+    "cancel_date": "2011-12-19T12:35:00+00:00",
     "valid_from": "2011-12-14T12:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-19T12:35:00+00:00",
     "summary": null
   }
 }

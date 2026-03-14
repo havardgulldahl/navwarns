@@ -8,15 +8,18 @@
     "msg_id": "HYDROARC 465/10(44)",
     "year": 2010,
     "cancellations": [
+      "THIS MSG 241600Z MAR",
       "456/10",
-      "457/10"
+      "457/10",
+      "HYDROARC 465/10"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BALTIC SEA.\nLITHUANIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0700Z TO 1500Z DAILY 23 AND 24 MAR\n   IN AREA BOUND BY\n   55-37N 020-46E, 55-34N 021-00E,\n   55-25N 021-00E, 55-22N 020-46E,\n   55-25N 020-42E, 55-34N 020-42E.\n2. CANCEL HYDROLANT 456/10(24) AND 457/10(24).\n3. CANCEL THIS MSG 241600Z MAR.",
+    "cancel_date": "2010-03-24T16:00:00+00:00",
     "valid_from": "2010-03-18T13:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-24T16:00:00+00:00",
     "summary": null
   }
 }

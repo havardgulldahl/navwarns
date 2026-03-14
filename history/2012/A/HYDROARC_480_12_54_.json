@@ -7,13 +7,17 @@
     "raw_dtg": "021524Z MAR 12",
     "msg_id": "HYDROARC 480/12(54)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 051200Z MAR",
+      "HYDROARC 480/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 050730Z TO 051100Z MAR\n   IN AREA BOUND BY\n   34-50N 033-52E, 34-50N 033-05E,\n   34-55N 033-52E, 34-55N 034-05E.\n2. CANCEL THIS MSG 051200Z MAR.",
+    "cancel_date": "2012-03-05T12:00:00+00:00",
     "valid_from": "2012-03-02T15:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-05T12:00:00+00:00",
     "summary": null
   }
 }

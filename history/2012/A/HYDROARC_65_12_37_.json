@@ -13,13 +13,16 @@
     "raw_dtg": "081654Z JAN 12",
     "msg_id": "HYDROARC 65/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 67/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHWEST COAST.\nCHART 37003\nRACON AT EDDYSTONE LIGHT 50-10.8N 004-15.9W INOPERATIVE.",
+    "cancel_date": "2012-01-08T23:16:00+00:00",
     "valid_from": "2012-01-08T16:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-08T23:16:00+00:00",
     "summary": null
   }
 }

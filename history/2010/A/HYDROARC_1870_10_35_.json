@@ -13,13 +13,16 @@
     "raw_dtg": "012355Z OCT 10",
     "msg_id": "HYDROARC 1870/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1889/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-EAST COAST.\nNGA CHART 35013 (0 ED).\nRACON AT BUCHAN NESS LIGHT 57-28.2N 001-46.5W INOPERATIVE.",
+    "cancel_date": "2010-10-04T16:52:00+00:00",
     "valid_from": "2010-10-01T23:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-04T16:52:00+00:00",
     "summary": null
   }
 }

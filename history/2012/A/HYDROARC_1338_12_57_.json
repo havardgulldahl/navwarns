@@ -13,13 +13,17 @@
     "raw_dtg": "200133Z JUN 12",
     "msg_id": "HYDROARC 1338/12(57)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 110059Z JUL",
+      "HYDROARC 1503/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\n1. CABLE OPERATIONS 201400Z JUN TO 102359Z JUL\n   BY CABLESHIP ILE DE BATZ WITH SUBMERSIBLE\n   IN 05-12.8N 003-56.0W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 110059Z JUL.",
+    "cancel_date": "2012-07-07T18:41:00+00:00",
     "valid_from": "2012-06-20T01:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-07T18:41:00+00:00",
     "summary": null
   }
 }

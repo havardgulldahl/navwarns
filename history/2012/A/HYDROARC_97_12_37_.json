@@ -13,13 +13,17 @@
     "raw_dtg": "121737Z JAN 12",
     "msg_id": "HYDROARC 97/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 09 FEB",
+      "HYDROARC 256/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "FRANCE-NORTHWEST COAST.\nBAY OF BISCAY.\n1. CABLE LAYING OPERATIONS IN PROGRESS UNTIL 08 FEB BY\n   CABLESHIP IT INTERCEPTOR WITH SUBMERSIBLE\n   VICINITY OF TRACKLINE BETWEEN\n   47-48.46N 004-20.12W AND 47-27.00N 006-00.00W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 09 FEB.",
+    "cancel_date": "2012-01-31T17:25:00+00:00",
     "valid_from": "2012-01-12T17:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-31T17:25:00+00:00",
     "summary": null
   }
 }

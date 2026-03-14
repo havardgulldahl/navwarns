@@ -13,13 +13,16 @@
     "raw_dtg": "060005Z APR 10",
     "msg_id": "HYDROARC 597/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 619/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nNGA CHART 35106 (2ND ED).\nRACON AT SKERRYVORE LIGHT 56-19.4N 007-06.8W INOPERATIVE.",
+    "cancel_date": "2010-04-09T14:24:00+00:00",
     "valid_from": "2010-04-06T00:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-09T14:24:00+00:00",
     "summary": null
   }
 }

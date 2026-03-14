@@ -13,13 +13,16 @@
     "raw_dtg": "102130Z AUG 21",
     "msg_id": "HYDROARC 2083/21(24)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1047/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 14.\nCABO ORANGE LIGHT 04-26.0N 051-32.2W UNLIT.",
+    "cancel_date": "2022-04-13T01:40:00+00:00",
     "valid_from": "2021-08-10T21:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-04-13T01:40:00+00:00",
     "summary": null
   }
 }

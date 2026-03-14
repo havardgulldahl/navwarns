@@ -7,13 +7,16 @@
     "raw_dtg": "282141Z OCT 15",
     "msg_id": "HYDROARC 385/15",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 402/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GPS SATELLITE SYSTEM.\nPRN 04 UNUSABLE 022100Z NOV UNTIL FURTHER NOTICE.",
+    "cancel_date": "2015-11-05T12:25:00+00:00",
     "valid_from": "2015-10-28T21:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-11-05T12:25:00+00:00",
     "summary": null
   }
 }

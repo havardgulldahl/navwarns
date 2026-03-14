@@ -13,13 +13,17 @@
     "raw_dtg": "101812Z APR 12",
     "msg_id": "HYDROARC 794/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 131815Z APR",
+      "HYDROARC 804/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT TEN METER VESSEL BLEU CITRON\n   ADRIFT VICINITY 01-34.99N 034-49.47W\n   AT 100009Z APR.\n2. CANCEL THIS MSG 131815Z APR.",
+    "cancel_date": "2012-04-12T00:48:00+00:00",
     "valid_from": "2012-04-10T18:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-12T00:48:00+00:00",
     "summary": null
   }
 }

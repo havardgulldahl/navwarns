@@ -7,13 +7,17 @@
     "raw_dtg": "211252Z JUN 10",
     "msg_id": "HYDROARC 1153/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 011300Z OCT",
+      "HYDROARC 1153/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 011200Z OCT\n   BY M/V GEO CARIBBEAN TOWING 12 4.5 METER\n   LONG CABLES IN AREA BOUND BY\n   04-15S 010-52E, 04-36S 011-26E,\n   05-23S 010-58E, 05-01S 010-22E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 011300Z OCT.",
+    "cancel_date": "2010-10-01T13:00:00+00:00",
     "valid_from": "2010-06-21T12:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-01T13:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "200232Z FEB 10",
     "msg_id": "HYDROARC 327/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 351/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nBRAZIL.\nDISTRESS SIGNAL RECEIVED FROM VESSEL NOVO CONCORDIA\nIN 27-17.85S 040-50.27W AT 181813Z FEB. VESSELS\nIN VICINITY REQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO ANY COASTAL STATION.",
+    "cancel_date": "2010-02-24T11:12:00+00:00",
     "valid_from": "2010-02-20T02:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-24T11:12:00+00:00",
     "summary": null
   }
 }

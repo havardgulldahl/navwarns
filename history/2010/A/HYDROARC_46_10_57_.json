@@ -41,13 +41,16 @@
     "raw_dtg": "102109Z JAN 10",
     "msg_id": "HYDROARC 46/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 338/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEO MARINER TOWING TWO 5500 METER LONG\nCABLES IN AREA BOUND BY\n05-14.809N 000-46.523W, 05-11.943N 000-43.558W,\n04-54.755N 000-58.569W, 04-46.625N 001-14.794W,\n04-53.508N 001-25.897W, 05-04.017N 001-26.176W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2010-02-22T16:47:00+00:00",
     "valid_from": "2010-01-10T21:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-22T16:47:00+00:00",
     "summary": null
   }
 }

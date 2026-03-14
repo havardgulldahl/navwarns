@@ -33,13 +33,17 @@
     "raw_dtg": "132148Z DEC 10",
     "msg_id": "HYDROARC 2418/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 150259Z DEC",
+      "HYDROARC 2418/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\n1. SEISMIC SURVEY 130200Z TO 150159Z DEC BY\n   M/V ANDREW CHARLES TOWING 200 METER\n   LONG CABLES IN AREA BOUND BY\n   02-58.9S 038-58.9W, 02-56.9S 039-02.6W,\n   03-09.0S 039-02.6W, 03-09.0S 038-52.2W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 150259Z DEC.",
+    "cancel_date": "2010-12-15T02:59:00+00:00",
     "valid_from": "2010-12-13T21:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-15T02:59:00+00:00",
     "summary": null
   }
 }

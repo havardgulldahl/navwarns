@@ -7,13 +7,17 @@
     "raw_dtg": "010807Z APR 10",
     "msg_id": "HYDROARC 564/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 070359Z APR",
+      "HYDROARC 564/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 070259Z APR BY\n   M/V WESTERN PATRIOT TOWING EIGHT FOUR MILE\n   LONG CABLES IN AREA BETWEEN\n   19-45S 20-26S AND 038-13W 038-56W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 070359Z APR.",
+    "cancel_date": "2010-04-07T03:59:00+00:00",
     "valid_from": "2010-04-01T08:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-07T03:59:00+00:00",
     "summary": null
   }
 }

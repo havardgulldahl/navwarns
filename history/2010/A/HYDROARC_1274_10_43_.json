@@ -7,13 +7,16 @@
     "raw_dtg": "060050Z JUL 10",
     "msg_id": "HYDROARC 1274/10(43)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1683/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V POLARCUS NAILA TOWING TEN 5100 METER\nLONG CABLES IN AREA BETWEEN\n58-51N 58-21N AND 000-20E 001-00E.\nFOUR MILE BERTH REQUESTED.",
+    "cancel_date": "2010-09-07T08:55:00+00:00",
     "valid_from": "2010-07-06T00:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-07T08:55:00+00:00",
     "summary": null
   }
 }

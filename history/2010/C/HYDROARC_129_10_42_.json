@@ -53,13 +53,17 @@
     "raw_dtg": "140846Z DEC 10",
     "msg_id": "HYDROARC 129/10(42)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 222000Z DEC",
+      "HYDROARC 129/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nKYLDIN ISLAND.\nMISSILES.\n1. HAZARDOUS OPERATIONS 0300Z TO 1900Z DAILY\n   18 AND 20 THRU 22 DEC IN AREA BOUND BY\n   69-26.3N 034-00.0E, 69-33.0N 033-38.0E,\n   70-26.0N 033-38.0E, 70-26.0N 034-50.0E,\n   69-45.0N 035-50.0E, 69-45.0N 035-17.0E,\n   69-21.0N 035-17.0E, 69-21.0N 034-45.0E,\n   69-26.3N 034-15.0E.\n2. CANCEL THIS MSG 222000Z DEC.",
+    "cancel_date": "2010-12-22T20:00:00+00:00",
     "valid_from": "2010-12-14T08:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-22T20:00:00+00:00",
     "summary": null
   }
 }

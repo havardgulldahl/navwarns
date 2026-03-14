@@ -41,13 +41,17 @@
     "raw_dtg": "020159Z DEC 10",
     "msg_id": "HYDROARC 2310/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 180300Z DEC",
+      "HYDROARC 2310/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nROCKETS.\n1. HAZARDOUS OPERATIONS 060300Z TO 180200Z DEC\n   IN AREA BOUND BY\n   01-54.80S 043-40.18W, 01-22.60S 043-41.18W,\n   00-54.68S 043-27.45W, 00-19.45S 042-29.05W,\n   01-12.72S 041-44.63W, 02-05.12S 043-08.12W.\n2. CANCEL THIS MSG 180300Z DEC.",
+    "cancel_date": "2010-12-18T03:00:00+00:00",
     "valid_from": "2010-12-02T01:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-18T03:00:00+00:00",
     "summary": null
   }
 }

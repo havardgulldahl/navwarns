@@ -37,13 +37,17 @@
     "raw_dtg": "170057Z NOV 11",
     "msg_id": "HYDROARC 1920/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 300500Z NOV",
+      "HYDROARC 1920/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-NORTHEAST COAST.\nMISSILES.\n1. HAZARDOUS OPERATIONS 1800Z TO 0400Z COMMENCING\n   DAILY 22 THRU 29 NOV IN AREA BOUND BY\n   05-53.00S 035-09.00W, 05-46.78S 034-58.50W,\n   06-21.37S 034-48.90W, 06-20.23S 034-51.12W,\n   05-57.00S 035-09.00W.\n2. CANCEL THIS MSG 300500Z NOV.",
+    "cancel_date": "2011-11-30T05:00:00+00:00",
     "valid_from": "2011-11-17T00:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-30T05:00:00+00:00",
     "summary": null
   }
 }

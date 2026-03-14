@@ -13,13 +13,16 @@
     "raw_dtg": "240032Z MAR 13",
     "msg_id": "HYDROARC 742/13(35,36)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 768/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-SOUTHWEST COAST.\nCHART 35119\nDAVAAR LIGHT 55-25.7N 005-32.4W UNLIT.",
+    "cancel_date": "2013-03-26T21:53:00+00:00",
     "valid_from": "2013-03-24T00:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-03-26T21:53:00+00:00",
     "summary": null
   }
 }

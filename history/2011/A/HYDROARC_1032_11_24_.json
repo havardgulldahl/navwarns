@@ -29,13 +29,17 @@
     "raw_dtg": "220210Z JUN 11",
     "msg_id": "HYDROARC 1032/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 240101Z JUN",
+      "HYDROARC 1032/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "URUGUAY-SOUTHEAST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 1000Z TO 0001Z COMMENCING DAILY\n   22 AND 23 JUN IN AREA BOUND BY\n   34-39.46S 054-08.63W,\n   34-39.30S 054-07.40W,\n   34-40.05S 054-08.23W.\n2. CANCEL THIS MSG 240101Z JUN.",
+    "cancel_date": "2011-06-24T01:01:00+00:00",
     "valid_from": "2011-06-22T02:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-24T01:01:00+00:00",
     "summary": null
   }
 }

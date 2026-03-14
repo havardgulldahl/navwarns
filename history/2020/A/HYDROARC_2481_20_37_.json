@@ -13,13 +13,16 @@
     "raw_dtg": "110109Z AUG 20",
     "msg_id": "HYDROARC 2481/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2490/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nBEACHY HEAD LIGHT 50-44-02N 000-14-29E UNLIT.",
+    "cancel_date": "2020-08-11T19:07:00+00:00",
     "valid_from": "2020-08-11T01:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-08-11T19:07:00+00:00",
     "summary": null
   }
 }

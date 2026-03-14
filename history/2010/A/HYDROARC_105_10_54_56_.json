@@ -7,13 +7,17 @@
     "raw_dtg": "170742Z JAN 10",
     "msg_id": "HYDROARC 105/10(54,56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 192359Z JAN",
+      "HYDROARC 105/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 190500Z TO 192300Z JAN\n   WITHIN 20 MILES OF:\n   A. 33-30N 025-12E.\n   B. 34-10N 026-00E.\n2. CANCEL THIS MSG 192359Z JAN.",
+    "cancel_date": "2010-01-19T23:59:00+00:00",
     "valid_from": "2010-01-17T07:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-19T23:59:00+00:00",
     "summary": null
   }
 }

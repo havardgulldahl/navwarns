@@ -57,13 +57,17 @@
     "raw_dtg": "041436Z OCT 10",
     "msg_id": "HYDROARC 1887/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 DEC",
+      "HYDROARC 1959/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 30 NOV BY\n   M/V CGG AMADEUS TOWING SIX 8100 METER LONG\n   CABLES IN AREA BOUND BY\n   31-52.55N 031-21.53E, 31-52.52N 031-29.06E,\n   31-49.17N 031-32.72E, 31-49.16N 031-42.71E,\n   31-47.04N 031-44.90E, 31-37.02N 031-44.89E,\n   31-37.08N 031-33.03E, 31-38.85N 031-31.04E,\n   31-38.84N 031-26.04E, 31-43.48N 031-21.57E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 DEC.",
+    "cancel_date": "2010-10-15T13:02:00+00:00",
     "valid_from": "2010-10-04T14:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-15T13:02:00+00:00",
     "summary": null
   }
 }

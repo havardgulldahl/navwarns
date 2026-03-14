@@ -7,13 +7,17 @@
     "raw_dtg": "101015Z JUN 10",
     "msg_id": "HYDROARC 1072/10(36,37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 131800Z JUN",
+      "HYDROARC 1072/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0700Z TO 1000Z\n   AND 1300Z TO 1700Z DAILY 12 AND 13 JUN\n   IN AREA BETWEEN\n   47-20N 45-10N AND 011-50W 008-10W.\n2. CANCEL THIS MSG 131800Z JUN.",
+    "cancel_date": "2010-06-13T18:00:00+00:00",
     "valid_from": "2010-06-10T10:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-13T18:00:00+00:00",
     "summary": null
   }
 }

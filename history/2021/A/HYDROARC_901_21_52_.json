@@ -13,13 +13,16 @@
     "raw_dtg": "031520Z APR 21",
     "msg_id": "HYDROARC 901/21(52)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1006/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nBALEARIC ISLANDS.\nDNC 08.\nPUNTA SAN CARLOS LIGHT 39-51.91N 004-18.41E UNLIT.",
+    "cancel_date": "2021-04-13T14:26:00+00:00",
     "valid_from": "2021-04-03T15:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-04-13T14:26:00+00:00",
     "summary": null
   }
 }

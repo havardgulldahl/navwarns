@@ -13,13 +13,16 @@
     "raw_dtg": "090140Z JAN 16",
     "msg_id": "HYDROARC 73/16(36)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 78/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRELAND-EAST COAST.\nSAINT GEORGES CHANNEL.\nDNC 19, DNC 20.\nCHART 36002.\nRACON AT TUSKAR ROCK LIGHT 52-12.1N 006-12.4W INOPERATIVE.",
+    "cancel_date": "2016-01-10T07:10:00+00:00",
     "valid_from": "2016-01-09T01:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-01-10T07:10:00+00:00",
     "summary": null
   }
 }

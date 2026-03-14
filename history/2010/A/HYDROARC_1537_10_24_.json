@@ -13,13 +13,17 @@
     "raw_dtg": "141732Z AUG 10",
     "msg_id": "HYDROARC 1537/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 05 SEP",
+      "HYDROARC 1537/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nNGA CHART 24270 (3RD ED).\n1. PONTA DE SAO MARCOS RADIOBEACON AND DGPS STATION\n   02-29.3S 044-18.1W OFF AIR UNTIL 04 SEP.\n2. CANCEL THIS MSG 05 SEP.",
+    "cancel_date": "2010-09-05T00:01:00+00:00",
     "valid_from": "2010-08-14T17:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-05T00:01:00+00:00",
     "summary": null
   }
 }

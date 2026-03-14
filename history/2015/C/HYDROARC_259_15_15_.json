@@ -13,13 +13,16 @@
     "raw_dtg": "041722Z SEP 15",
     "msg_id": "HYDROARC 259/15(15)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 260/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 28.\nMCTS IQALUIT CENTRE REMOTE STATION CAMBRIDGE BAY 69-07.0N 105-03.2W\nTRANSMIT AND RECEIVE SERVICES INOPERATIVE.",
+    "cancel_date": "2015-09-06T01:05:00+00:00",
     "valid_from": "2015-09-04T17:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-09-06T01:05:00+00:00",
     "summary": null
   }
 }

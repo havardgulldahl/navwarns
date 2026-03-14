@@ -13,13 +13,16 @@
     "raw_dtg": "241133Z AUG 15",
     "msg_id": "HYDROARC 242/15(41)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 342/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nRUSSIA.\nLAPTEV SEA.\nCHART 800.\nDNC 27.\nANDREAY DGPS STATION 76-46.9N 110-46.0E OFF AIR.",
+    "cancel_date": "2015-10-01T16:04:00+00:00",
     "valid_from": "2015-08-24T11:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-10-01T16:04:00+00:00",
     "summary": null
   }
 }

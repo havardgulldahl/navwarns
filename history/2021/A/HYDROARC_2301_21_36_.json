@@ -13,13 +13,16 @@
     "raw_dtg": "101458Z SEP 21",
     "msg_id": "HYDROARC 2301/21(36)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2302/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nSAINT GOWAN BUOY 51-31.9N 004-59.8W UNLIT.",
+    "cancel_date": "2021-09-10T16:09:00+00:00",
     "valid_from": "2021-09-10T14:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-09-10T16:09:00+00:00",
     "summary": null
   }
 }

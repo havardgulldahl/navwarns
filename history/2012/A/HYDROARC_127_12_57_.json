@@ -7,13 +7,16 @@
     "raw_dtg": "162116Z JAN 12",
     "msg_id": "HYDROARC 127/12(57)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 211/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V NORTHERN EXPLORER TOWING\n12000 METER LONG CABLES IN AREA BETWEEN\n27-45S 30-00S AND 013-00E 015-00E.\nFIVE MILE BERTH REQUESTED.",
+    "cancel_date": "2012-01-26T18:15:00+00:00",
     "valid_from": "2012-01-16T21:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-26T18:15:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "101313Z APR 15",
     "msg_id": "HYDROARC 847/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 869/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nLITTLE MINCH.\nDNC 19.\nRACON AT CABBAGE LIGHT 57-42.13N 007-03.96W INOPERATIVE.",
+    "cancel_date": "2015-04-13T14:25:00+00:00",
     "valid_from": "2015-04-10T13:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-04-13T14:25:00+00:00",
     "summary": null
   }
 }

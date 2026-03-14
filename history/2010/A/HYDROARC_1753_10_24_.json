@@ -33,13 +33,17 @@
     "raw_dtg": "170256Z SEP 10",
     "msg_id": "HYDROARC 1753/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 210359Z SEP",
+      "HYDROARC 1753/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY 170300Z TO 210259Z SEP\n   BY M/V WESTERN NEPTUNE TOWING 12 3.5 MILE\n   LONG CABLES AND M/V GECO DIAMOND TOWING\n   250 METER LONG CABLE IN AREA BOUND BY\n   22-11.9S 040-10.5W, 22-25.6S 040-20.1W,\n   22-42.2S 039-51.9W, 22-27.8S 039-42.3W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 210359Z SEP.",
+    "cancel_date": "2010-09-21T03:59:00+00:00",
     "valid_from": "2010-09-17T02:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-21T03:59:00+00:00",
     "summary": null
   }
 }

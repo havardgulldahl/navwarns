@@ -13,13 +13,16 @@
     "raw_dtg": "140324Z JAN 17",
     "msg_id": "HYDROARC 136/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 139/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nCHART 37140, 37244.\nDANGEROUS WRECK IN 51-40.9N 002-15.4E.",
+    "cancel_date": "2017-01-14T15:20:00+00:00",
     "valid_from": "2017-01-14T03:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-14T15:20:00+00:00",
     "summary": null
   }
 }

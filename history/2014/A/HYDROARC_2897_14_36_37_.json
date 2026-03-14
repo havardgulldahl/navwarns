@@ -13,13 +13,16 @@
     "raw_dtg": "281030Z NOV 14",
     "msg_id": "HYDROARC 2897/14(36,37)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2899/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "FRANCE-NORTH COAST.\nDNC 20.\nCHART 36005.\nDGPS STATION AT CAP DE LA HAGUE LIGHT 49-43.4N 001-57.3W\nOFF AIR.",
+    "cancel_date": "2014-11-28T12:15:00+00:00",
     "valid_from": "2014-11-28T10:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-11-28T12:15:00+00:00",
     "summary": null
   }
 }

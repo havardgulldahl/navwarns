@@ -7,13 +7,17 @@
     "raw_dtg": "100626Z AUG 11",
     "msg_id": "HYDROARC 1262/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 111100Z AUG",
+      "HYDROARC 1262/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION LESSAY, RATE 6731-X,\n   OFF AIR 110700Z TO 111000Z AUG.\n2. CANCEL THIS MSG 111100Z AUG.",
+    "cancel_date": "2011-08-11T11:00:00+00:00",
     "valid_from": "2011-08-10T06:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-11T11:00:00+00:00",
     "summary": null
   }
 }

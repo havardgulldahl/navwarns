@@ -33,13 +33,16 @@
     "raw_dtg": "130818Z APR 16",
     "msg_id": "HYDROARC 883/16(24)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 883/16"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 2200Z TO 0200Z\n   COMMENCING DAILY 18 THRU 20 APR\n   IN AREA BOUND BY\n   23-27.03S 043-52.03W, 23-30.03S 043-50.02W,\n   24-08.02S 044-35.02W, 23-45.03S 044-44.02W.\n2. CANCEL THIS WARNING 210300Z APR 16.",
+    "cancel_date": "2016-04-21T03:00:00+00:00",
     "valid_from": "2016-04-13T08:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-04-21T03:00:00+00:00",
     "summary": null
   }
 }

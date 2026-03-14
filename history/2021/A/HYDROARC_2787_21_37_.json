@@ -13,13 +13,16 @@
     "raw_dtg": "111015Z NOV 21",
     "msg_id": "HYDROARC 2787/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2878/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nALL NAVIGATIONAL AIDS AT PLATFORM 44/21A\n54-14.6N 002-09.2E INOPERATIVE.",
+    "cancel_date": "2021-11-23T15:17:00+00:00",
     "valid_from": "2021-11-11T10:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-11-23T15:17:00+00:00",
     "summary": null
   }
 }

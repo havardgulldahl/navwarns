@@ -8,14 +8,17 @@
     "msg_id": "HYDROARC 986/10",
     "year": 2010,
     "cancellations": [
-      "980/10"
+      "THIS MSG 011200Z JUN",
+      "980/10",
+      "HYDROARC 986/10"
     ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION SOUSTONS, RATE 6731-X, OFF AIR\n   010700Z TO 011100Z JUN.\n2. CANCEL HYDROLANT 980/10(23), VESSEL IN TOW.\n3. CANCEL THIS MSG 011200Z JUN.",
+    "cancel_date": "2010-06-01T12:00:00+00:00",
     "valid_from": "2010-05-31T08:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-01T12:00:00+00:00",
     "summary": null
   }
 }

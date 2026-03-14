@@ -8,15 +8,18 @@
     "msg_id": "HYDROARC 960/10(24)",
     "year": 2010,
     "cancellations": [
+      "THIS MSG 021700Z JUN",
       "857/10",
-      "931/10"
+      "931/10",
+      "HYDROARC 960/10"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 312200Z MAY TO 010100Z JUN\n   AND 021000Z TO 021600Z JUN\n   IN AREA BOUND BY\n   33-10S 050-37W, 33-10S 049-35W,\n   33-25S 049-35W, 34-00S 050-00W,\n   34-00S 050-37W.\n2. CANCEL HYDROLANT 857/10(37), 931/10(35),\n   940/10(37).\n3. CANCEL THIS MSG 021700Z JUN.",
+    "cancel_date": "2010-06-02T17:00:00+00:00",
     "valid_from": "2010-05-27T01:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-02T17:00:00+00:00",
     "summary": null
   }
 }

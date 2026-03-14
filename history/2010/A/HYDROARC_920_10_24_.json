@@ -33,13 +33,17 @@
     "raw_dtg": "220057Z MAY 10",
     "msg_id": "HYDROARC 920/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 14 JUN",
+      "HYDROARC 920/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 27 MAY THRU 13 JUN IN AREA BOUND BY\n   27-52.18S 048-14.35W, 27-59.35S 048-03.47W,\n   28-33.68S 048-15.48W, 28-26.32S 048-26.83W.\n2. CANCEL THIS MSG 14 JUN.",
+    "cancel_date": "2010-06-14T00:01:00+00:00",
     "valid_from": "2010-05-22T00:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-14T00:01:00+00:00",
     "summary": null
   }
 }

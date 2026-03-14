@@ -7,13 +7,17 @@
     "raw_dtg": "280253Z OCT 11",
     "msg_id": "HYDROARC 1774/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 30 OCT",
+      "HYDROARC 1774/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\n1. SEISMIC SURVEY 28 AND 29 OCT\n   BY M/V DISCOVERER IN AREA BOUND BY\n   01-50S 038-53W, 01-50S 038-47W,\n   01-24S 040-30W, 01-38S 040-38W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 30 OCT.",
+    "cancel_date": "2011-10-30T00:01:00+00:00",
     "valid_from": "2011-10-28T02:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-30T00:01:00+00:00",
     "summary": null
   }
 }

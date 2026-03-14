@@ -7,13 +7,17 @@
     "raw_dtg": "260116Z DEC 10",
     "msg_id": "HYDROARC 2505/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 27 DEC",
+      "HYDROARC 2505/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 26 DEC\n   BY M/V ANDREW CHARLES TOWING 100 METER\n   LONG CABLE IN AREA BETWEEN\n   04-50S 04-58S AND 036-11W 036-20W.\n   0.5 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 27 DEC.",
+    "cancel_date": "2010-12-27T00:00:00+00:00",
     "valid_from": "2010-12-26T01:16:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-27T00:00:00+00:00",
     "summary": null
   }
 }

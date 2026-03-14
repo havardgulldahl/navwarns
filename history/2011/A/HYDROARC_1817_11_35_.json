@@ -7,13 +7,17 @@
     "raw_dtg": "021206Z NOV 11",
     "msg_id": "HYDROARC 1817/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 021800Z NOV",
+      "HYDROARC 1817/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nRADIO SERVICES.\n1. MRCC SHETLAND MF R/T AND DSC SERVICES AT\n   COLLAFIRTH HILL 60-32N 001-23W OFF AIR\n   UNTIL 021700Z NOV.\n2. CANCEL THIS MSG 021800Z NOV.",
+    "cancel_date": "2011-11-02T18:00:00+00:00",
     "valid_from": "2011-11-02T12:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-02T18:00:00+00:00",
     "summary": null
   }
 }

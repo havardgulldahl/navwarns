@@ -13,13 +13,16 @@
     "raw_dtg": "170738Z APR 12",
     "msg_id": "HYDROARC 847/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 94/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nCHART 24150\nILHA DO TOQUE TOQUE LIGHT 23-51.3S 045-31.5W UNLIT.",
+    "cancel_date": "2013-01-10T23:50:00+00:00",
     "valid_from": "2012-04-17T07:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-01-10T23:50:00+00:00",
     "summary": null
   }
 }

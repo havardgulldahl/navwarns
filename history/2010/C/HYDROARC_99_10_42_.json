@@ -7,13 +7,17 @@
     "raw_dtg": "201853Z OCT 10",
     "msg_id": "HYDROARC 99/10(42)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MESSAGE 311400Z OCT",
+      "HYDROARC 99/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "KARA SEA.\nROCKETS.\n1. ROCKET LAUNCHING 0700Z TO 1300Z DAILY\n   26 THRU 31 OCT IN AREA BOUND BY\n   73-50N 072-40E, 74-30N 079-00E,\n   74-00N 079-00E, 73-15N 072-40E.\n2. CANCEL THIS MESSAGE 311400Z OCT.",
+    "cancel_date": "2010-10-31T14:00:00+00:00",
     "valid_from": "2010-10-20T18:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-31T14:00:00+00:00",
     "summary": null
   }
 }

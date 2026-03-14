@@ -13,13 +13,16 @@
     "raw_dtg": "071012Z FEB 20",
     "msg_id": "HYDROARC 425/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 432/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\nRACON AT EILEAN GLAS LIGHT 57-51.4N 006-38.5W INOPERATIVE.",
+    "cancel_date": "2020-02-07T16:14:00+00:00",
     "valid_from": "2020-02-07T10:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-07T16:14:00+00:00",
     "summary": null
   }
 }

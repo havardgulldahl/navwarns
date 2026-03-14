@@ -49,13 +49,17 @@
     "raw_dtg": "030405Z FEB 10",
     "msg_id": "HYDROARC 215/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 212100Z MAR",
+      "HYDROARC 255/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY 040100Z FEB TO 212000Z MAR\n   BY M/V WESTERN PATRIOT TOWING EIGHT\n   6000 METER LONG CABLES IN AREA BOUND BY\n   26-06.38S 045-54.10W, 26-20.35S 045-54.55W,\n   26-20.50S 046-20.45W, 26-00.68S 047-17.23W,\n   25-05.98S 046-20.35W, 25-55.72S 046-10.22W,\n   25-51.10S 046-04.60W, 25-51.17S 045-54.60W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 212100Z MAR.",
+    "cancel_date": "2010-02-10T06:21:00+00:00",
     "valid_from": "2010-02-03T04:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-10T06:21:00+00:00",
     "summary": null
   }
 }

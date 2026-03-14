@@ -13,13 +13,16 @@
     "raw_dtg": "110047Z MAR 19",
     "msg_id": "HYDROARC 767/19(37)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 768/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSPAIN.\nDNC 08.\nNAVTEX STATION CORUNA (D) 43-22.0N 008-27.1W\nOFF AIR.",
+    "cancel_date": "2019-03-11T01:01:00+00:00",
     "valid_from": "2019-03-11T00:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-03-11T01:01:00+00:00",
     "summary": null
   }
 }

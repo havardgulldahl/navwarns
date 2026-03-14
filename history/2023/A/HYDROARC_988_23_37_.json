@@ -13,13 +13,16 @@
     "raw_dtg": "062245Z MAY 23",
     "msg_id": "HYDROARC 988/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 992/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT THE NEEDLES LIGHTHOUSE 50-39.70N 001-35.50W\nINOPERATIVE.",
+    "cancel_date": "2023-05-07T21:28:00+00:00",
     "valid_from": "2023-05-06T22:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-05-07T21:28:00+00:00",
     "summary": null
   }
 }

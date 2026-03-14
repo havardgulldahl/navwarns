@@ -53,13 +53,16 @@
     "raw_dtg": "260815Z JUL 13",
     "msg_id": "HYDROARC 97/13(42)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 248/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nKARA SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEOLOG DMITRIY NALIVKIN TOWING\n6000 METER LONG CABLE IN AREA BOUND BY\n73-58.32N 078-29.97E, 73-26.42N 070-15.95E,\n73-34.40N 064-29.32E, 71-52.03N 062-48.90E,\n71-52.03N 059-15.08E, 73-18.45N 059-03.75E,\n75-30.48N 064-11.50E, 76-03.72N 067-55.03E,\n74-30.67N 077-13.85E.\nFOUR MILE BERTH REQUESTED.",
+    "cancel_date": "2013-10-21T17:40:00+00:00",
     "valid_from": "2013-07-26T08:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-10-21T17:40:00+00:00",
     "summary": null
   }
 }

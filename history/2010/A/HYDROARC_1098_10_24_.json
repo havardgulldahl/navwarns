@@ -13,13 +13,17 @@
     "raw_dtg": "130106Z JUN 10",
     "msg_id": "HYDROARC 1098/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 160102Z JUN",
+      "HYDROARC 1099/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. BUOY ADRIFT VICINITY 23-16.5S 043-15.2W\n   AT 112020Z JUN.\n2. CANCEL THIS MSG 160102Z JUN.",
+    "cancel_date": "2010-06-13T01:27:00+00:00",
     "valid_from": "2010-06-13T01:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-13T01:27:00+00:00",
     "summary": null
   }
 }

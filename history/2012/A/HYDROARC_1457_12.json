@@ -7,13 +7,17 @@
     "raw_dtg": "022048Z JUL 12",
     "msg_id": "HYDROARC 1457/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 03 JUL",
+      "HYDROARC 1457/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SPACE WEATHER.\n1. HF COMMUNICATIONS AND GNSS POSITIONAL INFORMATION\n   MAY BE DISRUPTED BY THE EFFECTS OF SOLAR FLARES.\n2. DURING INCIDENTS AT SEA, MARINERS SHOULD CHECK THEIR\n   POSITION USING ALL ALTERNATE MEANS AVAILABLE.\n3. CANCEL THIS MSG 03 JUL.",
+    "cancel_date": "2012-07-03T00:00:00+00:00",
     "valid_from": "2012-07-02T20:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-03T00:00:00+00:00",
     "summary": null
   }
 }

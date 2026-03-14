@@ -13,13 +13,16 @@
     "raw_dtg": "011256Z NOV 10",
     "msg_id": "HYDROARC 2081/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 332/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nNGA CHART 37120 (3RD ED).\n16 METER DEPTH REPORTED IN 51-04.61N 001-45.50E.",
+    "cancel_date": "2011-02-26T10:00:00+00:00",
     "valid_from": "2010-11-01T12:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-26T10:00:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "222230Z JUL 10",
     "msg_id": "HYDROARC 1401/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 26 JUL",
+      "HYDROARC 1401/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. UNDERWATER OPERATIONS 25 JUL BY M/V LE SUROIT\n   IN AREA BETWEEN\n   47-40N 47-10N AND 007-25W 006-10W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 JUL.",
+    "cancel_date": "2010-07-26T00:01:00+00:00",
     "valid_from": "2010-07-22T22:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-07-26T00:01:00+00:00",
     "summary": null
   }
 }

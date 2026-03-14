@@ -13,13 +13,16 @@
     "raw_dtg": "030642Z JUN 11",
     "msg_id": "HYDROARC 925/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 936/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHWEST COAST.\nNGA CHART 37003 (1ST ED).\nEDDYSTONE LIGHT 50-10.8N 004-15.9W\nRED SECTOR UNLIT.",
+    "cancel_date": "2011-06-04T08:42:00+00:00",
     "valid_from": "2011-06-03T06:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-04T08:42:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "182105Z DEC 14",
     "msg_id": "HYDROARC 3086/14(35)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3106/14"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nDNC 19.\nCHART 35104.\nMONACH ISLANDS LIGHT 57-31.6N 007-41.7W UNLIT.",
+    "cancel_date": "2014-12-20T16:25:00+00:00",
     "valid_from": "2014-12-18T21:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-12-20T16:25:00+00:00",
     "summary": null
   }
 }

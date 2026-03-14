@@ -33,13 +33,17 @@
     "raw_dtg": "282311Z JUN 12",
     "msg_id": "HYDROARC 1421/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 070359Z JUL",
+      "HYDROARC 1421/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY 290300Z JUN TO 070259Z JUL BY\n   M/V NPS SANCO STAR AND M/V NPS OCEAN EUROPE\n   TOWING 300 METER LONG CABLES IN AREA BOUND BY\n   22-24.10S 039-59.87W, 22-19.80S 039-56.85W,\n   22-15.42S 040-03.95W, 22-19.45S 040-06.72W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 070359Z JUL.",
+    "cancel_date": "2012-07-07T03:59:00+00:00",
     "valid_from": "2012-06-28T23:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-07T03:59:00+00:00",
     "summary": null
   }
 }

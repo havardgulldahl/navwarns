@@ -7,13 +7,16 @@
     "raw_dtg": "070052Z OCT 11",
     "msg_id": "HYDROARC 196/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 199/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nRADIO SERVICES.\nMCTS INUVIK REMOTE REMOTE STATION,\nCAMBRIDGE BAY INOPERATIVE.",
+    "cancel_date": "2011-10-08T09:09:00+00:00",
     "valid_from": "2011-10-07T00:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-08T09:09:00+00:00",
     "summary": null
   }
 }

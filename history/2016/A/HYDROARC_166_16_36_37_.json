@@ -13,13 +13,16 @@
     "raw_dtg": "191135Z JAN 16",
     "msg_id": "HYDROARC 166/16(36,37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 213/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHWEST COAST.\nDNC 19, DNC 20.\nCHART 36049.\nRACON AT WOLF ROCK LIGHT 49-56.7N 005-48.6W INOPERATIVE.",
+    "cancel_date": "2016-01-25T10:21:00+00:00",
     "valid_from": "2016-01-19T11:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-01-25T10:21:00+00:00",
     "summary": null
   }
 }

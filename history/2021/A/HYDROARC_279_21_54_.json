@@ -27,13 +27,16 @@
     "raw_dtg": "292103Z JAN 21",
     "msg_id": "HYDROARC 279/21(54)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 289/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V ISAAC NEWTON ALONG TRACKLINE JOINING\n36-03.05N 023-14.93E, 36-07.52N 023-12.65E,\n36-13.43N 023-09.55E, 36-14.97N 023-09.76E.\n500 METER BERTH REQUESTED.",
+    "cancel_date": "2021-01-31T21:18:00+00:00",
     "valid_from": "2021-01-29T21:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-01-31T21:18:00+00:00",
     "summary": null
   }
 }

@@ -34,12 +34,14 @@
     "msg_id": "HYDROARC 180/20(42)",
     "year": 2020,
     "cancellations": [
-      "THIS MSG 111000Z SEP 20"
+      "THIS MSG 111000Z SEP 20",
+      "HYDROARC 180/20"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. MISSILE OPERATIONS 090900Z TO 110900Z SEP\n   IN AREA BOUND BY\n   69-44.0N 035-00.0E, 69-44.0N 039-15.0E,\n   69-21.5N 039-15.0E, 69-21.5N 035-00.0E.\n2. CANCEL THIS MSG 111000Z SEP 20.",
+    "cancel_date": "2020-09-11T10:00:00+00:00",
     "valid_from": "2020-09-08T09:10:00+00:00",
     "valid_until": "2020-09-11T10:00:00+00:00",
     "summary": null

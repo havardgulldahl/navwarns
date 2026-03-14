@@ -41,13 +41,16 @@
     "raw_dtg": "101213Z JUL 20",
     "msg_id": "HYDROARC 113/20(42)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 131/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V PROFESSOR RJABINKIN IN AREA BOUND BY\n70-52.47N 073-46.63E, 70-52.52N 073-53.44E,\n70-33.96N 074-18.52E, 70-34.06N 074-01.75E,\n70-45.26N 073-52.09E, 70-46.43N 073-46.92E.\nTWO MILE BERTH REQUESTED.",
+    "cancel_date": "2020-07-31T10:22:00+00:00",
     "valid_from": "2020-07-10T12:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-07-31T10:22:00+00:00",
     "summary": null
   }
 }

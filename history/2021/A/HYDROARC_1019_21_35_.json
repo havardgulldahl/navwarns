@@ -13,13 +13,16 @@
     "raw_dtg": "141622Z APR 21",
     "msg_id": "HYDROARC 1019/21(35)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1109/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "LITTLE MINCH.\nSCOTLAND.\nDNC 19.\nUIGINISH POINT LIGHT 57-26.8N 006-36.6W UNRELIABLE.",
+    "cancel_date": "2021-04-22T11:10:00+00:00",
     "valid_from": "2021-04-14T16:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-04-22T11:10:00+00:00",
     "summary": null
   }
 }

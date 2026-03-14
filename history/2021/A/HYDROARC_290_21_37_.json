@@ -13,13 +13,16 @@
     "raw_dtg": "010800Z FEB 21",
     "msg_id": "HYDROARC 290/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 735/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nFRANCE.\nDNC 20.\nZC2 BUOY 50-53.5N 001-30.9E INOPERATIVE.",
+    "cancel_date": "2021-03-15T13:49:00+00:00",
     "valid_from": "2021-02-01T08:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-03-15T13:49:00+00:00",
     "summary": null
   }
 }

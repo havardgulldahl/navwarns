@@ -49,13 +49,17 @@
     "raw_dtg": "220132Z MAR 11",
     "msg_id": "HYDROARC 465/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 260359Z MAR",
+      "HYDROARC 465/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 260259Z MAR\n   BY M/V RAMFORM VALIANT TOWING FIVE MILE\n   LONG CABLES IN AREA BOUND BY\n   13-03.13S 038-15.82W, 13-07.47S 038-24.70W,\n   13-13.35S 038-32.58W, 13-15.02S 038-33.13W,\n   13-27.45S 038-42.25W, 13-34.87S 038-39.85W,\n   13-19.73S 038-08.90W, 13-05.37S 038-13.12W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 260359Z MAR.",
+    "cancel_date": "2011-03-26T03:59:00+00:00",
     "valid_from": "2011-03-22T01:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-26T03:59:00+00:00",
     "summary": null
   }
 }

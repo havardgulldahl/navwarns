@@ -13,13 +13,16 @@
     "raw_dtg": "140119Z SEP 11",
     "msg_id": "HYDROARC 167/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 169/11"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nQUEEN MAUD GULF.\nNGA CHART 15662 (0 ED).\nTEN METER SHOAL REPORTED IN 68-29.50N 100-56.25W.",
+    "cancel_date": "2011-09-15T00:23:00+00:00",
     "valid_from": "2011-09-14T01:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-15T00:23:00+00:00",
     "summary": null
   }
 }

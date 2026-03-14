@@ -13,13 +13,16 @@
     "raw_dtg": "110325Z MAR 16",
     "msg_id": "HYDROARC 588/16(37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 592/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nDNC 20.\nCHART 37115.\nROYAL SOVEREIGN LIGHT 50-43.5N 000-26.1E\nUNRELIABLE.",
+    "cancel_date": "2016-03-11T15:28:00+00:00",
     "valid_from": "2016-03-11T03:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-03-11T15:28:00+00:00",
     "summary": null
   }
 }

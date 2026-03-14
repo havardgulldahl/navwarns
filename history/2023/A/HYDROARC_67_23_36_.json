@@ -13,13 +13,16 @@
     "raw_dtg": "082132Z JAN 23",
     "msg_id": "HYDROARC 67/23(36)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 280/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nENGLAND.\nDNC 19.\nROUND ISLAND LIGHT 49-58.70N 006-19.40W UNRELIABLE.",
+    "cancel_date": "2023-02-04T01:49:00+00:00",
     "valid_from": "2023-01-08T21:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-02-04T01:49:00+00:00",
     "summary": null
   }
 }

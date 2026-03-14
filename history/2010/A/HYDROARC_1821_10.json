@@ -8,14 +8,17 @@
     "msg_id": "HYDROARC 1821/10",
     "year": 2010,
     "cancellations": [
-      "1818/10"
+      "THIS MSG 012230Z OCT",
+      "1818/10",
+      "HYDROARC 1821/10"
     ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GPS SATELLITE SYSTEM.\n1. PRN 30 UNUSABLE 302130Z SEP TO 012130Z OCT.\n2. CANCEL HYDROLANT 1818/10(25), SEARCH SUSPENDED.\n3. CANCEL THIS MSG 012230Z OCT.",
+    "cancel_date": "2010-10-01T22:30:00+00:00",
     "valid_from": "2010-09-26T08:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-01T22:30:00+00:00",
     "summary": null
   }
 }

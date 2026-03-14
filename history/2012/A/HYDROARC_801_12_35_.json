@@ -7,13 +7,17 @@
     "raw_dtg": "112031Z APR 12",
     "msg_id": "HYDROARC 801/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 142030Z APR",
+      "HYDROARC 801/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\n1. DERELICT 21 METER F/V ADRIFT VICINITY\n    59-29N 004-36W AT 111230Z APR.\n2. CANCEL THIS MSG 142030Z APR.",
+    "cancel_date": "2012-04-14T20:30:00+00:00",
     "valid_from": "2012-04-11T20:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-14T20:30:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "040735Z NOV 20",
     "msg_id": "HYDROARC 3386/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3388/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH CHANNEL.\nSEA OF THE HEBRIDES.\nSCOTLAND.\nDNC 19.\nRHINNS OF ISLAY LIGHT 55-40-22N 006-30-48W UNLIT.",
+    "cancel_date": "2020-11-04T09:34:00+00:00",
     "valid_from": "2020-11-04T07:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-11-04T09:34:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "151813Z DEC 12",
     "msg_id": "HYDROARC 2961/12(43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2967/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\n1. DERELICT VESSEL ADRIFT IN 58-22.8N 000-44.3E\n   AT 151615Z DEC.\n2. CANCEL THE MSG 181815Z DEC 12.",
+    "cancel_date": "2012-12-16T23:22:00+00:00",
     "valid_from": "2012-12-15T18:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-12-16T23:22:00+00:00",
     "summary": null
   }
 }

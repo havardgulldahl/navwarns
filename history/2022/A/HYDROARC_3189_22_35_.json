@@ -13,13 +13,16 @@
     "raw_dtg": "130346Z DEC 22",
     "msg_id": "HYDROARC 3189/22(35)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3207/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nFIRTHS VOE LIGHT 60-27.20N 001-10.70W UNRELIABLE.",
+    "cancel_date": "2022-12-14T18:12:00+00:00",
     "valid_from": "2022-12-13T03:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-12-14T18:12:00+00:00",
     "summary": null
   }
 }

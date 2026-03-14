@@ -7,13 +7,17 @@
     "raw_dtg": "141105Z MAY 11",
     "msg_id": "HYDROARC 822/11(51,57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 200115Z JUN",
+      "HYDROARC 855/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 19 MAY THRU 19 JUN\n   COMMENCING DAILY 1929Z TO 0015Z\n   IN AREA BOUND BY\n   00-28N 001-23W, 01-20S 001-37W,\n   00-33N 016-25W, 02-21N 016-12W.\n2. CANCEL THIS MSG 200115Z JUN.",
+    "cancel_date": "2011-05-21T09:15:00+00:00",
     "valid_from": "2011-05-14T11:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-21T09:15:00+00:00",
     "summary": null
   }
 }

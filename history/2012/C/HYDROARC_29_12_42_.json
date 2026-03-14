@@ -33,13 +33,17 @@
     "raw_dtg": "201537Z APR 12",
     "msg_id": "HYDROARC 29/12(42)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 281700Z APR",
+      "HYDROARC 29/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nMISSLES.\n1. HAZARDOUS OPERATIONS 0400Z TO 1600Z\n   DAILY 25 THRU 28 IN AREA BOUND BY\n   69-34.5N 033-38.0E, 69-58.0N 033-38.0E,\n   69-58.0N 034-47.0E, 69-34.5N 034-47.0E.\n2. CANCEL THIS MSG 281700Z APR.",
+    "cancel_date": "2012-04-28T17:00:00+00:00",
     "valid_from": "2012-04-20T15:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-28T17:00:00+00:00",
     "summary": null
   }
 }

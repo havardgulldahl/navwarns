@@ -13,13 +13,16 @@
     "raw_dtg": "011500Z SEP 13",
     "msg_id": "HYDROARC 2132/13(36)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2142/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WALES-NORTHWEST COAST.\nCHART 36025\nPOINT LYNAS LIGHT 53-25.0N 004-17.3W UNRELIABLE.",
+    "cancel_date": "2013-09-02T18:47:00+00:00",
     "valid_from": "2013-09-01T15:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-09-02T18:47:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,16 @@
     "raw_dtg": "040746Z APR 18",
     "msg_id": "HYDROARC 44/18(42)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 63/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nDNC 22.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V AKVAMARIN IN AREA BOUND BY\n73-57.12N 045-56.33E, 74-09.23N 047-13.87E,\n74-00.33N 047-33.90E, 73-45.68N 046-26.73E.\nONE MILE BERTH REQUESTED.",
+    "cancel_date": "2018-05-05T06:10:00+00:00",
     "valid_from": "2018-04-04T07:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-05-05T06:10:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,17 @@
     "raw_dtg": "010123Z APR 11",
     "msg_id": "HYDROARC 548/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 07 APR",
+      "HYDROARC 564/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\n1. SEISMIC SURVEY 01, 02 AND 06 APR BY\n   M/V RAMFORM VALIANT TOWING TEN 9000 METER\n   LONG CABLES IN AREA BOUND BY\n   14-03.23S 038-06.47W, 13-31.57S 037-36.35W,\n   14-09.07S 036-56.32W, 14-40.57S 037-24.83W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 07 APR.",
+    "cancel_date": "2011-04-04T01:06:00+00:00",
     "valid_from": "2011-04-01T01:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-04T01:06:00+00:00",
     "summary": null
   }
 }

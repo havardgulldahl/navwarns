@@ -13,13 +13,16 @@
     "raw_dtg": "040123Z OCT 12",
     "msg_id": "HYDROARC 2323/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2813/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nCHART 24151\nMASSAGUACU LIGHT 23-37.8S 045-22.2W UNLIT.",
+    "cancel_date": "2012-11-29T23:04:00+00:00",
     "valid_from": "2012-10-04T01:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-11-29T23:04:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "010108Z JUL 18",
     "msg_id": "HYDROARC 2135/18(36)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2177/18"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SAINT GEORGES CHANNEL.\nIRELAND.\nDNC 19.\nCHART 36002.\nTUSKAR ROCK LIGHT 52-12.1N 006-12.4W UNLIT.",
+    "cancel_date": "2018-07-05T07:19:00+00:00",
     "valid_from": "2018-07-01T01:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-07-05T07:19:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "030619Z JUL 11",
     "msg_id": "HYDROARC 88/11(16)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 NOV",
+      "HYDROARC 199/11"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCHUCHKI SEA.\nNOS CHART 16005 (10TH ED).\n1. SCIENTIFIC MOORING ESTABLISHED\n   UNTIL 31 OCT\n   IN 70-01-33.54N 166-04-22.26W.\n2. CANCEL THIS MSG 01 NOV.",
+    "cancel_date": "2011-10-08T09:09:00+00:00",
     "valid_from": "2011-07-03T06:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-08T09:09:00+00:00",
     "summary": null
   }
 }

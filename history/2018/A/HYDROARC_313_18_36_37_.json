@@ -13,13 +13,16 @@
     "raw_dtg": "282125Z JAN 18",
     "msg_id": "HYDROARC 313/18(36,37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 347/18"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 36050.\nEDDYSTONE LIGHT 50-10.8N 004-15.9W RED SECTOR UNLIT.",
+    "cancel_date": "2018-01-31T12:00:00+00:00",
     "valid_from": "2018-01-28T21:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-01-31T12:00:00+00:00",
     "summary": null
   }
 }

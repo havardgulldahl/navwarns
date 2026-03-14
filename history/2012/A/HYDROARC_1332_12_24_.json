@@ -13,13 +13,16 @@
     "raw_dtg": "192326Z JUN 12",
     "msg_id": "HYDROARC 1332/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2076/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nCHART 24290\nCURUCA LIGHT 00-33.9S 047-45.9W UNLIT.",
+    "cancel_date": "2012-09-07T20:27:00+00:00",
     "valid_from": "2012-06-19T23:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-09-07T20:27:00+00:00",
     "summary": null
   }
 }

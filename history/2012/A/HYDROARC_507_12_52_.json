@@ -13,13 +13,16 @@
     "raw_dtg": "061100Z MAR 12",
     "msg_id": "HYDROARC 507/12(52)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 871/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nCHART 52223\nCAP DE FER LIGHT 37-04.9N 007-10.4E UNLIT.",
+    "cancel_date": "2012-04-21T09:58:00+00:00",
     "valid_from": "2012-03-06T11:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-21T09:58:00+00:00",
     "summary": null
   }
 }

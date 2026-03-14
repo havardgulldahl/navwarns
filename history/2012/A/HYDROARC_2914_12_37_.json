@@ -13,13 +13,16 @@
     "raw_dtg": "101529Z DEC 12",
     "msg_id": "HYDROARC 2914/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 39/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHEAST COAST.\nCHART 37121\nFOLKESTONE HARBOUR LIGHT 51-04.5N 001-11.8E UNLIT.",
+    "cancel_date": "2013-01-04T16:54:00+00:00",
     "valid_from": "2012-12-10T15:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-01-04T16:54:00+00:00",
     "summary": null
   }
 }

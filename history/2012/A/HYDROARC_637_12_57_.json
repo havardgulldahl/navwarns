@@ -13,13 +13,17 @@
     "raw_dtg": "220957Z MAR 12",
     "msg_id": "HYDROARC 637/12(57)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 311100Z MAR",
+      "HYDROARC 637/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nNIGERIA.\n1. CABLE OPERATIONS 241000Z TO 311000Z MAR\n   BY CABLESHIP CHAMAREL WITH SUBMERSIBLE\n   ALONG TRACKLINE BETWEEN\n   06-22.50N 003-26.37E AND 06-22.39N 003-26.40E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 311100Z MAR.",
+    "cancel_date": "2012-03-31T11:00:00+00:00",
     "valid_from": "2012-03-22T09:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-31T11:00:00+00:00",
     "summary": null
   }
 }

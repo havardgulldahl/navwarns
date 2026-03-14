@@ -7,13 +7,17 @@
     "raw_dtg": "011404Z MAR 12",
     "msg_id": "HYDROARC 467/12(54,56)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 021500Z MAR",
+      "HYDROARC 467/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 020700Z TO 021400Z MAR\n   IN AREA BOUND BY\n   35-17N 034-40E, 35-09N 035-15E,\n   34-05N 034-35E, 34-05N 033-43E.\n2. CANCEL THIS MSG 021500Z MAR.",
+    "cancel_date": "2012-03-02T15:00:00+00:00",
     "valid_from": "2012-03-01T14:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-02T15:00:00+00:00",
     "summary": null
   }
 }

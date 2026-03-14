@@ -33,13 +33,16 @@
     "raw_dtg": "302132Z JAN 13",
     "msg_id": "HYDROARC 276/13(23,24)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 288/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nURUGUAY.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V WG TASMAN TOWING 12 8000 METER LONG CABLES\nIN AREA BOUND BY\n35-38.48S 052-27.82W, 35-53.63S 052-43.07W,\n36-52.50S 051-45.45W, 36-37.13S 051-30.12W.\nNINE MILE BERTH REQUESTED.",
+    "cancel_date": "2013-02-01T05:19:00+00:00",
     "valid_from": "2013-01-30T21:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-02-01T05:19:00+00:00",
     "summary": null
   }
 }

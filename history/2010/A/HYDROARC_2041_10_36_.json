@@ -7,13 +7,17 @@
     "raw_dtg": "271700Z OCT 10",
     "msg_id": "HYDROARC 2041/10(36)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 301700Z OCT",
+      "HYDROARC 2041/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. 11 LIFERAFTS ADRIFT VICINITY 47-39N 010-58W\n   AT 271300Z OCT.\n2. CANCEL THIS MSG 301700Z OCT.",
+    "cancel_date": "2010-10-30T17:00:00+00:00",
     "valid_from": "2010-10-27T17:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-30T17:00:00+00:00",
     "summary": null
   }
 }

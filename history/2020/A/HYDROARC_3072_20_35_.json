@@ -13,13 +13,16 @@
     "raw_dtg": "091953Z OCT 20",
     "msg_id": "HYDROARC 3072/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3073/20"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH MINCH.\nSCOTLAND.\nDNC 19.\n24.5 METER SHOAL IN 43-00.5N 124-21.6W.",
+    "cancel_date": "2020-10-09T20:16:00+00:00",
     "valid_from": "2020-10-09T19:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-10-09T20:16:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "081122Z JAN 10",
     "msg_id": "HYDROARC 34/10(53,54)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 010059Z FEB",
+      "HYDROARC 34/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTHERN IONIAN SEA.\nORDNANCE.\n1. BOMBING EXERCISES 101201Z TO 312359Z JAN\n   WITHIN 25 MILES OF 36-30N 017-00E.\n2. CANCEL THIS MSG 010059Z FEB.",
+    "cancel_date": "2010-02-01T00:59:00+00:00",
     "valid_from": "2010-01-08T11:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-01T00:59:00+00:00",
     "summary": null
   }
 }

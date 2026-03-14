@@ -13,13 +13,16 @@
     "raw_dtg": "201319Z JAN 17",
     "msg_id": "HYDROARC 211/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 315/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nCHART 37166.\nPLATFORM 49/16, 53-23.2N 002-08.9E UNLIT\nAND FOG SIGNAL INOPERATIVE.",
+    "cancel_date": "2017-01-30T14:26:00+00:00",
     "valid_from": "2017-01-20T13:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-30T14:26:00+00:00",
     "summary": null
   }
 }

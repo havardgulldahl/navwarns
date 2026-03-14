@@ -7,13 +7,16 @@
     "raw_dtg": "022029Z OCT 12",
     "msg_id": "HYDROARC 2299/12(54)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2397/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nGREECE.\nCHART 54320\nAKRA TRIMESON LIGHT 37-31N 024-53E UNLIT.",
+    "cancel_date": "2012-10-13T10:13:00+00:00",
     "valid_from": "2012-10-02T20:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-10-13T10:13:00+00:00",
     "summary": null
   }
 }

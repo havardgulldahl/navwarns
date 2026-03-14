@@ -7,13 +7,17 @@
     "raw_dtg": "292115Z MAR 10",
     "msg_id": "HYDROARC 547/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 031200Z APR",
+      "HYDROARC 547/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 030800Z TO 031100Z APR\n   WITHIN 45 MILES OF 11-50N 019-45W.\n2. CANCEL THIS MSG 031200Z APR.",
+    "cancel_date": "2010-04-03T12:00:00+00:00",
     "valid_from": "2010-03-29T21:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-03T12:00:00+00:00",
     "summary": null
   }
 }

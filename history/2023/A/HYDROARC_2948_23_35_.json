@@ -13,13 +13,16 @@
     "raw_dtg": "270535Z DEC 23",
     "msg_id": "HYDROARC 2948/23(35)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2966/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 19.\nRUE POINT LIGHT 55-15.50N 006-11.50W UNLIT.",
+    "cancel_date": "2023-12-29T01:14:00+00:00",
     "valid_from": "2023-12-27T05:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-12-29T01:14:00+00:00",
     "summary": null
   }
 }

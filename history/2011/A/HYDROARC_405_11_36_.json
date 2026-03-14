@@ -7,13 +7,17 @@
     "raw_dtg": "111351Z MAR 11",
     "msg_id": "HYDROARC 405/11(36)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 161800Z MAR",
+      "HYDROARC 413/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMISSILES.\n1. HAZARDOUS OPERATIONS 160700Z TO 161700Z MAR\n   WITHIN 75 MILES OF 46-30N 013-00W.\n2. CANCEL THIS MSG 161800Z MAR.",
+    "cancel_date": "2011-03-13T11:50:00+00:00",
     "valid_from": "2011-03-11T13:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-13T11:50:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "180414Z APR 13",
     "msg_id": "HYDROARC 972/13(37)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 985/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nCHART 37120\nF1 BUOY 51-11.2N 001-44.9E UNLIT.",
+    "cancel_date": "2013-04-19T15:35:00+00:00",
     "valid_from": "2013-04-18T04:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-04-19T15:35:00+00:00",
     "summary": null
   }
 }

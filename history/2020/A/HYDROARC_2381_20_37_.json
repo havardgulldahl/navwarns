@@ -13,13 +13,16 @@
     "raw_dtg": "301032Z JUL 20",
     "msg_id": "HYDROARC 2381/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2621/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nSHAMROCK PLATFORM 53-28.2N 002-55.2E LIGHT\nUNRELIABLE.",
+    "cancel_date": "2020-08-25T11:29:00+00:00",
     "valid_from": "2020-07-30T10:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-08-25T11:29:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "041123Z JUN 18",
     "msg_id": "HYDROARC 1754/18(37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2313/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37140.\n7.8 METER DEPTH REPORTED IN 51-23.8N 001-31.1E.",
+    "cancel_date": "2018-07-16T10:24:00+00:00",
     "valid_from": "2018-06-04T11:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-07-16T10:24:00+00:00",
     "summary": null
   }
 }

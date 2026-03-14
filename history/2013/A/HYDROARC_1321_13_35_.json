@@ -13,13 +13,16 @@
     "raw_dtg": "290330Z MAY 13",
     "msg_id": "HYDROARC 1321/13(35)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1350/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-NORTHEAST COAST.\nCHART 35010\nFOG SIGNAL AT COQUET ISLAND LIGHT 55-20.0N 001-32.2W INOPERATIVE.",
+    "cancel_date": "2013-05-31T20:25:00+00:00",
     "valid_from": "2013-05-29T03:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-05-31T20:25:00+00:00",
     "summary": null
   }
 }

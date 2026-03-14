@@ -7,13 +7,17 @@
     "raw_dtg": "111559Z APR 10",
     "msg_id": "HYDROARC 627/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 221600Z APR",
+      "HYDROARC 627/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nWESTERN NORTH SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 120800Z TO 221500Z APR\n   IN AREA BOUND BY\n   56-43N 006-14W, 56-00N 007-40W,\n   56-00N 012-00W, 61-00N 012-00W,\n   61-00N 000-00W, 55-00N 000-00W,\n   55-00N 001-25W, 58-38N 005-00W.\n2. CANCEL THIS MSG 221600Z APR.",
+    "cancel_date": "2010-04-22T16:00:00+00:00",
     "valid_from": "2010-04-11T15:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-22T16:00:00+00:00",
     "summary": null
   }
 }

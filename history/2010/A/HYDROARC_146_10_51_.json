@@ -7,13 +7,17 @@
     "raw_dtg": "231059Z JAN 10",
     "msg_id": "HYDROARC 146/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 241300Z JAN",
+      "HYDROARC 146/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nHAZARDOUS OPERATIONS\n1. HAZARDOUS OPERATIONS 241000Z TO 241200Z JAN\n   IN AREA BOUND BY\n   35-08N 012-19W, 33-50N 011-53W,\n   34-28N 009-32W, 35-40N 010-19W.\n2. CANCEL THIS MSG 241300Z JAN.",
+    "cancel_date": "2010-01-24T13:00:00+00:00",
     "valid_from": "2010-01-23T10:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-24T13:00:00+00:00",
     "summary": null
   }
 }

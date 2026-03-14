@@ -13,13 +13,16 @@
     "raw_dtg": "190901Z SEP 16",
     "msg_id": "HYDROARC 2441/16(37,43)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1122/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20, DNC 21.\nCHART 37005.\nRACON (T) ESTABLISHED AT\nPLATFORM FPF1 56-46.9N 002-06.5E.",
+    "cancel_date": "2017-04-07T13:55:00+00:00",
     "valid_from": "2016-09-19T09:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-04-07T13:55:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "021100Z FEB 15",
     "msg_id": "HYDROARC 283/15(37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 648/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nDNC 20.\nCHART 37121.\nCOLBART SW BUOY 50-48.9N 001-16.3E UNRELIABLE.",
+    "cancel_date": "2015-03-17T08:46:00+00:00",
     "valid_from": "2015-02-02T11:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-03-17T08:46:00+00:00",
     "summary": null
   }
 }

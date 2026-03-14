@@ -13,13 +13,17 @@
     "raw_dtg": "071458Z FEB 12",
     "msg_id": "HYDROARC 307/12(54)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 101453Z FEB",
+      "HYDROARC 307/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\n1. CONTAINER ADRIFT VICINITY 36-20.5N 017-24.6E\n   AT 07 FEB.\n2. CANCEL THIS MSG 101453Z FEB.",
+    "cancel_date": "2012-02-10T14:53:00+00:00",
     "valid_from": "2012-02-07T14:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-10T14:53:00+00:00",
     "summary": null
   }
 }

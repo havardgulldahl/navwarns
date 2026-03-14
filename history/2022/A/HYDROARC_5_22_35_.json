@@ -13,13 +13,16 @@
     "raw_dtg": "011823Z JAN 22",
     "msg_id": "HYDROARC 5/22(35)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 83/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nRONA LIGHT 59-07.3N 005-48.8W UNRELIABLE.",
+    "cancel_date": "2022-01-09T14:56:00+00:00",
     "valid_from": "2022-01-01T18:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-01-09T14:56:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "060046Z JUN 12",
     "msg_id": "HYDROARC 1214/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 11 JUN",
+      "HYDROARC 1214/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 10 JUN BY\n   M/V DISCOVERER IN AREA BOUND BY\n   31-45S 050-50W, 31-48S 050-50W,\n   32-00S 048-50W, 32-03S 048-50W,\n   32-06S 048-50W, 32-24S 049-54W,\n   32-28S 049-54W, 32-32S 049-54W,\n   32-34S 048-16W, 32-38S 048-16W,\n   32-42S 048-16W, 32-51S 050-50W.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 11 JUN.",
+    "cancel_date": "2012-06-11T00:01:00+00:00",
     "valid_from": "2012-06-06T00:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-11T00:01:00+00:00",
     "summary": null
   }
 }

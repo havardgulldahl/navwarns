@@ -13,13 +13,16 @@
     "raw_dtg": "091237Z DEC 20",
     "msg_id": "HYDROARC 3816/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3857/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT LEMAN GAS PLATFORM 49/27-J\n53-01.9N 002-13.2E INOPERATIVE.",
+    "cancel_date": "2020-12-14T18:25:00+00:00",
     "valid_from": "2020-12-09T12:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-12-14T18:25:00+00:00",
     "summary": null
   }
 }

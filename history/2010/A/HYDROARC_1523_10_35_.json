@@ -7,13 +7,16 @@
     "raw_dtg": "101608Z AUG 10",
     "msg_id": "HYDROARC 1523/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1525/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nRADIO SERVICES.\nMRCC STORNOWAY MF DSC 58-12N 006-23W INOPERATIVE.",
+    "cancel_date": "2010-08-11T04:02:00+00:00",
     "valid_from": "2010-08-10T16:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-11T04:02:00+00:00",
     "summary": null
   }
 }

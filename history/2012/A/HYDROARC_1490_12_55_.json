@@ -41,13 +41,17 @@
     "raw_dtg": "061454Z JUL 12",
     "msg_id": "HYDROARC 1490/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 142230Z JUL",
+      "HYDROARC 1490/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nGUNNERY. MISSILES.\n1. HAZARDOUS OPERATIONS 0430Z TO 2130Z DAILY\n   09 THRU 14 JUL IN AREA BOUND BY\n   44-42.0N 032-49.0E, 44-36.5N 032-39.9E,\n   44-41.0N 032-11.9E, 44-48.0N 032-07.9E,\n   44-59.5N 032-16.4E, 44-54.0N 032-33.0E.\n2. CANCEL THIS MSG 142230Z JUL.",
+    "cancel_date": "2012-07-14T22:30:00+00:00",
     "valid_from": "2012-07-06T14:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-14T22:30:00+00:00",
     "summary": null
   }
 }

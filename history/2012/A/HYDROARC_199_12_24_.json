@@ -7,13 +7,17 @@
     "raw_dtg": "250212Z JAN 12",
     "msg_id": "HYDROARC 199/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 010259Z FEB",
+      "HYDROARC 199/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL\n   010159Z FEB BY M/V NPS WG COOK TOWING\n   12 FIVE MILE LONG CABLES\n   IN AREA BOUND BY\n   25-48S 043-49W, 25-34S 044-14W,\n   26-03S 041-57W, 26-39S 042-22W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 010259Z FEB.",
+    "cancel_date": "2012-02-01T02:59:00+00:00",
     "valid_from": "2012-01-25T02:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-01T02:59:00+00:00",
     "summary": null
   }
 }

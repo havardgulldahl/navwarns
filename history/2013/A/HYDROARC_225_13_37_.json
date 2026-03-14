@@ -13,13 +13,16 @@
     "raw_dtg": "251310Z JAN 13",
     "msg_id": "HYDROARC 225/13(37)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 372/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nCHART 37120\nFOG SIGNAL AT SANDETTIE LIGHTSHIP 51-09.4N 001-47.2E UNRELIABLE.",
+    "cancel_date": "2013-02-10T23:21:00+00:00",
     "valid_from": "2013-01-25T13:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-02-10T23:21:00+00:00",
     "summary": null
   }
 }

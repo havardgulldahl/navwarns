@@ -13,13 +13,16 @@
     "raw_dtg": "120111Z SEP 12",
     "msg_id": "HYDROARC 2115/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2165/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTH COAST.\nLYME BAY.\nCHART 37015\nNAVIGATION PROHIBITED WITHIN 250 METERS\nOF 50-23.08N 003-19.45W.",
+    "cancel_date": "2012-09-19T09:09:00+00:00",
     "valid_from": "2012-09-12T01:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-09-19T09:09:00+00:00",
     "summary": null
   }
 }

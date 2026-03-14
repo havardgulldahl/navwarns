@@ -13,13 +13,16 @@
     "raw_dtg": "280010Z MAR 17",
     "msg_id": "HYDROARC 992/17(35)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1007/17"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH MINCH.\nSCOTLAND-NORTHWEST COAST.\nDNC 19, DNC 20.\nCHART 35078.\nMILAID LIGHT 58-01.1N 006-22.0W UNLIT.",
+    "cancel_date": "2017-03-28T15:46:00+00:00",
     "valid_from": "2017-03-28T00:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-03-28T15:46:00+00:00",
     "summary": null
   }
 }

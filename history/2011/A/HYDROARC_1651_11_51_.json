@@ -13,13 +13,17 @@
     "raw_dtg": "072314Z OCT 11",
     "msg_id": "HYDROARC 1651/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 102315Z OCT",
+      "HYDROARC 1651/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nARQUIPELAGO DE MADEIRA.\n1. CONTAINER ADRIFT IN 33-36.2N 017-33.3W AT 071900Z OCT.\n2. CANCEL THIS MSG 102315Z OCT.",
+    "cancel_date": "2011-10-10T23:15:00+00:00",
     "valid_from": "2011-10-07T23:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-10T23:15:00+00:00",
     "summary": null
   }
 }

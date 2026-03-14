@@ -40,14 +40,19 @@ COORD_PATTERN = re.compile(rf"({_LAT_PART}[NS])\s+({_LON_PART}[EW])")
 #  - THIS MSG <DTG>
 #  - THIS MESSAGE <DD MON YY>
 #  - THIS MSG <DD MON YY>
+#  - THIS MSG <DDHHMMZ MON> (no year)
+#  - THIS <DD MON YY> (no MSG/MESSAGE)
 CANCEL_PATTERN = re.compile(
     r"CANCEL ("  # capture the target only
     r"HYDROARC \d+/\d+"  # structured HYDROARC
     r"|NAVAREA [A-Z0-9]{1,10} \d+/\d+"  # structured NAVAREA (e.g. NAVAREA XIX 32/26)
     r"|\d+/\d+"  # plain number/year
-    r"|THIS (?:MSG|MESSAGE) \d{6}Z [A-Z]{3} \d{2}"  # DTG form with Z
+    r"|THIS (?:MSG|MESSAGE) \d{6}Z [A-Z]{3} \d{2}"  # DTG form: DDHHMMZ MON YY
     r"|THIS (?:MSG|MESSAGE) \d{6} UTC [A-Z]{3} \d{2}"  # DTG without Z + UTC
-    r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # date only 2 or 4-digit year
+    r"|THIS (?:MSG|MESSAGE) \d{6}Z [A-Z]{3}"  # DTG form without year: DDHHMMZ MON
+    r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # date only: DD MON YY/YYYY
+    r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3}"  # date only without year: DD MON
+    r"|THIS \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # bare THIS DD MON YY (no MSG/MESSAGE)
     r")"
 )
 
@@ -247,6 +252,7 @@ class NavwarnMessage:
     groups: List[List[Tuple[float, float]]] = field(default_factory=list)
     body: str = ""
     year: Optional[int] = None  # four-digit year inferred from msg_id or dtg
+    cancel_date: Optional[str] = None  # structured cancel date from XML
 
     # --- Validity helpers ---
     def _compute_valid_from(self) -> Optional[str]:
@@ -263,9 +269,13 @@ class NavwarnMessage:
     def _compute_valid_until(self) -> Optional[str]:
         """Extract self-cancellation date as ISO-8601 string.
 
-        Looks for 'THIS MSG' / 'THIS MESSAGE' entries in
-        cancellations and parses the embedded DTG.
+        Priority: structured cancel_date from XML > body-text parsing.
+        Looks for 'THIS MSG' / 'THIS MESSAGE' / 'THIS' entries in
+        cancellations and parses the embedded DTG.  When the year is
+        omitted, it is inferred from the message's own dtg or year.
         """
+        if self.cancel_date:
+            return self.cancel_date
         month_map = {
             "JAN": 1,
             "FEB": 2,
@@ -280,11 +290,24 @@ class NavwarnMessage:
             "NOV": 11,
             "DEC": 12,
         }
+
+        def _infer_year(month: int) -> Optional[int]:
+            """Best-effort year for yearless cancel dates."""
+            if self.dtg:
+                # If cancel month is before issue month, assume next year
+                base = self.dtg.year
+                if month < self.dtg.month:
+                    return base + 1
+                return base
+            if self.year:
+                return self.year
+            return None
+
         for cancel in self.cancellations:
             if not cancel:
                 continue
             upper = cancel.upper()
-            if "THIS MSG" not in upper and "THIS MESSAGE" not in upper:
+            if "THIS" not in upper:
                 continue
             # Full DTG: DDHHMM[Z| UTC] MON YY
             m = re.match(
@@ -312,16 +335,61 @@ class NavwarnMessage:
                         ).isoformat()
                     except ValueError:
                         pass
-            # Date-only: DD MON YY
+            # DTG without year: DDHHMMZ MON
+            m_noy = re.match(
+                r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})" r"Z ([A-Z]{3})$",
+                cancel,
+            )
+            if m_noy:
+                day, hour, minute = (
+                    int(m_noy.group(1)),
+                    int(m_noy.group(2)),
+                    int(m_noy.group(3)),
+                )
+                mon = month_map.get(m_noy.group(4))
+                yr = _infer_year(mon) if mon else None
+                if mon and yr:
+                    try:
+                        return datetime(
+                            yr,
+                            mon,
+                            day,
+                            hour,
+                            minute,
+                            tzinfo=timezone.utc,
+                        ).isoformat()
+                    except ValueError:
+                        pass
+            # Date-only with year: DD MON YY
             m2 = re.match(
-                r"THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3})" r" (\d{2})",
+                r"THIS (?:MSG|MESSAGE)? ?(\d{2}) ([A-Z]{3})" r" (\d{2,4})",
                 cancel,
             )
             if m2:
                 day = int(m2.group(1))
                 mon = month_map.get(m2.group(2))
-                yr = 2000 + int(m2.group(3))
+                yr_raw = int(m2.group(3))
+                yr = yr_raw if yr_raw > 99 else 2000 + yr_raw
                 if mon:
+                    try:
+                        return datetime(
+                            yr,
+                            mon,
+                            day,
+                            tzinfo=timezone.utc,
+                        ).isoformat()
+                    except ValueError:
+                        pass
+            # Date-only without year: DD MON
+            m3 = re.match(
+                r"THIS (?:MSG|MESSAGE)? ?(\d{2}) ([A-Z]{3})$",
+                cancel,
+            )
+            if m3:
+                day = int(m3.group(1))
+                mon = month_map.get(m3.group(2))
+                yr = _infer_year(mon) if mon else None
+                if mon and yr:
                     try:
                         return datetime(
                             yr,
@@ -371,6 +439,7 @@ class NavwarnMessage:
                 "geometry_kind": self.geometry,
                 "radius_nm": self.radius,
                 "body": self.body,
+                "cancel_date": self.cancel_date,
                 "valid_from": self._compute_valid_from(),
                 "valid_until": self._compute_valid_until(),
             },
@@ -415,6 +484,7 @@ class NavwarnMessage:
                         "year": self.year,
                         "hazard_type": self.hazard_type,
                         "body": self.body,
+                        "cancel_date": self.cancel_date,
                         "valid_from": self._compute_valid_from(),
                         "valid_until": self._compute_valid_until(),
                     },

@@ -33,13 +33,17 @@
     "raw_dtg": "111132Z SEP 10",
     "msg_id": "HYDROARC 1716/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 OCT",
+      "HYDROARC 1716/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL 15 OCT\n   BY M/V HIGH LAND NAVIGATOR IN AREA BOUND BY\n   31-22.15N 030-17.06E, 31-32.16N 030-14.95E\n   31-53.33N 030-27.90E, 31-55.31N 030-31.08E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 OCT.",
+    "cancel_date": "2010-10-16T00:01:00+00:00",
     "valid_from": "2010-09-11T11:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-16T00:01:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "011931Z JAN 23",
     "msg_id": "HYDROARC 8/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 23/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BAY OF BISCAY.\nFRANCE.\nDNC 20.\nILE DE SEIN LIGHTHOUSE 48-02.60N 004-52.00W UNLIT.",
+    "cancel_date": "2023-01-03T09:11:00+00:00",
     "valid_from": "2023-01-01T19:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-01-03T09:11:00+00:00",
     "summary": null
   }
 }

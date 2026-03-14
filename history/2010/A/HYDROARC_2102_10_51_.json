@@ -7,13 +7,17 @@
     "raw_dtg": "040040Z NOV 10",
     "msg_id": "HYDROARC 2102/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 070030Z NOV",
+      "HYDROARC 2102/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. DERELICT S/V ADRIFT VICINITY 34-15N 010-32W\n   AT 032300Z NOV.\n2. CANCEL THIS MSG 070030Z NOV.",
+    "cancel_date": "2010-11-07T00:30:00+00:00",
     "valid_from": "2010-11-04T00:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-07T00:30:00+00:00",
     "summary": null
   }
 }

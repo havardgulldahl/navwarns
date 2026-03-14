@@ -13,13 +13,16 @@
     "raw_dtg": "210011Z APR 18",
     "msg_id": "HYDROARC 1261/18(35)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1301/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nORKNEY ISLANDS.\nDNC 20.\nCHART 35056.\nSTART POINT LIGHT 59-16.6N 002-22.6W UNRELIABLE.",
+    "cancel_date": "2018-04-24T11:35:00+00:00",
     "valid_from": "2018-04-21T00:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-04-24T11:35:00+00:00",
     "summary": null
   }
 }

@@ -71,13 +71,17 @@
     "raw_dtg": "100559Z OCT 11",
     "msg_id": "HYDROARC 1665/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 26 OCT",
+      "HYDROARC 1665/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nGULF OF GUINEA.\nSIERRA LEONE.\n1. CABLE OPERATIONS IN PROGRESS UNTIL\n   25 OCT BY CABLESHIP ILE DE SEIN\n   ALONG TRACKLINE JOINING\n   08-27.38N 013-18.44W, 08-26.07N 013-24.51W,\n   08-23.30N 013-34.47W, 08-18.54N 013-40.77W,\n   08-15.57N 013-45.03W, 08-10.70N 013-48.94W,\n   07-50.94N 014-03.74W, 07-46.05N 014-07.59W,\n   07-42.80N 014-10.70W, 07-33.18N 014-14.50W,\n   07-08.35N 014-36.58W, 06-56.18N 014-38.75W,\n   06-36.51N 014-11.63W, 05-12.90N 011-53.70W,\n   05-07.67N 011-46.21W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 OCT.",
+    "cancel_date": "2011-10-26T00:00:00+00:00",
     "valid_from": "2011-10-10T05:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-26T00:00:00+00:00",
     "summary": null
   }
 }

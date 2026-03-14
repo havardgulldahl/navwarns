@@ -37,13 +37,16 @@
     "raw_dtg": "152335Z AUG 12",
     "msg_id": "HYDROARC 1879/12(43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2473/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V SRV VANTAGE TOWING EIGHT 2.5 MILE LONG\nCABLES IN AREA BOUND BY\n57-31.8N 001-28.1E, 57-20.2N 001-08.2E,\n56-53.4N 002-03.1E, 57-02.6N 002-24.2E,\n57-36.0N 001-34.8E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2012-10-23T08:41:00+00:00",
     "valid_from": "2012-08-15T23:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-10-23T08:41:00+00:00",
     "summary": null
   }
 }

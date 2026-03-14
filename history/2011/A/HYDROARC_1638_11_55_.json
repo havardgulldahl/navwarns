@@ -33,13 +33,17 @@
     "raw_dtg": "061333Z OCT 11",
     "msg_id": "HYDROARC 1638/11(55)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 27 OCT",
+      "HYDROARC 1716/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. SEISMIC SURVEY 07 TO 26 OCT BY M/V MEZEN\n   TOWING 11500 METER LONG CABLE\n   IN AREA BOUND BY\n   42-19.5N 039-23.0E, 44-30.5N 035-15.9E,\n   44-49.4N 036-14.5E, 43-24.2N 039-23.0E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 27 OCT.",
+    "cancel_date": "2011-10-18T19:17:00+00:00",
     "valid_from": "2011-10-06T13:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-18T19:17:00+00:00",
     "summary": null
   }
 }

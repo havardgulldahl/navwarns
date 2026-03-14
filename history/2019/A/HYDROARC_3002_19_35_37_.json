@@ -13,13 +13,16 @@
     "raw_dtg": "020937Z OCT 19",
     "msg_id": "HYDROARC 3002/19(35,37)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3081/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35008, 37005.\nRACON AT RATTRAY HEAD LIGHT 57-36-36N 001-49-00W\nINOPERATIVE.",
+    "cancel_date": "2019-10-10T17:08:00+00:00",
     "valid_from": "2019-10-02T09:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-10-10T17:08:00+00:00",
     "summary": null
   }
 }

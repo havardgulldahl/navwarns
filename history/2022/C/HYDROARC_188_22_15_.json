@@ -13,13 +13,16 @@
     "raw_dtg": "041548Z AUG 22",
     "msg_id": "HYDROARC 188/22(15)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 332/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA.\nDNC 28.\nMCTS IQALUIT REMOTE STATION RESOLUTE\n74-44.78N 095-00.18W HF FREQUENCY 4363 KHZ\nUNABLE TO TRANSMIT.",
+    "cancel_date": "2022-10-24T20:59:00+00:00",
     "valid_from": "2022-08-04T15:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-10-24T20:59:00+00:00",
     "summary": null
   }
 }

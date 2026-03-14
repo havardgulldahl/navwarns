@@ -7,13 +7,16 @@
     "raw_dtg": "240413Z MAR 15",
     "msg_id": "HYDROARC 701/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1243/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GEOWAVE COMMANDER IN AREA BETWEEN\n58-04.0N 57-51.5N AND 001-04.0W 000-45.0W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2015-05-20T13:35:00+00:00",
     "valid_from": "2015-03-24T04:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-05-20T13:35:00+00:00",
     "summary": null
   }
 }

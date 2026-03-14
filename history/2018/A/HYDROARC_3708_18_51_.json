@@ -13,13 +13,16 @@
     "raw_dtg": "282012Z NOV 18",
     "msg_id": "HYDROARC 3708/18(51)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3827/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "STRAIT OF GIBRALTAR.\nSPAIN.\nDNC 08.\nNAVTEX STATION TARIFA (G) 36-02.5N 005-33.4W\nFREQUENCY 490 KHZ INOPERATIVE.",
+    "cancel_date": "2018-12-08T16:10:00+00:00",
     "valid_from": "2018-11-28T20:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-12-08T16:10:00+00:00",
     "summary": null
   }
 }

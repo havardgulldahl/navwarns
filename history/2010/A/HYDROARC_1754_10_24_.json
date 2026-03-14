@@ -33,13 +33,17 @@
     "raw_dtg": "170308Z SEP 10",
     "msg_id": "HYDROARC 1754/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 210359Z SEP",
+      "HYDROARC 1754/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 210259Z SEP\n   BY M/V VERITAS VANTAGE TOWING EIGHT\n   7000 METER LONG CABLES IN AREA BOUND BY\n   24-01.0S 044-10.2W, 25-49.0S 046-26.6W,\n   25-49.0S 043-15.0W, 24-01.0S 043-15.0W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 210359Z SEP.",
+    "cancel_date": "2010-09-21T03:59:00+00:00",
     "valid_from": "2010-09-17T03:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-21T03:59:00+00:00",
     "summary": null
   }
 }

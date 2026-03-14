@@ -13,13 +13,17 @@
     "raw_dtg": "061317Z JAN 12",
     "msg_id": "HYDROARC 48/12(43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 091314Z JAN",
+      "HYDROARC 48/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\n1. NUMEROUS FISHING TRAPS ADRIFT IN\n   60-08.76N 000-51.50E AT 061136Z JAN.\n2. CANCEL THIS MSG 091314Z JAN.",
+    "cancel_date": "2012-01-09T13:14:00+00:00",
     "valid_from": "2012-01-06T13:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-09T13:14:00+00:00",
     "summary": null
   }
 }

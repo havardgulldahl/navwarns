@@ -7,13 +7,17 @@
     "raw_dtg": "260617Z OCT 11",
     "msg_id": "HYDROARC 214/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 100101Z NOV",
+      "HYDROARC 216/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\n1. INUVIK MCTS CENTRE OFF AIR\n    UNTIL 100001Z NOV.\n2. CANCEL THIS MSG 100101Z NOV.",
+    "cancel_date": "2011-10-29T10:27:00+00:00",
     "valid_from": "2011-10-26T06:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-29T10:27:00+00:00",
     "summary": null
   }
 }

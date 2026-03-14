@@ -13,13 +13,16 @@
     "raw_dtg": "182108Z OCT 12",
     "msg_id": "HYDROARC 2436/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2436/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nOUTER HEBRIDES.\nCHART 35092\nUSHENISH LIGHT 57-17.9N 007-11.5W UNLIT.",
+    "cancel_date": "2012-10-19T00:00:00+00:00",
     "valid_from": "2012-10-18T21:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-10-19T00:00:00+00:00",
     "summary": null
   }
 }

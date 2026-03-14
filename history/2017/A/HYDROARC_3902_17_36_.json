@@ -13,13 +13,16 @@
     "raw_dtg": "040609Z DEC 17",
     "msg_id": "HYDROARC 3902/17(36)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3927/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nWALES.\nDNC 20.\nCHART 36006.\nSKERRIES LIGHT 53-25.3N 004-36.5W UNRELIABLE.",
+    "cancel_date": "2017-12-05T21:02:00+00:00",
     "valid_from": "2017-12-04T06:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-12-05T21:02:00+00:00",
     "summary": null
   }
 }

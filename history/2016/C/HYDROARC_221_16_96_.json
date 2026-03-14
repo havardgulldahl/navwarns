@@ -13,13 +13,16 @@
     "raw_dtg": "081220Z SEP 16",
     "msg_id": "HYDROARC 221/16(96)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 295/17"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCHUKCHI SEA.\nDNC 27.\nCHART 96660.\nSCIENTIFIC MOORING, TOP FLOAT 38 METERS,\nESTABLISHED IN 68-01.98N 168-50.12W.",
+    "cancel_date": "2017-09-25T23:38:00+00:00",
     "valid_from": "2016-09-08T12:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-09-25T23:38:00+00:00",
     "summary": null
   }
 }

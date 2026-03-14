@@ -34,12 +34,14 @@
     "msg_id": "HYDROARC 123/24(54)",
     "year": 2024,
     "cancellations": [
-      "THIS MSG 311600Z DEC 24"
+      "THIS MSG 311600Z DEC 24",
+      "HYDROARC 123/24"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 0500Z TO 1500Z\n   DAILY 16 JAN THRU 14 JUN AND\n   16 SEP THRU 31 DEC IN AREA BOUND BY\n   39-26.00N 023-53.00E, 39-46.00N 023-40.00E,\n   40-00.50N 024-18.00E, 39-43.00N 024-31.00E.\n2. CANCEL THIS MSG 311600Z DEC 24.",
+    "cancel_date": "2024-12-31T16:00:00+00:00",
     "valid_from": "2024-01-16T09:24:00+00:00",
     "valid_until": "2024-12-31T16:00:00+00:00",
     "summary": null

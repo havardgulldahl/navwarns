@@ -13,13 +13,16 @@
     "raw_dtg": "191258Z FEB 16",
     "msg_id": "HYDROARC 424/16(37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 519/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTHERN NORTH SEA.\nDNC 20, DNC 21.\nCHART 37058.\nPLATFORM TETHYS 53-39.1N 002-03.5E UNLIT\nAND FOG SIGNAL INOPERATIVE.",
+    "cancel_date": "2016-03-01T17:39:00+00:00",
     "valid_from": "2016-02-19T12:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-03-01T17:39:00+00:00",
     "summary": null
   }
 }

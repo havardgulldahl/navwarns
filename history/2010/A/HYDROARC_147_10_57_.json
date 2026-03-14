@@ -49,13 +49,16 @@
     "raw_dtg": "231105Z JAN 10",
     "msg_id": "HYDROARC 147/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 378/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V RAMFORM CHALLENGER TOWING 12\n6000 METER LONG CABLES IN AREA BOUND BY\n05-31.57N  003-33.44E, 05-32.01N  002-44.23E,\n05-47.36N  002-44.23E, 05-59.59N  002-44.23E,\n06-00.00N  003-50.30E, 05-47.36N  003-50.29E,\n05-47.37N  003-27.11E, 05-38.33N  003-27.11E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2010-03-02T06:34:00+00:00",
     "valid_from": "2010-01-23T11:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-02T06:34:00+00:00",
     "summary": null
   }
 }

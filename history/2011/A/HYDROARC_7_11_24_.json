@@ -7,13 +7,17 @@
     "raw_dtg": "030302Z JAN 11",
     "msg_id": "HYDROARC 7/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 07 JAN",
+      "HYDROARC 7/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 06 JAN\n   M/V WG TASMAN TOWING 8334 METER\n   LONG CABLE IN AREA BOUND BY\n   03-38S 037-21W, 03-45S 037-27W,\n   04-33S 036-31W, 04-26S 036-28W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 07 JAN.",
+    "cancel_date": "2011-01-07T00:01:00+00:00",
     "valid_from": "2011-01-03T03:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-07T00:01:00+00:00",
     "summary": null
   }
 }

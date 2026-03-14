@@ -33,13 +33,17 @@
     "raw_dtg": "011513Z FEB 12",
     "msg_id": "HYDROARC 268/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 080259Z FEB",
+      "HYDROARC 270/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL\n   080159Z FEB BY M/V NPS RAMFORM CHALLENGER\n   TOWING 12 4500 METER LONG CABLES\n   IN AREA BOUND BY\n   23-11.98S 041-12.66W, 23-05.72S 041-23.13W,\n   23-18.13S 041-43.42W, 23-27.54S 041-12.72W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 080259Z FEB.",
+    "cancel_date": "2012-02-01T23:30:00+00:00",
     "valid_from": "2012-02-01T15:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-01T23:30:00+00:00",
     "summary": null
   }
 }

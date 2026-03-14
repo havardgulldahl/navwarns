@@ -7,13 +7,16 @@
     "raw_dtg": "100350Z JAN 11",
     "msg_id": "HYDROARC 57/11(11)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 258/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF MEXICO.\nDISTRESS SIGNAL RECEIVED IN 25-14N 090-57W\nAT 091909Z JAN. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO RCC NEW ORLEANS, TELEX: 701801,\nPHONE: 504 589 6225, FAX: 504 589 2148.",
+    "cancel_date": "2011-02-12T10:13:00+00:00",
     "valid_from": "2011-01-10T03:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-12T10:13:00+00:00",
     "summary": null
   }
 }

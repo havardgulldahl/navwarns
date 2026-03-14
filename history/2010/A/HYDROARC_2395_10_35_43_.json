@@ -7,13 +7,17 @@
     "raw_dtg": "111836Z DEC 10",
     "msg_id": "HYDROARC 2395/10(35,43)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 141829Z DEC",
+      "HYDROARC 2395/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\n1. DERELICT 49 FOOT F/V CAPSIZED AND ADRIFT\n   VICINITY 58-13N 000-20E AT 111445Z DEC.\n2. CANCEL THIS MSG 141829Z DEC.",
+    "cancel_date": "2010-12-14T18:29:00+00:00",
     "valid_from": "2010-12-11T18:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-14T18:29:00+00:00",
     "summary": null
   }
 }

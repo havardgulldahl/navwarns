@@ -13,13 +13,16 @@
     "raw_dtg": "200355Z JUL 17",
     "msg_id": "HYDROARC 2250/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2260/17"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nGUERNSEY.\nDNC 20.\nCHART 37080.\nLES HANOIS LIGHT 49-26.1N 002-42.2W UNLIT.",
+    "cancel_date": "2017-07-20T23:24:00+00:00",
     "valid_from": "2017-07-20T03:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-07-20T23:24:00+00:00",
     "summary": null
   }
 }

@@ -14,14 +14,17 @@
     "msg_id": "HYDROARC 1070/11(35)",
     "year": 2011,
     "cancellations": [
-      "1062/11"
+      "THIS MSG 291600Z JUN",
+      "1062/11",
+      "HYDROARC 1070/11"
     ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-EAST COAST.\nNGA CHART 35013 (0 ED).\n1. DGPS STATION AT GIRDLE NESS LIGHT 57-08.3N 002-02.8W\n   OFF AIR 290900Z TO 291500Z JUN.\n2. CANCEL HYDROLANT 1062/11.\n3. CANCEL THIS MSG 291600Z JUN.",
+    "cancel_date": "2011-06-29T16:00:00+00:00",
     "valid_from": "2011-06-29T04:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-29T16:00:00+00:00",
     "summary": null
   }
 }

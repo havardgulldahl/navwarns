@@ -27,13 +27,16 @@
     "raw_dtg": "012257Z JUL 17",
     "msg_id": "HYDROARC 2042/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2241/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V HAVILA SUBSEA IN VICINITY OF TRACKLINE JOINING\n51-19.4N 001-37.6E, 51-19.6N 001-44.6E,\n51-19.7N 001-51.6E, 51-19.5N 002-03.1E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2017-07-19T14:09:00+00:00",
     "valid_from": "2017-07-01T22:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-07-19T14:09:00+00:00",
     "summary": null
   }
 }

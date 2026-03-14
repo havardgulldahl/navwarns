@@ -7,13 +7,16 @@
     "raw_dtg": "142248Z AUG 12",
     "msg_id": "HYDROARC 124/12(15)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 125/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nINUVIK MCTS CENTRE MF R/T INOPERATIVE.",
+    "cancel_date": "2012-08-16T09:53:00+00:00",
     "valid_from": "2012-08-14T22:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-08-16T09:53:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "060606Z MAY 16",
     "msg_id": "HYDROARC 1075/16(35,36)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1079/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH CHANNEL.\nIRELAND-NORTHEAST COAST.\nDNC 19, DNC 20.\nCHART 35127.\nEAST MAIDEN LIGHT 54-55.7N 005-43.7W UNRELIABLE.",
+    "cancel_date": "2016-05-06T10:45:00+00:00",
     "valid_from": "2016-05-06T06:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-05-06T10:45:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "301205Z OCT 20",
     "msg_id": "HYDROARC 3326/20(57)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3696/20"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\nUNCHARTED SHOALS REPORTED IN VICINITY\n40-15.75S 009-59.36E.",
+    "cancel_date": "2020-11-27T17:34:00+00:00",
     "valid_from": "2020-10-30T12:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-11-27T17:34:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,17 @@
     "raw_dtg": "171547Z OCT 11",
     "msg_id": "HYDROARC 1707/11(54,56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 12 NOV",
+      "HYDROARC 1728/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 11 NOV BY\n   M/V K PIRIREIS IN AREA BOUND BY\n   34-10.78N 032-43.07E, 34-09.47N 033-21.25E,\n   33-25.83N 033-16.95E, 33-16.82N 032-43.30E.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 12 NOV.",
+    "cancel_date": "2011-10-20T14:19:00+00:00",
     "valid_from": "2011-10-17T15:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-20T14:19:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "280103Z JUN 12",
     "msg_id": "HYDROARC 1409/12(35,36)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 281630Z JUN",
+      "HYDROARC 1409/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND.\n1. STIRLING DGPS STATION 56-04.3N 004-03.6W\n   OFF AIR 280930Z TO 281530Z JUN.\n2. CANCEL THIS MSG 281630Z JUN.",
+    "cancel_date": "2012-06-28T16:30:00+00:00",
     "valid_from": "2012-06-28T01:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-28T16:30:00+00:00",
     "summary": null
   }
 }

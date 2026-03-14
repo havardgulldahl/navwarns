@@ -13,13 +13,16 @@
     "raw_dtg": "100224Z NOV 23",
     "msg_id": "HYDROARC 2568/23(36)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2780/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nMRCC MILFORD HAVEN REMOTE STATION ST. ANNES HEAD\n49-58.00N 005-12.00W MF R/T AND DSC SERVICE OFF AIR.",
+    "cancel_date": "2023-12-01T11:31:00+00:00",
     "valid_from": "2023-11-10T02:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-12-01T11:31:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,16 @@
     "raw_dtg": "091225Z JAN 17",
     "msg_id": "HYDROARC 85/17(51)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 165/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "STRAIT OF GIBRALTAR.\nDNC 08.\nCABLE REPAIR OPERATIONS 110400Z JAN UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE WITH SUBMERSIBLE\nIN AREA BOUND BY\n35-58.3N 005-23.7W, 35-58.7N 005-21.3W,\n35-57.8N 005-21.0W, 35-57.3N 005-23.4W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2017-01-17T12:34:00+00:00",
     "valid_from": "2017-01-09T12:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-01-17T12:34:00+00:00",
     "summary": null
   }
 }

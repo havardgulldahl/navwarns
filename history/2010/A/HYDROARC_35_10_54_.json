@@ -13,13 +13,17 @@
     "raw_dtg": "081319Z JAN 10",
     "msg_id": "HYDROARC 35/10(54)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 111317Z JAN",
+      "HYDROARC 35/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TURKEY-SOUTH COAST.\n1. 100 METER LONG OBJECT ADRIFT VICINITY\n   36-35.2N 031-48.3E ON 07 JAN.\n2. CANCEL THIS MSG 111317Z JAN.",
+    "cancel_date": "2010-01-11T13:17:00+00:00",
     "valid_from": "2010-01-08T13:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-11T13:17:00+00:00",
     "summary": null
   }
 }

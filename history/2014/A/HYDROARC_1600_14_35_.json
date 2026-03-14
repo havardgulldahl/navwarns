@@ -13,13 +13,16 @@
     "raw_dtg": "300031Z JUN 14",
     "msg_id": "HYDROARC 1600/14(35)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1603/14"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nORKNEY ISLANDS.\nCHART 35056\nNORTH RONALSAY LIGHT 59-23.4N 002-22.9W UNLIT.",
+    "cancel_date": "2014-06-30T12:15:00+00:00",
     "valid_from": "2014-06-30T00:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-06-30T12:15:00+00:00",
     "summary": null
   }
 }

@@ -23,13 +23,16 @@
     "raw_dtg": "101633Z MAR 12",
     "msg_id": "HYDROARC 567/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2453/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "ENGLAND-SOUTH COAST.\nCHART 37017\nNAB LIGHT 50-40-05N 000-57-09W TEMPORARILY REPLACED BY\nEAST CARDINAL BUOY, VQ (3) 5 SEC, RACON (T) IN 50-40-01N 000-56-58W\nAND WEST CARDINAL BUOY, VQ (9) 10 SEC IN 50-40-08N 000-57-21W.",
+    "cancel_date": "2012-10-20T09:42:00+00:00",
     "valid_from": "2012-03-10T16:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-10-20T09:42:00+00:00",
     "summary": null
   }
 }

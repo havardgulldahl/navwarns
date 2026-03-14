@@ -7,13 +7,16 @@
     "raw_dtg": "231228Z JAN 15",
     "msg_id": "HYDROARC 195/15(55)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 195/15"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nGUNNERY.\nDNC 10.\n1. GUNNERY EXERCISES 0500Z TO 1700Z DAILY\n   26 THRU 31 JAN IN AREA BOUND BY\n   45-00N 032-16E, 44-54N 032-33E,\n   44-42N 032-49E, 44-37N 032-40E,\n   44-41N 032-12E, 44-48N 032-08E.\n2. CANCEL THIS MSG ON 311800Z JAN 15.",
+    "cancel_date": "2015-01-31T18:00:00+00:00",
     "valid_from": "2015-01-23T12:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-31T18:00:00+00:00",
     "summary": null
   }
 }

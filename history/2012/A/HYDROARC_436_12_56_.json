@@ -7,13 +7,17 @@
     "raw_dtg": "271538Z FEB 12",
     "msg_id": "HYDROARC 436/12(56)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 MAY",
+      "HYDROARC 436/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nLIBYA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 30 APR\n   BY M/V RAMFORM VANGUARD TOWING 12\n   6600 METER LONG CABLES IN AREA BETWEEN\n   33-00N 33-45N AND 012-55E 013-45E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 MAY.",
+    "cancel_date": "2012-05-01T00:01:00+00:00",
     "valid_from": "2012-02-27T15:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-01T00:01:00+00:00",
     "summary": null
   }
 }

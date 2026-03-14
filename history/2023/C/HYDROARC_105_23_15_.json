@@ -13,13 +13,16 @@
     "raw_dtg": "100742Z JUN 23",
     "msg_id": "HYDROARC 105/23(15)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 106/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DAVIS STRAIT.\nCANADA.\nDNC 28.\nMCTS IQALUIT CENTER 63-43.80N 068-32.70W\nHF DSC RECEIVE SERVICES OFF AIR.",
+    "cancel_date": "2023-06-11T13:09:00+00:00",
     "valid_from": "2023-06-10T07:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-06-11T13:09:00+00:00",
     "summary": null
   }
 }

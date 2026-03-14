@@ -13,13 +13,16 @@
     "raw_dtg": "190326Z MAY 21",
     "msg_id": "HYDROARC 1350/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1358/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nRACON AT NORTH HAISBRO BUOY 53-00-12N 001-32-24E\nINOPERATIVE.",
+    "cancel_date": "2021-05-19T17:12:00+00:00",
     "valid_from": "2021-05-19T03:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-05-19T17:12:00+00:00",
     "summary": null
   }
 }

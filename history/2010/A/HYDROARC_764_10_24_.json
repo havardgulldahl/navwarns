@@ -7,13 +7,17 @@
     "raw_dtg": "011637Z MAY 10",
     "msg_id": "HYDROARC 764/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 29 MAY",
+      "HYDROARC 828/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\n1. SALVAGE OPERATIONS 01 THRU 28 MAY BY\n   M/V SEABED WORKER IN AREA BETWEEN\n   03-53.17N 02-39.40N AND 030-17.00W 031-14.22W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 MAY.",
+    "cancel_date": "2010-05-11T04:29:00+00:00",
     "valid_from": "2010-05-01T16:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-11T04:29:00+00:00",
     "summary": null
   }
 }

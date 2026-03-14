@@ -13,13 +13,16 @@
     "raw_dtg": "210711Z JUL 14",
     "msg_id": "HYDROARC 128/14(43)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 172/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nCHART 43000\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE\nWITHIN 500 METERS OF 73-19-29N 024-50-24E.",
+    "cancel_date": "2014-08-10T09:03:00+00:00",
     "valid_from": "2014-07-21T07:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-08-10T09:03:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "052148Z NOV 20",
     "msg_id": "HYDROARC 3422/20(36)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3554/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nCHICKEN ROCK LIGHT 54-02.2N 004-50.4W UNLIT.",
+    "cancel_date": "2020-11-16T17:11:00+00:00",
     "valid_from": "2020-11-05T21:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-11-16T17:11:00+00:00",
     "summary": null
   }
 }

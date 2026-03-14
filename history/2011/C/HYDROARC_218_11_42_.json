@@ -7,13 +7,17 @@
     "raw_dtg": "291748Z OCT 11",
     "msg_id": "HYDROARC 218/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 101500Z NOV",
+      "HYDROARC 218/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nKARA SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 0700Z TO 1400Z DAILY\n   02 THRU 10 NOV IN AREA BOUND BY\n   74-00N 073-55E, 74-25N 078-20E,\n   73-55N 078-50E, 73-30N 074-25E.\n2. CANCEL THIS MSG 101500Z NOV.",
+    "cancel_date": "2011-11-10T15:00:00+00:00",
     "valid_from": "2011-10-29T17:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-10T15:00:00+00:00",
     "summary": null
   }
 }

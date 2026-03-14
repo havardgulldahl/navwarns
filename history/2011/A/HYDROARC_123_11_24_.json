@@ -61,13 +61,17 @@
     "raw_dtg": "200459Z JAN 11",
     "msg_id": "HYDROARC 123/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 012300Z FEB",
+      "HYDROARC 123/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS 0800Z TO 2200Z DAILY\n   UNTIL 01 FEB BY M/V LATALANTE TOWING 4630 METER\n   LONG CABLE IN AREA BOUND BY\n   23-41.00S 044-51.78W, 25-11.20S 042-53.27W,\n   24-57.70S 042-28.17W, 27-25.80S 038-50.40W,\n   27-15.20S 038-12.10W, 27-28.12S 038-01.30W,\n   29-12.85S 040-03.12W, 27-18.88S 042-44.60W,\n   25-58.15S 044-11.80W, 25-41.42S 043-46.42W,\n   24-08.80S 045-28.12W.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 012300Z FEB.",
+    "cancel_date": "2011-02-01T23:00:00+00:00",
     "valid_from": "2011-01-20T04:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-01T23:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "101137Z SEP 10",
     "msg_id": "HYDROARC 1705/10(56)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 OCT",
+      "HYDROARC 1705/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. PIPELAYING OPERATIONS IN PROGRESS UNTIL 15 OCT\n   BY M/V ODEA SHEA ALONG TRACKLINE BETWEEN\n   31-50.26N 031-54.13E AND 31-53.26N 031-53.45E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 OCT.",
+    "cancel_date": "2010-10-16T00:01:00+00:00",
     "valid_from": "2010-09-10T11:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-16T00:01:00+00:00",
     "summary": null
   }
 }

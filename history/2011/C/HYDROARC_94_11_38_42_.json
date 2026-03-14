@@ -7,13 +7,17 @@
     "raw_dtg": "071840Z JUL 11",
     "msg_id": "HYDROARC 94/11(38,42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 16 OCT",
+      "HYDROARC 202/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\n1. GEOPHYSICAL OPERATIONS 07 JUL THRU 15 OCT BY\n   M/V ACADEMIC FYODOROV IN AREA BOUND BY\n   83-00N 034-00E, 89-00N 030-00E,\n   87-24N 168-00W, 81-42N 177-00W,\n   80-00N 162-00E, 79-24N 126-00E,\n   82-42N 054-00E.\n   THREE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 16 OCT.",
+    "cancel_date": "2011-10-10T17:36:00+00:00",
     "valid_from": "2011-07-07T18:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-10T17:36:00+00:00",
     "summary": null
   }
 }

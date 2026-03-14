@@ -13,13 +13,16 @@
     "raw_dtg": "162322Z SEP 12",
     "msg_id": "HYDROARC 2147/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2150/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nCHART 35093\nARDNAMURCHAN LIGHT 56-43.6N 006-13.4W UNRELIABLE.",
+    "cancel_date": "2012-09-17T14:00:00+00:00",
     "valid_from": "2012-09-16T23:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-09-17T14:00:00+00:00",
     "summary": null
   }
 }

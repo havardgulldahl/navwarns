@@ -13,13 +13,16 @@
     "raw_dtg": "081633Z SEP 17",
     "msg_id": "HYDROARC 2769/17(51)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3900/17"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nCHART 51320.\nSIDI IFNI LIGHT 29-22.5N 010-10.7W UNLIT.",
+    "cancel_date": "2017-12-04T04:11:00+00:00",
     "valid_from": "2017-09-08T16:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-12-04T04:11:00+00:00",
     "summary": null
   }
 }

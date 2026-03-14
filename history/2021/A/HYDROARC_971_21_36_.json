@@ -13,13 +13,16 @@
     "raw_dtg": "090408Z APR 21",
     "msg_id": "HYDROARC 971/21(36)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1001/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP ILE DAIX IN VICINITY\n53-50.6N 004-34.8W. ONE MILE BERTH REQUESTED.",
+    "cancel_date": "2021-04-12T23:15:00+00:00",
     "valid_from": "2021-04-09T04:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-04-12T23:15:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "222057Z JAN 12",
     "msg_id": "HYDROARC 180/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 180/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTHERN NORTH SEA.\nCHART 37059\nALL NAVIGATIONAL AIDS AT PLATFORM 42/30-A\n54-01.8N 000-57.9E INOPERATIVE.",
+    "cancel_date": "2012-01-23T04:33:00+00:00",
     "valid_from": "2012-01-22T20:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-23T04:33:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "080046Z DEC 12",
     "msg_id": "HYDROARC 2900/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 539/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nRADIO SERVICES.\nMRCC BELFAST AT TIREE 56-30N 006-48W MF DSC OFF AIR\nAND MF R/T UNRELIABLE.",
+    "cancel_date": "2013-03-01T09:47:00+00:00",
     "valid_from": "2012-12-08T00:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-03-01T09:47:00+00:00",
     "summary": null
   }
 }

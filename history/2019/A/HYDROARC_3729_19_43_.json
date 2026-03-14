@@ -13,13 +13,16 @@
     "raw_dtg": "050805Z DEC 19",
     "msg_id": "HYDROARC 3729/19(43)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 156/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 20.\nALL NAVIGATIONAL AIDS AT PLATFORM 211/18-A\n61-21.8N 001-34.8E INOPERATIVE.",
+    "cancel_date": "2020-01-16T14:14:00+00:00",
     "valid_from": "2019-12-05T08:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-16T14:14:00+00:00",
     "summary": null
   }
 }

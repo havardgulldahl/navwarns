@@ -13,13 +13,16 @@
     "raw_dtg": "100042Z JUN 11",
     "msg_id": "HYDROARC 967/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2110/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nNGA CHART 24120 (9TH ED).\nRACON AT CABO SANTA MARTA LIGHT\n28-36.2S 048-48.8W INOPERATIVE.",
+    "cancel_date": "2011-12-10T10:16:00+00:00",
     "valid_from": "2011-06-10T00:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-10T10:16:00+00:00",
     "summary": null
   }
 }

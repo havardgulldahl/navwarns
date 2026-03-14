@@ -13,13 +13,16 @@
     "raw_dtg": "300745Z JUN 10",
     "msg_id": "HYDROARC 1224/10(36)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1226/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CELTIC SEA.\nDISTRESS SIGNAL RECEIVED FROM F/V BUDDY\nIN 50-46.5N 007-32.0W AT 300600Z JUN.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO FALMOUTH COAST GUARD.",
+    "cancel_date": "2010-06-30T14:01:00+00:00",
     "valid_from": "2010-06-30T07:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-30T14:01:00+00:00",
     "summary": null
   }
 }

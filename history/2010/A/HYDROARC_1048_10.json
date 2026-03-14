@@ -36,15 +36,18 @@
     "msg_id": "HYDROARC 1048/10",
     "year": 2010,
     "cancellations": [
+      "THIS MSG 191500Z JUN",
       "1042/10",
-      "1046/10"
+      "1046/10",
+      "HYDROARC 1048/10"
     ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. OCEANOGRAPHIC OPERATIONS 090300Z TO 191400Z JUN\n   BY M/V THALASSA ALONG TRACKLINE JOINING\n   46-00.00N 008-10.00W, 40-19.98N 009-27.56W,\n   41-05.07N 013-29.45W, 43-10.80N 016-14.74W,\n   45-47.72N 019-05.45W, 48-24.74N 021-08.51W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1042/10 AND 1046/10.\n3. CANCEL THIS MSG 191500Z JUN.",
+    "cancel_date": "2010-06-19T15:00:00+00:00",
     "valid_from": "2010-06-07T21:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-19T15:00:00+00:00",
     "summary": null
   }
 }

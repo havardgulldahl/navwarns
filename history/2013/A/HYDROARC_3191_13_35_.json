@@ -13,13 +13,16 @@
     "raw_dtg": "101551Z DEC 13",
     "msg_id": "HYDROARC 3191/13(35)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3202/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nCHART 35001\nSULE SKERRY LIGHT 59-05.0N 004-24.3W UNLIT.",
+    "cancel_date": "2013-12-11T17:02:00+00:00",
     "valid_from": "2013-12-10T15:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-12-11T17:02:00+00:00",
     "summary": null
   }
 }

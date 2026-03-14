@@ -7,13 +7,17 @@
     "raw_dtg": "061553Z FEB 12",
     "msg_id": "HYDROARC 299/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 09 FEB",
+      "HYDROARC 299/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\n1. SEISMIC SURVEY BY M/V DISCOVERER\n   TOWING 5.4 MILE LONG CABLE:\n   A. 07 FEB IN AREA BETWEEN\n      11-00S 11-10S AND 036-05W 036-15W.\n   B. 08 FEB IN AREA BETWEEN\n      11-45S 11-55S AND 036-00W 036-10W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 09 FEB.",
+    "cancel_date": "2012-02-09T00:01:00+00:00",
     "valid_from": "2012-02-06T15:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-09T00:01:00+00:00",
     "summary": null
   }
 }

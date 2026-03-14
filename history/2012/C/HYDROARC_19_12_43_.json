@@ -33,13 +33,16 @@
     "raw_dtg": "292054Z MAR 12",
     "msg_id": "HYDROARC 19/12(43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 45/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARTIC.\nBARENTS SEA.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V OSPREY EXPLORER TOWING 12000\nMETER LONG CABLE IN AREA BOUND BY\n73-40.5N 025-33.4E, 73-40.5N 031-56.4E,\n70-43.0N 031-58.6E, 71-32.4N 025-33.4E.\nEIGHT MILE BERTH REQUESTED.",
+    "cancel_date": "2012-06-07T19:25:00+00:00",
     "valid_from": "2012-03-29T20:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-07T19:25:00+00:00",
     "summary": null
   }
 }

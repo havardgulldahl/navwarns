@@ -13,13 +13,16 @@
     "raw_dtg": "140724Z MAR 19",
     "msg_id": "HYDROARC 808/19(36)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 819/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nCHART 36044.\nDGPS STATION AT NASH POINT LIGHT\n51-24.1N 003-33.1W OFF AIR.",
+    "cancel_date": "2019-03-14T14:22:00+00:00",
     "valid_from": "2019-03-14T07:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-03-14T14:22:00+00:00",
     "summary": null
   }
 }

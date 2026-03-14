@@ -7,13 +7,16 @@
     "raw_dtg": "012133Z JAN 12",
     "msg_id": "HYDROARC 6/12(35,43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 30/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nRADIO SERVICES.\nMRCC SHETLAND MF DSC AND R/T UNRELIABLE.",
+    "cancel_date": "2012-01-04T19:29:00+00:00",
     "valid_from": "2012-01-01T21:33:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-04T19:29:00+00:00",
     "summary": null
   }
 }

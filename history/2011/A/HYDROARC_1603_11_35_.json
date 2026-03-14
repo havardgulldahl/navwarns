@@ -13,13 +13,17 @@
     "raw_dtg": "011208Z OCT 11",
     "msg_id": "HYDROARC 1603/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 022100Z OCT",
+      "HYDROARC 1603/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 021000Z TO 022000Z OCT\n   WITHIN 60 MILES OF 57-02.0N 009-07.4W.\n   VESSELS INTENDING TO ENTER AREA SHOULD\n   CONTACT HEBRIDES RANGE CONTROL ON\n   VHF CH 16 FOR ADVICE.\n2. CANCEL THIS MSG 022100Z OCT.",
+    "cancel_date": "2011-10-02T21:00:00+00:00",
     "valid_from": "2011-10-01T12:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-02T21:00:00+00:00",
     "summary": null
   }
 }

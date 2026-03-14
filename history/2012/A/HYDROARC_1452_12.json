@@ -27,13 +27,17 @@
     "raw_dtg": "021431Z JUL 12",
     "msg_id": "HYDROARC 1452/12",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 120830Z JUL",
+      "HYDROARC 1452/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. UNDERWATER OPERATIONS 030001Z TO 120730Z JUL BY\n   M/V SARMIENTO DE GAMBOA ALONG TRACKLINE JOINING\n   48-24.77N 021-08.50W, 57-22.64N 028-10.30W,\n   58-43.44N 030-41.83W, 59-14.07N 035-07.27W.\n2. CANCEL THIS MSG 120830Z JUL.",
+    "cancel_date": "2012-07-12T08:30:00+00:00",
     "valid_from": "2012-07-02T14:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-12T08:30:00+00:00",
     "summary": null
   }
 }

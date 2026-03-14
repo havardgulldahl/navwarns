@@ -13,13 +13,16 @@
     "raw_dtg": "151304Z MAR 15",
     "msg_id": "HYDROARC 627/15(36)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 646/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WALES-NORTHWEST COAST.\nDNC 20.\nCHART 36006.\nRACON AT SKERRIES LIGHT 53-25.3N 004-36.4W INOPERATIVE.",
+    "cancel_date": "2015-03-17T08:40:00+00:00",
     "valid_from": "2015-03-15T13:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-03-17T08:40:00+00:00",
     "summary": null
   }
 }

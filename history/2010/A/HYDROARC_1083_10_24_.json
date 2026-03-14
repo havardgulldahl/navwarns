@@ -7,13 +7,17 @@
     "raw_dtg": "111455Z JUN 10",
     "msg_id": "HYDROARC 1083/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 13 JUL",
+      "HYDROARC 1083/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nBRAZIL-NORTH COAST.\n1. SEISMIC SURVEY 16 JUN THRU 12 JUL BY\n   VESSEL BAVENIT IN AREAS BETWEEN:\n   A. 23-28.0S 23-38.5S AND 041-22.0W 041-30.0W.\n   B. 00-30.0N 00-30.0S AND 043-00.0W 045-00.0W.\n2. CANCEL THIS MSG 13 JUL.",
+    "cancel_date": "2010-07-13T00:00:00+00:00",
     "valid_from": "2010-06-11T14:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-07-13T00:00:00+00:00",
     "summary": null
   }
 }

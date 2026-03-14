@@ -7,13 +7,17 @@
     "raw_dtg": "310741Z MAY 11",
     "msg_id": "HYDROARC 910/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 041530Z JUN",
+      "HYDROARC 910/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nGUNNERY.\n1. GUNNERY EXERCISES 041230Z TO 041430Z JUN\n   IN AREA BOUND BY\n   36-11N 018-55E, 36-01N 018-55E,\n   35-56N 020-16E, 36-06N 020-16E.\n2. CANCEL THIS MSG 041530Z JUN.",
+    "cancel_date": "2011-06-04T15:30:00+00:00",
     "valid_from": "2011-05-31T07:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-04T15:30:00+00:00",
     "summary": null
   }
 }

@@ -41,13 +41,17 @@
     "raw_dtg": "221323Z FEB 12",
     "msg_id": "HYDROARC 408/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 251930Z FEB",
+      "HYDROARC 408/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nMISSILES. GUNNERY.\n1. HAZARDOUS OPERATIONS IN PROGRESS UNTIL 251830Z FEB\n   IN AREA BOUND BY\n   44-42.0N 032-49.0E, 44-36.5N 032-39.9E,\n   44-41.0N 032-11.9E, 44-48.0N 032-07.9E,\n   44-59.5N 032-16.4E, 44-54.0N 032-33.0E.\n2. CANCEL THIS MSG 251930Z FEB.",
+    "cancel_date": "2012-02-25T19:30:00+00:00",
     "valid_from": "2012-02-22T13:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-25T19:30:00+00:00",
     "summary": null
   }
 }

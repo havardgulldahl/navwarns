@@ -13,13 +13,16 @@
     "raw_dtg": "290214Z DEC 11",
     "msg_id": "HYDROARC 2268/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 70/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nCHART 35118.\nNA CUILTEAN LIGHT 55-48.7N 005-54.8W UNLIT.",
+    "cancel_date": "2012-01-09T10:52:00+00:00",
     "valid_from": "2011-12-29T02:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-09T10:52:00+00:00",
     "summary": null
   }
 }

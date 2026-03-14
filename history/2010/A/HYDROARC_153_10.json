@@ -7,13 +7,17 @@
     "raw_dtg": "251055Z JAN 10",
     "msg_id": "HYDROARC 153/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 281830Z JAN",
+      "HYDROARC 153/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GPS SATELLITE SYSTEM.\n1. PRN 07 UNUSABLE 280530Z TO 281730Z JAN.\n2. CANCEL THIS MSG 281830Z JAN.",
+    "cancel_date": "2010-01-28T18:30:00+00:00",
     "valid_from": "2010-01-25T10:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-28T18:30:00+00:00",
     "summary": null
   }
 }

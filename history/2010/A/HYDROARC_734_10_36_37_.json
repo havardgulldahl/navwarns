@@ -13,13 +13,17 @@
     "raw_dtg": "270159Z APR 10",
     "msg_id": "HYDROARC 734/10(36,37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 080101Z MAY",
+      "HYDROARC 734/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. CABLE REPAIR OPERATIONS 290001Z APR TO\n   080001Z MAY BY CABLESHIP PETER FABER ALONG\n   TRACKLINE BETWEEN 48-08.3N 007-48.4W AND\n   47-35.8N 008-16.6W. WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 080101Z MAY.",
+    "cancel_date": "2010-05-08T01:01:00+00:00",
     "valid_from": "2010-04-27T01:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-08T01:01:00+00:00",
     "summary": null
   }
 }

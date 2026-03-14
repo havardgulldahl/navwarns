@@ -13,13 +13,16 @@
     "raw_dtg": "172235Z FEB 22",
     "msg_id": "HYDROARC 472/22(36)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 528/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH CHANNEL.\nNORTHERN IRELAND.\nDNC 20.\nEAST MAIDEN LIGHT 54-55.7N 005-43.7W UNRELIABLE.",
+    "cancel_date": "2022-02-22T10:31:00+00:00",
     "valid_from": "2022-02-17T22:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-02-22T10:31:00+00:00",
     "summary": null
   }
 }

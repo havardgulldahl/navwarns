@@ -13,13 +13,16 @@
     "raw_dtg": "052353Z OCT 12",
     "msg_id": "HYDROARC 198/12(15)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 225/13"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nBEAUFORT SEA.\nCHART 15926\nSCIENTIFIC MOORING, AT DEPTH 47 METERS,\nESTABLISHED IN 70-25.95N 139-01.54W.",
+    "cancel_date": "2013-10-13T09:31:00+00:00",
     "valid_from": "2012-10-05T23:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-10-13T09:31:00+00:00",
     "summary": null
   }
 }

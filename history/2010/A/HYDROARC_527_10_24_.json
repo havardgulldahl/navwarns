@@ -13,13 +13,16 @@
     "raw_dtg": "262322Z MAR 10",
     "msg_id": "HYDROARC 527/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 662/10"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nNGA CHART 24290 (3RD ED).\nTAIPU LIGHT 00-39.7S 048-02.6W UNLIT.",
+    "cancel_date": "2010-04-16T23:25:00+00:00",
     "valid_from": "2010-03-26T23:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-16T23:25:00+00:00",
     "summary": null
   }
 }

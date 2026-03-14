@@ -13,13 +13,16 @@
     "raw_dtg": "061937Z OCT 12",
     "msg_id": "HYDROARC 2341/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2347/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-SOUTHEAST COAST.\nCHART 35014\nRACON AT SAINT ABBS HEAD LIGHT 55-55.0N 002-08.2W INOPERATIVE.",
+    "cancel_date": "2012-10-07T16:12:00+00:00",
     "valid_from": "2012-10-06T19:37:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-10-07T16:12:00+00:00",
     "summary": null
   }
 }

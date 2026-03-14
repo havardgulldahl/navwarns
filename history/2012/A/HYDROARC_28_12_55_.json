@@ -33,13 +33,17 @@
     "raw_dtg": "041438Z JAN 12",
     "msg_id": "HYDROARC 28/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 061700Z JAN",
+      "HYDROARC 28/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nTURKEY.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0600Z TO 1600Z DAILY\n   05 AND 06 JAN IN AREA BOUND BY\n   41-34.0N 029-15.0E, 41-34.0N 029-35.0E,\n   41-10.3N 029-35.0E, 41-13.0N 029-10.0E.\n2. CANCEL THIS MSG 061700Z JAN.",
+    "cancel_date": "2012-01-06T17:00:00+00:00",
     "valid_from": "2012-01-04T14:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-06T17:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "230035Z JAN 13",
     "msg_id": "HYDROARC 201/13(35)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 204/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nYELL SOUND.\nCHART 35071\nMUCKLE HOLM LIGHT 60-34.9N 001-15.8W UNLIT.",
+    "cancel_date": "2013-01-23T14:37:00+00:00",
     "valid_from": "2013-01-23T00:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-01-23T14:37:00+00:00",
     "summary": null
   }
 }

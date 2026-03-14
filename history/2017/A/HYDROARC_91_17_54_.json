@@ -42,12 +42,14 @@
     "msg_id": "HYDROARC 91/17(54)",
     "year": 2017,
     "cancellations": [
-      "THIS MSG 111100Z JAN 17"
+      "THIS MSG 111100Z JAN 17",
+      "HYDROARC 91/17"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nHAZARDOUS OPERATIONS.\nDNC 09.\n1. HAZARDOUS OPERATIONS 110600Z TO 111000Z JAN\n   IN AREA BOUND BY\n   39-00.0N 025-18.0E, 39-40.0N 025-08.0E,\n   39-49.9N 025-37.2E, 39-38.0N 025-44.6E,\n   39-28.6N 025-48.7E, 39-25.2N 025-55.0E.\n2. CANCEL THIS MSG 111100Z JAN 17.",
+    "cancel_date": "2017-01-11T11:00:00+00:00",
     "valid_from": "2017-01-09T15:51:00+00:00",
     "valid_until": "2017-01-11T11:00:00+00:00",
     "summary": null

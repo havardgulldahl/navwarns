@@ -13,13 +13,16 @@
     "raw_dtg": "272229Z JAN 14",
     "msg_id": "HYDROARC 256/14(35,43)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 366/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nCHART 35005\nPLATFORM 21/1-A 57-54.2N 000-01.9E UNLIT.",
+    "cancel_date": "2014-02-06T12:55:00+00:00",
     "valid_from": "2014-01-27T22:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-02-06T12:55:00+00:00",
     "summary": null
   }
 }

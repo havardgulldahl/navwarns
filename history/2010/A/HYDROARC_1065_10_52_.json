@@ -7,13 +7,17 @@
     "raw_dtg": "091350Z JUN 10",
     "msg_id": "HYDROARC 1065/10(52)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 101700Z JUN",
+      "HYDROARC 1065/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 091600Z TO 101600Z JUN\n   IN AREA BOUND BY\n   36-47N 005-35E, 37-13N 004-46E,\n   38-27N 005-50E, 37-47N 007-00E,\n   36-56N 006-53E.\n2. CANCEL THIS MSG 101700Z JUN.",
+    "cancel_date": "2010-06-10T17:00:00+00:00",
     "valid_from": "2010-06-09T13:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-10T17:00:00+00:00",
     "summary": null
   }
 }

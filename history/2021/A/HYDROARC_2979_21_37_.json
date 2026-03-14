@@ -13,13 +13,16 @@
     "raw_dtg": "040118Z DEC 21",
     "msg_id": "HYDROARC 2979/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3047/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nOUTER SAND BUOY 53-36.4N 000-29.6E UNLIT.",
+    "cancel_date": "2021-12-13T21:53:00+00:00",
     "valid_from": "2021-12-04T01:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-12-13T21:53:00+00:00",
     "summary": null
   }
 }

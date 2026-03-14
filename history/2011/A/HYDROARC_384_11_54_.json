@@ -27,13 +27,17 @@
     "raw_dtg": "080935Z MAR 11",
     "msg_id": "HYDROARC 384/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 JUN",
+      "HYDROARC 541/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nTURKEY.\n1. CABLE LAYING OPERATIONS IN PROGRESS\n   UNTIL 31 MAY BY CABLESHIP TYCO DECISIVE\n   ALONG TRACKLINE JOINING\n   35-16.7N 033-55.4E, 35-15.2N 034-18.4E,\n   36-03.0N 035-41.7E, 36-04.8N 035-56.7E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 JUN.",
+    "cancel_date": "2011-03-31T08:31:00+00:00",
     "valid_from": "2011-03-08T09:35:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-31T08:31:00+00:00",
     "summary": null
   }
 }

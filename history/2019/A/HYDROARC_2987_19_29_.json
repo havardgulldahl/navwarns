@@ -7,13 +7,16 @@
     "raw_dtg": "010017Z OCT 19",
     "msg_id": "HYDROARC 2987/19(29)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2989/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTIA SEA.\nDNC 01.\nDISTRESS SIGNAL RECEIVED IN VICINITY\n55-42S 032-36W. VESSELS IN VICINITY REQUESTED\nTO KEEP A SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO NAVAREA VI, INMARSAT-C: 47010012.",
+    "cancel_date": "2019-10-01T03:21:00+00:00",
     "valid_from": "2019-10-01T00:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-10-01T03:21:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,16 @@
     "raw_dtg": "061050Z JUN 15",
     "msg_id": "HYDROARC 1378/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1581/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTH COAST.\nDNC 20.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\nM/V POLARCUS ALIMA TOWING TEN 6000 METER LONG CABLES\nIN AREA BOUND BY\n60-08.4N 004-04.4W, 60-00.4N 003-49.9W,\n59-41.8N 004-31.5W, 59-50.1N 004-46.5W.\nFIVE MILE BERTH REQUESTED.",
+    "cancel_date": "2015-06-28T07:05:00+00:00",
     "valid_from": "2015-06-06T10:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-06-28T07:05:00+00:00",
     "summary": null
   }
 }

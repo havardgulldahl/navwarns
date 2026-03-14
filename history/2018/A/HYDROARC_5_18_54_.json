@@ -37,13 +37,16 @@
     "raw_dtg": "011925Z JAN 18",
     "msg_id": "HYDROARC 5/18(54)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 21/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\nUNDERWATER OPERATIONS 020800Z JAN UNTIL FURTHER\nNOTICE BY M/V METEOR IN AREA BOUND BY\n38-51.37N 026-06.45E, 38-49.48N 026-19.32E,\n38-57.03N 026-22.36E, 38-59.52N 026-08.48E,\n38-52.01N 026-06.45E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2018-01-03T12:44:00+00:00",
     "valid_from": "2018-01-01T19:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-01-03T12:44:00+00:00",
     "summary": null
   }
 }

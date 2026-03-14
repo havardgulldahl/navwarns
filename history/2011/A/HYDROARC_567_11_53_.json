@@ -7,13 +7,17 @@
     "raw_dtg": "041219Z APR 11",
     "msg_id": "HYDROARC 567/11(53)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 071220Z APR",
+      "HYDROARC 567/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nTUNISIA.\n1. DERELICT F/V ADRIFT VICINITY\n   35-12N 012-08E ON 02 APR.\n2. CANCEL THIS MSG 071220Z APR.",
+    "cancel_date": "2011-04-07T12:20:00+00:00",
     "valid_from": "2011-04-04T12:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-07T12:20:00+00:00",
     "summary": null
   }
 }

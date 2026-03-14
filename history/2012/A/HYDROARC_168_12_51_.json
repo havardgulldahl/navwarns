@@ -7,13 +7,16 @@
     "raw_dtg": "211128Z JAN 12",
     "msg_id": "HYDROARC 168/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 503/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nACORES.\nNAVTEX.\nNAVTEX STATION HORTA UNRELIABLE.",
+    "cancel_date": "2013-02-23T11:09:00+00:00",
     "valid_from": "2012-01-21T11:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-02-23T11:09:00+00:00",
     "summary": null
   }
 }

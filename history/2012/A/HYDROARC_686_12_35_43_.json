@@ -13,13 +13,16 @@
     "raw_dtg": "271000Z MAR 12",
     "msg_id": "HYDROARC 686/12(35,43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 969/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nCHART 35004\nNAVIGATION PROHIBITED UNTIL FURTHER NOTICE\nUNLESS AUTHORIZED BY MRCC ABERDEEN WITHIN\nTWO MILES OF 57-00.7N 001-50.3E.",
+    "cancel_date": "2012-05-07T17:14:00+00:00",
     "valid_from": "2012-03-27T10:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-07T17:14:00+00:00",
     "summary": null
   }
 }

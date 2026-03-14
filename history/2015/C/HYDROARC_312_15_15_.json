@@ -13,13 +13,16 @@
     "raw_dtg": "242357Z SEP 15",
     "msg_id": "HYDROARC 312/15(15)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 182/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nDOLPHIN AND UNION STRAIT.\nDNC 28.\nCHART 15954.\nCACHE POINT RACON 68-39.3N 113-25.2W INOPERATIVE.",
+    "cancel_date": "2016-08-23T23:24:00+00:00",
     "valid_from": "2015-09-24T23:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-08-23T23:24:00+00:00",
     "summary": null
   }
 }

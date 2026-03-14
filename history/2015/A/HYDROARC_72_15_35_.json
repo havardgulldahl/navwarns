@@ -7,13 +7,16 @@
     "raw_dtg": "091528Z JAN 15",
     "msg_id": "HYDROARC 72/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 237/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTHWEST COAST.\nRADIO SERVICES.\nDNC 19, DNC 20.\nMRCC STORNOWAY 58-13N 006-20W MF DSC AND R/T UNRELIABLE.",
+    "cancel_date": "2015-01-28T08:40:00+00:00",
     "valid_from": "2015-01-09T15:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-28T08:40:00+00:00",
     "summary": null
   }
 }

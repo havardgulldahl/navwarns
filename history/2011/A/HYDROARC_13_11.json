@@ -7,13 +7,17 @@
     "raw_dtg": "041026Z JAN 11",
     "msg_id": "HYDROARC 13/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 052000Z JAN",
+      "HYDROARC 13/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATIONS BO, RATES 7001-X AND\n   9007-Y, AND EJDE 9007-X OFF AIR\n   050700Z TO 051900Z JAN.\n2. CANCEL THIS MSG 052000Z JAN.",
+    "cancel_date": "2011-01-05T20:00:00+00:00",
     "valid_from": "2011-01-04T10:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-05T20:00:00+00:00",
     "summary": null
   }
 }

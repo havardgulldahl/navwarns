@@ -13,13 +13,16 @@
     "raw_dtg": "172112Z DEC 18",
     "msg_id": "HYDROARC 3938/18(37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 272/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nCHART 37166.\nUNEXPLODED ORDNANCE IN 52-18.32N 002-15.07E.",
+    "cancel_date": "2019-01-27T11:00:00+00:00",
     "valid_from": "2018-12-17T21:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-27T11:00:00+00:00",
     "summary": null
   }
 }

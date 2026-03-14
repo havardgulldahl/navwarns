@@ -7,13 +7,17 @@
     "raw_dtg": "210544Z JAN 11",
     "msg_id": "HYDROARC 134/11(57,61)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 211500Z JAN",
+      "HYDROARC 134/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH AFRICA.\nRADIO SERVICES.\n1. CAPE NAVAL WEATHER FACSIMILE OFF AIR\n   UNTIL 211400Z JAN.\n2. CANCEL THIS MSG 211500Z JAN.",
+    "cancel_date": "2011-01-21T15:00:00+00:00",
     "valid_from": "2011-01-21T05:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-21T15:00:00+00:00",
     "summary": null
   }
 }

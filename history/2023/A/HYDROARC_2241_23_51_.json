@@ -13,13 +13,16 @@
     "raw_dtg": "031607Z OCT 23",
     "msg_id": "HYDROARC 2241/23(51)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2334/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCAP SIM LIGHTHOUSE 31-24.00N 009-50.00W UNLIT.",
+    "cancel_date": "2023-10-14T16:22:00+00:00",
     "valid_from": "2023-10-03T16:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-10-14T16:22:00+00:00",
     "summary": null
   }
 }

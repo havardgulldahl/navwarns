@@ -7,13 +7,17 @@
     "raw_dtg": "172117Z NOV 11",
     "msg_id": "HYDROARC 1924/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 212300Z NOV",
+      "HYDROARC 1924/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 211600Z TO 212200Z NOV\n   WITHIN 15 MILES OF 06-00N 052-30W.\n2. CANCEL THIS MSG 212300Z NOV.",
+    "cancel_date": "2011-11-21T23:00:00+00:00",
     "valid_from": "2011-11-17T21:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-21T23:00:00+00:00",
     "summary": null
   }
 }

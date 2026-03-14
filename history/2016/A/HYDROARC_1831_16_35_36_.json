@@ -13,13 +13,16 @@
     "raw_dtg": "192040Z JUL 16",
     "msg_id": "HYDROARC 1831/16(35,36)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1834/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-SOUTHWEST COAST.\nDNC 20.\nCHART 35119.\nRACON AT LADY ISLE LIGHT 55-31.6N 004-44.0W INOPERATIVE.",
+    "cancel_date": "2016-07-20T06:06:00+00:00",
     "valid_from": "2016-07-19T20:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-07-20T06:06:00+00:00",
     "summary": null
   }
 }

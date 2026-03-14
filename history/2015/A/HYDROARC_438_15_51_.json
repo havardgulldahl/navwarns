@@ -13,13 +13,16 @@
     "raw_dtg": "211641Z FEB 15",
     "msg_id": "HYDROARC 438/15(51)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1377/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSENEGAL.\nDNC 01.\nCHART 51560.\nILE DE GOREE LIGHT 14-39.8N 017-23.9W UNLIT.",
+    "cancel_date": "2015-06-06T10:20:00+00:00",
     "valid_from": "2015-02-21T16:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-06-06T10:20:00+00:00",
     "summary": null
   }
 }

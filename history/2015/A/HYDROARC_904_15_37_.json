@@ -13,13 +13,16 @@
     "raw_dtg": "160008Z APR 15",
     "msg_id": "HYDROARC 904/15(37)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 960/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nDNC 20.\nCHART 37120.\nRUYTINGEN SW BUOY 51-05.0N 001-46.8E MISSING.",
+    "cancel_date": "2015-04-21T20:44:00+00:00",
     "valid_from": "2015-04-16T00:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-04-21T20:44:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "051049Z JAN 11",
     "msg_id": "HYDROARC 20/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 061800Z JAN",
+      "HYDROARC 20/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C CHAIN ANTHORN, RATE 6731-Y,\n   OFF AIR 060900Z TO 061700Z JAN.\n2. CANCEL THIS MSG 061800Z JAN.",
+    "cancel_date": "2011-01-06T18:00:00+00:00",
     "valid_from": "2011-01-05T10:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-06T18:00:00+00:00",
     "summary": null
   }
 }

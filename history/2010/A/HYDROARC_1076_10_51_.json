@@ -7,13 +7,17 @@
     "raw_dtg": "102111Z JUN 10",
     "msg_id": "HYDROARC 1076/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 132100Z JUN",
+      "HYDROARC 1076/10"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nACORES.\n1. DERELICT VESSEL BOHEMIA ADRIFT VICINITY\n   38-41N 033-09W AT 102052Z JUN.\n2. CANCEL THIS MSG 132100Z JUN.",
+    "cancel_date": "2010-06-13T21:00:00+00:00",
     "valid_from": "2010-06-10T21:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-13T21:00:00+00:00",
     "summary": null
   }
 }

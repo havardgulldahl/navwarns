@@ -7,13 +7,17 @@
     "raw_dtg": "251202Z MAY 12",
     "msg_id": "HYDROARC 1115/12(53)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 251900Z MAY",
+      "HYDROARC 1115/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "TYRRHENIAN SEA.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 251800Z MAY\n   BY CABLESHIP RENE DESCARTES WITH\n   SUBMERSIBLE IN 40-56N 010-20E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 251900Z MAY.",
+    "cancel_date": "2012-05-25T19:00:00+00:00",
     "valid_from": "2012-05-25T12:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-25T19:00:00+00:00",
     "summary": null
   }
 }

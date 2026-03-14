@@ -13,13 +13,16 @@
     "raw_dtg": "110007Z DEC 14",
     "msg_id": "HYDROARC 3021/14(35)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3025/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35072.\nFIRTHS VOE LIGHT 60-27.2N 001-10.6W UNRELIABLE.",
+    "cancel_date": "2014-12-11T05:29:00+00:00",
     "valid_from": "2014-12-11T00:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-12-11T05:29:00+00:00",
     "summary": null
   }
 }

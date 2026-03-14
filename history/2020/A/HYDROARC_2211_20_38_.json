@@ -41,13 +41,16 @@
     "raw_dtg": "130330Z JUL 20",
     "msg_id": "HYDROARC 2211/20(38)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2345/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nDNC 08.\nCABLE OPERATIONS 160600Z JUL UNTIL FURTHER\nNOTICE BY CABLESHIP LIDA IN AREA BOUND BY\n44-16.4N 029-08.5W, 44-24.4N 027-55.0W,\n44-38.6N 026-57.0W, 44-28.6N 026-50.3W,\n44-13.9N 027-53.4W, 44-05.5N 029-11.0W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2020-07-25T15:10:00+00:00",
     "valid_from": "2020-07-13T03:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-07-25T15:10:00+00:00",
     "summary": null
   }
 }

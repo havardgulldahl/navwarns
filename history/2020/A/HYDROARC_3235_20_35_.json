@@ -13,13 +13,16 @@
     "raw_dtg": "240641Z OCT 20",
     "msg_id": "HYDROARC 3235/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3241/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nSULE SKERRY LIGHT 59-05.1N 004-24.5W UNLIT.",
+    "cancel_date": "2020-10-24T20:14:00+00:00",
     "valid_from": "2020-10-24T06:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-10-24T20:14:00+00:00",
     "summary": null
   }
 }

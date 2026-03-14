@@ -7,13 +7,17 @@
     "raw_dtg": "190547Z JAN 10",
     "msg_id": "HYDROARC 118/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 281230Z FEB",
+      "HYDROARC 166/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0800Z TO 1130Z DAILY\n   24 JAN THRU 28 FEB IN AREAS:\n   A. BOUND BY\n      47-38N 004-03W, 47-49N 004-38W,\n      47-33N 008-33W, 47-00N 008-26W,\n      47-22N 004-14W.\n   B. BETWEEN 46-50N 47-33N AND 008-26W 010-15W.\n   C. BETWEEN 44-49N 47-24N AND 015-29W 019-43W.\n   D. BETWEEN 40-20N 43-11N AND 033-02W 037-28W.\n2. CANCEL THIS MSG 281230Z FEB.",
+    "cancel_date": "2010-01-27T17:30:00+00:00",
     "valid_from": "2010-01-19T05:47:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-01-27T17:30:00+00:00",
     "summary": null
   }
 }

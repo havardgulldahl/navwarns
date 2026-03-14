@@ -7,13 +7,17 @@
     "raw_dtg": "281252Z SEP 10",
     "msg_id": "HYDROARC 1833/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 301900Z SEP",
+      "HYDROARC 1845/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-WEST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1330Z TO 1800Z DAILY\n   29 AND 30 SEP WITHIN 20 MILES:\n   A. 57-16N 008-05W\n   B. 57-30N 008-31W\n2. CANCEL THIS MSG 301900Z SEP.",
+    "cancel_date": "2010-09-29T17:59:00+00:00",
     "valid_from": "2010-09-28T12:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-29T17:59:00+00:00",
     "summary": null
   }
 }

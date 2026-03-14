@@ -7,13 +7,17 @@
     "raw_dtg": "160455Z SEP 10",
     "msg_id": "HYDROARC 1745/10(51,52)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 311900Z DEC",
+      "HYDROARC 1745/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "AFRICA-NORTHWEST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 0800Z TO 1800Z DAILY\n   20 SEP THRU 31 DEC WITHIN 20 MILES\n   BETWEEN 270 AND 360 DEGREES OF:\n   A. 33-41N 008-03W.\n   B. 29-53N 010-15W.\n   C. 27-00N 013-50W.\n   D. 23-35N 017-00W.\n   E. 35-22N 004-05W.\n2. CANCEL THIS MSG 311900Z DEC.",
+    "cancel_date": "2010-12-31T19:00:00+00:00",
     "valid_from": "2010-09-16T04:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-31T19:00:00+00:00",
     "summary": null
   }
 }

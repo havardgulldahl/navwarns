@@ -33,13 +33,16 @@
     "raw_dtg": "281305Z JUN 16",
     "msg_id": "HYDROARC 1628/16(55)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1925/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "KERCH STRAIT.\nDNC 10.\nCHART 55205.\nNAVIGATION PROHIBITED IN AREA BOUND BY\n45-11.72N 036-24.44E, 45-11.80N 036-25.09E,\n45-10.54N 036-25.52E, 45-10.37N 036-24.26E.",
+    "cancel_date": "2016-07-30T00:10:00+00:00",
     "valid_from": "2016-06-28T13:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-07-30T00:10:00+00:00",
     "summary": null
   }
 }

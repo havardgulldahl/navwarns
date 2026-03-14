@@ -13,13 +13,16 @@
     "raw_dtg": "081843Z DEC 21",
     "msg_id": "HYDROARC 3006/21(52)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 920/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ALBORAN SEA.\nALGERIA.\nDNC 08.\nILE RACHGOUN LIGHT 35-19.4N 001-28.5W\nCHANGED TO F R.",
+    "cancel_date": "2022-03-31T08:07:00+00:00",
     "valid_from": "2021-12-08T18:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-03-31T08:07:00+00:00",
     "summary": null
   }
 }

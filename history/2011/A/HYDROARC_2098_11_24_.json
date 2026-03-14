@@ -7,13 +7,17 @@
     "raw_dtg": "091023Z DEC 11",
     "msg_id": "HYDROARC 2098/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 202000Z DEC",
+      "HYDROARC 2159/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTHEAST COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 140700Z TO 14100Z DEC AND\n   201000Z TO 201900Z DEC WITHIN TEN MILES\n   OF 05-30S 034-50W.\n2. CANCEL THIS MSG 202000Z DEC.",
+    "cancel_date": "2011-12-15T00:48:00+00:00",
     "valid_from": "2011-12-09T10:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-15T00:48:00+00:00",
     "summary": null
   }
 }

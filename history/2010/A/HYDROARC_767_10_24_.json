@@ -7,13 +7,17 @@
     "raw_dtg": "020352Z MAY 10",
     "msg_id": "HYDROARC 767/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 040400Z MAY",
+      "HYDROARC 767/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 040300Z MAY\n   BY M/V RAMFORM SOVEREING TOWING CABLES\n   IN AREA BETWEEN\n   20-00S 21-35S AND 034-00W 040-00W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 040400Z MAY.",
+    "cancel_date": "2010-05-04T04:00:00+00:00",
     "valid_from": "2010-05-02T03:52:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-04T04:00:00+00:00",
     "summary": null
   }
 }

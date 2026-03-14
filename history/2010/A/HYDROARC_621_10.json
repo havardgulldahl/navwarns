@@ -7,13 +7,17 @@
     "raw_dtg": "091608Z APR 10",
     "msg_id": "HYDROARC 621/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 140400Z APR",
+      "HYDROARC 621/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GPS SATELLITE SYSTEM.\n1. PRN 18 UNUSABLE 131500Z TO 140300Z APR.\n2. CANCEL THIS MSG 140400Z APR.",
+    "cancel_date": "2010-04-14T04:00:00+00:00",
     "valid_from": "2010-04-09T16:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-14T04:00:00+00:00",
     "summary": null
   }
 }

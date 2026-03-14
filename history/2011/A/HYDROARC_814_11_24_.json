@@ -13,13 +13,17 @@
     "raw_dtg": "130622Z MAY 11",
     "msg_id": "HYDROARC 814/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 070459Z NOV",
+      "HYDROARC 839/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nNGA CHART 24020 (47TH ED).\n1. ILHA DE SANTANA LIGHT 02-16.2S 043-37.4W UNLIT\n   UNTIL 070359Z NOV.\n2. CANCEL THIS MSG 070459Z NOV.",
+    "cancel_date": "2011-05-18T00:28:00+00:00",
     "valid_from": "2011-05-13T06:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-05-18T00:28:00+00:00",
     "summary": null
   }
 }

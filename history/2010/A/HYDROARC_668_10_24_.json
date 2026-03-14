@@ -7,13 +7,17 @@
     "raw_dtg": "170503Z APR 10",
     "msg_id": "HYDROARC 668/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 200359Z APR",
+      "HYDROARC 668/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL\n   200259Z APR BY M/V RAMFORM SOVEREING\n   TOWING 14 8100 METER LONG CABLES\n   IN AREA BOUND BY\n   30-40S 042-30W, 30-30S 039-00W,\n   33-30S 038-00W, 34-00S 042-00W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 200359Z APR.",
+    "cancel_date": "2010-04-20T03:59:00+00:00",
     "valid_from": "2010-04-17T05:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-20T03:59:00+00:00",
     "summary": null
   }
 }

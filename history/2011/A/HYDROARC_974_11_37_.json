@@ -13,13 +13,16 @@
     "raw_dtg": "110920Z JUN 11",
     "msg_id": "HYDROARC 974/11(37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1064/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nNGA CHART 37121 (11TH ED).\nCOLBART NORTH BUOY 50-57.5N 001-23.3E MISSING.",
+    "cancel_date": "2011-06-28T06:59:00+00:00",
     "valid_from": "2011-06-11T09:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-28T06:59:00+00:00",
     "summary": null
   }
 }

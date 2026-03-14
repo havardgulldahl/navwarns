@@ -33,13 +33,16 @@
     "raw_dtg": "051944Z JUN 16",
     "msg_id": "HYDROARC 1373/16(35,37,43)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1780/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20, DNC 21.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V WG AMUNDSEN TOWING EIGHT\n5000 METER LONG CABLES IN AREA BOUND BY\n56-53.3N 001-30.3E, 57-10.6N 001-58.0E,\n57-03.0N 002-13.8E, 56-45.9N 001-45.3E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2016-07-14T21:30:00+00:00",
     "valid_from": "2016-06-05T19:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-07-14T21:30:00+00:00",
     "summary": null
   }
 }

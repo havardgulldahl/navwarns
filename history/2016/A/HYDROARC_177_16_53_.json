@@ -39,13 +39,16 @@
     "raw_dtg": "211251Z JAN 16",
     "msg_id": "HYDROARC 177/16(53)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 206/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nSOUTHERN IONIAN SEA.\nSICILY-EAST COAST.\nDNC 09.\nCABLE OPERATIONS 211400Z JAN UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE\nVICINITY OF TRACKLINE JOINING\n37-21.2N 015-29.3E, 37-20.5N 015-31.5E,\n37-18.8N 015-42.5E, 37-07.9N 015-47.2E,\n36-59.9N 015-56.2E, 36-51.0N 015-58.4E,\n36-47.9N 015-59.5E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2016-01-23T19:30:00+00:00",
     "valid_from": "2016-01-21T12:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-01-23T19:30:00+00:00",
     "summary": null
   }
 }

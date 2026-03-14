@@ -7,13 +7,17 @@
     "raw_dtg": "080043Z JUL 11",
     "msg_id": "HYDROARC 1119/11(36)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 110100Z JUL",
+      "HYDROARC 1119/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nENGLISH CHANNEL - WESTERN APPROACH.\n1. DERLICT 11 METER S/V ADRIFT VICINITY \n   49-14.8N 007-37.1S AT 072300Z JUL. \n2. CANCEL THIS MSG 110100Z JUL.",
+    "cancel_date": "2011-07-11T01:00:00+00:00",
     "valid_from": "2011-07-08T00:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-11T01:00:00+00:00",
     "summary": null
   }
 }

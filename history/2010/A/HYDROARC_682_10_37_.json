@@ -13,13 +13,16 @@
     "raw_dtg": "200123Z APR 10",
     "msg_id": "HYDROARC 682/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 691/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nNGA CHART 37053 (1ST ED).\nSUNK W1 BUOY 51-52.6N 001-41.1E MISSING.",
+    "cancel_date": "2010-04-20T09:19:00+00:00",
     "valid_from": "2010-04-20T01:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-04-20T09:19:00+00:00",
     "summary": null
   }
 }

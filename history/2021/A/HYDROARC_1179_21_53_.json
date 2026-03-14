@@ -13,13 +13,16 @@
     "raw_dtg": "291329Z APR 21",
     "msg_id": "HYDROARC 1179/21(53)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1312/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nSARDINIA.\nDNC 08.\nCAPO MANNU LIGHT 40-02.1N 008-22.7E UNLIT.",
+    "cancel_date": "2021-05-14T14:50:00+00:00",
     "valid_from": "2021-04-29T13:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-05-14T14:50:00+00:00",
     "summary": null
   }
 }

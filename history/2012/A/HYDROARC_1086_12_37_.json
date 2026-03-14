@@ -13,13 +13,16 @@
     "raw_dtg": "202236Z MAY 12",
     "msg_id": "HYDROARC 1086/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1089/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\nCHART 37140\nORFORD NESS LIGHT 52-05.0N 001-34.5E, RED LIGHT UNLIT.",
+    "cancel_date": "2012-05-21T00:35:00+00:00",
     "valid_from": "2012-05-20T22:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-21T00:35:00+00:00",
     "summary": null
   }
 }

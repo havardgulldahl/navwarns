@@ -13,13 +13,16 @@
     "raw_dtg": "292338Z JUL 13",
     "msg_id": "HYDROARC 1848/13(52)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2095/13"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ALBORAN SEA.\nCHART 52040\nISLA DE ALBORAN LIGHT 35-56.4N 003-02.2W UNLIT.",
+    "cancel_date": "2013-08-28T14:37:00+00:00",
     "valid_from": "2013-07-29T23:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-08-28T14:37:00+00:00",
     "summary": null
   }
 }

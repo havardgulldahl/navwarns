@@ -33,13 +33,17 @@
     "raw_dtg": "110646Z FEB 11",
     "msg_id": "HYDROARC 252/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 182100Z FEB",
+      "HYDROARC 252/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-NORTHEAST COAST.\nROCKETS.\n1. HAZARDOUS OPERATIONS 1100Z TO 2000Z\n   DAILY 16 THRU 18 FEB IN AREA BOUND BY\n   05-53.0S 035-09.0W, 05-50.5S 035-03.5W,\n   06-00.0S 035-03.5W, 05-57.0S 035-09.0W.\n2. CANCEL THIS MSG 182100Z FEB.",
+    "cancel_date": "2011-02-18T21:00:00+00:00",
     "valid_from": "2011-02-11T06:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-18T21:00:00+00:00",
     "summary": null
   }
 }

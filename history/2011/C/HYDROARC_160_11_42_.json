@@ -13,13 +13,16 @@
     "raw_dtg": "071405Z SEP 11",
     "msg_id": "HYDROARC 160/11(42)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 31/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nKARA SEA.\nCHART 42141\nOSTROV VIL'KITSKOGO LIGHT 73-31.0N 075-45.7E UNLIT.",
+    "cancel_date": "2016-04-09T09:35:00+00:00",
     "valid_from": "2011-09-07T14:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-04-09T09:35:00+00:00",
     "summary": null
   }
 }

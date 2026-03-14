@@ -13,13 +13,16 @@
     "raw_dtg": "120103Z OCT 16",
     "msg_id": "HYDROARC 2657/16(24)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2699/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nDNC 01.\nCHART 24170.\nATAFONA LIGHT 21-37.5S 041-00.9W UNLIT.",
+    "cancel_date": "2016-10-15T05:04:00+00:00",
     "valid_from": "2016-10-12T01:03:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-10-15T05:04:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "011115Z AUG 16",
     "msg_id": "HYDROARC 148/16(15)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 150/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nDNC 27.\nMCTS IQALUIT REMOTE STATION INUVIK 68-19N 133-35W\nMF AND HF SERVICES INOPERATIVE.",
+    "cancel_date": "2016-08-02T23:21:00+00:00",
     "valid_from": "2016-08-01T11:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-08-02T23:21:00+00:00",
     "summary": null
   }
 }

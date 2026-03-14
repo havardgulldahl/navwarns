@@ -13,13 +13,16 @@
     "raw_dtg": "270009Z OCT 12",
     "msg_id": "HYDROARC 2516/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2562/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nCHART 37080\nFOG SIGNAL AT POINT ROBERT LIGHT 49-26.2N 002-20.7W INOPERATIVE.",
+    "cancel_date": "2012-10-31T17:20:00+00:00",
     "valid_from": "2012-10-27T00:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-10-31T17:20:00+00:00",
     "summary": null
   }
 }

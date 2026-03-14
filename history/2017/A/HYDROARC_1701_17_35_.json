@@ -13,13 +13,16 @@
     "raw_dtg": "310249Z MAY 17",
     "msg_id": "HYDROARC 1701/17(35)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1711/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nDNC 19, DNC 20.\nCHART 35172.\nRONA LIGHT 59-07.3N 005-48.8W UNRELIABLE.",
+    "cancel_date": "2017-06-01T00:12:00+00:00",
     "valid_from": "2017-05-31T02:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-06-01T00:12:00+00:00",
     "summary": null
   }
 }

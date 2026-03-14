@@ -13,13 +13,16 @@
     "raw_dtg": "032351Z NOV 10",
     "msg_id": "HYDROARC 2100/10(37)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2128/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nNGA CHART 37115 (2ND ED).\nVERGOYER SW BUOY 50-26.9N 001-00.3E UNLIT,\nOFF STATION, AND ADRIFT.",
+    "cancel_date": "2010-11-08T15:20:00+00:00",
     "valid_from": "2010-11-03T23:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-08T15:20:00+00:00",
     "summary": null
   }
 }

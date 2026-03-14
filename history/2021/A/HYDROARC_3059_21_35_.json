@@ -13,13 +13,16 @@
     "raw_dtg": "142200Z DEC 21",
     "msg_id": "HYDROARC 3059/21(35)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3102/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nBELL ROCK LIGHT 56-26.1N 002-23.2W UNLIT.",
+    "cancel_date": "2021-12-18T20:33:00+00:00",
     "valid_from": "2021-12-14T22:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-12-18T20:33:00+00:00",
     "summary": null
   }
 }

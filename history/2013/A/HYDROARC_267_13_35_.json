@@ -7,13 +7,16 @@
     "raw_dtg": "300145Z JAN 13",
     "msg_id": "HYDROARC 267/13(35)",
     "year": 2013,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 269/13"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST.\nRADIO SERVICES.\nMRCC STORNOWAY MF DSC AND R/T SERVICES UNRELIABLE.",
+    "cancel_date": "2013-01-30T05:00:00+00:00",
     "valid_from": "2013-01-30T01:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2013-01-30T05:00:00+00:00",
     "summary": null
   }
 }

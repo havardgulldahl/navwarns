@@ -7,13 +7,17 @@
     "raw_dtg": "171648Z FEB 12",
     "msg_id": "HYDROARC 383/12(52)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 191800Z FEB",
+      "HYDROARC 383/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 181700Z TO 191700Z FEB\n   IN AREA BETWEEN\n   37-05N 36-55N AND 005-00E 005-12E.\n2. CANCEL THIS MSG 191800Z FEB.",
+    "cancel_date": "2012-02-19T18:00:00+00:00",
     "valid_from": "2012-02-17T16:48:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-19T18:00:00+00:00",
     "summary": null
   }
 }

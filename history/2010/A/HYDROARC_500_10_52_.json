@@ -27,13 +27,17 @@
     "raw_dtg": "231309Z MAR 10",
     "msg_id": "HYDROARC 500/10(52)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 01 SEP",
+      "HYDROARC 500/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "TUNISIA-NORTHEAST COAST.\n1. PIPELINE OPERATIONS IN PROGRESS UNTIL 31 AUG\n   VICINITY OF TRACKLINE JOINING\n   36-06.9N 010-49.3E,\n   36-07.5N 010-49.7E,\n   36-28.1N 010-54.6E,\n   36-31.0N 010-50.0E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 SEP.",
+    "cancel_date": "2010-09-01T00:01:00+00:00",
     "valid_from": "2010-03-23T13:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-01T00:01:00+00:00",
     "summary": null
   }
 }

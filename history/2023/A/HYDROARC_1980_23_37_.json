@@ -13,13 +13,16 @@
     "raw_dtg": "032251Z SEP 23",
     "msg_id": "HYDROARC 1980/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1995/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nEDDYSTONE LIGHT 50-10.80N 004-15.90W\nISO RED LIGHT UNLIT.",
+    "cancel_date": "2023-09-05T09:09:00+00:00",
     "valid_from": "2023-09-03T22:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-09-05T09:09:00+00:00",
     "summary": null
   }
 }

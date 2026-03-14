@@ -13,13 +13,16 @@
     "raw_dtg": "060154Z JAN 11",
     "msg_id": "HYDROARC 24/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 56/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nNGA CHART 35001 (2ND ED).\nSULE SKERRY LIGHT 59-05.0N 004-24.3W AT REDUCED INTENSITY\nAND RACON INOPERATIVE.",
+    "cancel_date": "2011-01-09T18:06:00+00:00",
     "valid_from": "2011-01-06T01:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-09T18:06:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "230610Z APR 16",
     "msg_id": "HYDROARC 959/16(35,37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 975/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND-EAST COAST.\nNAVTEX.\nDNC 20.\nNAVTEX STATION CULLERCOATS 55-02N 001-26W OFF AIR.",
+    "cancel_date": "2016-04-25T01:02:00+00:00",
     "valid_from": "2016-04-23T06:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-04-25T01:02:00+00:00",
     "summary": null
   }
 }

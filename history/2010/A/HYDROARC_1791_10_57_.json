@@ -7,13 +7,17 @@
     "raw_dtg": "221157Z SEP 10",
     "msg_id": "HYDROARC 1791/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 251115Z SEP",
+      "HYDROARC 1791/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nNGA CHART 57014 (11TH ED).\n1. THREE YELLOW BUOYS ADRIFT VICINITY 06-15S 009-49E.\n2. CANCEL THIS MSG 251115Z SEP.",
+    "cancel_date": "2010-09-25T11:15:00+00:00",
     "valid_from": "2010-09-22T11:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-25T11:15:00+00:00",
     "summary": null
   }
 }

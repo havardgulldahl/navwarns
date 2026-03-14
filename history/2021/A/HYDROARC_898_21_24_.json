@@ -13,13 +13,16 @@
     "raw_dtg": "022122Z APR 21",
     "msg_id": "HYDROARC 898/21(24)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 909/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\nMORRO GRANDE LIGHT 20-18-10S 040-18-36W UNLIT.",
+    "cancel_date": "2021-04-04T15:40:00+00:00",
     "valid_from": "2021-04-02T21:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-04-04T15:40:00+00:00",
     "summary": null
   }
 }

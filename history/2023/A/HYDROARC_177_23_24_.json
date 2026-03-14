@@ -13,13 +13,16 @@
     "raw_dtg": "221141Z JAN 23",
     "msg_id": "HYDROARC 177/23(24)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 223/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\nPLATFORM OOS TIRADENTES ESTABLISHED IN\n24-38.44S 042-30.87W.",
+    "cancel_date": "2023-01-27T15:00:00+00:00",
     "valid_from": "2023-01-22T11:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-01-27T15:00:00+00:00",
     "summary": null
   }
 }

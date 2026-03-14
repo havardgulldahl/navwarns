@@ -33,13 +33,16 @@
     "raw_dtg": "101040Z JUL 16",
     "msg_id": "HYDROARC 1735/16(35,43)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2036/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20, DNC 21.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V RAMFORM STERLING TOWING 12\n8000 METER LONG CABLES IN AREA BOUND BY\n58-06.3N 001-35.6E, 58-05.7N 001-00.1E,\n58-12.1N 001-00.0E, 58-12.5N 001-35.3E.",
+    "cancel_date": "2016-08-11T11:10:00+00:00",
     "valid_from": "2016-07-10T10:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-08-11T11:10:00+00:00",
     "summary": null
   }
 }

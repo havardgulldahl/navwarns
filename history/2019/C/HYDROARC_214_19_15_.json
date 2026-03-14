@@ -13,13 +13,16 @@
     "raw_dtg": "132242Z SEP 19",
     "msg_id": "HYDROARC 214/19(15)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 267/19"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOLPHIN AND UNION STRAIT.\nCANADA.\nDNC 28.\nTHREE METER SHOAL IN 69-08.65N 113-47.87W.",
+    "cancel_date": "2019-10-25T23:11:00+00:00",
     "valid_from": "2019-09-13T22:42:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-10-25T23:11:00+00:00",
     "summary": null
   }
 }

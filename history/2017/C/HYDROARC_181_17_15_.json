@@ -13,13 +13,16 @@
     "raw_dtg": "010009Z AUG 17",
     "msg_id": "HYDROARC 181/17(15)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 184/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BEAUFORT SEA.\nCANADA.\nDNC 27.\nCHART 15948.\nODAS BUOY ESTABLISHED IN 69-32.11N 138-52.61W.",
+    "cancel_date": "2017-08-03T11:09:00+00:00",
     "valid_from": "2017-08-01T00:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-08-03T11:09:00+00:00",
     "summary": null
   }
 }

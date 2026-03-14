@@ -7,13 +7,17 @@
     "raw_dtg": "041210Z JUN 10",
     "msg_id": "HYDROARC 1023/10(55)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 091700Z JUN",
+      "HYDROARC 1057/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\nSTRAIT OF ISTANBUL.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0500Z TO 1600Z DAILY\n   08 AND 09 JUN IN AREA BOUND BY\n   41-13.00N 41-17.50N AND 029-06.57E 029-16.00E.\n2. CANCEL THIS MSG 091700Z JUN.",
+    "cancel_date": "2010-06-08T13:57:00+00:00",
     "valid_from": "2010-06-04T12:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-08T13:57:00+00:00",
     "summary": null
   }
 }

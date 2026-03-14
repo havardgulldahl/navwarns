@@ -13,13 +13,16 @@
     "raw_dtg": "010230Z SEP 18",
     "msg_id": "HYDROARC 2785/18(24)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 711/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nCHART 24290.\nPONTA MARAPANIM LIGHT 00-34.8S 047-35.1W UNLIT.",
+    "cancel_date": "2019-03-06T01:53:00+00:00",
     "valid_from": "2018-09-01T02:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-03-06T01:53:00+00:00",
     "summary": null
   }
 }

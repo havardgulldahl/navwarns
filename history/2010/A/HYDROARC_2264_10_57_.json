@@ -13,13 +13,17 @@
     "raw_dtg": "261304Z NOV 10",
     "msg_id": "HYDROARC 2264/10(57)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 09 DEC",
+      "HYDROARC 2264/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. CABLE LAYING OPERATIONS IN PROGRESS UNTIL 08 DEC\n   BY CABLESHIP ILE DE SEIN\n   VICINITY OF TRACKLINE BETWEEN\n   05-14.96N 003-57.13W AND 03-13.69N 003-40.88W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 09 DEC.",
+    "cancel_date": "2010-12-09T00:01:00+00:00",
     "valid_from": "2010-11-26T13:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-12-09T00:01:00+00:00",
     "summary": null
   }
 }

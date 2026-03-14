@@ -27,13 +27,16 @@
     "raw_dtg": "140601Z OCT 15",
     "msg_id": "HYDROARC 2560/15(37,51)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2634/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nDNC 08.\nCABLE REPAIR OPERATIONS 160600Z OCT UNTIL FURTHER NOTICE\nBY CABLESHIP PIERRE DE FERMAT WITH SUBMERSIBLE\nALONG TRACKLINE JOINING\n42-48.4N 011-17.0W, 42-47.6N 011-14.2W,\n42-37.0N 011-21.5W, 42-37.8N 011-24.3W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2015-10-23T17:05:00+00:00",
     "valid_from": "2015-10-14T06:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-10-23T17:05:00+00:00",
     "summary": null
   }
 }

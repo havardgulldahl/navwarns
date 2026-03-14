@@ -7,13 +7,17 @@
     "raw_dtg": "051711Z MAR 11",
     "msg_id": "HYDROARC 373/11(23)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 081701Z MAR",
+      "HYDROARC 373/11"
+    ],
     "hazard_type": "ice and icebergs",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nICE.\n1. TWO ICEBERGS REPORTED VICINITY\n   51-32S 020-20W ON 03 MAR.\n2. CANCEL THIS MSG 081701Z MAR.",
+    "cancel_date": "2011-03-08T17:01:00+00:00",
     "valid_from": "2011-03-05T17:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-08T17:01:00+00:00",
     "summary": null
   }
 }

@@ -33,13 +33,17 @@
     "raw_dtg": "261328Z MAR 10",
     "msg_id": "HYDROARC 523/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 302200Z MAR",
+      "HYDROARC 523/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 301600Z TO 302100Z MAR\n   IN AREA BOUND BY\n   23-12.0S 040-16.0W, 22-56.2S 040-01.5W,\n   23-08.3S 039-45.5W, 23-24.0S 039-59.0W.\n2. CANCEL THIS MSG 302200Z MAR.",
+    "cancel_date": "2010-03-30T22:00:00+00:00",
     "valid_from": "2010-03-26T13:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-03-30T22:00:00+00:00",
     "summary": null
   }
 }

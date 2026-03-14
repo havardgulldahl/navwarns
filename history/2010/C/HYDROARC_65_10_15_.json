@@ -13,13 +13,17 @@
     "raw_dtg": "181228Z AUG 10",
     "msg_id": "HYDROARC 65/10(15)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 211400Z AUG",
+      "HYDROARC 65/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nBAFFIN BAY.\nGUNNERY.\n1. GUNNERY EXERCISES 211200Z TO 211300Z AUG\n   WITHIN TEN MILES OF 74-22.1N 082-13.5W.\n2. CANCEL THIS MSG 211400Z AUG.",
+    "cancel_date": "2010-08-21T14:00:00+00:00",
     "valid_from": "2010-08-18T12:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-21T14:00:00+00:00",
     "summary": null
   }
 }

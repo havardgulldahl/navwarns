@@ -13,13 +13,16 @@
     "raw_dtg": "242136Z JAN 22",
     "msg_id": "HYDROARC 227/22(35)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 260/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 19.\nMONACH ISLANDS LIGHT 57-31.6N 007-41.6W UNRELIABLE.",
+    "cancel_date": "2022-01-27T17:05:00+00:00",
     "valid_from": "2022-01-24T21:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-01-27T17:05:00+00:00",
     "summary": null
   }
 }

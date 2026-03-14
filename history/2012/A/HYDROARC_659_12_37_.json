@@ -7,13 +7,17 @@
     "raw_dtg": "242251Z MAR 12",
     "msg_id": "HYDROARC 659/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 26 MAR",
+      "HYDROARC 659/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nBAY OF BISCAY.\n1. UNDERWATER OPERATIONS 25 MAR BY M/V THALASSA\n   ALONG TRACKLINE BETWEEN\n   46-48N 005-55W AND 46-00N 005-55W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 MAR.",
+    "cancel_date": "2012-03-26T00:01:00+00:00",
     "valid_from": "2012-03-24T22:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-26T00:01:00+00:00",
     "summary": null
   }
 }

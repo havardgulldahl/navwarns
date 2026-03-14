@@ -13,13 +13,16 @@
     "raw_dtg": "041158Z JAN 23",
     "msg_id": "HYDROARC 32/23(57)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 85/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\n2000 METER WIRE, MARKED BY ORANGE\nBUOYS ALONG TRACKLINE BETWEEN\n28-41.60S 016-00.10E, 28-42.50S 016-00.60E.",
+    "cancel_date": "2023-01-10T13:46:00+00:00",
     "valid_from": "2023-01-04T11:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-01-10T13:46:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "021751Z FEB 10",
     "msg_id": "HYDROARC 210/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 041800Z FEB",
+      "HYDROARC 210/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION ANTHORN, RATE 6731-Y,\n   OFF AIR 040900Z TO 041700Z FEB.\n2. CANCEL THIS MSG 041800Z FEB.",
+    "cancel_date": "2010-02-04T18:00:00+00:00",
     "valid_from": "2010-02-02T17:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-04T18:00:00+00:00",
     "summary": null
   }
 }

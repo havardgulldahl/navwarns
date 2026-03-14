@@ -13,13 +13,16 @@
     "raw_dtg": "120117Z JUN 21",
     "msg_id": "HYDROARC 1572/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1581/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nVARNE LIGHTSHIP 51-01.2N 001-24.0E INOPERATIVE.",
+    "cancel_date": "2021-06-12T21:04:00+00:00",
     "valid_from": "2021-06-12T01:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-06-12T21:04:00+00:00",
     "summary": null
   }
 }

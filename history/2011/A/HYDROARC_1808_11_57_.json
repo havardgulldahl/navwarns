@@ -7,13 +7,17 @@
     "raw_dtg": "012154Z NOV 11",
     "msg_id": "HYDROARC 1808/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 042155Z NOV",
+      "HYDROARC 1820/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. DERELICT F/V ADRIFT VICINITY\n   03-25N 008-05E AT 011500Z NOV.\n2. CANCEL THIS MSG 042155Z NOV.",
+    "cancel_date": "2011-11-03T04:59:00+00:00",
     "valid_from": "2011-11-01T21:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-03T04:59:00+00:00",
     "summary": null
   }
 }

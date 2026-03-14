@@ -7,13 +7,17 @@
     "raw_dtg": "120622Z SEP 10",
     "msg_id": "HYDROARC 1725/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 181900Z SEP",
+      "HYDROARC 1725/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nGUNNERY.\n1. GUNNERY EXERCISES 1300Z TO 1800Z DAILY\n   17 AND 18 SEP IN AREA BETWEEN\n   03-28S 03-30S AND 038-35W 038-40W.\n2. CANCEL THIS MSG 181900Z SEP.",
+    "cancel_date": "2010-09-18T19:00:00+00:00",
     "valid_from": "2010-09-12T06:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-18T19:00:00+00:00",
     "summary": null
   }
 }

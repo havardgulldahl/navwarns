@@ -7,13 +7,17 @@
     "raw_dtg": "022159Z APR 12",
     "msg_id": "HYDROARC 732/12(51)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 26 APR",
+      "HYDROARC 732/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nPORTUGAL-SOUTHWEST COAST.\n1. SEISMIC SURVEY 05 THRU 25 APR\n   BY M/V GECO TRITON TOWING TEN 9000 METER\n   LONG CABLES IN AREA BOUND BY\n   37-01N 009-16W, 37-18N 009-04W,\n   37-33N 009-39W, 37-16N 009-51W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 APR.",
+    "cancel_date": "2012-04-26T00:01:00+00:00",
     "valid_from": "2012-04-02T21:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-26T00:01:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "071538Z JAN 20",
     "msg_id": "HYDROARC 53/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 221/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT WENLOCK PLATFORM,\n53-35.3N 002-17.7E INOPERATIVE.",
+    "cancel_date": "2020-01-22T16:29:00+00:00",
     "valid_from": "2020-01-07T15:38:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-01-22T16:29:00+00:00",
     "summary": null
   }
 }

@@ -41,13 +41,17 @@
     "raw_dtg": "301313Z MAR 12",
     "msg_id": "HYDROARC 709/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 071000Z APR",
+      "HYDROARC 709/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 020430Z TO 042130Z\n   AND 070430Z TO 070900Z APR IN AREA BOUND BY\n   45-03.53N 036-22.50E, 44-49.50N 036-22.00E,\n   44-45.00N 036-12.00E, 44-45.00N 035-57.00E,\n   44-49.60N 035-50.50E, 44-59.95N 035-50.50E.\n2. CANCEL THIS MSG 071000Z APR.",
+    "cancel_date": "2012-04-07T10:00:00+00:00",
     "valid_from": "2012-03-30T13:13:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-07T10:00:00+00:00",
     "summary": null
   }
 }

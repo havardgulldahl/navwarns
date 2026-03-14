@@ -53,13 +53,17 @@
     "raw_dtg": "150108Z MAY 10",
     "msg_id": "HYDROARC 865/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 200359Z MAY",
+      "HYDROARC 865/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 200259Z MAY\n   BY M/V WESTERN NEPTUNE TOWING 12\n   3.5 MILE LONG CABLES IN AREA BOUND BY\n   23-00.67S 040-50.80W, 22-58.85S 040-51.62W,\n   23-00.60S 040-55.90W, 22-52.20S 041-10.90W,\n   22-35.80S 041-00.70W, 22-30.13S 040-45.62W,\n   22-37.22S 040-42.47W, 22-36.05S 040-39.35W,\n   22-53.30S 040-31.75W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 200359Z MAY.",
+    "cancel_date": "2010-05-20T03:59:00+00:00",
     "valid_from": "2010-05-15T01:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-05-20T03:59:00+00:00",
     "summary": null
   }
 }

@@ -41,13 +41,16 @@
     "raw_dtg": "130710Z JUN 17",
     "msg_id": "HYDROARC 1843/17(36,37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1914/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "CELTIC SEA.\nENGLISH CHANNEL.\nENGLAND.\nDNC 19, DNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V ICEBEAM IN AREA BOUND BY\n49-35.0N 006-35.4W, 49-51.9N 006-30.6W,\n49-53.6N 006-19.1W, 49-55.6N 006-16.2W,\n49-55.1N 006-15.6W, 49-35.1N 006-15.6W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2017-06-21T12:30:00+00:00",
     "valid_from": "2017-06-13T07:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-06-21T12:30:00+00:00",
     "summary": null
   }
 }

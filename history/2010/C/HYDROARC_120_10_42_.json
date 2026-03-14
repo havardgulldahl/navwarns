@@ -65,13 +65,17 @@
     "raw_dtg": "131749Z NOV 10",
     "msg_id": "HYDROARC 120/10(42)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 201800Z NOV",
+      "HYDROARC 120/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nKARA SEA.\nMISSILES.\n1. HAZARDOUS OPERATIONS 0300Z TO 1700Z DAILY\n   17 THRU 20 NOV IN AREA BOUND BY\n   69-20.0N 035-10.0E, 70-00.0N 035-10.0E,\n   70-20.0N 042-00.0E, 70-29.0N 050-00.0E,\n   70-24.0N 056-14.0E, 70-29.0N 059-03.0E,\n   70-00.0N 061-09.0E, 69-49.5N 061-09.0E,\n   69-31.8N 060-14.8E, 69-54.0N 057-54.0E,\n   69-54.0N 047-00.0E, 69-20.0N 040-00.0E.\n2. CANCEL THIS MSG 201800Z NOV.",
+    "cancel_date": "2010-11-20T18:00:00+00:00",
     "valid_from": "2010-11-13T17:49:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-20T18:00:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "011559Z JUL 11",
     "msg_id": "HYDROARC 84/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 85/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA-NORTHEAST COAST.\nRADIO SERVICES.\nHF DSC STATION IQALUIT 63-43.9N 068-32.5W INOPERATIVE.",
+    "cancel_date": "2011-07-01T23:30:00+00:00",
     "valid_from": "2011-07-01T15:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-07-01T23:30:00+00:00",
     "summary": null
   }
 }

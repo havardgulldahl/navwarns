@@ -23,13 +23,17 @@
     "raw_dtg": "092217Z JUL 12",
     "msg_id": "HYDROARC 1523/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 202200Z AUG",
+      "HYDROARC 1730/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. UNDERWATER OPERATIONS 1500Z TO 2100Z DAILY\n   12 JUL THRU 20 AUG BY M/V ACERGY HARRIER\n   ALONG TRACKLINE JOINING\n   19-53.77S 039-41.40W, 20-34.27S 039-55.37W,\n   20-59.07S 040-24.50W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 202200Z AUG.",
+    "cancel_date": "2012-07-30T01:29:00+00:00",
     "valid_from": "2012-07-09T22:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-30T01:29:00+00:00",
     "summary": null
   }
 }

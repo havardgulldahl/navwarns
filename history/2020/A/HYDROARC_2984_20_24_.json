@@ -33,13 +33,16 @@
     "raw_dtg": "012325Z OCT 20",
     "msg_id": "HYDROARC 2984/20(24)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3132/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\nDEPTHS LESS THAN NINE METERS REPORTED IN AREA BOUND BY\n00-55.44N 049-46.96W, 00-56.67N 049-46.06W,\n00-56.19N 049-45.45W, 00-54.96N 049-46.26W.",
+    "cancel_date": "2020-10-15T17:25:00+00:00",
     "valid_from": "2020-10-01T23:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-10-15T17:25:00+00:00",
     "summary": null
   }
 }

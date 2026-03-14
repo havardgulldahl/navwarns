@@ -13,13 +13,16 @@
     "raw_dtg": "111318Z APR 23",
     "msg_id": "HYDROARC 773/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 971/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nJERSEY.\nDNC 20.\nDANGEROUS WRECK IN 49-13.10N 002-20.00W.\nONE MILE BERTH REQUESTED.",
+    "cancel_date": "2023-05-05T11:20:00+00:00",
     "valid_from": "2023-04-11T13:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-05-05T11:20:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "210020Z MAY 12",
     "msg_id": "HYDROARC 1088/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 010400Z JUN",
+      "HYDROARC 1112/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. PIPELINE OPERATIONS 1700Z TO 0300Z COMMENCING DAILY\n   21 THRU 31 MAY BY M/V TOISA PEGASUS\n   ALONG TRACKLINE BETWEEN\n   19-31.87S 039-15.45W AND 19-32.53S 039-15.97W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 010400Z JUN.",
+    "cancel_date": "2012-05-25T01:33:00+00:00",
     "valid_from": "2012-05-21T00:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-25T01:33:00+00:00",
     "summary": null
   }
 }

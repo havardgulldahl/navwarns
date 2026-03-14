@@ -13,13 +13,16 @@
     "raw_dtg": "111328Z DEC 17",
     "msg_id": "HYDROARC 3997/17(37)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 4013/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37095.\nDGPS STATION AT SAINT CATHERINES POINT LIGHT\n50-34.5N 001-17.9W UNRELIABLE.",
+    "cancel_date": "2017-12-12T17:54:00+00:00",
     "valid_from": "2017-12-11T13:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-12-12T17:54:00+00:00",
     "summary": null
   }
 }

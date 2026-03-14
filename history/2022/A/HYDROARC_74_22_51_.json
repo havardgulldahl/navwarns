@@ -13,13 +13,16 @@
     "raw_dtg": "080134Z JAN 22",
     "msg_id": "HYDROARC 74/22(51)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 80/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nAZORES.\nDNC 08.\nNAVTEX STATION SAO MIGUEL (F) 37-48.5N 025-33.2W\nOFF AIR.",
+    "cancel_date": "2022-01-08T20:07:00+00:00",
     "valid_from": "2022-01-08T01:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-01-08T20:07:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,17 @@
     "raw_dtg": "101720Z MAY 12",
     "msg_id": "HYDROARC 989/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 161100Z MAY",
+      "HYDROARC 989/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BLACK SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0200Z TO 1000Z\n   DAILY 15 AND 16 MAY IN AREA BETWEEN\n   43-55N 43-45N AND 030-00E 030-30E.\n2. CANCEL THIS MSG 161100Z MAY.",
+    "cancel_date": "2012-05-16T11:00:00+00:00",
     "valid_from": "2012-05-10T17:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-16T11:00:00+00:00",
     "summary": null
   }
 }

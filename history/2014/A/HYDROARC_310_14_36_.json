@@ -13,13 +13,16 @@
     "raw_dtg": "011950Z FEB 14",
     "msg_id": "HYDROARC 310/14(36)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 314/14"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WALES-SOUTH COAST.\nCHART 36044\nDGPS STATION AT NASH POINT LIGHT 51-24.0N 003-33.1W\nAT REDUCED POWER.",
+    "cancel_date": "2014-02-02T01:59:00+00:00",
     "valid_from": "2014-02-01T19:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-02-02T01:59:00+00:00",
     "summary": null
   }
 }

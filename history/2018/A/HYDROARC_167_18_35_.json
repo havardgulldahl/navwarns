@@ -13,13 +13,16 @@
     "raw_dtg": "142100Z JAN 18",
     "msg_id": "HYDROARC 167/18(35)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 654/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nCHART 35005.\nPLATFORM 14/29A GOLDENEYE, 58-00.1N 000-22.9W\nLIGHTS UNRELIABLE.",
+    "cancel_date": "2018-02-25T14:58:00+00:00",
     "valid_from": "2018-01-14T21:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-02-25T14:58:00+00:00",
     "summary": null
   }
 }

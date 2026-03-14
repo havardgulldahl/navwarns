@@ -7,13 +7,16 @@
     "raw_dtg": "171204Z JAN 22",
     "msg_id": "HYDROARC 150/22(35)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 158/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND.\nDNC 20.\nSTIRLING DGPS STATION 56-04N 004-04W\nUNRELIABLE.",
+    "cancel_date": "2022-01-17T17:40:00+00:00",
     "valid_from": "2022-01-17T12:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-01-17T17:40:00+00:00",
     "summary": null
   }
 }

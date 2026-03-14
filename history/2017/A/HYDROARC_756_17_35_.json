@@ -13,13 +13,16 @@
     "raw_dtg": "072320Z MAR 17",
     "msg_id": "HYDROARC 756/17(35)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 766/17"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nSKROO LIGHT 59-33.1N 001-36.6W UNLIT.",
+    "cancel_date": "2017-03-08T20:35:00+00:00",
     "valid_from": "2017-03-07T23:20:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-03-08T20:35:00+00:00",
     "summary": null
   }
 }

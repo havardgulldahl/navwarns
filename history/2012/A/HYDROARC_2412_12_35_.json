@@ -13,13 +13,16 @@
     "raw_dtg": "151124Z OCT 12",
     "msg_id": "HYDROARC 2412/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2418/12"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-WEST COAST\nCHART 35093\nRACON AT PORT-HAND BUOY 56-56.1N 007-27.2W INOPERATIVE.",
+    "cancel_date": "2012-10-16T12:12:00+00:00",
     "valid_from": "2012-10-15T11:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-10-16T12:12:00+00:00",
     "summary": null
   }
 }

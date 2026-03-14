@@ -13,13 +13,16 @@
     "raw_dtg": "070850Z JAN 11",
     "msg_id": "HYDROARC 39/11(36,37)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 52/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WALES-SOUTH COAST.\nNGA CHART 36044 (1ST ED).\nDGPS STATION AT NASH POINT LIGHT 51-24.0N 003-33.1W UNRELIABLE.",
+    "cancel_date": "2011-01-09T10:20:00+00:00",
     "valid_from": "2011-01-07T08:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-09T10:20:00+00:00",
     "summary": null
   }
 }

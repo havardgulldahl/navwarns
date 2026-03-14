@@ -7,13 +7,17 @@
     "raw_dtg": "311423Z MAY 10",
     "msg_id": "HYDROARC 991/10",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 021900Z JUN",
+      "HYDROARC 1000/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EUROPE-NORTHWEST COAST.\n1. LORAN-C STATION VAERLANDET, RATES 7499-Y\n   AND 9007-Y, OFF AIR 0600Z TO 1800Z DAILY\n   01 AND 02 JUN.\n2. CANCEL THIS MSG 021900Z JUN.",
+    "cancel_date": "2010-06-01T10:10:00+00:00",
     "valid_from": "2010-05-31T14:23:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-01T10:10:00+00:00",
     "summary": null
   }
 }

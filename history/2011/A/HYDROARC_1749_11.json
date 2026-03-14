@@ -7,13 +7,17 @@
     "raw_dtg": "240344Z OCT 11",
     "msg_id": "HYDROARC 1749/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 241230Z OCT",
+      "HYDROARC 1749/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND.\nNGA CHART 35000 (26TH ED).\n1. WORMLEIGHTON DGPS STATION 52-12N 001-22W\n   OFF AIR 240830Z TO 241130Z OCT.\n2. CANCEL THIS MSG 241230Z OCT.",
+    "cancel_date": "2011-10-24T12:30:00+00:00",
     "valid_from": "2011-10-24T03:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-24T12:30:00+00:00",
     "summary": null
   }
 }

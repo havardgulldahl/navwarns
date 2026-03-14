@@ -7,13 +7,17 @@
     "raw_dtg": "211019Z AUG 11",
     "msg_id": "HYDROARC 1328/11",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 262100Z AUG",
+      "HYDROARC 1328/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GPS SATELLITE SYSTEM.\n1. PRN 08 UNUSABLE 260800Z TO 262000Z AUG.\n2. CANCEL THIS MSG 262100Z AUG.",
+    "cancel_date": "2011-08-26T21:00:00+00:00",
     "valid_from": "2011-08-21T10:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-08-26T21:00:00+00:00",
     "summary": null
   }
 }

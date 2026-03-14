@@ -13,13 +13,17 @@
     "raw_dtg": "180559Z AUG 10",
     "msg_id": "HYDROARC 63/10(38)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 221900Z AUG",
+      "HYDROARC 63/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "LANCASTER SOUND.\nGUNNERY.\n1. GUNNERY EXERCISES 221700Z TO 221800Z AUG\n   WITHIN TEN MILES OF 74-23.8N 089-06.8W.\n2. CANCEL THIS MSG 221900Z AUG.",
+    "cancel_date": "2010-08-22T19:00:00+00:00",
     "valid_from": "2010-08-18T05:59:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-22T19:00:00+00:00",
     "summary": null
   }
 }

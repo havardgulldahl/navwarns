@@ -13,13 +13,16 @@
     "raw_dtg": "231034Z APR 14",
     "msg_id": "HYDROARC 33/14(42)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 107/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nZEMLYA FRANTSA IOSIFA.\nTEN METER DEPTH REPORTED IN 81-18-45N 061-07-59E.",
+    "cancel_date": "2015-06-07T09:05:00+00:00",
     "valid_from": "2014-04-23T10:34:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-06-07T09:05:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "120809Z DEC 23",
     "msg_id": "HYDROARC 2863/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2888/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nENGLAND.\nDNC 20.\nDUNGENESS LIGHT 50-55.00N 000-59.00E\nRANGE TEMPORARILY REDUCED TO TEN MILES.",
+    "cancel_date": "2023-12-14T20:24:00+00:00",
     "valid_from": "2023-12-12T08:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-12-14T20:24:00+00:00",
     "summary": null
   }
 }

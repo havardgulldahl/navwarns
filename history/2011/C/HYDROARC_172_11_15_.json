@@ -13,13 +13,16 @@
     "raw_dtg": "161155Z SEP 11",
     "msg_id": "HYDROARC 172/11(15)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 177/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTH COAST.\nRADIO SERVICES.\nIQALUIT MCTS REMOTE STATION,\nCAMBRIDGE BAY 69-07.0N 105-03.2W INOPERATIVE.",
+    "cancel_date": "2011-09-17T00:00:00+00:00",
     "valid_from": "2011-09-16T11:55:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-09-17T00:00:00+00:00",
     "summary": null
   }
 }

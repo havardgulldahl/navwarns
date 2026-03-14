@@ -13,13 +13,16 @@
     "raw_dtg": "080845Z FEB 12",
     "msg_id": "HYDROARC 321/12(37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 322/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DOVER STRAIT.\nCHART 37120\nMPC BUOY 51-06.1N 001-38.2E DAMAGED AND UNLIT.",
+    "cancel_date": "2012-02-08T13:52:00+00:00",
     "valid_from": "2012-02-08T08:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-02-08T13:52:00+00:00",
     "summary": null
   }
 }

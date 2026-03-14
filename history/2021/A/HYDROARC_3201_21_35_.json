@@ -13,13 +13,16 @@
     "raw_dtg": "302153Z DEC 21",
     "msg_id": "HYDROARC 3201/21(35)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 48/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "LITTLE MINCH\nSCOTLAND.\nDNC 19.\nCALVAY LIGHT 57-08.5N 007-15.4W UNLIT.",
+    "cancel_date": "2022-01-05T17:18:00+00:00",
     "valid_from": "2021-12-30T21:53:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-01-05T17:18:00+00:00",
     "summary": null
   }
 }

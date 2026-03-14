@@ -13,13 +13,16 @@
     "raw_dtg": "251917Z NOV 21",
     "msg_id": "HYDROARC 2899/21(37)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2970/21"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nFOG SIGNAL AT SAINT ANTHONY LIGHT\n50-08.5N 005-01.0W INOPERATIVE.",
+    "cancel_date": "2021-12-02T20:10:00+00:00",
     "valid_from": "2021-11-25T19:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-12-02T20:10:00+00:00",
     "summary": null
   }
 }

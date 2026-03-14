@@ -13,13 +13,16 @@
     "raw_dtg": "112124Z FEB 20",
     "msg_id": "HYDROARC 499/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 532/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND-SOUTHEAST COAST.\nDNC 20.\nSOUTH SHIPWASH BUOY 51-52.7N 001-34.0E UNLIT.",
+    "cancel_date": "2020-02-14T13:52:00+00:00",
     "valid_from": "2020-02-11T21:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-14T13:52:00+00:00",
     "summary": null
   }
 }

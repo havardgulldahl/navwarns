@@ -13,13 +13,16 @@
     "raw_dtg": "311745Z MAY 19",
     "msg_id": "HYDROARC 87/19(15)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 126/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DAVIS STRAIT.\nCANADA.\nDNC 28.\nMCTS IQALUIT CENTER 63-43.8N 068-32.7W\nHF DSC SERVICES INOPERATIVE AT 311300Z MAY 19.",
+    "cancel_date": "2019-07-11T20:08:00+00:00",
     "valid_from": "2019-05-31T17:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-07-11T20:08:00+00:00",
     "summary": null
   }
 }

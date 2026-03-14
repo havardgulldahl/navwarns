@@ -13,13 +13,16 @@
     "raw_dtg": "162232Z MAY 18",
     "msg_id": "HYDROARC 74/18(15)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 113/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "CANADA-NORTHEAST COAST.\nDNC 28.\nNAVTEX STATION IQALUIT (T) 63-43.8N 068-32.7W INOPERATIVE.",
+    "cancel_date": "2018-06-08T11:54:00+00:00",
     "valid_from": "2018-05-16T22:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-06-08T11:54:00+00:00",
     "summary": null
   }
 }

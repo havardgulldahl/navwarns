@@ -13,13 +13,16 @@
     "raw_dtg": "200105Z JUN 15",
     "msg_id": "HYDROARC 1512/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1516/15"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nDNC 20.\nCHART 35063.\nFUGLA NESS LIGHT 60-06.4N 002-03.7W UNLIT.",
+    "cancel_date": "2015-06-20T23:23:00+00:00",
     "valid_from": "2015-06-20T01:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-06-20T23:23:00+00:00",
     "summary": null
   }
 }

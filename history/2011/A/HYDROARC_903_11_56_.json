@@ -33,13 +33,17 @@
     "raw_dtg": "301651Z MAY 11",
     "msg_id": "HYDROARC 903/11(56)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 06 JUN",
+      "HYDROARC 903/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nISRAEL.\n1. SEISMIC SURVEY 01 THRU 05 JUN BY\n   M/V BGP CHALLENGER IN AREA BOUND BY\n   32-59.6N 032-35.0E, 33-30.0N 032-35.0E,\n   33-30.0N 033-43.1E, 32-53.3N 032-58.3E.\n   EIGHT MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 06 JUN.",
+    "cancel_date": "2011-06-06T00:00:00+00:00",
     "valid_from": "2011-05-30T16:51:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-06-06T00:00:00+00:00",
     "summary": null
   }
 }

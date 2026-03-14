@@ -13,13 +13,16 @@
     "raw_dtg": "112345Z SEP 10",
     "msg_id": "HYDROARC 1721/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1738/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nMAN OVERBOARD VICINITY 26-51.4S 048-14.5W\nAT 110001Z SEP. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT,\nASSIST IF POSSIBLE. REPORTS TO\nANY COASTAL RADIO STATION.",
+    "cancel_date": "2010-09-15T01:46:00+00:00",
     "valid_from": "2010-09-11T23:45:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-15T01:46:00+00:00",
     "summary": null
   }
 }

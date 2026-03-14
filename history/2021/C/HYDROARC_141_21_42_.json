@@ -13,13 +13,16 @@
     "raw_dtg": "171000Z JUL 21",
     "msg_id": "HYDROARC 141/21(42)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 291/21"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nAUTOMATIC BOTTOM STATION, AT DEPTH 16 METERS,\nESTABLISHED IN 72-33.41N 073-44.77E.\nONE MILE BERTH REQUESTED.",
+    "cancel_date": "2021-10-18T14:04:00+00:00",
     "valid_from": "2021-07-17T10:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-10-18T14:04:00+00:00",
     "summary": null
   }
 }

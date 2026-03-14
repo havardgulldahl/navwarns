@@ -13,13 +13,16 @@
     "raw_dtg": "071841Z DEC 20",
     "msg_id": "HYDROARC 3805/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3809/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSCOTLAND.\nDNC 20.\nST. ABBS HEAD LIGHT 55-55.0N 002-08.3W UNRELIABLE.",
+    "cancel_date": "2020-12-08T15:09:00+00:00",
     "valid_from": "2020-12-07T18:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-12-08T15:09:00+00:00",
     "summary": null
   }
 }

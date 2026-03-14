@@ -13,13 +13,17 @@
     "raw_dtg": "031104Z JUL 12",
     "msg_id": "HYDROARC 1460/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 072200Z JUL",
+      "HYDROARC 1460/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. UNDERWATER OPERATIONS 1100Z TO 2100Z DAILY\n   03 THRU 07 JUL BY M/V FLORA ISLAND\n   IN 24-10.92S 046-12.35W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 072200Z JUL.",
+    "cancel_date": "2012-07-07T22:00:00+00:00",
     "valid_from": "2012-07-03T11:04:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-07T22:00:00+00:00",
     "summary": null
   }
 }

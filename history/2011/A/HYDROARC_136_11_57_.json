@@ -13,13 +13,17 @@
     "raw_dtg": "211326Z JAN 11",
     "msg_id": "HYDROARC 136/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 18 FEB",
+      "HYDROARC 197/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nSOUTH AFRICA-WEST COAST.\n1. CABLE LAYING OPERATIONS 22 JAN THRU 17 FEB BY\n   CABLESHIP ILE DE BREHAT ALONG TRACKLINE BETWEEN\n   23-08.2S 012-08.6E AND 33-20.4S 018-09.6E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 18 FEB.",
+    "cancel_date": "2011-02-01T09:51:00+00:00",
     "valid_from": "2011-01-21T13:26:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-01T09:51:00+00:00",
     "summary": null
   }
 }

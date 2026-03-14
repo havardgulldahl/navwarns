@@ -13,13 +13,17 @@
     "raw_dtg": "141702Z NOV 11",
     "msg_id": "HYDROARC 1900/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 24 NOV",
+      "HYDROARC 1950/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. CABLE REPAIR OPERATIONS 16 THRU 23 NOV\n   BY CABLESHIP ILE DE BREHAT\n   IN 14-59.1N 021-29.9W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 NOV.",
+    "cancel_date": "2011-11-21T05:21:00+00:00",
     "valid_from": "2011-11-14T17:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-11-21T05:21:00+00:00",
     "summary": null
   }
 }

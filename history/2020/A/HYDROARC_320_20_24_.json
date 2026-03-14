@@ -33,13 +33,16 @@
     "raw_dtg": "291332Z JAN 20",
     "msg_id": "HYDROARC 320/20(24)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1175/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nDNC 01.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nIN AREA BOUND BY\n05-38.66N 047-18.27W, 06-36.00N 047-18.27W,\n06-36.00N 044-28.38W, 05-38.66N 044-28.38W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2020-04-01T12:26:00+00:00",
     "valid_from": "2020-01-29T13:32:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-04-01T12:26:00+00:00",
     "summary": null
   }
 }

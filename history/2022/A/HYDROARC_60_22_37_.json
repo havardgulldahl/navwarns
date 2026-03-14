@@ -13,13 +13,16 @@
     "raw_dtg": "070543Z JAN 22",
     "msg_id": "HYDROARC 60/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 71/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BAY OF BISCAY.\nFRANCE.\nDNC 08.\nPOINTE DES POULAINS LIGHTHOUSE 47-23.3N 003-15.1W\nUNRELIABLE.",
+    "cancel_date": "2022-01-07T20:00:00+00:00",
     "valid_from": "2022-01-07T05:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-01-07T20:00:00+00:00",
     "summary": null
   }
 }

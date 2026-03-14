@@ -41,13 +41,17 @@
     "raw_dtg": "231511Z MAY 12",
     "msg_id": "HYDROARC 1102/12(55)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 11 JUN",
+      "HYDROARC 1102/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\n1. SEISMIC SURVEY 25 MAY THRU 10 JUN BY\n   M/V VYCHESLAV TIKHONOV TOWING EIGHT\n   6500 METER LONG CABLES IN AREA BOUND BY\n   44-58.70N 035-57.64E, 44-58.21N 036-25.20E,\n   44-47.67N 036-11.83E, 44-47.06N 036-09.74E,\n   44-47.36N 035-50.83E, 44-53.45N 036-08.58E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 11 JUN.",
+    "cancel_date": "2012-06-11T00:01:00+00:00",
     "valid_from": "2012-05-23T15:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-11T00:01:00+00:00",
     "summary": null
   }
 }

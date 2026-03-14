@@ -13,13 +13,16 @@
     "raw_dtg": "242030Z FEB 10",
     "msg_id": "HYDROARC 352/10(35,36)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 361/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND.\nNGA CHART 35000 (26TH ED).\nSTIRLING DGPS STATION 56-04.3N 004-03.6W UNRELIABLE.",
+    "cancel_date": "2010-02-26T18:32:00+00:00",
     "valid_from": "2010-02-24T20:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-02-26T18:32:00+00:00",
     "summary": null
   }
 }

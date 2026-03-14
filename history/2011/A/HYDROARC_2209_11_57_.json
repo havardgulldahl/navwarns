@@ -13,13 +13,17 @@
     "raw_dtg": "210107Z DEC 11",
     "msg_id": "HYDROARC 2209/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 240115Z DEC",
+      "HYDROARC 2209/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. DERELICT VESSEL TEJARO ADRIFT\n   VICINITY 05-31.7N 001-22.5E AT 201145Z.\n2. CANCEL THIS MSG 240115Z DEC.",
+    "cancel_date": "2011-12-24T01:15:00+00:00",
     "valid_from": "2011-12-21T01:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-24T01:15:00+00:00",
     "summary": null
   }
 }

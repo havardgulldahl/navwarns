@@ -13,13 +13,16 @@
     "raw_dtg": "171231Z JAN 19",
     "msg_id": "HYDROARC 150/19(51,52)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 161/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "STRAIT OF GIBRALTAR.\nSPAIN.\nDNC 08.\nCHART 52039.\nTARIFA LIGHT 36-00.1N 005-36.6W UNLIT.",
+    "cancel_date": "2019-01-18T12:15:00+00:00",
     "valid_from": "2019-01-17T12:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-18T12:15:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "252321Z JUL 10",
     "msg_id": "HYDROARC 36/10(36/10)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 59/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nTHE U.S. AND CANADIAN COAST GUARDS WILL\nCOMMENCE TERMINATING THE TRANSMISSION OF\nALL REMAINING LORAN-C SIGNALS 03 AUG OR SOON\nAFTER. LORAN-C SHOULD NO LONGER BE RELIED\nUPON FOR NAVIGATION AFTER THIS DATE.\nFOR MORE INFORMATION CONSULT THE WEB\nAT WWW.NOTMAR.GC.CA AND WWW.USCG.GOV FOR\nUPDATES.",
+    "cancel_date": "2010-08-15T06:03:00+00:00",
     "valid_from": "2010-07-25T23:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-15T06:03:00+00:00",
     "summary": null
   }
 }

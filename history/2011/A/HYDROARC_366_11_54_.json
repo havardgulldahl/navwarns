@@ -7,13 +7,17 @@
     "raw_dtg": "041518Z MAR 11",
     "msg_id": "HYDROARC 366/11(54)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 101410Z MAR",
+      "HYDROARC 366/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nTURKEY.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0830Z TO 1310Z DAILY\n   08 THRU 10 MAR IN AREA BOUND BY\n   36-26N 035-29E, 36-17N 035-24E,\n   36-32N 034-42E, 36-40N 034-52E.\n2. CANCEL THIS MSG 101410Z MAR.",
+    "cancel_date": "2011-03-10T14:10:00+00:00",
     "valid_from": "2011-03-04T15:18:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-10T14:10:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "102307Z JAN 15",
     "msg_id": "HYDROARC 80/15(35)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 87/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-NORTH COAST.\nDNC 20.\nCHART 35001.\nSULE SKERRY LIGHT 59-05.0N 004-24.3W UNRELIABLE.",
+    "cancel_date": "2015-01-11T17:36:00+00:00",
     "valid_from": "2015-01-10T23:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-01-11T17:36:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,17 @@
     "raw_dtg": "160541Z MAY 12",
     "msg_id": "HYDROARC 1044/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 190539Z MAY",
+      "HYDROARC 1044/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\n1. DERELICT TEN METER VESSEL BLEU CITRON, PINK HULL,\n   ADRIFT IN 03-30.90N 033-29.40W AT 101025Z MAY.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 190539Z MAY.",
+    "cancel_date": "2012-05-19T05:39:00+00:00",
     "valid_from": "2012-05-16T05:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-19T05:39:00+00:00",
     "summary": null
   }
 }

@@ -41,13 +41,16 @@
     "raw_dtg": "111044Z DEC 14",
     "msg_id": "HYDROARC 3027/14(57)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 567/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nNAMIBIA.\nDNC 01.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\nM/V BGP PIONEER TOWING 11000 METER LONG CABLE\nIN AREA BOUND BY\n17-19.09S 009-03.26E, 17-07.92S 011-33.11E,\n22-12.73S 014-02.61E, 29-04.13S 016-07.01E,\n30-34.14S 011-55.11E, 22-55.57S 009-47.34E.\nSEVEN MILE BERTH REQUESTED.",
+    "cancel_date": "2015-03-08T20:07:00+00:00",
     "valid_from": "2014-12-11T10:44:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-03-08T20:07:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "042025Z MAR 22",
     "msg_id": "HYDROARC 657/22(35)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 667/22"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nSHETLAND ISLANDS.\nDNC 20.\nLUNNA HOLM LIGHT 60-27.4N 001-02.4W UNLIT.",
+    "cancel_date": "2022-03-06T13:35:00+00:00",
     "valid_from": "2022-03-04T20:25:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-03-06T13:35:00+00:00",
     "summary": null
   }
 }

@@ -7,13 +7,16 @@
     "raw_dtg": "062256Z DEC 12",
     "msg_id": "HYDROARC 260/12(42)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 4/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nKARA SEA.\nCHART 42301\nOSTROV MESTNYY LIGHT 69-51N 061-14E UNLIT.",
+    "cancel_date": "2016-01-28T18:36:00+00:00",
     "valid_from": "2012-12-06T22:56:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-01-28T18:36:00+00:00",
     "summary": null
   }
 }

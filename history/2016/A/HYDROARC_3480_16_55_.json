@@ -33,13 +33,16 @@
     "raw_dtg": "231527Z DEC 16",
     "msg_id": "HYDROARC 3480/16(55)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 3144/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "KERCH STRAIT.\nDNC 10.\nCHART 55190.\nUNDERWATER CABLES ESTABLISHED IN AREA BOUND BY\n45-24.42N 036-36.66E, 45-24.64N 036-36.52E,\n45-26.10N 036-46.77E, 45-25.85N 036-46.53E.",
+    "cancel_date": "2017-10-03T17:42:00+00:00",
     "valid_from": "2016-12-23T15:27:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-10-03T17:42:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "271450Z JAN 12",
     "msg_id": "HYDROARC 221/12(36,37)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 666/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHWEST COAST.\nCHART 36051\nLIZARD POINT LIGHT 49-57.6N 005-12.1W\nDISPLAYED ONLY DURING DARKNESS.",
+    "cancel_date": "2012-03-25T09:03:00+00:00",
     "valid_from": "2012-01-27T14:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-25T09:03:00+00:00",
     "summary": null
   }
 }

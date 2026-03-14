@@ -13,13 +13,16 @@
     "raw_dtg": "010306Z SEP 21",
     "msg_id": "HYDROARC 206/21(15)",
     "year": 2021,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 207/21"
+    ],
     "hazard_type": "shoals",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "QUEEN MAUD GULF.\nCANADA.\nDNC 28.\n27.8 METER SHOAL IN 68-58.9N 101-08.3W.",
+    "cancel_date": "2021-09-02T23:18:00+00:00",
     "valid_from": "2021-09-01T03:06:00+00:00",
-    "valid_until": null,
+    "valid_until": "2021-09-02T23:18:00+00:00",
     "summary": null
   }
 }

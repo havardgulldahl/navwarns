@@ -41,13 +41,16 @@
     "raw_dtg": "171050Z JUL 16",
     "msg_id": "HYDROARC 1803/16(35)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2598/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTH COAST.\nDNC 19, DNC 20.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V WG AMUNDSEN TOWING 12\n8000 METER LONG CABLES IN AREA BOUND BY\n60-52.4N 004-50.8W, 60-05.5N 003-19.2W,\n59-38.7N 004-15.5W, 59-52.7N 004-42.4W,\n59-40.1N 006-03.5W, 59-54.8N 006-34.8W.\nSEVEN MILE BERTH REQUESTED.",
+    "cancel_date": "2016-10-05T19:27:00+00:00",
     "valid_from": "2016-07-17T10:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-10-05T19:27:00+00:00",
     "summary": null
   }
 }

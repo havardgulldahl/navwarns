@@ -13,13 +13,16 @@
     "raw_dtg": "260941Z JUN 23",
     "msg_id": "HYDROARC 1431/23(51)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1728/23"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 01.\nCAP D'AGLOU LIGHT 29-40.0N 009-58.0W UNLIT.",
+    "cancel_date": "2023-08-04T10:08:00+00:00",
     "valid_from": "2023-06-26T09:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-08-04T10:08:00+00:00",
     "summary": null
   }
 }

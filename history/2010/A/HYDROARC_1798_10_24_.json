@@ -13,13 +13,17 @@
     "raw_dtg": "231039Z SEP 10",
     "msg_id": "HYDROARC 1798/10(24)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 312130Z OCT",
+      "HYDROARC 1798/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 312030Z OCT\n   BY M/V CHLOE CANDIES IN 24-21.08S 044-23.03W.\n2. CANCEL THIS MSG 312130Z OCT.",
+    "cancel_date": "2010-10-31T21:30:00+00:00",
     "valid_from": "2010-09-23T10:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-31T21:30:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "060058Z APR 12",
     "msg_id": "HYDROARC 762/12(43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 769/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nCHART 35004\nPLATFORM 29/5B-WHPA 56-58.0N 001-52.1E UNLIT.",
+    "cancel_date": "2012-04-06T21:25:00+00:00",
     "valid_from": "2012-04-06T00:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-04-06T21:25:00+00:00",
     "summary": null
   }
 }

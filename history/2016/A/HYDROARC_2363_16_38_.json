@@ -13,13 +13,16 @@
     "raw_dtg": "111811Z SEP 16",
     "msg_id": "HYDROARC 2363/16(38)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2593/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "DAVIS STRAIT.\nGREENLAND-WEST COAST.\nDNC 19, DNC 28.\nDISTRESS SIGNAL RECEIVED ON 406 MHZ IN\n63-57.3N 051-26.9W AT 111710Z SEP.\nVESSELS IN VICINITY REQUESTED TO KEEP\nA SHARP LOOKOUT, ASSIST IF POSSIBLE.\nREPORTS TO AASIAAT RADIO.",
+    "cancel_date": "2016-10-05T14:30:00+00:00",
     "valid_from": "2016-09-11T18:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-10-05T14:30:00+00:00",
     "summary": null
   }
 }

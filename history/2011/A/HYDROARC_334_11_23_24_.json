@@ -13,13 +13,17 @@
     "raw_dtg": "261331Z FEB 11",
     "msg_id": "HYDROARC 334/11(23,24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 011327Z MAR",
+      "HYDROARC 334/11"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SOUTH ATLANTIC.\nBRAZIL.\n1. DERELICT VESSEL SPRAY DUST, RED AND ORANGE HULL,\n   ADRIFT IN 32-56.5S 030-53.1W ON 25 FEB.\n   REPORTS TO ANY COASTAL RADIO STATION.\n2. CANCEL THIS MSG 011327Z MAR.",
+    "cancel_date": "2011-03-01T13:27:00+00:00",
     "valid_from": "2011-02-26T13:31:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-01T13:27:00+00:00",
     "summary": null
   }
 }

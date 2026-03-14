@@ -13,13 +13,16 @@
     "raw_dtg": "030905Z MAR 22",
     "msg_id": "HYDROARC 634/22(37)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 690/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nALL NAVIGATIONAL AIDS AT PLATFORM 48/29-B\n53-03.3N 001-41.2E INOPERATIVE.",
+    "cancel_date": "2022-03-08T17:11:00+00:00",
     "valid_from": "2022-03-03T09:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-03-08T17:11:00+00:00",
     "summary": null
   }
 }

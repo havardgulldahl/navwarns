@@ -13,13 +13,16 @@
     "raw_dtg": "291015Z FEB 16",
     "msg_id": "HYDROARC 500/16(36,37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 500/16"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLAND-SOUTHWEST COAST.\nISLES OF SCILLY.\nDNC 19, DNC 20.\nCHART 36049.\nWOOLPACK LIGHT 49-54.4N 006-19.4W UNLIT.",
+    "cancel_date": "2016-03-01T11:00:00+00:00",
     "valid_from": "2016-02-29T10:15:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-03-01T11:00:00+00:00",
     "summary": null
   }
 }

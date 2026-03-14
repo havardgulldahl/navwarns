@@ -13,13 +13,16 @@
     "raw_dtg": "180350Z APR 14",
     "msg_id": "HYDROARC 1040/14(35)",
     "year": 2014,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1043/14"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SHETLAND ISLANDS.\nCHARTS 35066\nGRUNEY ISLAND LIGHT 60-39.2N 001-18.1W UNLIT.",
+    "cancel_date": "2014-04-18T12:20:00+00:00",
     "valid_from": "2014-04-18T03:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2014-04-18T12:20:00+00:00",
     "summary": null
   }
 }

@@ -41,13 +41,17 @@
     "raw_dtg": "220524Z APR 11",
     "msg_id": "HYDROARC 682/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 260359Z APR",
+      "HYDROARC 682/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 260259Z APR\n   BY M/V RAMFORM SOVEREING TOWING 14 8100 METER\n   LONG CABLES IN AREA BOUND BY\n   24-13.83S 043-21.45W, 23-55.00S 042-33.00W,\n   24-00.00S 042-33.00W, 24-00.00S 042-18.00W,\n   25-14.99S 041-41.35W, 25-38.15S 042-43.18W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 260359Z APR.",
+    "cancel_date": "2011-04-26T03:59:00+00:00",
     "valid_from": "2011-04-22T05:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-04-26T03:59:00+00:00",
     "summary": null
   }
 }

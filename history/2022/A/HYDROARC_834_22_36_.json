@@ -13,13 +13,16 @@
     "raw_dtg": "230758Z MAR 22",
     "msg_id": "HYDROARC 834/22(36)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 848/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRISTOL CHANNEL.\nWALES.\nDNC 20.\nCALDY ISLAND LIGHT 51-37.9N 004-41.1W UNRELIABLE.",
+    "cancel_date": "2022-03-24T23:25:00+00:00",
     "valid_from": "2022-03-23T07:58:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-03-24T23:25:00+00:00",
     "summary": null
   }
 }

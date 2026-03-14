@@ -13,13 +13,16 @@
     "raw_dtg": "122241Z JAN 19",
     "msg_id": "HYDROARC 109/19(35)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 125/19"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND.\nDNC 20.\nCHART 35073.\nRONA LIGHT 59-07.3N 005-48.8W UNLIT.",
+    "cancel_date": "2019-01-15T11:15:00+00:00",
     "valid_from": "2019-01-12T22:41:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-01-15T11:15:00+00:00",
     "summary": null
   }
 }

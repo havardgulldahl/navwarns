@@ -13,13 +13,16 @@
     "raw_dtg": "272124Z JAN 12",
     "msg_id": "HYDROARC 224/12(35)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 241/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND.\nORKNEY ISLANDS.\nCHART 35057\nGRAEMSAY ISLAND REAR RANGE LIGHT\n58-56.2N 003-16.3W UNRELIABLE.",
+    "cancel_date": "2012-01-29T16:30:00+00:00",
     "valid_from": "2012-01-27T21:24:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-01-29T16:30:00+00:00",
     "summary": null
   }
 }

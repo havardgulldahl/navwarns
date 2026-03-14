@@ -13,13 +13,17 @@
     "raw_dtg": "262207Z MAR 12",
     "msg_id": "HYDROARC 679/12(25)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 292200Z MAR",
+      "HYDROARC 679/12"
+    ],
     "hazard_type": "derelict vessel",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN CARIBBEAN SEA.\nDOMINICA.\n1. DERELICT EIGHT METER VESSEL ADRIFT\n   IN 15-14.0N 061-56.5W. REPORTS TO\n   MRCC FORT DE FRANCE.\n2. CANCEL THIS MSG 292200Z MAR.",
+    "cancel_date": "2012-03-29T22:00:00+00:00",
     "valid_from": "2012-03-26T22:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-03-29T22:00:00+00:00",
     "summary": null
   }
 }

@@ -41,13 +41,17 @@
     "raw_dtg": "111702Z JUL 12",
     "msg_id": "HYDROARC 1536/12(23)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 272300Z JUL",
+      "HYDROARC 1702/12"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nFALKLAND ISLANDS.\nMISSILES.\n1. HAZARDOUS OPERATIONS 1000Z TO 2200Z DAILY\n   16 THRU 27 JUL IN AREA BOUND BY\n   51-44.0S 058-02.6W, 51-44.1S 057-53.9W,\n   51-47.9S 057-41.9W, 51-53.9S 057-47.1W,\n   51-56.6S 058-00.2W, 51-49.5S 058-02.7W.\n2. CANCEL THIS MSG 272300Z JUL.",
+    "cancel_date": "2012-07-27T11:10:00+00:00",
     "valid_from": "2012-07-11T17:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-07-27T11:10:00+00:00",
     "summary": null
   }
 }

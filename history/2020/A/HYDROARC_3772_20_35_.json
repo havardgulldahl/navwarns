@@ -13,13 +13,16 @@
     "raw_dtg": "040007Z DEC 20",
     "msg_id": "HYDROARC 3772/20(35)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 4001/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nNORTH MINCH.\nSCOTLAND.\nDNC 19, DNC 20.\nCGOC STORNOWAY MF R/T SERVICE AT BUTT OF LEWIS\nSITE 58-27.7N 006-13.9W OFF AIR.",
+    "cancel_date": "2020-12-30T11:35:00+00:00",
     "valid_from": "2020-12-04T00:07:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-12-30T11:35:00+00:00",
     "summary": null
   }
 }

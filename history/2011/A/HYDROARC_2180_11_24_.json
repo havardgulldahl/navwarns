@@ -7,13 +7,17 @@
     "raw_dtg": "170139Z DEC 11",
     "msg_id": "HYDROARC 2180/11(24)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 230259Z DEC",
+      "HYDROARC 2180/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 230159Z DEC\n   BY M/V NPS OCEANIC PHOENIX TOWING 12 CABLES\n   IN AREA BETWEEN\n   23-35.16S 26-19.38S AND 040-18.42W 041-32.13W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 230259Z DEC.",
+    "cancel_date": "2011-12-23T02:59:00+00:00",
     "valid_from": "2011-12-17T01:39:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-12-23T02:59:00+00:00",
     "summary": null
   }
 }

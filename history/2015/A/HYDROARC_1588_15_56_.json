@@ -13,13 +13,16 @@
     "raw_dtg": "282019Z JUN 15",
     "msg_id": "HYDROARC 1588/15(56)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1601/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\nCHART 56031.\nPLATFORM SAIPEM 10000, ESTABLISHED IN 32-59.8N 032-22.1E.",
+    "cancel_date": "2015-06-30T15:00:00+00:00",
     "valid_from": "2015-06-28T20:19:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-06-30T15:00:00+00:00",
     "summary": null
   }
 }

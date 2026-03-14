@@ -45,13 +45,16 @@
     "raw_dtg": "141010Z JUN 15",
     "msg_id": "HYDROARC 1449/15(54)",
     "year": 2015,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1638/15"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\nSEISMIC SURVEY 15 JUN UNTIL FURTHER NOTICE BY\nM/V POLAR MARQUIS IN AREA BOUND BY\n40-56.1N 024-27.2E, 40-50.3N 024-37.7E,\n40-38.9N 024-26.9E, 40-41.0N 024-23.3E,\n40-44.4N 024-24.5E, 40-42.9N 024-19.7E,\n40-44.7N 024-16.4E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2015-07-05T10:57:00+00:00",
     "valid_from": "2015-06-14T10:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2015-07-05T10:57:00+00:00",
     "summary": null
   }
 }

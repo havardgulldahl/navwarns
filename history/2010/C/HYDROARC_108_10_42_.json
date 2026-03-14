@@ -7,13 +7,17 @@
     "raw_dtg": "261746Z OCT 10",
     "msg_id": "HYDROARC 108/10(42)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 022000Z NOV",
+      "HYDROARC 108/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nNOVAYA ZEMLYA ISLAND.\nROCKETS.\n1. HAZARDOUS OPERATIONS 282100Z TO 290300Z,\n   292100Z TO 300300Z, 310100Z TO 310800Z,\n   311300Z TO 311900Z OCT, 011300Z TO 011900Z,\n   020100Z TO 020800Z AND 021300Z TO 021900Z NOV\n   IN AREA BOUND BY\n   72-00N 047-20E, 73-05N 051-00E,\n   72-30N 052-47E, 71-24N 049-25E.\n2. CANCEL THIS MSG 022000Z NOV.",
+    "cancel_date": "2010-11-02T20:00:00+00:00",
     "valid_from": "2010-10-26T17:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-11-02T20:00:00+00:00",
     "summary": null
   }
 }

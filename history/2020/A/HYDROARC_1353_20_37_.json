@@ -13,13 +13,16 @@
     "raw_dtg": "162310Z APR 20",
     "msg_id": "HYDROARC 1353/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1358/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nDGPS STATION AT LIZARD POINT LIGHT 49-57.6N 005-12.1W UNRELIABLE.",
+    "cancel_date": "2020-04-17T13:43:00+00:00",
     "valid_from": "2020-04-16T23:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-04-17T13:43:00+00:00",
     "summary": null
   }
 }

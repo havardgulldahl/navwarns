@@ -23,13 +23,16 @@
     "raw_dtg": "072305Z OCT 11",
     "msg_id": "HYDROARC 1650/11(51)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1750/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nCABLE OPERATIONS 081800Z OCT UNTIL\nFURTHER NOTICE BY CABLESHIP PETER FABER\nALONG TRACKLINE JOINING\n18-07.0N 016-17.4W, 18-06.6N 016-07.8W,\n18-07.4N 016-02.7W.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2011-10-24T17:00:00+00:00",
     "valid_from": "2011-10-07T23:05:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-24T17:00:00+00:00",
     "summary": null
   }
 }

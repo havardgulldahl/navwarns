@@ -13,13 +13,17 @@
     "raw_dtg": "300722Z AUG 10",
     "msg_id": "HYDROARC 1629/10(35,37,43)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 020720Z SEP",
+      "HYDROARC 1629/10"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\n1. 150 METER LONG MOORING ROPE ADRIFT IN\n   56-59.7N 000-35.4W AT 290645Z AUG.\n2. CANCEL THIS MSG 020720Z SEP.",
+    "cancel_date": "2010-09-02T07:20:00+00:00",
     "valid_from": "2010-08-30T07:22:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-09-02T07:20:00+00:00",
     "summary": null
   }
 }

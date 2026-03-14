@@ -33,13 +33,16 @@
     "raw_dtg": "101636Z FEB 18",
     "msg_id": "HYDROARC 489/18(36,37)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1001/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nCHART 37095.\nEXPOSED CABLES IN AREA BOUND BY\n50-46.2N 000-18.8W, 50-45.2N 000-19.1W,\n50-43.4N 000-18.5W, 50-42.2N 000-16.6W.",
+    "cancel_date": "2018-03-24T12:36:00+00:00",
     "valid_from": "2018-02-10T16:36:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-03-24T12:36:00+00:00",
     "summary": null
   }
 }

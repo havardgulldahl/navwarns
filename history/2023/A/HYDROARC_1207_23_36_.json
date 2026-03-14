@@ -13,13 +13,16 @@
     "raw_dtg": "310043Z MAY 23",
     "msg_id": "HYDROARC 1207/23(36)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1220/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nISLE OF MAN.\nDNC 20.\nPOINT OF AYRE LIGHT 54-24.90N 004-22.10W UNRELIABLE.",
+    "cancel_date": "2023-06-01T13:23:00+00:00",
     "valid_from": "2023-05-31T00:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-06-01T13:23:00+00:00",
     "summary": null
   }
 }

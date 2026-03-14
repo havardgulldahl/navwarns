@@ -13,13 +13,17 @@
     "raw_dtg": "171511Z JUN 10",
     "msg_id": "HYDROARC 1130/10(35)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 201500Z JUN",
+      "HYDROARC 1130/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND-EAST COAST.\n1. CONTAINER ADRIFT IN 54-32.5N 000-44.4E\n   AT 171226Z JUN.\n2. CANCEL THIS MSG 201500Z JUN.",
+    "cancel_date": "2010-06-20T15:00:00+00:00",
     "valid_from": "2010-06-17T15:11:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-06-20T15:00:00+00:00",
     "summary": null
   }
 }

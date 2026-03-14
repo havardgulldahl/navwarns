@@ -13,13 +13,16 @@
     "raw_dtg": "040209Z AUG 18",
     "msg_id": "HYDROARC 171/18(15)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 172/18"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA-NORTHEAST COAST.\nDNC 28.\nMCTS CENTRE IQALUIT 63-43.8N 068-32.7W HF DSC\nR/T AND NBDP STATION INOPERATIVE.",
+    "cancel_date": "2018-08-04T03:41:00+00:00",
     "valid_from": "2018-08-04T02:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2018-08-04T03:41:00+00:00",
     "summary": null
   }
 }

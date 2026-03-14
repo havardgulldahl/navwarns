@@ -7,13 +7,17 @@
     "raw_dtg": "050354Z JUN 12",
     "msg_id": "HYDROARC 1204/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 062200Z JUN",
+      "HYDROARC 1204/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SURVEY OPERATIONS 051000Z TO 062100Z JUN\n   BY M/V CRUZEIRO DO SUL IN AREA BETWEEN\n   26-55.33S 26-55.41S AND 048-30.89W 048-30.81W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 062200Z JUN.",
+    "cancel_date": "2012-06-06T22:00:00+00:00",
     "valid_from": "2012-06-05T03:54:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-06-06T22:00:00+00:00",
     "summary": null
   }
 }

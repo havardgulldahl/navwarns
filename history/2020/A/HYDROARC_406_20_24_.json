@@ -13,13 +13,16 @@
     "raw_dtg": "051457Z FEB 20",
     "msg_id": "HYDROARC 406/20(24)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 411/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTHEAST COAST.\nDNC 01.\nRACON AT PONTA DE CALCANHAR LIGHT\n05-09.7S 035-29.2W INOPERATIVE.",
+    "cancel_date": "2020-02-05T22:52:00+00:00",
     "valid_from": "2020-02-05T14:57:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-02-05T22:52:00+00:00",
     "summary": null
   }
 }

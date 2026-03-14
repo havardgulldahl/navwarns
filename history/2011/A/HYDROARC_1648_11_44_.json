@@ -41,13 +41,17 @@
     "raw_dtg": "071021Z OCT 11",
     "msg_id": "HYDROARC 1648/11(44)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 121700Z OCT",
+      "HYDROARC 1648/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN BALTIC SEA.\nLITHUANIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS DAILY 11 THRU 12 NOV\n   0900Z TO 1600Z IN AREA BOUND BY\n   55-37.0N 020-46.0E, 55-34.0N 021-00.0E,\n   55-25.0N 021-00.0E, 55-22.0N 020-46.0E,\n   55-25.0N 020-42.0E, 55-34.0N 020-42.0E.\n2. CANCEL THIS MSG 121700Z OCT.",
+    "cancel_date": "2011-10-12T17:00:00+00:00",
     "valid_from": "2011-10-07T10:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-10-12T17:00:00+00:00",
     "summary": null
   }
 }

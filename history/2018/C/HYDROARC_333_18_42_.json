@@ -7,13 +7,16 @@
     "raw_dtg": "061446Z DEC 18",
     "msg_id": "HYDROARC 333/18(42)",
     "year": 2018,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 25/19"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "KARA SEA.\nRUSSIA.\nDNC 22\nDGPS STATION AT MYS STERLEGOVA LIGHT\n75-23N 088-49E OFF AIR.",
+    "cancel_date": "2019-02-20T09:36:00+00:00",
     "valid_from": "2018-12-06T14:46:00+00:00",
-    "valid_until": null,
+    "valid_until": "2019-02-20T09:36:00+00:00",
     "summary": null
   }
 }

@@ -53,13 +53,17 @@
     "raw_dtg": "261740Z OCT 10",
     "msg_id": "HYDROARC 107/10(42)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 022000Z NOV",
+      "HYDROARC 111/10"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WHITE SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 282100Z TO 290300Z,\n   292100Z TO 300300Z, 310100Z TO 310800Z,\n   311300Z TO 311900Z OCT, 011300Z TO 011900Z,\n   020100Z TO 020800Z AND 021300Z TO 021900Z NOV\n   IN AREA BOUND BY\n   65-12.5N 036-37.0E, 65-37.2N 036-26.0E,\n   66-12.3N 037-19.0E, 66-04.0N 037-47.0E,\n   66-03.0N 038-38.0E, 66-06.5N 038-55.0E,\n   65-10.5N 037-30.0E, 65-12.1N 036-49.5E,\n   65-12.2N 036-47.6E.\n2. CANCEL THIS MSG 022000Z NOV.",
+    "cancel_date": "2010-10-29T17:30:00+00:00",
     "valid_from": "2010-10-26T17:40:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-29T17:30:00+00:00",
     "summary": null
   }
 }

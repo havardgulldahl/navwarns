@@ -33,13 +33,17 @@
     "raw_dtg": "121230Z MAY 12",
     "msg_id": "HYDROARC 1012/12(24)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 190359Z MAY",
+      "HYDROARC 1012/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 190259Z MAY\n   BY M/V NPS SANCO STAR AND M/V OCEAN EUROPE\n   TOWING 300 METER LONG CABLES IN AREA BOUND BY\n   22-17.22S 040-01.47W, 22-21.63S 039-54.30W,\n   22-26.68S 039-57.92W, 22-22.23S 040-05.02W.\n   EIGHT MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 190359Z MAY.",
+    "cancel_date": "2012-05-19T03:59:00+00:00",
     "valid_from": "2012-05-12T12:30:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-05-19T03:59:00+00:00",
     "summary": null
   }
 }

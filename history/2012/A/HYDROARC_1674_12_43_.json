@@ -49,13 +49,16 @@
     "raw_dtg": "240708Z JUL 12",
     "msg_id": "HYDROARC 1674/12(43)",
     "year": 2012,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1844/12"
+    ],
     "hazard_type": "general",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V OCEANIC CHALLENGER TOWING SEVEN 3000 METER\nLONG CABLES IN AREA BOUND BY\n57-20.4N 001-08.3E, 57-32.1N 001-27.5E,\n57-22.0N 001-47.5E, 57-21.7N 002-08.8E,\n57-10.9N 002-08.1E, 57-02.8N 002-24.7E,\n56-54.8N 002-08.0E, 56-55.1N 001-59.6E.\nFOUR MILE BERTH REQUESTED.",
+    "cancel_date": "2012-08-11T10:15:00+00:00",
     "valid_from": "2012-07-24T07:08:00+00:00",
-    "valid_until": null,
+    "valid_until": "2012-08-11T10:15:00+00:00",
     "summary": null
   }
 }

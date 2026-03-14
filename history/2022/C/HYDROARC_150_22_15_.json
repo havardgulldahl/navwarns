@@ -7,13 +7,16 @@
     "raw_dtg": "102029Z JUL 22",
     "msg_id": "HYDROARC 150/22(15)",
     "year": 2022,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 207/22"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "HUDSON BAY.\nCANADA.\nDNC 28.\nMCTS IQALUIT REMOTE STATION CORAL HARBOUR\n64-09N 083-22W FREQUENCY 2514 KHZ\nUNABLE TO TRANSMIT.",
+    "cancel_date": "2022-08-15T22:48:00+00:00",
     "valid_from": "2022-07-10T20:29:00+00:00",
-    "valid_until": null,
+    "valid_until": "2022-08-15T22:48:00+00:00",
     "summary": null
   }
 }

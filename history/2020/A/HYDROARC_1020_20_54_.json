@@ -46,12 +46,14 @@
     "msg_id": "HYDROARC 1020/20(54)",
     "year": 2020,
     "cancellations": [
-      "THIS MSG 191100Z MAR 20"
+      "THIS MSG 191100Z MAR 20",
+      "HYDROARC 1020/20"
     ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 190600Z TO 191000Z MAR\n   IN AREA BOUND BY\n   40-26.45N 025-55.08E, 40-23.00N 025-54.00E,\n   40-35.00N 025-10.00E, 40-50.00N 025-10.00E,\n   40-41.20N 025-56.78E, 40-36.87N 025-52.32E,\n   40-30.00N 025-53.00E.\n2. CANCEL THIS MSG 191100Z MAR 20.",
+    "cancel_date": "2020-03-19T11:00:00+00:00",
     "valid_from": "2020-03-17T22:12:00+00:00",
     "valid_until": "2020-03-19T11:00:00+00:00",
     "summary": null

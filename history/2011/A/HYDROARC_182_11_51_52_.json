@@ -7,13 +7,17 @@
     "raw_dtg": "291909Z JAN 11",
     "msg_id": "HYDROARC 182/11(51,52)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 031900Z MAR",
+      "HYDROARC 182/11"
+    ],
     "hazard_type": "hazardous operations",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nEASTERN NORTH ATLANTIC.\nGUNNERY.\n1. GUNNERY EXERCISES 0800Z TO 1800Z DAILY\n   02 FEB THRU 03 MAR WITHIN 20 MILES\n   BETWEEN 270 DEGREES AND 360 DEGREES OF:\n   A. 33-41N 008-03W.\n   B. 29-53N 010-15W.\n   C. 27-00N 013-50W.\n   D. 23-35N 017-00W.\n   E. 35-22N 004-05W.\n2. CANCEL THIS MSG 031900Z MAR.",
+    "cancel_date": "2011-03-03T19:00:00+00:00",
     "valid_from": "2011-01-29T19:09:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-03-03T19:00:00+00:00",
     "summary": null
   }
 }

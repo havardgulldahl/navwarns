@@ -13,13 +13,17 @@
     "raw_dtg": "180901Z FEB 11",
     "msg_id": "HYDROARC 294/11(57)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 28 FEB",
+      "HYDROARC 294/11"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 27 FEB BY\n   M/V POURQUOI PAS ALONG TRACKLINE BETWEEN\n   06-14.0S 005-00.4E AND 06-55.0S 005-00.4E.\n   FOUR MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 28 FEB.",
+    "cancel_date": "2011-02-28T00:01:00+00:00",
     "valid_from": "2011-02-18T09:01:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-02-28T00:01:00+00:00",
     "summary": null
   }
 }

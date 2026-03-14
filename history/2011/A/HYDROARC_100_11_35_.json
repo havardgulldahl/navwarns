@@ -13,13 +13,16 @@
     "raw_dtg": "171714Z JAN 11",
     "msg_id": "HYDROARC 100/11(35)",
     "year": 2011,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 101/11"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-EAST COAST.\nNGA CHART 35050 (1ST ED).\nFIFE NESS LIGHT 56-16.7N 002-35.1W INOPERATIVE.",
+    "cancel_date": "2011-01-17T20:42:00+00:00",
     "valid_from": "2011-01-17T17:14:00+00:00",
-    "valid_until": null,
+    "valid_until": "2011-01-17T20:42:00+00:00",
     "summary": null
   }
 }

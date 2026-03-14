@@ -13,13 +13,16 @@
     "raw_dtg": "250010Z FEB 23",
     "msg_id": "HYDROARC 433/23(37)",
     "year": 2023,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 483/23"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nEDDYSTONE LIGHT 50-10.80N 004-15.90W UNRELIABLE.",
+    "cancel_date": "2023-03-02T20:44:00+00:00",
     "valid_from": "2023-02-25T00:10:00+00:00",
-    "valid_until": null,
+    "valid_until": "2023-03-02T20:44:00+00:00",
     "summary": null
   }
 }

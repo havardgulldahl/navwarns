@@ -31,13 +31,16 @@
     "raw_dtg": "152102Z JUL 20",
     "msg_id": "HYDROARC 2235/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2453/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS BY M/V EGS PIONEER\nIN VICINITY OF TRACKLINE JOINING:\n50-45.2N 000-09.8W, 50-39.4N 000-01.0W,\n50-32.7N 003-03.0W, 50-09.4N 000-10.5E,\n49-59.7N 000-46.1E.\nWIDE BERTH REQUESTED.",
+    "cancel_date": "2020-08-07T15:45:00+00:00",
     "valid_from": "2020-07-15T21:02:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-08-07T15:45:00+00:00",
     "summary": null
   }
 }

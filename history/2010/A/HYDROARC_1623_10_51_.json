@@ -13,13 +13,17 @@
     "raw_dtg": "281228Z AUG 10",
     "msg_id": "HYDROARC 1623/10(51)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MESSAGE 311230Z AUG",
+      "HYDROARC 1623/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\n1. 20 FOOT LONG YELLOW CITERN ADRIFT\n   VICINITY 13-35.0N 017-29.8W.\n2. CANCEL THIS MESSAGE 311230Z AUG.",
+    "cancel_date": "2010-08-31T12:30:00+00:00",
     "valid_from": "2010-08-28T12:28:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-08-31T12:30:00+00:00",
     "summary": null
   }
 }

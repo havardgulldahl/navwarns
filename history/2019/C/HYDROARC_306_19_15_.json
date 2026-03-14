@@ -13,13 +13,16 @@
     "raw_dtg": "040517Z DEC 19",
     "msg_id": "HYDROARC 306/19(15)",
     "year": 2019,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 255/20"
+    ],
     "hazard_type": "scientific mooring",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "BEAUFORT SEA.\nCANADA.\nDNC 27.\nSUB-SURFACE SCIENTIFIC MOORINGS ESTABLISHED IN\n71-00.13N 135-29.44W.",
+    "cancel_date": "2020-10-23T12:48:00+00:00",
     "valid_from": "2019-12-04T05:17:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-10-23T12:48:00+00:00",
     "summary": null
   }
 }

@@ -13,13 +13,16 @@
     "raw_dtg": "132000Z AUG 17",
     "msg_id": "HYDROARC 2487/17(36)",
     "year": 2017,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2504/17"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "IRISH SEA.\nDNC 20.\nCHART 36025.\nALL NAVIGATIONAL AIDS AT PLATFORM 113/26,\n54-01.6N 003-51.7W INOPERATIVE.",
+    "cancel_date": "2017-08-15T15:36:00+00:00",
     "valid_from": "2017-08-13T20:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2017-08-15T15:36:00+00:00",
     "summary": null
   }
 }

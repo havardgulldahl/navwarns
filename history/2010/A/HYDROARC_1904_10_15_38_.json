@@ -7,13 +7,17 @@
     "raw_dtg": "070250Z OCT 10",
     "msg_id": "HYDROARC 1904/10(15,38)",
     "year": 2010,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 05 NOV",
+      "HYDROARC 2068/10"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "GREENLAND-SOUTHWEST COAST.\nDAVIS STRAIT.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 04 NOV BY\n   M/V NORDIC EXPLORER TOWING 4.5 MILE LONG CABLE\n   IN AREA BOUND BY\n   70-35N 57-35W, 70-32N 61-26W,\n   69-02N 61-07W, 69-05N 57-33W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 05 NOV.",
+    "cancel_date": "2010-10-30T11:38:00+00:00",
     "valid_from": "2010-10-07T02:50:00+00:00",
-    "valid_until": null,
+    "valid_until": "2010-10-30T11:38:00+00:00",
     "summary": null
   }
 }

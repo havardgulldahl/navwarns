@@ -13,13 +13,16 @@
     "raw_dtg": "031421Z APR 20",
     "msg_id": "HYDROARC 1208/20(51)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 1890/20"
+    ],
     "hazard_type": "aid to navigation outage",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\nCAP SPARTEL LIGHTHOUSE 35-47.5N 005-55.4W UNLIT.",
+    "cancel_date": "2020-06-07T16:18:00+00:00",
     "valid_from": "2020-04-03T14:21:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-06-07T16:18:00+00:00",
     "summary": null
   }
 }

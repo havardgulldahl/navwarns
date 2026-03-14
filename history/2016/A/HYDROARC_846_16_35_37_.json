@@ -13,13 +13,16 @@
     "raw_dtg": "091700Z APR 16",
     "msg_id": "HYDROARC 846/16(35,37)",
     "year": 2016,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 848/16"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "SCOTLAND-EAST COAST.\nDNC 20.\nCHART 35008, 37005.\nDGPS STATION AT GIRDLE NESS LIGHT 57-08.3N 002-02.8W OFF AIR.",
+    "cancel_date": "2016-04-09T22:51:00+00:00",
     "valid_from": "2016-04-09T17:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2016-04-09T22:51:00+00:00",
     "summary": null
   }
 }

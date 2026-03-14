@@ -13,13 +13,16 @@
     "raw_dtg": "081612Z MAY 20",
     "msg_id": "HYDROARC 1580/20(37)",
     "year": 2020,
-    "cancellations": [],
+    "cancellations": [
+      "HYDROARC 2003/20"
+    ],
     "hazard_type": "general",
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "NORTH SEA.\nENGLAND.\nDNC 20.\nLIGHT AT MAST 53-10.7N 002-59.1E UNRELIABLE.",
+    "cancel_date": "2020-06-19T18:49:00+00:00",
     "valid_from": "2020-05-08T16:12:00+00:00",
-    "valid_until": null,
+    "valid_until": "2020-06-19T18:49:00+00:00",
     "summary": null
   }
 }
