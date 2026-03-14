@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "id": "NAVAREA XIX 9/14",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        20.232666666666667,
+        72.58916666666667
+      ],
+      [
+        22.251666666666665,
+        71.24166666666666
+      ],
+      [
+        8.326333333333332,
+        66.24116666666667
+      ],
+      [
+        6.937833333333334,
+        65.03766666666667
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2014-02-07T18:30:00",
+    "raw_dtg": "",
+    "msg_id": "NAVAREA XIX 9/14",
+    "year": 2014,
+    "cancellations": [
+      "NAVAREA XIX 5/14"
+    ],
+    "hazard_type": "general",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "      NORMAL   0         21         FALSE   FALSE   FALSE      NO-BOK   X-NONE   _X-NONE_                                                     MICROSOFTINTERNETEXPLORER4                                                  NAVAREA XIX 9/14\n 1.RIGLIST. CORRECT AT 071830UTC FEB 14.\n    NORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n     72-35.35N 020-13.96E WEST HERCULES\n     72-06.23N 022 36.48E TRANSOCEAN BARENTS \n     71-14.50N 022-15.10E SCARABEO 8      \n     66-14.47N 008-19.58E TRANSOCEAN SPITSBERGEN          \n     65-02.26N 006-56.27E DEEPSEA BERGEN\n NOTES:\n     A. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n     B. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I\n        WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n 2. CANCEL NAVAREA XIX 5/14\n                                                                          <W:LSDEXCEPTION",
+    "cancel_date": "2014-02-07T18:35:00",
+    "valid_from": "2014-02-07T18:30:00+00:00",
+    "valid_until": "2014-02-07T18:35:00",
+    "summary": null
+  }
+}
