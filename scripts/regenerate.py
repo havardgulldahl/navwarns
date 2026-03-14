@@ -105,7 +105,7 @@ def regenerate_navwarn_file(
     *,
     dry_run: bool = False,
 ) -> List[Path]:
-    """Re-parse a single HYDROARC / NAVAREA feature file.
+    """Re-parse a single navwarn feature file.
 
     Returns list of paths written (may be >1 for multi-group messages).
     If the parser now splits a single file into groups, the original
@@ -365,7 +365,7 @@ def regenerate_all(
         "prips_skipped": 0,
     }
 
-    # --- HYDROARC / NAVAREA navwarns ----------------------------------
+    # --- navwarns (all sources) ----------------------------------------
     if NAVWARNS_DIR.is_dir():
         # Collect all json files; for grouped features (id contains #grp)
         # we only need to re-parse once per parent_id.

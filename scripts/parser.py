@@ -663,8 +663,9 @@ def parse_cancellations(body: str) -> List[str]:
 
     We purposely broaden parsing to capture simple NAVAREA style references like
     'CANCEL 47/18', multi-word forms like 'CANCEL THIS MESSAGE 01 JAN 19' and the
-    existing HYDROARC / DTG formats. Returned values are the captured target
-    strings without the leading 'CANCEL '.
+    existing message ID formats (HYDROARC, NAVAREA, NAV WARN, etc.) and DTG
+    formats. Returned values are the captured target strings without the
+    leading 'CANCEL '.
     """
     cancels: List[str] = []
     # Primary regex (already excludes the leading 'CANCEL ' via group)
@@ -673,16 +674,18 @@ def parse_cancellations(body: str) -> List[str]:
     for line in body.splitlines():
         if "CANCEL" in line.upper():
             for m in re.findall(r"\b(\d+/\d+)\b", line):
-                # Skip if a longer token already captured (e.g., HYDROARC 134/25)
+                # Skip if a longer token already captured (e.g., structured id)
                 if any(c.endswith(m) for c in cancels):
                     continue
                 if m not in cancels:
                     cancels.append(m)
-    # Heuristic: drop any plain number/year token that corresponds to the message id in body
-    msg_id_match = re.search(r"HYDROARC (\d+/\d+)", body)
+    # Heuristic: drop any plain number/year token that corresponds to the message's own id
+    msg_id_match = MSG_ID_PATTERN.search(body)
     if msg_id_match:
-        own_suffix = msg_id_match.group(1)
-        cancels = [c for c in cancels if c != own_suffix]
+        own_suffix_m = re.search(r"(\d+/\d+)", msg_id_match.group(1))
+        if own_suffix_m:
+            own_suffix = own_suffix_m.group(1)
+            cancels = [c for c in cancels if c != own_suffix]
     return cancels
 
 
@@ -947,7 +950,7 @@ def analyze_geometry(
 
 
 def extract_year(msg_id: Optional[str], dtg: Optional[datetime]) -> Optional[int]:
-    """Infer four-digit year from msg_id suffix (e.g., HYDROARC 136/25 -> 2025) or dtg.
+    """Infer four-digit year from msg_id suffix (e.g., 136/25 -> 2025) or dtg.
 
     Rules:
       - If msg_id ends with /YY where YY are digits, map 00-79 -> 2000-2079, 80-99 -> 1980-1999 (assumption).
