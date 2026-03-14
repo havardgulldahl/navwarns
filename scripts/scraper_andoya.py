@@ -31,6 +31,17 @@ from typing import List, Optional, Tuple
 import requests
 from shapely.geometry import Polygon, mapping
 
+try:
+    from . import cleanup  # type: ignore
+except ImportError:  # running as a script
+    import importlib.util as _ilu
+
+    _cleanup_path = Path(__file__).resolve().parent / "cleanup.py"
+    _spec_clean = _ilu.spec_from_file_location("cleanup", _cleanup_path)
+    cleanup = _ilu.module_from_spec(_spec_clean)  # type: ignore
+    assert _spec_clean and _spec_clean.loader
+    _spec_clean.loader.exec_module(cleanup)  # type: ignore
+
 # ---------------- Configuration ----------------
 API_URL = (
     "https://www.barentswatch.no/bwapi/v1/geodata/download/"
@@ -38,6 +49,7 @@ API_URL = (
 )
 CURRENT_DIR = Path("current")
 OUTPUT_DIR = CURRENT_DIR / "navwarns"
+HISTORY_DIR = Path(f"history/{datetime.datetime.now().strftime('%Y')}/ANDOYA")
 REQUEST_TIMEOUT = 60
 MAX_RETRIES = 4
 RETRY_BACKOFF = 2.0
@@ -281,6 +293,13 @@ def main() -> None:
         logging.error("Downloaded data is not valid gzip")
         sys.exit(1)
 
+    # Save raw OLX text to history for archival
+    HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+    raw_filename = datetime.datetime.now().strftime("ANDOYA_%Y-%m-%d.olx")
+    raw_path = HISTORY_DIR / raw_filename
+    raw_path.write_text(olx_text, encoding="latin-1")
+    logging.info("Saved raw OLX to %s", raw_path)
+
     routes = parse_olx(olx_text)
     logging.info("Parsed %d unique danger area(s)", len(routes))
 
@@ -302,6 +321,13 @@ def main() -> None:
         with filepath.open("w", encoding="utf-8") as f:
             json.dump(feat, f, ensure_ascii=False, indent=2)
         logging.info("Wrote %s", filepath)
+
+    # Move features no longer active to history
+    cleanup.cleanup(
+        active_filenames,
+        OUTPUT_DIR,
+        "ANDOYA_*.json",
+    )
 
     # Write scrape timestamp
     ts_file = CURRENT_DIR / ".scrape_timestamp_ANDOYA"
