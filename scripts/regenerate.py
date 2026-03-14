@@ -339,7 +339,17 @@ def regenerate_history(
 
             stats["history_processed"] += 1
             output_dir = json_path.parent
-            written = regenerate_navwarn_file(json_path, output_dir, dry_run=dry_run)
+
+            # Route PRIP files to the PRIP-specific handler
+            is_prip = json_path.parent.name == "prips" or json_path.name.startswith(
+                "PRIP_"
+            )
+            if is_prip:
+                written = regenerate_prip_file(json_path, output_dir, dry_run=dry_run)
+            else:
+                written = regenerate_navwarn_file(
+                    json_path, output_dir, dry_run=dry_run
+                )
             if written:
                 stats["history_written"] += len(written)
             else:
