@@ -307,8 +307,8 @@ class NavwarnMessage:
         # Search both cancellations list and body text for self-cancel patterns
         sources = list(self.cancellations)
         if self.body:
-            for line in re.split(r'[.\n]', self.body.upper()):
-                if 'THIS MSG' in line or 'THIS MESSAGE' in line:
+            for line in re.split(r"[.\n]", self.body.upper()):
+                if "THIS MSG" in line or "THIS MESSAGE" in line:
                     sources.append(line.strip())
 
         for cancel in sources:

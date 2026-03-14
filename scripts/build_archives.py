@@ -74,8 +74,8 @@ def _compute_valid_until(
     sources = list(props.get("cancellations") or [])
     body = props.get("body") or ""
     if body:
-        for line in re.split(r'[.\n]', body.upper()):
-            if 'THIS MSG' in line or 'THIS MESSAGE' in line:
+        for line in re.split(r"[.\n]", body.upper()):
+            if "THIS MSG" in line or "THIS MESSAGE" in line:
                 sources.append(line.strip())
 
     for cancel in sources:
@@ -247,8 +247,7 @@ def _scan_daily_presence(
             all_dates.append(date_str)
             text = html_file.read_text(errors="replace")
             for m in re.finditer(
-                r"ПРИП\s+(АРХАНГЕЛЬСК|МУРМАНСК|ЗАПАД)"
-                r"\s+(\d+)/(\d+)",
+                r"ПРИП\s+(АРХАНГЕЛЬСК|МУРМАНСК|ЗАПАД)" r"\s+(\d+)/(\d+)",
                 text,
             ):
                 reg = RU_MAP.get(m.group(1), m.group(1))
@@ -262,11 +261,7 @@ def _scan_daily_presence(
     # Only use last_seen as valid_until when the message disappeared
     # *before* the final scrape date (otherwise it may still be active)
     final_date = max(all_dates)
-    return {
-        mid: date
-        for mid, date in last_seen.items()
-        if date < final_date
-    }
+    return {mid: date for mid, date in last_seen.items() if date < final_date}
 
 
 def _apply_last_seen(
@@ -345,8 +340,9 @@ def build_archive(
     if last_seen:
         n = _apply_last_seen(features, last_seen)
         if n:
-            print(f"  {year}: inferred valid_until for {n} features"
-                  " from daily scrapes")
+            print(
+                f"  {year}: inferred valid_until for {n} features" " from daily scrapes"
+            )
 
     collection = {
         "type": "FeatureCollection",
