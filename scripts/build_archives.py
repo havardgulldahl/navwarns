@@ -359,12 +359,34 @@ def build_manifest(
     year_counts: Dict[int, int],
     output_dir: Path,
 ) -> None:
-    """Write manifest.json with available years and counts."""
+    """Write manifest.json with available years and counts.
+
+    Merges *year_counts* with any existing archive files on disk so
+    that rebuilding a single year does not erase other years from the
+    manifest.
+    """
+    # Discover all archiveYYYY.geojson files already on disk
+    existing: Dict[int, int] = {}
+    for archive_path in output_dir.glob("archive*.geojson"):
+        m = re.search(r"archive(\d{4})\.geojson$", archive_path.name)
+        if not m:
+            continue
+        yr = int(m.group(1))
+        try:
+            with open(archive_path, encoding="utf-8") as f:
+                data = json.load(f)
+            cnt = len(data.get("features") or [])
+        except (json.JSONDecodeError, OSError):
+            cnt = 0
+        if cnt > 0:
+            existing[yr] = cnt
+
+    # Merge: rebuilt years override, existing years are preserved
+    merged = {**existing, **year_counts}
+
     manifest = {
         "years": [
-            {"year": yr, "count": cnt}
-            for yr, cnt in sorted(year_counts.items())
-            if cnt > 0
+            {"year": yr, "count": cnt} for yr, cnt in sorted(merged.items()) if cnt > 0
         ],
     }
     out_path = output_dir / "manifest.json"
