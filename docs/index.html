@@ -132,33 +132,6 @@
             cursor: default;
         }
 
-        #quick-controls {
-            display: flex;
-            gap: 6px;
-            align-items: center;
-        }
-
-        .quick-btn {
-            padding: 3px 10px;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            background: white;
-            font-size: 11px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .quick-btn:hover {
-            background: #f0f0f0;
-            border-color: #4a90e2;
-        }
-
-        .quick-btn.active {
-            background: #4a90e2;
-            color: #fff;
-            border-color: #4a90e2;
-        }
-
         .popup-content {
             max-width: 260px;
             word-wrap: break-word;
@@ -319,6 +292,13 @@
             color: #856404;
             margin-left: 8px;
         }
+
+        .boundary-tooltip {
+            font-size: 11px;
+            padding: 3px 8px;
+            background: rgba(255, 255, 255, 0.92);
+            border: 1px solid #999;
+        }
     </style>
 </head>
 
@@ -333,13 +313,6 @@
             <span id="loading-indicator">Loading…</span>
         </div>
         <div id="year-bar"></div>
-        <div id="quick-controls">
-            <button class="quick-btn" data-days="-7">-7d</button>
-            <button class="quick-btn" data-days="-30">-1mo</button>
-            <button class="quick-btn" data-days="-90">-3mo</button>
-            <button class="quick-btn" data-days="-365">-1yr</button>
-            <button class="quick-btn active" data-days="0">Today</button>
-        </div>
     </div>
 
     <!-- Leaflet JS -->
@@ -718,37 +691,58 @@
         let lastFilterDate = 0;  // track when time-filter was last computed
 
         function isFeatureInViewport(feature, bounds) {
-            const lat = getFeatureCentroidLat(feature);
-            if (lat === null) return false;
-            const geom = feature.geometry;
-            if (geom.type === 'Point') {
-                return bounds.contains(L.latLng(geom.coordinates[1], geom.coordinates[0]));
-            }
-            // For non-point features, use centroid check with generous tolerance
-            const lng = geom.coordinates.flat(Infinity);
-            // simplified: just check centroid
-            const cLng = geom.type === 'MultiPoint'
-                ? geom.coordinates.reduce((s, c) => s + c[0], 0) / geom.coordinates.length
-                : lng.filter((_, i) => i % 2 === 0).reduce((a, b) => a + b, 0) / (lng.length / 2);
-            return bounds.contains(L.latLng(lat, cLng));
+            try {
+                const lat = getFeatureCentroidLat(feature);
+                if (lat === null || !Number.isFinite(lat)) return false;
+                const geom = feature.geometry;
+                if (geom.type === 'Point') {
+                    const lng = geom.coordinates[0];
+                    if (!Number.isFinite(lng)) return false;
+                    return bounds.contains(L.latLng(geom.coordinates[1], lng));
+                }
+                // For non-point features, use centroid check with generous tolerance
+                const flat = geom.coordinates.flat(Infinity);
+                // simplified: just check centroid
+                const cLng = geom.type === 'MultiPoint'
+                    ? geom.coordinates.reduce((s, c) => s + c[0], 0) / geom.coordinates.length
+                    : flat.filter((_, i) => i % 2 === 0).reduce((a, b) => a + b, 0) / (flat.length / 2);
+                if (!Number.isFinite(cLng)) return false;
+                return bounds.contains(L.latLng(lat, cLng));
+            } catch { return false; }
         }
 
         function updateMapDisplay(viewportOnly) {
             clearTimeout(renderTimer);
             renderTimer = setTimeout(() => {
-                // Recompute time-filtered set only when date changes
-                const dateKey = viewDate.getTime();
-                if (!viewportOnly || dateKey !== lastFilterDate) {
-                    const allFeatures = getAllLoadedFeatures();
-                    lastFiltered = allFeatures.filter(f => isInArcticRegion(f) && isFeatureValidAt(f, viewDate));
-                    lastFilterDate = dateKey;
-                }
+                try {
+                    // Recompute time-filtered set only when date changes
+                    const dateKey = viewDate.getTime();
+                    if (!viewportOnly || dateKey !== lastFilterDate) {
+                        const allFeatures = getAllLoadedFeatures();
+                        lastFiltered = allFeatures.filter(f => isInArcticRegion(f) && isFeatureValidAt(f, viewDate));
+                        lastFilterDate = dateKey;
+                    }
 
-                // Viewport culling: only render features inside padded bounds
-                const bounds = map.getBounds().pad(0.3);
-                const visible = lastFiltered.filter(f => isFeatureInViewport(f, bounds));
-                renderFeatures(visible);
-                updateLegendCount(visible.length, lastFiltered.length);
+                    // Viewport culling: only render features inside padded bounds
+                    // getBounds() can produce NaN with polar projections at edge views
+                    let visible = lastFiltered;
+                    try {
+                        const bounds = map.getBounds();
+                        const sw = bounds.getSouthWest();
+                        const ne = bounds.getNorthEast();
+                        if (Number.isFinite(sw.lat) && Number.isFinite(sw.lng) &&
+                            Number.isFinite(ne.lat) && Number.isFinite(ne.lng)) {
+                            const padded = bounds.pad(0.3);
+                            visible = lastFiltered.filter(f => isFeatureInViewport(f, padded));
+                        }
+                    } catch (boundsErr) {
+                        // Fall back to rendering all time-filtered features
+                    }
+                    renderFeatures(visible);
+                    updateLegendCount(visible.length, lastFiltered.length);
+                } catch (err) {
+                    console.warn('[NavWarns] render error:', err);
+                }
             }, 30);
         }
 
@@ -872,16 +866,6 @@
             setViewDate(target);
         }
 
-        // Quick-control buttons
-        document.getElementById('quick-controls').addEventListener('click', (e) => {
-            const btn = e.target.closest('.quick-btn');
-            if (!btn) return;
-            const days = parseInt(btn.dataset.days);
-            document.querySelectorAll('.quick-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            jumpDaysAgo(days);
-        });
-
         // ============ Legend ============
         function updateLegendCount(showing, total) {
             const countEl = document.getElementById('navwarn-count');
@@ -950,15 +934,52 @@
             });
         }
 
+        // ============ Maritime Boundaries Layer ============
+        const boundaryLayer = L.layerGroup();
+
+        function loadBoundaries(geojson) {
+            if (!geojson || !geojson.features) return;
+            geojson.features.forEach(f => {
+                const style = f.properties.style || {};
+                L.geoJSON(f, {
+                    style: {
+                        color: style.color || '#756bb1',
+                        weight: style.weight || 2,
+                        dashArray: style.dashArray || '',
+                        opacity: 0.7,
+                        interactive: true
+                    },
+                    onEachFeature: (feature, layer) => {
+                        const p = feature.properties || {};
+                        layer.bindTooltip(p.name || 'Boundary', {
+                            sticky: true,
+                            className: 'boundary-tooltip'
+                        });
+                    }
+                }).addTo(boundaryLayer);
+            });
+        }
+
         // ============ Init ============
         async function init() {
-            const [manifestData, currentResp] = await Promise.all([
+            const [manifestData, currentResp, boundaryResp] = await Promise.all([
                 fetch('manifest.json').then(r => r.ok ? r.json() : { years: [] }).catch(() => ({ years: [] })),
-                fetch('navwarns.geojson').then(r => r.ok ? r.json() : null).catch(() => null)
+                fetch('navwarns.geojson').then(r => r.ok ? r.json() : null).catch(() => null),
+                fetch('maritime_boundaries.geojson').then(r => r.ok ? r.json() : null).catch(() => null)
             ]);
 
             Object.assign(manifest, manifestData);
             currentData = currentResp;
+
+            if (boundaryResp) {
+                loadBoundaries(boundaryResp);
+            }
+
+            // Layer control for optional overlays
+            const overlays = {
+                'Maritime Boundaries': boundaryLayer
+            };
+            L.control.layers(null, overlays, { position: 'topright', collapsed: true }).addTo(map);
 
             buildYearBar();
             addLegend();
