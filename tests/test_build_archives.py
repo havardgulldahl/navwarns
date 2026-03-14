@@ -392,3 +392,41 @@ class TestBuildManifest:
         manifest = json.loads((tmp_path / "manifest.json").read_text())
         y = [e["year"] for e in manifest["years"]]
         assert y == sorted(y)
+
+    def test_manifest_merges_existing_archives(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        """Rebuilding one year must not erase other years.
+
+        Regression test: build_manifest previously only wrote the
+        year_counts dict, so rebuilding 2021 alone would drop 2020.
+        """
+        # Pre-existing archive on disk for 2020 (3 features)
+        fc_2020 = {
+            "type": "FeatureCollection",
+            "features": [{"type": "Feature", "properties": {}} for _ in range(3)],
+        }
+        (tmp_path / "archive2020.geojson").write_text(json.dumps(fc_2020))
+        # Rebuild only 2021 with 5 features
+        build_manifest({2021: 5}, tmp_path)
+        manifest = json.loads((tmp_path / "manifest.json").read_text())
+        years = {e["year"]: e["count"] for e in manifest["years"]}
+        assert years[2020] == 3, "existing archive year preserved"
+        assert years[2021] == 5, "rebuilt year present"
+
+    def test_manifest_rebuild_overrides_stale_disk(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        """Freshly-built counts override stale on-disk archives."""
+        fc_old = {
+            "type": "FeatureCollection",
+            "features": [{"type": "Feature", "properties": {}} for _ in range(99)],
+        }
+        (tmp_path / "archive2021.geojson").write_text(json.dumps(fc_old))
+        # Rebuild 2021 with updated count
+        build_manifest({2021: 7}, tmp_path)
+        manifest = json.loads((tmp_path / "manifest.json").read_text())
+        years = {e["year"]: e["count"] for e in manifest["years"]}
+        assert years[2021] == 7, "rebuilt count overrides disk"

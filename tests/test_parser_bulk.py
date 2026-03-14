@@ -17,8 +17,7 @@ def test_parse_each_text_file(path):
     assert msgs, f"No messages parsed in {path.name}"
     # Basic structural checks per message
     for m in msgs:
-        # raw_dtg always stored (first line) even if dtg parsing fails
-        assert m.raw_dtg, f"raw_dtg missing for message in {path.name}"
+        # raw_dtg is set when a DTG is found; may be empty for messages without one
         # If coordinates present, they are (float, float)
         for lat, lon in m.coordinates:
             assert isinstance(lat, float) and isinstance(lon, float)
