@@ -690,64 +690,20 @@
         let lastFiltered = [];   // cache time-filtered set between viewport updates
         let lastFilterDate = 0;  // track when time-filter was last computed
 
-        function isFeatureInViewport(feature, bounds) {
-            try {
-                const lat = getFeatureCentroidLat(feature);
-                if (lat === null || !Number.isFinite(lat)) return false;
-                const geom = feature.geometry;
-                if (geom.type === 'Point') {
-                    const lng = geom.coordinates[0];
-                    if (!Number.isFinite(lng)) return false;
-                    return bounds.contains(L.latLng(geom.coordinates[1], lng));
-                }
-                // For non-point features, use centroid check with generous tolerance
-                const flat = geom.coordinates.flat(Infinity);
-                // simplified: just check centroid
-                const cLng = geom.type === 'MultiPoint'
-                    ? geom.coordinates.reduce((s, c) => s + c[0], 0) / geom.coordinates.length
-                    : flat.filter((_, i) => i % 2 === 0).reduce((a, b) => a + b, 0) / (flat.length / 2);
-                if (!Number.isFinite(cLng)) return false;
-                return bounds.contains(L.latLng(lat, cLng));
-            } catch { return false; }
-        }
-
-        function updateMapDisplay(viewportOnly) {
+        function updateMapDisplay() {
             clearTimeout(renderTimer);
             renderTimer = setTimeout(() => {
                 try {
-                    // Recompute time-filtered set only when date changes
-                    const dateKey = viewDate.getTime();
-                    if (!viewportOnly || dateKey !== lastFilterDate) {
-                        const allFeatures = getAllLoadedFeatures();
-                        lastFiltered = allFeatures.filter(f => isInArcticRegion(f) && isFeatureValidAt(f, viewDate));
-                        lastFilterDate = dateKey;
-                    }
-
-                    // Viewport culling: only render features inside padded bounds
-                    // getBounds() can produce NaN with polar projections at edge views
-                    let visible = lastFiltered;
-                    try {
-                        const bounds = map.getBounds();
-                        const sw = bounds.getSouthWest();
-                        const ne = bounds.getNorthEast();
-                        if (Number.isFinite(sw.lat) && Number.isFinite(sw.lng) &&
-                            Number.isFinite(ne.lat) && Number.isFinite(ne.lng)) {
-                            const padded = bounds.pad(0.3);
-                            visible = lastFiltered.filter(f => isFeatureInViewport(f, padded));
-                        }
-                    } catch (boundsErr) {
-                        // Fall back to rendering all time-filtered features
-                    }
-                    renderFeatures(visible);
-                    updateLegendCount(visible.length, lastFiltered.length);
+                    const allFeatures = getAllLoadedFeatures();
+                    lastFiltered = allFeatures.filter(f => isInArcticRegion(f) && isFeatureValidAt(f, viewDate));
+                    lastFilterDate = viewDate.getTime();
+                    renderFeatures(lastFiltered);
+                    updateLegendCount(lastFiltered.length, lastFiltered.length);
                 } catch (err) {
                     console.warn('[NavWarns] render error:', err);
                 }
             }, 30);
         }
-
-        // Re-render on pan/zoom so off-screen features are culled
-        map.on('moveend', () => updateMapDisplay(true));
 
         // ============ Year Loading ============
         async function ensureYearLoaded(year) {
