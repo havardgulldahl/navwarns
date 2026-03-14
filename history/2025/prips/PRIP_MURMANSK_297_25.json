@@ -1,1 +1,22 @@
-{"type": "Feature", "id": "PRIP MURMANSK 297/25", "geometry": null, "properties": {"dtg": null, "raw_dtg": "ПРИП МУРМАНСК 297/25 \r\nПРИП МУРМАНСК 297", "msg_id": "PRIP MURMANSK 297/25", "year": 2025, "cancellations": [], "hazard_type": "general", "geometry_kind": "point", "radius_nm": null, "body": "1. ОТМ 285/25\n2. ОТМ ЭТОТ НР=\n200930 МСК  ГС", "cancel_date": null, "valid_from": "2025-09-23T00:00:00+00:00", "valid_until": "2025-11-21T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP MURMANSK 297/25",
+  "geometry": null,
+  "properties": {
+    "dtg": null,
+    "raw_dtg": "ПРИП МУРМАНСК 297/25 \r\nПРИП МУРМАНСК 297",
+    "msg_id": "PRIP MURMANSK 297/25",
+    "year": 2025,
+    "cancellations": [
+      "285/25"
+    ],
+    "hazard_type": "general",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "1. ОТМ 285/25\n2. ОТМ ЭТОТ НР=\n200930 МСК  ГС",
+    "cancel_date": null,
+    "valid_from": "2025-01-01T00:00:00+00:00",
+    "valid_until": null,
+    "summary": null
+  }
+}

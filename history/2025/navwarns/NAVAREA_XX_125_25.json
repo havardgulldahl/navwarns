@@ -1,1 +1,48 @@
-{"type": "Feature", "id": "NAVAREA XX 125/25", "geometry": {"type": "Polygon", "coordinates": [[[39.186, 74.23433333333334], [44.37533333333333, 73.5335], [37.054833333333335, 69.71783333333333], [34.05766666666667, 70.236], [39.186, 74.23433333333334]]]}, "properties": {"dtg": null, "raw_dtg": "NAVAREA XX 125/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTC AND1200 TO 1330 UTC DAILY 01 TO 24 OCTIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-43.07N 037-03.29E, 70-14.16N 034-03.46E.2. CANCEL THIS MSG 241430 UTC OCT 25.=NNNN", "msg_id": "NAVAREA XX 125/25", "year": 2025, "cancellations": ["THIS MSG 241430 UTC OCT 25"], "hazard_type": "hazardous operations", "geometry_kind": "polygon", "radius_nm": null, "body": "NAVAREA XX 125/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTC AND1200 TO 1330 UTC DAILY 01 TO 24 OCTIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-43.07N 037-03.29E, 70-14.16N 034-03.46E.2. CANCEL THIS MSG 241430 UTC OCT 25.=NNNN", "cancel_date": null, "valid_from": "2025-09-27T00:00:00+00:00", "valid_until": "2025-10-19T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "NAVAREA XX 125/25",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          39.186,
+          74.23433333333334
+        ],
+        [
+          44.37533333333333,
+          73.5335
+        ],
+        [
+          37.054833333333335,
+          69.71783333333333
+        ],
+        [
+          34.05766666666667,
+          70.236
+        ],
+        [
+          39.186,
+          74.23433333333334
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": null,
+    "raw_dtg": "",
+    "msg_id": "NAVAREA XX 125/25",
+    "year": 2025,
+    "cancellations": [
+      "THIS MSG 241430 UTC OCT 25"
+    ],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NAVAREA XX 125/25BARENTS SEA.CHART RUS 10100.1. ROCKET LAUNCHING 0900 TO 1030 UTC AND1200 TO 1330 UTC DAILY 01 TO 24 OCTIN AREA DANGEROUS TO NAVIGATION BOUNDED BY:74-14.06N 039-11.16E, 73-32.01N 044-22.52E,69-43.07N 037-03.29E, 70-14.16N 034-03.46E.2. CANCEL THIS MSG 241430 UTC OCT 25.=NNNN",
+    "cancel_date": null,
+    "valid_from": "2025-01-01T00:00:00+00:00",
+    "valid_until": "2025-10-24T14:30:00+00:00",
+    "summary": null
+  }
+}

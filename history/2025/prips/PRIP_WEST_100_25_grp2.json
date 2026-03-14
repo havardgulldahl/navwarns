@@ -1,1 +1,36 @@
-{"type": "Feature", "id": "PRIP WEST 100/25#grp2", "geometry": {"type": "Point", "coordinates": [80.6445, 72.72533333333334]}, "properties": {"parent_id": "PRIP WEST 100/25", "group_index": 2, "dtg": null, "raw_dtg": "ПРИП ЗАПАД 100/25 КАРТЫ 13347 13348 15379\r\nKAPСKOE МОPE", "year": 2025, "hazard_type": "general", "body": "MAPEOГPAФЫ ВЫСTAВЛEHЫ В\n1.\t73-03.79С 080-28.83В HA ГЛУБИН 20 METPOВ\n2.\t72-43.52С 080-38.67В HA ГЛУБИHE 18 METPOВ\n3.\t72-25.84С 080-35.00В HA ГЛУБИHE 13 METPA ОБХОДИТЬ 0.5 МИЛИ\nСИСTEMA KOOPДИHAT WGS-84", "cancel_date": null, "valid_from": "2025-09-23T00:00:00+00:00", "valid_until": "2025-10-03T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP WEST 100/25",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        80.4805,
+        73.06316666666666
+      ],
+      [
+        80.6445,
+        72.72533333333334
+      ],
+      [
+        80.58333333333333,
+        72.43066666666667
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": null,
+    "raw_dtg": "ПРИП ЗАПАД 100/25 КАРТЫ 13347 13348 15379\r\nKAPСKOE МОPE",
+    "msg_id": "PRIP WEST 100/25",
+    "year": 2025,
+    "cancellations": [],
+    "hazard_type": "general",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "MAPEOГPAФЫ ВЫСTAВЛEHЫ В\n1.\t73-03.79С 080-28.83В HA ГЛУБИН 20 METPOВ\n2.\t72-43.52С 080-38.67В HA ГЛУБИHE 18 METPOВ\n3.\t72-25.84С 080-35.00В HA ГЛУБИHE 13 METPA ОБХОДИТЬ 0.5 МИЛИ\nСИСTEMA KOOPДИHAT WGS-84",
+    "cancel_date": null,
+    "valid_from": "2025-01-01T00:00:00+00:00",
+    "valid_until": null,
+    "summary": null
+  }
+}

@@ -1,1 +1,28 @@
-{"type": "Feature", "id": "PRIP MURMANSK 189/25", "geometry": {"type": "Point", "coordinates": [34.556666666666665, 69.31833333333333]}, "properties": {"dtg": null, "raw_dtg": "ПРИП МУРМАНСК 189/25 КАРТА 12000 ВОСТОЧНЕЕ ОСТРОВА КИЛЬДИН", "msg_id": "PRIP MURMANSK 189/25", "year": 2025, "cancellations": [], "hazard_type": "general", "geometry_kind": "point", "radius_nm": null, "body": "1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ 01 ПО 31 ИЮЛЬ\nКРУГЛОСУТОЧНО РАЙОН РАДИУСОМ 1000 МЕТРОВ\nИЗ 69-19.1С 034-33.4В\n2. ОТМ ЭТОТ НР 01 АВГ=\n301000 МСК  ГС-", "cancel_date": null, "valid_from": "2025-09-23T00:00:00+00:00", "valid_until": "2025-11-21T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP MURMANSK 189/25",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.556666666666665,
+      69.31833333333333
+    ]
+  },
+  "properties": {
+    "dtg": null,
+    "raw_dtg": "ПРИП МУРМАНСК 189/25 КАРТА 12000 ВОСТОЧНЕЕ ОСТРОВА КИЛЬДИН",
+    "msg_id": "PRIP MURMANSK 189/25",
+    "year": 2025,
+    "cancellations": [
+      "THIS MSG 010000 UTC AUG 25"
+    ],
+    "hazard_type": "general",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ 01 ПО 31 ИЮЛЬ\nКРУГЛОСУТОЧНО РАЙОН РАДИУСОМ 1000 МЕТРОВ\nИЗ 69-19.1С 034-33.4В\n2. ОТМ ЭТОТ НР 01 АВГ=\n301000 МСК  ГС-",
+    "cancel_date": null,
+    "valid_from": "2025-01-01T00:00:00+00:00",
+    "valid_until": "2025-08-01T00:00:00+00:00",
+    "summary": null
+  }
+}

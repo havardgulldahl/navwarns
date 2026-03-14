@@ -1,1 +1,74 @@
-{"type": "Feature", "id": "PRIP WEST 192/25#grp1", "geometry": {"type": "LineString", "coordinates": [[104.02333333333333, 77.73666666666666], [103.395, 77.84]]}, "properties": {"parent_id": "PRIP WEST 192/25", "group_index": 1, "dtg": null, "raw_dtg": "ПРИП ЗАПАД 192/25 КАРТА 11136 КАРСКОЕ МОРЕ И МОРЕ ЛАПТЕВЫХ\r\nПРОЛИВ ШОКАЛЬСКОГО И ПРОЛИВ БОРИСА ВИЛЬКИЦКОГО", "year": 2025, "hazard_type": "ice and icebergs", "body": "1.АЙСБЕРГИ 291128 СЕНТ В \nА. 77-44.2С 104-01.4В\nБ. 77-50.4С 103-23.7В\nВ. 77-51.9С 103-18.4В\nГ. 77-56.0С 104-16.0В \nД. 77-56.7С 104-08.7В \nЕ. 77-56.2С 103-56.7В\n2.ОТМ ЭТОТ НР 021128 ОКТ= \n\nCOASTAL WARNING WEST 192/25 KARA AND LAPTEV SEA.\nPROLIV SHOKALSKOGO AND PROLIV BORISA VIL’KITSKOGO. CHART RUS 11136.\n1.ICEBERGS AT 291128 UTC SEP IN: \nA. 77-44.2N 104-01.4E.\nB. 77-50.4N 103-23.7E. \nC. 77-51.9N 103-18.4E.\nD. 77-56.0N 104-16.0E. \nE. 77-56.7N 104-08.7E. \nF. 77-56.2N 103-56.7E.\n2.CANCEL THIS MSG 021128 UTC OCT 25.= \nNNNN", "cancel_date": null, "valid_from": "2025-09-30T00:00:00+00:00", "valid_until": "2025-10-04T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP WEST 192/25",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        104.02333333333333,
+        77.73666666666666
+      ],
+      [
+        103.395,
+        77.84
+      ],
+      [
+        103.30666666666667,
+        77.865
+      ],
+      [
+        104.26666666666667,
+        77.93333333333334
+      ],
+      [
+        104.145,
+        77.945
+      ],
+      [
+        103.945,
+        77.93666666666667
+      ],
+      [
+        104.02333333333333,
+        77.73666666666666
+      ],
+      [
+        103.395,
+        77.84
+      ],
+      [
+        103.30666666666667,
+        77.865
+      ],
+      [
+        104.26666666666667,
+        77.93333333333334
+      ],
+      [
+        104.145,
+        77.945
+      ],
+      [
+        103.945,
+        77.93666666666667
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": null,
+    "raw_dtg": "ПРИП ЗАПАД 192/25 КАРТА 11136 КАРСКОЕ МОРЕ И МОРЕ ЛАПТЕВЫХ\r\nПРОЛИВ ШОКАЛЬСКОГО И ПРОЛИВ БОРИСА ВИЛЬКИЦКОГО",
+    "msg_id": "PRIP WEST 192/25",
+    "year": 2025,
+    "cancellations": [
+      "THIS MSG 021128 UTC OCT 25"
+    ],
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "1.АЙСБЕРГИ 291128 СЕНТ В \nА. 77-44.2С 104-01.4В\nБ. 77-50.4С 103-23.7В\nВ. 77-51.9С 103-18.4В\nГ. 77-56.0С 104-16.0В \nД. 77-56.7С 104-08.7В \nЕ. 77-56.2С 103-56.7В\n2.ОТМ ЭТОТ НР 021128 ОКТ= \nCOASTAL WARNING WEST 192/25 KARA AND LAPTEV SEA.\nPROLIV SHOKALSKOGO AND PROLIV BORISA VIL’KITSKOGO. CHART RUS 11136.\n1.ICEBERGS AT 291128 UTC SEP IN: \nA. 77-44.2N 104-01.4E.\nB. 77-50.4N 103-23.7E. \nC. 77-51.9N 103-18.4E.\nD. 77-56.0N 104-16.0E. \nE. 77-56.7N 104-08.7E. \nF. 77-56.2N 103-56.7E.\n2.CANCEL THIS MSG 021128 UTC OCT 25.= \nNNNN",
+    "cancel_date": null,
+    "valid_from": "2025-01-01T00:00:00+00:00",
+    "valid_until": "2025-10-02T11:28:00+00:00",
+    "summary": null
+  }
+}

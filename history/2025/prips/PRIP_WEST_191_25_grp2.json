@@ -1,1 +1,58 @@
-{"type": "Feature", "id": "PRIP WEST 191/25#grp2", "geometry": {"type": "LineString", "coordinates": [[116.75, 77.41833333333334], [116.695, 77.35166666666667]]}, "properties": {"parent_id": "PRIP WEST 191/25", "group_index": 2, "dtg": null, "raw_dtg": "ПРИП ЗАПАД 191/25 КАРТА 11137\r\nМОРЕ ЛАПТЕВЫХ", "year": 2025, "hazard_type": "ice and icebergs", "body": "1. АЙСБЕРГИ 280945 СЕНТ В\nА. 77-38.8С 106-52.6В\nБ. 77-25.9С 117-00.4В\nВ. 77-25.1С 116-45.0В\nГ. 77-21.1С 116-41.7В\n2. ОТМ ЭТОТ НР 010945 ОКТ=\n\nCOASTAL WARNING WEST 191/25\nLAPTEV SEA.\nCHART RUS 11137.\n1. ICEBERGS AT 280945 UTC SEP IN:\nA. 77-38.8N 106-52.6E.\nB. 77-25.9N 117-00.4E.\nC. 77-25.1N 116-45.0E.\nD. 77-21.1N 116-41.7E.\n2. CANCEL THIS MSG 010945 UTC OCT 25.=\nNNNN", "cancel_date": null, "valid_from": "2025-09-30T00:00:00+00:00", "valid_until": "2025-10-04T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP WEST 191/25",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        106.87666666666667,
+        77.64666666666666
+      ],
+      [
+        117.00666666666666,
+        77.43166666666667
+      ],
+      [
+        116.75,
+        77.41833333333334
+      ],
+      [
+        116.695,
+        77.35166666666667
+      ],
+      [
+        106.87666666666667,
+        77.64666666666666
+      ],
+      [
+        117.00666666666666,
+        77.43166666666667
+      ],
+      [
+        116.75,
+        77.41833333333334
+      ],
+      [
+        116.695,
+        77.35166666666667
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": null,
+    "raw_dtg": "ПРИП ЗАПАД 191/25 КАРТА 11137\r\nМОРЕ ЛАПТЕВЫХ",
+    "msg_id": "PRIP WEST 191/25",
+    "year": 2025,
+    "cancellations": [
+      "THIS MSG 010945 UTC OCT 25"
+    ],
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "1. АЙСБЕРГИ 280945 СЕНТ В\nА. 77-38.8С 106-52.6В\nБ. 77-25.9С 117-00.4В\nВ. 77-25.1С 116-45.0В\nГ. 77-21.1С 116-41.7В\n2. ОТМ ЭТОТ НР 010945 ОКТ=\nCOASTAL WARNING WEST 191/25\nLAPTEV SEA.\nCHART RUS 11137.\n1. ICEBERGS AT 280945 UTC SEP IN:\nA. 77-38.8N 106-52.6E.\nB. 77-25.9N 117-00.4E.\nC. 77-25.1N 116-45.0E.\nD. 77-21.1N 116-41.7E.\n2. CANCEL THIS MSG 010945 UTC OCT 25.=\nNNNN",
+    "cancel_date": null,
+    "valid_from": "2025-01-01T00:00:00+00:00",
+    "valid_until": "2025-10-01T09:45:00+00:00",
+    "summary": null
+  }
+}

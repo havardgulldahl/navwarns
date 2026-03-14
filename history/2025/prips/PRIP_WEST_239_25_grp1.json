@@ -1,1 +1,58 @@
-{"type": "Feature", "id": "PRIP WEST 239/25#grp1", "geometry": {"type": "LineString", "coordinates": [[105.76333333333334, 77.93166666666667], [105.75833333333334, 77.88666666666667]]}, "properties": {"parent_id": "PRIP WEST 239/25", "group_index": 1, "dtg": "2025-11-11T01:30:01.329942", "raw_dtg": "ПРИП ЗАПАД 239/25 КАРТА 12334\r\nМОРЕ ЛАПТЕВЫХ", "year": 2025, "hazard_type": "ice and icebergs", "body": "1. АЙСБЕРГИ 100800 НОЯБ\nА. 77-55.9С 105-45.8В\nБ. 77-53.2С 105-45.5В\nВ. 77-53.4С 105-45.2В\nГ. 77-51.8С 105-33.3В\n2. ОТМ ЭТОТ НР 130800 НОЯБ=\n\nCOASTAL WARNING WEST 239/25\nLAPTEV SEA.\nCHART RUS 12334.\n1. ICEBERGS AT 100800 UTC NOV IN:\nA. 77-55.9N 105-45.8E.\nB. 77-53.2N 105-45.5E.\nC. 77-53.4N 105-45.2E.\nD. 77-51.8N 105-33.3E.\n2. CANCEL THIS MSG 130800 UTC NOV 25.=\nNNNN", "cancel_date": null, "valid_from": "2025-11-11T00:00:00+00:00", "valid_until": "2025-11-17T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP WEST 239/25",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        105.76333333333334,
+        77.93166666666667
+      ],
+      [
+        105.75833333333334,
+        77.88666666666667
+      ],
+      [
+        105.75333333333333,
+        77.89
+      ],
+      [
+        105.555,
+        77.86333333333333
+      ],
+      [
+        105.76333333333334,
+        77.93166666666667
+      ],
+      [
+        105.75833333333334,
+        77.88666666666667
+      ],
+      [
+        105.75333333333333,
+        77.89
+      ],
+      [
+        105.555,
+        77.86333333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2025-11-11T01:30:01.329942",
+    "raw_dtg": "ПРИП ЗАПАД 239/25 КАРТА 12334\r\nМОРЕ ЛАПТЕВЫХ",
+    "msg_id": "PRIP WEST 239/25",
+    "year": 2025,
+    "cancellations": [
+      "THIS MSG 130800 UTC NOV 25"
+    ],
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "1. АЙСБЕРГИ 100800 НОЯБ\nА. 77-55.9С 105-45.8В\nБ. 77-53.2С 105-45.5В\nВ. 77-53.4С 105-45.2В\nГ. 77-51.8С 105-33.3В\n2. ОТМ ЭТОТ НР 130800 НОЯБ=\nCOASTAL WARNING WEST 239/25\nLAPTEV SEA.\nCHART RUS 12334.\n1. ICEBERGS AT 100800 UTC NOV IN:\nA. 77-55.9N 105-45.8E.\nB. 77-53.2N 105-45.5E.\nC. 77-53.4N 105-45.2E.\nD. 77-51.8N 105-33.3E.\n2. CANCEL THIS MSG 130800 UTC NOV 25.=\nNNNN",
+    "cancel_date": null,
+    "valid_from": "2025-11-11T01:30:01.329942+00:00",
+    "valid_until": "2025-11-13T08:00:00+00:00",
+    "summary": null
+  }
+}

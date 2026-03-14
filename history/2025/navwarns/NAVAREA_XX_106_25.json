@@ -1,1 +1,48 @@
-{"type": "Feature", "id": "NAVAREA XX 106/25", "geometry": {"type": "Polygon", "coordinates": [[[35.31666666666667, 69.66666666666667], [37.041666666666664, 69.66666666666667], [37.041666666666664, 69.35833333333333], [35.31666666666667, 69.35833333333333], [35.31666666666667, 69.66666666666667]]]}, "properties": {"dtg": null, "raw_dtg": "NAVAREA XX 106/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-40.0N 035-19.0E, 69-40.0N 037-02.5E,69-21.5N 037-02.5E, 69-21.5N 035-19.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN", "msg_id": "NAVAREA XX 106/25", "year": 2025, "cancellations": ["THIS MESSAGE 161800 UTC SEP 25"], "hazard_type": "hazardous operations", "geometry_kind": "polygon", "radius_nm": null, "body": "NAVAREA XX 106/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-40.0N 035-19.0E, 69-40.0N 037-02.5E,69-21.5N 037-02.5E, 69-21.5N 035-19.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN", "cancel_date": null, "valid_from": "2025-09-18T00:00:00+00:00", "valid_until": "2025-09-21T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "NAVAREA XX 106/25",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.31666666666667,
+          69.66666666666667
+        ],
+        [
+          37.041666666666664,
+          69.66666666666667
+        ],
+        [
+          37.041666666666664,
+          69.35833333333333
+        ],
+        [
+          35.31666666666667,
+          69.35833333333333
+        ],
+        [
+          35.31666666666667,
+          69.66666666666667
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": null,
+    "raw_dtg": "",
+    "msg_id": "NAVAREA XX 106/25",
+    "year": 2025,
+    "cancellations": [
+      "THIS MESSAGE 161800 UTC SEP 25"
+    ],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NAVAREA XX 106/25BARENTS SEA.CHART RUS 10100.1. ARTILLERY FIRINGS 0900 TO 2000 UTC 12 SEPAND 0300 TO 1700 UTC 16 SEP NAVIGATIONPROHIBITED IN TERRITORIAL WATERSDANGEROUS OUTSIDE IN AREA BOUNDED BY:69-40.0N 035-19.0E, 69-40.0N 037-02.5E,69-21.5N 037-02.5E, 69-21.5N 035-19.0E.2. CANCEL THIS MESSAGE 161800 UTC SEP 25.=NNNN",
+    "cancel_date": null,
+    "valid_from": "2025-01-01T00:00:00+00:00",
+    "valid_until": "2025-09-16T18:00:00+00:00",
+    "summary": null
+  }
+}

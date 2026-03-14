@@ -1,1 +1,58 @@
-{"type": "Feature", "id": "PRIP WEST 188/25#grp1", "geometry": {"type": "LineString", "coordinates": [[97.78666666666666, 77.05833333333334], [96.235, 77.39666666666666]]}, "properties": {"parent_id": "PRIP WEST 188/25", "group_index": 1, "dtg": null, "raw_dtg": "ПРИП ЗАПАД 188/25 КАРТЫ 11136 11137\r\nКАРСКОЕ МОРЕ И МОРЕ ЛАПТЕВЫХ\r\nПРОЛИВ БОРИСА ВИЛЬКИЦКОГО", "year": 2025, "hazard_type": "ice and icebergs", "body": "1. АЙСБЕРГИ 270815 СЕНТ В\nА. 77-03.5С 097-47.2В\nБ. 77-23.8С 096-14.1В\nВ. 77-43.9С 098-26.2В\nГ. 76-52.1С 119-26.9В\n2. ОТМ ЭТОТ НР 300815 СЕНТ=\n\nCOASTAL WARNING WEST 188/25\nKARA AND LAPTEV SEA\nPROLIV BORISA VIL’KITSKOGO.\nCHARTS RUS 11136, 11137.\n1. ICEBERGS AT 270815 UTC SEP IN:\nA. 77-03.5N 097-47.2E.\nB. 77-23.8N 096-14.1E.\nC. 77-43.9N 098-26.2E.\nD. 76-52.1N 119-26.9E.\n2. CANCEL THIS MSG 300815 UTC SEP 25.=\nNNNN", "cancel_date": null, "valid_from": "2025-09-30T00:00:00+00:00", "valid_until": "2025-10-04T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP WEST 188/25",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        97.78666666666666,
+        77.05833333333334
+      ],
+      [
+        96.235,
+        77.39666666666666
+      ],
+      [
+        98.43666666666667,
+        77.73166666666667
+      ],
+      [
+        119.44833333333334,
+        76.86833333333334
+      ],
+      [
+        97.78666666666666,
+        77.05833333333334
+      ],
+      [
+        96.235,
+        77.39666666666666
+      ],
+      [
+        98.43666666666667,
+        77.73166666666667
+      ],
+      [
+        119.44833333333334,
+        76.86833333333334
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": null,
+    "raw_dtg": "ПРИП ЗАПАД 188/25 КАРТЫ 11136 11137\r\nКАРСКОЕ МОРЕ И МОРЕ ЛАПТЕВЫХ\r\nПРОЛИВ БОРИСА ВИЛЬКИЦКОГО",
+    "msg_id": "PRIP WEST 188/25",
+    "year": 2025,
+    "cancellations": [
+      "THIS MSG 300815 UTC SEP 25"
+    ],
+    "hazard_type": "ice and icebergs",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "1. АЙСБЕРГИ 270815 СЕНТ В\nА. 77-03.5С 097-47.2В\nБ. 77-23.8С 096-14.1В\nВ. 77-43.9С 098-26.2В\nГ. 76-52.1С 119-26.9В\n2. ОТМ ЭТОТ НР 300815 СЕНТ=\nCOASTAL WARNING WEST 188/25\nKARA AND LAPTEV SEA\nPROLIV BORISA VIL’KITSKOGO.\nCHARTS RUS 11136, 11137.\n1. ICEBERGS AT 270815 UTC SEP IN:\nA. 77-03.5N 097-47.2E.\nB. 77-23.8N 096-14.1E.\nC. 77-43.9N 098-26.2E.\nD. 76-52.1N 119-26.9E.\n2. CANCEL THIS MSG 300815 UTC SEP 25.=\nNNNN",
+    "cancel_date": null,
+    "valid_from": "2025-01-01T00:00:00+00:00",
+    "valid_until": "2025-09-30T08:15:00+00:00",
+    "summary": null
+  }
+}

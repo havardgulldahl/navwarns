@@ -1,1 +1,34 @@
-{"type": "Feature", "id": "PRIP MURMANSK 197/25", "geometry": {"type": "LineString", "coordinates": [[45.07666666666667, 67.53], [45.483333333333334, 67.18333333333334]]}, "properties": {"dtg": null, "raw_dtg": "ПРИП МУРМАНСК 197/25 КАРТА 12012 ЧЕШСКАЯ ГУБА", "msg_id": "PRIP MURMANSK 197/25", "year": 2025, "cancellations": [], "hazard_type": "hazardous operations", "geometry_kind": "polygon", "radius_nm": null, "body": "ПЕРЕДАВАТЬ 9 СУТОК\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 10 ПО 13 ИЮЛЬ\n0500 ДО 1900 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n67-31.8С 045-04.6В\n67-11.0С 045-29.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-31.8С 045-04.6В\n2. ОТМ ЭТОТ НР 132000 ИЮЛЬ=\n041000 МСК  ГС-", "cancel_date": null, "valid_from": "2025-09-23T00:00:00+00:00", "valid_until": "2025-11-21T23:59:59+00:00", "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP MURMANSK 197/25",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        45.07666666666667,
+        67.53
+      ],
+      [
+        45.483333333333334,
+        67.18333333333334
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": null,
+    "raw_dtg": "ПРИП МУРМАНСК 197/25 КАРТА 12012 ЧЕШСКАЯ ГУБА",
+    "msg_id": "PRIP MURMANSK 197/25",
+    "year": 2025,
+    "cancellations": [
+      "THIS MSG 132000 UTC JUL 25"
+    ],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "ПЕРЕДАВАТЬ 9 СУТОК\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 10 ПО 13 ИЮЛЬ\n0500 ДО 1900 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n67-31.8С 045-04.6В\n67-11.0С 045-29.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-31.8С 045-04.6В\n2. ОТМ ЭТОТ НР 132000 ИЮЛЬ=\n041000 МСК  ГС-",
+    "cancel_date": null,
+    "valid_from": "2025-01-01T00:00:00+00:00",
+    "valid_until": "2025-07-13T20:00:00+00:00",
+    "summary": null
+  }
+}
