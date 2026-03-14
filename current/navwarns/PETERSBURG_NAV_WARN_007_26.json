@@ -1,0 +1,74 @@
+{
+  "type": "Feature",
+  "id": "PETERSBURG NAV WARN 007/26",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        26.990000000000002,
+        60.083333333333336
+      ],
+      [
+        27.06833333333333,
+        60.075
+      ],
+      [
+        27.110000000000003,
+        60.03
+      ],
+      [
+        27.066666666666666,
+        60.015
+      ],
+      [
+        27.03666666666667,
+        60.015
+      ],
+      [
+        27.03666666666667,
+        60.03333333333333
+      ],
+      [
+        27.013333333333332,
+        60.06166666666666
+      ],
+      [
+        27.003333333333334,
+        60.065
+      ],
+      [
+        27.0,
+        60.068333333333335
+      ],
+      [
+        27.006666666666668,
+        60.07166666666667
+      ],
+      [
+        27.005,
+        60.07333333333334
+      ],
+      [
+        26.990000000000002,
+        60.07833333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-01-17T08:27:00",
+    "raw_dtg": "170827Z JAN 26",
+    "msg_id": "PETERSBURG NAV WARN 007/26",
+    "year": 2026,
+    "cancellations": [
+      "006/26"
+    ],
+    "hazard_type": "general",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "[Gulf of Finland] PETERSBURG NAV WARN 007/26\nGULF OF FINLAND. EAST OF GOGLAND ISLAND.\n1. AREA TEMPORARILY DANGEROUS FOR NAVIGATION OF SHIPS\nTHRU 152100 UTC APR EXCEPT FOR THE SHIPS COMING FROM FOREIGN\nPORTS TO THE RUSSIAN FEDERATION SEAPORTS IN THE GULF OF FINLAND\n60-05-00N 026-59-24E 60-04-30N 027-04-06E 60-01-48N 027-06-36E\n60-00-54N 027-04-00E 60-00-54N 027-02-12E 60-02-00N 027-02-12E\n60-03-42N 027-00-48E 60-03-54N 027-00-12E 60-04-06N 027-00-00E\n60-04-18N 027-00-24E 60-04-24N 027-00-18E 60-04-42N 026-59-24E\n2. CANCEL THIS MESSAGE 152200 UTC APR\n3. CANCEL PETERSBURG NAV WARN 006/26",
+    "cancel_date": null,
+    "valid_from": "2026-01-17T08:27:00+00:00",
+    "valid_until": null,
+    "summary": null
+  }
+}
