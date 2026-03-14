@@ -18,6 +18,7 @@ jobs:
       - run: python scripts/scraper_rosatom.py
       - run: python scripts/scraper_prips.py
       - run: python scripts/scraper_navareaxix.py
+      - run: python scripts/scraper_navtex_sweden.py
       - name: List files
         run: ls -lR current
       - name: Commit and push
@@ -31,6 +32,7 @@ jobs:
           cp current/.scrape_timestamp_NAVAREAXX docs/scrape_timestamp_NAVAREAXX.txt
           cp current/.scrape_timestamp_PRIP docs/scrape_timestamp_PRIP.txt
           cp current/.scrape_timestamp_NAVAREAXIX docs/scrape_timestamp_NAVAREAXIX.txt
+          cp current/.scrape_timestamp_NAVTEX_SE docs/scrape_timestamp_NAVTEX_SE.txt
           git add current/.scrape_timestamp* docs/scrape_timestamp*
           git commit -m "Update NavWARNs" || echo "No changes"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
