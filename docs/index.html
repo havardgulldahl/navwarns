@@ -93,8 +93,10 @@
         }
 
         .year-seg {
-            flex: 1;
+            flex: 1 0 0;
             text-align: center;
+            min-width: 0;
+            overflow: hidden;
             font-size: 9px;
             line-height: 18px;
             height: 18px;
@@ -752,21 +754,47 @@
         function buildYearBar() {
             const bar = document.getElementById('year-bar');
             const manifestYears = new Set(manifest.years.map(y => y.year));
-            const minYear = manifest.years.length ? manifest.years[0].year : 2010;
-            const maxYear = Math.max(currentYear, manifest.years.length ? manifest.years[manifest.years.length - 1].year : currentYear);
+            const minYear = TIMELINE_START.getUTCFullYear();
+            const maxYear = TIMELINE_END.getUTCFullYear();
             bar.innerHTML = '';
 
+            const totalMs = TIMELINE_END.getTime() - TIMELINE_START.getTime();
+
             for (let y = minYear; y <= maxYear; y++) {
+                // Proportional width based on how much of the timeline this year covers
+                const yearStart = new Date(Date.UTC(y, 0, 1));
+                const yearEnd = new Date(Date.UTC(y + 1, 0, 1));
+                const start = Math.max(yearStart.getTime(), TIMELINE_START.getTime());
+                const end = Math.min(yearEnd.getTime(), TIMELINE_END.getTime());
+                const fraction = (end - start) / totalMs;
+
                 const seg = document.createElement('span');
                 seg.className = 'year-seg' + (manifestYears.has(y) ? '' : ' unavailable');
                 seg.textContent = String(y).slice(2); // show "10", "11", ..., "25"
                 seg.dataset.year = y;
+                seg.style.flex = fraction + ' 0 0';
                 if (manifestYears.has(y)) {
                     seg.addEventListener('click', () => jumpToYear(y));
                 }
                 bar.appendChild(seg);
             }
             updateYearBar();
+            // Align year bar with slider after DOM update
+            requestAnimationFrame(alignYearBar);
+        }
+
+        function alignYearBar() {
+            const slider = document.getElementById('date-slider');
+            const bar = document.getElementById('year-bar');
+            const controls = document.getElementById('timeline-controls');
+            if (!slider || !bar || !controls) return;
+
+            const controlsRect = controls.getBoundingClientRect();
+            const sliderRect = slider.getBoundingClientRect();
+            const thumbHalf = 9; // half of 18px thumb width
+
+            bar.style.marginLeft = (sliderRect.left - controlsRect.left + thumbHalf) + 'px';
+            bar.style.marginRight = (controlsRect.right - sliderRect.right + thumbHalf) + 'px';
         }
 
         function updateYearBar() {
@@ -956,6 +984,7 @@
 
             buildYearBar();
             addLegend();
+            window.addEventListener('resize', alignYearBar);
 
             // Initial render: show current data at today
             updateMapDisplay();
