@@ -504,6 +504,13 @@ class NavwarnMessage:
     def from_text(cls, dtg_str: str, body: str) -> "NavwarnMessage":
         """Factory method: build a NavwarnMessage from raw DTG + message body."""
         dtg = parse_dtg(dtg_str)
+        # Sanitize raw_dtg: only keep it if it actually looks like a DTG.
+        # Otherwise try to extract one from the body text.
+        if DTG_PATTERN.fullmatch(dtg_str.strip()):
+            raw_dtg = dtg_str
+        else:
+            m = DTG_PATTERN.search(dtg_str) or DTG_PATTERN.search(body)
+            raw_dtg = m.group(1) if m else dtg_str if len(dtg_str) <= 30 else ""
         msg_id = parse_msg_id(body)
         coords = parse_coordinates(body)
         cancels = parse_cancellations(body)
@@ -513,7 +520,7 @@ class NavwarnMessage:
         year = extract_year(msg_id, dtg)
         return cls(
             dtg=dtg,
-            raw_dtg=dtg_str,
+            raw_dtg=raw_dtg,
             msg_id=msg_id,
             coordinates=coords,
             cancellations=cancels,
@@ -574,11 +581,14 @@ def parse_dtg(dtg_str: str) -> Optional[datetime]:
             return datetime(year, month, day, hour, minute)
         except ValueError:
             pass
-    # Fallback
-    try:
-        return dtparser.parse(dtg_str, dayfirst=True, yearfirst=False)
-    except Exception:
-        return None
+    # Fallback — only try dateutil on short, DTG-like strings to avoid
+    # extracting spurious dates from arbitrary message text.
+    if len(dtg_str.strip()) <= 30:
+        try:
+            return dtparser.parse(dtg_str, dayfirst=True, yearfirst=False)
+        except Exception:
+            return None
+    return None
 
 
 def parse_msg_id(body: str) -> Optional[str]:
@@ -1131,11 +1141,14 @@ def parse_navwarns(text: str) -> List[NavwarnMessage]:
     # Fallback: If no DTG-triggered messages were found but text is non-empty,
     # treat the entire blob as a single message (NAVAREA style without explicit DTG line)
     if not messages and text.strip():
-        first_line = lines[0].strip() if lines else ""
         body = "\n".join(
             lines
         ).strip()  # include full text so msg id regex can hit first line
-        msg = NavwarnMessage.from_text(first_line, body)
+        # Try to extract an embedded DTG from the body text rather than
+        # blindly using the first line (which is usually a message header).
+        dtg_match = DTG_PATTERN.search(body)
+        dtg_str = dtg_match.group(1) if dtg_match else ""
+        msg = NavwarnMessage.from_text(dtg_str, body)
         messages.append(msg)
 
     # If multiple messages, normalize msg_id by stripping trailing parentheses group

@@ -147,8 +147,6 @@ def regenerate_navwarn_file(
     # Preserve the original dtg if the parser could not derive one
     if msg.dtg is None:
         msg.dtg = _parse_iso_dtg(original_dtg_iso)
-    if msg.dtg is None and not msg.raw_dtg:
-        msg.raw_dtg = raw_dtg
 
     # Preserve year from original if parser couldn't derive it
     if msg.year is None and props.get("year"):
@@ -274,8 +272,6 @@ def regenerate_prip_file(
     # Preserve the original dtg if the parser could not derive one
     if msg.dtg is None:
         msg.dtg = _parse_iso_dtg(original_dtg_iso)
-    if msg.dtg is None and not msg.raw_dtg:
-        msg.raw_dtg = raw_dtg
 
     # Preserve year from original if parser couldn't derive it
     if msg.year is None and props.get("year"):
