@@ -25,7 +25,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            height: 94px;
+            height: max-content;
             background: linear-gradient(to top, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.95));
             box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
             padding: 8px 20px;
@@ -43,6 +43,7 @@
             font-weight: 600;
             color: #333;
             white-space: nowrap;
+            font-family: system-ui, sans-serif;
         }
 
         #date-slider {
@@ -53,6 +54,9 @@
             outline: none;
             -webkit-appearance: none;
             appearance: none;
+            font-family: system-ui, sans-serif;
+            font-size: 12px;
+            color: #222;
         }
 
         #date-slider::-webkit-slider-thumb {
@@ -84,6 +88,7 @@
             text-align: right;
             font-weight: 500;
             white-space: nowrap;
+            font-family: system-ui, sans-serif;
         }
 
         #year-bar {
@@ -106,6 +111,7 @@
             transition: background 0.15s;
             user-select: none;
             color: #999;
+            font-family: system-ui, sans-serif;
         }
 
         .year-seg:hover {
@@ -362,7 +368,7 @@
 
         new ArcticSDILayer('', {
             tileSize: 256,
-            attribution: '<a href="https://arctic-sdi.org/">Arctic SDI</a>'
+            attribution: '<a href="https://arctic-sdi.org/">Map by Arctic SDI</a>'
         }).addTo(map);
 
         // ============ Timeline Config ============
@@ -964,7 +970,8 @@
                             const col = getCategoryColor(c);
                             return `<div class="item"><span class="swatch" style="background:${col}"></span><span>${c}</span></div>`;
                         }).join('') +
-                        '<div style="margin-top:6px;font-size:10px;"><a href="navwarns.geojson" download target="_blank">Download current GeoJSON</a></div>';
+                        '<a href="#" onclick="downloadCurrentGeoJSON()">Download current GeoJSON</a>';
+
                     return div;
                 };
                 legend.addTo(map);
@@ -997,8 +1004,89 @@
             });
         }
 
+        function downloadCurrentGeoJSON() {
+            const features = [];
+
+            // Extract all features currently rendered in activeFeatureGroup
+            activeFeatureGroup.eachLayer(geoLayer => {
+                if (geoLayer.eachLayer) {
+                    // It's a layer group containing multiple layers
+                    geoLayer.eachLayer(subLayer => {
+                        if (subLayer.feature) {
+                            features.push(subLayer.feature);
+                        }
+                    });
+                } else if (geoLayer.feature) {
+                    // It's a single layer with a feature
+                    features.push(geoLayer.feature);
+                }
+            });
+
+            console.log('Features from map:', features.length);
+
+            // Remove duplicates (in case MultiPoint creates extra references)
+            const uniqueFeatures = [];
+            const seen = new Set();
+
+            features.forEach(f => {
+                const id = JSON.stringify(f.properties);
+                if (!seen.has(id)) {
+                    seen.add(id);
+                    uniqueFeatures.push(f);
+                }
+            });
+
+            console.log('Unique features:', uniqueFeatures.length);
+
+            const geojson = {
+                type: 'FeatureCollection',
+                features: uniqueFeatures
+            };
+
+            const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: 'application/geo+json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+
+            const dateStr = viewDate.toISOString().slice(0, 10);
+            a.download = `navwarns-${dateStr}.geojson`;
+
+            document.body.appendChild(a);
+            a.click();
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 100);
+        }
+
         // ============ Init ============
         async function init() {
+            // Double-tap to zoom in on mobile
+            let lastTap = 0;
+            let tapTimeout = null;
+            map.getContainer().addEventListener('touchend', function (e) {
+                const now = Date.now();
+                if (now - lastTap < 400) {
+                    // Double tap detected
+                    if (tapTimeout) clearTimeout(tapTimeout);
+                    lastTap = 0;
+                    // Zoom in at tap location
+                    if (e.changedTouches && e.changedTouches.length > 0) {
+                        const touch = e.changedTouches[0];
+                        const rect = map.getContainer().getBoundingClientRect();
+                        const x = touch.clientX - rect.left;
+                        const y = touch.clientY - rect.top;
+                        const latlng = map.containerPointToLatLng([x, y]);
+                        map.setView(latlng, map.getZoom() + 1, { animate: true });
+                    } else {
+                        map.zoomIn();
+                    }
+                } else {
+                    lastTap = now;
+                    if (tapTimeout) clearTimeout(tapTimeout);
+                    tapTimeout = setTimeout(() => { lastTap = 0; }, 500);
+                }
+            });
             const [manifestData, currentResp, boundaryResp] = await Promise.all([
                 fetch('manifest.json').then(r => r.ok ? r.json() : { years: [] }).catch(() => ({ years: [] })),
                 fetch('navwarns.geojson').then(r => r.ok ? r.json() : null).catch(() => null),
