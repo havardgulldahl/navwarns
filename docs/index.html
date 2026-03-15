@@ -311,7 +311,9 @@
         <div id="timeline-controls">
             <span id="timeline-label">NavWarns as of:</span>
             <input type="range" id="date-slider" min="0" max="1" value="1" step="1">
-            <span id="date-display">Today</span>
+            <span id="date-display" style="cursor:pointer;">Today</span>
+            <input type="date" id="date-picker"
+                style="display:none;position:absolute;z-index:2000;bottom:110px;right:40px;box-shadow:0 2px 8px rgba(0,0,0,0.15);border-radius:4px;padding:4px 8px;font-size:15px;" />
             <span id="loading-indicator">Loading…</span>
         </div>
         <div id="year-bar"></div>
@@ -376,6 +378,11 @@
 
         dateSlider.max = totalDays;
         dateSlider.value = totalDays;
+
+        // Datepicker setup
+        const datePicker = document.getElementById('date-picker');
+        datePicker.min = TIMELINE_START.toISOString().slice(0, 10);
+        datePicker.max = TIMELINE_END.toISOString().slice(0, 10);
 
         // ============ Data State ============
         const manifest = { years: [] };
@@ -511,13 +518,10 @@
             for (const year of Object.keys(yearData)) {
                 features = features.concat(yearData[year]);
             }
-            // Include current data only when viewing the current year
-            // and no archive is loaded for it yet
-            if (currentData && !yearData[currentYear]) {
-                const viewingYear = viewDate.getUTCFullYear();
-                if (viewingYear >= currentYear || Object.keys(yearData).length === 0) {
-                    features = features.concat(currentData.features || []);
-                }
+            // Always include currentData when slider is at 'Today' (latest date)
+            const sliderAtToday = dateToSlider(viewDate) >= totalDays - 1;
+            if (currentData && sliderAtToday) {
+                features = features.concat(currentData.features || []);
             }
             return features;
         }
@@ -835,6 +839,9 @@
                 dateDisplay.textContent = formatDisplayDate(date);
             }
 
+            // Update datepicker value to match
+            datePicker.value = date.toISOString().slice(0, 10);
+
             const targetYear = date.getUTCFullYear();
             ensureYearLoaded(targetYear);
             updateYearBar();
@@ -851,10 +858,39 @@
                 dateDisplay.textContent = formatDisplayDate(date);
             }
 
+            // Update datepicker value to match
+            datePicker.value = date.toISOString().slice(0, 10);
+
             const targetYear = date.getUTCFullYear();
             ensureYearLoaded(targetYear);
             updateYearBar();
             updateMapDisplay();
+        });
+
+        // Show datepicker when 'Today' is clicked
+        dateDisplay.addEventListener('click', () => {
+            // Position datepicker near the display
+            const rect = dateDisplay.getBoundingClientRect();
+            datePicker.style.left = (rect.right - 160) + 'px';
+            datePicker.style.bottom = '110px';
+            datePicker.style.display = 'block';
+            datePicker.value = viewDate.toISOString().slice(0, 10);
+            datePicker.focus();
+        });
+
+        // Hide datepicker on blur
+        datePicker.addEventListener('blur', () => {
+            setTimeout(() => { datePicker.style.display = 'none'; }, 150);
+        });
+
+        // When a date is picked, move slider
+        datePicker.addEventListener('change', (e) => {
+            const val = e.target.value;
+            if (val) {
+                const picked = new Date(val + 'T12:00:00Z');
+                setViewDate(picked);
+            }
+            datePicker.style.display = 'none';
         });
 
         function jumpToYear(year) {
