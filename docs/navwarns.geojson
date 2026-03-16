@@ -821,6 +821,62 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XIX 38/26",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            20.343333333333334,
+            72.52333333333333
+          ],
+          [
+            20.121666666666666,
+            72.36666666666666
+          ],
+          [
+            7.3966666666666665,
+            65.86166666666666
+          ],
+          [
+            7.6465,
+            65.69766666666666
+          ],
+          [
+            7.2,
+            65.51666666666667
+          ],
+          [
+            7.261666666666667,
+            65.31166666666667
+          ],
+          [
+            6.873333333333333,
+            65.03166666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-15T18:30:00",
+        "raw_dtg": "151830Z MAR 26",
+        "msg_id": "NAVAREA XIX 38/26",
+        "year": 2026,
+        "cancellations": [
+          "31/26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "multipoint",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 38/26\n\n1. RIGLIST. CORRECT AT  151830 UTC MAR 26\n\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n\n\n72-31.40N 020-20.60E TRANSOCEAN ENABLER\n\n72-22.00N 020-07.30E COSL PROSPECTOR\n\n65-51.70N 007-23.80E SCARABEO 8\n\n65-41.86N 007-38.79E FLOATEL ENDURANCE\n\n65-31.00N 007-12.00E TRANSOCEAN NORGE\n\n65-18.70N 007-15.70E ISLAND INNOVATOR\n\n65-01.90N 006-52.40E TRANSOCEAN ENCOURAGE\n\n\n\nNOTES:\n\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX　31/26",
+        "cancel_date": null,
+        "valid_from": "2026-03-15T18:30:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Rig Locations Update"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 028/26",
       "geometry": {
         "type": "Point",
@@ -3261,54 +3317,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVAREA XIX 31/26",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            20.343333333333334,
-            72.52333333333333
-          ],
-          [
-            20.121666666666666,
-            72.36666666666666
-          ],
-          [
-            7.3966666666666665,
-            65.86166666666666
-          ],
-          [
-            7.2,
-            65.51666666666667
-          ],
-          [
-            6.873333333333333,
-            65.03166666666667
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-02-27T18:30:00",
-        "raw_dtg": "271830Z FEB 26",
-        "msg_id": "NAVAREA XIX 31/26",
-        "year": 2026,
-        "cancellations": [
-          "29/26"
-        ],
-        "hazard_type": "general",
-        "geometry_kind": "multipoint",
-        "radius_nm": null,
-        "body": "NAVAREA XIX 31/26\n\n\n\n1. RIGLIST. CORRECT AT  271830 UTC FEB 26\n\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n\n\n72-31.40N 020-20.60E TRANSOCEAN ENABLER\n\n72-22.00N 020-07.30E COSL PROSPECTOR\n\n65-51.70N 007-23.80E SCARABEO 8\n\n65-31.00N 007-12.00E TRANSOCEAN NORGE\n\n65-18.70N 007-15.70 ISLAND INNOVATOR\n\n65-01.90N 006-52.40E TRANSOCEAN ENCOURAGE\n\n\n\nNOTES:\n\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX　29/26",
-        "cancel_date": null,
-        "valid_from": "2026-02-27T18:30:00+00:00",
-        "valid_until": null,
-        "summary": null,
-        "category": "navigation",
-        "title": "Oil Rig Positions"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "PRIP WEST 91/25",
       "geometry": {
         "type": "MultiPoint",
@@ -5732,8 +5740,8 @@
         ]
       },
       "properties": {
-        "dtg": "2026-03-15T01:31:54.893201+00:00",
-        "raw_dtg": "150131Z MAR 26",
+        "dtg": "2026-03-16T01:32:24.256316+00:00",
+        "raw_dtg": "160132Z MAR 26",
         "msg_id": "ANDOYA_Danger_Area_Sea_Outer",
         "year": 2026,
         "cancellations": [],
@@ -5742,7 +5750,7 @@
         "radius_nm": null,
         "body": "Name: Danger Area Sea Outer Description: The danger area is active 19.03-29.03.2026 with launch window 21:00-22:00 local time. The danger area is indicated as yellow prior to activation. The danger area  is indicated red when it is less than 4-6 hours until it activates and the launch window opens. The danger area is deactivated and goes back to yellow as soon as the activity is finished. Should there be a need for transit or use of the area, this can be coordinated with Andøya Space. The operations center is staffed during the launch window 09:30-23:00 local time. Contact us on phone  73 60 70 64/ 94 07 59 44, or on maritime channel 16 / 14 with call sign \"Andøya Space\". Outside the launch window, inquiries can be sent to mso@andoyaspace.no, call phone 94 07 59 44",
         "cancel_date": null,
-        "valid_from": "2026-03-15T01:31:54.893201+00:00",
+        "valid_from": "2026-03-16T01:32:24.256316+00:00",
         "valid_until": null,
         "summary": null,
         "source": "BarentsWatch/Andoya",
@@ -6307,8 +6315,8 @@
         ]
       },
       "properties": {
-        "dtg": "2026-03-15T01:31:54.892632+00:00",
-        "raw_dtg": "150131Z MAR 26",
+        "dtg": "2026-03-16T01:32:24.255645+00:00",
+        "raw_dtg": "160132Z MAR 26",
         "msg_id": "ANDOYA_Danger_Area_Sea_Inner",
         "year": 2026,
         "cancellations": [],
@@ -6317,7 +6325,7 @@
         "radius_nm": null,
         "body": "Name: Danger Area Sea Inner Description: The danger area is active 19.03-29.03.2026 with launch window 21:00-22:00 local time. The danger area is indicated as yellow prior to activation. The danger area  is indicated red when it is less than 4-6 hours until it activates and the launch window opens. The danger area is deactivated and goes back to yellow as soon as the activity is finished. Should there be a need for transit or use of the area, this can be coordinated with Andøya Space. The operations center is staffed during the launch window 09:30-23:00 local time. Contact us on phone  73 60 70 64/ 94 07 59 44, or on maritime channel 16 / 14 with call sign \"Andøya Space\". Outside the launch window, inquiries can be sent to mso@andoyaspace.no, call phone 94 07 59 44",
         "cancel_date": null,
-        "valid_from": "2026-03-15T01:31:54.892632+00:00",
+        "valid_from": "2026-03-16T01:32:24.255645+00:00",
         "valid_until": null,
         "summary": null,
         "source": "BarentsWatch/Andoya",
