@@ -3225,6 +3225,66 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 98/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.71666666666667,
+            70.21666666666667
+          ],
+          [
+            47.2,
+            70.03333333333333
+          ],
+          [
+            45.833333333333336,
+            68.81666666666666
+          ],
+          [
+            44.45,
+            69.0
+          ],
+          [
+            61.916666666666664,
+            77.86666666666666
+          ],
+          [
+            63.65,
+            77.61666666666666
+          ],
+          [
+            60.5,
+            76.65
+          ],
+          [
+            58.86666666666667,
+            76.93333333333334
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-17T01:31:59.619828+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 98/26 КАРТЫ 10100 10102\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 98/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 282200 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "ПЕРЕДАВАТЬ 12 СУТОК\nПРИП МУРМАНСК 98 КАРТЫ 10100 10102\nБАРЕНЦЕВО МОРЕ\n1. ПУСКИ РАКЕТНЫЕ 19 ПО 28 МАРТ 1100 ДО 2100\nРАЙОНАХ ОПАСНЫХ ДЛЯ ПЛАВАНИЯ\nА. 70-13.0С 045-43.0В\n   70-02.0С 047-12.0В\n   68-49.0С 045-50.0В\n   69-00.0С 044-27.0В\nБ. 77-52.0С 061-55.0В\n   77-37.0С 063-39.0В\n   76-39.0С 060-30.0В\n   76-56.0С 058-52.0В\n2. ОТМ ЭТОТ НР 282200 МАРТ=\n161000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-03-17T01:31:59.619828+00:00",
+        "valid_until": "2026-03-28T22:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Test Barents Sea"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 6/26",
       "geometry": {
         "type": "LineString",
@@ -3471,32 +3531,32 @@
     },
     {
       "type": "Feature",
-      "id": "PRIP WEST 4/26",
+      "id": "LITHUANIAN NAV WARN 017/26",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          70.26333333333334,
-          76.75833333333334
+          20.85,
+          55.49333333333333
         ]
       },
       "properties": {
-        "dtg": "2026-03-14T01:31:34.738231+00:00",
-        "raw_dtg": "ПРИП ЗАПАД 4/26  КАРТА 11124 КАРСКОЕ МОРЕ",
-        "msg_id": "PRIP WEST 4/26",
+        "dtg": "2026-03-16T07:31:00",
+        "raw_dtg": "160731Z MAR 26",
+        "msg_id": "LITHUANIAN NAV WARN 017/26",
         "year": 2026,
         "cancellations": [
-          "THIS MSG 120800 UTC MAR 26"
+          "THIS MSG 191500 UTC MAR 26"
         ],
-        "hazard_type": "ice and icebergs",
+        "hazard_type": "general",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "1. АЙСБЕРГ 090800 МАРТ В\n76-45.5С 070-15.8В\n2. ОТМ ЭТОТ НР 120800 МАРТ =\nCOASTAL WARNING WEST 4/26\nKARA SEA.\nCHART RUS 11124.\n1. ICEBERG AT 090800 UTC MAR IN:\n76-45.5N 070-15.8E.\n2. CANCEL THIS MSG 120800 UTC MAR 26.=\nNNNN",
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 017/26\nMILITARY EXERCISES 1100–1400 UTC DAILY\n18 AND 19 MAR IN AREA EYD-18, CENTERED\nIN 55-29.6N 020-51.0E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 191500 UTC MAR 26.",
         "cancel_date": null,
-        "valid_from": "2026-03-14T01:31:34.738231+00:00",
-        "valid_until": "2026-03-12T08:00:00+00:00",
+        "valid_from": "2026-03-16T07:31:00+00:00",
+        "valid_until": "2026-03-19T15:00:00+00:00",
         "summary": null,
-        "category": "navigation",
-        "title": "Iceberg Location Alert"
+        "category": "military",
+        "title": "Military Exercises Baltic"
       }
     },
     {
@@ -5740,8 +5800,8 @@
         ]
       },
       "properties": {
-        "dtg": "2026-03-16T01:32:24.256316+00:00",
-        "raw_dtg": "160132Z MAR 26",
+        "dtg": "2026-03-17T01:32:02.413158+00:00",
+        "raw_dtg": "170132Z MAR 26",
         "msg_id": "ANDOYA_Danger_Area_Sea_Outer",
         "year": 2026,
         "cancellations": [],
@@ -5750,7 +5810,7 @@
         "radius_nm": null,
         "body": "Name: Danger Area Sea Outer Description: The danger area is active 19.03-29.03.2026 with launch window 21:00-22:00 local time. The danger area is indicated as yellow prior to activation. The danger area  is indicated red when it is less than 4-6 hours until it activates and the launch window opens. The danger area is deactivated and goes back to yellow as soon as the activity is finished. Should there be a need for transit or use of the area, this can be coordinated with Andøya Space. The operations center is staffed during the launch window 09:30-23:00 local time. Contact us on phone  73 60 70 64/ 94 07 59 44, or on maritime channel 16 / 14 with call sign \"Andøya Space\". Outside the launch window, inquiries can be sent to mso@andoyaspace.no, call phone 94 07 59 44",
         "cancel_date": null,
-        "valid_from": "2026-03-16T01:32:24.256316+00:00",
+        "valid_from": "2026-03-17T01:32:02.413158+00:00",
         "valid_until": null,
         "summary": null,
         "source": "BarentsWatch/Andoya",
@@ -6315,8 +6375,8 @@
         ]
       },
       "properties": {
-        "dtg": "2026-03-16T01:32:24.255645+00:00",
-        "raw_dtg": "160132Z MAR 26",
+        "dtg": "2026-03-17T01:32:02.412517+00:00",
+        "raw_dtg": "170132Z MAR 26",
         "msg_id": "ANDOYA_Danger_Area_Sea_Inner",
         "year": 2026,
         "cancellations": [],
@@ -6325,7 +6385,7 @@
         "radius_nm": null,
         "body": "Name: Danger Area Sea Inner Description: The danger area is active 19.03-29.03.2026 with launch window 21:00-22:00 local time. The danger area is indicated as yellow prior to activation. The danger area  is indicated red when it is less than 4-6 hours until it activates and the launch window opens. The danger area is deactivated and goes back to yellow as soon as the activity is finished. Should there be a need for transit or use of the area, this can be coordinated with Andøya Space. The operations center is staffed during the launch window 09:30-23:00 local time. Contact us on phone  73 60 70 64/ 94 07 59 44, or on maritime channel 16 / 14 with call sign \"Andøya Space\". Outside the launch window, inquiries can be sent to mso@andoyaspace.no, call phone 94 07 59 44",
         "cancel_date": null,
-        "valid_from": "2026-03-16T01:32:24.255645+00:00",
+        "valid_from": "2026-03-17T01:32:02.412517+00:00",
         "valid_until": null,
         "summary": null,
         "source": "BarentsWatch/Andoya",
