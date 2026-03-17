@@ -160,7 +160,7 @@ def extract_navwarns_from_html(html: bytes) -> List[str]:
     navwarns = []
     # Example: assuming navwarns are in <p class="otherclass generic-class news-item">...</p>
     for div in soup.find_all("p", class_=re.compile(r"\bnews-item\b")):
-        text = div.get_text(strip=True)
+        text = div.get_text(separator=" ", strip=True)
         # Only include non-empty navwarns; skip empty strings
         if text:
             navwarns.append(text)
