@@ -454,26 +454,31 @@ class NavwarnMessage:
         }
 
     def to_geojson_features(self) -> List[dict]:
+        # If no groups or only one group or a circle, fallback to single feature
         if not self.groups or len(self.groups) <= 1 or self.geometry == "circle":
             return [self.to_geojson_feature()]
-        # Multiple groups -> split into separate features
-        kw = self.body.upper()
-        area_hint = any(k in kw for k in ["AREA", "BOUNDED", "WITHIN", "RADIUS"])
         feats: List[dict] = []
         for idx, grp in enumerate(self.groups):
             if not grp:
                 continue
-            if len(grp) >= 3 and area_hint:
+            # Always treat groups of 3+ as polygons for PRIP conventions
+            if len(grp) >= 3:
                 group_geom_type = "polygon"
-            elif len(grp) >= 2 and self.geometry == "linestring":
-                group_geom_type = "linestring"
-            elif len(grp) > 1:
-                group_geom_type = "multipoint"
+                # Ensure polygon is closed
+                closed_grp = list(grp)
+                if closed_grp[0] != closed_grp[-1]:
+                    closed_grp.append(closed_grp[0])
             else:
-                group_geom_type = "point"
+                closed_grp = grp
+                if len(grp) == 2:
+                    group_geom_type = "linestring"
+                elif len(grp) == 1:
+                    group_geom_type = "point"
+                else:
+                    continue
             geom = _build_shapely_geometry(
                 geometry=group_geom_type,
-                coords=grp,
+                coords=closed_grp,
                 radius=None,
                 circle_segments=72,
             )
@@ -651,20 +656,35 @@ def parse_coordinate_groups(body: str) -> List[List[Tuple[float, float]]]:
     # Normalize Cyrillic direction letters to Latin before matching
     translit_map = str.maketrans({"С": "N", "Ю": "S", "В": "E", "З": "W"})
     norm_body = body.translate(translit_map)
-    # Normalize input: ensure potential group start markers (A., B., 1., etc)
+    # Normalize input: ensure potential group start markers (A., Б., 1., etc)
     # are on their own lines, especially if preceded by punctuation.
-    normalized_body = re.sub(r"([:,\.;])\s*((?:[A-Z]|\d{1,2})\.)", r"\1\n\2", norm_body)
+    # Accept both Latin and Cyrillic single-letter enumerators
+    normalized_body = re.sub(
+        r"([:,.\.;])\s*((?:[A-Z\u0410-\u042F]|\d{1,2})\.)", r"\1\n\2", norm_body
+    )
 
     lines = normalized_body.splitlines()
     groups: List[List[Tuple[float, float]]] = []
     current: List[Tuple[float, float]] = []
-    enum_pattern = re.compile(r"^\s*(?:[A-Z]|\d{1,2})\.")
+    # Accept Latin (A-Z), Cyrillic (А-Я), or 1-2 digit numbers as group markers
+    enum_pattern = re.compile(r"^\s*(?:[A-Z\u0410-\u042F]|\d{1,2})\.")
     for raw in lines:
         line = raw.strip()
+        # DEBUG: print each line and whether it matches the group pattern
         if enum_pattern.match(line):
             if current:
                 groups.append(current)
                 current = []
+            # Remove the group marker (e.g., 'А.') and process the rest of the line for coordinates
+            marker_match = enum_pattern.match(line)
+            rest = line[marker_match.end() :].strip() if marker_match else ""
+            if rest:
+                for lat, lon in COORD_PATTERN.findall(rest):
+                    lat_dec = coord_to_decimal(lat)
+                    lon_dec = coord_to_decimal(lon)
+                    if lat_dec is not None and lon_dec is not None:
+                        current.append((lat_dec, lon_dec))
+            continue
         for lat, lon in COORD_PATTERN.findall(line):
             lat_dec = coord_to_decimal(lat)
             lon_dec = coord_to_decimal(lon)
