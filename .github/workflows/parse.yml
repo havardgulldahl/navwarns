@@ -16,8 +16,46 @@ jobs:
 
       - id: collect
         run: |
-          files=$(find current/navwarns current/prips -name "*.json" | jq -R -s -c 'split("\n")[:-1]')
-          echo "Collected ${#files[@]} navwarn files."
+          # Get all JSON files
+          all_files=$(find current/navwarns current/prips -name "*.json")
+
+          # Filter out files that already exist in navwarns.geojson with matching body and classification
+          filtered_files=()
+          while IFS= read -r file; do
+            if [ -f "current/navwarns.geojson" ]; then
+              input_id=$(jq -r '.id' "$file")
+              
+              # Check if this file already exists with complete classification
+              match=$(jq -c --arg id "$input_id" --slurpfile current "$file" '
+                .features[] | 
+                select(.id == $id) | 
+                select(.properties.body == $current[0].properties.body) |
+                select(.properties.category != null and .properties.title != null) |
+                {found: true}
+              ' current/navwarns.geojson | head -n 1)
+              
+              if [ -z "$match" ]; then
+                # No match found, include this file
+                filtered_files+=("$file")
+              else
+                echo "Skipping already classified: $file (id: $input_id)"
+              fi
+            else
+              # No navwarns.geojson exists, include all files
+              filtered_files+=("$file")
+            fi
+          done <<< "$all_files"
+
+          # Convert to JSON array
+          files=$(printf '%s\n' "${filtered_files[@]}" | jq -R -s -c 'split("\n")[:-1]')
+          count=${#filtered_files[@]}
+
+          if [ $count -eq 0 ]; then
+            echo "No new files to process."
+            echo "files=[]" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "Collected $count new navwarn files (filtered from total)."
           {
             echo "files=$files"
           } >> "$GITHUB_OUTPUT"
@@ -25,6 +63,7 @@ jobs:
 
   interpret_navwarns:
     needs: list_navwarns
+    if: needs.list_navwarns.outputs.files != '[]'
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -38,47 +77,19 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Check for existing classification
-        id: check_cache
-        run: |
-          input_id=$(jq -r '.id' "${{ matrix.file }}")
-          if [ -f "current/navwarns.geojson" ]; then
-            matches=$(jq -c --arg id "$input_id" --slurpfile current "${{ matrix.file }}" '
-              .features[] | 
-              select(.id == $id) | 
-              select(.properties.body == $current[0].properties.body) |
-              select(.properties.category != null and .properties.title != null) |
-              {category: .properties.category, title: .properties.title}
-            ' current/navwarns.geojson | head -n 1)
-          fi
-
-          if [ -n "$matches" ]; then
-             echo "Cache hit for $input_id"
-             echo "hit=true" >> $GITHUB_OUTPUT
-             echo "cache_json<<EOF" >> $GITHUB_OUTPUT
-             echo "$matches" >> $GITHUB_OUTPUT
-             echo "EOF" >> $GITHUB_OUTPUT
-          else
-             echo "Cache miss for $input_id"
-             echo "hit=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Random sleep to stagger API calls
-        if: steps.check_cache.outputs.hit != 'true'
+      - name: Random sleep to stagger the pace of API calls
         run: |
           delay=$((RANDOM % 60 + 60)) # sleep 60-120 seconds
           echo "Sleeping $delay seconds..."
           sleep $delay
 
       - name: Extract body from GeoJSON properties and store in a variable
-        if: steps.check_cache.outputs.hit != 'true'
         id: navwarn_body
         run: |
           body=$(jq -r '.properties.body | gsub("\n"; " ")' "${{ matrix.file }}")
           echo "body=$body" >> "$GITHUB_OUTPUT"
 
       - name: Run AI inference
-        if: steps.check_cache.outputs.hit != 'true'
         id: inference
         uses: actions/ai-inference@v1
         with:
@@ -91,7 +102,6 @@ jobs:
 
 
       - name: Join inferred coordinates with original GeoJSON
-        if: steps.check_cache.outputs.hit != 'true'
         run: |
           base=$(basename "${{ matrix.file }}")
           jq --slurpfile r "${{ steps.inference.outputs.response-file }}" '
@@ -99,18 +109,6 @@ jobs:
             | .properties.category = $r[0].category
             | .properties.title = $r[0].title
           ' "${{ matrix.file }}" > "classified_${base}"
-
-      - name: Apply cached classification
-        if: steps.check_cache.outputs.hit == 'true'
-        run: |
-          base=$(basename "${{ matrix.file }}")
-          echo '${{ steps.check_cache.outputs.cache_json }}' > cached_props.json
-          jq --slurpfile r cached_props.json '
-            .properties = (.properties // {}) 
-            | .properties.category = $r[0].category
-            | .properties.title = $r[0].title
-          ' "${{ matrix.file }}" > "classified_${base}"
-
 
       - name: Validate json we just created
         run: |
@@ -142,6 +140,7 @@ jobs:
   commit:
     runs-on: ubuntu-latest
     needs: interpret_navwarns
+    if: success() || failure()  # Run even if some matrix jobs failed
     permissions:
       contents: write
     steps:
@@ -157,8 +156,18 @@ jobs:
       - name: Merge all JSON coordinates into GeoJSON FeatureCollection
         run: |
           tree -h current/enriched_navwarns
-          files=$(find current/enriched_navwarns -name '*.json') 
-          jq -s '{ "type": "FeatureCollection", "features": . }' $files > current/navwarns.geojson
+          files=$(find current/enriched_navwarns -name '*.json')
+          
+          # If there's an existing navwarns.geojson, merge with it
+          if [ -f "current/navwarns.geojson" ]; then
+            # Extract existing features and combine with new ones, deduplicate by id
+            jq -s 'map(if type == "object" and .type == "FeatureCollection" then .features else . end) | flatten | unique_by(.id) | { "type": "FeatureCollection", "features": . }' \
+              current/navwarns.geojson $files > current/navwarns.geojson.tmp
+            mv current/navwarns.geojson.tmp current/navwarns.geojson
+          else
+            # No existing file, just create new one
+            jq -s '{ "type": "FeatureCollection", "features": . }' $files > current/navwarns.geojson
+          fi
 
       - name: Fail if no coordinate files found
         run: |
