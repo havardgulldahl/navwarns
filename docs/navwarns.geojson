@@ -1131,6 +1131,36 @@
     },
     {
       "type": "Feature",
+      "id": "LITHUANIAN NAV WARN 019/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.85,
+          55.49333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-20T13:41:00",
+        "raw_dtg": "201341Z MAR 26",
+        "msg_id": "LITHUANIAN NAV WARN 019/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 261500 UTC MAR 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 019/26\nSOUTH-EASTERN BALTIC\nLITHUANIAN COAST – MILITARY EXERCISES\nMILITARY EXERCISES 1100–1400 UTC DAILY\n25 AND 26 MAR IN AREA EYD-18, CENTERED\nIN 55-29.6N 020-51.0E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 261500 UTC MAR 26.",
+        "cancel_date": null,
+        "valid_from": "2026-03-20T13:41:00+00:00",
+        "valid_until": "2026-03-26T15:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "NAVAREA XIX 37/26",
       "geometry": {
         "type": "LineString",
