@@ -2351,6 +2351,56 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP ARKHANGELSK 20/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.77333333333333,
+              64.57583333333334
+            ],
+            [
+              39.57666666666667,
+              64.54583333333333
+            ],
+            [
+              39.63,
+              64.64166666666667
+            ],
+            [
+              39.70333333333333,
+              64.66583333333334
+            ],
+            [
+              39.77333333333333,
+              64.57583333333334
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-24T01:31:43.870361+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 20/26 Карта 16004",
+        "msg_id": "PRIP ARKHANGELSK 20/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 251100 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 20 КАРТА 16004\nДВИНСКИЙ ЗАЛИВ\n1.СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ  24 И 25 МАРТ \n0700 ДО 1000 РАЙОНЕ ЗАПРЕТНОМ  ДЛЯ ПЛАВАНИЯ \n64-34.55С 039-46.40В \n64-32.75С 039-34.60В \n64-38.50С 039-37.80В \n64-39.95С 039-42.20В \n2.ОТМ ЭТОТ НР 251100 МАРТ=\n201730 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-03-24T01:31:43.870361+00:00",
+        "valid_until": "2026-03-25T11:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Exercise"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 4/26",
       "geometry": {
         "type": "Point",
@@ -2739,6 +2789,159 @@
         "summary": null,
         "category": "military",
         "title": "Artillery Firing Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 105/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              70.06
+            ],
+            [
+              35.43833333333333,
+              70.06
+            ],
+            [
+              35.43833333333333,
+              69.525
+            ],
+            [
+              33.63333333333333,
+              69.525
+            ],
+            [
+              33.63333333333333,
+              70.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-24T01:31:43.868658+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 105/26 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 105/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 292000 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "МУРМАНСК 01 23/03 1500=\n \nПЕРЕДАВАТЬ 6 СУТОК\nПРИП МУРМАНСК 105 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ И АРТИЛЛЕРИЙСКИЕ\n25 ПО 29 МАРТ 0500 ДО 1900 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНЕ\n70-03.6С 033-38.0В\n70-03.6С 035-26.3В\n69-31.5С 035-26.3В\n69-31.5С 033-38.0В\n2. ОТМ ЭТОТ НР 292000 МАРТ=\n231000 МСК   ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-03-24T01:31:43.868658+00:00",
+        "valid_until": "2026-03-29T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Firing Exercises"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 106/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.50666666666667,
+              69.1925
+            ],
+            [
+              33.57666666666667,
+              69.1925
+            ],
+            [
+              33.516666666666666,
+              69.13333333333334
+            ],
+            [
+              33.41,
+              69.13333333333334
+            ],
+            [
+              33.50666666666667,
+              69.1925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-24T01:31:43.868327+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 106/26 КАРТА 15005\r\n\r\nСЕВЕРНАЯ ЧАСТЬ КОЛЬСКОГО ЗАЛИВА",
+        "msg_id": "PRIP MURMANSK 106/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ЕРЕДАВАТЬ 5 СУТОК\nПРИП МУРМАНСК 106 КАРТА 15005\nСЕВЕРНАЯ ЧАСТЬ КОЛЬСКОГО ЗАЛИВА\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 26 ПО 28 МАРТ\n0700 ДО 1000 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-11.55С 033-30.40В\n69-11.55С 033-34.60В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-08.00С 033-31.00В\n69-08.00С 033-24.60В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-11.55С 033-30.40В\n2. ОТМ ЭТОТ 281100 МАРТ=\n231000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-03-24T01:31:43.868327+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Drill"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 107/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.13333333333333,
+              69.71666666666667
+            ],
+            [
+              33.5,
+              69.71666666666667
+            ],
+            [
+              33.5,
+              69.53333333333333
+            ],
+            [
+              32.93333333333333,
+              69.53333333333333
+            ],
+            [
+              32.84166666666667,
+              69.56666666666666
+            ],
+            [
+              33.13333333333333,
+              69.71666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-24T01:31:43.867408+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 107/26 КАРТА 12000\r\n\r\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
+        "msg_id": "PRIP MURMANSK 107/26",
+        "year": 2026,
+        "cancellations": [
+          "103/26",
+          "THIS MSG 292000 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПЕРЕДАВАТЬ 6 СУТОК\nПРИП МУРМАНСК 107 КАРТА 12000\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 25 ПО 29 МАРТ\n0300 ДО 1900 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-43.0С 033-08.0В\n69-43.0С 033-30.0В\n69-32.0С 033-30.0В\n69-32.0С 032-56.0В\n69-34.0С 032-50.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-43.0С 033-08.0В\n2. ОТМ ЭТОТ НР 292000 МАРТ\n3. ОТМ 103/26 И ЭТОТ ПУНКТ=\n231000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-03-24T01:31:43.867408+00:00",
+        "valid_until": "2026-03-29T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Area"
       }
     },
     {
@@ -11797,6 +12000,36 @@
         "summary": null,
         "category": "navigation",
         "title": "Least Depths Reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 7/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.47666666666667,
+          76.815
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-24T01:31:43.870785+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 7/26 КАРТА 11122 БАРЕЦЕВО МОРЕ",
+        "msg_id": "PRIP WEST 7/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 261030 UTC MAR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.ОБЛОМОК АЙСБЕРГА 231030 МАРТ В 76-48.9С 063-28.6В\n2.ОТМ ЭТОТ НР 261030 МАРТ=\n\nCOASTAL WARNING WEST 7/26 BARENTS SEA.\nCHART RUS 11122.\n1.FRAGMENT OF ICEBERG AT 231030 UTC MAR IN: 76-48.9N 063-28.6E.\n2.CANCEL THIS MSG 261030 UTC MAR 26.= \nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-03-24T01:31:43.870785+00:00",
+        "valid_until": "2026-03-26T10:30:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg Fragment Sighted"
       }
     },
     {
