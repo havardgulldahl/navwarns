@@ -32,8 +32,8 @@ MSG_ID_PATTERN = re.compile(
     r"|[A-Z][A-Z -]+ NAV WARN \d+/\d+)"
 )
 # Coordinate pair pattern supporting both DM (DD-MM.mm) and DMS (DD-MM-SS.ss) forms.
-_LAT_PART = r"\d{2,3}-(?:\d{2}\.\d+|\d{2}-\d{2}(?:\.\d+)?)"
-_LON_PART = r"\d{3}-(?:\d{2}\.\d+|\d{2}-\d{2}(?:\.\d+)?)"
+_LAT_PART = r"\d{2,3}-(?:\d{2}(?:\.\d+)?|\d{2}-\d{2}(?:\.\d+)?)"
+_LON_PART = r"\d{3}-(?:\d{2}(?:\.\d+)?|\d{2}-\d{2}(?:\.\d+)?)"
 COORD_PATTERN = re.compile(rf"({_LAT_PART}[NS])\s+({_LON_PART}[EW])")
 # Expanded cancellation recognition:
 #  - HYDROARC X/Y
@@ -612,12 +612,15 @@ def coord_to_decimal(coord: str) -> Optional[float]:
     """Convert coordinate token to signed decimal degrees.
 
     Supports:
-      - DM:  DD-MM.mmH (minutes decimal)
-      - DMS: DD-MM-SS.ssH (seconds decimal)
+      - DM:  DD-MMH or DD-MM.mmH (minutes may be integer or decimal)
+      - DMS: DD-MM-SSH or DD-MM-SS.ssH (seconds may be integer or decimal)
     where H is hemisphere N/S/E/W.
     """
-    # DMS first
-    m_dms = re.match(r"^(\d+)-(\d+)-(\d+(?:\.\d+)?)([NSEW])$", coord)
+    # Normalize
+    token = coord.strip().upper()
+
+    # DMS first: degrees-minutes-seconds
+    m_dms = re.match(r"^(\d+)-(\d+)-(\d+(?:\.\d+)?)([NSEW])$", token)
     if m_dms:
         deg_s, min_s, sec_s, hemi = m_dms.groups()
         deg_i = int(deg_s)
@@ -625,15 +628,18 @@ def coord_to_decimal(coord: str) -> Optional[float]:
         sec_f = float(sec_s)
         decimal = deg_i + (min_i / 60.0) + (sec_f / 3600.0)
     else:
-        m_dm = re.match(r"^(\d+)-(\d+\.\d+)([NSEW])$", coord)
+        # DM: degrees-minutes (minutes can be integer or decimal)
+        m_dm = re.match(r"^(\d+)-(\d+(?:\.\d+)?)([NSEW])$", token)
         if not m_dm:
             return None
         deg_s, min_s, hemi = m_dm.groups()
         deg_i = int(deg_s)
         min_f = float(min_s)
         decimal = deg_i + (min_f / 60.0)
-    if hemi in ["S", "W"]:
+
+    if hemi in ("S", "W"):
         decimal = -decimal
+
     return decimal
 
 
