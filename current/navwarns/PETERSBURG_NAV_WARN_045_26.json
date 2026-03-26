@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "PETERSBURG NAV WARN 045/26",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        29.0,
+        60.141666666666666
+      ],
+      [
+        29.25,
+        60.141666666666666
+      ],
+      [
+        29.25,
+        60.05833333333333
+      ],
+      [
+        29.0,
+        60.05833333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-03-25T18:27:00",
+    "raw_dtg": "251827Z MAR 26",
+    "msg_id": "PETERSBURG NAV WARN 045/26",
+    "year": 2026,
+    "cancellations": [],
+    "hazard_type": "general",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "[Gulf of Finland] PETERSBURG NAV WARN 045/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-105\n60-08.50N 029-00.00E 60-08.50N 029-15.00E\n60-03.50N 029-15.00E 60-03.50N 029-00.00E\nCANCEL THIS MESSAGE 302200 UTC APR",
+    "cancel_date": null,
+    "valid_from": "2026-03-25T18:27:00+00:00",
+    "valid_until": null,
+    "summary": null
+  }
+}
