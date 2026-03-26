@@ -977,6 +977,156 @@
     },
     {
       "type": "Feature",
+      "id": "KALININGRAD NAV WARN 050/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            20.133333333333333,
+            55.333333333333336
+          ],
+          [
+            20.416666666666668,
+            55.333333333333336
+          ],
+          [
+            20.416666666666668,
+            55.126666666666665
+          ],
+          [
+            20.133333333333333,
+            55.126666666666665
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-25T18:09:00",
+        "raw_dtg": "251809Z MAR 26",
+        "msg_id": "KALININGRAD NAV WARN 050/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] KALININGRAD NAV WARN 050/26\nSOUTHEASTERN BALTIC\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING BR-42\n55-20.00N 020-08.00E 55-20.00N 020-25.00E\n55-07.60N 020-25.00E 55-07.60N 020-08.00E\nCANCEL MESSAGE 302200 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-03-25T18:09:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Shipping Danger Exercises"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KALININGRAD NAV WARN 051/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.026666666666667,
+            55.53333333333333
+          ],
+          [
+            19.833333333333332,
+            55.53333333333333
+          ],
+          [
+            19.583333333333332,
+            55.05
+          ],
+          [
+            19.583333333333332,
+            54.77333333333333
+          ],
+          [
+            19.338333333333335,
+            54.83833333333333
+          ],
+          [
+            19.153333333333332,
+            55.19166666666667
+          ],
+          [
+            19.076666666666668,
+            55.333333333333336
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-25T18:12:00",
+        "raw_dtg": "251812Z MAR 26",
+        "msg_id": "KALININGRAD NAV WARN 051/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] KALININGRAD NAV WARN 051/26\nSOUTHEASTERN BALTIC\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING\n55-32.00N 019-01.60E 55-32.00N 019-50.00E\n55-03.00N 019-35.00E 54-46.40N 019-35.00E\n54-50.30N 019-20.30E 55-11.50N 019-09.20E\n55-20.00N 019-04.60E\nCANCEL THIS MESSAGE 302200 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-03-25T18:12:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Ships Military Exercises"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KALININGRAD NAV WARN 052/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.05,
+            55.9
+          ],
+          [
+            20.25,
+            55.5
+          ],
+          [
+            20.25,
+            55.06666666666667
+          ],
+          [
+            20.1,
+            54.958333333333336
+          ],
+          [
+            19.916666666666668,
+            54.958333333333336
+          ],
+          [
+            19.833333333333332,
+            54.833333333333336
+          ],
+          [
+            19.416666666666668,
+            54.833333333333336
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-25T18:15:00",
+        "raw_dtg": "251815Z MAR 26",
+        "msg_id": "KALININGRAD NAV WARN 052/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] KALININGRAD NAV WARN 052/26\nSOUTHEASTERN BALTIC\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING BR-117\n55-54.00N 019-03.00E 55-30.00N 020-15.00E\n55-04.00N 020-15.00E 54-57.50N 020-06.00E\n54-57.50N 019-55.00E 54-50.00N 019-50.00E\n54-50.00N 019-25.00E\nCANCEL THIS MESSAGE 302200 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-03-25T18:15:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Kaliningrad Naval Exercises"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "LITHUANIAN NAV WARN 008/26",
       "geometry": {
         "type": "Point",
@@ -2299,6 +2449,220 @@
     },
     {
       "type": "Feature",
+      "id": "PETERSBURG NAV WARN 045/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.0,
+            60.141666666666666
+          ],
+          [
+            29.25,
+            60.141666666666666
+          ],
+          [
+            29.25,
+            60.05833333333333
+          ],
+          [
+            29.0,
+            60.05833333333333
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-25T18:27:00",
+        "raw_dtg": "251827Z MAR 26",
+        "msg_id": "PETERSBURG NAV WARN 045/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 045/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-105\n60-08.50N 029-00.00E 60-08.50N 029-15.00E\n60-03.50N 029-15.00E 60-03.50N 029-00.00E\nCANCEL THIS MESSAGE 302200 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-03-25T18:27:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Ship Exercises Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PETERSBURG NAV WARN 046/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.761666666666667,
+            60.17166666666667
+          ],
+          [
+            28.91,
+            60.17166666666667
+          ],
+          [
+            28.91,
+            60.06666666666667
+          ],
+          [
+            28.566666666666666,
+            60.06666666666667
+          ],
+          [
+            28.566666666666666,
+            60.11666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-25T18:29:00",
+        "raw_dtg": "251829Z MAR 26",
+        "msg_id": "PETERSBURG NAV WARN 046/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 046/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-107\n60-10.30N 028-45.70E 60-10.30N 028-54.60E\n60-04.00N 028-54.60E 60-04.00N 028-34.00E\n60-07.00N 028-34.00E\nCANCEL THIS MESSAGE 302200 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-03-25T18:29:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Ships Exercise Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PETERSBURG NAV WARN 047/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.043333333333333,
+            60.105
+          ],
+          [
+            27.125,
+            60.125
+          ],
+          [
+            27.191666666666666,
+            60.06
+          ],
+          [
+            27.108333333333334,
+            60.03666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-25T18:34:00",
+        "raw_dtg": "251834Z MAR 26",
+        "msg_id": "PETERSBURG NAV WARN 047/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 047/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-114\n60-06.30N 027-02.60E 60-07.50N 027-07.50E\n60-03.60N 027-11.50E 60-02.20N 027-06.50E\nCANCEL THIS MESSAGE 302200 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-03-25T18:34:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Ship Exercises Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PETERSBURG NAV WARN 048/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.089166666666667,
+            59.8905
+          ],
+          [
+            27.1605,
+            59.8905
+          ],
+          [
+            27.1605,
+            59.773833333333336
+          ],
+          [
+            27.089166666666667,
+            59.773833333333336
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-25T18:38:00",
+        "raw_dtg": "251838Z MAR 26",
+        "msg_id": "PETERSBURG NAV WARN 048/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 048/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING\n59-53.43N 027-05.35E 59-53.43N 027-09.63E\n59-46.43N 027-09.63E 59-46.43N 027-05.35E\nCANCEL THIS MESSAGE 302200 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-03-25T18:38:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Ship Exercises Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PETERSBURG NAV WARN 049/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.275,
+            60.00833333333333
+          ],
+          [
+            27.566666666666666,
+            60.09
+          ],
+          [
+            27.8,
+            59.88333333333333
+          ],
+          [
+            27.516666666666666,
+            59.8
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-25T18:40:00",
+        "raw_dtg": "251840Z MAR 26",
+        "msg_id": "PETERSBURG NAV WARN 049/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 049/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING\n60-00.50N 027-16.50E 60-05.40N 027-34.00E\n59-53.00N 027-48.00E 59-48.00N 027-31.00E\nCANCEL THIS MESSAGE 302200 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-03-25T18:40:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Ship Exercises Warning"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "POLISH NAV WARN 049/26",
       "geometry": {
         "type": "Point",
@@ -3047,6 +3411,110 @@
         "cancel_date": null,
         "valid_from": "2026-03-24T01:31:43.867408+00:00",
         "valid_until": "2026-03-29T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 108/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.58333333333333
+            ],
+            [
+              33.63333333333333,
+              69.58333333333333
+            ],
+            [
+              33.63333333333333,
+              69.96666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-26T01:32:03.387291+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 108/26 ПРИП МУРМАНСК 108 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 108/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 312000 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПЕРЕДАВАТЬ 6 СУТОК\nПРИП МУРМАНСК 108 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 30 ПО 31 МАРТ\n0500 ДО 1900 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНЕ\n69-58.0С 033-38.0В\n69-58.0С 034-48.0В\n69-35.0С 034-48.0В\n69-35.0С 033-38.0В\n2. ОТМ ЭТОТ НР 312000 МАРТ=\n251000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-03-26T01:32:03.387291+00:00",
+        "valid_until": "2026-03-31T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Barents Sea Artillery"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 109/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.13333333333333,
+              69.71666666666667
+            ],
+            [
+              33.526666666666664,
+              69.71666666666667
+            ],
+            [
+              33.526666666666664,
+              69.53333333333333
+            ],
+            [
+              32.98833333333333,
+              69.53333333333333
+            ],
+            [
+              32.905,
+              69.575
+            ],
+            [
+              33.13333333333333,
+              69.71666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-26T01:32:03.386435+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 109/26 ПРИП МУРМАНСК 109 КАРТА 12000\r\n\r\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
+        "msg_id": "PRIP MURMANSK 109/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 311800 UTC MAR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 109 КАРТА 12000\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 30 ПО 31 МАРТ\n0500 ДО 1700 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-43.0С 033-08.0В\n69-43.0С 033-31.6В\n69-32.0С 033-31.6В\n69-32.0С 032-59.3В\n69-34.5С 032-54.3В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-43.0С 033-08.0В\n2. ОТМ ЭТОТ НР 311800 МАРТ=\n251000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-03-26T01:32:03.386435+00:00",
+        "valid_until": "2026-03-31T18:00:00+00:00",
         "summary": null,
         "category": "military",
         "title": "Artillery Firing Area"
@@ -12222,6 +12690,36 @@
         "summary": null,
         "category": "accident",
         "title": "Sunken Bulldozer Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 8/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.10333333333334,
+          77.17166666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-26T01:32:03.389355+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 8/26 КАРТА 11122 БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP WEST 8/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 271240 UTC MAR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.АЙСБЕРГ 241240 МАРТ В 77-10.3С 066-06.2В\n2.ОТМ ЭТОТ НР 271240 МАРТ= \n\nCOASTAL WARNING WEST 8/26 BARENTS SEA.\nCHART RUS 11122.\n1.ICEBERG AT 241240 UTC MAR IN: 77-10.3N 066-06.2E.\n2.CANCEL THIS MSG 271240 UTC MAR 26.= \nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-03-26T01:32:03.389355+00:00",
+        "valid_until": "2026-03-27T12:40:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg in Barents Sea"
       }
     },
     {
