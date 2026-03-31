@@ -297,6 +297,34 @@
     },
     {
       "type": "Feature",
+      "id": "GERMAN NAV WARN 188/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.563333333333333,
+          54.595
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-30T11:53:00",
+        "raw_dtg": "301153Z MAR 26",
+        "msg_id": "GERMAN NAV WARN 188/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Western Baltic] GERMAN NAV WARN 188/26\nWESTERN BALTIC. EAST OF KADETRENDEN.\nSURVEY OPERATIONS BY 'NORTHERN STORM / MISA7.\nCOMMENCING IN PSN 54-35.7N 012-33.8E\nVESSEL WILL BE CROSSING TSS ON PSN 54-50.4N 013-04.2E\nRESTRICTED MANOEVRABILITY DURING OPERATIONS.\nBERTH OF 500 METERS REQUESTED.",
+        "cancel_date": null,
+        "valid_from": "2026-03-30T11:53:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Survey Vessel Operations"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "HYDROARC 145/25(15)",
       "geometry": {
         "type": "Point",
@@ -3251,6 +3279,34 @@
         "summary": null,
         "category": "military",
         "title": "Military Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 063/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-30T03:00:00",
+        "raw_dtg": "300300Z MAR 26",
+        "msg_id": "POLISH NAV WARN 063/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 063/26\nSOUTHERN BALTIC. POLISH COAST.\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\nFROM 2026-03-30 TO 2026-04-01 05:00 - 12:00 AND 17:00 - 23:59 UTC.\nFROM 2026-04-02 TO 2026-04-04 05:00 - 12:00 UTC\nCANCEL 041200 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-03-30T03:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercise Zone"
       }
     },
     {
