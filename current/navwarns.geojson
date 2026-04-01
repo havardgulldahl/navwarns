@@ -185,6 +185,34 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 177/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2585,
+          56.972
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-31T07:55:00",
+        "raw_dtg": "310755Z MAR 26",
+        "msg_id": "DANISH NAV WARN 177/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Skagerrak] DANISH NAV WARN 177/26\nDENMARK. LIIM FIORD. LØGSTØR RENDE.\n2M DEPTH OBSERVED\n56-58.32N 009-15.51E,\nN-SIDE OF CHANNEL",
+        "cancel_date": null,
+        "valid_from": "2026-03-31T07:55:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Shallow Water Warning"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 024/26",
       "geometry": {
         "type": "Point",
@@ -209,6 +237,34 @@
         "summary": null,
         "category": "navigation",
         "title": "Research Kit Placement"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ESTONIAN NAV WARN 037/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.055,
+          59.431666666666665
+        ]
+      },
+      "properties": {
+        "dtg": "2026-03-31T10:13:00",
+        "raw_dtg": "311013Z MAR 26",
+        "msg_id": "ESTONIAN NAV WARN 037/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 037/26\nGULF OF FINLAND\nFROM 1 APR\nMOLDOVA LIGHT BEACON NO. 030 (C3888)\nIN PSN 59-25.9N 027-03.3E\nTEMPORARILY UNLIT",
+        "cancel_date": null,
+        "valid_from": "2026-03-31T10:13:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Moldova Light Unlit"
       }
     },
     {
@@ -4845,6 +4901,184 @@
         "summary": null,
         "category": "other",
         "title": "Mooring Buoy Positions"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 122/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.556666666666665,
+          69.31833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-01T01:32:11.460468+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 122/26 КАРТА 12000\r\n\r\nВОСТОЧНЕЕ ОСТРОВА КИЛЬДИН",
+        "msg_id": "PRIP MURMANSK 122/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 010000 UTC MAY 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "МУРМАНСК 01 31/03 1500=\n \nПРИП МУРМАНСК 122 КАРТА 12000\nВОСТОЧНЕЕ ОСТРОВА КИЛЬДИН\n1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ 01 ПО 30 АПР\nКРУГЛОСУТОЧНО РАЙОН РАДИУСОМ 1000 МЕТРОВ\nИЗ 69-19.1С 034-33.4В\n2. ОТМ ЭТОТ НР 01 МАЙ=\n311000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-01T01:32:11.460468+00:00",
+        "valid_until": "2026-05-01T00:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Navigation Prohibited Kildin"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 123/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.78333333333333,
+              69.46666666666667
+            ],
+            [
+              35.175,
+              69.46666666666667
+            ],
+            [
+              35.175,
+              69.35833333333333
+            ],
+            [
+              34.78333333333333,
+              69.35833333333333
+            ],
+            [
+              34.78333333333333,
+              69.46666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-01T01:32:11.460144+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 123/26 КАРТА 12000\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 123/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 010000 UTC MAY 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 123 КАРТА 12000\nБАРЕНЦЕВО МОРЕ\n1. УЧЕБНЫЕ УПРАЖНЕНИЯ ВМФ 01 ПО 30 АПР\nКРУГЛОСУТОЧНО РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-28.0С 034-47.0В\n69-28.0С 035-10.5В\n69-21.5С 035-10.5В\n69-21.5С 034-47.0В\n2. ОТМ ЭТОТ НР 01 МАЙ=\n311000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-01T01:32:11.460144+00:00",
+        "valid_until": "2026-05-01T00:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Navy Exercises Barents"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 124/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.1,
+            69.975
+          ],
+          [
+            31.2,
+            69.975
+          ],
+          [
+            30.91,
+            69.78666666666666
+          ],
+          [
+            30.828333333333333,
+            69.79
+          ],
+          [
+            30.826666666666668,
+            69.79833333333333
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-01T01:32:11.459856+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 124/26 КАРТА 12000\r\n\r\nЗАЛИВ ВАРАНГЕР-ФЬОРД",
+        "msg_id": "PRIP MURMANSK 124/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 010000 UTC MAY 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 124 КАРТА 12000\nЗАЛИВ ВАРАНГЕР-ФЬОРД\n1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ 01 ПО 30 АПР\nКРУГЛОСУТОЧНО РАЙОН\n69-58.5С 031-06.0В\n69-58.5С 031-12.0В\n69-47.2С 030-54.6В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-47.4С 030-49.7В\n69-47.9С 030-49.6В\n2. ОТМ ЭТОТ НР 01 МАЙ=\n311000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-01T01:32:11.459856+00:00",
+        "valid_until": "2026-05-01T00:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Varanger Fjord Area Closure"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 125/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.333333333333336,
+              69.575
+            ],
+            [
+              33.5,
+              69.575
+            ],
+            [
+              33.5,
+              69.55
+            ],
+            [
+              33.333333333333336,
+              69.55
+            ],
+            [
+              33.333333333333336,
+              69.575
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-01T01:32:11.459004+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 125/26 КАРТА 13004\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 125/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 042100 UTC MAY 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПЕРЕДАВАТЬ 34 СУТОК\nПРИП МУРМАНСК 125 КАРТА 13004\nБАРЕНЦЕВО МОРЕ\n1. СПЕЦИАЛЬНЫЕ РАБОТЫ 032100 АПР ПО 042100 МАЙ\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-34.5С 033-20.0В\n69-34.5С 033-30.0В\n69-33.0С 033-30.0В\n69-33.0С 033-20.0В\n2. ОТМ ЭТОТ НР 042100 МАЙ=\n311000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-01T01:32:11.459004+00:00",
+        "valid_until": "2026-05-04T21:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Special Works Barents"
       }
     },
     {
