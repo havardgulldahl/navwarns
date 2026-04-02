@@ -1,0 +1,49 @@
+{
+  "type": "Feature",
+  "id": "ANDOYA_Danger_area_sea_UR",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15.467417000000001,
+          68.988867
+        ],
+        [
+          15.9754,
+          69.22274999999999
+        ],
+        [
+          14.181716999999999,
+          70.8971
+        ],
+        [
+          12.8657,
+          70.6937
+        ],
+        [
+          15.467417000000001,
+          68.988867
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-04-02T01:32:18.307028+00:00",
+    "raw_dtg": "020132Z APR 26",
+    "msg_id": "ANDOYA_Danger_area_sea_UR",
+    "year": 2026,
+    "cancellations": [],
+    "hazard_type": "firing_exercises",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "Name: Danger Area Sea UR Description: The danger area is active 08.04.2026-19.04.2026 with launch window 22:00-23:00 local time. The danger area is indicated as yellow prior to activation. The danger area  is indicated red when it is less than 4-6 hours until it activates and the launch window opens. The danger area is deactivated and goes back to yellow as soon as the activity is finished. Should there be a need for transit or use of the area, this can be coordinated with Andøya Space.  The operations center is staffed during the launch window 11:00-23:30 local time. Contact us on phone  73 60 70 64/ 94 07 59 44, or on maritime channel 16 / 14 with call sign \"Andøya Space\". Outside the launch window, inquiries can be sent to mso@andoyaspace.no, call phone 94 07 59 44",
+    "cancel_date": null,
+    "valid_from": "2026-04-02T01:32:18.307028+00:00",
+    "valid_until": null,
+    "summary": null,
+    "source": "BarentsWatch/Andoya",
+    "area_name": "Danger area sea UR",
+    "name": "Andoya Danger Area"
+  }
+}
