@@ -129,6 +129,132 @@
     },
     {
       "type": "Feature",
+      "id": "ANDOYA_Danger_area_sea_DR",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.21615,
+              71.057
+            ],
+            [
+              9.870982999999999,
+              74.26389999999999
+            ],
+            [
+              3.396904,
+              76.839283
+            ],
+            [
+              -6.069891999999999,
+              79.19595
+            ],
+            [
+              -10.358592,
+              79.930865
+            ],
+            [
+              -11.571678,
+              79.691063
+            ],
+            [
+              -4.222686,
+              78.05785599999999
+            ],
+            [
+              2.000544,
+              76.01696700000001
+            ],
+            [
+              7.203983,
+              73.53524999999999
+            ],
+            [
+              11.625,
+              70.501917
+            ],
+            [
+              15.21615,
+              71.057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-02T01:32:18.306379+00:00",
+        "raw_dtg": "020132Z APR 26",
+        "msg_id": "ANDOYA_Danger_area_sea_DR",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "firing_exercises",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "Name: Danger area sea DR Description: The danger area is active 08.04.2026-19.04.2026 with launch window 22:00-23:00 local time. The danger area is indicated as yellow prior to activation. The danger area  is indicated red when it is less than 4-6 hours until it activates and the launch window opens. The danger area is deactivated and goes back to yellow as soon as the activity is finished. Should there be a need for transit or use of the area, this can be coordinated with Andøya Space.  The operations center is staffed during the launch window 11:00-23:30 local time. Contact us on phone  73 60 70 64/ 94 07 59 44, or on maritime channel 16 / 14 with call sign \"Andøya Space\". Outside the launch window, inquiries can be sent to mso@andoyaspace.no, call phone 94 07 59 44",
+        "cancel_date": null,
+        "valid_from": "2026-04-02T01:32:18.306379+00:00",
+        "valid_until": null,
+        "summary": null,
+        "source": "BarentsWatch/Andoya",
+        "area_name": "Danger area sea DR",
+        "name": "Andoya Danger Area",
+        "category": "military",
+        "title": "Sea Missile Launch Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ANDOYA_Danger_area_sea_UR",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.467417000000001,
+              68.988867
+            ],
+            [
+              15.9754,
+              69.22274999999999
+            ],
+            [
+              14.181716999999999,
+              70.8971
+            ],
+            [
+              12.8657,
+              70.6937
+            ],
+            [
+              15.467417000000001,
+              68.988867
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-02T01:32:18.307028+00:00",
+        "raw_dtg": "020132Z APR 26",
+        "msg_id": "ANDOYA_Danger_area_sea_UR",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "firing_exercises",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "Name: Danger Area Sea UR Description: The danger area is active 08.04.2026-19.04.2026 with launch window 22:00-23:00 local time. The danger area is indicated as yellow prior to activation. The danger area  is indicated red when it is less than 4-6 hours until it activates and the launch window opens. The danger area is deactivated and goes back to yellow as soon as the activity is finished. Should there be a need for transit or use of the area, this can be coordinated with Andøya Space.  The operations center is staffed during the launch window 11:00-23:30 local time. Contact us on phone  73 60 70 64/ 94 07 59 44, or on maritime channel 16 / 14 with call sign \"Andøya Space\". Outside the launch window, inquiries can be sent to mso@andoyaspace.no, call phone 94 07 59 44",
+        "cancel_date": null,
+        "valid_from": "2026-04-02T01:32:18.307028+00:00",
+        "valid_until": null,
+        "summary": null,
+        "source": "BarentsWatch/Andoya",
+        "area_name": "Danger area sea UR",
+        "name": "Andoya Danger Area",
+        "category": "military",
+        "title": "Sea Danger Area Activation"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "DANISH NAV WARN 154/26",
       "geometry": {
         "type": "Point",
@@ -1491,6 +1617,114 @@
         "summary": null,
         "category": "military",
         "title": "Military Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LITHUANIAN NAV WARN 023/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.764666666666667,
+              55.61633333333333
+            ],
+            [
+              21.15,
+              55.6355
+            ],
+            [
+              21.221666666666668,
+              55.52333333333333
+            ],
+            [
+              20.998,
+              55.416333333333334
+            ],
+            [
+              20.764666666666667,
+              55.36633333333333
+            ],
+            [
+              20.698,
+              55.416333333333334
+            ],
+            [
+              20.698,
+              55.56633333333333
+            ],
+            [
+              20.764666666666667,
+              55.61633333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-01T05:30:00",
+        "raw_dtg": "010530Z APR 26",
+        "msg_id": "LITHUANIAN NAV WARN 023/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 023/26\nSOUTH-EASTERN BALTIC. LITHUANIAN COAST.\nMILITARY EXERCISES 02 APR 0700–1400 UTC\nIN AREA EYD-17 BOUNDED BY:\n55-36.98N 020-45.88E\n55-38.13N 021-09.00E\n55-31.40N 021-13.30E\n55-24.98N 020-59.88E\n55-21.98N 020-45.88E\n55-24.98N 020-41.88E\n55-33.98N 020-41.88E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 021500 UTC APR.",
+        "cancel_date": null,
+        "valid_from": "2026-04-01T05:30:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LITHUANIAN NAV WARN 025/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.073166666666665,
+              55.72983333333333
+            ],
+            [
+              21.075,
+              55.7295
+            ],
+            [
+              21.074666666666666,
+              55.72866666666667
+            ],
+            [
+              21.072666666666667,
+              55.729
+            ],
+            [
+              21.073166666666665,
+              55.72983333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-01T07:40:00",
+        "raw_dtg": "010740Z APR 26",
+        "msg_id": "LITHUANIAN NAV WARN 025/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 025/26\nSOUTH-EASTERN BALTIC\nAPPROACHES TO PORT KLAIPEDA – ENTRANCE – MAINTENANCE DREDGING\nMAINTENANCE DREDGING IN PROGRESS IN SEAWAY CHANNEL, WITHIN AREA\nBOUNDED BY:\n55-43.79N 021-04.39E\n55-43.77N 021-04.50E\n55-43.72N 021-04.48E\n55-43.74N 021-04.36E.\nMARINERS ARE ADVISED TO NAVIGATE WITH CAUTION IN THE AREA AND\nCONTACT VTS FOR FURTHER INFORMATION.",
+        "cancel_date": null,
+        "valid_from": "2026-04-01T07:40:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Klaipeda Dredging Operations"
       }
     },
     {
@@ -3567,6 +3801,34 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP ARKHANGELSK 22/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.50275,
+          64.56416666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-02T01:32:15.286004+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 22/26 карта 19030",
+        "msg_id": "PRIP ARKHANGELSK 22/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 22 КАРТА 19030\nПОРТ АРХАНГЕЛЬСК\nЛЕДОВЫЙ СВЕТЯЩИЙ БУЙ НР 20 ЛЕВОЙ СТОРОНЫ \n64-33-51.0С 040-30-09.9В\nСМЕЩЕН В 64-33-53.0С 040-30-18.3В=\n011600 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-02T01:32:15.286004+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Buoy Position Changed"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 4/26",
       "geometry": {
         "type": "Point",
@@ -5113,6 +5375,92 @@
         "summary": null,
         "category": "other",
         "title": "Terminal Navigation Lights"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 126/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.875,
+              69.39833333333333
+            ],
+            [
+              33.95333333333333,
+              69.39833333333333
+            ],
+            [
+              33.95333333333333,
+              69.33833333333334
+            ],
+            [
+              33.81666666666667,
+              69.33666666666667
+            ],
+            [
+              33.645,
+              69.34166666666667
+            ],
+            [
+              33.81666666666667,
+              69.395
+            ],
+            [
+              33.875,
+              69.39833333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-02T01:32:15.284388+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 126/26 КАРТА 12000 ЗАПАДНЕЕ ОСТРОВА КИЛЬДИН",
+        "msg_id": "PRIP MURMANSK 126/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 071500 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПЕРЕДАВАТЬ 6 СУТОК\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 06 ПО 07 АПР\n0600 ДО 1400 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-23.9С 033-52.5В\n69-23.9С 033-57.2В\n69-20.3С 033-57.2В\n69-20.2С 033-49.0В\n69-20.5С 033-38.7В\n69-23.7С 033-49.0В\n2. ОТМ ЭТОТ НР 071500 АПР=\n011000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-02T01:32:15.284388+00:00",
+        "valid_until": "2026-04-07T15:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 127/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.035,
+          68.975
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-02T01:32:15.284033+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 127/26 КАРТА 17055 КНИГА 2103 КОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 127/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ОГОНЬ БУЯ АБРАМ-МЫС ВОСТОЧНЫЙ 68-58.5С 033-02.1В НР 717\nНЕ ДЕЙСТВУЕТ=\n011000 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-02T01:32:15.284033+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Abram-Mys Buoy Out"
       }
     },
     {
