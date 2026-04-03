@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "id": "GERMAN NAV WARN 198/26",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        12.436666666666667,
+        54.55833333333333
+      ],
+      [
+        12.675,
+        54.675
+      ],
+      [
+        12.736666666666666,
+        54.605
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-04-02T13:54:00",
+    "raw_dtg": "021354Z APR 26",
+    "msg_id": "GERMAN NAV WARN 198/26",
+    "year": 2026,
+    "cancellations": [],
+    "hazard_type": "general",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "[Western Baltic] GERMAN NAV WARN 198/26\nWESTERN BALTIC. NORTH OF DARSSER ORT.\nSURVEY OPERATIONS BY MV 'FUGRO PIONEER / C6BH3',\nIN AREA 54-33.5N 012-26.2E\n54-40.5N 012-40.5E AND 54-36.3N 012-44.2E\nRESTRICTED MANEUVERABILITY DURING OPERATIONS.\nBERTH OF 2000 M REQUESTED.",
+    "cancel_date": null,
+    "valid_from": "2026-04-02T13:54:00+00:00",
+    "valid_until": null,
+    "summary": null
+  }
+}
