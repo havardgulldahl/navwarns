@@ -1197,6 +1197,122 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 44/26#grp1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.4675,
+              68.98883333333333
+            ],
+            [
+              15.975333333333333,
+              69.22283333333333
+            ],
+            [
+              14.181666666666667,
+              70.89716666666666
+            ],
+            [
+              12.865666666666666,
+              70.69366666666667
+            ],
+            [
+              15.4675,
+              68.98883333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 44/26",
+        "group_index": 1,
+        "dtg": "2026-04-03T09:26:00",
+        "raw_dtg": "030926Z APR 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "body": "HYDROARC 44/26.\nGREENLAND SEA.\nNORWEGIAN SEA.\nNORWAY.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   2005Z TO 2050Z DAILY 08 THRU 19 APR\n   IN AREAS BOUND BY:\n   A. 68-59.33N 015-28.05E, 69-13.37N 015-58.52E,\n      70-53.83N 014-10.90E, 70-41.62N 012-51.94E.\n   B. 71-03.42N 015-12.97E, 74-15.83N 009-52.26E,\n      76-50.36N 003-23.81E, 79-11.76N 006-04.25W,\n      79-55.85N 010-21.89W, 79-41.45N 011-34.89W,\n      78-03.47N 004-13.38W, 76-01.02N 002-00.03E,\n      73-32.12N 007-12.24E, 70-30.12N 011-37.50E.\n2. CANCEL THIS MSG 192150Z APR 26.",
+        "cancel_date": null,
+        "valid_from": "2026-04-03T09:26:00+00:00",
+        "valid_until": "2026-04-19T21:50:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Launch Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 44/26#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.216166666666666,
+              71.057
+            ],
+            [
+              9.871,
+              74.26383333333334
+            ],
+            [
+              3.3968333333333334,
+              76.83933333333333
+            ],
+            [
+              -6.070833333333334,
+              79.196
+            ],
+            [
+              -10.364833333333333,
+              79.93083333333334
+            ],
+            [
+              -11.5815,
+              79.69083333333333
+            ],
+            [
+              -4.223,
+              78.05783333333333
+            ],
+            [
+              2.0005,
+              76.017
+            ],
+            [
+              7.204,
+              73.53533333333333
+            ],
+            [
+              11.625,
+              70.502
+            ],
+            [
+              15.216166666666666,
+              71.057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 44/26",
+        "group_index": 2,
+        "dtg": "2026-04-03T09:26:00",
+        "raw_dtg": "030926Z APR 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "body": "HYDROARC 44/26.\nGREENLAND SEA.\nNORWEGIAN SEA.\nNORWAY.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   2005Z TO 2050Z DAILY 08 THRU 19 APR\n   IN AREAS BOUND BY:\n   A. 68-59.33N 015-28.05E, 69-13.37N 015-58.52E,\n      70-53.83N 014-10.90E, 70-41.62N 012-51.94E.\n   B. 71-03.42N 015-12.97E, 74-15.83N 009-52.26E,\n      76-50.36N 003-23.81E, 79-11.76N 006-04.25W,\n      79-55.85N 010-21.89W, 79-41.45N 011-34.89W,\n      78-03.47N 004-13.38W, 76-01.02N 002-00.03E,\n      73-32.12N 007-12.24E, 70-30.12N 011-37.50E.\n2. CANCEL THIS MSG 192150Z APR 26.",
+        "cancel_date": null,
+        "valid_from": "2026-04-03T09:26:00+00:00",
+        "valid_until": "2026-04-19T21:50:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Launch Area"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 028/26",
       "geometry": {
         "type": "Point",
@@ -3083,6 +3199,56 @@
         "summary": null,
         "category": "military",
         "title": "Missile Firings Barents"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 44/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              70.06
+            ],
+            [
+              35.43833333333333,
+              70.06
+            ],
+            [
+              35.43833333333333,
+              69.525
+            ],
+            [
+              33.63333333333333,
+              69.525
+            ],
+            [
+              33.63333333333333,
+              70.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "",
+        "msg_id": "NAVAREA XX 44/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 122000 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 44/26 BARENTS SEA. CHART RUS 10100. 1. MISSILE AND ARTILLERY FIRINGS 0500 TO 1900 UTC DAILY 07 TO 12 APR NAVIGATION PROHIBITED IN TERRITORIAL WATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY: 70-03.6N 033-38.0E, 70-03.6N 035-26.3E, 69-31.5N 035-26.3E, 69-31.5N 033-38.0E. 2. CANCEL THIS MSG 122000 UTC APR 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-01-01T00:00:00+00:00",
+        "valid_until": "2026-04-12T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Artillery Firings"
       }
     },
     {
@@ -5781,6 +5947,144 @@
         "summary": null,
         "category": "military",
         "title": "Artillery Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 134/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.0,
+              69.565
+            ],
+            [
+              33.13733333333333,
+              69.5375
+            ],
+            [
+              33.21666666666667,
+              69.53333333333333
+            ],
+            [
+              33.21666666666667,
+              69.50566666666667
+            ],
+            [
+              33.13733333333333,
+              69.4735
+            ],
+            [
+              33.073166666666665,
+              69.45133333333334
+            ],
+            [
+              32.83833333333333,
+              69.56666666666666
+            ],
+            [
+              33.0,
+              69.565
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-04T01:31:43.991618+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 134/26 КАРТА 13004 МОТОВСКИЙ ЗАЛИВ И БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 134/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 091000 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПЕРЕДАВАТЬ 6 СУТОК\nПРИП МУРМАНСК 134 КАРТА 13004\nМОТОВСКИЙ ЗАЛИВ И БАРЕНЦЕВО МОРЕ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 08 АПР 1100 ДО 1400\nИ 09 АПР 0600 ДО 0900 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-33.90С 033-00.00В\n69-32.25С 033-08.24В\n69-32.00С 033-13.00В\n69-30.34С 033-13.00В\n69-28.41С 033-08.24В\n69-27.08С 033-04.39В\n69-34.00С 032-50.30В\n2. ОТМ ЭТОТ НР 091000 АПР=\n031000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-04T01:31:43.991618+00:00",
+        "valid_until": "2026-04-09T10:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 135/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.40222222222222,
+              69.28555555555555
+            ],
+            [
+              33.55,
+              69.25666666666666
+            ],
+            [
+              33.480000000000004,
+              69.2125
+            ],
+            [
+              33.40222222222222,
+              69.28555555555555
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-04T01:31:43.991178+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 135/26 КАРТА 15005 КОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 135/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 101000 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПЕРЕДАВАТЬ 7 СУТОК\nПРИП МУРМАНСК 135 КАРТА 15005\nКОЛЬСКИЙ ЗАЛИВ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 10 АПР 0700 ДО 0900\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-17-08С 033-24-08В\n69-15-24С 033-33-00В\n69-12-45С 033-28-48В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-17-08С 033-24-08В\nИСКЛЮЧАЯ ОСТРОВА И ГУБЫ\n2. ОТМ ЭТОТ НР 101000 АПР=\n031000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-04T01:31:43.991178+00:00",
+        "valid_until": "2026-04-10T10:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 136/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.38666666666666,
+          69.08
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-04T01:31:43.990512+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 136/26 КАРТА 17053 КОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 136/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 060720 UTC APR 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 136 КАРТА 17053\nКОЛЬСКИЙ ЗАЛИВ\n1. ШВАРТОВНАЯ БОЧКА ДРЕЙФУЕТ 030720 АПР\nВ 69-04.8С 033-23.2В\n2. ОТМ ЭТОТ НР 060720 АПР=\n031030 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-04T01:31:43.990512+00:00",
+        "valid_until": "2026-04-06T07:20:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Drifting Mooring Buoy"
       }
     },
     {
