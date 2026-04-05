@@ -339,6 +339,90 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 181/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.708333333333334,
+          55.55166666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-04T03:23:00",
+        "raw_dtg": "040323Z APR 26",
+        "msg_id": "DANISH NAV WARN 181/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[The Sound] DANISH NAV WARN 181/26\nDENMARK. SOUND.\nPORT HAND LIGHT BUOY NO 16 55-33.1N\n012-42.5E MISSING",
+        "cancel_date": null,
+        "valid_from": "2026-04-04T03:23:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Buoy No 16 Missing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DANISH NAV WARN 183/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.705,
+          55.565
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-04T11:27:00",
+        "raw_dtg": "041127Z APR 26",
+        "msg_id": "DANISH NAV WARN 183/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[The Sound] DANISH NAV WARN 183/26\nDENMARK. SOUND. DROGDEN.\nAN UNCHARTED OBSTRUCTION OBSERVED\n55-33.9N 012-42.3E.\nOBSTRUCTION VISIBLE ABOVE SEA SURFACE\nAND IS A RED BUOY.\nMARINERS ARE ADVISED TO KEEP WELL\nCLEAR.",
+        "cancel_date": null,
+        "valid_from": "2026-04-04T11:27:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Uncharted Obstruction Sighted"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DANISH NAV WARN 185/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.703333333333333,
+          55.575
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-04T19:20:00",
+        "raw_dtg": "041920Z APR 26",
+        "msg_id": "DANISH NAV WARN 185/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[The Sound] DANISH NAV WARN 185/26\n041908 UTC APR\nDANISH NAV WARN 185/26\nDENMARK. BALTIC SEA.\nA RED LIGHT BUOY SHOWING Q.R HAS BEEN\nOBSERVED 55-34.5N 012-42.2E\nMARINERS ARE ADVISED TO KEEP WELL CLEAR.",
+        "cancel_date": null,
+        "valid_from": "2026-04-04T19:20:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Red Light Buoy Notice"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 024/26",
       "geometry": {
         "type": "Point",
