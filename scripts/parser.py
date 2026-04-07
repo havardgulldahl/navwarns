@@ -209,6 +209,18 @@ def _to_geojson_lists(obj):
     return obj
 
 
+def _ensure_closed_ring(
+    coords: List[Tuple[float, float]],
+) -> List[Tuple[float, float]]:
+    """Return a polygon ring with first point repeated at the end."""
+    if len(coords) < 3:
+        return coords
+    closed_coords = list(coords)
+    if closed_coords[0] != closed_coords[-1]:
+        closed_coords.append(closed_coords[0])
+    return closed_coords
+
+
 def _build_shapely_geometry(
     geometry: Optional[str],
     coords: List[Tuple[float, float]],
@@ -229,7 +241,8 @@ def _build_shapely_geometry(
         geom = MultiPoint([(lon, lat) for (lat, lon) in coords])
         return _normalize_geom(geom)
     if geom_type == "polygon" and len(coords) >= 3:
-        geom = Polygon([(lon, lat) for (lat, lon) in coords])
+        closed_coords = _ensure_closed_ring(coords)
+        geom = Polygon([(lon, lat) for (lat, lon) in closed_coords])
         return _normalize_geom(geom)
     # Default / point
     lat, lon = coords[0]
@@ -464,10 +477,7 @@ class NavwarnMessage:
             # Always treat groups of 3+ as polygons for PRIP conventions
             if len(grp) >= 3:
                 group_geom_type = "polygon"
-                # Ensure polygon is closed
-                closed_grp = list(grp)
-                if closed_grp[0] != closed_grp[-1]:
-                    closed_grp.append(closed_grp[0])
+                closed_grp = _ensure_closed_ring(grp)
             else:
                 closed_grp = grp
                 if len(grp) == 2:
@@ -963,6 +973,8 @@ def analyze_geometry(
                 "AREAS BOUND BY",
                 "BOUNDED BY",
                 "BOUND BY",
+                "TEMPORARILY DANGEROUS",  # Baltic NAVTEX: prohibited zone
+                "TEMPORARILY RESTRICTED",
                 "РАЙОНЕ",  # Russian: area/zone
             ]
             if any(keyword in text for keyword in polygon_keywords):

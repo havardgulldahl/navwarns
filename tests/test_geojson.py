@@ -1,6 +1,7 @@
 import pytest
 from shapely.geometry import shape
 from scripts.parser import NavwarnMessage
+from scripts.scraper_navtex_sweden import serialize_message
 from datetime import datetime
 
 
@@ -89,3 +90,16 @@ def test_invalid_polygon_is_made_valid():
     assert g is not None
     geom = shape(g)
     assert geom.is_valid
+
+
+def test_swedish_serializer_polygon_closure():
+    msg = build_msg(
+        "polygon",
+        [(10.0, 20.0), (10.5, 20.5), (10.0, 21.0)],
+    )
+    feat = serialize_message(msg)
+    ring = feat["geometry"]["coordinates"][0]
+
+    assert ring[0] == ring[-1]
+    assert len(ring) == 4
+    assert feat["properties"]["summary"] is None
