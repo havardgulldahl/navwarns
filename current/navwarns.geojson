@@ -6323,6 +6323,36 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 137/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5,
+          69.39833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-07T01:32:01.454918+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 137/26 КАРТА 11114 КНИГА 3003\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 137/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 212100 UTC APR 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. МОРСКОЙ РАДИОМАЯК СЕТЬНАВОЛОКСКИЙ 69-23.9С 033-30.0В НР 1250\nВКЛЮЧАЕТСЯ В РАБОТУ 092100 ПО 212100 АПР\n2. ОТМ ЭТОТ НР 212100 АПР=\n061000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-07T01:32:01.454918+00:00",
+        "valid_until": "2026-04-21T21:00:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Radio Beacon Activation"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 146/20",
       "geometry": {
         "type": "Polygon",
@@ -12073,6 +12103,81 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP WEST 13/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.365,
+          76.48333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-07T01:32:01.457037+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 13/26 КАРТА 11124 КАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 13/26",
+        "year": 2026,
+        "cancellations": [
+          "12/26",
+          "THIS MSG 070300 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.ОБЛОМОК АЙСБЕРГА 040300 АПР В 76-29.0С 072-21.9В\n2.ОТМ ЭТОТ НР 070300 АПР\n3.ОТМ 12/26 И ЭТОТ ПУНКТ= \n\nCOASTAL WARNING WEST 13/26 KARA SEA.\nCHART RUS 11124.\n1.FRAGMENT OF ICEBERG AT 040300 UTC APR IN: 76-29.0N 072-21.9E.\n2.CANCEL THIS MSG 070300 UTC APR 26\n3.CANCEL 12/26 AND THIS PARA.=\n NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-07T01:32:01.457037+00:00",
+        "valid_until": "2026-04-07T03:00:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg Fragment Alert"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 14/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            67.57666666666667,
+            77.345
+          ],
+          [
+            67.43333333333334,
+            77.28166666666667
+          ],
+          [
+            67.57666666666667,
+            77.345
+          ],
+          [
+            67.43333333333334,
+            77.28166666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-07T01:32:01.456715+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 14/26 КАРТА 11122 БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP WEST 14/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 071557 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1.АЙСБЕРГИ 041557 АПР В А. 77-20.7С 067-34.6В\nБ. 77-16.9С 067-26.0В\n2.ОТМ ЭТОТ НР 071557 АПР=\n \nCOASTAL WARNING WEST 14/26 BARENTS SEA.\nCHART RUS 11122.\n1.ICEBERGS AT 041557 UTC APR IN: A. 77-20.7N 067-34.6E.\nB. 77-16.9N 067-26.0E.\n2.CANCEL THIS MSG 071557 UTC APR 26.=\n NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-07T01:32:01.456715+00:00",
+        "valid_until": "2026-04-07T15:57:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Icebergs in Barents Sea"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 144/20",
       "geometry": {
         "type": "MultiPoint",
@@ -15436,6 +15541,34 @@
         "summary": null,
         "category": "navigation",
         "title": "Unreliable Falsterborev Light"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SWEDISH NAV WARN 057/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.163333333333334,
+          57.06
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-06T14:22:00",
+        "raw_dtg": "061422Z APR 26",
+        "msg_id": "SWEDISH NAV WARN 057/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Kattegat] SWEDISH NAV WARN 057/26\nKATTEGAT. VARBERG.\nANCHORAGE VICTOR. ANCHOR AND 3 SHACKLES OF CHAIN LOST. PSN 57-03.6N 012-09.8E",
+        "cancel_date": null,
+        "valid_from": "2026-04-06T14:22:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Lost Anchor Varberg"
       }
     }
   ]
