@@ -605,6 +605,34 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 194/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.595,
+          57.748333333333335
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-08T07:45:00",
+        "raw_dtg": "080745Z APR 26",
+        "msg_id": "DANISH NAV WARN 194/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Skagerrak] DANISH NAV WARN 194/26\nSKAGERRAK.\nDGPS-STATION SKAGEN 296.0 KHZ\n57-44.9N 010-35.7E\nUNRELIABLE.",
+        "cancel_date": null,
+        "valid_from": "2026-04-08T07:45:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "DGPS Skagen Unreliable"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 024/26",
       "geometry": {
         "type": "Point",
@@ -12436,6 +12464,36 @@
         "summary": null,
         "category": "navigation",
         "title": "GPS Station Inoperative"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 16/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.69666666666667,
+          76.18833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-09T01:31:54.606859+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 16/26 КАРТА 11124 КАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 16/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 110100 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. ОБЛОМОК АЙСБЕРГА 080100 АПР В\n76-11.3С 071-41.8В\n2. ОТМ ЭТОТ НР 110100 АПР=\n\nCOASTAL WARNING WEST 16/26\nKARA SEA.\nCHART RUS 11124.\n1. FRAGMENT OF ICEBERG AT 080100 UTC APR IN:\n76-11.3N 071-41.8E.\n2. CANCEL THIS MSG 110100 UTC APR 26.=",
+        "cancel_date": null,
+        "valid_from": "2026-04-09T01:31:54.606859+00:00",
+        "valid_until": "2026-04-11T01:00:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg Fragment Detected"
       }
     },
     {
