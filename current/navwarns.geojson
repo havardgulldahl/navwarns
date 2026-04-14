@@ -2905,6 +2905,62 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XIX 52/26",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            20.343333333333334,
+            72.52333333333333
+          ],
+          [
+            22.2475,
+            71.24333333333334
+          ],
+          [
+            7.3966666666666665,
+            65.86166666666666
+          ],
+          [
+            7.663166666666667,
+            65.70633333333333
+          ],
+          [
+            7.2,
+            65.51666666666667
+          ],
+          [
+            7.261666666666667,
+            65.31166666666667
+          ],
+          [
+            7.333333333333333,
+            65.36166666666666
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-13T06:30:00",
+        "raw_dtg": "130630Z APR 26",
+        "msg_id": "NAVAREA XIX 52/26",
+        "year": 2026,
+        "cancellations": [
+          "39/26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "multipoint",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 52/26\n\n\n\n1. RIGLIST. CORRECT AT  130630 UTC APR 26\n\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n\n\n72-31.40N 020-20.60E TRANSOCEAN ENABLER\n\n71-14.60N 022-14.85E COSL PROSPECTOR\n\n65-51.70N 007-23.80E SCARABEO 8\n\n65-42.38N 007-39.79E FLOATEL ENDURANCE\n\n65-31.00N 007-12.00E TRANSOCEAN NORGE\n\n65-18.70N 007-15.70E ISLAND INNOVATOR\n\n65-21.70N 007-20.00E TRANSOCEAN ENCOURAGE\n\n\n\nNOTES:\n\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX　39/26",
+        "cancel_date": null,
+        "valid_from": "2026-04-13T06:30:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Offshore Rigs Positions"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "NAVAREA XX 182/25",
       "geometry": {
         "type": "MultiPolygon",
@@ -7415,6 +7471,100 @@
         "summary": null,
         "category": "military",
         "title": "Restricted Area April-May"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 142/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.45888888888889,
+              69.3
+            ],
+            [
+              33.59722222222222,
+              69.3
+            ],
+            [
+              33.57833333333333,
+              69.2
+            ],
+            [
+              33.50416666666667,
+              69.2
+            ],
+            [
+              33.49611111111111,
+              69.20222222222222
+            ],
+            [
+              33.49333333333333,
+              69.20722222222223
+            ],
+            [
+              33.48777777777778,
+              69.22972222222222
+            ],
+            [
+              33.480000000000004,
+              69.25583333333333
+            ],
+            [
+              33.48111111111111,
+              69.26027777777777
+            ],
+            [
+              33.46055555555556,
+              69.26027777777777
+            ],
+            [
+              33.4,
+              69.27027777777778
+            ],
+            [
+              33.4,
+              69.285
+            ],
+            [
+              33.4,
+              69.29222222222222
+            ],
+            [
+              33.4,
+              69.29666666666667
+            ],
+            [
+              33.406666666666666,
+              69.29666666666667
+            ],
+            [
+              33.45888888888889,
+              69.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-14T01:32:17.101513+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 142/26 ПРИП МУРМАНСК 142 КАРТА 15005\r\n\r\nСЕВЕРНАЯ ЧАСТЬ КОЛЬСКОГО ЗАЛИВА",
+        "msg_id": "PRIP MURMANSK 142/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 170900 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 16 ПО 17 АПР\n0700 ДО 0800 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-18-00С 033-27-32В\n69-18-00С 033-35-50В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-12-00С 033-34-42В\n69-12-00С 033-30-15В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-12-08С 033-29-46В\n69-12-26С 033-29-36В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-13-47С 033-29-16В\n69-15-21С 033-28-48В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-15-37С 033-28-52В\n69-15-37С 033-27-38В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-16-13С 033-24-00В\n69-17-06С 033-24-00В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-17-32С 033-24-00В\n69-17-48С 033-24-00В\n69-17-48С 033-24-24В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-18-00С 033-27-32В\nИСКЛЮЧАЯ ОСТРОВА\n2. ОТМ ЭТОТ НР 170900 АПР=\n131000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-14T01:32:17.101513+00:00",
+        "valid_until": "2026-04-17T09:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Exercise"
       }
     },
     {
@@ -14008,6 +14158,50 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP WEST 22/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            69.76333333333334,
+            76.98166666666667
+          ],
+          [
+            70.46166666666667,
+            76.86333333333333
+          ],
+          [
+            69.76333333333334,
+            76.98166666666667
+          ],
+          [
+            70.46166666666667,
+            76.86333333333333
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-14T01:32:17.104322+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 22/26 КАРТА 11124\r\nКАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 22/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 150720 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "ПРИП ЗАПАД 22/26 КАРТА 11124\nКАРСКОЕ МОРЕ\n1. АЙСБЕРГИ 120720 АПР В\nА. 76-58.9С 069-45.8В\nБ. 76-51.8С 070-27.7В\n2. ОТМ ЭТОТ НР 150720 АПР =\nCOASTAL WARNING WEST 22/26\nKARA SEA.\nCHART RUS 11124.\n1. ICEBERGS AT 120720 UTC APR IN:\nA. 76-58.9N 069-45.8E.\nB. 76-51.8N 070-27.7E.\n2. CANCEL THIS MSG 150720 UTC APR 26",
+        "cancel_date": null,
+        "valid_from": "2026-04-14T01:32:17.104322+00:00",
+        "valid_until": "2026-04-15T07:20:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Icebergs Reported Kara Sea"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 229/25",
       "geometry": {
         "type": "MultiPoint",
@@ -14196,6 +14390,50 @@
         "summary": null,
         "category": "navigation",
         "title": "Semi-submerged Vessel Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 23/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            69.88833333333334,
+            77.05333333333333
+          ],
+          [
+            71.525,
+            76.36
+          ],
+          [
+            69.88833333333334,
+            77.05333333333333
+          ],
+          [
+            71.525,
+            76.36
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-14T01:32:17.104087+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 23/26 КАРТА 11124\r\nКАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 23/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 160725 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "РИП ЗАПАД 23/26 КАРТА 11124\nКАРСКОЕ МОРЕ\n1. АЙСБЕРГИ 130725 АПР В\nА. 77-03.2С 069-53.3В\nБ. 76-21.6С 071-31.5В\n2. ОТМ ЭТОТ НР 160725 АПР =\n\nCOASTAL WARNING WEST 23/26\nKARA SEA.\nCHART RUS 11124.\n1. ICEBERGS AT 130725 UTC APR IN:\nA. 77-03.2N 069-53.3E.\nB. 76-21.6N 071-31.5E.\n2. CANCEL THIS MSG 160725 UTC APR 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-14T01:32:17.104087+00:00",
+        "valid_until": "2026-04-16T07:25:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Icebergs Reported"
       }
     },
     {
@@ -14590,6 +14828,36 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP WEST 24/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.51333333333334,
+          76.75
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-14T01:32:17.103866+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 24/26 КАРТА 11124 КАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 24/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 161035 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.АЙСБЕРГ 131035 АПР В 76-45.0С 072-30.8В\n2.ОТМ ЭТОТ НР 161035 АПР = \n\nCOASTAL WARNING WEST 24/26 KARA SEA.\nCHART RUS 11124.\n1.ICEBERG AT 131035 UTC APR IN: 76-45.0N 072-30.8E.\n2.CANCEL THIS MSG 161035 UTC APR 26.= \nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-14T01:32:17.103866+00:00",
+        "valid_until": "2026-04-16T10:35:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg in Kara Sea"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 241/25",
       "geometry": {
         "type": "Point",
@@ -14868,6 +15136,36 @@
         "summary": null,
         "category": "navigation",
         "title": "Least Depths Found"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 25/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.38833333333334,
+          77.19166666666666
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-14T01:32:17.103573+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 25/26 КАРТА 11124\r\nКАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 25/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 160900 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП ЗАПАД 25/26 КАРТА 11124\nКАРСКОЕ МОРЕ\n1. АЙСБЕРГ 130900 АПР В\n77-11.5С 069-23.3В\n2. ОТМ ЭТОТ НР 160900 АПР =\n\nCOASTAL WARNING WEST 25/26\nKARA SEA.\nCHART RUS 11124.\n1. ICEBERG AT 130900 UTC APR IN:\n77-11.5N 069-23.3E.\n2. CANCEL THIS MSG 160900 UTC APR 26.=",
+        "cancel_date": null,
+        "valid_from": "2026-04-14T01:32:17.103573+00:00",
+        "valid_until": "2026-04-16T09:00:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg in Kara Sea"
       }
     },
     {
