@@ -813,6 +813,34 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 214/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.773333333333333,
+          55.29833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-15T20:41:00",
+        "raw_dtg": "152041Z APR 26",
+        "msg_id": "DANISH NAV WARN 214/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] DANISH NAV WARN 214/26\nDENMARK.\nDGPS-STATION HAMMER ODDE 289.5 KHZ\n55-17.9N 014-46.4E UNRELIABLE.",
+        "cancel_date": null,
+        "valid_from": "2026-04-15T20:41:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Unreliable DGPS Station"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 024/26",
       "geometry": {
         "type": "Point",
@@ -4973,6 +5001,34 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XX 49/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4,
+          71.35
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "",
+        "msg_id": "NAVAREA XX 49/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "NAVAREA XX 49/26 BARENTS SEA. CHART RUS 10100. 1. DEAD WHALE ADRIFT 150430 APR IN: 71-21.0N 034-24.0E. 2. CANCEL THIS MSG 180430 APR 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-01-01T00:00:00+00:00",
+        "valid_until": "2026-04-18T04:30:00+00:00",
+        "summary": null,
+        "category": "accident",
+        "title": "Dead Whale Adrift"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PETERSBURG NAV WARN 007/26",
       "geometry": {
         "type": "LineString",
@@ -8271,6 +8327,86 @@
         "summary": null,
         "category": "military",
         "title": "Artillery Firing Exercise"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 143/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4,
+          71.35
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-16T01:32:16.872843+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 143/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 143/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 180430 UTC APR 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 143 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. МЕРТВЫЙ КИТ ДРЕЙФУЕТ 150430 АПР В 71-21.0С 034-24.0В\n2. ОТМ ЭТОТ НР 180430 АПР=\n151000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-16T01:32:16.872843+00:00",
+        "valid_until": "2026-04-18T04:30:00+00:00",
+        "summary": null,
+        "category": "accident",
+        "title": "Dead Whale Drifting"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 144/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.47666666666667,
+              69.30666666666667
+            ],
+            [
+              33.575,
+              69.29666666666667
+            ],
+            [
+              33.471666666666664,
+              69.08333333333333
+            ],
+            [
+              33.23166666666667,
+              69.08333333333333
+            ],
+            [
+              33.47666666666667,
+              69.30666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-16T01:32:16.871888+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 144/26 КАРТА 15004 КОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 144/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 302200 UTC APR 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 144 КАРТА 15004\nКОЛЬСКИЙ ЗАЛИВ\n1. СПЕЦИАЛЬНЫЕ РАБОТЫ 201700 ПО 210500\nИ 211700 ПО 220500 И 221700 ПО 230500\nИ 231700 ПО 240500 И 241700 ПО 250500\nИ 251700 ПО 260500 И 261700 ПО 270500\nИ 271700 ПО 280500 И 281700 ПО 290500\nИ 291700 ПО 300500 И 301700 ПО 302100 АПР\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-18.4С 033-28.6В\n69-17.8С 033-34.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-05.0С 033-28.3В\n69-05.0С 033-13.9В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-18.4С 033-28.6В\n2. ОТМ ЭТОТ НР 302200 АПР=\n151000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-16T01:32:16.871888+00:00",
+        "valid_until": "2026-04-30T22:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Special Operations Ban"
       }
     },
     {
