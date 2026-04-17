@@ -5709,6 +5709,34 @@
     },
     {
       "type": "Feature",
+      "id": "POLISH NAV WARN 077/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-16T12:30:00",
+        "raw_dtg": "161230Z APR 26",
+        "msg_id": "POLISH NAV WARN 077/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 077/26\n200600 UTC APR\nPOLISH NAV WARN 077/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\nBETWEEN 20 APR AND 25 APR\nFROM 06:00 TO 21:59\nZONE IS CLOSED\nCANCEL THIS MSG 252159 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-04-16T12:30:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercise Closure"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 10/26",
       "geometry": {
         "type": "Point",
@@ -8407,6 +8435,56 @@
         "summary": null,
         "category": "military",
         "title": "Special Operations Ban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 145/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.395,
+              70.75
+            ],
+            [
+              35.333333333333336,
+              70.75
+            ],
+            [
+              35.333333333333336,
+              69.79333333333334
+            ],
+            [
+              33.395,
+              69.79333333333334
+            ],
+            [
+              33.395,
+              70.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-17T01:32:04.433962+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 145/26 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 145/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 241800 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "МУРМАНСК 01 16/04 1500=\n \nПРИП МУРМАНСК 145 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 231200 ПО 241700 АПР\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО ИХ\nПРЕДЕЛАМИ РАЙОНЕ\n70-45.0С 033-23.7В\n70-45.0С 035-20.0В\n69-47.6С 035-20.0В\n69-47.6С 033-23.7В\n2. ОТМ ЭТОТ НР 241800 АПР=\n161000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-17T01:32:04.433962+00:00",
+        "valid_until": "2026-04-24T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Area"
       }
     },
     {
