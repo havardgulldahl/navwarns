@@ -949,6 +949,70 @@
     },
     {
       "type": "Feature",
+      "id": "ESTONIAN NAV WARN 054/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.298333333333332,
+              59.791666666666664
+            ],
+            [
+              25.573333333333334,
+              59.82333333333333
+            ],
+            [
+              25.911666666666665,
+              59.815
+            ],
+            [
+              25.908333333333335,
+              59.75333333333333
+            ],
+            [
+              25.838333333333335,
+              59.69166666666667
+            ],
+            [
+              25.615,
+              59.721666666666664
+            ],
+            [
+              25.538333333333334,
+              59.665
+            ],
+            [
+              25.301666666666666,
+              59.665
+            ],
+            [
+              25.298333333333332,
+              59.791666666666664
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-17T05:58:00",
+        "raw_dtg": "170558Z APR 26",
+        "msg_id": "ESTONIAN NAV WARN 054/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 054/26\nGULF OF FINLAND\n20-24 APR\nIN AREA BOUNDED BY:\n59-47.5N 025-17.9E\n59-49.4N 025-34.4E\n59-48.9N 025-54.7E\n59-45.2N 025-54.5E\n59-41.5N 025-50.3E\n59-43.3N 025-36.9E\n59-39.9N 025-32.3E\n59-39.9N 025-18.1E\nKEEP SAFE DISTANCE FROM\nNAVAL SHIPS 0,5 NM\nCANCEL 242100 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-04-17T05:58:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Naval Activity Warning"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "FINNISH NAV WARN 145/26",
       "geometry": {
         "type": "Point",
@@ -5029,6 +5093,107 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XX 50/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.395,
+              70.75
+            ],
+            [
+              35.333333333333336,
+              70.75
+            ],
+            [
+              35.333333333333336,
+              69.79333333333334
+            ],
+            [
+              33.395,
+              69.79333333333334
+            ],
+            [
+              33.395,
+              70.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "",
+        "msg_id": "NAVAREA XX 50/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 241800 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 50/26 BARENTS SEA. CHART RUS 10100. 1. MISSILE FIRINGS 231200 UTC TO 241700 UTC APR NAVIGATION PROHIBITED IN TERRITORIAL WATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY: 70-45.0N 033-23.7E, 70-45.0N 035-20.0E, 69-47.6N 035-20.0E, 69-47.6N 033-23.7E. 2. CANCEL THIS MSG 241800 UTC APR 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-01-01T00:00:00+00:00",
+        "valid_until": "2026-04-24T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firings Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 51/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.395,
+              70.75
+            ],
+            [
+              37.333333333333336,
+              70.75
+            ],
+            [
+              37.333333333333336,
+              69.79333333333334
+            ],
+            [
+              35.395,
+              69.79333333333334
+            ],
+            [
+              35.395,
+              70.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "",
+        "msg_id": "NAVAREA XX 51/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 241800 UTC APR 26",
+          "46/26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 51/26 BARENTS SEA. CHART RUS 10100. 1. MISSILE FIRINGS 231200 UTC TO 241700 UTC APR IN AREA DANGEROUS TO NAVIGATION BOUNDED BY: 70-45.0N 035-23.7E, 70-45.0N 037-20.0E, 69-47.6N 037-20.0E, 69-47.6N 035-23.7E. 2. CANCEL THIS MSG 241800 UTC APR 26. 3. CANCEL 46/26 AND THIS PARA.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-01-01T00:00:00+00:00",
+        "valid_until": "2026-04-24T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firings Alert"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PETERSBURG NAV WARN 007/26",
       "geometry": {
         "type": "LineString",
@@ -6061,6 +6226,56 @@
         "summary": null,
         "category": "military",
         "title": "Rocket Launches Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 26/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.77333333333333,
+              64.57583333333334
+            ],
+            [
+              39.57666666666667,
+              64.54583333333333
+            ],
+            [
+              39.63,
+              64.64166666666667
+            ],
+            [
+              39.70333333333333,
+              64.66583333333334
+            ],
+            [
+              39.77333333333333,
+              64.57583333333334
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-18T01:32:08.371193+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 26/26 КАРТА 16004",
+        "msg_id": "PRIP ARKHANGELSK 26/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 221100 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 26 КАРТА 16004\nДВИНСКИЙ ЗАЛИВ\n1.СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ  21 И 22 АПР \n0700 ДО 1000 РАЙОНЕ ЗАПРЕТНОМ  ДЛЯ ПЛАВАНИЯ \n64-34.55С 039-46.40В \n64-32.75С 039-34.60В \n64-38.50С 039-37.80В \n64-39.95С 039-42.20В \n2.ОТМ ЭТОТ НР 221100 АПР=\n161600 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-18T01:32:08.371193+00:00",
+        "valid_until": "2026-04-22T11:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Area"
       }
     },
     {
@@ -8541,6 +8756,57 @@
         "summary": null,
         "category": "navigation",
         "title": "Fish Farm Marked Buoys"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 146/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.395,
+              70.75
+            ],
+            [
+              37.333333333333336,
+              70.75
+            ],
+            [
+              37.333333333333336,
+              69.79333333333334
+            ],
+            [
+              35.395,
+              69.79333333333334
+            ],
+            [
+              35.395,
+              70.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-18T01:32:08.369291+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 146/26 ПРИП МУРМАНСК 146 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 146/26",
+        "year": 2026,
+        "cancellations": [
+          "138/26",
+          "THIS MSG 241800 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 146 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 231200 ПО 241700 АПР\nРАЙОНЕ ОПАСНОМ ДЛЯ ПЛАВАНИЯ\n70-45.0С 035-23.7В\n70-45.0С 037-20.0В\n69-47.6С 037-20.0В\n69-47.6С 035-23.7В\n2. ОТМ ЭТОТ НР 241800 АПР\n3. ОТМ 138/26 И ЭТОТ ПУНКТ=\n171000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-18T01:32:08.369291+00:00",
+        "valid_until": "2026-04-24T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Firing Barents"
       }
     },
     {
