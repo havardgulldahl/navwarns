@@ -2051,6 +2051,168 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 49/26#grp1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.833333333333332,
+              70.25
+            ],
+            [
+              31.833333333333332,
+              70.50183333333334
+            ],
+            [
+              31.721666666666668,
+              70.60616666666667
+            ],
+            [
+              32.08283333333333,
+              70.93333333333334
+            ],
+            [
+              33.86933333333333,
+              70.77116666666667
+            ],
+            [
+              35.220333333333336,
+              69.76366666666667
+            ],
+            [
+              34.303666666666665,
+              69.62833333333333
+            ],
+            [
+              33.18333333333333,
+              69.86666666666666
+            ],
+            [
+              32.666666666666664,
+              69.90183333333333
+            ],
+            [
+              31.833333333333332,
+              70.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 49/26",
+        "group_index": 1,
+        "dtg": "2026-04-20T15:02:00",
+        "raw_dtg": "201502Z APR 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "body": "HYDROARC 49/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0001Z TO 1600Z AND 2100Z TO 2359Z DAILY\n   UNTIL 29 AND 300001Z TO 301600Z APR\n   IN AREAS BOUND BY:\n   A. 70-15.00N 031-50.00E, 70-30.11N 031-50.00E,\n      70-36.37N 031-43.30E, 70-56.00N 032-04.97E,\n      70-46.27N 033-52.16E, 69-45.82N 035-13.22E,\n      69-37.70N 034-18.22E, 69-52.00N 033-11.00E,\n      69-54.11N 032-40.00E.\n   B. 72-47.18N 029-27.88E, 73-01.54N 030-54.23E,\n      71-53.17N 032-54.86E, 71-39.55N 031-25.22E.\n2. CANCEL THIS MSG 301700Z APR 26.",
+        "cancel_date": null,
+        "valid_from": "2026-04-20T15:02:00+00:00",
+        "valid_until": "2026-04-30T17:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Launch Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 49/26#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.464666666666666,
+              72.78633333333333
+            ],
+            [
+              30.903833333333335,
+              73.02566666666667
+            ],
+            [
+              32.91433333333333,
+              71.88616666666667
+            ],
+            [
+              31.420333333333332,
+              71.65916666666666
+            ],
+            [
+              29.464666666666666,
+              72.78633333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 49/26",
+        "group_index": 2,
+        "dtg": "2026-04-20T15:02:00",
+        "raw_dtg": "201502Z APR 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "body": "HYDROARC 49/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0001Z TO 1600Z AND 2100Z TO 2359Z DAILY\n   UNTIL 29 AND 300001Z TO 301600Z APR\n   IN AREAS BOUND BY:\n   A. 70-15.00N 031-50.00E, 70-30.11N 031-50.00E,\n      70-36.37N 031-43.30E, 70-56.00N 032-04.97E,\n      70-46.27N 033-52.16E, 69-45.82N 035-13.22E,\n      69-37.70N 034-18.22E, 69-52.00N 033-11.00E,\n      69-54.11N 032-40.00E.\n   B. 72-47.18N 029-27.88E, 73-01.54N 030-54.23E,\n      71-53.17N 032-54.86E, 71-39.55N 031-25.22E.\n2. CANCEL THIS MSG 301700Z APR 26.",
+        "cancel_date": null,
+        "valid_from": "2026-04-20T15:02:00+00:00",
+        "valid_until": "2026-04-30T17:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Launching Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 50/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.395,
+              70.75
+            ],
+            [
+              35.333333333333336,
+              70.75
+            ],
+            [
+              35.333333333333336,
+              69.79333333333334
+            ],
+            [
+              33.395,
+              69.79333333333334
+            ],
+            [
+              33.395,
+              70.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-20T18:55:00",
+        "raw_dtg": "201855Z APR 26",
+        "msg_id": "HYDROARC 50/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 241800Z APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 50/26.\nBARENTS SEA.\nRUSSIA.\n1. MISSILE OPERATIONS 231200Z TO 241700Z APR\n   IN AREA BOUND BY\n   70-45.00N 033-23.70E, 70-45.00N 035-20.00E,\n   69-47.60N 035-20.00E, 69-47.60N 033-23.70E.\n2. CANCEL THIS MSG 241800Z APR 26.",
+        "cancel_date": null,
+        "valid_from": "2026-04-20T18:55:00+00:00",
+        "valid_until": "2026-04-24T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Operations"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 028/26",
       "geometry": {
         "type": "Point",
@@ -5272,6 +5434,114 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XX 53/26",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                33.395,
+                70.75
+              ],
+              [
+                35.333333333333336,
+                70.75
+              ],
+              [
+                35.333333333333336,
+                70.72050277777778
+              ],
+              [
+                34.395,
+                70.27166666666668
+              ],
+              [
+                33.395,
+                70.75
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                35.395,
+                70.75
+              ],
+              [
+                37.333333333333336,
+                70.75
+              ],
+              [
+                37.333333333333336,
+                69.79333333333334
+              ],
+              [
+                35.395,
+                69.79333333333334
+              ],
+              [
+                35.333333333333336,
+                69.82283055555556
+              ],
+              [
+                35.333333333333336,
+                70.72050277777778
+              ],
+              [
+                35.395,
+                70.75
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                35.333333333333336,
+                69.79333333333334
+              ],
+              [
+                33.395,
+                69.79333333333334
+              ],
+              [
+                34.395,
+                70.27166666666668
+              ],
+              [
+                35.333333333333336,
+                69.82283055555556
+              ],
+              [
+                35.333333333333336,
+                69.79333333333334
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "",
+        "msg_id": "NAVAREA XX 53/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 251800 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 53/26 BARENTS SEA. CHART RUS 10100. 1. MISSILE FIRINGS 241200 UTC TO 251700 UTC APR NAVIGATION PROHIBITED IN TERRITORIAL WATERS DANGEROUS OUTSIDE IN AREAS BOUNDED BY: A. 70-45.0N 033-23.7E, 70-45.0N 035-20.0E, 69-47.6N 035-20.0E, 69-47.6N 033-23.7E. B. 70-45.0N 035-23.7E, 70-45.0N 037-20.0E, 69-47.6N 037-20.0E, 69-47.6N 035-23.7E. 2. CANCEL THIS MSG 251800 UTC APR 26. NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-01-01T00:00:00+00:00",
+        "valid_until": "2026-04-25T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firings Barents"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PETERSBURG NAV WARN 007/26",
       "geometry": {
         "type": "LineString",
@@ -6354,6 +6624,60 @@
         "summary": null,
         "category": "military",
         "title": "Artillery Firing Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 27/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.526666666666664,
+              64.545
+            ],
+            [
+              39.63,
+              64.64166666666668
+            ],
+            [
+              39.705000000000005,
+              64.665
+            ],
+            [
+              39.72166666666667,
+              64.64166666666668
+            ],
+            [
+              39.72166666666667,
+              64.56833333333333
+            ],
+            [
+              39.526666666666664,
+              64.545
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-21T01:32:09.677600+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 27/26  КАРТА 16004",
+        "msg_id": "PRIP ARKHANGELSK 27/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 221100 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 27 КАРТА 16004\nДВИНСКИЙ ЗАЛИВ\n1.СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ  21 И 22 АПР \n0700 ДО 1000 РАЙОНЕ ЗАПРЕТНОМ  ДЛЯ ПЛАВАНИЯ \n64-32-42С 039-31-36В\n64-38-30С 039-37-48В\n64-39-54С 039-42-18В\n64-38-30С 039-43-18В\n64-34-06С 039-43-18В\n2.ОТМ ЭТОТ НР 221100 АПР=\n201100 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-21T01:32:09.677600+00:00",
+        "valid_until": "2026-04-22T11:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Zone"
       }
     },
     {
@@ -8937,6 +9261,98 @@
         "summary": null,
         "category": "navigation",
         "title": "Buoys and Lights Deployed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 147/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.395,
+          69.29333333333334
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-21T01:32:09.675923+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 147/26 КАРТА 15005 КНИГА 2103 КОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 147/26",
+        "year": 2026,
+        "cancellations": [
+          "38/25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. БУЙ СЕВЕРНЫЙ 69-17.6С 033-23.7В НР 338 СНЯТ\n2. ОТМ 38/25 И ЭТОТ ПУНКТ=\n201000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-21T01:32:09.675923+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Buoy Removed Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 148/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.395,
+            70.75
+          ],
+          [
+            35.333333333333336,
+            70.75
+          ],
+          [
+            35.333333333333336,
+            69.79333333333334
+          ],
+          [
+            33.395,
+            69.79333333333334
+          ],
+          [
+            35.395,
+            70.75
+          ],
+          [
+            37.333333333333336,
+            70.75
+          ],
+          [
+            37.333333333333336,
+            69.79333333333334
+          ],
+          [
+            35.395,
+            69.79333333333334
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-21T01:32:09.675099+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 148/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 148/26",
+        "year": 2026,
+        "cancellations": [
+          "145/26",
+          "146/26",
+          "THIS MSG 251800 UTC APR 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ РАКЕТНЫЕ 241200 ПО 251700 АПР\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО ИХ\nПРЕДЕЛАМИ РАЙОНАХ\nА. 70-45.0С 033-23.7В\n   70-45.0С 035-20.0В\n   69-47.6С 035-20.0В\n   69-47.6С 033-23.7В\nБ. 70-45.0С 035-23.7В\n   70-45.0С 037-20.0В\n   69-47.6С 037-20.0В\n   69-47.6С 035-23.7В\n2. ОТМ ЭТОТ НР 251800 АПР\n3. ОТМ 145/26 146/26 И ЭТОТ ПУНКТ=\n201000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-21T01:32:09.675099+00:00",
+        "valid_until": "2026-04-25T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Firing Danger"
       }
     },
     {
@@ -16862,6 +17278,126 @@
         "summary": null,
         "category": "navigation",
         "title": "Deepwater Routes Updated"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 26/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.40333333333334,
+          77.00833333333334
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-21T01:32:09.679109+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 26/26 КАРТА 11124  КАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 26/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 220150 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.\tАЙСБЕРГ 1901500 АПР В 77-00.5С 070-24.2В\n2.\tОТМ ЭТОТ НР 220150 АПР = \nCOASTAL WARNING WEST 26/26 KARA SEA.\nCHART RUS 11124.\n1.\tICEBERG AT 190150 UTC APR IN: 77-00.5N 070-24.2E.\n2.\tCANCEL THIS MSG 220150 UTC APR 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-21T01:32:09.679109+00:00",
+        "valid_until": "2026-04-22T01:50:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg Location Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 27/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.43333333333334,
+          77.01
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-21T01:32:09.678842+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 27/26 КАРТА 11124 КАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 27/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 220250 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.\tАЙСБЕРГ 1902500 АПР В 77-00.6С 070-26.0В\n2.\tОТМ ЭТОТ НР 220250 АПР = \nCOASTAL WARNING WEST 27/26 KARA SEA.\nCHART RUS 11124.\n1.\tICEBERG AT 190250 UTC APR IN: 77-00.6N 070-26.0E.\n2.\tCANCEL THIS MSG 220250 UTC APR 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-21T01:32:09.678842+00:00",
+        "valid_until": "2026-04-22T02:50:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg in Kara Sea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 28/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.53833333333333,
+          77.12333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-21T01:32:09.678548+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 28/26 11124 КАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 28/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 230116 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.\tАЙСБЕРГ 200116 АПР В 77-07.4С 070-32.3В\n2.\tОТМ ЭТОТ НР 230116 АПР = \nCOASTAL WARNING WEST 28/26 KARA SEA.\nCHART RUS 11124.\n1.\tICEBERG AT 200116 UTC APR IN: 77-07.4N 070-32.3E.\n2.\tCANCEL THIS MSG 230116 UTC APR 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-21T01:32:09.678548+00:00",
+        "valid_until": "2026-04-23T01:16:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg in Kara Sea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 29/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.57166666666667,
+          77.145
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-21T01:32:09.678165+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 29/26 26 КАРТА 11124 КАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 29/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 230420 UTC APR 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.\tАЙСБЕРГ 200420 АПР В 77-08.7С 070-34.3В\n2.\tОТМ ЭТОТ НР 230420 АПР = \nCOASTAL WARNING WEST 29/26 KARA SEA.\nCHART RUS 11124.\n1.\tICEBERG AT 200420UTC APR IN: 77-08.7N 070-34.3E.\n2.\tCANCEL THIS MSG 230420 UTC APR 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-21T01:32:09.678165+00:00",
+        "valid_until": "2026-04-23T04:20:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg Hazard Kara Sea"
       }
     },
     {
