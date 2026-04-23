@@ -3,6 +3,80 @@
   "features": [
     {
       "type": "Feature",
+      "id": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            58.733333333333334,
+            74.21666666666667
+          ],
+          [
+            59.733333333333334,
+            74.56666666666666
+          ],
+          [
+            60.61666666666667,
+            74.43333333333334
+          ],
+          [
+            59.766666666666666,
+            74.06666666666666
+          ],
+          [
+            57.18333333333333,
+            73.43333333333334
+          ],
+          [
+            57.833333333333336,
+            73.75
+          ],
+          [
+            58.86666666666667,
+            73.61666666666666
+          ],
+          [
+            58.31666666666667,
+            73.28333333333333
+          ],
+          [
+            55.56666666666667,
+            72.21666666666667
+          ],
+          [
+            55.95,
+            72.66666666666667
+          ],
+          [
+            57.06666666666667,
+            72.63333333333334
+          ],
+          [
+            56.88333333333333,
+            72.2
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "",
+        "msg_id": null,
+        "year": null,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "НАВАРЕА 200 182/25 КАРТА 11126 КАРСКОЕ МОРЕ 1. СПЕЦИАЛЬНЫЕ РАБОТЫ 01 ЯНВ ПО 30 ИЮНЯ ПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНАХ А. 74-13.0С 058-44.0В ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО 74-34.0С 059-44.0В 74-26.0С 060-37.0В 74-04.0С 059-46.0В Б. 73-26.0С 057-11.0В ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ 73-45.0С 057-50.0В 73-37.0С 058-52.0В 73-17.0С 058-19.0В В. 72-13.0С 055-34.0В ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ 72-40.0С 055-57.0В 72-38.0С 057-04.0В 72-12.0С 056-53.0В 2. ОТМ ЭТОТ НР 01 ИЮЛЬ= НННН",
+        "cancel_date": null,
+        "valid_from": null,
+        "valid_until": null,
+        "summary": null,
+        "category": "other",
+        "title": "Special Works Area"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ANDOYA_Danger_Area_Sea_Inner",
       "geometry": {
         "type": "Polygon",
@@ -7080,6 +7154,64 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP ARKHANGELSK 28/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              41.583333333333336,
+              68.5
+            ],
+            [
+              44.13333333333333,
+              67.75
+            ],
+            [
+              40.666666666666664,
+              66.0
+            ],
+            [
+              40.416666666666664,
+              66.08333333333333
+            ],
+            [
+              40.6,
+              66.5
+            ],
+            [
+              41.03333333333333,
+              67.45
+            ],
+            [
+              41.583333333333336,
+              68.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.939356+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 28/26 КАРТА  10100 БЕЛОЕ И БАРЕНЦЕВО  МОРЯ",
+        "msg_id": "PRIP ARKHANGELSK 28/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 301700 UTC APR 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 28 КАРТА  10100  \nБЕЛОЕ И БАРЕНЦЕВО  МОРЯ\n1. СПЕЦИАЛЬНЫЕ РАБОТЫ 28 ПО 30 АПР\n0700 ДО 1600 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n68-30.0С 041-35.0В \n68-03.0C 044-10.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-45.0С 044-08.0В\n66-00.0С 040-40.0В\n66-05.0С 040-25.0В\n66-30.0С 040-36.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-27.0С 041-02.0В\n2. ОТМ ЭТОТ НР 301700 АПР=\n221700 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.939356+00:00",
+        "valid_until": "2026-04-30T17:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Special Operations Alert"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 4/26",
       "geometry": {
         "type": "Point",
@@ -9831,6 +9963,208 @@
         "summary": null,
         "category": "navigation",
         "title": "Test Buoys Deployed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 151/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            55.666666666666664,
+            70.63333333333334
+          ],
+          [
+            55.21666666666667,
+            70.55
+          ],
+          [
+            53.35,
+            70.66666666666667
+          ],
+          [
+            51.0,
+            71.58333333333333
+          ],
+          [
+            51.56666666666667,
+            71.63333333333334
+          ],
+          [
+            52.416666666666664,
+            72.71666666666667
+          ],
+          [
+            51.75,
+            72.73333333333333
+          ],
+          [
+            53.333333333333336,
+            73.48333333333333
+          ],
+          [
+            53.333333333333336,
+            73.76666666666667
+          ],
+          [
+            54.666666666666664,
+            74.3
+          ],
+          [
+            55.7,
+            75.35
+          ],
+          [
+            60.75,
+            76.4
+          ],
+          [
+            61.166666666666664,
+            76.26666666666667
+          ],
+          [
+            63.45,
+            75.58333333333333
+          ],
+          [
+            63.833333333333336,
+            75.46666666666667
+          ],
+          [
+            62.083333333333336,
+            75.16666666666667
+          ],
+          [
+            59.666666666666664,
+            74.25
+          ],
+          [
+            57.5,
+            73.3
+          ],
+          [
+            56.63333333333333,
+            72.65
+          ],
+          [
+            55.93333333333333,
+            72.66666666666667
+          ],
+          [
+            55.4,
+            72.0
+          ],
+          [
+            56.86666666666667,
+            70.91666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.938044+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 151/26 КАРТЫ 10100 10103\r\nБАРЕНЦЕВО И КАРСКОЕ МОРЯ",
+        "msg_id": "PRIP MURMANSK 151/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 230000 UTC MAY 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1.ЗАПРЕТНЫЕ ПЛАВАНИЯ ВСЕХ СУДОВ 23 АПР ПО 22 МАЙ\nКРУГЛОСУТОЧНО РАЙОНЫ\nА. РАЙОН НР 191 МЕЖДУ БЕРЕГОМ И\n70-38.0С 055-40.0В\n70-33.0С 055-13.0В\n70-40.0С 053-21.0В\n71-35.0С 051-00.0В\n71-38.0С 051-34.0В\nБ. РАЙОН НР 192 МЕЖДУ БЕРЕГОМ И\n72-43.0С 052-25.0В\n72-44.0С 051-45.0В\n73-29.0С 053-20.0В\n73-46.0С 053-20.0В\n74-18.0С 054-40.0В\n75-21.0С 055-42.0В\n76-24.0С 060-45.0В\n76-16.0С 061-10.0В\nВ. РАЙОН НР 193 МЕЖДУ БЕРЕГОМ И\n75-35.0С 063-27.0В\n75-28.0С 063-50.0В\n75-10.0С 062-05.0В\n74-15.0С 059-40.0В\n73-18.0С 057-30.0В\n72-39.0С 056-38.0В\n72-40.0С 055-56.0В\nГ. РАЙОН НР 194 МЕЖДУ БЕРЕГОМ И\n72-00.0С 055-24.0В\n70-55.0С 056-52.0В\n2. ОТМ ЭТОТ НР 23 МАЙ=\n221000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.938044+00:00",
+        "valid_until": "2026-05-23T00:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Vessel Movement Prohibited"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 152/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              41.583333333333336,
+              68.5
+            ],
+            [
+              44.166666666666664,
+              68.05
+            ],
+            [
+              44.13333333333333,
+              67.75
+            ],
+            [
+              40.666666666666664,
+              66.0
+            ],
+            [
+              40.416666666666664,
+              66.08333333333333
+            ],
+            [
+              41.03333333333333,
+              67.45
+            ],
+            [
+              41.583333333333336,
+              68.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.937365+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 152/26 КАРТА 10100\r\nБАРЕНЦЕВО И БЕЛОЕ МОРЯ",
+        "msg_id": "PRIP MURMANSK 152/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 301700 UTC APR 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СПЕЦИАЛЬНЫЕ РАБОТЫ 28 ПО 30 АПР 0700 ДО 1600\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ \n68-30.0С 041-35.0В\n68-03.0С 044-10.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-45.0С 044-08.0В\n66-00.0С 040-40.0В\n66-05.0С 040-25.0В \n66-30.0C 040-36.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-27.0С 041-02.0В\n2. ОТМ ЭТОТ НР 301700 АПР=\n221000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.937365+00:00",
+        "valid_until": "2026-04-30T17:00:00+00:00",
+        "summary": null,
+        "category": "other",
+        "title": "Special Works Restricted"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 153/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.10231666666667,
+          69.73018333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.936835+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 153/26 КАРТА 12000 КНИГА 3003\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 153/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "МОРСКОЙ РАДИОМАЯК ЦЫПНАВОЛОКСКИЙ 69-43.811С 033-06.139В НР 1255\nВОЗОБНОВИЛ ДЕЙСТВИЕ\nОПОЗНОВАТЕЛЬНЫЙ СИГНАЛ ЦК, РАБОЧАЯ ЧАСТОТА 288.5,\nКЛАСС ИЗЛУЧЕНИЯ А-1, ДАЛЬНОСТЬ ДЕЙСТВИЯ 20 МИЛЬ (КРУГОВОЙ),\nДОПОЛНИТЕЛЬНЫЕ СВЕДЕНИЯ:ЦК(4Р)-20С, ДЛИННОЕ ТИРЕ-25С,\nЦК(2Р)-10С, ПАУЗА-305С, ВКЛЮЧЕНИЕ В РАБОТУ ПО ЗАЯВКЕ=\n221000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.936835+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Radio Beacon Operational"
       }
     },
     {
@@ -17910,6 +18244,72 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP WEST 30/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.2970111111111,
+            72.54018055555555
+          ],
+          [
+            74.26828611111111,
+            72.55172499999999
+          ],
+          [
+            74.32173055555555,
+            72.55676388888888
+          ],
+          [
+            74.35159166666666,
+            72.57072222222222
+          ],
+          [
+            74.37613888888889,
+            72.5514361111111
+          ],
+          [
+            74.2970111111111,
+            72.54018055555555
+          ],
+          [
+            74.26828611111111,
+            72.55172499999999
+          ],
+          [
+            74.32173055555555,
+            72.55676388888888
+          ],
+          [
+            74.35159166666666,
+            72.57072222222222
+          ],
+          [
+            74.37613888888889,
+            72.5514361111111
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.941151+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 30/26 13329 15363 15364 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "msg_id": "PRIP WEST 30/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНЫ НАИМЕНЬШИЕ ГЛУБИНЫ\nА. 10.6 МЕТРА В 72-32-24.65С 074-17-49.24В\nБ. 11.8 МЕТРА В 72-33-06.21С 074-16-05.83В\nВ. 11.7 МЕТРА В 72-33-24.35С 074-19-18.23В\nГ. 12.5 МЕТРА В 72-34-14.60С 074-21-05.73В\nД. 11.6 МЕТРА В 72-33-05.17С 074-22-34.10В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\nHHHH\nCOASTAL WARNING WEST 30/26\nKARA SEA.\nOBSKAYA GUBA.\nCHARTS RUS 13329, 15363, 15364.\n1. SOUNDING 2025 FOUND LEAST DEPTHS:\nA. 10.6 METRES IN 72-32-24.65N 074-17-49.24E.\nB. 11.8 METERS IN 72-33-06.21N 074-16-05.83E.\nC. 11.7 METERS IN 72-33-24.35N 074-19-18.23E.\nD. 12.5 METERS IN 72-34-14.60N 074-21-05.73E.\nE. 11.6 METERS IN 72-33-05.17N 074-22-34.10E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.941151+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Least Depths Observed"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 31/21",
       "geometry": {
         "type": "Point",
@@ -17934,6 +18334,204 @@
         "summary": null,
         "category": "other",
         "title": "Large Pipe Afloat"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 31/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.160875,
+          72.15449166666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.940947+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 31/26 КАРТЫ 13329 13330 15356 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "msg_id": "PRIP WEST 31/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНА НАИМЕНЬШАЯ ГЛУБИНА\n12.8 МЕТРА В 72-09-16.17С 073-09-39.15В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\nCOASTAL WARNING WEST 31/26\nKARA SEA.\nOBSKAYA GUBA.\nCHARTS RUS 13329, 13330, 15356.\n1. SOUNDING 2025 FOUND LEAST DEPTH:\n12.8 METRES IN 72-09-16.17N 073-09-39.15E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.940947+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "New Least Depth Reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 32/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.17653611111112,
+          72.16043333333334
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.940722+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 32/26  КАРТЫ 13329 13330 15356 18340 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "msg_id": "PRIP WEST 32/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНА НАИМЕНЬШАЯ ГЛУБИНА\n13.0 МЕТРА В 72-09-37.56С 073-10-35.53В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\n2. ВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\nCOASTAL WARNING WEST 32/26\nKARA SEA\nOBSKAYA GUBA.\nCHARTS RUS 13329, 13330, 15356, 18340.\n1. SOUNDING 2025 FOUND LEAST DEPTH\n13.0 METRES IN 72-09-37.56N 073-10-35.53E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.940722+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Least Depth Reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 33/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.1532388888889,
+          71.35197777777778
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.940519+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 33/26 КАРТЫ 13331 15354 18332КАРСКОЕ МОРЕ ОБСКАЯ ГУБА\r\nПОРТ САБЕТТА",
+        "msg_id": "PRIP WEST 33/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНА НАИМЕНЬШАЯ ГЛУБИНА\n10.2 МЕТРА В 71-21-07.12С 072-09-11.66В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\nCOASTAL WARNING WEST 33/26\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nCHARTS RUS 13331, 15354, 18332.\n1. SOUNDING 2025 FOUND LEAST DEPTH\n10.2 METRES IN 71-21-07.12N 072-09-11.66E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.940519+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Least Depth 10.2m"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 34/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.4191,
+          71.29008055555555
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.940314+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 34/26 КАРТЫ 13331 18332КАРСКОЕ МОРЕ ОБСКАЯ ГУБА\r\nПОРТ САБЕТТА",
+        "msg_id": "PRIP WEST 34/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНА НАИМЕНЬШАЯ ГЛУБИНА\n12.2 МЕТРА В 71-17-24.29С 072-25-08.76В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\nCOASTAL WARNING WEST 34/26\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nCHARTS RUS 13331, 18332.\n1. SOUNDING 2025 FOUND LEAST DEPTH\n12.2 METRES IN 71-17-24.29N 072-25-08.76E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.940314+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Least Depth Found"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 35/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.44366666666667,
+          71.3029611111111
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.940099+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 35/26 КАРТЫ 13331 15349 18332КАРСКОЕ МОРЕ ОБСКАЯ ГУБА\r\nПОРТ САБЕТТА",
+        "msg_id": "PRIP WEST 35/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. ПРОМЕРОМ 2025 ГОДА ОБНАРУЖЕНА НАИМЕНЬШАЯ ГЛУБИНА\n12.8 МЕТРА В 71-18-10.66С 072-26-37.20В\nСИСТЕМА КООРДИНАТ WGS-84\n2. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\nCOASTAL WARNING WEST 35/26\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nCHARTS RUS 13331, 15349, 18332.\n1. SOUNDING 2025 FOUND LEAST DEPTH\n12.8 METRES IN 71-18-10.66N 072-26-37.20E.\nWGS 84 DATUM.\n2. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.940099+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Least Depth Discovered"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 36/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.17108611111112,
+            72.16214444444445
+          ],
+          [
+            73.10950277777778,
+            72.13715
+          ],
+          [
+            73.17108611111112,
+            72.16214444444445
+          ],
+          [
+            73.10950277777778,
+            72.13715
+          ],
+          [
+            73.17108611111112,
+            72.16214444444445
+          ],
+          [
+            73.10950277777778,
+            72.13715
+          ],
+          [
+            73.17108611111112,
+            72.16214444444445
+          ],
+          [
+            73.10950277777778,
+            72.13715
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T01:32:19.939819+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 36/26  КАРТЫ 13329 13330 15356 18340 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "msg_id": "PRIP WEST 36/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "chart advisory",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1. УПРАЗДНЕН ГЛУБОКОВОДНЫЙ ПУТЬ 217.1-37.1 ГРАД\nМЕЖДУ 72-09-43.72С 073-10-15.91В И 72-08-13.74С 073-06-34.21В\n2. УСТАНОВЛЕН ГЛУБОКОВОДНЫЙ ПУТЬ ШИРИНОЙ 450 МЕТРОВ\nПО 225 МЕТРОВ КАЖДОЙ СТОРОНЫ ОТ ОСЕВОЙ ЛИНИИ 217.1-37.1 ГРАД\nМЕЖДУ 72-09-43.72С 073-10-15.91В И 72-08-13.74С 073-06-34.21В\nНАИМЕНЬШАЯ ГЛУБИНА 13.4 МЕТРА\nСИСТЕМА КООРДИНАТ WGS-84\n3. РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ НАВИГАЦИОННУЮ ИНФОРМАЦИЮ\nВИДЕ ЦИФРОВЫХ СПРАВОЧНО-ИНФОРМАЦИОННЫХ НАБОРОВ\nФГУП ГИДРОГРАФИЧЕСКОЕ ПРЕДПРИЯТИЕ=\n\nCOASTAL WARNING WEST 36/26\nKARA SEA.\nOBSKAYA GUBA.\nPORT SABETTA.\nCHARTS RUS 13329, 13330, 15356, 18340,\n1. RECOMMENDED DEEPWATER ROUTES 217.1-37.1 DEGREES\nBETWEEN 72-09-43.72N 073-10-15.91E AND 72-08-13.74N 073-06-34.21E\nCANCELLED.\n2. ESTABLISHED RECOMMENDED DEEPWATER ROUTE WITH WIDTH\n450 METRES EACH SIDE 225 METRES CENTRE LINE 217.1-37.1 DEGREES\nBETWEEN 72-09-43.72N 073-10-15.91E AND 72-08-13.74N 073-06-34.21E\nMINIMUM DEPTH 13.4 METRES.\nWGS 84 DATUM.\n3. RECOMMENDED TO USE NAVIGATION INFORMATION IN\nTHE FORM OF DIGITAL REFERENCE SETS OF FSUE\nHYDROGRAPHIC ENTERPRISE.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T01:32:19.939819+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Deepwater Route Change"
       }
     },
     {
