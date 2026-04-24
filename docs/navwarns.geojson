@@ -4371,6 +4371,58 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XIX 54/26",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            22.2475,
+            71.24333333333334
+          ],
+          [
+            7.3966666666666665,
+            65.86166666666666
+          ],
+          [
+            7.648333333333333,
+            65.69833333333334
+          ],
+          [
+            7.2,
+            65.51666666666667
+          ],
+          [
+            7.333333333333333,
+            65.36166666666666
+          ],
+          [
+            7.261666666666667,
+            65.31166666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T06:30:00",
+        "raw_dtg": "230630Z APR 26",
+        "msg_id": "NAVAREA XIX 54/26",
+        "year": 2026,
+        "cancellations": [
+          "52/26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "multipoint",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 54/26\n\n1. RIGLIST. CORRECT AT  230630 UTC APR 26\n\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n\n\n71-14.60N 022-14.85E COSL PROSPECTOR\n\n65-51.70N 007-23.80E SCARABEO 8\n\n65-41.90N 007-38.90E FLOATEL ENDURANCE\n\n65-31.00N 007-12.00E TRANSOCEAN NORGE\n\n65-21.70N 007-20.00E TRANSOCEAN ENCOURAGE\n\n65-18.70N 007-15.70E ISLAND INNOVATOR\n\nNOTES:\n\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX　52/26",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T06:30:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Rig Locations Updated"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "NAVAREA XX 182/25",
       "geometry": {
         "type": "MultiPolygon",
@@ -6718,6 +6770,34 @@
         "summary": null,
         "category": "military",
         "title": "Military Exercise Closure"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 081/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T12:54:00",
+        "raw_dtg": "231254Z APR 26",
+        "msg_id": "POLISH NAV WARN 081/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 081/26\n270600 UTC APR\nPOLISH NAV WARN 081/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONE S-6\nIS CLOSED FOR SHIPPING AND FISHERY:\nCENTERED 54-39.27N 016-36.59E\n27 TO 29 APR  06:00-21:59 UTC\n30 APR  06:00-12:00 AND 17:00-21:59 UTC\nCANCEL THIS MSG 302159 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T12:54:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Zone S-6 Closed"
       }
     },
     {
@@ -20037,6 +20117,34 @@
         "summary": null,
         "category": "navigation",
         "title": "VHF Channel Outage"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SWEDISH NAV WARN 077/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.555,
+          57.13166666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-23T12:00:00",
+        "raw_dtg": "231200Z APR 26",
+        "msg_id": "SWEDISH NAV WARN 077/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Central Baltic] SWEDISH NAV WARN 077/26\nCENTRAL BALTIC.  JÄTTERSÖN\nA HYDROGRAPHIC SURVEY  HAS SHOWN OTHER DEPTHS THAN CHARTED\nPSN 57-07.9N 016-33.3E\nCAUTION ADVISED.",
+        "cancel_date": null,
+        "valid_from": "2026-04-23T12:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Depths Differ From Chart"
       }
     }
   ]
