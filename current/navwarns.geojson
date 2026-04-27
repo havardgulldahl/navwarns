@@ -1096,6 +1096,34 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 220/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.773333333333333,
+          55.29833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-27T00:34:00",
+        "raw_dtg": "270034Z APR 26",
+        "msg_id": "DANISH NAV WARN 220/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] DANISH NAV WARN 220/26\n270030 UTC APR\nDANISH NAV WARN 220/26\nDENMARK.\nDGPS-STATION HAMMER ODDE 289.5 KHZ\n55-17.9N 014-46.4E UNRELIABLE.",
+        "cancel_date": null,
+        "valid_from": "2026-04-27T00:34:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Hammer Odde DGPS Unreliable"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 024/26",
       "geometry": {
         "type": "Point",
@@ -1264,6 +1292,90 @@
         "summary": null,
         "category": "military",
         "title": "Naval Activity Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ESTONIAN NAV WARN 059/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.316666666666666,
+          59.583333333333336
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-26T05:00:00",
+        "raw_dtg": "260500Z APR 26",
+        "msg_id": "ESTONIAN NAV WARN 059/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 059/26\nGULF OF FINLAND.\n290500-291400 UTC APR\nW OF NAISSAAR ISLAND\nFIRING PRACTICE AREA 2A\nCENTRED 59-35N 024-19E\nFIRING EXERCISES IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA\nSTANDING BY VHF CH 13 AND 61\nCANCEL 291400 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-04-26T05:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Firing Exercises Naissaar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ESTONIAN NAV WARN 060/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.08866666666667,
+              58.916333333333334
+            ],
+            [
+              22.17866666666667,
+              58.882333333333335
+            ],
+            [
+              22.123666666666665,
+              58.74283333333333
+            ],
+            [
+              21.97533333333333,
+              58.50366666666667
+            ],
+            [
+              21.904,
+              58.518
+            ],
+            [
+              21.897166666666667,
+              58.816833333333335
+            ],
+            [
+              22.08866666666667,
+              58.916333333333334
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-26T05:00:00",
+        "raw_dtg": "260500Z APR 26",
+        "msg_id": "ESTONIAN NAV WARN 060/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Northern Baltic] ESTONIAN NAV WARN 060/26\nNORTHERN BALTIC. BETWEEN SAAREMAA AND HIIUMAA ISLAND.\n290500-291300 UTC APR\nEXERCISE TAKING PLACE\nIN AREA BOUNDED BY:\n58-54.98N 022-05.32E\n58-52.94N 022-10.72E\n58-44.57N 022-07.42E\n58-30.22N 021-58.52E\n58-31.08N 021-54.24E\n58-49.01N 021-53.83E\nSHIPPING IN AREA TEMPORARILY PROHIBITED\nSTANDING BY VHF CH 16\nCANCEL 291300 UTC APR",
+        "cancel_date": null,
+        "valid_from": "2026-04-26T05:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Baltic Military Exercise"
       }
     },
     {
