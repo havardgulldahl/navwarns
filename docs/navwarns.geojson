@@ -1642,6 +1642,34 @@
     },
     {
       "type": "Feature",
+      "id": "GERMAN NAV WARN 250/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.883333333333333,
+          54.833333333333336
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-30T10:37:00",
+        "raw_dtg": "301037Z APR 26",
+        "msg_id": "GERMAN NAV WARN 250/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Western Baltic] GERMAN NAV WARN 250/26\nGERMAN NAVIGATIONAL WARNING NO. 250\nWESTERN BALTIC.FLENSBURGER FOERDE.\n'KALKGRUND' LIGHTHOUSE  54-50N 009-53E UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-04-30T10:37:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Kalkgrund Lighthouse Unlit"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "HYDROARC 145/25(15)",
       "geometry": {
         "type": "Point",
@@ -2660,6 +2688,192 @@
         "summary": null,
         "category": "military",
         "title": "Missile Operations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 53/26#grp1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              69.01666666666667
+            ],
+            [
+              14.9,
+              69.1
+            ],
+            [
+              14.25,
+              68.98333333333333
+            ],
+            [
+              13.375166666666667,
+              69.20083333333334
+            ],
+            [
+              13.583333333333334,
+              70.11666666666666
+            ],
+            [
+              14.066666666666666,
+              70.38333333333334
+            ],
+            [
+              16.7,
+              70.03333333333333
+            ],
+            [
+              15.9,
+              69.68333333333334
+            ],
+            [
+              15.466666666666667,
+              69.41666666666667
+            ],
+            [
+              15.85,
+              69.18333333333334
+            ],
+            [
+              15.5,
+              69.01666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 53/26",
+        "group_index": 1,
+        "dtg": "2026-04-30T07:04:00",
+        "raw_dtg": "300704Z APR 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "body": "HYDROARC 53/26.\nNORWEGIAN SEA.\nNORWAY.\n1. HAZARDOUS OPERATIONS 2000Z TO 0300Z\n   DAILY 04 THRU 08 MAY AND 1600Z TO 0300Z\n   DAILY 10 THRU 14 MAY IN AREAS BOUND BY:\n   A. 69-01.00N 015-30.00E, 69-06.00N 014-54.00E,\n      68-59.00N 014-15.00E, 69-12.05N 013-22.51E,\n      70-07.00N 013-35.00E, 70-23.00N 014-04.00E,\n      70-02.00N 016-42.00E, 69-41.00N 015-54.00E,\n      69-25.00N 015-28.00E, 69-11.00N 015-51.00E.\n   B. 69-39.03N 013-28.80E, 70-07.00N 013-35.00E,\n      70-23.00N 014-04.00E, 70-02.00N 016-42.00E,\n      69-41.00N 015-54.00E, 69-25.00N 015-28.00E.\n   C. 69-09.00N 016-45.10E, 69-09.00N 016-15.10E,\n      69-33.20N 016-15.10E, 69-35.00N 016-04.00E,\n      69-55.00N 016-43.00E, 69-44.00N 017-28.00E,\n      69-25.80N 016-49.00E, 69-17.00N 016-51.00E.\n2. CANCEL THIS MSG 150400Z MAY 26.",
+        "cancel_date": null,
+        "valid_from": "2026-04-30T07:04:00+00:00",
+        "valid_until": "2026-05-15T04:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Hazardous Operations Norway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 53/26#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.48,
+              69.6505
+            ],
+            [
+              13.583333333333334,
+              70.11666666666666
+            ],
+            [
+              14.066666666666666,
+              70.38333333333334
+            ],
+            [
+              16.7,
+              70.03333333333333
+            ],
+            [
+              15.9,
+              69.68333333333334
+            ],
+            [
+              15.466666666666667,
+              69.41666666666667
+            ],
+            [
+              13.48,
+              69.6505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 53/26",
+        "group_index": 2,
+        "dtg": "2026-04-30T07:04:00",
+        "raw_dtg": "300704Z APR 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "body": "HYDROARC 53/26.\nNORWEGIAN SEA.\nNORWAY.\n1. HAZARDOUS OPERATIONS 2000Z TO 0300Z\n   DAILY 04 THRU 08 MAY AND 1600Z TO 0300Z\n   DAILY 10 THRU 14 MAY IN AREAS BOUND BY:\n   A. 69-01.00N 015-30.00E, 69-06.00N 014-54.00E,\n      68-59.00N 014-15.00E, 69-12.05N 013-22.51E,\n      70-07.00N 013-35.00E, 70-23.00N 014-04.00E,\n      70-02.00N 016-42.00E, 69-41.00N 015-54.00E,\n      69-25.00N 015-28.00E, 69-11.00N 015-51.00E.\n   B. 69-39.03N 013-28.80E, 70-07.00N 013-35.00E,\n      70-23.00N 014-04.00E, 70-02.00N 016-42.00E,\n      69-41.00N 015-54.00E, 69-25.00N 015-28.00E.\n   C. 69-09.00N 016-45.10E, 69-09.00N 016-15.10E,\n      69-33.20N 016-15.10E, 69-35.00N 016-04.00E,\n      69-55.00N 016-43.00E, 69-44.00N 017-28.00E,\n      69-25.80N 016-49.00E, 69-17.00N 016-51.00E.\n2. CANCEL THIS MSG 150400Z MAY 26.",
+        "cancel_date": null,
+        "valid_from": "2026-04-30T07:04:00+00:00",
+        "valid_until": "2026-05-15T04:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Hazardous Operations Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 53/26#grp3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.751666666666665,
+              69.15
+            ],
+            [
+              16.251666666666665,
+              69.15
+            ],
+            [
+              16.251666666666665,
+              69.55333333333333
+            ],
+            [
+              16.066666666666666,
+              69.58333333333333
+            ],
+            [
+              16.716666666666665,
+              69.91666666666667
+            ],
+            [
+              17.466666666666665,
+              69.73333333333333
+            ],
+            [
+              16.816666666666666,
+              69.43
+            ],
+            [
+              16.85,
+              69.28333333333333
+            ],
+            [
+              16.751666666666665,
+              69.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 53/26",
+        "group_index": 3,
+        "dtg": "2026-04-30T07:04:00",
+        "raw_dtg": "300704Z APR 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "body": "HYDROARC 53/26.\nNORWEGIAN SEA.\nNORWAY.\n1. HAZARDOUS OPERATIONS 2000Z TO 0300Z\n   DAILY 04 THRU 08 MAY AND 1600Z TO 0300Z\n   DAILY 10 THRU 14 MAY IN AREAS BOUND BY:\n   A. 69-01.00N 015-30.00E, 69-06.00N 014-54.00E,\n      68-59.00N 014-15.00E, 69-12.05N 013-22.51E,\n      70-07.00N 013-35.00E, 70-23.00N 014-04.00E,\n      70-02.00N 016-42.00E, 69-41.00N 015-54.00E,\n      69-25.00N 015-28.00E, 69-11.00N 015-51.00E.\n   B. 69-39.03N 013-28.80E, 70-07.00N 013-35.00E,\n      70-23.00N 014-04.00E, 70-02.00N 016-42.00E,\n      69-41.00N 015-54.00E, 69-25.00N 015-28.00E.\n   C. 69-09.00N 016-45.10E, 69-09.00N 016-15.10E,\n      69-33.20N 016-15.10E, 69-35.00N 016-04.00E,\n      69-55.00N 016-43.00E, 69-44.00N 017-28.00E,\n      69-25.80N 016-49.00E, 69-17.00N 016-51.00E.\n2. CANCEL THIS MSG 150400Z MAY 26.",
+        "cancel_date": null,
+        "valid_from": "2026-04-30T07:04:00+00:00",
+        "valid_until": "2026-05-15T04:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Hazardous Operations Areas"
       }
     },
     {
@@ -4112,6 +4326,34 @@
         "summary": null,
         "category": "military",
         "title": "Firing Exercise Liepaja"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LATVIAN NAV WARN 012/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75,
+          57.43333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-30T09:02:00",
+        "raw_dtg": "300902Z APR 26",
+        "msg_id": "LATVIAN NAV WARN 012/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Riga] LATVIAN NAV WARN 012/26\nBALTIC SEA. GULF OF RIGA\nNAVAL FIRING EXERCISES IN PROGRESS FROM 041100 UTC TO 041900 UTC MAY\nAND 050700 UTC TO 051900 UTC MAY IN PRACTICE AREA \"M1\" CENTERED IN 57-26N 023-45E\nAREA IS CLOSED FOR NAVIGATION DURING EXERCISES\nWIDE BERTH REQUESTED\nCANCEL THIS MSG 052000 UTC MAY",
+        "cancel_date": null,
+        "valid_from": "2026-04-30T09:02:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Naval Firing Exercises"
       }
     },
     {
@@ -20099,6 +20341,50 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP WEST 40/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            69.66166666666666,
+            77.345
+          ],
+          [
+            68.54833333333333,
+            77.13166666666666
+          ],
+          [
+            69.66166666666666,
+            77.345
+          ],
+          [
+            68.54833333333333,
+            77.13166666666666
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-01T01:33:01.050337+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 40/26 КАРТА 11124\r\nКАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 40/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 030425 UTC MAY 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1. АЙСБЕРГИ 300425 АПР В\nА. 77-20.7С 069-39.7В\nБ. 77-07.9С 068-32.9В\n2. ОТМ ЭТОТ НР 030425 МАЙ =\n\nCOASTAL WARNING WEST 40/26\nKARA SEA.\nCHART RUS 11124.\n1. ICEBERGS AT 300425 UTC APR IN:\nA. 77-20.7N 069-39.7E.\nB. 77-07.9N 068-32.9E.\n2. CANCEL THIS MSG 030425 UTC MAY 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-05-01T01:33:01.050337+00:00",
+        "valid_until": "2026-05-03T04:25:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Icebergs Reported Kara Sea"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP WEST 41/25",
       "geometry": {
         "type": "Point",
@@ -20123,6 +20409,42 @@
         "summary": null,
         "category": "navigation",
         "title": "Sunken Bulldozer Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 41/26",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            42.77166666666667,
+            71.87
+          ],
+          [
+            42.77166666666667,
+            71.87
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-01T01:33:01.049289+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 41/26 КАРТА 11163\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP WEST 41/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 030728 UTC MAY 26"
+        ],
+        "hazard_type": "scientific mooring",
+        "geometry_kind": "multipoint",
+        "radius_nm": null,
+        "body": "1. ШВАРТОВНАЯ БОЧКА ДРЕЙФУЕТ 300728 АПР\nВ 71-52.2С 042-46.3В\n2. ОТМ ЭТОТ НР 030728 МАЙ =\n\nCOASTAL WARNING WEST 41/26\nBARENTS SEA.\nCHART RUS 11163.\n1. MOORING BUOY ADRIFT 300728 UTC APR\nIN: 71-52.2N 042-46.3E.\n2. CANCEL THIS MSG 030728 UTC MAY 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-05-01T01:33:01.049289+00:00",
+        "valid_until": "2026-05-03T07:28:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Mooring Buoy Adrift"
       }
     },
     {
@@ -21614,6 +21936,34 @@
         "summary": null,
         "category": "navigation",
         "title": "Kalix Light Buoy Offstation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SWEDISH NAV WARN 080/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.608333333333334,
+          58.24333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-04-30T15:29:00",
+        "raw_dtg": "301529Z APR 26",
+        "msg_id": "SWEDISH NAV WARN 080/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Central Baltic] SWEDISH NAV WARN 080/26\nCENTRAL BALTIC. NORTH OF GOTLAND.\nEAST CARDINAL BUOY REPORTED ADRIFT IN\nAPPROX. PSN 58-14.6N 018-36.5E\nAT 301340 UTC APR.\nCAUTION ADVISED.",
+        "cancel_date": null,
+        "valid_from": "2026-04-30T15:29:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "East Cardinal Buoy Adrift"
       }
     }
   ]
