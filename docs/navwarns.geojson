@@ -1520,6 +1520,34 @@
     },
     {
       "type": "Feature",
+      "id": "FINNISH NAV WARN 239/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.061666666666667,
+          59.958333333333336
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-01T14:00:00",
+        "raw_dtg": "011400Z MAY 26",
+        "msg_id": "FINNISH NAV WARN 239/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] FINNISH NAV WARN 239/26\nEAST OF TSS OFF KALLBÅDAGRUND LIGHTHOUSE\nUNDERWATER SURVEY OPERATION\nIN PROGRESS BY SEILI CALL SIGN OIRO\nIN VICINITY OF PSN 59-57.5N 026-03.7E\nSAFETY ZONE OF 0.7 NAUTICAL MILES REQUESTED",
+        "cancel_date": null,
+        "valid_from": "2026-05-01T14:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "other",
+        "title": "Underwater Survey Off Kallbådagrund"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "GERMAN NAV WARN 161/26",
       "geometry": {
         "type": "Point",
@@ -8095,6 +8123,34 @@
         "summary": null,
         "category": "navigation",
         "title": "Buoys Established Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 091/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.938833333333335,
+          55.12233333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-01T13:00:00",
+        "raw_dtg": "011300Z MAY 26",
+        "msg_id": "POLISH NAV WARN 091/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 091/26\nSOUTHERN BALTIC. POLISH COAST\nTHE MEASURING SPHERICAL YELLOW BUOY WRB-02\nESTABLISHED IN POSITION 55-07.34N 016-56.33E\nYELLOW LIGHT FL (5)20S , RADAR REFLECTOR.\nCAUTION ADVISED.",
+        "cancel_date": null,
+        "valid_from": "2026-05-01T13:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Yellow Buoy Established"
       }
     },
     {
