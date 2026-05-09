@@ -1408,6 +1408,116 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 232/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.31,
+            55.038333333333334
+          ],
+          [
+            14.891666666666667,
+            54.9
+          ],
+          [
+            15.21,
+            54.57333333333333
+          ],
+          [
+            15.226666666666667,
+            54.575
+          ],
+          [
+            15.315,
+            54.58833333333333
+          ],
+          [
+            15.483333333333333,
+            54.62166666666667
+          ],
+          [
+            15.573333333333334,
+            54.651666666666664
+          ],
+          [
+            15.66,
+            54.681666666666665
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-08T12:59:00",
+        "raw_dtg": "081259Z MAY 26",
+        "msg_id": "DANISH NAV WARN 232/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[Southern Baltic] DANISH NAV WARN 232/26\nDENMARK. BALTIC SEA. BORNHOLM TO DK/PL\nEEZ.\n12 AND 13 MAY 2026, 1200 - 1400 UTC,\nMILITARY EXERCISE IN AREA.\n1) 55-02.3N 015-18.6E.\n2) 54-54.0N 014-53.5E.\n3) 54-34.4N 015-12.6E.\n4) 54-34.5N 015-13.6E.\n5) 54-35.3N 015-18.9E.\n6) 54-37.3N 015-29.0E.\n7) 54-39.1N 015-34.4E.\n8) 54-40.9N 015-39.6E.\nLIVE ORDNANCE WILL BE USED.\nMILITARY GUARD VESSELS VHF CH 16.\nMARINERS ARE ADVISED TO STAY WELL CLEAR.",
+        "cancel_date": null,
+        "valid_from": "2026-05-08T12:59:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Bornholm Military Exercise"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DANISH NAV WARN 233/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.006666666666666,
+              55.05833333333333
+            ],
+            [
+              15.123333333333333,
+              54.82
+            ],
+            [
+              14.881666666666666,
+              54.83
+            ],
+            [
+              14.686666666666667,
+              54.89333333333333
+            ],
+            [
+              14.566666666666666,
+              54.98833333333333
+            ],
+            [
+              15.006666666666666,
+              55.05833333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-08T12:59:00",
+        "raw_dtg": "081259Z MAY 26",
+        "msg_id": "DANISH NAV WARN 233/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Southern Baltic] DANISH NAV WARN 233/26\nDENMARK. BALTIC SEA. BORNHOLM S.\n11 MAY 0600 UTC TO 17 MAY 2200 UTC\n2026\nMILITARY EXERCISE IN THE AREA:\n1) 55-03.5N 015-00.4E.\n2) 54-49.2N 015-07.4E.\n3) 54-49.8N 014-52.9E.\n4) 54-53.6N 014-41.2E.\n5) 54-59.3N 014-34.0E.\n6) 55-03.5N 015-00.4E.\nLIVE ORDNANCE WILL BE USED.\nMILITARY GUARD VESSELS VHF CH 16.\nMARINERS ARE ADVISED TO STAY WELL CLEAR.",
+        "cancel_date": null,
+        "valid_from": "2026-05-08T12:59:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Bornholm Military Exercise"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 024/26",
       "geometry": {
         "type": "Point",
@@ -5052,6 +5162,36 @@
     },
     {
       "type": "Feature",
+      "id": "LITHUANIAN NAV WARN 040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.848333333333333,
+          55.486666666666665
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-08T07:23:00",
+        "raw_dtg": "080723Z MAY 26",
+        "msg_id": "LITHUANIAN NAV WARN 040",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 151500 UTC MAY 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 040\n080714 UTC MAY\nMILITARY EXERCISES 110600–151400 UTC MAY\nIN AREA EYD-18 CENTERED IN PSN 55-29.2N 020-50.9E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 151500 UTC MAY 26.",
+        "cancel_date": null,
+        "valid_from": "2026-05-08T07:23:00+00:00",
+        "valid_until": "2026-05-15T15:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Lithuanian Military Exercises"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "NAVAREA XIX 37/26",
       "geometry": {
         "type": "LineString",
@@ -5772,6 +5912,88 @@
         "summary": null,
         "category": "military",
         "title": "Military Exercise Andoya"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XIX 61/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.48,
+            69.6505
+          ],
+          [
+            13.583333333333334,
+            70.11666666666666
+          ],
+          [
+            14.066666666666666,
+            70.38333333333334
+          ],
+          [
+            16.7,
+            70.03333333333333
+          ],
+          [
+            15.9,
+            69.68333333333334
+          ],
+          [
+            15.466666666666667,
+            69.41666666666667
+          ],
+          [
+            16.751666666666665,
+            69.15
+          ],
+          [
+            16.251666666666665,
+            69.15
+          ],
+          [
+            16.251666666666665,
+            69.55333333333333
+          ],
+          [
+            16.066666666666666,
+            69.58333333333333
+          ],
+          [
+            16.716666666666665,
+            69.91666666666667
+          ],
+          [
+            17.466666666666665,
+            69.73333333333333
+          ],
+          [
+            16.816666666666666,
+            69.43
+          ],
+          [
+            16.85,
+            69.28333333333333
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-09T06:30:00",
+        "raw_dtg": "090630Z MAY 26",
+        "msg_id": "NAVAREA XIX 61/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 61/26\n\n\n\nNORWEGIAN SEA. ANDOEYA AND SENJA W\n\nMILITARY EXERCISE ACTIVITY AND SHARP SHOOTING\n\nFROM 10MAY TO 14MAY26 DAYLY 1600UTC TO 0300UTC26\n\nMARITIME TRAFFIC IS REQUESTED TO BE AWARE OF THE FOLLOWING DANGER AREAS\n\n\n\nDANGER AREA SEA ECHO\n\nA. 69-39.03N 013-28.80E\n\nB. 70-07.00N 013-35.00E\n\nC. 70-23.00N 014-04.00E\n\nD. 70-02.00N 016-42.00E\n\nE. 69-41.00N 015-54.00E\n\nF. 69-25.00N 015-28.00E\n\n\n\nDANGER AREA SEA TANGO-SIERRA\n\nA. 69-09.00N 016-45.10E\n\nB. 69-09.00N 016-15.10E\n\nC. 69-33.20N 016-15.10E\n\nD. 69-35.00N 016-04.00E\n\nE. 69-55.00N 016-43.00E\n\nF. 69-44.00N 017-28.00E\n\nG. 69-25.80N 016-49.00E\n\nH. 69-17.00N 016-51.00E\n\n\n\nFOR COORDINATION ANDOEYA SPACE OPERATIONS CENTER CAN BE REACHED ON.\n\nTELEPHONE 0047 94 07 59 44. 0047 76 14 45 87 OR MARITIME\n\nVHF CH 14 AND 16 CALLSIGN ANDOEYA SPACE. E-MAIL MSO@ANDOYASPACE.NO.\n\nFOR FURTHER DETAILS SEE NOTICES TO MARINERS 08/2026\n\nWWW.KARTVERKET.NO/EN/AT-SEA/EFS AND WWW.ANDOYASPACE.NO FOR DAILY\n\nUPDATES AND MAPS.",
+        "cancel_date": null,
+        "valid_from": "2026-05-09T06:30:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercise Norwegian Sea"
       }
     },
     {
@@ -12980,6 +13202,66 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 168/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.833333333333336,
+            69.4
+          ],
+          [
+            44.11666666666667,
+            67.86666666666666
+          ],
+          [
+            44.4,
+            66.73333333333333
+          ],
+          [
+            38.53333333333333,
+            68.93333333333334
+          ],
+          [
+            45.05,
+            67.51666666666667
+          ],
+          [
+            45.71666666666667,
+            67.25
+          ],
+          [
+            45.5,
+            67.18333333333334
+          ],
+          [
+            45.05,
+            67.51666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-09T01:32:42.028034+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 168/26 КАРТА 10100\r\nБАРЕНЦЕВО И БЕЛОЕ МОРЯ И ЧЕШСКАЯ ГУБА",
+        "msg_id": "PRIP MURMANSK 168/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 202200 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ РАКЕТНЫЕ 142100 ПО 202100 МАЙ\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО\nИХ ПРЕДЕЛАМИ РАЙОНАХ\nА. 69-24.0С 039-50.0В\n   67-52.0С 044-07.0В\n   ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n   66-44.0С 044-24.0В\n   68-56.0С 038-32.0В\nБ. 67-31.0С 045-03.0В\n   67-15.0С 045-43.0В\n   67-11.0С 045-30.0В\n   ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n   67-31.0С 045-03.0В\n2. ОТМ ЭТОТ НР 202200 МАЙ=\n081000 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-09T01:32:42.028034+00:00",
+        "valid_until": "2026-05-20T22:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 169/22",
       "geometry": {
         "type": "Point",
@@ -13055,6 +13337,108 @@
         "summary": null,
         "category": "other",
         "title": "Kola Bay Buoy Deployment"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 169/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.163333333333334,
+            69.86
+          ],
+          [
+            35.70666666666666,
+            69.66666666666667
+          ],
+          [
+            34.92666666666667,
+            69.39416666666666
+          ],
+          [
+            34.38333333333333,
+            69.5875
+          ],
+          [
+            34.606,
+            72.9
+          ],
+          [
+            37.818666666666665,
+            72.71866666666666
+          ],
+          [
+            39.556,
+            72.57466666666667
+          ],
+          [
+            38.406,
+            71.05
+          ],
+          [
+            37.92466666666667,
+            70.45
+          ],
+          [
+            37.02466666666667,
+            70.45
+          ],
+          [
+            34.15,
+            72.27466666666666
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-09T01:32:42.027696+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 169/26 КАРТА 10100\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 169/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 202200 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ РАКЕТНЫЕ 142100 ПО 202100 МАЙ\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО\nИХ ПРЕДЕЛАМИ РАЙОНАХ\nА. 69-51.60С 035-09.80В\n   69-40.00С 035-42.40В\n   69-23.65С 034-55.60В\n   69-35.25С 034-23.00В\nБ. 72-54.00С 034-36.36В\n   72-43.12С 037-49.12В\n   72-34.48С 039-33.36В\n   71-03.00С 038-24.36В\n   70-27.00С 037-55.48В\n   70-27.00С 037-01.48В\n   72-16.48С 034-09.00В\n2. ОТМ ЭТОТ НР 202200 МАЙ=\n081000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-09T01:32:42.027696+00:00",
+        "valid_until": "2026-05-20T22:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 170/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.94383333333333,
+          69.51716666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-09T01:32:42.027073+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 170/26 КАРТА 12000\r\nМОТОВСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 170/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 110000 UTC JUN 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ 11 МАЙ ПО 10 ИЮНЬ\nКРУГЛОСУТОЧНО РАЙОН РАДИУСОМ 1 МИЛЯ\nИЗ 69-31.03С 032-56.63В\n2. ОТМ ЭТОТ НР 11 ИЮНЬ=\n081000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-09T01:32:42.027073+00:00",
+        "valid_until": "2026-06-11T00:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Navigation Prohibited Area"
       }
     },
     {
