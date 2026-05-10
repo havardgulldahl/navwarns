@@ -1802,6 +1802,54 @@
     },
     {
       "type": "Feature",
+      "id": "ESTONIAN NAV WARN 69/2026",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.776666666666667,
+              57.92
+            ],
+            [
+              21.793333333333333,
+              57.92
+            ],
+            [
+              21.793333333333333,
+              57.91
+            ],
+            [
+              21.776666666666667,
+              57.91
+            ],
+            [
+              21.776666666666667,
+              57.92
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-09T16:56:00",
+        "raw_dtg": "091656Z MAY 26",
+        "msg_id": "ESTONIAN NAV WARN 69/2026",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Central Baltic] ESTONIAN NAV WARN 69/2026\nNORTHERN BALTIC SEA\n091000-150500 UTC MAY\nSW OF SÕRVE PS\nNAVAL OPERATION\nIN AREA BOUNDED BY:\n57-55.2N 021-46.6E\n57-55.2N 021-47.6E\n57-54.6N 021-47.6E\n57-54.6N 021-46.6E\nSHIPPING IN AREA TEMPORARILY PROHIBITED\nCANCEL 150500 UTC MAY",
+        "cancel_date": null,
+        "valid_from": "2026-05-09T16:56:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Naval Operation Baltic Sea"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "FINNISH NAV WARN 145/26",
       "geometry": {
         "type": "Point",
