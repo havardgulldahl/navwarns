@@ -8847,6 +8847,118 @@
     },
     {
       "type": "Feature",
+      "id": "POLISH NAV WARN 101/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.4045,
+              54.365833333333335
+            ],
+            [
+              15.21,
+              54.573166666666665
+            ],
+            [
+              15.227,
+              54.5745
+            ],
+            [
+              15.3145,
+              54.58883333333333
+            ],
+            [
+              15.483666666666666,
+              54.622166666666665
+            ],
+            [
+              15.573,
+              54.651833333333336
+            ],
+            [
+              15.6595,
+              54.682
+            ],
+            [
+              15.874166666666667,
+              54.45133333333333
+            ],
+            [
+              15.4045,
+              54.365833333333335
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-11T07:50:00",
+        "raw_dtg": "110750Z MAY 26",
+        "msg_id": "POLISH NAV WARN 101/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 101/26\nSOUTHERN BALTIC. N OF KOLOBRZEG\nDUE TO MISSILE FIRING AREA BOUNDED BY POSITIONS:1. 54-21.95N 015-24.27E\n2. 54-34.39N 015-12.60E\n3. 54-34.47N 015-13.62E\n4. 54-35.33N 015-18.87E\n5. 54-37.33N 015-29.02E\n6. 54-39.11N 015-34.38E\n7. 54-40.92N 015-39.57E\n8. 54-27.08N 015-52.45E\nIS ANNOUNCED DANGEROUS FOR SHIPPING AND FISHERY ON 2026-05-12 AND 2026-05-13 FROM 0600 TO 1500 UTC\nAVOIDING THE AREA ADVISED\nCANCEL THIS MSG 131500 UTC MAY",
+        "cancel_date": null,
+        "valid_from": "2026-05-11T07:50:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 102/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.4045,
+              54.365833333333335
+            ],
+            [
+              15.874166666666667,
+              54.45133333333333
+            ],
+            [
+              16.0549,
+              54.26345
+            ],
+            [
+              15.57635,
+              54.18725
+            ],
+            [
+              15.4045,
+              54.365833333333335
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-11T07:51:00",
+        "raw_dtg": "110751Z MAY 26",
+        "msg_id": "POLISH NAV WARN 102/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 102/26\nSOUTHERN BALTIC. NE OF KOŁOBRZEG\nIN THE AREA BOUNDED BY POSITIONS:1. 54-21.950N 015-24.270E\n2. 54-27.080N 015-52.450E\n3. 54-15.807N 016-03.294E\n4. 54-11.235N 015-34.581E\nLIMITED BY THE COASTLINE FROM SOUTH MISSILE FIRING WILL BE CONDUCTED ON 2026-05-12 AND 2026-05-13 FROM 0600 TO 1500 UTC.\nAVOIDING THE AREA ADVISED\nCANCEL THIS MSG 131500 UTC MAY",
+        "cancel_date": null,
+        "valid_from": "2026-05-11T07:51:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Exercise"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 10/26",
       "geometry": {
         "type": "Point",
@@ -9545,6 +9657,66 @@
         "summary": null,
         "category": "military",
         "title": "Rocket Firing Exercises"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 35/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.833333333333336,
+            69.4
+          ],
+          [
+            44.11666666666667,
+            67.86666666666666
+          ],
+          [
+            44.4,
+            66.73333333333333
+          ],
+          [
+            38.53333333333333,
+            68.93333333333334
+          ],
+          [
+            45.05,
+            67.51666666666667
+          ],
+          [
+            45.71666666666667,
+            67.25
+          ],
+          [
+            45.5,
+            67.18333333333334
+          ],
+          [
+            45.05,
+            67.51666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-12T01:32:53.444166+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 35/26 КАРТА  10100 БЕЛОЕ И БАРЕНЦЕВО МОРЯ И ЧЕШСКАЯ ГУБА",
+        "msg_id": "PRIP ARKHANGELSK 35/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 202200 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 35 КАРТА  10100\nБЕЛОЕ И БАРЕНЦЕВО МОРЯ И ЧЕШСКАЯ ГУБА\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 142100 ПО 202100 МАЙ\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО\nИХ ПРЕДЕЛАМИ РАЙОНАХ\nА. 69-24.0С 039-50.0В\n67-52.0С 044-07.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-44.0С 044-24.0В\n68-56.0С 038-32.0В\nБ. 67-31.0С 045-03.0В\n67-15.0С 045-43.0В\n67-11.0С 045-30.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-31.0С 045-03.0В\n2. ОТМ ЭТОТ НР 202200 МАЙ=\n081700 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-12T01:32:53.444166+00:00",
+        "valid_until": "2026-05-20T22:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Firing Exercise"
       }
     },
     {
