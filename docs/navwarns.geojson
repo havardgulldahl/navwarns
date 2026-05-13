@@ -1518,6 +1518,34 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 236/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.826666666666666,
+          56.75333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-12T21:33:00",
+        "raw_dtg": "122133Z MAY 26",
+        "msg_id": "DANISH NAV WARN 236/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Kattegat] DANISH NAV WARN 236/26\nKATTEGAT. EAST OF ANHOLT.\nRACON ON SAFE WATER LIGHT BUOY NO 6\n56-45.2N 011-49.6E INOPERATIVE.",
+        "cancel_date": null,
+        "valid_from": "2026-05-12T21:33:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Inoperative Light Buoy"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 024/26",
       "geometry": {
         "type": "Point",
@@ -3344,6 +3372,122 @@
         "summary": null,
         "category": "military",
         "title": "Hazardous Operations Areas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 59/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.751666666666665,
+              69.15
+            ],
+            [
+              16.251666666666665,
+              69.15
+            ],
+            [
+              16.251666666666665,
+              69.55333333333333
+            ],
+            [
+              16.066666666666666,
+              69.58333333333333
+            ],
+            [
+              16.716666666666665,
+              69.91666666666667
+            ],
+            [
+              17.466666666666665,
+              69.73333333333333
+            ],
+            [
+              16.816666666666666,
+              69.43
+            ],
+            [
+              16.85,
+              69.28333333333333
+            ],
+            [
+              16.751666666666665,
+              69.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-12T18:56:00",
+        "raw_dtg": "121856Z MAY 26",
+        "msg_id": "HYDROARC 59/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 140400Z MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 59/26.\nNORWEGIAN SEA.\nNORWAY.\n1. HAZARDOUS OPERATIONS 1600Z TO 0300Z\n   DAILY UNTIL 14 MAY IN AREA BOUND BY\n   69-09.00N 016-45.10E, 69-09.00N 016-15.10E,\n   69-33.20N 016-15.10E, 69-35.00N 016-04.00E,\n   69-55.00N 016-43.00E, 69-44.00N 017-28.00E,\n   69-25.80N 016-49.00E, 69-17.00N 016-51.00E.\n2. CANCEL THIS MSG 140400Z MAY 26.",
+        "cancel_date": null,
+        "valid_from": "2026-05-12T18:56:00+00:00",
+        "valid_until": "2026-05-14T04:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Hazardous Military Operations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 60/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.0,
+              65.5
+            ],
+            [
+              12.0,
+              65.5
+            ],
+            [
+              12.0,
+              57.5
+            ],
+            [
+              -8.0,
+              57.5
+            ],
+            [
+              -8.0,
+              65.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-13T00:48:00",
+        "raw_dtg": "130048Z MAY 26",
+        "msg_id": "HYDROARC 60/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 300059Z MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 60/26.\nNORWEGIAN SEA.\nNORWAY.\n1. HAZARDOUS OPERATIONS 180001Z TO 292359Z MAY\n   IN AREA BOUND BY\n   65-30.00N 008-00.00W, 65-30.00N 012-00.00E,\n   57-30.00N 012-00.00E, 57-30.00N 008-00.00W.\n2. CANCEL THIS MSG 300059Z MAY 26.",
+        "cancel_date": null,
+        "valid_from": "2026-05-13T00:48:00+00:00",
+        "valid_until": "2026-05-30T00:59:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Hazardous Military Operations"
       }
     },
     {
@@ -6042,6 +6186,114 @@
         "summary": null,
         "category": "military",
         "title": "Military Exercise Norwegian Sea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XIX 62/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.751666666666665,
+            69.15
+          ],
+          [
+            16.251666666666665,
+            69.15
+          ],
+          [
+            16.251666666666665,
+            69.55333333333333
+          ],
+          [
+            16.066666666666666,
+            69.58333333333333
+          ],
+          [
+            16.716666666666665,
+            69.91666666666667
+          ],
+          [
+            17.466666666666665,
+            69.73333333333333
+          ],
+          [
+            16.816666666666666,
+            69.43
+          ],
+          [
+            16.85,
+            69.28333333333333
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-12T18:30:00",
+        "raw_dtg": "121830Z MAY 26",
+        "msg_id": "NAVAREA XIX 62/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 62/26\n\n\n\nNORWEGIAN SEA. ANDOEYA AND SENJA W\n\nMILITARY EXERCISE ACTIVITY AND SHARP SHOOTING\n\nFROM 10MAY TO 14MAY26 DAYLY 1600UTC TO 0300UTC26\n\nMARITIME TRAFFIC IS REQUESTED TO BE AWARE OF THE FOLLOWING DANGER AREA\n\n\n\nDANGER AREA SEA TANGO-SIERRA\n\nA. 69-09.00N 016-45.10E\n\nB. 69-09.00N 016-15.10E\n\nC. 69-33.20N 016-15.10E\n\nD. 69-35.00N 016-04.00E\n\nE. 69-55.00N 016-43.00E\n\nF. 69-44.00N 017-28.00E\n\nG. 69-25.80N 016-49.00E\n\nH. 69-17.00N 016-51.00E\n\n\n\nFOR COORDINATION ANDOEYA SPACE OPERATIONS CENTER CAN BE REACHED ON.\n\nTELEPHONE 0047 94 07 59 44. 0047 76 14 45 87 OR MARITIME\n\nVHF CH 14 AND 16 CALLSIGN ANDOEYA SPACE. E-MAIL MSO@ANDOYASPACE.NO.\n\nFOR FURTHER DETAILS SEE NOTICES TO MARINERS 08/2026\n\nWWW.KARTVERKET.NO/EN/AT-SEA/EFS AND WWW.ANDOYASPACE.NO FOR DAILY\n\nUPDATES AND MAPS.",
+        "cancel_date": null,
+        "valid_from": "2026-05-12T18:30:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercise Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XIX 63/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.0,
+              65.5
+            ],
+            [
+              12.0,
+              65.5
+            ],
+            [
+              12.0,
+              57.5
+            ],
+            [
+              -8.0,
+              57.5
+            ],
+            [
+              -8.0,
+              65.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-13T06:30:00",
+        "raw_dtg": "130630Z MAY 26",
+        "msg_id": "NAVAREA XIX 63/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MESSAGE 300001 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 63/26\n\nMILITARY EXERCISE INCLUDING LIVE WEAPONS FIRING IN PROGRESS FROM 180001 UTC MAY TO 292359 UTC MAY, WITHIN FOLLOWING AREA:\n\nNATO MILITARY EXERCISE\n\n65-30.00N 008-00.00W\n\n65-30.00N 012-00.00E\n\n57-30.00N 012-00.00E\n\n57-30.00N 008-00.00W\n\n65-30.00N 008-00.00W\n\nMARINERS ARE REQUESTED TO NAVIGATE WITH CAUTION, KEEP CLEAR OF ALL NAVAL SHIPS WHICH MAY BE UNLIT AND PAY ATTENTION TO SIGNALS SHOWN.\n\nCANCEL THIS MESSAGE 300001 UTC MAY 26.",
+        "cancel_date": null,
+        "valid_from": "2026-05-13T06:30:00+00:00",
+        "valid_until": "2026-05-30T00:01:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Live Weapons Exercise"
       }
     },
     {
@@ -13687,6 +13939,86 @@
         "summary": null,
         "category": "military",
         "title": "Navigation Prohibited Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 171/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.96666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-13T01:34:22.726525+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 171/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 171/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 172000 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 17 МАЙ\n0500 ДО 1900 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНЕ\n69-58.0С 033-38.0В\n69-58.0С 034-48.0В\n69-34.5С 034-48.0В\n69-34.5С 033-38.0В\n2. ОТМ ЭТОТ НР 172000 МАЙ=\n121000 МСК     ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-13T01:34:22.726525+00:00",
+        "valid_until": "2026-05-17T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 172/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.22840277777778,
+          69.08001388888889
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-13T01:34:22.725984+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 172/26 КАРТА 17054 КОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 172/26",
+        "year": 2026,
+        "cancellations": [
+          "277/21"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1. АВТОНОМНАЯ ДОННАЯ СТАНЦИЯ ВЫСТАВЛЕНА В\n69-04-48.05С 033-13-42.25В\nПРИ ПЛАВАНИИ СОБЛЮДАТЬ ОСТОРОЖНОСТЬ\n2. ОТМ 277/21 И ЭТОТ ПУНКТ=\n121000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-13T01:34:22.725984+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Autonomous Bottom Station"
       }
     },
     {
