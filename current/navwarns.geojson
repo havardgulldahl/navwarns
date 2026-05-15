@@ -136,6 +136,108 @@
     },
     {
       "type": "Feature",
+      "id": "ANDOYA_DANGER_AREA_GOLF1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.666666999999999,
+              69.133333
+            ],
+            [
+              15.383333,
+              69.23333299999999
+            ],
+            [
+              15.166666999999999,
+              69.15
+            ],
+            [
+              15.6,
+              69.1
+            ],
+            [
+              15.666666999999999,
+              69.133333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-15T01:34:58.721982+00:00",
+        "raw_dtg": "150134Z MAY 26",
+        "msg_id": "ANDOYA_DANGER_AREA_GOLF1",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "firing_exercises",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "(Kallesignal «Andøya Space»). Epost: mso@andoyaspace.no  Se www.andoyaspace.no for daglige varslinger og kart. Name: DANGER AREA GOLF1 Description: In the period 18 May - 24 May 2026 there will be activity off the coast of Andøya. Activities will take place during the period between 22:00-05:00 local time. The danger area \"GOLF1 og GOLF2\" is colored yellow prior to activation. 2-3 hours before the danger area is activated, it will be colored red. The danger area is disabled and returns to yellow as soon as the activity ends.   Should there be a need for transit or use of the area, this can be coordinated with Andøya Space.? During the above period, maritime traffic is asked to be aware of the notified areas or contact Andøya Space for coordination during the campaign period. Phone 94 07 59 44 / 76 14 45 87 and maritime VHF channel 16/14 (Call sign «Andøya Space»).   Email: mso@andoyaspace.no See www.andoyaspace.no for daily notifications and maps.",
+        "cancel_date": null,
+        "valid_from": "2026-05-15T01:34:58.721982+00:00",
+        "valid_until": null,
+        "summary": null,
+        "source": "BarentsWatch/Andoya",
+        "area_name": "DANGER AREA GOLF1",
+        "name": "Andoya Danger Area",
+        "category": "military",
+        "title": "Andøya Space Danger Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ANDOYA_DANGER_AREA_GOLF2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.75,
+              69.8
+            ],
+            [
+              10.8,
+              69.383333
+            ],
+            [
+              12.583333000000001,
+              70.7
+            ],
+            [
+              9.833333000000001,
+              71.15
+            ],
+            [
+              7.75,
+              69.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-15T01:34:58.722475+00:00",
+        "raw_dtg": "150134Z MAY 26",
+        "msg_id": "ANDOYA_DANGER_AREA_GOLF2",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "firing_exercises",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "(Kallesignal «Andøya Space»). Epost: mso@andoyaspace.no  Se www.andoyaspace.no for daglige varslinger og kart. Name: DANGER AREA GOLF2 Description: In the period 18 May - 24 May 2026 there will be activity off the coast of Andøya. Activities will take place during the period between 22:00-05:00 local time. The danger area \"GOLF1 og GOLF2\" is colored yellow prior to activation. 2-3 hours before the danger area is activated, it will be colored red. The danger area is disabled and returns to yellow as soon as the activity ends.   Should there be a need for transit or use of the area, this can be coordinated with Andøya Space.? During the above period, maritime traffic is asked to be aware of the notified areas or contact Andøya Space for coordination during the campaign period. Phone 94 07 59 44 / 76 14 45 87 and maritime VHF channel 16/14 (Call sign «Andøya Space»).   Email: mso@andoyaspace.no See www.andoyaspace.no for daily notifications and maps.",
+        "cancel_date": null,
+        "valid_from": "2026-05-15T01:34:58.722475+00:00",
+        "valid_until": null,
+        "summary": null,
+        "source": "BarentsWatch/Andoya",
+        "area_name": "DANGER AREA GOLF2",
+        "name": "Andoya Danger Area",
+        "category": "military",
+        "title": "Andøya Danger Area"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ANDOYA_DANGER_AREA_November",
       "geometry": {
         "type": "Polygon",
@@ -10106,6 +10208,62 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP ARKHANGELSK 38/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.49772222222222,
+          64.55622222222222
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-15T01:34:55.510511+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 38/26 КАРТА  19030",
+        "msg_id": "PRIP ARKHANGELSK 38/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 38 КАРТА  19030\nПОРТ АРХАНГЕЛЬСК\nСВЕТЯЩИЙ БУЙ НР 20А ЛЕВОЙ СТОРОНЫ ВЫСТАВЛЕН В \n64-33-22.4С 040-29-51.8В=\n131730 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-15T01:34:55.510511+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Arkhagelsk Light Buoy Laid"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 39/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.47683333333334,
+          64.52277777777778
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-15T01:34:55.510280+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 39/26 КАРТА  19030",
+        "msg_id": "PRIP ARKHANGELSK 39/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 39 КАРТА  19030\nПОРТ АРХАНГЕЛЬСК\nСВЕТЯЩИЕ БУИ ВЫСТАВЛЕНЫ В\n1. ВОСТОЧНЫЙ 64-31-22.0С 040-28-36.6В\n2. ЗАПАДНЫЙ 64-30-57.8С 040-27-28.4В=\n131730 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-15T01:34:55.510280+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Lighted Buoys Deployed"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 4/26",
       "geometry": {
         "type": "Point",
@@ -14152,6 +14310,156 @@
         "summary": null,
         "category": "navigation",
         "title": "Autonomous Bottom Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 173/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.166666666666664,
+              69.33333333333333
+            ],
+            [
+              33.55,
+              69.33333333333333
+            ],
+            [
+              33.55,
+              69.2
+            ],
+            [
+              33.166666666666664,
+              69.2
+            ],
+            [
+              33.166666666666664,
+              69.33333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-15T01:34:55.508703+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 173/26 КАРТА 13004\r\n\r\nКОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 173/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 201400 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "МУРМАНСК 01 14/05 1500=\n \nПРИП МУРМАНСК 173 КАРТА 13004\nКОЛЬСКИЙ ЗАЛИВ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 19 ПО 20 МАЙ\n0700 ДО 1300 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-20.0С 033-10.0В\n69-20.0С 033-33.0В\n69-12.0С 033-33.0В\n69-12.0С 033-10.0В\nИСКЛЮЧАЯ ОСТРОВА И БЕРЕГОВУЮ ЧАСТЬ\n2. ОТМ ЭТОТ НР 201400 МАЙ=\n141000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-15T01:34:55.508703+00:00",
+        "valid_until": "2026-05-20T14:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Exercise"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 174/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.24333333333333,
+              69.515
+            ],
+            [
+              32.605,
+              69.515
+            ],
+            [
+              32.605,
+              69.39
+            ],
+            [
+              32.24333333333333,
+              69.39
+            ],
+            [
+              32.24333333333333,
+              69.515
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-15T01:34:55.508378+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 174/26 КАРТА 13004\r\n\r\nМОТОВСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 174/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 201400 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 174 КАРТА 13004\nМОТОВСКИЙ ЗАЛИВ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 19 ПО 20 МАЙ\n0700 ДО 1300 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-30.9С 032-14.6В\n69-30.9С 032-36.3В\n69-23.4С 032-36.3В\n69-23.4С 032-14.6В\nИСКЛЮЧАЯ ОСТРОВА И БЕРЕГОВУЮ ЧАСТЬ\n2. ОТМ ЭТОТ НР 201400 МАЙ=\n141000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-15T01:34:55.508378+00:00",
+        "valid_until": "2026-05-20T14:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Exercises"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 175/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.133333333333333,
+              69.865
+            ],
+            [
+              31.49,
+              69.79166666666667
+            ],
+            [
+              31.406666666666666,
+              69.725
+            ],
+            [
+              31.05,
+              69.79833333333333
+            ],
+            [
+              31.133333333333333,
+              69.865
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-15T01:34:55.507513+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 175/26 КАРТА 12000\r\n\r\nЗАЛИВ ВАРАНГЕР-ФЬОРД",
+        "msg_id": "PRIP MURMANSK 175/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 201600 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 175 КАРТА 12000\nЗАЛИВ ВАРАНГЕР-ФЬОРД\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 19 ПО 20 МАЙ\n0600 ДО 1500 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-51.9С 031-08.0В\n69-47.5С 031-29.4В\n69-43.5С 031-24.4В\n69-47.9С 031-03.0В\n2. ОТМ ЭТОТ НР 201600 МАЙ=\n141000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-15T01:34:55.507513+00:00",
+        "valid_until": "2026-05-20T16:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Varanger"
       }
     },
     {
