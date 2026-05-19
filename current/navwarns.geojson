@@ -9586,6 +9586,100 @@
     },
     {
       "type": "Feature",
+      "id": "POLISH NAV WARN 108/26",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.323666666666668,
+                54.840833333333336
+              ],
+              [
+                18.48695369652879,
+                54.81983807233597
+              ],
+              [
+                18.453333333333333,
+                54.79
+              ],
+              [
+                18.323666666666668,
+                54.840833333333336
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                18.964,
+                54.7585
+              ],
+              [
+                18.48695369652879,
+                54.81983807233597
+              ],
+              [
+                18.6,
+                54.92016666666667
+              ],
+              [
+                18.964,
+                54.7585
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-18T05:00:00",
+        "raw_dtg": "180500Z MAY 26",
+        "msg_id": "POLISH NAV WARN 108/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] POLISH NAV WARN 108/26\nSOUTHEASTERN BALTIC. POLISH COAST. GULF OF GDAŃSK.\nIN THE AREA BOUNDED BY POSITIONS:\n54-50.45N 018-9.84E\n55-2.90N 018-9.84E\n55-2.90N 018-54.84E\n54-45.51N 018-57.84E\n54-55.21N 018-36.00E\n54-47.40N 018-27.20E\n54-50.45N 018-19.42E\nMILITARY EXERCISES WILL TAKE PLACE:\n2026-05-18 TO 2026-05-22 05.00 - 20:00 UTC\nEXTREME CAUTION ADVISED.\nCANCEL 222000 UTC MAY",
+        "cancel_date": null,
+        "valid_from": "2026-05-18T05:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 110/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-18T06:00:00",
+        "raw_dtg": "180600Z MAY 26",
+        "msg_id": "POLISH NAV WARN 110/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 110/26\nSOUTHERN BALTIC.\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\nFROM 2026-05-18 TO 2026-05-23 06:00 - 21:59 UTC.\nCANCEL 232159 UTC MAY",
+        "cancel_date": null,
+        "valid_from": "2026-05-18T06:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercise Zone"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 10/26",
       "geometry": {
         "type": "Point",
@@ -10482,6 +10576,66 @@
         "summary": null,
         "category": "navigation",
         "title": "Virtual Aids Established"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 41/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.833333333333336,
+            69.4
+          ],
+          [
+            44.11666666666667,
+            67.86666666666666
+          ],
+          [
+            44.4,
+            66.73333333333333
+          ],
+          [
+            38.53333333333333,
+            68.93333333333334
+          ],
+          [
+            45.05,
+            67.51666666666667
+          ],
+          [
+            45.71666666666667,
+            67.25
+          ],
+          [
+            45.5,
+            67.18333333333334
+          ],
+          [
+            45.05,
+            67.51666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-19T01:37:43.739727+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 41/26 КАРТА  10100\r\nБЕЛОЕ И БАРЕНЦЕВО МОРЯ И ЧЕШСКАЯ ГУБА",
+        "msg_id": "PRIP ARKHANGELSK 41/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 282200 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 41 КАРТА  10100\nБЕЛОЕ И БАРЕНЦЕВО МОРЯ И ЧЕШСКАЯ ГУБА\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 202100 ПО 282100 МАЙ\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО\nИХ ПРЕДЕЛАМИ РАЙОНАХ\nА. 69-24.0С 039-50.0В\n67-52.0С 044-07.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-44.0С 044-24.0В\n68-56.0С 038-32.0В\nБ. 67-31.0С 045-03.0В\n67-15.0С 045-43.0В\n67-11.0С 045-30.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-31.0С 045-03.0В\n2. ОТМ ЭТОТ НР 282200 МАЙ=\n151700 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-19T01:37:43.739727+00:00",
+        "valid_until": "2026-05-28T22:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Firing Warning"
       }
     },
     {
@@ -14810,6 +14964,66 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 179/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.833333333333336,
+            69.4
+          ],
+          [
+            44.11666666666667,
+            67.86666666666666
+          ],
+          [
+            44.4,
+            66.73333333333333
+          ],
+          [
+            38.53333333333333,
+            68.93333333333334
+          ],
+          [
+            45.05,
+            67.51666666666667
+          ],
+          [
+            45.71666666666667,
+            67.25
+          ],
+          [
+            45.5,
+            67.18333333333334
+          ],
+          [
+            45.05,
+            67.51666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-19T01:37:43.738096+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 179/26 КАРТА 10100\r\n\r\nБАРЕНЦЕВО И БЕЛОЕ МОРЯ И ЧЕШСКАЯ ГУБА",
+        "msg_id": "PRIP MURMANSK 179/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 282200 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "МУРМАНСК 01 18/05 1500=\n \nПРИП МУРМАНСК 179 КАРТА 10100\nБАРЕНЦЕВО И БЕЛОЕ МОРЯ И ЧЕШСКАЯ ГУБА\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 202100 ПО 282100 МАЙ\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО\nИХ ПРЕДЕЛАМИ РАЙОНАХ\nА. 69-24.0С 039-50.0В\n   67-52.0С 044-07.0В\n   ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n   66-44.0С 044-24.0В\n   68-56.0С 038-32.0В\nБ. 67-31.0С 045-03.0В\n   67-15.0С 045-43.0В\n   67-11.0С 045-30.0В\n   ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n   67-31.0С 045-03.0В\n2. ОТМ ЭТОТ НР 282200 МАЙ=\n181000 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-19T01:37:43.738096+00:00",
+        "valid_until": "2026-05-28T22:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 18/26",
       "geometry": {
         "type": "Point",
@@ -14834,6 +15048,128 @@
         "summary": null,
         "category": "navigation",
         "title": "Navigational Aids Status"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 180/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.163333333333334,
+            69.86
+          ],
+          [
+            35.70666666666666,
+            69.66666666666667
+          ],
+          [
+            34.92666666666667,
+            69.39416666666666
+          ],
+          [
+            34.38333333333333,
+            69.5875
+          ],
+          [
+            34.606,
+            72.9
+          ],
+          [
+            37.818666666666665,
+            72.71866666666666
+          ],
+          [
+            39.556,
+            72.57466666666667
+          ],
+          [
+            38.406,
+            71.05
+          ],
+          [
+            37.92466666666667,
+            70.45
+          ],
+          [
+            37.02466666666667,
+            70.45
+          ],
+          [
+            34.15,
+            72.27466666666666
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-19T01:37:43.737783+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 180/26 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 180/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 282200 UTC MAY 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 180 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 202100 ПО 282100 МАЙ\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО\nИХ ПРЕДЕЛАМИ РАЙОНАХ\nА. 69-51.60С 035-09.80В\n   69-40.00С 035-42.40В\n   69-23.65С 034-55.60В\n   69-35.25С 034-23.00В\nБ. 72-54.00С 034-36.36В\n   72-43.12С 037-49.12В\n   72-34.48С 039-33.36В\n   71-03.00С 038-24.36В\n   70-27.00С 037-55.48В\n   70-27.00С 037-01.48В\n   72-16.48С 034-09.00В\n2. ОТМ ЭТОТ НР 282200 МАЙ=\n181000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-19T01:37:43.737783+00:00",
+        "valid_until": "2026-05-28T22:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 181/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.51166666666666,
+              69.59666666666666
+            ],
+            [
+              32.91833333333334,
+              69.54333333333334
+            ],
+            [
+              32.86333333333333,
+              69.49
+            ],
+            [
+              32.458333333333336,
+              69.54166666666667
+            ],
+            [
+              32.51166666666666,
+              69.59666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-19T01:37:43.736778+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 181/26 КАРТА 15053\r\n\r\nМОТОВСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 181/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 262200 UTC MAY 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 181 КАРТА 15053\nМОТОВСКИЙ ЗАЛИВ\n1. УЧЕНИЯ БАРЕНЦ-2026 242100 ПО 262100 МАЙ РАЙОНЕ\n69-35.8С 032-30.7В\n69-32.6С 032-55.1В\n69-29.4С 032-51.8В\n69-32.5С 032-27.5В\n2. ОТМ ЭТОТ НР 262200 МАЙ=\n181000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-19T01:37:43.736778+00:00",
+        "valid_until": "2026-05-26T22:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Barents-2026 Exercises"
       }
     },
     {
