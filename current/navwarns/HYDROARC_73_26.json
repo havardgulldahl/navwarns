@@ -1,0 +1,64 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 73/26",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          89.7,
+          81.356
+        ],
+        [
+          87.63933333333334,
+          81.83733333333333
+        ],
+        [
+          85.46866666666666,
+          82.78733333333334
+        ],
+        [
+          96.65,
+          83.4
+        ],
+        [
+          115.22466666666666,
+          83.28733333333334
+        ],
+        [
+          115.97466666666666,
+          82.61866666666667
+        ],
+        [
+          114.6,
+          81.65
+        ],
+        [
+          104.156,
+          81.656
+        ],
+        [
+          89.7,
+          81.356
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-05-20T15:01:00",
+    "raw_dtg": "201501Z MAY 26",
+    "msg_id": "HYDROARC 73/26",
+    "year": 2026,
+    "cancellations": [
+      "THIS MSG 282200Z MAY 26"
+    ],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "HYDROARC 73/26.\nARCTIC.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   202100Z THRU 282100Z MAY IN AREA BOUND BY\n   81-21.36N 089-42.00E, 81-50.24N 087-38.36E,\n   82-47.24N 085-28.12E, 83-24.00N 096-39.00E,\n   83-17.24N 115-13.48E, 82-37.12N 115-58.48E,\n   81-39.00N 114-36.00E, 81-39.36N 104-09.36E.\n2. CANCEL THIS MSG 282200Z MAY 26.",
+    "cancel_date": null,
+    "valid_from": "2026-05-20T15:01:00+00:00",
+    "valid_until": "2026-05-28T22:00:00+00:00",
+    "summary": null
+  }
+}
