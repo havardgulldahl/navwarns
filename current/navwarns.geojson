@@ -10126,6 +10126,114 @@
     },
     {
       "type": "Feature",
+      "id": "POLISH NAV WARN 118/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-21T14:18:00",
+        "raw_dtg": "211418Z MAY 26",
+        "msg_id": "POLISH NAV WARN 118/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 118/26\nSOUTHERN BALTIC.\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\n\n2026-05-25 TO 2026-05-29\nFROM 03:00 TO 21:59 UTC\n\nZONE IS CLOSED\nCANCEL THIS MSG 292159 UTC MAY",
+        "cancel_date": null,
+        "valid_from": "2026-05-21T14:18:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 119/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3475,
+          54.576166666666666
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-21T14:43:00",
+        "raw_dtg": "211443Z MAY 26",
+        "msg_id": "POLISH NAV WARN 119/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 119/26\nSOUTHERN BALTIC.\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\n\nS-6B CENTERED 54-34.57N 016-20.85E\n\n2026-05-25 TO 2026-05-29\nFROM 03:00 TO 21:59 UTC\n\nZONE IS CLOSED\nCANCEL THIS MSG 292159 UTC MAY",
+        "cancel_date": null,
+        "valid_from": "2026-05-21T14:43:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercise Closure"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 120/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.146166666666666,
+              54.59
+            ],
+            [
+              15.940666666666667,
+              54.8375
+            ],
+            [
+              16.65,
+              54.98833333333333
+            ],
+            [
+              16.773,
+              54.784
+            ],
+            [
+              16.2825,
+              54.67916666666667
+            ],
+            [
+              16.146166666666666,
+              54.59
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-21T14:48:00",
+        "raw_dtg": "211448Z MAY 26",
+        "msg_id": "POLISH NAV WARN 120/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] POLISH NAV WARN 120/26\nSOUTHERN BALTIC.\nDUE TO THE MILITARY EXERCISES (USE OF WEAPON) ALL SHIPS ARE REQUESTED TO AVOID AREA BOUNDED BY POSITIONS :\n\n54-35.40N 016-08.77E\n54-50.25N 015-56.44E\n54-59.30N 016-39.00E\n54-47.04N 016-46.38E\n54-40.75N 016-16.95E\n\n2026-05-25 TO 2026-05-29\nFROM 03:00 TO 21:59 UTC\n\nEXTREME CAUTION ADVISED.\nCANCEL THIS MSG 292159 UTC MAY",
+        "cancel_date": null,
+        "valid_from": "2026-05-21T14:48:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercises Warning"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 10/26",
       "geometry": {
         "type": "Point",
@@ -11140,6 +11248,60 @@
         "summary": null,
         "category": "military",
         "title": "Special Works Restricted Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 43/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.37,
+              65.075
+            ],
+            [
+              39.266666666666666,
+              65.075
+            ],
+            [
+              39.266666666666666,
+              64.70833333333333
+            ],
+            [
+              39.0,
+              64.70833333333333
+            ],
+            [
+              38.37,
+              64.84666666666666
+            ],
+            [
+              38.37,
+              65.075
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-22T01:37:56.133305+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 43/26 КАРТА 14007\r\nДВИНСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP ARKHANGELSK 43/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 042000 UTC JUN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 43 КАРТА 14007\nДВИНСКИЙ ЗАЛИВ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 28 ПО 31 МАЙ И\n01 ПО 04 ИЮНЬ 0500 ДО 1900 \nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ \n65-04.5С 038-22.2В 65-04.5С 039-16.0В \n64-42.5С 039-16.0В 64-42.5С 039-00.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО 64-50.8С 038-22.2В\n2. ОТМ ЭТОТ НР 042000 ИЮНЬ=\n211700 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-22T01:37:56.133305+00:00",
+        "valid_until": "2026-06-04T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Warning"
       }
     },
     {
@@ -15760,6 +15922,54 @@
         "summary": null,
         "category": "navigation",
         "title": "Green Cape Buoy Removed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 184/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.51777777777777,
+            69.58888888888889
+          ],
+          [
+            32.901666666666664,
+            69.53888888888889
+          ],
+          [
+            32.88583333333333,
+            69.49861111111112
+          ],
+          [
+            32.86833333333333,
+            69.4825
+          ],
+          [
+            32.434999999999995,
+            69.51888888888888
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-22T01:37:56.131272+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 184/26 ПРИП МУРМАНСК 184 КАРТА 15053\r\n\r\nМОТОВСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 184/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 221300 UTC MAY 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ\n211200 ПО 221200 МАЙ РАЙОН\n69-35-20С 032-31-04В\n69-32-20С 032-54-06В\n69-29-55С 032-53-09В\n69-28-57С 032-52-06В\n69-31-08С 032-26-06В\n2. ОТМ ЭТОТ НР 221300 МАЙ=\n211520 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-22T01:37:56.131272+00:00",
+        "valid_until": "2026-05-22T13:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Vessel Area Restriction"
       }
     },
     {
