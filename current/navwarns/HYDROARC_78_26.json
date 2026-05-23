@@ -1,0 +1,60 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 78/26",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.25,
+          69.91666666666667
+        ],
+        [
+          35.0,
+          69.91666666666667
+        ],
+        [
+          35.0,
+          69.5
+        ],
+        [
+          34.416666666666664,
+          69.29166666666667
+        ],
+        [
+          33.5,
+          69.39
+        ],
+        [
+          33.295,
+          69.41166666666666
+        ],
+        [
+          33.25,
+          69.41666666666667
+        ],
+        [
+          33.25,
+          69.91666666666667
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-05-22T16:39:00",
+    "raw_dtg": "221639Z MAY 26",
+    "msg_id": "HYDROARC 78/26",
+    "year": 2026,
+    "cancellations": [
+      "THIS MSG 281700Z MAY 26"
+    ],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "HYDROARC 78/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS 0600Z TO 1600Z DAILY\n   23 AND 28 MAY IN AREA BOUND BY\n   69-55.00N 033-15.00E, 69-55.00N 035-00.00E,\n   69-30.00N 035-00.00E, 69-17.50N 034-25.00E,\n   69-23.40N 033-30.00E, 69-24.70N 033-17.70E,\n   69-25.00N 033-15.00E.\n2. CANCEL THIS MSG 281700Z MAY 26.",
+    "cancel_date": null,
+    "valid_from": "2026-05-22T16:39:00+00:00",
+    "valid_until": "2026-05-28T17:00:00+00:00",
+    "summary": null
+  }
+}
