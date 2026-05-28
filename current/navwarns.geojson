@@ -4473,6 +4473,110 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 85/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.6,
+              70.2
+            ],
+            [
+              35.5,
+              70.2
+            ],
+            [
+              35.5,
+              69.575
+            ],
+            [
+              33.6,
+              69.575
+            ],
+            [
+              33.6,
+              70.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-27T18:18:00",
+        "raw_dtg": "271818Z MAY 26",
+        "msg_id": "HYDROARC 85/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 022000Z JUN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 85/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS 0500Z TO 1900Z\n   DAILY 01 AND 02 JUN IN AREA BOUND BY\n   70-12.00N 033-36.00E, 70-12.00N 035-30.00E,\n   69-34.50N 035-30.00E, 69-34.50N 033-36.00E.\n2. CANCEL THIS MSG 022000Z JUN 26.",
+        "cancel_date": null,
+        "valid_from": "2026-05-27T18:18:00+00:00",
+        "valid_until": "2026-06-02T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Hazardous Operations Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 86/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.00833333333333,
+              72.76666666666667
+            ],
+            [
+              38.3,
+              70.475
+            ],
+            [
+              38.75,
+              69.63333333333334
+            ],
+            [
+              38.0,
+              69.46666666666667
+            ],
+            [
+              31.066666666666666,
+              72.05833333333334
+            ],
+            [
+              35.00833333333333,
+              72.76666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-27T18:43:00",
+        "raw_dtg": "271843Z MAY 26",
+        "msg_id": "HYDROARC 86/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 041400Z JUN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 86/26.\nBARENTS SEA.\nRUSSIA.\n1. MISSILE OPERATIONS 0001Z TO 1300Z\n   DAILY 02 THRU 04 JUN IN AREA BOUND BY\n   72-46.00N 035-00.50E, 70-28.50N 038-18.00E,\n   69-38.00N 038-45.00E, 69-28.00N 038-00.00E,\n   72-03.50N 031-04.00E.\n2. CANCEL THIS MSG 041400Z JUN 26.",
+        "cancel_date": null,
+        "valid_from": "2026-05-27T18:43:00+00:00",
+        "valid_until": "2026-06-04T14:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Operations Notice"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 028/26",
       "geometry": {
         "type": "Point",
@@ -16708,6 +16812,164 @@
         "summary": null,
         "category": "military",
         "title": "Vessel Passage Prohibited"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 190/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.6,
+              70.2
+            ],
+            [
+              35.5,
+              70.2
+            ],
+            [
+              35.5,
+              69.575
+            ],
+            [
+              33.6,
+              69.575
+            ],
+            [
+              33.6,
+              70.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-28T01:32:56.182491+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 190/26 ПРИП МУРМАНСК 190 КАРТА 10101\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 190/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 022000 UTC JUN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ РАКЕТНЫЕ И АРТИЛЛЕРИЙСКИЕ\n01 ПО 02 ИЮНЬ 0500 ДО 1900 ПЛАВАНИЕ\nЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ\nРАЙОНЕ\n70-12.0С 033-36.0В\n70-12.0С 035-30.0В\n69-34.5С 035-30.0В\n69-34.5С 033-36.0В\n2. ОТМ ЭТОТ НР 022000 ИЮНЬ=\n271000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-28T01:32:56.182491+00:00",
+        "valid_until": "2026-06-02T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile And Artillery Firing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 191/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.13333333333333,
+              69.71666666666667
+            ],
+            [
+              33.45,
+              69.71666666666667
+            ],
+            [
+              33.45,
+              69.53333333333333
+            ],
+            [
+              32.93333333333333,
+              69.53333333333333
+            ],
+            [
+              32.84166666666667,
+              69.56666666666666
+            ],
+            [
+              33.13333333333333,
+              69.71666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-28T01:32:56.182138+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 191/26 ПРИП МУРМАНСК 191 КАРТА 12000\r\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
+        "msg_id": "PRIP MURMANSK 191/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 062000 UTC JUN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 01 ПО 06 ИЮНЬ\n0500 ДО 1900 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-43.0С 033-08.0В\n69-43.0С 033-27.0В\n69-32.0С 033-27.0В\n69-32.0С 032-56.0В\n69-34.0С 032-50.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-43.0С 033-08.0В\n2. ОТМ ЭТОТ НР 062000 ИЮНЬ=\n271000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-28T01:32:56.182138+00:00",
+        "valid_until": "2026-06-06T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 192/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.00833333333333,
+              72.76666666666667
+            ],
+            [
+              38.3,
+              70.475
+            ],
+            [
+              38.75,
+              69.63333333333334
+            ],
+            [
+              38.0,
+              69.46666666666667
+            ],
+            [
+              31.066666666666666,
+              72.05833333333334
+            ],
+            [
+              35.00833333333333,
+              72.76666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-05-28T01:32:56.181280+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 192/26 ПРИП МУРМАНСК 192 КАРТА 10100\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 192/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 041400 UTC JUN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ РАКЕТНЫЕ 02 ПО 04 ИЮНЬ 0000 ДО 1300\nРАЙОНЕ ОПАСНОМ ДЛЯ ПЛАВАНИЯ\n72-46.0С 035-00.5В\n70-28.5С 038-18.0В\n69-38.0С 038-45.0В\n69-28.0С 038-00.0В\n72-03.5С 031-04.0В\n2. ОТМ ЭТОТ НР 041400 ИЮНЬ=\n271000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-05-28T01:32:56.181280+00:00",
+        "valid_until": "2026-06-04T14:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Firing Exercise"
       }
     },
     {
