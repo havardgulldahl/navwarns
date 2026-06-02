@@ -684,22 +684,42 @@ def parse_coordinate_groups(body: str) -> List[List[Tuple[float, float]]]:
     current: List[Tuple[float, float]] = []
     # Accept Latin (A-Z), Cyrillic (А-Я), or 1-2 digit numbers as group markers
     enum_pattern = re.compile(r"^\s*(?:[A-Z\u0410-\u042F]|\d{1,2})\.")
+    # Numbered area headers (e.g. "AREA 1", "AREA 2") define top-level group boundaries.
+    # Within such a block, single-letter labels (A., B., C., D.) are polygon vertices,
+    # not group separators.
+    area_header_pattern = re.compile(r"^\s*AREA\s+\d+\s*$", re.IGNORECASE)
+    in_named_area = False
     for raw in lines:
         line = raw.strip()
-        # DEBUG: print each line and whether it matches the group pattern
-        if enum_pattern.match(line):
+        if area_header_pattern.match(line):
+            # Start a new group for each named area block
             if current:
                 groups.append(current)
                 current = []
-            # Remove the group marker (e.g., 'А.') and process the rest of the line for coordinates
+            in_named_area = True
+            continue
+        if enum_pattern.match(line):
             marker_match = enum_pattern.match(line)
             rest = line[marker_match.end() :].strip() if marker_match else ""
-            if rest:
-                for lat, lon in COORD_PATTERN.findall(rest):
-                    lat_dec = coord_to_decimal(lat)
-                    lon_dec = coord_to_decimal(lon)
-                    if lat_dec is not None and lon_dec is not None:
-                        current.append((lat_dec, lon_dec))
+            if in_named_area:
+                # Inside a named AREA block: vertex labels accumulate into the current group
+                if rest:
+                    for lat, lon in COORD_PATTERN.findall(rest):
+                        lat_dec = coord_to_decimal(lat)
+                        lon_dec = coord_to_decimal(lon)
+                        if lat_dec is not None and lon_dec is not None:
+                            current.append((lat_dec, lon_dec))
+            else:
+                # Normal behaviour: each label starts a new group
+                if current:
+                    groups.append(current)
+                    current = []
+                if rest:
+                    for lat, lon in COORD_PATTERN.findall(rest):
+                        lat_dec = coord_to_decimal(lat)
+                        lon_dec = coord_to_decimal(lon)
+                        if lat_dec is not None and lon_dec is not None:
+                            current.append((lat_dec, lon_dec))
             continue
         for lat, lon in COORD_PATTERN.findall(line):
             lat_dec = coord_to_decimal(lat)
