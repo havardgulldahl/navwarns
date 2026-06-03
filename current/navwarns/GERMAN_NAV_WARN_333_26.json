@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "GERMAN NAV WARN 333/26",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        13.916666666666666,
+        54.666666666666664
+      ],
+      [
+        14.2,
+        54.666666666666664
+      ],
+      [
+        14.2,
+        54.4
+      ],
+      [
+        13.916666666666666,
+        54.4
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-06-02T06:21:00",
+    "raw_dtg": "020621Z JUN 26",
+    "msg_id": "GERMAN NAV WARN 333/26",
+    "year": 2026,
+    "cancellations": [],
+    "hazard_type": "general",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "[Southern Baltic] GERMAN NAV WARN 333/26\nWESTERN BALTIC. EAST OF RUEGEN.\nFROM 07. JUN 0600 TIL 10. JUN 1800\nIN THE AREA OF\n54-40N 013-55E\n54-40N 014-12E\n54-24N 014-12E\n54-24N 013-55E\nMARINERS KEEP WELL CLEAR OF EXERCISE AREA\nCANCEL THIS MESSAGE AT 102359 JUN",
+    "cancel_date": null,
+    "valid_from": "2026-06-02T06:21:00+00:00",
+    "valid_until": null,
+    "summary": null
+  }
+}
