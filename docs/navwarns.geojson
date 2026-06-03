@@ -2529,6 +2529,90 @@
     },
     {
       "type": "Feature",
+      "id": "GERMAN NAV WARN 333/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.916666666666666,
+            54.666666666666664
+          ],
+          [
+            14.2,
+            54.666666666666664
+          ],
+          [
+            14.2,
+            54.4
+          ],
+          [
+            13.916666666666666,
+            54.4
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-02T06:21:00",
+        "raw_dtg": "020621Z JUN 26",
+        "msg_id": "GERMAN NAV WARN 333/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[Southern Baltic] GERMAN NAV WARN 333/26\nWESTERN BALTIC. EAST OF RUEGEN.\nFROM 07. JUN 0600 TIL 10. JUN 1800\nIN THE AREA OF\n54-40N 013-55E\n54-40N 014-12E\n54-24N 014-12E\n54-24N 013-55E\nMARINERS KEEP WELL CLEAR OF EXERCISE AREA\nCANCEL THIS MESSAGE AT 102359 JUN",
+        "cancel_date": null,
+        "valid_from": "2026-06-02T06:21:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Baltic Naval Exercise"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GERMAN NAV WARN 334/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.016666666666667,
+            54.733333333333334
+          ],
+          [
+            13.166666666666666,
+            54.733333333333334
+          ],
+          [
+            13.016666666666667,
+            54.63333333333333
+          ],
+          [
+            13.166666666666666,
+            54.63333333333333
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-02T06:47:00",
+        "raw_dtg": "020647Z JUN 26",
+        "msg_id": "GERMAN NAV WARN 334/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[Western Baltic] GERMAN NAV WARN 334/26\nWESTERN BALTIC. BIGHT OF MECKLENBURG.\nFROM 07. JUN 0600 TIL 08. JUN 1800\nIN THE AREA OF\n54-44N 013-01E\n54-44N 013-10E\n54-38N 013-01E\n54-38N 013-10E\nDRONES AND DIVERS WILL BE DEPLOYED.\nFISHING, ANCHORING AND CIVIL DIVING IN THIS AREA IS HAZARDOUS.\nMARINERS ARE REQUESTED TO PAY ATTENTION TO THE SIGNALS OF MINESWEEPERS\nAND TO STAY CLEAR AT LEAST 1000M.",
+        "cancel_date": null,
+        "valid_from": "2026-06-02T06:47:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Minesweeping Exercise Baltic"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "HYDROARC 145/25(15)",
       "geometry": {
         "type": "Point",
@@ -6428,6 +6512,34 @@
         "summary": null,
         "category": "military",
         "title": "Ship Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KALININGRAD NAV WARN 133/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.636666666666667,
+          55.23
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-02T15:50:00",
+        "raw_dtg": "021550Z JUN 26",
+        "msg_id": "KALININGRAD NAV WARN 133/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "scientific mooring",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] KALININGRAD NAV WARN 133/26\nSOUTHERN BALTIC\nMOORING BUOYS ESTABLISHED ON RECEIPT OF RUSSIAN\nNOTICE TO MARINERS 193/18 IN 55-13.8N 019-38.2E\nTHE FIRST ONE IS MISSING THE SECOND ONE IS SEMISUBMERGED",
+        "cancel_date": null,
+        "valid_from": "2026-06-02T15:50:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Missing Mooring Buoys"
       }
     },
     {
@@ -18153,6 +18265,106 @@
         "summary": null,
         "category": "other",
         "title": "Net Complex Deployed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 200/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.266666666666666,
+              69.71333333333334
+            ],
+            [
+              33.5,
+              69.71333333333334
+            ],
+            [
+              33.5,
+              69.55
+            ],
+            [
+              33.266666666666666,
+              69.55
+            ],
+            [
+              33.266666666666666,
+              69.71333333333334
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-03T01:51:22.735616+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 200/26 ПРИП МУРМАНСК 200 КАРТА 13004\r\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
+        "msg_id": "PRIP MURMANSK 200/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 060800 UTC JUN 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СПЕЦИАЛЬНЫЕ РАБОТЫ 040700 ПО 060700 ИЮНЬ\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-42.8С 033-16.0В\n69-42.8С 033-30.0В\n69-33.0С 033-30.0В\n69-33.0С 033-16.0В\n2. ОТМ ЭТОТ НР 060800 ИЮНЬ=\n021000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-06-03T01:51:22.735616+00:00",
+        "valid_until": "2026-06-06T08:00:00+00:00",
+        "summary": null,
+        "category": "other",
+        "title": "Special Operations Zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 201/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.333333333333336,
+              69.575
+            ],
+            [
+              33.5,
+              69.575
+            ],
+            [
+              33.5,
+              69.55
+            ],
+            [
+              33.333333333333336,
+              69.55
+            ],
+            [
+              33.333333333333336,
+              69.575
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-03T01:51:22.734619+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 201/26 ПРИП МУРМАНСК 201 КАРТА 13004\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 201/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 042200 UTC JUL 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СПЕЦИАЛЬНЫЕ РАБОТЫ 032100 ИЮНЬ ПО 042100 ИЮЛЬ\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-34.5С 033-20.0В\n69-34.5С 033-30.0В\n69-33.0С 033-30.0В\n69-33.0С 033-20.0В\n2. ОТМ ЭТОТ НР 042200 ИЮЛЬ=\n021000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-06-03T01:51:22.734619+00:00",
+        "valid_until": "2026-07-04T22:00:00+00:00",
+        "summary": null,
+        "category": "other",
+        "title": "Special Works Zone"
       }
     },
     {
