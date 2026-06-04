@@ -4876,6 +4876,86 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 93/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.49666666666667,
+          77.42666666666666
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-03T15:07:00",
+        "raw_dtg": "031507Z JUN 26",
+        "msg_id": "HYDROARC 93/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 061507Z JUN 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "HYDROARC 93/26.\nBARENTS SEA.\nRUSSIA.\n1. ICEBERG REPORTED\n   IN 77-25.60N 067-29.80E.\n2. CANCEL THIS MSG 061507Z JUN 26.",
+        "cancel_date": null,
+        "valid_from": "2026-06-03T15:07:00+00:00",
+        "valid_until": "2026-06-06T15:07:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg Reported Barents Sea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 95/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.96666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-03T17:41:00",
+        "raw_dtg": "031741Z JUN 26",
+        "msg_id": "HYDROARC 95/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 112000Z JUN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 95/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS 0500Z TO 1900Z\n   DAILY 08 TTHRU 11 JUN IN AREA BOUND BY\n   69-58.00N 033-38.00E, 69-58.00N 034-48.00E,\n   69-34.50N 034-48.00E, 69-34.50N 033-38.00E.\n2. CANCEL THIS MSG 112000Z JUN 26.",
+        "cancel_date": null,
+        "valid_from": "2026-06-03T17:41:00+00:00",
+        "valid_until": "2026-06-11T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Barents Sea Hazard"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 028/26",
       "geometry": {
         "type": "Point",
@@ -18369,6 +18449,56 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 202/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.63333333333333,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.96666666666667
+            ],
+            [
+              34.8,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.575
+            ],
+            [
+              33.63333333333333,
+              69.96666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-04T01:50:53.801333+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 202/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 202/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 112000 UTC JUN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 202 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 08 ПО 11 ИЮНЬ\n0500 ДО 1900 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНЕ\n69-58.0С 033-38.0В\n69-58.0С 034-48.0В\n69-34.5С 034-48.0В\n69-34.5С 033-38.0В\n2. ОТМ ЭТОТ НР 112000 ИЮНЬ=\n031000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-06-04T01:50:53.801333+00:00",
+        "valid_until": "2026-06-11T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 203/20",
       "geometry": {
         "type": "Polygon",
@@ -26483,6 +26613,36 @@
         "summary": null,
         "category": "navigation",
         "title": "Iceberg Location Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 44/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.49666666666667,
+          77.42666666666666
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-04T01:50:53.803953+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 44/26 КАРТА 11123\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP WEST 44/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 061145 UTC JUN 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.\tАЙСБЕРГ 031145 ИЮНЬ В 77-25.6С 067-29.8В\n2.\tОТМ ЭТОТ НР 061145 ИЮНЬ = \n\nCOASTAL WARNING WEST 44/26 BARENTS SEA.\nCHART RUS 11123.\n1.\tICEBERG AT 031145 UTC JUN IN: 77-25.6N 067-29.8E.\n2.\tCANCEL THIS MSG 061145 UTC JUN 26.= \nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-06-04T01:50:53.803953+00:00",
+        "valid_until": "2026-06-06T11:45:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg Barents Sea"
       }
     },
     {
