@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1005/20(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -42.65,
+          -26.6
+        ],
+        [
+          -44.45,
+          -27.55
+        ],
+        [
+          -44.46666666666667,
+          -27.633333333333333
+        ],
+        [
+          -42.56666666666667,
+          -26.65
+        ],
+        [
+          -42.65,
+          -26.6
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-03-17T03:57:00",
     "raw_dtg": "170357Z MAR 20",
@@ -13,7 +39,7 @@
       "HYDROARC 1005/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 23 MAR\n   BY M/V HAI YANG SHI YOU 720, M/V AGIL I AND\n   M/V YANG SHI YOU 771 TOWING TEN 11112 METER\n   LONG CABLES IN AREA BOUND BY\n   26-36S 042-39W, 27-33S 044-27W,\n   27-38S 044-28W, 26-39S 042-34W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 898/20.\n3. CANCEL THIS MSG 24 MAR 20.",
     "cancel_date": "2020-03-24T00:01:00+00:00",

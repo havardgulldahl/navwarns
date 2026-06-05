@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2164/11(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -3.95,
+          5.216666666666667
+        ],
+        [
+          -3.95,
+          4.833333333333333
+        ],
+        [
+          -3.45,
+          4.766666666666667
+        ],
+        [
+          -3.45,
+          5.133333333333334
+        ],
+        [
+          -3.95,
+          5.216666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2011-12-15T16:30:00",
     "raw_dtg": "151630Z DEC 11",
@@ -11,7 +37,7 @@
       "HYDROARC 451/12"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V POLARCUS NADIA TOWING TEN 7000\nMETER LONG CABLES IN AREA BOUND BY\n05-13N 003-57W, 04-50N 003-57W,\n04-46N 003-27W, 05-08N 003-27W.\nWIDE BERTH REQUESTED.",
     "cancel_date": "2012-02-29T14:43:00+00:00",

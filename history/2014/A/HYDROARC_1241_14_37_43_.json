@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1241/14(37,43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.5833333333333335,
+          56.416666666666664
+        ],
+        [
+          3.8666666666666667,
+          56.8
+        ],
+        [
+          4.166666666666667,
+          56.5
+        ],
+        [
+          2.6166666666666667,
+          56.083333333333336
+        ],
+        [
+          2.5833333333333335,
+          56.416666666666664
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-05-15T22:38:00",
     "raw_dtg": "152238Z MAY 14",
@@ -12,7 +38,7 @@
       "HYDROARC 1532/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V ATLANTIC EXPLORER TOWING SIX\n   6500 METER LONG CABLES IN AREA BOUND BY\n   56-25N 002-35E, 56-48N 003-52E,\n   56-30N 004-10E, 56-05N 002-37E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 948/14.",
     "cancel_date": "2014-06-22T13:55:00+00:00",

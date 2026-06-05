@@ -1,7 +1,49 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 28/23",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          21.433333333333334,
+          75.98333333333333
+        ],
+        [
+          22.083333333333332,
+          75.83333333333333
+        ],
+        [
+          22.783333333333335,
+          75.58333333333333
+        ],
+        [
+          22.866666666666667,
+          75.35
+        ],
+        [
+          22.216666666666665,
+          75.25
+        ],
+        [
+          21.483333333333334,
+          75.4
+        ],
+        [
+          20.85,
+          75.6
+        ],
+        [
+          20.716666666666665,
+          75.88333333333334
+        ],
+        [
+          21.433333333333334,
+          75.98333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2023-03-24T16:52:00",
     "raw_dtg": "",
@@ -9,7 +51,7 @@
     "year": 2023,
     "cancellations": [],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": " NAVAREA XIX 28/23\n BARENTS SEA\n ROCKET LAUNCHING 29 MAR TO 03 APR FROM 1900 TO 2100 UTC\n IN AREA TEMPORARILY DANGEROUS TO NAVIGATION\n 75-59N 021-26E 75-50N 022-05E 75-35N 022-47E 75-21N 022-52E\n 75-15N 022-13E 75-24N 021-29E 75-36N 020-51E 75-53N 020-43E",
     "cancel_date": "2023-04-03T22:31:00",

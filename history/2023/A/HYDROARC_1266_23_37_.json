@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1266/23(37)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -3.0,
+          46.0
+        ],
+        [
+          -0.9666666666666667,
+          46.0
+        ],
+        [
+          -0.9666666666666667,
+          43.21666666666667
+        ],
+        [
+          -3.0,
+          43.21666666666667
+        ],
+        [
+          -3.0,
+          46.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2023-06-07T19:07:00",
     "raw_dtg": "071907Z JUN 23",
@@ -12,7 +38,7 @@
       "HYDROARC 1266/23"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "FRANCE.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   302159Z JUN 23 BY M/V EMMA BARDAN\n   IN AREA BOUND BY\n   46-00N 003-00W, 46-00N 000-58W,\n   43-13N 000-58W, 43-13N 003-00W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 302259Z JUL 23.",
     "cancel_date": "2023-07-30T22:59:00+00:00",

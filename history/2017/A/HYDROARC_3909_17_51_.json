@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3909/17(51)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -18.8,
+          19.866666666666667
+        ],
+        [
+          -17.366666666666667,
+          19.866666666666667
+        ],
+        [
+          -17.0,
+          18.5
+        ],
+        [
+          -18.883333333333333,
+          18.366666666666667
+        ],
+        [
+          -18.8,
+          19.866666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-12-04T17:40:00",
     "raw_dtg": "041740Z DEC 17",
@@ -12,7 +38,7 @@
       "HYDROARC 3909/17"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMAURITANIA.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   302359Z JUN 18 BY M/V OCEANIC SIRIUS\n   TOWING FIVE MILE LONG CABLES IN AREA\n   BOUND BY\n   19-52N 018-48W, 19-52N 017-22W,\n   18-30N 017-00W, 18-22N 018-53W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 010059Z JUL 18.",
     "cancel_date": "2018-07-01T00:59:00+00:00",

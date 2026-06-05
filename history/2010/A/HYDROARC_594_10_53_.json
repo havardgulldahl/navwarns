@@ -1,7 +1,35 @@
 {
   "type": "Feature",
   "id": "HYDROARC 594/10(53)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        5.333333333333333,
+        43.25
+      ],
+      [
+        5.366666666666666,
+        43.25
+      ],
+      [
+        5.316666666666666,
+        43.21666666666667
+      ],
+      [
+        5.35,
+        43.11666666666667
+      ],
+      [
+        5.316666666666666,
+        43.11666666666667
+      ],
+      [
+        5.283333333333333,
+        43.21666666666667
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2010-04-05T13:12:00",
     "raw_dtg": "051312Z APR 10",
@@ -11,7 +39,7 @@
       "HYDROARC 644/10"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nFRANCE.\nCABLE OPERATIONS 06 APR UNTIL FURTHER NOTICE BY\nCABLESHIP RAYMOND CROZE ALONG TRACKLINE JOINING\n43-15N 005-20E, 43-15N 005-22E,\n43-13N 005-19E, 43-07N 005-21E,\n43-07N 005-19E, 43-13N 005-17E.\nONE MILE BERTH REQUESTED.",
     "cancel_date": "2010-04-14T12:22:00+00:00",

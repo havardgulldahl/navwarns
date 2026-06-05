@@ -1,7 +1,47 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2334/21(37)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -0.15,
+        50.81666666666667
+      ],
+      [
+        -0.16666666666666666,
+        50.75
+      ],
+      [
+        -0.016666666666666666,
+        50.666666666666664
+      ],
+      [
+        -0.05,
+        50.55
+      ],
+      [
+        0.03333333333333333,
+        50.43333333333333
+      ],
+      [
+        0.06666666666666667,
+        50.18333333333333
+      ],
+      [
+        0.4,
+        50.15
+      ],
+      [
+        0.7666666666666667,
+        50.0
+      ],
+      [
+        0.7833333333333333,
+        49.9
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-09-15T12:01:00",
     "raw_dtg": "151201Z SEP 21",
@@ -11,7 +51,7 @@
       "HYDROARC 2465/21"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "ENGLISH CHANNEL.\nENGLAND TO FRANCE.\nDNC 20.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP IT INTREPID IN VICINITY\nOF TRACKLINE JOINING\n50-49N 000-09W, 50-45N 000-10W,\n50-40N 000-01W, 50-33N 000-03W,\n50-26N 000-02E, 50-11N 000-04E,\n50-09N 000-24E, 50-00N 000-46E,\n49-54N 000-47E.\nTWO MILE BERTH REQUESTED.",
     "cancel_date": "2021-10-04T05:59:00+00:00",

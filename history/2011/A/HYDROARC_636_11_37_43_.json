@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 636/11(37,43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.1666666666666665,
+          56.2
+        ],
+        [
+          4.466666666666667,
+          56.56666666666667
+        ],
+        [
+          4.716666666666667,
+          56.28333333333333
+        ],
+        [
+          3.4166666666666665,
+          55.916666666666664
+        ],
+        [
+          3.1666666666666665,
+          56.2
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2011-04-16T06:18:00",
     "raw_dtg": "160618Z APR 11",
@@ -12,7 +38,7 @@
       "HYDROARC 785/11"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 19 MAY BY\n   M/V RAMFORD VIKING TOWING 12 6000 METER\n   LONG CABLES IN AREA BOUND BY\n   56-12N 003-10E, 56-34N 004-28E,\n   56-17N 004-43E, 55-55N 003-25E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 20 MAY.",
     "cancel_date": "2011-05-09T13:29:00+00:00",

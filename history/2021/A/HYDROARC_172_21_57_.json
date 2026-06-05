@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 172/21(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.45,
+          -5.95
+        ],
+        [
+          11.95,
+          -5.95
+        ],
+        [
+          12.2,
+          -6.7
+        ],
+        [
+          11.45,
+          -6.7
+        ],
+        [
+          11.45,
+          -5.95
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-01-18T20:47:00",
     "raw_dtg": "182047Z JAN 21",
@@ -11,7 +37,7 @@
       "HYDROARC 1248/21"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nANGOLA.\nDNC 01.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM ATLAS TOWING TEN 10200 METER\nLONG CABLES, M/V THOR MAGNI AND M/V THOR MODI\nIN AREA BOUND BY\n05-57S 011-27E, 05-57S 011-57E,\n06-42S 012-12E, 06-42S 011-27E.\nSEVEN MILE BERTH REQUESTED.",
     "cancel_date": "2021-05-05T18:46:00+00:00",

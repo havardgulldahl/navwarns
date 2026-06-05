@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 480/12(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.86666666666667,
+          34.833333333333336
+        ],
+        [
+          33.083333333333336,
+          34.833333333333336
+        ],
+        [
+          33.86666666666667,
+          34.916666666666664
+        ],
+        [
+          34.083333333333336,
+          34.916666666666664
+        ],
+        [
+          33.86666666666667,
+          34.833333333333336
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2012-03-02T15:24:00",
     "raw_dtg": "021524Z MAR 12",
@@ -12,7 +38,7 @@
       "HYDROARC 480/12"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 050730Z TO 051100Z MAR\n   IN AREA BOUND BY\n   34-50N 033-52E, 34-50N 033-05E,\n   34-55N 033-52E, 34-55N 034-05E.\n2. CANCEL THIS MSG 051200Z MAR.",
     "cancel_date": "2012-03-05T12:00:00+00:00",

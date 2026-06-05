@@ -1,7 +1,45 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3763/17(22,23)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.55,
+          -50.63333333333333
+        ],
+        [
+          -63.46666666666667,
+          -50.95
+        ],
+        [
+          -63.43333333333333,
+          -52.55
+        ],
+        [
+          -61.15,
+          -53.733333333333334
+        ],
+        [
+          -61.7,
+          -54.36666666666667
+        ],
+        [
+          -66.11666666666666,
+          -54.38333333333333
+        ],
+        [
+          -68.01666666666667,
+          -52.63333333333333
+        ],
+        [
+          -68.55,
+          -50.63333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-11-22T15:48:00",
     "raw_dtg": "221548Z NOV 17",
@@ -11,7 +49,7 @@
       "HYDROARC 3869/17"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nARGENTINA.\nDNC 07.\nSURVEY OPERATIONS IN PROGRESS UNTIL\nFURTHER NOTICE BY M/V BGP PIONEER TOWING\nSEVEN MILE LONG CABLE IN AREA BOUND BY\n50-38S 068-33W, 50-57S 063-28W,\n52-33S 063-26W, 53-44S 061-09W,\n54-22S 061-42W, 54-23S 066-07W,\n52-38S 068-01W, 50-38S 068-33W.\nEIGHT MILE BERTH REQUESTED.",
     "cancel_date": "2017-11-30T14:33:00+00:00",

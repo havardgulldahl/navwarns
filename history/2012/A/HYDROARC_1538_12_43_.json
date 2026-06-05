@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1538/12(43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.05,
+          66.88333333333334
+        ],
+        [
+          11.233333333333333,
+          67.03333333333333
+        ],
+        [
+          12.333333333333334,
+          66.68333333333334
+        ],
+        [
+          12.0,
+          66.58333333333333
+        ],
+        [
+          11.05,
+          66.88333333333334
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2012-07-11T20:12:00",
     "raw_dtg": "112012Z JUL 12",
@@ -12,7 +38,7 @@
       "HYDROARC 1538/12"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORWEGIAN SEA\n1. SEISMIC SURVEY IN PROGRESS UNTIL 120600Z BY\n   M/V ARTEMIS ATLANTIC TOWING 6200 METER LONG CABLE\n   IN AREA BOUND BY\n   66-53N 011-03E 067-02N 011-14E,\n   66-41N 012-20E 066-35N 012-00E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 120700Z JUL.",
     "cancel_date": "2012-07-12T07:00:00+00:00",

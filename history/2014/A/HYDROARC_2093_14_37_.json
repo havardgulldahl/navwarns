@@ -1,7 +1,37 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2093/14(37)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.416666666666667,
+          49.0
+        ],
+        [
+          -5.45,
+          49.03333333333333
+        ],
+        [
+          -5.416666666666667,
+          49.03333333333333
+        ],
+        [
+          -5.05,
+          49.0
+        ],
+        [
+          -5.1,
+          48.93333333333333
+        ],
+        [
+          -5.416666666666667,
+          49.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-08-31T18:36:00",
     "raw_dtg": "311836Z AUG 14",
@@ -12,7 +42,7 @@
       "HYDROARC 2093/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN ENGLISH CHANNEL.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 011300Z SEP\n   BY M/V ERNEST SHACKLETON WITH SUBMERSIBLE\n   IN AREA BOUND BY\n   49-00N 005-25W, 49-02N 005-27W,\n   49-02N 005-25W, 49-00N 005-03W,\n   48-56N 005-06W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 011400Z SEP 14.",
     "cancel_date": "2014-09-01T14:00:00+00:00",

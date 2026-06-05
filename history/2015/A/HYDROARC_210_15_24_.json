@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 210/15(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -47.05,
+          -27.4
+        ],
+        [
+          -46.53333333333333,
+          -27.716666666666665
+        ],
+        [
+          -46.916666666666664,
+          -28.166666666666668
+        ],
+        [
+          -47.416666666666664,
+          -27.833333333333332
+        ],
+        [
+          -47.05,
+          -27.4
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2015-01-25T04:23:00",
     "raw_dtg": "250423Z JAN 15",
@@ -12,7 +38,7 @@
       "HYDROARC 210/15"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 290900Z TO 291500Z JAN\n   IN AREA BOUND BY\n   27-24S 047-03W, 27-43S 046-32W,\n   28-10S 046-55W, 27-50S 047-25W.\n2. CANCEL THIS MSG 291600Z JAN 15.",
     "cancel_date": "2015-01-29T16:00:00+00:00",

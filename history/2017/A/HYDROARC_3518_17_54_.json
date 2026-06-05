@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3518/17(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.166666666666668,
+          39.0
+        ],
+        [
+          24.966666666666665,
+          39.333333333333336
+        ],
+        [
+          24.666666666666668,
+          39.233333333333334
+        ],
+        [
+          24.866666666666667,
+          38.9
+        ],
+        [
+          25.166666666666668,
+          39.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-10-30T13:53:00",
     "raw_dtg": "301353Z OCT 17",
@@ -12,7 +38,7 @@
       "HYDROARC 3518/17"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nHAZARDOUS OPERATIONS.\nDNC 09.\n1. HAZARDOUS OPERATIONS 0400Z TO 0500Z DAILY\n   02 AND 03 NOV IN AREA BOUND BY\n   39-00N 025-10E, 39-20N 024-58E,\n   39-14N 024-40E, 38-54N 024-52E.\n2. CANCEL THIS MSG 030600Z NOV 17.",
     "cancel_date": "2017-11-03T06:00:00+00:00",

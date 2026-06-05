@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2610/17(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -47.483333333333334,
+          5.25
+        ],
+        [
+          -47.516666666666666,
+          4.716666666666667
+        ],
+        [
+          -48.483333333333334,
+          4.766666666666667
+        ],
+        [
+          -48.46666666666667,
+          5.3
+        ],
+        [
+          -47.483333333333334,
+          5.25
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-08-26T06:27:00",
     "raw_dtg": "260627Z AUG 17",
@@ -12,7 +38,7 @@
       "HYDROARC 2631/17"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   310001Z AUG TO 010259Z SEP\n   IN AREA BOUND BY\n   05-15N 047-29W, 04-43N 047-31W,\n   04-46N 048-29W, 05-18N 048-28W.\n2. CANCEL THIS MSG 010359Z SEP 17.",
     "cancel_date": "2017-08-28T12:53:00+00:00",

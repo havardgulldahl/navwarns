@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1142/21(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.9,
+          44.63333333333333
+        ],
+        [
+          33.233333333333334,
+          44.4
+        ],
+        [
+          33.45,
+          44.166666666666664
+        ],
+        [
+          31.75,
+          43.0
+        ],
+        [
+          31.166666666666668,
+          43.71666666666667
+        ],
+        [
+          32.333333333333336,
+          44.46666666666667
+        ],
+        [
+          32.9,
+          44.63333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-04-25T12:59:00",
     "raw_dtg": "251259Z APR 21",
@@ -12,7 +46,7 @@
       "HYDROARC 1159/21"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. MISSILE AND GUNNERY EXERCISES 0100Z TO 1700Z\n   DAILY 27 THRU 30 APR IN AREA BOUND BY\n   44-38N 032-54E, 44-24N 033-14E,\n   44-10N 033-27E, 43-00N 031-45E,\n   43-43N 031-10E, 44-28N 032-20E.\n2. CANCEL THIS MSG 301800Z APR 21.",
     "cancel_date": "2021-04-27T12:25:00+00:00",

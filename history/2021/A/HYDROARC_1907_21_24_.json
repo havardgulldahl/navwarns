@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1907/21(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -44.833333333333336,
+          -23.966666666666665
+        ],
+        [
+          -44.833333333333336,
+          -23.833333333333332
+        ],
+        [
+          -44.7,
+          -23.833333333333332
+        ],
+        [
+          -44.7,
+          -23.966666666666665
+        ],
+        [
+          -44.833333333333336,
+          -23.966666666666665
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-07-21T00:59:00",
     "raw_dtg": "210059Z JUL 21",
@@ -12,7 +38,7 @@
       "HYDROARC 1907/21"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. HAZARDOUS OPERATIONS 0900Z TO 2000Z\n   DAILY 21 AND 22 JUL IN AREA BOUND BY\n   23-58S 044-50W, 23-50S 044-50W,\n   23-50S 044-42W, 23-58S 044-42W.\n2. CANCEL THIS MSG 222100Z JUL 21.",
     "cancel_date": "2021-07-22T21:00:00+00:00",

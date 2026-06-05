@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1380/20(43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.0,
+          61.666666666666664
+        ],
+        [
+          1.8666666666666667,
+          61.666666666666664
+        ],
+        [
+          1.8666666666666667,
+          61.0
+        ],
+        [
+          0.0,
+          61.0
+        ],
+        [
+          0.0,
+          61.666666666666664
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-04-20T20:29:00",
     "raw_dtg": "202029Z APR 20",
@@ -11,7 +37,7 @@
       "HYDROARC 1764/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nNORWEGIAN SEA.\nSHETLAND ISLANDS.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM TETHYS TOWING 12 9200 METER\nLONG CABLES IN AREA BOUND BY\n61-40N 000-00E, 61-40N 001-52E,\n61-00N 001-52E, 61-00N 000-00E.\nSEVEN MILE BERTH REQUESTED.",
     "cancel_date": "2020-05-25T19:05:00+00:00",

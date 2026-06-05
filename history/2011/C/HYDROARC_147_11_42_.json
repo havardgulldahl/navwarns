@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 147/11(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          64.75,
+          72.16666666666667
+        ],
+        [
+          64.0,
+          72.66666666666667
+        ],
+        [
+          68.0,
+          73.25
+        ],
+        [
+          68.5,
+          72.83333333333333
+        ],
+        [
+          64.75,
+          72.16666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2011-08-30T18:29:00",
     "raw_dtg": "301829Z AUG 11",
@@ -12,7 +38,7 @@
       "HYDROARC 147/11"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "KARA SEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 0600Z TO 1300Z\n   DAILY 30 AUG THRU 08 SEP\n   IN AREA BOUND BY\n   72-10N 064-45E, 72-40N 064-00E,\n   73-15N 068-00E, 72-50N 068-30E.\n2. CANCEL THIS MSG 081400Z SEP.",
     "cancel_date": "2011-09-08T14:00:00+00:00",

@@ -1,7 +1,49 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2094/21(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.266666666666666,
+          45.15
+        ],
+        [
+          31.55,
+          44.75
+        ],
+        [
+          32.3,
+          43.333333333333336
+        ],
+        [
+          34.016666666666666,
+          43.38333333333333
+        ],
+        [
+          36.416666666666664,
+          43.5
+        ],
+        [
+          38.86666666666667,
+          42.53333333333333
+        ],
+        [
+          40.1,
+          43.38333333333333
+        ],
+        [
+          36.63333333333333,
+          45.13333333333333
+        ],
+        [
+          33.266666666666666,
+          45.15
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-08-12T13:38:00",
     "raw_dtg": "121338Z AUG 21",
@@ -12,7 +54,7 @@
       "HYDROARC 2094/21"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. SURVEY OPERATIONS 14 THRU 28 AUG BY\n   M/V PROFESSOR VODYANITSKY IN AREA BOUND BY\n   45-09N 033-16E, 44-45N 031-33E,\n   43-20N 032-18E, 43-23N 034-01E,\n   43-30N 036-25E, 42-32N 038-52E,\n   43-23N 040-06E, 45-08N 036-38E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 29 AUG 21.",
     "cancel_date": "2021-08-29T00:01:00+00:00",

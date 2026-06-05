@@ -1,7 +1,43 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 100/23",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        20.0,
+        75.0
+      ],
+      [
+        13.416666666666666,
+        75.0
+      ],
+      [
+        13.416666666666666,
+        75.75
+      ],
+      [
+        20.0,
+        75.75
+      ],
+      [
+        15.0,
+        74.0
+      ],
+      [
+        21.7,
+        74.0
+      ],
+      [
+        21.7,
+        73.0
+      ],
+      [
+        15.0,
+        73.0
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2023-08-04T10:33:00",
     "raw_dtg": "",
@@ -9,7 +45,7 @@
     "year": 2023,
     "cancellations": [],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": " NAVAREA XIX 100/23\n NORWEGIAN SEA\n 1. ROCKET FIRING EXERCISES FROM 11 TO 15  AUG  DAILY\n FROM 0500 TO 1800 UTC IN AREAS  DANGEROUS TO NAVIGATION\n A 75-00N 020-00E \n B 75-00N 013-25E \n C 75-45N 013-25E \n D 75-45N 020-00E\n E 74-00N 015-00E \n F 74-00N 021-42E \n G 73-00N 021-42E \n H 73-00N 015-00E\n\n 2. CANCEL THIS WARNINGS 151830 UTC AUG 2023 \n\n\n\n  ",
     "cancel_date": "2023-08-11T09:59:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 250/19(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          51.166666666666664,
+          69.33333333333333
+        ],
+        [
+          52.333333333333336,
+          69.0
+        ],
+        [
+          50.5,
+          68.33333333333333
+        ],
+        [
+          49.333333333333336,
+          68.5
+        ],
+        [
+          51.166666666666664,
+          69.33333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-10-09T22:02:00",
     "raw_dtg": "092202Z OCT 19",
@@ -12,7 +38,7 @@
       "HYDROARC 250/19"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   142100Z TO 172100Z OCT\n   IN AREA BOUND BY\n   69-20N 051-10E, 69-00N 052-20E,\n   68-20N 050-30E, 68-30N 049-20E.\n2. CANCEL THIS MSG 172200Z OCT 19.",
     "cancel_date": "2019-10-17T22:00:00+00:00",

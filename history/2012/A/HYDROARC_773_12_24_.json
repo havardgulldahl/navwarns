@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 773/12(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -34.15,
+          -7.066666666666666
+        ],
+        [
+          -33.983333333333334,
+          -7.233333333333333
+        ],
+        [
+          -34.1,
+          -7.366666666666666
+        ],
+        [
+          -34.266666666666666,
+          -7.166666666666667
+        ],
+        [
+          -34.15,
+          -7.066666666666666
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2012-04-07T15:47:00",
     "raw_dtg": "071547Z APR 12",
@@ -12,7 +38,7 @@
       "HYDROARC 773/12"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 111100Z TO 111500Z APR\n   IN AREA BOUND BY\n   07-04S 034-09W, 07-14S 033-59W,\n   07-22S 034-06W, 07-10S 034-16W.\n2. CANCEL THIS MSG 111600Z APR.",
     "cancel_date": "2012-04-11T16:00:00+00:00",

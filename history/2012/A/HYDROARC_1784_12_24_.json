@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1784/12(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -44.15,
+          -25.716666666666665
+        ],
+        [
+          -44.0,
+          -25.85
+        ],
+        [
+          -44.86666666666667,
+          -27.0
+        ],
+        [
+          -45.233333333333334,
+          -27.0
+        ],
+        [
+          -44.15,
+          -25.716666666666665
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2012-08-04T01:30:00",
     "raw_dtg": "040130Z AUG 12",
@@ -12,7 +38,7 @@
       "HYDROARC 1784/12"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 110259Z AUG\n   BY M/V NPS DISCOVERER TOWING 12 CABLES\n   IN AREA BOUND BY\n   25-43S 044-09W, 25-51S 044-00W,\n   27-00S 044-52W, 27-00S 045-14W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 110359Z AUG 12.",
     "cancel_date": "2012-08-11T03:59:00+00:00",

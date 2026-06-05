@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 260/20(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.666666666666668,
+          39.233333333333334
+        ],
+        [
+          24.966666666666665,
+          39.333333333333336
+        ],
+        [
+          25.166666666666668,
+          39.0
+        ],
+        [
+          24.866666666666667,
+          38.9
+        ],
+        [
+          24.666666666666668,
+          39.233333333333334
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-01-25T01:27:00",
     "raw_dtg": "250127Z JAN 20",
@@ -12,7 +38,7 @@
       "HYDROARC 260/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 0500Z TO 1600Z DAILY\n   27 JAN THRU 28 JAN, 291001Z TO 291600Z JAN,\n   0500Z TO 1600Z DAILY 30 JAN THRU 31 JAN\n   IN AREA BOUND BY\n   39-14N 024-40E, 39-20N 024-58E,\n   39-00N 025-10E, 38-54N 024-52E.\n2. CANCEL THIS MSG 311700Z JAN 20.",
     "cancel_date": "2020-01-31T17:00:00+00:00",

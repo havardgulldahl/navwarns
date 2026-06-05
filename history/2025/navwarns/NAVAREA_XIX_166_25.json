@@ -1,7 +1,27 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 166/25",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        21.916666666666668,
+        76.36666666666666
+      ],
+      [
+        24.716666666666665,
+        75.4
+      ],
+      [
+        21.75,
+        74.85
+      ],
+      [
+        18.833333333333332,
+        75.83333333333333
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2025-12-06T10:10:00",
     "raw_dtg": "",
@@ -9,7 +29,7 @@
     "year": 2025,
     "cancellations": [],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": " BARENTS  SEA\n AREA DANGEROUS TO NAVIGATION\n DUE TO ROCKET CARRIER ELEMENTS FALL \n DAILY FROM 1400-1500 UTC 11-16 DEC IN AREA\n 76-22N 021-55E \n 75-24N 024-43E \n 74-51N 021-45E \n 75-50N 018-50E",
     "cancel_date": "2025-12-09T06:57:00",

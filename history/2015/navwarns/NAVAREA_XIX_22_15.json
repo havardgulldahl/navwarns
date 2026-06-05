@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 22/15",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.25,
+          70.75
+        ],
+        [
+          21.666666666666668,
+          71.16666666666667
+        ],
+        [
+          23.666666666666668,
+          71.41666666666667
+        ],
+        [
+          24.333333333333332,
+          71.05
+        ],
+        [
+          22.25,
+          70.75
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2015-03-09T14:36:00",
     "raw_dtg": "",
@@ -9,7 +35,7 @@
     "year": 2015,
     "cancellations": [],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": " NAVAREA XIX 22/15\n\nBARENTS SEA\nNAVAL GUNNERY AND MISSILE EXERCISES AT 12-13 MAR. THE EXERCISES WILL BE CONDUCTED BETWEEN 0600-2000 UTC, WITHIN THE ANNOUNCED PERIOD.\nDANGER AREA BOUND BY:\n70-45N 022-15E\n71-10N 021-40E\n71-25N 023-40E\n71-03N 024-20E\n \n \n",
     "cancel_date": "2015-03-14T17:58:00",

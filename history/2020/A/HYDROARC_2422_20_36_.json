@@ -1,7 +1,23 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2422/20(36)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -8.416666666666666,
+        50.46666666666667
+      ],
+      [
+        -7.2,
+        50.8
+      ],
+      [
+        -6.416666666666667,
+        50.833333333333336
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-08-03T19:58:00",
     "raw_dtg": "031958Z AUG 20",
@@ -12,7 +28,7 @@
       "HYDROARC 2466/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "CELTIC SEA.\nDNC 19.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V RIDLEY THOMAS IN VICINITY OF\n   TRACKLINE JOINING\n   50-28N 008-25W, 50-48N 007-12W,\n   50-50N 006-25W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2372/20.",
     "cancel_date": "2020-08-08T15:31:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 319/13(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.666666666666668,
+          36.166666666666664
+        ],
+        [
+          29.333333333333332,
+          36.0
+        ],
+        [
+          29.1,
+          35.166666666666664
+        ],
+        [
+          28.166666666666668,
+          35.5
+        ],
+        [
+          28.666666666666668,
+          36.166666666666664
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2013-02-05T09:21:00",
     "raw_dtg": "050921Z FEB 13",
@@ -12,7 +38,7 @@
       "HYDROARC 319/13"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 060600Z TO 061000Z FEB\n   IN AREA BOUND BY\n   36-10N 028-40E, 36-00N 029-20E,\n   35-10N 029-06E, 35-30N 028-10E.\n2. CANCEL THIS MSG 061100Z FEB 13.",
     "cancel_date": "2013-02-06T11:00:00+00:00",

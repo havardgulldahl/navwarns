@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3095/15(36)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -11.116666666666667,
+          48.35
+        ],
+        [
+          -10.616666666666667,
+          47.86666666666667
+        ],
+        [
+          -16.1,
+          45.11666666666667
+        ],
+        [
+          -16.633333333333333,
+          45.583333333333336
+        ],
+        [
+          -11.116666666666667,
+          48.35
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2015-12-14T14:56:00",
     "raw_dtg": "141456Z DEC 15",
@@ -12,7 +38,7 @@
       "HYDROARC 3118/15"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nROCKETS.\nDNC 08, DNC 19.\n1. HAZARDOUS OPERATIONS 1024Z TO 1337Z DAILY\n   17 THRU 31 DEC IN AREA BOUND BY\n   48-21N 011-07W, 47-52N 010-37W,\n   45-07N 016-06W, 45-35N 016-38W.\n2. CANCEL THIS MSG 311437Z DEC 15.",
     "cancel_date": "2015-12-17T13:53:00+00:00",

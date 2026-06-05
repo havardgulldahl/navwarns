@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2912/19(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.75,
+          34.96666666666667
+        ],
+        [
+          31.066666666666666,
+          34.96666666666667
+        ],
+        [
+          31.066666666666666,
+          34.78333333333333
+        ],
+        [
+          30.75,
+          34.78333333333333
+        ],
+        [
+          30.75,
+          34.96666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-09-24T07:22:00",
     "raw_dtg": "240722Z SEP 19",
@@ -12,7 +38,7 @@
       "HYDROARC 2912/19"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. GUNNERY EXERCISES 241900Z TO 242000Z SEP\n   IN AREA BOUND BY\n   34-58N 030-45E, 34-58N 031-04E,\n   34-47N 031-04E, 34-47N 030-45E.\n2. CANCEL THIS MSG 242100Z SEP 19.",
     "cancel_date": "2019-09-24T21:00:00+00:00",

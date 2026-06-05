@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 594/17(36)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.866666666666667,
+          50.78333333333333
+        ],
+        [
+          -5.85,
+          50.833333333333336
+        ],
+        [
+          -5.466666666666667,
+          50.78333333333333
+        ],
+        [
+          -5.5,
+          50.71666666666667
+        ],
+        [
+          -5.866666666666667,
+          50.78333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-02-21T20:54:00",
     "raw_dtg": "212054Z FEB 17",
@@ -11,7 +37,7 @@
       "HYDROARC 663/17"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP RESPONDER IN AREA BOUND BY\n50-47N 005-52W, 50-50N 005-51W,\n50-47N 005-28W, 50-43N 005-30W.\nONE MILE BERTH REQUESTED.",
     "cancel_date": "2017-02-28T19:11:00+00:00",

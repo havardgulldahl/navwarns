@@ -1,7 +1,69 @@
 {
   "type": "Feature",
   "id": "HYDROARC 93/13(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.016666666666666,
+          80.78333333333333
+        ],
+        [
+          50.666666666666664,
+          79.75
+        ],
+        [
+          50.666666666666664,
+          79.0
+        ],
+        [
+          60.5,
+          79.0
+        ],
+        [
+          60.5,
+          79.58333333333333
+        ],
+        [
+          71.0,
+          79.51666666666667
+        ],
+        [
+          70.98333333333333,
+          77.58333333333333
+        ],
+        [
+          61.833333333333336,
+          76.7
+        ],
+        [
+          58.13333333333333,
+          76.16666666666667
+        ],
+        [
+          42.45,
+          76.85
+        ],
+        [
+          38.0,
+          77.35
+        ],
+        [
+          37.983333333333334,
+          78.63333333333334
+        ],
+        [
+          35.0,
+          79.28333333333333
+        ],
+        [
+          35.016666666666666,
+          80.78333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2013-07-20T12:26:00",
     "raw_dtg": "201226Z JUL 13",
@@ -12,7 +74,7 @@
       "HYDROARC 104/13"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V NIKOLAY TRUBYATCHINSKY TOWING 8100 METER\n   LONG CABLE IN AREA BOUND BY\n   80-47N 035-01E, 79-45N 050-40E,\n   79-00N 050-40E, 79-00N 060-30E,\n   79-35N 060-30E, 79-31N 071-00E,\n   77-35N 070-59E, 76-42N 061-50E,\n   76-10N 058-08E, 76-51N 042-27E,\n   77-21N 038-00E, 78-38N 037-59E,\n   79-17N 035-00E.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 85/13.",
     "cancel_date": "2013-08-01T18:01:00+00:00",

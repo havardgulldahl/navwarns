@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 664/20(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -0.11666666666666667,
+          5.516666666666667
+        ],
+        [
+          -0.11666666666666667,
+          5.45
+        ],
+        [
+          -0.05,
+          5.45
+        ],
+        [
+          -0.05,
+          5.516666666666667
+        ],
+        [
+          -0.11666666666666667,
+          5.516666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-02-22T14:40:00",
     "raw_dtg": "221440Z FEB 20",
@@ -11,7 +37,7 @@
       "HYDROARC 729/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nGHANA.\nDNC 01.\nCABLE OPERATIONS 23 FEB UNTIL FURTHER NOTICE\nBY CABLESHIP LEON THEVENIN IN AREA BOUND BY\n05-31N 000-07W, 05-27N 000-07W,\n05-27N 000-03W, 05-31N 000-03W.\nWIDE BERTH REQUESTED.",
     "cancel_date": "2020-02-27T16:19:00+00:00",

@@ -1,7 +1,23 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2802/21(36)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -7.85,
+        49.53333333333333
+      ],
+      [
+        -7.883333333333333,
+        49.03333333333333
+      ],
+      [
+        -8.533333333333333,
+        48.666666666666664
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-11-13T17:59:00",
     "raw_dtg": "131759Z NOV 21",
@@ -11,7 +27,7 @@
       "HYDROARC 2842/21"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "CELTIC SEA.\nENGLAND.\nDNC 19.\nUNDERWATER OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY CABLESHIP ILE DOUESSANT\nIN VICINITY OF TRACKLINE JOINING\n49-32N 007-51W, 49-02N 007-53W,\n48-40N 008-32W.\nWIDE BERTH REQUESTED.",
     "cancel_date": "2021-11-18T16:34:00+00:00",

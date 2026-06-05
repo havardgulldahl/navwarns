@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 287/18(15,16)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -141.0,
+          81.55
+        ],
+        [
+          -119.63333333333334,
+          80.65
+        ],
+        [
+          -121.08333333333333,
+          80.13333333333334
+        ],
+        [
+          -141.28333333333333,
+          80.98333333333333
+        ],
+        [
+          -141.0,
+          81.55
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-11-02T06:07:00",
     "raw_dtg": "020607Z NOV 18",
@@ -12,7 +38,7 @@
       "HYDROARC 302/18"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nCANADA.\nDNC 27, DNC 28.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0053Z TO 0210Z DAILY 07 NOV THRU 07 DEC\n   IN AREA BOUND BY\n   81-33N 141-00W, 80-39N 119-38W,\n   80-08N 121-05W, 80-59N 141-17W.\n2. CANCEL THIS MSG 070310Z DEC 18.",
     "cancel_date": "2018-11-09T05:12:00+00:00",

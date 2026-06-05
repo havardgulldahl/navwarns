@@ -1,7 +1,27 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2191/21(36)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -7.116666666666666,
+        50.3
+      ],
+      [
+        -7.633333333333333,
+        50.06666666666667
+      ],
+      [
+        -7.983333333333333,
+        48.96666666666667
+      ],
+      [
+        -8.716666666666667,
+        48.56666666666667
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-08-25T19:48:00",
     "raw_dtg": "251948Z AUG 21",
@@ -11,7 +31,7 @@
       "HYDROARC 2390/21"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "CELTIC SEA.\nENGLAND.\nDNC 19.\nCABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE BY\nCABLESHIP ILE DE BREHAT ALONG TRACKLINE JOINING\n50-18N 007-07W, 50-04N 007-38W,\n48-58N 007-59W, 48-34N 008-43W.\nWIDE BERTH REQUESTED.",
     "cancel_date": "2021-09-23T16:23:00+00:00",

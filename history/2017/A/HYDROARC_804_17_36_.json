@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 804/17(36)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.866666666666667,
+          50.78333333333333
+        ],
+        [
+          -5.85,
+          50.833333333333336
+        ],
+        [
+          -5.466666666666667,
+          50.78333333333333
+        ],
+        [
+          -5.5,
+          50.71666666666667
+        ],
+        [
+          -5.866666666666667,
+          50.78333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-03-11T21:34:00",
     "raw_dtg": "112134Z MAR 17",
@@ -12,7 +38,7 @@
       "HYDROARC 809/17"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "CELTIC SEA.\nENGLAND-SOUTHWEST COAST.\nDNC 20.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY CABLESHIP RESPONDER IN\n   AREA BOUND BY\n   50-47N 005-52W, 50-50N 005-51W,\n   50-47N 005-28W, 50-43N 005-30W.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 740/17.",
     "cancel_date": "2017-03-12T14:20:00+00:00",

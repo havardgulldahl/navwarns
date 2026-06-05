@@ -1,7 +1,59 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3992/18(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -42.752072968490864,
+            -27.094112769485896
+          ],
+          [
+            -43.43333333333333,
+            -27.516666666666666
+          ],
+          [
+            -43.45,
+            -27.516666666666666
+          ],
+          [
+            -43.46666666666667,
+            -27.516666666666666
+          ],
+          [
+            -43.65,
+            -27.516666666666666
+          ],
+          [
+            -42.752072968490864,
+            -27.094112769485896
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            -41.95,
+            -26.716666666666665
+          ],
+          [
+            -42.752072968490864,
+            -27.094112769485896
+          ],
+          [
+            -42.11666666666667,
+            -26.7
+          ],
+          [
+            -41.95,
+            -26.716666666666665
+          ]
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-12-22T01:05:00",
     "raw_dtg": "220105Z DEC 18",
@@ -13,7 +65,7 @@
       "HYDROARC 3992/18"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 23 DEC\n   BY M/V HAIYANGSHIYOU 720 TOWING TEN 11500\n   METER LONG CABLES IN AREA BOUND BY\n   27-31S 043-39W, 27-31S 043-27W,\n   27-31S 043-28W, 27-31S 043-26W,\n   26-42S 042-07W, 26-43S 041-57W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 3967/18.\n3. CANCEL THIS MSG 24 DEC 18.",
     "cancel_date": "2018-12-24T00:01:00+00:00",

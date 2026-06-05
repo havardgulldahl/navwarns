@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 46/19(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -42.85,
+          -24.5
+        ],
+        [
+          -42.4,
+          -24.3
+        ],
+        [
+          -42.3,
+          -24.466666666666665
+        ],
+        [
+          -42.75,
+          -24.666666666666668
+        ],
+        [
+          -42.85,
+          -24.5
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-01-04T18:58:00",
     "raw_dtg": "041858Z JAN 19",
@@ -13,7 +39,7 @@
       "HYDROARC 89/19"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTH COAST.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 11 JAN\n   BY M/V VANTAGE TOWING SIX 155 METER LONG CABLES\n   IN AREA BOUND BY\n   24-30S 042-51W, 24-18S 042-24W,\n   24-28S 042-18W, 24-40S 042-45W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4024/18.\n3. CANCEL THIS MSG 12 JAN 19.",
     "cancel_date": "2019-01-11T00:52:00+00:00",

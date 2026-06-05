@@ -1,7 +1,27 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3784/18(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        35.0,
+        43.8
+      ],
+      [
+        35.0,
+        44.45
+      ],
+      [
+        36.5,
+        44.45
+      ],
+      [
+        36.5,
+        43.8
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-12-04T18:01:00",
     "raw_dtg": "041801Z DEC 18",
@@ -12,7 +32,7 @@
       "HYDROARC 3784/18"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 042100Z TO 092100Z DEC\n   IN AREA BETWEEN\n   43-48N 035-00E, 44-27N 035-00E,\n   44-27N 036-30E, 43-48N 036-30E.\n2. CANCEL THIS MSG 092200Z DEC 18.",
     "cancel_date": "2018-12-09T22:00:00+00:00",

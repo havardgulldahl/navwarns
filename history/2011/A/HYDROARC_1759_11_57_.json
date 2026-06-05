@@ -1,7 +1,31 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1759/11(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        8.166666666666666,
+        1.75
+      ],
+      [
+        8.15,
+        1.6666666666666665
+      ],
+      [
+        8.1,
+        1.05
+      ],
+      [
+        8.083333333333334,
+        0.7166666666666667
+      ],
+      [
+        8.066666666666666,
+        0.65
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2011-10-25T16:55:00",
     "raw_dtg": "251655Z OCT 11",
@@ -12,7 +36,7 @@
       "HYDROARC 1805/11"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\n1. CABLE LAYING OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY CABLESHIP RENE DESCRARTES ALONG\n   TRACKLINE JOINING\n   01-45N 008-10E, 01-40N 008-09E,\n   01-03N 008-06E, 00-43N 008-05E,\n   00-39N 008-04E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1696/11.",
     "cancel_date": "2011-11-01T11:42:00+00:00",

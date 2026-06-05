@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 85/19(53)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.7333333333333334,
+          40.983333333333334
+        ],
+        [
+          4.7,
+          40.983333333333334
+        ],
+        [
+          4.716666666666667,
+          40.833333333333336
+        ],
+        [
+          3.7333333333333334,
+          40.833333333333336
+        ],
+        [
+          3.7333333333333334,
+          40.983333333333334
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-01-10T14:50:00",
     "raw_dtg": "101450Z JAN 19",
@@ -13,7 +39,7 @@
       "HYDROARC 85/19"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nSPAIN.\nDNC 08.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL 13 JAN\n   BY CABLESHIP LIDA IN AREA BOUND BY\n   40-59N 003-44E, 40-59N 004-42E,\n   40-50N 004-43E, 40-50N 003-44E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 62/19.\n3. CANCEL THIS MSG 14 JAN 19.",
     "cancel_date": "2019-01-14T00:01:00+00:00",

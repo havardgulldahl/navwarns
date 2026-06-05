@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 6/18(56)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.6,
+          34.31666666666667
+        ],
+        [
+          35.666666666666664,
+          34.31666666666667
+        ],
+        [
+          35.65,
+          34.233333333333334
+        ],
+        [
+          35.583333333333336,
+          34.233333333333334
+        ],
+        [
+          35.6,
+          34.31666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-01-01T19:27:00",
     "raw_dtg": "011927Z JAN 18",
@@ -11,7 +37,7 @@
       "HYDROARC 6/18"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\nDNC 10.\n1. GUNNERY EXERCISES 030800Z TO 031000Z JAN\n   IN AREA BOUND BY\n   34-19N 035-36E, 34-19N 035-40E,\n   34-14N 035-39E, 34-14N 035-35E.\n2. CANCEL THIS MSG AT 031100Z JAN 18.",
     "cancel_date": "2018-01-03T11:00:00+00:00",

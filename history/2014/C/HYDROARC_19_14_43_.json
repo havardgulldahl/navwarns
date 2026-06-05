@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 19/14(43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          26.6,
+          74.66666666666667
+        ],
+        [
+          28.15,
+          74.63333333333334
+        ],
+        [
+          25.833333333333332,
+          73.36666666666666
+        ],
+        [
+          24.433333333333334,
+          73.43333333333334
+        ],
+        [
+          26.6,
+          74.66666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-03-22T18:38:00",
     "raw_dtg": "221838Z MAR 14",
@@ -11,7 +37,7 @@
       "HYDROARC 63/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V GECO EAGLE TOWING 12 FOUR MILE\nLONG CABLES IN AREA BOUND BY\n74-40N 026-36E, 74-38N 028-09E,\n73-22N 025-50E, 73-26N 024-26E.\nSIX MILE BERTH REQUESTED.",
     "cancel_date": "2014-05-31T04:49:00+00:00",

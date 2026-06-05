@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "KALININGRAD NAV WARN 050/26",
   "geometry": {
-    "type": "LineString",
+    "type": "Polygon",
     "coordinates": [
       [
-        20.133333333333333,
-        55.333333333333336
-      ],
-      [
-        20.416666666666668,
-        55.333333333333336
-      ],
-      [
-        20.416666666666668,
-        55.126666666666665
-      ],
-      [
-        20.133333333333333,
-        55.126666666666665
+        [
+          20.133333333333333,
+          55.333333333333336
+        ],
+        [
+          20.416666666666668,
+          55.333333333333336
+        ],
+        [
+          20.416666666666668,
+          55.126666666666665
+        ],
+        [
+          20.133333333333333,
+          55.126666666666665
+        ],
+        [
+          20.133333333333333,
+          55.333333333333336
+        ]
       ]
     ]
   },
@@ -29,7 +35,7 @@
     "year": 2026,
     "cancellations": [],
     "hazard_type": "general",
-    "geometry_kind": "linestring",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "[South-eastern Baltic] KALININGRAD NAV WARN 050/26\nSOUTHEASTERN BALTIC\nSHIPS EXERCISES 312100 UTC MAR THRU 302100 UTC APR\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING BR-42\n55-20.00N 020-08.00E 55-20.00N 020-25.00E\n55-07.60N 020-25.00E 55-07.60N 020-08.00E\nCANCEL MESSAGE 302200 UTC APR",
     "cancel_date": null,

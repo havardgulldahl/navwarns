@@ -1,7 +1,31 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1731/21(37,43)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        1.8333333333333335,
+        55.88333333333333
+      ],
+      [
+        3.1333333333333333,
+        56.1
+      ],
+      [
+        3.533333333333333,
+        56.11666666666667
+      ],
+      [
+        3.8166666666666664,
+        56.28333333333333
+      ],
+      [
+        6.9,
+        57.75
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-07-01T18:41:00",
     "raw_dtg": "011841Z JUL 21",
@@ -11,7 +35,7 @@
       "HYDROARC 1752/21"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "NORTH SEA.\nNORWAY.\nDNC 20, DNC 21.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V AKADEMIK LAZAREV TOWING 13000 METER CABLE\nIN VICINITY OF TRACKLINE JOINING\n55-53N 001-50E, 56-06N 003-08E,\n56-07N 003-32E, 56-17N 003-49E,\n57-45N 006-54E.\nNINE MILE BERTH REQUESTED.",
     "cancel_date": "2021-07-04T06:57:00+00:00",

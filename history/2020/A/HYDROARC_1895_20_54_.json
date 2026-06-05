@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1895/20(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.333333333333332,
+          35.666666666666664
+        ],
+        [
+          29.333333333333332,
+          35.166666666666664
+        ],
+        [
+          30.166666666666668,
+          35.166666666666664
+        ],
+        [
+          30.166666666666668,
+          35.666666666666664
+        ],
+        [
+          29.333333333333332,
+          35.666666666666664
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-06-08T12:24:00",
     "raw_dtg": "081224Z JUN 20",
@@ -12,7 +38,7 @@
       "HYDROARC 1895/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 101700Z TO 102300Z JUN\n   IN AREA BOUND BY\n   35-40N 029-20E, 35-10N 029-20E,\n   35-10N 030-10E, 35-40N 030-10E.\n2. CANCEL THIS MSG 110001Z JUN 20.",
     "cancel_date": "2020-06-11T00:01:00+00:00",

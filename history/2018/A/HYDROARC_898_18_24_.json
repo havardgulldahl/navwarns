@@ -1,7 +1,29 @@
 {
   "type": "Feature",
   "id": "HYDROARC 898/18(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -27.516666666666666,
+          -1.8833333333333333
+        ],
+        [
+          -38.06666666666667,
+          -2.5833333333333335
+        ],
+        [
+          -38.45,
+          -3.7333333333333334
+        ],
+        [
+          -27.516666666666666,
+          -1.8833333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-03-15T10:26:00",
     "raw_dtg": "151026Z MAR 18",
@@ -12,7 +34,7 @@
       "HYDROARC 1343/18"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-NORTH COAST.\nDNC 01.\n1. UNDERWATER OPERATIONS IN PROGRESS UNTIL\n   03 JUL BY M/V CS RECORD AND M/V SAGA BADEJO\n   IN AREA BOUND BY 01-53S 027-31W,\n   02-35S 038-04W, 03-44S 038-27W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 04 JUL 18.",
     "cancel_date": "2018-04-28T04:42:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 27/23",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.0,
+          76.5
+        ],
+        [
+          24.666666666666668,
+          75.33333333333333
+        ],
+        [
+          21.666666666666668,
+          74.83333333333333
+        ],
+        [
+          18.666666666666668,
+          75.83333333333333
+        ],
+        [
+          22.0,
+          76.5
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2023-03-19T16:09:00",
     "raw_dtg": "",
@@ -9,7 +35,7 @@
     "year": 2023,
     "cancellations": [],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": " NAVAREA XIX 27/23\n BARENTS SEA\n AREA TEMPORARILY DANGEROUS TO NAVIGATION\n DUE TO ROCKET CARRIER ELEMENTS FALL\n 23 TO 28 MAR DAILY FROM 0600 TO 0800 UTC\n 76-30N 022-00E 75-20N 024-40E\n 74-50N 021-40E 75-50N 018-40E",
     "cancel_date": "2023-03-25T06:54:00",

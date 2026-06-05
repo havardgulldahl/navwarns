@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 70/17(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          63.36666666666667,
+          75.58333333333333
+        ],
+        [
+          64.66666666666667,
+          75.43333333333334
+        ],
+        [
+          58.53333333333333,
+          71.45
+        ],
+        [
+          57.46666666666667,
+          71.55
+        ],
+        [
+          63.36666666666667,
+          75.58333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-05-07T18:01:00",
     "raw_dtg": "071801Z MAY 17",
@@ -12,7 +38,7 @@
       "HYDROARC 70/17"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. HAZARDOUS OPERATIONS 072100Z THRU 232059Z MAY\n   IN AREA BOUND BY:\n   75-35N 063-22E, 75-26N 064-40E,\n   71-27N 058-32E, 71-33N 057-28E.\n2. CANCEL THIS MSG 232159Z MAY 17.",
     "cancel_date": "2017-05-23T21:59:00+00:00",

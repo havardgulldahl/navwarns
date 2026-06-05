@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1192/14(37,43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.966666666666667,
+          57.18333333333333
+        ],
+        [
+          3.3,
+          56.85
+        ],
+        [
+          3.0,
+          56.75
+        ],
+        [
+          2.6666666666666665,
+          57.083333333333336
+        ],
+        [
+          2.966666666666667,
+          57.18333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-05-11T06:53:00",
     "raw_dtg": "110653Z MAY 14",
@@ -12,7 +38,7 @@
       "HYDROARC 1424/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 20 JUN\n   BY M/V WG AMUNDSEN TOWING 11\n   5000 METER LONG CABLES IN AREA BOUND BY\n   57-11N 002-58E, 56-51N 003-18E,\n   56-45N 003-00E, 57-05N 002-40E.\n   3.5 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 21 JUN 14.",
     "cancel_date": "2014-06-07T11:38:00+00:00",

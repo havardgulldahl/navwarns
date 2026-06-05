@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1837/14(37)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.25,
+          53.833333333333336
+        ],
+        [
+          5.733333333333333,
+          53.766666666666666
+        ],
+        [
+          5.6,
+          54.15
+        ],
+        [
+          6.016666666666667,
+          54.166666666666664
+        ],
+        [
+          6.25,
+          53.833333333333336
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-07-29T17:02:00",
     "raw_dtg": "291702Z JUL 14",
@@ -12,7 +38,7 @@
       "HYDROARC 2598/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V WG AMUNDSEN TOWING EIGHT 6000 METER\n   LONG CABLES IN AREA BOUND BY\n   53-50N 006-15E, 53-46N 005-44E,\n   54-09N 005-36E, 54-10N 006-01E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1830/14.",
     "cancel_date": "2014-10-26T13:30:00+00:00",

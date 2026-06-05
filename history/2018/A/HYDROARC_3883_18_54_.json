@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3883/18(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.783333333333335,
+          35.21666666666667
+        ],
+        [
+          31.866666666666667,
+          35.21666666666667
+        ],
+        [
+          31.833333333333332,
+          35.416666666666664
+        ],
+        [
+          30.783333333333335,
+          35.416666666666664
+        ],
+        [
+          30.783333333333335,
+          35.21666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-12-13T12:41:00",
     "raw_dtg": "131241Z DEC 18",
@@ -12,7 +38,7 @@
       "HYDROARC 3883/18"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS.\nDNC 10.\n1. GUNNERY EXERCISES 160400Z TO 172000Z DEC\n   IN AREA BOUND BY\n   35-13N 030-47E, 35-13N 031-52E,\n   35-25N 031-50E, 35-25N 030-47E.\n2. CANCEL THIS MSG 172100Z DEC 18.",
     "cancel_date": "2018-12-17T21:00:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1890/16(37,43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          4.083333333333333,
+          55.916666666666664
+        ],
+        [
+          5.0,
+          55.2
+        ],
+        [
+          5.666666666666667,
+          55.416666666666664
+        ],
+        [
+          4.75,
+          56.1
+        ],
+        [
+          4.083333333333333,
+          55.916666666666664
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-07-25T21:04:00",
     "raw_dtg": "252104Z JUL 16",
@@ -11,7 +37,7 @@
       "HYDROARC 2275/16"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 20, DNC 21.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V POLARCUS ASIMA TOWING EIGHT\nTWO MILE LONG CABLES IN AREA BOUND BY\n55-55N 004-05E, 55-12N 005-00E,\n55-25N 005-40E, 56-06N 004-45E.\nFIVE MILE BERTH REQUESTED.",
     "cancel_date": "2016-09-03T11:20:00+00:00",

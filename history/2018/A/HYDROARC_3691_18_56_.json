@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3691/18(56)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          27.45,
+          33.18333333333333
+        ],
+        [
+          29.85,
+          33.18333333333333
+        ],
+        [
+          29.85,
+          33.55
+        ],
+        [
+          28.583333333333332,
+          33.55
+        ],
+        [
+          28.583333333333332,
+          33.916666666666664
+        ],
+        [
+          27.45,
+          33.916666666666664
+        ],
+        [
+          27.45,
+          33.18333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-11-27T19:33:00",
     "raw_dtg": "271933Z NOV 18",
@@ -12,7 +46,7 @@
       "HYDROARC 3699/18"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 280001Z NOV TO\n   062359Z DEC IN AREA BOUND BY\n   33-11N 027-27E, 33-11N 029-51E,\n   33-33N 029-51E, 33-33N 028-35E,\n   33-55N 028-35E, 33-55N 027-27E.\n2. CANCEL THIS MSG 070100Z DEC 18.",
     "cancel_date": "2018-11-28T13:04:00+00:00",

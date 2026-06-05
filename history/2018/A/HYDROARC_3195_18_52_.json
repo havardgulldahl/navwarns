@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3195/18(52)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.0,
+          37.11666666666667
+        ],
+        [
+          9.0,
+          37.916666666666664
+        ],
+        [
+          11.0,
+          37.916666666666664
+        ],
+        [
+          11.0,
+          37.06666666666667
+        ],
+        [
+          9.0,
+          37.11666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-10-11T13:29:00",
     "raw_dtg": "111329Z OCT 18",
@@ -12,7 +38,7 @@
       "HYDROARC 3195/18"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nTUNISIA.\nDNC 08.\n1. HAZARDOUS OPERATIONS 14 AND 15 OCT\n   IN AREA BOUND BY\n   37-07N 009-00E, 37-55N 009-00E,\n   37-55N 011-00E, 37-04N 011-00E.\n2. CANCEL THIS MSG 16 OCT 18.",
     "cancel_date": "2018-10-16T00:01:00+00:00",

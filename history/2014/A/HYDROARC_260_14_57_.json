@@ -1,7 +1,37 @@
 {
   "type": "Feature",
   "id": "HYDROARC 260/14(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.8,
+          -1.2
+        ],
+        [
+          8.933333333333334,
+          -1.3
+        ],
+        [
+          9.0,
+          -1.5333333333333332
+        ],
+        [
+          8.783333333333333,
+          -1.5833333333333335
+        ],
+        [
+          8.7,
+          -1.3333333333333333
+        ],
+        [
+          8.8,
+          -1.2
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-01-28T10:18:00",
     "raw_dtg": "281018Z JAN 14",
@@ -12,7 +42,7 @@
       "HYDROARC 680/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nGABON.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\n   M/V POLARCUS NADIA IN AREA BOUND BY\n   01-12S 008-48E, 01-18S 008-56E,\n   01-32S 009-00E, 01-35S 008-47E,\n   01-20S 008-42E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 206/14.",
     "cancel_date": "2014-03-07T00:59:00+00:00",

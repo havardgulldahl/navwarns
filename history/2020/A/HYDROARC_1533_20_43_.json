@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1533/20(43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          1.8333333333333335,
+          64.75
+        ],
+        [
+          4.833333333333333,
+          64.21666666666667
+        ],
+        [
+          3.8666666666666667,
+          63.416666666666664
+        ],
+        [
+          0.8333333333333334,
+          63.93333333333333
+        ],
+        [
+          1.8333333333333335,
+          64.75
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-05-05T06:14:00",
     "raw_dtg": "050614Z MAY 20",
@@ -11,7 +37,7 @@
       "HYDROARC 2742/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORWEGIAN SEA.\nDNC 20, DNC 21.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V POLARCUS ADIRA TOWING 12 11000\nMETER LONG CABLES IN AREA BOUND BY\n64-45N 001-50E, 64-13N 004-50E,\n63-25N 003-52E, 63-56N 000-50E.\nSEVEN MILE BERTH REQUESTED.",
     "cancel_date": "2020-09-05T18:55:00+00:00",

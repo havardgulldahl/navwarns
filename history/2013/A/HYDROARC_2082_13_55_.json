@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2082/13(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.166666666666664,
+          43.86666666666667
+        ],
+        [
+          37.583333333333336,
+          44.4
+        ],
+        [
+          38.233333333333334,
+          44.11666666666667
+        ],
+        [
+          37.88333333333333,
+          43.71666666666667
+        ],
+        [
+          37.166666666666664,
+          43.86666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2013-08-26T14:08:00",
     "raw_dtg": "261408Z AUG 13",
@@ -12,7 +38,7 @@
       "HYDROARC 2082/13"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nRUSSIA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 270500Z TO 282100Z AUG\n   IN AREA BOUND BY\n   43-52N 037-10E, 44-24N 037-35E,\n   44-07N 038-14E, 43-43N 037-53E.\n2. CANCEL THIS MSG 282200Z AUG 13.",
     "cancel_date": "2013-08-28T22:00:00+00:00",

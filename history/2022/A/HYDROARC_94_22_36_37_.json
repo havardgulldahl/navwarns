@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 94/22(36,37)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.483333333333333,
+          48.0
+        ],
+        [
+          -9.483333333333333,
+          46.9
+        ],
+        [
+          -7.933333333333334,
+          46.9
+        ],
+        [
+          -7.933333333333334,
+          48.0
+        ],
+        [
+          -9.483333333333333,
+          48.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2022-01-10T16:30:00",
     "raw_dtg": "101630Z JAN 22",
@@ -12,7 +38,7 @@
       "HYDROARC 94/22"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nCELTIC SEA.\nDNC 08.\n1. SURVEY OPERATIONS 11 THRU 16 JAN BY\n   M/V BEAUTEMPS BEAUPRE IN AREA BOUND BY\n   48-00N 009-29W, 46-54N 009-29W,\n   46-54N 007-56W, 48-00N 007-56W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 17 JAN 22.",
     "cancel_date": "2022-01-17T00:01:00+00:00",

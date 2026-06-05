@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 174/17(16,41)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          159.46666666666667,
+          76.5
+        ],
+        [
+          161.33333333333334,
+          76.15
+        ],
+        [
+          -142.26666666666668,
+          81.2
+        ],
+        [
+          -141.9,
+          81.76666666666667
+        ],
+        [
+          159.46666666666667,
+          76.5
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-07-28T03:31:00",
     "raw_dtg": "280331Z JUL 17",
@@ -12,7 +38,7 @@
       "HYDROARC 185/17"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SIBERIAN SEA.\nCHUKCHI SEA.\nARCTIC OCEAN.\nDNC 27.\n1. HAZARDOUS OPERATIONS 0206Z TO 0323Z DAILY\n   02 AUG THRU 02 SEP IN AREA BOUND BY\n   76-30N 159-28E, 76-09N 161-20E,\n   81-12N 142-16W, 81-46N 141-54W.\n2. CANCEL THIS MSG 020423Z SEP 17.",
     "cancel_date": "2017-08-03T23:18:00+00:00",

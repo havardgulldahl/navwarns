@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2684/20(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.55,
+          44.583333333333336
+        ],
+        [
+          36.55,
+          44.916666666666664
+        ],
+        [
+          36.916666666666664,
+          44.96666666666667
+        ],
+        [
+          37.21666666666667,
+          44.733333333333334
+        ],
+        [
+          36.55,
+          44.583333333333336
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-08-31T12:25:00",
     "raw_dtg": "311225Z AUG 20",
@@ -12,7 +38,7 @@
       "HYDROARC 2684/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nRUSSIA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 312100Z AUG THRU\n   302100Z SEP IN AREA BOUND BY\n   44-35N 036-33E, 44-55N 036-33E,\n   44-58N 036-55E, 44-44N 037-13E.\n2. CANCEL THIS MSG 302200Z SEP 20.",
     "cancel_date": "2020-09-30T22:00:00+00:00",

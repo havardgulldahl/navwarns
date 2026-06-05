@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2218/10(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -41.166666666666664,
+          -24.25
+        ],
+        [
+          -40.8,
+          -25.0
+        ],
+        [
+          -44.46666666666667,
+          -26.416666666666668
+        ],
+        [
+          -44.81666666666667,
+          -25.65
+        ],
+        [
+          -41.166666666666664,
+          -24.25
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2010-11-20T01:21:00",
     "raw_dtg": "200121Z NOV 10",
@@ -13,7 +39,7 @@
       "HYDROARC 2218/10"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL\n   260159Z NOV BY M/V RAMFORM SOVEREING\n   TOWING 14 8100 METER LONG CABLES\n   IN AREA BOUND BY\n   24-15S 041-10W, 25-00S 040-48W,\n   26-25S 044-28W, 25-39S 044-49W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2201/10.\n3. CANCEL THIS MSG 260259Z NOV.",
     "cancel_date": "2010-11-26T02:59:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1611/15(43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.433333333333334,
+          64.66666666666667
+        ],
+        [
+          7.433333333333334,
+          64.06666666666666
+        ],
+        [
+          5.583333333333333,
+          64.01666666666667
+        ],
+        [
+          5.416666666666667,
+          65.05
+        ],
+        [
+          7.433333333333334,
+          64.66666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2015-07-02T07:47:00",
     "raw_dtg": "020747Z JUL 15",
@@ -11,7 +37,7 @@
       "HYDROARC 1974/15"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORWEGIAN SEA.\nDNC 21.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM ATLAS TOWING 12\n9000 METER LONG CABLES IN AREA BOUND BY\n64-40N 007-26E, 64-04N 007-26E,\n64-01N 005-35E, 65-03N 005-25E.\nSIX MILE BERTH REQUESTED.",
     "cancel_date": "2015-08-13T05:40:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3626/20(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.7,
+          43.083333333333336
+        ],
+        [
+          36.03333333333333,
+          43.083333333333336
+        ],
+        [
+          36.03333333333333,
+          42.833333333333336
+        ],
+        [
+          35.7,
+          42.833333333333336
+        ],
+        [
+          35.7,
+          43.083333333333336
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-11-22T16:02:00",
     "raw_dtg": "221602Z NOV 20",
@@ -12,7 +38,7 @@
       "HYDROARC 3626/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nTURKEY.\nDNC 10.\n1. SEARCH AND RESCUE EXERCISES 231000Z TO\n   231400Z NOV IN AREA BOUND BY\n   43-05N 035-42E, 43-05N 036-02E,\n   42-50N 036-02E, 42-50N 035-42E.\n2. CANCEL THIS MSG 231500Z NOV 20.",
     "cancel_date": "2020-11-23T15:00:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2033/16(51)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.916666666666667,
+          35.35
+        ],
+        [
+          -7.7,
+          35.2
+        ],
+        [
+          -9.283333333333333,
+          33.65
+        ],
+        [
+          -9.5,
+          33.8
+        ],
+        [
+          -7.916666666666667,
+          35.35
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-08-10T21:00:00",
     "raw_dtg": "102100Z AUG 16",
@@ -13,7 +39,7 @@
       "HYDROARC 2058/16"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 15 AUG BY\n   M/V RAMFORM ATLAS TOWING 11000 METER\n   LONG CABLES IN AREA BOUND BY\n   35-21N 007-55W, 35-12N 007-42W,\n   33-39N 009-17W, 33-48N 009-30W.\n2. CANCEL HYDROLANT 1987/16.\n3. CANCEL THIS MSG 16 AUG 16.",
     "cancel_date": "2016-08-14T07:20:00+00:00",

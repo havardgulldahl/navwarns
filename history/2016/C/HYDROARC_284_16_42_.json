@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 284/16(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          63.083333333333336,
+          80.46666666666667
+        ],
+        [
+          64.96666666666667,
+          80.56666666666666
+        ],
+        [
+          68.5,
+          77.4
+        ],
+        [
+          67.33333333333333,
+          71.3
+        ],
+        [
+          63.083333333333336,
+          80.46666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-10-05T13:00:00",
     "raw_dtg": "051300Z OCT 16",
@@ -12,7 +38,7 @@
       "HYDROARC 288/16"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nKARA SEA.\nHAZARDOUS OPERATIONS.\nDNC 22.\n1. HAZARDOUS OPERATIONS 072100Z TO 122100Z OCT\n   IN AREAS BOUND BY\n   80-28N 063-05E, 80-34N 064-58E,\n   77-24N 068-30E, 71-18N 067-20E.\n2. CANCEL THIS MSG 122200Z OCT 16.",
     "cancel_date": "2016-10-07T11:40:00+00:00",

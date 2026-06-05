@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2170/21(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.583333333333332,
+          34.666666666666664
+        ],
+        [
+          26.483333333333334,
+          34.666666666666664
+        ],
+        [
+          26.483333333333334,
+          34.166666666666664
+        ],
+        [
+          24.583333333333332,
+          34.166666666666664
+        ],
+        [
+          24.583333333333332,
+          34.666666666666664
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-08-23T13:05:00",
     "raw_dtg": "231305Z AUG 21",
@@ -12,7 +38,7 @@
       "HYDROARC 2170/21"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCRETE.\nDNC 09.\n1. HAZARDOUS OPERATIONS 240500Z TO 240900Z AUG\n   IN AREA BOUND BY\n   34-40N 024-35E, 34-40N 026-29E,\n   34-10N 026-29E, 34-10N 024-35E.\n2. CANCEL THIS MSG 241000Z AUG 21.",
     "cancel_date": "2021-08-24T10:00:00+00:00",

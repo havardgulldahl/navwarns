@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 680/20(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.0,
+          35.7
+        ],
+        [
+          33.0,
+          35.6
+        ],
+        [
+          33.083333333333336,
+          35.6
+        ],
+        [
+          33.083333333333336,
+          35.7
+        ],
+        [
+          33.0,
+          35.7
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-02-24T09:32:00",
     "raw_dtg": "240932Z FEB 20",
@@ -12,7 +38,7 @@
       "HYDROARC 680/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-NORTH COAST.\nDNC 10.\n1. HAZARDOUS OPERATIONS 251000Z TO 251100Z FEB\n   IN AREA BOUND BY\n   35-42N 033-00E, 35-36N 033-00E,\n   35-36N 033-05E, 35-42N 033-05E.\n2. CANCEL THIS MSG 251200Z FEB 20.",
     "cancel_date": "2020-02-25T12:00:00+00:00",

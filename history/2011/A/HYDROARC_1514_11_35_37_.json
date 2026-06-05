@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1514/11(35,37)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.08333333333333333,
+          54.06666666666667
+        ],
+        [
+          -1.4833333333333334,
+          55.7
+        ],
+        [
+          0.2833333333333333,
+          55.55
+        ],
+        [
+          1.3166666666666667,
+          54.15
+        ],
+        [
+          0.08333333333333333,
+          54.06666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2011-09-19T16:34:00",
     "raw_dtg": "191634Z SEP 11",
@@ -12,7 +38,7 @@
       "HYDROARC 1514/11"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ENGLAND-EAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 23 SEP\n   BY M/V GEO CASPIAN TOWING TEN 8800 METER\n   LONG CABLES IN AREA BOUND BY\n   54-04N 000-05E, 55-42N 001-29W,\n   55-33N 000-17E, 54-09N 001-19E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 24 SEP.",
     "cancel_date": "2011-09-24T00:01:00+00:00",

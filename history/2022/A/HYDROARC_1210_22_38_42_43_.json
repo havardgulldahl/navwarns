@@ -1,7 +1,49 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1210/22(38,42,43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.0,
+          78.88333333333334
+        ],
+        [
+          10.15,
+          78.5
+        ],
+        [
+          3.5,
+          75.15
+        ],
+        [
+          -3.1,
+          74.1
+        ],
+        [
+          -10.0,
+          74.4
+        ],
+        [
+          -14.0,
+          75.75
+        ],
+        [
+          -13.35,
+          77.3
+        ],
+        [
+          -8.283333333333333,
+          78.38333333333334
+        ],
+        [
+          9.0,
+          78.88333333333334
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2022-05-04T14:20:00",
     "raw_dtg": "041420Z MAY 22",
@@ -12,7 +54,7 @@
       "HYDROARC 1261/22"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GREENLAND SEA.\nSVALBARD.\nDNC 19, DNC 20, DNC 21.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0030Z TO 0600Z DAILY 09 THRU 26 MAY\n   IN AREA BOUND BY\n   78-53N 009-00E, 78-30N 010-09E,\n   75-09N 003-30E, 74-06N 003-06W,\n   74-24N 010-00W, 75-45N 014-00W,\n   77-18N 013-21W, 78-23N 008-17W.\n2. CANCEL THIS MSG 260700Z MAY 22.",
     "cancel_date": "2022-05-11T09:38:00+00:00",

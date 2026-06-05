@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3045/14(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.25,
+          2.95
+        ],
+        [
+          2.2,
+          2.35
+        ],
+        [
+          -0.95,
+          2.6166666666666667
+        ],
+        [
+          -0.9,
+          3.2
+        ],
+        [
+          2.25,
+          2.95
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-12-13T15:51:00",
     "raw_dtg": "131551Z DEC 14",
@@ -12,7 +38,7 @@
       "HYDROARC 3085/14"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nGULF OF GUINEA.\nROCKETS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 1751Z TO 2127Z DAILY\n   18 DEC THRU 18 JAN 15 IN AREA BOUND BY\n   02-57N 002-15E, 02-21N 002-12E,\n   02-37N 000-57W, 03-12N 000-54W.\n2. CANCEL THIS MSG 182227Z JAN 15.",
     "cancel_date": "2014-12-18T20:34:00+00:00",

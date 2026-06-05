@@ -1,7 +1,37 @@
 {
   "type": "Feature",
   "id": "HYDROARC 486/16(54,56)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.583333333333332,
+          34.68333333333333
+        ],
+        [
+          25.916666666666668,
+          34.68333333333333
+        ],
+        [
+          26.1,
+          34.5
+        ],
+        [
+          26.166666666666668,
+          34.25
+        ],
+        [
+          25.583333333333332,
+          34.25
+        ],
+        [
+          25.583333333333332,
+          34.68333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-02-27T12:47:00",
     "raw_dtg": "271247Z FEB 16",
@@ -12,7 +42,7 @@
       "HYDROARC 486/16"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nHAZARDOUS OPERATIONS.\nDNC 09.\n1. HAZARDOUS OPERATIONS 021000Z TO 021300Z MAR\n   IN AREA BOUND BY\n   34-41N 025-35E, 34-41N 025-55E,\n   34-30N 026-06E, 34-15N 026-10E,\n   34-15N 025-35E.\n2. CANCEL THIS MSG 021400Z MAR 16.",
     "cancel_date": "2016-03-02T14:00:00+00:00",

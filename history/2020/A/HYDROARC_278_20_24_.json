@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 278/20(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -43.15,
+          -26.366666666666667
+        ],
+        [
+          -44.6,
+          -27.15
+        ],
+        [
+          -44.416666666666664,
+          -27.533333333333335
+        ],
+        [
+          -42.86666666666667,
+          -26.683333333333334
+        ],
+        [
+          -43.15,
+          -26.366666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-01-26T22:02:00",
     "raw_dtg": "262202Z JAN 20",
@@ -12,7 +38,7 @@
       "HYDROARC 338/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. SURVEY OPERATIONS 26 THRU 30 JAN\n   BY M/V HAI YANG SHI YOU 720 TOWING TEN\n   12000 METER LONG CABLES IN AREA BOUND BY\n   26-22S 043-09W, 27-09S 044-36W,\n   27-32S 044-25W, 26-41S 042-52W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 FEB 20.",
     "cancel_date": "2020-01-30T21:52:00+00:00",

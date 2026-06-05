@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 11/13(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.28333333333333,
+          70.0
+        ],
+        [
+          37.05,
+          71.01666666666667
+        ],
+        [
+          38.38333333333333,
+          70.56666666666666
+        ],
+        [
+          37.63333333333333,
+          69.33333333333333
+        ],
+        [
+          35.25,
+          69.33333333333333
+        ],
+        [
+          34.2,
+          69.43333333333334
+        ],
+        [
+          33.28333333333333,
+          70.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2013-03-16T06:23:00",
     "raw_dtg": "160623Z MAR 13",
@@ -12,7 +46,7 @@
       "HYDROARC 11/13"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nMISSILES. GUNNERY.\n1. HAZARDOUS OPERATIONS 0400Z TO 1800Z DAILY\n   20 THRU 23 MAR IN AREA BOUND BY\n   70-00N 033-17E, 71-01N 037-03E,\n   70-34N 038-23E, 69-20N 037-38E,\n   69-20N 035-15E, 69-26N 034-12E.\n2. CANCEL THIS MSG 231900Z MAR 13.",
     "cancel_date": "2013-03-23T19:00:00+00:00",

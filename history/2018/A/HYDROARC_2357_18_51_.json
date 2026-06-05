@@ -1,7 +1,49 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2357/18(51)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -9.533333333333333,
+          35.083333333333336
+        ],
+        [
+          -8.383333333333333,
+          35.233333333333334
+        ],
+        [
+          -7.533333333333333,
+          35.733333333333334
+        ],
+        [
+          -6.216666666666667,
+          35.86666666666667
+        ],
+        [
+          -6.666666666666667,
+          34.96666666666667
+        ],
+        [
+          -7.183333333333334,
+          34.28333333333333
+        ],
+        [
+          -8.8,
+          33.46666666666667
+        ],
+        [
+          -9.533333333333333,
+          33.46666666666667
+        ],
+        [
+          -9.533333333333333,
+          35.083333333333336
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-07-20T16:12:00",
     "raw_dtg": "201612Z JUL 18",
@@ -12,7 +54,7 @@
       "HYDROARC 2357/18"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\n1. UNDERWATER OPERATIONS 24 JUL THRU 24 AUG\n   BY M/V METEOR IN AREA BOUND BY\n   35-05N 009-32W, 35-14N 008-23W,\n   35-44N 007-32W, 35-52N 006-13W,\n   34-58N 006-40W, 34-17N 007-11W,\n   33-28N 008-48W, 33-28N 009-32W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 25 AUG 18.",
     "cancel_date": "2018-08-25T00:01:00+00:00",

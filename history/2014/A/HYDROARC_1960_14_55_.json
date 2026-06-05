@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1960/14(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.65,
+          44.2
+        ],
+        [
+          36.71666666666667,
+          44.516666666666666
+        ],
+        [
+          37.03333333333333,
+          44.516666666666666
+        ],
+        [
+          37.0,
+          44.31666666666667
+        ],
+        [
+          36.65,
+          44.2
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-08-17T00:15:00",
     "raw_dtg": "170015Z AUG 14",
@@ -12,7 +38,7 @@
       "HYDROARC 1960/14"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nRUSSIA.\nGUNNERY.\n1. GUNNERY EXERCISES 0530Z TO 1230Z DAILY\n   18 THRU 22 AUG IN AREA BOUND BY\n   44-12N 036-39E, 44-31N 036-43E,\n   44-31N 037-02E, 44-19N 037-00E.\n2. CANCEL THIS MSG 221330Z AUG 14.",
     "cancel_date": "2014-08-22T13:30:00+00:00",

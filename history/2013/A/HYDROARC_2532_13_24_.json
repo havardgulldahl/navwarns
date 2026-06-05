@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2532/13(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -40.516666666666666,
+          -22.85
+        ],
+        [
+          -39.983333333333334,
+          -23.833333333333332
+        ],
+        [
+          -39.733333333333334,
+          -23.7
+        ],
+        [
+          -40.266666666666666,
+          -22.733333333333334
+        ],
+        [
+          -40.516666666666666,
+          -22.85
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2013-10-13T07:55:00",
     "raw_dtg": "130755Z OCT 13",
@@ -13,7 +39,7 @@
       "HYDROARC 2532/13"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 190259Z OCT\n   BY M/V NPS WESTERN NEPTUNE TOWING 12\n   FIVE MILE LONG CABLES IN AREA BOUND BY\n   22-51S 040-31W, 23-50S 039-59W,\n   23-42S 039-44W, 22-44S 040-16W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2345/13(35,43),\n   SURVEY COMPLETED.\n3. CANCEL THIS MSG 190359Z OCT 13.",
     "cancel_date": "2013-10-19T03:59:00+00:00",

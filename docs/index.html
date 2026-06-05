@@ -443,7 +443,7 @@
         function getCategoryColor(c) { return categoryColors[c] || categoryColors.default; }
 
         // ============ Cancellation Date Fallback (for data without valid_from/valid_until) ============
-        function parseCancellationDate(cancelStr) {
+        function parseCancellationDate(cancelStr, contextYear) {
             if (!cancelStr) return null;
             const monthMap = {
                 'JAN': 0, 'FEB': 1, 'MAR': 2, 'APR': 3, 'MAY': 4, 'JUN': 5,
@@ -463,12 +463,61 @@
                 if (month === undefined) return null;
                 return new Date(Date.UTC(2000 + parseInt(year), month, parseInt(day)));
             }
+            // Russian self-cancellation: ОТМ ЭТОТ НР DDHHMM MONTH [YY] or DD MONTH [YY]
+            const ruMonthMap = {
+                'ЯНВ': 0, 'ЯНВА': 0,
+                'ФЕВ': 1, 'ФЕВР': 1,
+                'МАР': 2, 'МАРТ': 2,
+                'АПР': 3, 'АПРЕ': 3,
+                'МАЙ': 4, 'МАЯ': 4,
+                'ИЮН': 5, 'ИЮНЬ': 5,
+                'ИЮЛ': 6, 'ИЮЛЬ': 6,
+                'АВГ': 7, 'АВГА': 7, 'АВГУСТА': 7,
+                'СЕН': 8, 'СЕНТ': 8,
+                'ОКТ': 9, 'ОКТЯ': 9,
+                'НОЯ': 10, 'НОЯБ': 10,
+                'ДЕК': 11, 'ДЕКА': 11
+            };
+            const matchRu = cancelStr.match(/ОТМ\s+ЭТОТ\s+(?:НР|ПУНКТ)\s+(\d{2,6})\s+([\u0400-\u04ff]{2,8})(?:\s+(\d{2,4}))?/);
+            if (matchRu) {
+                const digits = matchRu[1], ruMonthRaw = matchRu[2].toUpperCase(), yrRaw = matchRu[3];
+                const month = ruMonthMap[ruMonthRaw];
+                if (month !== undefined) {
+                    let day, hour = 0, minute = 0;
+                    if (digits.length === 6) {
+                        day = parseInt(digits.substring(0, 2));
+                        hour = parseInt(digits.substring(2, 4));
+                        minute = parseInt(digits.substring(4, 6));
+                    } else if (digits.length === 2) {
+                        day = parseInt(digits);
+                    } else {
+                        return null;
+                    }
+                    const year = yrRaw ? (2000 + parseInt(yrRaw.slice(-2))) : contextYear;
+                    if (year !== null && year !== undefined) {
+                        return new Date(Date.UTC(year, month, day, hour, minute));
+                    }
+                }
+            }
             return null;
         }
 
         // ============ Feature Filtering ============
         function isFeatureValidAt(feature, checkDate) {
             const p = feature.properties || {};
+
+            // Context year for yearless cancel dates (e.g. Russian ОТМ ЭТОТ НР DD MONTH without year)
+            let contextYear = null;
+            if (p.year) {
+                contextYear = parseInt(p.year);
+            } else if (p.valid_from) {
+                contextYear = new Date(p.valid_from + (p.valid_from.endsWith('Z') || p.valid_from.includes('+') ? '' : 'Z')).getUTCFullYear();
+            } else if (p.dtg) {
+                contextYear = new Date(p.dtg + (p.dtg.endsWith('Z') || p.dtg.includes('+') ? '' : 'Z')).getUTCFullYear();
+            } else if (p.body) {
+                const yrM = p.body.match(/\/(\d{2})\b/);
+                if (yrM) contextYear = 2000 + parseInt(yrM[1]);
+            }
 
             // Determine start date: prefer pre-computed valid_from, fall back to dtg/year
             let startDate = null;
@@ -495,7 +544,7 @@
                 const cancellations = p.cancellations || [];
                 for (const cancel of cancellations) {
                     if (cancel && (cancel.includes('THIS MSG') || cancel.includes('THIS MESSAGE'))) {
-                        endDate = parseCancellationDate(cancel);
+                        endDate = parseCancellationDate(cancel, contextYear);
                         if (endDate) break;
                     }
                 }
@@ -506,8 +555,8 @@
                 if (body) {
                     const lines = body.toUpperCase().split(/[.\n]/);
                     for (const line of lines) {
-                        if (line.includes('THIS MSG') || line.includes('THIS MESSAGE')) {
-                            endDate = parseCancellationDate(line.trim());
+                        if (line.includes('THIS MSG') || line.includes('THIS MESSAGE') || (line.includes('ОТМ') && line.includes('ЭТОТ'))) {
+                            endDate = parseCancellationDate(line.trim(), contextYear);
                             if (endDate) break;
                         }
                     }

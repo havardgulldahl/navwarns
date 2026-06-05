@@ -1,7 +1,27 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3222/19(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        28.083333333333332,
+        34.666666666666664
+      ],
+      [
+        29.333333333333332,
+        34.666666666666664
+      ],
+      [
+        29.333333333333332,
+        34.166666666666664
+      ],
+      [
+        28.083333333333332,
+        34.166666666666664
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-10-21T14:25:00",
     "raw_dtg": "211425Z OCT 19",
@@ -12,7 +32,7 @@
       "HYDROARC 3222/19"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 230500Z TO 230900Z OCT\n   IN AREA BETWEEN\n   34-40N 028-05E, 34-40N 029-20E,\n   34-10N 029-20E, 34-10N 028-05E.\n2. CANCEL THIS MSG 231000Z OCT 19.",
     "cancel_date": "2019-10-23T10:00:00+00:00",

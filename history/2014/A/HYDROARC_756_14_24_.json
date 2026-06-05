@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 756/14(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -47.53333333333333,
+          5.183333333333334
+        ],
+        [
+          -47.56666666666667,
+          4.666666666666667
+        ],
+        [
+          -48.56666666666667,
+          4.733333333333333
+        ],
+        [
+          -48.53333333333333,
+          5.25
+        ],
+        [
+          -47.53333333333333,
+          5.183333333333334
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-03-15T23:59:00",
     "raw_dtg": "152359Z MAR 14",
@@ -12,7 +38,7 @@
       "HYDROARC 758/14"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nROCKETS.\n1. HAZARDOUS OPERATIONS 21 MAR\n   IN AREA BOUND BY\n   05-11N 047-32W, 04-40N 047-34W,\n   04-44N 048-34W, 05-15N 048-32W.\n2. CANCEL THIS MSG 22 MAR 14.",
     "cancel_date": "2014-03-16T06:11:00+00:00",

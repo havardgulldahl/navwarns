@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1645/17(35)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -2.5166666666666666,
+          61.18333333333333
+        ],
+        [
+          -2.3166666666666664,
+          61.016666666666666
+        ],
+        [
+          -3.5666666666666664,
+          60.666666666666664
+        ],
+        [
+          -3.7333333333333334,
+          60.81666666666667
+        ],
+        [
+          -2.5166666666666666,
+          61.18333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-05-26T04:08:00",
     "raw_dtg": "260408Z MAY 17",
@@ -11,7 +37,7 @@
       "HYDROARC 2104/17"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSHETLAND ISLANDS.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM TITAN TOWING 16\n3.2 MILE LONG CABLES IN AREA BOUND BY\n61-11N 002-31W, 61-01N 002-19W,\n60-40N 003-34W, 60-49N 003-44W.\nWIDE BERTH REQUESTED.",
     "cancel_date": "2017-07-07T09:55:00+00:00",

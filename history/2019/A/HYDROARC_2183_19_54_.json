@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2183/19(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.75,
+          35.7
+        ],
+        [
+          31.75,
+          35.45
+        ],
+        [
+          31.25,
+          35.45
+        ],
+        [
+          31.25,
+          35.7
+        ],
+        [
+          31.75,
+          35.7
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-07-19T07:33:00",
     "raw_dtg": "190733Z JUL 19",
@@ -12,7 +38,7 @@
       "HYDROARC 2183/19"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\n1. GUNNERY EXERCISES 211100Z TO 211300Z JUL\n   IN AREA BOUND BY\n   35-42N 031-45E, 35-27N 031-45E,\n   35-27N 031-15E, 35-42N 031-15E.\n2. CANCEL THIS MSG 211400Z JUL 19.",
     "cancel_date": "2019-07-21T14:00:00+00:00",

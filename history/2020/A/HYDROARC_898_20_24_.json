@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 898/20(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -44.416666666666664,
+          -27.583333333333332
+        ],
+        [
+          -44.483333333333334,
+          -32.516666666666666
+        ],
+        [
+          -36.733333333333334,
+          -31.333333333333332
+        ],
+        [
+          -42.75,
+          -26.666666666666668
+        ],
+        [
+          -44.416666666666664,
+          -27.583333333333332
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-03-09T00:24:00",
     "raw_dtg": "090024Z MAR 20",
@@ -12,7 +38,7 @@
       "HYDROARC 1005/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. SURVEY OPERATIONS 10 MAR THRU 17 MAR BY\n   M/V HAI YANG SHI YOU 720 AND\n   M/V HAI YANG SHI YOU 771 EACH TOWING TEN 12000\n   METER LONG CABLES IN AREA BOUND BY\n   27-35S 044-25W, 32-31S 044-29W,\n   31-20S 036-44W, 26-40S 042-45W.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 18 MAR 20.",
     "cancel_date": "2020-03-17T03:57:00+00:00",

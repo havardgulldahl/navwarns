@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1305/14(51,57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -0.13333333333333333,
+          1.1833333333333333
+        ],
+        [
+          -0.3333333333333333,
+          -0.6166666666666667
+        ],
+        [
+          -15.516666666666667,
+          1.1166666666666667
+        ],
+        [
+          -15.316666666666666,
+          2.9166666666666665
+        ],
+        [
+          -0.13333333333333333,
+          1.1833333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-05-24T05:41:00",
     "raw_dtg": "240541Z MAY 14",
@@ -13,7 +39,7 @@
       "HYDROARC 1318/14"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN ATLANTIC.\nGULF OF GUINEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 2056Z TO 2310Z DAILY\n   28 MAY THRU 28 JUN IN AREA BOUND BY\n   01-11N 000-08W, 00-37S 000-20W,\n   01-07N 015-31W, 02-55N 015-19W.\n2. CANCEL HYDROLANT 1303/14(24).\n3. CANCEL THIS MSG 290010Z JUN 14.",
     "cancel_date": "2014-05-26T11:19:00+00:00",

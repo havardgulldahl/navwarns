@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 947/14(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -6.333333333333333,
+          4.416666666666667
+        ],
+        [
+          -5.0,
+          4.45
+        ],
+        [
+          -5.0,
+          3.6666666666666665
+        ],
+        [
+          -6.0,
+          3.6666666666666665
+        ],
+        [
+          -6.333333333333333,
+          4.416666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-04-08T00:22:00",
     "raw_dtg": "080022Z APR 14",
@@ -11,7 +37,7 @@
       "HYDROARC 1018/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V RAMFORM CHALLENGER TOWING\n10000 METER LONG CABLE IN AREA BOUND BY\n04-25N 006-20W, 04-27N 005-00W,\n03-40N 005-00W, 03-40N 006-00W.\nSEVEN MILE BERTH REQUESTED.",
     "cancel_date": "2014-04-15T10:23:00+00:00",

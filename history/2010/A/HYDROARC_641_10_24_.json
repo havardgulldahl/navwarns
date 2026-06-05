@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 641/10(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -42.5,
+          -30.666666666666668
+        ],
+        [
+          -39.0,
+          -30.5
+        ],
+        [
+          -38.0,
+          -33.5
+        ],
+        [
+          -42.0,
+          -34.0
+        ],
+        [
+          -42.5,
+          -30.666666666666668
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2010-04-14T06:12:00",
     "raw_dtg": "140612Z APR 10",
@@ -12,7 +38,7 @@
       "HYDROARC 641/10"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL\n   170259Z APR BY M/V RAMFORM SOVEREING\n   TOWING 14 8100 METER LONG CABLES\n   IN AREA BOUND BY\n   30-40S 042-30W, 30-30S 039-00W,\n   33-30S 038-00W, 34-00S 042-00W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 170359Z APR.",
     "cancel_date": "2010-04-17T03:59:00+00:00",

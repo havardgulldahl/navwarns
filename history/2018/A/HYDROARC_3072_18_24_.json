@@ -1,7 +1,53 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3072/18(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -39.68333333333333,
+          -21.1
+        ],
+        [
+          -39.68333333333333,
+          -21.1
+        ],
+        [
+          -40.21666666666667,
+          -21.35
+        ],
+        [
+          -40.21666666666667,
+          -21.333333333333332
+        ],
+        [
+          -40.233333333333334,
+          -21.3
+        ],
+        [
+          -40.233333333333334,
+          -21.233333333333334
+        ],
+        [
+          -40.233333333333334,
+          -21.2
+        ],
+        [
+          -40.21666666666667,
+          -21.133333333333333
+        ],
+        [
+          -40.2,
+          -21.083333333333332
+        ],
+        [
+          -39.68333333333333,
+          -21.1
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-09-29T03:04:00",
     "raw_dtg": "290304Z SEP 18",
@@ -13,7 +59,7 @@
       "HYDROARC 3072/18"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 06 OCT\n   BY M/V OCEANIC CHAMPION TOWING 14\n   3700 METER LONG CABLES IN AREA BOUND BY\n   21-06S 039-41W, 21-06S 039-41W,\n   21-21S 040-13W, 21-20S 040-13W,\n   21-18S 040-14W, 21-14S 040-14W,\n   21-12S 040-14W, 21-08S 040-13W,\n   21-05S 040-12W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2979/18.\n3. CANCEL THIS MSG 07 OCT 18.",
     "cancel_date": "2018-10-07T00:01:00+00:00",

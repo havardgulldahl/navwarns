@@ -1,7 +1,61 @@
 {
   "type": "Feature",
   "id": "HYDROARC 189/13(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          57.88333333333333,
+          70.88333333333334
+        ],
+        [
+          59.516666666666666,
+          71.86666666666666
+        ],
+        [
+          59.95,
+          71.86666666666666
+        ],
+        [
+          60.68333333333333,
+          71.5
+        ],
+        [
+          61.75,
+          71.66666666666667
+        ],
+        [
+          63.43333333333333,
+          70.58333333333333
+        ],
+        [
+          63.35,
+          70.35
+        ],
+        [
+          63.78333333333333,
+          70.35
+        ],
+        [
+          63.95,
+          70.23333333333333
+        ],
+        [
+          63.21666666666667,
+          69.86666666666666
+        ],
+        [
+          60.7,
+          69.91666666666667
+        ],
+        [
+          57.88333333333333,
+          70.88333333333334
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2013-09-25T13:17:00",
     "raw_dtg": "251317Z SEP 13",
@@ -12,7 +66,7 @@
       "HYDROARC 267/13"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nKARA SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 30 NOV\n   BY M/V AKADEMIK NEMCHINOV TOWING 8300 METER\n   LONG CABLE IN AREA BOUND BY\n   70-53N 057-53E, 71-52N 059-31E,\n   71-52N 059-57E, 71-30N 060-41E,\n   71-40N 061-45E, 70-35N 063-26E,\n   70-21N 063-21E, 70-21N 063-47E,\n   70-14N 063-57E, 69-52N 063-13E,\n   69-55N 060-42E.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 DEC 13.",
     "cancel_date": "2013-11-06T14:07:00+00:00",

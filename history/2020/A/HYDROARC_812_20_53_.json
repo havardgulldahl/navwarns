@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 812/20(53)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.766666666666667,
+          42.95
+        ],
+        [
+          8.15,
+          43.15
+        ],
+        [
+          7.916666666666667,
+          43.38333333333333
+        ],
+        [
+          8.766666666666667,
+          43.833333333333336
+        ],
+        [
+          9.4,
+          43.21666666666667
+        ],
+        [
+          8.1,
+          42.46666666666667
+        ],
+        [
+          7.766666666666667,
+          42.95
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-03-02T21:14:00",
     "raw_dtg": "022114Z MAR 20",
@@ -12,7 +46,7 @@
       "HYDROARC 812/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nLIGURIAN SEA.\nCORSICA\nDNC 08.\n1. HAZARDOUS OPERATIONS 030001Z TO 061200Z MAR\n   IN AREA BOUND BY\n   42-57N 007-46E, 43-09N 008-09E,\n   43-23N 007-55E, 43-50N 008-46E,\n   43-13N 009-24E, 42-28N 008-06E.\n2. CANCEL THIS MSG 061300Z MAR 20.",
     "cancel_date": "2020-03-06T13:00:00+00:00",

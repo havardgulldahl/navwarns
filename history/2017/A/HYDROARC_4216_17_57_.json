@@ -1,7 +1,39 @@
 {
   "type": "Feature",
   "id": "HYDROARC 4216/17(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        10.416666666666666,
+        -9.716666666666667
+      ],
+      [
+        -1.2,
+        -8.45
+      ],
+      [
+        -7.583333333333333,
+        -6.05
+      ],
+      [
+        -11.55,
+        -3.5166666666666666
+      ],
+      [
+        -15.133333333333333,
+        -3.3833333333333333
+      ],
+      [
+        -24.383333333333333,
+        -2.8333333333333335
+      ],
+      [
+        -29.1,
+        -2.8833333333333333
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-12-28T12:09:00",
     "raw_dtg": "281209Z DEC 17",
@@ -13,7 +45,7 @@
       "HYDROARC 4216/17"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. CABLE OPERATIONS IN PROGRESS UNTIL 06 FEB 18\n   BY CABLESHIP DESCARTES ALONG TRACKLINE JOINING\n   09-43S 010-25E, 08-27S 001-12W,\n   06-03S 007-35W, 03-31S 011-33W,\n   03-23S 015-08W, 02-50S 024-23W,\n   02-53S 029-06W.\n   TWO MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 4215/17.\n3. CANCEL THIS MSG 07 FEB 18.",
     "cancel_date": "2018-02-07T00:01:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1083/21(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.783333333333335,
+          42.5
+        ],
+        [
+          32.68333333333333,
+          42.5
+        ],
+        [
+          32.68333333333333,
+          42.083333333333336
+        ],
+        [
+          31.783333333333335,
+          42.083333333333336
+        ],
+        [
+          31.783333333333335,
+          42.5
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-04-19T17:16:00",
     "raw_dtg": "191716Z APR 21",
@@ -12,7 +38,7 @@
       "HYDROARC 1083/21"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nTURKEY.\nDNC 10.\n1. SEARCH AND RESCUE EXERCISES 200800Z TO 200900Z APR\n   IN AREA BOUND BY\n   42-30N 031-47E, 42-30N 032-41E,\n   42-05N 032-41E, 42-05N 031-47E.\n   CAUTION ADVISED.\n2. CANCEL THIS MSG 201000Z APR 21.",
     "cancel_date": "2021-04-20T10:00:00+00:00",

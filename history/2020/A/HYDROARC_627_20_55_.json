@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 627/20(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.65,
+          44.2
+        ],
+        [
+          33.65,
+          44.333333333333336
+        ],
+        [
+          34.1,
+          44.333333333333336
+        ],
+        [
+          34.1,
+          44.2
+        ],
+        [
+          33.65,
+          44.2
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-02-20T13:01:00",
     "raw_dtg": "201301Z FEB 20",
@@ -12,7 +38,7 @@
       "HYDROARC 627/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. HAZARDOUS OPERATIONS 222100Z FEB TO 032100Z MAR\n   IN AREA BOUND BY\n   44-12N 033-39E, 44-20N 033-39E,\n   44-20N 034-06E, 44-12N 034-06E.\n2. CANCEL THIS MSG 032200Z MAR 20.",
     "cancel_date": "2020-03-03T22:00:00+00:00",

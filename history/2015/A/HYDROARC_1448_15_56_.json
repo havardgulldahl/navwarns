@@ -1,7 +1,37 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1448/15(56)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.75,
+          33.55
+        ],
+        [
+          32.68333333333333,
+          33.1
+        ],
+        [
+          32.65,
+          32.6
+        ],
+        [
+          31.533333333333335,
+          32.833333333333336
+        ],
+        [
+          30.75,
+          33.18333333333333
+        ],
+        [
+          30.75,
+          33.55
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2015-06-14T10:05:00",
     "raw_dtg": "141005Z JUN 15",
@@ -11,7 +41,7 @@
       "HYDROARC 2031/15"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nDNC 10.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE BY\nM/V POLAR DUKE TOWING TEN 10000 METER LONG CABLES\nIN AREA BOUND BY\n33-33N 030-45E, 33-06N 032-41E,\n32-36N 032-39E, 32-50N 031-32E,\n33-11N 030-45E.\nSEVEN MILE BERTH REQUESTED.",
     "cancel_date": "2015-08-19T10:28:00+00:00",

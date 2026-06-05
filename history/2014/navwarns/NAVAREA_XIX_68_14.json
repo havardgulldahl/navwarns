@@ -1,7 +1,51 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 68/14",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            21.216666666666665,
+            73.95
+          ],
+          [
+            22.811403508771928,
+            74.09210526315789
+          ],
+          [
+            24.066666666666666,
+            73.95
+          ],
+          [
+            21.216666666666665,
+            73.95
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            22.811403508771928,
+            74.09210526315789
+          ],
+          [
+            21.416666666666668,
+            74.25
+          ],
+          [
+            24.583333333333332,
+            74.25
+          ],
+          [
+            22.811403508771928,
+            74.09210526315789
+          ]
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-06-24T15:50:00",
     "raw_dtg": "",
@@ -9,7 +53,7 @@
     "year": 2014,
     "cancellations": [],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": " NAVAREA XIX 68/14\nBARENTS SEA\n1. THE SEISMIC VESSEL GECO EAGLE CALL SIGN HP 9513  IS CONDUCTINING SEISIMIC SURVEY IN AREAS BOUNDED BY:\n\nSEISMIC OPERATIONS AREA:\nA  74-15N 021-25E\nB  74-15N 024-35E\nC  73-57N 021-13E\nD  73-57N 024-04E\n\n2. GECO EAGLE IS TOWING 12 SEISMIC STREAMERS 4 NM IN LENGTH. ALL SHIPS ARE REQUESTED TO GIVE A WIDE BERTH OF 6 NM CPA.\nGECO EAGLE IS MONITORING VHF CH. 16 AND 71.",
     "cancel_date": "2014-08-09T07:54:00",

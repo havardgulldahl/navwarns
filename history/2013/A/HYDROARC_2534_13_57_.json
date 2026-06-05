@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2534/13(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          10.583333333333334,
+          -4.383333333333334
+        ],
+        [
+          10.583333333333334,
+          -4.05
+        ],
+        [
+          10.966666666666667,
+          -4.233333333333333
+        ],
+        [
+          10.783333333333333,
+          -4.533333333333333
+        ],
+        [
+          10.583333333333334,
+          -4.383333333333334
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2013-10-13T14:12:00",
     "raw_dtg": "131412Z OCT 13",
@@ -12,7 +38,7 @@
       "HYDROARC 2948/13"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nCONGO.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 302359Z NOV BY\n   M/V POLARCUS NADIA TOWING 12 FOUR MILE LONG\n   CABLES IN AREA BOUND BY\n   04-23S 010-35E, 04-03S 010-35E,\n   04-14S 010-58E, 04-32S 010-47E.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 010059Z DEC 13.",
     "cancel_date": "2013-11-20T21:02:00+00:00",

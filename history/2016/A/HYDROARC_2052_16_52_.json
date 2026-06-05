@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2052/16(52)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -2.1666666666666665,
+          35.71666666666667
+        ],
+        [
+          -1.1166666666666667,
+          36.31666666666667
+        ],
+        [
+          0.11666666666666667,
+          36.516666666666666
+        ],
+        [
+          0.11666666666666667,
+          36.15
+        ],
+        [
+          -0.75,
+          36.016666666666666
+        ],
+        [
+          -1.6333333333333333,
+          35.25
+        ],
+        [
+          -2.1666666666666665,
+          35.71666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-08-13T00:40:00",
     "raw_dtg": "130040Z AUG 16",
@@ -12,7 +46,7 @@
       "HYDROARC 2052/16"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALBORAN SEA.\nALGERIA.\nHAZARDOUS OPERATIONS.\nDNC 08.\n1. HAZARDOUS OPERATIONS 140001Z TO 141500Z AUG\n   IN AREA BOUND BY\n   35-43N 002-10W, 36-19N 001-07W,\n   36-31N 000-07E, 36-09N 000-07E,\n   36-01N 000-45W, 35-15N 001-38W.\n2. CANCEL THIS MSG 141600Z AUG 16.",
     "cancel_date": "2016-08-14T16:00:00+00:00",

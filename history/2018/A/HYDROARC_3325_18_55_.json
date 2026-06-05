@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3325/18(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.6,
+          43.93333333333333
+        ],
+        [
+          29.95,
+          43.96666666666667
+        ],
+        [
+          29.9,
+          43.71666666666667
+        ],
+        [
+          29.6,
+          43.86666666666667
+        ],
+        [
+          29.6,
+          43.93333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-10-24T13:04:00",
     "raw_dtg": "241304Z OCT 18",
@@ -12,7 +38,7 @@
       "HYDROARC 3325/18"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nROMANIA.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0600Z TO 1700Z DAILY\n   29 OCT THRU 02 NOV IN AREA BOUND BY\n   43-56N 029-36E, 43-58N 029-57E,\n   43-43N 029-54E, 43-52N 029-36E.\n2. CANCEL THIS MSG 021800Z NOV 18.",
     "cancel_date": "2018-11-02T18:00:00+00:00",

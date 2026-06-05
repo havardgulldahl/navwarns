@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 909/17(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.35,
+          38.266666666666666
+        ],
+        [
+          25.816666666666666,
+          37.766666666666666
+        ],
+        [
+          25.383333333333333,
+          37.56666666666667
+        ],
+        [
+          25.016666666666666,
+          37.7
+        ],
+        [
+          24.866666666666667,
+          38.0
+        ],
+        [
+          24.866666666666667,
+          38.03333333333333
+        ],
+        [
+          25.35,
+          38.266666666666666
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-03-20T23:40:00",
     "raw_dtg": "202340Z MAR 17",
@@ -12,7 +46,7 @@
       "HYDROARC 909/17"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 220200Z TO 220430Z MAR\n   IN AREA BOUND BY\n   38-16N 025-21E, 37-46N 025-49E,\n   37-34N 025-23E, 37-42N 025-01E,\n   38-00N 024-52E, 38-02N 024-52E.\n2. CANCEL THIS MSG 220530Z MAR 17.",
     "cancel_date": "2017-03-22T05:30:00+00:00",

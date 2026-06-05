@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1812/14(35)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.4666666666666668,
+          62.0
+        ],
+        [
+          -0.6666666666666666,
+          62.0
+        ],
+        [
+          -1.3833333333333333,
+          61.43333333333333
+        ],
+        [
+          -2.183333333333333,
+          61.43333333333333
+        ],
+        [
+          -1.4666666666666668,
+          62.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-07-25T15:06:00",
     "raw_dtg": "251506Z JUL 14",
@@ -12,7 +38,7 @@
       "HYDROARC 1908/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nNORWEGIAN SEA.\nSHETLAND ISLANDS.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V POLARCUS NAILA TOWING 12 6000 METER\n   LONG CABLES IN AREA BOUND BY\n   62-00N 001-28W, 62-00N 000-40W,\n   61-26N 001-23W, 61-26N 002-11W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1484/14.",
     "cancel_date": "2014-08-10T08:18:00+00:00",

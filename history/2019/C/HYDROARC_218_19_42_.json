@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 218/19(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          52.03333333333333,
+          79.31666666666666
+        ],
+        [
+          54.0,
+          79.66666666666667
+        ],
+        [
+          56.93333333333333,
+          79.11666666666666
+        ],
+        [
+          54.03333333333333,
+          78.71666666666667
+        ],
+        [
+          52.03333333333333,
+          79.31666666666666
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-09-19T11:10:00",
     "raw_dtg": "191110Z SEP 19",
@@ -12,7 +38,7 @@
       "HYDROARC 218/19"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. MISSILE AND GUNNERY OPERATIONS 0500Z TO 1900Z\n   DAILY 21 THRU 24 SEP IN AREA BOUND BY\n   79-19N 052-02E, 79-40N 054-00E,\n   79-07N 056-56E, 78-43N 054-02E.\n2. CANCEL THIS MSG 242000Z SEP 19.",
     "cancel_date": "2019-09-24T20:00:00+00:00",

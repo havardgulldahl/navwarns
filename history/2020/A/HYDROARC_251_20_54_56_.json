@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 251/20(54,56)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.966666666666665,
+          34.8
+        ],
+        [
+          22.966666666666665,
+          34.8
+        ],
+        [
+          19.55,
+          33.45
+        ],
+        [
+          19.666666666666668,
+          34.416666666666664
+        ],
+        [
+          22.966666666666665,
+          34.8
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-01-24T20:07:00",
     "raw_dtg": "242007Z JAN 20",
@@ -12,7 +38,7 @@
       "HYDROARC 254/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nLYBIA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 260900Z TO 271900Z JAN\n   IN AREA BOUND BY\n   34-48N 022-58E, 34-48N 022-58E,\n   33-27N 019-33E, 34-25N 019-40E.\n2. CANCEL THIS MSG 272000Z JAN 20.",
     "cancel_date": "2020-01-24T20:30:00+00:00",

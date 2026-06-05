@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1728/12(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -40.88333333333333,
+          -23.033333333333335
+        ],
+        [
+          -40.21666666666667,
+          -23.066666666666666
+        ],
+        [
+          -40.25,
+          -23.566666666666666
+        ],
+        [
+          -40.93333333333333,
+          -23.533333333333335
+        ],
+        [
+          -40.88333333333333,
+          -23.033333333333335
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2012-07-30T01:04:00",
     "raw_dtg": "300104Z JUL 12",
@@ -12,7 +38,7 @@
       "HYDROARC 1728/12"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-SOUTHEAST COAST.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 031800Z TO 032230Z AUG\n   IN AREA BOUND BY\n   23-02S 040-53W, 23-04S 040-13W,\n   23-34S 040-15W, 23-32S 040-56W.\n2. CANCEL THIS MSG 032330Z AUG 12.",
     "cancel_date": "2012-08-03T23:30:00+00:00",

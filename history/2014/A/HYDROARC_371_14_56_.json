@@ -1,7 +1,37 @@
 {
   "type": "Feature",
   "id": "HYDROARC 371/14(56)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.016666666666666,
+          32.083333333333336
+        ],
+        [
+          30.3,
+          31.583333333333332
+        ],
+        [
+          30.066666666666666,
+          31.583333333333332
+        ],
+        [
+          30.083333333333332,
+          32.083333333333336
+        ],
+        [
+          30.4,
+          32.2
+        ],
+        [
+          31.016666666666666,
+          32.083333333333336
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-02-06T15:14:00",
     "raw_dtg": "061514Z FEB 14",
@@ -12,7 +42,7 @@
       "HYDROARC 371/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nEGYPT.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 02 MAR\n   BY M/V WG MAGELLAN IN AREA BOUND BY\n   32-05N 031-01E, 31-35N 030-18E,\n   31-35N 030-04E, 32-05N 030-05E,\n   32-12N 030-24E.\n2. CANCEL THIS MSG 03 MAR 14.",
     "cancel_date": "2014-03-03T00:01:00+00:00",

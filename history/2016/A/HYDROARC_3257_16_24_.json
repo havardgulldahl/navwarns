@@ -1,7 +1,45 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3257/16(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -41.88333333333333,
+          -26.85
+        ],
+        [
+          -41.85,
+          -26.066666666666666
+        ],
+        [
+          -40.88333333333333,
+          -27.383333333333333
+        ],
+        [
+          -40.983333333333334,
+          -27.433333333333334
+        ],
+        [
+          -41.13333333333333,
+          -27.45
+        ],
+        [
+          -41.266666666666666,
+          -27.45
+        ],
+        [
+          -41.35,
+          -27.5
+        ],
+        [
+          -41.88333333333333,
+          -26.85
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-12-03T04:26:00",
     "raw_dtg": "030426Z DEC 16",
@@ -12,7 +50,7 @@
       "HYDROARC 3257/16"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 10 DEC BY\n   M/V BGP CHALLENGER TOWING 12000 METER LONG CABLE\n   IN AREA BOUND BY\n   26-51S 041-53W, 26-04S 041-51W,\n   27-23S 040-53W, 27-26S 040-59W,\n   27-27S 041-08W, 27-27S 041-16W,\n   27-30S 041-21W.\n2. CANCEL THIS MSG 11 DEC 16.",
     "cancel_date": "2016-12-11T00:01:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 138/11(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.0,
+          69.25
+        ],
+        [
+          37.0,
+          70.0
+        ],
+        [
+          38.65,
+          69.51666666666667
+        ],
+        [
+          38.65,
+          68.75
+        ],
+        [
+          37.0,
+          69.25
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2011-08-23T06:25:00",
     "raw_dtg": "230625Z AUG 11",
@@ -12,7 +38,7 @@
       "HYDROARC 138/11"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nGUNNERY. MISSILES.\n1. HAZARDOUS OPERATIONS 0600Z TO 1800Z DAILY\n   25 THRU 28 AUG IN AREA BOUND BY\n   69-15N 037-00E, 70-00N 037-00E,\n   69-31N 038-39E, 68-45N 038-39E.\n2. CANCEL THIS MSG 281900Z AUG.",
     "cancel_date": "2011-08-28T19:00:00+00:00",

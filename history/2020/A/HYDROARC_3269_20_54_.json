@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3269/20(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.35,
+          38.75
+        ],
+        [
+          24.866666666666667,
+          38.75
+        ],
+        [
+          24.866666666666667,
+          38.3
+        ],
+        [
+          25.35,
+          38.3
+        ],
+        [
+          25.35,
+          38.75
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-10-26T20:03:00",
     "raw_dtg": "262003Z OCT 20",
@@ -12,7 +38,7 @@
       "HYDROARC 3269/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nDNC 09.\n1. HAZARDOUS OPERATIONS 270600Z TO 271300Z OCT\n   IN AREA BOUND BY\n   38-45N 025-21E, 38-45N 024-52E,\n   38-18N 024-52E, 38-18N 025-21E.\n2. CANCEL THIS MSG 271400Z OCT 20.",
     "cancel_date": "2020-10-27T14:00:00+00:00",

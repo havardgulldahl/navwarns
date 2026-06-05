@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3969/20(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.75,
+          41.583333333333336
+        ],
+        [
+          31.416666666666668,
+          41.583333333333336
+        ],
+        [
+          31.416666666666668,
+          41.333333333333336
+        ],
+        [
+          30.75,
+          41.333333333333336
+        ],
+        [
+          30.75,
+          41.583333333333336
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-12-25T10:36:00",
     "raw_dtg": "251036Z DEC 20",
@@ -12,7 +38,7 @@
       "HYDROARC 3969/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nTURKEY.\nDNC 10.\n1. HAZARDOUS OPERATIONS 0500Z TO 1200Z DAILY\n   28 AND 29 DEC IN AREA BOUND BY\n   41-35N 030-45E, 41-35N 031-25E,\n   41-20N 031-25E, 41-20N 030-45E.\n2. CANCEL THIS MSG 291300Z DEC 20.",
     "cancel_date": "2020-12-29T13:00:00+00:00",

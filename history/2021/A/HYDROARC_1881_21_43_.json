@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1881/21(43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          1.65,
+          61.45
+        ],
+        [
+          2.533333333333333,
+          61.45
+        ],
+        [
+          2.533333333333333,
+          61.21666666666667
+        ],
+        [
+          1.65,
+          61.21666666666667
+        ],
+        [
+          1.65,
+          61.45
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-07-18T20:08:00",
     "raw_dtg": "182008Z JUL 21",
@@ -11,7 +37,7 @@
       "HYDROARC 2206/21"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORWEGIAN SEA.\nNORWAY.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V RAMFORM SOVEREIGN\nTOWING 12 3600 METER LONG CABLES\nIN AREA BOUND BY\n61-27N 001-39E, 61-27N 002-32E,\n61-13N 002-32E, 61-13N 001-39E.\nFOUR MILE BERTH REQUESTED.",
     "cancel_date": "2021-08-27T19:29:00+00:00",

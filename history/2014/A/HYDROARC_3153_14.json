@@ -1,7 +1,23 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3153/14",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -17.333333333333332,
+        14.766666666666667
+      ],
+      [
+        -66.96666666666667,
+        10.6
+      ],
+      [
+        -24.1,
+        7.383333333333334
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-12-27T17:23:00",
     "raw_dtg": "271723Z DEC 14",
@@ -11,7 +27,7 @@
       "HYDROARC 313/15"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "NORTH ATLANTIC.\nSENEGAL TO VENEZUELA.\nSIX METER VESSEL, WHITE HULL, ONE PERSON ON BOARD,\nUNREPORTED DAKAR (14-46N 017-20W) TO\nCARACAS (10-36N 066-58W). LAST KNOWN POSITION\n07-23N 024-06W ON 22 DEC. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST\nIF POSSIBLE. REPORTS TO JRCC DEN HELDER,\nPHONE: 312 2354 2300, FAX: 312 2365 8358,\nE-MAIL: CCC@KUSTWATCH.NL.",
     "cancel_date": "2015-02-07T09:06:00+00:00",

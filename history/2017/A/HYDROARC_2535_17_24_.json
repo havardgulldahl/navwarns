@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2535/17(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -39.38333333333333,
+          -21.066666666666666
+        ],
+        [
+          -39.4,
+          -21.366666666666667
+        ],
+        [
+          -38.38333333333333,
+          -21.366666666666667
+        ],
+        [
+          -38.38333333333333,
+          -21.066666666666666
+        ],
+        [
+          -39.38333333333333,
+          -21.066666666666666
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-08-18T20:33:00",
     "raw_dtg": "182033Z AUG 17",
@@ -13,7 +39,7 @@
       "HYDROARC 2535/17"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. SURVEY OPERATIONS 19 THRU 26 AUG BY\n   M/V OCEANIC CHAMPION TOWING 12 9260 METER LONG\n   CABLES IN AREA BOUND BY\n   21-04S 039-23W, 21-22S 039-24W,\n   21-22S 038-23W, 21-04S 038-23W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2474/17.\n3. CANCEL THIS MSG 27 AUG 17.",
     "cancel_date": "2017-08-27T00:01:00+00:00",

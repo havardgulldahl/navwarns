@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 216/20(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.5,
+          69.5
+        ],
+        [
+          39.5,
+          69.5
+        ],
+        [
+          40.0,
+          67.98333333333333
+        ],
+        [
+          36.0,
+          69.15
+        ],
+        [
+          36.5,
+          69.5
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-10-02T18:38:00",
     "raw_dtg": "021838Z OCT 20",
@@ -12,7 +38,7 @@
       "HYDROARC 223/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BARENTS SEA.\nRUSSIA.\nDNC 22.\n1. MISSILE OPERATIONS 2300Z TO 1700Z DAILY\n   05 THRU 08 OCT\n   IN AREAS BOUND BY:\n   69-30N 036-30E, 69-30N 039-30E,\n   67-59N 040-00E, 69-09N 036-00E.\n2. CANCEL THIS MSG 091800Z OCT 20.",
     "cancel_date": "2020-10-08T09:25:00+00:00",

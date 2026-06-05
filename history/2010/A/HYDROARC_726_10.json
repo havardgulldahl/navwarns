@@ -2,10 +2,20 @@
   "type": "Feature",
   "id": "HYDROARC 726/10",
   "geometry": {
-    "type": "Point",
+    "type": "LineString",
     "coordinates": [
-      -74.75666666666666,
-      36.72
+      [
+        -76.33333333333333,
+        36.81666666666667
+      ],
+      [
+        -64.76666666666667,
+        32.28333333333333
+      ],
+      [
+        -74.75666666666666,
+        36.72
+      ]
     ]
   },
   "properties": {
@@ -17,7 +27,7 @@
       "HYDROARC 922/10"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "VIRGINIA TO BERMUDA.\n36 FOOT S/V THREE GENERATIONS, ONE PERSON ON BOARD,\nOVERDUE PORTSMOUTH (36-49N 076-20W) TO\nHAMILTON (32-17N 064-46W). LAST KNOWN POSITION\n36-43.2N 074-45.4W ON 15 APR. VESSELS IN VICINITY\nREQUESTED TO KEEP A SHARP LOOKOUT, ASSIST\nIF POSSIBLE. REPORTS TO RCC NORFOLK,\nINMARSAT-C: 430370670, TELEX: 127775,\nPHONE: 757 398 6231, FAX: 757 398 6392,\nE-MAIL: D05-SMB-D5CC@USCG.MIL.",
     "cancel_date": "2010-05-22T09:46:00+00:00",

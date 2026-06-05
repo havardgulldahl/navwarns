@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 675/12(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.666666666666664,
+          43.666666666666664
+        ],
+        [
+          39.0,
+          43.666666666666664
+        ],
+        [
+          39.0,
+          42.666666666666664
+        ],
+        [
+          38.333333333333336,
+          42.666666666666664
+        ],
+        [
+          37.666666666666664,
+          43.666666666666664
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2012-03-26T16:08:00",
     "raw_dtg": "261608Z MAR 12",
@@ -12,7 +38,7 @@
       "HYDROARC 675/12"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0600Z TO 1400Z DAILY\n   27 THRU 29 MAR IN AREA BOUND BY\n   43-40N 037-40E, 43-40N 039-00E,\n   42-40N 039-00E, 42-40N 038-20E.\n2. CANCEL THIS MSG 291500Z MAR.",
     "cancel_date": "2012-03-29T15:00:00+00:00",

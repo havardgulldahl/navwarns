@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2471/14(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -41.5,
+          -2.5166666666666666
+        ],
+        [
+          -41.06666666666667,
+          -1.2333333333333334
+        ],
+        [
+          -44.35,
+          0.06666666666666667
+        ],
+        [
+          -45.36666666666667,
+          -0.9333333333333333
+        ],
+        [
+          -41.5,
+          -2.5166666666666666
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-10-11T11:53:00",
     "raw_dtg": "111153Z OCT 14",
@@ -12,7 +38,7 @@
       "HYDROARC 2471/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\nDNC 01.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 10 NOV BY\n   M/V NPS OCEANIC ATALWART TOWING 5.4 MILE\n   LONG CABLE IN AREA BOUND BY\n   02-31S 041-30W, 01-14S 041-04W,\n   00-04N 044-21W, 00-56S 045-22W.\n   FIVE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 11 NOV 14.",
     "cancel_date": "2014-11-11T00:01:00+00:00",

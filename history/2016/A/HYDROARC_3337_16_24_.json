@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3337/16(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -41.5,
+          -23.0
+        ],
+        [
+          -41.3,
+          -22.816666666666666
+        ],
+        [
+          -41.2,
+          -22.933333333333334
+        ],
+        [
+          -41.38333333333333,
+          -23.116666666666667
+        ],
+        [
+          -41.5,
+          -23.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-12-10T01:47:00",
     "raw_dtg": "100147Z DEC 16",
@@ -12,7 +38,7 @@
       "HYDROARC 3337/16"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nHAZARDOUS OPERATIONS.\nDNC 01.\n1. HAZARDOUS OPERATIONS 150900Z TO 151400Z DEC\n   IN AREA BOUND BY\n   23-00S 041-30W, 22-49S 041-18W,\n   22-56S 041-12W, 23-07S 041-23W.\n2. CANCEL THIS MSG 151500Z DEC 16",
     "cancel_date": "2016-12-15T15:00:00+00:00",

@@ -1,7 +1,63 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2035/14(52)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        6.0,
+        37.53333333333333
+      ],
+      [
+        5.516666666666667,
+        37.6
+      ],
+      [
+        5.15,
+        37.65
+      ],
+      [
+        5.216666666666667,
+        37.71666666666667
+      ],
+      [
+        3.3166666666666664,
+        36.916666666666664
+      ],
+      [
+        3.35,
+        36.85
+      ],
+      [
+        2.6833333333333336,
+        37.416666666666664
+      ],
+      [
+        2.216666666666667,
+        37.333333333333336
+      ],
+      [
+        1.7333333333333334,
+        37.266666666666666
+      ],
+      [
+        1.8,
+        36.833333333333336
+      ],
+      [
+        1.7666666666666666,
+        37.0
+      ],
+      [
+        1.8333333333333335,
+        36.666666666666664
+      ],
+      [
+        1.8333333333333335,
+        36.7
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-08-25T12:45:00",
     "raw_dtg": "251245Z AUG 14",
@@ -13,7 +69,7 @@
       "HYDROARC 2040/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "WESTERN MEDITERRANEAN SEA.\nALGERIA.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 27 AUG\n   BY M/V TETHYS II ALONG TRACKLINE JOINING\n   37-32N 006-00E, 37-36N 005-31E,\n   37-39N 005-09E, 37-43N 005-13E,\n   36-55N 003-19E, 36-51N 003-21E,\n   37-25N 002-41E, 37-20N 002-13E,\n   37-16N 001-44E, 36-50N 001-48E,\n   36-60N 001-46E, 36-40N 001-50E,\n   36-42N 001-50E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2002/14.\n3. CANCEL THIS MSG 28 AUG 14.",
     "cancel_date": "2014-08-25T23:26:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1437/10(35,43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -0.35,
+          58.65
+        ],
+        [
+          0.5333333333333333,
+          59.266666666666666
+        ],
+        [
+          0.18333333333333332,
+          59.333333333333336
+        ],
+        [
+          -0.7,
+          58.71666666666667
+        ],
+        [
+          -0.35,
+          58.65
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2010-07-27T12:28:00",
     "raw_dtg": "271228Z JUL 10",
@@ -12,7 +38,7 @@
       "HYDROARC 1681/10"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V NORTHERN GENESIS TOWING\n   FIVE MILE LONG CABLE IN AREA BOUND BY\n   58-39N 000-21W, 59-16N 000-32E,\n   59-20N 000-11E, 58-43N 000-42W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1114/10.",
     "cancel_date": "2010-09-06T19:56:00+00:00",

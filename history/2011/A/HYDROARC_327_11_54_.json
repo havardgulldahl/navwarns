@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 327/11(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.566666666666666,
+          36.5
+        ],
+        [
+          28.566666666666666,
+          36.38333333333333
+        ],
+        [
+          29.316666666666666,
+          36.15
+        ],
+        [
+          29.316666666666666,
+          36.416666666666664
+        ],
+        [
+          28.566666666666666,
+          36.5
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2011-02-25T14:21:00",
     "raw_dtg": "251421Z FEB 11",
@@ -12,7 +38,7 @@
       "HYDROARC 359/11"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 281200Z FEB TO 041500Z MAR\n   IN AREA BOUND BY\n   36-30N 028-34E, 36-23N 028-34E,\n   36-09N 029-19E, 36-25N 029-19E.\n2. CANCEL THIS MSG 041600Z MAR.",
     "cancel_date": "2011-03-03T13:25:00+00:00",

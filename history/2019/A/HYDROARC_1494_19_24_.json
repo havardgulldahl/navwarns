@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1494/19(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -39.03333333333333,
+          -23.116666666666667
+        ],
+        [
+          -40.0,
+          -24.233333333333334
+        ],
+        [
+          -40.0,
+          -24.25
+        ],
+        [
+          -40.016666666666666,
+          -24.266666666666666
+        ],
+        [
+          -39.95,
+          -24.383333333333333
+        ],
+        [
+          -39.016666666666666,
+          -23.116666666666667
+        ],
+        [
+          -39.03333333333333,
+          -23.116666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-05-16T08:50:00",
     "raw_dtg": "160850Z MAY 19",
@@ -13,7 +47,7 @@
       "HYDROARC 1494/19"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL-SOUTHEAST COAST.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL 23 MAY\n   BY M/V AMAZON WARRIOR TOWING 12 10000 METER\n   LONG CABLES IN AREA BOUND BY\n   23-07S 039-02W, 24-14S 040-00W,\n   24-15S 040-00W, 24-16S 040-01W,\n   24-23S 039-57W, 23-07S 039-01W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 1426/19.\n3. CANCEL THIS MSG 24 MAY 19.",
     "cancel_date": "2019-05-24T00:01:00+00:00",

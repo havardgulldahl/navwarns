@@ -1,7 +1,37 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2923/12(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          23.35,
+          36.916666666666664
+        ],
+        [
+          23.433333333333334,
+          36.6
+        ],
+        [
+          23.8,
+          36.68333333333333
+        ],
+        [
+          23.916666666666668,
+          36.78333333333333
+        ],
+        [
+          23.566666666666666,
+          36.96666666666667
+        ],
+        [
+          23.35,
+          36.916666666666664
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2012-12-11T09:10:00",
     "raw_dtg": "110910Z DEC 12",
@@ -12,7 +42,7 @@
       "HYDROARC 2923/12"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "AEGEAN SEA.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 1000Z TO 1200Z DAILY\n   12 THRU 14 DEC IN AREA BOUND BY\n   36-55N 023-21E, 36-36N 023-26E,\n   36-41N 023-48E, 36-47N 023-55E,\n   36-58N 023-34E.\n2. CANCEL THIS MSG 141300Z DEC 12.",
     "cancel_date": "2012-12-14T13:00:00+00:00",

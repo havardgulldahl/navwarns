@@ -1,7 +1,37 @@
 {
   "type": "Feature",
   "id": "HYDROARC 683/11(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -52.86666666666667,
+          5.366666666666666
+        ],
+        [
+          -52.81666666666667,
+          5.483333333333333
+        ],
+        [
+          -52.416666666666664,
+          5.183333333333334
+        ],
+        [
+          -52.5,
+          5.083333333333333
+        ],
+        [
+          -52.63333333333333,
+          5.166666666666667
+        ],
+        [
+          -52.86666666666667,
+          5.366666666666666
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2011-04-22T12:16:00",
     "raw_dtg": "221216Z APR 11",
@@ -12,7 +42,7 @@
       "HYDROARC 683/11"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN NORTH ATLANTIC.\nFRENCH GUIANA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 221637Z TO 222341Z APR\n   IN AREA BOUND BY\n   05-22N 052-52W, 05-29N 052-49W,\n   05-11N 052-25W, 05-05N 052-30W,\n   05-10N 052-38W.\n2. CANCEL THIS MSG 230041Z APR.",
     "cancel_date": "2011-04-23T00:41:00+00:00",

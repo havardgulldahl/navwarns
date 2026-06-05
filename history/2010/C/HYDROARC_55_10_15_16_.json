@@ -1,7 +1,59 @@
 {
   "type": "Feature",
   "id": "HYDROARC 55/10(15,16)",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -119.26666666666667,
+        77.5
+      ],
+      [
+        -130.0,
+        78.0
+      ],
+      [
+        -133.5,
+        72.5
+      ],
+      [
+        -141.5,
+        71.5
+      ],
+      [
+        -141.91666666666666,
+        69.91666666666667
+      ],
+      [
+        -138.08333333333334,
+        69.66666666666667
+      ],
+      [
+        -127.16666666666667,
+        70.85
+      ],
+      [
+        -125.33333333333333,
+        74.33333333333333
+      ],
+      [
+        -117.28333333333333,
+        75.13333333333334
+      ],
+      [
+        -123.2,
+        75.91666666666667
+      ],
+      [
+        -123.23333333333333,
+        76.36666666666666
+      ],
+      [
+        -119.26666666666667,
+        77.5
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2010-08-10T12:42:00",
     "raw_dtg": "101242Z AUG 10",
@@ -12,7 +64,7 @@
       "HYDROARC 92/10"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": "ARCTIC.\nBEAUFORT SEA.\n1. SEISMIC SURVEY IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V BOS ATLANTIC TOWING 9500 METER\n   LONG CABLE IN AREA BOUND BY\n   77-30N 119-16W, 78-00N 130-00W,\n   72-30N 133-30W, 71-30N 141-30W,\n   69-55N 141-55W, 69-40N 138-05W,\n   70-51N 127-10W, 74-20N 125-20W,\n   75-08N 117-17W, 75-55N 123-12W,\n   76-22N 123-14W, 77-30N 119-16W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL HYDROARC 53/10, STATION RESTORED.",
     "cancel_date": "2010-10-10T11:44:00+00:00",

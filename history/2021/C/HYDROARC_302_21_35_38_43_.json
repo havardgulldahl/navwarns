@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 302/21(35,38,43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -4.083333333333333,
+          71.43333333333334
+        ],
+        [
+          1.5,
+          71.0
+        ],
+        [
+          0.25,
+          66.41666666666667
+        ],
+        [
+          -8.75,
+          67.86666666666666
+        ],
+        [
+          -4.083333333333333,
+          71.43333333333334
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-10-29T03:01:00",
     "raw_dtg": "290301Z OCT 21",
@@ -12,7 +38,7 @@
       "HYDROARC 306/21"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORWEGIAN SEA.\nJAN MAYEN.\nDNC 19, DNC 20.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   0400Z TO 1100Z DAILY 03 THRU 17 NOV\n   IN AREA BOUND BY\n   71-26N 004-05W, 71-00N 001-30E,\n   66-25N 000-15E, 67-52N 008-45W.\n2. CANCEL THIS MSG 171200Z NOV 21.",
     "cancel_date": "2021-10-29T12:30:00+00:00",

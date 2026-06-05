@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1579/14(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.733333333333334,
+          42.4
+        ],
+        [
+          30.733333333333334,
+          42.78333333333333
+        ],
+        [
+          31.433333333333334,
+          41.5
+        ],
+        [
+          30.183333333333334,
+          41.43333333333333
+        ],
+        [
+          29.933333333333334,
+          41.95
+        ],
+        [
+          29.4,
+          42.18333333333333
+        ],
+        [
+          29.733333333333334,
+          42.4
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-06-27T14:41:00",
     "raw_dtg": "271441Z JUN 14",
@@ -12,7 +46,7 @@
       "HYDROARC 1579/14"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nTURKEY.\nHAZARDOUS OPERATIONS.\n1. HAZARDOUS OPERATIONS 0700Z TO 1530Z DAILY\n   30 JUN THRU 25 JUL IN AREA BOUND BY\n   42-24N 029-44E, 42-47N 030-44E,\n   41-30N 031-26E, 41-26N 030-11E,\n   41-57N 029-56E, 42-11N 029-24E.\n2. CANCEL THIS MSG 251630Z JUL 14.",
     "cancel_date": "2014-07-25T16:30:00+00:00",

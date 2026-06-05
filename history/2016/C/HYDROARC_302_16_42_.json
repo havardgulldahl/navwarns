@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 302/16(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          49.233333333333334,
+          75.25
+        ],
+        [
+          57.666666666666664,
+          75.45
+        ],
+        [
+          55.9,
+          74.78333333333333
+        ],
+        [
+          49.233333333333334,
+          74.96666666666667
+        ],
+        [
+          49.233333333333334,
+          75.25
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-10-17T05:44:00",
     "raw_dtg": "170544Z OCT 16",
@@ -12,7 +38,7 @@
       "HYDROARC 302/16"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nBARENTS SEA.\nMISSILES.\nDNC 22.\n1. HAZARDOUS OPERATIONS 170500Z TO 171400Z OCT\n   IN AREA BOUND BY\n   75-15N 049-14E, 75-27N 057-40E,\n   74-47N 055-54E, 74-58N 049-14E.\n2. CANCEL THIS MSG 171500Z OCT 16.",
     "cancel_date": "2016-10-17T15:00:00+00:00",

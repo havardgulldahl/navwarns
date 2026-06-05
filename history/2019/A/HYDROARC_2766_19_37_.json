@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2766/19(37)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.1666666666666665,
+          56.333333333333336
+        ],
+        [
+          3.4333333333333336,
+          56.4
+        ],
+        [
+          3.6333333333333333,
+          56.18333333333333
+        ],
+        [
+          3.3833333333333333,
+          56.11666666666667
+        ],
+        [
+          3.1666666666666665,
+          56.333333333333336
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-09-11T06:08:00",
     "raw_dtg": "110608Z SEP 19",
@@ -12,7 +38,7 @@
       "HYDROARC 2774/19"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORTH SEA.\nDNC 21.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY M/V SW TASMAN, M/V SW COOK AND M/V SW EMERALD\n   IN AREA BOUND BY\n   56-20N 003-10E, 56-24N 003-26E,\n   56-11N 003-38E, 56-07N 003-23E.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 2638/19.",
     "cancel_date": "2019-09-12T01:07:00+00:00",

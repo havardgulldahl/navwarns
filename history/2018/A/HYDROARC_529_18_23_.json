@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 529/18(23)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -38.0,
+          -49.5
+        ],
+        [
+          -38.0,
+          -51.5
+        ],
+        [
+          -43.0,
+          -51.5
+        ],
+        [
+          -43.0,
+          -49.5
+        ],
+        [
+          -38.0,
+          -49.5
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-02-13T17:38:00",
     "raw_dtg": "131738Z FEB 18",
@@ -12,7 +38,7 @@
       "HYDROARC 629/18"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nDNC 01.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\n   NOTICE BY M/V DISCOVERY IN AREA BOUND BY\n   49-30S 038-00W 51-30S 038-00W,\n   51-30S 043-00W 49-30S 043-00W.\n   WIDE BERTH REQUESTED.\n2. CANCEL HYDROLANT 473/18.",
     "cancel_date": "2018-02-22T17:23:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 271/20(16,41)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          165.7,
+          78.45
+        ],
+        [
+          -145.0,
+          82.1
+        ],
+        [
+          -145.2,
+          81.46666666666667
+        ],
+        [
+          167.8,
+          78.01666666666667
+        ],
+        [
+          165.7,
+          78.45
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-11-12T10:16:00",
     "raw_dtg": "121016Z NOV 20",
@@ -12,7 +38,7 @@
       "HYDROARC 271/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nEAST SIBERIAN SEA.\nCHUKCHI SEA.\nDNC 27.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0200Z TO 0317Z DAILY 17 NOV THRU 17 DEC\n   IN AREA BOUND BY\n   78-27N 165-42E, 82-06N 145-00W,\n   81-28N 145-12W, 78-01N 167-48E.\n2. CANCEL THIS MSG 170417Z DEC 20.",
     "cancel_date": "2020-12-17T04:17:00+00:00",

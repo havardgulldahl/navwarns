@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1137/11(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.3,
+          -4.65
+        ],
+        [
+          11.483333333333333,
+          -4.616666666666667
+        ],
+        [
+          11.483333333333333,
+          -4.65
+        ],
+        [
+          11.3,
+          -4.716666666666667
+        ],
+        [
+          11.3,
+          -4.65
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2011-07-13T11:45:00",
     "raw_dtg": "131145Z JUL 11",
@@ -12,7 +38,7 @@
       "HYDROARC 1137/11"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\n1. CABLE OPERATIONS 14 THRU 19 JUL BY\n   CABLESHIP ILE DE BREHAT IN AREA BOUND BY\n   04-39S 011-18E, 04-37S 011-29E,\n   04-39S 011-29E, 04-43S 011-18E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 20 JUL.",
     "cancel_date": "2011-07-20T00:01:00+00:00",

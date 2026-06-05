@@ -1,7 +1,49 @@
 {
   "type": "Feature",
   "id": "HYDROARC 272/17(41)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          137.43333333333334,
+          75.9
+        ],
+        [
+          133.8,
+          76.53333333333333
+        ],
+        [
+          133.33333333333334,
+          76.33333333333333
+        ],
+        [
+          132.61666666666667,
+          75.76666666666667
+        ],
+        [
+          133.35,
+          75.28333333333333
+        ],
+        [
+          135.61666666666667,
+          75.53333333333333
+        ],
+        [
+          136.18333333333334,
+          75.6
+        ],
+        [
+          137.15,
+          75.71666666666667
+        ],
+        [
+          137.43333333333334,
+          75.9
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-09-13T08:54:00",
     "raw_dtg": "130854Z SEP 17",
@@ -12,7 +54,7 @@
       "HYDROARC 272/17"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "LAPTEV SEA.\nRUSSIA.\nDNC 27.\n1. GUNNERY AND MISSILE OPERATIONS 0200Z TO 1400Z\n   DAILY 18 THRU 21 SEP IN AREA BOUND BY\n   75-54N 137-26E, 76-32N 133-48E,\n   76-20N 133-20E, 75-46N 132-37E,\n   75-17N 133-21E, 75-32N 135-37E,\n   75-36N 136-11E, 75-43N 137-09E.\n2. CANCEL THIS MSG 211500Z SEP 17.",
     "cancel_date": "2017-09-21T15:00:00+00:00",

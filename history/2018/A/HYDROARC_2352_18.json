@@ -1,7 +1,65 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2352/18",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          27.483333333333334,
+          -66.46666666666667
+        ],
+        [
+          28.05,
+          -61.63333333333333
+        ],
+        [
+          27.45,
+          -56.516666666666666
+        ],
+        [
+          26.4,
+          -50.13333333333333
+        ],
+        [
+          22.366666666666667,
+          -48.78333333333333
+        ],
+        [
+          18.016666666666666,
+          -49.75
+        ],
+        [
+          14.483333333333333,
+          -56.31666666666667
+        ],
+        [
+          11.366666666666667,
+          -60.65
+        ],
+        [
+          9.95,
+          -65.06666666666666
+        ],
+        [
+          9.15,
+          -68.58333333333333
+        ],
+        [
+          17.183333333333334,
+          -68.06666666666666
+        ],
+        [
+          24.85,
+          -68.85
+        ],
+        [
+          27.483333333333334,
+          -66.46666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-07-20T04:05:00",
     "raw_dtg": "200405Z JUL 18",
@@ -13,7 +71,7 @@
       "HYDROARC 2396/18"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nSOUTHWESTERN INDIAN OCEAN.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS:\n   A. 251334Z TO 251416Z JUL, ALTERNATE\n      1334Z TO 1416Z DAILY 26 THRU 28 JUL\n      IN AREA BOUND BY\n      66-28S 027-29E, 61-38S 028-03E,\n      56-31S 027-27E, 50-08S 026-24E,\n      48-47S 022-22E, 49-45S 018-01E,\n      56-19S 014-29E, 60-39S 011-22E,\n      65-04S 009-57E, 68-35S 009-09E,\n      68-04S 017-11E, 68-51S 024-51E.\n   B. 251315Z TO 251357Z JUL, ALTERNATE\n      1315Z TO 1357Z DAILY 26 THRU 28 JUL\n      IN AREA BETWEEN\n      27-43S 73-06S AND 138-54W 147-18W.\n2. CANCEL HYDROLANT 2314/18.\n3. CANCEL THIS MSG 281516Z JUL 18.",
     "cancel_date": "2018-07-25T12:17:00+00:00",

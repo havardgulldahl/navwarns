@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 120/18(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          68.75,
+          77.25
+        ],
+        [
+          69.91666666666667,
+          77.25
+        ],
+        [
+          71.36666666666666,
+          76.75
+        ],
+        [
+          70.16666666666667,
+          76.75
+        ],
+        [
+          68.75,
+          77.25
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-06-13T13:47:00",
     "raw_dtg": "131347Z JUN 18",
@@ -12,7 +38,7 @@
       "HYDROARC 120/18"
     ],
     "hazard_type": "ice and icebergs",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "KARA SEA.\nRUSSIA.\nDNC 22.\n1. 58 ICEBERGS REPORTED IN AREA BOUND BY\n   77-15N 068-45E, 77-15N 069-55E,\n   76-45N 071-22E, 76-45N 070-10E.\n   AT 122100Z JUN.\n2. CANCEL THIS MSG 161347Z JUN 18.",
     "cancel_date": "2018-06-16T13:47:00+00:00",

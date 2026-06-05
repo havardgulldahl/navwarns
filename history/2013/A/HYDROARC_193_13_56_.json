@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 193/13(56)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.833333333333336,
+          33.2
+        ],
+        [
+          35.1,
+          33.11666666666667
+        ],
+        [
+          35.43333333333333,
+          33.95
+        ],
+        [
+          35.13333333333333,
+          34.0
+        ],
+        [
+          34.833333333333336,
+          33.2
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2013-01-21T13:50:00",
     "raw_dtg": "211350Z JAN 13",
@@ -12,7 +38,7 @@
       "HYDROARC 460/13"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nLEBANON.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 25 FEB BY\n   M/V ATLANTIC EXPLORER TOWING SIX 6000 METER\n   LONG CABLES IN AREA BOUND BY\n   33-12N 034-50E, 33-07N 035-06E,\n   33-57N 035-26E, 34-00N 035-08E.\n   WIDE BERTH REQUESTED.\n2. CANCEL THIS MSG 26 FEB 13.",
     "cancel_date": "2013-02-19T18:31:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2317/20(51,57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -15.8,
+          3.3333333333333335
+        ],
+        [
+          -0.9833333333333333,
+          1.5833333333333335
+        ],
+        [
+          -1.2,
+          -0.18333333333333332
+        ],
+        [
+          -16.0,
+          1.55
+        ],
+        [
+          -15.8,
+          3.3333333333333335
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-07-23T08:59:00",
     "raw_dtg": "230859Z JUL 20",
@@ -12,7 +38,7 @@
       "HYDROARC 2317/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nLIBERIA.\nDNC 01.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   2128Z TO 0006Z COMMENCING DAILY\n   28 JUL THRU 27 AUG IN AREA BOUND BY\n   03-20N 015-48W, 01-35N 000-59W,\n   00-11S 001-12W, 01-33N 016-00W.\n2. CANCEL THIS MSG 280106Z AUG 20.",
     "cancel_date": "2020-08-28T01:06:00+00:00",

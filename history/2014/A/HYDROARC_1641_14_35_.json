@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1641/14(35)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.216666666666667,
+          59.8
+        ],
+        [
+          -6.35,
+          59.13333333333333
+        ],
+        [
+          -7.216666666666667,
+          58.483333333333334
+        ],
+        [
+          -8.533333333333333,
+          59.53333333333333
+        ],
+        [
+          -7.216666666666667,
+          59.8
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2014-07-06T16:52:00",
     "raw_dtg": "061652Z JUL 14",
@@ -11,7 +37,7 @@
       "HYDROARC 1659/14"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nSCOTLAND-NORTHWEST COAST.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V HARRIER EXPLORER TOWING 12000 METER\nLONG CABLE IN AREA BOUND BY\n59-48N 007-13W, 59-08N 006-21W,\n58-29N 007-13W, 59-32N 008-32W.\nWIDE BERTH REQUESTED.",
     "cancel_date": "2014-07-07T17:42:00+00:00",

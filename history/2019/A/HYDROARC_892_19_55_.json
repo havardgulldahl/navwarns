@@ -1,7 +1,49 @@
 {
   "type": "Feature",
   "id": "HYDROARC 892/19(55)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.65,
+          44.45
+        ],
+        [
+          33.8,
+          43.95
+        ],
+        [
+          33.38333333333333,
+          43.5
+        ],
+        [
+          31.0,
+          42.6
+        ],
+        [
+          30.35,
+          43.28333333333333
+        ],
+        [
+          32.6,
+          44.61666666666667
+        ],
+        [
+          33.03333333333333,
+          44.766666666666666
+        ],
+        [
+          33.38333333333333,
+          44.583333333333336
+        ],
+        [
+          33.65,
+          44.45
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-03-20T13:49:00",
     "raw_dtg": "201349Z MAR 19",
@@ -12,7 +54,7 @@
       "HYDROARC 892/19"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nDNC 10.\n1. MISSILE OPERATIONS 0300Z TO 1800Z DAILY\n   21 THRU 23 AND 25 MAR IN AREA BOUND BY\n   44-27N 033-39E, 43-57N 033-48E,\n   43-30N 033-23E, 42-36N 031-00E,\n   43-17N 030-21E, 44-37N 032-36E,\n   44-46N 033-02E, 44-35N 033-23E.\n2. CANCEL THIS MSG 251900Z MAR 19.",
     "cancel_date": "2019-03-25T19:00:00+00:00",

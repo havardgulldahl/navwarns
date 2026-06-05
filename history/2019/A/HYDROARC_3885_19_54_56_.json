@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3885/19(54,56)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          31.6,
+          34.35
+        ],
+        [
+          32.1,
+          34.35
+        ],
+        [
+          32.1,
+          33.93333333333333
+        ],
+        [
+          31.6,
+          33.93333333333333
+        ],
+        [
+          31.6,
+          34.35
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-12-18T13:03:00",
     "raw_dtg": "181303Z DEC 19",
@@ -12,7 +38,7 @@
       "HYDROARC 3885/19"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-SOUTHWEST COAST.\nDNC 10.\n1. HAZARDOUS OPERATIONS 200700Z TO 201500Z DEC\n   IN AREA BOUND BY\n   34-21N 031-36E, 34-21N 032-06E,\n   33-56N 032-06E, 33-56N 031-36E.\n2. CANCEL THIS MSG 201600Z DEC 19.",
     "cancel_date": "2019-12-20T16:00:00+00:00",

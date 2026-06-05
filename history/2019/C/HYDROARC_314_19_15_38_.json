@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 314/19(15,38)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -63.766666666666666,
+          70.58333333333333
+        ],
+        [
+          -62.05,
+          70.66666666666667
+        ],
+        [
+          -61.56666666666667,
+          69.18333333333334
+        ],
+        [
+          -63.166666666666664,
+          69.11666666666666
+        ],
+        [
+          -63.766666666666666,
+          70.58333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-12-11T23:14:00",
     "raw_dtg": "112314Z DEC 19",
@@ -12,7 +38,7 @@
       "HYDROARC 314/19"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BAFFIN BAY.\nDAVIS STRAIT.\nCANADA.\nDNC 28.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0900Z TO 1020Z DAILY 17 THRU 24 DEC\n   IN AREA BOUND BY:\n   70-35N 063-46W, 70-40N 062-03W,\n   69-11N 061-34W, 69-07N 063-10W.\n2. CANCEL THIS MSG 241120Z DEC 19.",
     "cancel_date": "2019-12-24T11:20:00+00:00",

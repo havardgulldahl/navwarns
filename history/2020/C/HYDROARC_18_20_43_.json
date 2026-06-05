@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 18/20(43)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.0,
+          66.0
+        ],
+        [
+          6.0,
+          66.0
+        ],
+        [
+          6.0,
+          67.0
+        ],
+        [
+          3.0,
+          67.0
+        ],
+        [
+          3.0,
+          66.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-02-02T19:08:00",
     "raw_dtg": "021908Z FEB 20",
@@ -12,7 +38,7 @@
       "HYDROARC 18/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "NORWEGIAN SEA.\nDNC 20, DNC 21.\n1. MISSILE OPERATIONS 0300Z TO 1700Z DAILY\n   05 THRU 07 FEB IN AREA BOUND BY\n   66-00N 003-00E, 66-00N 006-00E,\n   67-00N 006-00E, 67-00N 003-00E.\n2. CANCEL THIS MSG 071800Z FEB 20.",
     "cancel_date": "2020-02-07T18:00:00+00:00",

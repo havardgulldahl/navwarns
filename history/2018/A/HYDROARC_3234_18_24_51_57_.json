@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3234/18(24,51,57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -22.483333333333334,
+          4.066666666666666
+        ],
+        [
+          -7.65,
+          2.5
+        ],
+        [
+          -7.833333333333333,
+          -0.7
+        ],
+        [
+          -22.666666666666668,
+          2.2666666666666666
+        ],
+        [
+          -22.483333333333334,
+          4.066666666666666
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-10-15T09:31:00",
     "raw_dtg": "150931Z OCT 18",
@@ -12,7 +38,7 @@
       "HYDROARC 3309/18"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nLIBERIA.\nDNC 01.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0138Z TO 0300Z DAILY 20 OCT THRU 19 NOV\n   IN AREA BOUND BY\n   04-04N 022-29W, 02-30N 007-39W,\n   00-42S 007-50W, 02-16N 022-40W.\n2. CANCEL THIS MSG 190400Z NOV 18.",
     "cancel_date": "2018-10-22T14:40:00+00:00",

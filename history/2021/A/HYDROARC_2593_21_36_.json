@@ -1,7 +1,49 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2593/21(36)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -12.983333333333333,
+          49.8
+        ],
+        [
+          -11.883333333333333,
+          49.8
+        ],
+        [
+          -11.45,
+          49.43333333333333
+        ],
+        [
+          -11.45,
+          48.35
+        ],
+        [
+          -12.783333333333333,
+          46.75
+        ],
+        [
+          -13.816666666666666,
+          46.75
+        ],
+        [
+          -14.266666666666667,
+          47.13333333333333
+        ],
+        [
+          -14.266666666666667,
+          48.266666666666666
+        ],
+        [
+          -12.983333333333333,
+          49.8
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-10-20T14:24:00",
     "raw_dtg": "201424Z OCT 21",
@@ -12,7 +54,7 @@
       "HYDROARC 2593/21"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nIRELAND.\nDNC 19.\n1. MISSILE OPERATIONS 1000Z TO 1800Z DAILY\n   26 THRU 29 OCT AND 15 THRU 25 NOV IN AREA\n   BOUND BY\n   49-48N 012-59W, 49-48N 011-53W,\n   49-26N 011-27W, 48-21N 011-27W,\n   46-45N 012-47W, 46-45N 013-49W,\n   47-08N 014-16W, 48-16N 014-16W.\n2. CANCEL THIS MSG 251900Z NOV 21.",
     "cancel_date": "2021-11-25T19:00:00+00:00",

@@ -1,7 +1,37 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2254/15(35,38)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -12.0,
+          60.0
+        ],
+        [
+          -12.083333333333334,
+          56.483333333333334
+        ],
+        [
+          -12.8,
+          56.5
+        ],
+        [
+          -14.55,
+          58.583333333333336
+        ],
+        [
+          -12.5,
+          60.083333333333336
+        ],
+        [
+          -12.0,
+          60.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2015-09-11T15:47:00",
     "raw_dtg": "111547Z SEP 15",
@@ -11,7 +41,7 @@
       "HYDROARC 2283/15"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nDNC 19.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V WG TASMAN TOWING 10500 METER LONG CABLE\nIN AREA BOUND BY\n60-00N 012-00W, 56-29N 012-05W,\n56-30N 012-48W, 58-35N 014-33W,\n60-05N 012-30W.\nWIDE BERTH REQUESTED.",
     "cancel_date": "2015-09-14T23:32:00+00:00",

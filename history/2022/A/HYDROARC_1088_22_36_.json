@@ -1,7 +1,37 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1088/22(36)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -3.6,
+          53.7
+        ],
+        [
+          -3.25,
+          53.7
+        ],
+        [
+          -3.25,
+          53.63333333333333
+        ],
+        [
+          -3.3833333333333333,
+          53.583333333333336
+        ],
+        [
+          -3.6,
+          53.583333333333336
+        ],
+        [
+          -3.6,
+          53.7
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2022-04-17T13:58:00",
     "raw_dtg": "171358Z APR 22",
@@ -11,7 +41,7 @@
       "HYDROARC 1244/22"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "IRISH SEA.\nENGLAND.\nDNC 20.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\nBY M/V SW BLY TOWING FOUR 2300 METER LONG CABLES,\nMARKED BY YELLOW BUOYS, IN AREA BOUND BY\n53-42N 003-36W, 53-42N 003-15W,\n53-38N 003-15W, 53-35N 003-23W,\n53-35N 003-36W.\nTWO MILE BERTH REQUESTED.",
     "cancel_date": "2022-05-08T19:57:00+00:00",

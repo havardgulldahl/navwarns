@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 690/17(51)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.8,
+          34.333333333333336
+        ],
+        [
+          -6.616666666666667,
+          34.45
+        ],
+        [
+          -6.65,
+          34.266666666666666
+        ],
+        [
+          -7.783333333333333,
+          34.15
+        ],
+        [
+          -7.8,
+          34.333333333333336
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-03-02T18:07:00",
     "raw_dtg": "021807Z MAR 17",
@@ -12,7 +38,7 @@
       "HYDROARC 1070/17"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN NORTH ATLANTIC.\nMOROCCO.\nDNC 08.\n1. SURVEY OPERATIONS IN PROGRESS UNTIL\n   FURTHER NOTICE BY M/V POLARCUS ASIMA TOWING\n   TEN FIVE MILE LONG CABLES IN AREA BOUND BY\n   34-20N 007-48W, 34-27N 006-37W,\n   34-16N 006-39W, 34-09N 007-47W.\n   SIX MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 494/17.",
     "cancel_date": "2017-04-02T04:04:00+00:00",

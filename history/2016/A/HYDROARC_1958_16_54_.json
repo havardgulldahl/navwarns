@@ -1,7 +1,31 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1958/16(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        16.966666666666665,
+        41.11666666666667
+      ],
+      [
+        17.333333333333332,
+        41.18333333333333
+      ],
+      [
+        18.466666666666665,
+        40.86666666666667
+      ],
+      [
+        18.783333333333335,
+        40.38333333333333
+      ],
+      [
+        18.866666666666667,
+        39.96666666666667
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-08-03T12:40:00",
     "raw_dtg": "031240Z AUG 16",
@@ -11,7 +35,7 @@
       "HYDROARC 2109/16"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "ADRIATIC SEA.\nSTRAIT OF OTRANTO.\nITALY.\nDNC 09.\nCABLE OPERATIONS 04 AUG UNTIL FURTHER\nNOTICE BY CABLESHIP RAYMOND CROZE WITH\nSUBMERSIBLE ALONG TRACKLINE JOINING\n41-07N 016-58E, 41-11N 017-20E,\n40-52N 018-28E, 40-23N 018-47E,\n39-58N 018-52E.\nWIDE BERTH REQUESTED.",
     "cancel_date": "2016-08-18T13:55:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 183/21(38)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -162.1,
+          85.31666666666666
+        ],
+        [
+          -152.58333333333334,
+          85.83333333333333
+        ],
+        [
+          -138.66666666666666,
+          82.51666666666667
+        ],
+        [
+          -145.01666666666668,
+          82.21666666666667
+        ],
+        [
+          -162.1,
+          85.31666666666666
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2021-08-14T14:06:00",
     "raw_dtg": "141406Z AUG 21",
@@ -12,7 +38,7 @@
       "HYDROARC 183/21"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ARCTIC.\nDNC 27.\n1. HAZARDOUS OPERATIONS, SPACE DEBRIS\n   2200Z TO 2330Z DAILY 19 THRU 22 AUG\n   IN AREA BOUND BY\n   85-19N 162-06W, 85-50N 152-35W,\n   82-31N 138-40W, 82-13N 145-01W.\n2. CANCEL THIS MSG 230030Z AUG 21.",
     "cancel_date": "2021-08-23T00:30:00+00:00",

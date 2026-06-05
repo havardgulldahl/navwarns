@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 479/10(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.85,
+          0.5166666666666667
+        ],
+        [
+          0.6333333333333333,
+          -1.2833333333333332
+        ],
+        [
+          -14.616666666666667,
+          0.5666666666666667
+        ],
+        [
+          -14.4,
+          2.3666666666666667
+        ],
+        [
+          0.85,
+          0.5166666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2010-03-19T09:56:00",
     "raw_dtg": "190956Z MAR 10",
@@ -12,7 +38,7 @@
       "HYDROARC 678/10"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nROCKETS.\n1. HAZARDOUS OPERATIONS 2000Z TO 0046Z COMMENCING\n   DAILY 24 MAR THRU 24 APR IN AREA BOUND BY\n   00-31N 000-51E, 01-17S 000-38E,\n   00-34N 014-37W, 02-22N 014-24W.\n2. CANCEL THIS MSG 250146Z APR.",
     "cancel_date": "2010-04-19T12:46:00+00:00",

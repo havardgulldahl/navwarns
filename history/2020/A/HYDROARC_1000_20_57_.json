@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1000/20(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.85,
+          -5.333333333333333
+        ],
+        [
+          10.0,
+          -5.333333333333333
+        ],
+        [
+          10.0,
+          -6.333333333333333
+        ],
+        [
+          8.85,
+          -6.333333333333333
+        ],
+        [
+          8.85,
+          -5.333333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-03-16T23:44:00",
     "raw_dtg": "162344Z MAR 20",
@@ -12,7 +38,7 @@
       "HYDROARC 1226/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN SOUTH ATLANTIC.\nDNC 01.\n1. CABLE OPERATIONS IN PROGRESS UNTIL FURTHER NOTICE\n   BY CABLESHIP LEON THEVENIN IN AREA BOUND BY\n   05-20S 008-51E, 05-20S 010-00E,\n   06-20S 010-00E, 06-20S 008-51E.\n   ONE MILE BERTH REQUESTED.\n2. CANCEL HYDROLANT 998/20.",
     "cancel_date": "2020-04-04T13:00:00+00:00",

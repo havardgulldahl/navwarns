@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 2138/16(36,37)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -8.583333333333334,
+          50.06666666666667
+        ],
+        [
+          -6.25,
+          51.9
+        ],
+        [
+          -5.166666666666667,
+          51.31666666666667
+        ],
+        [
+          -5.166666666666667,
+          50.916666666666664
+        ],
+        [
+          -5.666666666666667,
+          50.416666666666664
+        ],
+        [
+          -6.9,
+          50.06666666666667
+        ],
+        [
+          -8.583333333333334,
+          50.06666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2016-08-21T11:36:00",
     "raw_dtg": "211136Z AUG 16",
@@ -11,7 +45,7 @@
       "HYDROARC 2214/16"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "CELTIC SEA.\nBRISTOL CHANNEL.\nDNC 19, DNC 20.\nSEISMIC SURVEY IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V WG MAGELLAN TOWING FIVE\nMILE LONG CABLE IN AREA BOUND BY\n50-04N 008-35W, 51-54N 006-15W,\n51-19N 005-10W, 50-55N 005-10W,\n50-25N 005-40W, 50-04N 006-54W.\nWIDE BERTH REQUESTED.",
     "cancel_date": "2016-08-29T10:10:00+00:00",

@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3095/20(57)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -4.083333333333333,
+          5.0
+        ],
+        [
+          -3.9166666666666665,
+          5.0
+        ],
+        [
+          -3.9166666666666665,
+          4.833333333333333
+        ],
+        [
+          -4.083333333333333,
+          4.833333333333333
+        ],
+        [
+          -4.083333333333333,
+          5.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-10-12T08:00:00",
     "raw_dtg": "120800Z OCT 20",
@@ -12,7 +38,7 @@
       "HYDROARC 3095/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "GULF OF GUINEA.\nCOTE D'IVOIRE.\nDNC 01.\n1. GUNNERY EXERCISES 141000Z TO 161600Z OCT\n   IN AREA BOUND BY\n   05-00N 004-05W, 05-00N 003-55W,\n   04-50N 003-55W, 04-50N 004-05W.\n2. CANCEL THIS MSG 161700Z OCT 20.",
     "cancel_date": "2020-10-16T17:00:00+00:00",

@@ -1,7 +1,41 @@
 {
   "type": "Feature",
   "id": "HYDROARC 174/20(42)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          64.48333333333333,
+          73.58333333333333
+        ],
+        [
+          67.83333333333333,
+          73.5
+        ],
+        [
+          69.65,
+          73.08333333333333
+        ],
+        [
+          68.85,
+          72.65
+        ],
+        [
+          66.15,
+          72.03333333333333
+        ],
+        [
+          63.016666666666666,
+          72.06666666666666
+        ],
+        [
+          64.48333333333333,
+          73.58333333333333
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-09-07T11:41:00",
     "raw_dtg": "071141Z SEP 20",
@@ -11,7 +45,7 @@
       "HYDROARC 248/20"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "KARA SEA.\nRUSSIA.\nDNC 22.\nSURVEY OPERATIONS IN PROGRESS UNTIL FURTHER\nNOTICE BY M/V AKVAMARIN IN AREA BOUND BY\n73-35N 064-29E, 73-30N 067-50E,\n73-05N 069-39E, 72-39N 068-51E,\n72-02N 066-09E, 72-04N 063-01E.\nONE MILE BERTH REQUESTED.",
     "cancel_date": "2020-10-20T10:48:00+00:00",

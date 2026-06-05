@@ -1,7 +1,55 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1943/12(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -40.1,
+        -2.1666666666666665
+      ],
+      [
+        -42.0,
+        -0.0
+      ],
+      [
+        -40.78333333333333,
+        -1.0
+      ],
+      [
+        -40.05,
+        -1.5166666666666666
+      ],
+      [
+        -42.416666666666664,
+        -2.1
+      ],
+      [
+        -41.45,
+        -0.31666666666666665
+      ],
+      [
+        -42.416666666666664,
+        -2.1
+      ],
+      [
+        -43.333333333333336,
+        -1.5166666666666666
+      ],
+      [
+        -40.05,
+        -1.5166666666666666
+      ],
+      [
+        -41.45,
+        -0.31666666666666665
+      ],
+      [
+        -42.416666666666664,
+        -2.1
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2012-08-23T01:06:00",
     "raw_dtg": "230106Z AUG 12",
@@ -12,7 +60,7 @@
       "HYDROARC 1943/12"
     ],
     "hazard_type": "general",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BRAZIL-NORTH COAST.\n1. SEISMIC SURVEY IN PROGRESS UNTIL 07 SEP BY\n   M/V POURQUOI PAS TOWING 5.4 MILE LONG CABLES\n   ALONG TRACKLINE JOINING\n   02-10S 040-06W, 00-00S 042-00W,\n   01-00S 040-47W, 01-31S 040-03W,\n   02-06S 042-25W, 00-19S 041-27W,\n   02-06S 042-25W, 01-31S 043-20W,\n   01-31S 040-03W, 00-19S 041-27W,\n   02-06S 042-25W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 08 SEP 12.",
     "cancel_date": "2012-09-08T00:01:00+00:00",

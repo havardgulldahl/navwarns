@@ -1,7 +1,33 @@
 {
   "type": "Feature",
   "id": "HYDROARC 3027/20(54)",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.06666666666667,
+          35.31666666666667
+        ],
+        [
+          32.166666666666664,
+          35.31666666666667
+        ],
+        [
+          32.166666666666664,
+          35.21666666666667
+        ],
+        [
+          32.06666666666667,
+          35.21666666666667
+        ],
+        [
+          32.06666666666667,
+          35.31666666666667
+        ]
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-10-05T22:56:00",
     "raw_dtg": "052256Z OCT 20",
@@ -12,7 +38,7 @@
       "HYDROARC 3027/20"
     ],
     "hazard_type": "hazardous operations",
-    "geometry_kind": "point",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "EASTERN MEDITERRANEAN SEA.\nCYPRUS-NORTHWEST COAST.\nDNC 10.\n1. GUNNERY EXERCISES 070900Z TO 071100Z OCT\n   IN AREA BOUND BY\n   35-19N 032-04E, 35-19N 032-10E,\n   35-13N 032-10E, 35-13N 032-04E.\n2. CANCEL THIS MSG 071200Z OCT 20.",
     "cancel_date": "2020-10-07T12:00:00+00:00",
