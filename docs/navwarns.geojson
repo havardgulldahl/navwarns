@@ -11715,6 +11715,34 @@
     },
     {
       "type": "Feature",
+      "id": "POLISH NAV WARN 129/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-04T08:18:00",
+        "raw_dtg": "040818Z JUN 26",
+        "msg_id": "POLISH NAV WARN 129/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 129/26\nSOUTHERN BALTIC.\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\n\nFROM 2026-06-07 22:00 TO 2026-06-14 21:59\nTIME IN UTC.\nZONE IS CLOSED\nCANCEL THIS MSG 142159 UTC JUN",
+        "cancel_date": null,
+        "valid_from": "2026-06-04T08:18:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Zone Closed Military Exercise"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 10/26",
       "geometry": {
         "type": "Point",
@@ -12783,6 +12811,54 @@
         "summary": null,
         "category": "military",
         "title": "Artillery Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 44/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.3465,
+              66.63133333333333
+            ],
+            [
+              34.3535,
+              66.63133333333333
+            ],
+            [
+              34.3535,
+              66.63016666666667
+            ],
+            [
+              34.3465,
+              66.63016666666667
+            ],
+            [
+              34.3465,
+              66.63133333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-05T01:41:21.468100+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 44/26 КАРТА 14020 КАНДАЛАКШСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP ARKHANGELSK 44/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 44 КАРТА 14020\nКАНДАЛАКШСКИЙ ЗАЛИВ\nРАЙОНЕ ОГРАНИЧЕННОМ РЕЙДОВЫМИ БОЧКАМИ\n66-37.88С 034-20.79В \n66-37.88С 034-21.21В \n66-37.81С 034-21.21В \n66-37.81С 034-20.79В\nПОСТАНОВКА НА ЯКОРЬ ЗАПРЕЩЕНА=\n031700 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-06-05T01:41:21.468100+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Anchoring Prohibited Area"
       }
     },
     {
@@ -26643,6 +26719,36 @@
         "summary": null,
         "category": "navigation",
         "title": "Iceberg Barents Sea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 45/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.92666666666666,
+          77.27
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-05T01:41:21.468811+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 45/26 ПРИП ЗАПАД 45/26 КАРТА 11167\r\nКАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 45/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 070650 UTC JUN 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП ЗАПАД 45/26 КАРТА 11167\nКАРСКОЕ МОРЕ\n1. АЙСБЕРГ 040650 ИЮНЬ В\n77-16.2С 067-55.6В\n2. ОТМ ЭТОТ НР 070650 ИЮНЬ =\n\nCOASTAL WARNING WEST 45/26\nKARA SEA.\nCHART RUS 11167.\n1. ICEBERG AT 040650 UTC JUN IN:\n77-16.2N 067-55.6E.\n2. CANCEL THIS MSG 070650 UTC JUN 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-06-05T01:41:21.468811+00:00",
+        "valid_until": "2026-06-07T06:50:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Iceberg In Kara Sea"
       }
     },
     {
