@@ -29,7 +29,8 @@ DTG_LINE_PATTERN = re.compile(r"^\d{6}Z [A-Z]{3} \d{2}\s*$", re.MULTILINE)
 MSG_ID_PATTERN = re.compile(
     r"(HYDROARC \d+/\d+(?:\([^)]+\))?"
     r"|NAVAREA [A-Z0-9]{1,10} \d+/\d+"
-    r"|[A-Z][A-Z -]+ NAV WARN \d+/\d+)"
+    r"|[A-Z][A-Z -]+ NAV WARN \d+/\d+"
+    r"|НАВАРЕА \d+ \d+/\d+)"
 )
 # Coordinate pair pattern supporting both DM (DD-MM.mm) and DMS (DD-MM-SS.ss) forms.
 _LAT_PART = r"\d{2,3}-(?:\d{2}(?:\.\d+)?|\d{2}-\d{2}(?:\.\d+)?)"
@@ -323,6 +324,27 @@ class NavwarnMessage:
             for line in re.split(r"[.\n]", self.body.upper()):
                 if "THIS MSG" in line or "THIS MESSAGE" in line:
                     sources.append(line.strip())
+            # Also scan for Russian self-cancellation (ОТМ ЭТОТ НР DD MONTH [YY])
+            yr_hint = str(self.year)[-2:] if self.year else None
+            for m_ru in RE_PRIP_SELF_CANCEL.finditer(self.body):
+                digits = m_ru.group(1)
+                ru_month_raw = m_ru.group(2)
+                yr_raw = m_ru.group(3)
+                en_month = _ru_month_to_en(ru_month_raw)
+                if not en_month:
+                    continue
+                if len(digits) == 6:
+                    ddhhmm = digits
+                elif len(digits) == 2:
+                    ddhhmm = digits + "0000"
+                else:
+                    continue
+                yr_2 = yr_raw[-2:] if yr_raw else yr_hint
+                if yr_2 is None:
+                    continue
+                normalized = f"THIS MSG {ddhhmm} UTC {en_month} {yr_2}"
+                if normalized not in sources:
+                    sources.append(normalized)
 
         for cancel in sources:
             if not cancel:
