@@ -43,6 +43,40 @@ MONTH_MAP = {
     "DEC": 12,
 }
 
+# Russian month abbreviations → English 3-letter abbreviations (for Russian NAVAREA XX)
+_RU_MONTH_MAP: Dict[str, str] = {
+    "ЯНВ": "JAN",
+    "ЯНВА": "JAN",
+    "ФЕВ": "FEB",
+    "ФЕВР": "FEB",
+    "МАР": "MAR",
+    "МАРТ": "MAR",
+    "АПР": "APR",
+    "АПРЕ": "APR",
+    "МАЙ": "MAY",
+    "МАЯ": "MAY",
+    "ИЮН": "JUN",
+    "ИЮНЬ": "JUN",
+    "ИЮЛ": "JUL",
+    "ИЮЛЬ": "JUL",
+    "АВГ": "AUG",
+    "АВГА": "AUG",
+    "АВГУСТА": "AUG",
+    "СЕН": "SEP",
+    "СЕНТ": "SEP",
+    "ОКТ": "OCT",
+    "ОКТЯ": "OCT",
+    "НОЯ": "NOV",
+    "НОЯБ": "NOV",
+    "ДЕК": "DEC",
+    "ДЕКА": "DEC",
+}
+
+_RE_RU_SELF_CANCEL = re.compile(
+    r"ОТМ\s+ЭТОТ\s+(?:НР|ПУНКТ)\s+(\d{2,6})\s+([\u0400-\u04FF]{2,7})(?:\s+(\d{2,4}))?",
+    re.IGNORECASE,
+)
+
 
 def _compute_valid_from(props: Dict[str, Any]) -> Optional[str]:
     """Derive valid_from from dtg or year."""
@@ -77,6 +111,27 @@ def _compute_valid_until(
         for line in re.split(r"[.\n]", body.upper()):
             if "THIS MSG" in line or "THIS MESSAGE" in line:
                 sources.append(line.strip())
+        # Also scan for Russian self-cancellation (ОТМ ЭТОТ НР DD MONTH [YY])
+        year_hint = str(props["year"])[-2:] if props.get("year") else None
+        for m_ru in _RE_RU_SELF_CANCEL.finditer(body):
+            digits = m_ru.group(1)
+            ru_month_raw = m_ru.group(2)
+            yr_raw = m_ru.group(3)
+            en_month = _RU_MONTH_MAP.get(ru_month_raw.upper())
+            if not en_month:
+                continue
+            if len(digits) == 6:
+                ddhhmm = digits
+            elif len(digits) == 2:
+                ddhhmm = digits + "0000"
+            else:
+                continue
+            yr_2 = yr_raw[-2:] if yr_raw else year_hint
+            if yr_2 is None:
+                continue
+            normalized = f"THIS MSG {ddhhmm} UTC {en_month} {yr_2}"
+            if normalized not in sources:
+                sources.append(normalized)
 
     for cancel in sources:
         if not cancel:

@@ -188,3 +188,56 @@ def test_navarea_xx_182_25_parsing():
     # Check first point: 72-13.0N 055-34.0E -> 72.216667, 55.566667
     assert coords_c[0][0] == pytest.approx(55.566667, abs=0.001)
     assert coords_c[0][1] == pytest.approx(72.216667, abs=0.001)
+
+
+# ---------------------------------------------------------------------------
+# Russian Cyrillic NAVAREAXX messages (from Rosatom scraper, unknown_id.json)
+# ---------------------------------------------------------------------------
+
+# Approximation of the Russian body found in current/navwarns/unknown_id.json
+# Key properties: Cyrillic msg_id, self-cancel via "ОТМ ЭТОТ НР 01 ИЮЛЬ"
+SAMPLE_RUSSIAN_NAVAREA_XX_182 = (
+    "НАВАРЕА 200 182/25 КАРТА 11126 КАРСКОЕ МОРЕ "
+    "1. СПЕЦИАЛЬНЫЕ РАБОТЫ 01 ЯНВ ПО 30 ИЮНЯ "
+    "ПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНАХ "
+    "А. 74-13.0С 058-44.0В ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО "
+    "74-34.0С 059-44.0В, 74-26.0С 060-37.0В, 74-04.0С 059-46.0В. "
+    "Б. 73-26.0С 057-11.0В ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО "
+    "73-45.0С 057-50.0В, 73-37.0С 058-52.0В, 73-17.0С 058-19.0В. "
+    "В. 72-13.0С 055-34.0В ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО "
+    "72-40.0С 055-57.0В, 72-38.0С 057-04.0В, 72-12.0С 056-53.0В. "
+    "2. ОТМ ЭТОТ НР 01 ИЮЛЬ= НННН"
+)
+
+
+def test_russian_navarea_msg_id_pattern():
+    """MSG_ID_PATTERN must match the Russian НАВАРЕА format."""
+    from scripts.parser import MSG_ID_PATTERN
+
+    m = MSG_ID_PATTERN.search(SAMPLE_RUSSIAN_NAVAREA_XX_182)
+    assert m is not None, "MSG_ID_PATTERN did not match Russian НАВАРЕА ID"
+    assert "182/25" in m.group(1)
+
+
+def test_russian_navarea_year_extraction():
+    """parse_navwarns() must set year=2025 when msg_id is НАВАРЕА 200 182/25."""
+    messages = parse_navwarns(SAMPLE_RUSSIAN_NAVAREA_XX_182)
+    assert len(messages) >= 1
+    msg = messages[0]
+    assert msg.msg_id is not None, "msg_id should be parsed from Russian НАВАРЕА ID"
+    assert "182/25" in msg.msg_id
+    assert msg.year == 2025
+
+
+def test_russian_navarea_valid_until():
+    """ОТМ ЭТОТ НР 01 ИЮЛЬ must produce valid_until = 2025-07-01."""
+    messages = parse_navwarns(SAMPLE_RUSSIAN_NAVAREA_XX_182)
+    assert len(messages) >= 1
+    msg = messages[0]
+    valid_until = msg._compute_valid_until()
+    assert (
+        valid_until is not None
+    ), "valid_until must not be None for Russian self-cancel"
+    assert valid_until.startswith(
+        "2025-07-01"
+    ), f"Expected 2025-07-01, got {valid_until}"

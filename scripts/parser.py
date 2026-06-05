@@ -573,7 +573,7 @@ class NavwarnMessage:
     def prip_from_text(cls, prip_header: str, prip_str: str) -> "NavwarnMessage":
         """Factory method: build a NavwarnMessage from raw DTG + message body."""
         # dtg = prip_parse_dtg(prip_header)
-        (area, msg_id, year, maps, details) = parse_prip_header(prip_header)
+        area, msg_id, year, maps, details = parse_prip_header(prip_header)
         coords = parse_coordinates(prip_str)
         cancels = prip_parse_cancellations(prip_str, year=year)
         hazard = classify_hazard(prip_str)

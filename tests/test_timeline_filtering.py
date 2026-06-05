@@ -308,6 +308,34 @@ def test_navwarn_dtg_with_z_suffix():
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is True
 
 
+def test_parse_cancellation_date_normalized_from_russian_day_only():
+    """Normalised Russian '\u041e\u0422\u041c \u042d\u0422\u041e\u0422 \u041d\u0420 01 \u0418\u042e\u041b\u042c' becomes 'THIS MSG 010000 UTC JUL 25'."""
+    # The Python backend normalises the Russian format before storing/comparing.
+    cancel_str = "THIS MSG 010000 UTC JUL 25"
+    result = parse_cancellation_date(cancel_str)
+    assert result is not None
+    assert result.year == 2025
+    assert result.month == 7
+    assert result.day == 1
+    assert result.hour == 0
+    assert result.minute == 0
+
+
+def test_navwarn_expired_via_normalized_russian_cancel():
+    """Navwarn with normalised-Russian cancel is expired after the cancel date."""
+    # Russian '\u041e\u0422\u041c \u042d\u0422\u041e\u0422 \u041d\u0420 01 \u0418\u042e\u041b\u042c= \u041d\u041d\u041d\u041d' normalises to "THIS MSG 010000 UTC JUL 25"
+    cancellations = ["THIS MSG 010000 UTC JUL 25"]
+    check_date = datetime(2025, 8, 1, 0, 0)  # August 1 — after July 1 cancellation
+    assert is_navwarn_valid_at(cancellations, check_date, year=2025) is False
+
+
+def test_navwarn_active_before_normalized_russian_cancel():
+    """Navwarn is still valid before the normalised-Russian cancel date."""
+    cancellations = ["THIS MSG 010000 UTC JUL 25"]
+    check_date = datetime(2025, 6, 15, 12, 0)  # June 15 — before July 1 cancellation
+    assert is_navwarn_valid_at(cancellations, check_date, year=2025) is True
+
+
 def test_navwarn_dtg_with_timezone_offset():
     """Test that DTG with timezone offset is properly parsed."""
     cancellations = []

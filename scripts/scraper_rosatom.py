@@ -12,6 +12,10 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 
+# Regex to detect and normalise Russian НАВАРЕА msg_ids (e.g. "НАВАРЕА 200 182/25")
+# Produces ASCII-safe filenames of the form NAVAREAXX_<region>_<num>_<yr>.json
+_RU_NAVAREA_RE = re.compile(r"НАВАРЕА\s+(\d+)\s+(\d+)/(\d{2})", re.IGNORECASE)
+
 """
 Downloader for NSR NAVAREA paginated pages.
 
@@ -255,7 +259,11 @@ def main():
                 for m in navmsgs:
                     safe_id = "unknown_id"
                     if msg_id := getattr(m, "msg_id", None):
-                        safe_id = re.sub(r"[^\w\-]", "_", msg_id)
+                        ru_m = _RU_NAVAREA_RE.search(msg_id)
+                        if ru_m:
+                            safe_id = f"NAVAREAXX_{ru_m.group(1)}_{ru_m.group(2)}_{ru_m.group(3)}"
+                        else:
+                            safe_id = re.sub(r"[^\w\-]", "_", msg_id)
 
                     # print(json.dumps(serialize_message(m), ensure_ascii=False))
                     filename = f"{safe_id}.json"
@@ -270,7 +278,13 @@ def main():
         cleanup.cleanup(
             active_filenames,
             CURRENT_DIR / "navwarns",
-            "NAVAREA_XX_*.json",
+            "NAVAREAXX_*.json",
+        )
+        # Also clean up legacy unknown_id.json left by old runs
+        cleanup.cleanup(
+            active_filenames,
+            CURRENT_DIR / "navwarns",
+            "unknown_id.json",
         )
 
         with open(
