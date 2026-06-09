@@ -994,6 +994,132 @@
     },
     {
       "type": "Feature",
+      "id": "ANDOYA_Fareomr_de_DR",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.21615,
+              71.057
+            ],
+            [
+              9.870982999999999,
+              74.26389999999999
+            ],
+            [
+              3.396904,
+              76.839283
+            ],
+            [
+              -6.069891999999999,
+              79.19595
+            ],
+            [
+              -10.358592,
+              79.930865
+            ],
+            [
+              -11.571678,
+              79.691063
+            ],
+            [
+              -4.222686,
+              78.05785599999999
+            ],
+            [
+              2.000544,
+              76.01696700000001
+            ],
+            [
+              7.203983,
+              73.53524999999999
+            ],
+            [
+              11.625,
+              70.501917
+            ],
+            [
+              15.21615,
+              71.057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-09T01:34:56.187345+00:00",
+        "raw_dtg": "090134Z JUN 26",
+        "msg_id": "ANDOYA_Fareomr_de_DR",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "firing_exercises",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "på maritim kanal 16/14 med kallesignal \"Andøya Space\".  Utenfor bemanning kan man sende henvendelse til mso@andoyaspace.no, eller ring tlf. 94 07 59 44  For SMS-varsling, send til 27222:  \"ANDOYASPACE SJO START\" for påmelding. \"ANDOYASPACE SJO STOPP\" for avmelding. Name: Danger area_DR Description: Andøya Space in collaboration with ISAR Aerospace is planning to launch the launch vehicle \"Spectrum\" from Andøya Spaceport in Børvågen, from June 15th, 2026, to June 21st 2026. Andøya  The danger area is active 15.06.2026-21.06.2026 with launch window 20:00 - 21:00 UTC (22:00-23:00 lokal tid.)The danger area is indicated as yellow prior to activation. The danger area is indicated red when it is less than 4-6 hours until it activates and the launch window opens. The danger area is deactivated and goes back to yellow as soon as the activity is finished.  Should there be a need for transit or use of the area, this can be coordinated with Andøya Space.   The operations centre is staffed during the launch window 11:00-23:30 local time. Contact us on phone 73 60 70 64/ 94 07 59 44, or on maritime channel 16/14 with call sign \"Andøya Space\".  Outside the launch window, inquiries can be sent to mso@andoyaspace.no, call phone 94 07 59 44  For SMS-varsling, send til 27222: \"ANDOYASPACE SJO START\" for påmelding. \"ANDOYASPACE SJO STOPP\" for avmelding.",
+        "cancel_date": null,
+        "valid_from": "2026-06-09T01:34:56.187345+00:00",
+        "valid_until": null,
+        "summary": null,
+        "source": "BarentsWatch/Andoya",
+        "area_name": "Fareområde_DR",
+        "name": "Andoya Danger Area",
+        "category": "military",
+        "title": "Rocket Launch Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ANDOYA_Fareomr_de_UR",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.467417000000001,
+              68.988867
+            ],
+            [
+              15.9754,
+              69.22274999999999
+            ],
+            [
+              14.181716999999999,
+              70.8971
+            ],
+            [
+              12.8657,
+              70.6937
+            ],
+            [
+              15.467417000000001,
+              68.988867
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-09T01:34:56.186785+00:00",
+        "raw_dtg": "090134Z JUN 26",
+        "msg_id": "ANDOYA_Fareomr_de_UR",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "firing_exercises",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "på maritim kanal 16/14 med kallesignal \"Andøya Space\".  Utenfor bemanning kan man sende henvendelse til mso@andoyaspace.no, eller ring tlf. 94 07 59 44  For SMS-varsling, send til 27222:  \"ANDOYASPACE SJO START\" for påmelding. \"ANDOYASPACE SJO STOPP\" for avmelding. Name: Danger area_UR Description: Andøya Space in collaboration with ISAR Aerospace is planning to launch the launch vehicle \"Spectrum\" from Andøya Spaceport in Børvågen, from June 15th, 2026, to June 21st 2026. Andøya  The danger area is active 15.06.2026-21.06.2026 with launch window 20:00 - 21:00 UTC (22:00-23:00 local time.)  The danger area is indicated as yellow prior to activation. The danger area is indicated red when it is less than 4-6 hours until it activates and the launch window opens. The danger area is deactivated and goes back to yellow as soon as the activity is finished.  Should there be a need for transit or use of the area, this can be coordinated with Andøya Space.   The operations centre is staffed during the launch window 11:00-23:30 local time. Contact us on phone 73 60 70 64/ 94 07 59 44, or on maritime channel 16/14 with call sign \"Andøya Space\".  Outside the launch window, inquiries can be sent to mso@andoyaspace.no, call phone 94 07 59 44  For SMS-varsling, send til 27222: \"ANDOYASPACE SJO START\" for påmelding. \"ANDOYASPACE SJO STOPP\" for avmelding.",
+        "cancel_date": null,
+        "valid_from": "2026-06-09T01:34:56.186785+00:00",
+        "valid_until": null,
+        "summary": null,
+        "source": "BarentsWatch/Andoya",
+        "area_name": "Fareområde_UR",
+        "name": "Andoya Danger Area",
+        "category": "military",
+        "title": "Andøya Launch Danger Area"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ANDOYA_VG3_Studentrakett",
       "geometry": {
         "type": "Polygon",
@@ -2131,6 +2257,34 @@
         "summary": null,
         "category": "navigation",
         "title": "Ristna DGNS Out of Use"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ESTONIAN NAV WARN 080/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.316666666666666,
+          59.583333333333336
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-08T08:13:00",
+        "raw_dtg": "080813Z JUN 26",
+        "msg_id": "ESTONIAN NAV WARN 080/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 080/26\nGULF OF FINLAND\n100300-102000 UTC JUN\n110300-111300 UTC JUN\nW OF NAISSAAR ISLAND\nFIRING PRACTICE AREA 2A\nCENTRED 59-35N 024-19E\nANTIPOLLUTION EXERCISE IN\nPROGRESS\nCANCEL 111300 UTC JUN",
+        "cancel_date": null,
+        "valid_from": "2026-06-08T08:13:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Antipollution Exercise Naissaar"
       }
     },
     {
@@ -7168,6 +7322,66 @@
         "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 045/26\nSOUTH-EASTERN BALTIC. LITHUANIAN COAST.\nMILITARY EXERCISES 020600–051200 UTC JUN\nIN AREA EYD-18, CENTERED IN 55-29.6N 020-51.0E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL 051300 UTC JUN 26.",
         "cancel_date": null,
         "valid_from": "2026-05-26T08:26:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LITHUANIAN NAV WARN 047/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.764666666666667,
+              55.61633333333333
+            ],
+            [
+              21.15,
+              55.6355
+            ],
+            [
+              21.221666666666668,
+              55.52333333333333
+            ],
+            [
+              20.998,
+              55.416333333333334
+            ],
+            [
+              20.764666666666667,
+              55.36633333333333
+            ],
+            [
+              20.698,
+              55.416333333333334
+            ],
+            [
+              20.698,
+              55.56633333333333
+            ],
+            [
+              20.764666666666667,
+              55.61633333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-08T13:00:00",
+        "raw_dtg": "081300Z JUN 26",
+        "msg_id": "LITHUANIAN NAV WARN 047/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 047/26\nSOUTH-EASTERN BALTIC. LITHUANIAN COAST.\nMILITARY EXERCISES 11 JUN 0600–0700 UTC\nIN AREA EYD-17 BOUNDED BY:\n55-36.98N 020-45.88E\n55-38.13N 021-09.00E\n55-31.40N 021-13.30E\n55-24.98N 020-59.88E\n55-21.98N 020-45.88E\n55-24.98N 020-41.88E\n55-33.98N 020-41.88E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL 110800 UTC JUN",
+        "cancel_date": null,
+        "valid_from": "2026-06-08T13:00:00+00:00",
         "valid_until": null,
         "summary": null,
         "category": "military",
@@ -18849,6 +19063,36 @@
         "summary": null,
         "category": "other",
         "title": "Fish Culture Collectors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 205/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.94383333333333,
+          69.51716666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-09T01:34:52.905880+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 205/26 КАРТА 12000\r\n\r\nМОТОВСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 205/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 110000 UTC JUL 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 205 КАРТА 12000\nМОТОВСКИЙ ЗАЛИВ\n1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ 11 ИЮНЬ ПО 10 ИЮЛЬ\nКРУГЛОСУТОЧНО РАЙОН РАДИУСОМ 1 МИЛЯ\nИЗ 69-31.03С 032-56.63В\n2. ОТМ ЭТОТ НР 11 ИЮЛЬ=\n081000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-06-09T01:34:52.905880+00:00",
+        "valid_until": "2026-07-11T00:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Navigation Prohibited Area"
       }
     },
     {
