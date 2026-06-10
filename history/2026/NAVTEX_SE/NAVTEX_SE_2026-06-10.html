@@ -1,0 +1,1199 @@
+
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, minimum-scale=1.0, user-scalable=1" />
+    <meta name="git-sha" value="" />
+    <meta name="git-log" value="" />
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="/css/sma-bootstrap.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/assets/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/assets/favicons/favicon.ico" sizes="32x32" type="image/svg+xml">
+    <link rel="icon" href="/assets/favicons/favicon.ico" sizes="16x16" type="image/svg+xml">
+    <title>Sj&#xF6;fartsverket - Navigational Warnings</title>
+
+    <script src="/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.rsConf = { general: { usePost: true } };
+    </script>
+    <script>
+        console.log("git-sha: ");
+        console.log("git-log: ");
+    </script>
+    <script src="//cdn1.readspeaker.com/script/37/webReader/webReader.js?pids=wr" type="text/javascript"></script>
+</head>
+
+
+<body data-spy="scroll" class="d-flex flex-column vh-100">
+    
+
+
+
+
+<header class="d-flex justify-content-between align-items-center py-3">
+    <div class="left col">
+        <a class="d-flex justify-content-center text-decoration-none sma-logo flex-column" href="/en/">
+            <img src="/images/SjoV_RGB_EN_blue.svg" class="rounded-lg img-fluid w-100 img-max-width-9" alt="Swedish Maritime Administrations logotype">
+        </a>
+        <p id="header-text">Navigational Warnings</p>
+    </div>
+    
+
+    
+
+    <div class="right col-auto">
+        <a href="/Navigationsvarningar/Navtex" class="mr-4 font-weight-bold align-middle text-hav"
+           title="Till Svenska">
+            Till Svenska
+        </a>
+        
+        <button type="button" id="btn-toggle-mennu"
+                class="btn bg-himmel-20 text-natt justify-content-md-center"
+                title="Toggle Menu">
+        
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 class="feather feather-line">
+                <use href="/icons/feather-sprite.svg#menu"/>
+            </svg>
+            Menu
+        </button>
+    </div>
+
+
+</header>
+    <!--HEADER-->
+
+    <main role="main" class="wrapper d-flex align-items-stretch flex-grow-1">
+
+        
+
+
+<nav id="sidebar" class="nav flex-column bg-hav-10 border-hav-70 active flex-shrink-0">
+    <ul class="list-unstyled m-0 text-break">
+        <li>
+            <a href="https://www.sjofartsverket.se/en/">
+                <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 feather feather-line mr-1">
+                    <use href="/icons/feather-sprite.svg#arrow-left" />
+                </svg>
+                Back to sjofartsverket.se
+            </a>
+        </li>
+
+    <div class="empty-wrapper">
+        <h5 class="p-3 m-0">
+            Menu
+        </h5>
+
+    </div>
+    <ul class="list-unstyled m-0 text-break">
+        <li>
+            <a class="nav-link" href="/en/">
+                <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 feather feather-line mr-3">
+                    <use href="/icons/feather-sprite.svg#home"></use>
+                </svg>
+                Navigational Warnings
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="/en/Navigationsvarningar/VHF">
+                <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 feather feather-line mr-3">
+                    <use href="/icons/feather-sprite.svg#alert-triangle"></use>
+                </svg>
+                Swedish navigational warnings in force
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="/en/Navigationsvarningar/Navtex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 feather feather-line mr-3">
+                    <use href="/icons/feather-sprite.svg#alert-triangle"></use>
+                </svg>
+                NAVTEX warnings in force
+            </a>
+        </li>
+    </ul>
+
+    <div class="empty-wrapper">
+        <h5 class="p-3 m-0">
+            Documents
+        </h5>
+        <ul class="list-unstyled m-0 text-break">
+            <li>
+                <a class="nav-link" href="/pdf/kustradiokarta.pdf" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 feather feather-line mr-3">
+                    <use href="/icons/feather-sprite.svg#map" />
+                </svg>
+                    Swedish Coast Radio Map
+                </a>
+            </li>
+            <li>
+                    <a class="nav-link" href="/pdf/Baltic_Sea_sub-area_Navtex.pdf" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 feather feather-line mr-3">
+                    <use href="/icons/feather-sprite.svg#map" />
+                </svg>
+                    NAVTEX map
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="empty-wrapper">
+        <h5 class="p-3 m-0">
+            Related links
+        </h5>
+        <ul class="list-unstyled m-0 text-break">
+            <li>
+                <a class="nav-link" href="https://ufs.sjofartsverket.se/en/" target="_blank">
+                    NtM - Notices to Mariners
+                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 feather feather-sm feather-line ml-1">
+                        <use href="/icons/feather-sprite.svg#external-link" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="https://www.sjofartsverket.se/en/about-us/contact-us/hydrographic-notes/" target="_blank">
+                    Hydrographic notes
+                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 feather feather-sm feather-line ml-1">
+                        <use href="/icons/feather-sprite.svg#external-link" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+        <div class="d-flex flex-column justify-content-start align-items-start flex-grow-1 mw-100 mb-5">
+
+            
+<div class="container-fluid py-3 border-top border-bottom">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-transparent mb-0">
+            <li class="breadcrumb-item"><a class="" href="/en/Index">Start</a></li>
+            <li class="breadcrumb-item d-none"><a class="" href="/en/Navigationsvarningar/VHF">Swedish navigational warnings in force</a></li>
+            <li class="breadcrumb-item active font-weight-bold text-dark"><a class="" href="/en/Navigationsvarningar/Navtex">NAVTEX warnings in force</a></li>
+        </ol>
+    </nav>
+</div>
+
+
+            <div class="container-fluid px-0 mb-1">
+                
+
+
+
+
+
+<div class="container-fluid sma-width-limit-md">
+    <div class="mt-4 mt-xl-5">
+        <h1 class="font-weight-bold mb-1">NAVTEX warnings in force</h1>
+        <div class="row">
+            <div class="order-first    col-12
+                        order-md-last  col-md">
+                <!-- Area selector -->
+                <div class="col-auto bg-hav-10 rounded-lg mt-4 mt-xl-5 p-4">
+                    <h4 class="font-weight-bold mb-4">Area</h4>
+                    <form id="area-selector-form">
+                        <div class="form-group mb-0" id="checkboxes-output">
+
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-0" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-0">
+                                    </label>
+                                    <a id="cb-0-link" href="#display-area-0">
+                                        Skagerrak (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-0").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'0');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-0-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-0"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-1" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-1">
+                                    </label>
+                                    <a id="cb-1-link" href="#display-area-1">
+                                        Kattegat (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-1").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'1');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-1-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-1"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-2" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-2">
+                                    </label>
+                                    <a id="cb-2-link" href="#display-area-2">
+                                        Lake V&#xE4;nern and Trollh&#xE4;tte Canal (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-2").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'2');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-2-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-2"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-3" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-3">
+                                    </label>
+                                    <a id="cb-3-link" href="#display-area-3">
+                                        The Sound (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-3").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'3');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-3-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-3"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-4" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-4">
+                                    </label>
+                                    <a id="cb-4-link" href="#display-area-4">
+                                        The Belts (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-4").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'4');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-4-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-4"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-5" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-5">
+                                    </label>
+                                    <a id="cb-5-link" href="#display-area-5">
+                                        Western Baltic (5)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-5").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'5');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-5-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-5"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-6" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-6">
+                                    </label>
+                                    <a id="cb-6-link" href="#display-area-6">
+                                        Southern Baltic (5)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-6").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'6');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-6-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-6"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-7" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-7">
+                                    </label>
+                                    <a id="cb-7-link" href="#display-area-7">
+                                        South-eastern Baltic (8)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-7").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'7');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-7-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-7"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-8" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-8">
+                                    </label>
+                                    <a id="cb-8-link" href="#display-area-8">
+                                        Central Baltic (4)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-8").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'8');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-8-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-8"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-9" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-9">
+                                    </label>
+                                    <a id="cb-9-link" href="#display-area-9">
+                                        Lake M&#xE4;laren and S&#xF6;dert&#xE4;lje Canal (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-9").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'9');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-9-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-9"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-10" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-10">
+                                    </label>
+                                    <a id="cb-10-link" href="#display-area-10">
+                                        Northern Baltic (1)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-10").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'10');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-10-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-10"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-11" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-11">
+                                    </label>
+                                    <a id="cb-11-link" href="#display-area-11">
+                                        Gulf of Riga (1)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-11").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'11');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-11-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-11"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-12" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-12">
+                                    </label>
+                                    <a id="cb-12-link" href="#display-area-12">
+                                        Gulf of Finland (7)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-12").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'12');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-12-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-12"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-13" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-13">
+                                    </label>
+                                    <a id="cb-13-link" href="#display-area-13">
+                                        Sea of &#xC5;land and Archipelago Sea (1)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-13").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'13');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-13-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-13"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-14" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-14">
+                                    </label>
+                                    <a id="cb-14-link" href="#display-area-14">
+                                        Sea of Bothnia (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-14").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'14');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-14-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-14"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-15" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-15">
+                                    </label>
+                                    <a id="cb-15-link" href="#display-area-15">
+                                        The Quark (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-15").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'15');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-15-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-15"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-16" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-16">
+                                    </label>
+                                    <a id="cb-16-link" href="#display-area-16">
+                                        Bay of Bothnia (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-16").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'16');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-16-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-16"), true);
+                                        });
+                                    </script>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input area-checkbox" id="cb-17" checked autocomplete="off">
+                                    <label class="custom-control-label" for="cb-17">
+                                    </label>
+                                    <a id="cb-17-link" href="#display-area-17">
+                                        Other lakes and canals (0)
+                                    </a>
+                                    <script>
+                                        document.getElementById("cb-17").addEventListener("change", (event) => {
+                                               toggleVisibility(event.target.checked,'17');
+                                               setRowBG();
+                                        });
+                                        document.getElementById("cb-17-link").addEventListener("click", (event) => {
+                                               setBoxState(document.getElementById("cb-17"), true);
+                                        });
+                                    </script>
+                                </div>
+
+                            <div>
+                                <button type="button" class="m-1 btn btn-hav" onClick="setStateOfAll(true)">
+                                    Show all
+                                </button>
+
+                                <button type="button" class="m-1 btn btn-hav" onClick="setStateOfAll(false)">
+                                    Hide all
+                                </button> <br />
+
+                                <button type="button" class="m-1 btn btn-hav" onClick="showOnlyWithActiveWarnings()">
+                                    Show only areas with current warnings
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-auto bg-hav-10 rounded-lg my-4 mt-2 p-4">
+                    <b>Latest Update of Navigational Warnings:<br />2026-06-09 23:08</b>
+                </div>
+                <div class="col-auto bg-hav-10 rounded-lg my-4 mt-2 p-4">
+                    <p><b>NOTE. Updating of this page could be delayed.</b></p>
+                    <p>The availability of Navigational Warnings on the web does not relieve Masters of the requirement to receive Navigational Warnings via IMO/IHO approved broadcast systems.</p>
+                    <p>
+                        Weather forecast including warnings, see <a href=http://www.smhi.se/en/weather/forecasts/sea-weather-forecast#ws=wpt-a,proxy=wpt-a,lang=en,area=none>SMHI</a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div id="warnings_by_area" class="order-2 col-12
+                                              col-md
+                                              mt-4 mt-xl-5 rounded-lg p-4">
+                    <div id="display-area-0"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Skagerrak</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+                    <div id="display-area-1"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Kattegat</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+                    <div id="display-area-2"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Lake V&#xE4;nern and Trollh&#xE4;tte Canal</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+                    <div id="display-area-3"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>The Sound</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+                    <div id="display-area-4"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>The Belts</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+                    <div id="display-area-5"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Western Baltic</h5>
+
+
+
+
+
+<p>
+    271707 UTC MAY <br />
+    <b>
+        GERMAN NAV WARN
+        327/26
+    </b>
+    <span style="white-space: pre-line">
+        WESTERN BALTIC, WEST OF FEHMARN. &#xD;&#xA;EXPLOSIVES FOUND IN POSITIONS  &#xD;&#xA;54-27,8N 010-52,4E, &#xD;&#xA;54-27,4N 010-52,4E, &#xD;&#xA;54-30,4N 010-51,8E. &#xD;&#xA;ANCHORING AND FISHING PROHIBITED. 
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    271425 UTC MAY <br />
+    <b>
+        GERMAN NAV WARN
+        326/26
+    </b>
+    <span style="white-space: pre-line">
+        GERMAN NAV WARN 326/26 &#xD;&#xA;WESTERN BALTIC. MECKLENBURG BAY. &#xD;&#xA;&#x27;BUK&#x27; LIGHTHOUSE 54-08,0N 011-42,0E  &#xD;&#xA;CHARACTERS CHANGED TO: LFL (4) 45S 
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    261025 UTC MAY <br />
+    <b>
+        GERMAN NAV WARN
+        321/26
+    </b>
+    <span style="white-space: pre-line">
+        WESTERN, SOUTHERN AND CENTRAL BALTIC SEA.&#xD;&#xA;INTERNATIONAL MARITIME EXERCISE &#x27;BALTOPS 26&#x27;.&#xD;&#xA;FROM 04. TO 19. JUNE 2026,&#xD;&#xA;ALL TYPES OF MILITARY VESSELS INVOLVED.&#xD;&#xA;MILITARY VESSELS MAY MANOEUVERE ERRATICALLY&#xD;&#xA;AND OPERATE WITHOUT NAVIGATION LIGHTS AND AIS&#xD;&#xA;SAFETY DISTANCE OF AT LEAST 1000 M REQUESTED&#xD;&#xA;CANCEL 192359 UTC JUN 26.
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    301037 UTC APR <br />
+    <b>
+        GERMAN NAV WARN
+        250/26
+    </b>
+    <span style="white-space: pre-line">
+        GERMAN NAVIGATIONAL WARNING NO. 250&#xD;&#xA;WESTERN BALTIC.FLENSBURGER FOERDE.&#xD;&#xA;&#x27;KALKGRUND&#x27; LIGHTHOUSE  54-50N 009-53E UNLIT.&#xD;&#xA;
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    021100 UTC JUL <br />
+    <b>
+        BALTIC SEA NAV WARN
+        026/25
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN, SOUTHEASTERN, CENTRAL AND NORTHERN BALTIC, GULF OF FINLAND, GULF OF RIGA AND SEA OF AALAND.&#xD;&#xA;GNSS, AIS, RADAR AND DGPS INTERFERENCE OBSERVED IN AREA.&#xD;&#xA;MARINERS ADVISED TO EXERCISE CAUTION&#xD;&#xA;AND BE PREPARED FOR NAVIGATION IMPACTS.
+    </span>
+
+    
+</p>                    </div>
+                    <div id="display-area-6"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Southern Baltic</h5>
+
+
+
+
+
+<p>
+    040818 UTC JUN <br />
+    <b>
+        POLISH NAV WARN
+        129/26
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN BALTIC. &#xD;&#xA;DUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY: &#xD;&#xA;S-6 CENTERED 54-39.27N 016-36.59E&#xD;&#xA;&#xD;&#xA;FROM 2026-06-07 22:00 TO 2026-06-14 21:59&#xD;&#xA;TIME IN UTC.&#xD;&#xA;ZONE IS CLOSED&#xD;&#xA;CANCEL THIS MSG 142159 UTC JUN&#xD;&#xA;
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    020621 UTC JUN <br />
+    <b>
+        GERMAN NAV WARN
+        333/26
+    </b>
+    <span style="white-space: pre-line">
+        WESTERN BALTIC. EAST OF RUEGEN. &#xD;&#xA;FROM 07. JUN 0600 TIL 10. JUN 1800 &#xD;&#xA;IN THE AREA OF &#xD;&#xA;54-40N 013-55E &#xD;&#xA;54-40N 014-12E &#xD;&#xA;54-24N 014-12E &#xD;&#xA;54-24N 013-55E &#xD;&#xA;MARINERS KEEP WELL CLEAR OF EXERCISE AREA &#xD;&#xA;CANCEL THIS MESSAGE AT 102359 JUN
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    261025 UTC MAY <br />
+    <b>
+        GERMAN NAV WARN
+        321/26
+    </b>
+    <span style="white-space: pre-line">
+        WESTERN, SOUTHERN AND CENTRAL BALTIC SEA.&#xD;&#xA;INTERNATIONAL MARITIME EXERCISE &#x27;BALTOPS 26&#x27;.&#xD;&#xA;FROM 04. TO 19. JUNE 2026,&#xD;&#xA;ALL TYPES OF MILITARY VESSELS INVOLVED.&#xD;&#xA;MILITARY VESSELS MAY MANOEUVERE ERRATICALLY&#xD;&#xA;AND OPERATE WITHOUT NAVIGATION LIGHTS AND AIS&#xD;&#xA;SAFETY DISTANCE OF AT LEAST 1000 M REQUESTED&#xD;&#xA;CANCEL 192359 UTC JUN 26.
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    040930 UTC MAR <br />
+    <b>
+        GERMAN NAV WARN
+        125/26
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN BALTIC. ODERBANK.&#xD;&#xA;YELLOW LIGHT SPAR BUOY WITH INSCRIPTION &#x27;ODAS&#x27;  54-25,0N 014-18,0E&#xD;&#xA;TEMPORARILY REMOVED.
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    021100 UTC JUL <br />
+    <b>
+        BALTIC SEA NAV WARN
+        026/25
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN, SOUTHEASTERN, CENTRAL AND NORTHERN BALTIC, GULF OF FINLAND, GULF OF RIGA AND SEA OF AALAND.&#xD;&#xA;GNSS, AIS, RADAR AND DGPS INTERFERENCE OBSERVED IN AREA.&#xD;&#xA;MARINERS ADVISED TO EXERCISE CAUTION&#xD;&#xA;AND BE PREPARED FOR NAVIGATION IMPACTS.
+    </span>
+
+    
+</p>                    </div>
+                    <div id="display-area-7"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>South-eastern Baltic</h5>
+
+
+
+
+
+<p>
+    081300 UTC JUN <br />
+    <b>
+        LITHUANIAN NAV WARN
+        047/26
+    </b>
+    <span style="white-space: pre-line">
+        SOUTH-EASTERN BALTIC. LITHUANIAN COAST. &#xD;&#xA;MILITARY EXERCISES 11 JUN 0600&#x2013;0700 UTC&#xD;&#xA;IN AREA EYD-17 BOUNDED BY:&#xD;&#xA;55-36.98N 020-45.88E&#xD;&#xA;55-38.13N 021-09.00E&#xD;&#xA;55-31.40N 021-13.30E&#xD;&#xA;55-24.98N 020-59.88E&#xD;&#xA;55-21.98N 020-45.88E&#xD;&#xA;55-24.98N 020-41.88E&#xD;&#xA;55-33.98N 020-41.88E.&#xD;&#xA;AREA TEMPORARILY DANGEROUS TO SHIPPING.&#xD;&#xA;WIDE BERTH REQUESTED.&#xD;&#xA;CANCEL 110800 UTC JUN
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    021550 UTC JUN <br />
+    <b>
+        KALININGRAD NAV WARN
+        133/26
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN BALTIC&#xD;&#xA;MOORING BUOYS ESTABLISHED ON RECEIPT OF RUSSIAN&#xD;&#xA;NOTICE TO MARINERS 193/18 IN 55-13.8N 019-38.2E&#xD;&#xA;THE FIRST ONE IS MISSING THE SECOND ONE IS SEMISUBMERGED&#xD;&#xA;
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    302130 UTC MAY <br />
+    <b>
+        KALININGRAD NAV WARN
+        109/26
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHEASTERN BALTIC&#xD;&#xA;1. SHIPS EXERCISES 312100 UTC MAY THRU 302100 UTC JUN&#xD;&#xA;IN AREA TEMPORARILY DANGEROUS TO SHIPPING BR-42&#xD;&#xA;55-20.00N 020-08.00E 55-20.00N 020-25.00E&#xD;&#xA;55-07.60N 020-25.00E 55-07.60N 020-08.00E&#xD;&#xA;2. CANCEL THIS MESSAGE 302200 UTC JUN 
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    302130 UTC MAY <br />
+    <b>
+        KALININGRAD NAV WARN
+        110/26
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHEASTERN BALTIC&#xD;&#xA;1. SHIPS EXERCISES 312100 UTC MAY THRU 302100 UTC JUN&#xD;&#xA;IN AREA TEMPORARILY DANGEROUS TO SHIPPING&#xD;&#xA;55-32.00N 019-01.60E 55-32.00N 019-50.00E&#xD;&#xA;55-03.00N 019-35.00E 54-46.40N 019-35.00E&#xD;&#xA;54-50.30N 019-20.30E 55-11.50N 019-09.20E&#xD;&#xA;55-20.00N 019-04.60E&#xD;&#xA;2. CANCEL THIS MESSAGE 302200 UTC JUN
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    302130 UTC MAY <br />
+    <b>
+        KALININGRAD NAV WARN
+        111/26
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHEASTERN BALTIC&#xD;&#xA;1. SHIPS EXERCISES 312100 UTC MAY THRU 302100 UTC JUN&#xD;&#xA;IN AREA TEMPORARILY DANGEROUS TO SHIPPING BR-117&#xD;&#xA;55-54.00N 019-03.00E 55-30.00N 020-15.00E&#xD;&#xA;55-04.00N 020-15.00E 54-57.50N 020-06.00E&#xD;&#xA;54-57.50N 019-55.00E 54-50.00N 019-50.00E&#xD;&#xA;54-50.00N 019-25.00E&#xD;&#xA;2. CANCEL THIS MESSAGE 302200 UTC JUN
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    302130 UTC MAY <br />
+    <b>
+        KALININGRAD NAV WARN
+        112/26
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHEASTERN BALTIC&#xD;&#xA;1. SHIPS EXERCISES 312100 UTC MAY THRU 302100 UTC JUN&#xD;&#xA;IN AREA TEMPORARILY DANGEROUS TO SHIPPING BR-161&#xD;&#xA;55-09.50N 019-45.30E 55-09.50N 020-00.00E&#xD;&#xA;55-02.00N 020-00.00E 55-02.00N 019-39.60E&#xD;&#xA;2. CANCEL THIS MESSAGE 302200 UTC JUN
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    291018 UTC MAY <br />
+    <b>
+        POLISH NAV WARN
+        127/26
+    </b>
+    <span style="white-space: pre-line">
+        SOUTH-EASTERN BALTIC. POLISH COAST&#xD;&#xA;BK3-C2 AIS BUOY IS NOT WORKING. &#xD;&#xA;POSITION: &#xD;&#xA;55-00.00N 017-30.37E&#xD;&#xA;CAUTION ADVISED
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    021100 UTC JUL <br />
+    <b>
+        BALTIC SEA NAV WARN
+        026/25
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN, SOUTHEASTERN, CENTRAL AND NORTHERN BALTIC, GULF OF FINLAND, GULF OF RIGA AND SEA OF AALAND.&#xD;&#xA;GNSS, AIS, RADAR AND DGPS INTERFERENCE OBSERVED IN AREA.&#xD;&#xA;MARINERS ADVISED TO EXERCISE CAUTION&#xD;&#xA;AND BE PREPARED FOR NAVIGATION IMPACTS.
+    </span>
+
+    
+</p>                    </div>
+                    <div id="display-area-8"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Central Baltic</h5>
+
+
+
+
+
+<p>
+    091130 UTC JUN <br />
+    <b>
+        LATVIAN NAV WARN
+        017/26
+    </b>
+    <span style="white-space: pre-line">
+        CENTRAL BALTIC. SOUTH OF PORT OF  VENTSPILS.&#xD;&#xA;MILITARY PRACTICE IN PROGRESS&#xD;&#xA;ON JUNE 11 IN AREA BOUNDED BY&#xD;&#xA;57-21.69N 021-30.13E&#xD;&#xA;57-24.34N 021-21.94E&#xD;&#xA;57-24.10N 021-21.62E&#xD;&#xA;57-21.45N 021-29.90E&#xD;&#xA;AREA IS CLOSED FOR NAVIGATION. &#xD;&#xA;WIDE BERTH REQUESTED. &#xD;&#xA;CANCEL 112100 UTC JUN
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    261025 UTC MAY <br />
+    <b>
+        GERMAN NAV WARN
+        321/26
+    </b>
+    <span style="white-space: pre-line">
+        WESTERN, SOUTHERN AND CENTRAL BALTIC SEA.&#xD;&#xA;INTERNATIONAL MARITIME EXERCISE &#x27;BALTOPS 26&#x27;.&#xD;&#xA;FROM 04. TO 19. JUNE 2026,&#xD;&#xA;ALL TYPES OF MILITARY VESSELS INVOLVED.&#xD;&#xA;MILITARY VESSELS MAY MANOEUVERE ERRATICALLY&#xD;&#xA;AND OPERATE WITHOUT NAVIGATION LIGHTS AND AIS&#xD;&#xA;SAFETY DISTANCE OF AT LEAST 1000 M REQUESTED&#xD;&#xA;CANCEL 192359 UTC JUN 26.
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    051430 UTC FEB <br />
+    <b>
+        LATVIAN NAV WARN
+        004/26
+    </b>
+    <span style="white-space: pre-line">
+        CENTRAL BALTIC. LATVIAN WATERS. &#xD;&#xA;DUE TO ICE CONDITIONS MANY BUOYS AND MARKS HAVE BEEN WITHDRAWN. &#xD;&#xA;NAVIGATE WITH CAUTION.
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    021100 UTC JUL <br />
+    <b>
+        BALTIC SEA NAV WARN
+        026/25
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN, SOUTHEASTERN, CENTRAL AND NORTHERN BALTIC, GULF OF FINLAND, GULF OF RIGA AND SEA OF AALAND.&#xD;&#xA;GNSS, AIS, RADAR AND DGPS INTERFERENCE OBSERVED IN AREA.&#xD;&#xA;MARINERS ADVISED TO EXERCISE CAUTION&#xD;&#xA;AND BE PREPARED FOR NAVIGATION IMPACTS.
+    </span>
+
+    
+</p>                    </div>
+                    <div id="display-area-9"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Lake M&#xE4;laren and S&#xF6;dert&#xE4;lje Canal</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+                    <div id="display-area-10"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Northern Baltic</h5>
+
+
+
+
+
+<p>
+    021100 UTC JUL <br />
+    <b>
+        BALTIC SEA NAV WARN
+        026/25
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN, SOUTHEASTERN, CENTRAL AND NORTHERN BALTIC, GULF OF FINLAND, GULF OF RIGA AND SEA OF AALAND.&#xD;&#xA;GNSS, AIS, RADAR AND DGPS INTERFERENCE OBSERVED IN AREA.&#xD;&#xA;MARINERS ADVISED TO EXERCISE CAUTION&#xD;&#xA;AND BE PREPARED FOR NAVIGATION IMPACTS.
+    </span>
+
+    
+</p>                    </div>
+                    <div id="display-area-11"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Gulf of Riga</h5>
+
+
+
+
+
+<p>
+    021100 UTC JUL <br />
+    <b>
+        BALTIC SEA NAV WARN
+        026/25
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN, SOUTHEASTERN, CENTRAL AND NORTHERN BALTIC, GULF OF FINLAND, GULF OF RIGA AND SEA OF AALAND.&#xD;&#xA;GNSS, AIS, RADAR AND DGPS INTERFERENCE OBSERVED IN AREA.&#xD;&#xA;MARINERS ADVISED TO EXERCISE CAUTION&#xD;&#xA;AND BE PREPARED FOR NAVIGATION IMPACTS.
+    </span>
+
+    
+</p>                    </div>
+                    <div id="display-area-12"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Gulf of Finland</h5>
+
+
+
+
+
+<p>
+    080813 UTC JUN <br />
+    <b>
+        ESTONIAN NAV WARN
+        080/26
+    </b>
+    <span style="white-space: pre-line">
+        GULF OF FINLAND&#xD;&#xA;100300-102000 UTC JUN &#xD;&#xA;110300-111300 UTC JUN&#xD;&#xA;W OF NAISSAAR ISLAND &#xD;&#xA;FIRING PRACTICE AREA 2A &#xD;&#xA;CENTRED 59-35N 024-19E &#xD;&#xA;ANTIPOLLUTION EXERCISE IN &#xD;&#xA;PROGRESS&#xD;&#xA;CANCEL 111300 UTC JUN
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    302050 UTC MAY <br />
+    <b>
+        PETERSBURG NAV WARN
+        099/26
+    </b>
+    <span style="white-space: pre-line">
+        EASTERN GULF OF FINLAND&#xD;&#xA;1. SHIPS EXERCISES 312100 UTC MAY THRU 302100 UTC JUN&#xD;&#xA;IN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-105&#xD;&#xA;60-08.50N 029-00.00E 60-08.50N 029-15.00E&#xD;&#xA;60-03.50N 029-15.00E 60-03.50N 029-00.00E&#xD;&#xA;2. CANCEL THIS MESSAGE 302200 UTC JUN
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    302050 UTC MAY <br />
+    <b>
+        PETERSBURG NAV WARN
+        100/26
+    </b>
+    <span style="white-space: pre-line">
+        EASTERN GULF OF FINLAND&#xD;&#xA;1. SHIPS EXERCISES 312100 UTC MAY THRU 302100 UTC JUN&#xD;&#xA;IN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-107&#xD;&#xA;60-10.30N 028-45.70E 60-10.30N 028-54.60E&#xD;&#xA;60-04.00N 028-54.60E 60-04.00N 028-34.00E&#xD;&#xA;60-07.00N 028-34.00E&#xD;&#xA;2. CANCEL THIS MESSAGE 302200 UTC JUN 
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    302050 UTC MAY <br />
+    <b>
+        PETERSBURG NAV WARN
+        101/26
+    </b>
+    <span style="white-space: pre-line">
+        EASTERN GULF OF FINLAND&#xD;&#xA;1. SHIPS EXERCISES 312100 UTC MAY THRU 302100 UTC JUN&#xD;&#xA;IN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-114&#xD;&#xA;60-06.30N 027-02.60E 60-07.50N 027-07.50E&#xD;&#xA;60-03.60N 027-11.50E 60-02.20N 027-06.50E&#xD;&#xA;2. CANCEL THIS MESSAGE 302200 UTC JUN 
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    302050 UTC MAY <br />
+    <b>
+        PETERSBURG NAV WARN
+        102/26
+    </b>
+    <span style="white-space: pre-line">
+        EASTERN GULF OF FINLAND&#xD;&#xA;1. SHIPS EXERCISES 312100 UTC MAY THRU 302100 UTC JUN&#xD;&#xA;IN AREA TEMPORARILY DANGEROUS TO SHIPPING&#xD;&#xA;59-53.43N 027-05.35E 59-53.43N 027-09.63E&#xD;&#xA;59-46.43N 027-09.63E 59-46.43N 027-05.35E&#xD;&#xA;2. CANCEL THIS MESSAGE 302200 UTC JUN 
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    302050 UTC MAY <br />
+    <b>
+        PETERSBURG NAV WARN
+        103/26
+    </b>
+    <span style="white-space: pre-line">
+        EASTERN GULF OF FINLAND&#xD;&#xA;1. SHIPS EXERCISES 312100 UTC MAY THRU 302100 UTC JUN&#xD;&#xA;IN AREA TEMPORARILY DANGEROUS TO SHIPPING&#xD;&#xA;60-00.50N 027-16.50E 60-05.40N 027-34.00E&#xD;&#xA;59-53.00N 027-48.00E 59-48.00N 027-31.00E&#xD;&#xA;2. CANCEL THIS MESSAGE 302200 UTC JUN
+    </span>
+
+    
+</p>
+
+
+
+
+<p>
+    021100 UTC JUL <br />
+    <b>
+        BALTIC SEA NAV WARN
+        026/25
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN, SOUTHEASTERN, CENTRAL AND NORTHERN BALTIC, GULF OF FINLAND, GULF OF RIGA AND SEA OF AALAND.&#xD;&#xA;GNSS, AIS, RADAR AND DGPS INTERFERENCE OBSERVED IN AREA.&#xD;&#xA;MARINERS ADVISED TO EXERCISE CAUTION&#xD;&#xA;AND BE PREPARED FOR NAVIGATION IMPACTS.
+    </span>
+
+    
+</p>                    </div>
+                    <div id="display-area-13"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Sea of &#xC5;land and Archipelago Sea</h5>
+
+
+
+
+
+<p>
+    021100 UTC JUL <br />
+    <b>
+        BALTIC SEA NAV WARN
+        026/25
+    </b>
+    <span style="white-space: pre-line">
+        SOUTHERN, SOUTHEASTERN, CENTRAL AND NORTHERN BALTIC, GULF OF FINLAND, GULF OF RIGA AND SEA OF AALAND.&#xD;&#xA;GNSS, AIS, RADAR AND DGPS INTERFERENCE OBSERVED IN AREA.&#xD;&#xA;MARINERS ADVISED TO EXERCISE CAUTION&#xD;&#xA;AND BE PREPARED FOR NAVIGATION IMPACTS.
+    </span>
+
+    
+</p>                    </div>
+                    <div id="display-area-14"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Sea of Bothnia</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+                    <div id="display-area-15"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>The Quark</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+                    <div id="display-area-16"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Bay of Bothnia</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+                    <div id="display-area-17"
+                         class="border-bottom p-3 nav-area-div">
+
+                        <h5>Other lakes and canals</h5>
+                            <p>No current warnings in the area</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/site.js?v=D-UH5oki2MuisEsTQ-Fw_gL9YQhf95-ripN3hI2H63o"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/sma-main.min.js"></script>
+    
+
+    <script src="/js/Navigationsvarningar.js"></script>
+
+    <script>
+        function showOnlyWithActiveWarnings()
+        {
+                                 setBoxState(document.getElementById("cb-0"), false);
+                                 setBoxState(document.getElementById("cb-1"), false);
+                                 setBoxState(document.getElementById("cb-2"), false);
+                                 setBoxState(document.getElementById("cb-3"), false);
+                                 setBoxState(document.getElementById("cb-4"), false);
+                                 setBoxState(document.getElementById("cb-5"), true);
+                                 setBoxState(document.getElementById("cb-6"), true);
+                                 setBoxState(document.getElementById("cb-7"), true);
+                                 setBoxState(document.getElementById("cb-8"), true);
+                                 setBoxState(document.getElementById("cb-9"), false);
+                                 setBoxState(document.getElementById("cb-10"), true);
+                                 setBoxState(document.getElementById("cb-11"), true);
+                                 setBoxState(document.getElementById("cb-12"), true);
+                                 setBoxState(document.getElementById("cb-13"), true);
+                                 setBoxState(document.getElementById("cb-14"), false);
+                                 setBoxState(document.getElementById("cb-15"), false);
+                                 setBoxState(document.getElementById("cb-16"), false);
+                                 setBoxState(document.getElementById("cb-17"), false);
+             setRowBG();
+        }
+
+        setRowBG();
+    </script>
+
+
+</body>
+</html>
