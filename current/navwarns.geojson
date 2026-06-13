@@ -2289,6 +2289,34 @@
     },
     {
       "type": "Feature",
+      "id": "ESTONIAN NAV WARN 086/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.366666666666667,
+          59.61666666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-12T08:10:00",
+        "raw_dtg": "120810Z JUN 26",
+        "msg_id": "ESTONIAN NAV WARN 086/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 086/26\nGULF OF FINLAND.\n150600-151400 UTC JUN\nFIRING PRACTICE AREA 4B\nCENTRED 59-37N 026-22E\nDRONE EXERCISE IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA.\nCANCEL 151400 UTC JUN.",
+        "cancel_date": null,
+        "valid_from": "2026-06-12T08:10:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Drone Exercise Warning"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 55/26",
       "geometry": {
         "type": "Point",
@@ -2763,6 +2791,36 @@
         "summary": null,
         "category": "military",
         "title": "Minesweeping Exercise Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GERMAN NAV WARN 343/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.883333333333333,
+          54.833333333333336
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-12T08:17:00",
+        "raw_dtg": "120817Z JUN 26",
+        "msg_id": "GERMAN NAV WARN 343/26",
+        "year": 2026,
+        "cancellations": [
+          "250/26"
+        ],
+        "hazard_type": "aid to navigation outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Western Baltic] GERMAN NAV WARN 343/26\nWESTERN BALTIC.FLENSBURGER FOERDE.\n'KALKGRUND' LIGHTHOUSE  54-50N 009-53E UNLIT.\nCANCEL GERMAN NAV WARN 250/26.",
+        "cancel_date": null,
+        "valid_from": "2026-06-12T08:17:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Kalkgrund Lighthouse Unlit"
       }
     },
     {
