@@ -2561,6 +2561,34 @@
     },
     {
       "type": "Feature",
+      "id": "FINNISH NAV WARN 306/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.190333333333335,
+          62.334
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-14T15:32:00",
+        "raw_dtg": "141532Z JUN 26",
+        "msg_id": "FINNISH NAV WARN 306/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Sea of Bothnia] FINNISH NAV WARN 306/26\n141439 UTC JUN\nFINNISH NAV WARN 306/26\nSEA OF BOTHNIA\nKASKINEN\nLIGHTHOUSE SÄLGRUND NR 7460\nPSN: 62-20.04N 021-11.42E\nLIGHT OUT OF ORDER.",
+        "cancel_date": null,
+        "valid_from": "2026-06-14T15:32:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Kaskinen Lighthouse Unlit"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "GERMAN NAV WARN 161/26",
       "geometry": {
         "type": "Point",
