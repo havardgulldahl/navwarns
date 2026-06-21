@@ -3493,6 +3493,56 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 109/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.5,
+              70.56666666666666
+            ],
+            [
+              38.0,
+              70.56666666666666
+            ],
+            [
+              38.0,
+              69.75
+            ],
+            [
+              35.5,
+              69.75
+            ],
+            [
+              35.5,
+              70.56666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-20T06:00:00",
+        "raw_dtg": "200600Z JUN 26",
+        "msg_id": "HYDROARC 109/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 280100Z JUN 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 109/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS 0600Z TO 0001Z DAILY\n   25 THRU 27 JUN IN AREA BOUND BY\n   70-34.00N 035-30.00E, 70-34.00N 038-00.00E,\n   69-45.00N 038-00.00E, 69-45.00N 035-30.00E.\n2. CANCEL THIS MSG 280100Z JUN 26.",
+        "cancel_date": null,
+        "valid_from": "2026-06-20T06:00:00+00:00",
+        "valid_until": "2026-06-28T01:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Hazardous Russian Operations"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "HYDROARC 145/25(15)",
       "geometry": {
         "type": "Point",
@@ -11373,6 +11423,56 @@
         "summary": null,
         "category": "military",
         "title": "Missile Firings Notice"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 88/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.5,
+              70.56666666666666
+            ],
+            [
+              38.0,
+              70.56666666666666
+            ],
+            [
+              38.0,
+              69.75
+            ],
+            [
+              35.5,
+              69.75
+            ],
+            [
+              35.5,
+              70.56666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "",
+        "msg_id": "NAVAREA XX 88/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 280100 UTC JUN 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 88/26 BARENTS SEA. CHART RUS 10100. 1. SPECIAL ACTIVITIES 25 TO 27 JUN FOR 18 HOURS FROM 0600 UTC IN AREA DANGEROUS TO NAVIGATION BOUNDED BY: 70-34.0N 035-30.0E, 70-34.0N 038-00.0E, 69-45.0N 038-00.0E, 69-45.0N 035-30.0E. 2. CANCEL THIS MSG 280100 UTC JUN 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-01-01T00:00:00+00:00",
+        "valid_until": "2026-06-28T01:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Barents Sea Exercises"
       }
     },
     {
