@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 114/26",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          46.53333333333333,
+          68.63333333333334
+        ],
+        [
+          48.05,
+          68.4
+        ],
+        [
+          48.93333333333333,
+          67.81666666666666
+        ],
+        [
+          44.9,
+          67.31666666666666
+        ],
+        [
+          45.21666666666667,
+          67.57166666666667
+        ],
+        [
+          46.2,
+          68.36666666666666
+        ],
+        [
+          46.53333333333333,
+          68.63333333333334
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-06-24T19:13:00",
+    "raw_dtg": "241913Z JUN 26",
+    "msg_id": "HYDROARC 114/26",
+    "year": 2026,
+    "cancellations": [
+      "HYDROARC 113/26",
+      "THIS MSG 011800Z JUL 26"
+    ],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "HYDROARC 114/26.\nBARENTS SEA.\nWHITE SEA.\nRUSSIA.\n1. MISSILE OPERATIONS 0400Z TO 1700Z DAILY\n   29 JUN THRU 01 JUL IN AREA BOUND BY\n   68-38.00N 046-32.00E, 68-24.00N 048-03.00E,\n   67-49.00N 048-56.00E, 67-19.00N 044-54.00E,\n   67-34.30N 045-13.00E, 68-22.00N 046-12.00E.\n2. CANCEL HYDROARC 113/26.\n3. CANCEL THIS MSG 011800Z JUL 26.",
+    "cancel_date": null,
+    "valid_from": "2026-06-24T19:13:00+00:00",
+    "valid_until": "2026-07-01T18:00:00+00:00",
+    "summary": null
+  }
+}
