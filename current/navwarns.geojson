@@ -2127,6 +2127,34 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 297/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.773333333333333,
+          55.29833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-29T11:09:00",
+        "raw_dtg": "291109Z JUN 26",
+        "msg_id": "DANISH NAV WARN 297/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] DANISH NAV WARN 297/26\nDENMARK.\nDGPS-STATION HAMMER ODDE 289.5 KHZ\n55-17.9N 014-46.4E\nINOPERATIVE.",
+        "cancel_date": null,
+        "valid_from": "2026-06-29T11:09:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "DGPS Hammer Odde Inoperative"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 024/26",
       "geometry": {
         "type": "Point",
@@ -8315,6 +8343,34 @@
         "summary": null,
         "category": "military",
         "title": "Firing Exercise Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LATVIAN NAV WARN 019/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.283333333333335,
+          57.28333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-29T12:46:00",
+        "raw_dtg": "291246Z JUN 26",
+        "msg_id": "LATVIAN NAV WARN 019/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Central Baltic] LATVIAN NAV WARN 019/26\nCENTRAL BALTIC\nVENTSPILS SOUTHWESTWARDS\nTACTICAL EXERCISES “RONIS 2026” IN PROGRESS ON JUL 01 IN AREA\nWITH A RADIUS OF 7 NM FROM CENTER PSN  57-17.00N 021-17.00E.\nCAUTION ADVISED\nINFORMATION ON RESTRICTIONS ON VHF CH 16\nCANCEL THIS MSG ON 012100 UTC JUL",
+        "cancel_date": null,
+        "valid_from": "2026-06-29T12:46:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Tactical Exercise Ronis"
       }
     },
     {
@@ -14806,6 +14862,34 @@
         "summary": null,
         "category": "military",
         "title": "Military Exercise Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 140/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-29T06:00:00",
+        "raw_dtg": "290600Z JUN 26",
+        "msg_id": "POLISH NAV WARN 140/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] POLISH NAV WARN 140/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\n\nFROM 2026-06-29 06:00 TO 2026-06-30 01:00\nFROM 2026-06-30 06:00 TO 2026-07-01 01:00\nTIME IN UTC.\nZONE IS CLOSED\nCANCEL THIS MSG 010100 UTC JUL",
+        "cancel_date": null,
+        "valid_from": "2026-06-29T06:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Polish Coast Military Exercise"
       }
     },
     {
@@ -24069,6 +24153,34 @@
         "summary": null,
         "category": "navigation",
         "title": "Navigation Points Update"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 228/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57333333333333,
+          68.06
+        ]
+      },
+      "properties": {
+        "dtg": "2026-06-30T01:38:17.898665+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 228/26 КАРТА 15016 КНИГА 2103\r\nСВЯТОНОССКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 228/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "БУЙ ИОКАНЬГСКИЙ СВЕТЯЩИЙ ВОСТОЧНЫЙ\n68-03.6С 039-34.4В НР 1190 СНЯТ=\n291000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-06-30T01:38:17.898665+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Buoy Removed Notification"
       }
     },
     {
