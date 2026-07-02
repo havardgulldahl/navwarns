@@ -2155,6 +2155,34 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 298/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.773333333333333,
+          55.29833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-01T05:58:00",
+        "raw_dtg": "010558Z JUL 26",
+        "msg_id": "DANISH NAV WARN 298/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] DANISH NAV WARN 298/26\nDENMARK.\nDGPS-STATION HAMMER ODDE 289.5 KHZ\n55-17.9N 014-46.4E INOPERATIVE.",
+        "cancel_date": null,
+        "valid_from": "2026-07-01T05:58:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Hammer Odde DGPS Outage"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 024/26",
       "geometry": {
         "type": "Point",
@@ -24339,6 +24367,126 @@
         "summary": null,
         "category": "military",
         "title": "Navigation Prohibited Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 234/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.42777777777778,
+          69.62402777777777
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-02T01:38:26.104489+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 234/26 КАРТА 13004\r\n\r\nМОТОВСКИЙ ЗАЛИВ ГУБА ЭЙНА",
+        "msg_id": "PRIP MURMANSK 234/26",
+        "year": 2026,
+        "cancellations": [
+          "291/25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 234 КАРТА 13004\nМОТОВСКИЙ ЗАЛИВ ГУБА ЭЙНА\n1. БУЙ КАРДИНАЛЬНЫЙ ЮЖНЫЙ ВЫСТАВЛЕН\nВ 69-37-26.5С 032-25-40.0В\n2. ОТМ 291/25 И ЭТОТ ПУНКТ=\n011000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-07-02T01:38:26.104489+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Southern Cardinal Buoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 235/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.45166666666667,
+          69.57055555555556
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-02T01:38:26.104285+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 235/26 КАРТА 13004\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 235/26",
+        "year": 2026,
+        "cancellations": [
+          "314/25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 235 КАРТА 13004\nБАРЕНЦЕВО МОРЕ\nБУИ ВЫСТАВЛЕНЫ В\n1. 69-34-14С 033-27-06В\n2. 69-33-42С 033-22-54В\nОБХОДИТЬ 150 МЕТРАХ\n3. ОТМ 314/25 И ЭТОТ ПУНКТ=\n011000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-07-02T01:38:26.104285+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Buoys Deployed Barents Sea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 236/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.49666666666667,
+          69.19166666666666
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-02T01:38:26.104038+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 236/26 КАРТА 17052 КНИГА 2103\r\n\r\nКОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 236/26",
+        "year": 2026,
+        "cancellations": [
+          "340/25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 236 КАРТА 17052 КНИГА 2103\nКОЛЬСКИЙ ЗАЛИВ\n1. ХАРАКТЕРИСТИКА ОГНЯ ЗНАКА ПРИСТАНСКИЙ\nПЕРЕДНИЙ СТВОРНЫЙ 69-11.5С 033-29.8В НР 435\nИЗМЕНЕНА НА ЗЛ ПР 1.5С ПР 0.5 ТМ 1.0\n2. ОТМ 340/25 И ЭТОТ ПУНКТ=\n011000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-07-02T01:38:26.104038+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Aids Light Changed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 237/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.48861111111111,
+          69.24694444444445
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-02T01:38:26.103487+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 237/26 КАРТА 15005\r\n\r\nКОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 237/26",
+        "year": 2026,
+        "cancellations": [
+          "349/25"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 237 КАРТА 15005\nКОЛЬСКИЙ ЗАЛИВ\n1. ШВАРТОВНАЯ БОЧКА 69-14-49С 033-29-19В\nСМЕЩЕНА В 69-14-45С 033-29-09В\n2. ОТМ 349/25 И ЭТОТ ПУНКТ=\n011000 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-07-02T01:38:26.103487+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Buoy Position Shift"
       }
     },
     {
