@@ -2611,6 +2611,34 @@
     },
     {
       "type": "Feature",
+      "id": "ESTONIAN NAV WARN 097/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.55,
+          59.36666666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-05T05:41:00",
+        "raw_dtg": "050541Z JUL 26",
+        "msg_id": "ESTONIAN NAV WARN 097/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 097/26\nGULF OF FINLAND\n080600-081400 UTC JUL\nNE OF OSMUSSAAR ISLAND\nFIRING PRACTICE AREA 1A\nCENTRED 59-22N 023-33E\nFIRING EXERCISES IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA\nSTANDING BY VHF CH 16 AND 61\nCANCEL 081400 UTC JUL",
+        "cancel_date": null,
+        "valid_from": "2026-07-05T05:41:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Firing Practice Area"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 55/26",
       "geometry": {
         "type": "Point",
@@ -2683,6 +2711,34 @@
         "summary": null,
         "category": "military",
         "title": "Naval Operation Baltic Sea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FINNISH NAV WARN 0970/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.55,
+          59.36666666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-05T05:05:00",
+        "raw_dtg": "050505Z JUL 26",
+        "msg_id": "FINNISH NAV WARN 0970/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] FINNISH NAV WARN 0970/26\nGULF OF FINLAND\n080600-081400 UTC JUL\nNE OF OSMUSSAAR ISLAND\nFIRING PRACTICE AREA 1A\nCENTRED 59-22N 023-33E\nFIRING EXERCISES IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA\nSTANDING BY VHF CH 16 AND 61\nCANCEL 081400 UTC JU",
+        "cancel_date": null,
+        "valid_from": "2026-07-05T05:05:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Firing Exercises Osmussaar"
       }
     },
     {
