@@ -2715,6 +2715,54 @@
     },
     {
       "type": "Feature",
+      "id": "ESTONIAN NAV WARN 96/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.333166666666667,
+              58.78816666666667
+            ],
+            [
+              21.71366666666667,
+              58.6765
+            ],
+            [
+              21.769,
+              58.59
+            ],
+            [
+              22.3865,
+              58.70316666666667
+            ],
+            [
+              22.333166666666667,
+              58.78816666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-06T10:00:00",
+        "raw_dtg": "061000Z JUL 26",
+        "msg_id": "ESTONIAN NAV WARN 96/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Gulf of Riga] ESTONIAN NAV WARN 96/26\nNORTHERN BALTIC SEA\n7, 9-10 JUL\n10:00-13:00 UTC DAILY\nBETWEEN SAAREMAA AND HIIUMAA ISLAND\nFIRING EXERCISES IN PROGRESS\nIN AREA BOUNDED BY:\n58-47.29N 022-19.99E\n58-40.59N 021-42.82E\n58-35.40N 021-46.14E\n58-42.19N 022-23.19E\nSHIPPING IN AREA TEMPORARILY PROHIBITED\nCANCEL 101300 UTC JUL",
+        "cancel_date": null,
+        "valid_from": "2026-07-06T10:00:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Firing Exercises Area"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "FINNISH NAV WARN 0970/26",
       "geometry": {
         "type": "Point",
@@ -4076,6 +4124,68 @@
         "summary": null,
         "category": "military",
         "title": "Hazardous Military Operations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 122/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.93333333333333,
+              70.11666666666666
+            ],
+            [
+              36.11666666666667,
+              69.45833333333333
+            ],
+            [
+              35.18333333333333,
+              69.48333333333333
+            ],
+            [
+              33.69166666666667,
+              69.53333333333333
+            ],
+            [
+              33.06666666666667,
+              69.68333333333334
+            ],
+            [
+              33.06666666666667,
+              69.73333333333333
+            ],
+            [
+              35.03333333333333,
+              70.05
+            ],
+            [
+              35.93333333333333,
+              70.11666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-06T18:27:00",
+        "raw_dtg": "061827Z JUL 26",
+        "msg_id": "HYDROARC 122/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 131800Z JUL 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 122/26.\nBARENTS SEA.\nRUSSIA.\n1. MISSILE OPERATIONS 0500Z TO 1700Z DAILY\n   11 THRU 13 JUL IN AREA BOUND BY\n   70-07.00N 035-56.00E, 69-27.50N 036-07.00E,\n   69-29.00N 035-11.00E, 69-32.00N 033-41.50E,\n   69-41.00N 033-04.00E, 69-44.00N 033-04.00E,\n   70-03.00N 035-02.00E.\n2. CANCEL THIS MSG 131800Z JUL 26.",
+        "cancel_date": null,
+        "valid_from": "2026-07-06T18:27:00+00:00",
+        "valid_until": "2026-07-13T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Operations Warning"
       }
     },
     {
@@ -8551,6 +8661,34 @@
     },
     {
       "type": "Feature",
+      "id": "LATVIAN NAV WARN 020/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.883333333333333,
+          56.71666666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-06T13:20:00",
+        "raw_dtg": "061320Z JUL 26",
+        "msg_id": "LATVIAN NAV WARN 020/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Central Baltic] LATVIAN NAV WARN 020/26\nCENTRAL BALTIC. LIEPAJA NORTHWARDS.\nFIRING EXERCISE IN PROGRESS ON JULY 08-09 FROM 0700-1700 UTC  IN\nM2 AREA WITH A RADIUS OF 9 NM FROM CENTER PSN N 56-43.00N 020-53.00E\nAREA CLOSED FOR NAVIGATION DURING EXERCISE\nWIDE BERTH REQUESTED\nINFORMATION ON RESTRICTIONS ON VHF CH 16\nCANCEL THIS MSG ON 091700 UTC JUL",
+        "cancel_date": null,
+        "valid_from": "2026-07-06T13:20:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Firing Exercise, Central Baltic"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "LITHUANIAN NAV WARN 008/26",
       "geometry": {
         "type": "Point",
@@ -12662,6 +12800,68 @@
         "summary": null,
         "category": "navigation",
         "title": "Adrift Half-Submerged Object"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XX 99/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.93333333333333,
+              70.11666666666666
+            ],
+            [
+              36.11666666666667,
+              69.45833333333333
+            ],
+            [
+              35.18333333333333,
+              69.48333333333333
+            ],
+            [
+              33.69166666666667,
+              69.53333333333333
+            ],
+            [
+              33.06666666666667,
+              69.68333333333334
+            ],
+            [
+              33.06666666666667,
+              69.73333333333333
+            ],
+            [
+              35.03333333333333,
+              70.05
+            ],
+            [
+              35.93333333333333,
+              70.11666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": null,
+        "raw_dtg": "",
+        "msg_id": "NAVAREA XX 99/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 131800 UTC JUL 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XX 99/26 BARENTS SEA EAST OF RYBACHIY PENINSULA. CHART RUS 10100. 1. MISSILE FIRINGS 0500 TO 1700 UTC DAILY 11 TO 13 JUL NAVIGATION PROHIBITED IN TERRITORIAL WATERS DANGEROUS OUTSIDE IN AREA BOUNDED BY: 70-07.0N 035-56.0E, 69-27.5N 036-07.0E, 69-29.0N 035-11.0E, 69-32.0N 033-41.5E, 69-41.0N 033-04.0E, THEN COASTAL LINE TO 69-44.0N 033-04.0E, 70-03.0N 035-02.0E. 2. CANCEL THIS MSG 131800 UTC JUL 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-01-01T00:00:00+00:00",
+        "valid_until": "2026-07-13T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Firings Barents"
       }
     },
     {
@@ -25163,6 +25363,158 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 244/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.93333333333333,
+            70.11666666666666
+          ],
+          [
+            36.11666666666667,
+            69.45833333333333
+          ],
+          [
+            35.18333333333333,
+            69.48333333333333
+          ],
+          [
+            33.69166666666667,
+            69.53333333333333
+          ],
+          [
+            33.06666666666667,
+            69.68333333333334
+          ],
+          [
+            33.06666666666667,
+            69.73333333333333
+          ],
+          [
+            35.03333333333333,
+            70.05
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-07T04:41:29.727330+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 244/26 ПРИП МУРМАНСК 244 КАРТА 10100\r\n\r\nВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
+        "msg_id": "PRIP MURMANSK 244/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 131800 UTC JUL 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ РАКЕТНЫЕ 11 ПО 13 ИЮЛЬ 0500 ДО 1700\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ\nОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНE\n70-07.0С 035-56.0В\n69-27.5С 036-07.0В\n69-29.0С 035-11.0В\n69-32.0С 033-41.5В\n69-41.0С 033-04.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-44.0С 033-04.0В\n70-03.0С 035-02.0В\n2. ОТМ ЭТОТ НР 131800 ИЮЛЬ=\n061000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-07-07T04:41:29.727330+00:00",
+        "valid_until": "2026-07-13T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Rocket Firing Exercises"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 245/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.166666666666664,
+              69.33333333333333
+            ],
+            [
+              33.55,
+              69.33333333333333
+            ],
+            [
+              33.55,
+              69.2
+            ],
+            [
+              33.166666666666664,
+              69.2
+            ],
+            [
+              33.166666666666664,
+              69.33333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-07T04:41:29.726963+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 245/26 ПРИП МУРМАНСК 245 КАРТА 13004\r\n\r\nКОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 245/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 131400 UTC JUL 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 10 И 13 ИЮЛЬ\n0700 ДО 1300 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-20.0С 033-10.0В\n69-20.0С 033-33.0В\n69-12.0С 033-33.0В\n69-12.0С 033-10.0В\nИСКЛЮЧАЯ ОСТРОВА И БЕРЕГОВУЮ ЧАСТЬ\n2. ОТМ ЭТОТ НР 131400 ИЮЛЬ=\n061000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-07-07T04:41:29.726963+00:00",
+        "valid_until": "2026-07-13T14:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Dates"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 246/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.40222222222222,
+              69.28555555555555
+            ],
+            [
+              33.55,
+              69.25666666666666
+            ],
+            [
+              33.480000000000004,
+              69.2125
+            ],
+            [
+              33.40222222222222,
+              69.28555555555555
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-07T04:41:29.725986+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 246/26 ПРИП МУРМАНСК 246 КАРТА 15005\r\n\r\nКОЛЬСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 246/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 101100 UTC JUL 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 09 ПО 10 ИЮЛЬ 0700 ДО 1000\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-17-08С 033-24-08В\n69-15-24С 033-33-00В\n69-12-45С 033-28-48В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-17-08С 033-24-08В\nИСКЛЮЧАЯ ОСТРОВА И ГУБЫ\n2. ОТМ ЭТОТ НР 101100 ИЮЛЬ=\n061000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-07-07T04:41:29.725986+00:00",
+        "valid_until": "2026-07-10T11:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 27/22",
       "geometry": {
         "type": "LineString",
@@ -33693,6 +34045,50 @@
         "summary": null,
         "category": "navigation",
         "title": "Iceberg at Laptev"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 56/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.465,
+            77.88333333333334
+          ],
+          [
+            103.64333333333333,
+            77.83166666666666
+          ],
+          [
+            104.465,
+            77.88333333333334
+          ],
+          [
+            103.64333333333333,
+            77.83166666666666
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-07T04:41:29.728640+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 56/26 КАРТА 12334 КАРСКОЕ МОРЕ",
+        "msg_id": "PRIP WEST 56/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 080955 UTC JUL 26"
+        ],
+        "hazard_type": "ice and icebergs",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "1.АЙСБЕРГИ 050955 ИЮЛЬ В А. 77-53.0С 104-27.9В\nБ. 77-49.9С 103-38.6В\n2.ОТМ ЭТОТ НР 080955 ИЮЛЬ = \n\nCOASTAL WARNING WEST 56/26 KARA SEA.\nCHART RUS 12334.\n1.ICEBERGS AT 050955 UTC JUL IN: A. 77-53.0N 104-27.9E.\nB. 77-49.9N 103-38.6E.\n2.CANCEL THIS MSG 080955 UTC JUL 26.= \nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-07-07T04:41:29.728640+00:00",
+        "valid_until": "2026-07-08T09:55:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Icebergs Kara Sea"
       }
     },
     {
