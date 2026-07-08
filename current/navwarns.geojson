@@ -17480,6 +17480,56 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP ARKHANGELSK 61/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.35,
+              64.62066666666666
+            ],
+            [
+              39.483333333333334,
+              64.65
+            ],
+            [
+              39.6,
+              64.6
+            ],
+            [
+              39.471666666666664,
+              64.57066666666667
+            ],
+            [
+              39.35,
+              64.62066666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-08T04:08:20.481778+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 61/26 КАРТА 16004  ДВИНСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP ARKHANGELSK 61/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 101100 UTC JUL 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 61 КАРТА 16004  \nДВИНСКИЙ ЗАЛИВ \n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 09 И 10 ИЮЛЬ\n0700 ДО 1000 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n64-37.24С 039-21.00В \n64-39.00С 039-29.00В \n64-36.00С 039-36.00В \n64-34.24С 039-28.30В \nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n64-37.24С 039-21.00В \n2. ОТМ ЭТОТ НР 101100 ИЮЛЬ=\n071000 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-07-08T04:08:20.481778+00:00",
+        "valid_until": "2026-07-10T11:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing July"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP ARKHANGELSK 7/26",
       "geometry": {
         "type": "Point",
@@ -25511,6 +25561,56 @@
         "summary": null,
         "category": "military",
         "title": "Artillery Firing Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 247/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.81666666666667,
+              69.395
+            ],
+            [
+              34.031666666666666,
+              69.405
+            ],
+            [
+              33.95333333333333,
+              69.33833333333334
+            ],
+            [
+              33.645,
+              69.34166666666667
+            ],
+            [
+              33.81666666666667,
+              69.395
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-08T04:08:20.479961+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 247/26 КАРТА 12000 ЗАПАДНЕЕ ОСТРОВА КИЛЬДИН",
+        "msg_id": "PRIP MURMANSK 247/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 122000 UTC JUL 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 11 ПО 12 ИЮЛЬ\n0700 ДО 1900 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-23.7С 033-49.0В\n69-24.3С 034-01.9В\n69-20.3С 033-57.2В\n69-20.5С 033-38.7В\n2. ОТМ ЭТОТ НР 122000 ИЮЛЬ=\n071000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-07-08T04:08:20.479961+00:00",
+        "valid_until": "2026-07-12T20:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Artillery Firing Zone"
       }
     },
     {
@@ -34089,6 +34189,36 @@
         "summary": null,
         "category": "navigation",
         "title": "Icebergs Kara Sea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 57/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.365,
+          69.10166666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-08T04:08:20.482307+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 57/26 КАРТА 13334 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "msg_id": "PRIP WEST 57/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 090810 UTC JUL 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "1.БУЙ КРАСНО- БЕЛОГО ЦВЕТА С ТОПОВОЙ ФИГУРОЙ ШАР ДРЕЙФУЕТ 060810 ИЮЛЬ В 69-06.1С 073-21.9В\n2.ОТМ ЭТОТ НР 090810 ИЮЛЬ = \nCOASTAL WARNING WEST 57/26 KARA SEA.\nOBSKAYA GUBA. CHART RUS 13334.\n1.BUOY RED AND WHITE COLOR WITH SPHERICAL TOP MARK ADRIFT 060810 UTC JUL IN: 69-06.1N 073-21.9E.\n2.CANCEL THIS MSG 090810 UTC JUL 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-07-08T04:08:20.482307+00:00",
+        "valid_until": "2026-07-09T08:10:00+00:00",
+        "summary": null,
+        "category": "navigation",
+        "title": "Adrift Buoy in Kara Sea"
       }
     },
     {
