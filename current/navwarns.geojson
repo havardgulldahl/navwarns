@@ -2667,6 +2667,82 @@
     },
     {
       "type": "Feature",
+      "id": "ESTONIAN NAV WARN 110/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.333166666666667,
+              58.78816666666667
+            ],
+            [
+              21.71366666666667,
+              58.6765
+            ],
+            [
+              21.769,
+              58.59
+            ],
+            [
+              22.3865,
+              58.70316666666667
+            ],
+            [
+              22.333166666666667,
+              58.78816666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-17T06:48:00",
+        "raw_dtg": "170648Z JUL 26",
+        "msg_id": "ESTONIAN NAV WARN 110/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Northern Baltic] ESTONIAN NAV WARN 110/26\nESTONIAN NAV WARN, NORTHERN BALTIC SEA\n20-21 JUL 10:00-13:00 UTC DAILY\nBETWEEN SAAREMAA AND HIIUMAA ISLAND\nFIRING EXERCISES IN PROGRESS IN AREA BOUNDED BY:\n58-47.29N 022-19.99E\n58-40.59N 021-42.82E\n58-35.40N 021-46.14E\n58-42.19N 022-23.19E\nSHIPPING IN AREA TEMPORARILY PROHIBITED\nCANCEL 211300 UTC JUL",
+        "cancel_date": null,
+        "valid_from": "2026-07-17T06:48:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "military",
+        "title": "Firing Exercises Warning"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ESTONIAN NAV WARN 111/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.76,
+          58.02333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-17T12:56:00",
+        "raw_dtg": "171256Z JUL 26",
+        "msg_id": "ESTONIAN NAV WARN 111/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Central Baltic] ESTONIAN NAV WARN 111/26\nESTONIAN NAV WARN 111/2026\nNORTHERN BALTIC SEA\nFOR RESEARCH PURPOSES\nINSTALLED 4 YELLOW SPECIAL-PURPOSE\nLIGHT BUOYS FLY2S 3,5M\nSW OF SAAREMAA ISLAND\nBETWEEN POSITIONS:\n58-01.4N 021-45.6E\n57-59.9N 021-47.9E\nNAVIGATE WITH CAUTION",
+        "cancel_date": null,
+        "valid_from": "2026-07-17T12:56:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Yellow Buoys Installed"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 55/26",
       "geometry": {
         "type": "Point",
@@ -3067,6 +3143,34 @@
         "summary": null,
         "category": "other",
         "title": "Underwater Diving Operations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FINNISH NAV WARN 362/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.075,
+          59.43333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-17T18:03:00",
+        "raw_dtg": "171803Z JUL 26",
+        "msg_id": "FINNISH NAV WARN 362/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Northern Baltic] FINNISH NAV WARN 362/26\n171730 UTC JUL\nUNDERWATER DIVING OPERATIONS\nARE TEMPORARILY PAUSED DUE TO WEATHER\nIN VICINITY OF 59-26.0N 021-04.5E.\nSEVERAL MARKER BUOYS ARE ANCHORED IN THE AREA.\nMARINERS ARE REQUESTED TO KEEP SHARP LOOKOUT\nAND MINIMUM DISTANCE OF 1.4 NM FROM THE AREA",
+        "cancel_date": null,
+        "valid_from": "2026-07-17T18:03:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Diving Operations Paused"
       }
     },
     {
@@ -37764,6 +37868,34 @@
         "summary": null,
         "category": "navigation",
         "title": "Seismic Survey Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 69/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9395,
+          68.49366666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-18T03:48:07.298525+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 69/26 КАРТА 15335 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "msg_id": "PRIP WEST 69/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "КАРСКОЕ МОРЕ ОБСКАЯ ГУБА МАРЕОГРАФ ВЫСТАВЛЕН В\n68-29.62С 073-56.37В ГЛУБИНА ПОСТАНОВКИ 10 МЕТРОВ СИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ= \nCOASTAL WARNING WEST 69/26 KARA SEA.\nOBSKAYA GUBA. CHART RUS 15335.\nMAREOGRAPH ESTABLISHED IN:\n68-29.62N 073-56.37E DEPTH OF STAGING 10 METRES. WGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-07-18T03:48:07.298525+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Mareograph Hazard"
       }
     },
     {
