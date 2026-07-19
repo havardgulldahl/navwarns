@@ -3175,6 +3175,34 @@
     },
     {
       "type": "Feature",
+      "id": "FINNISH NAV WARN 366/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.075,
+          59.43333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-17T17:30:00",
+        "raw_dtg": "171730Z JUL 26",
+        "msg_id": "FINNISH NAV WARN 366/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Northern Baltic] FINNISH NAV WARN 366/26\nUNDERWATER DIVING OPERATIONS ARE TEMPORARILY PAUSED DUE TO WEATHER IN VICINITY OF 59-26.0N 021-04.5E.\nSEVERAL MARKER BUOYS ARE ANCHORED IN THE AREA. THE DANGER AREA IS MARKED WITH A VIRTUAL AIS NAMED DIVING 1.4 NM CPA.\nMARINERS ARE REQUESTED TO KEEP SHARP LOOKOUT AND MINIMUM DISTANCE OF 1.4 NM FROM THE AREA.”",
+        "cancel_date": null,
+        "valid_from": "2026-07-17T17:30:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Area Marked Buoys"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "GERMAN NAV WARN 161/26",
       "geometry": {
         "type": "Point",
