@@ -2771,6 +2771,34 @@
     },
     {
       "type": "Feature",
+      "id": "ESTONIAN NAV WARN 112/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8425,
+          59.77466666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-21T09:17:00",
+        "raw_dtg": "210917Z JUL 26",
+        "msg_id": "ESTONIAN NAV WARN 112/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 112/26\nGULF OF FINLAND\n23-24 JUL\n07:00-12:00 UTC DAILY\nDIVING WORKS\nIN POSITION 59-46.48N 024-50.55E\nSAFETY ZONE RADIUS 0.27 NM\nSTANDING BY VHF CH 16 AND 61\nCANCEL 241200 UTC JUL",
+        "cancel_date": null,
+        "valid_from": "2026-07-21T09:17:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Gulf of Finland Diving"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 55/26",
       "geometry": {
         "type": "Point",
@@ -3227,6 +3255,34 @@
         "summary": null,
         "category": "navigation",
         "title": "Area Marked Buoys"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FINNISH NAV WARN 372/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.075,
+          59.43333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-21T12:12:00",
+        "raw_dtg": "211212Z JUL 26",
+        "msg_id": "FINNISH NAV WARN 372/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] FINNISH NAV WARN 372/26\nNORTHERN BALTIC\nUNDERWATER DIVING OPERATIONS IN PROGRESS BY SEVERAL WORKING VESSELS IN VICINITY OF 59-26.0N 021-04.5E.\nSEVERAL MARKER BUOYS ARE ANCHORED IN THE AREA. MARINERS ARE REQUESTED TO KEEP SHARP LOOKOUT AND MINIMUM DISTANCE OF 1.4 NM FROM THE AREA.",
+        "cancel_date": null,
+        "valid_from": "2026-07-21T12:12:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Diving Operations Baltic"
       }
     },
     {
@@ -10227,6 +10283,36 @@
         "summary": null,
         "category": "military",
         "title": "Military Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LITHUANIAN NAV WARN LIT 054/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.85,
+          55.49333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-21T12:37:00",
+        "raw_dtg": "211237Z JUL 26",
+        "msg_id": "LITHUANIAN NAV WARN LIT 054/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 231600 UTC JUL 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN LIT 054/26\nLITHUANIAN COAST – MILITARY EXERCISES\nMILITARY EXERCISES:\n23 JUL 0600–1500 UTC IN AREA EYD-18, CENTERED IN 55-29.6N 020-51.0E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 231600 UTC JUL 26.",
+        "cancel_date": null,
+        "valid_from": "2026-07-21T12:37:00+00:00",
+        "valid_until": "2026-07-23T16:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Lithuanian Military Exercises"
       }
     },
     {
