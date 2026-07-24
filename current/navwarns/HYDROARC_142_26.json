@@ -1,0 +1,48 @@
+{
+  "type": "Feature",
+  "id": "HYDROARC 142/26",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.5,
+          71.66666666666667
+        ],
+        [
+          38.0,
+          71.66666666666667
+        ],
+        [
+          38.0,
+          71.5
+        ],
+        [
+          35.5,
+          71.5
+        ],
+        [
+          35.5,
+          71.66666666666667
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-07-22T17:32:00",
+    "raw_dtg": "221732Z JUL 26",
+    "msg_id": "HYDROARC 142/26",
+    "year": 2026,
+    "cancellations": [
+      "THIS MSG 281800Z JUL 26"
+    ],
+    "hazard_type": "hazardous operations",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "HYDROARC 142/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS 280500Z TO 281700Z JUL\n   IN AREA BOUND BY\n   71-40.00N 035-30.00E, 71-40.00N 038-00.00E,\n   71-30.00N 038-00.00E, 71-30.00N 035-30.00E.\n2. CANCEL THIS MSG 281800Z JUL 26.",
+    "cancel_date": null,
+    "valid_from": "2026-07-22T17:32:00+00:00",
+    "valid_until": "2026-07-28T18:00:00+00:00",
+    "summary": null
+  }
+}
