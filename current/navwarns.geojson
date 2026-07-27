@@ -6068,6 +6068,100 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 148/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.333333333333336,
+              74.03333333333333
+            ],
+            [
+              42.21666666666667,
+              73.25
+            ],
+            [
+              37.666666666666664,
+              70.9
+            ],
+            [
+              37.53333333333333,
+              70.01666666666667
+            ],
+            [
+              37.0,
+              69.83333333333333
+            ],
+            [
+              36.65,
+              69.81666666666666
+            ],
+            [
+              36.016666666666666,
+              69.6
+            ],
+            [
+              35.35,
+              69.6
+            ],
+            [
+              34.5,
+              69.63333333333334
+            ],
+            [
+              34.05,
+              69.705
+            ],
+            [
+              33.1,
+              69.7
+            ],
+            [
+              32.55,
+              69.78333333333333
+            ],
+            [
+              32.53333333333333,
+              70.43333333333334
+            ],
+            [
+              33.36666666666667,
+              72.23333333333333
+            ],
+            [
+              32.333333333333336,
+              73.76666666666667
+            ],
+            [
+              37.333333333333336,
+              74.03333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-26T08:09:00",
+        "raw_dtg": "260809Z JUL 26",
+        "msg_id": "HYDROARC 148/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 301800Z JUL 26"
+        ],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 148/26\nBARENTS SEA.\nRUSSIA.\n1. MISSILE OPERATIONS DAILY 282100Z TO 301700Z JUL\n   IN AREA BOUND BY:\n   74-02.00N 037-20.00E, 73-15.00N 042-13.00E,\n   70-54.00N 037-40.00E, 70-01.00N 037-32.00E,\n   69-50.00N 037-00.00E, 69-49.00N 036-39.00E,\n   69-36.00N 036-01.00E, 69-36.00N 035-21.00E,\n   69-38.00N 034-30.00E, 69-42.30N 034-03.00E,\n   69-42.00N 033-06.00E. 69-47.00N 032-33.00E,\n   70-26.00N 032-32.00E, 72-14.00N 033-22.00E,\n   73-46.00N 032-20.00E.\n2. CANCEL THIS MSG 301800Z JUL 26.",
+        "cancel_date": null,
+        "valid_from": "2026-07-26T08:09:00+00:00",
+        "valid_until": "2026-07-30T18:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Missile Operations Notice"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "HYDROARC 163/23(15)",
       "geometry": {
         "type": "Point",
@@ -7679,6 +7773,34 @@
         "summary": null,
         "category": "military",
         "title": "Rocket Launch Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 73/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4465,
+          73.13733333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-26T09:05:00",
+        "raw_dtg": "260905Z JUL 26",
+        "msg_id": "HYDROARC 73/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "HYDROARC 73/26.\nKARA SEA.\nRUSSIA.\nHAZARDOUS OPERATIONS, TIDE GAUGE ESTABLISHED\nIN 73-08.24N 080-26.79E,\nAT DEPTH 15 METERS.\nWIDE BERTH REQUESTED.",
+        "cancel_date": null,
+        "valid_from": "2026-07-26T09:05:00+00:00",
+        "valid_until": null,
+        "summary": null,
+        "category": "navigation",
+        "title": "Tide Gauge Hazard"
       }
     },
     {
@@ -11092,6 +11214,36 @@
         "cancel_date": null,
         "valid_from": "2026-06-19T09:35:00+00:00",
         "valid_until": "2026-06-26T17:00:00+00:00",
+        "summary": null,
+        "category": "military",
+        "title": "Military Exercises Baltic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LITHUANIAN NAV WARN 055/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.85,
+          55.49333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-07-26T09:30:00",
+        "raw_dtg": "260930Z JUL 26",
+        "msg_id": "LITHUANIAN NAV WARN 055/26",
+        "year": 2026,
+        "cancellations": [
+          "THIS MSG 281400 UTC JUL 26"
+        ],
+        "hazard_type": "general",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 055/26\nSOUTH-EASTERN BALTIC. LITHUANIAN COAST.\nMILITARY EXERCISES 1000–1300 UTC DAILY\n27–28 JUL IN AREA EYD-18, CENTERED\nIN 55-29.6N 020-51.0E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 281400 UTC JUL 26.",
+        "cancel_date": null,
+        "valid_from": "2026-07-26T09:30:00+00:00",
+        "valid_until": "2026-07-28T14:00:00+00:00",
         "summary": null,
         "category": "military",
         "title": "Military Exercises Baltic"
