@@ -17,6 +17,7 @@ scrapers.
 
 from __future__ import annotations
 
+import argparse
 import datetime
 import gzip
 import json
@@ -71,6 +72,54 @@ logging.basicConfig(
 COORD_LINE_RE = re.compile(r"^(-?\d+\.\d+)\s+(-?\d+\.\d+)\s+\d+\s+\S+$")
 # Regex for MTekst lines
 MTEKST_RE = re.compile(r"^MTekst \d+:\s*(.*)$")
+
+# English month name prefix (case-insensitive) → month number
+_MONTH_NUM: dict = {
+    "jan": 1,
+    "feb": 2,
+    "mar": 3,
+    "apr": 4,
+    "may": 5,
+    "jun": 6,
+    "jul": 7,
+    "aug": 8,
+    "sep": 9,
+    "oct": 10,
+    "nov": 11,
+    "dec": 12,
+}
+
+
+def _month_num(name: str) -> int:
+    return _MONTH_NUM[name.lower()[:3]]
+
+
+# Pattern 1: "is active DD.MM[-DD.MM].YYYY" / "er aktivt ..."
+# Start date may carry its own year: DD.MM.YYYY-DD.MM.YYYY
+_ACTIVE_PERIOD_RE = re.compile(
+    r"(?:is active|er aktivt)\s+(\d{2}\.\d{2}(?:\.\d{4})?)-(\d{2}\.\d{2}\.\d{4})"
+)
+# Pattern 2: "is active on Month Dth" (single-day, no year in text)
+_ACTIVE_ON_RE = re.compile(
+    r"is active on ([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)\b",
+    re.IGNORECASE,
+)
+_BACKUP_DAY_RE = re.compile(
+    r"[Bb]ackup day is ([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)\b",
+)
+# Pattern 3: "During the period D-D Month YYYY"
+_PERIOD_DURING_RE = re.compile(
+    r"[Dd]uring the period\s+(\d{1,2})-(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})",
+)
+# Pattern 4: "In/During the period D Month - D Month YYYY"
+_PERIOD_D_MON_RE = re.compile(
+    r"(?:In|During) the period\s+(\d{1,2})\s+([A-Za-z]+)\s*[-\u2013]\s*(\d{1,2})\s+([A-Za-z]+)[,\s]+(\d{4})",
+    re.IGNORECASE,
+)
+# Pattern 5: "In the period Month Dth - Month Dth, YYYY"
+_PERIOD_MON_D_RE = re.compile(
+    r"[Ii]n the period\s+([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?\s*[-\u2013]\s*([A-Za-z]+)\s*(\d{1,2})(?:st|nd|rd|th)?,?\s*(\d{4})",
+)
 
 
 @dataclass
@@ -208,6 +257,120 @@ def _apply_mtekst(
     route.description_en = " ".join(en_parts).strip()
 
 
+def parse_active_period(
+    text: str,
+) -> Tuple[Optional[datetime.datetime], Optional[datetime.datetime]]:
+    """Extract (valid_from, valid_until) from an active-period string.
+
+    Tries five patterns in order of specificity:
+    1. "is active DD.MM[-DD.MM].YYYY" / "er aktivt ..."
+    2. "is active on Month D[ordinal]" with optional "Backup day is ..."
+    3. "During the period D-D Month YYYY"
+    4. "In/During the period D Month - D Month YYYY"
+    5. "In the period Month Dth - Month Dth, YYYY"
+
+    Returns (None, None) if no match is found.
+    """
+    tz = datetime.timezone.utc
+
+    def _dt(
+        year: int,
+        month: int,
+        day: int,
+        h: int = 0,
+        mi: int = 0,
+        s: int = 0,
+    ) -> datetime.datetime:
+        return datetime.datetime(year, month, day, h, mi, s, tzinfo=tz)
+
+    # Pattern 1: DD.MM[-DD.MM].YYYY
+    m = _ACTIVE_PERIOD_RE.search(text)
+    if m:
+        try:
+            start_parts = m.group(1).split(".")
+            end_day, end_month, end_year = (int(x) for x in m.group(2).split("."))
+            start_day, start_month = int(start_parts[0]), int(start_parts[1])
+            if len(start_parts) == 3:
+                start_year = int(start_parts[2])
+            else:
+                start_year = end_year if start_month <= end_month else end_year - 1
+            return _dt(start_year, start_month, start_day), _dt(
+                end_year, end_month, end_day, 23, 59, 59
+            )
+        except (ValueError, TypeError):
+            pass
+
+    # Year fallback for patterns that carry no year in their text
+    m_year = re.search(r"\b(20\d{2})\b", text)
+    ref_year = int(m_year.group(1)) if m_year else datetime.datetime.now(tz).year
+
+    # Pattern 2: "is active on Month Dth" (year not in text; backup day = valid_until)
+    m = _ACTIVE_ON_RE.search(text)
+    if m:
+        try:
+            start_month = _month_num(m.group(1))
+            start_day = int(m.group(2))
+            mb = _BACKUP_DAY_RE.search(text)
+            if mb:
+                end_month = _month_num(mb.group(1))
+                end_day = int(mb.group(2))
+            else:
+                end_month, end_day = start_month, start_day
+            end_year = ref_year
+            start_year = ref_year if start_month <= end_month else ref_year - 1
+            return _dt(start_year, start_month, start_day), _dt(
+                end_year, end_month, end_day, 23, 59, 59
+            )
+        except (ValueError, TypeError, KeyError):
+            pass
+
+    # Pattern 3: "During the period D-D Month YYYY"
+    m = _PERIOD_DURING_RE.search(text)
+    if m:
+        try:
+            start_day, end_day = int(m.group(1)), int(m.group(2))
+            month, year = _month_num(m.group(3)), int(m.group(4))
+            return _dt(year, month, start_day), _dt(year, month, end_day, 23, 59, 59)
+        except (ValueError, TypeError, KeyError):
+            pass
+
+    # Pattern 4: "In/During the period D Month - D Month YYYY"
+    m = _PERIOD_D_MON_RE.search(text)
+    if m:
+        try:
+            start_day, start_month = int(m.group(1)), _month_num(m.group(2))
+            end_day, end_month, end_year = (
+                int(m.group(3)),
+                _month_num(m.group(4)),
+                int(m.group(5)),
+            )
+            start_year = end_year if start_month <= end_month else end_year - 1
+            return _dt(start_year, start_month, start_day), _dt(
+                end_year, end_month, end_day, 23, 59, 59
+            )
+        except (ValueError, TypeError, KeyError):
+            pass
+
+    # Pattern 5: "In the period Month Dth - Month Dth, YYYY"
+    m = _PERIOD_MON_D_RE.search(text)
+    if m:
+        try:
+            start_month, start_day = _month_num(m.group(1)), int(m.group(2))
+            end_month, end_day, end_year = (
+                _month_num(m.group(3)),
+                int(m.group(4)),
+                int(m.group(5)),
+            )
+            start_year = end_year if start_month <= end_month else end_year - 1
+            return _dt(start_year, start_month, start_day), _dt(
+                end_year, end_month, end_day, 23, 59, 59
+            )
+        except (ValueError, TypeError, KeyError):
+            pass
+
+    return None, None
+
+
 def route_to_geojson_feature(route: OlexRoute) -> dict:
     """Convert an OlexRoute to a GeoJSON Feature dict."""
     safe_name = re.sub(r"[^A-Za-z0-9]+", "_", route.area_name)
@@ -227,6 +390,10 @@ def route_to_geojson_feature(route: OlexRoute) -> dict:
     now = datetime.datetime.now(datetime.timezone.utc)
     body_text = route.description_en or route.description_no
 
+    valid_from, valid_until = parse_active_period(body_text)
+    if valid_from is None:
+        valid_from = now
+
     return {
         "type": "Feature",
         "id": feature_id,
@@ -235,15 +402,15 @@ def route_to_geojson_feature(route: OlexRoute) -> dict:
             "dtg": now.isoformat(),
             "raw_dtg": now.strftime("%d%H%MZ %b %y").upper(),
             "msg_id": feature_id,
-            "year": now.year,
+            "year": valid_from.year,
             "cancellations": [],
             "hazard_type": "firing_exercises",
             "geometry_kind": "polygon",
             "radius_nm": None,
             "body": body_text,
             "cancel_date": None,
-            "valid_from": now.isoformat(),
-            "valid_until": None,
+            "valid_from": valid_from.isoformat(),
+            "valid_until": valid_until.isoformat() if valid_until else None,
             "summary": None,
             "source": "BarentsWatch/Andoya",
             "area_name": route.area_name,
@@ -282,23 +449,33 @@ def fetch_olx_gz(url: str = API_URL) -> bytes:
 
 def main() -> None:
     """Download Andøya OLX, parse, and write GeoJSON features."""
-    logging.info("Fetching Andøya danger zones from %s", API_URL)
+    ap = argparse.ArgumentParser(description="Andøya OLX scraper")
+    ap.add_argument(
+        "--file",
+        metavar="PATH",
+        help="parse a local .olx file instead of downloading from the API",
+    )
+    args = ap.parse_args()
 
-    raw_gz = fetch_olx_gz()
-    logging.info("Downloaded %d bytes (gzipped)", len(raw_gz))
-
-    try:
-        olx_text = gzip.decompress(raw_gz).decode("latin-1")
-    except gzip.BadGzipFile:
-        logging.error("Downloaded data is not valid gzip")
-        sys.exit(1)
-
-    # Save raw OLX text to history for archival
-    HISTORY_DIR.mkdir(parents=True, exist_ok=True)
-    raw_filename = datetime.datetime.now().strftime("ANDOYA_%Y-%m-%d.olx")
-    raw_path = HISTORY_DIR / raw_filename
-    raw_path.write_text(olx_text, encoding="latin-1")
-    logging.info("Saved raw OLX to %s", raw_path)
+    if args.file:
+        olx_path = Path(args.file)
+        logging.info("Parsing local OLX file: %s", olx_path)
+        olx_text = olx_path.read_text(encoding="latin-1")
+    else:
+        logging.info("Fetching Andøya danger zones from %s", API_URL)
+        raw_gz = fetch_olx_gz()
+        logging.info("Downloaded %d bytes (gzipped)", len(raw_gz))
+        try:
+            olx_text = gzip.decompress(raw_gz).decode("latin-1")
+        except gzip.BadGzipFile:
+            logging.error("Downloaded data is not valid gzip")
+            sys.exit(1)
+        # Save raw OLX text to history for archival
+        HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+        raw_filename = datetime.datetime.now().strftime("ANDOYA_%Y-%m-%d.olx")
+        raw_path = HISTORY_DIR / raw_filename
+        raw_path.write_text(olx_text, encoding="latin-1")
+        logging.info("Saved raw OLX to %s", raw_path)
 
     routes = parse_olx(olx_text)
     logging.info("Parsed %d unique danger area(s)", len(routes))

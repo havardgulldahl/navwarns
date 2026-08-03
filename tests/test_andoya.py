@@ -5,10 +5,13 @@ from pathlib import Path
 
 import pytest
 
+from datetime import timezone
+
 from scripts.scraper_andoya import (
     OlexRoute,
     feature_filename,
     olex_to_decimal_degrees,
+    parse_active_period,
     parse_olx,
     route_to_geojson_feature,
 )
@@ -246,6 +249,146 @@ class TestGeoJsonFeature:
     def test_properties_has_year(self, routes: list[OlexRoute]):
         feat = route_to_geojson_feature(routes[0])
         assert feat["properties"]["year"] >= 2025
+
+    def test_valid_from_matches_active_period_start(self, routes: list[OlexRoute]):
+        outer = next(r for r in routes if r.area_name == "Danger Area Sea Outer")
+        feat = route_to_geojson_feature(outer)
+        assert feat["properties"]["valid_from"].startswith("2026-03-19")
+
+    def test_valid_until_matches_active_period_end(self, routes: list[OlexRoute]):
+        outer = next(r for r in routes if r.area_name == "Danger Area Sea Outer")
+        feat = route_to_geojson_feature(outer)
+        assert feat["properties"]["valid_until"].startswith("2026-03-29")
+
+    def test_valid_from_is_utc_iso(self, routes: list[OlexRoute]):
+        feat = route_to_geojson_feature(routes[0])
+        assert "+00:00" in feat["properties"]["valid_from"]
+
+    def test_valid_until_is_utc_iso(self, routes: list[OlexRoute]):
+        feat = route_to_geojson_feature(routes[0])
+        assert "+00:00" in feat["properties"]["valid_until"]
+
+    def test_year_reflects_active_period(self, routes: list[OlexRoute]):
+        feat = route_to_geojson_feature(routes[0])
+        assert feat["properties"]["year"] == 2026
+
+
+# ---- Active period parsing ----
+
+
+class TestParseActivePeriod:
+    def test_standard_english_pattern(self):
+        text = (
+            "Description: The danger area is active 19.03-29.03.2026 with launch window"
+        )
+        start, end = parse_active_period(text)
+        assert start is not None
+        assert start.year == 2026 and start.month == 3 and start.day == 19
+
+    def test_end_date_day_month_year(self):
+        text = "The danger area is active 19.03-29.03.2026 with launch window"
+        _, end = parse_active_period(text)
+        assert end is not None
+        assert end.year == 2026 and end.month == 3 and end.day == 29
+
+    def test_valid_until_end_of_day(self):
+        text = "The danger area is active 01.06-15.06.2025"
+        _, end = parse_active_period(text)
+        assert end.hour == 23 and end.minute == 59 and end.second == 59
+
+    def test_valid_from_start_of_day(self):
+        text = "The danger area is active 01.06-15.06.2025"
+        start, _ = parse_active_period(text)
+        assert start.hour == 0 and start.minute == 0 and start.second == 0
+
+    def test_timestamps_are_utc(self):
+        text = "The danger area is active 01.06-15.06.2025"
+        start, end = parse_active_period(text)
+        assert start.tzinfo == timezone.utc
+        assert end.tzinfo == timezone.utc
+
+    def test_norwegian_pattern(self):
+        text = "Fareområdet er aktivt 19.03-29.03.2026 med skytevindu"
+        start, end = parse_active_period(text)
+        assert start is not None and end is not None
+        assert start.month == 3 and end.month == 3
+
+    def test_year_boundary_span(self):
+        text = "The danger area is active 28.12-04.01.2027"
+        start, end = parse_active_period(text)
+        assert start.year == 2026 and start.month == 12 and start.day == 28
+        assert end.year == 2027 and end.month == 1 and end.day == 4
+
+    def test_full_dates_both_sides(self):
+        text = "The danger area is active 15.06.2026-21.06.2026 with launch window"
+        start, end = parse_active_period(text)
+        assert start is not None and end is not None
+        assert start.year == 2026 and start.month == 6 and start.day == 15
+        assert end.year == 2026 and end.month == 6 and end.day == 21
+
+    def test_full_start_date_year_used_directly(self):
+        text = "The danger area is active 08.04.2026-19.04.2026"
+        start, end = parse_active_period(text)
+        assert start.year == 2026 and start.month == 4 and start.day == 8
+
+    def test_no_match_returns_none_pair(self):
+        assert parse_active_period("No active period here") == (None, None)
+
+    def test_empty_string_returns_none_pair(self):
+        assert parse_active_period("") == (None, None)
+
+    # Pattern 2: "active on Month Dth"
+    def test_active_on_single_day_with_backup(self):
+        text = (
+            "Description: The danger area is active on July 30th with launch window "
+            "1245-1600 local time. Backup day is July 31st with launch window 0845-1600."
+        )
+        start, end = parse_active_period(text)
+        assert start is not None and end is not None
+        assert start.month == 7 and start.day == 30
+        assert end.month == 7 and end.day == 31
+
+    def test_active_on_single_day_no_backup(self):
+        text = "The danger area is active on June 4th with launch window 1245-1600."
+        start, end = parse_active_period(text)
+        assert start is not None
+        assert start.month == 6 and start.day == 4
+        assert end.month == 6 and end.day == 4
+
+    def test_active_on_uses_year_from_text_when_available(self):
+        text = "June 2026. The danger area is active on June 4th with launch window."
+        start, _ = parse_active_period(text)
+        assert start.year == 2026
+
+    # Pattern 3: "During the period D-D Month YYYY"
+    def test_during_period_compressed_range(self):
+        text = "During the period 10-14 May 2026, activities will take place off the coast."
+        start, end = parse_active_period(text)
+        assert start is not None and end is not None
+        assert start.year == 2026 and start.month == 5 and start.day == 10
+        assert end.month == 5 and end.day == 14
+
+    # Pattern 4: "In the period D Month - D Month YYYY"
+    def test_in_period_d_month_range(self):
+        text = "In the period 4 May - 8 May 2026 there will be activity off the coast."
+        start, end = parse_active_period(text)
+        assert start is not None and end is not None
+        assert start.year == 2026 and start.month == 5 and start.day == 4
+        assert end.month == 5 and end.day == 8
+
+    def test_in_period_d_month_range_different_months(self):
+        text = "In the period 18 May - 2 June 2026 there will be activity."
+        start, end = parse_active_period(text)
+        assert start.month == 5 and start.day == 18
+        assert end.month == 6 and end.day == 2
+
+    # Pattern 5: "In the period Month Dth - Month Dth, YYYY"
+    def test_in_period_month_ordinal_range(self):
+        text = "In the period May 10th - May14th, 2026 there will be activity."
+        start, end = parse_active_period(text)
+        assert start is not None and end is not None
+        assert start.year == 2026 and start.month == 5 and start.day == 10
+        assert end.month == 5 and end.day == 14
 
 
 # ---- Filename generation ----
