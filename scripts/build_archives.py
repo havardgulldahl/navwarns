@@ -22,7 +22,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
 HISTORY_DIR = ROOT / "history"
@@ -259,18 +259,21 @@ def _deduplicate_features(
 
 def _scan_daily_presence(
     year_dir: Path,
-) -> Dict[str, str]:
-    """Scan daily scrape snapshots to find last-seen dates.
+) -> Tuple[Dict[str, str], Dict[str, str]]:
+    """Scan daily scrape snapshots to find first-seen and last-seen dates.
 
-    Returns a mapping of msg_id -> last date (ISO string) the
-    message appeared in a daily scrape.  Works for NAVAREAXX
-    (navwarns_raw.txt) and PRIP (HTML files).
+    Returns (first_seen, last_seen_cancelled) where:
+    - first_seen: msg_id -> earliest date the message appeared in any snapshot
+    - last_seen_cancelled: msg_id -> last date seen, only for messages that
+      disappeared before the final scrape date (i.e. confirmed cancelled)
+    Works for NAVAREAXX (navwarns_raw.txt + ROSATOM HTML) and PRIP (HTML).
     """
     RU_MAP = {
         "АРХАНГЕЛЬСК": "ARKHANGELSK",
         "МУРМАНСК": "MURMANSK",
         "ЗАПАД": "WEST",
     }
+    first_seen: Dict[str, str] = {}
     last_seen: Dict[str, str] = {}
     all_dates: List[str] = []
 
@@ -288,6 +291,23 @@ def _scan_daily_presence(
             text = raw.read_text(errors="replace")
             for m in re.finditer(r"NAVAREA XX (\d+/\d+)", text):
                 mid = f"NAVAREA XX {m.group(1)}"
+                if mid not in first_seen or date_str < first_seen[mid]:
+                    first_seen[mid] = date_str
+                if mid not in last_seen or date_str > last_seen[mid]:
+                    last_seen[mid] = date_str
+
+        # Also scan ROSATOM HTML files stored directly in the NAVAREAXX dir
+        for html_file in nxx_dir.glob("ROSATOM_*.html"):
+            dm = re.search(r"(\d{4}-\d{2}-\d{2})", html_file.name)
+            if not dm:
+                continue
+            date_str = dm.group(1)
+            all_dates.append(date_str)
+            text = html_file.read_text(errors="replace")
+            for m in re.finditer(r"NAVAREA XX (\d+/\d+)", text):
+                mid = f"NAVAREA XX {m.group(1)}"
+                if mid not in first_seen or date_str < first_seen[mid]:
+                    first_seen[mid] = date_str
                 if mid not in last_seen or date_str > last_seen[mid]:
                     last_seen[mid] = date_str
 
@@ -307,16 +327,46 @@ def _scan_daily_presence(
             ):
                 reg = RU_MAP.get(m.group(1), m.group(1))
                 ref = f"PRIP {reg} {m.group(2)}/{m.group(3)}"
+                if ref not in first_seen or date_str < first_seen[ref]:
+                    first_seen[ref] = date_str
                 if ref not in last_seen or date_str > last_seen[ref]:
                     last_seen[ref] = date_str
 
     if not all_dates:
-        return {}
+        return {}, {}
 
     # Only use last_seen as valid_until when the message disappeared
     # *before* the final scrape date (otherwise it may still be active)
     final_date = max(all_dates)
-    return {mid: date for mid, date in last_seen.items() if date < final_date}
+    last_seen_cancelled = {
+        mid: date for mid, date in last_seen.items() if date < final_date
+    }
+    return first_seen, last_seen_cancelled
+
+
+def _apply_first_seen(
+    features: List[Dict[str, Any]],
+    first_seen: Dict[str, str],
+) -> int:
+    """Set valid_from from first-seen snapshot date for features lacking a dtg.
+
+    Only overrides the year-Jan-1 fallback, not actual recorded timestamps.
+    Returns count of features updated.
+    """
+    updated = 0
+    for feat in features:
+        props = feat.get("properties") or {}
+        # Skip if an actual issue timestamp was recorded
+        if props.get("dtg"):
+            continue
+        mid = props.get("msg_id") or ""
+        fid = feat.get("id") or ""
+        base_id = re.sub(r"#grp\d+$", "", fid)
+        date = first_seen.get(mid) or first_seen.get(base_id)
+        if date:
+            props["valid_from"] = f"{date}T00:00:00+00:00"
+            updated += 1
+    return updated
 
 
 def _apply_last_seen(
@@ -390,14 +440,16 @@ def build_archive(
     if before != len(features):
         print(f"  {year}: deduplicated {before} -> {len(features)}")
 
-    # Infer valid_until from daily scrape disappearance
-    last_seen = _scan_daily_presence(year_dir)
+    # Infer valid_from/valid_until from daily scrape presence data
+    first_seen, last_seen = _scan_daily_presence(year_dir)
     if last_seen:
         n = _apply_last_seen(features, last_seen)
         if n:
-            print(
-                f"  {year}: inferred valid_until for {n} features" " from daily scrapes"
-            )
+            print(f"  {year}: inferred valid_until for {n} features from daily scrapes")
+    if first_seen:
+        n = _apply_first_seen(features, first_seen)
+        if n:
+            print(f"  {year}: inferred valid_from for {n} features from daily scrapes")
 
     collection = {
         "type": "FeatureCollection",

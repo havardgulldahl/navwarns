@@ -576,7 +576,12 @@
             // Always include currentData when slider is at 'Today' (latest date)
             const sliderAtToday = dateToSlider(viewDate) >= totalDays - 1;
             if (currentData && sliderAtToday) {
-                features = features.concat(currentData.features || []);
+                // Deduplicate: archive and current data may contain the same warning
+                const seen = new Set(features.map(f => f.id || (f.properties || {}).msg_id).filter(Boolean));
+                for (const f of (currentData.features || [])) {
+                    const key = f.id || (f.properties || {}).msg_id;
+                    if (!key || !seen.has(key)) features.push(f);
+                }
             }
             return features;
         }
