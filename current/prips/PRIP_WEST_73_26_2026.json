@@ -1,1 +1,28 @@
-{"type": "Feature", "id": "PRIP WEST 73/26", "geometry": {"type": "Point", "coordinates": [80.4465, 73.13733333333333]}, "properties": {"dtg": "2026-07-28T03:54:17.681468+00:00", "raw_dtg": "ПРИП ЗАПАД 73/26 КАРТЫ 15379 13347 12321\r\nКАРСКОЕ МОРЕ", "msg_id": "PRIP WEST 73/26", "year": 2026, "cancellations": [], "hazard_type": "general", "geometry_kind": "point", "radius_nm": null, "body": "МАРЕОГРАФ ВЫСТАВЛЕН В\n73-08.24С 080-26.79В ГЛУБИНА ПОСТАНОВКИ 15 МЕТРОВ\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.3 МИЛИ=\n\nCOASTAL WARNING WEST 73/26\nKARA SEA.\nCHARTS RUS 15379, 13347, 12321.\nMAREOGRAPH ESTABLISHED IN:\n73-08.24N 080-26.79E DEPTH OF STAGING 15 METRES.\nWGS-84 DATUM.\n0.3 MILE BERTH REQUESTED.=\nNNNN", "cancel_date": null, "valid_from": "2026-07-28T03:54:17.681468+00:00", "valid_until": null, "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP WEST 73/26",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      80.4465,
+      73.13733333333333
+    ]
+  },
+  "properties": {
+    "dtg": "2026-07-28T03:54:17.681468+00:00",
+    "raw_dtg": "ПРИП ЗАПАД 73/26 КАРТЫ 15379 13347 12321\r\nКАРСКОЕ МОРЕ",
+    "msg_id": "PRIP WEST 73/26",
+    "year": 2026,
+    "cancellations": [],
+    "hazard_type": "general",
+    "category": "other",
+    "title": "General Warning",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "МАРЕОГРАФ ВЫСТАВЛЕН В\n73-08.24С 080-26.79В ГЛУБИНА ПОСТАНОВКИ 15 МЕТРОВ\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.3 МИЛИ=\nCOASTAL WARNING WEST 73/26\nKARA SEA.\nCHARTS RUS 15379, 13347, 12321.\nMAREOGRAPH ESTABLISHED IN:\n73-08.24N 080-26.79E DEPTH OF STAGING 15 METRES.\nWGS-84 DATUM.\n0.3 MILE BERTH REQUESTED.=\nNNNN",
+    "cancel_date": null,
+    "valid_from": "2026-07-28T03:54:17.681468+00:00",
+    "valid_until": null,
+    "summary": null
+  }
+}

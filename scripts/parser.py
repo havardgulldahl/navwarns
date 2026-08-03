@@ -468,6 +468,7 @@ class NavwarnMessage:
 
     def to_geojson_feature(self) -> dict:
         geom = self.geojson_geometry()
+        category, title = classify_category(self.hazard_type)
         return {
             "type": "Feature",
             "id": self.msg_id or None,
@@ -479,6 +480,8 @@ class NavwarnMessage:
                 "year": self.year,
                 "cancellations": self.cancellations,
                 "hazard_type": self.hazard_type,
+                "category": category,
+                "title": title,
                 "geometry_kind": self.geometry,
                 "radius_nm": self.radius,
                 "body": self.body,
@@ -516,6 +519,7 @@ class NavwarnMessage:
             )
             if geom is None:
                 continue
+            category, title = classify_category(self.hazard_type)
             feats.append(
                 {
                     "type": "Feature",
@@ -528,6 +532,8 @@ class NavwarnMessage:
                         "raw_dtg": self.raw_dtg,
                         "year": self.year,
                         "hazard_type": self.hazard_type,
+                        "category": category,
+                        "title": title,
                         "body": self.body,
                         "cancel_date": self.cancel_date,
                         "valid_from": self._compute_valid_from(),
@@ -944,7 +950,42 @@ def classify_hazard(body: str) -> Optional[str]:
     ):
         return "ice and icebergs"
 
+    # Underwater cables / pipelines
+    # EN: CABLE, PIPELINE, SUBSEA, UMBILICAL, TELECOM CABLE
+    # RU: КАБЕЛЬ, ТРУБОПРОВОД, КАБЕЛЬНАЯ
+    if (
+        "CABLE" in text
+        or "PIPELINE" in text
+        or "SUBSEA" in text
+        or "UMBILICAL" in text
+        or "TELECOM" in text
+        or "КАБЕЛ" in text
+        or "ТРУБОПРОВОД" in text
+    ):
+        return "cable"
+
     return "general"
+
+
+_HAZARD_TO_CATEGORY: dict = {
+    "firing_exercises": ("military", "Firing Exercises"),
+    "hazardous operations": ("military", "Hazardous Operations"),
+    "derelict vessel": ("accident", "Derelict Vessel"),
+    "cable": ("cable", "Underwater Cable"),
+    "shoals": ("navigation", "Shoals"),
+    "aid to navigation outage": ("navigation", "Aid to Navigation Outage"),
+    "chart advisory": ("navigation", "Chart Advisory"),
+    "ice and icebergs": ("navigation", "Ice and Icebergs"),
+    "scientific mooring": ("other", "Scientific Mooring"),
+    "general": ("other", "General Warning"),
+}
+
+
+def classify_category(hazard_type: Optional[str]) -> tuple:
+    """Map hazard_type to (category, title) without calling an LLM."""
+    return _HAZARD_TO_CATEGORY.get(
+        hazard_type or "general", ("other", "General Warning")
+    )
 
 
 def analyze_geometry(

@@ -9,6 +9,7 @@ from scripts.parser import (
     parse_coordinates,
     parse_cancellations,
     classify_hazard,
+    classify_category,
     coord_to_decimal,
     NavwarnMessage,
 )
@@ -140,6 +141,52 @@ def test_classify_hazard_chart():
 
 def test_classify_hazard_general():
     assert classify_hazard("MISC INFO") == "general"
+
+
+def test_classify_hazard_cable_en():
+    assert classify_hazard("CABLE LAID ALONG LINE") == "cable"
+    assert classify_hazard("PIPELINE CONSTRUCTION UNDERWAY") == "cable"
+    assert classify_hazard("SUBSEA UMBILICAL INSTALLATION") == "cable"
+
+
+def test_classify_hazard_cable_ru():
+    assert classify_hazard("КАБЕЛЬ ПРОЛОЖЕН") == "cable"
+    assert classify_hazard("ТРУБОПРОВОД") == "cable"
+
+
+def test_classify_category_all_mappings():
+    assert classify_category("firing_exercises") == ("military", "Firing Exercises")
+    assert classify_category("hazardous operations") == (
+        "military",
+        "Hazardous Operations",
+    )
+    assert classify_category("derelict vessel") == ("accident", "Derelict Vessel")
+    assert classify_category("cable") == ("cable", "Underwater Cable")
+    assert classify_category("shoals") == ("navigation", "Shoals")
+    assert classify_category("aid to navigation outage") == (
+        "navigation",
+        "Aid to Navigation Outage",
+    )
+    assert classify_category("chart advisory") == ("navigation", "Chart Advisory")
+    assert classify_category("ice and icebergs") == ("navigation", "Ice and Icebergs")
+    assert classify_category("scientific mooring") == ("other", "Scientific Mooring")
+    assert classify_category("general") == ("other", "General Warning")
+
+
+def test_classify_category_unknown_defaults_to_other():
+    assert classify_category(None) == ("other", "General Warning")
+    assert classify_category("unknown_type") == ("other", "General Warning")
+    assert classify_category("") == ("other", "General Warning")
+
+
+def test_to_geojson_feature_has_category_and_title():
+    msg = NavwarnMessage.from_text(
+        "010001Z JAN 26", "HYDROARC 1/26. CABLE LAID AT 70-00.00N 030-00.00E."
+    )
+    feat = msg.to_geojson_feature()
+    assert feat["properties"]["category"] == "cable"
+    assert feat["properties"]["title"] == "Underwater Cable"
+    assert feat["properties"]["hazard_type"] == "cable"
 
 
 def test_parse_navwarns_single_message():
@@ -300,7 +347,7 @@ def test_sample_16_19_metadata():
     )
     assert m.geometry == "circle"
     assert m.radius is not None and pytest.approx(m.radius) == 5
-    (lat_p, lon_p) = m.coordinates[0]
+    lat_p, lon_p = m.coordinates[0]
     assert pytest.approx(lat_p, rel=1e-4, abs=1e-4) == 45.5333
     assert pytest.approx(lon_p, rel=1e-4, abs=1e-4) == 141.3083
 

@@ -200,6 +200,26 @@
             flex: 0 0 auto;
         }
 
+        .legend .category-toggle {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin: 2px 0;
+            background: none;
+            border: none;
+            padding: 2px 0;
+            cursor: pointer;
+            font-size: 13px;
+            color: inherit;
+            text-align: left;
+            width: 100%;
+        }
+
+        .legend .category-toggle.hidden {
+            opacity: 0.35;
+            text-decoration: line-through;
+        }
+
         .inline-badge {
             display: inline-block;
             padding: 2px 5px;
@@ -441,6 +461,8 @@
             default: '#6a3d9a'
         };
         function getCategoryColor(c) { return categoryColors[c] || categoryColors.default; }
+
+        const hiddenCategories = new Set();
 
         // ============ Cancellation Date Fallback (for data without valid_from/valid_until) ============
         function parseCancellationDate(cancelStr, contextYear) {
@@ -778,10 +800,11 @@
             renderTimer = setTimeout(() => {
                 try {
                     const allFeatures = getAllLoadedFeatures();
-                    lastFiltered = allFeatures.filter(f => isInArcticRegion(f) && isFeatureValidAt(f, viewDate));
+                    const dateFiltered = allFeatures.filter(f => isInArcticRegion(f) && isFeatureValidAt(f, viewDate));
+                    lastFiltered = dateFiltered.filter(f => !hiddenCategories.has(f.properties?.category || 'default'));
                     lastFilterDate = viewDate.getTime();
                     renderFeatures(lastFiltered);
-                    updateLegendCount(lastFiltered.length, lastFiltered.length);
+                    updateLegendCount(lastFiltered.length, dateFiltered.length);
                 } catch (err) {
                     console.warn('[NavWarns] render error:', err);
                 }
@@ -1022,9 +1045,24 @@
                         '<div id="navwarn-count" style="font-size:11px;margin:4px 0;color:#666;"></div>' +
                         mainCategories.map(c => {
                             const col = getCategoryColor(c);
-                            return `<div class="item"><span class="swatch" style="background:${col}"></span><span>${c}</span></div>`;
+                            return `<button class="category-toggle" data-category="${c}" title="Click to show/hide"><span class="swatch" style="background:${col}"></span><span>${c}</span></button>`;
                         }).join('') +
                         '<a href="#" onclick="downloadCurrentGeoJSON()">Download current GeoJSON</a>';
+
+                    div.querySelectorAll('.category-toggle').forEach(btn => {
+                        L.DomEvent.on(btn, 'click', function (e) {
+                            L.DomEvent.stopPropagation(e);
+                            const cat = btn.dataset.category;
+                            if (hiddenCategories.has(cat)) {
+                                hiddenCategories.delete(cat);
+                                btn.classList.remove('hidden');
+                            } else {
+                                hiddenCategories.add(cat);
+                                btn.classList.add('hidden');
+                            }
+                            updateMapDisplay();
+                        });
+                    });
 
                     return div;
                 };
