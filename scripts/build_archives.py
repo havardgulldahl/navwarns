@@ -20,6 +20,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -76,6 +77,87 @@ _RE_RU_SELF_CANCEL = re.compile(
     r"ОТМ\s+ЭТОТ\s+(?:НР|ПУНКТ)\s+(\d{2,6})\s+([\u0400-\u04FF]{2,7})(?:\s+(\d{2,4}))?",
     re.IGNORECASE,
 )
+
+
+def _parse_nga_date(text: str) -> Optional[datetime]:
+    """Parse NGA DTG format DDHHMM[Z] MON YYYY into a UTC datetime."""
+    m = re.match(
+        r"(\d{2})(\d{2})(\d{2})Z?\s+([A-Z]{3})\s+(\d{4})",
+        text.strip().upper(),
+    )
+    if m:
+        day, hour, minute = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        mon = MONTH_MAP.get(m.group(4))
+        yr = int(m.group(5))
+        if mon:
+            try:
+                return datetime(yr, mon, day, hour, minute, tzinfo=timezone.utc)
+            except ValueError:
+                pass
+    return None
+
+
+def _load_xml_cancel_dates(
+    history_dir: Path,
+    year: int,
+) -> Dict[int, str]:
+    """Extract cancel dates from NGA broadcast-warn XML files for *year*.
+
+    Parses all available navArea XMLs (A-E) and returns a mapping of
+    msgNumber -> cancelDate ISO string for messages with status='C'.
+    """
+    cancel_dates: Dict[int, str] = {}
+    for nav_area in ("A", "B", "C", "D", "E"):
+        xml_path = (
+            history_dir
+            / f"broadcast-warn?navArea={nav_area}&status=all&msgYear={year}&output=xml.xml"
+        )
+        if not xml_path.exists():
+            continue
+        try:
+            tree = ET.parse(xml_path)
+        except ET.ParseError:
+            continue
+        for entity in tree.getroot():
+            cancel_text = entity.findtext("cancelDate")
+            num_text = entity.findtext("msgNumber")
+            if not cancel_text or not num_text:
+                continue
+            try:
+                msg_num = int(num_text)
+            except ValueError:
+                continue
+            dt = _parse_nga_date(cancel_text)
+            if dt and msg_num not in cancel_dates:
+                cancel_dates[msg_num] = dt.isoformat()
+    return cancel_dates
+
+
+def _apply_xml_cancel_dates(
+    features: List[Dict[str, Any]],
+    cancel_dates: Dict[int, str],
+) -> int:
+    """Set valid_until from NGA XML cancel dates for features that lack one.
+
+    Only updates features whose msg_id carries a numeric message number
+    matching an entry in *cancel_dates*.  Returns count updated.
+    """
+    updated = 0
+    for feat in features:
+        props = feat.get("properties") or {}
+        if props.get("valid_until"):
+            continue
+        mid = props.get("msg_id") or feat.get("id") or ""
+        # Extract message number: e.g. "HYDROARC 1293/22(25)" -> 1293
+        m = re.search(r"(\d+)/\d{2}", mid)
+        if not m:
+            continue
+        msg_num = int(m.group(1))
+        cancel_iso = cancel_dates.get(msg_num)
+        if cancel_iso:
+            props["valid_until"] = cancel_iso
+            updated += 1
+    return updated
 
 
 def _compute_valid_from(props: Dict[str, Any]) -> Optional[str]:
@@ -450,6 +532,13 @@ def build_archive(
         n = _apply_first_seen(features, first_seen)
         if n:
             print(f"  {year}: inferred valid_from for {n} features from daily scrapes")
+
+    # Resolve cancel dates from NGA broadcast-warn XML for features still missing valid_until
+    xml_cancel = _load_xml_cancel_dates(HISTORY_DIR, year)
+    if xml_cancel:
+        n = _apply_xml_cancel_dates(features, xml_cancel)
+        if n:
+            print(f"  {year}: resolved valid_until for {n} features from NGA XML")
 
     collection = {
         "type": "FeatureCollection",
