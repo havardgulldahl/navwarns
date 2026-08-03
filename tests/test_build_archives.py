@@ -14,11 +14,11 @@ from scripts.build_archives import (
     _compute_valid_from,
     _compute_valid_until,
     _enrich_properties,
+    _resolve_cross_cancellations,
     collect_features,
     build_archive,
     build_manifest,
 )
-
 
 # ------------------------------------------------------------------
 # _compute_valid_from
@@ -430,3 +430,116 @@ class TestBuildManifest:
         manifest = json.loads((tmp_path / "manifest.json").read_text())
         years = {e["year"]: e["count"] for e in manifest["years"]}
         assert years[2021] == 7, "rebuilt count overrides disk"
+
+
+# ------------------------------------------------------------------
+# _resolve_cross_cancellations
+# ------------------------------------------------------------------
+
+
+def _make_feature(
+    msg_id: str, valid_from: str, valid_until=None, cancellations=None
+) -> dict:
+    return {
+        "type": "Feature",
+        "id": msg_id,
+        "geometry": {"type": "Point", "coordinates": [10.0, 60.0]},
+        "properties": {
+            "msg_id": msg_id,
+            "valid_from": valid_from,
+            "valid_until": valid_until,
+            "cancellations": cancellations or [],
+        },
+    }
+
+
+class TestResolveCrossCancellations:
+    """_resolve_cross_cancellations sets valid_until on cancelled features."""
+
+    def test_cross_cancel_tightens_valid_until(self) -> None:
+        # Mirrors HYDROARC 60/26 cancelled by 61/26.
+        cancelled = _make_feature(
+            "HYDROARC 60/26",
+            valid_from="2026-05-13T00:48:00+00:00",
+            valid_until="2026-05-30T00:59:00+00:00",
+            cancellations=["THIS MSG 300059Z MAY 26"],
+        )
+        canceller = _make_feature(
+            "HYDROARC 61/26",
+            valid_from="2026-05-13T01:28:00+00:00",
+            valid_until="2026-05-30T00:59:00+00:00",
+            cancellations=["HYDROARC 60/26", "THIS MSG 300059Z MAY 26"],
+        )
+        n = _resolve_cross_cancellations([cancelled, canceller])
+        assert n == 1
+        assert cancelled["properties"]["valid_until"] == "2026-05-13T01:28:00+00:00"
+
+    def test_cross_cancel_does_not_extend_earlier_valid_until(self) -> None:
+        # Cancelled feature already expires before the canceller was issued.
+        cancelled = _make_feature(
+            "HYDROARC 10/26",
+            valid_from="2026-01-01T00:00:00+00:00",
+            valid_until="2026-01-05T00:00:00+00:00",
+        )
+        canceller = _make_feature(
+            "HYDROARC 11/26",
+            valid_from="2026-01-10T00:00:00+00:00",
+            cancellations=["HYDROARC 10/26"],
+        )
+        _resolve_cross_cancellations([cancelled, canceller])
+        # valid_until must not be extended beyond the original earlier date.
+        assert cancelled["properties"]["valid_until"] == "2026-01-05T00:00:00+00:00"
+
+    def test_self_cancel_entries_are_ignored(self) -> None:
+        # "THIS MSG ..." entries must never be used as cross-refs.
+        feat = _make_feature(
+            "HYDROARC 20/26",
+            valid_from="2026-02-01T00:00:00+00:00",
+            valid_until="2026-02-28T00:00:00+00:00",
+        )
+        canceller = _make_feature(
+            "HYDROARC 21/26",
+            valid_from="2026-02-10T00:00:00+00:00",
+            cancellations=["THIS MSG 280000Z FEB 26"],
+        )
+        _resolve_cross_cancellations([feat, canceller])
+        assert feat["properties"]["valid_until"] == "2026-02-28T00:00:00+00:00"
+
+    def test_plain_num_year_ref_matches(self) -> None:
+        # Plain "317/23" reference (from comma-separated multi-cancel list)
+        # should still resolve via trailing-NNN/YY index.
+        cancelled = _make_feature(
+            "NAVAREA XIX 317/23",
+            valid_from="2023-11-01T00:00:00+00:00",
+            valid_until="2023-12-31T00:00:00+00:00",
+        )
+        canceller = _make_feature(
+            "NAVAREA XIX 320/23",
+            valid_from="2023-11-15T00:00:00+00:00",
+            cancellations=["317/23"],
+        )
+        n = _resolve_cross_cancellations([cancelled, canceller])
+        assert n == 1
+        assert cancelled["properties"]["valid_until"] == "2023-11-15T00:00:00+00:00"
+
+    def test_no_valid_from_on_canceller_skipped(self) -> None:
+        cancelled = _make_feature(
+            "HYDROARC 30/26",
+            valid_from="2026-03-01T00:00:00+00:00",
+            valid_until="2026-03-31T00:00:00+00:00",
+        )
+        canceller = _make_feature(
+            "HYDROARC 31/26",
+            valid_from=None,
+            cancellations=["HYDROARC 30/26"],
+        )
+        canceller["properties"]["valid_from"] = None
+        n = _resolve_cross_cancellations([cancelled, canceller])
+        assert n == 0
+
+    def test_returns_zero_when_nothing_to_resolve(self) -> None:
+        feats = [
+            _make_feature("HYDROARC 1/26", "2026-01-01T00:00:00+00:00"),
+            _make_feature("HYDROARC 2/26", "2026-01-02T00:00:00+00:00"),
+        ]
+        assert _resolve_cross_cancellations(feats) == 0

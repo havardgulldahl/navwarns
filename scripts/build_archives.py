@@ -477,6 +477,48 @@ def _apply_last_seen(
     return updated
 
 
+def _resolve_cross_cancellations(features: List[Dict[str, Any]]) -> int:
+    """Propagate cross-cancel refs to set valid_until on the cancelled feature.
+
+    When message B lists 'CANCEL HYDROARC NNN/YY' in its cancellations, the
+    valid_until of HYDROARC NNN/YY must not exceed B's valid_from.
+    Only tightens (advances) valid_until — never extends it.
+    """
+    by_id: Dict[str, List[Dict[str, Any]]] = {}
+    by_num_year: Dict[str, List[Dict[str, Any]]] = {}
+    for feat in features:
+        props = feat.get("properties") or {}
+        mid = props.get("msg_id") or feat.get("id") or ""
+        base_id = re.sub(r"#grp\d+$", "", mid).strip()
+        if not base_id:
+            continue
+        by_id.setdefault(base_id, []).append(feat)
+        m = re.search(r"(\d+/\d+)$", base_id)
+        if m:
+            by_num_year.setdefault(m.group(1), []).append(feat)
+
+    updated = 0
+    for feat in features:
+        props = feat.get("properties") or {}
+        cancels = props.get("cancellations") or []
+        canceller_from = props.get("valid_from")
+        if not cancels or not canceller_from:
+            continue
+        for ref in cancels:
+            if not ref or "THIS" in str(ref).upper():
+                continue  # skip self-cancel entries
+            cancelled = by_id.get(ref) or by_num_year.get(ref)
+            if not cancelled:
+                continue
+            for cfeat in cancelled:
+                cp = cfeat.get("properties") or {}
+                existing = cp.get("valid_until")
+                if existing is None or canceller_from < existing:
+                    cp["valid_until"] = canceller_from
+                    updated += 1
+    return updated
+
+
 def collect_features(year_dir: Path) -> List[Dict[str, Any]]:
     """Collect all GeoJSON Features from a year directory."""
     features: List[Dict[str, Any]] = []
@@ -539,6 +581,10 @@ def build_archive(
         n = _apply_xml_cancel_dates(features, xml_cancel)
         if n:
             print(f"  {year}: resolved valid_until for {n} features from NGA XML")
+
+    n = _resolve_cross_cancellations(features)
+    if n:
+        print(f"  {year}: cross-cancel resolved valid_until for {n} features")
 
     collection = {
         "type": "FeatureCollection",
