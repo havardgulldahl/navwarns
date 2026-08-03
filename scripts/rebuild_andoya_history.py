@@ -40,7 +40,9 @@ def _safe(name: str) -> str:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dry-run", action="store_true", help="print actions without writing")
+    ap.add_argument(
+        "--dry-run", action="store_true", help="print actions without writing"
+    )
     args = ap.parse_args()
 
     olx_files = sorted(HISTORY_DIR.rglob("ANDOYA_*.olx"))
@@ -73,9 +75,12 @@ def main() -> None:
             continue
 
         if args.dry_run:
-            logging.info("[dry-run] would write %s  valid_from=%s  valid_until=%s",
-                         out_path, feat["properties"]["valid_from"],
-                         feat["properties"]["valid_until"])
+            logging.info(
+                "[dry-run] would write %s  valid_from=%s  valid_until=%s",
+                out_path,
+                feat["properties"]["valid_from"],
+                feat["properties"]["valid_until"],
+            )
         else:
             out_dir.mkdir(parents=True, exist_ok=True)
             out_path.write_text(

@@ -44,6 +44,12 @@ COORD_PATTERN = re.compile(rf"({_LAT_PART}[NS])\s+({_LON_PART}[EW])")
 #  - THIS MSG <DD MON YY>
 #  - THIS MSG <DDHHMMZ MON> (no year)
 #  - THIS <DD MON YY> (no MSG/MESSAGE)
+# Active-period pattern: "FROM DDMON[YY] TO DDMON[YY]"
+# Year may appear on either or both sides; when absent it is inferred later.
+FROM_TO_PERIOD_PATTERN = re.compile(
+    r"\bFROM\s+(\d{1,2})\s*([A-Z]{3})\s*(\d{2})?\s+TO\s+(\d{1,2})\s*([A-Z]{3})\s*(\d{2})?\b"
+)
+
 CANCEL_PATTERN = re.compile(
     r"CANCEL ("  # capture the target only
     r"HYDROARC \d+/\d+"  # structured HYDROARC
@@ -270,6 +276,56 @@ class NavwarnMessage:
     cancel_date: Optional[str] = None  # structured cancel date from XML
 
     # --- Validity helpers ---
+    def _parse_from_to_period(self) -> "Tuple[Optional[str], Optional[str]]":
+        """Parse 'FROM DDMON[YY] TO DDMON[YY]' from body, returning (from_iso, until_iso)."""
+        if not self.body:
+            return None, None
+        m = FROM_TO_PERIOD_PATTERN.search(self.body.upper())
+        if not m:
+            return None, None
+        month_map = {
+            "JAN": 1,
+            "FEB": 2,
+            "MAR": 3,
+            "APR": 4,
+            "MAY": 5,
+            "JUN": 6,
+            "JUL": 7,
+            "AUG": 8,
+            "SEP": 9,
+            "OCT": 10,
+            "NOV": 11,
+            "DEC": 12,
+        }
+        from_day = int(m.group(1))
+        from_mon = month_map.get(m.group(2))
+        from_yr2 = m.group(3)
+        to_day = int(m.group(4))
+        to_mon = month_map.get(m.group(5))
+        to_yr2 = m.group(6)
+        if not from_mon or not to_mon:
+            return None, None
+        # Resolve years: prefer explicit; fall back to each other; then message year
+        base_year = (self.dtg.year if self.dtg else None) or self.year
+        if to_yr2 is not None:
+            to_year = 2000 + int(to_yr2)
+        elif base_year:
+            to_year = base_year
+        else:
+            return None, None
+        if from_yr2 is not None:
+            from_year = 2000 + int(from_yr2)
+        elif from_mon > to_mon:
+            from_year = to_year - 1
+        else:
+            from_year = to_year
+        try:
+            from_dt = datetime(from_year, from_mon, from_day, tzinfo=timezone.utc)
+            to_dt = datetime(to_year, to_mon, to_day, tzinfo=timezone.utc)
+        except ValueError:
+            return None, None
+        return from_dt.isoformat(), to_dt.isoformat()
+
     def _compute_valid_from(self) -> Optional[str]:
         """Return ISO-8601 valid_from string."""
         if self.dtg:
@@ -277,6 +333,10 @@ class NavwarnMessage:
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
             return dt.isoformat()
+        # FROM date is a fallback when no DTG is available
+        from_iso, _ = self._parse_from_to_period()
+        if from_iso:
+            return from_iso
         if self.year:
             return datetime(self.year, 1, 1, tzinfo=timezone.utc).isoformat()
         return None
@@ -442,9 +502,12 @@ class NavwarnMessage:
                         ).isoformat()
                     except ValueError:
                         pass
+        # Fall back to active-period TO date
+        _, until_iso = self._parse_from_to_period()
+        if until_iso:
+            return until_iso
         return None
 
-    # --- GeoJSON helpers ---
     def geojson_geometry(self, circle_segments: int = 72) -> Optional[dict]:
         """Return a GeoJSON geometry object derived from parsed coordinates & geometry metadata.
 

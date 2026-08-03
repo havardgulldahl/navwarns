@@ -25,7 +25,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+import sys
+
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from parser import FROM_TO_PERIOD_PATTERN  # noqa: E402
+
 HISTORY_DIR = ROOT / "history"
 DOCS_DIR = ROOT / "docs"
 
@@ -160,6 +165,50 @@ def _apply_xml_cancel_dates(
     return updated
 
 
+def _parse_from_to_period(
+    props: Dict[str, Any],
+) -> "Tuple[Optional[str], Optional[str]]":
+    """Parse 'FROM DDMON[YY] TO DDMON[YY]' from props body."""
+    body = props.get("body") or ""
+    if not body:
+        return None, None
+    m = FROM_TO_PERIOD_PATTERN.search(body.upper())
+    if not m:
+        return None, None
+    from_day = int(m.group(1))
+    from_mon = MONTH_MAP.get(m.group(2))
+    from_yr2 = m.group(3)
+    to_day = int(m.group(4))
+    to_mon = MONTH_MAP.get(m.group(5))
+    to_yr2 = m.group(6)
+    if not from_mon or not to_mon:
+        return None, None
+    base_year = props.get("year")
+    if base_year:
+        try:
+            base_year = int(base_year)
+        except (ValueError, TypeError):
+            base_year = None
+    if to_yr2 is not None:
+        to_year = 2000 + int(to_yr2)
+    elif base_year:
+        to_year = base_year
+    else:
+        return None, None
+    if from_yr2 is not None:
+        from_year = 2000 + int(from_yr2)
+    elif from_mon > to_mon:
+        from_year = to_year - 1
+    else:
+        from_year = to_year
+    try:
+        from_dt = datetime(from_year, from_mon, from_day, tzinfo=timezone.utc)
+        to_dt = datetime(to_year, to_mon, to_day, tzinfo=timezone.utc)
+    except ValueError:
+        return None, None
+    return from_dt.isoformat(), to_dt.isoformat()
+
+
 def _compute_valid_from(props: Dict[str, Any]) -> Optional[str]:
     """Derive valid_from from dtg or year."""
     dtg = props.get("dtg")
@@ -179,7 +228,9 @@ def _compute_valid_from(props: Dict[str, Any]) -> Optional[str]:
             return datetime(int(year), 1, 1, tzinfo=timezone.utc).isoformat()
         except (ValueError, TypeError):
             pass
-    return None
+    # FROM date is a fallback when DTG and year are both missing
+    from_iso, _ = _parse_from_to_period(props)
+    return from_iso
 
 
 def _compute_valid_until(
@@ -265,7 +316,9 @@ def _compute_valid_until(
                     ).isoformat()
                 except ValueError:
                     pass
-    return None
+    # Fall back to active-period TO date
+    _, until_iso = _parse_from_to_period(props)
+    return until_iso
 
 
 def _enrich_properties(

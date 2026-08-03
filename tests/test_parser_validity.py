@@ -206,3 +206,69 @@ class TestGeoJSONValidity:
         for f in feats:
             assert "valid_from" in f["properties"]
             assert "valid_until" in f["properties"]
+
+
+# ------------------------------------------------------------------
+# FROM ... TO ... active-period parsing
+# ------------------------------------------------------------------
+
+
+class TestFromToPeriod:
+    """Parser-level FROM/TO active-period extraction."""
+
+    def test_year_on_end_date_only(self) -> None:
+        # "FROM 10MAY TO 14MAY26"
+        msg = _msg(body="FROM 10MAY TO 14MAY26 DAILY 1600UTC TO 0300UTC26")
+        from_iso, until_iso = msg._parse_from_to_period()
+        assert from_iso == "2026-05-10T00:00:00+00:00"
+        assert until_iso == "2026-05-14T00:00:00+00:00"
+
+    def test_year_on_both_dates(self) -> None:
+        msg = _msg(body="FROM 01JUN26 TO 30JUN26")
+        from_iso, until_iso = msg._parse_from_to_period()
+        assert from_iso == "2026-06-01T00:00:00+00:00"
+        assert until_iso == "2026-06-30T00:00:00+00:00"
+
+    def test_cross_year_rollover(self) -> None:
+        # from_mon (DEC) > to_mon (JAN) → from_year = to_year - 1
+        msg = _msg(body="FROM 28DEC TO 03JAN27")
+        from_iso, until_iso = msg._parse_from_to_period()
+        assert from_iso == "2026-12-28T00:00:00+00:00"
+        assert until_iso == "2027-01-03T00:00:00+00:00"
+
+    def test_no_pattern_returns_none(self) -> None:
+        msg = _msg(body="EXERCISE IN NORWEGIAN SEA 1600UTC TO 0300UTC")
+        assert msg._parse_from_to_period() == (None, None)
+
+    def test_compute_valid_from_uses_from_date_when_no_dtg(self) -> None:
+        msg = _msg(body="FROM 10MAY TO 14MAY26")
+        assert msg._compute_valid_from() == "2026-05-10T00:00:00+00:00"
+
+    def test_compute_valid_from_dtg_takes_priority_over_from(self) -> None:
+        msg = _msg(
+            dtg=datetime(2026, 5, 12, 18, 30, tzinfo=timezone.utc),
+            body="FROM 10MAY TO 14MAY26",
+        )
+        assert msg._compute_valid_from() == "2026-05-12T18:30:00+00:00"
+
+    def test_compute_valid_until_uses_to_date(self) -> None:
+        msg = _msg(body="FROM 10MAY TO 14MAY26")
+        assert msg._compute_valid_until() == "2026-05-14T00:00:00+00:00"
+
+    def test_cancellation_takes_priority_over_to(self) -> None:
+        # Explicit cancellation should win over the TO date
+        msg = _msg(
+            cancellations=["THIS MSG 120000Z MAY 26"],
+            body="FROM 10MAY TO 14MAY26",
+        )
+        result = msg._compute_valid_until()
+        assert result is not None
+        dt = datetime.fromisoformat(result)
+        assert dt == datetime(2026, 5, 12, 0, 0, tzinfo=timezone.utc)
+
+    def test_fallback_to_message_year(self) -> None:
+        # No explicit year in either date; fall back to message year
+        msg = _msg(year=2026, body="FROM 05AUG TO 10AUG")
+        from_iso, until_iso = msg._parse_from_to_period()
+        assert from_iso == "2026-08-05T00:00:00+00:00"
+        assert until_iso == "2026-08-10T00:00:00+00:00"
