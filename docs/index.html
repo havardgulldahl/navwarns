@@ -411,7 +411,7 @@
         const TIMELINE_START = new Date(Date.UTC(2010, 0, 1));
         const TIMELINE_END = new Date();
         TIMELINE_END.setUTCHours(23, 59, 59, 999);
-        const totalDays = Math.ceil((TIMELINE_END - TIMELINE_START) / DAY_MS);
+        const totalDays = Math.floor((TIMELINE_END - TIMELINE_START) / DAY_MS);
 
         const dateSlider = document.getElementById('date-slider');
         const dateDisplay = document.getElementById('date-display');
@@ -628,6 +628,8 @@
         // ============ Feature Filtering ============
         function isFeatureValidAt(feature, checkDate) {
             const p = feature.properties || {};
+            const dayStart = new Date(Date.UTC(checkDate.getUTCFullYear(), checkDate.getUTCMonth(), checkDate.getUTCDate()));
+            const dayEnd = new Date(dayStart.getTime() + DAY_MS - 1);
 
             // Context year for yearless cancel dates (e.g. Russian ОТМ ЭТОТ НР DD MONTH without year)
             let contextYear = null;
@@ -657,7 +659,7 @@
             } else if (p.year) {
                 startDate = new Date(Date.UTC(p.year, 0, 1));
             }
-            if (startDate && !isNaN(startDate.getTime()) && checkDate < startDate) return false;
+            if (startDate && !isNaN(startDate.getTime()) && startDate > dayEnd) return false;
 
             // Determine end date: prefer pre-computed valid_until, fall back to cancellation parsing
             let endDate = null;
@@ -685,7 +687,7 @@
                     }
                 }
             }
-            if (endDate && !isNaN(endDate.getTime()) && checkDate > endDate) return false;
+            if (endDate && !isNaN(endDate.getTime()) && endDate < dayStart) return false;
 
             return true;
         }
@@ -1007,12 +1009,16 @@
         }
 
         // ============ Slider / Navigation ============
+        function normalizeToUtcDay(date) {
+            return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+        }
+
         function sliderToDate(value) {
-            return new Date(TIMELINE_START.getTime() + value * DAY_MS);
+            return normalizeToUtcDay(new Date(TIMELINE_START.getTime() + value * DAY_MS));
         }
 
         function dateToSlider(date) {
-            return Math.round((date - TIMELINE_START) / DAY_MS);
+            return Math.floor((normalizeToUtcDay(date) - TIMELINE_START) / DAY_MS);
         }
 
         function formatDisplayDate(date) {
@@ -1020,41 +1026,27 @@
         }
 
         function setViewDate(date) {
-            viewDate = date;
-            dateSlider.value = Math.max(0, Math.min(totalDays, dateToSlider(date)));
+            viewDate = normalizeToUtcDay(date);
+            const sliderValue = Math.max(0, Math.min(totalDays, dateToSlider(viewDate)));
+            dateSlider.value = sliderValue;
 
-            if (dateToSlider(date) >= totalDays - 1) {
+            if (sliderValue >= totalDays) {
                 dateDisplay.textContent = 'Today';
             } else {
-                dateDisplay.textContent = formatDisplayDate(date);
+                dateDisplay.textContent = formatDisplayDate(viewDate);
             }
 
             // Update datepicker value to match
-            datePicker.value = date.toISOString().slice(0, 10);
+            datePicker.value = viewDate.toISOString().slice(0, 10);
 
-            const targetYear = date.getUTCFullYear();
+            const targetYear = viewDate.getUTCFullYear();
             ensureYearLoaded(targetYear);
             updateYearBar();
             updateMapDisplay();
         }
 
         dateSlider.addEventListener('input', (e) => {
-            const date = sliderToDate(parseInt(e.target.value));
-            viewDate = date;
-
-            if (parseInt(e.target.value) >= totalDays - 1) {
-                dateDisplay.textContent = 'Today';
-            } else {
-                dateDisplay.textContent = formatDisplayDate(date);
-            }
-
-            // Update datepicker value to match
-            datePicker.value = date.toISOString().slice(0, 10);
-
-            const targetYear = date.getUTCFullYear();
-            ensureYearLoaded(targetYear);
-            updateYearBar();
-            updateMapDisplay();
+            setViewDate(sliderToDate(parseInt(e.target.value, 10)));
         });
 
         // Show datepicker when 'Today' is clicked

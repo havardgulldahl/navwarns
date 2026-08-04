@@ -139,7 +139,7 @@ class TestComputeValidUntil:
         assert _compute_valid_until({"cancellations": []}) is None
 
     def test_skips_non_self_entries(self) -> None:
-        """Only parses entries mentioning THIS MSG."""
+        """Ignores plain references and parses the self-cancel token."""
         props = {
             "cancellations": [
                 "101/24",
@@ -154,6 +154,40 @@ class TestComputeValidUntil:
             7,
             5,
             0,
+            0,
+            tzinfo=timezone.utc,
+        )
+
+    def test_bare_cancel_dtg_with_year(self) -> None:
+        props = {
+            "cancellations": ["212215Z APR 16"],
+        }
+        result = _compute_valid_until(props)
+        assert result is not None
+        dt = datetime.fromisoformat(result)
+        assert dt == datetime(
+            2016,
+            4,
+            21,
+            22,
+            15,
+            tzinfo=timezone.utc,
+        )
+
+    def test_bare_cancel_dtg_without_year_uses_dtg_year(self) -> None:
+        props = {
+            "dtg": "2026-04-17T05:58:00+00:00",
+            "cancellations": ["242100 UTC APR"],
+            "year": 2026,
+        }
+        result = _compute_valid_until(props)
+        assert result is not None
+        dt = datetime.fromisoformat(result)
+        assert dt == datetime(
+            2026,
+            4,
+            24,
+            21,
             0,
             tzinfo=timezone.utc,
         )

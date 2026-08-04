@@ -359,3 +359,80 @@ class TestPolishYearlessUtcCancel:
         assert result is not None
         dt = datetime.fromisoformat(result)
         assert dt == datetime(2026, 3, 21, 22, 59, tzinfo=timezone.utc)
+
+
+# ---------------------------------------------------------------------------
+# Archive corpus: bare DTG cancel without "THIS MSG" prefix
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.parametrize(
+    "dtg,body,expected,cancel_token",
+    [
+        (
+            "182211Z APR 16",
+            """NAVAREA II 100/16
+EASTERN NORTH ATLANTIC.
+1. SIX METER VESSEL, BLACK AND WHITE HULL, ADRIFT.
+2. CANCEL 212215Z APR 16.
+""",
+            datetime(2016, 4, 21, 22, 15, tzinfo=timezone.utc),
+            "212215Z APR 16",
+        ),
+        (
+            "011010Z MAR 21",
+            """NAVAREA III 188/21
+WESTERN MEDITERRANEAN SEA.
+1. DERELICT VESSELS ADRIFT.
+2. CANCEL 011040Z MAR 21.
+""",
+            datetime(2021, 3, 1, 10, 40, tzinfo=timezone.utc),
+            "011040Z MAR 21",
+        ),
+        (
+            "201230Z NOV 18",
+            """NAVAREA XX 165/18
+BARENTS SEA.
+1. MILITARY EXERCISES IN PROGRESS.
+2. CANCEL 212200Z NOV 18.
+""",
+            datetime(2018, 11, 21, 22, 0, tzinfo=timezone.utc),
+            "212200Z NOV 18",
+        ),
+    ],
+)
+def test_bare_cancel_dtg_with_year_parsed(
+    dtg: str,
+    body: str,
+    expected: datetime,
+    cancel_token: str,
+) -> None:
+    """Bare DTG in CANCEL line must be captured and parsed as valid_until."""
+    cancels = parse_cancellations(body)
+    assert cancel_token in cancels
+    msg = NavwarnMessage.from_text(dtg, body)
+    result = msg._compute_valid_until()
+    assert result is not None
+    assert datetime.fromisoformat(result) == expected
+
+
+def test_bare_cancel_dtg_without_year_infers_issue_year() -> None:
+    """Yearless bare cancel DTG should infer year from message DTG/year."""
+    body = """ESTONIAN NAV WARN 054/26
+GULF OF FINLAND.
+KEEP SAFE DISTANCE FROM NAVAL SHIPS.
+CANCEL 242100 UTC APR
+"""
+    cancels = parse_cancellations(body)
+    assert "242100 UTC APR" in cancels
+    msg = NavwarnMessage.from_text("170558Z APR 26", body)
+    result = msg._compute_valid_until()
+    assert result is not None
+    assert datetime.fromisoformat(result) == datetime(
+        2026,
+        4,
+        24,
+        21,
+        0,
+        tzinfo=timezone.utc,
+    )

@@ -32,18 +32,14 @@ jobs:
             echo "No feature files found; skipping merge."
             exit 0
           fi
-          if [ -f "current/navwarns.geojson" ]; then
-            jq -s '
-              map(if type == "object" and .type == "FeatureCollection" then .features else . end)
-              | flatten
-              | unique_by([.id, .properties.body])
-              | map(select(.properties.valid_until == null or (.properties.valid_until | fromdateiso8601) > now))
-              | { "type": "FeatureCollection", "features": . }
-            ' current/navwarns.geojson "${files[@]}" > current/navwarns.geojson.tmp
-            mv current/navwarns.geojson.tmp current/navwarns.geojson
-          else
-            jq -s '{ "type": "FeatureCollection", "features": . }' "${files[@]}" > current/navwarns.geojson
-          fi
+          jq -s '
+            map(if type == "object" and .type == "FeatureCollection" then .features else . end)
+            | flatten
+            | unique_by([.id, .properties.body])
+            | map(select(.properties.valid_until == null or (.properties.valid_until | fromdateiso8601) > now))
+            | { "type": "FeatureCollection", "features": . }
+          ' "${files[@]}" > current/navwarns.geojson.tmp
+          mv current/navwarns.geojson.tmp current/navwarns.geojson
 
       - name: Rebuild current-year archive
         run: python scripts/build_archives.py $(date -u +%Y)

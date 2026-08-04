@@ -83,6 +83,17 @@ _RE_RU_SELF_CANCEL = re.compile(
     re.IGNORECASE,
 )
 
+_RE_CANCEL_BARE_DTG = re.compile(
+    r"\bCANCEL\s+" r"((\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})(?:\s+(\d{2}))?)\b",
+    re.IGNORECASE,
+)
+
+_RE_CANCEL_THIS_VARIANT_DTG = re.compile(
+    r"\bCANCEL\s+(?:THIS(?:\s+(?:MSG|MESSAGE|WARNING))?|THE\s+MSG)\s+"
+    r"((\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})(?:\s+(\d{2}))?)\b",
+    re.IGNORECASE,
+)
+
 
 def _parse_nga_date(text: str) -> Optional[datetime]:
     """Parse NGA DTG format DDHHMM[Z] MON YYYY into a UTC datetime."""
@@ -244,6 +255,14 @@ def _compute_valid_until(
         for line in re.split(r"[.\n]", body.upper()):
             if "THIS MSG" in line or "THIS MESSAGE" in line:
                 sources.append(line.strip())
+            for m_dtg_var in _RE_CANCEL_THIS_VARIANT_DTG.finditer(line):
+                normalized = f"THIS MSG {m_dtg_var.group(1).strip().upper()}"
+                if normalized not in sources:
+                    sources.append(normalized)
+            for m_dtg in _RE_CANCEL_BARE_DTG.finditer(line):
+                token = m_dtg.group(1).strip().upper()
+                if token not in sources:
+                    sources.append(token)
         # Also scan for Russian self-cancellation (ОТМ ЭТОТ НР DD MONTH [YY])
         year_hint = str(props["year"])[-2:] if props.get("year") else None
         for m_ru in _RE_RU_SELF_CANCEL.finditer(body):
@@ -270,14 +289,17 @@ def _compute_valid_until(
         if not cancel:
             continue
         upper = cancel.upper()
-        if "THIS MSG" not in upper and "THIS MESSAGE" not in upper:
-            continue
         # Full DTG: DDHHMM[Z| UTC| ] MON YY
         m = re.search(
             r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})"
             r"(?:Z| UTC)? ?([A-Z]{3}) (\d{2})",
             cancel,
         )
+        if not m:
+            m = re.search(
+                r"\b(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})\s+(\d{2})\b",
+                cancel,
+            )
         if m:
             day, hour, minute = (
                 int(m.group(1)),
@@ -298,6 +320,51 @@ def _compute_valid_until(
                     ).isoformat()
                 except ValueError:
                     pass
+        m_noy = re.search(
+            r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| ?UTC)? ([A-Z]{3})$",
+            cancel,
+        )
+        if not m_noy:
+            m_noy = re.search(
+                r"\b(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})\b$",
+                cancel,
+            )
+        if m_noy:
+            day, hour, minute = (
+                int(m_noy.group(1)),
+                int(m_noy.group(2)),
+                int(m_noy.group(3)),
+            )
+            mon = MONTH_MAP.get(m_noy.group(4))
+            if mon:
+                dtg_text = props.get("dtg")
+                msg_year = props.get("year")
+                base_year: Optional[int] = None
+                if isinstance(dtg_text, str):
+                    try:
+                        parsed = datetime.fromisoformat(dtg_text.replace("Z", "+00:00"))
+                        base_year = parsed.year
+                        if mon < parsed.month:
+                            base_year += 1
+                    except ValueError:
+                        base_year = None
+                if base_year is None and msg_year:
+                    try:
+                        base_year = int(msg_year)
+                    except (TypeError, ValueError):
+                        base_year = None
+                if base_year:
+                    try:
+                        return datetime(
+                            base_year,
+                            mon,
+                            day,
+                            hour,
+                            minute,
+                            tzinfo=timezone.utc,
+                        ).isoformat()
+                    except ValueError:
+                        pass
         m2 = re.search(
             r"THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3})" r" (\d{2})",
             cancel,

@@ -78,10 +78,16 @@ def is_navwarn_valid_at(cancellations, check_date, dtg=None, year=None):
     """
     from datetime import timezone
 
+    def day_bounds(date):
+        start = datetime(date.year, date.month, date.day, tzinfo=timezone.utc)
+        end = start.replace(hour=23, minute=59, second=59, microsecond=999000)
+        return start, end
+
     # Normalize check_date to UTC if it's naive (for consistent comparisons)
     check_date_utc = check_date
     if check_date.tzinfo is None:
         check_date_utc = check_date.replace(tzinfo=timezone.utc)
+    day_start, day_end = day_bounds(check_date_utc)
 
     # Check if navwarn has started (using DTG as start date)
     if dtg:
@@ -113,7 +119,7 @@ def is_navwarn_valid_at(cancellations, check_date, dtg=None, year=None):
             if start_date.tzinfo is None:
                 start_date = start_date.replace(tzinfo=timezone.utc)
 
-            if check_date_utc < start_date:
+            if start_date > day_end:
                 return False  # This navwarn hasn't started yet
         except (ValueError, AttributeError, TypeError):
             pass  # Invalid DTG, skip start date check
@@ -131,7 +137,7 @@ def is_navwarn_valid_at(cancellations, check_date, dtg=None, year=None):
                 # Ensure cancel_date is timezone-aware
                 if cancel_date.tzinfo is None:
                     cancel_date = cancel_date.replace(tzinfo=timezone.utc)
-                if check_date_utc > cancel_date:
+                if cancel_date < day_start:
                     return False  # This navwarn is cancelled
     return True  # Valid at this date
 
@@ -214,7 +220,7 @@ def test_navwarn_valid_before_cancellation():
 def test_navwarn_invalid_after_cancellation():
     """Test that navwarn is invalid after its cancellation date."""
     cancellations = ["THIS MSG 171600Z SEP 25"]
-    check_date = datetime(2025, 9, 17, 20, 0)  # After cancellation
+    check_date = datetime(2025, 9, 18, 0, 0)  # The next day
     assert is_navwarn_valid_at(cancellations, check_date, year=2025) is False
 
 
@@ -223,6 +229,14 @@ def test_navwarn_valid_at_exact_cancellation_time():
     cancellations = ["THIS MSG 171600Z SEP 25"]
     check_date = datetime(2025, 9, 17, 16, 0)  # Exact cancellation time
     assert is_navwarn_valid_at(cancellations, check_date, year=2025) is True
+
+
+def test_navwarn_valid_when_issued_later_same_day():
+    """Test that a warning started later in the day is still visible on that day."""
+    cancellations = []
+    dtg = "2025-09-23T18:42:00"
+    check_date = datetime(2025, 9, 23, 0, 0)
+    assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is True
 
 
 def test_navwarn_with_no_cancellation():
@@ -342,7 +356,10 @@ def test_navwarn_dtg_with_timezone_offset():
     dtg = "2025-09-23T18:42:00-05:00"  # With negative timezone offset
     check_date = datetime(
         2025, 9, 23, 20, 0
-    )  # 20:00 UTC is before 18:42 Eastern (23:42 UTC)
+    )  # Same UTC day should still show the warning.
+    assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is True
+
+    check_date = datetime(2025, 9, 22, 23, 59)
     assert is_navwarn_valid_at(cancellations, check_date, dtg=dtg, year=2025) is False
 
     check_date = datetime(2025, 9, 24, 0, 0)  # After start in UTC

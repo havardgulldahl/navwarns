@@ -68,6 +68,20 @@ CANCEL_PATTERN = re.compile(
     r")"
 )
 
+# Bare self-cancel DTG variants that omit "THIS MSG", for example:
+#   CANCEL 212215Z APR 16
+#   CANCEL 242100 UTC APR
+RE_CANCEL_BARE_DTG = re.compile(
+    r"\bCANCEL\s+" r"((\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})(?:\s+(\d{2}))?)\b",
+    re.IGNORECASE,
+)
+
+RE_CANCEL_THIS_VARIANT_DTG = re.compile(
+    r"\bCANCEL\s+(?:THIS(?:\s+(?:MSG|MESSAGE|WARNING))?|THE\s+MSG)\s+"
+    r"((\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})(?:\s+(\d{2}))?)\b",
+    re.IGNORECASE,
+)
+
 ## PRIPS (Coastal warnings)
 # This is a sample of prips
 
@@ -388,6 +402,14 @@ class NavwarnMessage:
             for line in re.split(r"[.\n]", self.body.upper()):
                 if "THIS MSG" in line or "THIS MESSAGE" in line:
                     sources.append(line.strip())
+                for m_dtg_var in RE_CANCEL_THIS_VARIANT_DTG.finditer(line):
+                    normalized = f"THIS MSG {m_dtg_var.group(1).strip().upper()}"
+                    if normalized not in sources:
+                        sources.append(normalized)
+                for m_dtg in RE_CANCEL_BARE_DTG.finditer(line):
+                    token = m_dtg.group(1).strip().upper()
+                    if token not in sources:
+                        sources.append(token)
             # Also scan for Russian self-cancellation (ОТМ ЭТОТ НР DD MONTH [YY])
             yr_hint = str(self.year)[-2:] if self.year else None
             for m_ru in RE_PRIP_SELF_CANCEL.finditer(self.body):
@@ -414,14 +436,17 @@ class NavwarnMessage:
             if not cancel:
                 continue
             upper = cancel.upper() if isinstance(cancel, str) else str(cancel).upper()
-            if "THIS" not in upper:
-                continue
             # Full DTG: DDHHMM[Z|UTC| UTC] MON YY
             m = re.search(
                 r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})"
                 r"(?:Z| ?UTC)? ?([A-Z]{3}) (\d{2})",
                 cancel,
             )
+            if not m:
+                m = re.search(
+                    r"\b(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})\s+(\d{2})\b",
+                    cancel,
+                )
             if m:
                 day, hour, minute = (
                     int(m.group(1)),
@@ -447,6 +472,11 @@ class NavwarnMessage:
                 r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| ?UTC)? ([A-Z]{3})$",
                 cancel,
             )
+            if not m_noy:
+                m_noy = re.search(
+                    r"\b(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})\b$",
+                    cancel,
+                )
             if m_noy:
                 day, hour, minute = (
                     int(m_noy.group(1)),
@@ -841,6 +871,14 @@ def parse_cancellations(body: str) -> List[str]:
     # Additional heuristic: for any line containing CANCEL, pull all token forms NNN/YY
     for line in body.splitlines():
         if "CANCEL" in line.upper():
+            for m_dtg_var in RE_CANCEL_THIS_VARIANT_DTG.finditer(line):
+                normalized = f"THIS MSG {m_dtg_var.group(1).strip().upper()}"
+                if normalized not in cancels:
+                    cancels.append(normalized)
+            for m_dtg in RE_CANCEL_BARE_DTG.finditer(line):
+                token = m_dtg.group(1).strip().upper()
+                if token not in cancels:
+                    cancels.append(token)
             for m in re.findall(r"\b(\d+/\d+)\b", line):
                 # Skip if a longer token already captured (e.g., structured id)
                 if any(c.endswith(m) for c in cancels):
