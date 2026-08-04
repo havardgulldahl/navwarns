@@ -262,6 +262,36 @@ def test_german_navwarn_comma_decimal_coordinates_are_parsed():
     assert feature["geometry"]["type"] == "LineString"
 
 
+def test_german_navwarn_in_the_area_of_is_closed_polygon():
+    body = (
+        "[Southern Baltic] GERMAN NAV WARN 333/26\n"
+        "WESTERN BALTIC. EAST OF RUEGEN.\n"
+        "FROM 07. JUN 0600 TIL 10. JUN 1800\n"
+        "IN THE AREA OF\n"
+        "54-40N 013-55E\n"
+        "54-40N 014-12E\n"
+        "54-24N 014-12E\n"
+        "54-24N 013-55E\n"
+        "MARINERS KEEP WELL CLEAR OF EXERCISE AREA\n"
+        "CANCEL THIS MESSAGE AT 102359 JUN"
+    )
+
+    msg = NavwarnMessage.from_text("020621Z JUN 26", body)
+
+    assert msg.msg_id == "GERMAN NAV WARN 333/26"
+    assert len(msg.coordinates) == 4
+    assert msg.geometry == "polygon"
+
+    feature = msg.to_geojson_feature()
+    assert feature["geometry"] is not None
+    assert feature["geometry"]["type"] == "Polygon"
+
+    ring = feature["geometry"]["coordinates"][0]
+    assert len(ring) == 5
+    assert ring[0][0] == pytest.approx(ring[-1][0], abs=1e-6)
+    assert ring[0][1] == pytest.approx(ring[-1][1], abs=1e-6)
+
+
 def test_navwarnmessage_factory():
     body = "HYDROARC 200/25. MOORING AT 10-10.00N 020-20.00E. CANCEL HYDROARC 100/25."
     msg = NavwarnMessage.from_text("010001Z JAN 25", body)

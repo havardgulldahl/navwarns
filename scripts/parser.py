@@ -1244,6 +1244,8 @@ def analyze_geometry(
                 "AREAS BOUND BY",
                 "BOUNDED BY",
                 "BOUND BY",
+                "IN THE AREA OF",
+                "IN AREA OF",
                 "TEMPORARILY DANGEROUS",  # Baltic NAVTEX: prohibited zone
                 "TEMPORARILY RESTRICTED",
                 "РАЙОНЕ",  # Russian: area/zone
