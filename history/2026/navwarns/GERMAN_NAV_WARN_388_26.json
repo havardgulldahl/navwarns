@@ -1,7 +1,55 @@
 {
   "type": "Feature",
   "id": "GERMAN NAV WARN 388/26",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        13.872333333333334,
+        54.906333333333336
+      ],
+      [
+        13.813333333333333,
+        54.89533333333333
+      ],
+      [
+        13.9,
+        54.895
+      ],
+      [
+        13.901,
+        54.89333333333333
+      ],
+      [
+        13.788166666666667,
+        54.89066666666667
+      ],
+      [
+        13.911333333333333,
+        54.861666666666665
+      ],
+      [
+        13.923833333333333,
+        54.825
+      ],
+      [
+        13.819333333333333,
+        54.58866666666667
+      ],
+      [
+        13.821166666666667,
+        54.578833333333336
+      ],
+      [
+        13.822833333333334,
+        54.57
+      ],
+      [
+        13.823666666666666,
+        54.56733333333333
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2026-07-06T12:52:00",
     "raw_dtg": "061252Z JUL 26",
@@ -11,7 +59,7 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "[Southern Baltic] GERMAN NAV WARN 388/26\nSOUTHERN BALTIC. NORTHEAST OF RUEGEN\nEXPLOSIVES FOUND IN POSITIONS\n54-54,38N 013-52,34E,\n54-53,72N 013-48,80E,\n54-53,70N 013-54,00E,\n54-53,60N 013-54,06E,\n54-53,44N 013-47,29E,\n54-51,70N 013-54,68E,\n54-49,50N 013-55,43E,\n54-35,32N 013-49,16E,\n54-34,73N 013-49,27E,\n54-34,20N 013-49,37E AND\n54-34,04N 013-49,42E.\nANCHORING AND FISHING PROHIBITED WITHIN\nA RADIUS OF 100 METRES.\nCANCEL GERMAN NAVIGATIONAL WARNING NO. 386",
     "cancel_date": null,

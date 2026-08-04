@@ -1,7 +1,35 @@
 {
   "type": "Feature",
   "id": "GERMAN NAV WARN 382/26",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        13.813333333333333,
+        54.89533333333333
+      ],
+      [
+        13.9,
+        54.895
+      ],
+      [
+        13.901,
+        54.89333333333333
+      ],
+      [
+        13.911333333333333,
+        54.861666666666665
+      ],
+      [
+        13.923833333333333,
+        54.825
+      ],
+      [
+        13.872333333333334,
+        54.906333333333336
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2026-07-01T14:00:00",
     "raw_dtg": "011400Z JUL 26",
@@ -13,7 +41,7 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "[Southern Baltic] GERMAN NAV WARN 382/26\nSOUTHERN BALTIC. 'BALTIC EAGLE' OFFSHORE WIND FARM.\nEXPLOSIVES FOUND IN POSITIONS\n54-53,72N 013-48,80E,\n54-53,70N 013-54,00E,\n54-53,60N 013-54,06E,\n54-51,70N 013-54,68E,\n54-49,50N 013-55,43E,\n54-54,38N 013-52.34E.\nANCHORING AND FISHING PROHIBITED WITHIN\nA RADIUS OF 100 METRES.\nCANCEL GERMAN NAV WARN 377/26",
     "cancel_date": null,

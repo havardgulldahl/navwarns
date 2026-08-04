@@ -1,7 +1,43 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 100/19",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        16.02,
+        69.295
+      ],
+      [
+        15.416666666666666,
+        69.98333333333333
+      ],
+      [
+        14.633333333333333,
+        69.95
+      ],
+      [
+        14.216666666666667,
+        70.55
+      ],
+      [
+        16.466666666666665,
+        70.7
+      ],
+      [
+        16.633333333333333,
+        70.06666666666666
+      ],
+      [
+        15.9,
+        70.0
+      ],
+      [
+        16.25,
+        69.38333333333334
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-09-19T21:28:00",
     "raw_dtg": "",
@@ -11,7 +47,7 @@
     "hazard_type": "hazardous operations",
     "category": "military",
     "title": "Hazardous Operations",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": " NAVAREA XIX 100/19\nANDOYA\n\nTEST FIRING FROM ANDOYA IN THE PERIOD FROM SEPT 23-27  2019\nTHE FIRING WILL BE CONDUCTED BETWEEN 1200 - 1800 UTC IN THE ANNOUNCED PERIOD.\nMARITIME TRAFFIC IS REQUESTED TO BE AWARE OF THE FOLLOWING HAZARD AREA:\n\nA 69-17,7N 016-01,2E\nB 69-21,0N 015 43,0E\nC 69-59,0N 015-25,0E\nD 69-57,0N 014-38,0E\nE 70-33,0N 014-13,0E\nD 70-42,0N 016-28,0E\nE 70-04,0N 016-38,0E\nF 70-00,0N 015-54,0E\nG 69-23,0N 016-15,0E\n\nNOTE: SEE WWW.TESTSENTER.NO FOR DAILY UPDATES AND MAPS.\nREFERS TO NORWEGIAN NOTICE TO MARINERS WWW.KARTVERKET.NO/EFS/ 17-2019",
     "cancel_date": "2019-09-26T15:26:00",

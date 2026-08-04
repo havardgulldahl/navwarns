@@ -33,8 +33,8 @@ MSG_ID_PATTERN = re.compile(
     r"|НАВАРЕА \d+ \d+/\d+)"
 )
 # Coordinate pair pattern supporting both DM (DD-MM.mm) and DMS (DD-MM-SS.ss) forms.
-_LAT_PART = r"\d{2,3}-(?:\d{2}(?:\.\d+)?|\d{2}-\d{2}(?:\.\d+)?)"
-_LON_PART = r"\d{3}-(?:\d{2}(?:\.\d+)?|\d{2}-\d{2}(?:\.\d+)?)"
+_LAT_PART = r"\d{2,3}-(?:\d{2}(?:[\.,]\d+)?|\d{2}-\d{2}(?:[\.,]\d+)?)"
+_LON_PART = r"\d{3}-(?:\d{2}(?:[\.,]\d+)?|\d{2}-\d{2}(?:[\.,]\d+)?)"
 COORD_PATTERN = re.compile(rf"({_LAT_PART}[NS])\s+({_LON_PART}[EW])")
 # Expanded cancellation recognition:
 #  - HYDROARC X/Y
@@ -824,7 +824,7 @@ def coord_to_decimal(coord: str) -> Optional[float]:
     where H is hemisphere N/S/E/W.
     """
     # Normalize
-    token = coord.strip().upper()
+    token = coord.strip().upper().replace(",", ".")
 
     # DMS first: degrees-minutes-seconds
     m_dms = re.match(r"^(\d+)-(\d+)-(\d+(?:\.\d+)?)([NSEW])$", token)

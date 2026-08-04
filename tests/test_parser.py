@@ -235,6 +235,33 @@ def test_coordinate_parsing_ignores_invalid():
     assert len(coords2) == 0
 
 
+def test_german_navwarn_comma_decimal_coordinates_are_parsed():
+    body = (
+        "[Southern Baltic] GERMAN NAV WARN 434/26\n"
+        "SOUTHERN BALTIC. NORTHEAST OF RUEGEN.\n"
+        "EXPLOSIVES FOUND ALONG THE JOININGLINES:\n"
+        "1. 54-48,6N 013-55,8E,\n"
+        "54-54,6N 013-53,8E AND\n"
+        "54-53,4N 013-47,3E.\n"
+        "2. 54-35,3N 013-49,2E,\n"
+        "54-28,3N 013-50,9E AND\n"
+        "54-21,7N 013-51,0E.\n"
+        "ANCHORING AND FISHING PROHIBITED WITHIN\n"
+        "A RADIUS OF 100 METRES.\n"
+        "CANCEL GERMAN NAV WARN 403/26"
+    )
+
+    msg = NavwarnMessage.from_text("030940Z AUG 26", body)
+
+    assert msg.msg_id == "GERMAN NAV WARN 434/26"
+    assert len(msg.coordinates) == 6
+    assert msg.geometry == "linestring"
+
+    feature = msg.to_geojson_feature()
+    assert feature["geometry"] is not None
+    assert feature["geometry"]["type"] == "LineString"
+
+
 def test_navwarnmessage_factory():
     body = "HYDROARC 200/25. MOORING AT 10-10.00N 020-20.00E. CANCEL HYDROARC 100/25."
     msg = NavwarnMessage.from_text("010001Z JAN 25", body)

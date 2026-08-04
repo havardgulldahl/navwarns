@@ -1,7 +1,23 @@
 {
   "type": "Feature",
   "id": "GERMAN NAV WARN 327/26",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        10.873333333333333,
+        54.46333333333333
+      ],
+      [
+        10.873333333333333,
+        54.45666666666666
+      ],
+      [
+        10.863333333333333,
+        54.50666666666667
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2026-05-27T17:07:00",
     "raw_dtg": "271707Z MAY 26",
@@ -11,7 +27,7 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "[Western Baltic] GERMAN NAV WARN 327/26\nWESTERN BALTIC, WEST OF FEHMARN.\nEXPLOSIVES FOUND IN POSITIONS\n54-27,8N 010-52,4E,\n54-27,4N 010-52,4E,\n54-30,4N 010-51,8E.\nANCHORING AND FISHING PROHIBITED.",
     "cancel_date": null,

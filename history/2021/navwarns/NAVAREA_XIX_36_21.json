@@ -2,10 +2,16 @@
   "type": "Feature",
   "id": "NAVAREA XIX 36/21",
   "geometry": {
-    "type": "Point",
+    "type": "MultiPoint",
     "coordinates": [
-      20.136666666666667,
-      72.44
+      [
+        20.136666666666667,
+        72.44
+      ],
+      [
+        6.671666666666667,
+        65.11833333333334
+      ]
     ]
   },
   "properties": {
@@ -19,7 +25,7 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": " \nNAVAREA XIX 36/21\n1. RIGLIST. CORRECT AT 051830 UTC APR 21\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n72-26.4N 020-08.2E TRANSOCEAN ENABLER\n65-07.1N 006-40,3E  TRANSOCEAN ENCOURAGE\n\nNOTES: A. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\nB. FOR RIGS LOCATED SOUTH OF 65N. REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n2. CANCEL NAVAREA XIX 35/21",
     "cancel_date": "2021-04-09T06:24:00",
