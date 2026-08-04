@@ -97,6 +97,17 @@ def _coords_close(actual, expected, tol=1e-4) -> bool:
     )
 
 
+def test_cancel_date_parsed_from_compact_utc_format(parsed_message):
+    """'CANCEL THIS MESSAGE 301600UTC APR 26' must yield valid_until 2026-04-30T16:00:00+00:00.
+
+    Regression for DDHHMM immediately followed by UTC (no space) not being parsed.
+    """
+    valid_until = parsed_message._compute_valid_until()
+    assert (
+        valid_until == "2026-04-30T16:00:00+00:00"
+    ), f"expected 2026-04-30T16:00:00+00:00, got {valid_until!r}"
+
+
 def test_polygon_coordinates_match_expected(parsed_message, expected_geojson):
     """Vertex coordinates must match the expected GeoJSON within 1e-4 degrees."""
     actual_features = parsed_message.to_geojson_features()

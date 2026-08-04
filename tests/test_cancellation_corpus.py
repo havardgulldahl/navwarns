@@ -78,6 +78,20 @@ SAMPLE_PRIP_OPERATIONAL_CANCEL_RU = """\
 3. ОТМ 379/25 И ЭТОТ ПУНКТ=
 011000 МСК ГС-"""
 
+# Polish NAV WARN: yearless cancel with space before UTC (no Z, no year).
+# Source: POLISH NAV WARN 049/26 — "CANCEL THIS MSG 212259 UTC MAR"
+SAMPLE_POLISH_049_26 = """\
+[Southern Baltic] POLISH NAV WARN 049/26
+SOUTHERN BALTIC. POLISH COAST
+DUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:
+S-6 CENTERED 54-39.27N 016-36.59E
+FROM 160400 MAR UNTIL 210059 MAR
+AND 210400 MAR TO 211300 MAR
+AND 211800 MAR TO 212259 MAR
+TIME IN UTC
+ZONE IS CLOSED
+CANCEL THIS MSG 212259 UTC MAR"""
+
 _VALID_UNTIL_61_26 = "2026-05-30T00:59:00+00:00"
 
 
@@ -320,3 +334,28 @@ class TestRussianPripOperationalCrossCancel:
         assert result is not None
         dt = datetime.fromisoformat(result)
         assert dt == datetime(2025, 12, 6, 18, 0, tzinfo=timezone.utc)
+
+
+# ---------------------------------------------------------------------------
+# Polish corpus: yearless UTC cancel (POLISH NAV WARN 049/26 pattern)
+# ---------------------------------------------------------------------------
+
+
+class TestPolishYearlessUtcCancel:
+    """POLISH NAV WARN 049/26: 'CANCEL THIS MSG 212259 UTC MAR' — yearless, space before UTC.
+
+    Regression: CANCEL_PATTERN previously fell through to the bare 'THIS MSG'
+    fallback (losing the date), and the yearless regex in _compute_valid_until
+    only handled Z, not UTC.
+    """
+
+    def test_cancellation_captures_dtg(self) -> None:
+        cancels = parse_cancellations(SAMPLE_POLISH_049_26)
+        assert cancels == ["THIS MSG 212259 UTC MAR"]
+
+    def test_valid_until_inferred_from_issue_year(self) -> None:
+        msg = NavwarnMessage.from_text("121125Z MAR 26", SAMPLE_POLISH_049_26)
+        result = msg._compute_valid_until()
+        assert result is not None
+        dt = datetime.fromisoformat(result)
+        assert dt == datetime(2026, 3, 21, 22, 59, tzinfo=timezone.utc)

@@ -37,7 +37,10 @@
     "raw_dtg": "252343Z APR 26",
     "msg_id": "PETERSBURG NAV WARN 072/26",
     "year": 2026,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MSG 312200 UTC MAY",
+      "THIS MSG"
+    ],
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
@@ -46,7 +49,7 @@
     "body": "[Gulf of Finland] PETERSBURG NAV WARN 072/26\n252304 UTC APR\nPETERSBURG NAV WARN 072/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 302100 UTC APR -312100 UTC MAY\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-107\n60-10.30N 028-45.70E 60-10.30N 028-54.60E\n60-04.00N 028-54.60E 60-04.00N 028-34.00E\n60-07.00N 028-34.00E\nCANCEL THIS MSG 312200 UTC MAY",
     "cancel_date": null,
     "valid_from": "2026-04-25T23:43:00+00:00",
-    "valid_until": null,
+    "valid_until": "2026-05-31T22:00:00+00:00",
     "summary": null
   }
 }

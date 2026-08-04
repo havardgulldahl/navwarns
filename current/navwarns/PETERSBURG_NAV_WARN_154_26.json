@@ -33,7 +33,10 @@
     "raw_dtg": "312100Z JUL 26",
     "msg_id": "PETERSBURG NAV WARN 154/26",
     "year": 2026,
-    "cancellations": [],
+    "cancellations": [
+      "THIS MESSAGE 312200 UTC AUG",
+      "THIS MESSAGE"
+    ],
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
@@ -42,7 +45,7 @@
     "body": "[Gulf of Finland] PETERSBURG NAV WARN 154/26\nEASTERN GULF OF FINLAND\n1. SHIPS EXERCISES 312100 UTC JUL THRU 312100 UTC AUG\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING\n59-53.43N 027-05.35E 59-53.43N 027-09.63E\n59-46.43N 027-09.63E 59-46.43N 027-05.35E\n2. CANCEL THIS MESSAGE 312200 UTC AUG=",
     "cancel_date": null,
     "valid_from": "2026-07-31T21:00:00+00:00",
-    "valid_until": null,
+    "valid_until": "2026-08-31T22:00:00+00:00",
     "summary": null
   }
 }

@@ -37,6 +37,7 @@ jobs:
               map(if type == "object" and .type == "FeatureCollection" then .features else . end)
               | flatten
               | unique_by([.id, .properties.body])
+              | map(select(.properties.valid_until == null or (.properties.valid_until | fromdateiso8601) > now))
               | { "type": "FeatureCollection", "features": . }
             ' current/navwarns.geojson "${files[@]}" > current/navwarns.geojson.tmp
             mv current/navwarns.geojson.tmp current/navwarns.geojson

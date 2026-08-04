@@ -57,7 +57,10 @@ CANCEL_PATTERN = re.compile(
     r"|\d+/\d+"  # plain number/year
     r"|THIS (?:MSG|MESSAGE) \d{6}Z [A-Z]{3} \d{2}"  # DTG form: DDHHMMZ MON YY
     r"|THIS (?:MSG|MESSAGE) \d{6} UTC [A-Z]{3} \d{2}"  # DTG without Z + UTC
+    r"|THIS (?:MSG|MESSAGE) \d{6}UTC [A-Z]{3} \d{2}"  # DTG no-space UTC: DDHHMMUTC MON YY
     r"|THIS (?:MSG|MESSAGE) \d{6}Z [A-Z]{3}"  # DTG form without year: DDHHMMZ MON
+    r"|THIS (?:MSG|MESSAGE) \d{6} UTC [A-Z]{3}"  # DTG without year: DDHHMM UTC MON
+    r"|THIS (?:MSG|MESSAGE) \d{6}UTC [A-Z]{3}"  # DTG without year, no-space UTC: DDHHMMUTC MON
     r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # date only: DD MON YY/YYYY
     r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3}"  # date only without year: DD MON
     r"|THIS \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # bare THIS DD MON YY (no MSG/MESSAGE)
@@ -413,10 +416,10 @@ class NavwarnMessage:
             upper = cancel.upper() if isinstance(cancel, str) else str(cancel).upper()
             if "THIS" not in upper:
                 continue
-            # Full DTG: DDHHMM[Z| UTC| ] MON YY
+            # Full DTG: DDHHMM[Z|UTC| UTC] MON YY
             m = re.search(
                 r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})"
-                r"(?:Z| UTC)? ?([A-Z]{3}) (\d{2})",
+                r"(?:Z| ?UTC)? ?([A-Z]{3}) (\d{2})",
                 cancel,
             )
             if m:
@@ -441,7 +444,7 @@ class NavwarnMessage:
                         pass
             # DTG without year: DDHHMM[Z] MON
             m_noy = re.search(
-                r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})Z? ([A-Z]{3})$",
+                r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| ?UTC)? ([A-Z]{3})$",
                 cancel,
             )
             if m_noy:
