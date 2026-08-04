@@ -4,7 +4,6 @@ import pytest
 from scripts.parser import parse_navwarns, parse_cancellations
 from scripts.scraper_navareaxix import extract_warnings, normalize_dtg
 
-
 # --- Sample HTML from the ASPX page (simplified) ---
 SAMPLE_HTML = b"""<!DOCTYPE html>
 <html>
@@ -183,6 +182,18 @@ class TestParseNavareaXIX:
         body = "2. CANCEL NAVAREA XIX 32/26"
         cancels = parse_cancellations(body)
         assert "NAVAREA XIX 32/26" in cancels
+
+    def test_bare_navarea_number_resolved_from_context(self):
+        """'CANCEL NAVAREA 90' (no area specifier/year) should resolve via body context."""
+        body = (
+            "NAVAREA XIX 93/26\n\n"
+            "1. CANCEL NAVAREA 90\n\n"
+            "2. CANCEL THIS MESSAGE\n\n"
+            "PREVIOUS HF WARNINGS ISSUED NAVAREA XIX 90/26"
+        )
+        cancels = parse_cancellations(body)
+        assert "90/26" in cancels
+        assert any("THIS MESSAGE" in c for c in cancels)
 
     def test_port_restriction_no_coordinates(self):
         dtg = normalize_dtg("160630 UTC feb 26")

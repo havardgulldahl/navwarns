@@ -270,15 +270,26 @@ def main():
                     active_filenames.add(filename)
 
                     outfile = navwarns_out_dir / filename
-                    with outfile.open("w", encoding="utf-8") as f_geo:
-                        f_geo.write(
-                            json.dumps(serialize_message(m), ensure_ascii=False) + "\n"
+                    # Preserve valid_from set on first scrape (same as other scrapers)
+                    if outfile.exists():
+                        logging.debug("Skipping existing file: %s", filename)
+                        continue
+
+                    geo = serialize_message(m)
+                    # When the parser falls back to Jan 1 (year-only DTG), use scrape date
+                    props = geo.get("properties") or {}
+                    vf = props.get("valid_from") or ""
+                    if re.search(r"-01-01T00:00:00", vf):
+                        props["valid_from"] = (
+                            f"{datetime.date.today().isoformat()}T00:00:00+00:00"
                         )
+                    with outfile.open("w", encoding="utf-8") as f_geo:
+                        f_geo.write(json.dumps(geo, ensure_ascii=False) + "\n")
 
         cleanup.cleanup(
             active_filenames,
             CURRENT_DIR / "navwarns",
-            "NAVAREAXX_*.json",
+            "NAVAREA_XX_*.json",
         )
         # Also clean up legacy unknown_id.json left by old runs
         cleanup.cleanup(

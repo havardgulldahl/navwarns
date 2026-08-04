@@ -61,6 +61,7 @@ CANCEL_PATTERN = re.compile(
     r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # date only: DD MON YY/YYYY
     r"|THIS (?:MSG|MESSAGE) \d{2} [A-Z]{3}"  # date only without year: DD MON
     r"|THIS \d{2} [A-Z]{3} (?:\d{2}|\d{4})"  # bare THIS DD MON YY (no MSG/MESSAGE)
+    r"|THIS (?:MSG|MESSAGE)"  # bare self-cancel without date
     r")"
 )
 
@@ -843,6 +844,17 @@ def parse_cancellations(body: str) -> List[str]:
                     continue
                 if m not in cancels:
                     cancels.append(m)
+    # Heuristic: resolve 'CANCEL NAVAREA NN' (bare number, no area/year) by correlating
+    # with a full NNN/YY reference found elsewhere in the body.
+    for line in body.splitlines():
+        if "CANCEL" not in line.upper():
+            continue
+        for bare_m in re.finditer(r"\bNAVAREA\s+(\d+)\b(?!/)", line, re.IGNORECASE):
+            bare_num = bare_m.group(1)
+            for full_m in re.finditer(r"\b" + re.escape(bare_num) + r"/(\d+)\b", body):
+                full_ref = bare_num + "/" + full_m.group(1)
+                if not any(c.endswith(full_ref) for c in cancels):
+                    cancels.append(full_ref)
     # Heuristic: drop any plain number/year token that corresponds to the message's own id
     msg_id_match = MSG_ID_PATTERN.search(body)
     if msg_id_match:
