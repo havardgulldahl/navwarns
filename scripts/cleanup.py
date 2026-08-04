@@ -100,9 +100,9 @@ def remove_stale_no_expiry(
 
     Returns list of paths that were moved (or would be moved in dry-run).
     """
-    cutoff = datetime.datetime.now(
-        tz=datetime.timezone.utc
-    ) - datetime.timedelta(days=max_age_days)
+    cutoff = datetime.datetime.now(tz=datetime.timezone.utc) - datetime.timedelta(
+        days=max_age_days
+    )
     moved: List[Path] = []
 
     for current_dir in current_dirs:
@@ -130,9 +130,7 @@ def remove_stale_no_expiry(
                     valid_from,
                 )
                 if not dry_run:
-                    move_to_history(
-                        file_path.name, current_dir, history_dir_base
-                    )
+                    move_to_history(file_path.name, current_dir, history_dir_base)
                 moved.append(file_path)
 
     return moved

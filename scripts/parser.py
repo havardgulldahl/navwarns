@@ -49,6 +49,13 @@ COORD_PATTERN = re.compile(rf"({_LAT_PART}[NS])\s+({_LON_PART}[EW])")
 FROM_TO_PERIOD_PATTERN = re.compile(
     r"\bFROM\s+(\d{1,2})\s*([A-Z]{3})\s*(\d{2})?\s+TO\s+(\d{1,2})\s*([A-Z]{3})\s*(\d{2})?\b"
 )
+# DTG range: "DDHHMM[Z|UTC] MON [YY] TO/THRU DDHHMM[Z|UTC] MON [YY]"
+# Handles messages that give start and end as full timestamps without "FROM".
+DTG_RANGE_PATTERN = re.compile(
+    r"(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})(?:\s+(\d{2}))?"
+    r"\s+(?:TO|THRU)\s+"
+    r"(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})(?:\s+(\d{2}))?\b"
+)
 
 CANCEL_PATTERN = re.compile(
     r"CANCEL ("  # capture the target only
@@ -344,6 +351,63 @@ class NavwarnMessage:
             return None, None
         return from_dt.isoformat(), to_dt.isoformat()
 
+    def _parse_dtg_range_period(self) -> "Tuple[Optional[str], Optional[str]]":
+        """Parse 'DDHHMM[Z|UTC] MON [YY] TO/THRU DDHHMM[Z|UTC] MON [YY]' from body."""
+        if not self.body:
+            return None, None
+        m = DTG_RANGE_PATTERN.search(self.body.upper())
+        if not m:
+            return None, None
+        month_map = {
+            "JAN": 1,
+            "FEB": 2,
+            "MAR": 3,
+            "APR": 4,
+            "MAY": 5,
+            "JUN": 6,
+            "JUL": 7,
+            "AUG": 8,
+            "SEP": 9,
+            "OCT": 10,
+            "NOV": 11,
+            "DEC": 12,
+        }
+        from_day, from_hour, from_min = (
+            int(m.group(1)),
+            int(m.group(2)),
+            int(m.group(3)),
+        )
+        from_mon = month_map.get(m.group(4))
+        from_yr2 = m.group(5)
+        to_day, to_hour, to_min = int(m.group(6)), int(m.group(7)), int(m.group(8))
+        to_mon = month_map.get(m.group(9))
+        to_yr2 = m.group(10)
+        if not from_mon or not to_mon:
+            return None, None
+        base_year = (self.dtg.year if self.dtg else None) or self.year
+        if to_yr2 is not None:
+            to_year = 2000 + int(to_yr2)
+        elif base_year:
+            to_year = base_year
+        else:
+            return None, None
+        if from_yr2 is not None:
+            from_year = 2000 + int(from_yr2)
+        elif from_mon > to_mon:
+            from_year = to_year - 1
+        else:
+            from_year = to_year
+        try:
+            from_dt = datetime(
+                from_year, from_mon, from_day, from_hour, from_min, tzinfo=timezone.utc
+            )
+            to_dt = datetime(
+                to_year, to_mon, to_day, to_hour, to_min, tzinfo=timezone.utc
+            )
+        except ValueError:
+            return None, None
+        return from_dt.isoformat(), to_dt.isoformat()
+
     def _compute_valid_from(self) -> Optional[str]:
         """Return ISO-8601 valid_from string."""
         if self.dtg:
@@ -353,6 +417,9 @@ class NavwarnMessage:
             return dt.isoformat()
         # FROM date is a fallback when no DTG is available
         from_iso, _ = self._parse_from_to_period()
+        if from_iso:
+            return from_iso
+        from_iso, _ = self._parse_dtg_range_period()
         if from_iso:
             return from_iso
         if self.year:
@@ -540,6 +607,9 @@ class NavwarnMessage:
         _, until_iso = self._parse_from_to_period()
         if until_iso:
             return until_iso
+        _, until_iso = self._parse_dtg_range_period()
+        if until_iso:
+            return until_iso
         return None
 
     def geojson_geometry(self, circle_segments: int = 72) -> Optional[dict]:
@@ -575,7 +645,9 @@ class NavwarnMessage:
                 "raw_dtg": self.raw_dtg,
                 "msg_id": self.msg_id,
                 "year": self.year,
-                "cancellations": self.cancellations,
+                "cancellations": [
+                    c for c in self.cancellations if not c.upper().startswith("THIS")
+                ],
                 "hazard_type": self.hazard_type,
                 "category": category,
                 "title": title,
