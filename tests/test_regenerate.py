@@ -14,12 +14,12 @@ from unittest.mock import patch
 import pytest
 
 from scripts.regenerate import (
+    rebuild_current_geojson,
+    regenerate_all,
     regenerate_history,
     regenerate_navwarn_file,
     regenerate_prip_file,
-    HISTORY_DIR,
 )
-
 
 # -- helpers -----------------------------------------------------------
 
@@ -230,3 +230,63 @@ class TestPripFilesNotDeleted:
         result = regenerate_prip_file(prip_path, prip_dir, dry_run=False)
         assert prip_path.exists(), "PRIP file must not be deleted"
         assert len(result) >= 1
+
+
+# ------------------------------------------------------------------
+# current/navwarns.geojson rebuild
+# ------------------------------------------------------------------
+
+
+class TestRebuildCurrentGeojson:
+    """Verify rebuilding of current/navwarns.geojson from source features."""
+
+    def test_rebuild_current_geojson_writes_feature_collection(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        """Rebuild includes both navwarn and PRIP features."""
+        current_dir = tmp_path / "current"
+        navwarns_dir = current_dir / "navwarns"
+        prips_dir = current_dir / "prips"
+        navwarns_dir.mkdir(parents=True)
+        prips_dir.mkdir(parents=True)
+
+        nw_feat = _minimal_navwarn_feature("NAVAREA XX 9/25")
+        prip_feat = _minimal_prip_feature("PRIP WEST 8/25")
+        _write_json(navwarns_dir / "NAVAREA_XX_9_25.json", nw_feat)
+        _write_json(prips_dir / "PRIP_WEST_8_25.json", prip_feat)
+
+        out_path = current_dir / "navwarns.geojson"
+        with (
+            patch("scripts.regenerate.CURRENT_DIR", current_dir),
+            patch("scripts.regenerate.NAVWARNS_DIR", navwarns_dir),
+            patch("scripts.regenerate.PRIPS_DIR", prips_dir),
+            patch("scripts.regenerate.CURRENT_GEOJSON_PATH", out_path),
+        ):
+            count = rebuild_current_geojson(dry_run=False)
+
+        assert count == 2
+        assert out_path.exists()
+        data = json.loads(out_path.read_text(encoding="utf-8"))
+        assert data["type"] == "FeatureCollection"
+        assert len(data["features"]) == 2
+        ids = {f.get("id") for f in data["features"]}
+        assert ids == {"NAVAREA XX 9/25", "PRIP WEST 8/25"}
+
+    def test_regenerate_all_invokes_rebuild_current_geojson(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        """Full regeneration should rebuild current/navwarns.geojson."""
+        missing_navwarns = tmp_path / "missing-navwarns"
+        missing_prips = tmp_path / "missing-prips"
+        with (
+            patch("scripts.regenerate.regenerate_history", return_value={}),
+            patch("scripts.regenerate.rebuild_current_geojson") as mock_rebuild,
+            patch("scripts.regenerate.build_archives.main"),
+            patch("scripts.regenerate.NAVWARNS_DIR", missing_navwarns),
+            patch("scripts.regenerate.PRIPS_DIR", missing_prips),
+        ):
+            regenerate_all(dry_run=False)
+
+        mock_rebuild.assert_called_once_with(dry_run=False)

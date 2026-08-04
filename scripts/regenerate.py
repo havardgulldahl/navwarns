@@ -59,6 +59,7 @@ CURRENT_DIR = Path("current")
 NAVWARNS_DIR = CURRENT_DIR / "navwarns"
 PRIPS_DIR = CURRENT_DIR / "prips"
 HISTORY_DIR = Path("history")
+CURRENT_GEOJSON_PATH = CURRENT_DIR / "navwarns.geojson"
 
 
 # ---- helpers --------------------------------------------------------
@@ -94,6 +95,54 @@ def _parse_iso_dtg(iso: Optional[str]) -> Optional[datetime]:
         return datetime.fromisoformat(iso)
     except (ValueError, TypeError):
         return None
+
+
+def rebuild_current_geojson(*, dry_run: bool = False) -> int:
+    """Rebuild current/navwarns.geojson from current navwarn + PRIP features.
+
+    Returns the number of features written (or that would be written for
+    dry-run mode).
+    """
+    features: List[dict] = []
+    source_paths: List[Path] = []
+    if NAVWARNS_DIR.is_dir():
+        source_paths.extend(sorted(NAVWARNS_DIR.glob("*.json")))
+    if PRIPS_DIR.is_dir():
+        source_paths.extend(sorted(PRIPS_DIR.glob("*.json")))
+
+    for path in source_paths:
+        feat = _load_feature(path)
+        if feat is None:
+            continue
+        if feat.get("type") == "Feature":
+            features.append(feat)
+            continue
+        if feat.get("type") == "FeatureCollection":
+            nested = feat.get("features") or []
+            features.extend([f for f in nested if isinstance(f, dict)])
+
+    collection = {
+        "type": "FeatureCollection",
+        "features": features,
+    }
+
+    if dry_run:
+        logging.info(
+            "[dry-run] would write %s with %d features",
+            CURRENT_GEOJSON_PATH,
+            len(features),
+        )
+    else:
+        CURRENT_DIR.mkdir(parents=True, exist_ok=True)
+        with CURRENT_GEOJSON_PATH.open("w", encoding="utf-8") as f:
+            json.dump(collection, f, ensure_ascii=False, indent=2)
+        logging.info(
+            "Wrote %s with %d features",
+            CURRENT_GEOJSON_PATH,
+            len(features),
+        )
+
+    return len(features)
 
 
 # ---- regeneration logic ---------------------------------------------
@@ -417,6 +466,9 @@ def regenerate_all(
     # --- Historical archives (history/<year>/) -------------------------
     history_stats = regenerate_history(dry_run=dry_run)
     stats.update(history_stats)
+
+    # --- Rebuild current/navwarns.geojson ------------------------------
+    rebuild_current_geojson(dry_run=dry_run)
 
     # --- Rebuild archive GeoJSON + manifest ----------------------------
     if not dry_run:
