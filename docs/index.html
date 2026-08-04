@@ -169,6 +169,18 @@
             overflow-y: auto;
         }
 
+        .popup-actions {
+            margin-top: 6px;
+            text-align: right;
+        }
+
+        .popup-actions a {
+            font-size: 11px;
+            color: #245ba5;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
         .legend {
             background: rgba(255, 255, 255, 0.9);
             padding: 8px 10px;
@@ -306,6 +318,9 @@
             color: #777;
             display: block;
             margin-top: 1px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .picker-arrow {
@@ -464,6 +479,92 @@
 
         const hiddenCategories = new Set();
 
+        let popupFeatureCounter = 0;
+        const popupFeatureCache = new Map();
+
+        function escapeHtml(value) {
+            return String(value || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function ensureDateHasTimezone(dtg) {
+            if (!dtg || typeof dtg !== 'string') return dtg;
+            if (dtg.endsWith('Z')) return dtg;
+            if (dtg.includes('T')) {
+                const timePart = dtg.split('T')[1] || '';
+                if (timePart.includes('+') || timePart.includes('-')) return dtg;
+            }
+            return dtg + 'Z';
+        }
+
+        function formatHumanDate(dtg) {
+            if (!dtg) return '';
+            try {
+                const d = new Date(ensureDateHasTimezone(dtg));
+                if (isNaN(d.getTime())) return String(dtg);
+                const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                const day = String(d.getUTCDate()).padStart(2, '0');
+                const month = monthNames[d.getUTCMonth()];
+                const year = d.getUTCFullYear();
+                const hh = String(d.getUTCHours()).padStart(2, '0');
+                const mm = String(d.getUTCMinutes()).padStart(2, '0');
+                return `${day} ${month} ${year} ${hh}:${mm} UTC`;
+            } catch {
+                return String(dtg);
+            }
+        }
+
+        function parseSourceFromMsgId(msgId) {
+            const id = String(msgId || '').toUpperCase();
+            if (!id) return '';
+            if (id.startsWith('HYDROARC')) return 'NGA HYDROARC';
+            if (/^NAVAREA [A-E]\b/.test(id)) return 'NGA NAVAREA';
+            if (id.startsWith('NAVAREA XIX')) return 'Kystverket NAVAREA XIX';
+            if (id.startsWith('NAVAREA XX')) return 'Rosatom NAVAREA XX';
+            if (id.startsWith('PRIP MURMANSK')) return 'MAPM PRIP Murmansk';
+            if (id.startsWith('PRIP ARKHANGELSK')) return 'MAPM PRIP Arkhangelsk';
+            if (id.startsWith('PRIP WEST')) return 'MAPM PRIP West';
+            if (id.startsWith('BALTIC SEA NAV WARN')) return 'Sjofartsverket NAV WARN';
+            if (id.startsWith('ANDOYA_')) return 'BarentsWatch/Andoya';
+            return '';
+        }
+
+        function getSourceLabel(feature) {
+            const p = (feature && feature.properties) || {};
+            const source = typeof p.source === 'string' ? p.source.trim() : '';
+            if (source) return source;
+            const fromId = parseSourceFromMsgId(p.msg_id || feature?.id || '');
+            if (fromId) return fromId;
+            return 'Unknown source';
+        }
+
+        function getTimespanText(props) {
+            const from = props.valid_from || props.dtg || null;
+            const until = props.valid_until || null;
+            const fromLabel = formatHumanDate(from);
+            const untilLabel = formatHumanDate(until);
+            if (fromLabel && untilLabel) return `Valid ${fromLabel} to ${untilLabel}`;
+            if (fromLabel) return `Valid from ${fromLabel}`;
+            if (untilLabel) return `Valid until ${untilLabel}`;
+            return 'Validity unknown';
+        }
+
+        function cachePopupFeature(feature) {
+            popupFeatureCounter += 1;
+            const key = `popup-${popupFeatureCounter}`;
+            popupFeatureCache.set(key, feature);
+            return key;
+        }
+
+        function sanitizeFilenamePart(value) {
+            const cleaned = String(value || '').trim().replace(/[^A-Za-z0-9._-]+/g, '_');
+            return cleaned || 'feature';
+        }
+
         // ============ Cancellation Date Fallback (for data without valid_from/valid_until) ============
         function parseCancellationDate(cancelStr, contextYear) {
             if (!cancelStr) return null;
@@ -612,7 +713,7 @@
         function formatDate(dtg) {
             if (!dtg) return '';
             try {
-                const d = new Date(dtg + (dtg.endsWith('Z') || dtg.includes('+') ? '' : 'Z'));
+                const d = new Date(ensureDateHasTimezone(dtg));
                 if (isNaN(d)) return dtg;
                 return d.toISOString().replace('T', ' ').replace(/\.\d{3}Z$/, 'Z');
             } catch { return dtg; }
@@ -624,19 +725,23 @@
             const hazard = p.hazard_type || 'N/A';
             const category = p.category || 'N/A';
             const title = p.title || p.msg_id || 'NavWarn';
+                        const source = getSourceLabel(feature);
+                        const timespan = getTimespanText(p);
             const cancellations = (p.cancellations || []).filter(Boolean);
             const color = getCategoryColor(category);
+                        const featureKey = cachePopupFeature(feature);
             return `
         <div class="popup-content">
-          <h3>${title}</h3>
+                    <h3>${escapeHtml(title)}</h3>
           <div class="meta">
-            <span class="inline-badge">${hazard}</span>
-            <span class="inline-badge" style="background:${color};color:#fff;">${category}</span><br/>
-            <strong>DTG:</strong> ${formatDate(p.dtg)}<br/>
-            <strong>Raw DTG:</strong> ${p.raw_dtg || ''}
-            ${cancellations.length ? `<br/><strong>Cancel:</strong> ${cancellations.join('; ')}` : ''}
+                        <span class="inline-badge">${escapeHtml(hazard)}</span>
+                        <span class="inline-badge" style="background:${color};color:#fff;">${escapeHtml(category)}</span><br/>
+                        <strong>Timespan:</strong> ${escapeHtml(timespan)}<br/>
+                        <strong>Source:</strong> ${escapeHtml(source)}
+                        ${cancellations.length ? `<br/><strong>Cancel:</strong> ${escapeHtml(cancellations.join('; '))}` : ''}
           </div>
-          <pre>${body.replace(/</g, '&lt;')}</pre>
+                    <pre>${escapeHtml(body)}</pre>
+                    <div class="popup-actions"><a href="#" onclick="downloadPopupFeature('${featureKey}'); return false;">GeoJSON</a></div>
         </div>`;
         }
 
@@ -644,14 +749,16 @@
             const items = features.map((f, i) => {
                 const p = f.properties || {};
                 const title = p.title || p.msg_id || 'NavWarn';
+                const source = getSourceLabel(f);
+                const timespan = getTimespanText(p);
+                const subtitle = `${source} - ${timespan}`;
                 const category = p.category || 'N/A';
-                const hazard = p.hazard_type || '';
                 const color = getCategoryColor(category);
                 return `<li data-index="${i}" title="Click to view details">
                     <span class="picker-swatch" style="background:${color}"></span>
                     <span class="picker-label">
-                        <span class="picker-title">${title}</span>
-                        <span class="picker-subtitle">${category}${hazard ? ' — ' + hazard : ''}</span>
+                        <span class="picker-title">${escapeHtml(title)}</span>
+                        <span class="picker-subtitle">${escapeHtml(subtitle)}</span>
                     </span>
                     <span class="picker-arrow">›</span>
                 </li>`;
@@ -1149,6 +1256,36 @@
                 document.body.removeChild(a);
                 URL.revokeObjectURL(url);
             }, 100);
+        }
+
+        function downloadFeatureGeoJSON(feature) {
+            if (!feature) return;
+            const geojson = {
+                type: 'FeatureCollection',
+                features: [feature]
+            };
+
+            const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: 'application/geo+json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+
+            const p = feature.properties || {};
+            const base = sanitizeFilenamePart(feature.id || p.msg_id || 'navwarn');
+            a.download = `${base}.geojson`;
+
+            document.body.appendChild(a);
+            a.click();
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 100);
+        }
+
+        function downloadPopupFeature(featureKey) {
+            const feature = popupFeatureCache.get(featureKey);
+            if (!feature) return;
+            downloadFeatureGeoJSON(feature);
         }
 
         // ============ Init ============
