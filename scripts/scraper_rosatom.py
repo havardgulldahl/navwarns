@@ -289,6 +289,12 @@ def main():
         cleanup.cleanup(
             active_filenames,
             CURRENT_DIR / "navwarns",
+            "NAVAREAXX_*.json",
+        )
+        # Clean up legacy filenames created by older naming conventions.
+        cleanup.cleanup(
+            active_filenames,
+            CURRENT_DIR / "navwarns",
             "NAVAREA_XX_*.json",
         )
         # Also clean up legacy unknown_id.json left by old runs
