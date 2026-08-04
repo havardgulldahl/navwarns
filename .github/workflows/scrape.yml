@@ -23,6 +23,9 @@ jobs:
       - name: List files
         run: ls -lR current
 
+      - name: Remove stale no-expiry warnings
+        run: python scripts/cleanup.py --stale 90
+
       - name: Merge individual features into navwarns.geojson
         shell: bash
         run: |
@@ -33,10 +36,21 @@ jobs:
             exit 0
           fi
           jq -s '
+            def parse_dt: gsub("[+][0-9]{2}:[0-9]{2}$"; "Z") | try fromdateiso8601 catch -1;
             map(if type == "object" and .type == "FeatureCollection" then .features else . end)
             | flatten
             | unique_by([.id, .properties.body])
-            | map(select(.properties.valid_until == null or (.properties.valid_until | fromdateiso8601) > now))
+            | map(select(
+                (.properties.valid_until != null
+                  and ((.properties.valid_until | parse_dt) > now))
+                or
+                (.properties.valid_until == null
+                  and (
+                    .properties.valid_from == null
+                    or ((.properties.valid_from | parse_dt) > (now - 90 * 86400))
+                  )
+                )
+              ))
             | { "type": "FeatureCollection", "features": . }
           ' "${files[@]}" > current/navwarns.geojson.tmp
           mv current/navwarns.geojson.tmp current/navwarns.geojson
