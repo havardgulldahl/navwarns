@@ -725,11 +725,11 @@
             const hazard = p.hazard_type || 'N/A';
             const category = p.category || 'N/A';
             const title = p.title || p.msg_id || 'NavWarn';
-                        const source = getSourceLabel(feature);
-                        const timespan = getTimespanText(p);
+            const source = getSourceLabel(feature);
+            const timespan = getTimespanText(p);
             const cancellations = (p.cancellations || []).filter(Boolean);
             const color = getCategoryColor(category);
-                        const featureKey = cachePopupFeature(feature);
+            const featureKey = cachePopupFeature(feature);
             return `
         <div class="popup-content">
                     <h3>${escapeHtml(title)}</h3>
