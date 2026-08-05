@@ -241,3 +241,31 @@ def test_russian_navarea_valid_until():
     assert valid_until.startswith(
         "2025-07-01"
     ), f"Expected 2025-07-01, got {valid_until}"
+
+
+SAMPLE_RUSSIAN_NAVAREA_XX_80 = (
+    "НАВАРЕА 200 80/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ И ЧЕШСКАЯ ГУБА "
+    "1. СТРЕЛЬБЫ РАКЕТНЫЕ 05 ПО 06 ИЮНЬ 0100 ДО 1400 "
+    "ПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНАХ "
+    "А. 69-47.5С 034-00.0В 69-39.0С 038-04.8В 69-13.9С 043-01.2В "
+    "68-46.2С 044-58.0В 68-32.5С 045-04.0В ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО "
+    "68-37.5С 043-18.0В 69-29.0С 033-54.5В "
+    "Б. 67-44.0С 045-26.0В 67-34.0С 045-30.0В 67-18.0С 045-00.0В "
+    "ДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО 67-44.0С 045-26.0В "
+    "2. ОТМ ЭТОТ НР 061500 ИЮНЬ= НННН"
+)
+
+
+def test_russian_navarea_inline_area_markers_split_features():
+    messages = parse_navwarns(SAMPLE_RUSSIAN_NAVAREA_XX_80)
+    assert len(messages) == 1
+
+    msg = messages[0]
+    assert msg.msg_id == "НАВАРЕА 200 80/26"
+    assert msg.geometry == "polygon"
+    assert len(msg.groups) == 2
+    assert [len(group) for group in msg.groups] == [7, 4]
+
+    features = msg.to_geojson_features()
+    assert len(features) == 2
+    assert all(feature["geometry"]["type"] == "Polygon" for feature in features)

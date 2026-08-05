@@ -96,6 +96,35 @@ class TestNormalizeDtg:
 
 
 class TestParseNavareaXIX:
+    def test_single_area_lettered_corners_form_polygon(self):
+        dtg = normalize_dtg("181846 UTC jul 17")
+        body = (
+            "NAVAREA XIX 76/17\n"
+            "NORVEGIAN SEA\n"
+            "FROM 19 JUL 2100 UTC TO 30 JUL 2100 UTC "
+            "DEEP-WATER TESTING OPERATION (RUSSIAN NAVY)\n"
+            "AREA TEMPORARILY DANGEROUS TO NAVIGATION\n\n"
+            "A. 72-50N 013-50E B. 72-50N 014-25E\n"
+            "C. 72-35N 014-25E\n"
+            "D. 72-35N 013-50E"
+        )
+
+        msgs = parse_navwarns(f"{dtg}\n{body}")
+        assert len(msgs) == 1
+
+        msg = msgs[0]
+        assert msg.msg_id == "NAVAREA XIX 76/17"
+        assert msg.geometry == "polygon"
+        assert len(msg.groups) == 1
+        assert len(msg.groups[0]) == 4
+
+        feat = msg.to_geojson_feature()
+        assert feat["geometry"] is not None
+        assert feat["geometry"]["type"] == "Polygon"
+        ring = feat["geometry"]["coordinates"][0]
+        assert ring[0] == ring[-1]
+        assert len(ring) == 5
+
     def test_inforce_message(self):
         dtg = normalize_dtg("061830 UTC mar 26")
         body = (

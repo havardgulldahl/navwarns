@@ -1036,22 +1036,46 @@ def parse_coordinate_groups(body: str) -> List[List[Tuple[float, float]]]:
     # Normalize Cyrillic direction letters to Latin before matching
     translit_map = str.maketrans({"С": "N", "Ю": "S", "В": "E", "З": "W"})
     norm_body = body.translate(translit_map)
+    upper_body = norm_body.upper()
     # Normalize input: ensure potential group start markers (A., Б., 1., etc)
     # are on their own lines, especially if preceded by punctuation.
     # Accept both Latin and Cyrillic single-letter enumerators
     normalized_body = re.sub(
         r"([:,.\.;])\s*((?:[A-Z\u0410-\u042F]|\d{1,2})\.)", r"\1\n\2", norm_body
     )
+    normalized_body = re.sub(
+        r"\s+((?:[A-Z\u0410-\u042F])\.)\s*(?=\d{2,3}-)",
+        r"\n\1 ",
+        normalized_body,
+    )
 
     lines = normalized_body.splitlines()
     groups: List[List[Tuple[float, float]]] = []
     current: List[Tuple[float, float]] = []
     # Accept Latin (A-Z), Cyrillic (А-Я), or 1-2 digit numbers as group markers
-    enum_pattern = re.compile(r"^\s*(?:[A-Z\u0410-\u042F]|\d{1,2})\.")
+    enum_pattern = re.compile(r"^\s*(([A-Z\u0410-\u042F])|(\d{1,2}))\.")
     # Numbered area headers (e.g. "AREA 1", "AREA 2") define top-level group boundaries.
     # Within such a block, single-letter labels (A., B., C., D.) are polygon vertices,
     # not group separators.
     area_header_pattern = re.compile(r"^\s*AREA\s+\d+\s*$", re.IGNORECASE)
+    single_area_polygon = any(
+        keyword in upper_body
+        for keyword in (
+            "AREA TEMPORARILY DANGEROUS",
+            "IN AREA TEMPORARILY DANGEROUS",
+            "THE AREA TEMPORARILY DANGEROUS",
+            "AREA BOUNDED BY",
+            "IN AREA BOUNDED BY",
+        )
+    ) and not any(
+        keyword in upper_body
+        for keyword in (
+            "AREAS TEMPORARILY DANGEROUS",
+            "AREAS BOUND BY",
+            "IN AREAS BOUND BY",
+            "РАЙОНАХ",
+        )
+    )
     in_named_area = False
     for raw in lines:
         line = raw.strip()
@@ -1065,7 +1089,8 @@ def parse_coordinate_groups(body: str) -> List[List[Tuple[float, float]]]:
         if enum_pattern.match(line):
             marker_match = enum_pattern.match(line)
             rest = line[marker_match.end() :].strip() if marker_match else ""
-            if in_named_area:
+            is_alpha_marker = bool(marker_match and marker_match.group(2))
+            if in_named_area or (single_area_polygon and is_alpha_marker):
                 # Inside a named AREA block: vertex labels accumulate into the current group
                 if rest:
                     for lat, lon in COORD_PATTERN.findall(rest):
@@ -1390,7 +1415,12 @@ def analyze_geometry(
         ]
         feature_term_hits = sum(1 for term in feature_terms if term in text)
         has_numeric_enum = bool(re.search(r"(?m)^\s*\d+\.\s", text))
-        has_alpha_enum = bool(re.search(r"(?m)^\s*[A-Z\u0410-\u042F]\.\s", text))
+        has_alpha_enum = bool(
+            re.search(
+                r"(?m)(?:^\s*|[\s:;,])([A-Z\u0410-\u042F])\.\s*(?=\d{2,3}-)",
+                text,
+            )
+        )
         has_enumeration = has_numeric_enum or has_alpha_enum
         line_keywords = [
             "ALONG LINE",
@@ -1418,6 +1448,7 @@ def analyze_geometry(
                 "TEMPORARILY DANGEROUS",  # Baltic NAVTEX
                 "TEMPORARILY RESTRICTED",
                 "РАЙОНЕ",  # Russian: area/zone
+                "РАЙОНАХ",
             ]
             if any(keyword in text for keyword in polygon_keywords):
                 geometry = "polygon"

@@ -2,16 +2,10 @@
   "type": "Feature",
   "id": "NAVAREA XIX 54/19",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Point",
     "coordinates": [
-      [
-        8.158333333333333,
-        65.97166666666666
-      ],
-      [
-        6.376666666666667,
-        65.20333333333333
-      ]
+      8.158333333333333,
+      65.97166666666666
     ]
   },
   "properties": {
@@ -25,7 +19,7 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "multipoint",
+    "geometry_kind": "point",
     "radius_nm": null,
     "body": " NAVAREA XIX 54/19\n1.RIGLIST CORRECT AT 241830 UTC JUN 2019\nNORWEGIAN SEA: NORTH OF 65N. EAST OF 5W\n\n65-58.3N - 008-09.5E TRANSOCEAN ARCTIC\n65-12.2N - 006-22.6E DEEPSEA BERGEN\n\nNOTES:\nA. RIGS ARE PROTECTED BY A 500 METER SAFETY ZONE\nB. FOR RIGS LOCATED SOUTH OF 65N. REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n2.CANCEL NAVAREA XIX 52/19",
     "cancel_date": "2019-07-05T18:49:00",
