@@ -727,6 +727,7 @@
             const hazard = p.hazard_type || 'N/A';
             const category = p.category || 'N/A';
             const title = p.title || p.msg_id || 'NavWarn';
+            const navwarnId = feature.id || p.msg_id || 'N/A';
             const source = getSourceLabel(feature);
             const timespan = getTimespanText(p);
             const cancellations = (p.cancellations || []).filter(Boolean);
@@ -738,6 +739,7 @@
           <div class="meta">
                         <span class="inline-badge">${escapeHtml(hazard)}</span>
                         <span class="inline-badge" style="background:${color};color:#fff;">${escapeHtml(category)}</span><br/>
+                        <strong>NavWarn ID:</strong> ${escapeHtml(navwarnId)}<br/>
                         <strong>Timespan:</strong> ${escapeHtml(timespan)}<br/>
                         <strong>Source:</strong> ${escapeHtml(source)}
                         ${cancellations.length ? `<br/><strong>Cancel:</strong> ${escapeHtml(cancellations.join('; '))}` : ''}

@@ -1,30 +1,22 @@
 {
   "type": "Feature",
-  "id": "PRIP MURMANSK 242/25",
+  "id": "PRIP MURMANSK 242/25#grp1",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Point",
     "coordinates": [
-      [
-        47.45,
-        66.91333333333333
-      ],
-      [
-        47.685,
-        67.18833333333333
-      ]
+      47.45,
+      66.91333333333333
     ]
   },
   "properties": {
+    "parent_id": "PRIP MURMANSK 242/25",
+    "group_index": 1,
     "dtg": null,
     "raw_dtg": "ПРИП МУРМАНСК 242/25 КАРТА 12012 КНИГА 2103\r\n\r\nЧЁШСКАЯ ГУБА",
-    "msg_id": "PRIP MURMANSK 242/25",
     "year": 2025,
-    "cancellations": [],
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "multipoint",
-    "radius_nm": null,
     "body": "ПРИП МУРМАНСК 242 КАРТА 12012 КНИГА 2103\nЧЁШСКАЯ ГУБА\nОГНИ ЗНАКОВ НЕ ДЕЙСТВУЮТ\n1. ПЁША 66-54.8С 047-27.0В НР 1279\n2. СУВОЙНЫЙ 67-11.3С 047-41.1В НР 1315=\n151000 МСК  ГС-",
     "cancel_date": null,
     "valid_from": "2025-01-01T00:00:00+00:00",

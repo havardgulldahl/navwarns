@@ -140,6 +140,16 @@ def serialize_message(msg: Any) -> dict:
     }
 
 
+def serialize_message_features(msg: Any) -> List[dict]:
+    """Return one or more GeoJSON Feature dicts for *msg*."""
+    if hasattr(msg, "to_geojson_features"):
+        feats = msg.to_geojson_features()
+        for feat in feats:
+            feat.setdefault("properties", {})["summary"] = None
+        return feats
+    return [serialize_message(msg)]
+
+
 def main(parse_files: List = []):
     # Discover all page URLs via pager numbers
     page_urls = (PRIP_MURMANSK, PRIP_ARKHANGELSK, PRIP_WEST)
@@ -171,19 +181,6 @@ def main(parse_files: List = []):
         parsed_prips = navparser.parse_prips([(p.header, p.text) for p in raw_prips])
         active_filenames = set()
         for m in parsed_prips:
-            safe_id = "unknown_id"
-            if msg_id := getattr(m, "msg_id", None):
-                safe_id = re.sub(r"[^\w\-]", "_", f"{msg_id}_{m.year}")
-
-            filename = f"{safe_id}.json"
-            active_filenames.add(filename)
-            filepath = prips_location / filename
-
-            # If file already exists, skip to preserve original DTG (don't overwrite)
-            if filepath.exists():
-                logging.debug("Skipping existing file: %s", filename)
-                continue
-
             # If message doesn't have DTG, assign current timestamp as first-seen date
             if m.dtg is None:
                 m.dtg = datetime.datetime.now(datetime.timezone.utc)
@@ -191,8 +188,20 @@ def main(parse_files: List = []):
                 if not m.raw_dtg or m.raw_dtg.startswith(m.msg_id or ""):
                     m.raw_dtg = m.dtg.strftime("%d%H%MZ %b %y").upper()
 
-            with filepath.open("w", encoding="utf-8") as f_geo:
-                f_geo.write(json.dumps(serialize_message(m), ensure_ascii=False) + "\n")
+            for feat in serialize_message_features(m):
+                feat_id = feat.get("id") or getattr(m, "msg_id", None) or "unknown_id"
+                safe_id = re.sub(r"[^\w\-]", "_", str(feat_id))
+                filename = f"{safe_id}.json"
+                active_filenames.add(filename)
+                filepath = prips_location / filename
+
+                # If file already exists, skip to preserve original DTG.
+                if filepath.exists():
+                    logging.debug("Skipping existing file: %s", filename)
+                    continue
+
+                with filepath.open("w", encoding="utf-8") as f_geo:
+                    f_geo.write(json.dumps(feat, ensure_ascii=False) + "\n")
 
         cleanup.cleanup(active_filenames, prips_location, "PRIP_*.json")
 

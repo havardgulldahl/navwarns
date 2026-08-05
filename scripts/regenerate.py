@@ -299,7 +299,9 @@ def regenerate_prip_file(
 ) -> List[Path]:
     """Re-parse a single PRIP feature file.
 
-    Returns list of paths written (normally one).
+    Returns list of paths written (may be >1 for multi-group messages).
+    If the parser now splits a single file into groups, the original
+    non-group file is removed to avoid stale duplicates.
     """
     feat = _load_feature(path)
     if feat is None:
@@ -318,6 +320,13 @@ def regenerate_prip_file(
     # Re-parse with the current parser
     msg = navparser.NavwarnMessage.prip_from_text(raw_dtg, body)
 
+    original_msg_id: Optional[str] = (
+        props.get("parent_id") or props.get("msg_id") or feat.get("id")
+    )
+    if original_msg_id:
+        original_msg_id = original_msg_id.split("#")[0]
+        msg.msg_id = original_msg_id
+
     # Preserve the original dtg if the parser could not derive one
     if msg.dtg is None:
         msg.dtg = _parse_iso_dtg(original_dtg_iso)
@@ -329,19 +338,73 @@ def regenerate_prip_file(
         except (ValueError, TypeError):
             pass
 
-    new_feat = msg.to_geojson_feature()
-    new_feat["properties"]["summary"] = summary
+    original_cancels: List[str] = props.get("cancellations") or []
+    if original_cancels:
+        existing = set(msg.cancellations)
+        for cancel in original_cancels:
+            if cancel and cancel not in existing:
+                msg.cancellations.append(cancel)
 
-    # Use original filename to preserve naming consistency
-    out_path = output_dir / path.name
+    if not msg.cancel_date and props.get("cancel_date"):
+        msg.cancel_date = props["cancel_date"]
 
-    if dry_run:
-        logging.info("[dry-run] would write %s", out_path)
+    new_feats: List[dict]
+    if hasattr(msg, "to_geojson_features"):
+        new_feats = msg.to_geojson_features()
     else:
-        _write_feature(new_feat, out_path)
-        logging.debug("Wrote %s", out_path)
+        new_feats = [msg.to_geojson_feature()]
 
-    return [out_path]
+    written: List[Path] = []
+    new_filenames: Set[str] = set()
+    for nf in new_feats:
+        nf.setdefault("properties", {})["summary"] = summary
+        feat_id = nf.get("id") or msg.msg_id or "NOID"
+        fname = _feature_filename(feat_id)
+        if fname in new_filenames:
+            pass
+        elif fname == "NOID.json" or (fname.startswith("MSG_grp") and not msg.msg_id):
+            logging.warning(
+                "Skipping %s — re-parse lost msg_id, would write to "
+                "generic filename %s (data loss risk)",
+                path.name,
+                fname,
+            )
+            return []
+        new_filenames.add(fname)
+        out_path = output_dir / fname
+
+        if dry_run:
+            logging.info("[dry-run] would write %s", out_path)
+        else:
+            _write_feature(nf, out_path)
+            logging.debug("Wrote %s", out_path)
+        written.append(out_path)
+
+    if path.name not in new_filenames and not dry_run and written:
+        original_base = (original_msg_id or "").split("#")[0]
+        new_ids_match = all(
+            (nf.get("id") or "").split("#")[0] == original_base
+            or (nf.get("properties", {}).get("parent_id") or "") == original_base
+            for nf in new_feats
+        )
+        if new_ids_match and original_base:
+            try:
+                path.unlink()
+                logging.info(
+                    "Removed stale %s (replaced by %d group files)",
+                    path.name,
+                    len(new_filenames),
+                )
+            except OSError:
+                pass
+        else:
+            logging.warning(
+                "NOT removing %s — new feature IDs don't match original %s",
+                path.name,
+                original_base,
+            )
+
+    return written
 
 
 def regenerate_history(

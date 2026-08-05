@@ -1284,18 +1284,13 @@ def analyze_geometry(
         # Multipoint: non-enumerated dense list of named aids/objects with coordinates.
         # This captures PRIP texts where each line names a separate mark/light but
         # numbering (1., 2., ...) is omitted.
-        if (
-            not geometry
-            and len(coords) >= 5
-            and feature_term_hits >= 2
-        ):
+        if not geometry and len(coords) >= 5 and feature_term_hits >= 2:
             if not has_explicit_line:
                 geometry = "multipoint"
 
         # Linestring for many points (cable, track)
         if not geometry and (
-            has_explicit_line
-            or (len(coords) >= 5 and len(coords) != 4)
+            has_explicit_line or (len(coords) >= 5 and len(coords) != 4)
         ):
             geometry = "linestring"
         # Fallback resolution

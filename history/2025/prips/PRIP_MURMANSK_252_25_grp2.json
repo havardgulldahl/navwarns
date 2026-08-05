@@ -1,24 +1,22 @@
 {
   "type": "Feature",
-  "id": "PRIP MURMANSK 252/25",
+  "id": "PRIP MURMANSK 252/25#grp2",
   "geometry": {
     "type": "Point",
     "coordinates": [
-      33.053333333333335,
-      68.99333333333334
+      33.05833333333333,
+      68.98166666666667
     ]
   },
   "properties": {
+    "parent_id": "PRIP MURMANSK 252/25",
+    "group_index": 2,
     "dtg": null,
     "raw_dtg": "ПРИП МУРМАНСК 252/25 КАРТА 17055 КНИГА 2103\r\nКОЛЬСКИЙ ЗАЛИВ ПОРТ МУРМАНСК",
-    "msg_id": "PRIP MURMANSK 252/25",
     "year": 2025,
-    "cancellations": [],
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
-    "radius_nm": null,
     "body": "ОГНИ НЕ ДЕЙСТВУЮТ\n1. ПОРТОВЫЙ НР 7 68-59.6С 033-03.2В НР 672\n2. ПОРТОВЫЙ НР 4 68-58.9С 033-03.5В НР 685=\n251000 МСК  ГС-",
     "cancel_date": null,
     "valid_from": "2025-01-01T00:00:00+00:00",
