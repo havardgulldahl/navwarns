@@ -252,6 +252,16 @@ def serialize_message(msg: Any) -> dict:
     }
 
 
+def serialize_message_features(msg: Any) -> List[dict]:
+    """Return one or more GeoJSON features for a parsed warning message."""
+    if hasattr(msg, "to_geojson_features"):
+        feats = msg.to_geojson_features()
+        for feat in feats:
+            feat.setdefault("properties", {})["summary"] = None
+        return feats
+    return [serialize_message(msg)]
+
+
 def main() -> None:
     """Fetch and process Swedish NAVTEX warnings."""
     logging.info("Fetching NAVTEX Sweden from %s", PAGE_URL)
@@ -302,31 +312,30 @@ def main() -> None:
             ):
                 m.body = f"[{warn['area']}] {m.body}"
 
-            safe_id = "unknown_id"
-            if msg_id := getattr(m, "msg_id", None):
-                safe_id = re.sub(r"[^\w\-]", "_", msg_id)
+            for feat in serialize_message_features(m):
+                feat_id = feat.get("id") or getattr(m, "msg_id", None) or "unknown_id"
+                safe_id = re.sub(r"[^\w\-]", "_", str(feat_id))
+                filename = f"{safe_id}.json"
+                active_filenames.add(filename)
+                filepath = navwarns_out / filename
 
-            filename = f"{safe_id}.json"
-            active_filenames.add(filename)
-            filepath = navwarns_out / filename
-
-            if filepath.exists():
-                logging.debug(
-                    "Skipping existing file: %s",
-                    filename,
-                )
-                continue
-
-            with filepath.open("w", encoding="utf-8") as f:
-                f.write(
-                    json.dumps(
-                        serialize_message(m),
-                        ensure_ascii=False,
-                        indent=2,
+                if filepath.exists():
+                    logging.debug(
+                        "Skipping existing file: %s",
+                        filename,
                     )
-                    + "\n"
-                )
-            logging.info("Wrote %s", filepath)
+                    continue
+
+                with filepath.open("w", encoding="utf-8") as f:
+                    f.write(
+                        json.dumps(
+                            feat,
+                            ensure_ascii=False,
+                            indent=2,
+                        )
+                        + "\n"
+                    )
+                logging.info("Wrote %s", filepath)
 
     # Clean up warnings no longer active on the page
     cleanup.cleanup(

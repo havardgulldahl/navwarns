@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 2076/15(55)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        36.678333333333335,
-        45.42333333333333
-      ],
-      [
-        36.68666666666667,
-        45.42333333333333
-      ],
-      [
-        36.68666666666667,
-        45.416666666666664
-      ],
-      [
-        36.678333333333335,
-        45.416666666666664
+        [
+          36.678333333333335,
+          45.42333333333333
+        ],
+        [
+          36.68666666666667,
+          45.42333333333333
+        ],
+        [
+          36.68666666666667,
+          45.416666666666664
+        ],
+        [
+          36.678333333333335,
+          45.416666666666664
+        ],
+        [
+          36.678333333333335,
+          45.42333333333333
+        ]
       ]
     ]
   },
@@ -33,7 +39,7 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "multipoint",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "KERCH STRAIT.\nDNC 10.\n1. UNDERWATER OPERATIONS 25 AND 26 AUG DURING\n   DAYLIGHT HOURS IN AREA BOUND BY\n   45-25.4N 036-40.7E, 45-25.4N 036-41.2E,\n   45-25.0N 036-41.2E, 45-25.0N 036-40.7E.\n2. CANCEL THIS MSG 27 AUG 15.",
     "cancel_date": "2015-08-27T00:01:00+00:00",

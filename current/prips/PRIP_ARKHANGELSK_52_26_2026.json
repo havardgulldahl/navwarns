@@ -2,7 +2,7 @@
   "type": "Feature",
   "id": "PRIP ARKHANGELSK 52/26",
   "geometry": {
-    "type": "LineString",
+    "type": "MultiPoint",
     "coordinates": [
       [
         34.799638888888886,
@@ -27,7 +27,7 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "linestring",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": "ПРИП АРХАНГЕЛЬСК 52 КАРТА 19034 \nМОРСКОЙ ТЕРМИНАЛ КЕМЬ\nСВЕТЯЩИЕ БУИ ВЫСТАВЛЕНЫ \n1. ПРАВОЙ СТОРОНЫ  64-59-30.0С  034-47-58.7В\n2. ЛЕВОЙ СТОРОНЫ  64-59-27.2С  034-47-56.7В\n3. ЮЖНЫЙ 64-59-14.5С  034-47-48.3В=\n221700 МСК ГС-",
     "cancel_date": null,

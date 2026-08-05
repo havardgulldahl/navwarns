@@ -2,23 +2,29 @@
   "type": "Feature",
   "id": "HYDROARC 1440/22(24)",
   "geometry": {
-    "type": "MultiPoint",
+    "type": "Polygon",
     "coordinates": [
       [
-        -48.527833333333334,
-        -25.832166666666666
-      ],
-      [
-        -48.50866666666667,
-        -25.8345
-      ],
-      [
-        -48.5095,
-        -25.837333333333333
-      ],
-      [
-        -48.528666666666666,
-        -25.835333333333335
+        [
+          -48.527833333333334,
+          -25.832166666666666
+        ],
+        [
+          -48.50866666666667,
+          -25.8345
+        ],
+        [
+          -48.5095,
+          -25.837333333333333
+        ],
+        [
+          -48.528666666666666,
+          -25.835333333333335
+        ],
+        [
+          -48.527833333333334,
+          -25.832166666666666
+        ]
       ]
     ]
   },
@@ -34,7 +40,7 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "multipoint",
+    "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "WESTERN SOUTH ATLANTIC.\nBRAZIL.\nDNC 01.\n1. EIGHT BUOYS, YELLOW, FL Y 4 SEC, TEMPORARILY ESTABLISHED\n    UNTIL 29 NOV IN AREA BOUND BY:\n   25-49.93S 048-31.67W, 25-50.07S 048-30.52W,\n   25-50.24S 048-30.57W, 25-50.12S 048-31.72W.\n2. CANCEL HYDROLANT 1439/22.\n3. CANCEL THIS MSG 300001Z NOV 22.",
     "cancel_date": "2022-11-30T00:01:00+00:00",

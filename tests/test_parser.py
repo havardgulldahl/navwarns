@@ -262,6 +262,32 @@ def test_german_navwarn_comma_decimal_coordinates_are_parsed():
     assert feature["geometry"]["type"] == "LineString"
 
 
+def test_german_navwarn_joining_lines_are_split_into_two_linestring_features():
+    body = (
+        "[Southern Baltic] GERMAN NAV WARN 434/26\n"
+        "SOUTHERN BALTIC. NORTHEAST OF RUEGEN.\n"
+        "EXPLOSIVES FOUND ALONG THE JOININGLINES:\n"
+        "1. 54-48,6N 013-55,8E,\n"
+        "54-54,6N 013-53,8E AND\n"
+        "54-53,4N 013-47,3E.\n"
+        "2. 54-35,3N 013-49,2E,\n"
+        "54-28,3N 013-50,9E AND\n"
+        "54-21,7N 013-51,0E.\n"
+        "ANCHORING AND FISHING PROHIBITED WITHIN\n"
+        "A RADIUS OF 100 METRES.\n"
+        "CANCEL GERMAN NAV WARN 403/26"
+    )
+
+    msg = NavwarnMessage.from_text("030940Z AUG 26", body)
+    features = msg.to_geojson_features()
+
+    assert len(features) == 2
+    assert features[0]["geometry"]["type"] == "LineString"
+    assert features[1]["geometry"]["type"] == "LineString"
+    assert features[0]["properties"]["parent_id"] == "GERMAN NAV WARN 434/26"
+    assert features[1]["properties"]["parent_id"] == "GERMAN NAV WARN 434/26"
+
+
 def test_german_navwarn_in_the_area_of_is_closed_polygon():
     body = (
         "[Southern Baltic] GERMAN NAV WARN 333/26\n"
@@ -290,6 +316,47 @@ def test_german_navwarn_in_the_area_of_is_closed_polygon():
     assert len(ring) == 5
     assert ring[0][0] == pytest.approx(ring[-1][0], abs=1e-6)
     assert ring[0][1] == pytest.approx(ring[-1][1], abs=1e-6)
+
+
+def test_prip_buoy_outage_five_points_is_multipoint():
+    header = "ПРИП АРХАНГЕЛЬСК 76/26 КАРТА 16019"
+    body = (
+        "КАНДАЛАКШСКИЙ ЗАЛИВ\n"
+        "СВЕТЯЩИЕ БУИ ОТСУТСТВУЮТ НА ШТАТНЫХ МЕСТАХ\n"
+        "1. ЮЖНЫЙ 66-17-42С 033-56-28В\n"
+        "2. СЕВЕРНЫЙ 66-17-26С 033-52-58В\n"
+        "3. ЮЖНЫЙ 66-17-43С 033-44-00В\n"
+        "4. ЗАПАДНЫЙ 66-16-53С 033-46-10В\n"
+        "5. ПРАВОЙ СТОРОНЫ 66-21-37С 033-43-53В=\n"
+        "041600 МСК ГС-"
+    )
+
+    msg = NavwarnMessage.prip_from_text(header, body)
+
+    assert len(msg.coordinates) == 5
+    assert msg.geometry == "multipoint"
+    feature = msg.to_geojson_feature()
+    assert feature["geometry"]["type"] == "MultiPoint"
+    assert len(feature["geometry"]["coordinates"]) == 5
+
+
+def test_prip_buoy_outage_two_points_is_multipoint():
+    header = "ПРИП АРХАНГЕЛЬСК 78/26 КАРТА 16030"
+    body = (
+        "ГОРЛО БЕЛОГО МОРЯ\n"
+        "СВЕТЯЩИЕ БУИ ОТСУТСТВУЮТ НА ШТАТНЫХ МЕСТАХ\n"
+        "1. КЕДОВСКИЙ СЕВЕРНЫЙ 66-33-15С 041-55-00В\n"
+        "2. КЕДОВСКИЙ ЮЖНЫЙ 66-27-12С 041-44-15В=\n"
+        "041600 МСК ГС-"
+    )
+
+    msg = NavwarnMessage.prip_from_text(header, body)
+
+    assert len(msg.coordinates) == 2
+    assert msg.geometry == "multipoint"
+    feature = msg.to_geojson_feature()
+    assert feature["geometry"]["type"] == "MultiPoint"
+    assert len(feature["geometry"]["coordinates"]) == 2
 
 
 def test_navwarnmessage_factory():

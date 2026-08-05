@@ -1,1 +1,34 @@
-{"type": "Feature", "id": "PRIP ARKHANGELSK 78/26", "geometry": {"type": "Point", "coordinates": [41.916666666666664, 66.55416666666666]}, "properties": {"dtg": "2026-08-05T03:52:37.426988+00:00", "raw_dtg": "ПРИП АРХАНГЕЛЬСК 78/26 КАРТА 16030  \r\nГОРЛО БЕЛОГО МОРЯ", "msg_id": "PRIP ARKHANGELSK 78/26", "year": 2026, "cancellations": [], "hazard_type": "general", "category": "other", "title": "General Warning", "geometry_kind": "point", "radius_nm": null, "body": "ПРИП АРХАНГЕЛЬСК 78 КАРТА 16030  \nГОРЛО БЕЛОГО МОРЯ\nСВЕТЯЩИЕ БУИ ОТСУТСТВУЮТ НА ШТАТНЫХ МЕСТАХ\n1. КЕДОВСКИЙ СЕВЕРНЫЙ 66-33-15С 041-55-00В\n2. КЕДОВСКИЙ ЮЖНЫЙ 66-27-12С 041-44-15В=\n041600 МСК ГС-", "cancel_date": null, "valid_from": "2026-08-05T03:52:37.426988+00:00", "valid_until": null, "summary": null}}
+{
+  "type": "Feature",
+  "id": "PRIP ARKHANGELSK 78/26",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        41.916666666666664,
+        66.55416666666666
+      ],
+      [
+        41.737500000000004,
+        66.45333333333333
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-08-05T03:52:37.426988+00:00",
+    "raw_dtg": "ПРИП АРХАНГЕЛЬСК 78/26 КАРТА 16030  \r\nГОРЛО БЕЛОГО МОРЯ",
+    "msg_id": "PRIP ARKHANGELSK 78/26",
+    "year": 2026,
+    "cancellations": [],
+    "hazard_type": "general",
+    "category": "other",
+    "title": "General Warning",
+    "geometry_kind": "multipoint",
+    "radius_nm": null,
+    "body": "ПРИП АРХАНГЕЛЬСК 78 КАРТА 16030  \nГОРЛО БЕЛОГО МОРЯ\nСВЕТЯЩИЕ БУИ ОТСУТСТВУЮТ НА ШТАТНЫХ МЕСТАХ\n1. КЕДОВСКИЙ СЕВЕРНЫЙ 66-33-15С 041-55-00В\n2. КЕДОВСКИЙ ЮЖНЫЙ 66-27-12С 041-44-15В=\n041600 МСК ГС-",
+    "cancel_date": null,
+    "valid_from": "2026-08-05T03:52:37.426988+00:00",
+    "valid_until": null,
+    "summary": null
+  }
+}

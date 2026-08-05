@@ -668,18 +668,23 @@ class NavwarnMessage:
         for idx, grp in enumerate(self.groups):
             if not grp:
                 continue
-            # Always treat groups of 3+ as polygons for PRIP conventions
+            closed_grp = grp
             if len(grp) >= 3:
-                group_geom_type = "polygon"
-                closed_grp = _ensure_closed_ring(grp)
-            else:
-                closed_grp = grp
-                if len(grp) == 2:
+                if self.geometry == "polygon":
+                    group_geom_type = "polygon"
+                    closed_grp = _ensure_closed_ring(grp)
+                elif self.geometry == "linestring":
                     group_geom_type = "linestring"
-                elif len(grp) == 1:
-                    group_geom_type = "point"
                 else:
-                    continue
+                    # Default to polygon for grouped 3+ coordinate areas.
+                    group_geom_type = "polygon"
+                    closed_grp = _ensure_closed_ring(grp)
+            elif len(grp) == 2:
+                group_geom_type = "linestring"
+            elif len(grp) == 1:
+                group_geom_type = "point"
+            else:
+                continue
             geom = _build_shapely_geometry(
                 geometry=group_geom_type,
                 coords=closed_grp,
@@ -1204,39 +1209,41 @@ def analyze_geometry(
         feature_terms = [
             "WELL",
             "BUOY",
+            "BUOYS",
             "HEAD",
             "PLATFORM",
             "STATION",
             "LIGHT",
+            "LIGHTS",
             "BEACON",
             "RIGLIST",
             "ЗНАК",
             "СВЕТЯЩИЙ",
+            "СВЕТЯЩ",
             "БУЙ",
+            "БУИ",
             "МАЯК",
             "СТВОР",
             "ЯКОРНЫЙ",
         ]
         feature_term_hits = sum(1 for term in feature_terms if term in text)
+        has_numeric_enum = bool(re.search(r"(?m)^\s*\d+\.\s", text))
+        has_alpha_enum = bool(re.search(r"(?m)^\s*[A-Z\u0410-\u042F]\.\s", text))
+        has_enumeration = has_numeric_enum or has_alpha_enum
+        line_keywords = [
+            "ALONG LINE",
+            "JOININGLINE",
+            "JOINING LINES",
+            "ПО ЛИНИИ",
+            "ОСЕВАЯ ЛИНИЯ",
+            "ПО ОСИ ФАРВАТЕРА",
+        ]
+        has_explicit_line = any(keyword in text for keyword in line_keywords)
 
-        # Multipoint: enumerated list and feature nouns
-        if len(coords) >= 2 and re.search(r"\b1\.\s", text):
-            if feature_term_hits > 0:
-                geometry = "multipoint"
-
-        # Multipoint: non-enumerated dense list of named aids/objects with coordinates.
-        # This captures PRIP texts where each line names a separate mark/light but
-        # numbering (1., 2., ...) is omitted.
-        if not geometry and len(coords) >= 5 and feature_term_hits >= 2:
-            if (
-                "ALONG LINE" not in text
-                and "ПО ЛИНИИ" not in text
-                and "ОСЕВОЙ" not in text
-            ):
-                geometry = "multipoint"
         # Polygon by keywords
         # English: "AREA BOUNDED", "AREA BOUNDED BY"
-        # Russian: "РАЙОНЕ" (area/zone), often with "ЗАПРЕТНОМ" (prohibited), "ДЛЯ ПЛАВАНИЯ" (for navigation)
+        # Russian: "РАЙОНЕ" (area/zone), often with "ЗАПРЕТНОМ"
+        # (prohibited), "ДЛЯ ПЛАВАНИЯ" (for navigation)
         if not geometry and len(coords) >= 3:
             polygon_keywords = [
                 "AREA BOUNDED BY",
@@ -1246,23 +1253,48 @@ def analyze_geometry(
                 "BOUND BY",
                 "IN THE AREA OF",
                 "IN AREA OF",
-                "TEMPORARILY DANGEROUS",  # Baltic NAVTEX: prohibited zone
+                "TEMPORARILY DANGEROUS",  # Baltic NAVTEX
                 "TEMPORARILY RESTRICTED",
                 "РАЙОНЕ",  # Russian: area/zone
             ]
             if any(keyword in text for keyword in polygon_keywords):
                 geometry = "polygon"
+
         # Closed ring
         if not geometry and len(coords) >= 4:
             f_lat, f_lon = coords[0]
             l_lat, l_lon = coords[-1]
             if abs(f_lat - l_lat) < 1e-4 and abs(f_lon - l_lon) < 1e-4:
                 geometry = "polygon"
+
+        # Explicit line cues should win over generic count-based heuristics.
+        if not geometry and len(coords) >= 2 and has_explicit_line:
+            geometry = "linestring"
+
+        # Multipoint: enumerated aids/marks with one coordinate per item.
+        if (
+            not geometry
+            and len(coords) >= 2
+            and has_enumeration
+            and feature_term_hits > 0
+            and not has_explicit_line
+        ):
+            geometry = "multipoint"
+
+        # Multipoint: non-enumerated dense list of named aids/objects with coordinates.
+        # This captures PRIP texts where each line names a separate mark/light but
+        # numbering (1., 2., ...) is omitted.
+        if (
+            not geometry
+            and len(coords) >= 5
+            and feature_term_hits >= 2
+        ):
+            if not has_explicit_line:
+                geometry = "multipoint"
+
         # Linestring for many points (cable, track)
         if not geometry and (
-            "ALONG LINE" in text
-            or "ОСЕВОЙ" in text
-            or "ПО ЛИНИИ" in text
+            has_explicit_line
             or (len(coords) >= 5 and len(coords) != 4)
         ):
             geometry = "linestring"

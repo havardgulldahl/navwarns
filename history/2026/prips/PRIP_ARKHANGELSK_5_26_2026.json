@@ -2,10 +2,16 @@
   "type": "Feature",
   "id": "PRIP ARKHANGELSK 5/26",
   "geometry": {
-    "type": "Point",
+    "type": "MultiPoint",
     "coordinates": [
-      34.8155,
-      66.521
+      [
+        34.8155,
+        66.521
+      ],
+      [
+        34.81433333333333,
+        66.519
+      ]
     ]
   },
   "properties": {
@@ -17,7 +23,7 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": "ПРИП АРХАНГЕЛЬСК 5 КАРТА 19045 \nКАНДАЛАКШСКИЙ ЗАЛИВ\nБУИ ВЫСТАВЛЕНЫ\n1. 66-31.26С 034-48.93В \n2. 66-31.14С 034-48.86В=\n141000 МСК ГС-",
     "cancel_date": null,
