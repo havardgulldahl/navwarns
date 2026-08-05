@@ -25,8 +25,15 @@ def identify_year(filename: str) -> str:
     if m2:
         return f"20{m2.group(1)}"
 
-    # Check for 2 digit year in middle (like HYDROARC_123_24_...)
-    # But usually it is at the end.
+    # Check for grouped feature filenames like *_26_grp1.json
+    m2_grp = re.search(r"_(\d{2})_grp\d+\.json$", filename)
+    if m2_grp:
+        return f"20{m2_grp.group(1)}"
+
+    # Check for grouped feature filenames with 4-digit year, if any.
+    m4_grp = re.search(r"_(\d{4})_grp\d+\.json$", filename)
+    if m4_grp:
+        return m4_grp.group(1)
 
     return "unknown"
 
