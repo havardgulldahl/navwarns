@@ -1,7 +1,31 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 107/17",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        17.803333333333335,
+        73.45833333333333
+      ],
+      [
+        24.388333333333332,
+        73.435
+      ],
+      [
+        20.846666666666668,
+        72.72833333333334
+      ],
+      [
+        22.205,
+        71.17
+      ],
+      [
+        7.355,
+        65.37
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-09-11T07:59:00",
     "raw_dtg": "",
@@ -13,12 +37,13 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": " \nNAVAREA XIX 107/17\n1.RIGLIST CORRECT AT 110630 UTC SEP 17.\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n73-27.5N - 017-48.2E SONGA ENABLER\n73-26.1N - 024-23.3E ISLAND INNOVATOR\n72-43.7N - 020-50.8E LEIV EIRIKSSON\n71-10.2N - 022-12.3E SCARABEO 8\n65-22.2N - 007-21.3E SONGA ENCOURAGE\n\nNOTES:\nA. RIGS ARE PROTECTED BY A 500 METER SAFETY ZONE.\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n2.CANCEL NAVAREA XIX 105/17",
     "cancel_date": "2017-09-19T04:55:00",
     "valid_from": "2017-09-11T07:59:00+00:00",
     "valid_until": "2017-09-19T04:55:00",
+    "corrections": [],
     "summary": null
   }
 }

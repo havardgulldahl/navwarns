@@ -1,7 +1,35 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 24/17",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        20.248333333333335,
+        71.94833333333334
+      ],
+      [
+        22.251666666666665,
+        71.24166666666666
+      ],
+      [
+        21.055,
+        71.61166666666666
+      ],
+      [
+        5.171666666666667,
+        67.25166666666667
+      ],
+      [
+        7.335,
+        65.36166666666666
+      ],
+      [
+        7.355,
+        65.37
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-04-03T08:02:00",
     "raw_dtg": "",
@@ -13,12 +41,13 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": " NAVAREA XIX 24/17\n1. RIGLIST. CORRECT AT 040630 UTC APR17.\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n \n71-56.9N - 020-14.9E LEIV EIRIKSSON\n71-14.5N - 022-15.1E SCARABEO 8\n71-36.7N - 021-03.3E SONGA ENABLER\n67-15.1N - 005-10.3E TRANSOCEAN SPITSBERGEN\n65-21.7N - 007-20.1E DEEPSEA BERGEN\n65-22.2N - 007-21.3E SONGA ENCOURAGE\n\nNOTES:\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT\nWWW.UKHO.GOV.UK/RNW\n2. CANCEL NAVAREA XIX 21/17 \n",
     "cancel_date": "2017-04-07T17:23:00",
     "valid_from": "2017-04-03T08:02:00+00:00",
     "valid_until": "2017-04-07T17:23:00",
+    "corrections": [],
     "summary": null
   }
 }

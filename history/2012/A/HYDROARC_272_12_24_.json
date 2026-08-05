@@ -1,7 +1,31 @@
 {
   "type": "Feature",
   "id": "HYDROARC 272/12(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -36.25,
+        -11.0
+      ],
+      [
+        -35.0,
+        -10.666666666666666
+      ],
+      [
+        -35.666666666666664,
+        -11.083333333333334
+      ],
+      [
+        -35.666666666666664,
+        -11.333333333333334
+      ],
+      [
+        -35.666666666666664,
+        -11.583333333333334
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2012-02-02T00:56:00",
     "raw_dtg": "020056Z FEB 12",
@@ -13,12 +37,13 @@
     "hazard_type": "cable",
     "category": "cable",
     "title": "Underwater Cable",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": "BRAZIL-EAST COAST.\n1. SEISMIC SURVEY BY M/V DISCOVERER\n   TOWING 5.4 MILE LONG CABLE:\n   A. 02 FEB IN AREA BETWEEN\n      10-55S 11-00S AND 036-15W 036-25W.\n   B. 03 FEB IN AREA BETWEEN\n      10-30S 10-40S AND 034-50w 035-00W.\n   C. 04 FEB IN AREA BETWEEN\n      10-55S 11-05S AND 035-40W 035-50W.\n   D. 05 FEB IN AREA BETWEEN\n      11-10S 11-20S AND 035-40W 035-50W.\n   E. 06 FEB IN AREA BETWEEN\n      11-25S 11-35S AND 035-40W 035-50W.\n   SEVEN MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 07 FEB.",
     "cancel_date": "2012-02-07T00:00:00+00:00",
     "valid_from": "2012-02-02T00:56:00+00:00",
     "valid_until": "2012-02-07T00:00:00+00:00",
+    "corrections": [],
     "summary": null
   }
 }

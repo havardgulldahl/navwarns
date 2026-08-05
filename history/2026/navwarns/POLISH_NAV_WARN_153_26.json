@@ -1,7 +1,13 @@
 {
   "type": "Feature",
   "id": "POLISH NAV WARN 153/26",
-  "geometry": null,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      16.748666666666665,
+      55.11678333333333
+    ]
+  },
   "properties": {
     "dtg": "2026-07-14T07:00:00",
     "raw_dtg": "140700Z JUL 26",
@@ -19,6 +25,7 @@
     "cancel_date": null,
     "valid_from": "2026-07-14T07:00:00+00:00",
     "valid_until": "2026-07-25T21:59:00+00:00",
+    "corrections": [],
     "summary": null
   }
 }

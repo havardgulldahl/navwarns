@@ -1,7 +1,13 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 98/14",
-  "geometry": null,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.0,
+      77.0
+    ]
+  },
   "properties": {
     "dtg": "2014-08-10T20:26:00",
     "raw_dtg": "",
@@ -17,6 +23,7 @@
     "cancel_date": "2014-09-06T20:01:00",
     "valid_from": "2014-08-10T20:26:00+00:00",
     "valid_until": "2014-09-06T20:01:00",
+    "corrections": [],
     "summary": null
   }
 }

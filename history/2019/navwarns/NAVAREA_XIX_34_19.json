@@ -1,7 +1,13 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 34/19",
-  "geometry": null,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.246666666666666,
+      66.07666666666667
+    ]
+  },
   "properties": {
     "dtg": "2019-04-22T06:14:00",
     "raw_dtg": "",
@@ -19,6 +25,7 @@
     "cancel_date": "2019-05-03T11:22:00",
     "valid_from": "2019-04-22T06:14:00+00:00",
     "valid_until": "2019-05-03T11:22:00",
+    "corrections": [],
     "summary": null
   }
 }

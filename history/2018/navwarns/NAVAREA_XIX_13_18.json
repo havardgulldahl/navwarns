@@ -1,7 +1,23 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 13/18",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        7.041666666666667,
+        67.03333333333333
+      ],
+      [
+        6.705,
+        65.25666666666666
+      ],
+      [
+        6.426666666666667,
+        65.23
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-02-19T06:20:00",
     "raw_dtg": "",
@@ -13,12 +29,13 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": " \nNAVAREA XIX 13/18\n1.RIGLIST CORRECT AT 190630 UTC FEB 18.\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n67-02.0N - 007-02.5E TRANSOCEAN SPITSBERGEN\n\n65-15.4N - 006-42.3E ISLAND INNOVATOR\n65-13.8N - 006-25.6E DEEPSEA BERGEN\n\nNOTES:\nA. RIGS ARE PROTECTED BY A 500 METER SAFETY ZONE.\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n2.CANCEL NAVAREA XIX 13/18",
     "cancel_date": "2018-02-23T14:21:00",
     "valid_from": "2018-02-19T06:20:00+00:00",
     "valid_until": "2018-02-23T14:21:00",
+    "corrections": [],
     "summary": null
   }
 }

@@ -1,7 +1,31 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 136/17",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        19.985,
+        72.08666666666667
+      ],
+      [
+        22.246666666666666,
+        71.31833333333333
+      ],
+      [
+        7.043333333333333,
+        67.03333333333333
+      ],
+      [
+        7.583333333333333,
+        65.70333333333333
+      ],
+      [
+        6.8,
+        65.18
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-11-10T09:37:00",
     "raw_dtg": "",
@@ -13,12 +37,13 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": " NAVAREA XIX 136/17\n1.RIGLIST CORRECT AT 101830 UTC NOV 17.\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n72-05.2N - 019-59.1E LEIV EIRIKSSON\n71-19.1N - 022-14.8E FLOATEL ENDURANCE ACP GOLIAT\n67-02.0N - 007-02.6E TRANSOCEAN SPITSBERGEN\n\n65-42.2N - 007-35.0E SONGA ENABLER\n65-10.8N - 006-48.0E SONGA ENCOURAGE\n\nNOTES:\nA. RIGS ARE PROTECTED BY A 500 METER SAFETY ZONE.\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\nC. ACP-ADJACENT TO CHARTED PLATFORM\n2.CANCEL NAVAREA XIX 131/17\n",
     "cancel_date": "2017-11-20T01:11:00",
     "valid_from": "2017-11-10T09:37:00+00:00",
     "valid_until": "2017-11-20T01:11:00",
+    "corrections": [],
     "summary": null
   }
 }

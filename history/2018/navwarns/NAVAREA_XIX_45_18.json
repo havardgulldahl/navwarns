@@ -1,7 +1,39 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 45/18",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        21.923333333333332,
+        72.13666666666667
+      ],
+      [
+        20.488333333333333,
+        72.02333333333333
+      ],
+      [
+        22.276666666666667,
+        71.27666666666667
+      ],
+      [
+        7.015,
+        67.07166666666667
+      ],
+      [
+        7.095,
+        67.06666666666666
+      ],
+      [
+        6.705,
+        65.25666666666666
+      ],
+      [
+        6.705,
+        65.135
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-05-07T08:02:00",
     "raw_dtg": "",
@@ -13,12 +45,13 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": " NAVAREA XIX 45/18\n1.RIGLIST CORRECT AT 070630 UTC MAY 18.\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n72-08.2N - 021-55,4E DEEPSEA STAVANGER\n72-01.4N - 020-29,3E LEIV EIRIKSSON\n71-16,6N - 022-16,6E SONGA ENABLER\n67-04.3N - 007-00.9E TRANSOCEAN SPITSBERGEN\n67-04,0N - 007-05,7E AASTA HANSTEEN\n65-15.4N - 006-42.3E ISLAND INNOVATOR\n65-08,1N - 006-42,3E SONGA ENCOURAGE\n\nNOTES:\nA. RIGS ARE PROTECTED BY A 500 METER SAFETY ZONE.\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n2.CANCEL NAVAREA XIX 43/18\n\n",
     "cancel_date": "2018-05-08T13:58:00",
     "valid_from": "2018-05-07T08:02:00+00:00",
     "valid_until": "2018-05-08T13:58:00",
+    "corrections": [],
     "summary": null
   }
 }

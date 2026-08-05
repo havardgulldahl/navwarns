@@ -1,7 +1,13 @@
 {
   "type": "Feature",
   "id": "HYDROARC 1832/16(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -43.217666666666666,
+      -22.868333333333332
+    ]
+  },
   "properties": {
     "dtg": "2016-07-20T00:07:00",
     "raw_dtg": "200007Z JUL 16",
@@ -19,6 +25,7 @@
     "cancel_date": "2016-07-21T18:44:00+00:00",
     "valid_from": "2016-07-20T00:07:00+00:00",
     "valid_until": "2016-07-21T18:44:00+00:00",
+    "corrections": [],
     "summary": null
   }
 }

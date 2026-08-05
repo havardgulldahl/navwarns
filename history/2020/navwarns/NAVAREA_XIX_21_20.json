@@ -1,7 +1,31 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 21/20",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        20.388333333333332,
+        71.34166666666667
+      ],
+      [
+        7.488333333333333,
+        65.62333333333333
+      ],
+      [
+        6.608333333333333,
+        65.52333333333333
+      ],
+      [
+        7.136666666666667,
+        65.425
+      ],
+      [
+        6.681666666666667,
+        65.08666666666667
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2020-02-27T17:50:00",
     "raw_dtg": "",
@@ -13,12 +37,13 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": " \nNAVAREA XIX 21/20 \n1. RIGLIST. CORRECT AT 271830 UTC FEB 2020\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n71-20.5N - 020-23.3E DEEPSEA ATLANTIC\n65-37.4N - 007-29.3E DEEPSEA STAVANGER\n65-31.4N - 006-36.5E DEEPSEA NORDKAPP\n65-25.5N - 007-08.2E TRANSOCEAN ARCTIC\n65-05.2N - 006-40.9E TRANSOCEAN ENCOURAGE\n\nNOTES: A. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX 20/20 ",
     "cancel_date": "2020-03-09T06:45:00",
     "valid_from": "2020-02-27T17:50:00+00:00",
     "valid_until": "2020-03-09T06:45:00",
+    "corrections": [],
     "summary": null
   }
 }

@@ -1,7 +1,27 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 81/17",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        20.55,
+        72.04166666666667
+      ],
+      [
+        25.173333333333332,
+        73.64333333333333
+      ],
+      [
+        22.286666666666665,
+        71.285
+      ],
+      [
+        8.058333333333334,
+        66.015
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2017-07-28T02:20:00",
     "raw_dtg": "",
@@ -13,12 +33,13 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": " 1. RIGLIST. CORRECT AT 280630 UTC JUL17.\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n \n72-02.5N - 020-33.0E LEIV EIRIKSSON\n73-38,6N - 025-10.4E SONGA ENABLER\n71-17.1N - 022-17.2E SCARABEO 8\n66-00.9N - 008-03.5E SONGA ENCOURAGE\n\nNOTES:\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT\nWWW.UKHO.GOV.UK/RNW\n2. CANCEL NAVAREA XIX 75/17 \n ",
     "cancel_date": "2017-08-01T01:50:00",
     "valid_from": "2017-07-28T02:20:00+00:00",
     "valid_until": "2017-08-01T01:50:00",
+    "corrections": [],
     "summary": null
   }
 }

@@ -1,7 +1,13 @@
 {
   "type": "Feature",
   "id": "HYDROARC 450/12(51)",
-  "geometry": null,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.751666666666667,
+      36.748333333333335
+    ]
+  },
   "properties": {
     "dtg": "2012-02-29T11:03:00",
     "raw_dtg": "291103Z FEB 12",
@@ -19,6 +25,7 @@
     "cancel_date": "2012-03-05T00:01:00+00:00",
     "valid_from": "2012-02-29T11:03:00+00:00",
     "valid_until": "2012-03-05T00:01:00+00:00",
+    "corrections": [],
     "summary": null
   }
 }

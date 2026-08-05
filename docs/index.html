@@ -731,6 +731,10 @@
             const source = getSourceLabel(feature);
             const timespan = getTimespanText(p);
             const cancellations = (p.cancellations || []).filter(Boolean);
+            const parseIssues = Array.isArray(p.parse_issues) ? p.parse_issues : [];
+            const corrections = Array.isArray(p.corrections) ? p.corrections : [];
+            const hasIssues = parseIssues.length > 0;
+            const hasCorrections = corrections.length > 0;
             const color = getCategoryColor(category);
             const featureKey = cachePopupFeature(feature);
             return `
@@ -739,12 +743,17 @@
           <div class="meta">
                         <span class="inline-badge">${escapeHtml(hazard)}</span>
                         <span class="inline-badge" style="background:${color};color:#fff;">${escapeHtml(category)}</span><br/>
+                        ${hasIssues ? '<span class="inline-badge" style="background:#c0392b;color:#fff;">Parse Issue</span>' : ''}
+                        ${hasCorrections ? '<span class="inline-badge" style="background:#d35400;color:#fff;">Auto-corrected</span>' : ''}
                         <strong>NavWarn ID:</strong> ${escapeHtml(navwarnId)}<br/>
                         <strong>Timespan:</strong> ${escapeHtml(timespan)}<br/>
                         <strong>Source:</strong> ${escapeHtml(source)}
                         ${cancellations.length ? `<br/><strong>Cancel:</strong> ${escapeHtml(cancellations.join('; '))}` : ''}
+                        ${(Number.isFinite(p.coordinates_extracted) || Number.isFinite(p.coordinates_validated)) ? `<br/><strong>Coordinates:</strong> ${escapeHtml(String(p.coordinates_validated ?? 'N/A'))}/${escapeHtml(String(p.coordinates_extracted ?? 'N/A'))} valid` : ''}
           </div>
                     <pre>${escapeHtml(body)}</pre>
+                    ${hasIssues ? `<details><summary>Parse issues (${parseIssues.length})</summary><ul>${parseIssues.map(issue => `<li>${escapeHtml(String(issue.message || issue.type || 'Unknown parse issue'))}${issue.token ? ` (${escapeHtml(String(issue.token))})` : ''}</li>`).join('')}</ul></details>` : ''}
+                    ${hasCorrections ? `<details><summary>Auto-corrections (${corrections.length})</summary><ul>${corrections.map(c => `<li>${escapeHtml(String(c.before || ''))} → ${escapeHtml(String(c.after || ''))} (${escapeHtml(String(c.reason || c.rule_id || 'rule'))})</li>`).join('')}</ul></details>` : ''}
                     <div class="popup-actions"><a href="#" onclick="downloadPopupFeature('${featureKey}'); return false;">GeoJSON</a></div>
         </div>`;
         }

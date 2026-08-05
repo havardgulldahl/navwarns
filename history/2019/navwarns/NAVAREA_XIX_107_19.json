@@ -1,7 +1,27 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 107/19",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        21.5,
+        74.5
+      ],
+      [
+        22.5,
+        74.5
+      ],
+      [
+        22.5,
+        73.5
+      ],
+      [
+        21.5,
+        73.5
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-09-29T13:48:00",
     "raw_dtg": "",
@@ -11,12 +31,13 @@
     "hazard_type": "scientific mooring",
     "category": "other",
     "title": "Scientific Mooring",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": " NAVAREA XIX 107/19\n\nBARENTS SEA\nHYDROGRAPHIC SURVEY WILL BE CARRIED OUT FROM 30.SEP TO 06.OCT 2019 BY RESEARCH VESSEL POURQUOI PAS CS FMCF,TOWING 1000 METERS LONG CABLE IN THE AREA DELIMITED BY THE FOLLOWING POSITIONS:\nA.74-30N-021-30EB.74-30N-022-30EC.73-30N-022-30ED.73-30N-021-30E\nSUBSEA SCIENTIFIC MOORINGS WILL ALSO BE DEPLOYEDWIDE BERTH FROM AREA REQUESTED.\n",
     "cancel_date": "2019-10-06T07:45:00",
     "valid_from": "2019-09-29T13:48:00+00:00",
     "valid_until": "2019-10-06T07:45:00",
+    "corrections": [],
     "summary": null
   }
 }

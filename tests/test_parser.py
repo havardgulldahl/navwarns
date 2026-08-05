@@ -7,6 +7,7 @@ from scripts.parser import (
     parse_dtg,
     parse_msg_id,
     parse_coordinates,
+    parse_coordinates_with_metadata,
     parse_cancellations,
     classify_hazard,
     classify_category,
@@ -371,6 +372,41 @@ def test_navwarnmessage_factory():
 def test_coord_to_decimal_invalid():
     assert coord_to_decimal("BAD") is None
     assert coord_to_decimal("1234N") is None
+
+
+def test_parse_coordinates_autocorrects_single_deterministic_typo():
+    body = (
+        "AREA BOUNDED BY "
+        "70-56-00N 032-04-58E, "
+        "70-,10-00N 033-40-00E, "
+        "69-54-00N 032-40-00E"
+    )
+    coords, issues, corrections, extracted = parse_coordinates_with_metadata(body)
+
+    assert extracted == 3
+    assert len(coords) == 3
+    assert len(corrections) == 1
+    assert corrections[0]["before"] == "70-,10-00N"
+    assert corrections[0]["after"] == "70-10-00N"
+    assert issues == []
+
+
+def test_feature_properties_include_parse_metadata():
+    body = (
+        "NAVAREA XX 105/26 BARENTS SEA. "
+        "AREA BOUNDED BY: "
+        "70-56-00N 032-04-58E, "
+        "70-,10-00N 033-40-00E, "
+        "69-54-00N 032-40-00E."
+    )
+    msg = NavwarnMessage.from_text("010001Z JAN 26", body)
+    feat = msg.to_geojson_feature()
+
+    assert "coordinates_extracted" not in feat["properties"]
+    assert "coordinates_validated" not in feat["properties"]
+    assert "parse_issues" not in feat["properties"]
+    assert "correction_applied" not in feat["properties"]
+    assert len(feat["properties"]["corrections"]) == 1
 
 
 def test_sample_95_18_metadata():

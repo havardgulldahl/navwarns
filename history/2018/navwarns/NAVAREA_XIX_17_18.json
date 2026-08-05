@@ -1,7 +1,91 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 17/18",
-  "geometry": null,
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        16.008333333333333,
+        69.29166666666667
+      ],
+      [
+        15.811666666666667,
+        69.33333333333333
+      ],
+      [
+        14.918333333333333,
+        69.64833333333333
+      ],
+      [
+        14.933333333333334,
+        69.875
+      ],
+      [
+        15.95,
+        69.98666666666666
+      ],
+      [
+        16.496666666666666,
+        69.82666666666667
+      ],
+      [
+        16.15,
+        69.375
+      ],
+      [
+        16.043333333333333,
+        69.29833333333333
+      ],
+      [
+        16.008333333333333,
+        69.29166666666667
+      ],
+      [
+        6.533333333333333,
+        73.42
+      ],
+      [
+        16.445,
+        74.34333333333333
+      ],
+      [
+        20.428333333333335,
+        73.51666666666667
+      ],
+      [
+        21.085,
+        72.51
+      ],
+      [
+        19.818333333333335,
+        71.60666666666667
+      ],
+      [
+        17.373333333333335,
+        70.71666666666667
+      ],
+      [
+        12.801666666666666,
+        70.38166666666666
+      ],
+      [
+        9.451666666666666,
+        70.62666666666667
+      ],
+      [
+        6.826666666666666,
+        71.34
+      ],
+      [
+        5.74,
+        72.215
+      ],
+      [
+        6.533333333333333,
+        73.42
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2018-02-28T07:08:00",
     "raw_dtg": "",
@@ -11,12 +95,13 @@
     "hazard_type": "hazardous operations",
     "category": "military",
     "title": "Hazardous Operations",
-    "geometry_kind": "point",
+    "geometry_kind": "linestring",
     "radius_nm": null,
     "body": " NAVAREA XIX 17/18\nNORSKEHAVET \nSCIENTIFIC ROCKET LAUNCHING.\nTWO SCIENTIFIC ROCKETS WILL BE LAUNCHED FROM ANDOYA SPACE CENTER IN THE PERIOD FROM MARCH 3RD\nTO MARCH 19TH 2018. THE LAUNCHES WILL BE CONDUCTED BETWEEN 1800 AND 2200 LT. IN THE ANNOUNCED PERIOD\nSEAGOING TRAFFIC IS REQUESTED TO BE AWARE OF THE FOLLOWING HAZARD AREAS\nHAZARD AREA 1\nDEFINED BY THE FOLLOWING COORDINATES\nA. 69-17.5N - 016-00.5E\nB. 69-20.0N - 015-48.7E\nC. 69-38.9N - 014-55.1E\nD. 69-52.5N - 014-56.0E\nE. 69-59.2N - 015-57.0E\nF. 69-49.6N - 016-29.8E\nG. 69-22.5N - 016-09.0E\nH. 69-17.9N - 016-02.6E\nI.  69-17.5N - 016-00.5E\nHAZARD AREA 2\nDEFINED BY THE FOLLOWING COORDINATES\nA. 73-25.2N - 006-32.0E\nB. 74-20.6N - 016-26.7E\nC. 73-31.0N - 020-25.7E\nD. 72-30.6N - 021-05.1E\nE. 71-36.4N - 019-49.1E\nF. 70-43.0N - 017-22.4E\nG. 70-22.9N - 012-48.1E\nH. 70-37.6N - 009-27.1E\nI.  71-20.4N - 006-49.6E\nJ.  72-12.9N - 005-44.4E\nK. 73-25.2N - 006-32.0E\nPUBLISHED IN NORWEGIAN NOTICE TO MARINERS NO4 2018.",
     "cancel_date": "2018-03-21T07:10:00",
     "valid_from": "2018-02-28T07:08:00+00:00",
     "valid_until": "2018-03-21T07:10:00",
+    "corrections": [],
     "summary": null
   }
 }

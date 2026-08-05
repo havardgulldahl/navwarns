@@ -1,7 +1,13 @@
 {
   "type": "Feature",
   "id": "HYDROARC 434/10(24)",
-  "geometry": null,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -45.25833333333333,
+      -24.5
+    ]
+  },
   "properties": {
     "dtg": "2010-03-13T01:02:00",
     "raw_dtg": "130102Z MAR 10",
@@ -19,6 +25,7 @@
     "cancel_date": "2010-03-23T04:00:00+00:00",
     "valid_from": "2010-03-13T01:02:00+00:00",
     "valid_until": "2010-03-23T04:00:00+00:00",
+    "corrections": [],
     "summary": null
   }
 }

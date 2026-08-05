@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 import math
 from datetime import datetime, timezone
 from dateutil import parser as dtparser  # still used as fallback
-from typing import List, Tuple, Optional, Dict
+from typing import Any, List, Tuple, Optional, Dict
 from shapely.geometry import LineString, MultiPoint, Point, Polygon, mapping
 from shapely.ops import unary_union
 
@@ -36,6 +36,9 @@ MSG_ID_PATTERN = re.compile(
 _LAT_PART = r"\d{2,3}-(?:\d{2}(?:[\.,]\d+)?|\d{2}-\d{2}(?:[\.,]\d+)?)"
 _LON_PART = r"\d{3}-(?:\d{2}(?:[\.,]\d+)?|\d{2}-\d{2}(?:[\.,]\d+)?)"
 COORD_PATTERN = re.compile(rf"({_LAT_PART}[NS])\s+({_LON_PART}[EW])")
+COORD_TOKEN_PATTERN = re.compile(r"\d[\d,\.-]*[NSEW]")
+LAT_TOKEN_PATTERN = re.compile(rf"^{_LAT_PART}[NS]$")
+LON_TOKEN_PATTERN = re.compile(rf"^{_LON_PART}[EW]$")
 # Expanded cancellation recognition:
 #  - HYDROARC X/Y
 #  - plain X/Y (e.g. 47/18)
@@ -299,6 +302,9 @@ class NavwarnMessage:
     body: str = ""
     year: Optional[int] = None  # four-digit year inferred from msg_id or dtg
     cancel_date: Optional[str] = None  # structured cancel date from XML
+    parse_issues: List[Dict[str, str]] = field(default_factory=list)
+    corrections: List[Dict[str, Any]] = field(default_factory=list)
+    coordinates_extracted: int = 0
 
     # --- Validity helpers ---
     def _parse_from_to_period(self) -> "Tuple[Optional[str], Optional[str]]":
@@ -657,6 +663,7 @@ class NavwarnMessage:
                 "cancel_date": self.cancel_date,
                 "valid_from": self._compute_valid_from(),
                 "valid_until": self._compute_valid_until(),
+                "corrections": self.corrections,
             },
         }
 
@@ -712,6 +719,7 @@ class NavwarnMessage:
                         "cancel_date": self.cancel_date,
                         "valid_from": self._compute_valid_from(),
                         "valid_until": self._compute_valid_until(),
+                        "corrections": self.corrections,
                     },
                 }
             )
@@ -729,7 +737,9 @@ class NavwarnMessage:
             m = DTG_PATTERN.search(dtg_str) or DTG_PATTERN.search(body)
             raw_dtg = m.group(1) if m else dtg_str if len(dtg_str) <= 30 else ""
         msg_id = parse_msg_id(body)
-        coords = parse_coordinates(body)
+        coords, parse_issues, corrections, extracted = parse_coordinates_with_metadata(
+            body
+        )
         cancels = parse_cancellations(body)
         hazard = classify_hazard(body)
         geometry, radius = analyze_geometry(body, coords)
@@ -747,6 +757,9 @@ class NavwarnMessage:
             groups=groups,
             body=body,
             year=year,
+            parse_issues=parse_issues,
+            corrections=corrections,
+            coordinates_extracted=extracted,
         )
 
     @classmethod
@@ -754,7 +767,9 @@ class NavwarnMessage:
         """Factory method: build a NavwarnMessage from raw DTG + message body."""
         # dtg = prip_parse_dtg(prip_header)
         area, msg_id, year, maps, details = parse_prip_header(prip_header)
-        coords = parse_coordinates(prip_str)
+        coords, parse_issues, corrections, extracted = parse_coordinates_with_metadata(
+            prip_str
+        )
         cancels = prip_parse_cancellations(prip_str, year=year)
         hazard = classify_hazard(prip_str)
         geometry, radius = analyze_geometry(prip_str, coords)
@@ -777,6 +792,9 @@ class NavwarnMessage:
             groups=groups,
             body=body_strip.replace("НННН", "").strip(),
             year=(2000 + int(year)) if year and year.isdigit() else None,
+            parse_issues=parse_issues,
+            corrections=corrections,
+            coordinates_extracted=extracted,
         )
 
 
@@ -855,17 +873,161 @@ def coord_to_decimal(coord: str) -> Optional[float]:
     return decimal
 
 
-def parse_coordinates(body: str) -> List[Tuple[float, float]]:
-    # Normalize possible Cyrillic direction letters to Latin before matching
-    # Russian nautical texts often use: С (north), Ю (south), В (east), З (west)
+def _validate_coord_token(token: str, kind: str) -> Optional[str]:
+    """Validate token shape/ranges for a single lat/lon coordinate token."""
+    token_u = token.strip().upper().replace(",", ".")
+    pat = LAT_TOKEN_PATTERN if kind == "lat" else LON_TOKEN_PATTERN
+    if not pat.match(token_u):
+        return "invalid_format"
+
+    m_dms = re.match(r"^(\d+)-(\d+)-(\d+(?:\.\d+)?)([NSEW])$", token_u)
+    if m_dms:
+        deg_i = int(m_dms.group(1))
+        min_i = int(m_dms.group(2))
+        sec_f = float(m_dms.group(3))
+    else:
+        m_dm = re.match(r"^(\d+)-(\d+(?:\.\d+)?)([NSEW])$", token_u)
+        if not m_dm:
+            return "invalid_format"
+        deg_i = int(m_dm.group(1))
+        min_i = int(float(m_dm.group(2)))
+        sec_f = 0.0
+
+    max_deg = 90 if kind == "lat" else 180
+    if deg_i > max_deg:
+        return "degrees_out_of_range"
+    if min_i >= 60:
+        return "minutes_out_of_range"
+    if sec_f >= 60:
+        return "seconds_out_of_range"
+    return None
+
+
+def _auto_correct_coord_token(
+    token: str,
+    kind: str,
+) -> Tuple[str, Optional[Dict[str, Any]]]:
+    """Apply deterministic high-confidence typo fixes to coord token."""
+    token_u = token.strip().upper()
+    candidates: List[Tuple[str, str]] = []
+
+    # Common human typo: punctuation where leading minute digit should be.
+    # Example: 70-,10-00N -> 70-010-00N.
+    if "-," in token_u:
+        candidates.append((token_u.replace("-,", "-"), "punctuation_cleanup"))
+    if "-." in token_u:
+        candidates.append((token_u.replace("-.", "-"), "punctuation_cleanup"))
+
+    valid_candidates: List[Tuple[str, str]] = []
+    for candidate, rule_id in candidates:
+        if _validate_coord_token(candidate, kind) is None:
+            dec = coord_to_decimal(candidate)
+            if dec is not None:
+                valid_candidates.append((candidate, rule_id))
+
+    if len(valid_candidates) != 1:
+        return token_u, None
+
+    corrected, rule_id = valid_candidates[0]
+    correction = {
+        "axis": kind,
+        "before": token_u,
+        "after": corrected,
+        "rule_id": rule_id,
+        "reason": "single deterministic punctuation repair",
+        "confidence": 1.0,
+    }
+    return corrected, correction
+
+
+def _extract_coordinate_pair_tokens(body: str) -> List[Tuple[str, str]]:
+    """Extract candidate lat/lon token pairs from free text."""
     translit_map = str.maketrans({"С": "N", "Ю": "S", "В": "E", "З": "W"})
     norm_body = body.translate(translit_map)
-    coords = []
-    for lat, lon in COORD_PATTERN.findall(norm_body):
-        lat_dec = coord_to_decimal(lat)
-        lon_dec = coord_to_decimal(lon)
-        if lat_dec is not None and lon_dec is not None:
-            coords.append((lat_dec, lon_dec))
+    tokens = [m.group(0).upper() for m in COORD_TOKEN_PATTERN.finditer(norm_body)]
+    pairs: List[Tuple[str, str]] = []
+    i = 0
+    while i < len(tokens) - 1:
+        t0 = tokens[i]
+        t1 = tokens[i + 1]
+        if t0[-1] in ("N", "S") and t1[-1] in ("E", "W"):
+            pairs.append((t0, t1))
+            i += 2
+            continue
+        i += 1
+    return pairs
+
+
+def parse_coordinates_with_metadata(
+    body: str,
+    auto_correct: bool = True,
+) -> Tuple[
+    List[Tuple[float, float]],
+    List[Dict[str, str]],
+    List[Dict[str, Any]],
+    int,
+]:
+    """Parse coordinates and return parsed values plus validation metadata."""
+    coords: List[Tuple[float, float]] = []
+    issues: List[Dict[str, str]] = []
+    corrections: List[Dict[str, Any]] = []
+    pairs = _extract_coordinate_pair_tokens(body)
+
+    for lat_token, lon_token in pairs:
+        cur_lat = lat_token
+        cur_lon = lon_token
+        pair_errors: List[str] = []
+
+        lat_issue = _validate_coord_token(cur_lat, "lat")
+        if lat_issue and auto_correct:
+            fixed_lat, correction = _auto_correct_coord_token(cur_lat, "lat")
+            if correction is not None:
+                cur_lat = fixed_lat
+                corrections.append(correction)
+                lat_issue = _validate_coord_token(cur_lat, "lat")
+        if lat_issue:
+            pair_errors.append(f"lat:{lat_issue}")
+
+        lon_issue = _validate_coord_token(cur_lon, "lon")
+        if lon_issue and auto_correct:
+            fixed_lon, correction = _auto_correct_coord_token(cur_lon, "lon")
+            if correction is not None:
+                cur_lon = fixed_lon
+                corrections.append(correction)
+                lon_issue = _validate_coord_token(cur_lon, "lon")
+        if lon_issue:
+            pair_errors.append(f"lon:{lon_issue}")
+
+        if pair_errors:
+            issues.append(
+                {
+                    "severity": "warning",
+                    "type": "coordinate_parse",
+                    "token": f"{lat_token} {lon_token}",
+                    "message": "; ".join(pair_errors),
+                }
+            )
+            continue
+
+        lat_dec = coord_to_decimal(cur_lat)
+        lon_dec = coord_to_decimal(cur_lon)
+        if lat_dec is None or lon_dec is None:
+            issues.append(
+                {
+                    "severity": "warning",
+                    "type": "coordinate_parse",
+                    "token": f"{lat_token} {lon_token}",
+                    "message": "conversion_failed",
+                }
+            )
+            continue
+        coords.append((lat_dec, lon_dec))
+
+    return coords, issues, corrections, len(pairs)
+
+
+def parse_coordinates(body: str) -> List[Tuple[float, float]]:
+    coords, _, _, _ = parse_coordinates_with_metadata(body)
     return coords
 
 

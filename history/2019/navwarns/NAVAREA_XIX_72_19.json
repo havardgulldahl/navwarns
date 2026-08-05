@@ -1,7 +1,35 @@
 {
   "type": "Feature",
   "id": "NAVAREA XIX 72/19",
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        24.973333333333333,
+        73.66166666666666
+      ],
+      [
+        8.936666666666667,
+        66.5
+      ],
+      [
+        8.373333333333333,
+        66.04833333333333
+      ],
+      [
+        7.546666666666667,
+        65.93166666666667
+      ],
+      [
+        6.376666666666667,
+        65.20333333333333
+      ],
+      [
+        6.875,
+        65.02
+      ]
+    ]
+  },
   "properties": {
     "dtg": "2019-07-21T08:22:00",
     "raw_dtg": "",
@@ -13,12 +41,13 @@
     "hazard_type": "general",
     "category": "other",
     "title": "General Warning",
-    "geometry_kind": "point",
+    "geometry_kind": "multipoint",
     "radius_nm": null,
     "body": " NAVAREA 72/19\n1.RIGLIST CORRECT AT 210630 UTC JUL 2019\nNORWEGIAN SEA: NORTH OF 65N. EAST OF 5W\n73-39.7N - 024-58.4E WEST HERCULES\n66-30.0N - 008-56.2E DEEPSEA STAVANGER\n66-02.9N - 008-22.4E TRANSOCEAN ARCTIC\n65-55.9N - 007-32.8E SCARABEO 8\n65-12.2N - 006-22.6E DEEPSEA BERGEN\n65-01.2N - 006-52.5E TRANSOCEAN ENCOURAGE\nNOTES:\nA. RIGS ARE PROTECTED BY A 500 METER SAFETY ZONE\nB. FOR RIGS LOCATED SOUTH OF 65N. REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n2.CANCEL NAVAREA XIX 69/19\n\n\n",
     "cancel_date": "2019-07-25T05:52:00",
     "valid_from": "2019-07-21T08:22:00+00:00",
     "valid_until": "2019-07-25T05:52:00",
+    "corrections": [],
     "summary": null
   }
 }
