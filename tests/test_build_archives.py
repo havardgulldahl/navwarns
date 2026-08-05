@@ -11,10 +11,12 @@ from pathlib import Path
 import pytest
 
 from scripts.build_archives import (
+    _apply_last_seen,
     _compute_valid_from,
     _compute_valid_until,
     _enrich_properties,
     _resolve_cross_cancellations,
+    _scan_daily_presence,
     collect_features,
     build_archive,
     build_manifest,
@@ -464,6 +466,91 @@ class TestBuildManifest:
         manifest = json.loads((tmp_path / "manifest.json").read_text())
         years = {e["year"]: e["count"] for e in manifest["years"]}
         assert years[2021] == 7, "rebuilt count overrides disk"
+
+
+# ------------------------------------------------------------------
+# _scan_daily_presence / _apply_last_seen
+# ------------------------------------------------------------------
+
+
+class TestDailyPresenceInference:
+    """Daily snapshot inference for disappearance-based cancellation."""
+
+    def test_navtex_disappearance_detected(self, tmp_path: Path) -> None:
+        year_dir = tmp_path / "2026"
+        navtex_dir = year_dir / "NAVTEX_SE"
+        navtex_dir.mkdir(parents=True)
+
+        day1 = navtex_dir / "NAVTEX_SE_2026-01-01.html"
+        day2 = navtex_dir / "NAVTEX_SE_2026-01-02.html"
+        day1.write_text(
+            "BALTIC SEA NAV WARN 001/26\n" "SWEDISH NAV WARN 002/26\n",
+            encoding="utf-8",
+        )
+        day2.write_text(
+            "SWEDISH NAV WARN 002/26\n",
+            encoding="utf-8",
+        )
+
+        first_seen, last_seen = _scan_daily_presence(year_dir)
+
+        assert first_seen["BALTIC SEA NAV WARN 001/26"] == "2026-01-01"
+        assert last_seen["BALTIC SEA NAV WARN 001/26"] == "2026-01-01"
+        assert "SWEDISH NAV WARN 002/26" not in last_seen
+
+    def test_andoya_disappearance_detected(self, tmp_path: Path) -> None:
+        year_dir = tmp_path / "2026"
+        andoya_dir = year_dir / "ANDOYA"
+        andoya_dir.mkdir(parents=True)
+
+        day1 = andoya_dir / "ANDOYA_2026-01-01.olx"
+        day2 = andoya_dir / "ANDOYA_2026-01-02.olx"
+        day1.write_text(
+            "Rute ukjent\n"
+            "4200.0 900.0 1 A\n"
+            "4201.0 901.0 1 A\n"
+            "4202.0 902.0 1 A\n"
+            "MTekst 1: Navn: Danger Area One\n"
+            "Rute ukjent\n"
+            "4300.0 910.0 1 A\n"
+            "4301.0 911.0 1 A\n"
+            "4302.0 912.0 1 A\n"
+            "MTekst 1: Navn: Danger Area Two\n",
+            encoding="latin-1",
+        )
+        day2.write_text(
+            "Rute ukjent\n"
+            "4300.0 910.0 1 A\n"
+            "4301.0 911.0 1 A\n"
+            "4302.0 912.0 1 A\n"
+            "MTekst 1: Navn: Danger Area Two\n",
+            encoding="latin-1",
+        )
+
+        first_seen, last_seen = _scan_daily_presence(year_dir)
+
+        assert first_seen["ANDOYA_Danger_Area_One"] == "2026-01-01"
+        assert last_seen["ANDOYA_Danger_Area_One"] == "2026-01-01"
+        assert "ANDOYA_Danger_Area_Two" not in last_seen
+
+    def test_apply_last_seen_sets_valid_until(self) -> None:
+        feature = {
+            "type": "Feature",
+            "id": "BALTIC SEA NAV WARN 001/26",
+            "geometry": {"type": "Point", "coordinates": [0.0, 0.0]},
+            "properties": {
+                "msg_id": "BALTIC SEA NAV WARN 001/26",
+                "valid_until": None,
+            },
+        }
+
+        updated = _apply_last_seen(
+            [feature],
+            {"BALTIC SEA NAV WARN 001/26": "2026-01-01"},
+        )
+
+        assert updated == 1
+        assert feature["properties"]["valid_until"] == "2026-01-01T23:59:59+00:00"
 
 
 # ------------------------------------------------------------------

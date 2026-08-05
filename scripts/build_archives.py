@@ -468,7 +468,8 @@ def _scan_daily_presence(
     - first_seen: msg_id -> earliest date the message appeared in any snapshot
     - last_seen_cancelled: msg_id -> last date seen, only for messages that
       disappeared before the final scrape date (i.e. confirmed cancelled)
-    Works for NAVAREAXX (navwarns_raw.txt + ROSATOM HTML) and PRIP (HTML).
+        Works for NAVAREAXX (navwarns_raw.txt + ROSATOM HTML), PRIP (HTML),
+        NAVTEX_SE (HTML), and ANDOYA (OLX).
     """
     RU_MAP = {
         "АРХАНГЕЛЬСК": "ARKHANGELSK",
@@ -478,6 +479,13 @@ def _scan_daily_presence(
     first_seen: Dict[str, str] = {}
     last_seen: Dict[str, str] = {}
     all_dates: List[str] = []
+
+    def mark_seen(msg_id: str, date_str: str) -> None:
+        """Track earliest and latest daily appearances for a message."""
+        if msg_id not in first_seen or date_str < first_seen[msg_id]:
+            first_seen[msg_id] = date_str
+        if msg_id not in last_seen or date_str > last_seen[msg_id]:
+            last_seen[msg_id] = date_str
 
     # NAVAREAXX: dated subdirectories with navwarns_raw.txt
     nxx_dir = year_dir / "NAVAREAXX"
@@ -493,10 +501,7 @@ def _scan_daily_presence(
             text = raw.read_text(errors="replace")
             for m in re.finditer(r"NAVAREA XX (\d+/\d+)", text):
                 mid = f"NAVAREA XX {m.group(1)}"
-                if mid not in first_seen or date_str < first_seen[mid]:
-                    first_seen[mid] = date_str
-                if mid not in last_seen or date_str > last_seen[mid]:
-                    last_seen[mid] = date_str
+                mark_seen(mid, date_str)
 
         # Also scan ROSATOM HTML files stored directly in the NAVAREAXX dir
         for html_file in nxx_dir.glob("ROSATOM_*.html"):
@@ -508,10 +513,7 @@ def _scan_daily_presence(
             text = html_file.read_text(errors="replace")
             for m in re.finditer(r"NAVAREA XX (\d+/\d+)", text):
                 mid = f"NAVAREA XX {m.group(1)}"
-                if mid not in first_seen or date_str < first_seen[mid]:
-                    first_seen[mid] = date_str
-                if mid not in last_seen or date_str > last_seen[mid]:
-                    last_seen[mid] = date_str
+                mark_seen(mid, date_str)
 
     # PRIP: HTML files with date in filename
     prip_dir = year_dir / "PRIP"
@@ -529,10 +531,39 @@ def _scan_daily_presence(
             ):
                 reg = RU_MAP.get(m.group(1), m.group(1))
                 ref = f"PRIP {reg} {m.group(2)}/{m.group(3)}"
-                if ref not in first_seen or date_str < first_seen[ref]:
-                    first_seen[ref] = date_str
-                if ref not in last_seen or date_str > last_seen[ref]:
-                    last_seen[ref] = date_str
+                mark_seen(ref, date_str)
+
+    # NAVTEX_SE: HTML files with date in filename
+    navtex_dir = year_dir / "NAVTEX_SE"
+    if navtex_dir.is_dir():
+        for html_file in navtex_dir.glob("*.html"):
+            dm = re.search(r"(\d{4}-\d{2}-\d{2})", html_file.name)
+            if not dm:
+                continue
+            date_str = dm.group(1)
+            all_dates.append(date_str)
+            text = html_file.read_text(errors="replace")
+            for m in re.finditer(
+                r"([A-Z][A-Z ]+? NAV WARN \d+/\d+)",
+                text.upper(),
+            ):
+                ref = " ".join(m.group(1).split())
+                mark_seen(ref, date_str)
+
+    # ANDOYA: OLX files with date in filename
+    andoya_dir = year_dir / "ANDOYA"
+    if andoya_dir.is_dir():
+        for olx_file in andoya_dir.glob("ANDOYA_*.olx"):
+            dm = re.search(r"(\d{4}-\d{2}-\d{2})", olx_file.name)
+            if not dm:
+                continue
+            date_str = dm.group(1)
+            all_dates.append(date_str)
+            text = olx_file.read_text(errors="replace", encoding="latin-1")
+            for m in re.finditer(r"(?:Navn|Name):\s*([^\n\r]+)", text):
+                safe_name = re.sub(r"[^A-Za-z0-9]+", "_", m.group(1).strip())
+                if safe_name:
+                    mark_seen(f"ANDOYA_{safe_name}", date_str)
 
     if not all_dates:
         return {}, {}
@@ -686,6 +717,8 @@ def build_archive(
 
     # Infer valid_from/valid_until from daily scrape presence data
     first_seen, last_seen = _scan_daily_presence(year_dir)
+    if not first_seen and not last_seen:
+        print(f"  {year}: no daily snapshots found for inference")
     if last_seen:
         n = _apply_last_seen(features, last_seen)
         if n:

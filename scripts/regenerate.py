@@ -532,6 +532,33 @@ def regenerate_all(
 
     # --- Rebuild current/navwarns.geojson ------------------------------
     rebuild_current_geojson(dry_run=dry_run)
+    # --- Copy current/navwarns.geojson to docs --------------------------
+    docs_dir = Path("docs")
+    docs_dir.mkdir(parents=True, exist_ok=True)
+    docs_geojson_path = docs_dir / "navwarns.geojson"
+    if dry_run:
+        logging.info(
+            "[dry-run] would copy %s to %s",
+            CURRENT_GEOJSON_PATH,
+            docs_geojson_path,
+        )
+    else:
+        try:
+            import shutil
+
+            shutil.copy2(CURRENT_GEOJSON_PATH, docs_geojson_path)
+            logging.info(
+                "Copied %s to %s",
+                CURRENT_GEOJSON_PATH,
+                docs_geojson_path,
+            )
+        except OSError as exc:
+            logging.warning(
+                "Could not copy %s to %s: %s",
+                CURRENT_GEOJSON_PATH,
+                docs_geojson_path,
+                exc,
+            )
 
     # --- Rebuild archive GeoJSON + manifest ----------------------------
     if not dry_run:
