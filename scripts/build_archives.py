@@ -33,6 +33,7 @@ from parser import FROM_TO_PERIOD_PATTERN  # noqa: E402
 
 HISTORY_DIR = ROOT / "history"
 DOCS_DIR = ROOT / "docs"
+CURRENT_NAVWARNS_DIR = ROOT / "current" / "navwarns"
 
 MONTH_MAP = {
     "JAN": 1,
@@ -703,8 +704,16 @@ def build_archive(
     year: int,
     year_dir: Path,
     output_dir: Path,
+    *,
+    extra_cancel_dirs: Optional[List[Path]] = None,
 ) -> int:
-    """Build a single archive file. Returns feature count."""
+    """Build a single archive file. Returns feature count.
+
+    ``extra_cancel_dirs`` lists directories whose features are included when
+    resolving cross-cancellations but excluded from the archive output.  When
+    *None* (the default) only ``current/navwarns/`` is used so that cancellers
+    not yet moved to history are still applied.
+    """
     features = collect_features(year_dir)
     if not features:
         print(f"  {year}: no features found, skipping")
@@ -735,7 +744,12 @@ def build_archive(
         if n:
             print(f"  {year}: resolved valid_until for {n} features from NGA XML")
 
-    n = _resolve_cross_cancellations(features)
+    cancel_dirs = extra_cancel_dirs if extra_cancel_dirs is not None else [CURRENT_NAVWARNS_DIR]
+    extra_cancellers: List[Dict[str, Any]] = []
+    for d in cancel_dirs:
+        if d.is_dir():
+            extra_cancellers.extend(collect_features(d))
+    n = _resolve_cross_cancellations(features + extra_cancellers)
     if n:
         print(f"  {year}: cross-cancel resolved valid_until for {n} features")
 

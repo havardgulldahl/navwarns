@@ -664,3 +664,80 @@ class TestResolveCrossCancellations:
             _make_feature("HYDROARC 2/26", "2026-01-02T00:00:00+00:00"),
         ]
         assert _resolve_cross_cancellations(feats) == 0
+
+    def test_group_feature_cancelled_by_num_year_ref(self) -> None:
+        # Regression: NAVAREA XIX 90/26#grp2 must be cancelled by "90/26" ref.
+        # The #grpN suffix is stripped when building by_num_year index.
+        grp = _make_feature(
+            "NAVAREA XIX 90/26#grp2",
+            valid_from="2026-07-13T18:30:00+00:00",
+        )
+        canceller = _make_feature(
+            "NAVAREA XIX 93/26",
+            valid_from="2026-07-22T06:30:00+00:00",
+            cancellations=["90/26"],
+        )
+        n = _resolve_cross_cancellations([grp, canceller])
+        assert n == 1
+        assert grp["properties"]["valid_until"] == "2026-07-22T06:30:00+00:00"
+
+
+# ------------------------------------------------------------------
+# build_archive — cross-scope cancellation (canceller still in current/)
+# ------------------------------------------------------------------
+
+
+class TestBuildArchiveCrossScope:
+    """build_archive() applies cancellations from extra_cancel_dirs to archived features.
+
+    Mirrors the real-world case where NAVAREA XIX 93/26 (in current/navwarns/)
+    cancels 90/26 (in history/2026/navwarns/) before cleanup has moved 93/26
+    to history.
+    """
+
+    def test_canceller_in_extra_dir_sets_valid_until(self, tmp_path: Path) -> None:
+        history_dir = tmp_path / "history" / "navwarns"
+        current_dir = tmp_path / "current" / "navwarns"
+        output_dir = tmp_path / "output"
+        output_dir.mkdir()
+
+        _write_feature(
+            history_dir / "NAVAREA_XIX_90_26.json",
+            {"msg_id": "NAVAREA XIX 90/26", "valid_from": "2026-07-13T18:30:00+00:00"},
+        )
+        _write_feature(
+            history_dir / "NAVAREA_XIX_90_26_grp2.json",
+            {
+                "msg_id": "NAVAREA XIX 90/26#grp2",
+                "valid_from": "2026-07-13T18:30:00+00:00",
+            },
+        )
+        _write_feature(
+            current_dir / "NAVAREA_XIX_93_26.json",
+            {
+                "msg_id": "NAVAREA XIX 93/26",
+                "valid_from": "2026-07-22T06:30:00+00:00",
+                "cancellations": ["90/26"],
+            },
+        )
+
+        count = build_archive(
+            2026, history_dir, output_dir, extra_cancel_dirs=[current_dir]
+        )
+
+        # Only the 2 history features are written to the archive
+        assert count == 2
+        archive = json.loads((output_dir / "archive2026.geojson").read_text())
+        ids = {f.get("properties", {}).get("msg_id") for f in archive["features"]}
+        assert "NAVAREA XIX 93/26" not in ids
+
+        # Both 90/26 features must have valid_until set to the canceller's valid_from
+        by_mid = {f["properties"]["msg_id"]: f for f in archive["features"]}
+        assert (
+            by_mid["NAVAREA XIX 90/26"]["properties"]["valid_until"]
+            == "2026-07-22T06:30:00+00:00"
+        )
+        assert (
+            by_mid["NAVAREA XIX 90/26#grp2"]["properties"]["valid_until"]
+            == "2026-07-22T06:30:00+00:00"
+        )
