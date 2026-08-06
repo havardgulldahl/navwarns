@@ -695,12 +695,17 @@
         // ============ Gather All Loaded Features ============
         function getAllLoadedFeatures() {
             let features = [];
+            const sliderAtToday = dateToSlider(viewDate) >= totalDays - 1;
+            const currentCalYear = TIMELINE_END.getUTCFullYear();
             for (const year of Object.keys(yearData)) {
+                // When at today, skip the current year's archive: currentData is authoritative
+                // and the archive may have stale entries without valid_until that would inflate the count.
+                if (sliderAtToday && parseInt(year) >= currentCalYear) continue;
                 features = features.concat(yearData[year]);
             }
-            // Always include currentData when slider is at 'Today' (latest date)
-            const sliderAtToday = dateToSlider(viewDate) >= totalDays - 1;
-            if (currentData && sliderAtToday) {
+            // Always include currentData: active warnings not yet archived must be
+            // visible on past dates too (isFeatureValidAt filters by viewDate).
+            if (currentData) {
                 // Deduplicate: archive and current data may contain the same warning
                 const seen = new Set(features.map(f => f.id || (f.properties || {}).msg_id).filter(Boolean));
                 for (const f of (currentData.features || [])) {

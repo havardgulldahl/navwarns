@@ -545,10 +545,10 @@ def _scan_daily_presence(
             all_dates.append(date_str)
             text = html_file.read_text(errors="replace")
             for m in re.finditer(
-                r"([A-Z][A-Z ]+? NAV WARN \d+/\d+)",
+                r"([A-Z][A-Z ]+? NAV WARN)\s+(\d+/\d+)",
                 text.upper(),
             ):
-                ref = " ".join(m.group(1).split())
+                ref = " ".join(f"{m.group(1)} {m.group(2)}".split())
                 mark_seen(ref, date_str)
 
     # ANDOYA: OLX files with date in filename
