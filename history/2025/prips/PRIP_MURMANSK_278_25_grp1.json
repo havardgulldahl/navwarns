@@ -18,10 +18,18 @@
     "category": "navigation",
     "title": "Ice and Icebergs",
     "body": "МУРМАНСК 01 11/09 1500=\nПРИП МУРМАНСК 278 КАРТА 10101\nЮЖНЕЕ ОСТРОВОВ ЗЕМЛЯ ФРАНЦА-ИОСИФА\n1. АЙСБЕРГИ ДРЕЙФУЮТ 092310 СЕНТ В\nА. 79-55.0С 052-10.6В\nБ. 79-52.7С 052-15.0В\n2. ОТМ ЭТОТ НР 122310 СЕНТ=\n111000 МСК  ГС-",
-    "cancel_date": "2025-09-12T23:10:00+00:00",
-    "valid_from": "2025-01-01T00:00:00+00:00",
-    "valid_until": "2025-09-12T23:10:00+00:00",
-    "corrections": [],
+    "cancel_date": "2025-09-24T00:00:00+00:00",
+    "valid_from": "2025-09-23T00:00:00+00:00",
+    "valid_until": "2025-11-21T23:59:59+00:00",
+    "corrections": [
+      {
+        "field": "cancel_date",
+        "code": "self_cancel_before_valid_from",
+        "before": "2025-09-12T23:10:00+00:00",
+        "after": "2025-09-24T00:00:00+00:00",
+        "note": "Adjusted to valid_from + 24h due to likely source typo."
+      }
+    ],
     "summary": null
   }
 }

@@ -4,7 +4,7 @@ import argparse
 import json
 from dataclasses import dataclass, field
 import math
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from dateutil import parser as dtparser  # still used as fallback
 from typing import Any, List, Tuple, Optional, Dict
 from shapely.geometry import LineString, MultiPoint, Point, Polygon, mapping
@@ -185,6 +185,13 @@ RE_PRIP_SELF_CANCEL = re.compile(
     r"ОТМ\s+ЭТОТ\s+(?:НР|ПУНКТ)\s+(\d{2,6})\s+([\u0400-\u04FF]{2,7})(?:\s+(\d{2,4}))?[=\s]*",
     re.IGNORECASE,
 )
+
+# Russian PRIP broadcast header: "МУРМАНСК 01 22/08 1500="
+RE_PRIP_BROADCAST_HEADER = re.compile(
+    r"^(?:МУРМАНСК|АРХАНГЕЛЬСК|ЗАПАД)\s+\d+\s+(\d{2})/(\d{2})\s+(\d{2})(\d{2})=",
+    re.MULTILINE,
+)
+RE_PRIP_PEREDAVAT = re.compile(r"ПЕРЕДАВАТЬ\s+(\d+)\s+СУТОК")
 
 # Expanded PRIP cancellation recognition:
 #  - plain X/Y (e.g. 47/18)
@@ -414,6 +421,22 @@ class NavwarnMessage:
             return None, None
         return from_dt.isoformat(), to_dt.isoformat()
 
+    def _parse_prip_broadcast_header(self) -> Optional[datetime]:
+        """Extract issue datetime from a Russian PRIP broadcast header (DD/MM HHMM)."""
+        if not self.body or not self.year:
+            return None
+        m = RE_PRIP_BROADCAST_HEADER.search(self.body)
+        if not m:
+            return None
+        day, month, hh, mm = int(m.group(1)), int(m.group(2)), int(m.group(3)), int(m.group(4))
+        # МСК = UTC+3; subtract 3h when Moscow time is mentioned in the message
+        tz_offset_h = 3 if "МСК" in self.body else 0
+        try:
+            dt = datetime(self.year, month, day, hh, mm, tzinfo=timezone.utc)
+            return dt - timedelta(hours=tz_offset_h)
+        except ValueError:
+            return None
+
     def _compute_valid_from(self) -> Optional[str]:
         """Return ISO-8601 valid_from string."""
         if self.dtg:
@@ -428,6 +451,16 @@ class NavwarnMessage:
         from_iso, _ = self._parse_dtg_range_period()
         if from_iso:
             return from_iso
+        broadcast_dt = self._parse_prip_broadcast_header()
+        if broadcast_dt:
+            return broadcast_dt.isoformat()
+        # 1 week before cancellation as a last-resort approximation
+        if self.cancel_date:
+            try:
+                cancel_dt = datetime.fromisoformat(self.cancel_date)
+                return (cancel_dt - timedelta(days=7)).isoformat()
+            except ValueError:
+                pass
         if self.year:
             return datetime(self.year, 1, 1, tzinfo=timezone.utc).isoformat()
         return None
@@ -616,6 +649,12 @@ class NavwarnMessage:
         _, until_iso = self._parse_dtg_range_period()
         if until_iso:
             return until_iso
+        # ПЕРЕДАВАТЬ N СУТОК: broadcast header date + N days
+        broadcast_dt = self._parse_prip_broadcast_header()
+        if broadcast_dt:
+            m_ped = RE_PRIP_PEREDAVAT.search(self.body or "")
+            if m_ped:
+                return (broadcast_dt + timedelta(days=int(m_ped.group(1)))).isoformat()
         return None
 
     def geojson_geometry(self, circle_segments: int = 72) -> Optional[dict]:

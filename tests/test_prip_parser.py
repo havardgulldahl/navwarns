@@ -362,3 +362,89 @@ class TestPripParseCancellations:
         body = "ОГНИ НЕ ДЕЙСТВУЮТ\n69-09.8С 033-29.6В"
         cancels = prip_parse_cancellations(body, year="25")
         assert cancels == []
+
+
+# ── Tests: broadcast header date extraction ────────────────────────────
+
+# Real-world Murmansk PRIP with broadcast header, ПЕРЕДАВАТЬ, and ОТМ
+_MURMANSK_226_BODY = (
+    "МУРМАНСК 01 04/08 1200=\n \nПЕРЕДАВАТЬ 11 СУТОК\n"
+    "ПРИП МУРМАНСК 226 КАРТА 12000\nМОТОВСКИЙ ЗАЛИВ\n"
+    "1. СПЕЦИАЛЬНЫЕ РАБОТЫ 082100 ПО 152100 АВГ\n"
+    "РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ \n"
+    "69-34.0С 032-50.5В\n69-32.0С 033-13.0В\n"
+    "2. ОТМ ЭТОТ НР 152200 АВГ=\n041000 МСК  ГС-"
+)
+
+# Murmansk PRIP with broadcast header but no ОТМ (ПЕРЕДАВАТЬ is the only valid_until signal)
+_MURMANSK_NO_OTM_BODY = (
+    "МУРМАНСК 01 11/09 1500=\nПЕРЕДАВАТЬ 5 СУТОК\n"
+    "ПРИП МУРМАНСК 278 КАРТА 10101\nАЙСБЕРГИ ДРЕЙФУЮТ\n"
+    "79-55.0С 052-10.6В\n111000 МСК  ГС-"
+)
+
+# PRIP with no header at all: cancel_date − 7 days fallback
+_NO_HEADER_BODY = "1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ\n69-19.1С 034-33.4В\n301000 МСК  ГС-"
+
+
+class TestBroadcastHeaderValidFrom:
+    """valid_from derived from Russian PRIP broadcast header."""
+
+    def _make(self, body: str, year: int, cancel_date=None) -> NavwarnMessage:
+        return NavwarnMessage(
+            dtg=None,
+            raw_dtg="",
+            msg_id=None,
+            body=body,
+            year=year,
+            cancel_date=cancel_date,
+        )
+
+    def test_header_sets_valid_from_msk(self) -> None:
+        # 04/08 1200 MSK → 04/08 0900 UTC (body mentions МСК)
+        msg = self._make(_MURMANSK_226_BODY, 2025)
+        vf = msg._compute_valid_from()
+        assert vf is not None
+        assert vf.startswith("2025-08-04T09:00:00")
+
+    def test_header_no_msk_treated_as_utc(self) -> None:
+        body = "ЗАПАД 01 03/06 0800=\nПРИП ЗАПАД 10 КАРТА 11000\nСВЕТЯЩИЙ БУЙ"
+        msg = self._make(body, 2025)
+        vf = msg._compute_valid_from()
+        assert vf is not None
+        assert vf.startswith("2025-06-03T08:00:00")
+
+    def test_cancel_minus_7_days_fallback(self) -> None:
+        # No header, no DTG → fall back to cancel_date − 7 days
+        msg = self._make(_NO_HEADER_BODY, 2025, cancel_date="2025-08-01T00:00:00+00:00")
+        vf = msg._compute_valid_from()
+        assert vf is not None
+        assert vf.startswith("2025-07-25")
+
+    def test_jan1_still_returned_when_no_signals(self) -> None:
+        msg = self._make("БУИЙ ВЫСТАВЛЕНЫ", 2025)
+        vf = msg._compute_valid_from()
+        assert vf == "2025-01-01T00:00:00+00:00"
+
+
+class TestPeredavatValidUntil:
+    """valid_until derived from ПЕРЕДАВАТЬ N СУТОК when no ОТМ present."""
+
+    def _make(self, body: str, year: int) -> NavwarnMessage:
+        return NavwarnMessage(dtg=None, raw_dtg="", msg_id=None, body=body, year=year)
+
+    def test_peredavat_gives_valid_until(self) -> None:
+        # 11/09 1500 MSK − 3h = 11/09 1200 UTC; +5 days = 16/09 1200 UTC
+        msg = self._make(_MURMANSK_NO_OTM_BODY, 2025)
+        vu = msg._compute_valid_until()
+        assert vu is not None
+        assert vu.startswith("2025-09-16")
+
+    def test_otm_takes_priority_over_peredavat(self) -> None:
+        # ОТМ ЭТОТ НР 152200 АВГ should win over ПЕРЕДАВАТЬ 11 СУТОК
+        msg = self._make(_MURMANSK_226_BODY, 2025)
+        vu = msg._compute_valid_until()
+        assert vu is not None
+        # ОТМ says 15 Aug 2200 UTC
+        assert "2025-08-15" in vu
+        assert "22:00:00" in vu

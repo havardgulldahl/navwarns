@@ -26,10 +26,18 @@
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "ПЕРЕДАВАТЬ 9 СУТОК\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 10 ПО 13 ИЮЛЬ\n0500 ДО 1900 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n67-31.8С 045-04.6В\n67-11.0С 045-29.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-31.8С 045-04.6В\n2. ОТМ ЭТОТ НР 132000 ИЮЛЬ=\n041000 МСК  ГС-",
-    "cancel_date": "2025-07-13T20:00:00+00:00",
-    "valid_from": "2025-01-01T00:00:00+00:00",
-    "valid_until": "2025-07-13T20:00:00+00:00",
-    "corrections": [],
+    "cancel_date": "2025-09-24T00:00:00+00:00",
+    "valid_from": "2025-09-23T00:00:00+00:00",
+    "valid_until": "2025-11-21T23:59:59+00:00",
+    "corrections": [
+      {
+        "field": "cancel_date",
+        "code": "self_cancel_before_valid_from",
+        "before": "2025-07-13T20:00:00+00:00",
+        "after": "2025-09-24T00:00:00+00:00",
+        "note": "Adjusted to valid_from + 24h due to likely source typo."
+      }
+    ],
     "summary": null
   }
 }

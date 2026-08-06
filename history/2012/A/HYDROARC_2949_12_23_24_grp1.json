@@ -27,15 +27,7 @@
     "cancel_date": "2012-12-15T13:14:00+00:00",
     "valid_from": "2012-12-14T13:14:00+00:00",
     "valid_until": "2012-12-15T13:14:00+00:00",
-    "corrections": [
-      {
-        "field": "cancel_date",
-        "code": "self_cancel_before_valid_from",
-        "before": "2012-12-14T00:00:00+00:00",
-        "after": "2012-12-15T13:14:00+00:00",
-        "note": "Adjusted to valid_from + 24h due to likely source typo."
-      }
-    ],
+    "corrections": [],
     "summary": null
   }
 }

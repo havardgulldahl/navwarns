@@ -49,15 +49,7 @@
     "cancel_date": "2022-02-04T00:13:00+00:00",
     "valid_from": "2022-02-03T00:13:00+00:00",
     "valid_until": "2022-02-04T00:13:00+00:00",
-    "corrections": [
-      {
-        "field": "cancel_date",
-        "code": "self_cancel_before_valid_from",
-        "before": "2022-02-02T10:15:00+00:00",
-        "after": "2022-02-04T00:13:00+00:00",
-        "note": "Adjusted to valid_from + 24h due to likely source typo."
-      }
-    ],
+    "corrections": [],
     "summary": null
   }
 }

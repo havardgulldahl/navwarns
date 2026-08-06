@@ -19,15 +19,7 @@
     "cancel_date": "2023-10-07T14:26:00+00:00",
     "valid_from": "2023-10-06T14:26:00+00:00",
     "valid_until": "2023-10-07T14:26:00+00:00",
-    "corrections": [
-      {
-        "field": "cancel_date",
-        "code": "self_cancel_before_valid_from",
-        "before": "2023-10-05T19:50:00+00:00",
-        "after": "2023-10-07T14:26:00+00:00",
-        "note": "Adjusted to valid_from + 24h due to likely source typo."
-      }
-    ],
+    "corrections": [],
     "summary": null
   }
 }
