@@ -25,11 +25,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-import sys
-
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from parser import FROM_TO_PERIOD_PATTERN  # noqa: E402
+from scraper_andoya import (
+    parse_active_period as parse_andoya_active_period,
+)  # noqa: E402
 
 HISTORY_DIR = ROOT / "history"
 DOCS_DIR = ROOT / "docs"
@@ -79,6 +80,49 @@ def _clear_invalid_valid_until(props: Dict[str, Any]) -> bool:
         props["valid_until"] = None
         return True
     return False
+
+
+def _andoya_year_hint(props: Dict[str, Any]) -> Optional[int]:
+    """Best-effort reference year for yearless Andoya active-period text."""
+    dtg = _parse_iso_datetime(props.get("dtg"))
+    if dtg is not None:
+        return dtg.year
+    year = props.get("year")
+    if year is None:
+        return None
+    try:
+        return int(year)
+    except (TypeError, ValueError):
+        return None
+
+
+def _apply_andoya_active_period(props: Dict[str, Any]) -> bool:
+    """Set valid_from/valid_until from Andoya active-period text when available."""
+    msg_id = props.get("msg_id") or ""
+    if not isinstance(msg_id, str) or not msg_id.startswith("ANDOYA_"):
+        return False
+    body = props.get("body") or ""
+    if not isinstance(body, str) or not body.strip():
+        return False
+
+    start_dt, end_dt = parse_andoya_active_period(
+        body,
+        ref_year=_andoya_year_hint(props),
+    )
+    if start_dt is None:
+        return False
+
+    changed = False
+    start_iso = start_dt.isoformat()
+    end_iso = end_dt.isoformat() if end_dt is not None else None
+    if props.get("valid_from") != start_iso:
+        props["valid_from"] = start_iso
+        changed = True
+    if props.get("valid_until") != end_iso:
+        props["valid_until"] = end_iso
+        changed = True
+    return changed
+
 
 # Russian month abbreviations → English 3-letter abbreviations (for Russian NAVAREA XX)
 _RU_MONTH_MAP: Dict[str, str] = {
@@ -423,6 +467,7 @@ def _enrich_properties(
     props: Dict[str, Any],
 ) -> Dict[str, Any]:
     """Add valid_from / valid_until if missing."""
+    _apply_andoya_active_period(props)
     if "valid_from" not in props or props["valid_from"] is None:
         props["valid_from"] = _compute_valid_from(props)
     if "valid_until" not in props or props["valid_until"] is None:
@@ -644,6 +689,7 @@ def _apply_last_seen(
     updated = 0
     for feat in features:
         props = feat.get("properties") or {}
+        _apply_andoya_active_period(props)
         _clear_invalid_valid_until(props)
         if props.get("valid_until"):
             continue
@@ -693,6 +739,8 @@ def _backfill_last_seen_in_history_files(
         changed = False
         if data.get("type") == "Feature":
             props = data.setdefault("properties", {})
+            if _apply_andoya_active_period(props):
+                changed = True
             if _clear_invalid_valid_until(props):
                 changed = True
             if not props.get("valid_until"):
@@ -709,6 +757,8 @@ def _backfill_last_seen_in_history_files(
                 if not isinstance(feat, dict):
                     continue
                 props = feat.setdefault("properties", {})
+                if _apply_andoya_active_period(props):
+                    changed = True
                 if _clear_invalid_valid_until(props):
                     changed = True
                 if props.get("valid_until"):
@@ -836,11 +886,9 @@ def build_archive(
         n = _apply_last_seen(features, last_seen)
         if n:
             print(f"  {year}: inferred valid_until for {n} features from daily scrapes")
-        n_files = _backfill_last_seen_in_history_files(year_dir, last_seen)
-        if n_files:
-            print(
-                f"  {year}: backfilled valid_until in {n_files} history JSON files"
-            )
+    n_files = _backfill_last_seen_in_history_files(year_dir, last_seen)
+    if n_files:
+        print(f"  {year}: backfilled valid_until in {n_files} history JSON files")
     if first_seen:
         n = _apply_first_seen(features, first_seen)
         if n:
@@ -853,7 +901,9 @@ def build_archive(
         if n:
             print(f"  {year}: resolved valid_until for {n} features from NGA XML")
 
-    cancel_dirs = extra_cancel_dirs if extra_cancel_dirs is not None else [CURRENT_NAVWARNS_DIR]
+    cancel_dirs = (
+        extra_cancel_dirs if extra_cancel_dirs is not None else [CURRENT_NAVWARNS_DIR]
+    )
     extra_cancellers: List[Dict[str, Any]] = []
     for d in cancel_dirs:
         if d.is_dir():

@@ -259,6 +259,7 @@ def _apply_mtekst(
 
 def parse_active_period(
     text: str,
+    ref_year: Optional[int] = None,
 ) -> Tuple[Optional[datetime.datetime], Optional[datetime.datetime]]:
     """Extract (valid_from, valid_until) from an active-period string.
 
@@ -302,7 +303,9 @@ def parse_active_period(
 
     # Year fallback for patterns that carry no year in their text
     m_year = re.search(r"\b(20\d{2})\b", text)
-    ref_year = int(m_year.group(1)) if m_year else datetime.datetime.now(tz).year
+    year_hint = int(m_year.group(1)) if m_year else ref_year
+    if year_hint is None:
+        year_hint = datetime.datetime.now(tz).year
 
     # Pattern 2: "is active on Month Dth" (year not in text; backup day = valid_until)
     m = _ACTIVE_ON_RE.search(text)
@@ -316,8 +319,8 @@ def parse_active_period(
                 end_day = int(mb.group(2))
             else:
                 end_month, end_day = start_month, start_day
-            end_year = ref_year
-            start_year = ref_year if start_month <= end_month else ref_year - 1
+            end_year = year_hint
+            start_year = year_hint if start_month <= end_month else year_hint - 1
             return _dt(start_year, start_month, start_day), _dt(
                 end_year, end_month, end_day, 23, 59, 59
             )

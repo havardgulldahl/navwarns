@@ -230,6 +230,24 @@ class TestEnrichProperties:
         enriched = _enrich_properties(props)
         assert enriched["valid_from"] is not None
 
+    def test_andoya_active_on_and_backup_override_scrape_dtg(self) -> None:
+        props = {
+            "msg_id": "ANDOYA_Fareomr_de_Studentrakett_And_ya_Space",
+            "dtg": "2026-08-03T12:34:00",
+            "year": 2026,
+            "body": (
+                "Name: Danger Area ESC And\u00f8ya Space Description: "
+                "The danger area is active on July 30th with launch window "
+                "1245-1600 local time. Backup day is July 31st with launch window "
+                "0845-1600 local time."
+            ),
+            "valid_from": "2026-08-03T12:34:00+00:00",
+            "valid_until": None,
+        }
+        enriched = _enrich_properties(props)
+        assert enriched["valid_from"] == "2026-07-30T00:00:00+00:00"
+        assert enriched["valid_until"] == "2026-07-31T23:59:59+00:00"
+
 
 # ------------------------------------------------------------------
 # collect_features
@@ -522,10 +540,7 @@ class TestDailyPresenceInference:
             encoding="utf-8",
         )
         day2.write_text(
-            "<b>\n"
-            "    BALTIC SEA NAV WARN\n"
-            "    020/26\n"
-            "</b>\n",
+            "<b>\n" "    BALTIC SEA NAV WARN\n" "    020/26\n" "</b>\n",
             encoding="utf-8",
         )
 
@@ -634,10 +649,7 @@ class TestDailyPresenceInference:
             encoding="utf-8",
         )
         (navtex_dir / "NAVTEX_SE_2026-05-04.html").write_text(
-            "<b>\n"
-            "  BALTIC SEA NAV WARN\n"
-            "  020/26\n"
-            "</b>\n",
+            "<b>\n" "  BALTIC SEA NAV WARN\n" "  020/26\n" "</b>\n",
             encoding="utf-8",
         )
 
@@ -669,10 +681,7 @@ class TestDailyPresenceInference:
         assert count == 1
 
         updated = json.loads(stale_path.read_text(encoding="utf-8"))
-        assert (
-            updated["properties"]["valid_until"]
-            == "2026-05-03T23:59:59+00:00"
-        )
+        assert updated["properties"]["valid_until"] == "2026-05-03T23:59:59+00:00"
 
     def test_build_archive_clears_invalid_until_when_inference_is_older(
         self,
@@ -721,6 +730,50 @@ class TestDailyPresenceInference:
 
         updated = json.loads(stale_path.read_text(encoding="utf-8"))
         assert updated["properties"]["valid_until"] is None
+
+    def test_build_archive_backfills_andoya_active_window_from_body(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        """Persist Andoya body-derived valid_from/valid_until to history JSON."""
+        year_dir = tmp_path / "2026"
+        navwarn_dir = year_dir / "navwarns"
+        out_dir = tmp_path / "docs"
+        navwarn_dir.mkdir(parents=True)
+        out_dir.mkdir(parents=True)
+
+        stale_path = navwarn_dir / "ANDOYA_Fareomr_de_Studentrakett_And_ya_Space.json"
+        stale_path.write_text(
+            json.dumps(
+                {
+                    "type": "Feature",
+                    "id": "ANDOYA_Fareomr_de_Studentrakett_And_ya_Space",
+                    "geometry": None,
+                    "properties": {
+                        "dtg": "2026-08-03T12:34:00",
+                        "msg_id": "ANDOYA_Fareomr_de_Studentrakett_And_ya_Space",
+                        "year": 2026,
+                        "cancellations": [],
+                        "body": (
+                            "Name: Danger Area ESC And\u00f8ya Space Description: "
+                            "The danger area is active on July 30th with launch window "
+                            "1245-1600 local time. Backup day is July 31st with launch "
+                            "window 0845-1600 local time."
+                        ),
+                        "valid_from": "2026-08-03T12:34:00+00:00",
+                        "valid_until": None,
+                    },
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        count = build_archive(2026, year_dir, out_dir, extra_cancel_dirs=[])
+        assert count == 1
+
+        updated = json.loads(stale_path.read_text(encoding="utf-8"))
+        assert updated["properties"]["valid_from"] == "2026-07-30T00:00:00+00:00"
+        assert updated["properties"]["valid_until"] == "2026-07-31T23:59:59+00:00"
 
 
 # ------------------------------------------------------------------
