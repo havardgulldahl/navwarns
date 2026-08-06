@@ -50,6 +50,36 @@ MONTH_MAP = {
     "DEC": 12,
 }
 
+
+def _parse_iso_datetime(value: Any) -> Optional[datetime]:
+    """Parse ISO datetime text into an aware UTC datetime when possible."""
+    if not isinstance(value, str) or not value.strip():
+        return None
+    try:
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
+
+
+def _valid_until_before_valid_from(props: Dict[str, Any]) -> bool:
+    """Return True when both endpoints parse and until is before from."""
+    valid_from = _parse_iso_datetime(props.get("valid_from"))
+    valid_until = _parse_iso_datetime(props.get("valid_until"))
+    if not valid_from or not valid_until:
+        return False
+    return valid_until < valid_from
+
+
+def _clear_invalid_valid_until(props: Dict[str, Any]) -> bool:
+    """Clear impossible validity windows and report whether a change was made."""
+    if _valid_until_before_valid_from(props):
+        props["valid_until"] = None
+        return True
+    return False
+
 # Russian month abbreviations → English 3-letter abbreviations (for Russian NAVAREA XX)
 _RU_MONTH_MAP: Dict[str, str] = {
     "ЯНВ": "JAN",
@@ -614,6 +644,7 @@ def _apply_last_seen(
     updated = 0
     for feat in features:
         props = feat.get("properties") or {}
+        _clear_invalid_valid_until(props)
         if props.get("valid_until"):
             continue
         # Match by msg_id or feature id (without group suffix)
@@ -624,8 +655,79 @@ def _apply_last_seen(
         base_id = re.sub(r"#grp\d+$", "", fid)
         date = last_seen.get(mid) or last_seen.get(base_id)
         if date:
-            props["valid_until"] = f"{date}T23:59:59+00:00"
+            candidate = f"{date}T23:59:59+00:00"
+            props["valid_until"] = candidate
+            if _valid_until_before_valid_from(props):
+                props["valid_until"] = None
+                continue
             updated += 1
+    return updated
+
+
+def _backfill_last_seen_in_history_files(
+    year_dir: Path,
+    last_seen: Dict[str, str],
+) -> int:
+    """Persist inferred valid_until into history JSON files.
+
+    This keeps the source history records consistent with archive inference,
+    so downstream tools that read `history/<year>/.../*.json` get the same
+    validity windows as `docs/archive<year>.geojson`.
+    """
+
+    def _resolve_date_from_feature(feature: Dict[str, Any]) -> Optional[str]:
+        props = feature.get("properties") or {}
+        mid = props.get("msg_id") or ""
+        fid = feature.get("id") or ""
+        base_id = re.sub(r"#grp\d+$", "", fid)
+        return last_seen.get(mid) or last_seen.get(base_id)
+
+    updated = 0
+    for path in sorted(year_dir.rglob("*.json")):
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            continue
+
+        changed = False
+        if data.get("type") == "Feature":
+            props = data.setdefault("properties", {})
+            if _clear_invalid_valid_until(props):
+                changed = True
+            if not props.get("valid_until"):
+                date = _resolve_date_from_feature(data)
+                if date:
+                    candidate = f"{date}T23:59:59+00:00"
+                    props["valid_until"] = candidate
+                    if _valid_until_before_valid_from(props):
+                        props["valid_until"] = None
+                    else:
+                        changed = True
+        elif data.get("type") == "FeatureCollection":
+            for feat in data.get("features") or []:
+                if not isinstance(feat, dict):
+                    continue
+                props = feat.setdefault("properties", {})
+                if _clear_invalid_valid_until(props):
+                    changed = True
+                if props.get("valid_until"):
+                    continue
+                date = _resolve_date_from_feature(feat)
+                if date:
+                    candidate = f"{date}T23:59:59+00:00"
+                    props["valid_until"] = candidate
+                    if _valid_until_before_valid_from(props):
+                        props["valid_until"] = None
+                    else:
+                        changed = True
+
+        if changed:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+            updated += 1
+
     return updated
 
 
@@ -688,14 +790,16 @@ def collect_features(year_dir: Path) -> List[Dict[str, Any]]:
 
         feat_type = data.get("type")
         if feat_type == "Feature":
-            data["properties"] = _enrich_properties(data.get("properties") or {})
+            props = data.get("properties") or {}
+            _clear_invalid_valid_until(props)
+            data["properties"] = _enrich_properties(props)
             features.append(data)
         elif feat_type == "FeatureCollection":
             for feat in data.get("features") or []:
                 if isinstance(feat, dict):
-                    feat["properties"] = _enrich_properties(
-                        feat.get("properties") or {}
-                    )
+                    props = feat.get("properties") or {}
+                    _clear_invalid_valid_until(props)
+                    feat["properties"] = _enrich_properties(props)
                     features.append(feat)
     return features
 
@@ -732,6 +836,11 @@ def build_archive(
         n = _apply_last_seen(features, last_seen)
         if n:
             print(f"  {year}: inferred valid_until for {n} features from daily scrapes")
+        n_files = _backfill_last_seen_in_history_files(year_dir, last_seen)
+        if n_files:
+            print(
+                f"  {year}: backfilled valid_until in {n_files} history JSON files"
+            )
     if first_seen:
         n = _apply_first_seen(features, first_seen)
         if n:

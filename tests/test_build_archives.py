@@ -498,6 +498,43 @@ class TestDailyPresenceInference:
         assert last_seen["BALTIC SEA NAV WARN 001/26"] == "2026-01-01"
         assert "SWEDISH NAV WARN 002/26" not in last_seen
 
+    def test_navtex_disappearance_detected_with_multiline_id(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        """NAVTEX IDs split across lines in <b> blocks are detected."""
+        year_dir = tmp_path / "2026"
+        navtex_dir = year_dir / "NAVTEX_SE"
+        navtex_dir.mkdir(parents=True)
+
+        day1 = navtex_dir / "NAVTEX_SE_2026-05-03.html"
+        day2 = navtex_dir / "NAVTEX_SE_2026-05-04.html"
+
+        day1.write_text(
+            "<b>\n"
+            "    SWEDISH NAV WARN\n"
+            "    078/26\n"
+            "</b>\n"
+            "<b>\n"
+            "    BALTIC SEA NAV WARN\n"
+            "    020/26\n"
+            "</b>\n",
+            encoding="utf-8",
+        )
+        day2.write_text(
+            "<b>\n"
+            "    BALTIC SEA NAV WARN\n"
+            "    020/26\n"
+            "</b>\n",
+            encoding="utf-8",
+        )
+
+        first_seen, last_seen = _scan_daily_presence(year_dir)
+
+        assert first_seen["SWEDISH NAV WARN 078/26"] == "2026-05-03"
+        assert last_seen["SWEDISH NAV WARN 078/26"] == "2026-05-03"
+        assert "BALTIC SEA NAV WARN 020/26" not in last_seen
+
     def test_andoya_disappearance_detected(self, tmp_path: Path) -> None:
         year_dir = tmp_path / "2026"
         andoya_dir = year_dir / "ANDOYA"
@@ -551,6 +588,139 @@ class TestDailyPresenceInference:
 
         assert updated == 1
         assert feature["properties"]["valid_until"] == "2026-01-01T23:59:59+00:00"
+
+    def test_apply_last_seen_skips_until_before_valid_from(self) -> None:
+        """Do not infer impossible intervals for recurring IDs."""
+        feature = {
+            "type": "Feature",
+            "id": "ANDOYA_DANGER_AREA_ECHO",
+            "geometry": None,
+            "properties": {
+                "msg_id": "ANDOYA_DANGER_AREA_ECHO",
+                "valid_from": "2026-08-03T12:34:00+00:00",
+                "valid_until": None,
+            },
+        }
+
+        updated = _apply_last_seen(
+            [feature],
+            {"ANDOYA_DANGER_AREA_ECHO": "2026-05-12"},
+        )
+
+        assert updated == 0
+        assert feature["properties"]["valid_until"] is None
+
+    def test_build_archive_backfills_history_valid_until_from_navtex(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        year_dir = tmp_path / "2026"
+        navtex_dir = year_dir / "NAVTEX_SE"
+        navwarn_dir = year_dir / "navwarns"
+        out_dir = tmp_path / "docs"
+        navtex_dir.mkdir(parents=True)
+        navwarn_dir.mkdir(parents=True)
+        out_dir.mkdir(parents=True)
+
+        (navtex_dir / "NAVTEX_SE_2026-05-03.html").write_text(
+            "<b>\n"
+            "  SWEDISH NAV WARN\n"
+            "  078/26\n"
+            "</b>\n"
+            "<b>\n"
+            "  BALTIC SEA NAV WARN\n"
+            "  020/26\n"
+            "</b>\n",
+            encoding="utf-8",
+        )
+        (navtex_dir / "NAVTEX_SE_2026-05-04.html").write_text(
+            "<b>\n"
+            "  BALTIC SEA NAV WARN\n"
+            "  020/26\n"
+            "</b>\n",
+            encoding="utf-8",
+        )
+
+        stale_path = navwarn_dir / "SWEDISH_NAV_WARN_078_26.json"
+        stale_path.write_text(
+            json.dumps(
+                {
+                    "type": "Feature",
+                    "id": "SWEDISH NAV WARN 078/26",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [23.291666666666668, 65.775],
+                    },
+                    "properties": {
+                        "dtg": "2026-04-28T16:29:00",
+                        "msg_id": "SWEDISH NAV WARN 078/26",
+                        "year": 2026,
+                        "cancellations": [],
+                        "cancel_date": None,
+                        "valid_from": "2026-04-28T16:29:00+00:00",
+                        "valid_until": None,
+                    },
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        count = build_archive(2026, year_dir, out_dir, extra_cancel_dirs=[])
+        assert count == 1
+
+        updated = json.loads(stale_path.read_text(encoding="utf-8"))
+        assert (
+            updated["properties"]["valid_until"]
+            == "2026-05-03T23:59:59+00:00"
+        )
+
+    def test_build_archive_clears_invalid_until_when_inference_is_older(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        """Existing impossible windows are cleared and not reintroduced."""
+        year_dir = tmp_path / "2026"
+        andoya_dir = year_dir / "ANDOYA"
+        navwarn_dir = year_dir / "navwarns"
+        out_dir = tmp_path / "docs"
+        andoya_dir.mkdir(parents=True)
+        navwarn_dir.mkdir(parents=True)
+        out_dir.mkdir(parents=True)
+
+        (andoya_dir / "ANDOYA_2026-05-12.olx").write_text(
+            "Name: DANGER AREA ECHO\n",
+            encoding="latin-1",
+        )
+        (andoya_dir / "ANDOYA_2026-08-06.olx").write_text(
+            "Name: DANGER AREA SIERRA\n",
+            encoding="latin-1",
+        )
+
+        stale_path = navwarn_dir / "ANDOYA_DANGER_AREA_ECHO.json"
+        stale_path.write_text(
+            json.dumps(
+                {
+                    "type": "Feature",
+                    "id": "ANDOYA_DANGER_AREA_ECHO",
+                    "geometry": None,
+                    "properties": {
+                        "dtg": "2026-08-03T12:34:00",
+                        "msg_id": "ANDOYA_DANGER_AREA_ECHO",
+                        "year": 2026,
+                        "cancellations": [],
+                        "valid_from": "2026-08-03T12:34:00+00:00",
+                        "valid_until": "2026-05-12T23:59:59+00:00",
+                    },
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        count = build_archive(2026, year_dir, out_dir, extra_cancel_dirs=[])
+        assert count == 1
+
+        updated = json.loads(stale_path.read_text(encoding="utf-8"))
+        assert updated["properties"]["valid_until"] is None
 
 
 # ------------------------------------------------------------------
