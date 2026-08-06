@@ -50,10 +50,18 @@
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "BLACK SEA.\nUKRAINE.\nGUNNERY.\nDNC 10.\n1. GUNNERY EXERCISES 0500Z TO 1700Z DAILY\n   02 THRU 07 FEB IN AREA BOUND BY\n   44-41N 032-12E, 44-48N 032-08E,\n   45-00N 032-16E, 44-54N 032-33E,\n   44-42N 032-49E, 44-37N 032-40E.\n2. CANCEL THIS MSG 071800Z JAN 15.",
-    "cancel_date": "2015-01-07T18:00:00+00:00",
+    "cancel_date": "2015-01-31T17:07:00+00:00",
     "valid_from": "2015-01-30T17:07:00+00:00",
-    "valid_until": "2015-01-07T18:00:00+00:00",
-    "corrections": [],
+    "valid_until": "2015-01-31T17:07:00+00:00",
+    "corrections": [
+      {
+        "field": "cancel_date",
+        "code": "self_cancel_before_valid_from",
+        "before": "2015-01-07T18:00:00+00:00",
+        "after": "2015-01-31T17:07:00+00:00",
+        "note": "Adjusted to valid_from + 24h due to likely source typo."
+      }
+    ],
     "summary": null
   }
 }

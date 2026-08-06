@@ -21,7 +21,7 @@ import json
 import re
 import sys
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -80,6 +80,237 @@ def _clear_invalid_valid_until(props: Dict[str, Any]) -> bool:
         props["valid_until"] = None
         return True
     return False
+
+
+def _extract_self_cancel_datetime(props: Dict[str, Any]) -> Optional[datetime]:
+    """Extract self-cancellation datetime from cancellations/body text."""
+
+    def _infer_year(month: int) -> Optional[int]:
+        """Best-effort year for yearless cancel dates."""
+        dtg_text = props.get("dtg")
+        if isinstance(dtg_text, str):
+            try:
+                parsed = datetime.fromisoformat(dtg_text.replace("Z", "+00:00"))
+                base = parsed.year
+                if month < parsed.month:
+                    return base + 1
+                return base
+            except ValueError:
+                pass
+        msg_year = props.get("year")
+        if msg_year:
+            try:
+                return int(msg_year)
+            except (TypeError, ValueError):
+                return None
+        return None
+
+    sources = list(props.get("cancellations") or [])
+    body = props.get("body") or ""
+    if body:
+        for line in re.split(r"[.\n]", body.upper()):
+            if "THIS MSG" in line or "THIS MESSAGE" in line:
+                sources.append(line.strip())
+            for m_dtg_var in _RE_CANCEL_THIS_VARIANT_DTG.finditer(line):
+                normalized = f"THIS MSG {m_dtg_var.group(1).strip().upper()}"
+                if normalized not in sources:
+                    sources.append(normalized)
+            for m_dtg in _RE_CANCEL_BARE_DTG.finditer(line):
+                token = m_dtg.group(1).strip().upper()
+                if token not in sources:
+                    sources.append(token)
+        year_hint = str(props["year"])[-2:] if props.get("year") else None
+        for m_ru in _RE_RU_SELF_CANCEL.finditer(body):
+            digits = m_ru.group(1)
+            ru_month_raw = m_ru.group(2)
+            yr_raw = m_ru.group(3)
+            en_month = _RU_MONTH_MAP.get(ru_month_raw.upper())
+            if not en_month:
+                continue
+            if len(digits) == 6:
+                ddhhmm = digits
+            elif len(digits) == 2:
+                ddhhmm = digits + "0000"
+            else:
+                continue
+            yr_2 = yr_raw[-2:] if yr_raw else year_hint
+            if yr_2 is None:
+                continue
+            normalized = f"THIS MSG {ddhhmm} UTC {en_month} {yr_2}"
+            if normalized not in sources:
+                sources.append(normalized)
+
+    for cancel in sources:
+        if not cancel:
+            continue
+        upper = cancel.upper()
+        m = re.search(
+            r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})"
+            r"(?:Z| UTC)? ?([A-Z]{3}) (\d{2})",
+            cancel,
+        )
+        if not m:
+            m = re.search(
+                r"\b(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})\s+(\d{2})\b",
+                cancel,
+            )
+        if m:
+            day, hour, minute = (
+                int(m.group(1)),
+                int(m.group(2)),
+                int(m.group(3)),
+            )
+            mon = MONTH_MAP.get(m.group(4))
+            yr = 2000 + int(m.group(5))
+            if mon:
+                try:
+                    return datetime(
+                        yr,
+                        mon,
+                        day,
+                        hour,
+                        minute,
+                        tzinfo=timezone.utc,
+                    )
+                except ValueError:
+                    pass
+
+        m_noy = re.search(
+            r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| ?UTC)? ([A-Z]{3})$",
+            cancel,
+        )
+        if not m_noy:
+            m_noy = re.search(
+                r"\b(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})\b$",
+                cancel,
+            )
+        if m_noy:
+            day, hour, minute = (
+                int(m_noy.group(1)),
+                int(m_noy.group(2)),
+                int(m_noy.group(3)),
+            )
+            mon = MONTH_MAP.get(m_noy.group(4))
+            yr = _infer_year(mon) if mon else None
+            if mon and yr:
+                try:
+                    return datetime(
+                        yr,
+                        mon,
+                        day,
+                        hour,
+                        minute,
+                        tzinfo=timezone.utc,
+                    )
+                except ValueError:
+                    pass
+
+        m2 = re.search(
+            r"THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3})" r" (\d{2})",
+            cancel,
+        )
+        if m2:
+            day = int(m2.group(1))
+            mon = MONTH_MAP.get(m2.group(2))
+            yr = 2000 + int(m2.group(3))
+            if mon:
+                try:
+                    return datetime(
+                        yr,
+                        mon,
+                        day,
+                        tzinfo=timezone.utc,
+                    )
+                except ValueError:
+                    pass
+
+        m3 = re.search(
+            r"THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3})$",
+            upper,
+        )
+        if m3:
+            day = int(m3.group(1))
+            mon = MONTH_MAP.get(m3.group(2))
+            yr = _infer_year(mon) if mon else None
+            if mon and yr:
+                try:
+                    return datetime(
+                        yr,
+                        mon,
+                        day,
+                        tzinfo=timezone.utc,
+                    )
+                except ValueError:
+                    pass
+
+    return None
+
+
+def _append_cancel_typo_correction(
+    props: Dict[str, Any],
+    *,
+    parsed: datetime,
+    corrected: datetime,
+) -> bool:
+    """Record a deterministic correction for self-cancel typo adjustment."""
+    corrections = props.setdefault("corrections", [])
+    if not isinstance(corrections, list):
+        return False
+    entry = {
+        "field": "cancel_date",
+        "code": "self_cancel_before_valid_from",
+        "before": parsed.isoformat(),
+        "after": corrected.isoformat(),
+        "note": "Adjusted to valid_from + 24h due to likely source typo.",
+    }
+    if entry in corrections:
+        return False
+    corrections.append(entry)
+    return True
+
+
+def _normalize_cancel_date(props: Dict[str, Any]) -> bool:
+    """Normalize and reconcile cancel_date with parsed self-cancel text."""
+    raw = props.get("cancel_date")
+    valid_from = _parse_iso_datetime(props.get("valid_from"))
+    valid_until = _parse_iso_datetime(props.get("valid_until"))
+    cancel_dt = _parse_iso_datetime(raw)
+    changed = False
+
+    if cancel_dt is not None:
+        if valid_from and cancel_dt < valid_from:
+            cancel_dt = None
+            changed = True
+        if valid_until and cancel_dt and cancel_dt > valid_until:
+            cancel_dt = None
+            changed = True
+    elif raw is not None:
+        changed = True
+
+    text_cancel_dt = _extract_self_cancel_datetime(props)
+    if text_cancel_dt is not None:
+        if valid_from and text_cancel_dt < valid_from:
+            corrected = valid_from + timedelta(hours=24)
+            if _append_cancel_typo_correction(
+                props,
+                parsed=text_cancel_dt,
+                corrected=corrected,
+            ):
+                changed = True
+            text_cancel_dt = corrected
+        if valid_until and text_cancel_dt and text_cancel_dt > valid_until:
+            text_cancel_dt = None
+
+    if text_cancel_dt is not None:
+        if cancel_dt is None or text_cancel_dt != cancel_dt:
+            cancel_dt = text_cancel_dt
+            changed = True
+
+    normalized = cancel_dt.isoformat() if cancel_dt is not None else None
+    if props.get("cancel_date") != normalized:
+        props["cancel_date"] = normalized
+        return True
+    return changed
 
 
 def _andoya_year_hint(props: Dict[str, Any]) -> Optional[int]:
@@ -167,6 +398,14 @@ _RE_CANCEL_THIS_VARIANT_DTG = re.compile(
     r"\bCANCEL\s+(?:THIS(?:\s+(?:MSG|MESSAGE|WARNING))?|THE\s+MSG)\s+"
     r"((\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})(?:\s+(\d{2}))?)\b",
     re.IGNORECASE,
+)
+
+_FROM_TO_DD_DD_MON_YY = re.compile(
+    r"\bFROM\s+(\d{1,2})\s+TO\s+(\d{1,2})\s+([A-Z]{3})\s+(\d{2})\b"
+)
+
+_FROM_TO_DD_HHMM_DD_HHMM_UTC_MON_YY = re.compile(
+    r"\bFROM\s+(\d{1,2})\s+(\d{4})\s+TO\s+(\d{1,2})\s+(\d{4})\s+UTC\s+([A-Z]{3})\s+(\d{2})\b"
 )
 
 
@@ -259,40 +498,90 @@ def _parse_from_to_period(
     if not body:
         return None, None
     m = FROM_TO_PERIOD_PATTERN.search(body.upper())
-    if not m:
-        return None, None
-    from_day = int(m.group(1))
-    from_mon = MONTH_MAP.get(m.group(2))
-    from_yr2 = m.group(3)
-    to_day = int(m.group(4))
-    to_mon = MONTH_MAP.get(m.group(5))
-    to_yr2 = m.group(6)
-    if not from_mon or not to_mon:
-        return None, None
     base_year = props.get("year")
     if base_year:
         try:
             base_year = int(base_year)
         except (ValueError, TypeError):
             base_year = None
-    if to_yr2 is not None:
-        to_year = 2000 + int(to_yr2)
-    elif base_year:
-        to_year = base_year
-    else:
-        return None, None
-    if from_yr2 is not None:
-        from_year = 2000 + int(from_yr2)
-    elif from_mon > to_mon:
-        from_year = to_year - 1
-    else:
-        from_year = to_year
-    try:
-        from_dt = datetime(from_year, from_mon, from_day, tzinfo=timezone.utc)
-        to_dt = datetime(to_year, to_mon, to_day, tzinfo=timezone.utc)
-    except ValueError:
-        return None, None
-    return from_dt.isoformat(), to_dt.isoformat()
+
+    if m:
+        from_day = int(m.group(1))
+        from_mon = MONTH_MAP.get(m.group(2))
+        from_yr2 = m.group(3)
+        to_day = int(m.group(4))
+        to_mon = MONTH_MAP.get(m.group(5))
+        to_yr2 = m.group(6)
+        if not from_mon or not to_mon:
+            return None, None
+        if to_yr2 is not None:
+            to_year = 2000 + int(to_yr2)
+        elif base_year:
+            to_year = base_year
+        else:
+            return None, None
+        if from_yr2 is not None:
+            from_year = 2000 + int(from_yr2)
+        elif from_mon > to_mon:
+            from_year = to_year - 1
+        else:
+            from_year = to_year
+        try:
+            from_dt = datetime(from_year, from_mon, from_day, tzinfo=timezone.utc)
+            to_dt = datetime(to_year, to_mon, to_day, tzinfo=timezone.utc)
+        except ValueError:
+            return None, None
+        return from_dt.isoformat(), to_dt.isoformat()
+
+    m2 = _FROM_TO_DD_DD_MON_YY.search(body.upper())
+    if m2:
+        from_day = int(m2.group(1))
+        to_day = int(m2.group(2))
+        mon = MONTH_MAP.get(m2.group(3))
+        year = 2000 + int(m2.group(4))
+        if not mon:
+            return None, None
+        try:
+            from_dt = datetime(year, mon, from_day, tzinfo=timezone.utc)
+            to_dt = datetime(year, mon, to_day, tzinfo=timezone.utc)
+        except ValueError:
+            return None, None
+        return from_dt.isoformat(), to_dt.isoformat()
+
+    m3 = _FROM_TO_DD_HHMM_DD_HHMM_UTC_MON_YY.search(body.upper())
+    if m3:
+        from_day = int(m3.group(1))
+        from_hhmm = m3.group(2)
+        to_day = int(m3.group(3))
+        to_hhmm = m3.group(4)
+        mon = MONTH_MAP.get(m3.group(5))
+        year = 2000 + int(m3.group(6))
+        if not mon:
+            return None, None
+        try:
+            from_hour, from_min = int(from_hhmm[:2]), int(from_hhmm[2:])
+            to_hour, to_min = int(to_hhmm[:2]), int(to_hhmm[2:])
+            from_dt = datetime(
+                year,
+                mon,
+                from_day,
+                from_hour,
+                from_min,
+                tzinfo=timezone.utc,
+            )
+            to_dt = datetime(
+                year,
+                mon,
+                to_day,
+                to_hour,
+                to_min,
+                tzinfo=timezone.utc,
+            )
+        except ValueError:
+            return None, None
+        return from_dt.isoformat(), to_dt.isoformat()
+
+    return None, None
 
 
 def _compute_valid_from(props: Dict[str, Any]) -> Optional[str]:
@@ -308,156 +597,45 @@ def _compute_valid_from(props: Dict[str, Any]) -> Optional[str]:
             except ValueError:
                 pass
         return dtg if isinstance(dtg, str) else None
+    # FROM date is a better fallback than year-Jan-1 when present.
+    from_iso, _ = _parse_from_to_period(props)
+    if from_iso:
+        return from_iso
     year = props.get("year")
     if year:
         try:
             return datetime(int(year), 1, 1, tzinfo=timezone.utc).isoformat()
         except (ValueError, TypeError):
             pass
-    # FROM date is a fallback when DTG and year are both missing
-    from_iso, _ = _parse_from_to_period(props)
-    return from_iso
+    return None
 
 
 def _compute_valid_until(
     props: Dict[str, Any],
 ) -> Optional[str]:
     """Parse self-cancellation dates from cancellations list and body text."""
-    # Search both cancellations list and body text for self-cancel patterns
-    sources = list(props.get("cancellations") or [])
-    body = props.get("body") or ""
-    if body:
-        for line in re.split(r"[.\n]", body.upper()):
-            if "THIS MSG" in line or "THIS MESSAGE" in line:
-                sources.append(line.strip())
-            for m_dtg_var in _RE_CANCEL_THIS_VARIANT_DTG.finditer(line):
-                normalized = f"THIS MSG {m_dtg_var.group(1).strip().upper()}"
-                if normalized not in sources:
-                    sources.append(normalized)
-            for m_dtg in _RE_CANCEL_BARE_DTG.finditer(line):
-                token = m_dtg.group(1).strip().upper()
-                if token not in sources:
-                    sources.append(token)
-        # Also scan for Russian self-cancellation (ОТМ ЭТОТ НР DD MONTH [YY])
-        year_hint = str(props["year"])[-2:] if props.get("year") else None
-        for m_ru in _RE_RU_SELF_CANCEL.finditer(body):
-            digits = m_ru.group(1)
-            ru_month_raw = m_ru.group(2)
-            yr_raw = m_ru.group(3)
-            en_month = _RU_MONTH_MAP.get(ru_month_raw.upper())
-            if not en_month:
-                continue
-            if len(digits) == 6:
-                ddhhmm = digits
-            elif len(digits) == 2:
-                ddhhmm = digits + "0000"
-            else:
-                continue
-            yr_2 = yr_raw[-2:] if yr_raw else year_hint
-            if yr_2 is None:
-                continue
-            normalized = f"THIS MSG {ddhhmm} UTC {en_month} {yr_2}"
-            if normalized not in sources:
-                sources.append(normalized)
+    cancel_date = _parse_iso_datetime(props.get("cancel_date"))
+    valid_from = _parse_iso_datetime(props.get("valid_from"))
+    current_until = _parse_iso_datetime(props.get("valid_until"))
+    if (
+        cancel_date is not None
+        and (valid_from is None or cancel_date >= valid_from)
+        and (current_until is None or cancel_date <= current_until)
+    ):
+        return cancel_date.isoformat()
 
-    for cancel in sources:
-        if not cancel:
-            continue
-        upper = cancel.upper()
-        # Full DTG: DDHHMM[Z| UTC| ] MON YY
-        m = re.search(
-            r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})"
-            r"(?:Z| UTC)? ?([A-Z]{3}) (\d{2})",
-            cancel,
-        )
-        if not m:
-            m = re.search(
-                r"\b(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})\s+(\d{2})\b",
-                cancel,
+    parsed_self_cancel = _extract_self_cancel_datetime(props)
+    if parsed_self_cancel is not None:
+        if valid_from is not None and parsed_self_cancel < valid_from:
+            corrected = valid_from + timedelta(hours=24)
+            _append_cancel_typo_correction(
+                props,
+                parsed=parsed_self_cancel,
+                corrected=corrected,
             )
-        if m:
-            day, hour, minute = (
-                int(m.group(1)),
-                int(m.group(2)),
-                int(m.group(3)),
-            )
-            mon = MONTH_MAP.get(m.group(4))
-            yr = 2000 + int(m.group(5))
-            if mon:
-                try:
-                    return datetime(
-                        yr,
-                        mon,
-                        day,
-                        hour,
-                        minute,
-                        tzinfo=timezone.utc,
-                    ).isoformat()
-                except ValueError:
-                    pass
-        m_noy = re.search(
-            r"THIS (?:MSG|MESSAGE) (\d{2})(\d{2})(\d{2})(?:Z| ?UTC)? ([A-Z]{3})$",
-            cancel,
-        )
-        if not m_noy:
-            m_noy = re.search(
-                r"\b(\d{2})(\d{2})(\d{2})(?:Z| ?UTC)\s+([A-Z]{3})\b$",
-                cancel,
-            )
-        if m_noy:
-            day, hour, minute = (
-                int(m_noy.group(1)),
-                int(m_noy.group(2)),
-                int(m_noy.group(3)),
-            )
-            mon = MONTH_MAP.get(m_noy.group(4))
-            if mon:
-                dtg_text = props.get("dtg")
-                msg_year = props.get("year")
-                base_year: Optional[int] = None
-                if isinstance(dtg_text, str):
-                    try:
-                        parsed = datetime.fromisoformat(dtg_text.replace("Z", "+00:00"))
-                        base_year = parsed.year
-                        if mon < parsed.month:
-                            base_year += 1
-                    except ValueError:
-                        base_year = None
-                if base_year is None and msg_year:
-                    try:
-                        base_year = int(msg_year)
-                    except (TypeError, ValueError):
-                        base_year = None
-                if base_year:
-                    try:
-                        return datetime(
-                            base_year,
-                            mon,
-                            day,
-                            hour,
-                            minute,
-                            tzinfo=timezone.utc,
-                        ).isoformat()
-                    except ValueError:
-                        pass
-        m2 = re.search(
-            r"THIS (?:MSG|MESSAGE) (\d{2}) ([A-Z]{3})" r" (\d{2})",
-            cancel,
-        )
-        if m2:
-            day = int(m2.group(1))
-            mon = MONTH_MAP.get(m2.group(2))
-            yr = 2000 + int(m2.group(3))
-            if mon:
-                try:
-                    return datetime(
-                        yr,
-                        mon,
-                        day,
-                        tzinfo=timezone.utc,
-                    ).isoformat()
-                except ValueError:
-                    pass
+            return corrected.isoformat()
+        return parsed_self_cancel.isoformat()
+
     # Fall back to active-period TO date
     _, until_iso = _parse_from_to_period(props)
     return until_iso
@@ -472,6 +650,7 @@ def _enrich_properties(
         props["valid_from"] = _compute_valid_from(props)
     if "valid_until" not in props or props["valid_until"] is None:
         props["valid_until"] = _compute_valid_until(props)
+    _normalize_cancel_date(props)
     return props
 
 
@@ -706,6 +885,7 @@ def _apply_last_seen(
             if _valid_until_before_valid_from(props):
                 props["valid_until"] = None
                 continue
+            _normalize_cancel_date(props)
             updated += 1
     return updated
 
@@ -739,6 +919,17 @@ def _backfill_last_seen_in_history_files(
         changed = False
         if data.get("type") == "Feature":
             props = data.setdefault("properties", {})
+            before_from = props.get("valid_from")
+            before_until = props.get("valid_until")
+            before_cancel = props.get("cancel_date")
+            data["properties"] = _enrich_properties(props)
+            props = data["properties"]
+            if (
+                props.get("valid_from") != before_from
+                or props.get("valid_until") != before_until
+                or props.get("cancel_date") != before_cancel
+            ):
+                changed = True
             if _apply_andoya_active_period(props):
                 changed = True
             if _clear_invalid_valid_until(props):
@@ -752,11 +943,24 @@ def _backfill_last_seen_in_history_files(
                         props["valid_until"] = None
                     else:
                         changed = True
+            if _normalize_cancel_date(props):
+                changed = True
         elif data.get("type") == "FeatureCollection":
             for feat in data.get("features") or []:
                 if not isinstance(feat, dict):
                     continue
                 props = feat.setdefault("properties", {})
+                before_from = props.get("valid_from")
+                before_until = props.get("valid_until")
+                before_cancel = props.get("cancel_date")
+                feat["properties"] = _enrich_properties(props)
+                props = feat["properties"]
+                if (
+                    props.get("valid_from") != before_from
+                    or props.get("valid_until") != before_until
+                    or props.get("cancel_date") != before_cancel
+                ):
+                    changed = True
                 if _apply_andoya_active_period(props):
                     changed = True
                 if _clear_invalid_valid_until(props):
@@ -771,6 +975,8 @@ def _backfill_last_seen_in_history_files(
                         props["valid_until"] = None
                     else:
                         changed = True
+                if _normalize_cancel_date(props):
+                    changed = True
 
         if changed:
             with open(path, "w", encoding="utf-8") as f:

@@ -24,10 +24,18 @@
     "category": "cable",
     "title": "Underwater Cable",
     "body": "WESTERN SOUTH ATLANTIC.\nURUGUAY.\n1. SEISMIC SURVEY 12 AND 13 DEC BY M/V TASMAN TOWING 12\n   8800 METER LONG CABLES ALONG TRACKLINES BETWEEN:\n   A. 36-33.95S 051-43.77W AND 35-50.38S 052-26.41W.\n   B. 35-57.48S 052-30.10W AND 36-41.07S 051-47.53W.\n   NINE MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 14 DEC 12.",
-    "cancel_date": "2012-12-14T00:01:00+00:00",
+    "cancel_date": "2012-12-15T13:14:00+00:00",
     "valid_from": "2012-12-14T13:14:00+00:00",
-    "valid_until": "2012-12-14T00:01:00+00:00",
-    "corrections": [],
+    "valid_until": "2012-12-15T13:14:00+00:00",
+    "corrections": [
+      {
+        "field": "cancel_date",
+        "code": "self_cancel_before_valid_from",
+        "before": "2012-12-14T00:00:00+00:00",
+        "after": "2012-12-15T13:14:00+00:00",
+        "note": "Adjusted to valid_from + 24h due to likely source typo."
+      }
+    ],
     "summary": null
   }
 }

@@ -40,10 +40,18 @@
     "geometry_kind": "polygon",
     "radius_nm": null,
     "body": "1. СТРЕЛЬБЫ РАКЕТНЫЕ И АРТИЛЛЕРИЙСКИЕ\n26 ФЕВ ПО 02 МАРТ 0500 ДО 1700 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНЕ\n69-58.0С 033-38.0В\n69-58.0С 034-48.0В\n69-35.0С 034-48.0В\n69-35.0С 033-38.0В\n2. ОТМ ЭТОТ НР 021800 МАРТ=\n201000 МСК  ГС-",
-    "cancel_date": null,
+    "cancel_date": "2026-03-15T01:31:34.730556+00:00",
     "valid_from": "2026-03-14T01:31:34.730556+00:00",
     "valid_until": "2026-04-01T23:59:59+00:00",
-    "corrections": [],
+    "corrections": [
+      {
+        "field": "cancel_date",
+        "code": "self_cancel_before_valid_from",
+        "before": "2026-03-02T18:00:00+00:00",
+        "after": "2026-03-15T01:31:34.730556+00:00",
+        "note": "Adjusted to valid_from + 24h due to likely source typo."
+      }
+    ],
     "summary": null
   }
 }

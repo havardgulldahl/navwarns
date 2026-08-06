@@ -18,10 +18,18 @@
     "category": "navigation",
     "title": "Ice and Icebergs",
     "body": "WEDDELL SEA.\nANTARCTICA.\nDNC 29.\n1. ICEBERGS REPORTED IN:\n   A. A64, 67-13S 059-40W.\n   B. A69A, 66-58S 059-00W.\n   C. A69B, 66-19S 059-52W.\n   D. A69C, 66-37S 058-09W.\n   E. A70, 66-55S 059-42W.\n   F. A76A, 71-40S 57-20W.\n   G. A76C, 70-07S 59-50W.\n2. CANCEL THIS MSG 021517Z FEB 22.",
-    "cancel_date": "2022-02-02T15:17:00+00:00",
+    "cancel_date": "2022-02-04T00:04:00+00:00",
     "valid_from": "2022-02-03T00:04:00+00:00",
-    "valid_until": "2022-02-02T15:17:00+00:00",
-    "corrections": [],
+    "valid_until": "2022-02-04T00:04:00+00:00",
+    "corrections": [
+      {
+        "field": "cancel_date",
+        "code": "self_cancel_before_valid_from",
+        "before": "2022-02-02T15:17:00+00:00",
+        "after": "2022-02-04T00:04:00+00:00",
+        "note": "Adjusted to valid_from + 24h due to likely source typo."
+      }
+    ],
     "summary": null
   }
 }

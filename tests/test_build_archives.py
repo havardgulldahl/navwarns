@@ -66,6 +66,14 @@ class TestComputeValidFrom:
         result = _compute_valid_from(props)
         assert result == "not-a-date"
 
+    def test_from_to_day_range_with_trailing_month_year(self) -> None:
+        props = {
+            "body": "ROCKET OPERATIONS FROM 15 TO 21 JUN 26.",
+            "year": 2026,
+        }
+        result = _compute_valid_from(props)
+        assert result == "2026-06-15T00:00:00+00:00"
+
 
 # ------------------------------------------------------------------
 # _compute_valid_until
@@ -194,6 +202,84 @@ class TestComputeValidUntil:
             tzinfo=timezone.utc,
         )
 
+    def test_from_to_day_range_with_trailing_month_year(self) -> None:
+        props = {
+            "body": "OPERATIONS DAILY FROM 15 TO 21 JUN 26.",
+            "year": 2026,
+        }
+        result = _compute_valid_until(props)
+        assert result == "2026-06-21T00:00:00+00:00"
+
+    def test_from_to_day_time_range_with_trailing_month_year(self) -> None:
+        props = {
+            "body": "AREA TEMPORARILY DANGEROUS FROM 14 2100 TO 18 2100 UTC JUL 26.",
+            "year": 2026,
+        }
+        result = _compute_valid_until(props)
+        assert result == "2026-07-18T21:00:00+00:00"
+
+    def test_cancel_date_precedence_when_consistent(self) -> None:
+        props = {
+            "valid_from": "2012-03-01T00:00:00+00:00",
+            "cancel_date": "2012-03-05T00:01:00+00:00",
+            "cancellations": [],
+            "body": "",
+        }
+        result = _compute_valid_until(props)
+        assert result == "2012-03-05T00:01:00+00:00"
+
+    def test_ignores_cancel_date_before_valid_from(self) -> None:
+        props = {
+            "valid_from": "2012-03-31T02:03:00+00:00",
+            "dtg": "2012-03-31T02:03:00",
+            "year": 2012,
+            "cancel_date": "2012-03-05T00:01:00+00:00",
+            "cancellations": [],
+            "body": "3. CANCEL THIS MSG 05 APR.",
+        }
+        result = _compute_valid_until(props)
+        assert result == "2012-04-05T00:00:00+00:00"
+
+    def test_yearless_date_only_self_cancel_in_body(self) -> None:
+        props = {
+            "dtg": "2012-03-31T02:03:00",
+            "year": 2012,
+            "cancellations": [],
+            "body": "3. CANCEL THIS MSG 05 APR.",
+        }
+        result = _compute_valid_until(props)
+        assert result == "2012-04-05T00:00:00+00:00"
+
+    def test_cancel_date_later_than_valid_until_is_ignored(self) -> None:
+        props = {
+            "valid_from": "2012-03-31T02:03:00+00:00",
+            "valid_until": "2012-04-05T00:00:00+00:00",
+            "dtg": "2012-03-31T02:03:00",
+            "year": 2012,
+            "cancel_date": "2012-04-06T00:00:00+00:00",
+            "cancellations": [],
+            "body": "3. CANCEL THIS MSG 05 APR.",
+        }
+        result = _compute_valid_until(props)
+        assert result == "2012-04-05T00:00:00+00:00"
+
+    def test_self_cancel_before_valid_from_treated_as_typo_plus_24h(self) -> None:
+        props = {
+            "valid_from": "2024-04-22T13:05:00+00:00",
+            "dtg": "2024-04-22T13:05:00",
+            "year": 2024,
+            "cancellations": [],
+            "body": "2. CANCEL THIS MSG 221259Z APR 24.",
+            "corrections": [],
+        }
+        result = _compute_valid_until(props)
+        assert result == "2024-04-23T13:05:00+00:00"
+        assert any(
+            c.get("code") == "self_cancel_before_valid_from"
+            and c.get("field") == "cancel_date"
+            for c in props["corrections"]
+        )
+
 
 # ------------------------------------------------------------------
 # _enrich_properties
@@ -247,6 +333,57 @@ class TestEnrichProperties:
         enriched = _enrich_properties(props)
         assert enriched["valid_from"] == "2026-07-30T00:00:00+00:00"
         assert enriched["valid_until"] == "2026-07-31T23:59:59+00:00"
+
+    def test_enrich_clears_cancel_date_before_valid_from(self) -> None:
+        props = {
+            "valid_from": "2012-03-31T02:03:00+00:00",
+            "valid_until": "2012-04-05T00:00:00+00:00",
+            "cancel_date": "2012-03-05T00:01:00+00:00",
+        }
+        enriched = _enrich_properties(props)
+        assert enriched["cancel_date"] is None
+
+    def test_enrich_clears_cancel_date_later_than_valid_until(self) -> None:
+        props = {
+            "valid_from": "2012-03-31T02:03:00+00:00",
+            "valid_until": "2012-04-05T00:00:00+00:00",
+            "cancel_date": "2012-04-06T00:00:00+00:00",
+        }
+        enriched = _enrich_properties(props)
+        assert enriched["cancel_date"] is None
+
+    def test_enrich_reconciles_cancel_date_from_self_cancel_text(self) -> None:
+        props = {
+            "valid_from": "2012-03-31T02:03:00+00:00",
+            "valid_until": "2012-04-05T00:00:00+00:00",
+            "cancel_date": "2012-03-05T00:01:00+00:00",
+            "dtg": "2012-03-31T02:03:00",
+            "year": 2012,
+            "cancellations": [],
+            "body": "3. CANCEL THIS MSG 05 APR.",
+        }
+        enriched = _enrich_properties(props)
+        assert enriched["cancel_date"] == "2012-04-05T00:00:00+00:00"
+        assert enriched["valid_until"] == "2012-04-05T00:00:00+00:00"
+
+    def test_enrich_typo_self_cancel_gets_plus_24h_and_correction(self) -> None:
+        props = {
+            "valid_from": "2024-04-22T13:05:00+00:00",
+            "dtg": "2024-04-22T13:05:00",
+            "year": 2024,
+            "cancellations": [],
+            "body": "2. CANCEL THIS MSG 221259Z APR 24.",
+            "corrections": [],
+        }
+        enriched = _enrich_properties(props)
+        assert enriched["valid_until"] == "2024-04-23T13:05:00+00:00"
+        assert enriched["cancel_date"] == "2024-04-23T13:05:00+00:00"
+        assert any(
+            c.get("code") == "self_cancel_before_valid_from"
+            and c.get("before") == "2024-04-22T12:59:00+00:00"
+            and c.get("after") == "2024-04-23T13:05:00+00:00"
+            for c in enriched["corrections"]
+        )
 
 
 # ------------------------------------------------------------------
@@ -774,6 +911,86 @@ class TestDailyPresenceInference:
         updated = json.loads(stale_path.read_text(encoding="utf-8"))
         assert updated["properties"]["valid_from"] == "2026-07-30T00:00:00+00:00"
         assert updated["properties"]["valid_until"] == "2026-07-31T23:59:59+00:00"
+
+    def test_build_archive_backfills_from_to_period_without_last_seen(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        """Persist computed FROM..TO validity to history files."""
+        year_dir = tmp_path / "2026"
+        navwarn_dir = year_dir / "navwarns"
+        out_dir = tmp_path / "docs"
+        navwarn_dir.mkdir(parents=True)
+        out_dir.mkdir(parents=True)
+
+        stale_path = navwarn_dir / "NAVAREA_XIX_79_26_grp1.json"
+        stale_path.write_text(
+            json.dumps(
+                {
+                    "type": "Feature",
+                    "id": "NAVAREA XIX 79/26#grp1",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [0.0, 0.0],
+                    },
+                    "properties": {
+                        "msg_id": "NAVAREA XIX 79/26#grp1",
+                        "year": 2026,
+                        "body": "ROCKET LAUNCH OPERATION FROM 15 TO 21 JUN 26.",
+                        "valid_from": "2026-06-10T06:30:00+00:00",
+                        "valid_until": None,
+                    },
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        count = build_archive(2026, year_dir, out_dir, extra_cancel_dirs=[])
+        assert count == 1
+
+        updated = json.loads(stale_path.read_text(encoding="utf-8"))
+        assert updated["properties"]["valid_until"] == "2026-06-21T00:00:00+00:00"
+
+    def test_build_archive_persists_cancel_date_normalization(
+        self,
+        tmp_path: Path,
+    ) -> None:
+        """Invalid cancel_date is reconciled from self-cancel text."""
+        year_dir = tmp_path / "2012"
+        navwarn_dir = year_dir / "A"
+        out_dir = tmp_path / "docs"
+        navwarn_dir.mkdir(parents=True)
+        out_dir.mkdir(parents=True)
+
+        path = navwarn_dir / "HYDROARC_717_12_24_grp3.json"
+        path.write_text(
+            json.dumps(
+                {
+                    "type": "Feature",
+                    "id": "HYDROARC 717/12(24)#grp3",
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [[-40.21, -0.03], [-40.21, -2.08]],
+                    },
+                    "properties": {
+                        "msg_id": "HYDROARC 717/12(24)#grp3",
+                        "dtg": "2012-03-31T02:03:00",
+                        "year": 2012,
+                        "body": "3. CANCEL THIS MSG 05 APR.",
+                        "cancel_date": "2012-03-05T00:01:00+00:00",
+                        "valid_from": "2012-03-31T02:03:00+00:00",
+                        "valid_until": "2012-04-05T00:00:00+00:00",
+                    },
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        count = build_archive(2012, year_dir, out_dir, extra_cancel_dirs=[])
+        assert count == 1
+
+        updated = json.loads(path.read_text(encoding="utf-8"))
+        assert updated["properties"]["cancel_date"] == "2012-04-05T00:00:00+00:00"
 
 
 # ------------------------------------------------------------------

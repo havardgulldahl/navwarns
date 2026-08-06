@@ -18,10 +18,18 @@
     "category": "navigation",
     "title": "Ice and Icebergs",
     "body": "WESTERN SOUTH ATLANTIC.\nWEDDELL SEA.\nSCOTIA SEA.\nANTARCTICA.\nDNC 01, DNC 29.\n1. ICEBERGS REPORTED IN:\n   A. B09I, 56-45S 029-25W.\n   B. 60-34S 047-58W.\n   C. 61-02S 047-31W.\n   D. 55-24S 027-11W.\n   E. 66-02S 034-51W.\n2. CANCEL THIS MSG 021439Z FEB 22.",
-    "cancel_date": "2022-02-02T14:39:00+00:00",
+    "cancel_date": "2022-02-04T00:03:00+00:00",
     "valid_from": "2022-02-03T00:03:00+00:00",
-    "valid_until": "2022-02-02T14:39:00+00:00",
-    "corrections": [],
+    "valid_until": "2022-02-04T00:03:00+00:00",
+    "corrections": [
+      {
+        "field": "cancel_date",
+        "code": "self_cancel_before_valid_from",
+        "before": "2022-02-02T14:39:00+00:00",
+        "after": "2022-02-04T00:03:00+00:00",
+        "note": "Adjusted to valid_from + 24h due to likely source typo."
+      }
+    ],
     "summary": null
   }
 }
