@@ -542,9 +542,26 @@
             return 'Unknown source';
         }
 
-        function getTimespanText(props) {
+        function getTimespanText(props, short = false) {
             const from = props.valid_from || props.dtg || null;
             const until = props.valid_until || null;
+            if (short) {
+                // return dates as "Aug 12 - Aug 15" or "Aug 12" or "Unknown"
+                let ret = '';
+                const d_from = new Date(ensureDateHasTimezone(from));
+                const d_until = new Date(ensureDateHasTimezone(until));
+
+                if (!isNaN(d_from.getTime())) {
+                    ret += d_from.toUTCString().slice(5, 11); // "12 Aug"
+                }
+                if (!isNaN(d_until.getTime())) {
+                    if (ret) ret += '–';
+                    ret += d_until.toUTCString().slice(5, 11);
+                }
+                return ret || 'Unknown';
+
+
+            }
             const fromLabel = formatHumanDate(from);
             const untilLabel = formatHumanDate(until);
             if (fromLabel && untilLabel) return `Valid ${fromLabel} to ${untilLabel}`;
@@ -767,9 +784,9 @@
             const items = features.map((f, i) => {
                 const p = f.properties || {};
                 const title = p.title || p.msg_id || 'NavWarn';
-                const source = getSourceLabel(f);
-                const timespan = getTimespanText(p);
-                const subtitle = `${source} - ${timespan}`;
+                const navwarnId = f.id || p.msg_id || 'N/A';
+                const timespan = getTimespanText(p, true);
+                const subtitle = `${navwarnId} - ${timespan}`;
                 const category = p.category || 'N/A';
                 const color = getCategoryColor(category);
                 return `<li data-index="${i}" title="Click to view details">

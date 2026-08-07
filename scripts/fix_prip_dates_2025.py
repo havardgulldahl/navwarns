@@ -139,12 +139,14 @@ def main() -> None:
         props = data.get("properties") or {}
         changed = False
 
-        # Fix valid_from: use first-seen date
+        # Fix valid_from: use first-seen date only when it predates the existing value.
+        # Snapshot coverage starts Sep 23 2025, so don't overwrite earlier parser-derived dates.
         new_from = f"{first_seen[pid]}T00:00:00+00:00"
         old_from = props.get("valid_from")
-        if old_from != new_from:
-            props["valid_from"] = new_from
-            changed = True
+        if not old_from or new_from < old_from:
+            if old_from != new_from:
+                props["valid_from"] = new_from
+                changed = True
 
         # Fix valid_until: use last-seen + end of day,
         # but only if the PRIP disappeared before the final

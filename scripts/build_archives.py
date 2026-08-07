@@ -651,6 +651,12 @@ def _enrich_properties(
     if "valid_until" not in props or props["valid_until"] is None:
         props["valid_until"] = _compute_valid_until(props)
     _normalize_cancel_date(props)
+    # A confirmed self-cancel caps valid_until; if valid_until was set to a later
+    # date (e.g. stale correction or last-seen snapshot), trim it back.
+    cd = props.get("cancel_date")
+    vu = props.get("valid_until")
+    if cd and vu and cd < vu:
+        props["valid_until"] = cd
     return props
 
 
@@ -846,6 +852,12 @@ def _apply_first_seen(
         props = feat.get("properties") or {}
         # Skip if an actual issue timestamp was recorded
         if props.get("dtg"):
+            continue
+        # Skip if valid_from is already a real date (not the year-Jan-1 fallback).
+        # Broadcast-header dates (e.g. PRIP) are set without a dtg field.
+        existing_from = props.get("valid_from")
+        year = props.get("year") or 0
+        if existing_from and not existing_from.startswith(f"{year}-01-01T00:00:00"):
             continue
         mid = props.get("msg_id") or ""
         fid = feat.get("id") or ""
