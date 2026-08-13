@@ -15,11 +15,17 @@ jobs:
         run: git clone $GITHUB_SERVER_URL/$GITHUB_REPOSITORY .
       - run: pip install -r requirements.txt
       - run: python scripts/scraper.py
+        continue-on-error: true
       - run: python scripts/scraper_rosatom.py
+        continue-on-error: true
       - run: python scripts/scraper_prips.py
+        continue-on-error: true
       - run: python scripts/scraper_navareaxix.py
+        continue-on-error: true
       - run: python scripts/scraper_navtex_sweden.py
+        continue-on-error: true
       - run: python scripts/scraper_andoya.py
+        continue-on-error: true
       - name: List files
         run: ls -lR current
 
