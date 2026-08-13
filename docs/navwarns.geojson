@@ -55,53 +55,6 @@
     },
     {
       "type": "Feature",
-      "id": "FINNISH NAV WARN 394/26",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            23.966666666666665,
-            60.00833333333333
-          ],
-          [
-            24.1,
-            59.90833333333333
-          ],
-          [
-            24.026666666666667,
-            59.788333333333334
-          ],
-          [
-            24.073333333333334,
-            59.67666666666667
-          ],
-          [
-            24.10333333333333,
-            59.39333333333333
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-08-01T17:05:00",
-        "raw_dtg": "011705Z AUG 26",
-        "msg_id": "FINNISH NAV WARN 394/26",
-        "year": 2026,
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "linestring",
-        "radius_nm": null,
-        "body": "[Gulf of Finland] FINNISH NAV WARN 394/26\nGULF OF FINLAND.\nUNDERWATER SURVEY OPERATIONS IN PROGRESS\nBY RESEARCH VESSEL KAIKU CALL SIGN OJAL\nOPERATING IN VICINITY OF LINE JOINING:\n60-00.5N 023-58.0E\n59-54.5N 024-06.0E\n59-47.3N 024-01.6E\n59-40.6N 024-04.4E\n59-23.6N 024-06.2E\nVESSELS ARE REQUESTED TO KEEP A MINIMUM DISTANCE OF 0.5 NM FROM KAIKU.",
-        "cancel_date": null,
-        "valid_from": "2026-08-01T17:05:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "GERMAN NAV WARN 416/26",
       "geometry": {
         "type": "Point",
@@ -248,6 +201,57 @@
     },
     {
       "type": "Feature",
+      "id": "GERMAN NAV WARN 446/26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.923333333333334,
+            54.825
+          ],
+          [
+            13.896666666666667,
+            54.91
+          ],
+          [
+            13.76,
+            54.88
+          ],
+          [
+            13.82,
+            54.58833333333333
+          ],
+          [
+            13.848333333333333,
+            54.471666666666664
+          ],
+          [
+            13.85,
+            54.361666666666665
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-12T09:38:00",
+        "raw_dtg": "120938Z AUG 26",
+        "msg_id": "GERMAN NAV WARN 446/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "linestring",
+        "radius_nm": null,
+        "body": "[Southern Baltic] GERMAN NAV WARN 446/26\n120930 UTC AUG\nGERMAN NAV WARN 446/26\nSOUTHERN BALTIC. NORTHEAST OF RUEGEN\nEXPLOSIVES FOUND ALONG THE JOININGLINES:\n54-49.5N 013-55.4E\n54-54.6N 013-53.8E\n54-52.8N 013-45.6E\n54-35.3N 013-49.2E\n54-28.3N 013-50.9E\n54-21.7N 013-51.0E\nANCHORING AND FISHING PROHIBITED WITHIN\nA RADIUS OF 100 METRES",
+        "cancel_date": null,
+        "valid_from": "2026-08-12T09:38:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "HYDROARC 126/26",
       "geometry": {
         "type": "Polygon",
@@ -387,32 +391,6 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 154/26",
-      "geometry": null,
-      "properties": {
-        "dtg": "2026-08-01T04:15:00",
-        "raw_dtg": "010415Z AUG 26",
-        "msg_id": "HYDROARC 154/26",
-        "year": 2026,
-        "cancellations": [
-          "HYDROARC 147/26",
-          "153/26"
-        ],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "311531Z JUL\nHYDROARC 154/26.\n1. HYDROARC WARNINGS IN FORCE AS OF 311531Z JUL.\n   ALL THE INFORCE WARNINGS ARE LISTED HERE.\n   152/2026, 149/2026, 146/2026, 141/2026, 126/2026.\n   180/2025, 178/2025, 175/2025, 148/2025, 145/2025,\n   103/2025. \n   283/2024.\n   163/2023.\n   198/2022.\n2. THE COMPLETE TEXT OF ALL IN-FORCE HYDROARC \n   BROADCAST WARNINGS ARE AVAILABLE ON THE NGA\n   MARITIME SAFETY INFORMATION WEBSITE AT:\n   MSI.NGA.MIL/NAVWARNINGS.\n   ALTERNATIVELY, THESE MAY BE REQUESTED BY E-MAIL\n   FROM NGA AT NAVSAFETY@NGA.MIL.\n3. CANCEL HYDROARC 147/26 AND 153/26.",
-        "cancel_date": null,
-        "valid_from": "2026-08-01T04:15:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "HYDROARC 155/26",
       "geometry": {
         "type": "LineString",
@@ -514,6 +492,172 @@
         "cancel_date": null,
         "valid_from": "2026-08-05T12:58:00+00:00",
         "valid_until": "2026-12-01T00:01:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 160/26",
+      "geometry": null,
+      "properties": {
+        "dtg": "2026-08-07T18:08:00",
+        "raw_dtg": "071808Z AUG 26",
+        "msg_id": "HYDROARC 160/26",
+        "year": 2026,
+        "cancellations": [
+          "HYDROARC 154/2026"
+        ],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "HYDROARC 160/26.\n1. HYDROARC WARNINGS IN FORCE AS OF 071808Z AUG.\n    ALL THE INFORCE WARNINGS ARE LISTED HERE.\n    159/2026, 158/2026, 157/2026, 156/2026,\n    155/2026, 152/2026, 149/2026, 126/2026.\n    180/2025, 178/2025, 175/2025, 148/2025,\n    145/2025, 103/2025.\n    283/2024.\n    163/2023.\n    198/2022.\n2. THE COMPLETE TEXT OF ALL IN-FORCE HYDROARC\n    BROADCAST WARNINGS ARE AVAILABLE ON THE NGA\n    MARITIME SAFETY INFORMATION WEBSITE AT:\n    MSI.NGA.MIL/NAVWARNINGS.\n    ALTERNATIVELY, THESE MAY BE REQUESTED BY E-MAIL\n    FROM NGA AT NAVSAFETY@NGA.MIL.\n3. CANCEL HYDROARC 154/2026.",
+        "cancel_date": null,
+        "valid_from": "2026-08-07T18:08:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 168/26#grp1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              51.233333333333334,
+              69.28333333333333
+            ],
+            [
+              52.03333333333333,
+              69.01666666666667
+            ],
+            [
+              50.45,
+              68.31666666666666
+            ],
+            [
+              49.8,
+              68.55
+            ],
+            [
+              51.233333333333334,
+              69.28333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 168/26",
+        "group_index": 1,
+        "dtg": "2026-08-12T20:01:00",
+        "raw_dtg": "122001Z AUG 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "HYDROARC 168/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   132100Z TO 132359Z, 0001Z TO 1800Z AND\n   2100Z TO 2359Z DAILY 14 THRU 26 AND\n   270001Z TO 271800Z AUG IN AREAS BOUND BY:\n   A. 69-17.00N 051-14.00E, 69-01.00N 052-02.00E,\n      68-19.00N 050-27.00E, 68-33.00N 049-48.00E.\n   B. 70-33.94N 032-36.68E, 70-46.27N 033-52.16E,\n      69-45.82N 035-13.22E, 69-34.82N 033-57.43E.\n   C. 72-47.18N 029-27.88E, 73-01.54N 030-54.23E,\n      71-53.17N 032-54.86E, 71-39.58N 031-25.22E.\n2. CANCEL HYDROARC 161/26.\n3. CANCEL THIS MSG 271900Z AUG 26.",
+        "cancel_date": null,
+        "valid_from": "2026-08-12T20:01:00+00:00",
+        "valid_until": "2026-08-27T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 168/26#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.611333333333334,
+              70.56566666666667
+            ],
+            [
+              33.86933333333333,
+              70.77116666666667
+            ],
+            [
+              35.220333333333336,
+              69.76366666666667
+            ],
+            [
+              33.957166666666666,
+              69.58033333333333
+            ],
+            [
+              32.611333333333334,
+              70.56566666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 168/26",
+        "group_index": 2,
+        "dtg": "2026-08-12T20:01:00",
+        "raw_dtg": "122001Z AUG 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "HYDROARC 168/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   132100Z TO 132359Z, 0001Z TO 1800Z AND\n   2100Z TO 2359Z DAILY 14 THRU 26 AND\n   270001Z TO 271800Z AUG IN AREAS BOUND BY:\n   A. 69-17.00N 051-14.00E, 69-01.00N 052-02.00E,\n      68-19.00N 050-27.00E, 68-33.00N 049-48.00E.\n   B. 70-33.94N 032-36.68E, 70-46.27N 033-52.16E,\n      69-45.82N 035-13.22E, 69-34.82N 033-57.43E.\n   C. 72-47.18N 029-27.88E, 73-01.54N 030-54.23E,\n      71-53.17N 032-54.86E, 71-39.58N 031-25.22E.\n2. CANCEL HYDROARC 161/26.\n3. CANCEL THIS MSG 271900Z AUG 26.",
+        "cancel_date": null,
+        "valid_from": "2026-08-12T20:01:00+00:00",
+        "valid_until": "2026-08-27T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 168/26#grp3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.464666666666666,
+              72.78633333333333
+            ],
+            [
+              30.903833333333335,
+              73.02566666666667
+            ],
+            [
+              32.91433333333333,
+              71.88616666666667
+            ],
+            [
+              31.420333333333332,
+              71.65966666666667
+            ],
+            [
+              29.464666666666666,
+              72.78633333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 168/26",
+        "group_index": 3,
+        "dtg": "2026-08-12T20:01:00",
+        "raw_dtg": "122001Z AUG 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "HYDROARC 168/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   132100Z TO 132359Z, 0001Z TO 1800Z AND\n   2100Z TO 2359Z DAILY 14 THRU 26 AND\n   270001Z TO 271800Z AUG IN AREAS BOUND BY:\n   A. 69-17.00N 051-14.00E, 69-01.00N 052-02.00E,\n      68-19.00N 050-27.00E, 68-33.00N 049-48.00E.\n   B. 70-33.94N 032-36.68E, 70-46.27N 033-52.16E,\n      69-45.82N 035-13.22E, 69-34.82N 033-57.43E.\n   C. 72-47.18N 029-27.88E, 73-01.54N 030-54.23E,\n      71-53.17N 032-54.86E, 71-39.58N 031-25.22E.\n2. CANCEL HYDROARC 161/26.\n3. CANCEL THIS MSG 271900Z AUG 26.",
+        "cancel_date": null,
+        "valid_from": "2026-08-12T20:01:00+00:00",
+        "valid_until": "2026-08-27T19:00:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -740,6 +884,74 @@
     },
     {
       "type": "Feature",
+      "id": "LITHUANIAN NAV WARN 056/26",
+      "geometry": null,
+      "properties": {
+        "dtg": "2026-08-08T09:30:00",
+        "raw_dtg": "080930Z AUG 26",
+        "msg_id": "LITHUANIAN NAV WARN 056/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 056/26\nSOUTH-EASTERN BALTIC . SEAPORT OF KLAIPEDA AND APPROACHES\nSAILING RACE 9౼15 AUGUST AT KLAIPEDA SEAPORT AND APPROACHES.\nSTART – SMILTYNE YACHT CLUB:\n090900 UTC AUG,\n10-110800 UTC AUG,\n120700 UTC AUG,\n130700 UTC AUG,\n140700 UTC AUG,\n150700 UTC AUG.\nCAUTION ADVISED.\nCONTACT: VHF CH 68.\nCANCEL THIS MSG 160000 UTC AUG 26.",
+        "cancel_date": null,
+        "valid_from": "2026-08-08T09:30:00+00:00",
+        "valid_until": "2026-08-16T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XIX 100/26",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            20.416666666666668,
+            72.535
+          ],
+          [
+            5.304,
+            67.0275
+          ],
+          [
+            7.301666666666667,
+            65.28666666666666
+          ],
+          [
+            6.705,
+            65.13333333333334
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-09T18:30:00",
+        "raw_dtg": "091830Z AUG 26",
+        "msg_id": "NAVAREA XIX 100/26",
+        "year": 2026,
+        "cancellations": [
+          "97/26"
+        ],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "multipoint",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 100/26\n\n\n\n1. RIGLIST. CORRECT AT  091830 UTC AUG 26\n\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n\n\n72-32.10N 020-25.00E - TRANSOCEAN ENABLER\n\n67-01.65N 005-18.24E - TRANSOCEAN NORGE\n\n65-17.20N 007-18.10E - ISLAND INNOVATOR\n\n65-08.00N 006-42.30E - TRANSOCEAN ENCOURAGE\n\n\n\nNOTES:\n\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX　97/26",
+        "cancel_date": null,
+        "valid_from": "2026-08-09T18:30:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "NAVAREA XIX 45/26",
       "geometry": null,
       "properties": {
@@ -765,24 +977,24 @@
     },
     {
       "type": "Feature",
-      "id": "NAVAREA XIX 93/26",
+      "id": "NAVAREA XIX 98/26",
       "geometry": null,
       "properties": {
-        "dtg": "2026-07-22T06:30:00",
-        "raw_dtg": "220630Z JUL 26",
-        "msg_id": "NAVAREA XIX 93/26",
+        "dtg": "2026-08-07T18:30:00",
+        "raw_dtg": "071830Z AUG 26",
+        "msg_id": "NAVAREA XIX 98/26",
         "year": 2026,
         "cancellations": [
-          "90/26"
+          "NAVAREA XIX 95/26"
         ],
         "hazard_type": "general",
         "category": "other",
         "title": "General Warning",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "NAVAREA XIX 93/26\n\n1. CANCEL NAVAREA 90\n\n2. CANCEL THIS MESSAGE\n\nPREVIOUS HF WARNINGS ISSUED NAVAREA XIX 90/26",
+        "body": "NAVAREA XIX 98/26\n\n1. NAVAREA XIX WARNINGS INFORCE AT 071830 UTC AUG 26\n\n2026 SERIES: 45, 97, 98\n\n2. CANCEL NAVAREA XIX 95/26",
         "cancel_date": null,
-        "valid_from": "2026-07-22T06:30:00+00:00",
+        "valid_from": "2026-08-07T18:30:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -790,70 +1002,49 @@
     },
     {
       "type": "Feature",
-      "id": "NAVAREA XIX 95/26",
-      "geometry": null,
-      "properties": {
-        "dtg": "2026-07-31T18:30:00",
-        "raw_dtg": "311830Z JUL 26",
-        "msg_id": "NAVAREA XIX 95/26",
-        "year": 2026,
-        "cancellations": [
-          "NAVAREA XIX 94/26"
-        ],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "NAVAREA XIX 95/26\n\n1. NAVAREA XIX WARNINGS INFORCE AT 311830 UTC JUL 26\n\n2026 SERIES: 45, 87, 93, 95\n\n2. CANCEL NAVAREA XIX 94/26",
-        "cancel_date": null,
-        "valid_from": "2026-07-31T18:30:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XIX 97/26",
+      "id": "NAVAREA XIX 99/26",
       "geometry": {
-        "type": "MultiPoint",
+        "type": "Polygon",
         "coordinates": [
           [
-            20.416666666666668,
-            72.535
-          ],
-          [
-            5.304,
-            67.0275
-          ],
-          [
-            7.2605,
-            65.31233333333333
-          ],
-          [
-            6.705,
-            65.13333333333334
+            [
+              30.902333333333335,
+              73.022
+            ],
+            [
+              32.90866666666667,
+              71.885
+            ],
+            [
+              31.418833333333332,
+              71.65583333333333
+            ],
+            [
+              29.458833333333335,
+              72.78516666666667
+            ],
+            [
+              30.902333333333335,
+              73.022
+            ]
           ]
         ]
       },
       "properties": {
-        "dtg": "2026-08-06T06:30:00",
-        "raw_dtg": "060630Z AUG 26",
-        "msg_id": "NAVAREA XIX 97/26",
+        "dtg": "2026-08-08T06:30:00",
+        "raw_dtg": "080630Z AUG 26",
+        "msg_id": "NAVAREA XIX 99/26",
         "year": 2026,
-        "cancellations": [
-          "NAVAREA XIX 96/26"
-        ],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "multipoint",
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "polygon",
         "radius_nm": null,
-        "body": "NAVAREA XIX 97/26\n\n1. RIGLIST. CORRECT AT  060630 UTC AUG 26\n\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n\n\n72-32.10N 020-25.00E - TRANSOCEAN ENABLER\n\n67-01.65N 005-18.24E - TRANSOCEAN NORGE\n\n65-18.74N 007-15.63E - ISLAND INNOVATOR\n\n65-08.00N 006-42.30E - TRANSOCEAN ENCOURAGE\n\n\n\nNOTES:\n\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX 96/26",
+        "body": "NAVAREA XIX 99/26\n\n\n\n1. ROCKET LAUNCHING IN THE FOLLOWING PERIODS\n\n A. 2100 TO 2400  UTC 13 AUG 26\n\n B. 0000 TO 1800 UTC AND 2100 TO 2400  UTC 14 TO 26 AUG 26\n\n C. 0000 TO 1800  UTC. 27 AUG 26\n\n\n\nDANGER AREA ESTABLISHED IN AREA BOUNDED BY\n\n\n\nA. 73-01.32N 030-54.14E\n\nB. 71-53.10N 032-54.52E\n\nC. 71-39.35N 031-25.13E\n\nD. 72-47.11N 029-27.53E\n\n\n\n2. CANCEL THIS MSG 271900UTC AUG 26.",
         "cancel_date": null,
-        "valid_from": "2026-08-06T06:30:00+00:00",
-        "valid_until": null,
+        "valid_from": "2026-08-08T06:30:00+00:00",
+        "valid_until": "2026-08-27T19:00:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -1459,7 +1650,7 @@
     },
     {
       "type": "Feature",
-      "id": "POLISH NAV WARN 170/26",
+      "id": "POLISH NAV WARN 176/26",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1468,9 +1659,9 @@
         ]
       },
       "properties": {
-        "dtg": "2026-08-03T06:00:00",
-        "raw_dtg": "030600Z AUG 26",
-        "msg_id": "POLISH NAV WARN 170/26",
+        "dtg": "2026-08-09T06:00:00",
+        "raw_dtg": "090600Z AUG 26",
+        "msg_id": "POLISH NAV WARN 176/26",
         "year": 2026,
         "cancellations": [],
         "hazard_type": "general",
@@ -1478,189 +1669,10 @@
         "title": "General Warning",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "[Southern Baltic] POLISH NAV WARN 170/26\nSOUTHERN BALTIC. POLISH COAST. NE OF JAROSLAWIEC\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\nON 2026-08-03 FROM 06:00 TO 21:59\nON 2026-08-04 FROM 03:00 TO 21:59\nON 2026-08-05 FROM 06:00 TO 21:59\nON 2026-08-06 FROM 03:00 TO 21:59\nON 2026-08-07 FROM 06:00 TO 21:59\nON 2026-08-08 FROM 06:00 TO 21:59\nTIME IN UTC.\nZONE IS CLOSED\nCANCEL THIS MSG 082159 UTC AUG",
+        "body": "[Southern Baltic] POLISH NAV WARN 176/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\n10-14 AUG 0600-2159 UTC\nZONE IS CLOSED\nCANCEL THIS MSG 142159 UTC AUG",
         "cancel_date": null,
-        "valid_from": "2026-08-03T06:00:00+00:00",
-        "valid_until": "2026-08-08T21:59:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "PRIP ARKHANGELSK 75/26",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              39.0,
-              66.10666666666667
-            ],
-            [
-              40.59,
-              66.50166666666667
-            ],
-            [
-              41.61666666666667,
-              66.17
-            ],
-            [
-              40.306666666666665,
-              64.95333333333333
-            ],
-            [
-              40.28,
-              64.93666666666667
-            ],
-            [
-              40.225,
-              64.9
-            ],
-            [
-              40.0,
-              64.75333333333333
-            ],
-            [
-              39.95,
-              64.72333333333333
-            ],
-            [
-              39.391666666666666,
-              64.59666666666666
-            ],
-            [
-              37.71333333333333,
-              65.0
-            ],
-            [
-              39.0,
-              66.10666666666667
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-08-01T04:15:16.014701+00:00",
-        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 75/26  КАРТЫ  12006 12007 \r\nБЕЛОЕ МОРЕ",
-        "msg_id": "PRIP ARKHANGELSK 75/26",
-        "year": 2026,
-        "cancellations": [],
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "ПРИП АРХАНГЕЛЬСК 75 КАРТЫ  12006 12007 \nБЕЛОЕ МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 062200 ПО 072000  \n072200 ПО 082000 082200 ПО 092000 АВГ\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n66-06.4С 039-00.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-30.1С 040-35.4В\n66-10.2С 041-37.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n64-57.2С 040-18.4В\n64-56.2С 040-16.8В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n64-54.0С 040-13.5В\n64-45.2С 040-00.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n64-43.4С 039-57.0В\n64-35.8С 039-23.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-00.0С 037-42.8В\n2. ОТМ ЭТОТ НР 092100 АВГ=\n311600 МСК ГС-",
-        "cancel_date": null,
-        "valid_from": "2026-08-01T04:15:16.014701+00:00",
-        "valid_until": "2026-08-09T21:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "PRIP ARKHANGELSK 81/26#grp1",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              34.1,
-              66.225
-            ],
-            [
-              34.483333333333334,
-              66.53833333333333
-            ],
-            [
-              40.61666666666667,
-              66.505
-            ],
-            [
-              41.625,
-              66.17833333333333
-            ],
-            [
-              40.05,
-              65.105
-            ],
-            [
-              34.1,
-              66.225
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "parent_id": "PRIP ARKHANGELSK 81/26",
-        "group_index": 1,
-        "dtg": "2026-08-05T03:52:37.426242+00:00",
-        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 81/26 КАРТА 91306\r\nБЕЛОЕ МОРЕ",
-        "year": 2026,
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
-        "body": "ПРИП АРХАНГЕЛЬСК 81 КАРТА 91306\nБЕЛОЕ МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 091200 ПО 111500 АВГ\nРАЙОНАХ ЗАПРЕТНЫХ ДЛЯ ПЛАВАНИЯ\nА. 66-13.5С 034-06.0В\n66-32.3С 034-29.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-30.3С 040-37.0В\n66-10.7С 041-37.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-06.3С 040-03.0В\nБ. 66-30.8С 042-14.0В\n66-40.8С 042-35.2В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-42.5С 042-40.0В\n67-12.5С 043-46.3В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-14.5С 044-05.0В\n66-14.5С 043-40.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-30.8С 042-14.0В\n2. ОТМ ЭТОТ НР 111600 АВГ=\n041600 МСК ГС-",
-        "cancel_date": null,
-        "valid_from": "2026-08-05T03:52:37.426242+00:00",
-        "valid_until": "2026-08-11T16:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "PRIP ARKHANGELSK 81/26#grp2",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              42.233333333333334,
-              66.51333333333334
-            ],
-            [
-              42.586666666666666,
-              66.68
-            ],
-            [
-              42.666666666666664,
-              66.70833333333333
-            ],
-            [
-              43.77166666666667,
-              67.20833333333333
-            ],
-            [
-              44.083333333333336,
-              66.24166666666666
-            ],
-            [
-              43.666666666666664,
-              66.24166666666666
-            ],
-            [
-              42.233333333333334,
-              66.51333333333334
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "parent_id": "PRIP ARKHANGELSK 81/26",
-        "group_index": 2,
-        "dtg": "2026-08-05T03:52:37.426242+00:00",
-        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 81/26 КАРТА 91306\r\nБЕЛОЕ МОРЕ",
-        "year": 2026,
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
-        "body": "ПРИП АРХАНГЕЛЬСК 81 КАРТА 91306\nБЕЛОЕ МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 091200 ПО 111500 АВГ\nРАЙОНАХ ЗАПРЕТНЫХ ДЛЯ ПЛАВАНИЯ\nА. 66-13.5С 034-06.0В\n66-32.3С 034-29.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-30.3С 040-37.0В\n66-10.7С 041-37.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-06.3С 040-03.0В\nБ. 66-30.8С 042-14.0В\n66-40.8С 042-35.2В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-42.5С 042-40.0В\n67-12.5С 043-46.3В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-14.5С 044-05.0В\n66-14.5С 043-40.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-30.8С 042-14.0В\n2. ОТМ ЭТОТ НР 111600 АВГ=\n041600 МСК ГС-",
-        "cancel_date": null,
-        "valid_from": "2026-08-05T03:52:37.426242+00:00",
-        "valid_until": "2026-08-11T16:00:00+00:00",
+        "valid_from": "2026-08-09T06:00:00+00:00",
+        "valid_until": "2026-08-14T21:59:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -1818,6 +1830,197 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP ARKHANGELSK 84/26#grp1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.86666666666667,
+              66.34333333333333
+            ],
+            [
+              33.858333333333334,
+              66.35666666666667
+            ],
+            [
+              34.471666666666664,
+              66.53333333333333
+            ],
+            [
+              35.075,
+              66.525
+            ],
+            [
+              40.575,
+              66.5
+            ],
+            [
+              40.61666666666667,
+              66.5
+            ],
+            [
+              41.608333333333334,
+              66.17166666666667
+            ],
+            [
+              40.1,
+              65.075
+            ],
+            [
+              40.083333333333336,
+              65.06666666666666
+            ],
+            [
+              33.86666666666667,
+              66.34333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP ARKHANGELSK 84/26",
+        "group_index": 1,
+        "dtg": "2026-08-13T08:15:36.620065+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 84/26 КАРТА 91306\r\nБЕЛОЕ МОРЕ",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "ПРИП АРХАНГЕЛЬСК 84 КАРТА 91306\nБЕЛОЕ МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 14 И 15 АВГ 0500 ДО 1900\nРАЙОНАХ ЗАПРЕТНЫХ ДЛЯ ПЛАВАНИЯ\nА. 66-20.6С 033-52.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-21.4С 033-51.5В\n66-32.0С 034-28.3В\n66-31.5С 035-04.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-30.0С 040-34.5В\n66-30.0С 040-37.0В\n66-10.3С 041-36.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-04.5С 040-06.0В\n65-04.0С 040-05.0В\nИСКЛЮЧАЯ ОСТРОВА\nБ. 66-31.0С 042-15.0В\n66-40.5С 042-36.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-42.3С 042-40.0В\n67-12.5С 043-46.3В\n66-14.5С 044-05.0В\n66-14.5С 043-40.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-23.5С 042-50.5В\n66-26.0С 042-37.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-31.0С 042-15.0В\n2. ОТМ ЭТОТ НР 152000 АВГ=\n101100 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.620065+00:00",
+        "valid_until": "2026-08-15T20:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 84/26#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.25,
+              66.51666666666667
+            ],
+            [
+              42.6,
+              66.675
+            ],
+            [
+              42.666666666666664,
+              66.705
+            ],
+            [
+              43.77166666666667,
+              67.20833333333333
+            ],
+            [
+              44.083333333333336,
+              66.24166666666666
+            ],
+            [
+              43.666666666666664,
+              66.24166666666666
+            ],
+            [
+              42.84166666666667,
+              66.39166666666667
+            ],
+            [
+              42.61666666666667,
+              66.43333333333334
+            ],
+            [
+              42.25,
+              66.51666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP ARKHANGELSK 84/26",
+        "group_index": 2,
+        "dtg": "2026-08-13T08:15:36.620065+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 84/26 КАРТА 91306\r\nБЕЛОЕ МОРЕ",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "ПРИП АРХАНГЕЛЬСК 84 КАРТА 91306\nБЕЛОЕ МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 14 И 15 АВГ 0500 ДО 1900\nРАЙОНАХ ЗАПРЕТНЫХ ДЛЯ ПЛАВАНИЯ\nА. 66-20.6С 033-52.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-21.4С 033-51.5В\n66-32.0С 034-28.3В\n66-31.5С 035-04.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-30.0С 040-34.5В\n66-30.0С 040-37.0В\n66-10.3С 041-36.5В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-04.5С 040-06.0В\n65-04.0С 040-05.0В\nИСКЛЮЧАЯ ОСТРОВА\nБ. 66-31.0С 042-15.0В\n66-40.5С 042-36.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-42.3С 042-40.0В\n67-12.5С 043-46.3В\n66-14.5С 044-05.0В\n66-14.5С 043-40.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-23.5С 042-50.5В\n66-26.0С 042-37.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-31.0С 042-15.0В\n2. ОТМ ЭТОТ НР 152000 АВГ=\n101100 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.620065+00:00",
+        "valid_until": "2026-08-15T20:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 85/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.86666666666667,
+              66.35
+            ],
+            [
+              34.471666666666664,
+              66.53333333333333
+            ],
+            [
+              38.655,
+              66.06666666666666
+            ],
+            [
+              40.0,
+              65.65
+            ],
+            [
+              40.11666666666667,
+              65.06666666666666
+            ],
+            [
+              40.083333333333336,
+              65.06666666666666
+            ],
+            [
+              39.36666666666667,
+              64.63333333333334
+            ],
+            [
+              33.86666666666667,
+              66.35
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-13T08:15:36.619713+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 85/26 КАРТА 91306\r\nЮЖНАЯ ЧАСТЬ БЕЛОГО МОРЯ",
+        "msg_id": "PRIP ARKHANGELSK 85/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 85 КАРТА 91306\nЮЖНАЯ ЧАСТЬ БЕЛОГО МОРЯ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 16 И 17 АВГ 0900 ДО 1200\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n66-21.0С 033-52.0В\n66-32.0С 034-28.3В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-04.0С 038-39.3В\n65-39.0С 040-00.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-04.0С 040-07.0В\n65-04.0С 040-05.0В\n64-38.0С 039-22.0В\nИСКЛЮЧАЯ ОСТРОВА\n2. ОТМ ЭТОТ НР 171300 АВГ=\n121100 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.619713+00:00",
+        "valid_until": "2026-08-17T13:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 198/26",
       "geometry": {
         "type": "Polygon",
@@ -1865,35 +2068,6 @@
         "cancel_date": null,
         "valid_from": "2026-05-29T01:36:28.936392+00:00",
         "valid_until": "2026-12-01T00:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "PRIP MURMANSK 250/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.94383333333333,
-          69.51716666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2026-07-10T04:42:52.470781+00:00",
-        "raw_dtg": "ПРИП МУРМАНСК 250/26 КАРТА 12000\r\n\r\nМОТОВСКИЙ ЗАЛИВ",
-        "msg_id": "PRIP MURMANSK 250/26",
-        "year": 2026,
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "ПРИП МУРМАНСК 250 КАРТА 12000\nМОТОВСКИЙ ЗАЛИВ\n1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ 11 ИЮЛЬ\nПО 10 АВГ КРУГЛОСУТОЧНО РАЙОН РАДИУСОМ\n1 МИЛЯ ИЗ 69-31.03С 032-56.63В\n2. ОТМ ЭТОТ НР 11 АВГ=\n091000 МСК  ГС-",
-        "cancel_date": null,
-        "valid_from": "2026-07-10T04:42:52.470781+00:00",
-        "valid_until": "2026-08-11T00:00:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -2213,63 +2387,6 @@
     },
     {
       "type": "Feature",
-      "id": "PRIP MURMANSK 273/26",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              33.135,
-              69.715
-            ],
-            [
-              33.5,
-              69.71666666666667
-            ],
-            [
-              33.5,
-              69.53333333333333
-            ],
-            [
-              33.21666666666667,
-              69.42166666666667
-            ],
-            [
-              32.833333333333336,
-              69.5
-            ],
-            [
-              32.833333333333336,
-              69.56666666666666
-            ],
-            [
-              33.135,
-              69.715
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-08-01T04:15:16.013125+00:00",
-        "raw_dtg": "ПРИП МУРМАНСК 273/26 КАРТА 12000\r\nЮГО-ВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
-        "msg_id": "PRIP MURMANSK 273/26",
-        "year": 2026,
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "1. СПЕЦИАЛЬНЫЕ РАБОТЫ 06 ПО 08 АВГ\n1000 ДО 1300 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-42.9С 033-08.1В\n69-43.0С 033-30.0В\n69-32.0С 033-30.0В\n69-25.3С 033-13.0В\n69-30.0С 032-50.0В\n69-34.0С 032-50.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-42.9С 033-08.1В\n2. ОТМ ЭТОТ НР 081400 АВГ=\n311000 МСК  ГС-",
-        "cancel_date": null,
-        "valid_from": "2026-08-01T04:15:16.013125+00:00",
-        "valid_until": "2026-08-08T14:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "PRIP MURMANSK 274/26",
       "geometry": {
         "type": "Polygon",
@@ -2319,6 +2436,333 @@
     },
     {
       "type": "Feature",
+      "id": "PRIP MURMANSK 275/26#grp1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.8,
+              69.55
+            ],
+            [
+              51.233333333333334,
+              69.28333333333333
+            ],
+            [
+              52.03333333333333,
+              69.01666666666667
+            ],
+            [
+              50.45,
+              69.0
+            ],
+            [
+              49.8,
+              69.55
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP MURMANSK 275/26",
+        "group_index": 1,
+        "dtg": "2026-08-13T08:15:36.591096+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 275/26 ПРИП МУРМАНСК 275 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "1. ПУСКИ РАКЕТНЫЕ 13 АВГ 2100 ДО 2400 И\n14 ПО 26 АВГ 0000 ДО 1800 И 2100 ДО 2400 И\n27 АВГ 0000 ДО 1800 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНАХ\nА. 69-33-00С 049-48-00В\n   69-17-00С 051-14-00В\n   69-01-00С 052-02-00В\n   69-00-00С 050-27-00В\nБ. 70-46-16С 033-52-10В\n   69-45-49С 035-13-13В\n   69-34-49С 033-57-26В\n   70-33-56С 032-36-41В\nВ. 73-01-32С 030-54-14В\n   71-53-10С 032-54-52В\n   71-39-35С 031-25-13В\n   72-47-11С 029-27-53В\n2. ОТМ ЭТОТ НР 271900 АВГ=\n071000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.591096+00:00",
+        "valid_until": "2026-08-27T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 275/26#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.86944444444445,
+              70.77111111111111
+            ],
+            [
+              35.22027777777778,
+              69.76361111111112
+            ],
+            [
+              33.95722222222223,
+              69.58027777777778
+            ],
+            [
+              32.61138888888889,
+              70.56555555555555
+            ],
+            [
+              33.86944444444445,
+              70.77111111111111
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP MURMANSK 275/26",
+        "group_index": 2,
+        "dtg": "2026-08-13T08:15:36.591096+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 275/26 ПРИП МУРМАНСК 275 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "1. ПУСКИ РАКЕТНЫЕ 13 АВГ 2100 ДО 2400 И\n14 ПО 26 АВГ 0000 ДО 1800 И 2100 ДО 2400 И\n27 АВГ 0000 ДО 1800 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНАХ\nА. 69-33-00С 049-48-00В\n   69-17-00С 051-14-00В\n   69-01-00С 052-02-00В\n   69-00-00С 050-27-00В\nБ. 70-46-16С 033-52-10В\n   69-45-49С 035-13-13В\n   69-34-49С 033-57-26В\n   70-33-56С 032-36-41В\nВ. 73-01-32С 030-54-14В\n   71-53-10С 032-54-52В\n   71-39-35С 031-25-13В\n   72-47-11С 029-27-53В\n2. ОТМ ЭТОТ НР 271900 АВГ=\n071000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.591096+00:00",
+        "valid_until": "2026-08-27T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 275/26#grp3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.903888888888886,
+              73.02555555555556
+            ],
+            [
+              32.91444444444444,
+              71.88611111111112
+            ],
+            [
+              31.42027777777778,
+              71.65972222222223
+            ],
+            [
+              29.46472222222222,
+              72.7863888888889
+            ],
+            [
+              30.903888888888886,
+              73.02555555555556
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP MURMANSK 275/26",
+        "group_index": 3,
+        "dtg": "2026-08-13T08:15:36.591096+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 275/26 ПРИП МУРМАНСК 275 КАРТА 10100\r\n\r\nБАРЕНЦЕВО МОРЕ",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "1. ПУСКИ РАКЕТНЫЕ 13 АВГ 2100 ДО 2400 И\n14 ПО 26 АВГ 0000 ДО 1800 И 2100 ДО 2400 И\n27 АВГ 0000 ДО 1800 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНАХ\nА. 69-33-00С 049-48-00В\n   69-17-00С 051-14-00В\n   69-01-00С 052-02-00В\n   69-00-00С 050-27-00В\nБ. 70-46-16С 033-52-10В\n   69-45-49С 035-13-13В\n   69-34-49С 033-57-26В\n   70-33-56С 032-36-41В\nВ. 73-01-32С 030-54-14В\n   71-53-10С 032-54-52В\n   71-39-35С 031-25-13В\n   72-47-11С 029-27-53В\n2. ОТМ ЭТОТ НР 271900 АВГ=\n071000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.591096+00:00",
+        "valid_until": "2026-08-27T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 276/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.083333333333336,
+              69.66666666666667
+            ],
+            [
+              33.416666666666664,
+              69.66666666666667
+            ],
+            [
+              33.416666666666664,
+              69.51666666666667
+            ],
+            [
+              33.083333333333336,
+              69.45
+            ],
+            [
+              32.833333333333336,
+              69.51666666666667
+            ],
+            [
+              32.833333333333336,
+              69.56666666666666
+            ],
+            [
+              33.083333333333336,
+              69.66666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-13T08:15:36.590749+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 276/26 КАРТА 12000\r\n\r\nЮГО-ВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ",
+        "msg_id": "PRIP MURMANSK 276/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "МУРМАНСК 01 10/08 1500=\n \nПРИП МУРМАНСК 276 КАРТА 12000\nЮГО-ВОСТОЧНЕЕ ПОЛУОСТРОВА РЫБАЧИЙ\n1. СПЕЦИАЛЬНЫЕ РАБОТЫ 13 ПО 15 АВГ\n0600 ДО 1500 РАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n69-40.0С 033-05.0В\n69-40.0С 033-25.0В\n69-31.0С 033-25.0В\n69-27.0С 033-05.0В\n69-31.0С 032-50.0В\n69-34.0С 032-50.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n69-40.0С 033-05.0В\n2. ОТМ ЭТОТ НР 151600 АВГ=\n101000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.590749+00:00",
+        "valid_until": "2026-08-15T16:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 277/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.94383333333333,
+          69.51716666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-13T08:15:36.590485+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 277/26 КАРТА 12000\r\n\r\nМОТОВСКИЙ ЗАЛИВ",
+        "msg_id": "PRIP MURMANSK 277/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 277 КАРТА 12000\nМОТОВСКИЙ ЗАЛИВ\n1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ 11 АВГ\nПО 10 СЕНТ КРУГЛОСУТОЧНО РАЙОН РАДИУСОМ\n1 МИЛЯ ИЗ 69-31.03С 032-56.63В\n2. ОТМ ЭТОТ НР 11 СЕНТ=\n101000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.590485+00:00",
+        "valid_until": "2026-09-11T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 278/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.333333333333336,
+              69.66666666666667
+            ],
+            [
+              37.03333333333333,
+              69.66666666666667
+            ],
+            [
+              37.03333333333333,
+              69.35833333333333
+            ],
+            [
+              35.333333333333336,
+              69.35833333333333
+            ],
+            [
+              35.333333333333336,
+              69.66666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-13T08:15:36.590091+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 278/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
+        "msg_id": "PRIP MURMANSK 278/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 278 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. СТРЕЛЬБЫ АРТИЛЛЕРИЙСКИЕ 17 ПО 20 АВГ\n0500 ДО 1900 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНЕ\n69-40.0С 035-20.0В\n69-40.0С 037-02.0В\n69-21.5С 037-02.0В\n69-21.5С 035-20.0В\n2. ОТМ ЭТОТ НР 202000 АВГ=\n121000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.590091+00:00",
+        "valid_until": "2026-08-20T20:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 279/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              51.233333333333334,
+              69.28333333333333
+            ],
+            [
+              52.03333333333333,
+              69.01666666666667
+            ],
+            [
+              50.45,
+              68.31666666666666
+            ],
+            [
+              49.8,
+              68.55
+            ],
+            [
+              51.233333333333334,
+              69.28333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-13T08:15:36.588482+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 279/26 КАРТА 10100 ПОМОРСКИЙ ПРОЛИВ",
+        "msg_id": "PRIP MURMANSK 279/26",
+        "year": 2026,
+        "cancellations": [
+          "275/26"
+        ],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП МУРМАНСК 279 КАРТА 10100\nПОМОРСКИЙ ПРОЛИВ\n1. ПУСКИ РАКЕТНЫЕ 13 АВГ 2100 ДО 2400 И\n14 ПО 26 АВГ 0000 ДО 1800 И 2100 ДО 2400 И\n27 АВГ 0000 ДО 1800 ПЛАВАНИЕ ЗАПРЕЩЕНО\nТЕРВОДАХ ОПАСНО ИХ ПРЕДЕЛАМИ РАЙОНЕ\n69-17.0С 051-14.0В\n69-01.0С 052-02.0В\n68-19.0С 050-27.0В\n68-33.0С 049-48.0В\n2. ОТМ ЭТОТ НР 271900 АВГ\n3. ОТМ 275/26 ПУНКТ А И ЭТОТ ПУНКТ=\n121000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.588482+00:00",
+        "valid_until": "2026-08-27T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PRIP MURMANSK 330/25",
       "geometry": {
         "type": "Polygon",
@@ -2362,6 +2806,903 @@
         "cancel_date": null,
         "valid_from": "2026-03-14T01:31:34.733614+00:00",
         "valid_until": "2026-10-02T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 103/26#grp1",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                72.10583333333334,
+                71.25983333333333
+              ],
+              [
+                72.142,
+                71.28616666666667
+              ],
+              [
+                72.13598222736402,
+                71.28840583788005
+              ],
+              [
+                72.30305340504074,
+                71.28941462808432
+              ],
+              [
+                72.10333333333334,
+                71.25933333333333
+              ],
+              [
+                72.10583333333334,
+                71.25983333333333
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                72.50033333333333,
+                71.26966666666667
+              ],
+              [
+                72.4,
+                71.29
+              ],
+              [
+                72.30305340504074,
+                71.28941462808432
+              ],
+              [
+                72.44083333333333,
+                71.31016666666666
+              ],
+              [
+                72.54083333333334,
+                71.28933333333333
+              ],
+              [
+                72.50033333333333,
+                71.26966666666667
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                72.3215,
+                71.34666666666666
+              ],
+              [
+                72.13483333333333,
+                71.28883333333333
+              ],
+              [
+                72.13598222736402,
+                71.28840583788005
+              ],
+              [
+                72.04116666666667,
+                71.28783333333334
+              ],
+              [
+                72.12316666666666,
+                71.293
+              ],
+              [
+                72.31166666666667,
+                71.3495
+              ],
+              [
+                72.3215,
+                71.34666666666666
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 103/26",
+        "group_index": 1,
+        "dtg": "2026-08-13T08:15:36.649108+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 103/26 КАРТА 13331 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА\r\nOBSKAYA GUBA. CHART RUS 13331.",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1.\tДНОУГЛУБИТЕЛЬНЫЕ РАБОТЫ С 08 АВГ ПО 15 ОКТ РАЙОНЕ\nА. 71-17.27С 072-02.47В 71-17.58С 072-07.39В 71-20.97С 072-18.70В 71-20.80С 072-19.29В\n71-17.33С 072-08.09В 71-17.17С 072-08.52В\n71-15.59С 072-06.35В 71-15.56С 072-06.20В\nБ. 71-18.61С 072-26.45В 71-17.36С 072-32.45В 71-16.18С 072-30.02В 71-17.40С 072-24.00В ОБХОДИТЬ НА БЕЗОПАСНОЙ ДИСТАНЦИИ\n2.\tРАЙОНЫ СВАЛКИ РАЗРАБОТАННОГО ГРУНТА ЦЕНТРОМ В ТОЧКЕ 71-21.44С 072-09.24 РАДИУСОМ 1500 М\nСИСТЕМА КООРДИНАТ WGS-84\n3.\tОТМ ЭТОТ НОМЕР 16 ОКТ= \nCOASTAL WARNING WEST 103/26 KARA SEA.\nOBSKAYA GUBA. CHART RUS 13331.\n1.\tDREDGING OPERATIONS IN PROGRESS FROM 08 AUG TO 15 OCT IN AREA BOUNDED BY:\nA. 71-17.27N 072-02.47E, 71-17.58N 072-07.39E, 71-20.97N 072-18.70E, 71-20.80N 072-19.29E,\n71-17.33N 072-08.09E, 71-17.17N 072-08.52E,\n71-15.59N 072-06.35E, 71-15.56N 072-06.20E.\nB. 71-18.61N 072-26.45E, 71-17.36N 072-32.45E, 71-16.18N 072-30.02E, 71-17.40N 072-24.00.E WIDE BERTH REQUESTED.\n2.\tDUMPING AREA FOR EXCAVATED GROUND BOUNDED: BY RADIUS OF 1500 METERS IN 71-21.44N 072-09.24E. WGS-84 DATUM.\n3.\tCANCEL THIS MSG 16 OCT 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.649108+00:00",
+        "valid_until": "2026-10-15T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 103/26#grp2",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                72.10583333333334,
+                71.25983333333333
+              ],
+              [
+                72.13897431017213,
+                71.28396362983348
+              ],
+              [
+                72.2402571787622,
+                71.2799564310399
+              ],
+              [
+                72.10333333333334,
+                71.25933333333333
+              ],
+              [
+                72.10583333333334,
+                71.25983333333333
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                72.50033333333333,
+                71.26966666666667
+              ],
+              [
+                72.2402571787622,
+                71.2799564310399
+              ],
+              [
+                72.44083333333333,
+                71.31016666666666
+              ],
+              [
+                72.54083333333334,
+                71.28933333333333
+              ],
+              [
+                72.50033333333333,
+                71.26966666666667
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                72.3215,
+                71.34666666666666
+              ],
+              [
+                72.13483333333333,
+                71.28883333333333
+              ],
+              [
+                72.142,
+                71.28616666666667
+              ],
+              [
+                72.13897431017213,
+                71.28396362983348
+              ],
+              [
+                72.04116666666667,
+                71.28783333333334
+              ],
+              [
+                72.12316666666666,
+                71.293
+              ],
+              [
+                72.31166666666667,
+                71.3495
+              ],
+              [
+                72.3215,
+                71.34666666666666
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 103/26",
+        "group_index": 2,
+        "dtg": "2026-08-13T08:15:36.649108+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 103/26 КАРТА 13331 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА\r\nOBSKAYA GUBA. CHART RUS 13331.",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1.\tДНОУГЛУБИТЕЛЬНЫЕ РАБОТЫ С 08 АВГ ПО 15 ОКТ РАЙОНЕ\nА. 71-17.27С 072-02.47В 71-17.58С 072-07.39В 71-20.97С 072-18.70В 71-20.80С 072-19.29В\n71-17.33С 072-08.09В 71-17.17С 072-08.52В\n71-15.59С 072-06.35В 71-15.56С 072-06.20В\nБ. 71-18.61С 072-26.45В 71-17.36С 072-32.45В 71-16.18С 072-30.02В 71-17.40С 072-24.00В ОБХОДИТЬ НА БЕЗОПАСНОЙ ДИСТАНЦИИ\n2.\tРАЙОНЫ СВАЛКИ РАЗРАБОТАННОГО ГРУНТА ЦЕНТРОМ В ТОЧКЕ 71-21.44С 072-09.24 РАДИУСОМ 1500 М\nСИСТЕМА КООРДИНАТ WGS-84\n3.\tОТМ ЭТОТ НОМЕР 16 ОКТ= \nCOASTAL WARNING WEST 103/26 KARA SEA.\nOBSKAYA GUBA. CHART RUS 13331.\n1.\tDREDGING OPERATIONS IN PROGRESS FROM 08 AUG TO 15 OCT IN AREA BOUNDED BY:\nA. 71-17.27N 072-02.47E, 71-17.58N 072-07.39E, 71-20.97N 072-18.70E, 71-20.80N 072-19.29E,\n71-17.33N 072-08.09E, 71-17.17N 072-08.52E,\n71-15.59N 072-06.35E, 71-15.56N 072-06.20E.\nB. 71-18.61N 072-26.45E, 71-17.36N 072-32.45E, 71-16.18N 072-30.02E, 71-17.40N 072-24.00.E WIDE BERTH REQUESTED.\n2.\tDUMPING AREA FOR EXCAVATED GROUND BOUNDED: BY RADIUS OF 1500 METERS IN 71-21.44N 072-09.24E. WGS-84 DATUM.\n3.\tCANCEL THIS MSG 16 OCT 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.649108+00:00",
+        "valid_until": "2026-10-15T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 103/26#grp3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.154,
+          71.35733333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 103/26",
+        "group_index": 3,
+        "dtg": "2026-08-13T08:15:36.649108+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 103/26 КАРТА 13331 КАРСКОЕ МОРЕ ОБСКАЯ ГУБА\r\nOBSKAYA GUBA. CHART RUS 13331.",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1.\tДНОУГЛУБИТЕЛЬНЫЕ РАБОТЫ С 08 АВГ ПО 15 ОКТ РАЙОНЕ\nА. 71-17.27С 072-02.47В 71-17.58С 072-07.39В 71-20.97С 072-18.70В 71-20.80С 072-19.29В\n71-17.33С 072-08.09В 71-17.17С 072-08.52В\n71-15.59С 072-06.35В 71-15.56С 072-06.20В\nБ. 71-18.61С 072-26.45В 71-17.36С 072-32.45В 71-16.18С 072-30.02В 71-17.40С 072-24.00В ОБХОДИТЬ НА БЕЗОПАСНОЙ ДИСТАНЦИИ\n2.\tРАЙОНЫ СВАЛКИ РАЗРАБОТАННОГО ГРУНТА ЦЕНТРОМ В ТОЧКЕ 71-21.44С 072-09.24 РАДИУСОМ 1500 М\nСИСТЕМА КООРДИНАТ WGS-84\n3.\tОТМ ЭТОТ НОМЕР 16 ОКТ= \nCOASTAL WARNING WEST 103/26 KARA SEA.\nOBSKAYA GUBA. CHART RUS 13331.\n1.\tDREDGING OPERATIONS IN PROGRESS FROM 08 AUG TO 15 OCT IN AREA BOUNDED BY:\nA. 71-17.27N 072-02.47E, 71-17.58N 072-07.39E, 71-20.97N 072-18.70E, 71-20.80N 072-19.29E,\n71-17.33N 072-08.09E, 71-17.17N 072-08.52E,\n71-15.59N 072-06.35E, 71-15.56N 072-06.20E.\nB. 71-18.61N 072-26.45E, 71-17.36N 072-32.45E, 71-16.18N 072-30.02E, 71-17.40N 072-24.00.E WIDE BERTH REQUESTED.\n2.\tDUMPING AREA FOR EXCAVATED GROUND BOUNDED: BY RADIUS OF 1500 METERS IN 71-21.44N 072-09.24E. WGS-84 DATUM.\n3.\tCANCEL THIS MSG 16 OCT 26.= NNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.649108+00:00",
+        "valid_until": "2026-10-15T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 104/26#grp1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.87383333333334,
+          68.445
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 104/26",
+        "group_index": 1,
+        "dtg": "2026-08-13T08:15:36.648145+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 104/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-26.7С 073-52.43В\nБ. 68-28.61С 074-07.17В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 АВГ 27=\n\nCOASTAL WARNING WEST 104/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-26.7N 073-52.43E.\nB. 68-28.61N 074-07.17E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 AUG 27.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.648145+00:00",
+        "valid_until": "2027-08-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 104/26#grp2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.1195,
+          68.47683333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 104/26",
+        "group_index": 2,
+        "dtg": "2026-08-13T08:15:36.648145+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 104/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-26.7С 073-52.43В\nБ. 68-28.61С 074-07.17В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 АВГ 27=\n\nCOASTAL WARNING WEST 104/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-26.7N 073-52.43E.\nB. 68-28.61N 074-07.17E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 AUG 27.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.648145+00:00",
+        "valid_until": "2027-08-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 104/26#grp3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.87383333333334,
+          68.445
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 104/26",
+        "group_index": 3,
+        "dtg": "2026-08-13T08:15:36.648145+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 104/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-26.7С 073-52.43В\nБ. 68-28.61С 074-07.17В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 АВГ 27=\n\nCOASTAL WARNING WEST 104/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-26.7N 073-52.43E.\nB. 68-28.61N 074-07.17E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 AUG 27.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.648145+00:00",
+        "valid_until": "2027-08-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 104/26#grp4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.1195,
+          68.47683333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 104/26",
+        "group_index": 4,
+        "dtg": "2026-08-13T08:15:36.648145+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 104/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-26.7С 073-52.43В\nБ. 68-28.61С 074-07.17В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 АВГ 27=\n\nCOASTAL WARNING WEST 104/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-26.7N 073-52.43E.\nB. 68-28.61N 074-07.17E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 AUG 27.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.648145+00:00",
+        "valid_until": "2027-08-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.63616666666667,
+          68.54833333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 1,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.27216666666666,
+          68.39466666666667
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 10,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.63616666666667,
+          68.54833333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 11,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.27216666666666,
+          68.39466666666667
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 12,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.57233333333333,
+          68.53783333333334
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 13,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6555,
+          68.527
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 14,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85583333333334,
+          68.48783333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 15,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.99483333333333,
+          68.45716666666667
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 16,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.268,
+          68.40783333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 17,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.32516666666666,
+          68.39883333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 18,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp19",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.636,
+          68.54833333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 19,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.27216666666666,
+          68.39466666666667
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 2,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp20",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.27216666666666,
+          68.39466666666667
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 20,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.57233333333333,
+          68.53783333333334
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 3,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6555,
+          68.527
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 4,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85583333333334,
+          68.48783333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 5,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.99483333333333,
+          68.45716666666667
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 6,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.268,
+          68.40783333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 7,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.32516666666666,
+          68.39883333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 8,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP WEST 105/26#grp9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.636,
+          68.54833333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP WEST 105/26",
+        "group_index": 9,
+        "dtg": "2026-08-13T08:15:36.642603+00:00",
+        "raw_dtg": "ПРИП ЗАПАД 105/26 КАРТА 13336\r\nКАРСКОЕ МОРЕ ОБСКАЯ ГУБА",
+        "year": 2026,
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "body": "1. АВТОМАТИЧЕСКИЕ ДОННЫЕ СТАНЦИИ ВЫСТАВЛЕНЫ В\nА. 68-32.9С 073-38.17В\nБ. 68-23.68С 074-16.33В\nВ. 68-32.27С 073-34.34В\nГ. 68-31.62С 073-39.33В\nД. 68-29.27С 073-51.35В\nЕ. 68-27.43С 073-59.69В\nЖ. 68-24.47С 074-16.08В\nЗ. 68-23.93С 074-19.51В\nИ. 68-32.9С 073-38.16В\nК. 68-23.68С 074-16.33В\nСИСТЕМА КООРДИНАТ WGS-84\nОБХОДИТЬ 0.1 МИЛИ\n2. ОТМ ЭТОТ НР 01 ОКТ 26=\n\nCOASTAL WARNING WEST 105/26\nKARA SEA.\nOBSKAYA GUBA.\nCHART RUS 13336.\n1. AUTOMATIC BOTTOM STATIONS ESTABLISHED IN:\nA. 68-32.9N 073-38.17E.\nB. 68-23.68N 074-16.33E.\nC. 68-32.27N 073-34.34E.\nD. 68-31.62N 073-39.33E.\nE. 68-29.27N 073-51.35E.\nF. 68-27.43N 073-59.69E.\nG. 68-24.47N 074-16.08E.\nH. 68-23.93N 074-19.51E.\nI. 68-32.9N 073-38.16E.\nJ. 68-23.68N 074-16.33E.\nWGS-84 DATUM.\n0.1 MILE BERTH REQUESTED.\n2. CANCEL THIS MSG 01 OCT 26.=\nNNNN",
+        "cancel_date": null,
+        "valid_from": "2026-08-13T08:15:36.642603+00:00",
+        "valid_until": "2026-10-01T00:00:00+00:00",
         "corrections": [],
         "summary": null
       }
