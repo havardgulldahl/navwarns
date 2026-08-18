@@ -55,37 +55,6 @@
     },
     {
       "type": "Feature",
-      "id": "ESTONIAN NAV WARN 128/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.366666666666667,
-          59.61666666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2026-08-14T06:01:00",
-        "raw_dtg": "140601Z AUG 26",
-        "msg_id": "ESTONIAN NAV WARN 128/26",
-        "year": 2026,
-        "cancellations": [
-          "171300 UTC AUG"
-        ],
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Gulf of Finland] ESTONIAN NAV WARN 128/26\nGULF OF FINLAND\n170600-171300 UTC AUG\nFIRING PRACTICE AREA 4B\nCENTRED 59-37N 026-22E\nEXERCISE IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA\nCANCEL 171300 UTC AUG",
-        "cancel_date": null,
-        "valid_from": "2026-08-14T06:01:00+00:00",
-        "valid_until": "2026-08-17T13:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "ESTONIAN NAV WARN 132/26",
       "geometry": {
         "type": "Point",
@@ -336,6 +305,35 @@
         "body": "[Western Baltic] GERMAN NAV WARN 453/26\nWESTERN BALTIC. SOUTH WEST OF WUSTROW\nDREDGING OPERATIONS BY 'ASTREA', CS 'SYBE',\nAROUND POSITION 54-18,0N 012-17,7E\nGUARD VESSEL  'OEG VENTURE', CS 'MAWI6' ON SITE.\nA SAFTEY BERTH OF 0,5 NM IS REQUIRED.",
         "cancel_date": null,
         "valid_from": "2026-08-14T06:50:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GERMAN NAV WARN 463/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7,
+          54.13333333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-17T10:15:00",
+        "raw_dtg": "171015Z AUG 26",
+        "msg_id": "GERMAN NAV WARN 463/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Western Baltic] GERMAN NAV WARN 463/26\nGERMAN NAVIGATIONAL WARNING NO. 463\nWESTERN BALTIC. MECKLENBURG BAY.\n'BUK' LIGHTHOUSE 54-08N 011-42E UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-08-17T10:15:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -755,29 +753,94 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 173/26",
+      "id": "HYDROARC 174/26#grp1",
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -156.5,
-          75.63333333333334
+          [
+            [
+              46.36666666666667,
+              70.78333333333333
+            ],
+            [
+              47.6,
+              70.61666666666666
+            ],
+            [
+              46.6,
+              69.76666666666667
+            ],
+            [
+              45.333333333333336,
+              69.93333333333334
+            ],
+            [
+              46.36666666666667,
+              70.78333333333333
+            ]
+          ]
         ]
       },
       "properties": {
-        "dtg": "2026-08-16T23:28:00",
-        "raw_dtg": "162328Z AUG 26",
-        "msg_id": "HYDROARC 173/26",
+        "parent_id": "HYDROARC 174/26",
+        "group_index": 1,
+        "dtg": "2026-08-17T17:44:00",
+        "raw_dtg": "171744Z AUG 26",
         "year": 2026,
-        "cancellations": [],
         "hazard_type": "hazardous operations",
         "category": "military",
         "title": "Hazardous Operations",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "HYDROARC 173/26\nBEAUFORT SEA.\nCHUKCHI SEA.\n1. GUNNERY EXERCISES 172100Z TO 180001Z AUG\n   IN AREA WITHIN 50 MILES OF 75-38.00N 156-30.00W.\n2. CANCEL THIS MSG 180100Z AUG 26.",
+        "body": "HYDROARC 174/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   192100Z TO 200001Z, 0000Z TO 1800Z AND\n   2100Z TO 0000Z DAILY 20 THRU 29 AND\n   300000Z TO 301800Z AUG IN AREAS BOUND BY:\n   A. 70-47.00N 046-22.00E, 70-37.00N 047-36.00E,\n      69-46.00N 046-36.00E, 69-56.00N 045-20.00E.\n   B. 74-04.00N 051-13.50E, 73-51.67N 052-40.00E,\n      72-44.00N 050-36.00E, 72-57.00N 049-13.00E.\n2. CANCEL THIS MSG 301900Z AUG 26.",
         "cancel_date": null,
-        "valid_from": "2026-08-16T23:28:00+00:00",
-        "valid_until": "2026-08-18T01:00:00+00:00",
+        "valid_from": "2026-08-17T17:44:00+00:00",
+        "valid_until": "2026-08-30T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 174/26#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              51.225,
+              74.06666666666666
+            ],
+            [
+              52.666666666666664,
+              73.86116666666666
+            ],
+            [
+              50.6,
+              72.73333333333333
+            ],
+            [
+              49.21666666666667,
+              72.95
+            ],
+            [
+              51.225,
+              74.06666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 174/26",
+        "group_index": 2,
+        "dtg": "2026-08-17T17:44:00",
+        "raw_dtg": "171744Z AUG 26",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "HYDROARC 174/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   192100Z TO 200001Z, 0000Z TO 1800Z AND\n   2100Z TO 0000Z DAILY 20 THRU 29 AND\n   300000Z TO 301800Z AUG IN AREAS BOUND BY:\n   A. 70-47.00N 046-22.00E, 70-37.00N 047-36.00E,\n      69-46.00N 046-36.00E, 69-56.00N 045-20.00E.\n   B. 74-04.00N 051-13.50E, 73-51.67N 052-40.00E,\n      72-44.00N 050-36.00E, 72-57.00N 049-13.00E.\n2. CANCEL THIS MSG 301900Z AUG 26.",
+        "cancel_date": null,
+        "valid_from": "2026-08-17T17:44:00+00:00",
+        "valid_until": "2026-08-30T19:00:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -1747,30 +1810,47 @@
     },
     {
       "type": "Feature",
-      "id": "PRIP ARKHANGELSK 85/26",
+      "id": "POLISH NAV WARN 182/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-17T06:00:00",
+        "raw_dtg": "170600Z AUG 26",
+        "msg_id": "POLISH NAV WARN 182/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] POLISH NAV WARN 182/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\nON 2026-08-17 FROM 06:00 TO 21:59\nON 2026-08-18 FROM 06:00 TO 21:59\nON 2026-08-19 FROM 06:00 TO 21:59\nON 2026-08-20 FROM 06:00 TO 21:59\nON 2026-08-21 FROM 06:00 TO 21:59\nON 2026-08-22 FROM 06:00 TO 21:59\nTIME IN UTC.\nZONE IS CLOSED\nCANCEL THIS MSG 222159 UTC AUG",
+        "cancel_date": null,
+        "valid_from": "2026-08-17T06:00:00+00:00",
+        "valid_until": "2026-08-22T21:59:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 86/26",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              33.86666666666667,
-              66.35
+              40.98833333333333,
+              67.54
             ],
             [
-              34.471666666666664,
-              66.53333333333333
-            ],
-            [
-              38.655,
-              66.06666666666666
-            ],
-            [
-              40.0,
-              65.65
-            ],
-            [
-              40.11666666666667,
-              65.06666666666666
+              44.016666666666666,
+              67.585
             ],
             [
               40.083333333333336,
@@ -1781,16 +1861,24 @@
               64.63333333333334
             ],
             [
-              33.86666666666667,
-              66.35
+              37.355,
+              65.1025
+            ],
+            [
+              37.925,
+              66.08333333333333
+            ],
+            [
+              40.98833333333333,
+              67.54
             ]
           ]
         ]
       },
       "properties": {
-        "dtg": "2026-08-13T08:15:36.619713+00:00",
-        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 85/26 КАРТА 91306\r\nЮЖНАЯ ЧАСТЬ БЕЛОГО МОРЯ",
-        "msg_id": "PRIP ARKHANGELSK 85/26",
+        "dtg": "2026-08-18T02:10:32.058161+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 86/26 КАРТА 91306 БЕЛОЕ МОРЕ",
+        "msg_id": "PRIP ARKHANGELSK 86/26",
         "year": 2026,
         "cancellations": [],
         "hazard_type": "hazardous operations",
@@ -1798,10 +1886,63 @@
         "title": "Hazardous Operations",
         "geometry_kind": "polygon",
         "radius_nm": null,
-        "body": "ПРИП АРХАНГЕЛЬСК 85 КАРТА 91306\nЮЖНАЯ ЧАСТЬ БЕЛОГО МОРЯ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 16 И 17 АВГ 0900 ДО 1200\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n66-21.0С 033-52.0В\n66-32.0С 034-28.3В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n66-04.0С 038-39.3В\n65-39.0С 040-00.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-04.0С 040-07.0В\n65-04.0С 040-05.0В\n64-38.0С 039-22.0В\nИСКЛЮЧАЯ ОСТРОВА\n2. ОТМ ЭТОТ НР 171300 АВГ=\n121100 МСК ГС-",
+        "body": "ПРИП АРХАНГЕЛЬСК 86 КАРТА 91306\nБЕЛОЕ МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 18 И 19 АВГ 0200 ДО 1300\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n67-32.40С 040-59.30В\n67-35.10С 044-01.00В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-04.00С 040-05.00В\n64-38.00С 039-22.00В\n65-06.15С 037-21.30В\n66-05.00С 037-55.50В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-32.40С 040-59.30В \nИСКЛЮЧАЯ ОСТРОВ МОРЖОВЕЦ\n2. ОТМ ЭТОТ НР 191400 АВГ=\n141600 МСК ГС-",
         "cancel_date": null,
-        "valid_from": "2026-08-13T08:15:36.619713+00:00",
-        "valid_until": "2026-08-17T13:00:00+00:00",
+        "valid_from": "2026-08-18T02:10:32.058161+00:00",
+        "valid_until": "2026-08-19T14:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP ARKHANGELSK 87/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.983333333333334,
+              65.88333333333334
+            ],
+            [
+              35.85,
+              66.35
+            ],
+            [
+              39.766666666666666,
+              65.56666666666666
+            ],
+            [
+              40.1,
+              65.06666666666666
+            ],
+            [
+              39.36666666666667,
+              64.63333333333334
+            ],
+            [
+              34.983333333333334,
+              65.88333333333334
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-18T02:10:32.057781+00:00",
+        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 87/26 КАРТА 91306 ЮЖНАЯ ЧАСТЬ БЕЛОГО МОРЯ",
+        "msg_id": "PRIP ARKHANGELSK 87/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "ПРИП АРХАНГЕЛЬСК 87 КАРТА 91306\nЮЖНАЯ ЧАСТЬ БЕЛОГО МОРЯ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 20 И 21 АВГ 0200 ДО 1300\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n65-53.0С 034-59.0В\n66-21.0С 035-51.0В\n65-34.0С 039-46.0В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-04.0С 040-06.0В\n64-38.0С 039-22.0В\n2. ОТМ ЭТОТ НР 211400 АВГ=\n141600 МСК ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-18T02:10:32.057781+00:00",
+        "valid_until": "2026-08-21T14:00:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -2487,6 +2628,100 @@
         "cancel_date": null,
         "valid_from": "2026-08-13T08:15:36.588482+00:00",
         "valid_until": "2026-08-27T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 281/26#grp1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.36666666666667,
+              70.78333333333333
+            ],
+            [
+              47.6,
+              70.61666666666666
+            ],
+            [
+              46.6,
+              69.76666666666667
+            ],
+            [
+              45.333333333333336,
+              69.93333333333334
+            ],
+            [
+              46.36666666666667,
+              70.78333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP MURMANSK 281/26",
+        "group_index": 1,
+        "dtg": "2026-08-18T02:10:32.033919+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 281/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "ПРИП МУРМАНСК 281 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. ПУСКИ РАКЕТНЫЕ 19 АВГ 2100 ДО 2400 И\n20 ПО 29 АВГ 0000 ДО 1800 И 2100 ДО 2400 И\n30 АВГ 0000 ДО 1800\nРАЙОНАХ ОПАСНЫХ ДЛЯ ПЛАВАНИЯ\nА. 70-47-00С 046-22-00В\n   70-37-00С 047-36-00В\n   69-46-00С 046-36-00В\n   69-56-00С 045-20-00В\nБ. 74-04-00С 051-13-30В\n   73-51-40С 052-40-00В\n   72-44-00С 050-36-00В\n   72-57-00С 049-13-00В\n2. ОТМ ЭТОТ НР 301900 АВГ=\n171000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-18T02:10:32.033919+00:00",
+        "valid_until": "2026-08-30T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIP MURMANSK 281/26#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              51.225,
+              74.06666666666666
+            ],
+            [
+              52.666666666666664,
+              73.8611111111111
+            ],
+            [
+              50.6,
+              72.73333333333333
+            ],
+            [
+              49.21666666666667,
+              72.95
+            ],
+            [
+              51.225,
+              74.06666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "PRIP MURMANSK 281/26",
+        "group_index": 2,
+        "dtg": "2026-08-18T02:10:32.033919+00:00",
+        "raw_dtg": "ПРИП МУРМАНСК 281/26 КАРТА 10100 БАРЕНЦЕВО МОРЕ",
+        "year": 2026,
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "ПРИП МУРМАНСК 281 КАРТА 10100\nБАРЕНЦЕВО МОРЕ\n1. ПУСКИ РАКЕТНЫЕ 19 АВГ 2100 ДО 2400 И\n20 ПО 29 АВГ 0000 ДО 1800 И 2100 ДО 2400 И\n30 АВГ 0000 ДО 1800\nРАЙОНАХ ОПАСНЫХ ДЛЯ ПЛАВАНИЯ\nА. 70-47-00С 046-22-00В\n   70-37-00С 047-36-00В\n   69-46-00С 046-36-00В\n   69-56-00С 045-20-00В\nБ. 74-04-00С 051-13-30В\n   73-51-40С 052-40-00В\n   72-44-00С 050-36-00В\n   72-57-00С 049-13-00В\n2. ОТМ ЭТОТ НР 301900 АВГ=\n171000 МСК  ГС-",
+        "cancel_date": null,
+        "valid_from": "2026-08-18T02:10:32.033919+00:00",
+        "valid_until": "2026-08-30T19:00:00+00:00",
         "corrections": [],
         "summary": null
       }
