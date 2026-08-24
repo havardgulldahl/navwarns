@@ -55,6 +55,35 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 338/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.773333333333333,
+          55.29833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-23T12:24:00",
+        "raw_dtg": "231224Z AUG 26",
+        "msg_id": "DANISH NAV WARN 338/26",
+        "year": 2026,
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] DANISH NAV WARN 338/26\nSOUTHERN BARLTIC. DENMARK.\nDGPS-STATION HAMMER ODDE 289.5 KHZ\n55-17.9N 014-46.4E UNRELIABLE.",
+        "cancel_date": null,
+        "valid_from": "2026-08-23T12:24:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "GERMAN NAV WARN 416/26",
       "geometry": {
         "type": "Point",
@@ -771,55 +800,6 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 176/26",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              51.233333333333334,
-              69.28333333333333
-            ],
-            [
-              52.03333333333333,
-              69.01666666666667
-            ],
-            [
-              50.45,
-              68.31666666666666
-            ],
-            [
-              49.8,
-              68.55
-            ],
-            [
-              51.233333333333334,
-              69.28333333333333
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-08-19T00:47:00",
-        "raw_dtg": "190047Z AUG 26",
-        "msg_id": "HYDROARC 176/26",
-        "year": 2026,
-        "cancellations": [],
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "HYDROARC 176/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   0001Z TO 1800Z DAILY UNTIL 23 AUG\n   IN AREA BOUND BY\n   69-17.00N 051-14.00E, 69-01.00N 052-02.00E,\n   68-19.00N 050-27.00E, 68-33.00N 049-48.00E.\n2. CANCEL THIS MSG 231900Z AUG 26.",
-        "cancel_date": null,
-        "valid_from": "2026-08-19T00:47:00+00:00",
-        "valid_until": "2026-08-23T19:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "HYDROARC 178/26#grp1",
       "geometry": {
         "type": "Polygon",
@@ -1300,51 +1280,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVAREA XIX 100/26",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            20.416666666666668,
-            72.535
-          ],
-          [
-            5.304,
-            67.0275
-          ],
-          [
-            7.301666666666667,
-            65.28666666666666
-          ],
-          [
-            6.705,
-            65.13333333333334
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-08-09T18:30:00",
-        "raw_dtg": "091830Z AUG 26",
-        "msg_id": "NAVAREA XIX 100/26",
-        "year": 2026,
-        "cancellations": [
-          "97/26"
-        ],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "multipoint",
-        "radius_nm": null,
-        "body": "NAVAREA XIX 100/26\n\n\n\n1. RIGLIST. CORRECT AT  091830 UTC AUG 26\n\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n\n\n72-32.10N 020-25.00E - TRANSOCEAN ENABLER\n\n67-01.65N 005-18.24E - TRANSOCEAN NORGE\n\n65-17.20N 007-18.10E - ISLAND INNOVATOR\n\n65-08.00N 006-42.30E - TRANSOCEAN ENCOURAGE\n\n\n\nNOTES:\n\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX　97/26",
-        "cancel_date": null,
-        "valid_from": "2026-08-09T18:30:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVAREA XIX 102/26",
       "geometry": null,
       "properties": {
@@ -1363,6 +1298,51 @@
         "body": "NAVAREA XIX 102/26\n\n1. NAVAREA XIX WARNINGS INFORCE AT 211830 UTC AUG 26\n\n2026 SERIES: 45, 99, 100, 102.\n\n2. CANCEL NAVAREA XIX 101/26",
         "cancel_date": null,
         "valid_from": "2026-08-21T18:30:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XIX 103/26",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            20.358333333333334,
+            72.545
+          ],
+          [
+            5.304,
+            67.0275
+          ],
+          [
+            7.301666666666667,
+            65.28666666666666
+          ],
+          [
+            6.705,
+            65.13333333333334
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-08-24T06:30:00",
+        "raw_dtg": "240630Z AUG 26",
+        "msg_id": "NAVAREA XIX 103/26",
+        "year": 2026,
+        "cancellations": [
+          "100/26"
+        ],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "multipoint",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 103/26\n\n\n\n1. RIGLIST. CORRECT AT  240630 UTC AUG 26\n\nNORWEGIAN SEA: NORTH OF 65N, EAST OF 5W.\n\n\n\n72-32.70N 020-21.50E - TRANSOCEAN ENABLER\n\n67-01.65N 005-18.24E - TRANSOCEAN NORGE\n\n65-17.20N 007-18.10E - ISLAND INNOVATOR\n\n65-08.00N 006-42.30E - TRANSOCEAN ENCOURAGE\n\n\n\nNOTES:\n\nA. RIGS ARE PROTECTED BY A 500 METRE SAFETY ZONE.\n\nB. FOR RIGS LOCATED SOUTH OF 65N, REFER TO NAVAREA I WARNINGS OR VISIT WWW.UKHO.GOV.UK/RNW\n\n2. CANCEL NAVAREA XIX　100/26",
+        "cancel_date": null,
+        "valid_from": "2026-08-24T06:30:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -2072,63 +2052,6 @@
     },
     {
       "type": "Feature",
-      "id": "PRIP ARKHANGELSK 88/26",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.98833333333333,
-              67.54
-            ],
-            [
-              44.016666666666666,
-              67.585
-            ],
-            [
-              40.083333333333336,
-              65.06666666666666
-            ],
-            [
-              39.36666666666667,
-              64.63333333333334
-            ],
-            [
-              37.355,
-              65.1025
-            ],
-            [
-              37.925,
-              66.08333333333333
-            ],
-            [
-              40.98833333333333,
-              67.54
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-08-19T02:12:51.595660+00:00",
-        "raw_dtg": "ПРИП АРХАНГЕЛЬСК 88/26  КАРТА 91306 БЕЛОЕ МОРЕ",
-        "msg_id": "PRIP ARKHANGELSK 88/26",
-        "year": 2026,
-        "cancellations": [],
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "ПРИП АРХАНГЕЛЬСК 88 КАРТА 91306\nБЕЛОЕ МОРЕ\n1. СТРЕЛЬБЫ РАКЕТНЫЕ 22 И 23 АВГ 0200 ДО 1300\nРАЙОНЕ ЗАПРЕТНОМ ДЛЯ ПЛАВАНИЯ\n67-32.40С 040-59.30В\n67-35.10С 044-01.00В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n65-04.00С 040-05.00В\n64-38.00С 039-22.00В\n65-06.15С 037-21.30В\n66-05.00С 037-55.50В\nДАЛЕЕ ПО БЕРЕГОВОЙ ЛИНИИ ДО\n67-32.40С 040-59.30В \nИСКЛЮЧАЯ ОСТРОВ МОРЖОВЕЦ\n2. ОТМ ЭТОТ НР 231400 АВГ=\n181500 МСК ГС-",
-        "cancel_date": null,
-        "valid_from": "2026-08-19T02:12:51.595660+00:00",
-        "valid_until": "2026-08-23T14:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "PRIP ARKHANGELSK 89/26",
       "geometry": {
         "type": "Polygon",
@@ -2752,57 +2675,6 @@
         "cancel_date": null,
         "valid_from": "2026-08-19T02:12:51.562667+00:00",
         "valid_until": "2026-08-30T19:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "PRIP MURMANSK 285/26",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              51.233333333333334,
-              69.28333333333333
-            ],
-            [
-              52.03333333333333,
-              69.01666666666667
-            ],
-            [
-              50.45,
-              68.31666666666666
-            ],
-            [
-              49.8,
-              68.55
-            ],
-            [
-              51.233333333333334,
-              69.28333333333333
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-08-19T02:12:51.560937+00:00",
-        "raw_dtg": "ПРИП МУРМАНСК 285/26 КАРТА 10100\r\n\r\nПОМОРСКИЙ ПРОЛИВ",
-        "msg_id": "PRIP MURMANSK 285/26",
-        "year": 2026,
-        "cancellations": [
-          "279/26"
-        ],
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "ПРИП МУРМАНСК 285 КАРТА 10100\nПОМОРСКИЙ ПРОЛИВ\n1. ПУСКИ РАКЕТНЫЕ 18 ПО 23 АВГ 0000 ДО 1800\nПЛАВАНИЕ ЗАПРЕЩЕНО ТЕРВОДАХ ОПАСНО\nИХ ПРЕДЕЛАМИ РАЙОНЕ\n69-17.0С 051-14.0В\n69-01.0С 052-02.0В\n68-19.0С 050-27.0В\n68-33.0С 049-48.0В\n2. ОТМ ЭТОТ НР 231900 АВГ\n3. ОТМ 279/26 ЭТОТ ПУНКТ=\n181000 МСК  ГС-",
-        "cancel_date": null,
-        "valid_from": "2026-08-19T02:12:51.560937+00:00",
-        "valid_until": "2026-08-23T19:00:00+00:00",
         "corrections": [],
         "summary": null
       }
