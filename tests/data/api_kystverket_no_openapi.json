@@ -1,0 +1,313 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "Norwegian Coastal Administration - Data API",
+        "version": "0.1.0"
+    },
+    "paths": {
+        "/data/navigationwarnings/coastal/": {
+            "get": {
+                "tags": [
+                    "navigationwarnings"
+                ],
+                "summary": "Coastal Navigation Warnings",
+                "description": "Get navigation warnings for the Norwegian coast in JSON format. Also known as 'Kystvarsler/NAVCO' <br>.\n\nIn the event that a message does not have a specific position attached to it, the message is parsed using an AI-service to extract any positions in the message. <br>\n\nThis service is not intended to be a substitute for, or an alternative to, the ordinary navigational warning\nservice.  <br>\n\nThus, the publication of navigation warnings on this API does not exempt seafarers from\nthe responsibility of following official navigation warnings sent over NAVTEX, SafetyCast and SafetyNET in accordance with national regulations and SOLAS provisions.  # noqa: RUF002\n\nOfficial site: [Navigation Warnings at the Norwegian Coastal Administration](https://www.kystverket.no/navigasjonstjenester/navigasjonsvarsling/)",
+                "operationId": "coastal_navigation_warnings_data_navigationwarnings_coastal__get",
+                "responses": {
+                    "200": {
+                        "description": "Response model for navigation warnings in the Norwegian coast. ",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "items": {
+                                        "$ref": "#/components/schemas/Navco"
+                                    },
+                                    "type": "array",
+                                    "title": "Response Coastal Navigation Warnings Data Navigationwarnings Coastal  Get"
+                                }
+                            },
+                            "application/geojson": {
+                                "example": {
+                                    "type": "FeatureCollection",
+                                    "features": [
+                                        {
+                                            "type": "Feature",
+                                            "properties": {
+                                                "eventid": 0,
+                                                "status": "string",
+                                                "eventclass": "string",
+                                                "warningnumber": "string",
+                                                "timestamp": "string",
+                                                "location": "string",
+                                                "norwegianchart": 0,
+                                                "warning_no": "string",
+                                                "warning_en": "string",
+                                                "fdv_id": 0
+                                            },
+                                            "geometry": {
+                                                "type": "Point|Polygon",
+                                                "coordinates": [
+                                                    [
+                                                        [
+                                                            0
+                                                        ]
+                                                    ]
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/data/navigationwarnings/navareaxix/": {
+            "get": {
+                "tags": [
+                    "navigationwarnings"
+                ],
+                "summary": "Get Navigation Warnings For Navarea Xix",
+                "description": "Get navigation warnings for NAVAREA XIX.\n\nWarnings are issued by the Norwegian Coastal Administration and are intended for maritime navigation in the NAVARA XIX area. <br>\nIn the event that the warning does not have a specific position attached to it, a general position is given. <br>\nThe messages contains line breaks and are intended for web display. <br>\n\nIn the event that a message does not have a specific position attached to it, the message is parsed using an AI-service to extract any positions in the message. <br>\n\nThis service is not intended to be a substitute for, or an alternative to, the ordinary navigational warning\nservice.  <br>\n\nThus, the publication of navigation warnings on this API does not exempt seafarers from\nthe responsibility of following official navigation warnings sent over NAVTEX, SafetyCast and SafetyNET in accordance with national regulations and SOLAS provisions.\n\nOfficial site: [Navigation Warnings at the Norwegian Coastal Administration](https://www.kystverket.no/navigasjonstjenester/navigasjonsvarsling/)",
+                "operationId": "get_navigation_warnings_for_navarea_xix_data_navigationwarnings_navareaxix__get",
+                "responses": {
+                    "200": {
+                        "description": "Response model for navigation warnings in NAVAREA XIX.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "items": {
+                                        "$ref": "#/components/schemas/NA19"
+                                    },
+                                    "type": "array",
+                                    "title": "Response Get Navigation Warnings For Navarea Xix Data Navigationwarnings Navareaxix  Get"
+                                }
+                            },
+                            "application/geojson": {
+                                "example": {
+                                    "type": "FeatureCollection",
+                                    "features": [
+                                        {
+                                            "type": "Feature",
+                                            "properties": {
+                                                "eventid": 0,
+                                                "status": "string",
+                                                "eventclass": "string",
+                                                "warningnumber": "string",
+                                                "dtg_timestamp": "string",
+                                                "message_en": "string",
+                                                "updated_at": "string"
+                                            },
+                                            "geometry": {
+                                                "type": "Point|Polygon",
+                                                "coordinates": [
+                                                    [
+                                                        [
+                                                            0
+                                                        ]
+                                                    ]
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/data/dadjokes": {
+            "get": {
+                "summary": "Dadjoke",
+                "description": "Return a delicious pun to brighten your day.",
+                "operationId": "dadjoke_data_dadjokes_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "NA19": {
+                "properties": {
+                    "eventid": {
+                        "type": "integer",
+                        "title": "Eventid",
+                        "description": "Event ID"
+                    },
+                    "status": {
+                        "type": "string",
+                        "title": "Status",
+                        "description": "Status of the event"
+                    },
+                    "eventclass": {
+                        "type": "string",
+                        "title": "Eventclass",
+                        "description": "Class of the event"
+                    },
+                    "warningnumber": {
+                        "type": "string",
+                        "title": "Warningnumber",
+                        "description": "Warning number"
+                    },
+                    "dtg_timestamp": {
+                        "type": "string",
+                        "format": "date-time",
+                        "title": "Dtg Timestamp",
+                        "description": "DTG Timestamp"
+                    },
+                    "position": {
+                        "type": "string",
+                        "title": "Position",
+                        "description": "Geographic position in WGS 84"
+                    },
+                    "message_en": {
+                        "type": "string",
+                        "title": "Message En",
+                        "description": "AI transformed message for readability"
+                    },
+                    "updated_at": {
+                        "type": "string",
+                        "format": "date-time",
+                        "title": "Updated At",
+                        "description": "Timestamp of last update"
+                    }
+                },
+                "type": "object",
+                "title": "NA19",
+                "description": "Navigation Warnings for NAVAREA XIX."
+            },
+            "Navco": {
+                "properties": {
+                    "eventid": {
+                        "type": "integer",
+                        "title": "Eventid",
+                        "description": "Event ID"
+                    },
+                    "status": {
+                        "type": "string",
+                        "title": "Status",
+                        "description": "Status of the event"
+                    },
+                    "eventclass": {
+                        "type": "string",
+                        "title": "Eventclass",
+                        "description": "Class of the event"
+                    },
+                    "warningnumber": {
+                        "type": "string",
+                        "title": "Warningnumber",
+                        "description": "Warning number"
+                    },
+                    "dtg_timestamp": {
+                        "type": "string",
+                        "format": "date-time",
+                        "title": "Dtg Timestamp",
+                        "description": "DTG Timestamp"
+                    },
+                    "location": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Location",
+                        "description": "Location of the event"
+                    },
+                    "norwegianchart": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Norwegianchart",
+                        "description": "Norwegian chart number"
+                    },
+                    "position": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Position",
+                        "description": "Geographic position in WGS 84"
+                    },
+                    "message_no": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Message No",
+                        "description": "Message in Norwegian"
+                    },
+                    "message_en": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Message En",
+                        "description": "Message in English"
+                    },
+                    "fdv_objectid": {
+                        "anyOf": [
+                            {
+                                "type": "number"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Fdv Objectid",
+                        "description": "FDV Object ID"
+                    },
+                    "updated_at": {
+                        "type": "string",
+                        "format": "date-time",
+                        "title": "Updated At",
+                        "description": "Timestamp of last update"
+                    }
+                },
+                "type": "object",
+                "title": "Navco",
+                "description": "Navigation Warnings for the Norwegian coast (NAVCO)."
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "navigationwarnings",
+            "description": "REST API for coastal navigation warnings and NAVAREA XIX for use with web applications.",
+            "externalDocs": {
+                "description": "Official site",
+                "url": "https://www.kystverket.no/navigasjonstjenester/navigasjonsvarsling/"
+            }
+        }
+    ]
+}
