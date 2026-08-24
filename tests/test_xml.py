@@ -152,3 +152,79 @@ def test_broadcast_warn_polygon_geometry():
     # Ring should be closed
     assert ring[0][0] == pytest.approx(ring[-1][0], abs=1e-6)
     assert ring[0][1] == pytest.approx(ring[-1][1], abs=1e-6)
+
+
+BROADCAST_WARN_INFORCE = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<broadcast-warn>
+    <broadcastWarnCancelledEntity>
+        <msgYear>2022</msgYear>
+        <msgNumber>1551</msgNumber>
+        <navArea>A</navArea>
+        <subregion>GEN</subregion>
+        <text>1. HYDROLANT WARNINGS IN FORCE AS OF 171400Z JUN.
+   ALL THE INFORCE WARNINGS ARE LISTED HERE.
+   1549/22, 1548/22, 1547/22, 1546/22, 1545/22,
+   27/22, 21/22, 19/22.
+   3030/21, 2647/21, 1484/21.
+2. THE COMPLETE TEXT OF ALL IN-FORCE HYDROLANT
+   BROADCAST WARNINGS ARE AVAILABLE ON THE NGA
+   MARITIME SAFETY INFORMATION WEBSITE AT:
+   MSI.NGA.MIL/NAVWARNINGS.
+   ALTERNATIVELY, THESE MAY BE REQUESTED BY E-MAIL
+   FROM NGA AT NAVSAFETY@NGA.MIL.
+3. CANCEL HYDROLANT 1396/22, 1403/22, 1406/22,
+   1409/22, 1410/22, 1432/22, 1436/22, 1441/22,
+   1495/22, 1541/22, 1542/22.
+</text>
+        <status>C</status>
+        <issueDate>171407Z JUN 2022</issueDate>
+        <authority>NGA NAVSAFETY 0/22 171400Z JUN 22.</authority>
+        <cancelDate>241348Z JUN 2022</cancelDate>
+        <cancelNavArea>A</cancelNavArea>
+        <cancelMsgYear>2022</cancelMsgYear>
+        <cancelMsgNumber>1613</cancelMsgNumber>
+    </broadcastWarnCancelledEntity>
+    
+</broadcast-warn>"""
+
+
+def test_broadcast_warn_inforce_parsing():
+    """This test checks that the parser correctly handles a broadcast-warn XML
+    message that lists multiple in-force warnings."""
+
+    messages = parse_broadcast_warn_xml(BROADCAST_WARN_INFORCE)
+    assert len(messages) == 1
+    msg = messages[0]
+    assert msg.msg_id == "HYDROARC 1551/22(GEN)"
+    assert len(msg.coordinates) == 0
+
+    assert msg.inforce_warnings is not None
+    assert len(msg.inforce_warnings) == 11
+
+    assert msg.inforce_warnings == [
+        "1549/22",
+        "1548/22",
+        "1547/22",
+        "1546/22",
+        "1545/22",
+        "27/22",
+        "21/22",
+        "19/22",
+        "3030/21",
+        "2647/21",
+        "1484/21",
+    ]
+
+    assert msg.cancellations == [
+        "1396/22",
+        "1403/22",
+        "1406/22",
+        "1409/22",
+        "1410/22",
+        "1432/22",
+        "1436/22",
+        "1441/22",
+        "1495/22",
+        "1541/22",
+        "1542/22",
+    ]

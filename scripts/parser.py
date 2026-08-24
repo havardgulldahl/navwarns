@@ -299,6 +299,7 @@ class NavwarnMessage:
     raw_dtg: str
     msg_id: Optional[str]
     coordinates: List[Tuple[float, float]] = field(default_factory=list)
+    inforce_warnings: List[str] = field(default_factory=list)
     cancellations: List[str] = field(default_factory=list)
     hazard_type: Optional[str] = None
     geometry: Optional[str] = (
@@ -690,6 +691,7 @@ class NavwarnMessage:
                 "raw_dtg": self.raw_dtg,
                 "msg_id": self.msg_id,
                 "year": self.year,
+                "inforce_warnings": self.inforce_warnings,
                 "cancellations": [
                     c for c in self.cancellations if not c.upper().startswith("THIS")
                 ],
@@ -751,6 +753,7 @@ class NavwarnMessage:
                         "dtg": self.dtg.isoformat() if self.dtg else None,
                         "raw_dtg": self.raw_dtg,
                         "year": self.year,
+                        "inforce_warnings": self.inforce_warnings,
                         "hazard_type": self.hazard_type,
                         "category": category,
                         "title": title,

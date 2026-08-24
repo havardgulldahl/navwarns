@@ -20,15 +20,15 @@
     "geometry_kind": "point",
     "radius_nm": null,
     "body": "1. ЗАПРЕТНЫЙ ПЛАВАНИЯ ВСЕХ СУДОВ 01 ПО 31 ИЮЛЬ\nКРУГЛОСУТОЧНО РАЙОН РАДИУСОМ 1000 МЕТРОВ\nИЗ 69-19.1С 034-33.4В\n2. ОТМ ЭТОТ НР 01 АВГ=\n301000 МСК  ГС-",
-    "cancel_date": "2025-09-06T00:00:00+00:00",
-    "valid_from": "2025-09-05T00:00:00+00:00",
-    "valid_until": "2025-09-06T00:00:00+00:00",
+    "cancel_date": "2025-08-31T00:00:00+00:00",
+    "valid_from": "2025-08-30T00:00:00+00:00",
+    "valid_until": "2025-08-31T00:00:00+00:00",
     "corrections": [
       {
         "field": "cancel_date",
         "code": "self_cancel_before_valid_from",
         "before": "2025-08-01T00:00:00+00:00",
-        "after": "2025-09-06T00:00:00+00:00",
+        "after": "2025-08-31T00:00:00+00:00",
         "note": "Adjusted to valid_from + 24h due to likely source typo."
       }
     ],

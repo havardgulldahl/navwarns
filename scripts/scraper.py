@@ -182,6 +182,37 @@ _MONTH_MAP = {
 }
 
 
+def _parse_inforce_warnings(text_body: str) -> List[str]:
+    """Extract warning references from broadcast messages listing in-force warnings."""
+    if not text_body:
+        return []
+
+    lines = [line.strip() for line in text_body.splitlines()]
+    collecting = False
+    collected: List[str] = []
+
+    for line in lines:
+        upper = line.upper()
+        if not collecting:
+            if "INFORCE WARNINGS ARE LISTED HERE" in upper:
+                collecting = True
+            continue
+
+        if re.match(r"^\d+\.", line):
+            break
+        if line:
+            collected.append(line)
+
+    if not collected:
+        return []
+
+    warnings: List[str] = []
+    for match in re.findall(r"\b\d+/\d{2}\b", " ".join(collected)):
+        if match not in warnings:
+            warnings.append(match)
+    return warnings
+
+
 def _parse_cancel_date(raw: str) -> Optional[str]:
     """Parse a cancel-date string like '050214Z FEB 2011'.
 
@@ -249,13 +280,14 @@ def parse_broadcast_warn_xml(
                 raw_dtg = issue_date
         year2 = msg_year[-2:] if len(msg_year) >= 2 else msg_year
         if msg_number and year2:
-            if subregion and subregion.upper() != "GEN":
+            if subregion:
                 msg_id = f"HYDROARC {msg_number}/{year2}({subregion})"
             else:
                 msg_id = f"HYDROARC {msg_number}/{year2}"
         else:
             msg_id = None
 
+        inforce_warnings = _parse_inforce_warnings(text_body)
         cancellations = navparser.parse_cancellations(text_body)
         if cancel_msg_number and cancel_msg_year:
             c2 = cancel_msg_year[-2:]
@@ -278,6 +310,7 @@ def parse_broadcast_warn_xml(
                 raw_dtg=raw_dtg,
                 msg_id=msg_id,
                 coordinates=coords,
+                inforce_warnings=inforce_warnings,
                 cancellations=cancellations,
                 hazard_type=hazard,
                 geometry=geometry,
