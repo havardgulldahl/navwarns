@@ -197,6 +197,8 @@ def test_broadcast_warn_inforce_parsing():
     msg = messages[0]
     assert msg.msg_id == "HYDROARC 1551/22(GEN)"
     assert len(msg.coordinates) == 0
+    assert msg.cancel_date == "2022-06-24T13:48:00+00:00"
+    assert "HYDROARC 1613/22" not in msg.cancellations
 
     assert msg.inforce_warnings is not None
     assert len(msg.inforce_warnings) == 11

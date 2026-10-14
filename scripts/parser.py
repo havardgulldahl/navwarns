@@ -1100,6 +1100,13 @@ def parse_coordinate_groups(body: str) -> List[List[Tuple[float, float]]]:
     # Within such a block, single-letter labels (A., B., C., D.) are polygon vertices,
     # not group separators.
     area_header_pattern = re.compile(r"^\s*AREA\s+\d+\s*$", re.IGNORECASE)
+    lettered_sections = re.split(
+        r"(?m)^\s*[A-Z\u0410-\u042F]\.", normalized_body
+    )[1:]
+    has_lettered_areas = sum(
+        len(COORD_PATTERN.findall(section)) >= 3
+        for section in lettered_sections
+    ) >= 2
     single_area_polygon = any(
         keyword in upper_body
         for keyword in (
@@ -1117,7 +1124,7 @@ def parse_coordinate_groups(body: str) -> List[List[Tuple[float, float]]]:
             "IN AREAS BOUND BY",
             "РАЙОНАХ",
         )
-    )
+    ) and not has_lettered_areas
     in_named_area = False
     for raw in lines:
         line = raw.strip()
@@ -1174,23 +1181,34 @@ def parse_cancellations(body: str) -> List[str]:
     cancels: List[str] = []
     # Primary regex (already excludes the leading 'CANCEL ' via group)
     cancels.extend(CANCEL_PATTERN.findall(body))
-    # Additional heuristic: for any line containing CANCEL, pull all token forms NNN/YY
+    continuation_pattern = re.compile(
+        r"\s*\d+/\d+(?:\s*[,;]\s*(?:AND\s+)?\d+/\d+)*"
+        r"\s*[,;.]?\s*",
+        re.IGNORECASE,
+    )
+    in_cancel_block = False
     for line in body.splitlines():
-        if "CANCEL" in line.upper():
-            for m_dtg_var in RE_CANCEL_THIS_VARIANT_DTG.finditer(line):
-                normalized = f"THIS MSG {m_dtg_var.group(1).strip().upper()}"
-                if normalized not in cancels:
-                    cancels.append(normalized)
-            for m_dtg in RE_CANCEL_BARE_DTG.finditer(line):
-                token = m_dtg.group(1).strip().upper()
-                if token not in cancels:
-                    cancels.append(token)
-            for m in re.findall(r"\b(\d+/\d+)\b", line):
-                # Skip if a longer token already captured (e.g., structured id)
-                if any(c.endswith(m) for c in cancels):
-                    continue
-                if m not in cancels:
-                    cancels.append(m)
+        has_cancel = bool(re.search(r"\bCANCEL\b", line, re.IGNORECASE))
+        if not has_cancel and not (
+            in_cancel_block and continuation_pattern.fullmatch(line)
+        ):
+            in_cancel_block = False
+            continue
+        in_cancel_block = not line.rstrip().endswith((".", "="))
+        for m_dtg_var in RE_CANCEL_THIS_VARIANT_DTG.finditer(line):
+            normalized = f"THIS MSG {m_dtg_var.group(1).strip().upper()}"
+            if normalized not in cancels:
+                cancels.append(normalized)
+        for m_dtg in RE_CANCEL_BARE_DTG.finditer(line):
+            token = m_dtg.group(1).strip().upper()
+            if token not in cancels:
+                cancels.append(token)
+        for m in re.findall(r"\b(\d+/\d+)\b", line):
+            # Skip if a longer token already captured (e.g., structured id)
+            if any(c.endswith(m) for c in cancels):
+                continue
+            if m not in cancels:
+                cancels.append(m)
     # Heuristic: resolve 'CANCEL NAVAREA NN' (bare number, no area/year) by correlating
     # with a full NNN/YY reference found elsewhere in the body.
     for line in body.splitlines():

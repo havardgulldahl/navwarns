@@ -96,14 +96,20 @@ class TestNormalizeDtg:
 
 
 class TestParseNavareaXIX:
-    def test_single_area_lettered_corners_form_polygon(self):
+    @pytest.mark.parametrize(
+        "area_header",
+        ["AREA TEMPORARILY DANGEROUS TO NAVIGATION", "AREA BOUNDED BY:"],
+    )
+    def test_single_area_lettered_corners_form_polygon(
+        self, area_header: str
+    ) -> None:
         dtg = normalize_dtg("181846 UTC jul 17")
         body = (
             "NAVAREA XIX 76/17\n"
             "NORVEGIAN SEA\n"
             "FROM 19 JUL 2100 UTC TO 30 JUL 2100 UTC "
             "DEEP-WATER TESTING OPERATION (RUSSIAN NAVY)\n"
-            "AREA TEMPORARILY DANGEROUS TO NAVIGATION\n\n"
+            f"{area_header}\n\n"
             "A. 72-50N 013-50E B. 72-50N 014-25E\n"
             "C. 72-35N 014-25E\n"
             "D. 72-35N 013-50E"

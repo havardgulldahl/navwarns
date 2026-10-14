@@ -268,8 +268,6 @@ def parse_broadcast_warn_xml(
         subregion = (ent.findtext("subregion") or "").strip()
         text_body = (ent.findtext("text") or "").strip()
         issue_date = (ent.findtext("issueDate") or "").strip()
-        cancel_msg_year = (ent.findtext("cancelMsgYear") or "").strip()
-        cancel_msg_number = (ent.findtext("cancelMsgNumber") or "").strip()
         cancel_date_raw = (ent.findtext("cancelDate") or "").strip()
 
         raw_dtg = ""
@@ -290,11 +288,6 @@ def parse_broadcast_warn_xml(
 
         inforce_warnings = _parse_inforce_warnings(text_body)
         cancellations = navparser.parse_cancellations(text_body)
-        if cancel_msg_number and cancel_msg_year:
-            c2 = cancel_msg_year[-2:]
-            structured_cancel = f"HYDROARC {cancel_msg_number}/{c2}"
-            if structured_cancel not in cancellations:
-                cancellations.append(structured_cancel)
         coords = navparser.parse_coordinates(text_body)
         hazard = navparser.classify_hazard(text_body)
         geometry, radius = navparser.analyze_geometry(text_body, coords)

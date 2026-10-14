@@ -1,4 +1,6 @@
 import pytest
+from shapely.geometry import Polygon, shape
+
 from scripts.parser import parse_navwarns
 
 SAMPLE_TEXT = """NAVAREA XX 156/25BARENTS AND WHITE SEASAND CHYOSHSKAYA GUBA.CHART RUS 10100.1. MISSILE FIRINGS 0300 UTC TO 1700 UTC DAILY22 TO 23 NOV NAVIGATION PROHIBITED IN TERRITORIALWATERS DANGEROUS OUTSIDE IN AREAS BOUNDED BY:A. 73-48.0N 040-10.0E, 68-33.0N 044-42.0E,THEN COASTAL LINE TO 66-59.0N 044-24.0E,66-54.0N 043-31.0E, 73-33.0N 037-31.0E,B. 67-42.0N 045-18.0E, 67-07.0N 045-42.0E,67-07.0N 045-37.0E, THEN COASTAL LINE TO67-42.0N 045-18.0E.2. CANCEL THIS MSG 231800 NOV 25.=NNNN"""
@@ -188,6 +190,28 @@ def test_navarea_xx_182_25_parsing():
     # Check first point: 72-13.0N 055-34.0E -> 72.216667, 55.566667
     assert coords_c[0][0] == pytest.approx(55.566667, abs=0.001)
     assert coords_c[0][1] == pytest.approx(72.216667, abs=0.001)
+
+
+@pytest.mark.parametrize(
+    ("body", "area_count"),
+    [(SAMPLE_NAVAREA_XX_158, 2), (SAMPLE_NAVAREA_XX_182, 3)],
+)
+def test_lettered_areas_preserve_polygon_coverage(
+    body: str, area_count: int
+) -> None:
+    """Each lettered area must cover exactly its own four vertices."""
+    message = parse_navwarns(body)[0]
+    features = message.to_geojson_features()
+    assert len(features) == area_count
+    for area_index, feature in enumerate(features):
+        start = area_index * 4
+        expected = Polygon(
+            [(lon, lat) for lat, lon in message.coordinates[start:start + 4]]
+        )
+        actual = shape(feature["geometry"])
+        assert actual.geom_type == "Polygon"
+        assert actual.is_valid
+        assert actual.equals(expected)
 
 
 # ---------------------------------------------------------------------------

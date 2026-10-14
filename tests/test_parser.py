@@ -114,6 +114,31 @@ def test_parse_cancellations():
     assert len(cancels) == 2
 
 
+@pytest.mark.parametrize(
+    ("body", "expected"),
+    [
+        (
+            "CANCEL 101/26,\n   102/26,\n   103/26.",
+            ["101/26", "102/26", "103/26"],
+        ),
+        (
+            "CANCEL 101/26,\n   102/26; AND 103/26.",
+            ["101/26", "102/26", "103/26"],
+        ),
+        ("CANCEL 101/26.\n102/26, 103/26.", ["101/26"]),
+        ("CANCEL 101/26,\n\n102/26, 103/26.", ["101/26"]),
+        ("CANCEL 101/26,\n2. IN FORCE 102/26.\n103/26.", ["101/26"]),
+        ("CANCEL 101/26,\nIN FORCE 102/26.\n103/26.", ["101/26"]),
+        ("CANCEL 101/26=\n102/26.", ["101/26"]),
+    ],
+)
+def test_parse_cancellation_continuation_boundaries(
+    body: str, expected: list[str]
+) -> None:
+    """Only reference-only lines in a cancellation block are continuations."""
+    assert parse_cancellations(body) == expected
+
+
 def test_classify_hazard_derelict():
     assert classify_hazard("DERELICT BARGE ADRIFT") == "derelict vessel"
 
