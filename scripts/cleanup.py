@@ -89,12 +89,20 @@ def _read_first_props(path: Path) -> dict:
         d = json.loads(path.read_text())
     except Exception:
         return {}
+    if not isinstance(d, dict):
+        return {}
     if d.get("type") == "Feature":
-        return d.get("properties") or {}
-    if d.get("type") == "FeatureCollection":
+        props = d.get("properties")
+    elif d.get("type") == "FeatureCollection":
         feats = d.get("features") or []
-        return feats[0].get("properties") or {} if feats else {}
-    return {}
+        if not isinstance(feats, list) or not feats:
+            return {}
+        if not isinstance(feats[0], dict):
+            return {}
+        props = feats[0].get("properties")
+    else:
+        return {}
+    return props if isinstance(props, dict) else {}
 
 
 def remove_stale_no_expiry(
@@ -120,7 +128,7 @@ def remove_stale_no_expiry(
             if props.get("valid_until") is not None:
                 continue  # has explicit expiry; not stale
             valid_from = props.get("valid_from")
-            if not valid_from:
+            if not isinstance(valid_from, str) or not valid_from:
                 continue  # no date info; skip conservatively
             try:
                 vf_dt = datetime.datetime.fromisoformat(

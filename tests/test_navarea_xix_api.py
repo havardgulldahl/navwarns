@@ -41,7 +41,10 @@ class TestTimestamps:
         assert api.dtg_from_timestamp("not a date") == ""
 
     def test_iso_utc_assumes_utc(self):
-        assert api.iso_utc("2026-08-21T11:15:13.499692") == "2026-08-21T11:15:13.499692+00:00"
+        assert (
+            api.iso_utc("2026-08-21T11:15:13.499692")
+            == "2026-08-21T11:15:13.499692+00:00"
+        )
 
 
 class TestWktGeometry:
@@ -177,7 +180,9 @@ class TestParserParity:
     def test_matches_from_text_classification(self, xix_records, number):
         record = _by_number(xix_records, number)
         body = record["message_en"].upper()
-        legacy = NavwarnMessage.from_text(api.dtg_from_timestamp(record["dtg_timestamp"]), body)
+        legacy = NavwarnMessage.from_text(
+            api.dtg_from_timestamp(record["dtg_timestamp"]), body
+        )
         legacy_props = legacy.to_geojson_feature()["properties"]
         new_props = api.record_to_feature(record, api.NAVAREAXIX)["properties"]
 
@@ -198,7 +203,8 @@ class TestParserParity:
         record = dict(_by_number(xix_records, number))
         record["position"] = None
         legacy = NavwarnMessage.from_text(
-            api.dtg_from_timestamp(record["dtg_timestamp"]), record["message_en"].upper()
+            api.dtg_from_timestamp(record["dtg_timestamp"]),
+            record["message_en"].upper(),
         )
         new_feat = api.record_to_feature(record, api.NAVAREAXIX)
         assert new_feat["geometry"] == legacy.to_geojson_feature()["geometry"]
@@ -213,9 +219,9 @@ class TestParserParity:
         )
 
     def test_category_matches_hazard_classification(self, xix_records):
-        props = api.record_to_feature(
-            _by_number(xix_records, "99/26"), api.NAVAREAXIX
-        )["properties"]
+        props = api.record_to_feature(_by_number(xix_records, "99/26"), api.NAVAREAXIX)[
+            "properties"
+        ]
         category, title = classify_category(props["hazard_type"])
         assert (props["category"], props["title"]) == (category, title)
 
@@ -232,9 +238,9 @@ class TestNavcoFeatures:
         assert api._year_from_warningnumber("garbage") is None
 
     def test_coastal_metadata(self, navco_records):
-        props = api.record_to_feature(
-            _by_number(navco_records, "287/2026"), api.NAVCO
-        )["properties"]
+        props = api.record_to_feature(_by_number(navco_records, "287/2026"), api.NAVCO)[
+            "properties"
+        ]
         assert props["location"] == "Rekefjordboen"
         assert props["norwegianchart"] == "12"
         assert props["fdv_objectid"] == 50761.0
@@ -244,14 +250,17 @@ class TestNavcoFeatures:
 
     def test_point_geometry_from_api(self, navco_records):
         feat = api.record_to_feature(_by_number(navco_records, "287/2026"), api.NAVCO)
-        assert feat["geometry"] == {"type": "Point", "coordinates": [6.261233, 58.297399]}
+        assert feat["geometry"] == {
+            "type": "Point",
+            "coordinates": [6.261233, 58.297399],
+        }
         assert feat["properties"]["geometry_kind"] == "point"
         assert feat["properties"]["geometry_source"] == "api-wkt"
 
     def test_hazard_classified_from_text(self, navco_records):
-        props = api.record_to_feature(
-            _by_number(navco_records, "287/2026"), api.NAVCO
-        )["properties"]
+        props = api.record_to_feature(_by_number(navco_records, "287/2026"), api.NAVCO)[
+            "properties"
+        ]
         assert props["hazard_type"] == "aid to navigation outage"
 
     def test_norwegian_fallback_when_english_missing(self, navco_records):
@@ -265,9 +274,9 @@ class TestNavcoFeatures:
         assert feat["geometry"] is None
 
     def test_cancelled_record_gets_valid_until(self, navco_records):
-        props = api.record_to_feature(
-            _by_number(navco_records, "312/2026"), api.NAVCO
-        )["properties"]
+        props = api.record_to_feature(_by_number(navco_records, "312/2026"), api.NAVCO)[
+            "properties"
+        ]
         assert props["status"] == "cancelled"
         assert props["valid_until"] == "2026-08-23T14:20:00+00:00"
 
@@ -292,7 +301,12 @@ class TestRunSource:
     def test_writes_features_raw_snapshot_and_timestamp(self, tmp_path, xix_records):
         current = tmp_path / "current"
         history = tmp_path / "history"
-        api.run_source(api.NAVAREAXIX, records=xix_records, current_dir=current, history_dir=history)
+        api.run_source(
+            api.NAVAREAXIX,
+            records=xix_records,
+            current_dir=current,
+            history_dir=history,
+        )
 
         written = sorted(p.name for p in (current / "navwarns").glob("*.json"))
         assert written == [
@@ -311,17 +325,36 @@ class TestRunSource:
     def test_rerun_is_idempotent(self, tmp_path, xix_records):
         current = tmp_path / "current"
         history = tmp_path / "history"
-        api.run_source(api.NAVAREAXIX, records=xix_records, current_dir=current, history_dir=history)
+        api.run_source(
+            api.NAVAREAXIX,
+            records=xix_records,
+            current_dir=current,
+            history_dir=history,
+        )
         target = current / "navwarns" / "NAVAREA_XIX_102_26.json"
         before = target.stat().st_mtime_ns
-        api.run_source(api.NAVAREAXIX, records=xix_records, current_dir=current, history_dir=history)
+        api.run_source(
+            api.NAVAREAXIX,
+            records=xix_records,
+            current_dir=current,
+            history_dir=history,
+        )
         assert target.stat().st_mtime_ns == before
 
-    def test_sources_do_not_delete_each_other(self, tmp_path, xix_records, navco_records):
+    def test_sources_do_not_delete_each_other(
+        self, tmp_path, xix_records, navco_records
+    ):
         current = tmp_path / "current"
         history = tmp_path / "history"
-        api.run_source(api.NAVAREAXIX, records=xix_records, current_dir=current, history_dir=history)
-        api.run_source(api.NAVCO, records=navco_records, current_dir=current, history_dir=history)
+        api.run_source(
+            api.NAVAREAXIX,
+            records=xix_records,
+            current_dir=current,
+            history_dir=history,
+        )
+        api.run_source(
+            api.NAVCO, records=navco_records, current_dir=current, history_dir=history
+        )
 
         names = {p.name for p in (current / "navwarns").glob("*.json")}
         assert "NAVAREA_XIX_102_26.json" in names
@@ -331,16 +364,60 @@ class TestRunSource:
     def test_disappeared_warning_moved_to_history(self, tmp_path, xix_records):
         current = tmp_path / "current"
         history = tmp_path / "history"
-        api.run_source(api.NAVAREAXIX, records=xix_records, current_dir=current, history_dir=history)
+        api.run_source(
+            api.NAVAREAXIX,
+            records=xix_records,
+            current_dir=current,
+            history_dir=history,
+        )
         remaining = [r for r in xix_records if r["warningnumber"] != "45/26"]
-        api.run_source(api.NAVAREAXIX, records=remaining, current_dir=current, history_dir=history)
+        api.run_source(
+            api.NAVAREAXIX, records=remaining, current_dir=current, history_dir=history
+        )
 
         assert not (current / "navwarns" / "NAVAREA_XIX_45_26.json").exists()
         assert (history / "2026" / "navwarns" / "NAVAREA_XIX_45_26.json").exists()
 
 
 class TestMain:
-    def test_all_sources_fetched(self, monkeypatch, tmp_path, xix_records, navco_records):
+    @pytest.mark.parametrize("failed", [api.NAVAREAXIX, api.NAVCO])
+    def test_failed_source_preserves_data_and_attempts_other_source(
+        self,
+        monkeypatch: pytest.MonkeyPatch,
+        tmp_path: Path,
+        xix_records: list[dict],
+        navco_records: list[dict],
+        failed: api.SourceConfig,
+    ) -> None:
+        current = tmp_path / "current"
+        out_dir = current / "navwarns"
+        out_dir.mkdir(parents=True)
+        old_path = out_dir / f"{api.safe_filename(failed.id_prefix)}_1_26.json"
+        old_path.write_text("old warning", encoding="utf-8")
+        monkeypatch.setattr(api, "CURRENT_DIR", current)
+        monkeypatch.setattr(api, "HISTORY_DIR", tmp_path / "history")
+        attempts = []
+
+        def fetch_records(source: api.SourceConfig) -> list[dict]:
+            attempts.append(source)
+            if source is failed:
+                raise RuntimeError("endpoint unavailable")
+            return xix_records if source is api.NAVAREAXIX else navco_records
+
+        monkeypatch.setattr(api, "fetch_records", fetch_records)
+
+        with pytest.raises(RuntimeError, match=failed.key):
+            api.main(["--source", "all"])
+
+        healthy = api.NAVCO if failed is api.NAVAREAXIX else api.NAVAREAXIX
+        assert attempts == [api.NAVAREAXIX, api.NAVCO]
+        assert old_path.read_text(encoding="utf-8") == "old warning"
+        assert not (current / f".scrape_timestamp_{failed.key}").exists()
+        assert (current / f".scrape_timestamp_{healthy.key}").exists()
+
+    def test_all_sources_fetched(
+        self, monkeypatch, tmp_path, xix_records, navco_records
+    ):
         payloads = {
             api.NAVAREAXIX_URL: xix_records,
             api.COASTAL_URL: navco_records,

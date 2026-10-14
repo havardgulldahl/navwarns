@@ -524,6 +524,50 @@ class TestCollectFeatures:
 class TestBuildArchive:
     """Tests for build_archive."""
 
+    @pytest.mark.parametrize(
+        "invalid",
+        [
+            {"type": "Feature", "properties": ["invalid"]},
+            {"type": "FeatureCollection", "features": 123},
+            {"type": "FeatureCollection", "features": "invalid"},
+            {
+                "type": "FeatureCollection",
+                "features": [None, 123, {"properties": ["invalid"]}],
+            },
+        ],
+    )
+    def test_build_skips_invalid_geojson_shapes(
+        self, tmp_path: Path, invalid: object
+    ) -> None:
+        year_dir = tmp_path / "2026"
+        out_dir = tmp_path / "docs"
+        out_dir.mkdir()
+        _write_feature(year_dir / "valid.json", {"year": 2026})
+        invalid_path = year_dir / "invalid.json"
+        original = json.dumps(invalid)
+        invalid_path.write_text(original, encoding="utf-8")
+
+        assert build_archive(2026, year_dir, out_dir, extra_cancel_dirs=[]) == 1
+        assert invalid_path.read_text(encoding="utf-8") == original
+
+    @pytest.mark.parametrize("collection", [False, True])
+    def test_build_accepts_null_properties(
+        self, tmp_path: Path, collection: bool
+    ) -> None:
+        year_dir = tmp_path / "2026"
+        out_dir = tmp_path / "docs"
+        year_dir.mkdir()
+        out_dir.mkdir()
+        feature = {"type": "Feature", "properties": None}
+        payload = (
+            {"type": "FeatureCollection", "features": [feature]}
+            if collection
+            else feature
+        )
+        (year_dir / "feature.json").write_text(json.dumps(payload), encoding="utf-8")
+
+        assert build_archive(2026, year_dir, out_dir, extra_cancel_dirs=[]) == 1
+
     def test_writes_geojson_file(
         self,
         tmp_path: Path,
@@ -564,6 +608,21 @@ class TestBuildArchive:
 
 class TestBuildManifest:
     """Tests for build_manifest."""
+
+    @pytest.mark.parametrize(
+        "payload", [[], None, {"features": 123}, {"features": "invalid"}]
+    )
+    def test_skips_invalid_archive_shapes(
+        self, tmp_path: Path, payload: object
+    ) -> None:
+        (tmp_path / "archive2020.geojson").write_text(
+            json.dumps(payload), encoding="utf-8"
+        )
+
+        build_manifest({2026: 1}, tmp_path)
+
+        manifest = json.loads((tmp_path / "manifest.json").read_text())
+        assert manifest["years"] == [{"year": 2026, "count": 1}]
 
     def test_writes_manifest(self, tmp_path: Path) -> None:
         counts = {2020: 100, 2021: 200, 2022: 0}

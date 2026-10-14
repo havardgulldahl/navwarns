@@ -144,7 +144,9 @@ def fetch_records(source: SourceConfig) -> List[dict]:
     return payload
 
 
-def save_raw_json(records: Sequence[dict], source: SourceConfig, history_dir: Path) -> Path:
+def save_raw_json(
+    records: Sequence[dict], source: SourceConfig, history_dir: Path
+) -> Path:
     """Save a timestamped copy of the raw API response to the history directory."""
     now = datetime.datetime.now(datetime.timezone.utc)
     out_dir = history_dir / f"{now:%Y}" / source.key
@@ -251,9 +253,9 @@ def build_message(record: dict, source: SourceConfig):
     if year:
         msg.year = year
     if msg.dtg is None:
-        msg.dtg = parse_api_timestamp(record.get("dtg_timestamp")) or parse_api_timestamp(
-            record.get("updated_at")
-        )
+        msg.dtg = parse_api_timestamp(
+            record.get("dtg_timestamp")
+        ) or parse_api_timestamp(record.get("updated_at"))
     if dtg_str:
         msg.raw_dtg = dtg_str
 
@@ -352,10 +354,16 @@ def run_source(
     current_dir.mkdir(parents=True, exist_ok=True)
     ts_file = current_dir / f".scrape_timestamp_{source.key}"
     ts_file.write_text(
-        f"{datetime.datetime.now(datetime.timezone.utc).isoformat()}\n", encoding="utf-8"
+        f"{datetime.datetime.now(datetime.timezone.utc).isoformat()}\n",
+        encoding="utf-8",
     )
 
-    logging.info("Processed %d %s warnings, %d active files", len(features), source.key, len(active))
+    logging.info(
+        "Processed %d %s warnings, %d active files",
+        len(features),
+        source.key,
+        len(active),
+    )
     return features
 
 
@@ -370,8 +378,15 @@ def main(argv: Optional[Sequence[str]] = None) -> None:
     args = ap.parse_args(argv)
 
     selected = SOURCES.values() if args.source == "all" else [SOURCES[args.source]]
+    failed_sources: List[str] = []
     for source in selected:
-        run_source(source)
+        try:
+            run_source(source)
+        except Exception:
+            logging.exception("Failed to scrape %s", source.key)
+            failed_sources.append(source.key)
+    if failed_sources:
+        raise RuntimeError(f"Failed to scrape sources: {', '.join(failed_sources)}")
 
 
 if __name__ == "__main__":

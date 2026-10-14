@@ -933,7 +933,10 @@ def _backfill_last_seen_in_history_files(
 
         changed = False
         if data.get("type") == "Feature":
-            props = data.setdefault("properties", {})
+            props = data.get("properties")
+            if props is not None and not isinstance(props, dict):
+                continue
+            props = props or {}
             before_from = props.get("valid_from")
             before_until = props.get("valid_until")
             before_cancel = props.get("cancel_date")
@@ -961,10 +964,16 @@ def _backfill_last_seen_in_history_files(
             if _normalize_cancel_date(props):
                 changed = True
         elif data.get("type") == "FeatureCollection":
-            for feat in data.get("features") or []:
-                if not isinstance(feat, dict):
+            features = data.get("features")
+            if not isinstance(features, list):
+                continue
+            for feat in features:
+                if not isinstance(feat, dict) or feat.get("type") != "Feature":
                     continue
-                props = feat.setdefault("properties", {})
+                props = feat.get("properties")
+                if props is not None and not isinstance(props, dict):
+                    continue
+                props = props or {}
                 before_from = props.get("valid_from")
                 before_until = props.get("valid_until")
                 before_cancel = props.get("cancel_date")
@@ -1061,13 +1070,22 @@ def collect_features(year_dir: Path) -> List[Dict[str, Any]]:
 
         feat_type = data.get("type")
         if feat_type == "Feature":
-            props = data.get("properties") or {}
+            props = data.get("properties")
+            if props is not None and not isinstance(props, dict):
+                continue
+            props = props or {}
             _clear_invalid_valid_until(props)
             data["properties"] = _enrich_properties(props)
             features.append(data)
         elif feat_type == "FeatureCollection":
-            for feat in data.get("features") or []:
-                if isinstance(feat, dict):
+            collection_features = data.get("features")
+            if not isinstance(collection_features, list):
+                continue
+            for feat in collection_features:
+                if isinstance(feat, dict) and feat.get("type") == "Feature":
+                    props = feat.get("properties")
+                    if props is not None and not isinstance(props, dict):
+                        continue
                     props = feat.get("properties") or {}
                     _clear_invalid_valid_until(props)
                     feat["properties"] = _enrich_properties(props)
@@ -1164,7 +1182,12 @@ def build_manifest(
         try:
             with open(archive_path, encoding="utf-8") as f:
                 data = json.load(f)
-            cnt = len(data.get("features") or [])
+            if not isinstance(data, dict):
+                continue
+            features = data.get("features")
+            if not isinstance(features, list):
+                continue
+            cnt = len(features)
         except (json.JSONDecodeError, OSError):
             cnt = 0
         if cnt > 0:

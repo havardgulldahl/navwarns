@@ -19,7 +19,9 @@ jobs:
       - run: python scripts/scraper_rosatom.py
         continue-on-error: true
       - run: python scripts/scraper_prips.py
+        continue-on-error: true
       - run: python scripts/scraper_navareaxix_api.py --source all
+        continue-on-error: true
       - run: python scripts/scraper_navtex_sweden.py
         continue-on-error: true
       - run: python scripts/scraper_andoya.py
@@ -40,9 +42,13 @@ jobs:
             exit 0
           fi
           jq -s '
-            def parse_dt: gsub("[+][0-9]{2}:[0-9]{2}$"; "Z") | try fromdateiso8601 catch -1;
-            map(if type == "object" and .type == "FeatureCollection" then .features else . end)
+            def parse_dt: try (gsub("[+][0-9]{2}:[0-9]{2}$"; "Z") | fromdateiso8601) catch -1;
+            map(if type == "object" and .type == "FeatureCollection" then
+                  (if (.features | type) == "array" then .features else [] end)
+                else . end)
             | flatten
+            | map(select(type == "object" and .type == "Feature"
+                and (.properties == null or (.properties | type) == "object")))
             | unique_by([.id, .properties.body])
             | map(select(
                 (.properties.valid_until != null
@@ -68,18 +74,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add current/* history/$(date -u +%Y)/*
-          cp current/.scrape_timestamp_HYDROARC docs/scrape_timestamp_HYDROARC.txt
-          cp current/.scrape_timestamp_NAVAREAXX docs/scrape_timestamp_NAVAREAXX.txt
-          cp current/.scrape_timestamp_PRIP docs/scrape_timestamp_PRIP.txt
-          cp current/.scrape_timestamp_NAVAREAXIX docs/scrape_timestamp_NAVAREAXIX.txt
-          cp current/.scrape_timestamp_NAVCO docs/scrape_timestamp_NAVCO.txt
-          cp current/.scrape_timestamp_NAVTEX_SE docs/scrape_timestamp_NAVTEX_SE.txt
-          cp current/.scrape_timestamp_ANDOYA docs/scrape_timestamp_ANDOYA.txt
-          cp current/navwarns.geojson docs/navwarns.geojson
-          git add current/.scrape_timestamp* docs/scrape_timestamp*
-          git add current/navwarns.geojson docs/navwarns.geojson
-          git add docs/archive*.geojson docs/manifest.json
+          for source in HYDROARC NAVAREAXX PRIP NAVAREAXIX NAVCO NAVTEX_SE ANDOYA; do
+            timestamp="current/.scrape_timestamp_${source}"
+            if [ -f "$timestamp" ]; then
+              cp "$timestamp" "docs/scrape_timestamp_${source}.txt"
+            else
+              printf '::warning::No scrape timestamp for %s; keeping previous timestamp.\n' "$source"
+            fi
+          done
+          if [ -f current/navwarns.geojson ]; then
+            cp current/navwarns.geojson docs/navwarns.geojson
+          fi
+          git add -- current history docs
           git commit -m "Update NavWARNs" || echo "No changes"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           git push
