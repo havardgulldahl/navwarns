@@ -762,9 +762,13 @@ class TestDailyPresenceInference:
         assert updated == 0
         assert feature["properties"]["valid_until"] is None
 
+    @pytest.mark.parametrize(
+        "snapshot", [[{"warningnumber": "078/2026"}], None, "raw", 42, True]
+    )
     def test_build_archive_backfills_history_valid_until_from_navtex(
         self,
         tmp_path: Path,
+        snapshot: object,
     ) -> None:
         year_dir = tmp_path / "2026"
         navtex_dir = year_dir / "NAVTEX_SE"
@@ -773,6 +777,10 @@ class TestDailyPresenceInference:
         navtex_dir.mkdir(parents=True)
         navwarn_dir.mkdir(parents=True)
         out_dir.mkdir(parents=True)
+
+        snapshot_path = year_dir / "api_snapshot.json"
+        snapshot_text = json.dumps(snapshot)
+        snapshot_path.write_text(snapshot_text, encoding="utf-8")
 
         (navtex_dir / "NAVTEX_SE_2026-05-03.html").write_text(
             "<b>\n"
@@ -819,6 +827,14 @@ class TestDailyPresenceInference:
 
         updated = json.loads(stale_path.read_text(encoding="utf-8"))
         assert updated["properties"]["valid_until"] == "2026-05-03T23:59:59+00:00"
+        assert snapshot_path.read_text(encoding="utf-8") == snapshot_text
+
+        archive = json.loads(
+            (out_dir / "archive2026.geojson").read_text(encoding="utf-8")
+        )
+        assert archive["features"][0]["properties"]["valid_until"] == (
+            "2026-05-03T23:59:59+00:00"
+        )
 
     def test_build_archive_clears_invalid_until_when_inference_is_older(
         self,

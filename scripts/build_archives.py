@@ -928,6 +928,9 @@ def _backfill_last_seen_in_history_files(
         except (json.JSONDecodeError, OSError):
             continue
 
+        if not isinstance(data, dict):
+            continue
+
         changed = False
         if data.get("type") == "Feature":
             props = data.setdefault("properties", {})
