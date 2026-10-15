@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 363/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.609521,
+      67.380979
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-05T14:01:00",
+    "raw_dtg": "051401Z OCT 26",
+    "msg_id": "NAVCO 363/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KLØKSTAD LIGHT 67-22.86N 014-36.57E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-10-05T14:01:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862168,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-05T16:15:06.846249+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Kløkstad",
+    "norwegianchart": "65",
+    "fdv_objectid": 21914.0,
+    "message_no": "KLØKSTAD LYKT 67-22.86N 014-36.57E ER SLUKKET"
+  }
+}

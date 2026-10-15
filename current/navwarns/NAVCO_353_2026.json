@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 353/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      4.867402,
+      60.611306
+    ]
+  },
+  "properties": {
+    "dtg": "2026-09-27T04:36:00",
+    "raw_dtg": "270436Z SEP 26",
+    "msg_id": "NAVCO 353/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STUREHOLMEN LIGHT 60-36.67N 004-52.04E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-09-27T04:36:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 861836,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-09-27T06:45:10.118753+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Stureholmen",
+    "norwegianchart": "120",
+    "fdv_objectid": 1180.0,
+    "message_no": "STUREHOLMEN LYKT 60-36.67N 004-52.04E ER SLUKKET"
+  }
+}

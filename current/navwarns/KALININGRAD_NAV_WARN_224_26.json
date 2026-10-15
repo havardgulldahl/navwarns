@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "id": "KALININGRAD NAV WARN 224/26",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        20.133333333333333,
+        55.333333333333336
+      ],
+      [
+        20.416666666666668,
+        55.333333333333336
+      ],
+      [
+        20.416666666666668,
+        55.126666666666665
+      ],
+      [
+        20.133333333333333,
+        55.126666666666665
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-09-23T13:31:00",
+    "raw_dtg": "231331Z SEP 26",
+    "msg_id": "KALININGRAD NAV WARN 224/26",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "general",
+    "category": "other",
+    "title": "General Warning",
+    "geometry_kind": "linestring",
+    "radius_nm": null,
+    "body": "[South-eastern Baltic] KALININGRAD NAV WARN 224/26\nSOUTHEASTERN BALTIC\nSHIPS EXERCISES IN AREA BR-42\n302100 UTC SEP THRU 312100 UTC OCT\nDANGEROUS TO SHIPPING\n55-20.0N 020-08.0E\n55-20.0N 020-25.0E\n55-07.6N 020-25.0E\n55-07.6N 020-08.0E\nCANCEL THIS MESSAGE 312200 UTC OCT",
+    "cancel_date": null,
+    "valid_from": "2026-09-23T13:31:00+00:00",
+    "valid_until": "2026-10-31T22:00:00+00:00",
+    "corrections": [],
+    "summary": null
+  }
+}

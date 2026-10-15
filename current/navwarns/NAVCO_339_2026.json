@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 339/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.199343,
+      63.003002
+    ]
+  },
+  "properties": {
+    "dtg": "2026-09-11T20:41:00",
+    "raw_dtg": "112041Z SEP 26",
+    "msg_id": "NAVCO 339/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KUSUNDET LIGHT 63-00.18N 007-11.96E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-09-11T20:41:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 859314,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-09-11T22:45:03.644406+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Kusundet",
+    "norwegianchart": "35",
+    "fdv_objectid": 1960.0,
+    "message_no": "KUSUNDET LYKT 63-00.18N 007-11.96E ER SLUKKET"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "Feature",
+  "id": "NAVAREA XIX 123/26",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.08,
+          64.5583
+        ],
+        [
+          4.5617,
+          64.545
+        ],
+        [
+          5.3283,
+          65.68
+        ],
+        [
+          6.8717,
+          65.7033
+        ],
+        [
+          6.08,
+          64.5583
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-09T06:30:00",
+    "raw_dtg": "090630Z OCT 26",
+    "msg_id": "NAVAREA XIX 123/26",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "cable",
+    "category": "cable",
+    "title": "Underwater Cable",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "NAVAREA XIX 123/26\nSeismic survey in progress by M/V Amazon Conqueror towing 12 cables, each 10,000 metres long, in an area bounded by positions:\nA: 64°33.50'N 006°04.80'E\nB: 64°32.70'N 004°33.70'E\nC: 65°40.80'N 005°19.70'E\nD: 65°42.20'N 006°52.30'E\nWide berth of 3 miles ahead and abeam, 7 miles astern requested. M/V Amber G and M/V Ocean Dee are in attendance.\nNAVAREA XIX 106/26 is cancelled.",
+    "cancel_date": null,
+    "valid_from": "2026-10-09T06:30:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862295,
+    "status": "active",
+    "eventclass": "NA19",
+    "updated_at": "2026-10-09T07:45:07.640399+00:00",
+    "source": "kystverket-api",
+    "summary": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 371/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.869295,
+      63.226481
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-09T10:29:00",
+    "raw_dtg": "091029Z OCT 26",
+    "msg_id": "NAVCO 371/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BÅEFLUA LIGHT 63-13.59N 007-52.16E IS DAMAGED.",
+    "cancel_date": null,
+    "valid_from": "2026-10-09T10:29:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862313,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-09T12:30:03.592887+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Båeflua",
+    "norwegianchart": "36",
+    "fdv_objectid": 60133.0,
+    "message_no": "BÅEFLUA LANTERNE 63-13.59N 007-52.16E ER HAVARERT."
+  }
+}

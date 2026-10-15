@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 377/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.956306,
+      69.604945
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-14T04:55:00",
+    "raw_dtg": "140455Z OCT 26",
+    "msg_id": "NAVCO 377/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KVALEN LIGHT 69-36.30N 017-57.38E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-10-14T04:55:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862390,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-14T07:00:05.056346+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Kvalen",
+    "norwegianchart": "84",
+    "fdv_objectid": 100000067.0,
+    "message_no": "KVALEN LANTERNE 69-36.30N 017-57.38E ER SLUKKET"
+  }
+}

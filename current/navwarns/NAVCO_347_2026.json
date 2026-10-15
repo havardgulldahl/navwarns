@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 347/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      18.097455,
+      69.356693
+    ]
+  },
+  "properties": {
+    "dtg": "2026-09-23T19:17:00",
+    "raw_dtg": "231917Z SEP 26",
+    "msg_id": "NAVCO 347/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORDGRUNNEN LIGHT 69-21.40N 018-05.84E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-09-23T19:17:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 859671,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-09-23T21:30:05.252541+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Nordgrunnen",
+    "norwegianchart": "84",
+    "fdv_objectid": 100001319.0,
+    "message_no": "NORDGRUNNEN LANTERNE 69-21.40N 018-05.84E ER SLUKKET"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 373/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.979995,
+      70.669726
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-10T11:31:00",
+    "raw_dtg": "101131Z OCT 26",
+    "msg_id": "NAVCO 373/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "FUGLEN LIGHT 70-40.18N 021-58.80E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-10-10T11:31:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862325,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-10T13:45:04.867820+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Fuglen",
+    "norwegianchart": "100",
+    "fdv_objectid": 4131.0,
+    "message_no": "FUGLEN LANTERNE 70-40.18N 021-58.80E ER SLUKKET"
+  }
+}
