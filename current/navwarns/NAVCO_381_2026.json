@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 381/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.970003,
+      67.123884
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-15T21:19:00",
+    "raw_dtg": "152119Z OCT 26",
+    "msg_id": "NAVCO 381/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "general",
+    "category": "other",
+    "title": "General Warning",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "GJELLARSNAGET LIGHTBUOY 67-07.43N 013-58.20E IS UNRELIABLE.",
+    "cancel_date": null,
+    "valid_from": "2026-10-15T21:19:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862482,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-15T23:30:06.417898+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Gjellarsnaget",
+    "norwegianchart": "136",
+    "fdv_objectid": 52559.0,
+    "message_no": "GJELLARSNAGET LYSBOEYE 67-07.43N 013-58.20E ER UREGELMESSIG."
+  }
+}

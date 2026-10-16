@@ -111,32 +111,24 @@
     },
     {
       "type": "Feature",
-      "id": "ESTONIAN NAV WARN 174/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.316666666666666,
-          59.583333333333336
-        ]
-      },
+      "id": "FINNISH NAV WARN 556/26",
+      "geometry": null,
       "properties": {
-        "dtg": "2026-10-15T06:00:00",
-        "raw_dtg": "150600Z OCT 26",
-        "msg_id": "ESTONIAN NAV WARN 174/26",
+        "dtg": "2026-10-16T03:30:00",
+        "raw_dtg": "160330Z OCT 26",
+        "msg_id": "FINNISH NAV WARN 556/26",
         "year": 2026,
         "inforce_warnings": [],
-        "cancellations": [
-          "151400 UTC OCT"
-        ],
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "[Northern Baltic] ESTONIAN NAV WARN 174/26\nW OF NAISSAAR ISLAND\nFIRING PRACTICE AREA 2A\nCENTRED 59-35N 024-19E\nFIRING EXERCISES IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA\nSTANDING BY VHF CH 13 AND 61\nCANCEL 151400 UTC OCT",
+        "body": "[Gulf of Finland] FINNISH NAV WARN 556/26\nSEA AREA OF KOTKA APPROACHES IS CLOSED.\nAREA IS LIMITED TO KAUNISSAAREN SELKÄ IN WEST,\nHAMINA HARBOUR IN NORTH,\nTERRITORIAL SEA LIMIT IN EAST AND\nTERRITORIAL SEA LIMIT IN SOUTH.\nFURTHER INFORMATION FROM KOTKA VTS ON VHF CHANNEL 67.",
         "cancel_date": null,
-        "valid_from": "2026-10-15T06:00:00+00:00",
-        "valid_until": "2026-10-15T14:00:00+00:00",
+        "valid_from": "2026-10-16T03:30:00+00:00",
+        "valid_until": null,
         "corrections": [],
         "summary": null
       }
@@ -1498,6 +1490,36 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 297/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.48016666666667,
+          67.26466666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-15T23:16:00",
+        "raw_dtg": "152316Z OCT 26",
+        "msg_id": "HYDROARC 297/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "scientific mooring",
+        "category": "other",
+        "title": "Scientific Mooring",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "HYDROARC 297/26.\nDAVIS STRAIT.\nGREENLAND.\n1. SCIENTIFIC MOORING, LEAST DEPTH 19 METERS,\n   ESTABLISHED UNTIL 15 OCT 28 IN\n   67-15.88N 054-28.81W.\n2. CANCEL THIS MSG 160001Z OCT 28.",
+        "cancel_date": null,
+        "valid_from": "2026-10-15T23:16:00+00:00",
+        "valid_until": "2028-10-16T00:01:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 224/26",
       "geometry": {
         "type": "LineString",
@@ -2422,42 +2444,42 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 379/2026",
+      "id": "NAVCO 381/2026",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.981205,
-          68.315347
+          13.970003,
+          67.123884
         ]
       },
       "properties": {
-        "dtg": "2026-10-14T20:06:00",
-        "raw_dtg": "142006Z OCT 26",
-        "msg_id": "NAVCO 379/2026",
+        "dtg": "2026-10-15T21:19:00",
+        "raw_dtg": "152119Z OCT 26",
+        "msg_id": "NAVCO 381/2026",
         "year": 2026,
         "inforce_warnings": [],
         "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "DIGERMULEN LIGHTHOUSE 68-18.92N 014-58.87E IS UNLIT.",
+        "body": "GJELLARSNAGET LIGHTBUOY 67-07.43N 013-58.20E IS UNRELIABLE.",
         "cancel_date": null,
-        "valid_from": "2026-10-14T20:06:00+00:00",
+        "valid_from": "2026-10-15T21:19:00+00:00",
         "valid_until": null,
         "corrections": [],
         "geometry_source": "api-wkt",
-        "eventid": 862417,
+        "eventid": 862482,
         "status": "active",
         "eventclass": "NAVCO",
-        "updated_at": "2026-10-14T22:15:08.357101+00:00",
+        "updated_at": "2026-10-15T23:30:06.417898+00:00",
         "source": "kystverket-api",
         "summary": null,
-        "location": "Digermulen",
-        "norwegianchart": "69",
-        "fdv_objectid": 3369.0,
-        "message_no": "DIGERMULEN FYR 68-18.92N 014-58.87E ER SLUKKET"
+        "location": "Gjellarsnaget",
+        "norwegianchart": "136",
+        "fdv_objectid": 52559.0,
+        "message_no": "GJELLARSNAGET LYSBOEYE 67-07.43N 013-58.20E ER UREGELMESSIG."
       }
     },
     {
@@ -2764,6 +2786,116 @@
         "cancel_date": null,
         "valid_from": "2026-10-08T12:36:00+00:00",
         "valid_until": "2026-10-17T12:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 258/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.815333333333335,
+          55.22023333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-15T12:45:00",
+        "raw_dtg": "151245Z OCT 26",
+        "msg_id": "POLISH NAV WARN 258/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] POLISH NAV WARN 258/26\nSOUTH-EASTERN BALTIC. N OF WLADYSLAWOWO\nTHE METEOROLOGICAL BUOY OWF \"BALTYK 3\" HAS DRIFTED FROM ITS CORRECT POSITION.\nTHE CURRENT POSITION IS: 55-13.214N; 018-48.92E.\nPARTICULAR ATTENTION RECOMMENDED.\nCAUTION ADVISED.",
+        "cancel_date": null,
+        "valid_from": "2026-10-15T12:45:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 262/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-15T13:06:00",
+        "raw_dtg": "151306Z OCT 26",
+        "msg_id": "POLISH NAV WARN 262/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 262/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\n2026-10-19 FROM 04:00 TO 12:00 AND 17:00 TO 23:59\n2026-10-20 FROM 04:00 TO 23:59\n2026-10-21 FROM 04:00 TO 12:00 AND 17:00 TO 23:59\n2026-10-22 FROM 04:00 TO 12:00 AND 17:00 TO 23:59\n2026-10-23 FROM 04:00 TO 12:00 AND 17:00 TO 23:59\n2026-10-24 FROM 06:00 TO 12:00\nTIME IN UTC\nZONE IS CLOSED\nCANCEL THIS MSG 241200 UTC OCT",
+        "cancel_date": null,
+        "valid_from": "2026-10-15T13:06:00+00:00",
+        "valid_until": "2026-10-24T12:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 265/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.464666666666666,
+              54.06216666666667
+            ],
+            [
+              14.606333333333334,
+              54.19083333333333
+            ],
+            [
+              14.781333333333333,
+              54.22516666666667
+            ],
+            [
+              14.813,
+              54.17183333333333
+            ],
+            [
+              14.464666666666666,
+              54.06216666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-15T14:03:00",
+        "raw_dtg": "151403Z OCT 26",
+        "msg_id": "POLISH NAV WARN 265/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 265/26\nSOUTHERN BALTIC. POLISH COAST. POMERANIAN BAY\nMILITARY EXERCISES INVOLVING THE USE OF WEAPONS, RECOMMENDED TO AVOID THE AREA IN POSITIONS\n54-03.73N 014-27.88E\n54-11.45N 014-36.38E\n54-13.51N 014-46.88E\n54-10.31N 014-48.78E\nAREA TEMPORARILY DANGEROUS FOR SHIPPING AND FISHERY\nFROM 2026-10-20 1300 TO 2026-10-22 0900 UTC\nEXTREME CAUTION ADVISED\nCANCEL THIS MSG 220900 UTC OCT",
+        "cancel_date": null,
+        "valid_from": "2026-10-15T14:03:00+00:00",
+        "valid_until": "2026-10-22T09:00:00+00:00",
         "corrections": [],
         "summary": null
       }
