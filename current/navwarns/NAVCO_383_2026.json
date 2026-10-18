@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 383/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      19.540139,
+      70.035966
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-17T12:23:00",
+    "raw_dtg": "171223Z OCT 26",
+    "msg_id": "NAVCO 383/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "general",
+    "category": "other",
+    "title": "General Warning",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRENNES LIGHT 70-02.16N 019-32.41E IS UNRELIABLE.",
+    "cancel_date": null,
+    "valid_from": "2026-10-17T12:23:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862546,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-17T14:30:04.258816+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Brennes",
+    "norwegianchart": "91",
+    "fdv_objectid": 4029.0,
+    "message_no": "BRENNES LYKT 70-02.16N 019-32.41E ER UREGELMESSIG."
+  }
+}
