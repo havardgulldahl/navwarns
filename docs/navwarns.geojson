@@ -175,30 +175,6 @@
     },
     {
       "type": "Feature",
-      "id": "FINNISH NAV WARN 563/26",
-      "geometry": null,
-      "properties": {
-        "dtg": "2026-10-18T00:21:00",
-        "raw_dtg": "180021Z OCT 26",
-        "msg_id": "FINNISH NAV WARN 563/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Gulf of Finland] FINNISH NAV WARN 563/26\nSEA AREA OF KOTKA APPROACHES IS CLOSED.\nAREA IS LIMITED TO KAUNISSAAREN SELKÄ IN WEST,\nHAMINA HARBOUR IN NORTH,\nTERRITORIAL SEA LIMIT IN EAST AND\nTERRITORIAL SEA LIMIT IN SOUTH.\nFURTHER INFORMATION FROM KOTKA VTS ON VHF CHANNEL 67.",
-        "cancel_date": null,
-        "valid_from": "2026-10-18T00:21:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "GERMAN NAV WARN 510/26",
       "geometry": {
         "type": "Point",
@@ -2132,46 +2108,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 339/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.199343,
-          63.003002
-        ]
-      },
-      "properties": {
-        "dtg": "2026-09-11T20:41:00",
-        "raw_dtg": "112041Z SEP 26",
-        "msg_id": "NAVCO 339/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "KUSUNDET LIGHT 63-00.18N 007-11.96E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-09-11T20:41:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 859314,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-09-11T22:45:03.644406+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Kusundet",
-        "norwegianchart": "35",
-        "fdv_objectid": 1960.0,
-        "message_no": "KUSUNDET LYKT 63-00.18N 007-11.96E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 347/2026",
       "geometry": {
         "type": "Point",
@@ -2208,46 +2144,6 @@
         "norwegianchart": "84",
         "fdv_objectid": 100001319.0,
         "message_no": "NORDGRUNNEN LANTERNE 69-21.40N 018-05.84E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 353/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.867402,
-          60.611306
-        ]
-      },
-      "properties": {
-        "dtg": "2026-09-27T04:36:00",
-        "raw_dtg": "270436Z SEP 26",
-        "msg_id": "NAVCO 353/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "STUREHOLMEN LIGHT 60-36.67N 004-52.04E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-09-27T04:36:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 861836,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-09-27T06:45:10.118753+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Stureholmen",
-        "norwegianchart": "120",
-        "fdv_objectid": 1180.0,
-        "message_no": "STUREHOLMEN LYKT 60-36.67N 004-52.04E ER SLUKKET"
       }
     },
     {
@@ -2576,6 +2472,46 @@
         "norwegianchart": "91",
         "fdv_objectid": 4029.0,
         "message_no": "BRENNES LYKT 70-02.16N 019-32.41E ER UREGELMESSIG."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 384/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.346667,
+          57.633333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-18T15:50:00",
+        "raw_dtg": "181550Z OCT 26",
+        "msg_id": "NAVCO 384/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "DRIFTING VESSEL ON FIRE IN POS:&nbsp;57-38.04N 008-20.80E 181537 UTC OCT 26. CREW RESCUED. VESSELS IN VICINITY REPORT STATUS&nbsp;OF VESSEL TO COASTRADIO SOUTH CH16",
+        "cancel_date": null,
+        "valid_from": "2026-10-18T15:50:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 862550,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-10-18T18:00:09.295079+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Skagerrak",
+        "norwegianchart": "301",
+        "fdv_objectid": null,
+        "message_no": "DRIVENDE FARTOEY I BRANN I POS:&nbsp;57-38.04N 008-20.80E 181537 UTC OCT 26.MANNSKAP REDDET. FARTOEY I NAERHETEN&nbsp;RAPPORTER STATUS TIL KYSTRADIO SØR CH16"
       }
     },
     {
@@ -2962,6 +2898,36 @@
         "cancel_date": null,
         "valid_from": "2026-10-15T14:03:00+00:00",
         "valid_until": "2026-10-22T09:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 268/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.812833333333334,
+          54.6
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-18T18:59:00",
+        "raw_dtg": "181859Z OCT 26",
+        "msg_id": "POLISH NAV WARN 268/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] POLISH NAV WARN 268/26\n181737 UTC OCT\nPOLISH NAV WARN 268/26\nSOUTH-EASTERN BALTIC GULF OF GDANSK\nTHE LIGHTHOUSE HEL IS UNLIT\nPSN: 54-36.00N 018-48.77E\nCAUTION ADVISED",
+        "cancel_date": null,
+        "valid_from": "2026-10-18T18:59:00+00:00",
+        "valid_until": null,
         "corrections": [],
         "summary": null
       }
