@@ -111,38 +111,6 @@
     },
     {
       "type": "Feature",
-      "id": "ESTONIAN NAV WARN 177/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.316666666666666,
-          59.583333333333336
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-18T04:50:00",
-        "raw_dtg": "180450Z OCT 26",
-        "msg_id": "ESTONIAN NAV WARN 177/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [
-          "201900 UTC OCT"
-        ],
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Gulf of Finland] ESTONIAN NAV WARN 177/26\nGULF OF FINLAND\n190600-191400 UTC OCT\n201000-201900 UTC OCT\nW OF NAISSAAR ISLAND\nFIRING PRACTICE AREA 2A\nCENTRED 59-35N 024-19E\nFIRING EXERCISES IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA\nSTANDING BY VHF CH 13 AND 61\nCANCEL 201900 UTC OCT",
-        "cancel_date": null,
-        "valid_from": "2026-10-18T04:50:00+00:00",
-        "valid_until": "2026-10-20T19:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "ESTONIAN NAV WARN 178/26",
       "geometry": {
         "type": "Point",
@@ -1668,6 +1636,204 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 306/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.4,
+              71.825
+            ],
+            [
+              38.025,
+              71.33333333333333
+            ],
+            [
+              41.21666666666667,
+              71.13333333333334
+            ],
+            [
+              42.75,
+              70.21666666666667
+            ],
+            [
+              41.06666666666667,
+              69.55
+            ],
+            [
+              38.333333333333336,
+              69.2
+            ],
+            [
+              35.86666666666667,
+              69.36666666666666
+            ],
+            [
+              35.18333333333333,
+              69.48333333333333
+            ],
+            [
+              33.233333333333334,
+              69.54166666666667
+            ],
+            [
+              33.1,
+              69.64666666666666
+            ],
+            [
+              33.083333333333336,
+              69.74166666666666
+            ],
+            [
+              33.35,
+              69.88333333333334
+            ],
+            [
+              32.55,
+              70.39166666666667
+            ],
+            [
+              32.4,
+              71.825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-20T19:33:00",
+        "raw_dtg": "201933Z OCT 26",
+        "msg_id": "HYDROARC 306/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "HYDROARC 306/26.\nBARENTS SEA.\nRUSSIA.\n1. MISSILE OPERATIONS 0400Z TO 1500Z DAILY\n   25 THRU 28 OCT IN AREA BOUND BY\n   71-49.50N 032-24.00E, 71-20.00N 038-01.50E,\n   71-08.00N 041-13.00E, 70-13.00N 042-45.00E,\n   69-33.00N 041-04.00E, 69-12.00N 038-20.00E,\n   69-22.00N 035-52.00E, 69-29.00N 035-11.00E,\n   69-32.50N 033-14.00E, 69-38.80N 033-06.00E,\n   69-44.50N 033-05.00E, 69-53.00N 033-21.00E,\n   70-23.50N 032-33.00E.\n2. CANCEL THIS MSG 281600Z OCT 26.",
+        "cancel_date": null,
+        "valid_from": "2026-10-20T19:33:00+00:00",
+        "valid_until": "2026-10-28T16:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 307/26#grp1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              51.339166666666664,
+              68.92
+            ],
+            [
+              50.824,
+              68.6745
+            ],
+            [
+              49.387166666666666,
+              68.33416666666666
+            ],
+            [
+              47.90683333333333,
+              68.03416666666666
+            ],
+            [
+              47.07416666666666,
+              67.98616666666666
+            ],
+            [
+              47.5215,
+              68.237
+            ],
+            [
+              48.934,
+              68.60683333333333
+            ],
+            [
+              50.488,
+              68.88833333333334
+            ],
+            [
+              51.339166666666664,
+              68.92
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 307/26",
+        "group_index": 1,
+        "dtg": "2026-10-20T19:52:00",
+        "raw_dtg": "201952Z OCT 26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "HYDROARC 307/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   252100Z TO 312100Z OCT IN AREAS BOUND BY:\n   A. 68-55.20N 051-20.35E, 68-40.47N 050-49.44E,\n      68-20.05N 049-23.23E, 68-02.05N 047-54.41E,\n      67-59.17N 047-04.45E, 68-14.22N 047-31.29E,\n      68-36.41N 048-56.04E, 68-53.30N 050-29.28E.\n   B. 67-29.00N 045-02.00E, 67-33.00N 045-19.00E,\n      67-26.00N 045-30.00E, 67-22.00N 045-13.00E.\n2. CANCEL THIS MSG 312200Z OCT 26.",
+        "cancel_date": null,
+        "valid_from": "2026-10-20T19:52:00+00:00",
+        "valid_until": "2026-10-31T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 307/26#grp2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.03333333333333,
+              67.48333333333333
+            ],
+            [
+              45.31666666666667,
+              67.55
+            ],
+            [
+              45.5,
+              67.43333333333334
+            ],
+            [
+              45.21666666666667,
+              67.36666666666666
+            ],
+            [
+              45.03333333333333,
+              67.48333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 307/26",
+        "group_index": 2,
+        "dtg": "2026-10-20T19:52:00",
+        "raw_dtg": "201952Z OCT 26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "body": "HYDROARC 307/26.\nBARENTS SEA.\nRUSSIA.\n1. HAZARDOUS OPERATIONS, ROCKET LAUNCHING\n   252100Z TO 312100Z OCT IN AREAS BOUND BY:\n   A. 68-55.20N 051-20.35E, 68-40.47N 050-49.44E,\n      68-20.05N 049-23.23E, 68-02.05N 047-54.41E,\n      67-59.17N 047-04.45E, 68-14.22N 047-31.29E,\n      68-36.41N 048-56.04E, 68-53.30N 050-29.28E.\n   B. 67-29.00N 045-02.00E, 67-33.00N 045-19.00E,\n      67-26.00N 045-30.00E, 67-22.00N 045-13.00E.\n2. CANCEL THIS MSG 312200Z OCT 26.",
+        "cancel_date": null,
+        "valid_from": "2026-10-20T19:52:00+00:00",
+        "valid_until": "2026-10-31T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 224/26",
       "geometry": {
         "type": "LineString",
@@ -1910,36 +2076,6 @@
         "cancel_date": null,
         "valid_from": "2026-10-15T04:38:00+00:00",
         "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "LITHUANIAN NAV WARN 069/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.85,
-          55.49333333333333
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-19T05:30:00",
-        "raw_dtg": "190530Z OCT 26",
-        "msg_id": "LITHUANIAN NAV WARN 069/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 069/26\nSOUTH-EASTERN BALTIC\nLITHUANIAN COAST – MILITARY EXERCISES\nMILITARY EXERCISES 20 OCT 0500–1700 UTC IN AREA EYD-18, CENTERED\nIN 55-29.6N 020-51.0E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 201800 UTC OCT",
-        "cancel_date": null,
-        "valid_from": "2026-10-19T05:30:00+00:00",
-        "valid_until": "2026-10-20T18:00:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -2270,6 +2406,98 @@
     },
     {
       "type": "Feature",
+      "id": "NAVAREA XIX 128/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.4,
+              71.825
+            ],
+            [
+              38.025,
+              71.3333
+            ],
+            [
+              41.2167,
+              71.1333
+            ],
+            [
+              42.75,
+              70.2167
+            ],
+            [
+              41.0667,
+              69.55
+            ],
+            [
+              38.3333,
+              69.2
+            ],
+            [
+              35.8667,
+              69.3667
+            ],
+            [
+              35.1833,
+              69.4833
+            ],
+            [
+              33.2333,
+              69.5417
+            ],
+            [
+              33.1,
+              69.6467
+            ],
+            [
+              33.0833,
+              69.7417
+            ],
+            [
+              33.35,
+              69.8833
+            ],
+            [
+              32.55,
+              70.3917
+            ],
+            [
+              32.4,
+              71.825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-21T06:30:00",
+        "raw_dtg": "210630Z OCT 26",
+        "msg_id": "NAVAREA XIX 128/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "Navarea xix 128/26. Barents Sea.\n1. Missile firings 0400 to 1500 utc daily 25 to 28 oct. Danger area is established within. Proceed with caution.\n71-49.5n 032-24.0e\n71-20.0n 038-01.5e\n71-08.0n 041-13.0e\n70-13.0n 042-45.0e\n69-33.0n 041-04.0e\n69-12.0n 038-20.0e\n69-22.0n 035-52.0e\n69-29.0n 035-11.0e\n69-32.5n 033-14.0e\n69-38.8n 033-06.0e\nThen coastal line to\n69-44.5n 033-05.0e\n69-53.0n 033-21.0e\n70-23.5n 032-33.0e\n2. Cancel this msg 241600 utc oct 26",
+        "cancel_date": null,
+        "valid_from": "2026-10-21T06:30:00+00:00",
+        "valid_until": "2026-10-24T16:00:00+00:00",
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 862640,
+        "status": "active",
+        "eventclass": "NA19",
+        "updated_at": "2026-10-20T20:45:12.888248+00:00",
+        "source": "kystverket-api",
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "NAVCO 347/2026",
       "geometry": {
         "type": "Point",
@@ -2306,46 +2534,6 @@
         "norwegianchart": "84",
         "fdv_objectid": 100001319.0,
         "message_no": "NORDGRUNNEN LANTERNE 69-21.40N 018-05.84E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 363/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.609521,
-          67.380979
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-05T14:01:00",
-        "raw_dtg": "051401Z OCT 26",
-        "msg_id": "NAVCO 363/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "KLØKSTAD LIGHT 67-22.86N 014-36.57E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-10-05T14:01:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862168,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-10-05T16:15:06.846249+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Kløkstad",
-        "norwegianchart": "65",
-        "fdv_objectid": 21914.0,
-        "message_no": "KLØKSTAD LYKT 67-22.86N 014-36.57E ER SLUKKET"
       }
     },
     {
@@ -2674,6 +2862,40 @@
         "norwegianchart": "95",
         "fdv_objectid": 59670.0,
         "message_no": "LANDBÅEN SØR LYSBOEYE 70-17.51N 022-09.29E UTE AV POSISJON."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 386/2026",
+      "geometry": null,
+      "properties": {
+        "dtg": "2026-10-20T09:38:00",
+        "raw_dtg": "200938Z OCT 26",
+        "msg_id": "NAVCO 386/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "cable",
+        "category": "cable",
+        "title": "Underwater Cable",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "AIRDRAFT FOR OVERHEAD POWER CABLE IN NORDFJORDEN BETWEEN AASNESET AND OTERNAKKEN&nbsp;IS TEMPORARILY REDUCED TO 53 METERS.",
+        "cancel_date": null,
+        "valid_from": "2026-10-20T09:38:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "parsed-text",
+        "eventid": 862632,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-10-20T11:45:05.599478+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": null,
+        "norwegianchart": "28",
+        "fdv_objectid": null,
+        "message_no": "SEILINGSHOEYDEN UNDER LUFTSPENN OVER NORDFJORDEN MELLOM AASNESET OG OTERNAKKEN&nbsp;ER MIDLERTIDIG REDUSERT TIL 53&nbsp;METER."
       }
     },
     {
@@ -3315,6 +3537,36 @@
         "cancel_date": null,
         "valid_from": "2026-06-27T01:36:46.512177+00:00",
         "valid_until": "2026-11-01T00:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SWEDISH NAV WARN 177/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.85,
+          58.69833333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-20T22:01:00",
+        "raw_dtg": "202201Z OCT 26",
+        "msg_id": "SWEDISH NAV WARN 177/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Skagerrak] SWEDISH NAV WARN 177/26\nSKAGERRAK. KOSTER.\nSOUTH CARDINAL MARK 'PERSGRUNDEN' IS MISSING FROM CHARTED.\nPSN 58-41.9N 010-51.0E.",
+        "cancel_date": null,
+        "valid_from": "2026-10-20T22:01:00+00:00",
+        "valid_until": null,
         "corrections": [],
         "summary": null
       }
