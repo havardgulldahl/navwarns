@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 387/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      22.28909,
+      70.591688
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-22T03:47:00",
+    "raw_dtg": "220347Z OCT 26",
+    "msg_id": "NAVCO 387/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "LILLEHAVET NV LIGHT 70-35.50N 022-17.35E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-10-22T03:47:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862661,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-22T06:00:08.120143+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Lillehavet NV",
+    "norwegianchart": "100",
+    "fdv_objectid": 51335.0,
+    "message_no": "LILLEHAVET NV LANTERNE 70-35.50N 022-17.35E ER SLUKKET"
+  }
+}

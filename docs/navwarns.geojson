@@ -87,6 +87,30 @@
     },
     {
       "type": "Feature",
+      "id": "DANISH NAV WARN 413/26",
+      "geometry": null,
+      "properties": {
+        "dtg": "2026-10-21T07:36:00",
+        "raw_dtg": "210736Z OCT 26",
+        "msg_id": "DANISH NAV WARN 413/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] DANISH NAV WARN 413/26\nDENMARK. BALTIC SEA.\nNAVTEX TRANSMITTER GISLÖVHAMMAR [J]\nINOPERATIVE FROM 21ST OCTOBER\n2026 AT 0645 UTC.",
+        "cancel_date": null,
+        "valid_from": "2026-10-21T07:36:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "ESTONIAN NAV WARN 173/26",
       "geometry": null,
       "properties": {
@@ -143,36 +167,6 @@
     },
     {
       "type": "Feature",
-      "id": "GERMAN NAV WARN 510/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.5,
-          54.46666666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2026-09-10T11:05:00",
-        "raw_dtg": "101105Z SEP 26",
-        "msg_id": "GERMAN NAV WARN 510/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Western Baltic] GERMAN NAV WARN 510/26\nWESTERN BALTIC. DARSS.\n'DARSSER ORT' LIGHTHOUSE 54-28N 012-30E UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-09-10T11:05:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "GERMAN NAV WARN 580/26",
       "geometry": {
         "type": "Point",
@@ -205,31 +199,29 @@
     },
     {
       "type": "Feature",
-      "id": "GERMAN NAV WARN 583/26",
+      "id": "GERMAN NAV WARN 592/26",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.883333333333333,
-          54.833333333333336
+          12.5,
+          54.46666666666667
         ]
       },
       "properties": {
-        "dtg": "2026-10-16T05:24:00",
-        "raw_dtg": "160524Z OCT 26",
-        "msg_id": "GERMAN NAV WARN 583/26",
+        "dtg": "2026-10-21T12:27:00",
+        "raw_dtg": "211227Z OCT 26",
+        "msg_id": "GERMAN NAV WARN 592/26",
         "year": 2026,
         "inforce_warnings": [],
-        "cancellations": [
-          "496/26"
-        ],
+        "cancellations": [],
         "hazard_type": "aid to navigation outage",
         "category": "navigation",
         "title": "Aid to Navigation Outage",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "[Western Baltic] GERMAN NAV WARN 583/26\nWESTERN BALTIC.FLENSBURGER FOERDE.\n'KALKGRUND' LIGHTHOUSE  54-50N 009-53E UNLIT.\nCANCEL NAVIGATIONAL WARNING 496/26",
+        "body": "[Western Baltic] GERMAN NAV WARN 592/26\nWESTERN BALTIC. DARSS.\n'DARSSER ORT' LIGHTHOUSE 54-28N 012-30E UNLIT.\nNAVIGATIONAL WARNING NO. 510 CANCELLED.",
         "cancel_date": null,
-        "valid_from": "2026-10-16T05:24:00+00:00",
+        "valid_from": "2026-10-21T12:27:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -1834,6 +1826,36 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 308/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.68,
+          77.55833333333334
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-21T11:25:00",
+        "raw_dtg": "211125Z OCT 26",
+        "msg_id": "HYDROARC 308/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "ice and icebergs",
+        "category": "navigation",
+        "title": "Ice and Icebergs",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "HYDROARC 308/26\nLAPTEV SEA.\n1. ICEBERG REPORTED AT 211004Z OCT\n   IN 77-33.50N 122-40.80E.\n2. CANCEL THIS MSG 241125Z OCT 26.",
+        "cancel_date": null,
+        "valid_from": "2026-10-21T11:25:00+00:00",
+        "valid_until": "2026-10-24T11:25:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 224/26",
       "geometry": {
         "type": "LineString",
@@ -2192,58 +2214,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVAREA XIX 122/26",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            5.301667,
-            67.026667
-          ],
-          [
-            6.671667,
-            65.116667
-          ],
-          [
-            7.3,
-            65.285
-          ],
-          [
-            20.355,
-            72.54
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-09T06:30:00",
-        "raw_dtg": "090630Z OCT 26",
-        "msg_id": "NAVAREA XIX 122/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [
-          "NAVAREA XIX 107/26"
-        ],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "multipoint",
-        "radius_nm": null,
-        "body": "Navarea xix 122/26\n1. Riglist. Correct at 090526 utc oct 26\nNorwegian sea: North of 65n, east of 5w.\n\n72-32.44n 020-21.35e - transocean enabler\n67-01.61n 005-18.19e - transocean norge\n65-17.16n 007-18.05e - island innovator\n65-07.08n 006-40.31e - transocean encourage\n\nNotes:\na. Rigs are protected by a 500 metre safety zone.\nb. For rigs located south of 65n, refer to navarea i warnings or visit www.ukho.gov.uk/rnw\n2. Cancel navarea xix 107/26",
-        "cancel_date": null,
-        "valid_from": "2026-10-09T06:30:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862294,
-        "status": "active",
-        "eventclass": "NA19",
-        "updated_at": "2026-10-09T07:30:05.580944+00:00",
-        "source": "kystverket-api",
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVAREA XIX 125/26",
       "geometry": {
         "type": "Polygon",
@@ -2318,88 +2288,6 @@
         "status": "active",
         "eventclass": "NA19",
         "updated_at": "2026-10-16T09:00:11.085149+00:00",
-        "source": "kystverket-api",
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVAREA XIX 127/26",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -5.0,
-              65.0
-            ],
-            [
-              -5.0,
-              75.0
-            ],
-            [
-              -35.0,
-              75.0
-            ],
-            [
-              -35.0,
-              90.0
-            ],
-            [
-              30.0,
-              90.0
-            ],
-            [
-              30.0,
-              71.0
-            ],
-            [
-              31.7167,
-              70.3667
-            ],
-            [
-              31.1033,
-              69.9744
-            ],
-            [
-              30.8211,
-              69.7947
-            ],
-            [
-              30.0,
-              65.0
-            ],
-            [
-              -5.0,
-              65.0
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-17T18:30:00",
-        "raw_dtg": "171830Z OCT 26",
-        "msg_id": "NAVAREA XIX 127/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [
-          "NAVAREA XIX 126/26"
-        ],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "NAVAREA XIX 127/26\nCancel navarea xix 126/26.\nCancel this message.",
-        "cancel_date": null,
-        "valid_from": "2026-10-17T18:30:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862547,
-        "status": "active",
-        "eventclass": "NA19",
-        "updated_at": "2026-10-17T16:15:08.752552+00:00",
         "source": "kystverket-api",
         "summary": null
       }
@@ -2498,42 +2386,58 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 347/2026",
+      "id": "NAVAREA XIX 129/26",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          18.097455,
-          69.356693
+          [
+            5.301667,
+            67.026667
+          ],
+          [
+            6.788333,
+            65.11
+          ],
+          [
+            7.3,
+            65.285
+          ],
+          [
+            7.355,
+            65.368333
+          ],
+          [
+            20.356667,
+            72.54
+          ]
         ]
       },
       "properties": {
-        "dtg": "2026-09-23T19:17:00",
-        "raw_dtg": "231917Z SEP 26",
-        "msg_id": "NAVCO 347/2026",
+        "dtg": "2026-10-22T06:30:00",
+        "raw_dtg": "220630Z OCT 26",
+        "msg_id": "NAVAREA XIX 129/26",
         "year": 2026,
         "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
+        "cancellations": [
+          "NAVAREA XIX 122/26"
+        ],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "multipoint",
         "radius_nm": null,
-        "body": "NORDGRUNNEN LIGHT 69-21.40N 018-05.84E IS UNLIT.",
+        "body": "Navarea XIX 129/26\n1. Riglist. Correct at 220335 UTC Oct 26\nNorwegian Sea: North of 65N, east of 5W.\n\n72-32.46N 020-21.45E - Transocean Enabler\n67-01.63N 005-18.17E - Transocean Norge\n65-22.19N 007-21.33E - Transocean Encourage\n65-17.16N 007-18.05E - Island Innovator\n65-06.61N 006-47.37E - Asgard B\n\nNotes:\nA. Rigs are protected by a 500 metre safety zone.\nB. For rigs located south of 65N, refer to Navarea I warnings or visit www.ukho.gov.uk/rnw\n2. Cancel Navarea XIX 122/26",
         "cancel_date": null,
-        "valid_from": "2026-09-23T19:17:00+00:00",
+        "valid_from": "2026-10-22T06:30:00+00:00",
         "valid_until": null,
         "corrections": [],
         "geometry_source": "api-wkt",
-        "eventid": 859671,
+        "eventid": 862659,
         "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-09-23T21:30:05.252541+00:00",
+        "eventclass": "NA19",
+        "updated_at": "2026-10-22T05:45:12.135493+00:00",
         "source": "kystverket-api",
-        "summary": null,
-        "location": "Nordgrunnen",
-        "norwegianchart": "84",
-        "fdv_objectid": 100001319.0,
-        "message_no": "NORDGRUNNEN LANTERNE 69-21.40N 018-05.84E ER SLUKKET"
+        "summary": null
       }
     },
     {
@@ -2786,46 +2690,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 383/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.540139,
-          70.035966
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-17T12:23:00",
-        "raw_dtg": "171223Z OCT 26",
-        "msg_id": "NAVCO 383/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "BRENNES LIGHT 70-02.16N 019-32.41E IS UNRELIABLE.",
-        "cancel_date": null,
-        "valid_from": "2026-10-17T12:23:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862546,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-10-17T14:30:04.258816+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Brennes",
-        "norwegianchart": "91",
-        "fdv_objectid": 4029.0,
-        "message_no": "BRENNES LYKT 70-02.16N 019-32.41E ER UREGELMESSIG."
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 385/2026",
       "geometry": {
         "type": "Point",
@@ -2896,6 +2760,46 @@
         "norwegianchart": "28",
         "fdv_objectid": null,
         "message_no": "SEILINGSHOEYDEN UNDER LUFTSPENN OVER NORDFJORDEN MELLOM AASNESET OG OTERNAKKEN&nbsp;ER MIDLERTIDIG REDUSERT TIL 53&nbsp;METER."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 387/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.28909,
+          70.591688
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-22T03:47:00",
+        "raw_dtg": "220347Z OCT 26",
+        "msg_id": "NAVCO 387/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "LILLEHAVET NV LIGHT 70-35.50N 022-17.35E IS UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-10-22T03:47:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 862661,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-10-22T06:00:08.120143+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Lillehavet NV",
+        "norwegianchart": "100",
+        "fdv_objectid": 51335.0,
+        "message_no": "LILLEHAVET NV LANTERNE 70-35.50N 022-17.35E ER SLUKKET"
       }
     },
     {
