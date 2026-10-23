@@ -87,30 +87,6 @@
     },
     {
       "type": "Feature",
-      "id": "DANISH NAV WARN 413/26",
-      "geometry": null,
-      "properties": {
-        "dtg": "2026-10-21T07:36:00",
-        "raw_dtg": "210736Z OCT 26",
-        "msg_id": "DANISH NAV WARN 413/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Southern Baltic] DANISH NAV WARN 413/26\nDENMARK. BALTIC SEA.\nNAVTEX TRANSMITTER GISLÖVHAMMAR [J]\nINOPERATIVE FROM 21ST OCTOBER\n2026 AT 0645 UTC.",
-        "cancel_date": null,
-        "valid_from": "2026-10-21T07:36:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "ESTONIAN NAV WARN 173/26",
       "geometry": null,
       "properties": {
@@ -161,6 +137,36 @@
         "cancel_date": null,
         "valid_from": "2026-10-17T06:28:00+00:00",
         "valid_until": "2026-10-23T15:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FINNISH NAV WARN 572/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.412666666666667,
+          61.58083333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-22T16:24:00",
+        "raw_dtg": "221624Z OCT 26",
+        "msg_id": "FINNISH NAV WARN 572/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Sea of Bothnia] FINNISH NAV WARN 572/26\nSEA OF BOTHNIA\nMÄNTYLUOTO SOUTHERN FAIRWAY\nEDGE MARK MORRIS NO 24416\nIN POS 61-34.85N 021-24.76E\nRACON OUT OF ORDER",
+        "cancel_date": null,
+        "valid_from": "2026-10-22T16:24:00+00:00",
+        "valid_until": null,
         "corrections": [],
         "summary": null
       }
@@ -1476,106 +1482,6 @@
     },
     {
       "type": "Feature",
-      "id": "HYDROARC 304/26#grp1",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.49833333333333,
-          77.40333333333334
-        ]
-      },
-      "properties": {
-        "parent_id": "HYDROARC 304/26",
-        "group_index": 1,
-        "dtg": "2026-10-19T15:00:00",
-        "raw_dtg": "191500Z OCT 26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "hazard_type": "ice and icebergs",
-        "category": "navigation",
-        "title": "Ice and Icebergs",
-        "body": "HYDROARC 304/26\nLAPTEV SEA.\nRUSSIA.\n1. ICEBERGS REPORTED\n   A. IN:\n      A. 77-24.20N 116-29.90E.\n      B. 77-28.90N 112-07.40E.\n   B. IN AREA BOUND BY\n      77-30.00N 121-00.00E, 77-30.00N 123-00.00E,\n      77-00.00N 120-00.00E.\n2. CANCEL THIS MSG 221453Z OCT 26.",
-        "cancel_date": null,
-        "valid_from": "2026-10-19T15:00:00+00:00",
-        "valid_until": "2026-10-22T14:53:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 304/26#grp2",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          112.12333333333333,
-          77.48166666666667
-        ]
-      },
-      "properties": {
-        "parent_id": "HYDROARC 304/26",
-        "group_index": 2,
-        "dtg": "2026-10-19T15:00:00",
-        "raw_dtg": "191500Z OCT 26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "hazard_type": "ice and icebergs",
-        "category": "navigation",
-        "title": "Ice and Icebergs",
-        "body": "HYDROARC 304/26\nLAPTEV SEA.\nRUSSIA.\n1. ICEBERGS REPORTED\n   A. IN:\n      A. 77-24.20N 116-29.90E.\n      B. 77-28.90N 112-07.40E.\n   B. IN AREA BOUND BY\n      77-30.00N 121-00.00E, 77-30.00N 123-00.00E,\n      77-00.00N 120-00.00E.\n2. CANCEL THIS MSG 221453Z OCT 26.",
-        "cancel_date": null,
-        "valid_from": "2026-10-19T15:00:00+00:00",
-        "valid_until": "2026-10-22T14:53:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "HYDROARC 304/26#grp3",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              121.0,
-              77.5
-            ],
-            [
-              123.0,
-              77.5
-            ],
-            [
-              120.0,
-              77.0
-            ],
-            [
-              121.0,
-              77.5
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "parent_id": "HYDROARC 304/26",
-        "group_index": 3,
-        "dtg": "2026-10-19T15:00:00",
-        "raw_dtg": "191500Z OCT 26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "hazard_type": "ice and icebergs",
-        "category": "navigation",
-        "title": "Ice and Icebergs",
-        "body": "HYDROARC 304/26\nLAPTEV SEA.\nRUSSIA.\n1. ICEBERGS REPORTED\n   A. IN:\n      A. 77-24.20N 116-29.90E.\n      B. 77-28.90N 112-07.40E.\n   B. IN AREA BOUND BY\n      77-30.00N 121-00.00E, 77-30.00N 123-00.00E,\n      77-00.00N 120-00.00E.\n2. CANCEL THIS MSG 221453Z OCT 26.",
-        "cancel_date": null,
-        "valid_from": "2026-10-19T15:00:00+00:00",
-        "valid_until": "2026-10-22T14:53:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "HYDROARC 305/26",
       "geometry": {
         "type": "Polygon",
@@ -2104,36 +2010,6 @@
     },
     {
       "type": "Feature",
-      "id": "LITHUANIAN NAV WARN 070/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.85,
-          55.49333333333333
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-20T05:00:00",
-        "raw_dtg": "200500Z OCT 26",
-        "msg_id": "LITHUANIAN NAV WARN 070/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 070/26\nSOUTH-EASTERN BALTIC\nLITHUANIAN COAST – MILITARY EXERCISES\nMILITARY EXERCISES 0500–1400 UTC DAILY\n21 AND 22 OCT IN AREA EYD-18, CENTERED\nIN 55-29.6N 020-51.0E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 221500 UTC OCT",
-        "cancel_date": null,
-        "valid_from": "2026-10-20T05:00:00+00:00",
-        "valid_until": "2026-10-22T15:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVAREA XIX 114/26",
       "geometry": {
         "type": "Polygon",
@@ -2556,46 +2432,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 373/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.979995,
-          70.669726
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-10T11:31:00",
-        "raw_dtg": "101131Z OCT 26",
-        "msg_id": "NAVCO 373/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "FUGLEN LIGHT 70-40.18N 021-58.80E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-10-10T11:31:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862325,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-10-10T13:45:04.867820+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Fuglen",
-        "norwegianchart": "100",
-        "fdv_objectid": 4131.0,
-        "message_no": "FUGLEN LANTERNE 70-40.18N 021-58.80E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 377/2026",
       "geometry": {
         "type": "Point",
@@ -2670,7 +2506,7 @@
         "title": "General Warning",
         "geometry_kind": "multipoint",
         "radius_nm": null,
-        "body": "COASTAL WARNING\nNORWEGIAN SEA\nBARENTS SEA\n1. ANDOEYA SPACE WILL CONDUCT OPERATIONAL ACTIVITY FROM 14.OCT TO 24.OCT.26&nbsp; DAILY FROM 16:00-02:00 UTC\n\nDANGER AREA\n\nA. 69-10.97N 014-38.51E\nB. 69-22.55N 015-22.36E\nC. 69-14.24N 015-53.60E\nD. 68-59.02N 015-25.85E\n\nFOR COORDINATION, ANDOEYA SPACE CAN BE REACHED ON.TELEPHONE +47 94 07 59 44 / +47 76 14 45 87 OR VHF CH 14/16 E-MAIL MSO@ANDOYASPACE.NO.\nFOR FURTHER DETAILS SEE NOTICES\n2. REFFERS NORWEGIAN NOTICE TO MARINER 18-2026",
+        "body": "COASTAL WARNING\n\nNORWEGIAN SEA\n\nBARENTS SEA\n\n1. ANDOEYA SPACE WILL CONDUCT OPERATIONAL ACTIVITY FROM 14.OCT TO 26.OCT.26 DAILY FROM 16:00-02:00 UTC\n\nDANGER AREA\n\nA. 69-10.97N 014-38.51E\n\nB. 69-22.55N 015-22.36E\n\nC. 69-14.24N 015-53.60E\n\nD. 68-59.02N 015-25.85E\n\nFOR COORDINATION, ANDOEYA SPACE CAN BE REACHED ON.TELEPHONE +47 94 07 59 44 / +47 76 14 45 87 OR VHF CH 14/16 E-MAIL MSO@ANDOYASPACE.NO.\n\nFOR FURTHER DETAILS SEE NOTICES\n\n2. REFFERS NORWEGIAN NOTICE TO MARINER 18-2026",
         "cancel_date": null,
         "valid_from": "2026-10-14T11:56:00+00:00",
         "valid_until": null,
@@ -2679,13 +2515,13 @@
         "eventid": 862406,
         "status": "active",
         "eventclass": "NAVCO",
-        "updated_at": "2026-10-14T14:00:06.452975+00:00",
+        "updated_at": "2026-10-22T22:00:05.816728+00:00",
         "source": "kystverket-api",
         "summary": null,
         "location": "ANDØYA SPACE",
         "norwegianchart": "81,311,312",
         "fdv_objectid": null,
-        "message_no": "KYSTVARSEL\nNORWEGIAN SEA\nBARENTS SEA\n\n1.Andøya Space vil gjennomføre operasjonell aktivitet fra 14. oktober til 24. oktober 2026, daglig i tidsrommet 16:00–02:00 UTC.\n\nFAREOMRÅDE\nA. 69-10.97N 014-38.51E\nB. 69-22.55N 015-22.36E\nC. 69-14.24N 015-53.60E\nD. 68-59.02N 015-25.85E\n\nFor koordinering kan Andøya Space kontaktes på telefon +47 94 07 59 44 / +47 76 14 45 87, eller på VHF kanal 14/16.\nE-post: mso@andoyaspace.no\nFor ytterligere detaljer, se kunngjøringer/etterretninger.\n2.Viser til Etterretninger for sjøfarende nr. 18-2026."
+        "message_no": "KYSTVARSEL\n\nNORWEGIAN SEA\n\nBARENTS SEA\n\n1.ANDØYA SPACE VIL GJENNOMFØRE OPERASJONELL AKTIVITET FRA 14. OKTOBER TIL 26. OKTOBER 2026, DAGLIG I TIDSROMMET 16:00–02:00 UTC.\n\nFAREOMRÅDE\n\nA. 69-10.97N 014-38.51E\n\nB. 69-22.55N 015-22.36E\n\nC. 69-14.24N 015-53.60E\n\nD. 68-59.02N 015-25.85E\n\nFOR KOORDINERING KAN ANDØYA SPACE KONTAKTES PÅ TELEFON +47 94 07 59 44 / +47 76 14 45 87, ELLER PÅ VHF KANAL 14/16.\n\nE-POST: MSO@ANDOYASPACE.NO\n\nFOR YTTERLIGERE DETALJER, SE KUNNGJØRINGER/ETTERRETNINGER.\n\n2.VISER TIL ETTERRETNINGER FOR SJØFARENDE NR. 18-2026."
       }
     },
     {
@@ -2764,18 +2600,18 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 387/2026",
+      "id": "NAVCO 389/2026",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.28909,
-          70.591688
+          14.586349,
+          68.237009
         ]
       },
       "properties": {
-        "dtg": "2026-10-22T03:47:00",
-        "raw_dtg": "220347Z OCT 26",
-        "msg_id": "NAVCO 387/2026",
+        "dtg": "2026-10-22T13:15:00",
+        "raw_dtg": "221315Z OCT 26",
+        "msg_id": "NAVCO 389/2026",
         "year": 2026,
         "inforce_warnings": [],
         "cancellations": [],
@@ -2784,22 +2620,62 @@
         "title": "Aid to Navigation Outage",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "LILLEHAVET NV LIGHT 70-35.50N 022-17.35E IS UNLIT.",
+        "body": "KLØFTERHOLMEN LIGHT 68-14.22N 014-35.18E IS UNLIT.",
         "cancel_date": null,
-        "valid_from": "2026-10-22T03:47:00+00:00",
+        "valid_from": "2026-10-22T13:15:00+00:00",
         "valid_until": null,
         "corrections": [],
         "geometry_source": "api-wkt",
-        "eventid": 862661,
+        "eventid": 862689,
         "status": "active",
         "eventclass": "NAVCO",
-        "updated_at": "2026-10-22T06:00:08.120143+00:00",
+        "updated_at": "2026-10-22T15:30:11.873438+00:00",
         "source": "kystverket-api",
         "summary": null,
-        "location": "Lillehavet NV",
-        "norwegianchart": "100",
-        "fdv_objectid": 51335.0,
-        "message_no": "LILLEHAVET NV LANTERNE 70-35.50N 022-17.35E ER SLUKKET"
+        "location": "Kløfterholmen",
+        "norwegianchart": "73",
+        "fdv_objectid": 58800.0,
+        "message_no": "KLØFTERHOLMEN LANTERNE 68-14.22N 014-35.18E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 390/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.54759,
+          64.798452
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-23T05:16:00",
+        "raw_dtg": "230516Z OCT 26",
+        "msg_id": "NAVCO 390/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "NORDØYAN LIGHTHOUSE 64-47.91N 010-32.86E IS UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-10-23T05:16:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 862692,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-10-23T07:30:09.677203+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Nordøyan",
+        "norwegianchart": "49",
+        "fdv_objectid": 2619.0,
+        "message_no": "NORDØYAN FYR 64-47.91N 010-32.86E ER SLUKKET"
       }
     },
     {
@@ -3142,50 +3018,30 @@
     },
     {
       "type": "Feature",
-      "id": "POLISH NAV WARN 265/26",
+      "id": "POLISH NAV WARN 276/26",
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              14.464666666666666,
-              54.06216666666667
-            ],
-            [
-              14.606333333333334,
-              54.19083333333333
-            ],
-            [
-              14.781333333333333,
-              54.22516666666667
-            ],
-            [
-              14.813,
-              54.17183333333333
-            ],
-            [
-              14.464666666666666,
-              54.06216666666667
-            ]
-          ]
+          16.609833333333334,
+          54.6545
         ]
       },
       "properties": {
-        "dtg": "2026-10-15T14:03:00",
-        "raw_dtg": "151403Z OCT 26",
-        "msg_id": "POLISH NAV WARN 265/26",
+        "dtg": "2026-10-22T13:53:00",
+        "raw_dtg": "221353Z OCT 26",
+        "msg_id": "POLISH NAV WARN 276/26",
         "year": 2026,
         "inforce_warnings": [],
         "cancellations": [],
         "hazard_type": "general",
         "category": "other",
         "title": "General Warning",
-        "geometry_kind": "polygon",
+        "geometry_kind": "point",
         "radius_nm": null,
-        "body": "[Southern Baltic] POLISH NAV WARN 265/26\nSOUTHERN BALTIC. POLISH COAST. POMERANIAN BAY\nMILITARY EXERCISES INVOLVING THE USE OF WEAPONS, RECOMMENDED TO AVOID THE AREA IN POSITIONS\n54-03.73N 014-27.88E\n54-11.45N 014-36.38E\n54-13.51N 014-46.88E\n54-10.31N 014-48.78E\nAREA TEMPORARILY DANGEROUS FOR SHIPPING AND FISHERY\nFROM 2026-10-20 1300 TO 2026-10-22 0900 UTC\nEXTREME CAUTION ADVISED\nCANCEL THIS MSG 220900 UTC OCT",
+        "body": "[Southern Baltic] POLISH NAV WARN 276/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nS-6 CENTERED 54-39.27N 016-36.59E\nFROM 2026-10-26 05:00 TO 2026-10-27 00:59\nFROM 2026-10-27 05:00 TO 2026-10-28 00:59\nFROM 2026-10-28 05:00 TO 2026-10-29 00:59\nFROM 2026-10-29 05:00 TO 2026-10-30 00:59\nFROM 2026-10-30 05:00 TO 2026-10-31 00:59\nON 2026-10-31 FROM 07:00 TO 18:00\nTIME IN UTC.\nZONE IS CLOSED\nCANCEL THIS MSG 311800 UTC OCT",
         "cancel_date": null,
-        "valid_from": "2026-10-15T14:03:00+00:00",
-        "valid_until": "2026-10-22T09:00:00+00:00",
+        "valid_from": "2026-10-22T13:53:00+00:00",
+        "valid_until": "2026-10-31T18:00:00+00:00",
         "corrections": [],
         "summary": null
       }
