@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 394/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.066206,
+      66.571305
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-25T05:11:00",
+    "raw_dtg": "250511Z OCT 26",
+    "msg_id": "NAVCO 394/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "RANGSUNDØY LIGHT 66-34.28N 013-03.97E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-10-25T05:11:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862765,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-25T06:15:07.797928+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Rangsundøy",
+    "norwegianchart": "62",
+    "fdv_objectid": 3084.0,
+    "message_no": "RANGSUNDØY LYKT 66-34.28N 013-03.97E ER SLUKKET"
+  }
+}
