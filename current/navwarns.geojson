@@ -27,12 +27,12 @@
     },
     {
       "type": "Feature",
-      "id": "BALTIC SEA NAV WARN 031/26",
+      "id": "BALTIC SEA NAV WARN 032/26",
       "geometry": null,
       "properties": {
-        "dtg": "2026-10-24T08:43:00",
-        "raw_dtg": "240843Z OCT 26",
-        "msg_id": "BALTIC SEA NAV WARN 031/26",
+        "dtg": "2026-10-25T20:30:00",
+        "raw_dtg": "252030Z OCT 26",
+        "msg_id": "BALTIC SEA NAV WARN 032/26",
         "year": 2026,
         "inforce_warnings": [],
         "cancellations": [],
@@ -41,9 +41,9 @@
         "title": "General Warning",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "[The Belts] BALTIC SEA NAV WARN 031/26\nLOW SEA LEVEL\n\nTHE BELTS: FROM OVERNIGHT INTO SUNDAY TO LATE SUNDAY EVENING APPROXIMATELY -50 TO -60 CM BELOW BALTIC SEA CHART DATUM IN CONNECTION WITH LOW TIDES\n\nWESTERN BALTIC: SUNDAY LATE AFTERNOON TO MONDAY AFTERNOON AROUND -60 TO -70 CM BELOW BALTIC SEA CHART DATUM. THEN RISING.",
+        "body": "[The Belts] BALTIC SEA NAV WARN 032/26\nLOW SEA LEVEL\nWESTERN BALTIC: UNTIL MONDAY AFTERNOON AROUND -60 TO -70 CM BELOW BALTIC SEA CHART DATUM. THEN RISING.",
         "cancel_date": null,
-        "valid_from": "2026-10-24T08:43:00+00:00",
+        "valid_from": "2026-10-25T20:30:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -111,30 +111,30 @@
     },
     {
       "type": "Feature",
-      "id": "DANISH NAV WARN 416/26",
+      "id": "DANISH NAV WARN 417/26",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.063333333333333,
-          57.565
+          10.831666666666667,
+          55.885
         ]
       },
       "properties": {
-        "dtg": "2026-10-24T23:56:00",
-        "raw_dtg": "242356Z OCT 26",
-        "msg_id": "DANISH NAV WARN 416/26",
+        "dtg": "2026-10-25T10:52:00",
+        "raw_dtg": "251052Z OCT 26",
+        "msg_id": "DANISH NAV WARN 417/26",
         "year": 2026,
         "inforce_warnings": [],
         "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "[Kattegat] DANISH NAV WARN 416/26\n242353 UTC OCT 26\nDANISH NAV WARN 416/26\nDENMARK. KATTEGAT.\nGREEN LIGHT BUOY ADRIFT 57-33.9N\n011-03.8E 242340 UTC OCT 26.\nCANCEL THIS MESSAGE 251140 UTC OCT 26.",
+        "body": "[The Belts] DANISH NAV WARN 417/26\nDENMARK. KATTEGAT.\nLIGHT POST 55-53.1N 010-49.9E DAMAGED.",
         "cancel_date": null,
-        "valid_from": "2026-10-24T23:56:00+00:00",
-        "valid_until": "2026-10-25T11:40:00+00:00",
+        "valid_from": "2026-10-25T10:52:00+00:00",
+        "valid_until": null,
         "corrections": [],
         "summary": null
       }
@@ -1575,6 +1575,66 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 311/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.678,
+          71.0165
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-25T14:02:00",
+        "raw_dtg": "251402Z OCT 26",
+        "msg_id": "HYDROARC 311/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "scientific mooring",
+        "category": "other",
+        "title": "Scientific Mooring",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "HYDROARC 311/26.\nBEAUFORT SEA.\nCANADA.\nSUBSURFACE SCIENTIFIC MOORING BUOY\nESTABLISHED IN 71-00.99N 133-40.68W.",
+        "cancel_date": null,
+        "valid_from": "2026-10-25T14:02:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 312/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.9985,
+          75.09716666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-25T23:42:00",
+        "raw_dtg": "252342Z OCT 26",
+        "msg_id": "HYDROARC 312/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "scientific mooring",
+        "category": "other",
+        "title": "Scientific Mooring",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "HYDROARC 312/26.\nCHUKCHI SEA.\nSCIENTIFIC MOORING ESTABLISHED IN\n75-05.83N 167-59.91W, TOP FLOAT 59 METERS.",
+        "cancel_date": null,
+        "valid_from": "2026-10-25T23:42:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 224/26",
       "geometry": {
         "type": "LineString",
@@ -2397,46 +2457,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 393/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.35051,
-          62.744481
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-24T20:44:00",
-        "raw_dtg": "242044Z OCT 26",
-        "msg_id": "NAVCO 393/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "OKSENØYFLESA LIGHT 62-44.67N 006-21.03E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-10-24T20:44:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862763,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-10-24T22:45:05.169090+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Oksenøyflesa",
-        "norwegianchart": "31",
-        "fdv_objectid": 1878.0,
-        "message_no": "OKSENØYFLESA LYKT 62-44.67N 006-21.03E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 394/2026",
       "geometry": {
         "type": "Point",
@@ -2473,6 +2493,86 @@
         "norwegianchart": "62",
         "fdv_objectid": 3084.0,
         "message_no": "RANGSUNDØY LYKT 66-34.28N 013-03.97E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 395/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.325828,
+          62.740538
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-25T07:29:00",
+        "raw_dtg": "250729Z OCT 26",
+        "msg_id": "NAVCO 395/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "BRUNKLEGGEN LIGHT 62-44.43N 006-19.55E IS UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-10-25T07:29:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 862769,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-10-25T08:30:06.344914+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Brunkleggen",
+        "norwegianchart": "31",
+        "fdv_objectid": 1877.0,
+        "message_no": "BRUNKLEGGEN LYKT 62-44.43N 006-19.55E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 396/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.605343,
+          59.120981
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-25T11:44:00",
+        "raw_dtg": "251144Z OCT 26",
+        "msg_id": "NAVCO 396/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "TORSBERG YTRE, Ø LIGHTBUOY 59-07.26N 009-36.32E OFF STATION.",
+        "cancel_date": null,
+        "valid_from": "2026-10-25T11:44:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 862771,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-10-25T12:45:11.721680+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Torsberg ytre, Ø",
+        "norwegianchart": "5",
+        "fdv_objectid": 308.0,
+        "message_no": "TORSBERG YTRE, Ø LYSBOEYE 59-07.26N 009-36.32E UTE AV POSISJON."
       }
     },
     {
@@ -2809,6 +2909,60 @@
         "cancel_date": null,
         "valid_from": "2026-10-22T13:53:00+00:00",
         "valid_until": "2026-10-31T18:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 278/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.14666666666667,
+              54.59
+            ],
+            [
+              15.94,
+              54.83833333333333
+            ],
+            [
+              16.65,
+              54.98833333333333
+            ],
+            [
+              16.773333333333333,
+              54.78333333333333
+            ],
+            [
+              16.283333333333335,
+              54.68
+            ],
+            [
+              16.14666666666667,
+              54.59
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T05:00:00",
+        "raw_dtg": "260500Z OCT 26",
+        "msg_id": "POLISH NAV WARN 278/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 278/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO THE MILITARY EXERCISES (USE OF WEAPON) ALL SHIPS ARE REQUESTED TO AVOID AREA BOUNDED BY POSITIONS :\n54-35.4N 016-08.8E\n54-50.3N 015-56.4E\n54-59.3N 016-39.0E\n54-47.0N 016-46.4E\n54-40.8N 016-17.0E\nFROM 2026-10-26 TO 2026-10-30\nDAILY FROM 05:00 TO 22:59.\nEXTREME CAUTION ADVISED.\nCANCEL THIS MSG 302259 UTC OCT",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T05:00:00+00:00",
+        "valid_until": "2026-10-30T22:59:00+00:00",
         "corrections": [],
         "summary": null
       }

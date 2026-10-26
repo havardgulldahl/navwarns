@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 395/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.325828,
+      62.740538
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-25T07:29:00",
+    "raw_dtg": "250729Z OCT 26",
+    "msg_id": "NAVCO 395/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BRUNKLEGGEN LIGHT 62-44.43N 006-19.55E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-10-25T07:29:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862769,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-25T08:30:06.344914+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Brunkleggen",
+    "norwegianchart": "31",
+    "fdv_objectid": 1877.0,
+    "message_no": "BRUNKLEGGEN LYKT 62-44.43N 006-19.55E ER SLUKKET"
+  }
+}
