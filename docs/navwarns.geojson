@@ -27,30 +27,6 @@
     },
     {
       "type": "Feature",
-      "id": "BALTIC SEA NAV WARN 032/26",
-      "geometry": null,
-      "properties": {
-        "dtg": "2026-10-25T20:30:00",
-        "raw_dtg": "252030Z OCT 26",
-        "msg_id": "BALTIC SEA NAV WARN 032/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[The Belts] BALTIC SEA NAV WARN 032/26\nLOW SEA LEVEL\nWESTERN BALTIC: UNTIL MONDAY AFTERNOON AROUND -60 TO -70 CM BELOW BALTIC SEA CHART DATUM. THEN RISING.",
-        "cancel_date": null,
-        "valid_from": "2026-10-25T20:30:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "DANISH NAV WARN 359/26",
       "geometry": {
         "type": "Point",
@@ -111,36 +87,6 @@
     },
     {
       "type": "Feature",
-      "id": "DANISH NAV WARN 417/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.831666666666667,
-          55.885
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-25T10:52:00",
-        "raw_dtg": "251052Z OCT 26",
-        "msg_id": "DANISH NAV WARN 417/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[The Belts] DANISH NAV WARN 417/26\nDENMARK. KATTEGAT.\nLIGHT POST 55-53.1N 010-49.9E DAMAGED.",
-        "cancel_date": null,
-        "valid_from": "2026-10-25T10:52:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "ESTONIAN NAV WARN 173/26",
       "geometry": null,
       "properties": {
@@ -159,6 +105,38 @@
         "cancel_date": null,
         "valid_from": "2026-10-07T20:07:00+00:00",
         "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ESTONIAN NAV WARN 180/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.316666666666666,
+          59.583333333333336
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T08:57:00",
+        "raw_dtg": "260857Z OCT 26",
+        "msg_id": "ESTONIAN NAV WARN 180/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [
+          "291500 UTC OCT"
+        ],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 180/26\nGULF OF FINLAND\n290800-291500 UTC OCT\nW OF NAISSAAR ISLAND\nFIRING PRACTICE AREA 2A\nCENTRED 59-35N 024-19E\nFIRING EXERCISES IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA\nSTANDING BY VHF CH 13 AND 61\nCANCEL 291500 UTC OCT",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T08:57:00+00:00",
+        "valid_until": "2026-10-29T15:00:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -1853,6 +1831,230 @@
     },
     {
       "type": "Feature",
+      "id": "KALININGRAD NAV WARN 252/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.133333333333333,
+              55.333333333333336
+            ],
+            [
+              20.416666666666668,
+              55.333333333333336
+            ],
+            [
+              20.416666666666668,
+              55.126666666666665
+            ],
+            [
+              20.133333333333333,
+              55.126666666666665
+            ],
+            [
+              20.133333333333333,
+              55.333333333333336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T13:27:00",
+        "raw_dtg": "261327Z OCT 26",
+        "msg_id": "KALININGRAD NAV WARN 252/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] KALININGRAD NAV WARN 252/26\nSOUTHEASTERN BALTIC\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING BR-42\n55-20.0N 020-08.0E 55-20.0N 020-25.0E\n55-07.6N 020-25.0E 55-07.6N 020-08.0E\nCANCEL THIS MESSAGE 302200 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T13:27:00+00:00",
+        "valid_until": "2026-11-30T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KALININGRAD NAV WARN 253/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.026666666666667,
+              55.53333333333333
+            ],
+            [
+              19.833333333333332,
+              55.53333333333333
+            ],
+            [
+              19.583333333333332,
+              55.05
+            ],
+            [
+              19.583333333333332,
+              54.77333333333333
+            ],
+            [
+              19.338333333333335,
+              54.83833333333333
+            ],
+            [
+              19.153333333333332,
+              55.19166666666667
+            ],
+            [
+              19.076666666666668,
+              55.333333333333336
+            ],
+            [
+              19.026666666666667,
+              55.53333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T13:35:00",
+        "raw_dtg": "261335Z OCT 26",
+        "msg_id": "KALININGRAD NAV WARN 253/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] KALININGRAD NAV WARN 253/26\nSOUTHEASTERN BALTIC\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING\n55-32.0N 019-01.6E 55-32.0N 019-50.0E 55-03.0N 019-35.0E\n54-46.4N 019-35.0E 54-50.3N 019-20.3E 55-11.5N 019-09.2E\n55-20.0N 019-04.6E\nCANCEL THIS MESSAGE 302200 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T13:35:00+00:00",
+        "valid_until": "2026-11-30T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KALININGRAD NAV WARN 254/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.05,
+              55.9
+            ],
+            [
+              20.25,
+              55.5
+            ],
+            [
+              20.25,
+              55.06666666666667
+            ],
+            [
+              20.1,
+              54.958333333333336
+            ],
+            [
+              19.916666666666668,
+              54.958333333333336
+            ],
+            [
+              19.833333333333332,
+              54.833333333333336
+            ],
+            [
+              19.416666666666668,
+              54.833333333333336
+            ],
+            [
+              19.05,
+              55.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T13:39:00",
+        "raw_dtg": "261339Z OCT 26",
+        "msg_id": "KALININGRAD NAV WARN 254/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] KALININGRAD NAV WARN 254/26\nSOUTHEASTERN BALTIC\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING BR-117\n55-54.0N 019-03.0E 55-30.0N 020-15.0E 55-04.0N 020-15.0E\n54-57.5N 020-06.0E 54-57.5N 019-55.0E 54-50.0N 019-50.0E\n54-50.0N 019-25.0E\nCANCEL THIS MESSAGE 302200 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T13:39:00+00:00",
+        "valid_until": "2026-11-30T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KALININGRAD NAV WARN 255/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.755,
+              55.15833333333333
+            ],
+            [
+              20.0,
+              55.15833333333333
+            ],
+            [
+              20.0,
+              55.03333333333333
+            ],
+            [
+              19.66,
+              55.03333333333333
+            ],
+            [
+              19.755,
+              55.15833333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T13:43:00",
+        "raw_dtg": "261343Z OCT 26",
+        "msg_id": "KALININGRAD NAV WARN 255/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] KALININGRAD NAV WARN 255/26\nSOUTHEASTERN BALTIC\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING BR-161\n55-09.5N 019-45.3E 55-09.5N 020-00.0E\n55-02.0N 020-00.0E 55-02.0N 019-39.6E\nCANCEL THIS MESSAGE 302200 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T13:43:00+00:00",
+        "valid_until": "2026-11-30T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "LITHUANIAN NAV WARN 068/26",
       "geometry": {
         "type": "Point",
@@ -2249,60 +2451,6 @@
         "norwegianchart": "84",
         "fdv_objectid": 100000067.0,
         "message_no": "KVALEN LANTERNE 69-36.30N 017-57.38E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 378/2026",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            14.641667,
-            69.181667
-          ],
-          [
-            15.371667,
-            69.375
-          ],
-          [
-            15.43,
-            68.983333
-          ],
-          [
-            15.893333,
-            69.236667
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-14T11:56:00",
-        "raw_dtg": "141156Z OCT 26",
-        "msg_id": "NAVCO 378/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "multipoint",
-        "radius_nm": null,
-        "body": "COASTAL WARNING\n\nNORWEGIAN SEA\n\nBARENTS SEA\n\n1. ANDOEYA SPACE WILL CONDUCT OPERATIONAL ACTIVITY FROM 14.OCT TO 26.OCT.26 DAILY FROM 17:00-03:00 UTC\n\nDANGER AREA\n\nA. 69-10.97N 014-38.51E\n\nB. 69-22.55N 015-22.36E\n\nC. 69-14.24N 015-53.60E\n\nD. 68-59.02N 015-25.85E\n\nFOR COORDINATION, ANDOEYA SPACE CAN BE REACHED ON.TELEPHONE +47 94 07 59 44 / +47 76 14 45 87 OR VHF CH 14/16 E-MAIL MSO@ANDOYASPACE.NO.\n\nFOR FURTHER DETAILS SEE NOTICES\n\n2. REFFERS NORWEGIAN NOTICE TO MARINER 18-2026",
-        "cancel_date": null,
-        "valid_from": "2026-10-14T11:56:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862406,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-10-23T07:45:04.272044+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "ANDØYA SPACE",
-        "norwegianchart": "81,311,312",
-        "fdv_objectid": null,
-        "message_no": "KYSTVARSEL\n\nNORWEGIAN SEA\n\nBARENTS SEA\n\n1.ANDØYA SPACE VIL GJENNOMFØRE OPERASJONELL AKTIVITET FRA 14. OKTOBER TIL 26. OKTOBER 2026, DAGLIG I TIDSROMMET 17:00–03:00 UTC.\n\nFAREOMRÅDE\n\nA. 69-10.97N 014-38.51E\n\nB. 69-22.55N 015-22.36E\n\nC. 69-14.24N 015-53.60E\n\nD. 68-59.02N 015-25.85E\n\nFOR KOORDINERING KAN ANDØYA SPACE KONTAKTES PÅ TELEFON +47 94 07 59 44 / +47 76 14 45 87, ELLER PÅ VHF KANAL 14/16.\n\nE-POST: MSO@ANDOYASPACE.NO\n\nFOR YTTERLIGERE DETALJER, SE KUNNGJØRINGER/ETTERRETNINGER.\n\n2.VISER TIL ETTERRETNINGER FOR SJØFARENDE NR. 18-2026."
       }
     },
     {
@@ -2825,6 +2973,210 @@
         "cancel_date": null,
         "valid_from": "2026-09-23T14:14:00+00:00",
         "valid_until": "2026-10-31T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PETERSBURG NAV WARN 218/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.761666666666667,
+              60.17166666666667
+            ],
+            [
+              28.91,
+              60.17166666666667
+            ],
+            [
+              28.91,
+              60.06666666666667
+            ],
+            [
+              28.566666666666666,
+              60.06666666666667
+            ],
+            [
+              28.566666666666666,
+              60.11666666666667
+            ],
+            [
+              28.761666666666667,
+              60.17166666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T12:11:00",
+        "raw_dtg": "261211Z OCT 26",
+        "msg_id": "PETERSBURG NAV WARN 218/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 218/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-107\n60-10.3N 028-45.7E 60-10.3N 028-54.6E\n60-04.0N 028-54.6E 60-04.0N 028-34.0E\n60-07.0N 028-34.0E\nCANCEL THIS MESSAGE 302200 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T12:11:00+00:00",
+        "valid_until": "2026-11-30T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PETERSBURG NAV WARN 219/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.043333333333333,
+              60.105
+            ],
+            [
+              27.125,
+              60.125
+            ],
+            [
+              27.191666666666666,
+              60.06
+            ],
+            [
+              27.108333333333334,
+              60.03666666666667
+            ],
+            [
+              27.043333333333333,
+              60.105
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T13:01:00",
+        "raw_dtg": "261301Z OCT 26",
+        "msg_id": "PETERSBURG NAV WARN 219/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 219/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-114\n60-06.3N 027-02.6E 60-07.5N 027-07.5E\n60-03.6N 027-11.5E 60-02.2N 027-06.5E\nCANCEL THIS MESSAGE 302200 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T13:01:00+00:00",
+        "valid_until": "2026-11-30T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PETERSBURG NAV WARN 220/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.089166666666667,
+              59.8905
+            ],
+            [
+              27.1605,
+              59.8905
+            ],
+            [
+              27.1605,
+              59.773833333333336
+            ],
+            [
+              27.089166666666667,
+              59.773833333333336
+            ],
+            [
+              27.089166666666667,
+              59.8905
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T13:06:00",
+        "raw_dtg": "261306Z OCT 26",
+        "msg_id": "PETERSBURG NAV WARN 220/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 220/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING\n59-53.43N 027-05.35E 59-53.43N 027-09.63E\n59-46.43N 027-09.63E 59-46.43N 027-05.35E\nCANCEL THIS MESSAGE 302200 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T13:06:00+00:00",
+        "valid_until": "2026-11-30T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PETERSBURG NAV WARN 221/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.275,
+              60.00833333333333
+            ],
+            [
+              27.566666666666666,
+              60.09
+            ],
+            [
+              27.8,
+              59.88333333333333
+            ],
+            [
+              27.516666666666666,
+              59.8
+            ],
+            [
+              27.275,
+              60.00833333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-26T13:12:00",
+        "raw_dtg": "261312Z OCT 26",
+        "msg_id": "PETERSBURG NAV WARN 221/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 221/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING\n60-00.5N 027-16.5E 60-05.4N 027-34.0E\n59-53.0N 027-48.0E 59-48.0N 027-31.0E\nCANCEL THIS MESSAGE 302200 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-26T13:12:00+00:00",
+        "valid_until": "2026-11-30T22:00:00+00:00",
         "corrections": [],
         "summary": null
       }
