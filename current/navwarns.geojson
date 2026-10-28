@@ -27,36 +27,6 @@
     },
     {
       "type": "Feature",
-      "id": "DANISH NAV WARN 359/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.041666666666666,
-          55.343333333333334
-        ]
-      },
-      "properties": {
-        "dtg": "2026-09-14T12:01:00",
-        "raw_dtg": "141201Z SEP 26",
-        "msg_id": "DANISH NAV WARN 359/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[The Belts] DANISH NAV WARN 359/26\nTHE BELTS. STOREBAELTSBROEN.\nLIGHT\n55-20.6N 011-02.5E\nUNRELIABLE.",
-        "cancel_date": null,
-        "valid_from": "2026-09-14T12:01:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "DANISH NAV WARN 372/26",
       "geometry": {
         "type": "Point",
@@ -80,6 +50,66 @@
         "body": "[The Belts] DANISH NAV WARN 372/26\nDENMARK. LITTLE BELT. ÅRØ SUND.\nSECTOR LIGHT ÅRØSUND HAVN\n55-15.7N 009-42.7E\nUNLIT.",
         "cancel_date": null,
         "valid_from": "2026-09-24T10:05:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DANISH NAV WARN 421/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.226666666666667,
+          56.711666666666666
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-27T06:37:00",
+        "raw_dtg": "270637Z OCT 26",
+        "msg_id": "DANISH NAV WARN 421/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Kattegat] DANISH NAV WARN 421/26\nDENMARK. LIIM FIORD. THYBOROEN CANAL.\nSTARBOARD HAND LIGHT BUOY 56-42.7N\n008-13.6E OFF STATION.",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T06:37:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DANISH NAV WARN 422/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.231666666666667,
+          56.708333333333336
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-27T06:38:00",
+        "raw_dtg": "270638Z OCT 26",
+        "msg_id": "DANISH NAV WARN 422/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Kattegat] DANISH NAV WARN 422/26\nDENMARK. LIIM FIORD. THYBOROEN CANAL.\nSTARBOARD HAND LIGHT BUOY 56-42.5N\n008-13.9E OFF STATION.",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T06:38:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -1613,6 +1643,132 @@
     },
     {
       "type": "Feature",
+      "id": "HYDROARC 313/26#grp1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.455,
+          76.88666666666667
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 313/26",
+        "group_index": 1,
+        "dtg": "2026-10-27T12:05:00",
+        "raw_dtg": "271205Z OCT 26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "hazard_type": "ice and icebergs",
+        "category": "navigation",
+        "title": "Ice and Icebergs",
+        "body": "HYDROARC 313/26\nLAPTEV SEA.\nRUSSIA.\n1. ICEBERGS REPORTED IN:\n   A. 76-53.20N 114-27.30E.\n   B. 76-58.10N 114-40.60E.\n   C. 77-03.90N 114-15.50E.\n2. ALONG TRACKLINE JOINING\n   77-40.00N 107-30.00E, 77-55.00N 108-15.00E,\n   77-55.00N 107-30.00E, 77-40.00N 108-15.00E.\n3. CANCEL THIS MSG 301206Z OCT 26.",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T12:05:00+00:00",
+        "valid_until": "2026-10-30T12:06:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 313/26#grp2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.67666666666666,
+          76.96833333333333
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 313/26",
+        "group_index": 2,
+        "dtg": "2026-10-27T12:05:00",
+        "raw_dtg": "271205Z OCT 26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "hazard_type": "ice and icebergs",
+        "category": "navigation",
+        "title": "Ice and Icebergs",
+        "body": "HYDROARC 313/26\nLAPTEV SEA.\nRUSSIA.\n1. ICEBERGS REPORTED IN:\n   A. 76-53.20N 114-27.30E.\n   B. 76-58.10N 114-40.60E.\n   C. 77-03.90N 114-15.50E.\n2. ALONG TRACKLINE JOINING\n   77-40.00N 107-30.00E, 77-55.00N 108-15.00E,\n   77-55.00N 107-30.00E, 77-40.00N 108-15.00E.\n3. CANCEL THIS MSG 301206Z OCT 26.",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T12:05:00+00:00",
+        "valid_until": "2026-10-30T12:06:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 313/26#grp3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25833333333334,
+          77.065
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 313/26",
+        "group_index": 3,
+        "dtg": "2026-10-27T12:05:00",
+        "raw_dtg": "271205Z OCT 26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "hazard_type": "ice and icebergs",
+        "category": "navigation",
+        "title": "Ice and Icebergs",
+        "body": "HYDROARC 313/26\nLAPTEV SEA.\nRUSSIA.\n1. ICEBERGS REPORTED IN:\n   A. 76-53.20N 114-27.30E.\n   B. 76-58.10N 114-40.60E.\n   C. 77-03.90N 114-15.50E.\n2. ALONG TRACKLINE JOINING\n   77-40.00N 107-30.00E, 77-55.00N 108-15.00E,\n   77-55.00N 107-30.00E, 77-40.00N 108-15.00E.\n3. CANCEL THIS MSG 301206Z OCT 26.",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T12:05:00+00:00",
+        "valid_until": "2026-10-30T12:06:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HYDROARC 313/26#grp4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5,
+            77.66666666666667
+          ],
+          [
+            108.25,
+            77.91666666666667
+          ],
+          [
+            107.5,
+            77.91666666666667
+          ],
+          [
+            108.25,
+            77.66666666666667
+          ]
+        ]
+      },
+      "properties": {
+        "parent_id": "HYDROARC 313/26",
+        "group_index": 4,
+        "dtg": "2026-10-27T12:05:00",
+        "raw_dtg": "271205Z OCT 26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "hazard_type": "ice and icebergs",
+        "category": "navigation",
+        "title": "Ice and Icebergs",
+        "body": "HYDROARC 313/26\nLAPTEV SEA.\nRUSSIA.\n1. ICEBERGS REPORTED IN:\n   A. 76-53.20N 114-27.30E.\n   B. 76-58.10N 114-40.60E.\n   C. 77-03.90N 114-15.50E.\n2. ALONG TRACKLINE JOINING\n   77-40.00N 107-30.00E, 77-55.00N 108-15.00E,\n   77-55.00N 107-30.00E, 77-40.00N 108-15.00E.\n3. CANCEL THIS MSG 301206Z OCT 26.",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T12:05:00+00:00",
+        "valid_until": "2026-10-30T12:06:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "KALININGRAD NAV WARN 224/26",
       "geometry": {
         "type": "LineString",
@@ -2078,6 +2234,68 @@
         "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 068/26\nSOUTH-EASTERN BALTIC\nAPPROACHES TO PORT KLAIPEDA – BUOY\nSTARBOARD HAND LIGHT-BUOY „3“(0005.1) 55-43.86N 021-02.91E, UNLIT.\nRADAR TRANSPONDER BEACON, RACON MO(P), OUT OF ORDER.\nMARINERS ARE ADVISED TO NAVIGATE WITH CAUTION.\nCANCEL LITHUANIAN NAV WARN 061(T)/26.",
         "cancel_date": null,
         "valid_from": "2026-10-15T04:38:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LITHUANIAN NAV WARN 075/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.0715,
+              56.033
+            ],
+            [
+              21.065833333333334,
+              56.032666666666664
+            ],
+            [
+              21.065166666666666,
+              56.0335
+            ],
+            [
+              21.0645,
+              56.03366666666667
+            ],
+            [
+              21.063,
+              56.032666666666664
+            ],
+            [
+              21.063833333333335,
+              56.0305
+            ],
+            [
+              21.067,
+              56.0295
+            ],
+            [
+              21.0715,
+              56.033
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-27T10:04:00",
+        "raw_dtg": "271004Z OCT 26",
+        "msg_id": "LITHUANIAN NAV WARN 075/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 075/26\nSOUTH-EASTERN BALTIC\nSEAPORT OF SVENTOJI – DREDGING AND CONSTRUCTION WORKS\nDREDGING AND CONSTRUCTION WORKS ARE TAKING PLACE IN THE AREA\nBOUNDED BY THE FOLLOWING POSITIONS:\n56-01.98N 021-04.29E\n56-01.96N 021-03.95E\n56-02.01N 021-03.91E\n56-02.02N 021-03.87E\n56-01.96N 021-03.78E\n56-01.83N 021-03.83E\n56-01.77N 021-04.02E\nVESSELS ARE ADVISED TO NAVIGATE WITH CAUTION IN THIS AREA.",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T10:04:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -2725,6 +2943,86 @@
     },
     {
       "type": "Feature",
+      "id": "NAVCO 398/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.513333,
+          61.096667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-27T07:21:00",
+        "raw_dtg": "270721Z OCT 26",
+        "msg_id": "NAVCO 398/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "DRIFTING 28 FOOT SAILBOAT&nbsp;REPORTED&nbsp;\n&nbsp;IN SOGNEFJORD&nbsp;POS 61 05.80N 005 30.8 E\n\n &nbsp; 270717 UTC OCT 26",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T07:21:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 862816,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-10-27T08:30:06.527670+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": null,
+        "norwegianchart": "121",
+        "fdv_objectid": null,
+        "message_no": "DRIVENDE 28 FOT SEILBÅT&nbsp;RAPPORTERT I YTRE SOGNEFJORD&nbsp;I POS 61 05.80N 005 30.8 E270717 UTC OCT 26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 399/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.985581,
+          58.52259
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-27T12:54:00",
+        "raw_dtg": "271254Z OCT 26",
+        "msg_id": "NAVCO 399/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "BONDEN LIGHT 58-31.36N 008-59.13E IS UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T12:54:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 862851,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-10-27T14:00:09.203001+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Bonden",
+        "norwegianchart": "7",
+        "fdv_objectid": 373.0,
+        "message_no": "BONDEN LYKT 58-31.36N 008-59.13E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "PETERSBURG NAV WARN 199/26",
       "geometry": {
         "type": "Polygon",
@@ -3176,6 +3474,56 @@
         "body": "[Gulf of Finland] PETERSBURG NAV WARN 221/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING\n60-00.5N 027-16.5E 60-05.4N 027-34.0E\n59-53.0N 027-48.0E 59-48.0N 027-31.0E\nCANCEL THIS MESSAGE 302200 UTC NOV",
         "cancel_date": null,
         "valid_from": "2026-10-26T13:12:00+00:00",
+        "valid_until": "2026-11-30T22:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PETERSBURG NAV WARN 222/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.0,
+              60.141666666666666
+            ],
+            [
+              29.25,
+              60.141666666666666
+            ],
+            [
+              29.25,
+              60.05833333333333
+            ],
+            [
+              29.0,
+              60.05833333333333
+            ],
+            [
+              29.0,
+              60.141666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-27T10:25:00",
+        "raw_dtg": "271025Z OCT 26",
+        "msg_id": "PETERSBURG NAV WARN 222/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] PETERSBURG NAV WARN 222/26\nEASTERN GULF OF FINLAND\nSHIPS EXERCISES 312100 UTC OCT THRU 302100 UTC NOV\nIN AREA TEMPORARILY DANGEROUS TO SHIPPING KR-105\n60-08.50N 029-00.00E 60-08.50N 029-15.00E\n60-03.50N 029-15.00E 60-03.50N 029-00.00E\nCANCEL THIS MESSAGE 302200 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-27T10:25:00+00:00",
         "valid_until": "2026-11-30T22:00:00+00:00",
         "corrections": [],
         "summary": null
