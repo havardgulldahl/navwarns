@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 401/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.174243,
+      64.753267
+    ]
+  },
+  "properties": {
+    "dtg": "2026-10-28T17:23:00",
+    "raw_dtg": "281723Z OCT 26",
+    "msg_id": "NAVCO 401/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ORMTUNGA LIGHT 64-45.19N 011-10.45E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-10-28T17:23:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 862935,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-10-28T18:30:05.788493+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Ormtunga",
+    "norwegianchart": "48",
+    "fdv_objectid": 2602.0,
+    "message_no": "ORMTUNGA LYKT 64-45.19N 011-10.45E ER SLUKKET"
+  }
+}
