@@ -81,38 +81,6 @@
     },
     {
       "type": "Feature",
-      "id": "ESTONIAN NAV WARN 180/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.316666666666666,
-          59.583333333333336
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-26T08:57:00",
-        "raw_dtg": "260857Z OCT 26",
-        "msg_id": "ESTONIAN NAV WARN 180/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [
-          "291500 UTC OCT"
-        ],
-        "hazard_type": "hazardous operations",
-        "category": "military",
-        "title": "Hazardous Operations",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Gulf of Finland] ESTONIAN NAV WARN 180/26\nGULF OF FINLAND\n290800-291500 UTC OCT\nW OF NAISSAAR ISLAND\nFIRING PRACTICE AREA 2A\nCENTRED 59-35N 024-19E\nFIRING EXERCISES IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA\nSTANDING BY VHF CH 13 AND 61\nCANCEL 291500 UTC OCT",
-        "cancel_date": null,
-        "valid_from": "2026-10-26T08:57:00+00:00",
-        "valid_until": "2026-10-29T15:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "FINNISH NAV WARN 572/26",
       "geometry": {
         "type": "Point",
@@ -2210,8 +2178,8 @@
         ]
       },
       "properties": {
-        "dtg": "2026-09-16T18:30:00",
-        "raw_dtg": "161830Z SEP 26",
+        "dtg": "2026-10-29T18:30:00",
+        "raw_dtg": "291830Z OCT 26",
         "msg_id": "NAVAREA XIX 114/26",
         "year": 2026,
         "inforce_warnings": [],
@@ -2221,16 +2189,16 @@
         "title": "General Warning",
         "geometry_kind": "polygon",
         "radius_nm": null,
-        "body": "NAVAREA XIX 114/261. The Norwegian government has decided that Russian fishing vessels are only allowed to enter three ports on the Norwegian mainland:\nA. Båtsfjord (NOBJF)\nB. Kirkenes (NOKKN)\nC. Tromsø (NOTOS)\nEntry to all other ports on the Norwegian mainland is prohibited for Russian fishing vessels from 132200 UTC October 2022. NAVAREA XIX 45/26 is cancelled.",
+        "body": "NAVAREA XIX 114/26\n\nThe Norwegian government has decided that Russian fishing vessels may only access the following three ports on the Norwegian mainland:\n\nA. Båtsfjord (NOBJF)\nB. Kirkenes (NOKKN)\nC. Tromsø (NOTOS)\n\nA ban on access to other mainland Norwegian ports for Russian fishing vessels will apply from 13:22 UTC on 13 October 2022.\n\nNavarea XIX 45/26 is cancelled.",
         "cancel_date": null,
-        "valid_from": "2026-09-16T18:30:00+00:00",
+        "valid_from": "2026-10-29T18:30:00+00:00",
         "valid_until": null,
         "corrections": [],
         "geometry_source": "api-wkt",
         "eventid": 859421,
         "status": "active",
         "eventclass": "NA19",
-        "updated_at": "2026-09-16T11:00:18.982777+00:00",
+        "updated_at": "2026-10-29T09:15:06.950890+00:00",
         "source": "kystverket-api",
         "summary": null
       }
@@ -2367,6 +2335,86 @@
         "status": "active",
         "eventclass": "NA19",
         "updated_at": "2026-10-23T23:00:06.300648+00:00",
+        "source": "kystverket-api",
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XIX 131/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.0,
+              65.0
+            ],
+            [
+              -5.0,
+              75.0
+            ],
+            [
+              -35.0,
+              75.0
+            ],
+            [
+              -35.0,
+              90.0
+            ],
+            [
+              30.0,
+              90.0
+            ],
+            [
+              30.0,
+              71.0
+            ],
+            [
+              31.7167,
+              70.3667
+            ],
+            [
+              31.1033,
+              69.9744
+            ],
+            [
+              30.8211,
+              69.7947
+            ],
+            [
+              30.0,
+              65.0
+            ],
+            [
+              -5.0,
+              65.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-29T18:30:00",
+        "raw_dtg": "291830Z OCT 26",
+        "msg_id": "NAVAREA XIX 131/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "NAVAREA XIX 131/26\nMessage 128/26 is cancelled.\nThis message is also cancelled.",
+        "cancel_date": null,
+        "valid_from": "2026-10-29T18:30:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 862953,
+        "status": "active",
+        "eventclass": "NA19",
+        "updated_at": "2026-10-29T09:15:06.950890+00:00",
         "source": "kystverket-api",
         "summary": null
       }
@@ -2833,46 +2881,6 @@
         "norwegianchart": "7",
         "fdv_objectid": 373.0,
         "message_no": "BONDEN LYKT 58-31.36N 008-59.13E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 401/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.174243,
-          64.753267
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-28T17:23:00",
-        "raw_dtg": "281723Z OCT 26",
-        "msg_id": "NAVCO 401/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "ORMTUNGA LIGHT 64-45.19N 011-10.45E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-10-28T17:23:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862935,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-10-28T18:30:05.788493+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Ormtunga",
-        "norwegianchart": "48",
-        "fdv_objectid": 2602.0,
-        "message_no": "ORMTUNGA LYKT 64-45.19N 011-10.45E ER SLUKKET"
       }
     },
     {
@@ -3385,36 +3393,6 @@
     },
     {
       "type": "Feature",
-      "id": "PETERSBURG NAV WARN 224/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.836666666666666,
-          60.025
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-28T13:43:00",
-        "raw_dtg": "281343Z OCT 26",
-        "msg_id": "PETERSBURG NAV WARN 224/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Gulf of Finland] PETERSBURG NAV WARN 224/26\nCOASTAL WARNING PETERSBURG 224\nSEVERNYY KRONSHTADTSKIY FAIRWAY\n1. VESSELS TRAFFIC 29 OCT 0600 TO 1500 UTC\nACROSS SHIP CROSSING CONSTRUCTION С-2\n60-01.5N 029-50.2E PROHIBITED\n2. CANCEL THIS MESSAGE 291600 UTC OCT",
-        "cancel_date": null,
-        "valid_from": "2026-10-28T13:43:00+00:00",
-        "valid_until": "2026-10-29T16:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "POLISH NAV WARN 222/26",
       "geometry": null,
       "properties": {
@@ -3553,36 +3531,6 @@
     },
     {
       "type": "Feature",
-      "id": "POLISH NAV WARN 279/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.8595,
-          55.041
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-23T15:04:00",
-        "raw_dtg": "231504Z OCT 26",
-        "msg_id": "POLISH NAV WARN 279/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[South-eastern Baltic] POLISH NAV WARN 279/26\nSOUTH-EASTERN BALTIC. POLISH COAST\nSERVICING VLB004 BUOY\nPOSITION:\n1. 55-02.46N 017-51.57E.RECOMMENDED TO KEEP A MINIMUM DISTANCE OF 500M FROM INDICATED POSITION\nCAUTION ADVISED.",
-        "cancel_date": null,
-        "valid_from": "2026-10-23T15:04:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "POLISH NAV WARN 283/26",
       "geometry": {
         "type": "Point",
@@ -3607,6 +3555,66 @@
         "cancel_date": null,
         "valid_from": "2026-10-28T06:30:00+00:00",
         "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 286/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.609833333333334,
+          54.6545
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-29T14:57:00",
+        "raw_dtg": "291457Z OCT 26",
+        "msg_id": "POLISH NAV WARN 286/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 286/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONES-6 IS CLOSED FOR SHIPPING AND FISHERY\nCENTERED PSN 54-39.27N 016-36.59E\n02 TO 07 NOV 07:00 TO 13:00 AND 18:00 TO 22:59 UTC\nCANCEL THIS MSG 072259 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-29T14:57:00+00:00",
+        "valid_until": "2026-11-07T22:59:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 287/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.348333333333333,
+          54.57666666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-10-29T13:00:00",
+        "raw_dtg": "291300Z OCT 26",
+        "msg_id": "POLISH NAV WARN 287/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 287/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONE S-6B IS\nCLOSED FOR SHIPPING AND FISHERY\nCENTERED PSN 54-34.6N 016-20.9E\n02 TO 07 NOV 07:00 TO 13:00 AND 18:00 TO 22:59 UTC\nCANCEL THIS MSG 072259 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-10-29T13:00:00+00:00",
+        "valid_until": "2026-11-07T22:59:00+00:00",
         "corrections": [],
         "summary": null
       }
