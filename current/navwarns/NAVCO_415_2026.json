@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 415/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.599088,
+      68.618585
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-01T17:01:00",
+    "raw_dtg": "011701Z NOV 26",
+    "msg_id": "NAVCO 415/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "SNARSET 02 LIGHTBUOY 68-37.12N 014-35.95E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-01T17:01:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863042,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-01T18:15:04.339153+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Snarset 02",
+    "norwegianchart": "76",
+    "fdv_objectid": 51656.0,
+    "message_no": "SNARSET 02 LYSBOEYE 68-37.12N 014-35.95E ER SLUKKET"
+  }
+}
