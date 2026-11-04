@@ -57,36 +57,6 @@
     },
     {
       "type": "Feature",
-      "id": "DANISH NAV WARN 431/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.998333333333333,
-          54.45166666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-01T00:49:00",
-        "raw_dtg": "010049Z NOV 26",
-        "msg_id": "DANISH NAV WARN 431/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Western Baltic] DANISH NAV WARN 431/26\nDENMARK. BALTIC SEA. KADETRENDEN.\nPORT HAND LIGHT BUOY W69 54-27.1N\n011-59.9E OFF STATION",
-        "cancel_date": null,
-        "valid_from": "2026-11-01T00:49:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "ESTONIAN NAV WARN 173/26",
       "geometry": null,
       "properties": {
@@ -105,6 +75,38 @@
         "cancel_date": null,
         "valid_from": "2026-10-07T20:07:00+00:00",
         "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ESTONIAN NAV WARN 182/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.366666666666667,
+          59.61666666666667
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-04T04:50:00",
+        "raw_dtg": "040450Z NOV 26",
+        "msg_id": "ESTONIAN NAV WARN 182/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [
+          "061400 UTC NOV"
+        ],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 182/26\nGULF OF FINLAND\n5-6 NOV\n07:00-14:00 UTC DAILY\nFIRING PRACTICE AREA 4B\nCENTRED 59-37N 026-22E\nEXERCISE IN PROGRESS\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA\nCANCEL 061400 UTC NOV",
+        "cancel_date": null,
+        "valid_from": "2026-11-04T04:50:00+00:00",
+        "valid_until": "2026-11-06T14:00:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -1753,6 +1755,68 @@
     },
     {
       "type": "Feature",
+      "id": "LITHUANIAN NAV WARN 077/26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.764666666666667,
+              55.61633333333333
+            ],
+            [
+              21.15,
+              55.6355
+            ],
+            [
+              21.221666666666668,
+              55.52333333333333
+            ],
+            [
+              20.998,
+              55.416333333333334
+            ],
+            [
+              20.764666666666667,
+              55.36633333333333
+            ],
+            [
+              20.698,
+              55.416333333333334
+            ],
+            [
+              20.698,
+              55.56633333333333
+            ],
+            [
+              20.764666666666667,
+              55.61633333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-03T16:13:00",
+        "raw_dtg": "031613Z NOV 26",
+        "msg_id": "LITHUANIAN NAV WARN 077/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "polygon",
+        "radius_nm": null,
+        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 077/26\nSOUTH-EASTERN BALTIC\nLITHUANIAN COAST\nMILITARY EXERCISES\n5, 6, 9, 10 NOV 1000–1600 UTC DAILY,\n12 NOV 0900–1800 UTC,\n13 NOV 0700–1800 UTC\nIN AREA EYD-17 BOUNDED BY:\n55-36.98N 020-45.88E\n55-38.13N 021-09.00E\n55-31.40N 021-13.30E\n55-24.98N 020-59.88E\n55-21.98N 020-45.88E\n55-24.98N 020-41.88E\n55-33.98N 020-41.88E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 131900 UTC NOV 26.",
+        "cancel_date": null,
+        "valid_from": "2026-11-03T16:13:00+00:00",
+        "valid_until": "2026-11-13T19:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "NAVAREA XIX 114/26",
       "geometry": {
         "type": "Polygon",
@@ -2359,6 +2423,126 @@
         "norwegianchart": "8",
         "fdv_objectid": 418.0,
         "message_no": "REIERSKJER LYKT 58-11.69N 008-23.28E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 417/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.267455,
+          62.327597
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-03T21:05:00",
+        "raw_dtg": "032105Z NOV 26",
+        "msg_id": "NAVCO 417/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "SVINØY LIGHTHOUSE 62-19.66N 005-16.05E IS UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-11-03T21:05:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863103,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-11-03T22:15:07.363070+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Svinøy",
+        "norwegianchart": "30",
+        "fdv_objectid": 1667.0,
+        "message_no": "SVINØY FYR 62-19.66N 005-16.05E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 418/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.232519,
+          59.425493
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-03T21:38:00",
+        "raw_dtg": "032138Z NOV 26",
+        "msg_id": "NAVCO 418/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "TONJERSKJÆRENE LIGHT 59-25.53N 005-13.95E IS UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-11-03T21:38:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863105,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-11-03T22:45:04.839061+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Tonjerskjærene",
+        "norwegianchart": "17",
+        "fdv_objectid": 22118.0,
+        "message_no": "TONJERSKJÆRENE LANTERNE 59-25.53N 005-13.95E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 419/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.130876,
+          64.192779
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-04T00:36:00",
+        "raw_dtg": "040036Z NOV 26",
+        "msg_id": "NAVCO 419/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "FARMANNSØYA LIGHT 64-11.57N 010-07.85E IS UNRELIABLE.",
+        "cancel_date": null,
+        "valid_from": "2026-11-04T00:36:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863107,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-11-04T01:45:04.534291+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Farmannsøya",
+        "norwegianchart": "44",
+        "fdv_objectid": 2464.0,
+        "message_no": "FARMANNSØYA LYKT 64-11.57N 010-07.85E ER UREGELMESSIG."
       }
     },
     {
