@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 420/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      5.297333,
+      59.375512
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-05T10:09:00",
+    "raw_dtg": "051009Z NOV 26",
+    "msg_id": "NAVCO 420/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "NORHEIM LIGHT 59-22.53N 005-17.84E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-05T10:09:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863135,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-05T11:15:04.554743+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Norheim",
+    "norwegianchart": "17",
+    "fdv_objectid": 766.0,
+    "message_no": "NORHEIM LANTERNE 59-22.53N 005-17.84E ER SLUKKET"
+  }
+}
