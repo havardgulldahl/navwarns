@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 423/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.790244,
+      58.398819
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-06T18:25:00",
+    "raw_dtg": "061825Z NOV 26",
+    "msg_id": "NAVCO 423/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TORUNGEN LIGHTHOUSE 58-23.93N 008-47.41E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-06T18:25:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863178,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-06T19:30:05.841718+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Torungen",
+    "norwegianchart": "7",
+    "fdv_objectid": 381.0,
+    "message_no": "TORUNGEN FYR 58-23.93N 008-47.41E ER SLUKKET"
+  }
+}
