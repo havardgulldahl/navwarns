@@ -1,0 +1,84 @@
+{
+  "type": "Feature",
+  "id": "ESTONIAN NAV WARN 183/26",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          23.705,
+          59.44833333333333
+        ],
+        [
+          24.088333333333335,
+          59.50333333333333
+        ],
+        [
+          24.136666666666667,
+          59.413333333333334
+        ],
+        [
+          23.755,
+          59.358333333333334
+        ],
+        [
+          23.985,
+          59.388333333333335
+        ],
+        [
+          24.076666666666668,
+          59.33
+        ],
+        [
+          24.043333333333333,
+          59.315
+        ],
+        [
+          23.948333333333334,
+          59.373333333333335
+        ],
+        [
+          23.818333333333335,
+          59.358333333333334
+        ],
+        [
+          23.863333333333333,
+          59.335
+        ],
+        [
+          23.801666666666666,
+          59.30166666666667
+        ],
+        [
+          23.755,
+          59.32333333333333
+        ],
+        [
+          23.705,
+          59.44833333333333
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-08T04:00:00",
+    "raw_dtg": "080400Z NOV 26",
+    "msg_id": "ESTONIAN NAV WARN 183/26",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [
+      "122159 UTC NOV"
+    ],
+    "hazard_type": "general",
+    "category": "other",
+    "title": "General Warning",
+    "geometry_kind": "polygon",
+    "radius_nm": null,
+    "body": "[Gulf of Finland] ESTONIAN NAV WARN 183/26\nGULF OF FINLAND\n090700-122159 UTC NOV\nMINEHUNTING OPERATION\nIN AREA BOUNDED BY:\n59-26.9N 023-42.3E\n59-30.2N 024-05.3E\n59-24.8N 024-08.2E\n59-21.5N 023-45.3E\nOR ALTERNATE AREA:\n59-23.3N 023-59.1E\n59-19.8N 024-04.6E\n59-18.9N 024-02.6E\n59-22.4N 023-56.9E\nOR:\n59-21.5N 023-49.1E\n59-20.1N 023-51.8E\n59-18.1N 023-48.1E\n59-19.4N 023-45.3E\nKEEP SAFE DISTANCE FROM\nNAVAL SHIPS 0,5 NM\nCANCEL 122159 UTC NOV",
+    "cancel_date": null,
+    "valid_from": "2026-11-08T04:00:00+00:00",
+    "valid_until": "2026-11-12T21:59:00+00:00",
+    "corrections": [],
+    "summary": null
+  }
+}
