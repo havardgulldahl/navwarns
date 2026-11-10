@@ -195,6 +195,30 @@
     },
     {
       "type": "Feature",
+      "id": "FINNISH NAV WARN 605/26",
+      "geometry": null,
+      "properties": {
+        "dtg": "2026-11-09T08:32:00",
+        "raw_dtg": "090832Z NOV 26",
+        "msg_id": "FINNISH NAV WARN 605/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Bay of Bothnia] FINNISH NAV WARN 605/26\nFIRING EXERCISES AT LOHTAJA 10-14 OF NOVEMBER 2026.\nTHE DANGER AREA IS THE SEA AREA BETWEEN KOKKOLA AND RAAHE.\nTRAFFIC MAY BE RESTRICTED IF NECESSARY.\nVESSELS ARE ADVICED TO NAVIGATE WITH CAUTION.\nFOR MORE INFORMATION, CONTACT BOTHNIA VTS ON VHF CHANNEL 67.",
+        "cancel_date": null,
+        "valid_from": "2026-11-09T08:32:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "GERMAN NAV WARN 580/26",
       "geometry": {
         "type": "Point",
@@ -2291,86 +2315,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 414/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.599955,
-          68.620228
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-01T16:56:00",
-        "raw_dtg": "011656Z NOV 26",
-        "msg_id": "NAVCO 414/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "SNARSET 04 LIGHTBUOY 68-37.21N 014-36.00E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-01T16:56:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863040,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-01T18:00:05.255091+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Snarset 04",
-        "norwegianchart": "76",
-        "fdv_objectid": 51655.0,
-        "message_no": "SNARSET 04 LYSBOEYE 68-37.21N 014-36.00E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 415/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.599088,
-          68.618585
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-01T17:01:00",
-        "raw_dtg": "011701Z NOV 26",
-        "msg_id": "NAVCO 415/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "SNARSET 02 LIGHTBUOY 68-37.12N 014-35.95E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-01T17:01:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863042,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-01T18:15:04.339153+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Snarset 02",
-        "norwegianchart": "76",
-        "fdv_objectid": 51656.0,
-        "message_no": "SNARSET 02 LYSBOEYE 68-37.12N 014-35.95E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 416/2026",
       "geometry": {
         "type": "Point",
@@ -2407,46 +2351,6 @@
         "norwegianchart": "8",
         "fdv_objectid": 418.0,
         "message_no": "REIERSKJER LYKT 58-11.69N 008-23.28E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 418/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.232519,
-          59.425493
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-03T21:38:00",
-        "raw_dtg": "032138Z NOV 26",
-        "msg_id": "NAVCO 418/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "TONJERSKJÆRENE LIGHT 59-25.53N 005-13.95E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-03T21:38:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863105,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-03T22:45:04.839061+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Tonjerskjærene",
-        "norwegianchart": "17",
-        "fdv_objectid": 22118.0,
-        "message_no": "TONJERSKJÆRENE LANTERNE 59-25.53N 005-13.95E ER SLUKKET"
       }
     },
     {
@@ -2567,46 +2471,6 @@
         "norwegianchart": "71",
         "fdv_objectid": 49453.0,
         "message_no": "VÆRØY MOLO ØVRE OVERETT LANTERNE 67-39.04N 012-43.18E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 425/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.49158,
-          57.968068
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-08T21:27:00",
-        "raw_dtg": "082127Z NOV 26",
-        "msg_id": "NAVCO 425/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "RYVINGEN LIGHTHOUSE 57-58.08N 007-29.49E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-08T21:27:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863189,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-08T22:30:08.390472+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Ryvingen",
-        "norwegianchart": "10",
-        "fdv_objectid": 484.0,
-        "message_no": "RYVINGEN FYR 57-58.08N 007-29.49E ER SLUKKET"
       }
     },
     {
