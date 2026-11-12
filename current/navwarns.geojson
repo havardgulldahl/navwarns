@@ -27,36 +27,6 @@
     },
     {
       "type": "Feature",
-      "id": "DANISH NAV WARN 372/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.711666666666666,
-          55.26166666666666
-        ]
-      },
-      "properties": {
-        "dtg": "2026-09-24T10:05:00",
-        "raw_dtg": "241005Z SEP 26",
-        "msg_id": "DANISH NAV WARN 372/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[The Belts] DANISH NAV WARN 372/26\nDENMARK. LITTLE BELT. ÅRØ SUND.\nSECTOR LIGHT ÅRØSUND HAVN\n55-15.7N 009-42.7E\nUNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-09-24T10:05:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "ESTONIAN NAV WARN 173/26",
       "geometry": null,
       "properties": {
@@ -165,6 +135,36 @@
     },
     {
       "type": "Feature",
+      "id": "ESTONIAN NAV WARN 187/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0985,
+          59.78483333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-12T08:21:00",
+        "raw_dtg": "120821Z NOV 26",
+        "msg_id": "ESTONIAN NAV WARN 187/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 187/26\nGULF OF FINLAND\nSCIENTIFIC DEVICE WITH YELLOW LIGHT\nDRIFTING NORTH\nSPEED APPROX 0.25 KNOTS\nFROM PSN 59-47.09N 025-05.91E",
+        "cancel_date": null,
+        "valid_from": "2026-11-12T08:21:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
       "id": "FINNISH NAV WARN 572/26",
       "geometry": {
         "type": "Point",
@@ -244,36 +244,6 @@
         "body": "[Western Baltic] GERMAN NAV WARN 580/26\nWESTERN BALTIC.FEHMARN. PROHIBITED AREA.\n'SPERR-G.1' LIGHTBUOY 54-31,5N 011-18,5E TEMPORARILY WITHDRAWN.\nCANCEL NAV WARN 516/26.",
         "cancel_date": null,
         "valid_from": "2026-10-14T10:14:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "GERMAN NAV WARN 592/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.5,
-          54.46666666666667
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-21T12:27:00",
-        "raw_dtg": "211227Z OCT 26",
-        "msg_id": "GERMAN NAV WARN 592/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Western Baltic] GERMAN NAV WARN 592/26\nWESTERN BALTIC. DARSS.\n'DARSSER ORT' LIGHTHOUSE 54-28N 012-30E UNLIT.\nNAVIGATIONAL WARNING NO. 510 CANCELLED.",
-        "cancel_date": null,
-        "valid_from": "2026-10-21T12:27:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -2235,46 +2205,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 396/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.605343,
-          59.120981
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-25T11:44:00",
-        "raw_dtg": "251144Z OCT 26",
-        "msg_id": "NAVCO 396/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "TORSBERG YTRE, Ø LIGHTBUOY 59-07.26N 009-36.32E OFF STATION.",
-        "cancel_date": null,
-        "valid_from": "2026-10-25T11:44:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862771,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-10-25T12:45:11.721680+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Torsberg ytre, Ø",
-        "norwegianchart": "5",
-        "fdv_objectid": 308.0,
-        "message_no": "TORSBERG YTRE, Ø LYSBOEYE 59-07.26N 009-36.32E UTE AV POSISJON."
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 412/2026",
       "geometry": {
         "type": "Point",
@@ -2471,46 +2401,6 @@
         "norwegianchart": "003",
         "fdv_objectid": null,
         "message_no": "SUNKET LEKTER MERKET MED HVITE OG GULE BOEYER I POS 59-13.5N 010-43.3E"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 428/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.49158,
-          57.968068
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-11T04:00:00",
-        "raw_dtg": "110400Z NOV 26",
-        "msg_id": "NAVCO 428/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "RYVINGEN LIGHTHOUSE 57-58.08N 007-29.49E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-11T04:00:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863246,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-11T05:15:04.797974+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Ryvingen",
-        "norwegianchart": "10",
-        "fdv_objectid": 484.0,
-        "message_no": "RYVINGEN FYR 57-58.08N 007-29.49E ER SLUKKET"
       }
     },
     {
