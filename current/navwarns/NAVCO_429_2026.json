@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 429/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.347154,
+      66.787049
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-13T00:27:00",
+    "raw_dtg": "130027Z NOV 26",
+    "msg_id": "NAVCO 429/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "KJØRHAUGKLUBBEN LIGHT 66-47.22N 013-20.83E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-13T00:27:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863259,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-13T01:30:03.645181+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Kjørhaugklubben",
+    "norwegianchart": "135",
+    "fdv_objectid": 3113.0,
+    "message_no": "KJØRHAUGKLUBBEN LYKT 66-47.22N 013-20.83E ER SLUKKET"
+  }
+}
