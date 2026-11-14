@@ -27,7 +27,37 @@
     },
     {
       "type": "Feature",
-      "id": "DANISH NAV WARN 453/26",
+      "id": "DANISH NAV WARN 454/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.091666666666667,
+          55.20666666666666
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-13T08:31:00",
+        "raw_dtg": "130831Z NOV 26",
+        "msg_id": "DANISH NAV WARN 454/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[The Belts] DANISH NAV WARN 454/26\nDENMARK. GREAT BELT. VENGEANCEGRUND.\nEAST CARDINAL LIGHT BUOY NO 33 55-12.4N\n011-05.5E UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-11-13T08:31:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DANISH NAV WARN 455/26",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -36,9 +66,9 @@
         ]
       },
       "properties": {
-        "dtg": "2026-11-12T22:47:00",
-        "raw_dtg": "122247Z NOV 26",
-        "msg_id": "DANISH NAV WARN 453/26",
+        "dtg": "2026-11-13T08:59:00",
+        "raw_dtg": "130859Z NOV 26",
+        "msg_id": "DANISH NAV WARN 455/26",
         "year": 2026,
         "inforce_warnings": [],
         "cancellations": [],
@@ -47,9 +77,9 @@
         "title": "General Warning",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "[Kattegat] DANISH NAV WARN 453/26\nDENMARK. KATTEGAT. HATTER BARN.\nSAFE WATER LIGHT BUOY NO. 16 55-55.2N\n010-57.2E OFF STATION.",
+        "body": "[The Belts] DANISH NAV WARN 455/26\nDENMARK. KATTEGAT. HATTER.\nSAFE WATER LIGHT BUOY NO 16 55-55.2N\n010-57.2E MISSING.",
         "cancel_date": null,
-        "valid_from": "2026-11-12T22:47:00+00:00",
+        "valid_from": "2026-11-13T08:59:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -1793,68 +1823,6 @@
     },
     {
       "type": "Feature",
-      "id": "LITHUANIAN NAV WARN 077/26",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              20.764666666666667,
-              55.61633333333333
-            ],
-            [
-              21.15,
-              55.6355
-            ],
-            [
-              21.221666666666668,
-              55.52333333333333
-            ],
-            [
-              20.998,
-              55.416333333333334
-            ],
-            [
-              20.764666666666667,
-              55.36633333333333
-            ],
-            [
-              20.698,
-              55.416333333333334
-            ],
-            [
-              20.698,
-              55.56633333333333
-            ],
-            [
-              20.764666666666667,
-              55.61633333333333
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-03T16:13:00",
-        "raw_dtg": "031613Z NOV 26",
-        "msg_id": "LITHUANIAN NAV WARN 077/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "polygon",
-        "radius_nm": null,
-        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 077/26\nSOUTH-EASTERN BALTIC\nLITHUANIAN COAST\nMILITARY EXERCISES\n5, 6, 9, 10 NOV 1000–1600 UTC DAILY,\n12 NOV 0900–1800 UTC,\n13 NOV 0700–1800 UTC\nIN AREA EYD-17 BOUNDED BY:\n55-36.98N 020-45.88E\n55-38.13N 021-09.00E\n55-31.40N 021-13.30E\n55-24.98N 020-59.88E\n55-21.98N 020-45.88E\n55-24.98N 020-41.88E\n55-33.98N 020-41.88E.\nAREA TEMPORARILY DANGEROUS TO SHIPPING.\nWIDE BERTH REQUESTED.\nCANCEL THIS MSG 131900 UTC NOV 26.",
-        "cancel_date": null,
-        "valid_from": "2026-11-03T16:13:00+00:00",
-        "valid_until": "2026-11-13T19:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVAREA XIX 114/26",
       "geometry": {
         "type": "Polygon",
@@ -1987,7 +1955,7 @@
     },
     {
       "type": "Feature",
-      "id": "NAVAREA XIX 134/26",
+      "id": "NAVAREA XIX 135/26",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2040,9 +2008,9 @@
         ]
       },
       "properties": {
-        "dtg": "2026-11-06T18:30:00",
-        "raw_dtg": "061830Z NOV 26",
-        "msg_id": "NAVAREA XIX 134/26",
+        "dtg": "2026-11-13T18:30:00",
+        "raw_dtg": "131830Z NOV 26",
+        "msg_id": "NAVAREA XIX 135/26",
         "year": 2026,
         "inforce_warnings": [],
         "cancellations": [],
@@ -2051,16 +2019,16 @@
         "title": "General Warning",
         "geometry_kind": "polygon",
         "radius_nm": null,
-        "body": "NAVAREA XIX (134/26)\nList of current NAVAREA XIX warnings in force as of 061830 UTC on November 26, 2026.\n2026 Series: 114, 133, 134.\nNAVAREA XIX warning 132/26 is cancelled.",
+        "body": "NAVAREA XIX 135/26\nAt 131222 UTC on November 26, the following NAVAREA XIX warnings are in force: 114, 133, and 135 from the 2026 series.\nNAVAREA XIX 134/26 is cancelled.",
         "cancel_date": null,
-        "valid_from": "2026-11-06T18:30:00+00:00",
+        "valid_from": "2026-11-13T18:30:00+00:00",
         "valid_until": null,
         "corrections": [],
         "geometry_source": "api-wkt",
-        "eventid": 863172,
+        "eventid": 863271,
         "status": "active",
         "eventclass": "NA19",
-        "updated_at": "2026-11-06T14:30:11.020235+00:00",
+        "updated_at": "2026-11-13T13:30:07.031268+00:00",
         "source": "kystverket-api",
         "summary": null
       }
@@ -2103,46 +2071,6 @@
         "norwegianchart": "36",
         "fdv_objectid": 60133.0,
         "message_no": "BÅEFLUA LANTERNE 63-13.59N 007-52.16E ER HAVARERT."
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 377/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.956306,
-          69.604945
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-14T04:55:00",
-        "raw_dtg": "140455Z OCT 26",
-        "msg_id": "NAVCO 377/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "KVALEN LIGHT 69-36.30N 017-57.38E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-10-14T04:55:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 862390,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-10-14T07:00:05.056346+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Kvalen",
-        "norwegianchart": "84",
-        "fdv_objectid": 100000067.0,
-        "message_no": "KVALEN LANTERNE 69-36.30N 017-57.38E ER SLUKKET"
       }
     },
     {
@@ -2301,46 +2229,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 421/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.458333,
-          61.37
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-05T13:48:00",
-        "raw_dtg": "051348Z NOV 26",
-        "msg_id": "NAVCO 421/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "THE VISUND A PLATFORM IN POS 61-22.2N 002-27.5E IS CURRENTLY WITHOUT POWER. THE PLATFORM IS UNLIT AND HAVE NO AIS TRANSMITTING. KEEP CLEAR.",
-        "cancel_date": null,
-        "valid_from": "2026-11-05T13:48:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863141,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-05T15:00:08.696892+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "VIKINBANKEN NORD",
-        "norwegianchart": "307",
-        "fdv_objectid": null,
-        "message_no": "VISUND A PLATFORMEN I POS 61-22.2N 002-27.5E&nbsp;ER FOR TIDEN UTEN STROEM OG ER DERMED MOERKLAGT OG UTEN AIS. HOLD GODT KLAR."
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 427/2026",
       "geometry": {
         "type": "Point",
@@ -2381,18 +2269,58 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 429/2026",
+      "id": "NAVCO 435/2026",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.347154,
-          66.787049
+          5.244492,
+          59.41305
         ]
       },
       "properties": {
-        "dtg": "2026-11-13T00:27:00",
-        "raw_dtg": "130027Z NOV 26",
-        "msg_id": "NAVCO 429/2026",
+        "dtg": "2026-11-13T16:51:00",
+        "raw_dtg": "131651Z NOV 26",
+        "msg_id": "NAVCO 435/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "TROLLHOLMEN LIGHT 59-24.78N 005-14.67E IS UNRELIABLE.",
+        "cancel_date": null,
+        "valid_from": "2026-11-13T16:51:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863285,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-11-13T18:00:07.389047+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Trollholmen",
+        "norwegianchart": "17",
+        "fdv_objectid": 22128.0,
+        "message_no": "TROLLHOLMEN LANTERNE 59-24.78N 005-14.67E ER UREGELMESSIG."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 436/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.320435,
+          65.583136
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-13T17:43:00",
+        "raw_dtg": "131743Z NOV 26",
+        "msg_id": "NAVCO 436/2026",
         "year": 2026,
         "inforce_warnings": [],
         "cancellations": [],
@@ -2401,22 +2329,22 @@
         "title": "Aid to Navigation Outage",
         "geometry_kind": "point",
         "radius_nm": null,
-        "body": "KJØRHAUGKLUBBEN LIGHT 66-47.22N 013-20.83E IS UNLIT.",
+        "body": "MANNDAUDEN LIGHT 65-34.99N 012-19.23E IS UNLIT.",
         "cancel_date": null,
-        "valid_from": "2026-11-13T00:27:00+00:00",
+        "valid_from": "2026-11-13T17:43:00+00:00",
         "valid_until": null,
         "corrections": [],
         "geometry_source": "api-wkt",
-        "eventid": 863259,
+        "eventid": 863287,
         "status": "active",
         "eventclass": "NAVCO",
-        "updated_at": "2026-11-13T01:30:03.645181+00:00",
+        "updated_at": "2026-11-13T19:00:04.811823+00:00",
         "source": "kystverket-api",
         "summary": null,
-        "location": "Kjørhaugklubben",
-        "norwegianchart": "135",
-        "fdv_objectid": 3113.0,
-        "message_no": "KJØRHAUGKLUBBEN LYKT 66-47.22N 013-20.83E ER SLUKKET"
+        "location": "Manndauden",
+        "norwegianchart": "55",
+        "fdv_objectid": 52896.0,
+        "message_no": "MANNDAUDEN LYKT 65-34.99N 012-19.23E ER SLUKKET"
       }
     },
     {

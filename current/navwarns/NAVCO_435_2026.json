@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 435/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      5.244492,
+      59.41305
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-13T16:51:00",
+    "raw_dtg": "131651Z NOV 26",
+    "msg_id": "NAVCO 435/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "general",
+    "category": "other",
+    "title": "General Warning",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "TROLLHOLMEN LIGHT 59-24.78N 005-14.67E IS UNRELIABLE.",
+    "cancel_date": null,
+    "valid_from": "2026-11-13T16:51:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863285,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-13T18:00:07.389047+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Trollholmen",
+    "norwegianchart": "17",
+    "fdv_objectid": 22128.0,
+    "message_no": "TROLLHOLMEN LANTERNE 59-24.78N 005-14.67E ER UREGELMESSIG."
+  }
+}

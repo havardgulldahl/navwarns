@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 436/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.320435,
+      65.583136
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-13T17:43:00",
+    "raw_dtg": "131743Z NOV 26",
+    "msg_id": "NAVCO 436/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "MANNDAUDEN LIGHT 65-34.99N 012-19.23E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-13T17:43:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863287,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-13T19:00:04.811823+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Manndauden",
+    "norwegianchart": "55",
+    "fdv_objectid": 52896.0,
+    "message_no": "MANNDAUDEN LYKT 65-34.99N 012-19.23E ER SLUKKET"
+  }
+}
