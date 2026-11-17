@@ -1787,36 +1787,6 @@
     },
     {
       "type": "Feature",
-      "id": "LITHUANIAN NAV WARN 068/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.0485,
-          55.731
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-15T04:38:00",
-        "raw_dtg": "150438Z OCT 26",
-        "msg_id": "LITHUANIAN NAV WARN 068/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[South-eastern Baltic] LITHUANIAN NAV WARN 068/26\nSOUTH-EASTERN BALTIC\nAPPROACHES TO PORT KLAIPEDA – BUOY\nSTARBOARD HAND LIGHT-BUOY „3“(0005.1) 55-43.86N 021-02.91E, UNLIT.\nRADAR TRANSPONDER BEACON, RACON MO(P), OUT OF ORDER.\nMARINERS ARE ADVISED TO NAVIGATE WITH CAUTION.\nCANCEL LITHUANIAN NAV WARN 061(T)/26.",
-        "cancel_date": null,
-        "valid_from": "2026-10-15T04:38:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "LITHUANIAN NAV WARN 075/26",
       "geometry": {
         "type": "Polygon",
@@ -2211,46 +2181,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 435/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.244492,
-          59.41305
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-13T16:51:00",
-        "raw_dtg": "131651Z NOV 26",
-        "msg_id": "NAVCO 435/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "TROLLHOLMEN LIGHT 59-24.78N 005-14.67E IS UNRELIABLE.",
-        "cancel_date": null,
-        "valid_from": "2026-11-13T16:51:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863285,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-13T18:00:07.389047+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Trollholmen",
-        "norwegianchart": "17",
-        "fdv_objectid": 22128.0,
-        "message_no": "TROLLHOLMEN LANTERNE 59-24.78N 005-14.67E ER UREGELMESSIG."
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 436/2026",
       "geometry": {
         "type": "Point",
@@ -2287,6 +2217,240 @@
         "norwegianchart": "55",
         "fdv_objectid": 52896.0,
         "message_no": "MANNDAUDEN LYKT 65-34.99N 012-19.23E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 439/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.170152,
+          69.066447
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-16T07:51:00",
+        "raw_dtg": "160751Z NOV 26",
+        "msg_id": "NAVCO 439/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "ANDA LIGHTHOUSE 69-03.99N 015-10.21E IS UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-11-16T07:51:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863304,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-11-16T09:00:09.451451+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Anda",
+        "norwegianchart": "78",
+        "fdv_objectid": 3705.0,
+        "message_no": "ANDA FYR 69-03.99N 015-10.21E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 440/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.116534,
+          61.934087
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-16T14:15:00",
+        "raw_dtg": "161415Z NOV 26",
+        "msg_id": "NAVCO 440/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "MÅLØY HAVN 2 LIGHTBUOY 61-56.05N 005-06.99E IS MISSING.",
+        "cancel_date": null,
+        "valid_from": "2026-11-16T14:15:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863327,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-11-16T15:30:06.049473+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Måløy havn 2",
+        "norwegianchart": "28",
+        "fdv_objectid": 58548.0,
+        "message_no": "MÅLØY HAVN 2 LYSBOEYE 61-56.05N 005-06.99E ER HAVARERT."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 441/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.790244,
+          58.398819
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-16T16:16:00",
+        "raw_dtg": "161616Z NOV 26",
+        "msg_id": "NAVCO 441/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "TORUNGEN LIGHTHOUSE 58-23.93N 008-47.41E IS UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-11-16T16:16:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863330,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-11-16T17:30:07.578434+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Torungen",
+        "norwegianchart": "7",
+        "fdv_objectid": 381.0,
+        "message_no": "TORUNGEN FYR 58-23.93N 008-47.41E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 443/2026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.49158,
+          57.968068
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-16T20:08:00",
+        "raw_dtg": "162008Z NOV 26",
+        "msg_id": "NAVCO 443/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "aid to navigation outage",
+        "category": "navigation",
+        "title": "Aid to Navigation Outage",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "RYVINGEN LIGHTHOUSE 57-58.08N 007-29.49E IS UNLIT.",
+        "cancel_date": null,
+        "valid_from": "2026-11-16T20:08:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863334,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-11-16T21:15:03.979052+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Ryvingen",
+        "norwegianchart": "10",
+        "fdv_objectid": 484.0,
+        "message_no": "RYVINGEN FYR 57-58.08N 007-29.49E ER SLUKKET"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVCO 444/2026",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            9.2,
+            63.74
+          ],
+          [
+            9.25,
+            63.833333
+          ],
+          [
+            9.34,
+            63.701667
+          ],
+          [
+            9.383333,
+            63.816667
+          ],
+          [
+            9.383333,
+            63.85
+          ],
+          [
+            9.416667,
+            63.788333
+          ],
+          [
+            9.44,
+            63.705
+          ],
+          [
+            9.501667,
+            63.735
+          ],
+          [
+            9.501667,
+            63.773333
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-17T02:35:00",
+        "raw_dtg": "170235Z NOV 26",
+        "msg_id": "NAVCO 444/2026",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "multipoint",
+        "radius_nm": null,
+        "body": "LIVE FIRING – TARVA FIRING RANGE\n\nDAILY FROM 0730UTC TO 1630UTC, BETWEEN 17 AND 20 NOV26\n\nMARITIME TRAFFIC IS ADVISED TO STAY CLEAR OF THE DANGER AREAS DURING THE SPECIFIED TIME PERIOD.\n\nDANGER AREA END 356\n\nA.63-50.00N 009-15.00E\n\nB. 63-51.00N 009-23.00E\n\nC. 63-49.00N 009-23.00E\n\nD. 63-47.30N 009-25.00E\n\nE. 63-46.48N 009-30.18E\n\nF. 63-44.12N 009-30.18E\n\nG. 63-42.36N 009-26.42E\n\nH. 63-42.18N 009-20.48E\n\nI. 63-44.48N 009-12.00E\n\nJ. 63-50.00N 009-15.00E\n\nCONTACT PHONE DURING LIVE FIRING AT TARVA 0047 40 43 15 45",
+        "cancel_date": null,
+        "valid_from": "2026-11-17T02:35:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863335,
+        "status": "active",
+        "eventclass": "NAVCO",
+        "updated_at": "2026-11-17T08:15:11.144753+00:00",
+        "source": "kystverket-api",
+        "summary": null,
+        "location": "Tarva Skytefelt",
+        "norwegianchart": "038.  041.  043.",
+        "fdv_objectid": null,
+        "message_no": "SKARPSKYTING TARVA SKYTEFELT DAGLIG I PERIODEN\n\n0730UTC TIL 1630UTC FRA 17 TIL 20.NOV26\n\nSJOTRAFIKK BES HOLDE SEG KLAR AV FAREOMRAADENE I ANGITT TIDSROM.\n\nFAREOMRAADE END 356\n\nA.63-50.00N 009-15.00E\n\nB. 63-51.00N 009-23.00E\n\nC. 63-49.00N 009-23.00E\n\nD. 63-47.30N 009-25.00E\n\nE. 63-46.48N 009-30.18E\n\nF. 63-44.12N 009-30.18E\n\nG. 63-42.36N 009-26.42E\n\nH. 63-42.18N 009-20.48E\n\nI. 63-44.48N 009-12.00E\n\nJ. 63-50.00N 009-15.00E\n\nKONTAKTTELEFON UNDER SKARPSKYTING PAA TARVA 0047 40 43 15 45"
       }
     },
     {
@@ -2599,6 +2763,36 @@
         "cancel_date": null,
         "valid_from": "2026-11-12T09:17:00+00:00",
         "valid_until": "2026-11-21T13:00:00+00:00",
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POLISH NAV WARN 311/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.014166666666666,
+          54.55283333333333
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-16T11:57:00",
+        "raw_dtg": "161157Z NOV 26",
+        "msg_id": "POLISH NAV WARN 311/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Southern Baltic] POLISH NAV WARN 311/26\nSOUTHERN BALTIC. POLISH COAST\nYELLOW CONICAL LIGHT BUOY, TOPMARK YELLOW 'X'. FL(5) Y 20S.\nESTABLISHED IN POSITION:\n54-33.17N 015-00.85E\nWIDE BERTH REQUESTED.",
+        "cancel_date": null,
+        "valid_from": "2026-11-16T11:57:00+00:00",
+        "valid_until": null,
         "corrections": [],
         "summary": null
       }
