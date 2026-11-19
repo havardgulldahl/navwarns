@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 446/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.0843,
+      66.530096
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-19T07:09:00",
+    "raw_dtg": "190709Z NOV 26",
+    "msg_id": "NAVCO 446/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "STORE RAUHOLMEN LIGHT 66-31.81N 012-05.06E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-19T07:09:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863371,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-19T08:15:06.244135+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Store Rauholmen",
+    "norwegianchart": "61",
+    "fdv_objectid": 3041.0,
+    "message_no": "STORE RAUHOLMEN LYKT 66-31.81N 012-05.06E ER SLUKKET"
+  }
+}

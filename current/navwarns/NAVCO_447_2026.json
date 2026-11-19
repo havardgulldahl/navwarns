@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 447/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.865813,
+      59.071268
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-19T07:20:00",
+    "raw_dtg": "190720Z NOV 26",
+    "msg_id": "NAVCO 447/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "UTGÅRDSKILEN LIGHT 59-04.28N 010-51.95E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-19T07:20:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863373,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-19T08:30:05.433305+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Utgårdskilen",
+    "norwegianchart": "1",
+    "fdv_objectid": 65.0,
+    "message_no": "UTGÅRDSKILEN LYKT 59-04.28N 010-51.95E ER SLUKKET"
+  }
+}
