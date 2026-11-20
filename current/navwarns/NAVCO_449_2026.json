@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 449/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.758941,
+      68.377449
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-19T19:15:00",
+    "raw_dtg": "191915Z NOV 26",
+    "msg_id": "NAVCO 449/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "RINØY LIGHT 68-22.65N 015-45.54E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-19T19:15:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863388,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-19T20:30:07.102083+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Rinøy",
+    "norwegianchart": "69",
+    "fdv_objectid": 3351.0,
+    "message_no": "RINØY LYKT 68-22.65N 015-45.54E ER SLUKKET"
+  }
+}
