@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 452/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.453,
+      64.401678
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-20T14:16:00",
+    "raw_dtg": "201416Z NOV 26",
+    "msg_id": "NAVCO 452/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "BUHOLMRÅSA LIGHTHOUSE 64-24.10N 010-27.18E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-20T14:16:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863412,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-20T15:30:08.818142+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Buholmråsa",
+    "norwegianchart": "45",
+    "fdv_objectid": 2493.0,
+    "message_no": "BUHOLMRÅSA FYR 64-24.10N 010-27.18E ER SLUKKET"
+  }
+}
