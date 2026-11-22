@@ -1,0 +1,52 @@
+{
+  "type": "Feature",
+  "id": "NAVAREA XIX 137/26",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        5.303333,
+        67.026667
+      ],
+      [
+        7.3,
+        65.286667
+      ],
+      [
+        7.353333,
+        65.368333
+      ],
+      [
+        20.126667,
+        72.39
+      ]
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-22T06:30:00",
+    "raw_dtg": "220630Z NOV 26",
+    "msg_id": "NAVAREA XIX 137/26",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [
+      "NAVAREA XIX 133/26"
+    ],
+    "hazard_type": "general",
+    "category": "other",
+    "title": "General Warning",
+    "geometry_kind": "multipoint",
+    "radius_nm": null,
+    "body": "Navarea xix 137/26\n1. Riglist. Correct at 220520 utc nov 26\nNorwegian sea: north of 65n, east of 5w.\n\n72-23.43n 020-07.61e - transocean enabler\n67-01.65n 005-18.22e - transocean norge\n65-22.16n 007-21.28e - transocean encourage\n65-17.21n 007-18.02e - island innovator\n\nNotes:\na. Rigs are protected by a 500 metre safety zone.\nb. For rigs located south of 65n, refer to navarea i warnings or visit www.ukho.gov.uk/rnw\n2. Cancel navarea xix 133/26",
+    "cancel_date": null,
+    "valid_from": "2026-11-22T06:30:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863430,
+    "status": "active",
+    "eventclass": "NA19",
+    "updated_at": "2026-11-22T06:30:05.718179+00:00",
+    "source": "kystverket-api",
+    "summary": null
+  }
+}

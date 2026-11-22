@@ -27,36 +27,6 @@
     },
     {
       "type": "Feature",
-      "id": "DANISH NAV WARN 454/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.091666666666667,
-          55.20666666666666
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-13T08:31:00",
-        "raw_dtg": "130831Z NOV 26",
-        "msg_id": "DANISH NAV WARN 454/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[The Belts] DANISH NAV WARN 454/26\nDENMARK. GREAT BELT. VENGEANCEGRUND.\nEAST CARDINAL LIGHT BUOY NO 33 55-12.4N\n011-05.5E UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-13T08:31:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "DANISH NAV WARN 463/26",
       "geometry": {
         "type": "Point",
@@ -80,36 +50,6 @@
         "body": "[Kattegat] DANISH NAV WARN 463/26\nDENMARK. KATTEGAT. ØSTER FLAK SE.\nON 21 NOVEMBER FROM 0800 UTC TO 1200\nUTC, A FIRING EXERCISE WILL BE HELD FROM\nHDMS NYMFEN (DANISH WARSHIP P524), FROM\nPOS. 56-53.0N 011-05.0E\nLIVE ORDNANCE WILL BE USED.\nMILITARY GUARD VESSELS WILL BE PRESENT\nAND CAN BE CONTACTED ON VHF CH 16 AND\n06.\nMARINERS ARE ADVISED TO KEEP A\nSAFETY DISTANCE OF 5NM.",
         "cancel_date": null,
         "valid_from": "2026-11-20T17:00:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "DANISH NAV WARN 464/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.025,
-          55.336666666666666
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-20T18:26:00",
-        "raw_dtg": "201826Z NOV 26",
-        "msg_id": "DANISH NAV WARN 464/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[The Belts] DANISH NAV WARN 464/26\nDENMARK. GREAT BELT. OESTERRENDEN.\nSTARBOARD HAND LIGHT BUOY W27B 55-20.2N\n011-01.5E UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-20T18:26:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -161,6 +101,38 @@
         "cancel_date": null,
         "valid_from": "2026-11-15T10:04:00+00:00",
         "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ESTONIAN NAV WARN 190/26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.316666666666666,
+          59.583333333333336
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-22T08:04:00",
+        "raw_dtg": "220804Z NOV 26",
+        "msg_id": "ESTONIAN NAV WARN 190/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [
+          "251000 UTC NOV"
+        ],
+        "hazard_type": "hazardous operations",
+        "category": "military",
+        "title": "Hazardous Operations",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] ESTONIAN NAV WARN 190/26\nGULF OF FINLAND.\n250700-251000 UTC NOV.\nW OF NAISSAAR ISLAND.\nFIRING PRACTICE AREA 2A\nCENTRED 59-35.0N 024-19.0E\nFIRING EXERCISES IN PROGRESS.\nOTHER VESSELS MUST AVOID\nENTRY INTO THE AREA.\nSTANDING BY VHF CH 13 AND 61.\nCANCEL 251000 UTC NOV.",
+        "cancel_date": null,
+        "valid_from": "2026-11-22T08:04:00+00:00",
+        "valid_until": "2026-11-25T10:00:00+00:00",
         "corrections": [],
         "summary": null
       }
@@ -220,6 +192,30 @@
         "body": "[Sea of Bothnia] FINNISH NAV WARN 631/26\nSEA OF BOTHNIA\nFLOATING TIMBER IN POS 61-15N 020-46E.\nVESSELS ARE REQUESTED TO NAVIGATE WITH CAUTION.",
         "cancel_date": null,
         "valid_from": "2026-11-20T08:49:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FINNISH NAV WARN 642/26",
+      "geometry": null,
+      "properties": {
+        "dtg": "2026-11-21T14:48:00",
+        "raw_dtg": "211448Z NOV 26",
+        "msg_id": "FINNISH NAV WARN 642/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "point",
+        "radius_nm": null,
+        "body": "[Gulf of Finland] FINNISH NAV WARN 642/26\n211200 UTC OF NOV\nFINNISH NAV WARN 642/26\nSEA AREA OF LOVIISA APPROACHES IS CLOSED.\nAREA IS LIMITED TO TIISKERI LIGHT HOUSE IN NORTH EAST,\nFROM TIISKERIN LIGHT HOUSE 7NM TO THE SOUTH,\nUTGRUNDET IN SOUTHWEST,\nAND FROM UTGRUNDET 12NM NORTH.\nFURTHER INFORMATION FROM KOTKA VTS ON VHF CHANNEL 67.",
+        "cancel_date": null,
+        "valid_from": "2026-11-21T14:48:00+00:00",
         "valid_until": null,
         "corrections": [],
         "summary": null
@@ -1865,58 +1861,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVAREA XIX 133/26",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            5.303333,
-            67.026667
-          ],
-          [
-            7.3,
-            65.285
-          ],
-          [
-            7.353333,
-            65.368333
-          ],
-          [
-            20.343333,
-            72.523333
-          ]
-        ]
-      },
-      "properties": {
-        "dtg": "2026-10-31T18:30:00",
-        "raw_dtg": "311830Z OCT 26",
-        "msg_id": "NAVAREA XIX 133/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [
-          "NAVAREA XIX 129/26"
-        ],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "multipoint",
-        "radius_nm": null,
-        "body": "Navarea xix 133/26\n1. Riglist. Correct at 310632 utc oct 26\nNorwegian Sea: North of 65n, east of 5w.\n\n72-31.44n 020-20.63e - Transocean Enabler\n67-01.61n 005-18.20e - Transocean Norge\n65-22.17n 007-21.28e - Transocean Encourage\n65-17.16n 007-18.03e - Island Innovator\n\nNotes:\nA. Rigs are protected by a 500 metre safety zone.\nB. For rigs located south of 65n, refer to Navarea I warnings or visit www.ukho.gov.uk/rnw\n2. Cancel Navarea xix 129/26",
-        "cancel_date": null,
-        "valid_from": "2026-10-31T18:30:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863034,
-        "status": "active",
-        "eventclass": "NA19",
-        "updated_at": "2026-10-31T07:45:10.762249+00:00",
-        "source": "kystverket-api",
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVAREA XIX 136/26",
       "geometry": {
         "type": "Polygon",
@@ -1991,6 +1935,58 @@
         "status": "active",
         "eventclass": "NA19",
         "updated_at": "2026-11-20T15:15:05.241443+00:00",
+        "source": "kystverket-api",
+        "summary": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAVAREA XIX 137/26",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.303333,
+            67.026667
+          ],
+          [
+            7.3,
+            65.286667
+          ],
+          [
+            7.353333,
+            65.368333
+          ],
+          [
+            20.126667,
+            72.39
+          ]
+        ]
+      },
+      "properties": {
+        "dtg": "2026-11-22T06:30:00",
+        "raw_dtg": "220630Z NOV 26",
+        "msg_id": "NAVAREA XIX 137/26",
+        "year": 2026,
+        "inforce_warnings": [],
+        "cancellations": [
+          "NAVAREA XIX 133/26"
+        ],
+        "hazard_type": "general",
+        "category": "other",
+        "title": "General Warning",
+        "geometry_kind": "multipoint",
+        "radius_nm": null,
+        "body": "Navarea xix 137/26\n1. Riglist. Correct at 220520 utc nov 26\nNorwegian sea: north of 65n, east of 5w.\n\n72-23.43n 020-07.61e - transocean enabler\n67-01.65n 005-18.22e - transocean norge\n65-22.16n 007-21.28e - transocean encourage\n65-17.21n 007-18.02e - island innovator\n\nNotes:\na. Rigs are protected by a 500 metre safety zone.\nb. For rigs located south of 65n, refer to navarea i warnings or visit www.ukho.gov.uk/rnw\n2. Cancel navarea xix 133/26",
+        "cancel_date": null,
+        "valid_from": "2026-11-22T06:30:00+00:00",
+        "valid_until": null,
+        "corrections": [],
+        "geometry_source": "api-wkt",
+        "eventid": 863430,
+        "status": "active",
+        "eventclass": "NA19",
+        "updated_at": "2026-11-22T06:30:05.718179+00:00",
         "source": "kystverket-api",
         "summary": null
       }
@@ -2077,46 +2073,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 439/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.170152,
-          69.066447
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-16T07:51:00",
-        "raw_dtg": "160751Z NOV 26",
-        "msg_id": "NAVCO 439/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "ANDA LIGHTHOUSE 69-03.99N 015-10.21E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-16T07:51:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863304,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-16T09:00:09.451451+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Anda",
-        "norwegianchart": "78",
-        "fdv_objectid": 3705.0,
-        "message_no": "ANDA FYR 69-03.99N 015-10.21E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 440/2026",
       "geometry": {
         "type": "Point",
@@ -2157,46 +2113,6 @@
     },
     {
       "type": "Feature",
-      "id": "NAVCO 449/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.758941,
-          68.377449
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-19T19:15:00",
-        "raw_dtg": "191915Z NOV 26",
-        "msg_id": "NAVCO 449/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "RINØY LIGHT 68-22.65N 015-45.54E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-19T19:15:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863388,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-19T20:30:07.102083+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Rinøy",
-        "norwegianchart": "69",
-        "fdv_objectid": 3351.0,
-        "message_no": "RINØY LYKT 68-22.65N 015-45.54E ER SLUKKET"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "NAVCO 450/2026",
       "geometry": {
         "type": "Point",
@@ -2233,46 +2149,6 @@
         "norwegianchart": "25",
         "fdv_objectid": null,
         "message_no": "DYKKERARBEID I GRANESUNDET POSISJON 61-19.89N 005-03.05E I PERIODEN 200700 UTC NOV 2026 TIL 231100 UTC NOV 2026.\n\nTO ANKRE MERKET MED GULE BOYER BLIR LAGT UT I OMRAADET.\n\nFOR NAERMERE INFORMASJON KONTAKT FARTOYET NITROX PAA VHF KANAL 16 ELLER TELEFON 93834016."
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "NAVCO 452/2026",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.453,
-          64.401678
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-20T14:16:00",
-        "raw_dtg": "201416Z NOV 26",
-        "msg_id": "NAVCO 452/2026",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "aid to navigation outage",
-        "category": "navigation",
-        "title": "Aid to Navigation Outage",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "BUHOLMRÅSA LIGHTHOUSE 64-24.10N 010-27.18E IS UNLIT.",
-        "cancel_date": null,
-        "valid_from": "2026-11-20T14:16:00+00:00",
-        "valid_until": null,
-        "corrections": [],
-        "geometry_source": "api-wkt",
-        "eventid": 863412,
-        "status": "active",
-        "eventclass": "NAVCO",
-        "updated_at": "2026-11-20T15:30:08.818142+00:00",
-        "source": "kystverket-api",
-        "summary": null,
-        "location": "Buholmråsa",
-        "norwegianchart": "45",
-        "fdv_objectid": 2493.0,
-        "message_no": "BUHOLMRÅSA FYR 64-24.10N 010-27.18E ER SLUKKET"
       }
     },
     {
@@ -2565,36 +2441,6 @@
         "cancel_date": null,
         "valid_from": "2026-10-27T10:25:00+00:00",
         "valid_until": "2026-11-30T22:00:00+00:00",
-        "corrections": [],
-        "summary": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "POLISH NAV WARN 310/26",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.61,
-          54.655
-        ]
-      },
-      "properties": {
-        "dtg": "2026-11-12T09:17:00",
-        "raw_dtg": "120917Z NOV 26",
-        "msg_id": "POLISH NAV WARN 310/26",
-        "year": 2026,
-        "inforce_warnings": [],
-        "cancellations": [],
-        "hazard_type": "general",
-        "category": "other",
-        "title": "General Warning",
-        "geometry_kind": "point",
-        "radius_nm": null,
-        "body": "[Southern Baltic] POLISH NAV WARN 310/26\nSOUTHERN BALTIC. POLISH COAST\nDUE TO MILITARY EXERCISES ZONE IS CLOSED FOR SHIPPING AND FISHERY:\nFROM 2026-11-16 TO 2026-11-20 05:00 TO 22:59\nAND 2026-11-21 05:00 TO 13:00.\nS-6 CENTERED 54-39.3N 016-36.6E\nCANCEL THIS MSG 211300 UTC NOV",
-        "cancel_date": null,
-        "valid_from": "2026-11-12T09:17:00+00:00",
-        "valid_until": "2026-11-21T13:00:00+00:00",
         "corrections": [],
         "summary": null
       }
