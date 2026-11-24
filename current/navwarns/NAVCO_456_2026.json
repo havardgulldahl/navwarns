@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 456/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.666364,
+      59.049138
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-23T17:00:00",
+    "raw_dtg": "231700Z NOV 26",
+    "msg_id": "NAVCO 456/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "OMBORG, ØVRE LEADING LIGHT 59-02.95N 009-39.98E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-23T17:00:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863482,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-23T18:15:04.256178+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Omborg, øvre",
+    "norwegianchart": "5",
+    "fdv_objectid": 100000782.0,
+    "message_no": "OMBORG, ØVRE OVERETT LANTERNE 59-02.95N 009-39.98E ER SLUKKET"
+  }
+}
