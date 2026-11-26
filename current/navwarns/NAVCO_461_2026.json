@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": "NAVCO 461/2026",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      16.119538,
+      69.327707
+    ]
+  },
+  "properties": {
+    "dtg": "2026-11-26T06:46:00",
+    "raw_dtg": "260646Z NOV 26",
+    "msg_id": "NAVCO 461/2026",
+    "year": 2026,
+    "inforce_warnings": [],
+    "cancellations": [],
+    "hazard_type": "aid to navigation outage",
+    "category": "navigation",
+    "title": "Aid to Navigation Outage",
+    "geometry_kind": "point",
+    "radius_nm": null,
+    "body": "ANDENES HAMN LIGHT 69-19.66N 016-07.17E IS UNLIT.",
+    "cancel_date": null,
+    "valid_from": "2026-11-26T06:46:00+00:00",
+    "valid_until": null,
+    "corrections": [],
+    "geometry_source": "api-wkt",
+    "eventid": 863601,
+    "status": "active",
+    "eventclass": "NAVCO",
+    "updated_at": "2026-11-26T08:00:49.034641+00:00",
+    "source": "kystverket-api",
+    "summary": null,
+    "location": "Andenes hamn",
+    "norwegianchart": "81",
+    "fdv_objectid": 3859.0,
+    "message_no": "ANDENES HAMN LYKT 69-19.66N 016-07.17E ER SLUKKET"
+  }
+}
